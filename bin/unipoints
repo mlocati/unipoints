@@ -1,0 +1,144 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+use MLUnipoints\Block;
+use MLUnipoints\Build\BlocksBuilder;
+use MLUnipoints\Build\CodepointsBuilder;
+use MLUnipoints\Build\DataStorage;
+use MLUnipoints\Build\UserMessageException;
+use MLUnipoints\Codepoint;
+use MLUnipoints\Info\UnicodeInfo;
+
+const DEFAULT_VERSION = '15.1.0';
+
+set_error_handler(
+    static function ($errno, $errstr, $file = '', $line = null) {
+        $lines = [];
+        $errstr = trim((string) $errstr);
+        if ($errstr !== '') {
+            $lines[] = $errstr;
+        }
+        $lines[] = "Error code: {$errno}";
+        if ($file) {
+            $lines[] = "File: {$file}";
+            if ($line) {
+                $lines[] = "Line: {$line}";
+            }
+        }
+        throw new RuntimeException(implode("\n", $lines));
+    },
+    -1
+);
+
+foreach ([__DIR__ . '/../../../autoload.php', __DIR__ . '/../../vendor/autoload.php', __DIR__ . '/../vendor/autoload.php'] as $file) {
+    if (file_exists($file)) {
+        require_once $file;
+        break;
+    }
+}
+
+function showSyntax(string $name): void
+{
+    $defaultVersion = DEFAULT_VERSION;
+    echo <<<EOT
+Syntax {$name} <-h|--help|installed|latest|build [version]>
+
+Where:
+- installed: print the Unicode version used to build the data in this project
+- latest: print the latest version of Unicode
+- build [version]: (re) build the data in this project.
+  If [version] is not specified, we'll install version {$defaultVersion}
+EOT
+    ;
+}
+
+function showInstalledUnicodeVersion(): int
+{
+    if (!enum_exists(Block::class)) {
+        echo sprintf("The %s enum has not been created yet.\n", Block::class);
+        return 1;
+    }
+    $versionFromBlocks = UnicodeInfo::from(Block::class)->unicodeVersion;
+    if (!enum_exists(Codepoint::class)) {
+        echo sprintf("The %s enum has not been created yet.\n", Codepoint::class);
+        return 1;
+    }
+    $versionFromCodepoints = UnicodeInfo::from(Codepoint::class)->unicodeVersion;
+    if (!enum_exists(Codepoint::class)) {
+        echo sprintf("The %s enum has not been created yet.\n", Codepoint::class);
+        return 1;
+    }
+    if ($versionFromBlocks !== $versionFromCodepoints) {
+        echo sprintf("The version extracted from %s (%s) is different from the one extracted from %s (%s).\n", Block::class, $versionFromBlocks, Codepoint::class, $versionFromCodepoints);
+        return 1;
+    }
+    echo $versionFromBlocks, "\n";
+
+    return 0;
+}
+
+function getLatestUnicodeVersion(): int
+{
+    $dataStorage = DataStorage::getInstance();
+    echo $dataStorage->getLatestVersion(), "\n";
+
+    return 0;
+}
+
+function build(string $unicodeVersion): int
+{
+    echo "Building data from Unicode v{$unicodeVersion}\n";
+    echo 'Building blocks... ';
+    $blocksBuilder = new BlocksBuilder(unicodeVersion: $unicodeVersion);
+    $blocksBuilder->saveBlocks();
+    echo "done.\n";
+    echo 'Building codepoints... ';
+    $codepointsBuilder = new CodepointsBuilder(unicodeVersion: $unicodeVersion, blocksBuilder: $blocksBuilder);
+    $codepointsBuilder->saveAllCodepoints();
+    echo "done.\n";
+
+    return 0;
+}
+
+function main(array $args): int
+{
+    if (array_intersect(['-h', '--help'], $args) !== []) {
+        showSyntax($args[0]);
+        return 0;
+    }
+    $numArgs = count($args);
+    switch ($args[1] ?? '') {
+        case 'installed':
+            if ($numArgs !== 2) {
+                showSyntax($args[0]);
+                return 1;
+            }
+            return showInstalledUnicodeVersion();
+        case 'latest':
+            if ($numArgs !== 2) {
+                showSyntax($args[0]);
+                return 1;
+            }
+            return getLatestUnicodeVersion();
+        case 'build':
+            switch ($numArgs) {
+                case 2:
+                    return build(DEFAULT_VERSION);
+                case 3:
+                    return build($args[2]);
+            }
+            showSyntax($args[0]);
+            return 1;
+    }
+    showSyntax($args[0]);
+    return 1;
+}
+
+try {
+    return main($argv);
+} catch (UserMessageException $x) {
+    echo trim($x->getMessage()), "\n";
+    return 1;
+}
