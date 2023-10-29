@@ -23,7 +23,7 @@ Examples:
 
 ### Planes
 
-Planes are blocks of 65,536 continguous codepoints and may contain zero, one or many blocks.
+Planes are blocks of 65,536 contiguous codepoints and may contain zero, one or many blocks.
 
 ### General Category
 
