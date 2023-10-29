@@ -37,7 +37,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Check PHP coding style
         if: startsWith(matrix.os, 'ubuntu') && matrix.php-version == '8.2'
-        run: composer run-script phpcs -- --ansi --no-interaction --dry-run --diff
+        run: composer run-script --ansi --no-interaction phpcs -- --dry-run --diff
       - name: Install Composer dependencies
         run: composer update --optimize-autoloader --no-progress --ansi --no-interaction
       - name: Build
