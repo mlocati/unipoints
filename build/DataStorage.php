@@ -60,7 +60,7 @@ class DataStorage
     /**
      * @throws \RuntimeException
      *
-     * @return string[]
+     * @return \Generator<string>
      */
     public function readBlocks(string $version): Generator
     {
@@ -70,7 +70,7 @@ class DataStorage
     /**
      * @throws \RuntimeException
      *
-     * @return string[]
+     * @return \Generator<string>
      */
     public function readUnicodeData(string $version): Generator
     {
@@ -80,7 +80,7 @@ class DataStorage
     /**
      * @throws \RuntimeException
      *
-     * @return string[]
+     * @return \Generator<string>
      */
     public function readNamesList(string $version, bool $skipComments = true): Generator
     {
@@ -90,7 +90,7 @@ class DataStorage
     /**
      * @throws \RuntimeException
      *
-     * @return string[]
+     * @return \Generator<string>
      */
     public function readNameAliases(string $version, bool $skipComments = true): Generator
     {
