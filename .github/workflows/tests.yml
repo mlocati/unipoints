@@ -28,7 +28,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - name: Setup PHP
-        uses: shivammathur/setup-php@v2
+        uses: shivammathur/setup-php@2.25.5
         with:
           php-version: ${{ matrix.php-version }}
           tools: php-cs-fixer:v3, composer:v2
