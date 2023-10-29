@@ -25,6 +25,10 @@ jobs:
           - "8.1"
           - "8.2"
           - "8.3"
+        include:
+          - os: ubuntu-latest
+            php: "8.2"
+            check-cs: true
     runs-on: ${{ matrix.os }}
     steps:
       - name: Setup PHP
@@ -47,7 +51,7 @@ jobs:
             exit 1
           fi
       - name: Check PHP coding style
-        if: startsWith(matrix.os, 'ubuntu') && matrix.php-version == '8.2'
+        if: matrix.check-cs
         run: composer run-script phpcs -- --ansi --no-interaction --dry-run --diff
       - name: PHPUnit
         run: composer run-script test -- --colors=always
