@@ -44,18 +44,3 @@ jobs:
         run: composer run-script phpcs -- --ansi --no-interaction --dry-run --diff
       - name: PHPUnit
         run: composer run-script test -- --colors=always
-      - name: Check changes
-        id: check-changes
-        if: startsWith(matrix.os, 'ubuntu') && matrix.php-version == '8.2' && github.repository == 'mlocati/unipoints' && github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: |
-          if ! git diff --exit-code --name-status; then
-            echo "commit=yes" >>"$GITHUB_OUTPUT"
-          fi
-      - name: Push changes
-        if: steps.check-changes.outputs.commit == 'yes'
-        run: |
-          git config user.name 'Michele Locati'
-          git config user.email 'michele@locati.it'
-          git add --all
-          git commit -m 'Automatic update built assets'
-          git push
