@@ -25,6 +25,8 @@ jobs:
           - "8.1"
           - "8.2"
           - "8.3"
+        check-cs:
+          - false
         include:
           - os: ubuntu-latest
             php: "8.2"
