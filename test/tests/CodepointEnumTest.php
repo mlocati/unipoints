@@ -7,6 +7,7 @@ namespace MLUnipoints\Test;
 use BackedEnum;
 use Generator;
 use MLUnipoints\Block;
+use MLUnipoints\Category;
 use MLUnipoints\Codepoint;
 use MLUnipoints\Info\CategoryInfo;
 use MLUnipoints\Info\CodepointInfo;
@@ -85,7 +86,9 @@ final class CodepointEnumTest extends TestCase
         $this->assertEquals($info, $caseAttributes[0]->newInstance());
         $this->assertGreaterThanOrEqual(0, $info->id);
         $this->assertNotSame('', $info->name);
-        $this->assertSame(1, mb_strlen($case->value), "mb_strlen of codepoint {$info->id} ('{$case->value}')");
+        if ($info->category !== Category::Surrogate) {
+            $this->assertSame(1, mb_strlen($case->value), "mb_strlen of codepoint {$info->id} ('{$case->value}')");
+        }
         $categoryInfo = CategoryInfo::from($info->category);
         $this->assertSame([], $categoryInfo->childCategories);
         if ($block === null) {
