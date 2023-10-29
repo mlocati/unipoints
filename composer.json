@@ -1,14 +1,8 @@
 {
-    "$schema": "https://raw.githubusercontent.com/composer/composer/main/res/composer-schema.json",
     "name": "mlocati/unipoints",
+    "description": "A Unicode Codepoint library for PHP",
     "license": "MIT",
     "type": "library",
-    "authors": [
-        {
-            "name": "Michele Locati",
-            "email": "michele@locati.it"
-        }
-    ],
     "keywords": [
         "unicode",
         "characters",
@@ -16,7 +10,18 @@
         "emoji",
         "codepoint"
     ],
-    "description": "A Unicode Codepoint library for PHP",
+    "authors": [
+        {
+            "name": "Michele Locati",
+            "email": "michele@locati.it"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
@@ -30,19 +35,14 @@
             "MLUnipoints\\Test\\Service\\": "test/service"
         }
     },
-    "require": {
-        "php": "^8.1"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.6"
-    },
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages" : true
+        "sort-packages": true
     },
     "scripts": {
         "phpcs": "php-cs-fixer --path-mode=intersection --config=./.php-cs-fixer.php fix .",
         "test": "phpunit --verbose"
-    }
+    },
+    "$schema": "https://raw.githubusercontent.com/composer/composer/main/res/composer-schema.json"
 }
