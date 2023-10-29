@@ -42,5 +42,7 @@ jobs:
         run: composer update --optimize-autoloader --no-progress --ansi --no-interaction
       - name: Build
         run: ./bin/unipoints build
+      - name: Compare results to the respository
+        run: git diff --exit-code
       - name: PHPUnit
         run: composer run-script test -- --colors=always
