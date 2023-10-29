@@ -157,6 +157,10 @@ function main(array $args): int
 }
 
 try {
+    mb_regex_encoding('UTF-8');
+    ini_set('mbstring.script_encoding', 'pass');
+    mb_internal_encoding('UTF-8');
+    mb_substitute_character('none');
     $exitStatus = main($argv);
 } catch (UserMessageException $x) {
     echo trim($x->getMessage()), "\n";
