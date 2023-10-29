@@ -12,52 +12,64 @@ use ReflectionEnumBackedCase;
 
 final class CategoryEnumTest extends TestCase
 {
-    private static ReflectionEnum $categoryClass;
-    /** @var \MLUnipoints\Category[] */
-    private static array $categories;
-
-
-    /**
-     * {@inheritdoc}
-     *
-     * @see \PHPUnit\Framework\TestCase::setUpBeforeClass()
-     */
-    public static function setUpBeforeClass(): void
+    public static function provideEnumCases(): array
     {
-        self::$categoryClass ??= new ReflectionEnum(Category::class);
-        self::$categories ??= array_map(
-            static fn(ReflectionEnumBackedCase $case): Category => $case->getValue(),
-            self::$categoryClass->getCases()
-        );
-    }
-
-    public static function provideCategories(): array
-    {
-        self::setUpBeforeClass();
-
+        $categoryClass = new ReflectionEnum(Category::class);
         return array_map(
-            static fn(Category $category): array => [$category],
-            self::$categories
+            static fn(ReflectionEnumBackedCase $value): array => [$value->getValue()],
+            $categoryClass->getCases()
         );
     }
 
-    private static function initialize(): void {}
     public function testEnumType(): void
     {
-        $type = self::$categoryClass->getBackingType();
+        $categoryClass = new ReflectionEnum(Category::class);
+        $type = $categoryClass->getBackingType();
         $this->assertNotNull($type);
         $this->assertTrue($type->isBuiltin());
         $this->assertSame('string', $type->getName());
     }
 
+    public function testEnumeratedCases(): void
+    {
+        $casesList = self::provideEnumCases();
+        $this->assertGreaterThan(0, count($casesList));
+    }
+
     /**
-     * @dataProvider provideCategories
+     * @dataProvider provideEnumCases
+     */
+    public function testEnumNamesAndValues(Category $case): void
+    {
+        $this->assertMatchesRegularExpression('/^[A-Za-z]{1,2}$/', $case->value);
+    }
+
+    /**
+     * @dataProvider provideEnumCases
+     */
+    public function testInfo(Category $case): void
+    {
+        $info = CategoryInfo::from($case);
+        $this->assertInstanceOf(CategoryInfo::class, $info);
+        $caseReflection = new ReflectionEnumBackedCase($case, $case->name);
+        $caseAttributes = $caseReflection->getAttributes(CategoryInfo::class);
+        $this->assertCount(1, $caseAttributes);
+        $this->assertEquals($info, $caseAttributes[0]->newInstance());
+        $this->assertNotSame('', $info->description);
+    }
+
+    /**
+     * @dataProvider provideEnumCases
      */
     public function testChildrenFromParent(Category $category): void
     {
         $childCategories = CategoryInfo::from($category)->childCategories;
         if ($childCategories === []) {
-            foreach (self::$categories as $case) {
+            $allCategories = array_map(
+                static fn(array $args): Category => $args[0],
+                self::provideEnumCases()
+            );
+            foreach ($allCategories as $case) {
                 $this->assertNotContains($category, CategoryInfo::from($case)->parentCategories);
             }
         } else {
@@ -70,13 +82,17 @@ final class CategoryEnumTest extends TestCase
     }
 
     /**
-     * @dataProvider provideCategories
+     * @dataProvider provideEnumCases
      */
     public function testParentsFromChild(Category $category): void
     {
         $parentCategories = CategoryInfo::from($category)->parentCategories;
         if ($parentCategories === []) {
-            foreach (self::$categories as $case) {
+            $allCategories = array_map(
+                static fn(array $args): Category => $args[0],
+                self::provideEnumCases()
+            );
+            foreach ($allCategories as $case) {
                 $this->assertNotContains($category, CategoryInfo::from($case)->childCategories);
             }
         } else {
