@@ -41,7 +41,7 @@ final class CategoryEnumTest extends TestCase
         );
     }
 
-    private static function inizialize(): void {}
+    private static function initialize(): void {}
     public function testEnumType(): void
     {
         $type = self::$categoryClass->getBackingType();
