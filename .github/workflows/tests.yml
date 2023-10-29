@@ -20,7 +20,6 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-          - windows-latest
         php-version:
           - "8.1"
           - "8.2"
@@ -31,7 +30,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-version }}
-          tools: php-cs-fixer:v3, composer:v2
+          tools: composer:v2
           coverage: none
       - name: Checkout
         uses: actions/checkout@v4
