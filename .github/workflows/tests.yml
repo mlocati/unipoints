@@ -39,6 +39,13 @@ jobs:
         run: composer update --optimize-autoloader --no-progress --ansi --no-interaction
       - name: Build
         run: ./bin/unipoints build
+      - name: Check built assets
+        if: startsWith(matrix.os, 'windows') == false
+        run: |
+          if ! git diff --exit-code --name-status; then
+            printf '\n\nPLEASE RUN\n\nbin/unipoints build\n'
+            exit 1
+          fi
       - name: Check PHP coding style
         if: startsWith(matrix.os, 'ubuntu') && matrix.php-version == '8.2'
         run: composer run-script phpcs -- --ansi --no-interaction --dry-run --diff
