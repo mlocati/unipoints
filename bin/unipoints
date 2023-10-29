@@ -43,47 +43,62 @@ function showSyntax(string $name): void
 {
     $defaultVersion = DEFAULT_VERSION;
     echo <<<EOT
-Syntax {$name} <-h|--help|installed|latest|build [version]>
+Syntax {$name} <-h|--help|installed|latest|check-newer|build [version]>
 
 Where:
 - installed: print the Unicode version used to build the data in this project
 - latest: print the latest version of Unicode
+- check-newer: check if the latest Unicode version is greater than the installed one
 - build [version]: (re) build the data in this project.
   If [version] is not specified, we'll install version {$defaultVersion}
+
 EOT
     ;
 }
 
-function showInstalledUnicodeVersion(): int
+function getInstalledUnicodeVersion(): string
 {
     if (!enum_exists(Block::class)) {
-        printf("The %s enum has not been created yet.\n", Block::class);
-        return 1;
+        throw new UserMessageException(sprintf("The %s enum has not been created yet.\n", Block::class));
     }
     $versionFromBlocks = UnicodeInfo::from(Block::class)->unicodeVersion;
     if (!enum_exists(Codepoint::class)) {
-        printf("The %s enum has not been created yet.\n", Codepoint::class);
-        return 1;
+        throw new UserMessageException(sprintf("The %s enum has not been created yet.\n", Codepoint::class));
     }
     $versionFromCodepoints = UnicodeInfo::from(Codepoint::class)->unicodeVersion;
-    if (!enum_exists(Codepoint::class)) {
-        printf("The %s enum has not been created yet.\n", Codepoint::class);
-        return 1;
-    }
     if ($versionFromBlocks !== $versionFromCodepoints) {
-        printf("The version extracted from %s (%s) is different from the one extracted from %s (%s).\n", Block::class, $versionFromBlocks, Codepoint::class, $versionFromCodepoints);
-        return 1;
+        throw new UserMessageException(sprintf("The version extracted from %s (%s) is different from the one extracted from %s (%s).\n", Block::class, $versionFromBlocks, Codepoint::class, $versionFromCodepoints));
     }
-    echo $versionFromBlocks, "\n";
+    return $versionFromBlocks;
+}
 
+function showInstalledUnicodeVersion(): int
+{
+    echo getInstalledUnicodeVersion(), "\n";
     return 0;
 }
 
-function getLatestUnicodeVersion(): int
+function getLatestUnicodeVersion(): string
 {
     $dataStorage = DataStorage::getInstance();
-    echo $dataStorage->getLatestVersion(), "\n";
+    return $dataStorage->getLatestVersion();
+}
 
+function showLatestUnicodeVersion(): int
+{
+    echo getLatestUnicodeVersion(), "\n";
+    return 0;
+}
+
+function checkNewerUnicodeVersion(): int
+{
+    $installed = getInstalledUnicodeVersion();
+    $latest = getLatestUnicodeVersion();
+    if (version_compare($installed, $latest) >= 0) {
+        echo "The latest Unicode version ({$latest}) is not newer than the installed one ({$installed}).\n";
+        return 1;
+    }
+    echo "The latest Unicode version ({$latest}) is newer than the installed one ({$installed}).\n";
     return 0;
 }
 
@@ -98,7 +113,6 @@ function build(string $unicodeVersion): int
     $codepointsBuilder = new CodepointsBuilder(unicodeVersion: $unicodeVersion, blocksBuilder: $blocksBuilder);
     $codepointsBuilder->saveAllCodepoints();
     echo "done.\n";
-
     return 0;
 }
 
@@ -121,7 +135,13 @@ function main(array $args): int
                 showSyntax($args[0]);
                 return 1;
             }
-            return getLatestUnicodeVersion();
+            return showLatestUnicodeVersion();
+        case 'check-newer':
+            if ($numArgs !== 2) {
+                showSyntax($args[0]);
+                return 1;
+            }
+            return checkNewerUnicodeVersion();
         case 'build':
             switch ($numArgs) {
                 case 2:
@@ -137,8 +157,10 @@ function main(array $args): int
 }
 
 try {
-    return main($argv);
+    $rc = main($argv);
 } catch (UserMessageException $x) {
     echo trim($x->getMessage()), "\n";
-    return 1;
+    $rc = 1;
 }
+
+exit($rc);
