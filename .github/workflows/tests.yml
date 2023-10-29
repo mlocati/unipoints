@@ -34,6 +34,9 @@ jobs:
           coverage: none
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Test annotations
+        run: |
+          echo "::error file=bin/unipoints::PLEASE RUN bin/unipoints build"
       - name: Install Composer dependencies
         run: composer update --prefer-lowest --optimize-autoloader --no-progress --ansi --no-interaction
       - name: Build
