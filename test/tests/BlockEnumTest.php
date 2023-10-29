@@ -59,6 +59,7 @@ final class BlockEnumTest extends TestCase
             }
         }
     }
+
     /**
      * @dataProvider provideEnumCases
      */
