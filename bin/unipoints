@@ -160,7 +160,7 @@ try {
     $exitStatus = main($argv);
 } catch (UserMessageException $x) {
     echo trim($x->getMessage()), "\n";
-    $rc = exitStatus;
+    $exitStatus = 1;
 }
 
 exit($exitStatus);
