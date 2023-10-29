@@ -57,21 +57,21 @@ EOT
 function showInstalledUnicodeVersion(): int
 {
     if (!enum_exists(Block::class)) {
-        echo sprintf("The %s enum has not been created yet.\n", Block::class);
+        printf("The %s enum has not been created yet.\n", Block::class);
         return 1;
     }
     $versionFromBlocks = UnicodeInfo::from(Block::class)->unicodeVersion;
     if (!enum_exists(Codepoint::class)) {
-        echo sprintf("The %s enum has not been created yet.\n", Codepoint::class);
+        printf("The %s enum has not been created yet.\n", Codepoint::class);
         return 1;
     }
     $versionFromCodepoints = UnicodeInfo::from(Codepoint::class)->unicodeVersion;
     if (!enum_exists(Codepoint::class)) {
-        echo sprintf("The %s enum has not been created yet.\n", Codepoint::class);
+        printf("The %s enum has not been created yet.\n", Codepoint::class);
         return 1;
     }
     if ($versionFromBlocks !== $versionFromCodepoints) {
-        echo sprintf("The version extracted from %s (%s) is different from the one extracted from %s (%s).\n", Block::class, $versionFromBlocks, Codepoint::class, $versionFromCodepoints);
+        printf("The version extracted from %s (%s) is different from the one extracted from %s (%s).\n", Block::class, $versionFromBlocks, Codepoint::class, $versionFromCodepoints);
         return 1;
     }
     echo $versionFromBlocks, "\n";
