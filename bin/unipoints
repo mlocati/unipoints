@@ -157,10 +157,10 @@ function main(array $args): int
 }
 
 try {
-    $rc = main($argv);
+    $exitStatus = main($argv);
 } catch (UserMessageException $x) {
     echo trim($x->getMessage()), "\n";
-    $rc = 1;
+    $exitStatus = 1;
 }
 
-exit($rc);
+exit($exitStatus);
