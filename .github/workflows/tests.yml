@@ -27,15 +27,15 @@ jobs:
           - "8.3"
         include:
           - os: ubuntu-latest
-            php: "8.2"
-            check-cs: "true"
+            php-version: "8.2"
+            check-cs: true
     runs-on: ${{ matrix.os }}
     steps:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-version }}
-          tools: php-cs-fixer:v3, composer:v2
+          tools: ${{ matrix.check-cs && 'php-cs-fixer:v3,' || '' }} composer:v2
           coverage: none
       - name: Checkout
         uses: actions/checkout@v4
@@ -44,14 +44,14 @@ jobs:
       - name: Build
         run: ./bin/unipoints build
       - name: Check built assets
-        if: startsWith(matrix.os, 'windows') == false
+        if: ${{ startsWith(matrix.os, 'windows') == false }}
         run: |
           if ! git diff --exit-code --name-status; then
             echo "::error file=$(git diff --name-status | head -n1)::PLEASE RUN bin/unipoints build"
             exit 1
           fi
       - name: Check PHP coding style
-        if: matrix.check-cs == 'true'
+        if: ${{ matrix.check-cs }}
         run: composer run-script phpcs -- --ansi --no-interaction --dry-run --diff
       - name: PHPUnit
         run: composer run-script test -- --colors=always
