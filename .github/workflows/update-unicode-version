@@ -1,0 +1,59 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+set_error_handler(
+    static function ($errno, $errstr, $file = '', $line = null) {
+        $lines = [];
+        $errstr = trim((string) $errstr);
+        if ($errstr !== '') {
+            $lines[] = $errstr;
+        }
+        $lines[] = "Error code: {$errno}";
+        if ($file) {
+            $lines[] = "File: {$file}";
+            if ($line) {
+                $lines[] = "Line: {$line}";
+            }
+        }
+        throw new RuntimeException(implode("\n", $lines));
+    },
+    -1
+);
+
+if ($argc !== 2 || ($newVersion = trim($argv[1])) === '') {
+    echo "Invalid syntax.\n";
+    exit(1);
+}
+
+$file = realpath(__DIR__ . '/../../bin/unipoints');
+if ($file === false) {
+    echo "Unable to find the bin file.\n";
+    exit(1);
+}
+$oldContent = file_get_contents($file);
+if ($oldContent === false) {
+    echo "Unable to read the bin file.\n";
+    exit(1);
+}
+$match = null;
+if (!preg_match('/(?<line>\nconst DEFAULT_VERSION = (?<oldVersion>(["\']).*\\3);\n)/', $oldContent, $match)) {
+    echo "Unable to find the default version in bin file.\n";
+    exit(1);
+}
+$oldLine = $match['line'];
+$oldVersion = eval("return {$match['oldVersion']};");
+$newLine = str_replace($match['oldVersion'], var_export($newVersion, true), $oldLine);
+if ($newLine === $oldLine) {
+    echo "Version not changed.\n";
+    exit(1);
+}
+$newContent = str_replace($oldLine, $newLine, $oldContent);
+if (file_put_contents($file, $newContent) !== strlen($newContent)) {
+    echo "Unable to write the bin file.\n";
+    exit(1);
+}
+
+echo "Version updated from {$oldVersion} to {$newVersion}.\n";
+exit(0);
