@@ -49,16 +49,16 @@ enum Playing_Cards: string
     #[Info(id: 0x1F0AA, name: 'PLAYING CARD TEN OF SPADES', category: Cat::Other_Symbol)]
     case PLAYING_CARD_TEN_OF_SPADES = "\u{1F0AA}";
 
-    #[Info(id: 0x1F0AB, name: 'PLAYING CARD JACK OF SPADES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F0AB, name: 'PLAYING CARD JACK OF SPADES', category: Cat::Other_Symbol, informativeAliases: ['valet, Bube, Unter, Page, fante', 'page of swords'])]
     case PLAYING_CARD_JACK_OF_SPADES = "\u{1F0AB}";
 
-    #[Info(id: 0x1F0AC, name: 'PLAYING CARD KNIGHT OF SPADES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F0AC, name: 'PLAYING CARD KNIGHT OF SPADES', category: Cat::Other_Symbol, informativeAliases: ['chevalier, Ober, Ritter, cavall, cavaliere', 'knight of swords'])]
     case PLAYING_CARD_KNIGHT_OF_SPADES = "\u{1F0AC}";
 
-    #[Info(id: 0x1F0AD, name: 'PLAYING CARD QUEEN OF SPADES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F0AD, name: 'PLAYING CARD QUEEN OF SPADES', category: Cat::Other_Symbol, informativeAliases: ['dame, Dame, Königin, regina', 'queen of swords'])]
     case PLAYING_CARD_QUEEN_OF_SPADES = "\u{1F0AD}";
 
-    #[Info(id: 0x1F0AE, name: 'PLAYING CARD KING OF SPADES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F0AE, name: 'PLAYING CARD KING OF SPADES', category: Cat::Other_Symbol, informativeAliases: ['roi, König, re', 'king of swords'])]
     case PLAYING_CARD_KING_OF_SPADES = "\u{1F0AE}";
 
     #[Info(id: 0x1F0B1, name: 'PLAYING CARD ACE OF HEARTS', category: Cat::Other_Symbol)]

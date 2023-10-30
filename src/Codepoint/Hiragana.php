@@ -82,10 +82,10 @@ enum Hiragana: string
     #[Info(id: 0x3056, name: 'HIRAGANA LETTER ZA', category: Cat::Other_Letter)]
     case HIRAGANA_LETTER_ZA = "\u{3056}";
 
-    #[Info(id: 0x3057, name: 'HIRAGANA LETTER SI', category: Cat::Other_Letter)]
+    #[Info(id: 0x3057, name: 'HIRAGANA LETTER SI', category: Cat::Other_Letter, informativeAliases: ['SHI'])]
     case HIRAGANA_LETTER_SI = "\u{3057}";
 
-    #[Info(id: 0x3058, name: 'HIRAGANA LETTER ZI', category: Cat::Other_Letter)]
+    #[Info(id: 0x3058, name: 'HIRAGANA LETTER ZI', category: Cat::Other_Letter, informativeAliases: ['JI (not unique)'])]
     case HIRAGANA_LETTER_ZI = "\u{3058}";
 
     #[Info(id: 0x3059, name: 'HIRAGANA LETTER SU', category: Cat::Other_Letter)]
@@ -112,19 +112,19 @@ enum Hiragana: string
     #[Info(id: 0x3060, name: 'HIRAGANA LETTER DA', category: Cat::Other_Letter)]
     case HIRAGANA_LETTER_DA = "\u{3060}";
 
-    #[Info(id: 0x3061, name: 'HIRAGANA LETTER TI', category: Cat::Other_Letter)]
+    #[Info(id: 0x3061, name: 'HIRAGANA LETTER TI', category: Cat::Other_Letter, informativeAliases: ['CHI'])]
     case HIRAGANA_LETTER_TI = "\u{3061}";
 
-    #[Info(id: 0x3062, name: 'HIRAGANA LETTER DI', category: Cat::Other_Letter)]
+    #[Info(id: 0x3062, name: 'HIRAGANA LETTER DI', category: Cat::Other_Letter, informativeAliases: ['JI (not unique)'])]
     case HIRAGANA_LETTER_DI = "\u{3062}";
 
-    #[Info(id: 0x3063, name: 'HIRAGANA LETTER SMALL TU', category: Cat::Other_Letter)]
+    #[Info(id: 0x3063, name: 'HIRAGANA LETTER SMALL TU', category: Cat::Other_Letter, informativeAliases: ['SMALL TSU'])]
     case HIRAGANA_LETTER_SMALL_TU = "\u{3063}";
 
-    #[Info(id: 0x3064, name: 'HIRAGANA LETTER TU', category: Cat::Other_Letter)]
+    #[Info(id: 0x3064, name: 'HIRAGANA LETTER TU', category: Cat::Other_Letter, informativeAliases: ['TSU'])]
     case HIRAGANA_LETTER_TU = "\u{3064}";
 
-    #[Info(id: 0x3065, name: 'HIRAGANA LETTER DU', category: Cat::Other_Letter)]
+    #[Info(id: 0x3065, name: 'HIRAGANA LETTER DU', category: Cat::Other_Letter, informativeAliases: ['ZU (not unique)'])]
     case HIRAGANA_LETTER_DU = "\u{3065}";
 
     #[Info(id: 0x3066, name: 'HIRAGANA LETTER TE', category: Cat::Other_Letter)]
@@ -172,7 +172,7 @@ enum Hiragana: string
     #[Info(id: 0x3074, name: 'HIRAGANA LETTER PI', category: Cat::Other_Letter)]
     case HIRAGANA_LETTER_PI = "\u{3074}";
 
-    #[Info(id: 0x3075, name: 'HIRAGANA LETTER HU', category: Cat::Other_Letter)]
+    #[Info(id: 0x3075, name: 'HIRAGANA LETTER HU', category: Cat::Other_Letter, informativeAliases: ['FU'])]
     case HIRAGANA_LETTER_HU = "\u{3075}";
 
     #[Info(id: 0x3076, name: 'HIRAGANA LETTER BU', category: Cat::Other_Letter)]
@@ -274,10 +274,10 @@ enum Hiragana: string
     #[Info(id: 0x3096, name: 'HIRAGANA LETTER SMALL KE', category: Cat::Other_Letter)]
     case HIRAGANA_LETTER_SMALL_KE = "\u{3096}";
 
-    #[Info(id: 0x3099, name: 'COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x3099, name: 'COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING KATAKANA-HIRAGANA VOICED SOUND MARK')]
     case COMBINING_KATAKANA_HIRAGANA_VOICED_SOUND_MARK = "\u{3099}";
 
-    #[Info(id: 0x309A, name: 'COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x309A, name: 'COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK')]
     case COMBINING_KATAKANA_HIRAGANA_SEMI_VOICED_SOUND_MARK = "\u{309A}";
 
     #[Info(id: 0x309B, name: 'KATAKANA-HIRAGANA VOICED SOUND MARK', category: Cat::Modifier_Symbol)]

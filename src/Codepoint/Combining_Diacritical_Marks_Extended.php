@@ -82,7 +82,7 @@ enum Combining_Diacritical_Marks_Extended: string
     #[Info(id: 0x1AC5, name: 'COMBINING SQUARE BRACKETS ABOVE', category: Cat::Nonspacing_Mark)]
     case COMBINING_SQUARE_BRACKETS_ABOVE = "\u{1AC5}";
 
-    #[Info(id: 0x1AC6, name: 'COMBINING NUMBER SIGN ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1AC6, name: 'COMBINING NUMBER SIGN ABOVE', category: Cat::Nonspacing_Mark, informativeAliases: ['superscript octothorp'])]
     case COMBINING_NUMBER_SIGN_ABOVE = "\u{1AC6}";
 
     #[Info(id: 0x1AC7, name: 'COMBINING INVERTED DOUBLE ARCH ABOVE', category: Cat::Nonspacing_Mark)]

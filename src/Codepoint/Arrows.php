@@ -16,91 +16,91 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Arrows: string
 {
-    #[Info(id: 0x2190, name: 'LEFTWARDS ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2190, name: 'LEFTWARDS ARROW', category: Cat::Math_Symbol, unicode1Name: 'LEFT ARROW')]
     case LEFTWARDS_ARROW = "\u{2190}";
 
-    #[Info(id: 0x2191, name: 'UPWARDS ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2191, name: 'UPWARDS ARROW', category: Cat::Math_Symbol, unicode1Name: 'UP ARROW')]
     case UPWARDS_ARROW = "\u{2191}";
 
-    #[Info(id: 0x2192, name: 'RIGHTWARDS ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2192, name: 'RIGHTWARDS ARROW', category: Cat::Math_Symbol, unicode1Name: 'RIGHT ARROW', informativeAliases: ['z notation total function'])]
     case RIGHTWARDS_ARROW = "\u{2192}";
 
-    #[Info(id: 0x2193, name: 'DOWNWARDS ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2193, name: 'DOWNWARDS ARROW', category: Cat::Math_Symbol, unicode1Name: 'DOWN ARROW')]
     case DOWNWARDS_ARROW = "\u{2193}";
 
-    #[Info(id: 0x2194, name: 'LEFT RIGHT ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2194, name: 'LEFT RIGHT ARROW', category: Cat::Math_Symbol, informativeAliases: ['z notation relation'])]
     case LEFT_RIGHT_ARROW = "\u{2194}";
 
     #[Info(id: 0x2195, name: 'UP DOWN ARROW', category: Cat::Other_Symbol)]
     case UP_DOWN_ARROW = "\u{2195}";
 
-    #[Info(id: 0x2196, name: 'NORTH WEST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2196, name: 'NORTH WEST ARROW', category: Cat::Other_Symbol, unicode1Name: 'UPPER LEFT ARROW')]
     case NORTH_WEST_ARROW = "\u{2196}";
 
-    #[Info(id: 0x2197, name: 'NORTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2197, name: 'NORTH EAST ARROW', category: Cat::Other_Symbol, unicode1Name: 'UPPER RIGHT ARROW')]
     case NORTH_EAST_ARROW = "\u{2197}";
 
-    #[Info(id: 0x2198, name: 'SOUTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2198, name: 'SOUTH EAST ARROW', category: Cat::Other_Symbol, unicode1Name: 'LOWER RIGHT ARROW')]
     case SOUTH_EAST_ARROW = "\u{2198}";
 
-    #[Info(id: 0x2199, name: 'SOUTH WEST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2199, name: 'SOUTH WEST ARROW', category: Cat::Other_Symbol, unicode1Name: 'LOWER LEFT ARROW')]
     case SOUTH_WEST_ARROW = "\u{2199}";
 
-    #[Info(id: 0x219A, name: 'LEFTWARDS ARROW WITH STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x219A, name: 'LEFTWARDS ARROW WITH STROKE', category: Cat::Math_Symbol, unicode1Name: 'LEFT ARROW WITH STROKE')]
     case LEFTWARDS_ARROW_WITH_STROKE = "\u{219A}";
 
-    #[Info(id: 0x219B, name: 'RIGHTWARDS ARROW WITH STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x219B, name: 'RIGHTWARDS ARROW WITH STROKE', category: Cat::Math_Symbol, unicode1Name: 'RIGHT ARROW WITH STROKE')]
     case RIGHTWARDS_ARROW_WITH_STROKE = "\u{219B}";
 
-    #[Info(id: 0x219C, name: 'LEFTWARDS WAVE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x219C, name: 'LEFTWARDS WAVE ARROW', category: Cat::Other_Symbol, unicode1Name: 'LEFT WAVE ARROW')]
     case LEFTWARDS_WAVE_ARROW = "\u{219C}";
 
-    #[Info(id: 0x219D, name: 'RIGHTWARDS WAVE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x219D, name: 'RIGHTWARDS WAVE ARROW', category: Cat::Other_Symbol, unicode1Name: 'RIGHT WAVE ARROW')]
     case RIGHTWARDS_WAVE_ARROW = "\u{219D}";
 
-    #[Info(id: 0x219E, name: 'LEFTWARDS TWO HEADED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x219E, name: 'LEFTWARDS TWO HEADED ARROW', category: Cat::Other_Symbol, unicode1Name: 'LEFT TWO HEADED ARROW', informativeAliases: ['fast cursor left'])]
     case LEFTWARDS_TWO_HEADED_ARROW = "\u{219E}";
 
-    #[Info(id: 0x219F, name: 'UPWARDS TWO HEADED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x219F, name: 'UPWARDS TWO HEADED ARROW', category: Cat::Other_Symbol, unicode1Name: 'UP TWO HEADED ARROW', informativeAliases: ['fast cursor up'])]
     case UPWARDS_TWO_HEADED_ARROW = "\u{219F}";
 
-    #[Info(id: 0x21A0, name: 'RIGHTWARDS TWO HEADED ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x21A0, name: 'RIGHTWARDS TWO HEADED ARROW', category: Cat::Math_Symbol, unicode1Name: 'RIGHT TWO HEADED ARROW', informativeAliases: ['z notation total surjection', 'fast cursor right'])]
     case RIGHTWARDS_TWO_HEADED_ARROW = "\u{21A0}";
 
-    #[Info(id: 0x21A1, name: 'DOWNWARDS TWO HEADED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21A1, name: 'DOWNWARDS TWO HEADED ARROW', category: Cat::Other_Symbol, unicode1Name: 'DOWN TWO HEADED ARROW', informativeAliases: ['form feed', 'fast cursor down'])]
     case DOWNWARDS_TWO_HEADED_ARROW = "\u{21A1}";
 
-    #[Info(id: 0x21A2, name: 'LEFTWARDS ARROW WITH TAIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21A2, name: 'LEFTWARDS ARROW WITH TAIL', category: Cat::Other_Symbol, unicode1Name: 'LEFT ARROW WITH TAIL')]
     case LEFTWARDS_ARROW_WITH_TAIL = "\u{21A2}";
 
-    #[Info(id: 0x21A3, name: 'RIGHTWARDS ARROW WITH TAIL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x21A3, name: 'RIGHTWARDS ARROW WITH TAIL', category: Cat::Math_Symbol, unicode1Name: 'RIGHT ARROW WITH TAIL', informativeAliases: ['z notation total injection'])]
     case RIGHTWARDS_ARROW_WITH_TAIL = "\u{21A3}";
 
-    #[Info(id: 0x21A4, name: 'LEFTWARDS ARROW FROM BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21A4, name: 'LEFTWARDS ARROW FROM BAR', category: Cat::Other_Symbol, unicode1Name: 'LEFT ARROW FROM BAR')]
     case LEFTWARDS_ARROW_FROM_BAR = "\u{21A4}";
 
-    #[Info(id: 0x21A5, name: 'UPWARDS ARROW FROM BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21A5, name: 'UPWARDS ARROW FROM BAR', category: Cat::Other_Symbol, unicode1Name: 'UP ARROW FROM BAR')]
     case UPWARDS_ARROW_FROM_BAR = "\u{21A5}";
 
-    #[Info(id: 0x21A6, name: 'RIGHTWARDS ARROW FROM BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x21A6, name: 'RIGHTWARDS ARROW FROM BAR', category: Cat::Math_Symbol, unicode1Name: 'RIGHT ARROW FROM BAR', informativeAliases: ['z notation maplet'])]
     case RIGHTWARDS_ARROW_FROM_BAR = "\u{21A6}";
 
-    #[Info(id: 0x21A7, name: 'DOWNWARDS ARROW FROM BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21A7, name: 'DOWNWARDS ARROW FROM BAR', category: Cat::Other_Symbol, unicode1Name: 'DOWN ARROW FROM BAR', informativeAliases: ['depth symbol'])]
     case DOWNWARDS_ARROW_FROM_BAR = "\u{21A7}";
 
     #[Info(id: 0x21A8, name: 'UP DOWN ARROW WITH BASE', category: Cat::Other_Symbol)]
     case UP_DOWN_ARROW_WITH_BASE = "\u{21A8}";
 
-    #[Info(id: 0x21A9, name: 'LEFTWARDS ARROW WITH HOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21A9, name: 'LEFTWARDS ARROW WITH HOOK', category: Cat::Other_Symbol, unicode1Name: 'LEFT ARROW WITH HOOK')]
     case LEFTWARDS_ARROW_WITH_HOOK = "\u{21A9}";
 
-    #[Info(id: 0x21AA, name: 'RIGHTWARDS ARROW WITH HOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21AA, name: 'RIGHTWARDS ARROW WITH HOOK', category: Cat::Other_Symbol, unicode1Name: 'RIGHT ARROW WITH HOOK')]
     case RIGHTWARDS_ARROW_WITH_HOOK = "\u{21AA}";
 
-    #[Info(id: 0x21AB, name: 'LEFTWARDS ARROW WITH LOOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21AB, name: 'LEFTWARDS ARROW WITH LOOP', category: Cat::Other_Symbol, unicode1Name: 'LEFT ARROW WITH LOOP')]
     case LEFTWARDS_ARROW_WITH_LOOP = "\u{21AB}";
 
-    #[Info(id: 0x21AC, name: 'RIGHTWARDS ARROW WITH LOOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21AC, name: 'RIGHTWARDS ARROW WITH LOOP', category: Cat::Other_Symbol, unicode1Name: 'RIGHT ARROW WITH LOOP')]
     case RIGHTWARDS_ARROW_WITH_LOOP = "\u{21AC}";
 
     #[Info(id: 0x21AD, name: 'LEFT RIGHT WAVE ARROW', category: Cat::Other_Symbol)]
@@ -109,25 +109,25 @@ enum Arrows: string
     #[Info(id: 0x21AE, name: 'LEFT RIGHT ARROW WITH STROKE', category: Cat::Math_Symbol)]
     case LEFT_RIGHT_ARROW_WITH_STROKE = "\u{21AE}";
 
-    #[Info(id: 0x21AF, name: 'DOWNWARDS ZIGZAG ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21AF, name: 'DOWNWARDS ZIGZAG ARROW', category: Cat::Other_Symbol, unicode1Name: 'DOWN ZIGZAG ARROW', informativeAliases: ['electrolysis'])]
     case DOWNWARDS_ZIGZAG_ARROW = "\u{21AF}";
 
-    #[Info(id: 0x21B0, name: 'UPWARDS ARROW WITH TIP LEFTWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21B0, name: 'UPWARDS ARROW WITH TIP LEFTWARDS', category: Cat::Other_Symbol, unicode1Name: 'UP ARROW WITH TIP LEFT')]
     case UPWARDS_ARROW_WITH_TIP_LEFTWARDS = "\u{21B0}";
 
-    #[Info(id: 0x21B1, name: 'UPWARDS ARROW WITH TIP RIGHTWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21B1, name: 'UPWARDS ARROW WITH TIP RIGHTWARDS', category: Cat::Other_Symbol, unicode1Name: 'UP ARROW WITH TIP RIGHT')]
     case UPWARDS_ARROW_WITH_TIP_RIGHTWARDS = "\u{21B1}";
 
-    #[Info(id: 0x21B2, name: 'DOWNWARDS ARROW WITH TIP LEFTWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21B2, name: 'DOWNWARDS ARROW WITH TIP LEFTWARDS', category: Cat::Other_Symbol, unicode1Name: 'DOWN ARROW WITH TIP LEFT')]
     case DOWNWARDS_ARROW_WITH_TIP_LEFTWARDS = "\u{21B2}";
 
-    #[Info(id: 0x21B3, name: 'DOWNWARDS ARROW WITH TIP RIGHTWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21B3, name: 'DOWNWARDS ARROW WITH TIP RIGHTWARDS', category: Cat::Other_Symbol, unicode1Name: 'DOWN ARROW WITH TIP RIGHT')]
     case DOWNWARDS_ARROW_WITH_TIP_RIGHTWARDS = "\u{21B3}";
 
-    #[Info(id: 0x21B4, name: 'RIGHTWARDS ARROW WITH CORNER DOWNWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21B4, name: 'RIGHTWARDS ARROW WITH CORNER DOWNWARDS', category: Cat::Other_Symbol, unicode1Name: 'RIGHT ARROW WITH CORNER DOWN', informativeAliases: ['line feed'])]
     case RIGHTWARDS_ARROW_WITH_CORNER_DOWNWARDS = "\u{21B4}";
 
-    #[Info(id: 0x21B5, name: 'DOWNWARDS ARROW WITH CORNER LEFTWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21B5, name: 'DOWNWARDS ARROW WITH CORNER LEFTWARDS', category: Cat::Other_Symbol, unicode1Name: 'DOWN ARROW WITH CORNER LEFT')]
     case DOWNWARDS_ARROW_WITH_CORNER_LEFTWARDS = "\u{21B5}";
 
     #[Info(id: 0x21B6, name: 'ANTICLOCKWISE TOP SEMICIRCLE ARROW', category: Cat::Other_Symbol)]
@@ -136,10 +136,10 @@ enum Arrows: string
     #[Info(id: 0x21B7, name: 'CLOCKWISE TOP SEMICIRCLE ARROW', category: Cat::Other_Symbol)]
     case CLOCKWISE_TOP_SEMICIRCLE_ARROW = "\u{21B7}";
 
-    #[Info(id: 0x21B8, name: 'NORTH WEST ARROW TO LONG BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21B8, name: 'NORTH WEST ARROW TO LONG BAR', category: Cat::Other_Symbol, unicode1Name: 'UPPER LEFT ARROW TO LONG BAR', informativeAliases: ['home'])]
     case NORTH_WEST_ARROW_TO_LONG_BAR = "\u{21B8}";
 
-    #[Info(id: 0x21B9, name: 'LEFTWARDS ARROW TO BAR OVER RIGHTWARDS ARROW TO BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21B9, name: 'LEFTWARDS ARROW TO BAR OVER RIGHTWARDS ARROW TO BAR', category: Cat::Other_Symbol, unicode1Name: 'LEFT ARROW TO BAR OVER RIGHT ARROW TO BAR', informativeAliases: ['tab with shift tab'])]
     case LEFTWARDS_ARROW_TO_BAR_OVER_RIGHTWARDS_ARROW_TO_BAR = "\u{21B9}";
 
     #[Info(id: 0x21BA, name: 'ANTICLOCKWISE OPEN CIRCLE ARROW', category: Cat::Other_Symbol)]
@@ -148,76 +148,76 @@ enum Arrows: string
     #[Info(id: 0x21BB, name: 'CLOCKWISE OPEN CIRCLE ARROW', category: Cat::Other_Symbol)]
     case CLOCKWISE_OPEN_CIRCLE_ARROW = "\u{21BB}";
 
-    #[Info(id: 0x21BC, name: 'LEFTWARDS HARPOON WITH BARB UPWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21BC, name: 'LEFTWARDS HARPOON WITH BARB UPWARDS', category: Cat::Other_Symbol, unicode1Name: 'LEFT HARPOON WITH BARB UP')]
     case LEFTWARDS_HARPOON_WITH_BARB_UPWARDS = "\u{21BC}";
 
-    #[Info(id: 0x21BD, name: 'LEFTWARDS HARPOON WITH BARB DOWNWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21BD, name: 'LEFTWARDS HARPOON WITH BARB DOWNWARDS', category: Cat::Other_Symbol, unicode1Name: 'LEFT HARPOON WITH BARB DOWN')]
     case LEFTWARDS_HARPOON_WITH_BARB_DOWNWARDS = "\u{21BD}";
 
-    #[Info(id: 0x21BE, name: 'UPWARDS HARPOON WITH BARB RIGHTWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21BE, name: 'UPWARDS HARPOON WITH BARB RIGHTWARDS', category: Cat::Other_Symbol, unicode1Name: 'UP HARPOON WITH BARB RIGHT')]
     case UPWARDS_HARPOON_WITH_BARB_RIGHTWARDS = "\u{21BE}";
 
-    #[Info(id: 0x21BF, name: 'UPWARDS HARPOON WITH BARB LEFTWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21BF, name: 'UPWARDS HARPOON WITH BARB LEFTWARDS', category: Cat::Other_Symbol, unicode1Name: 'UP HARPOON WITH BARB LEFT')]
     case UPWARDS_HARPOON_WITH_BARB_LEFTWARDS = "\u{21BF}";
 
-    #[Info(id: 0x21C0, name: 'RIGHTWARDS HARPOON WITH BARB UPWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21C0, name: 'RIGHTWARDS HARPOON WITH BARB UPWARDS', category: Cat::Other_Symbol, unicode1Name: 'RIGHT HARPOON WITH BARB UP')]
     case RIGHTWARDS_HARPOON_WITH_BARB_UPWARDS = "\u{21C0}";
 
-    #[Info(id: 0x21C1, name: 'RIGHTWARDS HARPOON WITH BARB DOWNWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21C1, name: 'RIGHTWARDS HARPOON WITH BARB DOWNWARDS', category: Cat::Other_Symbol, unicode1Name: 'RIGHT HARPOON WITH BARB DOWN')]
     case RIGHTWARDS_HARPOON_WITH_BARB_DOWNWARDS = "\u{21C1}";
 
-    #[Info(id: 0x21C2, name: 'DOWNWARDS HARPOON WITH BARB RIGHTWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21C2, name: 'DOWNWARDS HARPOON WITH BARB RIGHTWARDS', category: Cat::Other_Symbol, unicode1Name: 'DOWN HARPOON WITH BARB RIGHT')]
     case DOWNWARDS_HARPOON_WITH_BARB_RIGHTWARDS = "\u{21C2}";
 
-    #[Info(id: 0x21C3, name: 'DOWNWARDS HARPOON WITH BARB LEFTWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21C3, name: 'DOWNWARDS HARPOON WITH BARB LEFTWARDS', category: Cat::Other_Symbol, unicode1Name: 'DOWN HARPOON WITH BARB LEFT')]
     case DOWNWARDS_HARPOON_WITH_BARB_LEFTWARDS = "\u{21C3}";
 
-    #[Info(id: 0x21C4, name: 'RIGHTWARDS ARROW OVER LEFTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21C4, name: 'RIGHTWARDS ARROW OVER LEFTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'RIGHT ARROW OVER LEFT ARROW')]
     case RIGHTWARDS_ARROW_OVER_LEFTWARDS_ARROW = "\u{21C4}";
 
-    #[Info(id: 0x21C5, name: 'UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21C5, name: 'UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'UP ARROW LEFT OF DOWN ARROW')]
     case UPWARDS_ARROW_LEFTWARDS_OF_DOWNWARDS_ARROW = "\u{21C5}";
 
-    #[Info(id: 0x21C6, name: 'LEFTWARDS ARROW OVER RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21C6, name: 'LEFTWARDS ARROW OVER RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'LEFT ARROW OVER RIGHT ARROW')]
     case LEFTWARDS_ARROW_OVER_RIGHTWARDS_ARROW = "\u{21C6}";
 
-    #[Info(id: 0x21C7, name: 'LEFTWARDS PAIRED ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21C7, name: 'LEFTWARDS PAIRED ARROWS', category: Cat::Other_Symbol, unicode1Name: 'LEFT PAIRED ARROWS')]
     case LEFTWARDS_PAIRED_ARROWS = "\u{21C7}";
 
-    #[Info(id: 0x21C8, name: 'UPWARDS PAIRED ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21C8, name: 'UPWARDS PAIRED ARROWS', category: Cat::Other_Symbol, unicode1Name: 'UP PAIRED ARROWS')]
     case UPWARDS_PAIRED_ARROWS = "\u{21C8}";
 
-    #[Info(id: 0x21C9, name: 'RIGHTWARDS PAIRED ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21C9, name: 'RIGHTWARDS PAIRED ARROWS', category: Cat::Other_Symbol, unicode1Name: 'RIGHT PAIRED ARROWS')]
     case RIGHTWARDS_PAIRED_ARROWS = "\u{21C9}";
 
-    #[Info(id: 0x21CA, name: 'DOWNWARDS PAIRED ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21CA, name: 'DOWNWARDS PAIRED ARROWS', category: Cat::Other_Symbol, unicode1Name: 'DOWN PAIRED ARROWS')]
     case DOWNWARDS_PAIRED_ARROWS = "\u{21CA}";
 
-    #[Info(id: 0x21CB, name: 'LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21CB, name: 'LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON', category: Cat::Other_Symbol, unicode1Name: 'LEFT HARPOON OVER RIGHT HARPOON')]
     case LEFTWARDS_HARPOON_OVER_RIGHTWARDS_HARPOON = "\u{21CB}";
 
-    #[Info(id: 0x21CC, name: 'RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21CC, name: 'RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON', category: Cat::Other_Symbol, unicode1Name: 'RIGHT HARPOON OVER LEFT HARPOON')]
     case RIGHTWARDS_HARPOON_OVER_LEFTWARDS_HARPOON = "\u{21CC}";
 
-    #[Info(id: 0x21CD, name: 'LEFTWARDS DOUBLE ARROW WITH STROKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21CD, name: 'LEFTWARDS DOUBLE ARROW WITH STROKE', category: Cat::Other_Symbol, unicode1Name: 'LEFT DOUBLE ARROW WITH STROKE')]
     case LEFTWARDS_DOUBLE_ARROW_WITH_STROKE = "\u{21CD}";
 
     #[Info(id: 0x21CE, name: 'LEFT RIGHT DOUBLE ARROW WITH STROKE', category: Cat::Math_Symbol)]
     case LEFT_RIGHT_DOUBLE_ARROW_WITH_STROKE = "\u{21CE}";
 
-    #[Info(id: 0x21CF, name: 'RIGHTWARDS DOUBLE ARROW WITH STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x21CF, name: 'RIGHTWARDS DOUBLE ARROW WITH STROKE', category: Cat::Math_Symbol, unicode1Name: 'RIGHT DOUBLE ARROW WITH STROKE')]
     case RIGHTWARDS_DOUBLE_ARROW_WITH_STROKE = "\u{21CF}";
 
-    #[Info(id: 0x21D0, name: 'LEFTWARDS DOUBLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21D0, name: 'LEFTWARDS DOUBLE ARROW', category: Cat::Other_Symbol, unicode1Name: 'LEFT DOUBLE ARROW')]
     case LEFTWARDS_DOUBLE_ARROW = "\u{21D0}";
 
-    #[Info(id: 0x21D1, name: 'UPWARDS DOUBLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21D1, name: 'UPWARDS DOUBLE ARROW', category: Cat::Other_Symbol, unicode1Name: 'UP DOUBLE ARROW')]
     case UPWARDS_DOUBLE_ARROW = "\u{21D1}";
 
-    #[Info(id: 0x21D2, name: 'RIGHTWARDS DOUBLE ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x21D2, name: 'RIGHTWARDS DOUBLE ARROW', category: Cat::Math_Symbol, unicode1Name: 'RIGHT DOUBLE ARROW')]
     case RIGHTWARDS_DOUBLE_ARROW = "\u{21D2}";
 
-    #[Info(id: 0x21D3, name: 'DOWNWARDS DOUBLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21D3, name: 'DOWNWARDS DOUBLE ARROW', category: Cat::Other_Symbol, unicode1Name: 'DOWN DOUBLE ARROW')]
     case DOWNWARDS_DOUBLE_ARROW = "\u{21D3}";
 
     #[Info(id: 0x21D4, name: 'LEFT RIGHT DOUBLE ARROW', category: Cat::Math_Symbol)]
@@ -226,94 +226,94 @@ enum Arrows: string
     #[Info(id: 0x21D5, name: 'UP DOWN DOUBLE ARROW', category: Cat::Other_Symbol)]
     case UP_DOWN_DOUBLE_ARROW = "\u{21D5}";
 
-    #[Info(id: 0x21D6, name: 'NORTH WEST DOUBLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21D6, name: 'NORTH WEST DOUBLE ARROW', category: Cat::Other_Symbol, unicode1Name: 'UPPER LEFT DOUBLE ARROW')]
     case NORTH_WEST_DOUBLE_ARROW = "\u{21D6}";
 
-    #[Info(id: 0x21D7, name: 'NORTH EAST DOUBLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21D7, name: 'NORTH EAST DOUBLE ARROW', category: Cat::Other_Symbol, unicode1Name: 'UPPER RIGHT DOUBLE ARROW')]
     case NORTH_EAST_DOUBLE_ARROW = "\u{21D7}";
 
-    #[Info(id: 0x21D8, name: 'SOUTH EAST DOUBLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21D8, name: 'SOUTH EAST DOUBLE ARROW', category: Cat::Other_Symbol, unicode1Name: 'LOWER RIGHT DOUBLE ARROW')]
     case SOUTH_EAST_DOUBLE_ARROW = "\u{21D8}";
 
-    #[Info(id: 0x21D9, name: 'SOUTH WEST DOUBLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21D9, name: 'SOUTH WEST DOUBLE ARROW', category: Cat::Other_Symbol, unicode1Name: 'LOWER LEFT DOUBLE ARROW')]
     case SOUTH_WEST_DOUBLE_ARROW = "\u{21D9}";
 
-    #[Info(id: 0x21DA, name: 'LEFTWARDS TRIPLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21DA, name: 'LEFTWARDS TRIPLE ARROW', category: Cat::Other_Symbol, unicode1Name: 'LEFT TRIPLE ARROW')]
     case LEFTWARDS_TRIPLE_ARROW = "\u{21DA}";
 
-    #[Info(id: 0x21DB, name: 'RIGHTWARDS TRIPLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21DB, name: 'RIGHTWARDS TRIPLE ARROW', category: Cat::Other_Symbol, unicode1Name: 'RIGHT TRIPLE ARROW')]
     case RIGHTWARDS_TRIPLE_ARROW = "\u{21DB}";
 
-    #[Info(id: 0x21DC, name: 'LEFTWARDS SQUIGGLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21DC, name: 'LEFTWARDS SQUIGGLE ARROW', category: Cat::Other_Symbol, unicode1Name: 'LEFT SQUIGGLE ARROW')]
     case LEFTWARDS_SQUIGGLE_ARROW = "\u{21DC}";
 
-    #[Info(id: 0x21DD, name: 'RIGHTWARDS SQUIGGLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21DD, name: 'RIGHTWARDS SQUIGGLE ARROW', category: Cat::Other_Symbol, unicode1Name: 'RIGHT SQUIGGLE ARROW')]
     case RIGHTWARDS_SQUIGGLE_ARROW = "\u{21DD}";
 
-    #[Info(id: 0x21DE, name: 'UPWARDS ARROW WITH DOUBLE STROKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21DE, name: 'UPWARDS ARROW WITH DOUBLE STROKE', category: Cat::Other_Symbol, unicode1Name: 'UP ARROW WITH DOUBLE STROKE', informativeAliases: ['page up'])]
     case UPWARDS_ARROW_WITH_DOUBLE_STROKE = "\u{21DE}";
 
-    #[Info(id: 0x21DF, name: 'DOWNWARDS ARROW WITH DOUBLE STROKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21DF, name: 'DOWNWARDS ARROW WITH DOUBLE STROKE', category: Cat::Other_Symbol, unicode1Name: 'DOWN ARROW WITH DOUBLE STROKE', informativeAliases: ['page down'])]
     case DOWNWARDS_ARROW_WITH_DOUBLE_STROKE = "\u{21DF}";
 
-    #[Info(id: 0x21E0, name: 'LEFTWARDS DASHED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21E0, name: 'LEFTWARDS DASHED ARROW', category: Cat::Other_Symbol, unicode1Name: 'LEFT DASHED ARROW')]
     case LEFTWARDS_DASHED_ARROW = "\u{21E0}";
 
-    #[Info(id: 0x21E1, name: 'UPWARDS DASHED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21E1, name: 'UPWARDS DASHED ARROW', category: Cat::Other_Symbol, unicode1Name: 'UP DASHED ARROW')]
     case UPWARDS_DASHED_ARROW = "\u{21E1}";
 
-    #[Info(id: 0x21E2, name: 'RIGHTWARDS DASHED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21E2, name: 'RIGHTWARDS DASHED ARROW', category: Cat::Other_Symbol, unicode1Name: 'RIGHT DASHED ARROW')]
     case RIGHTWARDS_DASHED_ARROW = "\u{21E2}";
 
-    #[Info(id: 0x21E3, name: 'DOWNWARDS DASHED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21E3, name: 'DOWNWARDS DASHED ARROW', category: Cat::Other_Symbol, unicode1Name: 'DOWN DASHED ARROW')]
     case DOWNWARDS_DASHED_ARROW = "\u{21E3}";
 
-    #[Info(id: 0x21E4, name: 'LEFTWARDS ARROW TO BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21E4, name: 'LEFTWARDS ARROW TO BAR', category: Cat::Other_Symbol, unicode1Name: 'LEFT ARROW TO BAR', informativeAliases: ['leftward tab'])]
     case LEFTWARDS_ARROW_TO_BAR = "\u{21E4}";
 
-    #[Info(id: 0x21E5, name: 'RIGHTWARDS ARROW TO BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21E5, name: 'RIGHTWARDS ARROW TO BAR', category: Cat::Other_Symbol, unicode1Name: 'RIGHT ARROW TO BAR', informativeAliases: ['rightward tab'])]
     case RIGHTWARDS_ARROW_TO_BAR = "\u{21E5}";
 
-    #[Info(id: 0x21E6, name: 'LEFTWARDS WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21E6, name: 'LEFTWARDS WHITE ARROW', category: Cat::Other_Symbol, unicode1Name: 'WHITE LEFT ARROW')]
     case LEFTWARDS_WHITE_ARROW = "\u{21E6}";
 
-    #[Info(id: 0x21E7, name: 'UPWARDS WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21E7, name: 'UPWARDS WHITE ARROW', category: Cat::Other_Symbol, unicode1Name: 'WHITE UP ARROW', informativeAliases: ['shift', 'level 2 select (ISO 9995-7)'])]
     case UPWARDS_WHITE_ARROW = "\u{21E7}";
 
-    #[Info(id: 0x21E8, name: 'RIGHTWARDS WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21E8, name: 'RIGHTWARDS WHITE ARROW', category: Cat::Other_Symbol, unicode1Name: 'WHITE RIGHT ARROW', informativeAliases: ['group select (ISO 9995-7)'])]
     case RIGHTWARDS_WHITE_ARROW = "\u{21E8}";
 
-    #[Info(id: 0x21E9, name: 'DOWNWARDS WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21E9, name: 'DOWNWARDS WHITE ARROW', category: Cat::Other_Symbol, unicode1Name: 'WHITE DOWN ARROW')]
     case DOWNWARDS_WHITE_ARROW = "\u{21E9}";
 
-    #[Info(id: 0x21EA, name: 'UPWARDS WHITE ARROW FROM BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21EA, name: 'UPWARDS WHITE ARROW FROM BAR', category: Cat::Other_Symbol, unicode1Name: 'WHITE UP ARROW FROM BAR', informativeAliases: ['caps lock'])]
     case UPWARDS_WHITE_ARROW_FROM_BAR = "\u{21EA}";
 
-    #[Info(id: 0x21EB, name: 'UPWARDS WHITE ARROW ON PEDESTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21EB, name: 'UPWARDS WHITE ARROW ON PEDESTAL', category: Cat::Other_Symbol, informativeAliases: ['level 2 lock'])]
     case UPWARDS_WHITE_ARROW_ON_PEDESTAL = "\u{21EB}";
 
-    #[Info(id: 0x21EC, name: 'UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21EC, name: 'UPWARDS WHITE ARROW ON PEDESTAL WITH HORIZONTAL BAR', category: Cat::Other_Symbol, informativeAliases: ['capitals (caps) lock'])]
     case UPWARDS_WHITE_ARROW_ON_PEDESTAL_WITH_HORIZONTAL_BAR = "\u{21EC}";
 
-    #[Info(id: 0x21ED, name: 'UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21ED, name: 'UPWARDS WHITE ARROW ON PEDESTAL WITH VERTICAL BAR', category: Cat::Other_Symbol, informativeAliases: ['numeric lock'])]
     case UPWARDS_WHITE_ARROW_ON_PEDESTAL_WITH_VERTICAL_BAR = "\u{21ED}";
 
-    #[Info(id: 0x21EE, name: 'UPWARDS WHITE DOUBLE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21EE, name: 'UPWARDS WHITE DOUBLE ARROW', category: Cat::Other_Symbol, informativeAliases: ['level 3 select'])]
     case UPWARDS_WHITE_DOUBLE_ARROW = "\u{21EE}";
 
-    #[Info(id: 0x21EF, name: 'UPWARDS WHITE DOUBLE ARROW ON PEDESTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21EF, name: 'UPWARDS WHITE DOUBLE ARROW ON PEDESTAL', category: Cat::Other_Symbol, informativeAliases: ['level 3 lock'])]
     case UPWARDS_WHITE_DOUBLE_ARROW_ON_PEDESTAL = "\u{21EF}";
 
-    #[Info(id: 0x21F0, name: 'RIGHTWARDS WHITE ARROW FROM WALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21F0, name: 'RIGHTWARDS WHITE ARROW FROM WALL', category: Cat::Other_Symbol, informativeAliases: ['group lock'])]
     case RIGHTWARDS_WHITE_ARROW_FROM_WALL = "\u{21F0}";
 
-    #[Info(id: 0x21F1, name: 'NORTH WEST ARROW TO CORNER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21F1, name: 'NORTH WEST ARROW TO CORNER', category: Cat::Other_Symbol, informativeAliases: ['home'])]
     case NORTH_WEST_ARROW_TO_CORNER = "\u{21F1}";
 
-    #[Info(id: 0x21F2, name: 'SOUTH EAST ARROW TO CORNER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21F2, name: 'SOUTH EAST ARROW TO CORNER', category: Cat::Other_Symbol, informativeAliases: ['end'])]
     case SOUTH_EAST_ARROW_TO_CORNER = "\u{21F2}";
 
-    #[Info(id: 0x21F3, name: 'UP DOWN WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x21F3, name: 'UP DOWN WHITE ARROW', category: Cat::Other_Symbol, informativeAliases: ['scrolling'])]
     case UP_DOWN_WHITE_ARROW = "\u{21F3}";
 
     #[Info(id: 0x21F4, name: 'RIGHT ARROW WITH SMALL CIRCLE', category: Cat::Math_Symbol)]
@@ -328,19 +328,19 @@ enum Arrows: string
     #[Info(id: 0x21F7, name: 'LEFTWARDS ARROW WITH VERTICAL STROKE', category: Cat::Math_Symbol)]
     case LEFTWARDS_ARROW_WITH_VERTICAL_STROKE = "\u{21F7}";
 
-    #[Info(id: 0x21F8, name: 'RIGHTWARDS ARROW WITH VERTICAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x21F8, name: 'RIGHTWARDS ARROW WITH VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['z notation partial function'])]
     case RIGHTWARDS_ARROW_WITH_VERTICAL_STROKE = "\u{21F8}";
 
-    #[Info(id: 0x21F9, name: 'LEFT RIGHT ARROW WITH VERTICAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x21F9, name: 'LEFT RIGHT ARROW WITH VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['z notation partial relation'])]
     case LEFT_RIGHT_ARROW_WITH_VERTICAL_STROKE = "\u{21F9}";
 
     #[Info(id: 0x21FA, name: 'LEFTWARDS ARROW WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol)]
     case LEFTWARDS_ARROW_WITH_DOUBLE_VERTICAL_STROKE = "\u{21FA}";
 
-    #[Info(id: 0x21FB, name: 'RIGHTWARDS ARROW WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x21FB, name: 'RIGHTWARDS ARROW WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['z notation finite function'])]
     case RIGHTWARDS_ARROW_WITH_DOUBLE_VERTICAL_STROKE = "\u{21FB}";
 
-    #[Info(id: 0x21FC, name: 'LEFT RIGHT ARROW WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x21FC, name: 'LEFT RIGHT ARROW WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['z notation finite relation'])]
     case LEFT_RIGHT_ARROW_WITH_DOUBLE_VERTICAL_STROKE = "\u{21FC}";
 
     #[Info(id: 0x21FD, name: 'LEFTWARDS OPEN-HEADED ARROW', category: Cat::Math_Symbol)]

@@ -166,7 +166,7 @@ enum Grantha: string
     #[Info(id: 0x11339, name: 'GRANTHA LETTER HA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_HA = "\u{11339}";
 
-    #[Info(id: 0x1133B, name: 'COMBINING BINDU BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1133B, name: 'COMBINING BINDU BELOW', category: Cat::Nonspacing_Mark, informativeAliases: ['vindu'])]
     case COMBINING_BINDU_BELOW = "\u{1133B}";
 
     #[Info(id: 0x1133C, name: 'GRANTHA SIGN NUKTA', category: Cat::Nonspacing_Mark)]

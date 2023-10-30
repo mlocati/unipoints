@@ -31,19 +31,19 @@ enum Optical_Character_Recognition: string
     #[Info(id: 0x2444, name: 'OCR BELT BUCKLE', category: Cat::Other_Symbol)]
     case OCR_BELT_BUCKLE = "\u{2444}";
 
-    #[Info(id: 0x2445, name: 'OCR BOW TIE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2445, name: 'OCR BOW TIE', category: Cat::Other_Symbol, informativeAliases: ['unique asterisk'])]
     case OCR_BOW_TIE = "\u{2445}";
 
-    #[Info(id: 0x2446, name: 'OCR BRANCH BANK IDENTIFICATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2446, name: 'OCR BRANCH BANK IDENTIFICATION', category: Cat::Other_Symbol, informativeAliases: ['transit'])]
     case OCR_BRANCH_BANK_IDENTIFICATION = "\u{2446}";
 
-    #[Info(id: 0x2447, name: 'OCR AMOUNT OF CHECK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2447, name: 'OCR AMOUNT OF CHECK', category: Cat::Other_Symbol, informativeAliases: ['amount'])]
     case OCR_AMOUNT_OF_CHECK = "\u{2447}";
 
-    #[Info(id: 0x2448, name: 'OCR DASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2448, name: 'OCR DASH', category: Cat::Other_Symbol, correctedNames: ['MICR ON US SYMBOL'], informativeAliases: ['on us'])]
     case OCR_DASH = "\u{2448}";
 
-    #[Info(id: 0x2449, name: 'OCR CUSTOMER ACCOUNT NUMBER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2449, name: 'OCR CUSTOMER ACCOUNT NUMBER', category: Cat::Other_Symbol, correctedNames: ['MICR DASH SYMBOL'], informativeAliases: ['dash'])]
     case OCR_CUSTOMER_ACCOUNT_NUMBER = "\u{2449}";
 
     #[Info(id: 0x244A, name: 'OCR DOUBLE BACKSLASH', category: Cat::Other_Symbol)]

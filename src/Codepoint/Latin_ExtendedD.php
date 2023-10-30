@@ -43,7 +43,7 @@ enum Latin_ExtendedD: string
     #[Info(id: 0xA728, name: 'LATIN CAPITAL LETTER TZ', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_TZ = "\u{A728}";
 
-    #[Info(id: 0xA729, name: 'LATIN SMALL LETTER TZ', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA729, name: 'LATIN SMALL LETTER TZ', category: Cat::Lowercase_Letter, informativeAliases: ['tezh digraph'])]
     case LATIN_SMALL_LETTER_TZ = "\u{A729}";
 
     #[Info(id: 0xA72A, name: 'LATIN CAPITAL LETTER TRESILLO', category: Cat::Uppercase_Letter)]
@@ -358,7 +358,7 @@ enum Latin_ExtendedD: string
     #[Info(id: 0xA791, name: 'LATIN SMALL LETTER N WITH DESCENDER', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_N_WITH_DESCENDER = "\u{A791}";
 
-    #[Info(id: 0xA792, name: 'LATIN CAPITAL LETTER C WITH BAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA792, name: 'LATIN CAPITAL LETTER C WITH BAR', category: Cat::Uppercase_Letter, informativeAliases: ['Cambrian symbol'])]
     case LATIN_CAPITAL_LETTER_C_WITH_BAR = "\u{A792}";
 
     #[Info(id: 0xA793, name: 'LATIN SMALL LETTER C WITH BAR', category: Cat::Lowercase_Letter)]
@@ -487,7 +487,7 @@ enum Latin_ExtendedD: string
     #[Info(id: 0xA7BC, name: 'LATIN CAPITAL LETTER GLOTTAL I', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_GLOTTAL_I = "\u{A7BC}";
 
-    #[Info(id: 0xA7BD, name: 'LATIN SMALL LETTER GLOTTAL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA7BD, name: 'LATIN SMALL LETTER GLOTTAL I', category: Cat::Lowercase_Letter, informativeAliases: ['egyptological yod'])]
     case LATIN_SMALL_LETTER_GLOTTAL_I = "\u{A7BD}";
 
     #[Info(id: 0xA7BE, name: 'LATIN CAPITAL LETTER GLOTTAL U', category: Cat::Uppercase_Letter)]
@@ -520,7 +520,7 @@ enum Latin_ExtendedD: string
     #[Info(id: 0xA7C7, name: 'LATIN CAPITAL LETTER D WITH SHORT STROKE OVERLAY', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_D_WITH_SHORT_STROKE_OVERLAY = "\u{A7C7}";
 
-    #[Info(id: 0xA7C8, name: 'LATIN SMALL LETTER D WITH SHORT STROKE OVERLAY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA7C8, name: 'LATIN SMALL LETTER D WITH SHORT STROKE OVERLAY', category: Cat::Lowercase_Letter, informativeAliases: ['tau gallicum'])]
     case LATIN_SMALL_LETTER_D_WITH_SHORT_STROKE_OVERLAY = "\u{A7C8}";
 
     #[Info(id: 0xA7C9, name: 'LATIN CAPITAL LETTER S WITH SHORT STROKE OVERLAY', category: Cat::Uppercase_Letter)]
@@ -562,7 +562,7 @@ enum Latin_ExtendedD: string
     #[Info(id: 0xA7F4, name: 'MODIFIER LETTER CAPITAL Q', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_CAPITAL_Q = "\u{A7F4}";
 
-    #[Info(id: 0xA7F5, name: 'LATIN CAPITAL LETTER REVERSED HALF H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA7F5, name: 'LATIN CAPITAL LETTER REVERSED HALF H', category: Cat::Uppercase_Letter, informativeAliases: ['H dimidié'])]
     case LATIN_CAPITAL_LETTER_REVERSED_HALF_H = "\u{A7F5}";
 
     #[Info(id: 0xA7F6, name: 'LATIN SMALL LETTER REVERSED HALF H', category: Cat::Lowercase_Letter)]
@@ -580,13 +580,13 @@ enum Latin_ExtendedD: string
     #[Info(id: 0xA7FA, name: 'LATIN LETTER SMALL CAPITAL TURNED M', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_SMALL_CAPITAL_TURNED_M = "\u{A7FA}";
 
-    #[Info(id: 0xA7FB, name: 'LATIN EPIGRAPHIC LETTER REVERSED F', category: Cat::Other_Letter)]
+    #[Info(id: 0xA7FB, name: 'LATIN EPIGRAPHIC LETTER REVERSED F', category: Cat::Other_Letter, informativeAliases: ['filia (daughter), femina (woman, female)'])]
     case LATIN_EPIGRAPHIC_LETTER_REVERSED_F = "\u{A7FB}";
 
-    #[Info(id: 0xA7FC, name: 'LATIN EPIGRAPHIC LETTER REVERSED P', category: Cat::Other_Letter)]
+    #[Info(id: 0xA7FC, name: 'LATIN EPIGRAPHIC LETTER REVERSED P', category: Cat::Other_Letter, informativeAliases: ['puella (girl)'])]
     case LATIN_EPIGRAPHIC_LETTER_REVERSED_P = "\u{A7FC}";
 
-    #[Info(id: 0xA7FD, name: 'LATIN EPIGRAPHIC LETTER INVERTED M', category: Cat::Other_Letter)]
+    #[Info(id: 0xA7FD, name: 'LATIN EPIGRAPHIC LETTER INVERTED M', category: Cat::Other_Letter, informativeAliases: ['mulier, matrona (married woman)'])]
     case LATIN_EPIGRAPHIC_LETTER_INVERTED_M = "\u{A7FD}";
 
     #[Info(id: 0xA7FE, name: 'LATIN EPIGRAPHIC LETTER I LONGA', category: Cat::Other_Letter)]

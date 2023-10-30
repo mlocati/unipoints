@@ -22,7 +22,7 @@ enum Miscellaneous_Mathematical_SymbolsA: string
     #[Info(id: 0x27C1, name: 'WHITE TRIANGLE CONTAINING SMALL WHITE TRIANGLE', category: Cat::Math_Symbol)]
     case WHITE_TRIANGLE_CONTAINING_SMALL_WHITE_TRIANGLE = "\u{27C1}";
 
-    #[Info(id: 0x27C2, name: 'PERPENDICULAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27C2, name: 'PERPENDICULAR', category: Cat::Math_Symbol, informativeAliases: ['orthogonal to'])]
     case PERPENDICULAR = "\u{27C2}";
 
     #[Info(id: 0x27C3, name: 'OPEN SUBSET', category: Cat::Math_Symbol)]
@@ -49,19 +49,19 @@ enum Miscellaneous_Mathematical_SymbolsA: string
     #[Info(id: 0x27CA, name: 'VERTICAL BAR WITH HORIZONTAL STROKE', category: Cat::Math_Symbol)]
     case VERTICAL_BAR_WITH_HORIZONTAL_STROKE = "\u{27CA}";
 
-    #[Info(id: 0x27CB, name: 'MATHEMATICAL RISING DIAGONAL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27CB, name: 'MATHEMATICAL RISING DIAGONAL', category: Cat::Math_Symbol, informativeAliases: ['\\diagup'])]
     case MATHEMATICAL_RISING_DIAGONAL = "\u{27CB}";
 
     #[Info(id: 0x27CC, name: 'LONG DIVISION', category: Cat::Math_Symbol)]
     case LONG_DIVISION = "\u{27CC}";
 
-    #[Info(id: 0x27CD, name: 'MATHEMATICAL FALLING DIAGONAL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27CD, name: 'MATHEMATICAL FALLING DIAGONAL', category: Cat::Math_Symbol, informativeAliases: ['\\diagdown'])]
     case MATHEMATICAL_FALLING_DIAGONAL = "\u{27CD}";
 
-    #[Info(id: 0x27CE, name: 'SQUARED LOGICAL AND', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27CE, name: 'SQUARED LOGICAL AND', category: Cat::Math_Symbol, informativeAliases: ['box min'])]
     case SQUARED_LOGICAL_AND = "\u{27CE}";
 
-    #[Info(id: 0x27CF, name: 'SQUARED LOGICAL OR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27CF, name: 'SQUARED LOGICAL OR', category: Cat::Math_Symbol, informativeAliases: ['box max'])]
     case SQUARED_LOGICAL_OR = "\u{27CF}";
 
     #[Info(id: 0x27D0, name: 'WHITE DIAMOND WITH CENTRED DOT', category: Cat::Math_Symbol)]
@@ -73,10 +73,10 @@ enum Miscellaneous_Mathematical_SymbolsA: string
     #[Info(id: 0x27D2, name: 'ELEMENT OF OPENING UPWARDS', category: Cat::Math_Symbol)]
     case ELEMENT_OF_OPENING_UPWARDS = "\u{27D2}";
 
-    #[Info(id: 0x27D3, name: 'LOWER RIGHT CORNER WITH DOT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D3, name: 'LOWER RIGHT CORNER WITH DOT', category: Cat::Math_Symbol, informativeAliases: ['pullback'])]
     case LOWER_RIGHT_CORNER_WITH_DOT = "\u{27D3}";
 
-    #[Info(id: 0x27D4, name: 'UPPER LEFT CORNER WITH DOT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D4, name: 'UPPER LEFT CORNER WITH DOT', category: Cat::Math_Symbol, informativeAliases: ['pushout'])]
     case UPPER_LEFT_CORNER_WITH_DOT = "\u{27D4}";
 
     #[Info(id: 0x27D5, name: 'LEFT OUTER JOIN', category: Cat::Math_Symbol)]
@@ -109,43 +109,43 @@ enum Miscellaneous_Mathematical_SymbolsA: string
     #[Info(id: 0x27DE, name: 'LONG LEFT TACK', category: Cat::Math_Symbol)]
     case LONG_LEFT_TACK = "\u{27DE}";
 
-    #[Info(id: 0x27DF, name: 'UP TACK WITH CIRCLE ABOVE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27DF, name: 'UP TACK WITH CIRCLE ABOVE', category: Cat::Math_Symbol, informativeAliases: ['radial component'])]
     case UP_TACK_WITH_CIRCLE_ABOVE = "\u{27DF}";
 
     #[Info(id: 0x27E0, name: 'LOZENGE DIVIDED BY HORIZONTAL RULE', category: Cat::Math_Symbol)]
     case LOZENGE_DIVIDED_BY_HORIZONTAL_RULE = "\u{27E0}";
 
-    #[Info(id: 0x27E1, name: 'WHITE CONCAVE-SIDED DIAMOND', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27E1, name: 'WHITE CONCAVE-SIDED DIAMOND', category: Cat::Math_Symbol, informativeAliases: ['never (modal operator)'])]
     case WHITE_CONCAVE_SIDED_DIAMOND = "\u{27E1}";
 
-    #[Info(id: 0x27E2, name: 'WHITE CONCAVE-SIDED DIAMOND WITH LEFTWARDS TICK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27E2, name: 'WHITE CONCAVE-SIDED DIAMOND WITH LEFTWARDS TICK', category: Cat::Math_Symbol, informativeAliases: ['was never (modal operator)'])]
     case WHITE_CONCAVE_SIDED_DIAMOND_WITH_LEFTWARDS_TICK = "\u{27E2}";
 
-    #[Info(id: 0x27E3, name: 'WHITE CONCAVE-SIDED DIAMOND WITH RIGHTWARDS TICK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27E3, name: 'WHITE CONCAVE-SIDED DIAMOND WITH RIGHTWARDS TICK', category: Cat::Math_Symbol, informativeAliases: ['will never be (modal operator)'])]
     case WHITE_CONCAVE_SIDED_DIAMOND_WITH_RIGHTWARDS_TICK = "\u{27E3}";
 
-    #[Info(id: 0x27E4, name: 'WHITE SQUARE WITH LEFTWARDS TICK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27E4, name: 'WHITE SQUARE WITH LEFTWARDS TICK', category: Cat::Math_Symbol, informativeAliases: ['was always (modal operator)'])]
     case WHITE_SQUARE_WITH_LEFTWARDS_TICK = "\u{27E4}";
 
-    #[Info(id: 0x27E5, name: 'WHITE SQUARE WITH RIGHTWARDS TICK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27E5, name: 'WHITE SQUARE WITH RIGHTWARDS TICK', category: Cat::Math_Symbol, informativeAliases: ['will always be (modal operator)'])]
     case WHITE_SQUARE_WITH_RIGHTWARDS_TICK = "\u{27E5}";
 
-    #[Info(id: 0x27E6, name: 'MATHEMATICAL LEFT WHITE SQUARE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x27E6, name: 'MATHEMATICAL LEFT WHITE SQUARE BRACKET', category: Cat::Open_Punctuation, informativeAliases: ['z notation left bag bracket'])]
     case MATHEMATICAL_LEFT_WHITE_SQUARE_BRACKET = "\u{27E6}";
 
-    #[Info(id: 0x27E7, name: 'MATHEMATICAL RIGHT WHITE SQUARE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x27E7, name: 'MATHEMATICAL RIGHT WHITE SQUARE BRACKET', category: Cat::Close_Punctuation, informativeAliases: ['z notation right bag bracket'])]
     case MATHEMATICAL_RIGHT_WHITE_SQUARE_BRACKET = "\u{27E7}";
 
-    #[Info(id: 0x27E8, name: 'MATHEMATICAL LEFT ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x27E8, name: 'MATHEMATICAL LEFT ANGLE BRACKET', category: Cat::Open_Punctuation, informativeAliases: ['bra', 'z notation left sequence bracket'])]
     case MATHEMATICAL_LEFT_ANGLE_BRACKET = "\u{27E8}";
 
-    #[Info(id: 0x27E9, name: 'MATHEMATICAL RIGHT ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x27E9, name: 'MATHEMATICAL RIGHT ANGLE BRACKET', category: Cat::Close_Punctuation, informativeAliases: ['ket', 'z notation right sequence bracket'])]
     case MATHEMATICAL_RIGHT_ANGLE_BRACKET = "\u{27E9}";
 
-    #[Info(id: 0x27EA, name: 'MATHEMATICAL LEFT DOUBLE ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x27EA, name: 'MATHEMATICAL LEFT DOUBLE ANGLE BRACKET', category: Cat::Open_Punctuation, informativeAliases: ['z notation left chevron bracket'])]
     case MATHEMATICAL_LEFT_DOUBLE_ANGLE_BRACKET = "\u{27EA}";
 
-    #[Info(id: 0x27EB, name: 'MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x27EB, name: 'MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET', category: Cat::Close_Punctuation, informativeAliases: ['z notation right chevron bracket'])]
     case MATHEMATICAL_RIGHT_DOUBLE_ANGLE_BRACKET = "\u{27EB}";
 
     #[Info(id: 0x27EC, name: 'MATHEMATICAL LEFT WHITE TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
@@ -154,9 +154,9 @@ enum Miscellaneous_Mathematical_SymbolsA: string
     #[Info(id: 0x27ED, name: 'MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
     case MATHEMATICAL_RIGHT_WHITE_TORTOISE_SHELL_BRACKET = "\u{27ED}";
 
-    #[Info(id: 0x27EE, name: 'MATHEMATICAL LEFT FLATTENED PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x27EE, name: 'MATHEMATICAL LEFT FLATTENED PARENTHESIS', category: Cat::Open_Punctuation, informativeAliases: ['lgroup'])]
     case MATHEMATICAL_LEFT_FLATTENED_PARENTHESIS = "\u{27EE}";
 
-    #[Info(id: 0x27EF, name: 'MATHEMATICAL RIGHT FLATTENED PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x27EF, name: 'MATHEMATICAL RIGHT FLATTENED PARENTHESIS', category: Cat::Close_Punctuation, informativeAliases: ['rgroup'])]
     case MATHEMATICAL_RIGHT_FLATTENED_PARENTHESIS = "\u{27EF}";
 }

@@ -19,7 +19,7 @@ enum Kana_Supplement: string
     #[Info(id: 0x1B000, name: 'KATAKANA LETTER ARCHAIC E', category: Cat::Other_Letter)]
     case KATAKANA_LETTER_ARCHAIC_E = "\u{1B000}";
 
-    #[Info(id: 0x1B001, name: 'HIRAGANA LETTER ARCHAIC YE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B001, name: 'HIRAGANA LETTER ARCHAIC YE', category: Cat::Other_Letter, correctedNames: ['HENTAIGANA LETTER E-1'])]
     case HIRAGANA_LETTER_ARCHAIC_YE = "\u{1B001}";
 
     #[Info(id: 0x1B002, name: 'HENTAIGANA LETTER A-1', category: Cat::Other_Letter)]

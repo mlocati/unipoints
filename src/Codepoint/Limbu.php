@@ -103,7 +103,7 @@ enum Limbu: string
     #[Info(id: 0x191C, name: 'LIMBU LETTER HA', category: Cat::Other_Letter)]
     case LIMBU_LETTER_HA = "\u{191C}";
 
-    #[Info(id: 0x191D, name: 'LIMBU LETTER GYAN', category: Cat::Other_Letter)]
+    #[Info(id: 0x191D, name: 'LIMBU LETTER GYAN', category: Cat::Other_Letter, informativeAliases: ['jnya'])]
     case LIMBU_LETTER_GYAN = "\u{191D}";
 
     #[Info(id: 0x191E, name: 'LIMBU LETTER TRA', category: Cat::Other_Letter)]

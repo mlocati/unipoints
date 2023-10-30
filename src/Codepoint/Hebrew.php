@@ -16,10 +16,10 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Hebrew: string
 {
-    #[Info(id: 0x591, name: 'HEBREW ACCENT ETNAHTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x591, name: 'HEBREW ACCENT ETNAHTA', category: Cat::Nonspacing_Mark, informativeAliases: ['atnah'])]
     case HEBREW_ACCENT_ETNAHTA = "\u{591}";
 
-    #[Info(id: 0x592, name: 'HEBREW ACCENT SEGOL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x592, name: 'HEBREW ACCENT SEGOL', category: Cat::Nonspacing_Mark, informativeAliases: ['segolta'])]
     case HEBREW_ACCENT_SEGOL = "\u{592}";
 
     #[Info(id: 0x593, name: 'HEBREW ACCENT SHALSHELET', category: Cat::Nonspacing_Mark)]
@@ -31,13 +31,13 @@ enum Hebrew: string
     #[Info(id: 0x595, name: 'HEBREW ACCENT ZAQEF GADOL', category: Cat::Nonspacing_Mark)]
     case HEBREW_ACCENT_ZAQEF_GADOL = "\u{595}";
 
-    #[Info(id: 0x596, name: 'HEBREW ACCENT TIPEHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x596, name: 'HEBREW ACCENT TIPEHA', category: Cat::Nonspacing_Mark, informativeAliases: ['tarha, me\'ayla ~ mayla'])]
     case HEBREW_ACCENT_TIPEHA = "\u{596}";
 
     #[Info(id: 0x597, name: 'HEBREW ACCENT REVIA', category: Cat::Nonspacing_Mark)]
     case HEBREW_ACCENT_REVIA = "\u{597}";
 
-    #[Info(id: 0x598, name: 'HEBREW ACCENT ZARQA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x598, name: 'HEBREW ACCENT ZARQA', category: Cat::Nonspacing_Mark, informativeAliases: ['tsinorit, zinorit; tsinor, zinor'])]
     case HEBREW_ACCENT_ZARQA = "\u{598}";
 
     #[Info(id: 0x599, name: 'HEBREW ACCENT PASHTA', category: Cat::Nonspacing_Mark)]
@@ -49,7 +49,7 @@ enum Hebrew: string
     #[Info(id: 0x59B, name: 'HEBREW ACCENT TEVIR', category: Cat::Nonspacing_Mark)]
     case HEBREW_ACCENT_TEVIR = "\u{59B}";
 
-    #[Info(id: 0x59C, name: 'HEBREW ACCENT GERESH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x59C, name: 'HEBREW ACCENT GERESH', category: Cat::Nonspacing_Mark, informativeAliases: ['teres'])]
     case HEBREW_ACCENT_GERESH = "\u{59C}";
 
     #[Info(id: 0x59D, name: 'HEBREW ACCENT GERESH MUQDAM', category: Cat::Nonspacing_Mark)]
@@ -58,13 +58,13 @@ enum Hebrew: string
     #[Info(id: 0x59E, name: 'HEBREW ACCENT GERSHAYIM', category: Cat::Nonspacing_Mark)]
     case HEBREW_ACCENT_GERSHAYIM = "\u{59E}";
 
-    #[Info(id: 0x59F, name: 'HEBREW ACCENT QARNEY PARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x59F, name: 'HEBREW ACCENT QARNEY PARA', category: Cat::Nonspacing_Mark, informativeAliases: ['pazer gadol'])]
     case HEBREW_ACCENT_QARNEY_PARA = "\u{59F}";
 
     #[Info(id: 0x5A0, name: 'HEBREW ACCENT TELISHA GEDOLA', category: Cat::Nonspacing_Mark)]
     case HEBREW_ACCENT_TELISHA_GEDOLA = "\u{5A0}";
 
-    #[Info(id: 0x5A1, name: 'HEBREW ACCENT PAZER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x5A1, name: 'HEBREW ACCENT PAZER', category: Cat::Nonspacing_Mark, informativeAliases: ['pazer qatan'])]
     case HEBREW_ACCENT_PAZER = "\u{5A1}";
 
     #[Info(id: 0x5A2, name: 'HEBREW ACCENT ATNAH HAFUKH', category: Cat::Nonspacing_Mark)]
@@ -76,7 +76,7 @@ enum Hebrew: string
     #[Info(id: 0x5A4, name: 'HEBREW ACCENT MAHAPAKH', category: Cat::Nonspacing_Mark)]
     case HEBREW_ACCENT_MAHAPAKH = "\u{5A4}";
 
-    #[Info(id: 0x5A5, name: 'HEBREW ACCENT MERKHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x5A5, name: 'HEBREW ACCENT MERKHA', category: Cat::Nonspacing_Mark, informativeAliases: ['yored'])]
     case HEBREW_ACCENT_MERKHA = "\u{5A5}";
 
     #[Info(id: 0x5A6, name: 'HEBREW ACCENT MERKHA KEFULA', category: Cat::Nonspacing_Mark)]
@@ -85,13 +85,13 @@ enum Hebrew: string
     #[Info(id: 0x5A7, name: 'HEBREW ACCENT DARGA', category: Cat::Nonspacing_Mark)]
     case HEBREW_ACCENT_DARGA = "\u{5A7}";
 
-    #[Info(id: 0x5A8, name: 'HEBREW ACCENT QADMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x5A8, name: 'HEBREW ACCENT QADMA', category: Cat::Nonspacing_Mark, informativeAliases: ['azla'])]
     case HEBREW_ACCENT_QADMA = "\u{5A8}";
 
     #[Info(id: 0x5A9, name: 'HEBREW ACCENT TELISHA QETANA', category: Cat::Nonspacing_Mark)]
     case HEBREW_ACCENT_TELISHA_QETANA = "\u{5A9}";
 
-    #[Info(id: 0x5AA, name: 'HEBREW ACCENT YERAH BEN YOMO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x5AA, name: 'HEBREW ACCENT YERAH BEN YOMO', category: Cat::Nonspacing_Mark, informativeAliases: ['galgal'])]
     case HEBREW_ACCENT_YERAH_BEN_YOMO = "\u{5AA}";
 
     #[Info(id: 0x5AB, name: 'HEBREW ACCENT OLE', category: Cat::Nonspacing_Mark)]
@@ -103,7 +103,7 @@ enum Hebrew: string
     #[Info(id: 0x5AD, name: 'HEBREW ACCENT DEHI', category: Cat::Nonspacing_Mark)]
     case HEBREW_ACCENT_DEHI = "\u{5AD}";
 
-    #[Info(id: 0x5AE, name: 'HEBREW ACCENT ZINOR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x5AE, name: 'HEBREW ACCENT ZINOR', category: Cat::Nonspacing_Mark, informativeAliases: ['tsinor; zarqa'])]
     case HEBREW_ACCENT_ZINOR = "\u{5AE}";
 
     #[Info(id: 0x5AF, name: 'HEBREW MARK MASORA CIRCLE', category: Cat::Nonspacing_Mark)]
@@ -145,10 +145,10 @@ enum Hebrew: string
     #[Info(id: 0x5BB, name: 'HEBREW POINT QUBUTS', category: Cat::Nonspacing_Mark)]
     case HEBREW_POINT_QUBUTS = "\u{5BB}";
 
-    #[Info(id: 0x5BC, name: 'HEBREW POINT DAGESH OR MAPIQ', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x5BC, name: 'HEBREW POINT DAGESH OR MAPIQ', category: Cat::Nonspacing_Mark, unicode1Name: 'HEBREW POINT DAGESH', informativeAliases: ['shuruq'])]
     case HEBREW_POINT_DAGESH_OR_MAPIQ = "\u{5BC}";
 
-    #[Info(id: 0x5BD, name: 'HEBREW POINT METEG', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x5BD, name: 'HEBREW POINT METEG', category: Cat::Nonspacing_Mark, informativeAliases: ['siluq'])]
     case HEBREW_POINT_METEG = "\u{5BD}";
 
     #[Info(id: 0x5BE, name: 'HEBREW PUNCTUATION MAQAF', category: Cat::Dash_Punctuation)]
@@ -157,7 +157,7 @@ enum Hebrew: string
     #[Info(id: 0x5BF, name: 'HEBREW POINT RAFE', category: Cat::Nonspacing_Mark)]
     case HEBREW_POINT_RAFE = "\u{5BF}";
 
-    #[Info(id: 0x5C0, name: 'HEBREW PUNCTUATION PASEQ', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x5C0, name: 'HEBREW PUNCTUATION PASEQ', category: Cat::Other_Punctuation, unicode1Name: 'HEBREW POINT PASEQ', informativeAliases: ['legarmeh'])]
     case HEBREW_PUNCTUATION_PASEQ = "\u{5C0}";
 
     #[Info(id: 0x5C1, name: 'HEBREW POINT SHIN DOT', category: Cat::Nonspacing_Mark)]
@@ -181,7 +181,7 @@ enum Hebrew: string
     #[Info(id: 0x5C7, name: 'HEBREW POINT QAMATS QATAN', category: Cat::Nonspacing_Mark)]
     case HEBREW_POINT_QAMATS_QATAN = "\u{5C7}";
 
-    #[Info(id: 0x5D0, name: 'HEBREW LETTER ALEF', category: Cat::Other_Letter)]
+    #[Info(id: 0x5D0, name: 'HEBREW LETTER ALEF', category: Cat::Other_Letter, informativeAliases: ['aleph'])]
     case HEBREW_LETTER_ALEF = "\u{5D0}";
 
     #[Info(id: 0x5D1, name: 'HEBREW LETTER BET', category: Cat::Other_Letter)]
@@ -247,7 +247,7 @@ enum Hebrew: string
     #[Info(id: 0x5E5, name: 'HEBREW LETTER FINAL TSADI', category: Cat::Other_Letter)]
     case HEBREW_LETTER_FINAL_TSADI = "\u{5E5}";
 
-    #[Info(id: 0x5E6, name: 'HEBREW LETTER TSADI', category: Cat::Other_Letter)]
+    #[Info(id: 0x5E6, name: 'HEBREW LETTER TSADI', category: Cat::Other_Letter, informativeAliases: ['zade'])]
     case HEBREW_LETTER_TSADI = "\u{5E6}";
 
     #[Info(id: 0x5E7, name: 'HEBREW LETTER QOF', category: Cat::Other_Letter)]
@@ -265,13 +265,13 @@ enum Hebrew: string
     #[Info(id: 0x5EF, name: 'HEBREW YOD TRIANGLE', category: Cat::Other_Letter)]
     case HEBREW_YOD_TRIANGLE = "\u{5EF}";
 
-    #[Info(id: 0x5F0, name: 'HEBREW LIGATURE YIDDISH DOUBLE VAV', category: Cat::Other_Letter)]
+    #[Info(id: 0x5F0, name: 'HEBREW LIGATURE YIDDISH DOUBLE VAV', category: Cat::Other_Letter, unicode1Name: 'HEBREW LETTER DOUBLE VAV', informativeAliases: ['tsvey vovn'])]
     case HEBREW_LIGATURE_YIDDISH_DOUBLE_VAV = "\u{5F0}";
 
-    #[Info(id: 0x5F1, name: 'HEBREW LIGATURE YIDDISH VAV YOD', category: Cat::Other_Letter)]
+    #[Info(id: 0x5F1, name: 'HEBREW LIGATURE YIDDISH VAV YOD', category: Cat::Other_Letter, unicode1Name: 'HEBREW LETTER VAV YOD')]
     case HEBREW_LIGATURE_YIDDISH_VAV_YOD = "\u{5F1}";
 
-    #[Info(id: 0x5F2, name: 'HEBREW LIGATURE YIDDISH DOUBLE YOD', category: Cat::Other_Letter)]
+    #[Info(id: 0x5F2, name: 'HEBREW LIGATURE YIDDISH DOUBLE YOD', category: Cat::Other_Letter, unicode1Name: 'HEBREW LETTER DOUBLE YOD', informativeAliases: ['tsvey yudn'])]
     case HEBREW_LIGATURE_YIDDISH_DOUBLE_YOD = "\u{5F2}";
 
     #[Info(id: 0x5F3, name: 'HEBREW PUNCTUATION GERESH', category: Cat::Other_Punctuation)]

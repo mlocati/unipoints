@@ -181,7 +181,7 @@ enum Myanmar: string
     #[Info(id: 0x1036, name: 'MYANMAR SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case MYANMAR_SIGN_ANUSVARA = "\u{1036}";
 
-    #[Info(id: 0x1037, name: 'MYANMAR SIGN DOT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1037, name: 'MYANMAR SIGN DOT BELOW', category: Cat::Nonspacing_Mark, informativeAliases: ['aukmyit'])]
     case MYANMAR_SIGN_DOT_BELOW = "\u{1037}";
 
     #[Info(id: 0x1038, name: 'MYANMAR SIGN VISARGA', category: Cat::Spacing_Mark)]
@@ -190,7 +190,7 @@ enum Myanmar: string
     #[Info(id: 0x1039, name: 'MYANMAR SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case MYANMAR_SIGN_VIRAMA = "\u{1039}";
 
-    #[Info(id: 0x103A, name: 'MYANMAR SIGN ASAT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x103A, name: 'MYANMAR SIGN ASAT', category: Cat::Nonspacing_Mark, informativeAliases: ['killer (always rendered visibly)'])]
     case MYANMAR_SIGN_ASAT = "\u{103A}";
 
     #[Info(id: 0x103B, name: 'MYANMAR CONSONANT SIGN MEDIAL YA', category: Cat::Spacing_Mark)]

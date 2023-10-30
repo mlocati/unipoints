@@ -82,10 +82,10 @@ enum Medefaidrin: string
     #[Info(id: 0x16E55, name: 'MEDEFAIDRIN CAPITAL LETTER Q', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_Q = "\u{16E55}";
 
-    #[Info(id: 0x16E56, name: 'MEDEFAIDRIN CAPITAL LETTER HP', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E56, name: 'MEDEFAIDRIN CAPITAL LETTER HP', category: Cat::Uppercase_Letter, correctedNames: ['MEDEFAIDRIN CAPITAL LETTER H'])]
     case MEDEFAIDRIN_CAPITAL_LETTER_HP = "\u{16E56}";
 
-    #[Info(id: 0x16E57, name: 'MEDEFAIDRIN CAPITAL LETTER NY', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E57, name: 'MEDEFAIDRIN CAPITAL LETTER NY', category: Cat::Uppercase_Letter, correctedNames: ['MEDEFAIDRIN CAPITAL LETTER NG'])]
     case MEDEFAIDRIN_CAPITAL_LETTER_NY = "\u{16E57}";
 
     #[Info(id: 0x16E58, name: 'MEDEFAIDRIN CAPITAL LETTER X', category: Cat::Uppercase_Letter)]
@@ -178,10 +178,10 @@ enum Medefaidrin: string
     #[Info(id: 0x16E75, name: 'MEDEFAIDRIN SMALL LETTER Q', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_Q = "\u{16E75}";
 
-    #[Info(id: 0x16E76, name: 'MEDEFAIDRIN SMALL LETTER HP', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E76, name: 'MEDEFAIDRIN SMALL LETTER HP', category: Cat::Lowercase_Letter, correctedNames: ['MEDEFAIDRIN SMALL LETTER H'])]
     case MEDEFAIDRIN_SMALL_LETTER_HP = "\u{16E76}";
 
-    #[Info(id: 0x16E77, name: 'MEDEFAIDRIN SMALL LETTER NY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E77, name: 'MEDEFAIDRIN SMALL LETTER NY', category: Cat::Lowercase_Letter, correctedNames: ['MEDEFAIDRIN SMALL LETTER NG'])]
     case MEDEFAIDRIN_SMALL_LETTER_NY = "\u{16E77}";
 
     #[Info(id: 0x16E78, name: 'MEDEFAIDRIN SMALL LETTER X', category: Cat::Lowercase_Letter)]

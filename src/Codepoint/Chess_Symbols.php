@@ -109,7 +109,7 @@ enum Chess_Symbols: string
     #[Info(id: 0x1FA1E, name: 'WHITE CHESS TURNED KING', category: Cat::Other_Symbol)]
     case WHITE_CHESS_TURNED_KING = "\u{1FA1E}";
 
-    #[Info(id: 0x1FA1F, name: 'WHITE CHESS TURNED QUEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA1F, name: 'WHITE CHESS TURNED QUEEN', category: Cat::Other_Symbol, informativeAliases: ['white grasshopper'])]
     case WHITE_CHESS_TURNED_QUEEN = "\u{1FA1F}";
 
     #[Info(id: 0x1FA20, name: 'WHITE CHESS TURNED ROOK', category: Cat::Other_Symbol)]
@@ -118,7 +118,7 @@ enum Chess_Symbols: string
     #[Info(id: 0x1FA21, name: 'WHITE CHESS TURNED BISHOP', category: Cat::Other_Symbol)]
     case WHITE_CHESS_TURNED_BISHOP = "\u{1FA21}";
 
-    #[Info(id: 0x1FA22, name: 'WHITE CHESS TURNED KNIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA22, name: 'WHITE CHESS TURNED KNIGHT', category: Cat::Other_Symbol, informativeAliases: ['white nightrider'])]
     case WHITE_CHESS_TURNED_KNIGHT = "\u{1FA22}";
 
     #[Info(id: 0x1FA23, name: 'WHITE CHESS TURNED PAWN', category: Cat::Other_Symbol)]
@@ -127,7 +127,7 @@ enum Chess_Symbols: string
     #[Info(id: 0x1FA24, name: 'BLACK CHESS TURNED KING', category: Cat::Other_Symbol)]
     case BLACK_CHESS_TURNED_KING = "\u{1FA24}";
 
-    #[Info(id: 0x1FA25, name: 'BLACK CHESS TURNED QUEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA25, name: 'BLACK CHESS TURNED QUEEN', category: Cat::Other_Symbol, informativeAliases: ['black grasshopper'])]
     case BLACK_CHESS_TURNED_QUEEN = "\u{1FA25}";
 
     #[Info(id: 0x1FA26, name: 'BLACK CHESS TURNED ROOK', category: Cat::Other_Symbol)]
@@ -136,7 +136,7 @@ enum Chess_Symbols: string
     #[Info(id: 0x1FA27, name: 'BLACK CHESS TURNED BISHOP', category: Cat::Other_Symbol)]
     case BLACK_CHESS_TURNED_BISHOP = "\u{1FA27}";
 
-    #[Info(id: 0x1FA28, name: 'BLACK CHESS TURNED KNIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA28, name: 'BLACK CHESS TURNED KNIGHT', category: Cat::Other_Symbol, informativeAliases: ['black nightrider'])]
     case BLACK_CHESS_TURNED_KNIGHT = "\u{1FA28}";
 
     #[Info(id: 0x1FA29, name: 'BLACK CHESS TURNED PAWN', category: Cat::Other_Symbol)]
@@ -145,7 +145,7 @@ enum Chess_Symbols: string
     #[Info(id: 0x1FA2A, name: 'NEUTRAL CHESS TURNED KING', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_TURNED_KING = "\u{1FA2A}";
 
-    #[Info(id: 0x1FA2B, name: 'NEUTRAL CHESS TURNED QUEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA2B, name: 'NEUTRAL CHESS TURNED QUEEN', category: Cat::Other_Symbol, informativeAliases: ['neutral grasshopper'])]
     case NEUTRAL_CHESS_TURNED_QUEEN = "\u{1FA2B}";
 
     #[Info(id: 0x1FA2C, name: 'NEUTRAL CHESS TURNED ROOK', category: Cat::Other_Symbol)]
@@ -154,7 +154,7 @@ enum Chess_Symbols: string
     #[Info(id: 0x1FA2D, name: 'NEUTRAL CHESS TURNED BISHOP', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_TURNED_BISHOP = "\u{1FA2D}";
 
-    #[Info(id: 0x1FA2E, name: 'NEUTRAL CHESS TURNED KNIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA2E, name: 'NEUTRAL CHESS TURNED KNIGHT', category: Cat::Other_Symbol, informativeAliases: ['neutral nightrider'])]
     case NEUTRAL_CHESS_TURNED_KNIGHT = "\u{1FA2E}";
 
     #[Info(id: 0x1FA2F, name: 'NEUTRAL CHESS TURNED PAWN', category: Cat::Other_Symbol)]
@@ -250,13 +250,13 @@ enum Chess_Symbols: string
     #[Info(id: 0x1FA4D, name: 'NEUTRAL CHESS EQUIHOPPER ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_EQUIHOPPER_ROTATED_NINETY_DEGREES = "\u{1FA4D}";
 
-    #[Info(id: 0x1FA4E, name: 'WHITE CHESS KNIGHT-QUEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA4E, name: 'WHITE CHESS KNIGHT-QUEEN', category: Cat::Other_Symbol, informativeAliases: ['amazon, terror, omnipotent queen, superqueen'])]
     case WHITE_CHESS_KNIGHT_QUEEN = "\u{1FA4E}";
 
-    #[Info(id: 0x1FA4F, name: 'WHITE CHESS KNIGHT-ROOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA4F, name: 'WHITE CHESS KNIGHT-ROOK', category: Cat::Other_Symbol, informativeAliases: ['chancellor, marshall, empress'])]
     case WHITE_CHESS_KNIGHT_ROOK = "\u{1FA4F}";
 
-    #[Info(id: 0x1FA50, name: 'WHITE CHESS KNIGHT-BISHOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA50, name: 'WHITE CHESS KNIGHT-BISHOP', category: Cat::Other_Symbol, informativeAliases: ['cardinal, princess'])]
     case WHITE_CHESS_KNIGHT_BISHOP = "\u{1FA50}";
 
     #[Info(id: 0x1FA51, name: 'BLACK CHESS KNIGHT-QUEEN', category: Cat::Other_Symbol)]
@@ -268,45 +268,45 @@ enum Chess_Symbols: string
     #[Info(id: 0x1FA53, name: 'BLACK CHESS KNIGHT-BISHOP', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KNIGHT_BISHOP = "\u{1FA53}";
 
-    #[Info(id: 0x1FA60, name: 'XIANGQI RED GENERAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA60, name: 'XIANGQI RED GENERAL', category: Cat::Other_Symbol, informativeAliases: ['hóng shuài'])]
     case XIANGQI_RED_GENERAL = "\u{1FA60}";
 
-    #[Info(id: 0x1FA61, name: 'XIANGQI RED MANDARIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA61, name: 'XIANGQI RED MANDARIN', category: Cat::Other_Symbol, informativeAliases: ['hóng shì'])]
     case XIANGQI_RED_MANDARIN = "\u{1FA61}";
 
-    #[Info(id: 0x1FA62, name: 'XIANGQI RED ELEPHANT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA62, name: 'XIANGQI RED ELEPHANT', category: Cat::Other_Symbol, informativeAliases: ['hóng xiàng'])]
     case XIANGQI_RED_ELEPHANT = "\u{1FA62}";
 
-    #[Info(id: 0x1FA63, name: 'XIANGQI RED HORSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA63, name: 'XIANGQI RED HORSE', category: Cat::Other_Symbol, informativeAliases: ['hóng mǎ'])]
     case XIANGQI_RED_HORSE = "\u{1FA63}";
 
-    #[Info(id: 0x1FA64, name: 'XIANGQI RED CHARIOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA64, name: 'XIANGQI RED CHARIOT', category: Cat::Other_Symbol, informativeAliases: ['hóng jū'])]
     case XIANGQI_RED_CHARIOT = "\u{1FA64}";
 
-    #[Info(id: 0x1FA65, name: 'XIANGQI RED CANNON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA65, name: 'XIANGQI RED CANNON', category: Cat::Other_Symbol, informativeAliases: ['hóng pào'])]
     case XIANGQI_RED_CANNON = "\u{1FA65}";
 
-    #[Info(id: 0x1FA66, name: 'XIANGQI RED SOLDIER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA66, name: 'XIANGQI RED SOLDIER', category: Cat::Other_Symbol, informativeAliases: ['hóng bīng'])]
     case XIANGQI_RED_SOLDIER = "\u{1FA66}";
 
-    #[Info(id: 0x1FA67, name: 'XIANGQI BLACK GENERAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA67, name: 'XIANGQI BLACK GENERAL', category: Cat::Other_Symbol, informativeAliases: ['hēi jiàng'])]
     case XIANGQI_BLACK_GENERAL = "\u{1FA67}";
 
-    #[Info(id: 0x1FA68, name: 'XIANGQI BLACK MANDARIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA68, name: 'XIANGQI BLACK MANDARIN', category: Cat::Other_Symbol, informativeAliases: ['hēi shì'])]
     case XIANGQI_BLACK_MANDARIN = "\u{1FA68}";
 
-    #[Info(id: 0x1FA69, name: 'XIANGQI BLACK ELEPHANT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA69, name: 'XIANGQI BLACK ELEPHANT', category: Cat::Other_Symbol, informativeAliases: ['hēi xiàng'])]
     case XIANGQI_BLACK_ELEPHANT = "\u{1FA69}";
 
-    #[Info(id: 0x1FA6A, name: 'XIANGQI BLACK HORSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA6A, name: 'XIANGQI BLACK HORSE', category: Cat::Other_Symbol, informativeAliases: ['hēi mǎ'])]
     case XIANGQI_BLACK_HORSE = "\u{1FA6A}";
 
-    #[Info(id: 0x1FA6B, name: 'XIANGQI BLACK CHARIOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA6B, name: 'XIANGQI BLACK CHARIOT', category: Cat::Other_Symbol, informativeAliases: ['hēi jū'])]
     case XIANGQI_BLACK_CHARIOT = "\u{1FA6B}";
 
-    #[Info(id: 0x1FA6C, name: 'XIANGQI BLACK CANNON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA6C, name: 'XIANGQI BLACK CANNON', category: Cat::Other_Symbol, informativeAliases: ['hēi pào'])]
     case XIANGQI_BLACK_CANNON = "\u{1FA6C}";
 
-    #[Info(id: 0x1FA6D, name: 'XIANGQI BLACK SOLDIER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA6D, name: 'XIANGQI BLACK SOLDIER', category: Cat::Other_Symbol, informativeAliases: ['hēi zú'])]
     case XIANGQI_BLACK_SOLDIER = "\u{1FA6D}";
 }

@@ -121,7 +121,7 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F922, name: 'NAUSEATED FACE', category: Cat::Other_Symbol)]
     case NAUSEATED_FACE = "\u{1F922}";
 
-    #[Info(id: 0x1F923, name: 'ROLLING ON THE FLOOR LAUGHING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F923, name: 'ROLLING ON THE FLOOR LAUGHING', category: Cat::Other_Symbol, informativeAliases: ['rofl, rotfl'])]
     case ROLLING_ON_THE_FLOOR_LAUGHING = "\u{1F923}";
 
     #[Info(id: 0x1F924, name: 'DROOLING FACE', category: Cat::Other_Symbol)]
@@ -130,10 +130,10 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F925, name: 'LYING FACE', category: Cat::Other_Symbol)]
     case LYING_FACE = "\u{1F925}";
 
-    #[Info(id: 0x1F926, name: 'FACE PALM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F926, name: 'FACE PALM', category: Cat::Other_Symbol, informativeAliases: ['frustration, disbelief'])]
     case FACE_PALM = "\u{1F926}";
 
-    #[Info(id: 0x1F927, name: 'SNEEZING FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F927, name: 'SNEEZING FACE', category: Cat::Other_Symbol, informativeAliases: ['Gesundheit'])]
     case SNEEZING_FACE = "\u{1F927}";
 
     #[Info(id: 0x1F928, name: 'FACE WITH ONE EYEBROW RAISED', category: Cat::Other_Symbol)]
@@ -178,25 +178,25 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F935, name: 'MAN IN TUXEDO', category: Cat::Other_Symbol)]
     case MAN_IN_TUXEDO = "\u{1F935}";
 
-    #[Info(id: 0x1F936, name: 'MOTHER CHRISTMAS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F936, name: 'MOTHER CHRISTMAS', category: Cat::Other_Symbol, informativeAliases: ['Mrs. Claus'])]
     case MOTHER_CHRISTMAS = "\u{1F936}";
 
     #[Info(id: 0x1F937, name: 'SHRUG', category: Cat::Other_Symbol)]
     case SHRUG = "\u{1F937}";
 
-    #[Info(id: 0x1F938, name: 'PERSON DOING CARTWHEEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F938, name: 'PERSON DOING CARTWHEEL', category: Cat::Other_Symbol, informativeAliases: ['gymnastics'])]
     case PERSON_DOING_CARTWHEEL = "\u{1F938}";
 
     #[Info(id: 0x1F939, name: 'JUGGLING', category: Cat::Other_Symbol)]
     case JUGGLING = "\u{1F939}";
 
-    #[Info(id: 0x1F93A, name: 'FENCER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F93A, name: 'FENCER', category: Cat::Other_Symbol, informativeAliases: ['fencing'])]
     case FENCER = "\u{1F93A}";
 
     #[Info(id: 0x1F93B, name: 'MODERN PENTATHLON', category: Cat::Other_Symbol)]
     case MODERN_PENTATHLON = "\u{1F93B}";
 
-    #[Info(id: 0x1F93C, name: 'WRESTLERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F93C, name: 'WRESTLERS', category: Cat::Other_Symbol, informativeAliases: ['wrestling'])]
     case WRESTLERS = "\u{1F93C}";
 
     #[Info(id: 0x1F93D, name: 'WATER POLO', category: Cat::Other_Symbol)]
@@ -214,10 +214,10 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F941, name: 'DRUM WITH DRUMSTICKS', category: Cat::Other_Symbol)]
     case DRUM_WITH_DRUMSTICKS = "\u{1F941}";
 
-    #[Info(id: 0x1F942, name: 'CLINKING GLASSES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F942, name: 'CLINKING GLASSES', category: Cat::Other_Symbol, informativeAliases: ['celebration, formal toasting'])]
     case CLINKING_GLASSES = "\u{1F942}";
 
-    #[Info(id: 0x1F943, name: 'TUMBLER GLASS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F943, name: 'TUMBLER GLASS', category: Cat::Other_Symbol, informativeAliases: ['whisky'])]
     case TUMBLER_GLASS = "\u{1F943}";
 
     #[Info(id: 0x1F944, name: 'SPOON', category: Cat::Other_Symbol)]
@@ -226,22 +226,22 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F945, name: 'GOAL NET', category: Cat::Other_Symbol)]
     case GOAL_NET = "\u{1F945}";
 
-    #[Info(id: 0x1F946, name: 'RIFLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F946, name: 'RIFLE', category: Cat::Other_Symbol, informativeAliases: ['marksmanship, shooting, hunting'])]
     case RIFLE = "\u{1F946}";
 
-    #[Info(id: 0x1F947, name: 'FIRST PLACE MEDAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F947, name: 'FIRST PLACE MEDAL', category: Cat::Other_Symbol, informativeAliases: ['gold medal'])]
     case FIRST_PLACE_MEDAL = "\u{1F947}";
 
-    #[Info(id: 0x1F948, name: 'SECOND PLACE MEDAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F948, name: 'SECOND PLACE MEDAL', category: Cat::Other_Symbol, informativeAliases: ['silver medal'])]
     case SECOND_PLACE_MEDAL = "\u{1F948}";
 
-    #[Info(id: 0x1F949, name: 'THIRD PLACE MEDAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F949, name: 'THIRD PLACE MEDAL', category: Cat::Other_Symbol, informativeAliases: ['bronze medal'])]
     case THIRD_PLACE_MEDAL = "\u{1F949}";
 
-    #[Info(id: 0x1F94A, name: 'BOXING GLOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F94A, name: 'BOXING GLOVE', category: Cat::Other_Symbol, informativeAliases: ['boxing'])]
     case BOXING_GLOVE = "\u{1F94A}";
 
-    #[Info(id: 0x1F94B, name: 'MARTIAL ARTS UNIFORM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F94B, name: 'MARTIAL ARTS UNIFORM', category: Cat::Other_Symbol, informativeAliases: ['judo, karate, taekwondo'])]
     case MARTIAL_ARTS_UNIFORM = "\u{1F94B}";
 
     #[Info(id: 0x1F94C, name: 'CURLING STONE', category: Cat::Other_Symbol)]
@@ -262,7 +262,7 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F951, name: 'AVOCADO', category: Cat::Other_Symbol)]
     case AVOCADO = "\u{1F951}";
 
-    #[Info(id: 0x1F952, name: 'CUCUMBER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F952, name: 'CUCUMBER', category: Cat::Other_Symbol, informativeAliases: ['pickle'])]
     case CUCUMBER = "\u{1F952}";
 
     #[Info(id: 0x1F953, name: 'BACON', category: Cat::Other_Symbol)]
@@ -274,22 +274,22 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F955, name: 'CARROT', category: Cat::Other_Symbol)]
     case CARROT = "\u{1F955}";
 
-    #[Info(id: 0x1F956, name: 'BAGUETTE BREAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F956, name: 'BAGUETTE BREAD', category: Cat::Other_Symbol, informativeAliases: ['French bread'])]
     case BAGUETTE_BREAD = "\u{1F956}";
 
     #[Info(id: 0x1F957, name: 'GREEN SALAD', category: Cat::Other_Symbol)]
     case GREEN_SALAD = "\u{1F957}";
 
-    #[Info(id: 0x1F958, name: 'SHALLOW PAN OF FOOD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F958, name: 'SHALLOW PAN OF FOOD', category: Cat::Other_Symbol, informativeAliases: ['paella, casserole'])]
     case SHALLOW_PAN_OF_FOOD = "\u{1F958}";
 
-    #[Info(id: 0x1F959, name: 'STUFFED FLATBREAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F959, name: 'STUFFED FLATBREAD', category: Cat::Other_Symbol, informativeAliases: ['döner kebab, falafel, gyro, shawarma'])]
     case STUFFED_FLATBREAD = "\u{1F959}";
 
-    #[Info(id: 0x1F95A, name: 'EGG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F95A, name: 'EGG', category: Cat::Other_Symbol, informativeAliases: ['chicken egg'])]
     case EGG = "\u{1F95A}";
 
-    #[Info(id: 0x1F95B, name: 'GLASS OF MILK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F95B, name: 'GLASS OF MILK', category: Cat::Other_Symbol, informativeAliases: ['milk'])]
     case GLASS_OF_MILK = "\u{1F95B}";
 
     #[Info(id: 0x1F95C, name: 'PEANUTS', category: Cat::Other_Symbol)]
@@ -298,19 +298,19 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F95D, name: 'KIWIFRUIT', category: Cat::Other_Symbol)]
     case KIWIFRUIT = "\u{1F95D}";
 
-    #[Info(id: 0x1F95E, name: 'PANCAKES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F95E, name: 'PANCAKES', category: Cat::Other_Symbol, informativeAliases: ['hotcakes, crêpes, blini'])]
     case PANCAKES = "\u{1F95E}";
 
-    #[Info(id: 0x1F95F, name: 'DUMPLING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F95F, name: 'DUMPLING', category: Cat::Other_Symbol, informativeAliases: ['potsticker, gyooza, jiaozi, pierogi, empanada'])]
     case DUMPLING = "\u{1F95F}";
 
     #[Info(id: 0x1F960, name: 'FORTUNE COOKIE', category: Cat::Other_Symbol)]
     case FORTUNE_COOKIE = "\u{1F960}";
 
-    #[Info(id: 0x1F961, name: 'TAKEOUT BOX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F961, name: 'TAKEOUT BOX', category: Cat::Other_Symbol, informativeAliases: ['take-away box, oyster pail'])]
     case TAKEOUT_BOX = "\u{1F961}";
 
-    #[Info(id: 0x1F962, name: 'CHOPSTICKS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F962, name: 'CHOPSTICKS', category: Cat::Other_Symbol, informativeAliases: ['kuaizi, hashi, jeotgarak'])]
     case CHOPSTICKS = "\u{1F962}";
 
     #[Info(id: 0x1F963, name: 'BOWL WITH SPOON', category: Cat::Other_Symbol)]
@@ -331,7 +331,7 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F968, name: 'PRETZEL', category: Cat::Other_Symbol)]
     case PRETZEL = "\u{1F968}";
 
-    #[Info(id: 0x1F969, name: 'CUT OF MEAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F969, name: 'CUT OF MEAT', category: Cat::Other_Symbol, informativeAliases: ['porkchop, chop, steak'])]
     case CUT_OF_MEAT = "\u{1F969}";
 
     #[Info(id: 0x1F96A, name: 'SANDWICH', category: Cat::Other_Symbol)]
@@ -466,7 +466,7 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F995, name: 'SAUROPOD', category: Cat::Other_Symbol)]
     case SAUROPOD = "\u{1F995}";
 
-    #[Info(id: 0x1F996, name: 'T-REX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F996, name: 'T-REX', category: Cat::Other_Symbol, informativeAliases: ['Tyrannosaurus rex'])]
     case T_REX = "\u{1F996}";
 
     #[Info(id: 0x1F997, name: 'CRICKET', category: Cat::Other_Symbol)]
@@ -655,19 +655,19 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F9D4, name: 'BEARDED PERSON', category: Cat::Other_Symbol)]
     case BEARDED_PERSON = "\u{1F9D4}";
 
-    #[Info(id: 0x1F9D5, name: 'PERSON WITH HEADSCARF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F9D5, name: 'PERSON WITH HEADSCARF', category: Cat::Other_Symbol, informativeAliases: ['woman\'s headscarf, hijab'])]
     case PERSON_WITH_HEADSCARF = "\u{1F9D5}";
 
-    #[Info(id: 0x1F9D6, name: 'PERSON IN STEAMY ROOM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F9D6, name: 'PERSON IN STEAMY ROOM', category: Cat::Other_Symbol, informativeAliases: ['sauna, steam room'])]
     case PERSON_IN_STEAMY_ROOM = "\u{1F9D6}";
 
     #[Info(id: 0x1F9D7, name: 'PERSON CLIMBING', category: Cat::Other_Symbol)]
     case PERSON_CLIMBING = "\u{1F9D7}";
 
-    #[Info(id: 0x1F9D8, name: 'PERSON IN LOTUS POSITION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F9D8, name: 'PERSON IN LOTUS POSITION', category: Cat::Other_Symbol, informativeAliases: ['yoga, meditation'])]
     case PERSON_IN_LOTUS_POSITION = "\u{1F9D8}";
 
-    #[Info(id: 0x1F9D9, name: 'MAGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F9D9, name: 'MAGE', category: Cat::Other_Symbol, informativeAliases: ['wizard, witch, sorcerer, sorceress'])]
     case MAGE = "\u{1F9D9}";
 
     #[Info(id: 0x1F9DA, name: 'FAIRY', category: Cat::Other_Symbol)]
@@ -676,7 +676,7 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F9DB, name: 'VAMPIRE', category: Cat::Other_Symbol)]
     case VAMPIRE = "\u{1F9DB}";
 
-    #[Info(id: 0x1F9DC, name: 'MERPERSON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F9DC, name: 'MERPERSON', category: Cat::Other_Symbol, informativeAliases: ['mermaid, merman'])]
     case MERPERSON = "\u{1F9DC}";
 
     #[Info(id: 0x1F9DD, name: 'ELF', category: Cat::Other_Symbol)]
@@ -694,7 +694,7 @@ enum Supplemental_Symbols_and_Pictographs: string
     #[Info(id: 0x1F9E1, name: 'ORANGE HEART', category: Cat::Other_Symbol)]
     case ORANGE_HEART = "\u{1F9E1}";
 
-    #[Info(id: 0x1F9E2, name: 'BILLED CAP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F9E2, name: 'BILLED CAP', category: Cat::Other_Symbol, informativeAliases: ['baseball cap'])]
     case BILLED_CAP = "\u{1F9E2}";
 
     #[Info(id: 0x1F9E3, name: 'SCARF', category: Cat::Other_Symbol)]

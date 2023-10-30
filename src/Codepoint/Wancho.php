@@ -190,6 +190,6 @@ enum Wancho: string
     #[Info(id: 0x1E2F9, name: 'WANCHO DIGIT NINE', category: Cat::Decimal_Number)]
     case WANCHO_DIGIT_NINE = "\u{1E2F9}";
 
-    #[Info(id: 0x1E2FF, name: 'WANCHO NGUN SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x1E2FF, name: 'WANCHO NGUN SIGN', category: Cat::Currency_Symbol, informativeAliases: ['rupee'])]
     case WANCHO_NGUN_SIGN = "\u{1E2FF}";
 }

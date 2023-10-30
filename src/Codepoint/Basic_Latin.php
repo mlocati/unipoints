@@ -16,148 +16,148 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Basic_Latin: string
 {
-    #[Info(id: 0x0, name: 'NULL', category: Cat::Control)]
+    #[Info(id: 0x0, name: 'NULL', category: Cat::Control, abbreviations: ['NUL'])]
     case NULL = "\u{0}";
 
-    #[Info(id: 0x1, name: 'START OF HEADING', category: Cat::Control)]
+    #[Info(id: 0x1, name: 'START OF HEADING', category: Cat::Control, abbreviations: ['SOH'])]
     case START_OF_HEADING = "\u{1}";
 
-    #[Info(id: 0x2, name: 'START OF TEXT', category: Cat::Control)]
+    #[Info(id: 0x2, name: 'START OF TEXT', category: Cat::Control, abbreviations: ['STX'])]
     case START_OF_TEXT = "\u{2}";
 
-    #[Info(id: 0x3, name: 'END OF TEXT', category: Cat::Control)]
+    #[Info(id: 0x3, name: 'END OF TEXT', category: Cat::Control, abbreviations: ['ETX'])]
     case END_OF_TEXT = "\u{3}";
 
-    #[Info(id: 0x4, name: 'END OF TRANSMISSION', category: Cat::Control)]
+    #[Info(id: 0x4, name: 'END OF TRANSMISSION', category: Cat::Control, abbreviations: ['EOT'])]
     case END_OF_TRANSMISSION = "\u{4}";
 
-    #[Info(id: 0x5, name: 'ENQUIRY', category: Cat::Control)]
+    #[Info(id: 0x5, name: 'ENQUIRY', category: Cat::Control, abbreviations: ['ENQ'])]
     case ENQUIRY = "\u{5}";
 
-    #[Info(id: 0x6, name: 'ACKNOWLEDGE', category: Cat::Control)]
+    #[Info(id: 0x6, name: 'ACKNOWLEDGE', category: Cat::Control, abbreviations: ['ACK'])]
     case ACKNOWLEDGE = "\u{6}";
 
-    #[Info(id: 0x7, name: 'ALERT', category: Cat::Control)]
+    #[Info(id: 0x7, name: 'ALERT', category: Cat::Control, unicode1Name: 'BELL', abbreviations: ['BEL'])]
     case ALERT = "\u{7}";
 
-    #[Info(id: 0x8, name: 'BACKSPACE', category: Cat::Control)]
+    #[Info(id: 0x8, name: 'BACKSPACE', category: Cat::Control, abbreviations: ['BS'])]
     case BACKSPACE = "\u{8}";
 
-    #[Info(id: 0x9, name: 'CHARACTER TABULATION', category: Cat::Control)]
+    #[Info(id: 0x9, name: 'CHARACTER TABULATION', category: Cat::Control, controlNames: ['HORIZONTAL TABULATION'], abbreviations: ['HT', 'TAB'], informativeAliases: ['horizontal tabulation (HT)'])]
     case CHARACTER_TABULATION = "\u{9}";
 
-    #[Info(id: 0xA, name: 'LINE FEED', category: Cat::Control)]
+    #[Info(id: 0xA, name: 'LINE FEED', category: Cat::Control, unicode1Name: 'LINE FEED (LF)', controlNames: ['NEW LINE', 'END OF LINE'], abbreviations: ['LF', 'NL', 'EOL'], informativeAliases: ['new line (NL)', 'end of line (EOL)'])]
     case LINE_FEED = "\u{A}";
 
-    #[Info(id: 0xB, name: 'LINE TABULATION', category: Cat::Control)]
+    #[Info(id: 0xB, name: 'LINE TABULATION', category: Cat::Control, controlNames: ['VERTICAL TABULATION'], abbreviations: ['VT'], informativeAliases: ['vertical tabulation (VT)'])]
     case LINE_TABULATION = "\u{B}";
 
-    #[Info(id: 0xC, name: 'FORM FEED', category: Cat::Control)]
+    #[Info(id: 0xC, name: 'FORM FEED', category: Cat::Control, unicode1Name: 'FORM FEED (FF)', abbreviations: ['FF'])]
     case FORM_FEED = "\u{C}";
 
-    #[Info(id: 0xD, name: 'CARRIAGE RETURN', category: Cat::Control)]
+    #[Info(id: 0xD, name: 'CARRIAGE RETURN', category: Cat::Control, unicode1Name: 'CARRIAGE RETURN (CR)', abbreviations: ['CR'])]
     case CARRIAGE_RETURN = "\u{D}";
 
-    #[Info(id: 0xE, name: 'SHIFT OUT', category: Cat::Control)]
+    #[Info(id: 0xE, name: 'SHIFT OUT', category: Cat::Control, controlNames: ['LOCKING-SHIFT ONE'], abbreviations: ['SO'])]
     case SHIFT_OUT = "\u{E}";
 
-    #[Info(id: 0xF, name: 'SHIFT IN', category: Cat::Control)]
+    #[Info(id: 0xF, name: 'SHIFT IN', category: Cat::Control, controlNames: ['LOCKING-SHIFT ZERO'], abbreviations: ['SI'])]
     case SHIFT_IN = "\u{F}";
 
-    #[Info(id: 0x10, name: 'DATA LINK ESCAPE', category: Cat::Control)]
+    #[Info(id: 0x10, name: 'DATA LINK ESCAPE', category: Cat::Control, abbreviations: ['DLE'])]
     case DATA_LINK_ESCAPE = "\u{10}";
 
-    #[Info(id: 0x11, name: 'DEVICE CONTROL ONE', category: Cat::Control)]
+    #[Info(id: 0x11, name: 'DEVICE CONTROL ONE', category: Cat::Control, abbreviations: ['DC1'])]
     case DEVICE_CONTROL_ONE = "\u{11}";
 
-    #[Info(id: 0x12, name: 'DEVICE CONTROL TWO', category: Cat::Control)]
+    #[Info(id: 0x12, name: 'DEVICE CONTROL TWO', category: Cat::Control, abbreviations: ['DC2'])]
     case DEVICE_CONTROL_TWO = "\u{12}";
 
-    #[Info(id: 0x13, name: 'DEVICE CONTROL THREE', category: Cat::Control)]
+    #[Info(id: 0x13, name: 'DEVICE CONTROL THREE', category: Cat::Control, abbreviations: ['DC3'])]
     case DEVICE_CONTROL_THREE = "\u{13}";
 
-    #[Info(id: 0x14, name: 'DEVICE CONTROL FOUR', category: Cat::Control)]
+    #[Info(id: 0x14, name: 'DEVICE CONTROL FOUR', category: Cat::Control, abbreviations: ['DC4'])]
     case DEVICE_CONTROL_FOUR = "\u{14}";
 
-    #[Info(id: 0x15, name: 'NEGATIVE ACKNOWLEDGE', category: Cat::Control)]
+    #[Info(id: 0x15, name: 'NEGATIVE ACKNOWLEDGE', category: Cat::Control, abbreviations: ['NAK'])]
     case NEGATIVE_ACKNOWLEDGE = "\u{15}";
 
-    #[Info(id: 0x16, name: 'SYNCHRONOUS IDLE', category: Cat::Control)]
+    #[Info(id: 0x16, name: 'SYNCHRONOUS IDLE', category: Cat::Control, abbreviations: ['SYN'])]
     case SYNCHRONOUS_IDLE = "\u{16}";
 
-    #[Info(id: 0x17, name: 'END OF TRANSMISSION BLOCK', category: Cat::Control)]
+    #[Info(id: 0x17, name: 'END OF TRANSMISSION BLOCK', category: Cat::Control, abbreviations: ['ETB'])]
     case END_OF_TRANSMISSION_BLOCK = "\u{17}";
 
-    #[Info(id: 0x18, name: 'CANCEL', category: Cat::Control)]
+    #[Info(id: 0x18, name: 'CANCEL', category: Cat::Control, abbreviations: ['CAN'])]
     case CANCEL = "\u{18}";
 
-    #[Info(id: 0x19, name: 'END OF MEDIUM', category: Cat::Control)]
+    #[Info(id: 0x19, name: 'END OF MEDIUM', category: Cat::Control, abbreviations: ['EOM', 'EM'])]
     case END_OF_MEDIUM = "\u{19}";
 
-    #[Info(id: 0x1A, name: 'SUBSTITUTE', category: Cat::Control)]
+    #[Info(id: 0x1A, name: 'SUBSTITUTE', category: Cat::Control, abbreviations: ['SUB'])]
     case SUBSTITUTE = "\u{1A}";
 
-    #[Info(id: 0x1B, name: 'ESCAPE', category: Cat::Control)]
+    #[Info(id: 0x1B, name: 'ESCAPE', category: Cat::Control, abbreviations: ['ESC'])]
     case ESCAPE = "\u{1B}";
 
-    #[Info(id: 0x1C, name: 'INFORMATION SEPARATOR FOUR', category: Cat::Control)]
+    #[Info(id: 0x1C, name: 'INFORMATION SEPARATOR FOUR', category: Cat::Control, controlNames: ['FILE SEPARATOR'], abbreviations: ['FS'], informativeAliases: ['file separator (FS)'])]
     case INFORMATION_SEPARATOR_FOUR = "\u{1C}";
 
-    #[Info(id: 0x1D, name: 'INFORMATION SEPARATOR THREE', category: Cat::Control)]
+    #[Info(id: 0x1D, name: 'INFORMATION SEPARATOR THREE', category: Cat::Control, controlNames: ['GROUP SEPARATOR'], abbreviations: ['GS'], informativeAliases: ['group separator (GS)'])]
     case INFORMATION_SEPARATOR_THREE = "\u{1D}";
 
-    #[Info(id: 0x1E, name: 'INFORMATION SEPARATOR TWO', category: Cat::Control)]
+    #[Info(id: 0x1E, name: 'INFORMATION SEPARATOR TWO', category: Cat::Control, controlNames: ['RECORD SEPARATOR'], abbreviations: ['RS'], informativeAliases: ['record separator (RS)'])]
     case INFORMATION_SEPARATOR_TWO = "\u{1E}";
 
-    #[Info(id: 0x1F, name: 'INFORMATION SEPARATOR ONE', category: Cat::Control)]
+    #[Info(id: 0x1F, name: 'INFORMATION SEPARATOR ONE', category: Cat::Control, controlNames: ['UNIT SEPARATOR'], abbreviations: ['US'], informativeAliases: ['unit separator (US)'])]
     case INFORMATION_SEPARATOR_ONE = "\u{1F}";
 
-    #[Info(id: 0x20, name: 'SPACE', category: Cat::Space_Separator)]
+    #[Info(id: 0x20, name: 'SPACE', category: Cat::Space_Separator, abbreviations: ['SP'])]
     case SPACE = "\u{20}";
 
-    #[Info(id: 0x21, name: 'EXCLAMATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x21, name: 'EXCLAMATION MARK', category: Cat::Other_Punctuation, informativeAliases: ['factorial', 'bang'])]
     case EXCLAMATION_MARK = "\u{21}";
 
-    #[Info(id: 0x22, name: 'QUOTATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x22, name: 'QUOTATION MARK', category: Cat::Other_Punctuation, informativeAliases: ['double quote'])]
     case QUOTATION_MARK = "\u{22}";
 
-    #[Info(id: 0x23, name: 'NUMBER SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x23, name: 'NUMBER SIGN', category: Cat::Other_Punctuation, informativeAliases: ['pound sign (weight)', 'hashtag, hash', 'crosshatch, octothorpe'])]
     case NUMBER_SIGN = "\u{23}";
 
-    #[Info(id: 0x24, name: 'DOLLAR SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x24, name: 'DOLLAR SIGN', category: Cat::Currency_Symbol, informativeAliases: ['milréis, escudo'])]
     case DOLLAR_SIGN = "\u{24}";
 
     #[Info(id: 0x25, name: 'PERCENT SIGN', category: Cat::Other_Punctuation)]
     case PERCENT_SIGN = "\u{25}";
 
-    #[Info(id: 0x26, name: 'AMPERSAND', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x26, name: 'AMPERSAND', category: Cat::Other_Punctuation, informativeAliases: ['and'])]
     case AMPERSAND = "\u{26}";
 
-    #[Info(id: 0x27, name: 'APOSTROPHE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x27, name: 'APOSTROPHE', category: Cat::Other_Punctuation, unicode1Name: 'APOSTROPHE-QUOTE', informativeAliases: ['apostrophe-quote (1.0)', 'single quote', 'APL quote'])]
     case APOSTROPHE = "\u{27}";
 
-    #[Info(id: 0x28, name: 'LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x28, name: 'LEFT PARENTHESIS', category: Cat::Open_Punctuation, unicode1Name: 'OPENING PARENTHESIS', informativeAliases: ['opening parenthesis (1.0)'])]
     case LEFT_PARENTHESIS = "\u{28}";
 
-    #[Info(id: 0x29, name: 'RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x29, name: 'RIGHT PARENTHESIS', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING PARENTHESIS', informativeAliases: ['closing parenthesis (1.0)'])]
     case RIGHT_PARENTHESIS = "\u{29}";
 
-    #[Info(id: 0x2A, name: 'ASTERISK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2A, name: 'ASTERISK', category: Cat::Other_Punctuation, informativeAliases: ['star'])]
     case ASTERISK = "\u{2A}";
 
     #[Info(id: 0x2B, name: 'PLUS SIGN', category: Cat::Math_Symbol)]
     case PLUS_SIGN = "\u{2B}";
 
-    #[Info(id: 0x2C, name: 'COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2C, name: 'COMMA', category: Cat::Other_Punctuation, informativeAliases: ['the use as decimal or thousands separator is locale dependent'])]
     case COMMA = "\u{2C}";
 
-    #[Info(id: 0x2D, name: 'HYPHEN-MINUS', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0x2D, name: 'HYPHEN-MINUS', category: Cat::Dash_Punctuation, informativeAliases: ['hyphen, dash', 'minus sign'])]
     case HYPHEN_MINUS = "\u{2D}";
 
-    #[Info(id: 0x2E, name: 'FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2E, name: 'FULL STOP', category: Cat::Other_Punctuation, unicode1Name: 'PERIOD', informativeAliases: ['period, dot, decimal point'])]
     case FULL_STOP = "\u{2E}";
 
-    #[Info(id: 0x2F, name: 'SOLIDUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2F, name: 'SOLIDUS', category: Cat::Other_Punctuation, unicode1Name: 'SLASH', informativeAliases: ['slash, forward slash, virgule'])]
     case SOLIDUS = "\u{2F}";
 
     #[Info(id: 0x30, name: 'DIGIT ZERO', category: Cat::Decimal_Number)]
@@ -208,7 +208,7 @@ enum Basic_Latin: string
     #[Info(id: 0x3F, name: 'QUESTION MARK', category: Cat::Other_Punctuation)]
     case QUESTION_MARK = "\u{3F}";
 
-    #[Info(id: 0x40, name: 'COMMERCIAL AT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x40, name: 'COMMERCIAL AT', category: Cat::Other_Punctuation, informativeAliases: ['at sign', 'arroba (old Spanish unit of weight)'])]
     case COMMERCIAL_AT = "\u{40}";
 
     #[Info(id: 0x41, name: 'LATIN CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
@@ -289,22 +289,22 @@ enum Basic_Latin: string
     #[Info(id: 0x5A, name: 'LATIN CAPITAL LETTER Z', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_Z = "\u{5A}";
 
-    #[Info(id: 0x5B, name: 'LEFT SQUARE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x5B, name: 'LEFT SQUARE BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'OPENING SQUARE BRACKET', informativeAliases: ['opening square bracket (1.0)'])]
     case LEFT_SQUARE_BRACKET = "\u{5B}";
 
-    #[Info(id: 0x5C, name: 'REVERSE SOLIDUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x5C, name: 'REVERSE SOLIDUS', category: Cat::Other_Punctuation, unicode1Name: 'BACKSLASH')]
     case REVERSE_SOLIDUS = "\u{5C}";
 
-    #[Info(id: 0x5D, name: 'RIGHT SQUARE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x5D, name: 'RIGHT SQUARE BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING SQUARE BRACKET', informativeAliases: ['closing square bracket (1.0)'])]
     case RIGHT_SQUARE_BRACKET = "\u{5D}";
 
-    #[Info(id: 0x5E, name: 'CIRCUMFLEX ACCENT', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x5E, name: 'CIRCUMFLEX ACCENT', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING CIRCUMFLEX')]
     case CIRCUMFLEX_ACCENT = "\u{5E}";
 
-    #[Info(id: 0x5F, name: 'LOW LINE', category: Cat::Connector_Punctuation)]
+    #[Info(id: 0x5F, name: 'LOW LINE', category: Cat::Connector_Punctuation, unicode1Name: 'SPACING UNDERSCORE', informativeAliases: ['spacing underscore (1.0)'])]
     case LOW_LINE = "\u{5F}";
 
-    #[Info(id: 0x60, name: 'GRAVE ACCENT', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x60, name: 'GRAVE ACCENT', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING GRAVE', informativeAliases: ['backtick, backquote'])]
     case GRAVE_ACCENT = "\u{60}";
 
     #[Info(id: 0x61, name: 'LATIN SMALL LETTER A', category: Cat::Lowercase_Letter)]
@@ -385,18 +385,18 @@ enum Basic_Latin: string
     #[Info(id: 0x7A, name: 'LATIN SMALL LETTER Z', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Z = "\u{7A}";
 
-    #[Info(id: 0x7B, name: 'LEFT CURLY BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x7B, name: 'LEFT CURLY BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'OPENING CURLY BRACKET', informativeAliases: ['opening curly bracket (1.0)', 'left brace'])]
     case LEFT_CURLY_BRACKET = "\u{7B}";
 
-    #[Info(id: 0x7C, name: 'VERTICAL LINE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x7C, name: 'VERTICAL LINE', category: Cat::Math_Symbol, unicode1Name: 'VERTICAL BAR', informativeAliases: ['vertical bar, pipe'])]
     case VERTICAL_LINE = "\u{7C}";
 
-    #[Info(id: 0x7D, name: 'RIGHT CURLY BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x7D, name: 'RIGHT CURLY BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING CURLY BRACKET', informativeAliases: ['closing curly bracket (1.0)', 'right brace'])]
     case RIGHT_CURLY_BRACKET = "\u{7D}";
 
     #[Info(id: 0x7E, name: 'TILDE', category: Cat::Math_Symbol)]
     case TILDE = "\u{7E}";
 
-    #[Info(id: 0x7F, name: 'DELETE', category: Cat::Control)]
+    #[Info(id: 0x7F, name: 'DELETE', category: Cat::Control, abbreviations: ['DEL'])]
     case DELETE = "\u{7F}";
 }

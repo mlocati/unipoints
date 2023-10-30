@@ -16,22 +16,22 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Tai_Xuan_Jing_Symbols: string
 {
-    #[Info(id: 0x1D300, name: 'MONOGRAM FOR EARTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D300, name: 'MONOGRAM FOR EARTH', category: Cat::Other_Symbol, informativeAliases: ['ren'])]
     case MONOGRAM_FOR_EARTH = "\u{1D300}";
 
-    #[Info(id: 0x1D301, name: 'DIGRAM FOR HEAVENLY EARTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D301, name: 'DIGRAM FOR HEAVENLY EARTH', category: Cat::Other_Symbol, informativeAliases: ['tian ren'])]
     case DIGRAM_FOR_HEAVENLY_EARTH = "\u{1D301}";
 
-    #[Info(id: 0x1D302, name: 'DIGRAM FOR HUMAN EARTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D302, name: 'DIGRAM FOR HUMAN EARTH', category: Cat::Other_Symbol, informativeAliases: ['di ren'])]
     case DIGRAM_FOR_HUMAN_EARTH = "\u{1D302}";
 
-    #[Info(id: 0x1D303, name: 'DIGRAM FOR EARTHLY HEAVEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D303, name: 'DIGRAM FOR EARTHLY HEAVEN', category: Cat::Other_Symbol, informativeAliases: ['ren tian'])]
     case DIGRAM_FOR_EARTHLY_HEAVEN = "\u{1D303}";
 
-    #[Info(id: 0x1D304, name: 'DIGRAM FOR EARTHLY HUMAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D304, name: 'DIGRAM FOR EARTHLY HUMAN', category: Cat::Other_Symbol, informativeAliases: ['ren di'])]
     case DIGRAM_FOR_EARTHLY_HUMAN = "\u{1D304}";
 
-    #[Info(id: 0x1D305, name: 'DIGRAM FOR EARTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D305, name: 'DIGRAM FOR EARTH', category: Cat::Other_Symbol, informativeAliases: ['ren ren'])]
     case DIGRAM_FOR_EARTH = "\u{1D305}";
 
     #[Info(id: 0x1D306, name: 'TETRAGRAM FOR CENTRE', category: Cat::Other_Symbol)]

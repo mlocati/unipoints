@@ -226,10 +226,10 @@ enum Khmer: string
     #[Info(id: 0x17C5, name: 'KHMER VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case KHMER_VOWEL_SIGN_AU = "\u{17C5}";
 
-    #[Info(id: 0x17C6, name: 'KHMER SIGN NIKAHIT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17C6, name: 'KHMER SIGN NIKAHIT', category: Cat::Nonspacing_Mark, informativeAliases: ['srak am', 'anusvara'])]
     case KHMER_SIGN_NIKAHIT = "\u{17C6}";
 
-    #[Info(id: 0x17C7, name: 'KHMER SIGN REAHMUK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17C7, name: 'KHMER SIGN REAHMUK', category: Cat::Spacing_Mark, informativeAliases: ['srak ah', 'visarga'])]
     case KHMER_SIGN_REAHMUK = "\u{17C7}";
 
     #[Info(id: 0x17C8, name: 'KHMER SIGN YUUKALEAPINTU', category: Cat::Spacing_Mark)]

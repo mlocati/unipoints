@@ -14,6 +14,7 @@ class Codepoint
     public function __construct(
         public readonly int $codepoint,
         public readonly string $name,
+        public readonly array $otherNames,
         public readonly Category $category,
         public readonly Block $block,
     ) {

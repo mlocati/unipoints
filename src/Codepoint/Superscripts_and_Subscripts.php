@@ -16,91 +16,91 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Superscripts_and_Subscripts: string
 {
-    #[Info(id: 0x2070, name: 'SUPERSCRIPT ZERO', category: Cat::Other_Number)]
+    #[Info(id: 0x2070, name: 'SUPERSCRIPT ZERO', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT ZERO')]
     case SUPERSCRIPT_ZERO = "\u{2070}";
 
     #[Info(id: 0x2071, name: 'SUPERSCRIPT LATIN SMALL LETTER I', category: Cat::Modifier_Letter)]
     case SUPERSCRIPT_LATIN_SMALL_LETTER_I = "\u{2071}";
 
-    #[Info(id: 0x2074, name: 'SUPERSCRIPT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x2074, name: 'SUPERSCRIPT FOUR', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT FOUR')]
     case SUPERSCRIPT_FOUR = "\u{2074}";
 
-    #[Info(id: 0x2075, name: 'SUPERSCRIPT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x2075, name: 'SUPERSCRIPT FIVE', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT FIVE')]
     case SUPERSCRIPT_FIVE = "\u{2075}";
 
-    #[Info(id: 0x2076, name: 'SUPERSCRIPT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x2076, name: 'SUPERSCRIPT SIX', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT SIX')]
     case SUPERSCRIPT_SIX = "\u{2076}";
 
-    #[Info(id: 0x2077, name: 'SUPERSCRIPT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2077, name: 'SUPERSCRIPT SEVEN', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT SEVEN')]
     case SUPERSCRIPT_SEVEN = "\u{2077}";
 
-    #[Info(id: 0x2078, name: 'SUPERSCRIPT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x2078, name: 'SUPERSCRIPT EIGHT', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT EIGHT')]
     case SUPERSCRIPT_EIGHT = "\u{2078}";
 
-    #[Info(id: 0x2079, name: 'SUPERSCRIPT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x2079, name: 'SUPERSCRIPT NINE', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT NINE')]
     case SUPERSCRIPT_NINE = "\u{2079}";
 
     #[Info(id: 0x207A, name: 'SUPERSCRIPT PLUS SIGN', category: Cat::Math_Symbol)]
     case SUPERSCRIPT_PLUS_SIGN = "\u{207A}";
 
-    #[Info(id: 0x207B, name: 'SUPERSCRIPT MINUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x207B, name: 'SUPERSCRIPT MINUS', category: Cat::Math_Symbol, unicode1Name: 'SUPERSCRIPT HYPHEN-MINUS')]
     case SUPERSCRIPT_MINUS = "\u{207B}";
 
     #[Info(id: 0x207C, name: 'SUPERSCRIPT EQUALS SIGN', category: Cat::Math_Symbol)]
     case SUPERSCRIPT_EQUALS_SIGN = "\u{207C}";
 
-    #[Info(id: 0x207D, name: 'SUPERSCRIPT LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x207D, name: 'SUPERSCRIPT LEFT PARENTHESIS', category: Cat::Open_Punctuation, unicode1Name: 'SUPERSCRIPT OPENING PARENTHESIS')]
     case SUPERSCRIPT_LEFT_PARENTHESIS = "\u{207D}";
 
-    #[Info(id: 0x207E, name: 'SUPERSCRIPT RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x207E, name: 'SUPERSCRIPT RIGHT PARENTHESIS', category: Cat::Close_Punctuation, unicode1Name: 'SUPERSCRIPT CLOSING PARENTHESIS')]
     case SUPERSCRIPT_RIGHT_PARENTHESIS = "\u{207E}";
 
     #[Info(id: 0x207F, name: 'SUPERSCRIPT LATIN SMALL LETTER N', category: Cat::Modifier_Letter)]
     case SUPERSCRIPT_LATIN_SMALL_LETTER_N = "\u{207F}";
 
-    #[Info(id: 0x2080, name: 'SUBSCRIPT ZERO', category: Cat::Other_Number)]
+    #[Info(id: 0x2080, name: 'SUBSCRIPT ZERO', category: Cat::Other_Number, unicode1Name: 'SUBSCRIPT DIGIT ZERO')]
     case SUBSCRIPT_ZERO = "\u{2080}";
 
-    #[Info(id: 0x2081, name: 'SUBSCRIPT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x2081, name: 'SUBSCRIPT ONE', category: Cat::Other_Number, unicode1Name: 'SUBSCRIPT DIGIT ONE')]
     case SUBSCRIPT_ONE = "\u{2081}";
 
-    #[Info(id: 0x2082, name: 'SUBSCRIPT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x2082, name: 'SUBSCRIPT TWO', category: Cat::Other_Number, unicode1Name: 'SUBSCRIPT DIGIT TWO')]
     case SUBSCRIPT_TWO = "\u{2082}";
 
-    #[Info(id: 0x2083, name: 'SUBSCRIPT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x2083, name: 'SUBSCRIPT THREE', category: Cat::Other_Number, unicode1Name: 'SUBSCRIPT DIGIT THREE')]
     case SUBSCRIPT_THREE = "\u{2083}";
 
-    #[Info(id: 0x2084, name: 'SUBSCRIPT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x2084, name: 'SUBSCRIPT FOUR', category: Cat::Other_Number, unicode1Name: 'SUBSCRIPT DIGIT FOUR')]
     case SUBSCRIPT_FOUR = "\u{2084}";
 
-    #[Info(id: 0x2085, name: 'SUBSCRIPT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x2085, name: 'SUBSCRIPT FIVE', category: Cat::Other_Number, unicode1Name: 'SUBSCRIPT DIGIT FIVE')]
     case SUBSCRIPT_FIVE = "\u{2085}";
 
-    #[Info(id: 0x2086, name: 'SUBSCRIPT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x2086, name: 'SUBSCRIPT SIX', category: Cat::Other_Number, unicode1Name: 'SUBSCRIPT DIGIT SIX')]
     case SUBSCRIPT_SIX = "\u{2086}";
 
-    #[Info(id: 0x2087, name: 'SUBSCRIPT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2087, name: 'SUBSCRIPT SEVEN', category: Cat::Other_Number, unicode1Name: 'SUBSCRIPT DIGIT SEVEN')]
     case SUBSCRIPT_SEVEN = "\u{2087}";
 
-    #[Info(id: 0x2088, name: 'SUBSCRIPT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x2088, name: 'SUBSCRIPT EIGHT', category: Cat::Other_Number, unicode1Name: 'SUBSCRIPT DIGIT EIGHT')]
     case SUBSCRIPT_EIGHT = "\u{2088}";
 
-    #[Info(id: 0x2089, name: 'SUBSCRIPT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x2089, name: 'SUBSCRIPT NINE', category: Cat::Other_Number, unicode1Name: 'SUBSCRIPT DIGIT NINE')]
     case SUBSCRIPT_NINE = "\u{2089}";
 
     #[Info(id: 0x208A, name: 'SUBSCRIPT PLUS SIGN', category: Cat::Math_Symbol)]
     case SUBSCRIPT_PLUS_SIGN = "\u{208A}";
 
-    #[Info(id: 0x208B, name: 'SUBSCRIPT MINUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x208B, name: 'SUBSCRIPT MINUS', category: Cat::Math_Symbol, unicode1Name: 'SUBSCRIPT HYPHEN-MINUS')]
     case SUBSCRIPT_MINUS = "\u{208B}";
 
     #[Info(id: 0x208C, name: 'SUBSCRIPT EQUALS SIGN', category: Cat::Math_Symbol)]
     case SUBSCRIPT_EQUALS_SIGN = "\u{208C}";
 
-    #[Info(id: 0x208D, name: 'SUBSCRIPT LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x208D, name: 'SUBSCRIPT LEFT PARENTHESIS', category: Cat::Open_Punctuation, unicode1Name: 'SUBSCRIPT OPENING PARENTHESIS')]
     case SUBSCRIPT_LEFT_PARENTHESIS = "\u{208D}";
 
-    #[Info(id: 0x208E, name: 'SUBSCRIPT RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x208E, name: 'SUBSCRIPT RIGHT PARENTHESIS', category: Cat::Close_Punctuation, unicode1Name: 'SUBSCRIPT CLOSING PARENTHESIS')]
     case SUBSCRIPT_RIGHT_PARENTHESIS = "\u{208E}";
 
     #[Info(id: 0x2090, name: 'LATIN SUBSCRIPT SMALL LETTER A', category: Cat::Modifier_Letter)]

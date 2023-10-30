@@ -274,7 +274,7 @@ enum Miscellaneous_Mathematical_SymbolsB: string
     #[Info(id: 0x29D5, name: 'TIMES WITH RIGHT HALF BLACK', category: Cat::Math_Symbol)]
     case TIMES_WITH_RIGHT_HALF_BLACK = "\u{29D5}";
 
-    #[Info(id: 0x29D6, name: 'WHITE HOURGLASS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29D6, name: 'WHITE HOURGLASS', category: Cat::Math_Symbol, informativeAliases: ['vertical bowtie', 'white framus'])]
     case WHITE_HOURGLASS = "\u{29D6}";
 
     #[Info(id: 0x29D7, name: 'BLACK HOURGLASS', category: Cat::Math_Symbol)]
@@ -292,7 +292,7 @@ enum Miscellaneous_Mathematical_SymbolsB: string
     #[Info(id: 0x29DB, name: 'RIGHT DOUBLE WIGGLY FENCE', category: Cat::Close_Punctuation)]
     case RIGHT_DOUBLE_WIGGLY_FENCE = "\u{29DB}";
 
-    #[Info(id: 0x29DC, name: 'INCOMPLETE INFINITY', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29DC, name: 'INCOMPLETE INFINITY', category: Cat::Math_Symbol, informativeAliases: ['ISOtech entity &iinfin;'])]
     case INCOMPLETE_INFINITY = "\u{29DC}";
 
     #[Info(id: 0x29DD, name: 'TIE OVER INFINITY', category: Cat::Math_Symbol)]
@@ -304,7 +304,7 @@ enum Miscellaneous_Mathematical_SymbolsB: string
     #[Info(id: 0x29DF, name: 'DOUBLE-ENDED MULTIMAP', category: Cat::Math_Symbol)]
     case DOUBLE_ENDED_MULTIMAP = "\u{29DF}";
 
-    #[Info(id: 0x29E0, name: 'SQUARE WITH CONTOURED OUTLINE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E0, name: 'SQUARE WITH CONTOURED OUTLINE', category: Cat::Math_Symbol, informativeAliases: ['D\'Alembertian'])]
     case SQUARE_WITH_CONTOURED_OUTLINE = "\u{29E0}";
 
     #[Info(id: 0x29E1, name: 'INCREASES AS', category: Cat::Math_Symbol)]
@@ -322,10 +322,10 @@ enum Miscellaneous_Mathematical_SymbolsB: string
     #[Info(id: 0x29E5, name: 'IDENTICAL TO AND SLANTED PARALLEL', category: Cat::Math_Symbol)]
     case IDENTICAL_TO_AND_SLANTED_PARALLEL = "\u{29E5}";
 
-    #[Info(id: 0x29E6, name: 'GLEICH STARK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E6, name: 'GLEICH STARK', category: Cat::Math_Symbol, informativeAliases: ['tautological equivalent'])]
     case GLEICH_STARK = "\u{29E6}";
 
-    #[Info(id: 0x29E7, name: 'THERMODYNAMIC', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E7, name: 'THERMODYNAMIC', category: Cat::Math_Symbol, informativeAliases: ['record mark'])]
     case THERMODYNAMIC = "\u{29E7}";
 
     #[Info(id: 0x29E8, name: 'DOWN-POINTING TRIANGLE WITH LEFT HALF BLACK', category: Cat::Math_Symbol)]
@@ -364,7 +364,7 @@ enum Miscellaneous_Mathematical_SymbolsB: string
     #[Info(id: 0x29F3, name: 'ERROR-BARRED BLACK CIRCLE', category: Cat::Math_Symbol)]
     case ERROR_BARRED_BLACK_CIRCLE = "\u{29F3}";
 
-    #[Info(id: 0x29F4, name: 'RULE-DELAYED', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F4, name: 'RULE-DELAYED', category: Cat::Math_Symbol, informativeAliases: ['colon right arrow'])]
     case RULE_DELAYED = "\u{29F4}";
 
     #[Info(id: 0x29F5, name: 'REVERSE SOLIDUS OPERATOR', category: Cat::Math_Symbol)]
@@ -379,7 +379,7 @@ enum Miscellaneous_Mathematical_SymbolsB: string
     #[Info(id: 0x29F8, name: 'BIG SOLIDUS', category: Cat::Math_Symbol)]
     case BIG_SOLIDUS = "\u{29F8}";
 
-    #[Info(id: 0x29F9, name: 'BIG REVERSE SOLIDUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F9, name: 'BIG REVERSE SOLIDUS', category: Cat::Math_Symbol, informativeAliases: ['z notation schema hiding'])]
     case BIG_REVERSE_SOLIDUS = "\u{29F9}";
 
     #[Info(id: 0x29FA, name: 'DOUBLE PLUS', category: Cat::Math_Symbol)]

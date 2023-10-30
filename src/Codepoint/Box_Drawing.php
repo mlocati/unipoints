@@ -16,387 +16,387 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Box_Drawing: string
 {
-    #[Info(id: 0x2500, name: 'BOX DRAWINGS LIGHT HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2500, name: 'BOX DRAWINGS LIGHT HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT HORIZONTAL', informativeAliases: ['Videotex Mosaic DG 15'])]
     case BOX_DRAWINGS_LIGHT_HORIZONTAL = "\u{2500}";
 
-    #[Info(id: 0x2501, name: 'BOX DRAWINGS HEAVY HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2501, name: 'BOX DRAWINGS HEAVY HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY HORIZONTAL')]
     case BOX_DRAWINGS_HEAVY_HORIZONTAL = "\u{2501}";
 
-    #[Info(id: 0x2502, name: 'BOX DRAWINGS LIGHT VERTICAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2502, name: 'BOX DRAWINGS LIGHT VERTICAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT VERTICAL', informativeAliases: ['Videotex Mosaic DG 14'])]
     case BOX_DRAWINGS_LIGHT_VERTICAL = "\u{2502}";
 
-    #[Info(id: 0x2503, name: 'BOX DRAWINGS HEAVY VERTICAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2503, name: 'BOX DRAWINGS HEAVY VERTICAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY VERTICAL')]
     case BOX_DRAWINGS_HEAVY_VERTICAL = "\u{2503}";
 
-    #[Info(id: 0x2504, name: 'BOX DRAWINGS LIGHT TRIPLE DASH HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2504, name: 'BOX DRAWINGS LIGHT TRIPLE DASH HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT TRIPLE DASH HORIZONTAL')]
     case BOX_DRAWINGS_LIGHT_TRIPLE_DASH_HORIZONTAL = "\u{2504}";
 
-    #[Info(id: 0x2505, name: 'BOX DRAWINGS HEAVY TRIPLE DASH HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2505, name: 'BOX DRAWINGS HEAVY TRIPLE DASH HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY TRIPLE DASH HORIZONTAL')]
     case BOX_DRAWINGS_HEAVY_TRIPLE_DASH_HORIZONTAL = "\u{2505}";
 
-    #[Info(id: 0x2506, name: 'BOX DRAWINGS LIGHT TRIPLE DASH VERTICAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2506, name: 'BOX DRAWINGS LIGHT TRIPLE DASH VERTICAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT TRIPLE DASH VERTICAL')]
     case BOX_DRAWINGS_LIGHT_TRIPLE_DASH_VERTICAL = "\u{2506}";
 
-    #[Info(id: 0x2507, name: 'BOX DRAWINGS HEAVY TRIPLE DASH VERTICAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2507, name: 'BOX DRAWINGS HEAVY TRIPLE DASH VERTICAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY TRIPLE DASH VERTICAL')]
     case BOX_DRAWINGS_HEAVY_TRIPLE_DASH_VERTICAL = "\u{2507}";
 
-    #[Info(id: 0x2508, name: 'BOX DRAWINGS LIGHT QUADRUPLE DASH HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2508, name: 'BOX DRAWINGS LIGHT QUADRUPLE DASH HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT QUADRUPLE DASH HORIZONTAL')]
     case BOX_DRAWINGS_LIGHT_QUADRUPLE_DASH_HORIZONTAL = "\u{2508}";
 
-    #[Info(id: 0x2509, name: 'BOX DRAWINGS HEAVY QUADRUPLE DASH HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2509, name: 'BOX DRAWINGS HEAVY QUADRUPLE DASH HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY QUADRUPLE DASH HORIZONTAL')]
     case BOX_DRAWINGS_HEAVY_QUADRUPLE_DASH_HORIZONTAL = "\u{2509}";
 
-    #[Info(id: 0x250A, name: 'BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x250A, name: 'BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT QUADRUPLE DASH VERTICAL')]
     case BOX_DRAWINGS_LIGHT_QUADRUPLE_DASH_VERTICAL = "\u{250A}";
 
-    #[Info(id: 0x250B, name: 'BOX DRAWINGS HEAVY QUADRUPLE DASH VERTICAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x250B, name: 'BOX DRAWINGS HEAVY QUADRUPLE DASH VERTICAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY QUADRUPLE DASH VERTICAL')]
     case BOX_DRAWINGS_HEAVY_QUADRUPLE_DASH_VERTICAL = "\u{250B}";
 
-    #[Info(id: 0x250C, name: 'BOX DRAWINGS LIGHT DOWN AND RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x250C, name: 'BOX DRAWINGS LIGHT DOWN AND RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT DOWN AND RIGHT', informativeAliases: ['Videotex Mosaic DG 16'])]
     case BOX_DRAWINGS_LIGHT_DOWN_AND_RIGHT = "\u{250C}";
 
-    #[Info(id: 0x250D, name: 'BOX DRAWINGS DOWN LIGHT AND RIGHT HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x250D, name: 'BOX DRAWINGS DOWN LIGHT AND RIGHT HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN LIGHT AND RIGHT HEAVY')]
     case BOX_DRAWINGS_DOWN_LIGHT_AND_RIGHT_HEAVY = "\u{250D}";
 
-    #[Info(id: 0x250E, name: 'BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x250E, name: 'BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN HEAVY AND RIGHT LIGHT')]
     case BOX_DRAWINGS_DOWN_HEAVY_AND_RIGHT_LIGHT = "\u{250E}";
 
-    #[Info(id: 0x250F, name: 'BOX DRAWINGS HEAVY DOWN AND RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x250F, name: 'BOX DRAWINGS HEAVY DOWN AND RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY DOWN AND RIGHT')]
     case BOX_DRAWINGS_HEAVY_DOWN_AND_RIGHT = "\u{250F}";
 
-    #[Info(id: 0x2510, name: 'BOX DRAWINGS LIGHT DOWN AND LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2510, name: 'BOX DRAWINGS LIGHT DOWN AND LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT DOWN AND LEFT', informativeAliases: ['Videotex Mosaic DG 17'])]
     case BOX_DRAWINGS_LIGHT_DOWN_AND_LEFT = "\u{2510}";
 
-    #[Info(id: 0x2511, name: 'BOX DRAWINGS DOWN LIGHT AND LEFT HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2511, name: 'BOX DRAWINGS DOWN LIGHT AND LEFT HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN LIGHT AND LEFT HEAVY')]
     case BOX_DRAWINGS_DOWN_LIGHT_AND_LEFT_HEAVY = "\u{2511}";
 
-    #[Info(id: 0x2512, name: 'BOX DRAWINGS DOWN HEAVY AND LEFT LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2512, name: 'BOX DRAWINGS DOWN HEAVY AND LEFT LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN HEAVY AND LEFT LIGHT')]
     case BOX_DRAWINGS_DOWN_HEAVY_AND_LEFT_LIGHT = "\u{2512}";
 
-    #[Info(id: 0x2513, name: 'BOX DRAWINGS HEAVY DOWN AND LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2513, name: 'BOX DRAWINGS HEAVY DOWN AND LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY DOWN AND LEFT')]
     case BOX_DRAWINGS_HEAVY_DOWN_AND_LEFT = "\u{2513}";
 
-    #[Info(id: 0x2514, name: 'BOX DRAWINGS LIGHT UP AND RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2514, name: 'BOX DRAWINGS LIGHT UP AND RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT UP AND RIGHT', informativeAliases: ['Videotex Mosaic DG 18'])]
     case BOX_DRAWINGS_LIGHT_UP_AND_RIGHT = "\u{2514}";
 
-    #[Info(id: 0x2515, name: 'BOX DRAWINGS UP LIGHT AND RIGHT HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2515, name: 'BOX DRAWINGS UP LIGHT AND RIGHT HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP LIGHT AND RIGHT HEAVY')]
     case BOX_DRAWINGS_UP_LIGHT_AND_RIGHT_HEAVY = "\u{2515}";
 
-    #[Info(id: 0x2516, name: 'BOX DRAWINGS UP HEAVY AND RIGHT LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2516, name: 'BOX DRAWINGS UP HEAVY AND RIGHT LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP HEAVY AND RIGHT LIGHT')]
     case BOX_DRAWINGS_UP_HEAVY_AND_RIGHT_LIGHT = "\u{2516}";
 
-    #[Info(id: 0x2517, name: 'BOX DRAWINGS HEAVY UP AND RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2517, name: 'BOX DRAWINGS HEAVY UP AND RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY UP AND RIGHT')]
     case BOX_DRAWINGS_HEAVY_UP_AND_RIGHT = "\u{2517}";
 
-    #[Info(id: 0x2518, name: 'BOX DRAWINGS LIGHT UP AND LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2518, name: 'BOX DRAWINGS LIGHT UP AND LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT UP AND LEFT', informativeAliases: ['Videotex Mosaic DG 19'])]
     case BOX_DRAWINGS_LIGHT_UP_AND_LEFT = "\u{2518}";
 
-    #[Info(id: 0x2519, name: 'BOX DRAWINGS UP LIGHT AND LEFT HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2519, name: 'BOX DRAWINGS UP LIGHT AND LEFT HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP LIGHT AND LEFT HEAVY')]
     case BOX_DRAWINGS_UP_LIGHT_AND_LEFT_HEAVY = "\u{2519}";
 
-    #[Info(id: 0x251A, name: 'BOX DRAWINGS UP HEAVY AND LEFT LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x251A, name: 'BOX DRAWINGS UP HEAVY AND LEFT LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP HEAVY AND LEFT LIGHT')]
     case BOX_DRAWINGS_UP_HEAVY_AND_LEFT_LIGHT = "\u{251A}";
 
-    #[Info(id: 0x251B, name: 'BOX DRAWINGS HEAVY UP AND LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x251B, name: 'BOX DRAWINGS HEAVY UP AND LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY UP AND LEFT')]
     case BOX_DRAWINGS_HEAVY_UP_AND_LEFT = "\u{251B}";
 
-    #[Info(id: 0x251C, name: 'BOX DRAWINGS LIGHT VERTICAL AND RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x251C, name: 'BOX DRAWINGS LIGHT VERTICAL AND RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT VERTICAL AND RIGHT', informativeAliases: ['Videotex Mosaic DG 20'])]
     case BOX_DRAWINGS_LIGHT_VERTICAL_AND_RIGHT = "\u{251C}";
 
-    #[Info(id: 0x251D, name: 'BOX DRAWINGS VERTICAL LIGHT AND RIGHT HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x251D, name: 'BOX DRAWINGS VERTICAL LIGHT AND RIGHT HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL LIGHT AND RIGHT HEAVY', informativeAliases: ['Videotex Mosaic DG 03'])]
     case BOX_DRAWINGS_VERTICAL_LIGHT_AND_RIGHT_HEAVY = "\u{251D}";
 
-    #[Info(id: 0x251E, name: 'BOX DRAWINGS UP HEAVY AND RIGHT DOWN LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x251E, name: 'BOX DRAWINGS UP HEAVY AND RIGHT DOWN LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP HEAVY AND RIGHT DOWN LIGHT')]
     case BOX_DRAWINGS_UP_HEAVY_AND_RIGHT_DOWN_LIGHT = "\u{251E}";
 
-    #[Info(id: 0x251F, name: 'BOX DRAWINGS DOWN HEAVY AND RIGHT UP LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x251F, name: 'BOX DRAWINGS DOWN HEAVY AND RIGHT UP LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN HEAVY AND RIGHT UP LIGHT')]
     case BOX_DRAWINGS_DOWN_HEAVY_AND_RIGHT_UP_LIGHT = "\u{251F}";
 
-    #[Info(id: 0x2520, name: 'BOX DRAWINGS VERTICAL HEAVY AND RIGHT LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2520, name: 'BOX DRAWINGS VERTICAL HEAVY AND RIGHT LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL HEAVY AND RIGHT LIGHT')]
     case BOX_DRAWINGS_VERTICAL_HEAVY_AND_RIGHT_LIGHT = "\u{2520}";
 
-    #[Info(id: 0x2521, name: 'BOX DRAWINGS DOWN LIGHT AND RIGHT UP HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2521, name: 'BOX DRAWINGS DOWN LIGHT AND RIGHT UP HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN LIGHT AND RIGHT UP HEAVY')]
     case BOX_DRAWINGS_DOWN_LIGHT_AND_RIGHT_UP_HEAVY = "\u{2521}";
 
-    #[Info(id: 0x2522, name: 'BOX DRAWINGS UP LIGHT AND RIGHT DOWN HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2522, name: 'BOX DRAWINGS UP LIGHT AND RIGHT DOWN HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP LIGHT AND RIGHT DOWN HEAVY')]
     case BOX_DRAWINGS_UP_LIGHT_AND_RIGHT_DOWN_HEAVY = "\u{2522}";
 
-    #[Info(id: 0x2523, name: 'BOX DRAWINGS HEAVY VERTICAL AND RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2523, name: 'BOX DRAWINGS HEAVY VERTICAL AND RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY VERTICAL AND RIGHT')]
     case BOX_DRAWINGS_HEAVY_VERTICAL_AND_RIGHT = "\u{2523}";
 
-    #[Info(id: 0x2524, name: 'BOX DRAWINGS LIGHT VERTICAL AND LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2524, name: 'BOX DRAWINGS LIGHT VERTICAL AND LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT VERTICAL AND LEFT', informativeAliases: ['Videotex Mosaic DG 21'])]
     case BOX_DRAWINGS_LIGHT_VERTICAL_AND_LEFT = "\u{2524}";
 
-    #[Info(id: 0x2525, name: 'BOX DRAWINGS VERTICAL LIGHT AND LEFT HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2525, name: 'BOX DRAWINGS VERTICAL LIGHT AND LEFT HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL LIGHT AND LEFT HEAVY', informativeAliases: ['Videotex Mosaic DG 04'])]
     case BOX_DRAWINGS_VERTICAL_LIGHT_AND_LEFT_HEAVY = "\u{2525}";
 
-    #[Info(id: 0x2526, name: 'BOX DRAWINGS UP HEAVY AND LEFT DOWN LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2526, name: 'BOX DRAWINGS UP HEAVY AND LEFT DOWN LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP HEAVY AND LEFT DOWN LIGHT')]
     case BOX_DRAWINGS_UP_HEAVY_AND_LEFT_DOWN_LIGHT = "\u{2526}";
 
-    #[Info(id: 0x2527, name: 'BOX DRAWINGS DOWN HEAVY AND LEFT UP LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2527, name: 'BOX DRAWINGS DOWN HEAVY AND LEFT UP LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN HEAVY AND LEFT UP LIGHT')]
     case BOX_DRAWINGS_DOWN_HEAVY_AND_LEFT_UP_LIGHT = "\u{2527}";
 
-    #[Info(id: 0x2528, name: 'BOX DRAWINGS VERTICAL HEAVY AND LEFT LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2528, name: 'BOX DRAWINGS VERTICAL HEAVY AND LEFT LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL HEAVY AND LEFT LIGHT')]
     case BOX_DRAWINGS_VERTICAL_HEAVY_AND_LEFT_LIGHT = "\u{2528}";
 
-    #[Info(id: 0x2529, name: 'BOX DRAWINGS DOWN LIGHT AND LEFT UP HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2529, name: 'BOX DRAWINGS DOWN LIGHT AND LEFT UP HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN LIGHT AND LEFT UP HEAVY')]
     case BOX_DRAWINGS_DOWN_LIGHT_AND_LEFT_UP_HEAVY = "\u{2529}";
 
-    #[Info(id: 0x252A, name: 'BOX DRAWINGS UP LIGHT AND LEFT DOWN HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x252A, name: 'BOX DRAWINGS UP LIGHT AND LEFT DOWN HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP LIGHT AND LEFT DOWN HEAVY')]
     case BOX_DRAWINGS_UP_LIGHT_AND_LEFT_DOWN_HEAVY = "\u{252A}";
 
-    #[Info(id: 0x252B, name: 'BOX DRAWINGS HEAVY VERTICAL AND LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x252B, name: 'BOX DRAWINGS HEAVY VERTICAL AND LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY VERTICAL AND LEFT')]
     case BOX_DRAWINGS_HEAVY_VERTICAL_AND_LEFT = "\u{252B}";
 
-    #[Info(id: 0x252C, name: 'BOX DRAWINGS LIGHT DOWN AND HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x252C, name: 'BOX DRAWINGS LIGHT DOWN AND HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT DOWN AND HORIZONTAL', informativeAliases: ['Videotex Mosaic DG 22'])]
     case BOX_DRAWINGS_LIGHT_DOWN_AND_HORIZONTAL = "\u{252C}";
 
-    #[Info(id: 0x252D, name: 'BOX DRAWINGS LEFT HEAVY AND RIGHT DOWN LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x252D, name: 'BOX DRAWINGS LEFT HEAVY AND RIGHT DOWN LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LEFT HEAVY AND RIGHT DOWN LIGHT')]
     case BOX_DRAWINGS_LEFT_HEAVY_AND_RIGHT_DOWN_LIGHT = "\u{252D}";
 
-    #[Info(id: 0x252E, name: 'BOX DRAWINGS RIGHT HEAVY AND LEFT DOWN LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x252E, name: 'BOX DRAWINGS RIGHT HEAVY AND LEFT DOWN LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS RIGHT HEAVY AND LEFT DOWN LIGHT')]
     case BOX_DRAWINGS_RIGHT_HEAVY_AND_LEFT_DOWN_LIGHT = "\u{252E}";
 
-    #[Info(id: 0x252F, name: 'BOX DRAWINGS DOWN LIGHT AND HORIZONTAL HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x252F, name: 'BOX DRAWINGS DOWN LIGHT AND HORIZONTAL HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN LIGHT AND HORIZONTAL HEAVY', informativeAliases: ['Videotex Mosaic DG 02'])]
     case BOX_DRAWINGS_DOWN_LIGHT_AND_HORIZONTAL_HEAVY = "\u{252F}";
 
-    #[Info(id: 0x2530, name: 'BOX DRAWINGS DOWN HEAVY AND HORIZONTAL LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2530, name: 'BOX DRAWINGS DOWN HEAVY AND HORIZONTAL LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN HEAVY AND HORIZONTAL LIGHT')]
     case BOX_DRAWINGS_DOWN_HEAVY_AND_HORIZONTAL_LIGHT = "\u{2530}";
 
-    #[Info(id: 0x2531, name: 'BOX DRAWINGS RIGHT LIGHT AND LEFT DOWN HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2531, name: 'BOX DRAWINGS RIGHT LIGHT AND LEFT DOWN HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS RIGHT LIGHT AND LEFT DOWN HEAVY')]
     case BOX_DRAWINGS_RIGHT_LIGHT_AND_LEFT_DOWN_HEAVY = "\u{2531}";
 
-    #[Info(id: 0x2532, name: 'BOX DRAWINGS LEFT LIGHT AND RIGHT DOWN HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2532, name: 'BOX DRAWINGS LEFT LIGHT AND RIGHT DOWN HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS LEFT LIGHT AND RIGHT DOWN HEAVY')]
     case BOX_DRAWINGS_LEFT_LIGHT_AND_RIGHT_DOWN_HEAVY = "\u{2532}";
 
-    #[Info(id: 0x2533, name: 'BOX DRAWINGS HEAVY DOWN AND HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2533, name: 'BOX DRAWINGS HEAVY DOWN AND HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY DOWN AND HORIZONTAL')]
     case BOX_DRAWINGS_HEAVY_DOWN_AND_HORIZONTAL = "\u{2533}";
 
-    #[Info(id: 0x2534, name: 'BOX DRAWINGS LIGHT UP AND HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2534, name: 'BOX DRAWINGS LIGHT UP AND HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT UP AND HORIZONTAL', informativeAliases: ['Videotex Mosaic DG 23'])]
     case BOX_DRAWINGS_LIGHT_UP_AND_HORIZONTAL = "\u{2534}";
 
-    #[Info(id: 0x2535, name: 'BOX DRAWINGS LEFT HEAVY AND RIGHT UP LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2535, name: 'BOX DRAWINGS LEFT HEAVY AND RIGHT UP LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LEFT HEAVY AND RIGHT UP LIGHT')]
     case BOX_DRAWINGS_LEFT_HEAVY_AND_RIGHT_UP_LIGHT = "\u{2535}";
 
-    #[Info(id: 0x2536, name: 'BOX DRAWINGS RIGHT HEAVY AND LEFT UP LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2536, name: 'BOX DRAWINGS RIGHT HEAVY AND LEFT UP LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS RIGHT HEAVY AND LEFT UP LIGHT')]
     case BOX_DRAWINGS_RIGHT_HEAVY_AND_LEFT_UP_LIGHT = "\u{2536}";
 
-    #[Info(id: 0x2537, name: 'BOX DRAWINGS UP LIGHT AND HORIZONTAL HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2537, name: 'BOX DRAWINGS UP LIGHT AND HORIZONTAL HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP LIGHT AND HORIZONTAL HEAVY', informativeAliases: ['Videotex Mosaic DG 01'])]
     case BOX_DRAWINGS_UP_LIGHT_AND_HORIZONTAL_HEAVY = "\u{2537}";
 
-    #[Info(id: 0x2538, name: 'BOX DRAWINGS UP HEAVY AND HORIZONTAL LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2538, name: 'BOX DRAWINGS UP HEAVY AND HORIZONTAL LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP HEAVY AND HORIZONTAL LIGHT')]
     case BOX_DRAWINGS_UP_HEAVY_AND_HORIZONTAL_LIGHT = "\u{2538}";
 
-    #[Info(id: 0x2539, name: 'BOX DRAWINGS RIGHT LIGHT AND LEFT UP HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2539, name: 'BOX DRAWINGS RIGHT LIGHT AND LEFT UP HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS RIGHT LIGHT AND LEFT UP HEAVY')]
     case BOX_DRAWINGS_RIGHT_LIGHT_AND_LEFT_UP_HEAVY = "\u{2539}";
 
-    #[Info(id: 0x253A, name: 'BOX DRAWINGS LEFT LIGHT AND RIGHT UP HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x253A, name: 'BOX DRAWINGS LEFT LIGHT AND RIGHT UP HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS LEFT LIGHT AND RIGHT UP HEAVY')]
     case BOX_DRAWINGS_LEFT_LIGHT_AND_RIGHT_UP_HEAVY = "\u{253A}";
 
-    #[Info(id: 0x253B, name: 'BOX DRAWINGS HEAVY UP AND HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x253B, name: 'BOX DRAWINGS HEAVY UP AND HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY UP AND HORIZONTAL')]
     case BOX_DRAWINGS_HEAVY_UP_AND_HORIZONTAL = "\u{253B}";
 
-    #[Info(id: 0x253C, name: 'BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x253C, name: 'BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT VERTICAL AND HORIZONTAL', informativeAliases: ['Videotex Mosaic DG 24'])]
     case BOX_DRAWINGS_LIGHT_VERTICAL_AND_HORIZONTAL = "\u{253C}";
 
-    #[Info(id: 0x253D, name: 'BOX DRAWINGS LEFT HEAVY AND RIGHT VERTICAL LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x253D, name: 'BOX DRAWINGS LEFT HEAVY AND RIGHT VERTICAL LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LEFT HEAVY AND RIGHT VERTICAL LIGHT')]
     case BOX_DRAWINGS_LEFT_HEAVY_AND_RIGHT_VERTICAL_LIGHT = "\u{253D}";
 
-    #[Info(id: 0x253E, name: 'BOX DRAWINGS RIGHT HEAVY AND LEFT VERTICAL LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x253E, name: 'BOX DRAWINGS RIGHT HEAVY AND LEFT VERTICAL LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS RIGHT HEAVY AND LEFT VERTICAL LIGHT')]
     case BOX_DRAWINGS_RIGHT_HEAVY_AND_LEFT_VERTICAL_LIGHT = "\u{253E}";
 
-    #[Info(id: 0x253F, name: 'BOX DRAWINGS VERTICAL LIGHT AND HORIZONTAL HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x253F, name: 'BOX DRAWINGS VERTICAL LIGHT AND HORIZONTAL HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL LIGHT AND HORIZONTAL HEAVY', informativeAliases: ['Videotex Mosaic DG 13'])]
     case BOX_DRAWINGS_VERTICAL_LIGHT_AND_HORIZONTAL_HEAVY = "\u{253F}";
 
-    #[Info(id: 0x2540, name: 'BOX DRAWINGS UP HEAVY AND DOWN HORIZONTAL LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2540, name: 'BOX DRAWINGS UP HEAVY AND DOWN HORIZONTAL LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP HEAVY AND DOWN HORIZONTAL LIGHT')]
     case BOX_DRAWINGS_UP_HEAVY_AND_DOWN_HORIZONTAL_LIGHT = "\u{2540}";
 
-    #[Info(id: 0x2541, name: 'BOX DRAWINGS DOWN HEAVY AND UP HORIZONTAL LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2541, name: 'BOX DRAWINGS DOWN HEAVY AND UP HORIZONTAL LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN HEAVY AND UP HORIZONTAL LIGHT')]
     case BOX_DRAWINGS_DOWN_HEAVY_AND_UP_HORIZONTAL_LIGHT = "\u{2541}";
 
-    #[Info(id: 0x2542, name: 'BOX DRAWINGS VERTICAL HEAVY AND HORIZONTAL LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2542, name: 'BOX DRAWINGS VERTICAL HEAVY AND HORIZONTAL LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL HEAVY AND HORIZONTAL LIGHT')]
     case BOX_DRAWINGS_VERTICAL_HEAVY_AND_HORIZONTAL_LIGHT = "\u{2542}";
 
-    #[Info(id: 0x2543, name: 'BOX DRAWINGS LEFT UP HEAVY AND RIGHT DOWN LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2543, name: 'BOX DRAWINGS LEFT UP HEAVY AND RIGHT DOWN LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LEFT UP HEAVY AND RIGHT DOWN LIGHT')]
     case BOX_DRAWINGS_LEFT_UP_HEAVY_AND_RIGHT_DOWN_LIGHT = "\u{2543}";
 
-    #[Info(id: 0x2544, name: 'BOX DRAWINGS RIGHT UP HEAVY AND LEFT DOWN LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2544, name: 'BOX DRAWINGS RIGHT UP HEAVY AND LEFT DOWN LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS RIGHT UP HEAVY AND LEFT DOWN LIGHT')]
     case BOX_DRAWINGS_RIGHT_UP_HEAVY_AND_LEFT_DOWN_LIGHT = "\u{2544}";
 
-    #[Info(id: 0x2545, name: 'BOX DRAWINGS LEFT DOWN HEAVY AND RIGHT UP LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2545, name: 'BOX DRAWINGS LEFT DOWN HEAVY AND RIGHT UP LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LEFT DOWN HEAVY AND RIGHT UP LIGHT')]
     case BOX_DRAWINGS_LEFT_DOWN_HEAVY_AND_RIGHT_UP_LIGHT = "\u{2545}";
 
-    #[Info(id: 0x2546, name: 'BOX DRAWINGS RIGHT DOWN HEAVY AND LEFT UP LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2546, name: 'BOX DRAWINGS RIGHT DOWN HEAVY AND LEFT UP LIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS RIGHT DOWN HEAVY AND LEFT UP LIGHT')]
     case BOX_DRAWINGS_RIGHT_DOWN_HEAVY_AND_LEFT_UP_LIGHT = "\u{2546}";
 
-    #[Info(id: 0x2547, name: 'BOX DRAWINGS DOWN LIGHT AND UP HORIZONTAL HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2547, name: 'BOX DRAWINGS DOWN LIGHT AND UP HORIZONTAL HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN LIGHT AND UP HORIZONTAL HEAVY')]
     case BOX_DRAWINGS_DOWN_LIGHT_AND_UP_HORIZONTAL_HEAVY = "\u{2547}";
 
-    #[Info(id: 0x2548, name: 'BOX DRAWINGS UP LIGHT AND DOWN HORIZONTAL HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2548, name: 'BOX DRAWINGS UP LIGHT AND DOWN HORIZONTAL HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP LIGHT AND DOWN HORIZONTAL HEAVY')]
     case BOX_DRAWINGS_UP_LIGHT_AND_DOWN_HORIZONTAL_HEAVY = "\u{2548}";
 
-    #[Info(id: 0x2549, name: 'BOX DRAWINGS RIGHT LIGHT AND LEFT VERTICAL HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2549, name: 'BOX DRAWINGS RIGHT LIGHT AND LEFT VERTICAL HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS RIGHT LIGHT AND LEFT VERTICAL HEAVY')]
     case BOX_DRAWINGS_RIGHT_LIGHT_AND_LEFT_VERTICAL_HEAVY = "\u{2549}";
 
-    #[Info(id: 0x254A, name: 'BOX DRAWINGS LEFT LIGHT AND RIGHT VERTICAL HEAVY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x254A, name: 'BOX DRAWINGS LEFT LIGHT AND RIGHT VERTICAL HEAVY', category: Cat::Other_Symbol, unicode1Name: 'FORMS LEFT LIGHT AND RIGHT VERTICAL HEAVY')]
     case BOX_DRAWINGS_LEFT_LIGHT_AND_RIGHT_VERTICAL_HEAVY = "\u{254A}";
 
-    #[Info(id: 0x254B, name: 'BOX DRAWINGS HEAVY VERTICAL AND HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x254B, name: 'BOX DRAWINGS HEAVY VERTICAL AND HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY VERTICAL AND HORIZONTAL')]
     case BOX_DRAWINGS_HEAVY_VERTICAL_AND_HORIZONTAL = "\u{254B}";
 
-    #[Info(id: 0x254C, name: 'BOX DRAWINGS LIGHT DOUBLE DASH HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x254C, name: 'BOX DRAWINGS LIGHT DOUBLE DASH HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT DOUBLE DASH HORIZONTAL')]
     case BOX_DRAWINGS_LIGHT_DOUBLE_DASH_HORIZONTAL = "\u{254C}";
 
-    #[Info(id: 0x254D, name: 'BOX DRAWINGS HEAVY DOUBLE DASH HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x254D, name: 'BOX DRAWINGS HEAVY DOUBLE DASH HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY DOUBLE DASH HORIZONTAL')]
     case BOX_DRAWINGS_HEAVY_DOUBLE_DASH_HORIZONTAL = "\u{254D}";
 
-    #[Info(id: 0x254E, name: 'BOX DRAWINGS LIGHT DOUBLE DASH VERTICAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x254E, name: 'BOX DRAWINGS LIGHT DOUBLE DASH VERTICAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT DOUBLE DASH VERTICAL')]
     case BOX_DRAWINGS_LIGHT_DOUBLE_DASH_VERTICAL = "\u{254E}";
 
-    #[Info(id: 0x254F, name: 'BOX DRAWINGS HEAVY DOUBLE DASH VERTICAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x254F, name: 'BOX DRAWINGS HEAVY DOUBLE DASH VERTICAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY DOUBLE DASH VERTICAL')]
     case BOX_DRAWINGS_HEAVY_DOUBLE_DASH_VERTICAL = "\u{254F}";
 
-    #[Info(id: 0x2550, name: 'BOX DRAWINGS DOUBLE HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2550, name: 'BOX DRAWINGS DOUBLE HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOUBLE HORIZONTAL')]
     case BOX_DRAWINGS_DOUBLE_HORIZONTAL = "\u{2550}";
 
-    #[Info(id: 0x2551, name: 'BOX DRAWINGS DOUBLE VERTICAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2551, name: 'BOX DRAWINGS DOUBLE VERTICAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOUBLE VERTICAL')]
     case BOX_DRAWINGS_DOUBLE_VERTICAL = "\u{2551}";
 
-    #[Info(id: 0x2552, name: 'BOX DRAWINGS DOWN SINGLE AND RIGHT DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2552, name: 'BOX DRAWINGS DOWN SINGLE AND RIGHT DOUBLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN SINGLE AND RIGHT DOUBLE')]
     case BOX_DRAWINGS_DOWN_SINGLE_AND_RIGHT_DOUBLE = "\u{2552}";
 
-    #[Info(id: 0x2553, name: 'BOX DRAWINGS DOWN DOUBLE AND RIGHT SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2553, name: 'BOX DRAWINGS DOWN DOUBLE AND RIGHT SINGLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN DOUBLE AND RIGHT SINGLE')]
     case BOX_DRAWINGS_DOWN_DOUBLE_AND_RIGHT_SINGLE = "\u{2553}";
 
-    #[Info(id: 0x2554, name: 'BOX DRAWINGS DOUBLE DOWN AND RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2554, name: 'BOX DRAWINGS DOUBLE DOWN AND RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOUBLE DOWN AND RIGHT')]
     case BOX_DRAWINGS_DOUBLE_DOWN_AND_RIGHT = "\u{2554}";
 
-    #[Info(id: 0x2555, name: 'BOX DRAWINGS DOWN SINGLE AND LEFT DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2555, name: 'BOX DRAWINGS DOWN SINGLE AND LEFT DOUBLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN SINGLE AND LEFT DOUBLE')]
     case BOX_DRAWINGS_DOWN_SINGLE_AND_LEFT_DOUBLE = "\u{2555}";
 
-    #[Info(id: 0x2556, name: 'BOX DRAWINGS DOWN DOUBLE AND LEFT SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2556, name: 'BOX DRAWINGS DOWN DOUBLE AND LEFT SINGLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN DOUBLE AND LEFT SINGLE')]
     case BOX_DRAWINGS_DOWN_DOUBLE_AND_LEFT_SINGLE = "\u{2556}";
 
-    #[Info(id: 0x2557, name: 'BOX DRAWINGS DOUBLE DOWN AND LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2557, name: 'BOX DRAWINGS DOUBLE DOWN AND LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOUBLE DOWN AND LEFT')]
     case BOX_DRAWINGS_DOUBLE_DOWN_AND_LEFT = "\u{2557}";
 
-    #[Info(id: 0x2558, name: 'BOX DRAWINGS UP SINGLE AND RIGHT DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2558, name: 'BOX DRAWINGS UP SINGLE AND RIGHT DOUBLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP SINGLE AND RIGHT DOUBLE')]
     case BOX_DRAWINGS_UP_SINGLE_AND_RIGHT_DOUBLE = "\u{2558}";
 
-    #[Info(id: 0x2559, name: 'BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2559, name: 'BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP DOUBLE AND RIGHT SINGLE')]
     case BOX_DRAWINGS_UP_DOUBLE_AND_RIGHT_SINGLE = "\u{2559}";
 
-    #[Info(id: 0x255A, name: 'BOX DRAWINGS DOUBLE UP AND RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x255A, name: 'BOX DRAWINGS DOUBLE UP AND RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOUBLE UP AND RIGHT')]
     case BOX_DRAWINGS_DOUBLE_UP_AND_RIGHT = "\u{255A}";
 
-    #[Info(id: 0x255B, name: 'BOX DRAWINGS UP SINGLE AND LEFT DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x255B, name: 'BOX DRAWINGS UP SINGLE AND LEFT DOUBLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP SINGLE AND LEFT DOUBLE')]
     case BOX_DRAWINGS_UP_SINGLE_AND_LEFT_DOUBLE = "\u{255B}";
 
-    #[Info(id: 0x255C, name: 'BOX DRAWINGS UP DOUBLE AND LEFT SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x255C, name: 'BOX DRAWINGS UP DOUBLE AND LEFT SINGLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP DOUBLE AND LEFT SINGLE')]
     case BOX_DRAWINGS_UP_DOUBLE_AND_LEFT_SINGLE = "\u{255C}";
 
-    #[Info(id: 0x255D, name: 'BOX DRAWINGS DOUBLE UP AND LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x255D, name: 'BOX DRAWINGS DOUBLE UP AND LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOUBLE UP AND LEFT')]
     case BOX_DRAWINGS_DOUBLE_UP_AND_LEFT = "\u{255D}";
 
-    #[Info(id: 0x255E, name: 'BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x255E, name: 'BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL SINGLE AND RIGHT DOUBLE')]
     case BOX_DRAWINGS_VERTICAL_SINGLE_AND_RIGHT_DOUBLE = "\u{255E}";
 
-    #[Info(id: 0x255F, name: 'BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x255F, name: 'BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL DOUBLE AND RIGHT SINGLE')]
     case BOX_DRAWINGS_VERTICAL_DOUBLE_AND_RIGHT_SINGLE = "\u{255F}";
 
-    #[Info(id: 0x2560, name: 'BOX DRAWINGS DOUBLE VERTICAL AND RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2560, name: 'BOX DRAWINGS DOUBLE VERTICAL AND RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOUBLE VERTICAL AND RIGHT')]
     case BOX_DRAWINGS_DOUBLE_VERTICAL_AND_RIGHT = "\u{2560}";
 
-    #[Info(id: 0x2561, name: 'BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2561, name: 'BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL SINGLE AND LEFT DOUBLE')]
     case BOX_DRAWINGS_VERTICAL_SINGLE_AND_LEFT_DOUBLE = "\u{2561}";
 
-    #[Info(id: 0x2562, name: 'BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2562, name: 'BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL DOUBLE AND LEFT SINGLE')]
     case BOX_DRAWINGS_VERTICAL_DOUBLE_AND_LEFT_SINGLE = "\u{2562}";
 
-    #[Info(id: 0x2563, name: 'BOX DRAWINGS DOUBLE VERTICAL AND LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2563, name: 'BOX DRAWINGS DOUBLE VERTICAL AND LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOUBLE VERTICAL AND LEFT')]
     case BOX_DRAWINGS_DOUBLE_VERTICAL_AND_LEFT = "\u{2563}";
 
-    #[Info(id: 0x2564, name: 'BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2564, name: 'BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN SINGLE AND HORIZONTAL DOUBLE')]
     case BOX_DRAWINGS_DOWN_SINGLE_AND_HORIZONTAL_DOUBLE = "\u{2564}";
 
-    #[Info(id: 0x2565, name: 'BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2565, name: 'BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOWN DOUBLE AND HORIZONTAL SINGLE')]
     case BOX_DRAWINGS_DOWN_DOUBLE_AND_HORIZONTAL_SINGLE = "\u{2565}";
 
-    #[Info(id: 0x2566, name: 'BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2566, name: 'BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOUBLE DOWN AND HORIZONTAL')]
     case BOX_DRAWINGS_DOUBLE_DOWN_AND_HORIZONTAL = "\u{2566}";
 
-    #[Info(id: 0x2567, name: 'BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2567, name: 'BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP SINGLE AND HORIZONTAL DOUBLE')]
     case BOX_DRAWINGS_UP_SINGLE_AND_HORIZONTAL_DOUBLE = "\u{2567}";
 
-    #[Info(id: 0x2568, name: 'BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2568, name: 'BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS UP DOUBLE AND HORIZONTAL SINGLE')]
     case BOX_DRAWINGS_UP_DOUBLE_AND_HORIZONTAL_SINGLE = "\u{2568}";
 
-    #[Info(id: 0x2569, name: 'BOX DRAWINGS DOUBLE UP AND HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2569, name: 'BOX DRAWINGS DOUBLE UP AND HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOUBLE UP AND HORIZONTAL')]
     case BOX_DRAWINGS_DOUBLE_UP_AND_HORIZONTAL = "\u{2569}";
 
-    #[Info(id: 0x256A, name: 'BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x256A, name: 'BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL SINGLE AND HORIZONTAL DOUBLE')]
     case BOX_DRAWINGS_VERTICAL_SINGLE_AND_HORIZONTAL_DOUBLE = "\u{256A}";
 
-    #[Info(id: 0x256B, name: 'BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x256B, name: 'BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE', category: Cat::Other_Symbol, unicode1Name: 'FORMS VERTICAL DOUBLE AND HORIZONTAL SINGLE')]
     case BOX_DRAWINGS_VERTICAL_DOUBLE_AND_HORIZONTAL_SINGLE = "\u{256B}";
 
-    #[Info(id: 0x256C, name: 'BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x256C, name: 'BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS DOUBLE VERTICAL AND HORIZONTAL')]
     case BOX_DRAWINGS_DOUBLE_VERTICAL_AND_HORIZONTAL = "\u{256C}";
 
-    #[Info(id: 0x256D, name: 'BOX DRAWINGS LIGHT ARC DOWN AND RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x256D, name: 'BOX DRAWINGS LIGHT ARC DOWN AND RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT ARC DOWN AND RIGHT')]
     case BOX_DRAWINGS_LIGHT_ARC_DOWN_AND_RIGHT = "\u{256D}";
 
-    #[Info(id: 0x256E, name: 'BOX DRAWINGS LIGHT ARC DOWN AND LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x256E, name: 'BOX DRAWINGS LIGHT ARC DOWN AND LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT ARC DOWN AND LEFT')]
     case BOX_DRAWINGS_LIGHT_ARC_DOWN_AND_LEFT = "\u{256E}";
 
-    #[Info(id: 0x256F, name: 'BOX DRAWINGS LIGHT ARC UP AND LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x256F, name: 'BOX DRAWINGS LIGHT ARC UP AND LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT ARC UP AND LEFT')]
     case BOX_DRAWINGS_LIGHT_ARC_UP_AND_LEFT = "\u{256F}";
 
-    #[Info(id: 0x2570, name: 'BOX DRAWINGS LIGHT ARC UP AND RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2570, name: 'BOX DRAWINGS LIGHT ARC UP AND RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT ARC UP AND RIGHT')]
     case BOX_DRAWINGS_LIGHT_ARC_UP_AND_RIGHT = "\u{2570}";
 
-    #[Info(id: 0x2571, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2571, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT')]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_RIGHT_TO_LOWER_LEFT = "\u{2571}";
 
-    #[Info(id: 0x2572, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2572, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT')]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_LEFT_TO_LOWER_RIGHT = "\u{2572}";
 
-    #[Info(id: 0x2573, name: 'BOX DRAWINGS LIGHT DIAGONAL CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2573, name: 'BOX DRAWINGS LIGHT DIAGONAL CROSS', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT DIAGONAL CROSS')]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_CROSS = "\u{2573}";
 
-    #[Info(id: 0x2574, name: 'BOX DRAWINGS LIGHT LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2574, name: 'BOX DRAWINGS LIGHT LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT LEFT')]
     case BOX_DRAWINGS_LIGHT_LEFT = "\u{2574}";
 
-    #[Info(id: 0x2575, name: 'BOX DRAWINGS LIGHT UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2575, name: 'BOX DRAWINGS LIGHT UP', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT UP')]
     case BOX_DRAWINGS_LIGHT_UP = "\u{2575}";
 
-    #[Info(id: 0x2576, name: 'BOX DRAWINGS LIGHT RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2576, name: 'BOX DRAWINGS LIGHT RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT RIGHT')]
     case BOX_DRAWINGS_LIGHT_RIGHT = "\u{2576}";
 
-    #[Info(id: 0x2577, name: 'BOX DRAWINGS LIGHT DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2577, name: 'BOX DRAWINGS LIGHT DOWN', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT DOWN')]
     case BOX_DRAWINGS_LIGHT_DOWN = "\u{2577}";
 
-    #[Info(id: 0x2578, name: 'BOX DRAWINGS HEAVY LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2578, name: 'BOX DRAWINGS HEAVY LEFT', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY LEFT')]
     case BOX_DRAWINGS_HEAVY_LEFT = "\u{2578}";
 
-    #[Info(id: 0x2579, name: 'BOX DRAWINGS HEAVY UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2579, name: 'BOX DRAWINGS HEAVY UP', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY UP')]
     case BOX_DRAWINGS_HEAVY_UP = "\u{2579}";
 
-    #[Info(id: 0x257A, name: 'BOX DRAWINGS HEAVY RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x257A, name: 'BOX DRAWINGS HEAVY RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY RIGHT')]
     case BOX_DRAWINGS_HEAVY_RIGHT = "\u{257A}";
 
-    #[Info(id: 0x257B, name: 'BOX DRAWINGS HEAVY DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x257B, name: 'BOX DRAWINGS HEAVY DOWN', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY DOWN')]
     case BOX_DRAWINGS_HEAVY_DOWN = "\u{257B}";
 
-    #[Info(id: 0x257C, name: 'BOX DRAWINGS LIGHT LEFT AND HEAVY RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x257C, name: 'BOX DRAWINGS LIGHT LEFT AND HEAVY RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT LEFT AND HEAVY RIGHT')]
     case BOX_DRAWINGS_LIGHT_LEFT_AND_HEAVY_RIGHT = "\u{257C}";
 
-    #[Info(id: 0x257D, name: 'BOX DRAWINGS LIGHT UP AND HEAVY DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x257D, name: 'BOX DRAWINGS LIGHT UP AND HEAVY DOWN', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT UP AND HEAVY DOWN')]
     case BOX_DRAWINGS_LIGHT_UP_AND_HEAVY_DOWN = "\u{257D}";
 
-    #[Info(id: 0x257E, name: 'BOX DRAWINGS HEAVY LEFT AND LIGHT RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x257E, name: 'BOX DRAWINGS HEAVY LEFT AND LIGHT RIGHT', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY LEFT AND LIGHT RIGHT')]
     case BOX_DRAWINGS_HEAVY_LEFT_AND_LIGHT_RIGHT = "\u{257E}";
 
-    #[Info(id: 0x257F, name: 'BOX DRAWINGS HEAVY UP AND LIGHT DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x257F, name: 'BOX DRAWINGS HEAVY UP AND LIGHT DOWN', category: Cat::Other_Symbol, unicode1Name: 'FORMS HEAVY UP AND LIGHT DOWN')]
     case BOX_DRAWINGS_HEAVY_UP_AND_LIGHT_DOWN = "\u{257F}";
 }

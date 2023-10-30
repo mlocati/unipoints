@@ -94,28 +94,28 @@ enum Hanifi_Rohingya: string
     #[Info(id: 0x10D19, name: 'HANIFI ROHINGYA LETTER KINNA YA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_KINNA_YA = "\u{10D19}";
 
-    #[Info(id: 0x10D1A, name: 'HANIFI ROHINGYA LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D1A, name: 'HANIFI ROHINGYA LETTER NGA', category: Cat::Other_Letter, informativeAliases: ['gan'])]
     case HANIFI_ROHINGYA_LETTER_NGA = "\u{10D1A}";
 
-    #[Info(id: 0x10D1B, name: 'HANIFI ROHINGYA LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D1B, name: 'HANIFI ROHINGYA LETTER NYA', category: Cat::Other_Letter, informativeAliases: ['nayya'])]
     case HANIFI_ROHINGYA_LETTER_NYA = "\u{10D1B}";
 
     #[Info(id: 0x10D1C, name: 'HANIFI ROHINGYA LETTER VA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_VA = "\u{10D1C}";
 
-    #[Info(id: 0x10D1D, name: 'HANIFI ROHINGYA VOWEL A', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D1D, name: 'HANIFI ROHINGYA VOWEL A', category: Cat::Other_Letter, informativeAliases: ['aa-for'])]
     case HANIFI_ROHINGYA_VOWEL_A = "\u{10D1D}";
 
-    #[Info(id: 0x10D1E, name: 'HANIFI ROHINGYA VOWEL I', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D1E, name: 'HANIFI ROHINGYA VOWEL I', category: Cat::Other_Letter, informativeAliases: ['i-for'])]
     case HANIFI_ROHINGYA_VOWEL_I = "\u{10D1E}";
 
-    #[Info(id: 0x10D1F, name: 'HANIFI ROHINGYA VOWEL U', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D1F, name: 'HANIFI ROHINGYA VOWEL U', category: Cat::Other_Letter, informativeAliases: ['u-for'])]
     case HANIFI_ROHINGYA_VOWEL_U = "\u{10D1F}";
 
-    #[Info(id: 0x10D20, name: 'HANIFI ROHINGYA VOWEL E', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D20, name: 'HANIFI ROHINGYA VOWEL E', category: Cat::Other_Letter, informativeAliases: ['e-for'])]
     case HANIFI_ROHINGYA_VOWEL_E = "\u{10D20}";
 
-    #[Info(id: 0x10D21, name: 'HANIFI ROHINGYA VOWEL O', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D21, name: 'HANIFI ROHINGYA VOWEL O', category: Cat::Other_Letter, informativeAliases: ['o-for'])]
     case HANIFI_ROHINGYA_VOWEL_O = "\u{10D21}";
 
     #[Info(id: 0x10D22, name: 'HANIFI ROHINGYA MARK SAKIN', category: Cat::Other_Letter)]

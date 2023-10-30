@@ -136,7 +136,7 @@ enum Oriya: string
     #[Info(id: 0xB2E, name: 'ORIYA LETTER MA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_MA = "\u{B2E}";
 
-    #[Info(id: 0xB2F, name: 'ORIYA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB2F, name: 'ORIYA LETTER YA', category: Cat::Other_Letter, informativeAliases: ['ja'])]
     case ORIYA_LETTER_YA = "\u{B2F}";
 
     #[Info(id: 0xB30, name: 'ORIYA LETTER RA', category: Cat::Other_Letter)]
@@ -214,13 +214,13 @@ enum Oriya: string
     #[Info(id: 0xB57, name: 'ORIYA AU LENGTH MARK', category: Cat::Spacing_Mark)]
     case ORIYA_AU_LENGTH_MARK = "\u{B57}";
 
-    #[Info(id: 0xB5C, name: 'ORIYA LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB5C, name: 'ORIYA LETTER RRA', category: Cat::Other_Letter, informativeAliases: ['dda'])]
     case ORIYA_LETTER_RRA = "\u{B5C}";
 
-    #[Info(id: 0xB5D, name: 'ORIYA LETTER RHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB5D, name: 'ORIYA LETTER RHA', category: Cat::Other_Letter, informativeAliases: ['ddha'])]
     case ORIYA_LETTER_RHA = "\u{B5D}";
 
-    #[Info(id: 0xB5F, name: 'ORIYA LETTER YYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB5F, name: 'ORIYA LETTER YYA', category: Cat::Other_Letter, informativeAliases: ['ya'])]
     case ORIYA_LETTER_YYA = "\u{B5F}";
 
     #[Info(id: 0xB60, name: 'ORIYA LETTER VOCALIC RR', category: Cat::Other_Letter)]

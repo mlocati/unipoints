@@ -16,10 +16,10 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Egyptian_Hieroglyph_Format_Controls: string
 {
-    #[Info(id: 0x13430, name: 'EGYPTIAN HIEROGLYPH VERTICAL JOINER', category: Cat::Format)]
+    #[Info(id: 0x13430, name: 'EGYPTIAN HIEROGLYPH VERTICAL JOINER', category: Cat::Format, informativeAliases: ['sign separator: subordination (Manuel de Codage)'])]
     case EGYPTIAN_HIEROGLYPH_VERTICAL_JOINER = "\u{13430}";
 
-    #[Info(id: 0x13431, name: 'EGYPTIAN HIEROGLYPH HORIZONTAL JOINER', category: Cat::Format)]
+    #[Info(id: 0x13431, name: 'EGYPTIAN HIEROGLYPH HORIZONTAL JOINER', category: Cat::Format, informativeAliases: ['sign separator: juxtaposition (Manuel de Codage)'])]
     case EGYPTIAN_HIEROGLYPH_HORIZONTAL_JOINER = "\u{13431}";
 
     #[Info(id: 0x13432, name: 'EGYPTIAN HIEROGLYPH INSERT AT TOP START', category: Cat::Format)]

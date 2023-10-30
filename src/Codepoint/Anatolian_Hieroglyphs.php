@@ -16,118 +16,118 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Anatolian_Hieroglyphs: string
 {
-    #[Info(id: 0x14400, name: 'ANATOLIAN HIEROGLYPH A001', category: Cat::Other_Letter)]
+    #[Info(id: 0x14400, name: 'ANATOLIAN HIEROGLYPH A001', category: Cat::Other_Letter, informativeAliases: ['ego'])]
     case ANATOLIAN_HIEROGLYPH_A001 = "\u{14400}";
 
-    #[Info(id: 0x14401, name: 'ANATOLIAN HIEROGLYPH A002', category: Cat::Other_Letter)]
+    #[Info(id: 0x14401, name: 'ANATOLIAN HIEROGLYPH A002', category: Cat::Other_Letter, informativeAliases: ['ego2'])]
     case ANATOLIAN_HIEROGLYPH_A002 = "\u{14401}";
 
     #[Info(id: 0x14402, name: 'ANATOLIAN HIEROGLYPH A003', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A003 = "\u{14402}";
 
-    #[Info(id: 0x14403, name: 'ANATOLIAN HIEROGLYPH A004', category: Cat::Other_Letter)]
+    #[Info(id: 0x14403, name: 'ANATOLIAN HIEROGLYPH A004', category: Cat::Other_Letter, informativeAliases: ['mons2'])]
     case ANATOLIAN_HIEROGLYPH_A004 = "\u{14403}";
 
     #[Info(id: 0x14404, name: 'ANATOLIAN HIEROGLYPH A005', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A005 = "\u{14404}";
 
-    #[Info(id: 0x14405, name: 'ANATOLIAN HIEROGLYPH A006', category: Cat::Other_Letter)]
+    #[Info(id: 0x14405, name: 'ANATOLIAN HIEROGLYPH A006', category: Cat::Other_Letter, informativeAliases: ['adorare'])]
     case ANATOLIAN_HIEROGLYPH_A006 = "\u{14405}";
 
-    #[Info(id: 0x14406, name: 'ANATOLIAN HIEROGLYPH A007', category: Cat::Other_Letter)]
+    #[Info(id: 0x14406, name: 'ANATOLIAN HIEROGLYPH A007', category: Cat::Other_Letter, informativeAliases: ['edere'])]
     case ANATOLIAN_HIEROGLYPH_A007 = "\u{14406}";
 
-    #[Info(id: 0x14407, name: 'ANATOLIAN HIEROGLYPH A008', category: Cat::Other_Letter)]
+    #[Info(id: 0x14407, name: 'ANATOLIAN HIEROGLYPH A008', category: Cat::Other_Letter, informativeAliases: ['bibere'])]
     case ANATOLIAN_HIEROGLYPH_A008 = "\u{14407}";
 
-    #[Info(id: 0x14408, name: 'ANATOLIAN HIEROGLYPH A009', category: Cat::Other_Letter)]
+    #[Info(id: 0x14408, name: 'ANATOLIAN HIEROGLYPH A009', category: Cat::Other_Letter, informativeAliases: ['amplecti'])]
     case ANATOLIAN_HIEROGLYPH_A009 = "\u{14408}";
 
-    #[Info(id: 0x14409, name: 'ANATOLIAN HIEROGLYPH A010', category: Cat::Other_Letter)]
+    #[Info(id: 0x14409, name: 'ANATOLIAN HIEROGLYPH A010', category: Cat::Other_Letter, informativeAliases: ['caput'])]
     case ANATOLIAN_HIEROGLYPH_A010 = "\u{14409}";
 
-    #[Info(id: 0x1440A, name: 'ANATOLIAN HIEROGLYPH A010A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1440A, name: 'ANATOLIAN HIEROGLYPH A010A', category: Cat::Other_Letter, informativeAliases: ['caput+scalprum'])]
     case ANATOLIAN_HIEROGLYPH_A010A = "\u{1440A}";
 
     #[Info(id: 0x1440B, name: 'ANATOLIAN HIEROGLYPH A011', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A011 = "\u{1440B}";
 
-    #[Info(id: 0x1440C, name: 'ANATOLIAN HIEROGLYPH A012', category: Cat::Other_Letter)]
+    #[Info(id: 0x1440C, name: 'ANATOLIAN HIEROGLYPH A012', category: Cat::Other_Letter, informativeAliases: ['statua'])]
     case ANATOLIAN_HIEROGLYPH_A012 = "\u{1440C}";
 
     #[Info(id: 0x1440D, name: 'ANATOLIAN HIEROGLYPH A013', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A013 = "\u{1440D}";
 
-    #[Info(id: 0x1440E, name: 'ANATOLIAN HIEROGLYPH A014', category: Cat::Other_Letter)]
+    #[Info(id: 0x1440E, name: 'ANATOLIAN HIEROGLYPH A014', category: Cat::Other_Letter, informativeAliases: ['prae', 'logosyllabic pari'])]
     case ANATOLIAN_HIEROGLYPH_A014 = "\u{1440E}";
 
-    #[Info(id: 0x1440F, name: 'ANATOLIAN HIEROGLYPH A015', category: Cat::Other_Letter)]
+    #[Info(id: 0x1440F, name: 'ANATOLIAN HIEROGLYPH A015', category: Cat::Other_Letter, informativeAliases: ['domina'])]
     case ANATOLIAN_HIEROGLYPH_A015 = "\u{1440F}";
 
-    #[Info(id: 0x14410, name: 'ANATOLIAN HIEROGLYPH A016', category: Cat::Other_Letter)]
+    #[Info(id: 0x14410, name: 'ANATOLIAN HIEROGLYPH A016', category: Cat::Other_Letter, informativeAliases: ['magnus.domina'])]
     case ANATOLIAN_HIEROGLYPH_A016 = "\u{14410}";
 
-    #[Info(id: 0x14411, name: 'ANATOLIAN HIEROGLYPH A017', category: Cat::Other_Letter)]
+    #[Info(id: 0x14411, name: 'ANATOLIAN HIEROGLYPH A017', category: Cat::Other_Letter, informativeAliases: ['rex'])]
     case ANATOLIAN_HIEROGLYPH_A017 = "\u{14411}";
 
-    #[Info(id: 0x14412, name: 'ANATOLIAN HIEROGLYPH A018', category: Cat::Other_Letter)]
+    #[Info(id: 0x14412, name: 'ANATOLIAN HIEROGLYPH A018', category: Cat::Other_Letter, informativeAliases: ['magnus.rex'])]
     case ANATOLIAN_HIEROGLYPH_A018 = "\u{14412}";
 
-    #[Info(id: 0x14413, name: 'ANATOLIAN HIEROGLYPH A019', category: Cat::Other_Letter)]
+    #[Info(id: 0x14413, name: 'ANATOLIAN HIEROGLYPH A019', category: Cat::Other_Letter, informativeAliases: ['syllabic á'])]
     case ANATOLIAN_HIEROGLYPH_A019 = "\u{14413}";
 
     #[Info(id: 0x14414, name: 'ANATOLIAN HIEROGLYPH A020', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A020 = "\u{14414}";
 
-    #[Info(id: 0x14415, name: 'ANATOLIAN HIEROGLYPH A021', category: Cat::Other_Letter)]
+    #[Info(id: 0x14415, name: 'ANATOLIAN HIEROGLYPH A021', category: Cat::Other_Letter, informativeAliases: ['heros'])]
     case ANATOLIAN_HIEROGLYPH_A021 = "\u{14415}";
 
-    #[Info(id: 0x14416, name: 'ANATOLIAN HIEROGLYPH A022', category: Cat::Other_Letter)]
+    #[Info(id: 0x14416, name: 'ANATOLIAN HIEROGLYPH A022', category: Cat::Other_Letter, informativeAliases: ['loqui'])]
     case ANATOLIAN_HIEROGLYPH_A022 = "\u{14416}";
 
     #[Info(id: 0x14417, name: 'ANATOLIAN HIEROGLYPH A023', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A023 = "\u{14417}";
 
-    #[Info(id: 0x14418, name: 'ANATOLIAN HIEROGLYPH A024', category: Cat::Other_Letter)]
+    #[Info(id: 0x14418, name: 'ANATOLIAN HIEROGLYPH A024', category: Cat::Other_Letter, informativeAliases: ['lis'])]
     case ANATOLIAN_HIEROGLYPH_A024 = "\u{14418}";
 
-    #[Info(id: 0x14419, name: 'ANATOLIAN HIEROGLYPH A025', category: Cat::Other_Letter)]
+    #[Info(id: 0x14419, name: 'ANATOLIAN HIEROGLYPH A025', category: Cat::Other_Letter, informativeAliases: ['oculus'])]
     case ANATOLIAN_HIEROGLYPH_A025 = "\u{14419}";
 
-    #[Info(id: 0x1441A, name: 'ANATOLIAN HIEROGLYPH A026', category: Cat::Other_Letter)]
+    #[Info(id: 0x1441A, name: 'ANATOLIAN HIEROGLYPH A026', category: Cat::Other_Letter, informativeAliases: ['frons'])]
     case ANATOLIAN_HIEROGLYPH_A026 = "\u{1441A}";
 
-    #[Info(id: 0x1441B, name: 'ANATOLIAN HIEROGLYPH A026A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1441B, name: 'ANATOLIAN HIEROGLYPH A026A', category: Cat::Other_Letter, informativeAliases: ['versus'])]
     case ANATOLIAN_HIEROGLYPH_A026A = "\u{1441B}";
 
-    #[Info(id: 0x1441C, name: 'ANATOLIAN HIEROGLYPH A027', category: Cat::Other_Letter)]
+    #[Info(id: 0x1441C, name: 'ANATOLIAN HIEROGLYPH A027', category: Cat::Other_Letter, informativeAliases: ['libare'])]
     case ANATOLIAN_HIEROGLYPH_A027 = "\u{1441C}";
 
-    #[Info(id: 0x1441D, name: 'ANATOLIAN HIEROGLYPH A028', category: Cat::Other_Letter)]
+    #[Info(id: 0x1441D, name: 'ANATOLIAN HIEROGLYPH A028', category: Cat::Other_Letter, informativeAliases: ['fortis'])]
     case ANATOLIAN_HIEROGLYPH_A028 = "\u{1441D}";
 
-    #[Info(id: 0x1441E, name: 'ANATOLIAN HIEROGLYPH A029', category: Cat::Other_Letter)]
+    #[Info(id: 0x1441E, name: 'ANATOLIAN HIEROGLYPH A029', category: Cat::Other_Letter, informativeAliases: ['syllabic tá'])]
     case ANATOLIAN_HIEROGLYPH_A029 = "\u{1441E}";
 
     #[Info(id: 0x1441F, name: 'ANATOLIAN HIEROGLYPH A030', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A030 = "\u{1441F}";
 
-    #[Info(id: 0x14420, name: 'ANATOLIAN HIEROGLYPH A031', category: Cat::Other_Letter)]
+    #[Info(id: 0x14420, name: 'ANATOLIAN HIEROGLYPH A031', category: Cat::Other_Letter, informativeAliases: ['ligare, pugnus+pugnus'])]
     case ANATOLIAN_HIEROGLYPH_A031 = "\u{14420}";
 
-    #[Info(id: 0x14421, name: 'ANATOLIAN HIEROGLYPH A032', category: Cat::Other_Letter)]
+    #[Info(id: 0x14421, name: 'ANATOLIAN HIEROGLYPH A032', category: Cat::Other_Letter, informativeAliases: ['bracchium'])]
     case ANATOLIAN_HIEROGLYPH_A032 = "\u{14421}";
 
     #[Info(id: 0x14422, name: 'ANATOLIAN HIEROGLYPH A033', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A033 = "\u{14422}";
 
-    #[Info(id: 0x14423, name: 'ANATOLIAN HIEROGLYPH A034', category: Cat::Other_Letter)]
+    #[Info(id: 0x14423, name: 'ANATOLIAN HIEROGLYPH A034', category: Cat::Other_Letter, informativeAliases: ['post'])]
     case ANATOLIAN_HIEROGLYPH_A034 = "\u{14423}";
 
-    #[Info(id: 0x14424, name: 'ANATOLIAN HIEROGLYPH A035', category: Cat::Other_Letter)]
+    #[Info(id: 0x14424, name: 'ANATOLIAN HIEROGLYPH A035', category: Cat::Other_Letter, informativeAliases: ['syllabic na'])]
     case ANATOLIAN_HIEROGLYPH_A035 = "\u{14424}";
 
-    #[Info(id: 0x14425, name: 'ANATOLIAN HIEROGLYPH A036', category: Cat::Other_Letter)]
+    #[Info(id: 0x14425, name: 'ANATOLIAN HIEROGLYPH A036', category: Cat::Other_Letter, informativeAliases: ['lituus+na'])]
     case ANATOLIAN_HIEROGLYPH_A036 = "\u{14425}";
 
     #[Info(id: 0x14426, name: 'ANATOLIAN HIEROGLYPH A037', category: Cat::Other_Letter)]
@@ -136,43 +136,43 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14427, name: 'ANATOLIAN HIEROGLYPH A038', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A038 = "\u{14427}";
 
-    #[Info(id: 0x14428, name: 'ANATOLIAN HIEROGLYPH A039', category: Cat::Other_Letter)]
+    #[Info(id: 0x14428, name: 'ANATOLIAN HIEROGLYPH A039', category: Cat::Other_Letter, informativeAliases: ['pugnus'])]
     case ANATOLIAN_HIEROGLYPH_A039 = "\u{14428}";
 
-    #[Info(id: 0x14429, name: 'ANATOLIAN HIEROGLYPH A039A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14429, name: 'ANATOLIAN HIEROGLYPH A039A', category: Cat::Other_Letter, informativeAliases: ['pugnus+x'])]
     case ANATOLIAN_HIEROGLYPH_A039A = "\u{14429}";
 
     #[Info(id: 0x1442A, name: 'ANATOLIAN HIEROGLYPH A040', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A040 = "\u{1442A}";
 
-    #[Info(id: 0x1442B, name: 'ANATOLIAN HIEROGLYPH A041', category: Cat::Other_Letter)]
+    #[Info(id: 0x1442B, name: 'ANATOLIAN HIEROGLYPH A041', category: Cat::Other_Letter, informativeAliases: ['capere', 'syllabic tà'])]
     case ANATOLIAN_HIEROGLYPH_A041 = "\u{1442B}";
 
-    #[Info(id: 0x1442C, name: 'ANATOLIAN HIEROGLYPH A041A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1442C, name: 'ANATOLIAN HIEROGLYPH A041A', category: Cat::Other_Letter, informativeAliases: ['syllabic tà'])]
     case ANATOLIAN_HIEROGLYPH_A041A = "\u{1442C}";
 
-    #[Info(id: 0x1442D, name: 'ANATOLIAN HIEROGLYPH A042', category: Cat::Other_Letter)]
+    #[Info(id: 0x1442D, name: 'ANATOLIAN HIEROGLYPH A042', category: Cat::Other_Letter, informativeAliases: ['capere2.capere2', 'syllabic ta-x?'])]
     case ANATOLIAN_HIEROGLYPH_A042 = "\u{1442D}";
 
-    #[Info(id: 0x1442E, name: 'ANATOLIAN HIEROGLYPH A043', category: Cat::Other_Letter)]
+    #[Info(id: 0x1442E, name: 'ANATOLIAN HIEROGLYPH A043', category: Cat::Other_Letter, informativeAliases: ['capere2'])]
     case ANATOLIAN_HIEROGLYPH_A043 = "\u{1442E}";
 
     #[Info(id: 0x1442F, name: 'ANATOLIAN HIEROGLYPH A044', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A044 = "\u{1442F}";
 
-    #[Info(id: 0x14430, name: 'ANATOLIAN HIEROGLYPH A045', category: Cat::Other_Letter)]
+    #[Info(id: 0x14430, name: 'ANATOLIAN HIEROGLYPH A045', category: Cat::Other_Letter, informativeAliases: ['infans, filius, frater'])]
     case ANATOLIAN_HIEROGLYPH_A045 = "\u{14430}";
 
-    #[Info(id: 0x14431, name: 'ANATOLIAN HIEROGLYPH A045A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14431, name: 'ANATOLIAN HIEROGLYPH A045A', category: Cat::Other_Letter, informativeAliases: ['filia'])]
     case ANATOLIAN_HIEROGLYPH_A045A = "\u{14431}";
 
-    #[Info(id: 0x14432, name: 'ANATOLIAN HIEROGLYPH A046', category: Cat::Other_Letter)]
+    #[Info(id: 0x14432, name: 'ANATOLIAN HIEROGLYPH A046', category: Cat::Other_Letter, informativeAliases: ['rex.infans, rex.filius'])]
     case ANATOLIAN_HIEROGLYPH_A046 = "\u{14432}";
 
-    #[Info(id: 0x14433, name: 'ANATOLIAN HIEROGLYPH A046A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14433, name: 'ANATOLIAN HIEROGLYPH A046A', category: Cat::Other_Letter, informativeAliases: ['rex.filia'])]
     case ANATOLIAN_HIEROGLYPH_A046A = "\u{14433}";
 
-    #[Info(id: 0x14434, name: 'ANATOLIAN HIEROGLYPH A046B', category: Cat::Other_Letter)]
+    #[Info(id: 0x14434, name: 'ANATOLIAN HIEROGLYPH A046B', category: Cat::Other_Letter, informativeAliases: ['magnus.filia'])]
     case ANATOLIAN_HIEROGLYPH_A046B = "\u{14434}";
 
     #[Info(id: 0x14435, name: 'ANATOLIAN HIEROGLYPH A047', category: Cat::Other_Letter)]
@@ -181,7 +181,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14436, name: 'ANATOLIAN HIEROGLYPH A048', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A048 = "\u{14436}";
 
-    #[Info(id: 0x14437, name: 'ANATOLIAN HIEROGLYPH A049', category: Cat::Other_Letter)]
+    #[Info(id: 0x14437, name: 'ANATOLIAN HIEROGLYPH A049', category: Cat::Other_Letter, informativeAliases: ['syllabic a+tá'])]
     case ANATOLIAN_HIEROGLYPH_A049 = "\u{14437}";
 
     #[Info(id: 0x14438, name: 'ANATOLIAN HIEROGLYPH A050', category: Cat::Other_Letter)]
@@ -190,28 +190,28 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14439, name: 'ANATOLIAN HIEROGLYPH A051', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A051 = "\u{14439}";
 
-    #[Info(id: 0x1443A, name: 'ANATOLIAN HIEROGLYPH A052', category: Cat::Other_Letter)]
+    #[Info(id: 0x1443A, name: 'ANATOLIAN HIEROGLYPH A052', category: Cat::Other_Letter, informativeAliases: ['manus.culter'])]
     case ANATOLIAN_HIEROGLYPH_A052 = "\u{1443A}";
 
-    #[Info(id: 0x1443B, name: 'ANATOLIAN HIEROGLYPH A053', category: Cat::Other_Letter)]
+    #[Info(id: 0x1443B, name: 'ANATOLIAN HIEROGLYPH A053', category: Cat::Other_Letter, informativeAliases: ['manus+culter, ensis'])]
     case ANATOLIAN_HIEROGLYPH_A053 = "\u{1443B}";
 
     #[Info(id: 0x1443C, name: 'ANATOLIAN HIEROGLYPH A054', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A054 = "\u{1443C}";
 
-    #[Info(id: 0x1443D, name: 'ANATOLIAN HIEROGLYPH A055', category: Cat::Other_Letter)]
+    #[Info(id: 0x1443D, name: 'ANATOLIAN HIEROGLYPH A055', category: Cat::Other_Letter, informativeAliases: ['syllabic nì'])]
     case ANATOLIAN_HIEROGLYPH_A055 = "\u{1443D}";
 
-    #[Info(id: 0x1443E, name: 'ANATOLIAN HIEROGLYPH A056', category: Cat::Other_Letter)]
+    #[Info(id: 0x1443E, name: 'ANATOLIAN HIEROGLYPH A056', category: Cat::Other_Letter, informativeAliases: ['syllabic ká'])]
     case ANATOLIAN_HIEROGLYPH_A056 = "\u{1443E}";
 
-    #[Info(id: 0x1443F, name: 'ANATOLIAN HIEROGLYPH A057', category: Cat::Other_Letter)]
+    #[Info(id: 0x1443F, name: 'ANATOLIAN HIEROGLYPH A057', category: Cat::Other_Letter, informativeAliases: ['infra, sub', 'syllabic ká'])]
     case ANATOLIAN_HIEROGLYPH_A057 = "\u{1443F}";
 
-    #[Info(id: 0x14440, name: 'ANATOLIAN HIEROGLYPH A058', category: Cat::Other_Letter)]
+    #[Info(id: 0x14440, name: 'ANATOLIAN HIEROGLYPH A058', category: Cat::Other_Letter, informativeAliases: ['cum'])]
     case ANATOLIAN_HIEROGLYPH_A058 = "\u{14440}";
 
-    #[Info(id: 0x14441, name: 'ANATOLIAN HIEROGLYPH A059', category: Cat::Other_Letter)]
+    #[Info(id: 0x14441, name: 'ANATOLIAN HIEROGLYPH A059', category: Cat::Other_Letter, informativeAliases: ['manus'])]
     case ANATOLIAN_HIEROGLYPH_A059 = "\u{14441}";
 
     #[Info(id: 0x14442, name: 'ANATOLIAN HIEROGLYPH A060', category: Cat::Other_Letter)]
@@ -220,7 +220,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14443, name: 'ANATOLIAN HIEROGLYPH A061', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A061 = "\u{14443}";
 
-    #[Info(id: 0x14444, name: 'ANATOLIAN HIEROGLYPH A062', category: Cat::Other_Letter)]
+    #[Info(id: 0x14444, name: 'ANATOLIAN HIEROGLYPH A062', category: Cat::Other_Letter, informativeAliases: ['longus, manus+minus?'])]
     case ANATOLIAN_HIEROGLYPH_A062 = "\u{14444}";
 
     #[Info(id: 0x14445, name: 'ANATOLIAN HIEROGLYPH A063', category: Cat::Other_Letter)]
@@ -229,19 +229,19 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14446, name: 'ANATOLIAN HIEROGLYPH A064', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A064 = "\u{14446}";
 
-    #[Info(id: 0x14447, name: 'ANATOLIAN HIEROGLYPH A065', category: Cat::Other_Letter)]
+    #[Info(id: 0x14447, name: 'ANATOLIAN HIEROGLYPH A065', category: Cat::Other_Letter, informativeAliases: ['ponere'])]
     case ANATOLIAN_HIEROGLYPH_A065 = "\u{14447}";
 
-    #[Info(id: 0x14448, name: 'ANATOLIAN HIEROGLYPH A066', category: Cat::Other_Letter)]
+    #[Info(id: 0x14448, name: 'ANATOLIAN HIEROGLYPH A066', category: Cat::Other_Letter, informativeAliases: ['dare', 'syllabic pi'])]
     case ANATOLIAN_HIEROGLYPH_A066 = "\u{14448}";
 
-    #[Info(id: 0x14449, name: 'ANATOLIAN HIEROGLYPH A066A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14449, name: 'ANATOLIAN HIEROGLYPH A066A', category: Cat::Other_Letter, informativeAliases: ['syllabic pi'])]
     case ANATOLIAN_HIEROGLYPH_A066A = "\u{14449}";
 
-    #[Info(id: 0x1444A, name: 'ANATOLIAN HIEROGLYPH A066B', category: Cat::Other_Letter)]
+    #[Info(id: 0x1444A, name: 'ANATOLIAN HIEROGLYPH A066B', category: Cat::Other_Letter, informativeAliases: ['mandare, dare.dare'])]
     case ANATOLIAN_HIEROGLYPH_A066B = "\u{1444A}";
 
-    #[Info(id: 0x1444B, name: 'ANATOLIAN HIEROGLYPH A066C', category: Cat::Other_Letter)]
+    #[Info(id: 0x1444B, name: 'ANATOLIAN HIEROGLYPH A066C', category: Cat::Other_Letter, informativeAliases: ['mandare2'])]
     case ANATOLIAN_HIEROGLYPH_A066C = "\u{1444B}";
 
     #[Info(id: 0x1444C, name: 'ANATOLIAN HIEROGLYPH A067', category: Cat::Other_Letter)]
@@ -253,7 +253,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x1444E, name: 'ANATOLIAN HIEROGLYPH A069', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A069 = "\u{1444E}";
 
-    #[Info(id: 0x1444F, name: 'ANATOLIAN HIEROGLYPH A070', category: Cat::Other_Letter)]
+    #[Info(id: 0x1444F, name: 'ANATOLIAN HIEROGLYPH A070', category: Cat::Other_Letter, informativeAliases: ['super', 'logosyllabic sara/i'])]
     case ANATOLIAN_HIEROGLYPH_A070 = "\u{1444F}";
 
     #[Info(id: 0x14450, name: 'ANATOLIAN HIEROGLYPH A071', category: Cat::Other_Letter)]
@@ -262,7 +262,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14451, name: 'ANATOLIAN HIEROGLYPH A072', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A072 = "\u{14451}";
 
-    #[Info(id: 0x14452, name: 'ANATOLIAN HIEROGLYPH A073', category: Cat::Other_Letter)]
+    #[Info(id: 0x14452, name: 'ANATOLIAN HIEROGLYPH A073', category: Cat::Other_Letter, informativeAliases: ['audire, auris+tu+mi'])]
     case ANATOLIAN_HIEROGLYPH_A073 = "\u{14452}";
 
     #[Info(id: 0x14453, name: 'ANATOLIAN HIEROGLYPH A074', category: Cat::Other_Letter)]
@@ -277,31 +277,31 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14456, name: 'ANATOLIAN HIEROGLYPH A077', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A077 = "\u{14456}";
 
-    #[Info(id: 0x14457, name: 'ANATOLIAN HIEROGLYPH A078', category: Cat::Other_Letter)]
+    #[Info(id: 0x14457, name: 'ANATOLIAN HIEROGLYPH A078', category: Cat::Other_Letter, informativeAliases: ['ala'])]
     case ANATOLIAN_HIEROGLYPH_A078 = "\u{14457}";
 
-    #[Info(id: 0x14458, name: 'ANATOLIAN HIEROGLYPH A079', category: Cat::Other_Letter)]
+    #[Info(id: 0x14458, name: 'ANATOLIAN HIEROGLYPH A079', category: Cat::Other_Letter, informativeAliases: ['femina, mater'])]
     case ANATOLIAN_HIEROGLYPH_A079 = "\u{14458}";
 
-    #[Info(id: 0x14459, name: 'ANATOLIAN HIEROGLYPH A080', category: Cat::Other_Letter)]
+    #[Info(id: 0x14459, name: 'ANATOLIAN HIEROGLYPH A080', category: Cat::Other_Letter, informativeAliases: ['Sarma'])]
     case ANATOLIAN_HIEROGLYPH_A080 = "\u{14459}";
 
-    #[Info(id: 0x1445A, name: 'ANATOLIAN HIEROGLYPH A081', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445A, name: 'ANATOLIAN HIEROGLYPH A081', category: Cat::Other_Letter, informativeAliases: ['Sarma2'])]
     case ANATOLIAN_HIEROGLYPH_A081 = "\u{1445A}";
 
-    #[Info(id: 0x1445B, name: 'ANATOLIAN HIEROGLYPH A082', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445B, name: 'ANATOLIAN HIEROGLYPH A082', category: Cat::Other_Letter, informativeAliases: ['crus', 'syllabic ta6'])]
     case ANATOLIAN_HIEROGLYPH_A082 = "\u{1445B}";
 
-    #[Info(id: 0x1445C, name: 'ANATOLIAN HIEROGLYPH A083', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445C, name: 'ANATOLIAN HIEROGLYPH A083', category: Cat::Other_Letter, informativeAliases: ['crus+flumen'])]
     case ANATOLIAN_HIEROGLYPH_A083 = "\u{1445C}";
 
-    #[Info(id: 0x1445D, name: 'ANATOLIAN HIEROGLYPH A084', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445D, name: 'ANATOLIAN HIEROGLYPH A084', category: Cat::Other_Letter, informativeAliases: ['crus2', 'syllabic nà'])]
     case ANATOLIAN_HIEROGLYPH_A084 = "\u{1445D}";
 
-    #[Info(id: 0x1445E, name: 'ANATOLIAN HIEROGLYPH A085', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445E, name: 'ANATOLIAN HIEROGLYPH A085', category: Cat::Other_Letter, informativeAliases: ['genuflectere'])]
     case ANATOLIAN_HIEROGLYPH_A085 = "\u{1445E}";
 
-    #[Info(id: 0x1445F, name: 'ANATOLIAN HIEROGLYPH A086', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445F, name: 'ANATOLIAN HIEROGLYPH A086', category: Cat::Other_Letter, informativeAliases: ['crus.crus'])]
     case ANATOLIAN_HIEROGLYPH_A086 = "\u{1445F}";
 
     #[Info(id: 0x14460, name: 'ANATOLIAN HIEROGLYPH A087', category: Cat::Other_Letter)]
@@ -310,133 +310,133 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14461, name: 'ANATOLIAN HIEROGLYPH A088', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A088 = "\u{14461}";
 
-    #[Info(id: 0x14462, name: 'ANATOLIAN HIEROGLYPH A089', category: Cat::Other_Letter)]
+    #[Info(id: 0x14462, name: 'ANATOLIAN HIEROGLYPH A089', category: Cat::Other_Letter, informativeAliases: ['syllabic tu'])]
     case ANATOLIAN_HIEROGLYPH_A089 = "\u{14462}";
 
-    #[Info(id: 0x14463, name: 'ANATOLIAN HIEROGLYPH A090', category: Cat::Other_Letter)]
+    #[Info(id: 0x14463, name: 'ANATOLIAN HIEROGLYPH A090', category: Cat::Other_Letter, informativeAliases: ['pes', 'syllabic ti'])]
     case ANATOLIAN_HIEROGLYPH_A090 = "\u{14463}";
 
-    #[Info(id: 0x14464, name: 'ANATOLIAN HIEROGLYPH A091', category: Cat::Other_Letter)]
+    #[Info(id: 0x14464, name: 'ANATOLIAN HIEROGLYPH A091', category: Cat::Other_Letter, informativeAliases: ['pes.scala.rotae'])]
     case ANATOLIAN_HIEROGLYPH_A091 = "\u{14464}";
 
     #[Info(id: 0x14465, name: 'ANATOLIAN HIEROGLYPH A092', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A092 = "\u{14465}";
 
-    #[Info(id: 0x14466, name: 'ANATOLIAN HIEROGLYPH A093', category: Cat::Other_Letter)]
+    #[Info(id: 0x14466, name: 'ANATOLIAN HIEROGLYPH A093', category: Cat::Other_Letter, informativeAliases: ['pes2'])]
     case ANATOLIAN_HIEROGLYPH_A093 = "\u{14466}";
 
     #[Info(id: 0x14467, name: 'ANATOLIAN HIEROGLYPH A094', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A094 = "\u{14467}";
 
-    #[Info(id: 0x14468, name: 'ANATOLIAN HIEROGLYPH A095', category: Cat::Other_Letter)]
+    #[Info(id: 0x14468, name: 'ANATOLIAN HIEROGLYPH A095', category: Cat::Other_Letter, informativeAliases: ['pes2.pes2'])]
     case ANATOLIAN_HIEROGLYPH_A095 = "\u{14468}";
 
-    #[Info(id: 0x14469, name: 'ANATOLIAN HIEROGLYPH A096', category: Cat::Other_Letter)]
+    #[Info(id: 0x14469, name: 'ANATOLIAN HIEROGLYPH A096', category: Cat::Other_Letter, informativeAliases: ['pes2.pes'])]
     case ANATOLIAN_HIEROGLYPH_A096 = "\u{14469}";
 
-    #[Info(id: 0x1446A, name: 'ANATOLIAN HIEROGLYPH A097', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446A, name: 'ANATOLIAN HIEROGLYPH A097', category: Cat::Other_Letter, informativeAliases: ['leo, bestia'])]
     case ANATOLIAN_HIEROGLYPH_A097 = "\u{1446A}";
 
-    #[Info(id: 0x1446B, name: 'ANATOLIAN HIEROGLYPH A097A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446B, name: 'ANATOLIAN HIEROGLYPH A097A', category: Cat::Other_Letter, informativeAliases: ['leo2'])]
     case ANATOLIAN_HIEROGLYPH_A097A = "\u{1446B}";
 
-    #[Info(id: 0x1446C, name: 'ANATOLIAN HIEROGLYPH A098', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446C, name: 'ANATOLIAN HIEROGLYPH A098', category: Cat::Other_Letter, informativeAliases: ['canis'])]
     case ANATOLIAN_HIEROGLYPH_A098 = "\u{1446C}";
 
-    #[Info(id: 0x1446D, name: 'ANATOLIAN HIEROGLYPH A098A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446D, name: 'ANATOLIAN HIEROGLYPH A098A', category: Cat::Other_Letter, informativeAliases: ['canis2'])]
     case ANATOLIAN_HIEROGLYPH_A098A = "\u{1446D}";
 
-    #[Info(id: 0x1446E, name: 'ANATOLIAN HIEROGLYPH A099', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446E, name: 'ANATOLIAN HIEROGLYPH A099', category: Cat::Other_Letter, informativeAliases: ['equus'])]
     case ANATOLIAN_HIEROGLYPH_A099 = "\u{1446E}";
 
-    #[Info(id: 0x1446F, name: 'ANATOLIAN HIEROGLYPH A100', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446F, name: 'ANATOLIAN HIEROGLYPH A100', category: Cat::Other_Letter, informativeAliases: ['asinus', 'syllabic ta'])]
     case ANATOLIAN_HIEROGLYPH_A100 = "\u{1446F}";
 
-    #[Info(id: 0x14470, name: 'ANATOLIAN HIEROGLYPH A100A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14470, name: 'ANATOLIAN HIEROGLYPH A100A', category: Cat::Other_Letter, informativeAliases: ['syllabic ta'])]
     case ANATOLIAN_HIEROGLYPH_A100A = "\u{14470}";
 
-    #[Info(id: 0x14471, name: 'ANATOLIAN HIEROGLYPH A101', category: Cat::Other_Letter)]
+    #[Info(id: 0x14471, name: 'ANATOLIAN HIEROGLYPH A101', category: Cat::Other_Letter, informativeAliases: ['asinus2'])]
     case ANATOLIAN_HIEROGLYPH_A101 = "\u{14471}";
 
-    #[Info(id: 0x14472, name: 'ANATOLIAN HIEROGLYPH A101A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14472, name: 'ANATOLIAN HIEROGLYPH A101A', category: Cat::Other_Letter, informativeAliases: ['asinus2a'])]
     case ANATOLIAN_HIEROGLYPH_A101A = "\u{14472}";
 
-    #[Info(id: 0x14473, name: 'ANATOLIAN HIEROGLYPH A102', category: Cat::Other_Letter)]
+    #[Info(id: 0x14473, name: 'ANATOLIAN HIEROGLYPH A102', category: Cat::Other_Letter, informativeAliases: ['cervus', 'syllabic rú'])]
     case ANATOLIAN_HIEROGLYPH_A102 = "\u{14473}";
 
-    #[Info(id: 0x14474, name: 'ANATOLIAN HIEROGLYPH A102A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14474, name: 'ANATOLIAN HIEROGLYPH A102A', category: Cat::Other_Letter, informativeAliases: ['cervus2', 'syllabic rú'])]
     case ANATOLIAN_HIEROGLYPH_A102A = "\u{14474}";
 
-    #[Info(id: 0x14475, name: 'ANATOLIAN HIEROGLYPH A103', category: Cat::Other_Letter)]
+    #[Info(id: 0x14475, name: 'ANATOLIAN HIEROGLYPH A103', category: Cat::Other_Letter, informativeAliases: ['cervus3', 'syllabic rú'])]
     case ANATOLIAN_HIEROGLYPH_A103 = "\u{14475}";
 
-    #[Info(id: 0x14476, name: 'ANATOLIAN HIEROGLYPH A104', category: Cat::Other_Letter)]
+    #[Info(id: 0x14476, name: 'ANATOLIAN HIEROGLYPH A104', category: Cat::Other_Letter, informativeAliases: ['capra', 'syllabic sà'])]
     case ANATOLIAN_HIEROGLYPH_A104 = "\u{14476}";
 
-    #[Info(id: 0x14477, name: 'ANATOLIAN HIEROGLYPH A104A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14477, name: 'ANATOLIAN HIEROGLYPH A104A', category: Cat::Other_Letter, informativeAliases: ['syllabic sà'])]
     case ANATOLIAN_HIEROGLYPH_A104A = "\u{14477}";
 
-    #[Info(id: 0x14478, name: 'ANATOLIAN HIEROGLYPH A104B', category: Cat::Other_Letter)]
+    #[Info(id: 0x14478, name: 'ANATOLIAN HIEROGLYPH A104B', category: Cat::Other_Letter, informativeAliases: ['capra2', 'syllabic sà'])]
     case ANATOLIAN_HIEROGLYPH_A104B = "\u{14478}";
 
-    #[Info(id: 0x14479, name: 'ANATOLIAN HIEROGLYPH A104C', category: Cat::Other_Letter)]
+    #[Info(id: 0x14479, name: 'ANATOLIAN HIEROGLYPH A104C', category: Cat::Other_Letter, informativeAliases: ['capra2a', 'syllabic sà'])]
     case ANATOLIAN_HIEROGLYPH_A104C = "\u{14479}";
 
-    #[Info(id: 0x1447A, name: 'ANATOLIAN HIEROGLYPH A105', category: Cat::Other_Letter)]
+    #[Info(id: 0x1447A, name: 'ANATOLIAN HIEROGLYPH A105', category: Cat::Other_Letter, informativeAliases: ['bos', 'syllabic u'])]
     case ANATOLIAN_HIEROGLYPH_A105 = "\u{1447A}";
 
-    #[Info(id: 0x1447B, name: 'ANATOLIAN HIEROGLYPH A105A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1447B, name: 'ANATOLIAN HIEROGLYPH A105A', category: Cat::Other_Letter, informativeAliases: ['bos', 'syllabic u'])]
     case ANATOLIAN_HIEROGLYPH_A105A = "\u{1447B}";
 
-    #[Info(id: 0x1447C, name: 'ANATOLIAN HIEROGLYPH A105B', category: Cat::Other_Letter)]
+    #[Info(id: 0x1447C, name: 'ANATOLIAN HIEROGLYPH A105B', category: Cat::Other_Letter, informativeAliases: ['bos2', 'syllabic u'])]
     case ANATOLIAN_HIEROGLYPH_A105B = "\u{1447C}";
 
     #[Info(id: 0x1447D, name: 'ANATOLIAN HIEROGLYPH A106', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A106 = "\u{1447D}";
 
-    #[Info(id: 0x1447E, name: 'ANATOLIAN HIEROGLYPH A107', category: Cat::Other_Letter)]
+    #[Info(id: 0x1447E, name: 'ANATOLIAN HIEROGLYPH A107', category: Cat::Other_Letter, informativeAliases: ['bos+mi', 'syllabic mu', 'logosyllabic muwa'])]
     case ANATOLIAN_HIEROGLYPH_A107 = "\u{1447E}";
 
-    #[Info(id: 0x1447F, name: 'ANATOLIAN HIEROGLYPH A107A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1447F, name: 'ANATOLIAN HIEROGLYPH A107A', category: Cat::Other_Letter, informativeAliases: ['syllabic mu', 'logosyllabic muwa'])]
     case ANATOLIAN_HIEROGLYPH_A107A = "\u{1447F}";
 
-    #[Info(id: 0x14480, name: 'ANATOLIAN HIEROGLYPH A107B', category: Cat::Other_Letter)]
+    #[Info(id: 0x14480, name: 'ANATOLIAN HIEROGLYPH A107B', category: Cat::Other_Letter, informativeAliases: ['bos.mi', 'syllabic mu', 'logosyllabic muwa'])]
     case ANATOLIAN_HIEROGLYPH_A107B = "\u{14480}";
 
-    #[Info(id: 0x14481, name: 'ANATOLIAN HIEROGLYPH A107C', category: Cat::Other_Letter)]
+    #[Info(id: 0x14481, name: 'ANATOLIAN HIEROGLYPH A107C', category: Cat::Other_Letter, informativeAliases: ['bos2.mi', 'syllabic mu', 'logosyllabic muwa'])]
     case ANATOLIAN_HIEROGLYPH_A107C = "\u{14481}";
 
-    #[Info(id: 0x14482, name: 'ANATOLIAN HIEROGLYPH A108', category: Cat::Other_Letter)]
+    #[Info(id: 0x14482, name: 'ANATOLIAN HIEROGLYPH A108', category: Cat::Other_Letter, informativeAliases: ['cornu', 'sú'])]
     case ANATOLIAN_HIEROGLYPH_A108 = "\u{14482}";
 
-    #[Info(id: 0x14483, name: 'ANATOLIAN HIEROGLYPH A109', category: Cat::Other_Letter)]
+    #[Info(id: 0x14483, name: 'ANATOLIAN HIEROGLYPH A109', category: Cat::Other_Letter, informativeAliases: ['vitellus', 'syllabic ma-x'])]
     case ANATOLIAN_HIEROGLYPH_A109 = "\u{14483}";
 
-    #[Info(id: 0x14484, name: 'ANATOLIAN HIEROGLYPH A110', category: Cat::Other_Letter)]
+    #[Info(id: 0x14484, name: 'ANATOLIAN HIEROGLYPH A110', category: Cat::Other_Letter, informativeAliases: ['ovis', 'syllabic ma'])]
     case ANATOLIAN_HIEROGLYPH_A110 = "\u{14484}";
 
-    #[Info(id: 0x14485, name: 'ANATOLIAN HIEROGLYPH A110A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14485, name: 'ANATOLIAN HIEROGLYPH A110A', category: Cat::Other_Letter, informativeAliases: ['syllabic ma'])]
     case ANATOLIAN_HIEROGLYPH_A110A = "\u{14485}";
 
-    #[Info(id: 0x14486, name: 'ANATOLIAN HIEROGLYPH A110B', category: Cat::Other_Letter)]
+    #[Info(id: 0x14486, name: 'ANATOLIAN HIEROGLYPH A110B', category: Cat::Other_Letter, informativeAliases: ['ovis2', 'syllabic ma'])]
     case ANATOLIAN_HIEROGLYPH_A110B = "\u{14486}";
 
-    #[Info(id: 0x14487, name: 'ANATOLIAN HIEROGLYPH A111', category: Cat::Other_Letter)]
+    #[Info(id: 0x14487, name: 'ANATOLIAN HIEROGLYPH A111', category: Cat::Other_Letter, informativeAliases: ['ovis3'])]
     case ANATOLIAN_HIEROGLYPH_A111 = "\u{14487}";
 
-    #[Info(id: 0x14488, name: 'ANATOLIAN HIEROGLYPH A112', category: Cat::Other_Letter)]
+    #[Info(id: 0x14488, name: 'ANATOLIAN HIEROGLYPH A112', category: Cat::Other_Letter, informativeAliases: ['lingere', 'syllabic za4'])]
     case ANATOLIAN_HIEROGLYPH_A112 = "\u{14488}";
 
     #[Info(id: 0x14489, name: 'ANATOLIAN HIEROGLYPH A113', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A113 = "\u{14489}";
 
-    #[Info(id: 0x1448A, name: 'ANATOLIAN HIEROGLYPH A114', category: Cat::Other_Letter)]
+    #[Info(id: 0x1448A, name: 'ANATOLIAN HIEROGLYPH A114', category: Cat::Other_Letter, informativeAliases: ['lituus+u'])]
     case ANATOLIAN_HIEROGLYPH_A114 = "\u{1448A}";
 
-    #[Info(id: 0x1448B, name: 'ANATOLIAN HIEROGLYPH A115', category: Cat::Other_Letter)]
+    #[Info(id: 0x1448B, name: 'ANATOLIAN HIEROGLYPH A115', category: Cat::Other_Letter, informativeAliases: ['lepus', 'logosyllabic tapa'])]
     case ANATOLIAN_HIEROGLYPH_A115 = "\u{1448B}";
 
-    #[Info(id: 0x1448C, name: 'ANATOLIAN HIEROGLYPH A115A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1448C, name: 'ANATOLIAN HIEROGLYPH A115A', category: Cat::Other_Letter, informativeAliases: ['lepus2', 'logosyllabic tapa'])]
     case ANATOLIAN_HIEROGLYPH_A115A = "\u{1448C}";
 
     #[Info(id: 0x1448D, name: 'ANATOLIAN HIEROGLYPH A116', category: Cat::Other_Letter)]
@@ -451,10 +451,10 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14490, name: 'ANATOLIAN HIEROGLYPH A119', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A119 = "\u{14490}";
 
-    #[Info(id: 0x14491, name: 'ANATOLIAN HIEROGLYPH A120', category: Cat::Other_Letter)]
+    #[Info(id: 0x14491, name: 'ANATOLIAN HIEROGLYPH A120', category: Cat::Other_Letter, informativeAliases: ['gryllus'])]
     case ANATOLIAN_HIEROGLYPH_A120 = "\u{14491}";
 
-    #[Info(id: 0x14492, name: 'ANATOLIAN HIEROGLYPH A121', category: Cat::Other_Letter)]
+    #[Info(id: 0x14492, name: 'ANATOLIAN HIEROGLYPH A121', category: Cat::Other_Letter, informativeAliases: ['sphinx'])]
     case ANATOLIAN_HIEROGLYPH_A121 = "\u{14492}";
 
     #[Info(id: 0x14493, name: 'ANATOLIAN HIEROGLYPH A122', category: Cat::Other_Letter)]
@@ -466,10 +466,10 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14495, name: 'ANATOLIAN HIEROGLYPH A124', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A124 = "\u{14495}";
 
-    #[Info(id: 0x14496, name: 'ANATOLIAN HIEROGLYPH A125', category: Cat::Other_Letter)]
+    #[Info(id: 0x14496, name: 'ANATOLIAN HIEROGLYPH A125', category: Cat::Other_Letter, informativeAliases: ['syllabic lí'])]
     case ANATOLIAN_HIEROGLYPH_A125 = "\u{14496}";
 
-    #[Info(id: 0x14497, name: 'ANATOLIAN HIEROGLYPH A125A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14497, name: 'ANATOLIAN HIEROGLYPH A125A', category: Cat::Other_Letter, informativeAliases: ['ungula', 'syllabic li-x'])]
     case ANATOLIAN_HIEROGLYPH_A125A = "\u{14497}";
 
     #[Info(id: 0x14498, name: 'ANATOLIAN HIEROGLYPH A126', category: Cat::Other_Letter)]
@@ -478,28 +478,28 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14499, name: 'ANATOLIAN HIEROGLYPH A127', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A127 = "\u{14499}";
 
-    #[Info(id: 0x1449A, name: 'ANATOLIAN HIEROGLYPH A128', category: Cat::Other_Letter)]
+    #[Info(id: 0x1449A, name: 'ANATOLIAN HIEROGLYPH A128', category: Cat::Other_Letter, informativeAliases: ['avis', 'zi4'])]
     case ANATOLIAN_HIEROGLYPH_A128 = "\u{1449A}";
 
     #[Info(id: 0x1449B, name: 'ANATOLIAN HIEROGLYPH A129', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A129 = "\u{1449B}";
 
-    #[Info(id: 0x1449C, name: 'ANATOLIAN HIEROGLYPH A130', category: Cat::Other_Letter)]
+    #[Info(id: 0x1449C, name: 'ANATOLIAN HIEROGLYPH A130', category: Cat::Other_Letter, informativeAliases: ['avis3'])]
     case ANATOLIAN_HIEROGLYPH_A130 = "\u{1449C}";
 
-    #[Info(id: 0x1449D, name: 'ANATOLIAN HIEROGLYPH A131', category: Cat::Other_Letter)]
+    #[Info(id: 0x1449D, name: 'ANATOLIAN HIEROGLYPH A131', category: Cat::Other_Letter, informativeAliases: ['avis5'])]
     case ANATOLIAN_HIEROGLYPH_A131 = "\u{1449D}";
 
-    #[Info(id: 0x1449E, name: 'ANATOLIAN HIEROGLYPH A132', category: Cat::Other_Letter)]
+    #[Info(id: 0x1449E, name: 'ANATOLIAN HIEROGLYPH A132', category: Cat::Other_Letter, informativeAliases: ['avis2'])]
     case ANATOLIAN_HIEROGLYPH_A132 = "\u{1449E}";
 
-    #[Info(id: 0x1449F, name: 'ANATOLIAN HIEROGLYPH A133', category: Cat::Other_Letter)]
+    #[Info(id: 0x1449F, name: 'ANATOLIAN HIEROGLYPH A133', category: Cat::Other_Letter, informativeAliases: ['aquila, avis4', 'syllabic ara/i'])]
     case ANATOLIAN_HIEROGLYPH_A133 = "\u{1449F}";
 
-    #[Info(id: 0x144A0, name: 'ANATOLIAN HIEROGLYPH A134', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A0, name: 'ANATOLIAN HIEROGLYPH A134', category: Cat::Other_Letter, informativeAliases: ['syllabic ara/i'])]
     case ANATOLIAN_HIEROGLYPH_A134 = "\u{144A0}";
 
-    #[Info(id: 0x144A1, name: 'ANATOLIAN HIEROGLYPH A135', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A1, name: 'ANATOLIAN HIEROGLYPH A135', category: Cat::Other_Letter, informativeAliases: ['avis-x'])]
     case ANATOLIAN_HIEROGLYPH_A135 = "\u{144A1}";
 
     #[Info(id: 0x144A2, name: 'ANATOLIAN HIEROGLYPH A135A', category: Cat::Other_Letter)]
@@ -508,10 +508,10 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x144A3, name: 'ANATOLIAN HIEROGLYPH A136', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A136 = "\u{144A3}";
 
-    #[Info(id: 0x144A4, name: 'ANATOLIAN HIEROGLYPH A137', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A4, name: 'ANATOLIAN HIEROGLYPH A137', category: Cat::Other_Letter, informativeAliases: ['libatio'])]
     case ANATOLIAN_HIEROGLYPH_A137 = "\u{144A4}";
 
-    #[Info(id: 0x144A5, name: 'ANATOLIAN HIEROGLYPH A138', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A5, name: 'ANATOLIAN HIEROGLYPH A138', category: Cat::Other_Letter, informativeAliases: ['piscis'])]
     case ANATOLIAN_HIEROGLYPH_A138 = "\u{144A5}";
 
     #[Info(id: 0x144A6, name: 'ANATOLIAN HIEROGLYPH A139', category: Cat::Other_Letter)]
@@ -541,7 +541,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x144AE, name: 'ANATOLIAN HIEROGLYPH A147', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A147 = "\u{144AE}";
 
-    #[Info(id: 0x144AF, name: 'ANATOLIAN HIEROGLYPH A148', category: Cat::Other_Letter)]
+    #[Info(id: 0x144AF, name: 'ANATOLIAN HIEROGLYPH A148', category: Cat::Other_Letter, informativeAliases: ['Janus'])]
     case ANATOLIAN_HIEROGLYPH_A148 = "\u{144AF}";
 
     #[Info(id: 0x144B0, name: 'ANATOLIAN HIEROGLYPH A149', category: Cat::Other_Letter)]
@@ -550,13 +550,13 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x144B1, name: 'ANATOLIAN HIEROGLYPH A150', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A150 = "\u{144B1}";
 
-    #[Info(id: 0x144B2, name: 'ANATOLIAN HIEROGLYPH A151', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B2, name: 'ANATOLIAN HIEROGLYPH A151', category: Cat::Other_Letter, informativeAliases: ['Telipinu'])]
     case ANATOLIAN_HIEROGLYPH_A151 = "\u{144B2}";
 
     #[Info(id: 0x144B3, name: 'ANATOLIAN HIEROGLYPH A152', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A152 = "\u{144B3}";
 
-    #[Info(id: 0x144B4, name: 'ANATOLIAN HIEROGLYPH A153', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B4, name: 'ANATOLIAN HIEROGLYPH A153', category: Cat::Other_Letter, informativeAliases: ['syllabic nu'])]
     case ANATOLIAN_HIEROGLYPH_A153 = "\u{144B4}";
 
     #[Info(id: 0x144B5, name: 'ANATOLIAN HIEROGLYPH A154', category: Cat::Other_Letter)]
@@ -577,7 +577,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x144BA, name: 'ANATOLIAN HIEROGLYPH A159', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A159 = "\u{144BA}";
 
-    #[Info(id: 0x144BB, name: 'ANATOLIAN HIEROGLYPH A160', category: Cat::Other_Letter)]
+    #[Info(id: 0x144BB, name: 'ANATOLIAN HIEROGLYPH A160', category: Cat::Other_Letter, informativeAliases: ['vitis', 'syllabic wi(ya)'])]
     case ANATOLIAN_HIEROGLYPH_A160 = "\u{144BB}";
 
     #[Info(id: 0x144BC, name: 'ANATOLIAN HIEROGLYPH A161', category: Cat::Other_Letter)]
@@ -592,10 +592,10 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x144BF, name: 'ANATOLIAN HIEROGLYPH A164', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A164 = "\u{144BF}";
 
-    #[Info(id: 0x144C0, name: 'ANATOLIAN HIEROGLYPH A165', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C0, name: 'ANATOLIAN HIEROGLYPH A165', category: Cat::Other_Letter, informativeAliases: ['bonus', 'syllabic wà/ì'])]
     case ANATOLIAN_HIEROGLYPH_A165 = "\u{144C0}";
 
-    #[Info(id: 0x144C1, name: 'ANATOLIAN HIEROGLYPH A166', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C1, name: 'ANATOLIAN HIEROGLYPH A166', category: Cat::Other_Letter, informativeAliases: ['syllabic wá/í'])]
     case ANATOLIAN_HIEROGLYPH_A166 = "\u{144C1}";
 
     #[Info(id: 0x144C2, name: 'ANATOLIAN HIEROGLYPH A167', category: Cat::Other_Letter)]
@@ -613,37 +613,37 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x144C6, name: 'ANATOLIAN HIEROGLYPH A171', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A171 = "\u{144C6}";
 
-    #[Info(id: 0x144C7, name: 'ANATOLIAN HIEROGLYPH A172', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C7, name: 'ANATOLIAN HIEROGLYPH A172', category: Cat::Other_Letter, informativeAliases: ['syllabic ta/i5, lá/í'])]
     case ANATOLIAN_HIEROGLYPH_A172 = "\u{144C7}";
 
-    #[Info(id: 0x144C8, name: 'ANATOLIAN HIEROGLYPH A173', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C8, name: 'ANATOLIAN HIEROGLYPH A173', category: Cat::Other_Letter, informativeAliases: ['hastarius'])]
     case ANATOLIAN_HIEROGLYPH_A173 = "\u{144C8}";
 
-    #[Info(id: 0x144C9, name: 'ANATOLIAN HIEROGLYPH A174', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C9, name: 'ANATOLIAN HIEROGLYPH A174', category: Cat::Other_Letter, informativeAliases: ['syllabic si'])]
     case ANATOLIAN_HIEROGLYPH_A174 = "\u{144C9}";
 
-    #[Info(id: 0x144CA, name: 'ANATOLIAN HIEROGLYPH A175', category: Cat::Other_Letter)]
+    #[Info(id: 0x144CA, name: 'ANATOLIAN HIEROGLYPH A175', category: Cat::Other_Letter, informativeAliases: ['lingua', 'syllabic la'])]
     case ANATOLIAN_HIEROGLYPH_A175 = "\u{144CA}";
 
-    #[Info(id: 0x144CB, name: 'ANATOLIAN HIEROGLYPH A176', category: Cat::Other_Letter)]
+    #[Info(id: 0x144CB, name: 'ANATOLIAN HIEROGLYPH A176', category: Cat::Other_Letter, informativeAliases: ['syllabic la+la'])]
     case ANATOLIAN_HIEROGLYPH_A176 = "\u{144CB}";
 
-    #[Info(id: 0x144CC, name: 'ANATOLIAN HIEROGLYPH A177', category: Cat::Other_Letter)]
+    #[Info(id: 0x144CC, name: 'ANATOLIAN HIEROGLYPH A177', category: Cat::Other_Letter, informativeAliases: ['lingua+clavus'])]
     case ANATOLIAN_HIEROGLYPH_A177 = "\u{144CC}";
 
-    #[Info(id: 0x144CD, name: 'ANATOLIAN HIEROGLYPH A178', category: Cat::Other_Letter)]
+    #[Info(id: 0x144CD, name: 'ANATOLIAN HIEROGLYPH A178', category: Cat::Other_Letter, informativeAliases: ['syllabic la+ra+a'])]
     case ANATOLIAN_HIEROGLYPH_A178 = "\u{144CD}";
 
-    #[Info(id: 0x144CE, name: 'ANATOLIAN HIEROGLYPH A179', category: Cat::Other_Letter)]
+    #[Info(id: 0x144CE, name: 'ANATOLIAN HIEROGLYPH A179', category: Cat::Other_Letter, informativeAliases: ['hordeum', 'syllabic hwi-x'])]
     case ANATOLIAN_HIEROGLYPH_A179 = "\u{144CE}";
 
     #[Info(id: 0x144CF, name: 'ANATOLIAN HIEROGLYPH A180', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A180 = "\u{144CF}";
 
-    #[Info(id: 0x144D0, name: 'ANATOLIAN HIEROGLYPH A181', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D0, name: 'ANATOLIAN HIEROGLYPH A181', category: Cat::Other_Letter, informativeAliases: ['panis', 'syllabic pa-x'])]
     case ANATOLIAN_HIEROGLYPH_A181 = "\u{144D0}";
 
-    #[Info(id: 0x144D1, name: 'ANATOLIAN HIEROGLYPH A182', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D1, name: 'ANATOLIAN HIEROGLYPH A182', category: Cat::Other_Letter, informativeAliases: ['caelum'])]
     case ANATOLIAN_HIEROGLYPH_A182 = "\u{144D1}";
 
     #[Info(id: 0x144D2, name: 'ANATOLIAN HIEROGLYPH A183', category: Cat::Other_Letter)]
@@ -667,16 +667,16 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x144D8, name: 'ANATOLIAN HIEROGLYPH A189', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A189 = "\u{144D8}";
 
-    #[Info(id: 0x144D9, name: 'ANATOLIAN HIEROGLYPH A190', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D9, name: 'ANATOLIAN HIEROGLYPH A190', category: Cat::Other_Letter, informativeAliases: ['sol2'])]
     case ANATOLIAN_HIEROGLYPH_A190 = "\u{144D9}";
 
-    #[Info(id: 0x144DA, name: 'ANATOLIAN HIEROGLYPH A191', category: Cat::Other_Letter)]
+    #[Info(id: 0x144DA, name: 'ANATOLIAN HIEROGLYPH A191', category: Cat::Other_Letter, informativeAliases: ['sol'])]
     case ANATOLIAN_HIEROGLYPH_A191 = "\u{144DA}";
 
-    #[Info(id: 0x144DB, name: 'ANATOLIAN HIEROGLYPH A192', category: Cat::Other_Letter)]
+    #[Info(id: 0x144DB, name: 'ANATOLIAN HIEROGLYPH A192', category: Cat::Other_Letter, informativeAliases: ['oriens'])]
     case ANATOLIAN_HIEROGLYPH_A192 = "\u{144DB}";
 
-    #[Info(id: 0x144DC, name: 'ANATOLIAN HIEROGLYPH A193', category: Cat::Other_Letter)]
+    #[Info(id: 0x144DC, name: 'ANATOLIAN HIEROGLYPH A193', category: Cat::Other_Letter, informativeAliases: ['luna'])]
     case ANATOLIAN_HIEROGLYPH_A193 = "\u{144DC}";
 
     #[Info(id: 0x144DD, name: 'ANATOLIAN HIEROGLYPH A194', category: Cat::Other_Letter)]
@@ -685,37 +685,37 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x144DE, name: 'ANATOLIAN HIEROGLYPH A195', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A195 = "\u{144DE}";
 
-    #[Info(id: 0x144DF, name: 'ANATOLIAN HIEROGLYPH A196', category: Cat::Other_Letter)]
+    #[Info(id: 0x144DF, name: 'ANATOLIAN HIEROGLYPH A196', category: Cat::Other_Letter, informativeAliases: ['Hatti', 'syllabic há'])]
     case ANATOLIAN_HIEROGLYPH_A196 = "\u{144DF}";
 
-    #[Info(id: 0x144E0, name: 'ANATOLIAN HIEROGLYPH A197', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E0, name: 'ANATOLIAN HIEROGLYPH A197', category: Cat::Other_Letter, informativeAliases: ['Hatti+li, Hattusili', 'logosyllabic há-li'])]
     case ANATOLIAN_HIEROGLYPH_A197 = "\u{144E0}";
 
     #[Info(id: 0x144E1, name: 'ANATOLIAN HIEROGLYPH A198', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A198 = "\u{144E1}";
 
-    #[Info(id: 0x144E2, name: 'ANATOLIAN HIEROGLYPH A199', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E2, name: 'ANATOLIAN HIEROGLYPH A199', category: Cat::Other_Letter, informativeAliases: ['tonitrus'])]
     case ANATOLIAN_HIEROGLYPH_A199 = "\u{144E2}";
 
-    #[Info(id: 0x144E3, name: 'ANATOLIAN HIEROGLYPH A200', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E3, name: 'ANATOLIAN HIEROGLYPH A200', category: Cat::Other_Letter, informativeAliases: ['fulgur'])]
     case ANATOLIAN_HIEROGLYPH_A200 = "\u{144E3}";
 
-    #[Info(id: 0x144E4, name: 'ANATOLIAN HIEROGLYPH A201', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E4, name: 'ANATOLIAN HIEROGLYPH A201', category: Cat::Other_Letter, informativeAliases: ['terra, locus', 'syllabic wa/i6'])]
     case ANATOLIAN_HIEROGLYPH_A201 = "\u{144E4}";
 
-    #[Info(id: 0x144E5, name: 'ANATOLIAN HIEROGLYPH A202', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E5, name: 'ANATOLIAN HIEROGLYPH A202', category: Cat::Other_Letter, informativeAliases: ['via+terra.scalprum'])]
     case ANATOLIAN_HIEROGLYPH_A202 = "\u{144E5}";
 
-    #[Info(id: 0x144E6, name: 'ANATOLIAN HIEROGLYPH A202A', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E6, name: 'ANATOLIAN HIEROGLYPH A202A', category: Cat::Other_Letter, informativeAliases: ['via+terra+scalprum'])]
     case ANATOLIAN_HIEROGLYPH_A202A = "\u{144E6}";
 
-    #[Info(id: 0x144E7, name: 'ANATOLIAN HIEROGLYPH A202B', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E7, name: 'ANATOLIAN HIEROGLYPH A202B', category: Cat::Other_Letter, informativeAliases: ['(deus)via+terra'])]
     case ANATOLIAN_HIEROGLYPH_A202B = "\u{144E7}";
 
     #[Info(id: 0x144E8, name: 'ANATOLIAN HIEROGLYPH A203', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A203 = "\u{144E8}";
 
-    #[Info(id: 0x144E9, name: 'ANATOLIAN HIEROGLYPH A204', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E9, name: 'ANATOLIAN HIEROGLYPH A204', category: Cat::Other_Letter, informativeAliases: ['syllabic wa/i5'])]
     case ANATOLIAN_HIEROGLYPH_A204 = "\u{144E9}";
 
     #[Info(id: 0x144EA, name: 'ANATOLIAN HIEROGLYPH A205', category: Cat::Other_Letter)]
@@ -724,46 +724,46 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x144EB, name: 'ANATOLIAN HIEROGLYPH A206', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A206 = "\u{144EB}";
 
-    #[Info(id: 0x144EC, name: 'ANATOLIAN HIEROGLYPH A207', category: Cat::Other_Letter)]
+    #[Info(id: 0x144EC, name: 'ANATOLIAN HIEROGLYPH A207', category: Cat::Other_Letter, informativeAliases: ['mons', 'syllabic wa/i5'])]
     case ANATOLIAN_HIEROGLYPH_A207 = "\u{144EC}";
 
-    #[Info(id: 0x144ED, name: 'ANATOLIAN HIEROGLYPH A207A', category: Cat::Other_Letter)]
+    #[Info(id: 0x144ED, name: 'ANATOLIAN HIEROGLYPH A207A', category: Cat::Other_Letter, informativeAliases: ['leo+mons.tu+leo'])]
     case ANATOLIAN_HIEROGLYPH_A207A = "\u{144ED}";
 
     #[Info(id: 0x144EE, name: 'ANATOLIAN HIEROGLYPH A208', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A208 = "\u{144EE}";
 
-    #[Info(id: 0x144EF, name: 'ANATOLIAN HIEROGLYPH A209', category: Cat::Other_Letter)]
+    #[Info(id: 0x144EF, name: 'ANATOLIAN HIEROGLYPH A209', category: Cat::Other_Letter, informativeAliases: ['syllabic i, i(a)'])]
     case ANATOLIAN_HIEROGLYPH_A209 = "\u{144EF}";
 
-    #[Info(id: 0x144F0, name: 'ANATOLIAN HIEROGLYPH A209A', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F0, name: 'ANATOLIAN HIEROGLYPH A209A', category: Cat::Other_Letter, informativeAliases: ['syllabic i+ra/i, ri+i'])]
     case ANATOLIAN_HIEROGLYPH_A209A = "\u{144F0}";
 
-    #[Info(id: 0x144F1, name: 'ANATOLIAN HIEROGLYPH A210', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F1, name: 'ANATOLIAN HIEROGLYPH A210', category: Cat::Other_Letter, informativeAliases: ['syllabic ia'])]
     case ANATOLIAN_HIEROGLYPH_A210 = "\u{144F1}";
 
     #[Info(id: 0x144F2, name: 'ANATOLIAN HIEROGLYPH A211', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A211 = "\u{144F2}";
 
-    #[Info(id: 0x144F3, name: 'ANATOLIAN HIEROGLYPH A212', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F3, name: 'ANATOLIAN HIEROGLYPH A212', category: Cat::Other_Letter, informativeAliases: ['flumen'])]
     case ANATOLIAN_HIEROGLYPH_A212 = "\u{144F3}";
 
     #[Info(id: 0x144F4, name: 'ANATOLIAN HIEROGLYPH A213', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A213 = "\u{144F4}";
 
-    #[Info(id: 0x144F5, name: 'ANATOLIAN HIEROGLYPH A214', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F5, name: 'ANATOLIAN HIEROGLYPH A214', category: Cat::Other_Letter, informativeAliases: ['syllabic ní'])]
     case ANATOLIAN_HIEROGLYPH_A214 = "\u{144F5}";
 
-    #[Info(id: 0x144F6, name: 'ANATOLIAN HIEROGLYPH A215', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F6, name: 'ANATOLIAN HIEROGLYPH A215', category: Cat::Other_Letter, informativeAliases: ['fons'])]
     case ANATOLIAN_HIEROGLYPH_A215 = "\u{144F6}";
 
-    #[Info(id: 0x144F7, name: 'ANATOLIAN HIEROGLYPH A215A', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F7, name: 'ANATOLIAN HIEROGLYPH A215A', category: Cat::Other_Letter, informativeAliases: ['syllabic ha'])]
     case ANATOLIAN_HIEROGLYPH_A215A = "\u{144F7}";
 
-    #[Info(id: 0x144F8, name: 'ANATOLIAN HIEROGLYPH A216', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F8, name: 'ANATOLIAN HIEROGLYPH A216', category: Cat::Other_Letter, informativeAliases: ['fines', 'syllabic arha'])]
     case ANATOLIAN_HIEROGLYPH_A216 = "\u{144F8}";
 
-    #[Info(id: 0x144F9, name: 'ANATOLIAN HIEROGLYPH A216A', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F9, name: 'ANATOLIAN HIEROGLYPH A216A', category: Cat::Other_Letter, informativeAliases: ['fines+ha, arha'])]
     case ANATOLIAN_HIEROGLYPH_A216A = "\u{144F9}";
 
     #[Info(id: 0x144FA, name: 'ANATOLIAN HIEROGLYPH A217', category: Cat::Other_Letter)]
@@ -778,40 +778,40 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x144FD, name: 'ANATOLIAN HIEROGLYPH A220', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A220 = "\u{144FD}";
 
-    #[Info(id: 0x144FE, name: 'ANATOLIAN HIEROGLYPH A221', category: Cat::Other_Letter)]
+    #[Info(id: 0x144FE, name: 'ANATOLIAN HIEROGLYPH A221', category: Cat::Other_Letter, informativeAliases: ['via'])]
     case ANATOLIAN_HIEROGLYPH_A221 = "\u{144FE}";
 
     #[Info(id: 0x144FF, name: 'ANATOLIAN HIEROGLYPH A222', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A222 = "\u{144FF}";
 
-    #[Info(id: 0x14500, name: 'ANATOLIAN HIEROGLYPH A223', category: Cat::Other_Letter)]
+    #[Info(id: 0x14500, name: 'ANATOLIAN HIEROGLYPH A223', category: Cat::Other_Letter, informativeAliases: ['syllabic sa6'])]
     case ANATOLIAN_HIEROGLYPH_A223 = "\u{14500}";
 
-    #[Info(id: 0x14501, name: 'ANATOLIAN HIEROGLYPH A224', category: Cat::Other_Letter)]
+    #[Info(id: 0x14501, name: 'ANATOLIAN HIEROGLYPH A224', category: Cat::Other_Letter, informativeAliases: ['syllabic ha? pa?'])]
     case ANATOLIAN_HIEROGLYPH_A224 = "\u{14501}";
 
-    #[Info(id: 0x14502, name: 'ANATOLIAN HIEROGLYPH A225', category: Cat::Other_Letter)]
+    #[Info(id: 0x14502, name: 'ANATOLIAN HIEROGLYPH A225', category: Cat::Other_Letter, informativeAliases: ['urbs'])]
     case ANATOLIAN_HIEROGLYPH_A225 = "\u{14502}";
 
-    #[Info(id: 0x14503, name: 'ANATOLIAN HIEROGLYPH A226', category: Cat::Other_Letter)]
+    #[Info(id: 0x14503, name: 'ANATOLIAN HIEROGLYPH A226', category: Cat::Other_Letter, informativeAliases: ['Ishuwa'])]
     case ANATOLIAN_HIEROGLYPH_A226 = "\u{14503}";
 
-    #[Info(id: 0x14504, name: 'ANATOLIAN HIEROGLYPH A227', category: Cat::Other_Letter)]
+    #[Info(id: 0x14504, name: 'ANATOLIAN HIEROGLYPH A227', category: Cat::Other_Letter, informativeAliases: ['urbs+ra/i?+li, urbs+ra/i?-li'])]
     case ANATOLIAN_HIEROGLYPH_A227 = "\u{14504}";
 
-    #[Info(id: 0x14505, name: 'ANATOLIAN HIEROGLYPH A227A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14505, name: 'ANATOLIAN HIEROGLYPH A227A', category: Cat::Other_Letter, informativeAliases: ['urbs+li, urbs-li, Mursili'])]
     case ANATOLIAN_HIEROGLYPH_A227A = "\u{14505}";
 
-    #[Info(id: 0x14506, name: 'ANATOLIAN HIEROGLYPH A228', category: Cat::Other_Letter)]
+    #[Info(id: 0x14506, name: 'ANATOLIAN HIEROGLYPH A228', category: Cat::Other_Letter, informativeAliases: ['regio', 'syllabic tu4'])]
     case ANATOLIAN_HIEROGLYPH_A228 = "\u{14506}";
 
-    #[Info(id: 0x14507, name: 'ANATOLIAN HIEROGLYPH A229', category: Cat::Other_Letter)]
+    #[Info(id: 0x14507, name: 'ANATOLIAN HIEROGLYPH A229', category: Cat::Other_Letter, informativeAliases: ['syllabic mí.regio'])]
     case ANATOLIAN_HIEROGLYPH_A229 = "\u{14507}";
 
     #[Info(id: 0x14508, name: 'ANATOLIAN HIEROGLYPH A230', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A230 = "\u{14508}";
 
-    #[Info(id: 0x14509, name: 'ANATOLIAN HIEROGLYPH A231', category: Cat::Other_Letter)]
+    #[Info(id: 0x14509, name: 'ANATOLIAN HIEROGLYPH A231', category: Cat::Other_Letter, informativeAliases: ['castrum'])]
     case ANATOLIAN_HIEROGLYPH_A231 = "\u{14509}";
 
     #[Info(id: 0x1450A, name: 'ANATOLIAN HIEROGLYPH A232', category: Cat::Other_Letter)]
@@ -823,73 +823,73 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x1450C, name: 'ANATOLIAN HIEROGLYPH A234', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A234 = "\u{1450C}";
 
-    #[Info(id: 0x1450D, name: 'ANATOLIAN HIEROGLYPH A235', category: Cat::Other_Letter)]
+    #[Info(id: 0x1450D, name: 'ANATOLIAN HIEROGLYPH A235', category: Cat::Other_Letter, informativeAliases: ['turris?'])]
     case ANATOLIAN_HIEROGLYPH_A235 = "\u{1450D}";
 
-    #[Info(id: 0x1450E, name: 'ANATOLIAN HIEROGLYPH A236', category: Cat::Other_Letter)]
+    #[Info(id: 0x1450E, name: 'ANATOLIAN HIEROGLYPH A236', category: Cat::Other_Letter, informativeAliases: ['murus?'])]
     case ANATOLIAN_HIEROGLYPH_A236 = "\u{1450E}";
 
-    #[Info(id: 0x1450F, name: 'ANATOLIAN HIEROGLYPH A237', category: Cat::Other_Letter)]
+    #[Info(id: 0x1450F, name: 'ANATOLIAN HIEROGLYPH A237', category: Cat::Other_Letter, informativeAliases: ['porta'])]
     case ANATOLIAN_HIEROGLYPH_A237 = "\u{1450F}";
 
     #[Info(id: 0x14510, name: 'ANATOLIAN HIEROGLYPH A238', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A238 = "\u{14510}";
 
-    #[Info(id: 0x14511, name: 'ANATOLIAN HIEROGLYPH A239', category: Cat::Other_Letter)]
+    #[Info(id: 0x14511, name: 'ANATOLIAN HIEROGLYPH A239', category: Cat::Other_Letter, informativeAliases: ['porta2'])]
     case ANATOLIAN_HIEROGLYPH_A239 = "\u{14511}";
 
     #[Info(id: 0x14512, name: 'ANATOLIAN HIEROGLYPH A240', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A240 = "\u{14512}";
 
-    #[Info(id: 0x14513, name: 'ANATOLIAN HIEROGLYPH A241', category: Cat::Other_Letter)]
+    #[Info(id: 0x14513, name: 'ANATOLIAN HIEROGLYPH A241', category: Cat::Other_Letter, informativeAliases: ['syllabic ki-x'])]
     case ANATOLIAN_HIEROGLYPH_A241 = "\u{14513}";
 
     #[Info(id: 0x14514, name: 'ANATOLIAN HIEROGLYPH A242', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A242 = "\u{14514}";
 
-    #[Info(id: 0x14515, name: 'ANATOLIAN HIEROGLYPH A243', category: Cat::Other_Letter)]
+    #[Info(id: 0x14515, name: 'ANATOLIAN HIEROGLYPH A243', category: Cat::Other_Letter, informativeAliases: ['cubitum'])]
     case ANATOLIAN_HIEROGLYPH_A243 = "\u{14515}";
 
-    #[Info(id: 0x14516, name: 'ANATOLIAN HIEROGLYPH A244', category: Cat::Other_Letter)]
+    #[Info(id: 0x14516, name: 'ANATOLIAN HIEROGLYPH A244', category: Cat::Other_Letter, informativeAliases: ['aedificium'])]
     case ANATOLIAN_HIEROGLYPH_A244 = "\u{14516}";
 
-    #[Info(id: 0x14517, name: 'ANATOLIAN HIEROGLYPH A245', category: Cat::Other_Letter)]
+    #[Info(id: 0x14517, name: 'ANATOLIAN HIEROGLYPH A245', category: Cat::Other_Letter, informativeAliases: ['vacuus, aedificium+minus'])]
     case ANATOLIAN_HIEROGLYPH_A245 = "\u{14517}";
 
-    #[Info(id: 0x14518, name: 'ANATOLIAN HIEROGLYPH A246', category: Cat::Other_Letter)]
+    #[Info(id: 0x14518, name: 'ANATOLIAN HIEROGLYPH A246', category: Cat::Other_Letter, informativeAliases: ['aedificare, aedificium.ponere'])]
     case ANATOLIAN_HIEROGLYPH_A246 = "\u{14518}";
 
-    #[Info(id: 0x14519, name: 'ANATOLIAN HIEROGLYPH A247', category: Cat::Other_Letter)]
+    #[Info(id: 0x14519, name: 'ANATOLIAN HIEROGLYPH A247', category: Cat::Other_Letter, informativeAliases: ['domus'])]
     case ANATOLIAN_HIEROGLYPH_A247 = "\u{14519}";
 
-    #[Info(id: 0x1451A, name: 'ANATOLIAN HIEROGLYPH A248', category: Cat::Other_Letter)]
+    #[Info(id: 0x1451A, name: 'ANATOLIAN HIEROGLYPH A248', category: Cat::Other_Letter, informativeAliases: ['delere, domus+minus'])]
     case ANATOLIAN_HIEROGLYPH_A248 = "\u{1451A}";
 
-    #[Info(id: 0x1451B, name: 'ANATOLIAN HIEROGLYPH A249', category: Cat::Other_Letter)]
+    #[Info(id: 0x1451B, name: 'ANATOLIAN HIEROGLYPH A249', category: Cat::Other_Letter, informativeAliases: ['deus.domus'])]
     case ANATOLIAN_HIEROGLYPH_A249 = "\u{1451B}";
 
-    #[Info(id: 0x1451C, name: 'ANATOLIAN HIEROGLYPH A250', category: Cat::Other_Letter)]
+    #[Info(id: 0x1451C, name: 'ANATOLIAN HIEROGLYPH A250', category: Cat::Other_Letter, informativeAliases: ['magnus.domus'])]
     case ANATOLIAN_HIEROGLYPH_A250 = "\u{1451C}";
 
-    #[Info(id: 0x1451D, name: 'ANATOLIAN HIEROGLYPH A251', category: Cat::Other_Letter)]
+    #[Info(id: 0x1451D, name: 'ANATOLIAN HIEROGLYPH A251', category: Cat::Other_Letter, informativeAliases: ['domus+x'])]
     case ANATOLIAN_HIEROGLYPH_A251 = "\u{1451D}";
 
-    #[Info(id: 0x1451E, name: 'ANATOLIAN HIEROGLYPH A252', category: Cat::Other_Letter)]
+    #[Info(id: 0x1451E, name: 'ANATOLIAN HIEROGLYPH A252', category: Cat::Other_Letter, informativeAliases: ['domus+scala'])]
     case ANATOLIAN_HIEROGLYPH_A252 = "\u{1451E}";
 
     #[Info(id: 0x1451F, name: 'ANATOLIAN HIEROGLYPH A253', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A253 = "\u{1451F}";
 
-    #[Info(id: 0x14520, name: 'ANATOLIAN HIEROGLYPH A254', category: Cat::Other_Letter)]
+    #[Info(id: 0x14520, name: 'ANATOLIAN HIEROGLYPH A254', category: Cat::Other_Letter, informativeAliases: ['eunuchus2'])]
     case ANATOLIAN_HIEROGLYPH_A254 = "\u{14520}";
 
-    #[Info(id: 0x14521, name: 'ANATOLIAN HIEROGLYPH A255', category: Cat::Other_Letter)]
+    #[Info(id: 0x14521, name: 'ANATOLIAN HIEROGLYPH A255', category: Cat::Other_Letter, informativeAliases: ['horreum'])]
     case ANATOLIAN_HIEROGLYPH_A255 = "\u{14521}";
 
     #[Info(id: 0x14522, name: 'ANATOLIAN HIEROGLYPH A256', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A256 = "\u{14522}";
 
-    #[Info(id: 0x14523, name: 'ANATOLIAN HIEROGLYPH A257', category: Cat::Other_Letter)]
+    #[Info(id: 0x14523, name: 'ANATOLIAN HIEROGLYPH A257', category: Cat::Other_Letter, informativeAliases: ['argentum'])]
     case ANATOLIAN_HIEROGLYPH_A257 = "\u{14523}";
 
     #[Info(id: 0x14524, name: 'ANATOLIAN HIEROGLYPH A258', category: Cat::Other_Letter)]
@@ -910,25 +910,25 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14529, name: 'ANATOLIAN HIEROGLYPH A263', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A263 = "\u{14529}";
 
-    #[Info(id: 0x1452A, name: 'ANATOLIAN HIEROGLYPH A264', category: Cat::Other_Letter)]
+    #[Info(id: 0x1452A, name: 'ANATOLIAN HIEROGLYPH A264', category: Cat::Other_Letter, informativeAliases: ['podium'])]
     case ANATOLIAN_HIEROGLYPH_A264 = "\u{1452A}";
 
     #[Info(id: 0x1452B, name: 'ANATOLIAN HIEROGLYPH A265', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A265 = "\u{1452B}";
 
-    #[Info(id: 0x1452C, name: 'ANATOLIAN HIEROGLYPH A266', category: Cat::Other_Letter)]
+    #[Info(id: 0x1452C, name: 'ANATOLIAN HIEROGLYPH A266', category: Cat::Other_Letter, informativeAliases: ['pes.regio'])]
     case ANATOLIAN_HIEROGLYPH_A266 = "\u{1452C}";
 
-    #[Info(id: 0x1452D, name: 'ANATOLIAN HIEROGLYPH A267', category: Cat::Other_Letter)]
+    #[Info(id: 0x1452D, name: 'ANATOLIAN HIEROGLYPH A267', category: Cat::Other_Letter, informativeAliases: ['stele, lapis+scalprum'])]
     case ANATOLIAN_HIEROGLYPH_A267 = "\u{1452D}";
 
-    #[Info(id: 0x1452E, name: 'ANATOLIAN HIEROGLYPH A267A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1452E, name: 'ANATOLIAN HIEROGLYPH A267A', category: Cat::Other_Letter, informativeAliases: ['lapis'])]
     case ANATOLIAN_HIEROGLYPH_A267A = "\u{1452E}";
 
-    #[Info(id: 0x1452F, name: 'ANATOLIAN HIEROGLYPH A268', category: Cat::Other_Letter)]
+    #[Info(id: 0x1452F, name: 'ANATOLIAN HIEROGLYPH A268', category: Cat::Other_Letter, informativeAliases: ['scalprum'])]
     case ANATOLIAN_HIEROGLYPH_A268 = "\u{1452F}";
 
-    #[Info(id: 0x14530, name: 'ANATOLIAN HIEROGLYPH A269', category: Cat::Other_Letter)]
+    #[Info(id: 0x14530, name: 'ANATOLIAN HIEROGLYPH A269', category: Cat::Other_Letter, informativeAliases: ['exercitus'])]
     case ANATOLIAN_HIEROGLYPH_A269 = "\u{14530}";
 
     #[Info(id: 0x14531, name: 'ANATOLIAN HIEROGLYPH A270', category: Cat::Other_Letter)]
@@ -937,7 +937,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14532, name: 'ANATOLIAN HIEROGLYPH A271', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A271 = "\u{14532}";
 
-    #[Info(id: 0x14533, name: 'ANATOLIAN HIEROGLYPH A272', category: Cat::Other_Letter)]
+    #[Info(id: 0x14533, name: 'ANATOLIAN HIEROGLYPH A272', category: Cat::Other_Letter, informativeAliases: ['scutum'])]
     case ANATOLIAN_HIEROGLYPH_A272 = "\u{14533}";
 
     #[Info(id: 0x14534, name: 'ANATOLIAN HIEROGLYPH A273', category: Cat::Other_Letter)]
@@ -949,118 +949,118 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14536, name: 'ANATOLIAN HIEROGLYPH A275', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A275 = "\u{14536}";
 
-    #[Info(id: 0x14537, name: 'ANATOLIAN HIEROGLYPH A276', category: Cat::Other_Letter)]
+    #[Info(id: 0x14537, name: 'ANATOLIAN HIEROGLYPH A276', category: Cat::Other_Letter, informativeAliases: ['frater2'])]
     case ANATOLIAN_HIEROGLYPH_A276 = "\u{14537}";
 
-    #[Info(id: 0x14538, name: 'ANATOLIAN HIEROGLYPH A277', category: Cat::Other_Letter)]
+    #[Info(id: 0x14538, name: 'ANATOLIAN HIEROGLYPH A277', category: Cat::Other_Letter, informativeAliases: ['iudex.la, iudex+la'])]
     case ANATOLIAN_HIEROGLYPH_A277 = "\u{14538}";
 
-    #[Info(id: 0x14539, name: 'ANATOLIAN HIEROGLYPH A278', category: Cat::Other_Letter)]
+    #[Info(id: 0x14539, name: 'ANATOLIAN HIEROGLYPH A278', category: Cat::Other_Letter, informativeAliases: ['syllabic li'])]
     case ANATOLIAN_HIEROGLYPH_A278 = "\u{14539}";
 
     #[Info(id: 0x1453A, name: 'ANATOLIAN HIEROGLYPH A279', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A279 = "\u{1453A}";
 
-    #[Info(id: 0x1453B, name: 'ANATOLIAN HIEROGLYPH A280', category: Cat::Other_Letter)]
+    #[Info(id: 0x1453B, name: 'ANATOLIAN HIEROGLYPH A280', category: Cat::Other_Letter, informativeAliases: ['malleus', 'syllabic wa/i9'])]
     case ANATOLIAN_HIEROGLYPH_A280 = "\u{1453B}";
 
-    #[Info(id: 0x1453C, name: 'ANATOLIAN HIEROGLYPH A281', category: Cat::Other_Letter)]
+    #[Info(id: 0x1453C, name: 'ANATOLIAN HIEROGLYPH A281', category: Cat::Other_Letter, informativeAliases: ['ascia'])]
     case ANATOLIAN_HIEROGLYPH_A281 = "\u{1453C}";
 
     #[Info(id: 0x1453D, name: 'ANATOLIAN HIEROGLYPH A282', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A282 = "\u{1453D}";
 
-    #[Info(id: 0x1453E, name: 'ANATOLIAN HIEROGLYPH A283', category: Cat::Other_Letter)]
+    #[Info(id: 0x1453E, name: 'ANATOLIAN HIEROGLYPH A283', category: Cat::Other_Letter, informativeAliases: ['logosyllabic tuzzi'])]
     case ANATOLIAN_HIEROGLYPH_A283 = "\u{1453E}";
 
     #[Info(id: 0x1453F, name: 'ANATOLIAN HIEROGLYPH A284', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A284 = "\u{1453F}";
 
-    #[Info(id: 0x14540, name: 'ANATOLIAN HIEROGLYPH A285', category: Cat::Other_Letter)]
+    #[Info(id: 0x14540, name: 'ANATOLIAN HIEROGLYPH A285', category: Cat::Other_Letter, informativeAliases: ['iaculum', 'syllabic zu?', 'logosyllabic zuwa'])]
     case ANATOLIAN_HIEROGLYPH_A285 = "\u{14540}";
 
-    #[Info(id: 0x14541, name: 'ANATOLIAN HIEROGLYPH A286', category: Cat::Other_Letter)]
+    #[Info(id: 0x14541, name: 'ANATOLIAN HIEROGLYPH A286', category: Cat::Other_Letter, informativeAliases: ['syllabic wa/i7'])]
     case ANATOLIAN_HIEROGLYPH_A286 = "\u{14541}";
 
     #[Info(id: 0x14542, name: 'ANATOLIAN HIEROGLYPH A287', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A287 = "\u{14542}";
 
-    #[Info(id: 0x14543, name: 'ANATOLIAN HIEROGLYPH A288', category: Cat::Other_Letter)]
+    #[Info(id: 0x14543, name: 'ANATOLIAN HIEROGLYPH A288', category: Cat::Other_Letter, informativeAliases: ['currus'])]
     case ANATOLIAN_HIEROGLYPH_A288 = "\u{14543}";
 
-    #[Info(id: 0x14544, name: 'ANATOLIAN HIEROGLYPH A289', category: Cat::Other_Letter)]
+    #[Info(id: 0x14544, name: 'ANATOLIAN HIEROGLYPH A289', category: Cat::Other_Letter, informativeAliases: ['auriga'])]
     case ANATOLIAN_HIEROGLYPH_A289 = "\u{14544}";
 
-    #[Info(id: 0x14545, name: 'ANATOLIAN HIEROGLYPH A289A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14545, name: 'ANATOLIAN HIEROGLYPH A289A', category: Cat::Other_Letter, informativeAliases: ['auriga2'])]
     case ANATOLIAN_HIEROGLYPH_A289A = "\u{14545}";
 
-    #[Info(id: 0x14546, name: 'ANATOLIAN HIEROGLYPH A290', category: Cat::Other_Letter)]
+    #[Info(id: 0x14546, name: 'ANATOLIAN HIEROGLYPH A290', category: Cat::Other_Letter, informativeAliases: ['syllabic hara/i'])]
     case ANATOLIAN_HIEROGLYPH_A290 = "\u{14546}";
 
-    #[Info(id: 0x14547, name: 'ANATOLIAN HIEROGLYPH A291', category: Cat::Other_Letter)]
+    #[Info(id: 0x14547, name: 'ANATOLIAN HIEROGLYPH A291', category: Cat::Other_Letter, informativeAliases: ['syllabic lì'])]
     case ANATOLIAN_HIEROGLYPH_A291 = "\u{14547}";
 
-    #[Info(id: 0x14548, name: 'ANATOLIAN HIEROGLYPH A292', category: Cat::Other_Letter)]
+    #[Info(id: 0x14548, name: 'ANATOLIAN HIEROGLYPH A292', category: Cat::Other_Letter, informativeAliases: ['rota', 'logosyllabic hala/i'])]
     case ANATOLIAN_HIEROGLYPH_A292 = "\u{14548}";
 
     #[Info(id: 0x14549, name: 'ANATOLIAN HIEROGLYPH A293', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A293 = "\u{14549}";
 
-    #[Info(id: 0x1454A, name: 'ANATOLIAN HIEROGLYPH A294', category: Cat::Other_Letter)]
+    #[Info(id: 0x1454A, name: 'ANATOLIAN HIEROGLYPH A294', category: Cat::Other_Letter, informativeAliases: ['thronus, mensa'])]
     case ANATOLIAN_HIEROGLYPH_A294 = "\u{1454A}";
 
-    #[Info(id: 0x1454B, name: 'ANATOLIAN HIEROGLYPH A294A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1454B, name: 'ANATOLIAN HIEROGLYPH A294A', category: Cat::Other_Letter, informativeAliases: ['thronus, mensa2', 'Sarpa'])]
     case ANATOLIAN_HIEROGLYPH_A294A = "\u{1454B}";
 
-    #[Info(id: 0x1454C, name: 'ANATOLIAN HIEROGLYPH A295', category: Cat::Other_Letter)]
+    #[Info(id: 0x1454C, name: 'ANATOLIAN HIEROGLYPH A295', category: Cat::Other_Letter, informativeAliases: ['sol2.thronus/mensa'])]
     case ANATOLIAN_HIEROGLYPH_A295 = "\u{1454C}";
 
-    #[Info(id: 0x1454D, name: 'ANATOLIAN HIEROGLYPH A296', category: Cat::Other_Letter)]
+    #[Info(id: 0x1454D, name: 'ANATOLIAN HIEROGLYPH A296', category: Cat::Other_Letter, informativeAliases: ['(deus)mons.Sarpa, (deus)mons.mensa', 'thronus'])]
     case ANATOLIAN_HIEROGLYPH_A296 = "\u{1454D}";
 
     #[Info(id: 0x1454E, name: 'ANATOLIAN HIEROGLYPH A297', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A297 = "\u{1454E}";
 
-    #[Info(id: 0x1454F, name: 'ANATOLIAN HIEROGLYPH A298', category: Cat::Other_Letter)]
+    #[Info(id: 0x1454F, name: 'ANATOLIAN HIEROGLYPH A298', category: Cat::Other_Letter, informativeAliases: ['thronus2'])]
     case ANATOLIAN_HIEROGLYPH_A298 = "\u{1454F}";
 
-    #[Info(id: 0x14550, name: 'ANATOLIAN HIEROGLYPH A299', category: Cat::Other_Letter)]
+    #[Info(id: 0x14550, name: 'ANATOLIAN HIEROGLYPH A299', category: Cat::Other_Letter, informativeAliases: ['solium', 'syllabic í'])]
     case ANATOLIAN_HIEROGLYPH_A299 = "\u{14550}";
 
-    #[Info(id: 0x14551, name: 'ANATOLIAN HIEROGLYPH A299A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14551, name: 'ANATOLIAN HIEROGLYPH A299A', category: Cat::Other_Letter, informativeAliases: ['syllabic iá'])]
     case ANATOLIAN_HIEROGLYPH_A299A = "\u{14551}";
 
-    #[Info(id: 0x14552, name: 'ANATOLIAN HIEROGLYPH A300', category: Cat::Other_Letter)]
+    #[Info(id: 0x14552, name: 'ANATOLIAN HIEROGLYPH A300', category: Cat::Other_Letter, informativeAliases: ['nepos'])]
     case ANATOLIAN_HIEROGLYPH_A300 = "\u{14552}";
 
-    #[Info(id: 0x14553, name: 'ANATOLIAN HIEROGLYPH A301', category: Cat::Other_Letter)]
+    #[Info(id: 0x14553, name: 'ANATOLIAN HIEROGLYPH A301', category: Cat::Other_Letter, informativeAliases: ['lectus'])]
     case ANATOLIAN_HIEROGLYPH_A301 = "\u{14553}";
 
     #[Info(id: 0x14554, name: 'ANATOLIAN HIEROGLYPH A302', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A302 = "\u{14554}";
 
-    #[Info(id: 0x14555, name: 'ANATOLIAN HIEROGLYPH A303', category: Cat::Other_Letter)]
+    #[Info(id: 0x14555, name: 'ANATOLIAN HIEROGLYPH A303', category: Cat::Other_Letter, informativeAliases: ['syllabic sara/i'])]
     case ANATOLIAN_HIEROGLYPH_A303 = "\u{14555}";
 
-    #[Info(id: 0x14556, name: 'ANATOLIAN HIEROGLYPH A304', category: Cat::Other_Letter)]
+    #[Info(id: 0x14556, name: 'ANATOLIAN HIEROGLYPH A304', category: Cat::Other_Letter, informativeAliases: ['syllabic mà'])]
     case ANATOLIAN_HIEROGLYPH_A304 = "\u{14556}";
 
-    #[Info(id: 0x14557, name: 'ANATOLIAN HIEROGLYPH A305', category: Cat::Other_Letter)]
+    #[Info(id: 0x14557, name: 'ANATOLIAN HIEROGLYPH A305', category: Cat::Other_Letter, informativeAliases: ['fusus'])]
     case ANATOLIAN_HIEROGLYPH_A305 = "\u{14557}";
 
-    #[Info(id: 0x14558, name: 'ANATOLIAN HIEROGLYPH A306', category: Cat::Other_Letter)]
+    #[Info(id: 0x14558, name: 'ANATOLIAN HIEROGLYPH A306', category: Cat::Other_Letter, informativeAliases: ['syllabic hí'])]
     case ANATOLIAN_HIEROGLYPH_A306 = "\u{14558}";
 
-    #[Info(id: 0x14559, name: 'ANATOLIAN HIEROGLYPH A307', category: Cat::Other_Letter)]
+    #[Info(id: 0x14559, name: 'ANATOLIAN HIEROGLYPH A307', category: Cat::Other_Letter, informativeAliases: ['syllabic hu'])]
     case ANATOLIAN_HIEROGLYPH_A307 = "\u{14559}";
 
     #[Info(id: 0x1455A, name: 'ANATOLIAN HIEROGLYPH A308', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A308 = "\u{1455A}";
 
-    #[Info(id: 0x1455B, name: 'ANATOLIAN HIEROGLYPH A309', category: Cat::Other_Letter)]
+    #[Info(id: 0x1455B, name: 'ANATOLIAN HIEROGLYPH A309', category: Cat::Other_Letter, informativeAliases: ['crux'])]
     case ANATOLIAN_HIEROGLYPH_A309 = "\u{1455B}";
 
-    #[Info(id: 0x1455C, name: 'ANATOLIAN HIEROGLYPH A309A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1455C, name: 'ANATOLIAN HIEROGLYPH A309A', category: Cat::Other_Letter, informativeAliases: ['crux2'])]
     case ANATOLIAN_HIEROGLYPH_A309A = "\u{1455C}";
 
     #[Info(id: 0x1455D, name: 'ANATOLIAN HIEROGLYPH A310', category: Cat::Other_Letter)]
@@ -1072,25 +1072,25 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x1455F, name: 'ANATOLIAN HIEROGLYPH A312', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A312 = "\u{1455F}";
 
-    #[Info(id: 0x14560, name: 'ANATOLIAN HIEROGLYPH A313', category: Cat::Other_Letter)]
+    #[Info(id: 0x14560, name: 'ANATOLIAN HIEROGLYPH A313', category: Cat::Other_Letter, informativeAliases: ['vir', 'syllabic zí'])]
     case ANATOLIAN_HIEROGLYPH_A313 = "\u{14560}";
 
-    #[Info(id: 0x14561, name: 'ANATOLIAN HIEROGLYPH A314', category: Cat::Other_Letter)]
+    #[Info(id: 0x14561, name: 'ANATOLIAN HIEROGLYPH A314', category: Cat::Other_Letter, informativeAliases: ['syllabic ha-x'])]
     case ANATOLIAN_HIEROGLYPH_A314 = "\u{14561}";
 
-    #[Info(id: 0x14562, name: 'ANATOLIAN HIEROGLYPH A315', category: Cat::Other_Letter)]
+    #[Info(id: 0x14562, name: 'ANATOLIAN HIEROGLYPH A315', category: Cat::Other_Letter, informativeAliases: ['syllabic kar'])]
     case ANATOLIAN_HIEROGLYPH_A315 = "\u{14562}";
 
-    #[Info(id: 0x14563, name: 'ANATOLIAN HIEROGLYPH A316', category: Cat::Other_Letter)]
+    #[Info(id: 0x14563, name: 'ANATOLIAN HIEROGLYPH A316', category: Cat::Other_Letter, informativeAliases: ['syllabic sa7'])]
     case ANATOLIAN_HIEROGLYPH_A316 = "\u{14563}";
 
     #[Info(id: 0x14564, name: 'ANATOLIAN HIEROGLYPH A317', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A317 = "\u{14564}";
 
-    #[Info(id: 0x14565, name: 'ANATOLIAN HIEROGLYPH A318', category: Cat::Other_Letter)]
+    #[Info(id: 0x14565, name: 'ANATOLIAN HIEROGLYPH A318', category: Cat::Other_Letter, informativeAliases: ['Teshub'])]
     case ANATOLIAN_HIEROGLYPH_A318 = "\u{14565}";
 
-    #[Info(id: 0x14566, name: 'ANATOLIAN HIEROGLYPH A319', category: Cat::Other_Letter)]
+    #[Info(id: 0x14566, name: 'ANATOLIAN HIEROGLYPH A319', category: Cat::Other_Letter, informativeAliases: ['syllabic ta/i4, la/i'])]
     case ANATOLIAN_HIEROGLYPH_A319 = "\u{14566}";
 
     #[Info(id: 0x14567, name: 'ANATOLIAN HIEROGLYPH A320', category: Cat::Other_Letter)]
@@ -1099,7 +1099,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14568, name: 'ANATOLIAN HIEROGLYPH A321', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A321 = "\u{14568}";
 
-    #[Info(id: 0x14569, name: 'ANATOLIAN HIEROGLYPH A322', category: Cat::Other_Letter)]
+    #[Info(id: 0x14569, name: 'ANATOLIAN HIEROGLYPH A322', category: Cat::Other_Letter, informativeAliases: ['purus'])]
     case ANATOLIAN_HIEROGLYPH_A322 = "\u{14569}";
 
     #[Info(id: 0x1456A, name: 'ANATOLIAN HIEROGLYPH A323', category: Cat::Other_Letter)]
@@ -1108,91 +1108,91 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x1456B, name: 'ANATOLIAN HIEROGLYPH A324', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A324 = "\u{1456B}";
 
-    #[Info(id: 0x1456C, name: 'ANATOLIAN HIEROGLYPH A325', category: Cat::Other_Letter)]
+    #[Info(id: 0x1456C, name: 'ANATOLIAN HIEROGLYPH A325', category: Cat::Other_Letter, informativeAliases: ['syllabic tú'])]
     case ANATOLIAN_HIEROGLYPH_A325 = "\u{1456C}";
 
-    #[Info(id: 0x1456D, name: 'ANATOLIAN HIEROGLYPH A326', category: Cat::Other_Letter)]
+    #[Info(id: 0x1456D, name: 'ANATOLIAN HIEROGLYPH A326', category: Cat::Other_Letter, informativeAliases: ['scriba', 'syllabic tù'])]
     case ANATOLIAN_HIEROGLYPH_A326 = "\u{1456D}";
 
-    #[Info(id: 0x1456E, name: 'ANATOLIAN HIEROGLYPH A327', category: Cat::Other_Letter)]
+    #[Info(id: 0x1456E, name: 'ANATOLIAN HIEROGLYPH A327', category: Cat::Other_Letter, informativeAliases: ['sigillum', 'syllabic sa5'])]
     case ANATOLIAN_HIEROGLYPH_A327 = "\u{1456E}";
 
-    #[Info(id: 0x1456F, name: 'ANATOLIAN HIEROGLYPH A328', category: Cat::Other_Letter)]
+    #[Info(id: 0x1456F, name: 'ANATOLIAN HIEROGLYPH A328', category: Cat::Other_Letter, informativeAliases: ['syllabic pu'])]
     case ANATOLIAN_HIEROGLYPH_A328 = "\u{1456F}";
 
-    #[Info(id: 0x14570, name: 'ANATOLIAN HIEROGLYPH A329', category: Cat::Other_Letter)]
+    #[Info(id: 0x14570, name: 'ANATOLIAN HIEROGLYPH A329', category: Cat::Other_Letter, informativeAliases: ['relative', 'syllabic kwi/a'])]
     case ANATOLIAN_HIEROGLYPH_A329 = "\u{14570}";
 
     #[Info(id: 0x14571, name: 'ANATOLIAN HIEROGLYPH A329A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A329A = "\u{14571}";
 
-    #[Info(id: 0x14572, name: 'ANATOLIAN HIEROGLYPH A330', category: Cat::Other_Letter)]
+    #[Info(id: 0x14572, name: 'ANATOLIAN HIEROGLYPH A330', category: Cat::Other_Letter, informativeAliases: ['capere+scalprum'])]
     case ANATOLIAN_HIEROGLYPH_A330 = "\u{14572}";
 
-    #[Info(id: 0x14573, name: 'ANATOLIAN HIEROGLYPH A331', category: Cat::Other_Letter)]
+    #[Info(id: 0x14573, name: 'ANATOLIAN HIEROGLYPH A331', category: Cat::Other_Letter, informativeAliases: ['avus'])]
     case ANATOLIAN_HIEROGLYPH_A331 = "\u{14573}";
 
-    #[Info(id: 0x14574, name: 'ANATOLIAN HIEROGLYPH A332A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14574, name: 'ANATOLIAN HIEROGLYPH A332A', category: Cat::Other_Letter, informativeAliases: ['negative'])]
     case ANATOLIAN_HIEROGLYPH_A332A = "\u{14574}";
 
-    #[Info(id: 0x14575, name: 'ANATOLIAN HIEROGLYPH A332B', category: Cat::Other_Letter)]
+    #[Info(id: 0x14575, name: 'ANATOLIAN HIEROGLYPH A332B', category: Cat::Other_Letter, informativeAliases: ['negative2', 'syllabic ná'])]
     case ANATOLIAN_HIEROGLYPH_A332B = "\u{14575}";
 
-    #[Info(id: 0x14576, name: 'ANATOLIAN HIEROGLYPH A332C', category: Cat::Other_Letter)]
+    #[Info(id: 0x14576, name: 'ANATOLIAN HIEROGLYPH A332C', category: Cat::Other_Letter, informativeAliases: ['negative3'])]
     case ANATOLIAN_HIEROGLYPH_A332C = "\u{14576}";
 
     #[Info(id: 0x14577, name: 'ANATOLIAN HIEROGLYPH A333', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A333 = "\u{14577}";
 
-    #[Info(id: 0x14578, name: 'ANATOLIAN HIEROGLYPH A334', category: Cat::Other_Letter)]
+    #[Info(id: 0x14578, name: 'ANATOLIAN HIEROGLYPH A334', category: Cat::Other_Letter, informativeAliases: ['syllabic pa'])]
     case ANATOLIAN_HIEROGLYPH_A334 = "\u{14578}";
 
-    #[Info(id: 0x14579, name: 'ANATOLIAN HIEROGLYPH A335', category: Cat::Other_Letter)]
+    #[Info(id: 0x14579, name: 'ANATOLIAN HIEROGLYPH A335', category: Cat::Other_Letter, informativeAliases: ['syllabic zá'])]
     case ANATOLIAN_HIEROGLYPH_A335 = "\u{14579}";
 
-    #[Info(id: 0x1457A, name: 'ANATOLIAN HIEROGLYPH A336', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457A, name: 'ANATOLIAN HIEROGLYPH A336', category: Cat::Other_Letter, informativeAliases: ['annus, pithos.scutella, pithos', 'syllabic zì'])]
     case ANATOLIAN_HIEROGLYPH_A336 = "\u{1457A}";
 
-    #[Info(id: 0x1457B, name: 'ANATOLIAN HIEROGLYPH A336A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457B, name: 'ANATOLIAN HIEROGLYPH A336A', category: Cat::Other_Letter, informativeAliases: ['syllabic zì'])]
     case ANATOLIAN_HIEROGLYPH_A336A = "\u{1457B}";
 
-    #[Info(id: 0x1457C, name: 'ANATOLIAN HIEROGLYPH A336B', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457C, name: 'ANATOLIAN HIEROGLYPH A336B', category: Cat::Other_Letter, informativeAliases: ['syllabic zà'])]
     case ANATOLIAN_HIEROGLYPH_A336B = "\u{1457C}";
 
-    #[Info(id: 0x1457D, name: 'ANATOLIAN HIEROGLYPH A336C', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457D, name: 'ANATOLIAN HIEROGLYPH A336C', category: Cat::Other_Letter, informativeAliases: ['syllabic za-x'])]
     case ANATOLIAN_HIEROGLYPH_A336C = "\u{1457D}";
 
-    #[Info(id: 0x1457E, name: 'ANATOLIAN HIEROGLYPH A337', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457E, name: 'ANATOLIAN HIEROGLYPH A337', category: Cat::Other_Letter, informativeAliases: ['pithos'])]
     case ANATOLIAN_HIEROGLYPH_A337 = "\u{1457E}";
 
-    #[Info(id: 0x1457F, name: 'ANATOLIAN HIEROGLYPH A338', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457F, name: 'ANATOLIAN HIEROGLYPH A338', category: Cat::Other_Letter, informativeAliases: ['culter'])]
     case ANATOLIAN_HIEROGLYPH_A338 = "\u{1457F}";
 
     #[Info(id: 0x14580, name: 'ANATOLIAN HIEROGLYPH A339', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A339 = "\u{14580}";
 
-    #[Info(id: 0x14581, name: 'ANATOLIAN HIEROGLYPH A340', category: Cat::Other_Letter)]
+    #[Info(id: 0x14581, name: 'ANATOLIAN HIEROGLYPH A340', category: Cat::Other_Letter, informativeAliases: ['annus+annus'])]
     case ANATOLIAN_HIEROGLYPH_A340 = "\u{14581}";
 
-    #[Info(id: 0x14582, name: 'ANATOLIAN HIEROGLYPH A341', category: Cat::Other_Letter)]
+    #[Info(id: 0x14582, name: 'ANATOLIAN HIEROGLYPH A341', category: Cat::Other_Letter, informativeAliases: ['vas'])]
     case ANATOLIAN_HIEROGLYPH_A341 = "\u{14582}";
 
     #[Info(id: 0x14583, name: 'ANATOLIAN HIEROGLYPH A342', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A342 = "\u{14583}";
 
-    #[Info(id: 0x14584, name: 'ANATOLIAN HIEROGLYPH A343', category: Cat::Other_Letter)]
+    #[Info(id: 0x14584, name: 'ANATOLIAN HIEROGLYPH A343', category: Cat::Other_Letter, informativeAliases: ['pithos'])]
     case ANATOLIAN_HIEROGLYPH_A343 = "\u{14584}";
 
-    #[Info(id: 0x14585, name: 'ANATOLIAN HIEROGLYPH A344', category: Cat::Other_Letter)]
+    #[Info(id: 0x14585, name: 'ANATOLIAN HIEROGLYPH A344', category: Cat::Other_Letter, informativeAliases: ['contractus'])]
     case ANATOLIAN_HIEROGLYPH_A344 = "\u{14585}";
 
-    #[Info(id: 0x14586, name: 'ANATOLIAN HIEROGLYPH A345', category: Cat::Other_Letter)]
+    #[Info(id: 0x14586, name: 'ANATOLIAN HIEROGLYPH A345', category: Cat::Other_Letter, informativeAliases: ['urceus'])]
     case ANATOLIAN_HIEROGLYPH_A345 = "\u{14586}";
 
-    #[Info(id: 0x14587, name: 'ANATOLIAN HIEROGLYPH A346', category: Cat::Other_Letter)]
+    #[Info(id: 0x14587, name: 'ANATOLIAN HIEROGLYPH A346', category: Cat::Other_Letter, informativeAliases: ['poculum'])]
     case ANATOLIAN_HIEROGLYPH_A346 = "\u{14587}";
 
-    #[Info(id: 0x14588, name: 'ANATOLIAN HIEROGLYPH A347', category: Cat::Other_Letter)]
+    #[Info(id: 0x14588, name: 'ANATOLIAN HIEROGLYPH A347', category: Cat::Other_Letter, informativeAliases: ['syllabic hú'])]
     case ANATOLIAN_HIEROGLYPH_A347 = "\u{14588}";
 
     #[Info(id: 0x14589, name: 'ANATOLIAN HIEROGLYPH A348', category: Cat::Other_Letter)]
@@ -1216,7 +1216,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x1458F, name: 'ANATOLIAN HIEROGLYPH A354', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A354 = "\u{1458F}";
 
-    #[Info(id: 0x14590, name: 'ANATOLIAN HIEROGLYPH A355', category: Cat::Other_Letter)]
+    #[Info(id: 0x14590, name: 'ANATOLIAN HIEROGLYPH A355', category: Cat::Other_Letter, informativeAliases: ['sacerdos'])]
     case ANATOLIAN_HIEROGLYPH_A355 = "\u{14590}";
 
     #[Info(id: 0x14591, name: 'ANATOLIAN HIEROGLYPH A356', category: Cat::Other_Letter)]
@@ -1225,7 +1225,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14592, name: 'ANATOLIAN HIEROGLYPH A357', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A357 = "\u{14592}";
 
-    #[Info(id: 0x14593, name: 'ANATOLIAN HIEROGLYPH A358', category: Cat::Other_Letter)]
+    #[Info(id: 0x14593, name: 'ANATOLIAN HIEROGLYPH A358', category: Cat::Other_Letter, informativeAliases: ['dies'])]
     case ANATOLIAN_HIEROGLYPH_A358 = "\u{14593}";
 
     #[Info(id: 0x14594, name: 'ANATOLIAN HIEROGLYPH A359', category: Cat::Other_Letter)]
@@ -1234,52 +1234,52 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14595, name: 'ANATOLIAN HIEROGLYPH A359A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A359A = "\u{14595}";
 
-    #[Info(id: 0x14596, name: 'ANATOLIAN HIEROGLYPH A360', category: Cat::Other_Letter)]
+    #[Info(id: 0x14596, name: 'ANATOLIAN HIEROGLYPH A360', category: Cat::Other_Letter, informativeAliases: ['deus'])]
     case ANATOLIAN_HIEROGLYPH_A360 = "\u{14596}";
 
     #[Info(id: 0x14597, name: 'ANATOLIAN HIEROGLYPH A361', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A361 = "\u{14597}";
 
-    #[Info(id: 0x14598, name: 'ANATOLIAN HIEROGLYPH A362', category: Cat::Other_Letter)]
+    #[Info(id: 0x14598, name: 'ANATOLIAN HIEROGLYPH A362', category: Cat::Other_Letter, informativeAliases: ['syllabic má'])]
     case ANATOLIAN_HIEROGLYPH_A362 = "\u{14598}";
 
-    #[Info(id: 0x14599, name: 'ANATOLIAN HIEROGLYPH A363', category: Cat::Other_Letter)]
+    #[Info(id: 0x14599, name: 'ANATOLIAN HIEROGLYPH A363', category: Cat::Other_Letter, informativeAliases: ['magnus', 'syllabic ur'])]
     case ANATOLIAN_HIEROGLYPH_A363 = "\u{14599}";
 
-    #[Info(id: 0x1459A, name: 'ANATOLIAN HIEROGLYPH A364', category: Cat::Other_Letter)]
+    #[Info(id: 0x1459A, name: 'ANATOLIAN HIEROGLYPH A364', category: Cat::Other_Letter, informativeAliases: ['syllabic u'])]
     case ANATOLIAN_HIEROGLYPH_A364 = "\u{1459A}";
 
-    #[Info(id: 0x1459B, name: 'ANATOLIAN HIEROGLYPH A364A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1459B, name: 'ANATOLIAN HIEROGLYPH A364A', category: Cat::Other_Letter, informativeAliases: ['syllabic mu'])]
     case ANATOLIAN_HIEROGLYPH_A364A = "\u{1459B}";
 
     #[Info(id: 0x1459C, name: 'ANATOLIAN HIEROGLYPH A365', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A365 = "\u{1459C}";
 
-    #[Info(id: 0x1459D, name: 'ANATOLIAN HIEROGLYPH A366', category: Cat::Other_Letter)]
+    #[Info(id: 0x1459D, name: 'ANATOLIAN HIEROGLYPH A366', category: Cat::Other_Letter, informativeAliases: ['omnis(+mi)'])]
     case ANATOLIAN_HIEROGLYPH_A366 = "\u{1459D}";
 
-    #[Info(id: 0x1459E, name: 'ANATOLIAN HIEROGLYPH A367', category: Cat::Other_Letter)]
+    #[Info(id: 0x1459E, name: 'ANATOLIAN HIEROGLYPH A367', category: Cat::Other_Letter, informativeAliases: ['logosyllabic tala'])]
     case ANATOLIAN_HIEROGLYPH_A367 = "\u{1459E}";
 
-    #[Info(id: 0x1459F, name: 'ANATOLIAN HIEROGLYPH A368', category: Cat::Other_Letter)]
+    #[Info(id: 0x1459F, name: 'ANATOLIAN HIEROGLYPH A368', category: Cat::Other_Letter, informativeAliases: ['malus'])]
     case ANATOLIAN_HIEROGLYPH_A368 = "\u{1459F}";
 
-    #[Info(id: 0x145A0, name: 'ANATOLIAN HIEROGLYPH A368A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A0, name: 'ANATOLIAN HIEROGLYPH A368A', category: Cat::Other_Letter, informativeAliases: ['malus2'])]
     case ANATOLIAN_HIEROGLYPH_A368A = "\u{145A0}";
 
-    #[Info(id: 0x145A1, name: 'ANATOLIAN HIEROGLYPH A369', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A1, name: 'ANATOLIAN HIEROGLYPH A369', category: Cat::Other_Letter, informativeAliases: ['vita'])]
     case ANATOLIAN_HIEROGLYPH_A369 = "\u{145A1}";
 
-    #[Info(id: 0x145A2, name: 'ANATOLIAN HIEROGLYPH A370', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A2, name: 'ANATOLIAN HIEROGLYPH A370', category: Cat::Other_Letter, informativeAliases: ['bonus2', 'syllabic su'])]
     case ANATOLIAN_HIEROGLYPH_A370 = "\u{145A2}";
 
-    #[Info(id: 0x145A3, name: 'ANATOLIAN HIEROGLYPH A371', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A3, name: 'ANATOLIAN HIEROGLYPH A371', category: Cat::Other_Letter, informativeAliases: ['iustitia, iudex'])]
     case ANATOLIAN_HIEROGLYPH_A371 = "\u{145A3}";
 
-    #[Info(id: 0x145A4, name: 'ANATOLIAN HIEROGLYPH A371A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A4, name: 'ANATOLIAN HIEROGLYPH A371A', category: Cat::Other_Letter, informativeAliases: ['iudex+ra/i, tara/i-x'])]
     case ANATOLIAN_HIEROGLYPH_A371A = "\u{145A4}";
 
-    #[Info(id: 0x145A5, name: 'ANATOLIAN HIEROGLYPH A372', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A5, name: 'ANATOLIAN HIEROGLYPH A372', category: Cat::Other_Letter, informativeAliases: ['sacerdos2'])]
     case ANATOLIAN_HIEROGLYPH_A372 = "\u{145A5}";
 
     #[Info(id: 0x145A6, name: 'ANATOLIAN HIEROGLYPH A373', category: Cat::Other_Letter)]
@@ -1291,100 +1291,100 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x145A8, name: 'ANATOLIAN HIEROGLYPH A375', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A375 = "\u{145A8}";
 
-    #[Info(id: 0x145A9, name: 'ANATOLIAN HIEROGLYPH A376', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A9, name: 'ANATOLIAN HIEROGLYPH A376', category: Cat::Other_Letter, informativeAliases: ['syllabic zi, zi/a'])]
     case ANATOLIAN_HIEROGLYPH_A376 = "\u{145A9}";
 
-    #[Info(id: 0x145AA, name: 'ANATOLIAN HIEROGLYPH A377', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AA, name: 'ANATOLIAN HIEROGLYPH A377', category: Cat::Other_Letter, informativeAliases: ['syllabic za'])]
     case ANATOLIAN_HIEROGLYPH_A377 = "\u{145AA}";
 
-    #[Info(id: 0x145AB, name: 'ANATOLIAN HIEROGLYPH A378', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AB, name: 'ANATOLIAN HIEROGLYPH A378', category: Cat::Other_Letter, informativeAliases: ['lituus'])]
     case ANATOLIAN_HIEROGLYPH_A378 = "\u{145AB}";
 
-    #[Info(id: 0x145AC, name: 'ANATOLIAN HIEROGLYPH A379', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AC, name: 'ANATOLIAN HIEROGLYPH A379', category: Cat::Other_Letter, informativeAliases: ['occidens', 'syllabic ià'])]
     case ANATOLIAN_HIEROGLYPH_A379 = "\u{145AC}";
 
-    #[Info(id: 0x145AD, name: 'ANATOLIAN HIEROGLYPH A380', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AD, name: 'ANATOLIAN HIEROGLYPH A380', category: Cat::Other_Letter, informativeAliases: ['one', 'unus', 'syllabic sa8'])]
     case ANATOLIAN_HIEROGLYPH_A380 = "\u{145AD}";
 
-    #[Info(id: 0x145AE, name: 'ANATOLIAN HIEROGLYPH A381', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AE, name: 'ANATOLIAN HIEROGLYPH A381', category: Cat::Other_Letter, informativeAliases: ['minus'])]
     case ANATOLIAN_HIEROGLYPH_A381 = "\u{145AE}";
 
-    #[Info(id: 0x145AF, name: 'ANATOLIAN HIEROGLYPH A381A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AF, name: 'ANATOLIAN HIEROGLYPH A381A', category: Cat::Other_Letter, informativeAliases: ['mori, vir2.minus'])]
     case ANATOLIAN_HIEROGLYPH_A381A = "\u{145AF}";
 
-    #[Info(id: 0x145B0, name: 'ANATOLIAN HIEROGLYPH A382', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B0, name: 'ANATOLIAN HIEROGLYPH A382', category: Cat::Other_Letter, informativeAliases: ['lignum'])]
     case ANATOLIAN_HIEROGLYPH_A382 = "\u{145B0}";
 
     #[Info(id: 0x145B1, name: 'ANATOLIAN HIEROGLYPH A383 RA OR RI', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A383_RA_OR_RI = "\u{145B1}";
 
-    #[Info(id: 0x145B2, name: 'ANATOLIAN HIEROGLYPH A383A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B2, name: 'ANATOLIAN HIEROGLYPH A383A', category: Cat::Other_Letter, informativeAliases: ['personal determinative'])]
     case ANATOLIAN_HIEROGLYPH_A383A = "\u{145B2}";
 
-    #[Info(id: 0x145B3, name: 'ANATOLIAN HIEROGLYPH A384', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B3, name: 'ANATOLIAN HIEROGLYPH A384', category: Cat::Other_Letter, informativeAliases: ['two'])]
     case ANATOLIAN_HIEROGLYPH_A384 = "\u{145B3}";
 
-    #[Info(id: 0x145B4, name: 'ANATOLIAN HIEROGLYPH A385', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B4, name: 'ANATOLIAN HIEROGLYPH A385', category: Cat::Other_Letter, informativeAliases: ['two'])]
     case ANATOLIAN_HIEROGLYPH_A385 = "\u{145B4}";
 
-    #[Info(id: 0x145B5, name: 'ANATOLIAN HIEROGLYPH A386', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B5, name: 'ANATOLIAN HIEROGLYPH A386', category: Cat::Other_Letter, informativeAliases: ['vir2', 'word divider'])]
     case ANATOLIAN_HIEROGLYPH_A386 = "\u{145B5}";
 
-    #[Info(id: 0x145B6, name: 'ANATOLIAN HIEROGLYPH A386A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B6, name: 'ANATOLIAN HIEROGLYPH A386A', category: Cat::Other_Letter, informativeAliases: ['vir2a'])]
     case ANATOLIAN_HIEROGLYPH_A386A = "\u{145B6}";
 
-    #[Info(id: 0x145B7, name: 'ANATOLIAN HIEROGLYPH A387', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B7, name: 'ANATOLIAN HIEROGLYPH A387', category: Cat::Other_Letter, informativeAliases: ['servus', 'syllabic mì'])]
     case ANATOLIAN_HIEROGLYPH_A387 = "\u{145B7}";
 
-    #[Info(id: 0x145B8, name: 'ANATOLIAN HIEROGLYPH A388', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B8, name: 'ANATOLIAN HIEROGLYPH A388', category: Cat::Other_Letter, informativeAliases: ['three', 'tara/i'])]
     case ANATOLIAN_HIEROGLYPH_A388 = "\u{145B8}";
 
-    #[Info(id: 0x145B9, name: 'ANATOLIAN HIEROGLYPH A389', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B9, name: 'ANATOLIAN HIEROGLYPH A389', category: Cat::Other_Letter, informativeAliases: ['tara/i'])]
     case ANATOLIAN_HIEROGLYPH_A389 = "\u{145B9}";
 
-    #[Info(id: 0x145BA, name: 'ANATOLIAN HIEROGLYPH A390', category: Cat::Other_Letter)]
+    #[Info(id: 0x145BA, name: 'ANATOLIAN HIEROGLYPH A390', category: Cat::Other_Letter, informativeAliases: ['dominus'])]
     case ANATOLIAN_HIEROGLYPH_A390 = "\u{145BA}";
 
-    #[Info(id: 0x145BB, name: 'ANATOLIAN HIEROGLYPH A391', category: Cat::Other_Letter)]
+    #[Info(id: 0x145BB, name: 'ANATOLIAN HIEROGLYPH A391', category: Cat::Other_Letter, informativeAliases: ['four', 'syllabic mi'])]
     case ANATOLIAN_HIEROGLYPH_A391 = "\u{145BB}";
 
-    #[Info(id: 0x145BC, name: 'ANATOLIAN HIEROGLYPH A392', category: Cat::Other_Letter)]
+    #[Info(id: 0x145BC, name: 'ANATOLIAN HIEROGLYPH A392', category: Cat::Other_Letter, informativeAliases: ['five'])]
     case ANATOLIAN_HIEROGLYPH_A392 = "\u{145BC}";
 
-    #[Info(id: 0x145BD, name: 'ANATOLIAN HIEROGLYPH A393 EIGHT', category: Cat::Other_Letter)]
+    #[Info(id: 0x145BD, name: 'ANATOLIAN HIEROGLYPH A393 EIGHT', category: Cat::Other_Letter, informativeAliases: ['eight'])]
     case ANATOLIAN_HIEROGLYPH_A393_EIGHT = "\u{145BD}";
 
     #[Info(id: 0x145BE, name: 'ANATOLIAN HIEROGLYPH A394', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A394 = "\u{145BE}";
 
-    #[Info(id: 0x145BF, name: 'ANATOLIAN HIEROGLYPH A395', category: Cat::Other_Letter)]
+    #[Info(id: 0x145BF, name: 'ANATOLIAN HIEROGLYPH A395', category: Cat::Other_Letter, informativeAliases: ['nine', 'syllabic nú'])]
     case ANATOLIAN_HIEROGLYPH_A395 = "\u{145BF}";
 
     #[Info(id: 0x145C0, name: 'ANATOLIAN HIEROGLYPH A396', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A396 = "\u{145C0}";
 
-    #[Info(id: 0x145C1, name: 'ANATOLIAN HIEROGLYPH A397', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C1, name: 'ANATOLIAN HIEROGLYPH A397', category: Cat::Other_Letter, informativeAliases: ['ten', 'decem'])]
     case ANATOLIAN_HIEROGLYPH_A397 = "\u{145C1}";
 
     #[Info(id: 0x145C2, name: 'ANATOLIAN HIEROGLYPH A398', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A398 = "\u{145C2}";
 
-    #[Info(id: 0x145C3, name: 'ANATOLIAN HIEROGLYPH A399', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C3, name: 'ANATOLIAN HIEROGLYPH A399', category: Cat::Other_Letter, informativeAliases: ['hundred', 'centum'])]
     case ANATOLIAN_HIEROGLYPH_A399 = "\u{145C3}";
 
-    #[Info(id: 0x145C4, name: 'ANATOLIAN HIEROGLYPH A400', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C4, name: 'ANATOLIAN HIEROGLYPH A400', category: Cat::Other_Letter, informativeAliases: ['thousand', 'mille'])]
     case ANATOLIAN_HIEROGLYPH_A400 = "\u{145C4}";
 
     #[Info(id: 0x145C5, name: 'ANATOLIAN HIEROGLYPH A401', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A401 = "\u{145C5}";
 
-    #[Info(id: 0x145C6, name: 'ANATOLIAN HIEROGLYPH A402', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C6, name: 'ANATOLIAN HIEROGLYPH A402', category: Cat::Other_Letter, informativeAliases: ['scutella', 'syllabic sa4'])]
     case ANATOLIAN_HIEROGLYPH_A402 = "\u{145C6}";
 
     #[Info(id: 0x145C7, name: 'ANATOLIAN HIEROGLYPH A403', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A403 = "\u{145C7}";
 
-    #[Info(id: 0x145C8, name: 'ANATOLIAN HIEROGLYPH A404', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C8, name: 'ANATOLIAN HIEROGLYPH A404', category: Cat::Other_Letter, informativeAliases: ['animal'])]
     case ANATOLIAN_HIEROGLYPH_A404 = "\u{145C8}";
 
     #[Info(id: 0x145C9, name: 'ANATOLIAN HIEROGLYPH A405', category: Cat::Other_Letter)]
@@ -1408,43 +1408,43 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x145CF, name: 'ANATOLIAN HIEROGLYPH A410A END LOGOGRAM MARK', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A410A_END_LOGOGRAM_MARK = "\u{145CF}";
 
-    #[Info(id: 0x145D0, name: 'ANATOLIAN HIEROGLYPH A411', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D0, name: 'ANATOLIAN HIEROGLYPH A411', category: Cat::Other_Letter, informativeAliases: ['syllabic ni'])]
     case ANATOLIAN_HIEROGLYPH_A411 = "\u{145D0}";
 
-    #[Info(id: 0x145D1, name: 'ANATOLIAN HIEROGLYPH A412', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D1, name: 'ANATOLIAN HIEROGLYPH A412', category: Cat::Other_Letter, informativeAliases: ['syllabic ru'])]
     case ANATOLIAN_HIEROGLYPH_A412 = "\u{145D1}";
 
-    #[Info(id: 0x145D2, name: 'ANATOLIAN HIEROGLYPH A413', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D2, name: 'ANATOLIAN HIEROGLYPH A413', category: Cat::Other_Letter, informativeAliases: ['syllabic hi'])]
     case ANATOLIAN_HIEROGLYPH_A413 = "\u{145D2}";
 
     #[Info(id: 0x145D3, name: 'ANATOLIAN HIEROGLYPH A414', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A414 = "\u{145D3}";
 
-    #[Info(id: 0x145D4, name: 'ANATOLIAN HIEROGLYPH A415', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D4, name: 'ANATOLIAN HIEROGLYPH A415', category: Cat::Other_Letter, informativeAliases: ['syllabic sa'])]
     case ANATOLIAN_HIEROGLYPH_A415 = "\u{145D4}";
 
     #[Info(id: 0x145D5, name: 'ANATOLIAN HIEROGLYPH A416', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A416 = "\u{145D5}";
 
-    #[Info(id: 0x145D6, name: 'ANATOLIAN HIEROGLYPH A417', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D6, name: 'ANATOLIAN HIEROGLYPH A417', category: Cat::Other_Letter, informativeAliases: ['syllabic sa-x'])]
     case ANATOLIAN_HIEROGLYPH_A417 = "\u{145D6}";
 
     #[Info(id: 0x145D7, name: 'ANATOLIAN HIEROGLYPH A418', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A418 = "\u{145D7}";
 
-    #[Info(id: 0x145D8, name: 'ANATOLIAN HIEROGLYPH A419', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D8, name: 'ANATOLIAN HIEROGLYPH A419', category: Cat::Other_Letter, informativeAliases: ['syllabic mí', 'logosyllabic urhi'])]
     case ANATOLIAN_HIEROGLYPH_A419 = "\u{145D8}";
 
     #[Info(id: 0x145D9, name: 'ANATOLIAN HIEROGLYPH A420', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A420 = "\u{145D9}";
 
-    #[Info(id: 0x145DA, name: 'ANATOLIAN HIEROGLYPH A421', category: Cat::Other_Letter)]
+    #[Info(id: 0x145DA, name: 'ANATOLIAN HIEROGLYPH A421', category: Cat::Other_Letter, informativeAliases: ['syllabic us'])]
     case ANATOLIAN_HIEROGLYPH_A421 = "\u{145DA}";
 
-    #[Info(id: 0x145DB, name: 'ANATOLIAN HIEROGLYPH A422', category: Cat::Other_Letter)]
+    #[Info(id: 0x145DB, name: 'ANATOLIAN HIEROGLYPH A422', category: Cat::Other_Letter, informativeAliases: ['panis.scutella'])]
     case ANATOLIAN_HIEROGLYPH_A422 = "\u{145DB}";
 
-    #[Info(id: 0x145DC, name: 'ANATOLIAN HIEROGLYPH A423', category: Cat::Other_Letter)]
+    #[Info(id: 0x145DC, name: 'ANATOLIAN HIEROGLYPH A423', category: Cat::Other_Letter, informativeAliases: ['syllabic ku'])]
     case ANATOLIAN_HIEROGLYPH_A423 = "\u{145DC}";
 
     #[Info(id: 0x145DD, name: 'ANATOLIAN HIEROGLYPH A424', category: Cat::Other_Letter)]
@@ -1462,25 +1462,25 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x145E1, name: 'ANATOLIAN HIEROGLYPH A428', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A428 = "\u{145E1}";
 
-    #[Info(id: 0x145E2, name: 'ANATOLIAN HIEROGLYPH A429', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E2, name: 'ANATOLIAN HIEROGLYPH A429', category: Cat::Other_Letter, informativeAliases: ['syllabic tana'])]
     case ANATOLIAN_HIEROGLYPH_A429 = "\u{145E2}";
 
-    #[Info(id: 0x145E3, name: 'ANATOLIAN HIEROGLYPH A430', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E3, name: 'ANATOLIAN HIEROGLYPH A430', category: Cat::Other_Letter, informativeAliases: ['omnis2', 'syllabic pú'])]
     case ANATOLIAN_HIEROGLYPH_A430 = "\u{145E3}";
 
     #[Info(id: 0x145E4, name: 'ANATOLIAN HIEROGLYPH A431', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A431 = "\u{145E4}";
 
-    #[Info(id: 0x145E5, name: 'ANATOLIAN HIEROGLYPH A432', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E5, name: 'ANATOLIAN HIEROGLYPH A432', category: Cat::Other_Letter, informativeAliases: ['syllabic zu?'])]
     case ANATOLIAN_HIEROGLYPH_A432 = "\u{145E5}";
 
-    #[Info(id: 0x145E6, name: 'ANATOLIAN HIEROGLYPH A433', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E6, name: 'ANATOLIAN HIEROGLYPH A433', category: Cat::Other_Letter, informativeAliases: ['syllabic sá'])]
     case ANATOLIAN_HIEROGLYPH_A433 = "\u{145E6}";
 
-    #[Info(id: 0x145E7, name: 'ANATOLIAN HIEROGLYPH A434', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E7, name: 'ANATOLIAN HIEROGLYPH A434', category: Cat::Other_Letter, informativeAliases: ['syllabic ka'])]
     case ANATOLIAN_HIEROGLYPH_A434 = "\u{145E7}";
 
-    #[Info(id: 0x145E8, name: 'ANATOLIAN HIEROGLYPH A435', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E8, name: 'ANATOLIAN HIEROGLYPH A435', category: Cat::Other_Letter, informativeAliases: ['syllabic a-x?'])]
     case ANATOLIAN_HIEROGLYPH_A435 = "\u{145E8}";
 
     #[Info(id: 0x145E9, name: 'ANATOLIAN HIEROGLYPH A436', category: Cat::Other_Letter)]
@@ -1489,10 +1489,10 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x145EA, name: 'ANATOLIAN HIEROGLYPH A437', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A437 = "\u{145EA}";
 
-    #[Info(id: 0x145EB, name: 'ANATOLIAN HIEROGLYPH A438', category: Cat::Other_Letter)]
+    #[Info(id: 0x145EB, name: 'ANATOLIAN HIEROGLYPH A438', category: Cat::Other_Letter, informativeAliases: ['pastor'])]
     case ANATOLIAN_HIEROGLYPH_A438 = "\u{145EB}";
 
-    #[Info(id: 0x145EC, name: 'ANATOLIAN HIEROGLYPH A439', category: Cat::Other_Letter)]
+    #[Info(id: 0x145EC, name: 'ANATOLIAN HIEROGLYPH A439', category: Cat::Other_Letter, informativeAliases: ['syllabic wa/i'])]
     case ANATOLIAN_HIEROGLYPH_A439 = "\u{145EC}";
 
     #[Info(id: 0x145ED, name: 'ANATOLIAN HIEROGLYPH A440', category: Cat::Other_Letter)]
@@ -1510,28 +1510,28 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x145F1, name: 'ANATOLIAN HIEROGLYPH A444', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A444 = "\u{145F1}";
 
-    #[Info(id: 0x145F2, name: 'ANATOLIAN HIEROGLYPH A445', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F2, name: 'ANATOLIAN HIEROGLYPH A445', category: Cat::Other_Letter, informativeAliases: ['syllabic la, li, lu'])]
     case ANATOLIAN_HIEROGLYPH_A445 = "\u{145F2}";
 
-    #[Info(id: 0x145F3, name: 'ANATOLIAN HIEROGLYPH A446', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F3, name: 'ANATOLIAN HIEROGLYPH A446', category: Cat::Other_Letter, informativeAliases: ['syllabic ki'])]
     case ANATOLIAN_HIEROGLYPH_A446 = "\u{145F3}";
 
-    #[Info(id: 0x145F4, name: 'ANATOLIAN HIEROGLYPH A447', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F4, name: 'ANATOLIAN HIEROGLYPH A447', category: Cat::Other_Letter, informativeAliases: ['syllabic ni-x'])]
     case ANATOLIAN_HIEROGLYPH_A447 = "\u{145F4}";
 
-    #[Info(id: 0x145F5, name: 'ANATOLIAN HIEROGLYPH A448', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F5, name: 'ANATOLIAN HIEROGLYPH A448', category: Cat::Other_Letter, informativeAliases: ['syllabic sù?, zú?'])]
     case ANATOLIAN_HIEROGLYPH_A448 = "\u{145F5}";
 
     #[Info(id: 0x145F6, name: 'ANATOLIAN HIEROGLYPH A449', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A449 = "\u{145F6}";
 
-    #[Info(id: 0x145F7, name: 'ANATOLIAN HIEROGLYPH A450', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F7, name: 'ANATOLIAN HIEROGLYPH A450', category: Cat::Other_Letter, informativeAliases: ['syllabic a', 'end of a word'])]
     case ANATOLIAN_HIEROGLYPH_A450 = "\u{145F7}";
 
-    #[Info(id: 0x145F8, name: 'ANATOLIAN HIEROGLYPH A450A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F8, name: 'ANATOLIAN HIEROGLYPH A450A', category: Cat::Other_Letter, informativeAliases: ['a+ra/i, ra+a'])]
     case ANATOLIAN_HIEROGLYPH_A450A = "\u{145F8}";
 
-    #[Info(id: 0x145F9, name: 'ANATOLIAN HIEROGLYPH A451', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F9, name: 'ANATOLIAN HIEROGLYPH A451', category: Cat::Other_Letter, informativeAliases: ['logosyllabic huru'])]
     case ANATOLIAN_HIEROGLYPH_A451 = "\u{145F9}";
 
     #[Info(id: 0x145FA, name: 'ANATOLIAN HIEROGLYPH A452', category: Cat::Other_Letter)]
@@ -1543,10 +1543,10 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x145FC, name: 'ANATOLIAN HIEROGLYPH A454', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A454 = "\u{145FC}";
 
-    #[Info(id: 0x145FD, name: 'ANATOLIAN HIEROGLYPH A455', category: Cat::Other_Letter)]
+    #[Info(id: 0x145FD, name: 'ANATOLIAN HIEROGLYPH A455', category: Cat::Other_Letter, informativeAliases: ['syllabic la-x'])]
     case ANATOLIAN_HIEROGLYPH_A455 = "\u{145FD}";
 
-    #[Info(id: 0x145FE, name: 'ANATOLIAN HIEROGLYPH A456', category: Cat::Other_Letter)]
+    #[Info(id: 0x145FE, name: 'ANATOLIAN HIEROGLYPH A456', category: Cat::Other_Letter, informativeAliases: ['syllabic sí?'])]
     case ANATOLIAN_HIEROGLYPH_A456 = "\u{145FE}";
 
     #[Info(id: 0x145FF, name: 'ANATOLIAN HIEROGLYPH A457', category: Cat::Other_Letter)]
@@ -1567,7 +1567,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14604, name: 'ANATOLIAN HIEROGLYPH A461', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A461 = "\u{14604}";
 
-    #[Info(id: 0x14605, name: 'ANATOLIAN HIEROGLYPH A462', category: Cat::Other_Letter)]
+    #[Info(id: 0x14605, name: 'ANATOLIAN HIEROGLYPH A462', category: Cat::Other_Letter, informativeAliases: ['syllabic ma-x?'])]
     case ANATOLIAN_HIEROGLYPH_A462 = "\u{14605}";
 
     #[Info(id: 0x14606, name: 'ANATOLIAN HIEROGLYPH A463', category: Cat::Other_Letter)]
@@ -1591,7 +1591,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x1460C, name: 'ANATOLIAN HIEROGLYPH A469', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A469 = "\u{1460C}";
 
-    #[Info(id: 0x1460D, name: 'ANATOLIAN HIEROGLYPH A470', category: Cat::Other_Letter)]
+    #[Info(id: 0x1460D, name: 'ANATOLIAN HIEROGLYPH A470', category: Cat::Other_Letter, informativeAliases: ['twelve'])]
     case ANATOLIAN_HIEROGLYPH_A470 = "\u{1460D}";
 
     #[Info(id: 0x1460E, name: 'ANATOLIAN HIEROGLYPH A471', category: Cat::Other_Letter)]
@@ -1603,7 +1603,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14610, name: 'ANATOLIAN HIEROGLYPH A473', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A473 = "\u{14610}";
 
-    #[Info(id: 0x14611, name: 'ANATOLIAN HIEROGLYPH A474', category: Cat::Other_Letter)]
+    #[Info(id: 0x14611, name: 'ANATOLIAN HIEROGLYPH A474', category: Cat::Other_Letter, informativeAliases: ['eunuchus'])]
     case ANATOLIAN_HIEROGLYPH_A474 = "\u{14611}";
 
     #[Info(id: 0x14612, name: 'ANATOLIAN HIEROGLYPH A475', category: Cat::Other_Letter)]
@@ -1612,7 +1612,7 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x14613, name: 'ANATOLIAN HIEROGLYPH A476', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A476 = "\u{14613}";
 
-    #[Info(id: 0x14614, name: 'ANATOLIAN HIEROGLYPH A477', category: Cat::Other_Letter)]
+    #[Info(id: 0x14614, name: 'ANATOLIAN HIEROGLYPH A477', category: Cat::Other_Letter, informativeAliases: ['flammae?'])]
     case ANATOLIAN_HIEROGLYPH_A477 = "\u{14614}";
 
     #[Info(id: 0x14615, name: 'ANATOLIAN HIEROGLYPH A478', category: Cat::Other_Letter)]
@@ -1639,13 +1639,13 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x1461C, name: 'ANATOLIAN HIEROGLYPH A485', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A485 = "\u{1461C}";
 
-    #[Info(id: 0x1461D, name: 'ANATOLIAN HIEROGLYPH A486', category: Cat::Other_Letter)]
+    #[Info(id: 0x1461D, name: 'ANATOLIAN HIEROGLYPH A486', category: Cat::Other_Letter, informativeAliases: ['falx?'])]
     case ANATOLIAN_HIEROGLYPH_A486 = "\u{1461D}";
 
     #[Info(id: 0x1461E, name: 'ANATOLIAN HIEROGLYPH A487', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A487 = "\u{1461E}";
 
-    #[Info(id: 0x1461F, name: 'ANATOLIAN HIEROGLYPH A488', category: Cat::Other_Letter)]
+    #[Info(id: 0x1461F, name: 'ANATOLIAN HIEROGLYPH A488', category: Cat::Other_Letter, informativeAliases: ['syllabic tí'])]
     case ANATOLIAN_HIEROGLYPH_A488 = "\u{1461F}";
 
     #[Info(id: 0x14620, name: 'ANATOLIAN HIEROGLYPH A489', category: Cat::Other_Letter)]
@@ -1690,13 +1690,13 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x1462D, name: 'ANATOLIAN HIEROGLYPH A505', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A505 = "\u{1462D}";
 
-    #[Info(id: 0x1462E, name: 'ANATOLIAN HIEROGLYPH A506', category: Cat::Other_Letter)]
+    #[Info(id: 0x1462E, name: 'ANATOLIAN HIEROGLYPH A506', category: Cat::Other_Letter, informativeAliases: ['syllabic hana'])]
     case ANATOLIAN_HIEROGLYPH_A506 = "\u{1462E}";
 
     #[Info(id: 0x1462F, name: 'ANATOLIAN HIEROGLYPH A507', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A507 = "\u{1462F}";
 
-    #[Info(id: 0x14630, name: 'ANATOLIAN HIEROGLYPH A508', category: Cat::Other_Letter)]
+    #[Info(id: 0x14630, name: 'ANATOLIAN HIEROGLYPH A508', category: Cat::Other_Letter, informativeAliases: ['currere', 'syllabic hwi/a'])]
     case ANATOLIAN_HIEROGLYPH_A508 = "\u{14630}";
 
     #[Info(id: 0x14631, name: 'ANATOLIAN HIEROGLYPH A509', category: Cat::Other_Letter)]
@@ -1744,22 +1744,22 @@ enum Anatolian_Hieroglyphs: string
     #[Info(id: 0x1463F, name: 'ANATOLIAN HIEROGLYPH A523', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A523 = "\u{1463F}";
 
-    #[Info(id: 0x14640, name: 'ANATOLIAN HIEROGLYPH A524', category: Cat::Other_Letter)]
+    #[Info(id: 0x14640, name: 'ANATOLIAN HIEROGLYPH A524', category: Cat::Other_Letter, informativeAliases: ['propheta?, cornu+caput'])]
     case ANATOLIAN_HIEROGLYPH_A524 = "\u{14640}";
 
-    #[Info(id: 0x14641, name: 'ANATOLIAN HIEROGLYPH A525', category: Cat::Other_Letter)]
+    #[Info(id: 0x14641, name: 'ANATOLIAN HIEROGLYPH A525', category: Cat::Other_Letter, informativeAliases: ['princeps'])]
     case ANATOLIAN_HIEROGLYPH_A525 = "\u{14641}";
 
-    #[Info(id: 0x14642, name: 'ANATOLIAN HIEROGLYPH A526', category: Cat::Other_Letter)]
+    #[Info(id: 0x14642, name: 'ANATOLIAN HIEROGLYPH A526', category: Cat::Other_Letter, informativeAliases: ['Güterbock G195'])]
     case ANATOLIAN_HIEROGLYPH_A526 = "\u{14642}";
 
-    #[Info(id: 0x14643, name: 'ANATOLIAN HIEROGLYPH A527', category: Cat::Other_Letter)]
+    #[Info(id: 0x14643, name: 'ANATOLIAN HIEROGLYPH A527', category: Cat::Other_Letter, informativeAliases: ['aper'])]
     case ANATOLIAN_HIEROGLYPH_A527 = "\u{14643}";
 
-    #[Info(id: 0x14644, name: 'ANATOLIAN HIEROGLYPH A528', category: Cat::Other_Letter)]
+    #[Info(id: 0x14644, name: 'ANATOLIAN HIEROGLYPH A528', category: Cat::Other_Letter, informativeAliases: ['tì'])]
     case ANATOLIAN_HIEROGLYPH_A528 = "\u{14644}";
 
-    #[Info(id: 0x14645, name: 'ANATOLIAN HIEROGLYPH A529', category: Cat::Other_Letter)]
+    #[Info(id: 0x14645, name: 'ANATOLIAN HIEROGLYPH A529', category: Cat::Other_Letter, informativeAliases: ['lingua+x'])]
     case ANATOLIAN_HIEROGLYPH_A529 = "\u{14645}";
 
     #[Info(id: 0x14646, name: 'ANATOLIAN HIEROGLYPH A530', category: Cat::Other_Letter)]

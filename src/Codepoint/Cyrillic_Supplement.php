@@ -79,13 +79,13 @@ enum Cyrillic_Supplement: string
     #[Info(id: 0x514, name: 'CYRILLIC CAPITAL LETTER LHA', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_LHA = "\u{514}";
 
-    #[Info(id: 0x515, name: 'CYRILLIC SMALL LETTER LHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x515, name: 'CYRILLIC SMALL LETTER LHA', category: Cat::Lowercase_Letter, informativeAliases: ['voiceless l'])]
     case CYRILLIC_SMALL_LETTER_LHA = "\u{515}";
 
     #[Info(id: 0x516, name: 'CYRILLIC CAPITAL LETTER RHA', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_RHA = "\u{516}";
 
-    #[Info(id: 0x517, name: 'CYRILLIC SMALL LETTER RHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x517, name: 'CYRILLIC SMALL LETTER RHA', category: Cat::Lowercase_Letter, informativeAliases: ['voiceless r'])]
     case CYRILLIC_SMALL_LETTER_RHA = "\u{517}";
 
     #[Info(id: 0x518, name: 'CYRILLIC CAPITAL LETTER YAE', category: Cat::Uppercase_Letter)]
@@ -115,13 +115,13 @@ enum Cyrillic_Supplement: string
     #[Info(id: 0x520, name: 'CYRILLIC CAPITAL LETTER EL WITH MIDDLE HOOK', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_EL_WITH_MIDDLE_HOOK = "\u{520}";
 
-    #[Info(id: 0x521, name: 'CYRILLIC SMALL LETTER EL WITH MIDDLE HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x521, name: 'CYRILLIC SMALL LETTER EL WITH MIDDLE HOOK', category: Cat::Lowercase_Letter, informativeAliases: ['palatalized l'])]
     case CYRILLIC_SMALL_LETTER_EL_WITH_MIDDLE_HOOK = "\u{521}";
 
     #[Info(id: 0x522, name: 'CYRILLIC CAPITAL LETTER EN WITH MIDDLE HOOK', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_EN_WITH_MIDDLE_HOOK = "\u{522}";
 
-    #[Info(id: 0x523, name: 'CYRILLIC SMALL LETTER EN WITH MIDDLE HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x523, name: 'CYRILLIC SMALL LETTER EN WITH MIDDLE HOOK', category: Cat::Lowercase_Letter, informativeAliases: ['palatalized n'])]
     case CYRILLIC_SMALL_LETTER_EN_WITH_MIDDLE_HOOK = "\u{523}";
 
     #[Info(id: 0x524, name: 'CYRILLIC CAPITAL LETTER PE WITH DESCENDER', category: Cat::Uppercase_Letter)]

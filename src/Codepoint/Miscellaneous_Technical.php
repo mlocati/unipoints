@@ -40,13 +40,13 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2307, name: 'WAVY LINE', category: Cat::Other_Symbol)]
     case WAVY_LINE = "\u{2307}";
 
-    #[Info(id: 0x2308, name: 'LEFT CEILING', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2308, name: 'LEFT CEILING', category: Cat::Open_Punctuation, informativeAliases: ['APL upstile'])]
     case LEFT_CEILING = "\u{2308}";
 
     #[Info(id: 0x2309, name: 'RIGHT CEILING', category: Cat::Close_Punctuation)]
     case RIGHT_CEILING = "\u{2309}";
 
-    #[Info(id: 0x230A, name: 'LEFT FLOOR', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x230A, name: 'LEFT FLOOR', category: Cat::Open_Punctuation, informativeAliases: ['APL downstile'])]
     case LEFT_FLOOR = "\u{230A}";
 
     #[Info(id: 0x230B, name: 'RIGHT FLOOR', category: Cat::Close_Punctuation)]
@@ -64,16 +64,16 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x230F, name: 'TOP LEFT CROP', category: Cat::Other_Symbol)]
     case TOP_LEFT_CROP = "\u{230F}";
 
-    #[Info(id: 0x2310, name: 'REVERSED NOT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2310, name: 'REVERSED NOT SIGN', category: Cat::Other_Symbol, informativeAliases: ['beginning of line'])]
     case REVERSED_NOT_SIGN = "\u{2310}";
 
-    #[Info(id: 0x2311, name: 'SQUARE LOZENGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2311, name: 'SQUARE LOZENGE', category: Cat::Other_Symbol, informativeAliases: ['Kissen (pillow)'])]
     case SQUARE_LOZENGE = "\u{2311}";
 
-    #[Info(id: 0x2312, name: 'ARC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2312, name: 'ARC', category: Cat::Other_Symbol, informativeAliases: ['position of any line'])]
     case ARC = "\u{2312}";
 
-    #[Info(id: 0x2313, name: 'SEGMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2313, name: 'SEGMENT', category: Cat::Other_Symbol, informativeAliases: ['position of a surface'])]
     case SEGMENT = "\u{2313}";
 
     #[Info(id: 0x2314, name: 'SECTOR', category: Cat::Other_Symbol)]
@@ -82,22 +82,22 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2315, name: 'TELEPHONE RECORDER', category: Cat::Other_Symbol)]
     case TELEPHONE_RECORDER = "\u{2315}";
 
-    #[Info(id: 0x2316, name: 'POSITION INDICATOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2316, name: 'POSITION INDICATOR', category: Cat::Other_Symbol, informativeAliases: ['true position'])]
     case POSITION_INDICATOR = "\u{2316}";
 
     #[Info(id: 0x2317, name: 'VIEWDATA SQUARE', category: Cat::Other_Symbol)]
     case VIEWDATA_SQUARE = "\u{2317}";
 
-    #[Info(id: 0x2318, name: 'PLACE OF INTEREST SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2318, name: 'PLACE OF INTEREST SIGN', category: Cat::Other_Symbol, unicode1Name: 'COMMAND KEY', informativeAliases: ['command key (1.0)', 'operating system key (ISO 9995-7)'])]
     case PLACE_OF_INTEREST_SIGN = "\u{2318}";
 
-    #[Info(id: 0x2319, name: 'TURNED NOT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2319, name: 'TURNED NOT SIGN', category: Cat::Other_Symbol, informativeAliases: ['line marker'])]
     case TURNED_NOT_SIGN = "\u{2319}";
 
     #[Info(id: 0x231A, name: 'WATCH', category: Cat::Other_Symbol)]
     case WATCH = "\u{231A}";
 
-    #[Info(id: 0x231B, name: 'HOURGLASS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x231B, name: 'HOURGLASS', category: Cat::Other_Symbol, informativeAliases: ['alchemical symbol for hour'])]
     case HOURGLASS = "\u{231B}";
 
     #[Info(id: 0x231C, name: 'TOP LEFT CORNER', category: Cat::Other_Symbol)]
@@ -124,28 +124,28 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2323, name: 'SMILE', category: Cat::Other_Symbol)]
     case SMILE = "\u{2323}";
 
-    #[Info(id: 0x2324, name: 'UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2324, name: 'UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS', category: Cat::Other_Symbol, unicode1Name: 'ENTER KEY')]
     case UP_ARROWHEAD_BETWEEN_TWO_HORIZONTAL_BARS = "\u{2324}";
 
     #[Info(id: 0x2325, name: 'OPTION KEY', category: Cat::Other_Symbol)]
     case OPTION_KEY = "\u{2325}";
 
-    #[Info(id: 0x2326, name: 'ERASE TO THE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2326, name: 'ERASE TO THE RIGHT', category: Cat::Other_Symbol, unicode1Name: 'DELETE TO THE RIGHT KEY')]
     case ERASE_TO_THE_RIGHT = "\u{2326}";
 
-    #[Info(id: 0x2327, name: 'X IN A RECTANGLE BOX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2327, name: 'X IN A RECTANGLE BOX', category: Cat::Other_Symbol, unicode1Name: 'CLEAR KEY')]
     case X_IN_A_RECTANGLE_BOX = "\u{2327}";
 
     #[Info(id: 0x2328, name: 'KEYBOARD', category: Cat::Other_Symbol)]
     case KEYBOARD = "\u{2328}";
 
-    #[Info(id: 0x2329, name: 'LEFT-POINTING ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2329, name: 'LEFT-POINTING ANGLE BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'BRA')]
     case LEFT_POINTING_ANGLE_BRACKET = "\u{2329}";
 
-    #[Info(id: 0x232A, name: 'RIGHT-POINTING ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x232A, name: 'RIGHT-POINTING ANGLE BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'KET')]
     case RIGHT_POINTING_ANGLE_BRACKET = "\u{232A}";
 
-    #[Info(id: 0x232B, name: 'ERASE TO THE LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x232B, name: 'ERASE TO THE LEFT', category: Cat::Other_Symbol, unicode1Name: 'DELETE TO THE LEFT KEY')]
     case ERASE_TO_THE_LEFT = "\u{232B}";
 
     #[Info(id: 0x232C, name: 'BENZENE RING', category: Cat::Other_Symbol)]
@@ -238,7 +238,7 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2349, name: 'APL FUNCTIONAL SYMBOL CIRCLE BACKSLASH', category: Cat::Other_Symbol)]
     case APL_FUNCTIONAL_SYMBOL_CIRCLE_BACKSLASH = "\u{2349}";
 
-    #[Info(id: 0x234A, name: 'APL FUNCTIONAL SYMBOL DOWN TACK UNDERBAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x234A, name: 'APL FUNCTIONAL SYMBOL DOWN TACK UNDERBAR', category: Cat::Other_Symbol, informativeAliases: ['up tack underbar'])]
     case APL_FUNCTIONAL_SYMBOL_DOWN_TACK_UNDERBAR = "\u{234A}";
 
     #[Info(id: 0x234B, name: 'APL FUNCTIONAL SYMBOL DELTA STILE', category: Cat::Other_Symbol)]
@@ -250,7 +250,7 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x234D, name: 'APL FUNCTIONAL SYMBOL QUAD DELTA', category: Cat::Other_Symbol)]
     case APL_FUNCTIONAL_SYMBOL_QUAD_DELTA = "\u{234D}";
 
-    #[Info(id: 0x234E, name: 'APL FUNCTIONAL SYMBOL DOWN TACK JOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x234E, name: 'APL FUNCTIONAL SYMBOL DOWN TACK JOT', category: Cat::Other_Symbol, informativeAliases: ['up tack jot'])]
     case APL_FUNCTIONAL_SYMBOL_DOWN_TACK_JOT = "\u{234E}";
 
     #[Info(id: 0x234F, name: 'APL FUNCTIONAL SYMBOL UPWARDS VANE', category: Cat::Other_Symbol)]
@@ -259,7 +259,7 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2350, name: 'APL FUNCTIONAL SYMBOL QUAD UPWARDS ARROW', category: Cat::Other_Symbol)]
     case APL_FUNCTIONAL_SYMBOL_QUAD_UPWARDS_ARROW = "\u{2350}";
 
-    #[Info(id: 0x2351, name: 'APL FUNCTIONAL SYMBOL UP TACK OVERBAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2351, name: 'APL FUNCTIONAL SYMBOL UP TACK OVERBAR', category: Cat::Other_Symbol, informativeAliases: ['down tack overbar'])]
     case APL_FUNCTIONAL_SYMBOL_UP_TACK_OVERBAR = "\u{2351}";
 
     #[Info(id: 0x2352, name: 'APL FUNCTIONAL SYMBOL DEL STILE', category: Cat::Other_Symbol)]
@@ -271,7 +271,7 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2354, name: 'APL FUNCTIONAL SYMBOL QUAD DEL', category: Cat::Other_Symbol)]
     case APL_FUNCTIONAL_SYMBOL_QUAD_DEL = "\u{2354}";
 
-    #[Info(id: 0x2355, name: 'APL FUNCTIONAL SYMBOL UP TACK JOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2355, name: 'APL FUNCTIONAL SYMBOL UP TACK JOT', category: Cat::Other_Symbol, informativeAliases: ['down tack jot'])]
     case APL_FUNCTIONAL_SYMBOL_UP_TACK_JOT = "\u{2355}";
 
     #[Info(id: 0x2356, name: 'APL FUNCTIONAL SYMBOL DOWNWARDS VANE', category: Cat::Other_Symbol)]
@@ -307,7 +307,7 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2360, name: 'APL FUNCTIONAL SYMBOL QUAD COLON', category: Cat::Other_Symbol)]
     case APL_FUNCTIONAL_SYMBOL_QUAD_COLON = "\u{2360}";
 
-    #[Info(id: 0x2361, name: 'APL FUNCTIONAL SYMBOL UP TACK DIAERESIS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2361, name: 'APL FUNCTIONAL SYMBOL UP TACK DIAERESIS', category: Cat::Other_Symbol, informativeAliases: ['down tack diaeresis'])]
     case APL_FUNCTIONAL_SYMBOL_UP_TACK_DIAERESIS = "\u{2361}";
 
     #[Info(id: 0x2362, name: 'APL FUNCTIONAL SYMBOL DEL DIAERESIS', category: Cat::Other_Symbol)]
@@ -316,10 +316,10 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2363, name: 'APL FUNCTIONAL SYMBOL STAR DIAERESIS', category: Cat::Other_Symbol)]
     case APL_FUNCTIONAL_SYMBOL_STAR_DIAERESIS = "\u{2363}";
 
-    #[Info(id: 0x2364, name: 'APL FUNCTIONAL SYMBOL JOT DIAERESIS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2364, name: 'APL FUNCTIONAL SYMBOL JOT DIAERESIS', category: Cat::Other_Symbol, informativeAliases: ['hoot'])]
     case APL_FUNCTIONAL_SYMBOL_JOT_DIAERESIS = "\u{2364}";
 
-    #[Info(id: 0x2365, name: 'APL FUNCTIONAL SYMBOL CIRCLE DIAERESIS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2365, name: 'APL FUNCTIONAL SYMBOL CIRCLE DIAERESIS', category: Cat::Other_Symbol, informativeAliases: ['holler'])]
     case APL_FUNCTIONAL_SYMBOL_CIRCLE_DIAERESIS = "\u{2365}";
 
     #[Info(id: 0x2366, name: 'APL FUNCTIONAL SYMBOL DOWN SHOE STILE', category: Cat::Other_Symbol)]
@@ -328,7 +328,7 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2367, name: 'APL FUNCTIONAL SYMBOL LEFT SHOE STILE', category: Cat::Other_Symbol)]
     case APL_FUNCTIONAL_SYMBOL_LEFT_SHOE_STILE = "\u{2367}";
 
-    #[Info(id: 0x2368, name: 'APL FUNCTIONAL SYMBOL TILDE DIAERESIS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2368, name: 'APL FUNCTIONAL SYMBOL TILDE DIAERESIS', category: Cat::Other_Symbol, informativeAliases: ['smirk'])]
     case APL_FUNCTIONAL_SYMBOL_TILDE_DIAERESIS = "\u{2368}";
 
     #[Info(id: 0x2369, name: 'APL FUNCTIONAL SYMBOL GREATER-THAN DIAERESIS', category: Cat::Other_Symbol)]
@@ -415,7 +415,7 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2384, name: 'COMPOSITION SYMBOL', category: Cat::Other_Symbol)]
     case COMPOSITION_SYMBOL = "\u{2384}";
 
-    #[Info(id: 0x2385, name: 'WHITE SQUARE WITH CENTRE VERTICAL LINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2385, name: 'WHITE SQUARE WITH CENTRE VERTICAL LINE', category: Cat::Other_Symbol, informativeAliases: ['center'])]
     case WHITE_SQUARE_WITH_CENTRE_VERTICAL_LINE = "\u{2385}";
 
     #[Info(id: 0x2386, name: 'ENTER SYMBOL', category: Cat::Other_Symbol)]
@@ -424,16 +424,16 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2387, name: 'ALTERNATIVE KEY SYMBOL', category: Cat::Other_Symbol)]
     case ALTERNATIVE_KEY_SYMBOL = "\u{2387}";
 
-    #[Info(id: 0x2388, name: 'HELM SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2388, name: 'HELM SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['control'])]
     case HELM_SYMBOL = "\u{2388}";
 
-    #[Info(id: 0x2389, name: 'CIRCLED HORIZONTAL BAR WITH NOTCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2389, name: 'CIRCLED HORIZONTAL BAR WITH NOTCH', category: Cat::Other_Symbol, informativeAliases: ['pause'])]
     case CIRCLED_HORIZONTAL_BAR_WITH_NOTCH = "\u{2389}";
 
-    #[Info(id: 0x238A, name: 'CIRCLED TRIANGLE DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x238A, name: 'CIRCLED TRIANGLE DOWN', category: Cat::Other_Symbol, informativeAliases: ['interrupt, break'])]
     case CIRCLED_TRIANGLE_DOWN = "\u{238A}";
 
-    #[Info(id: 0x238B, name: 'BROKEN CIRCLE WITH NORTHWEST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x238B, name: 'BROKEN CIRCLE WITH NORTHWEST ARROW', category: Cat::Other_Symbol, informativeAliases: ['escape'])]
     case BROKEN_CIRCLE_WITH_NORTHWEST_ARROW = "\u{238B}";
 
     #[Info(id: 0x238C, name: 'UNDO SYMBOL', category: Cat::Other_Symbol)]
@@ -544,10 +544,10 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x23AF, name: 'HORIZONTAL LINE EXTENSION', category: Cat::Math_Symbol)]
     case HORIZONTAL_LINE_EXTENSION = "\u{23AF}";
 
-    #[Info(id: 0x23B0, name: 'UPPER LEFT OR LOWER RIGHT CURLY BRACKET SECTION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x23B0, name: 'UPPER LEFT OR LOWER RIGHT CURLY BRACKET SECTION', category: Cat::Math_Symbol, informativeAliases: ['left moustache'])]
     case UPPER_LEFT_OR_LOWER_RIGHT_CURLY_BRACKET_SECTION = "\u{23B0}";
 
-    #[Info(id: 0x23B1, name: 'UPPER RIGHT OR LOWER LEFT CURLY BRACKET SECTION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x23B1, name: 'UPPER RIGHT OR LOWER LEFT CURLY BRACKET SECTION', category: Cat::Math_Symbol, informativeAliases: ['right moustache'])]
     case UPPER_RIGHT_OR_LOWER_LEFT_CURLY_BRACKET_SECTION = "\u{23B1}";
 
     #[Info(id: 0x23B2, name: 'SUMMATION TOP', category: Cat::Math_Symbol)]
@@ -715,10 +715,10 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x23E8, name: 'DECIMAL EXPONENT SYMBOL', category: Cat::Other_Symbol)]
     case DECIMAL_EXPONENT_SYMBOL = "\u{23E8}";
 
-    #[Info(id: 0x23E9, name: 'BLACK RIGHT-POINTING DOUBLE TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23E9, name: 'BLACK RIGHT-POINTING DOUBLE TRIANGLE', category: Cat::Other_Symbol, informativeAliases: ['fast forward'])]
     case BLACK_RIGHT_POINTING_DOUBLE_TRIANGLE = "\u{23E9}";
 
-    #[Info(id: 0x23EA, name: 'BLACK LEFT-POINTING DOUBLE TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23EA, name: 'BLACK LEFT-POINTING DOUBLE TRIANGLE', category: Cat::Other_Symbol, informativeAliases: ['rewind, fast backwards'])]
     case BLACK_LEFT_POINTING_DOUBLE_TRIANGLE = "\u{23EA}";
 
     #[Info(id: 0x23EB, name: 'BLACK UP-POINTING DOUBLE TRIANGLE', category: Cat::Other_Symbol)]
@@ -727,13 +727,13 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x23EC, name: 'BLACK DOWN-POINTING DOUBLE TRIANGLE', category: Cat::Other_Symbol)]
     case BLACK_DOWN_POINTING_DOUBLE_TRIANGLE = "\u{23EC}";
 
-    #[Info(id: 0x23ED, name: 'BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23ED, name: 'BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR', category: Cat::Other_Symbol, informativeAliases: ['skip to the end or next file/track/chapter'])]
     case BLACK_RIGHT_POINTING_DOUBLE_TRIANGLE_WITH_VERTICAL_BAR = "\u{23ED}";
 
-    #[Info(id: 0x23EE, name: 'BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23EE, name: 'BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR', category: Cat::Other_Symbol, informativeAliases: ['skip to the start or previous file/track/chapter'])]
     case BLACK_LEFT_POINTING_DOUBLE_TRIANGLE_WITH_VERTICAL_BAR = "\u{23EE}";
 
-    #[Info(id: 0x23EF, name: 'BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23EF, name: 'BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR', category: Cat::Other_Symbol, informativeAliases: ['play/pause toggle'])]
     case BLACK_RIGHT_POINTING_TRIANGLE_WITH_DOUBLE_VERTICAL_BAR = "\u{23EF}";
 
     #[Info(id: 0x23F0, name: 'ALARM CLOCK', category: Cat::Other_Symbol)]
@@ -748,25 +748,25 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x23F3, name: 'HOURGLASS WITH FLOWING SAND', category: Cat::Other_Symbol)]
     case HOURGLASS_WITH_FLOWING_SAND = "\u{23F3}";
 
-    #[Info(id: 0x23F4, name: 'BLACK MEDIUM LEFT-POINTING TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23F4, name: 'BLACK MEDIUM LEFT-POINTING TRIANGLE', category: Cat::Other_Symbol, informativeAliases: ['reverse, back'])]
     case BLACK_MEDIUM_LEFT_POINTING_TRIANGLE = "\u{23F4}";
 
-    #[Info(id: 0x23F5, name: 'BLACK MEDIUM RIGHT-POINTING TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23F5, name: 'BLACK MEDIUM RIGHT-POINTING TRIANGLE', category: Cat::Other_Symbol, informativeAliases: ['forward'])]
     case BLACK_MEDIUM_RIGHT_POINTING_TRIANGLE = "\u{23F5}";
 
-    #[Info(id: 0x23F6, name: 'BLACK MEDIUM UP-POINTING TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23F6, name: 'BLACK MEDIUM UP-POINTING TRIANGLE', category: Cat::Other_Symbol, informativeAliases: ['increase'])]
     case BLACK_MEDIUM_UP_POINTING_TRIANGLE = "\u{23F6}";
 
-    #[Info(id: 0x23F7, name: 'BLACK MEDIUM DOWN-POINTING TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23F7, name: 'BLACK MEDIUM DOWN-POINTING TRIANGLE', category: Cat::Other_Symbol, informativeAliases: ['decrease'])]
     case BLACK_MEDIUM_DOWN_POINTING_TRIANGLE = "\u{23F7}";
 
-    #[Info(id: 0x23F8, name: 'DOUBLE VERTICAL BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23F8, name: 'DOUBLE VERTICAL BAR', category: Cat::Other_Symbol, informativeAliases: ['pause'])]
     case DOUBLE_VERTICAL_BAR = "\u{23F8}";
 
-    #[Info(id: 0x23F9, name: 'BLACK SQUARE FOR STOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23F9, name: 'BLACK SQUARE FOR STOP', category: Cat::Other_Symbol, informativeAliases: ['stop'])]
     case BLACK_SQUARE_FOR_STOP = "\u{23F9}";
 
-    #[Info(id: 0x23FA, name: 'BLACK CIRCLE FOR RECORD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23FA, name: 'BLACK CIRCLE FOR RECORD', category: Cat::Other_Symbol, informativeAliases: ['record'])]
     case BLACK_CIRCLE_FOR_RECORD = "\u{23FA}";
 
     #[Info(id: 0x23FB, name: 'POWER SYMBOL', category: Cat::Other_Symbol)]

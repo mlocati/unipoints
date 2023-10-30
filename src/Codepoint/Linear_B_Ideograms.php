@@ -73,10 +73,10 @@ enum Linear_B_Ideograms: string
     #[Info(id: 0x10092, name: 'LINEAR B IDEOGRAM B125 CYPERUS', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B125_CYPERUS = "\u{10092}";
 
-    #[Info(id: 0x10093, name: 'LINEAR B MONOGRAM B127 KAPO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10093, name: 'LINEAR B MONOGRAM B127 KAPO', category: Cat::Other_Letter, informativeAliases: ['fruit'])]
     case LINEAR_B_MONOGRAM_B127_KAPO = "\u{10093}";
 
-    #[Info(id: 0x10094, name: 'LINEAR B MONOGRAM B128 KANAKO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10094, name: 'LINEAR B MONOGRAM B128 KANAKO', category: Cat::Other_Letter, informativeAliases: ['saffron'])]
     case LINEAR_B_MONOGRAM_B128_KANAKO = "\u{10094}";
 
     #[Info(id: 0x10095, name: 'LINEAR B IDEOGRAM B130 OIL', category: Cat::Other_Letter)]
@@ -88,10 +88,10 @@ enum Linear_B_Ideograms: string
     #[Info(id: 0x10097, name: 'LINEAR B IDEOGRAM B132', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B132 = "\u{10097}";
 
-    #[Info(id: 0x10098, name: 'LINEAR B MONOGRAM B133 AREPA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10098, name: 'LINEAR B MONOGRAM B133 AREPA', category: Cat::Other_Letter, informativeAliases: ['ointment'])]
     case LINEAR_B_MONOGRAM_B133_AREPA = "\u{10098}";
 
-    #[Info(id: 0x10099, name: 'LINEAR B MONOGRAM B135 MERI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10099, name: 'LINEAR B MONOGRAM B135 MERI', category: Cat::Other_Letter, informativeAliases: ['honey'])]
     case LINEAR_B_MONOGRAM_B135_MERI = "\u{10099}";
 
     #[Info(id: 0x1009A, name: 'LINEAR B IDEOGRAM B140 BRONZE', category: Cat::Other_Letter)]
@@ -124,7 +124,7 @@ enum Linear_B_Ideograms: string
     #[Info(id: 0x100A3, name: 'LINEAR B IDEOGRAM B154', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B154 = "\u{100A3}";
 
-    #[Info(id: 0x100A4, name: 'LINEAR B MONOGRAM B156 TURO2', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A4, name: 'LINEAR B MONOGRAM B156 TURO2', category: Cat::Other_Letter, informativeAliases: ['cheese'])]
     case LINEAR_B_MONOGRAM_B156_TURO2 = "\u{100A4}";
 
     #[Info(id: 0x100A5, name: 'LINEAR B IDEOGRAM B157', category: Cat::Other_Letter)]
@@ -235,13 +235,13 @@ enum Linear_B_Ideograms: string
     #[Info(id: 0x100C8, name: 'LINEAR B IDEOGRAM B232', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B232 = "\u{100C8}";
 
-    #[Info(id: 0x100C9, name: 'LINEAR B IDEOGRAM B233 SWORD', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C9, name: 'LINEAR B IDEOGRAM B233 SWORD', category: Cat::Other_Letter, informativeAliases: ['pugio'])]
     case LINEAR_B_IDEOGRAM_B233_SWORD = "\u{100C9}";
 
     #[Info(id: 0x100CA, name: 'LINEAR B IDEOGRAM B234', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B234 = "\u{100CA}";
 
-    #[Info(id: 0x100CB, name: 'LINEAR B IDEOGRAM B236', category: Cat::Other_Letter)]
+    #[Info(id: 0x100CB, name: 'LINEAR B IDEOGRAM B236', category: Cat::Other_Letter, informativeAliases: ['"gupio", inverted sword'])]
     case LINEAR_B_IDEOGRAM_B236 = "\u{100CB}";
 
     #[Info(id: 0x100CC, name: 'LINEAR B IDEOGRAM B240 WHEELED CHARIOT', category: Cat::Other_Letter)]

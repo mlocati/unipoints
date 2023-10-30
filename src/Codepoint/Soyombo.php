@@ -262,6 +262,6 @@ enum Soyombo: string
     #[Info(id: 0x11AA1, name: 'SOYOMBO TERMINAL MARK-1', category: Cat::Other_Punctuation)]
     case SOYOMBO_TERMINAL_MARK_1 = "\u{11AA1}";
 
-    #[Info(id: 0x11AA2, name: 'SOYOMBO TERMINAL MARK-2', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11AA2, name: 'SOYOMBO TERMINAL MARK-2', category: Cat::Other_Punctuation, informativeAliases: ['cintamani, candamani'])]
     case SOYOMBO_TERMINAL_MARK_2 = "\u{11AA2}";
 }

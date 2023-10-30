@@ -67,7 +67,7 @@ enum Old_Uyghur: string
     #[Info(id: 0x10F80, name: 'OLD UYGHUR LETTER TAW', category: Cat::Other_Letter)]
     case OLD_UYGHUR_LETTER_TAW = "\u{10F80}";
 
-    #[Info(id: 0x10F81, name: 'OLD UYGHUR LETTER LESH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F81, name: 'OLD UYGHUR LETTER LESH', category: Cat::Other_Letter, informativeAliases: ['hooked resh'])]
     case OLD_UYGHUR_LETTER_LESH = "\u{10F81}";
 
     #[Info(id: 0x10F82, name: 'OLD UYGHUR COMBINING DOT ABOVE', category: Cat::Nonspacing_Mark)]

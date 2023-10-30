@@ -79,7 +79,7 @@ enum Yi_Syllables: string
     #[Info(id: 0xA014, name: 'YI SYLLABLE E', category: Cat::Other_Letter)]
     case YI_SYLLABLE_E = "\u{A014}";
 
-    #[Info(id: 0xA015, name: 'YI SYLLABLE WU', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA015, name: 'YI SYLLABLE WU', category: Cat::Modifier_Letter, correctedNames: ['YI SYLLABLE ITERATION MARK'])]
     case YI_SYLLABLE_WU = "\u{A015}";
 
     #[Info(id: 0xA016, name: 'YI SYLLABLE BIT', category: Cat::Other_Letter)]

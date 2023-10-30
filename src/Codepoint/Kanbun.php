@@ -16,51 +16,51 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Kanbun: string
 {
-    #[Info(id: 0x3190, name: 'IDEOGRAPHIC ANNOTATION LINKING MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3190, name: 'IDEOGRAPHIC ANNOTATION LINKING MARK', category: Cat::Other_Symbol, unicode1Name: 'KANBUN TATETEN', informativeAliases: ['tateten'])]
     case IDEOGRAPHIC_ANNOTATION_LINKING_MARK = "\u{3190}";
 
-    #[Info(id: 0x3191, name: 'IDEOGRAPHIC ANNOTATION REVERSE MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3191, name: 'IDEOGRAPHIC ANNOTATION REVERSE MARK', category: Cat::Other_Symbol, unicode1Name: 'KAERITEN RE')]
     case IDEOGRAPHIC_ANNOTATION_REVERSE_MARK = "\u{3191}";
 
-    #[Info(id: 0x3192, name: 'IDEOGRAPHIC ANNOTATION ONE MARK', category: Cat::Other_Number)]
+    #[Info(id: 0x3192, name: 'IDEOGRAPHIC ANNOTATION ONE MARK', category: Cat::Other_Number, unicode1Name: 'KAERITEN ITI')]
     case IDEOGRAPHIC_ANNOTATION_ONE_MARK = "\u{3192}";
 
-    #[Info(id: 0x3193, name: 'IDEOGRAPHIC ANNOTATION TWO MARK', category: Cat::Other_Number)]
+    #[Info(id: 0x3193, name: 'IDEOGRAPHIC ANNOTATION TWO MARK', category: Cat::Other_Number, unicode1Name: 'KAERITEN NI')]
     case IDEOGRAPHIC_ANNOTATION_TWO_MARK = "\u{3193}";
 
-    #[Info(id: 0x3194, name: 'IDEOGRAPHIC ANNOTATION THREE MARK', category: Cat::Other_Number)]
+    #[Info(id: 0x3194, name: 'IDEOGRAPHIC ANNOTATION THREE MARK', category: Cat::Other_Number, unicode1Name: 'KAERITEN SAN')]
     case IDEOGRAPHIC_ANNOTATION_THREE_MARK = "\u{3194}";
 
-    #[Info(id: 0x3195, name: 'IDEOGRAPHIC ANNOTATION FOUR MARK', category: Cat::Other_Number)]
+    #[Info(id: 0x3195, name: 'IDEOGRAPHIC ANNOTATION FOUR MARK', category: Cat::Other_Number, unicode1Name: 'KAERITEN SI')]
     case IDEOGRAPHIC_ANNOTATION_FOUR_MARK = "\u{3195}";
 
-    #[Info(id: 0x3196, name: 'IDEOGRAPHIC ANNOTATION TOP MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3196, name: 'IDEOGRAPHIC ANNOTATION TOP MARK', category: Cat::Other_Symbol, unicode1Name: 'KAERITEN ZYOU')]
     case IDEOGRAPHIC_ANNOTATION_TOP_MARK = "\u{3196}";
 
-    #[Info(id: 0x3197, name: 'IDEOGRAPHIC ANNOTATION MIDDLE MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3197, name: 'IDEOGRAPHIC ANNOTATION MIDDLE MARK', category: Cat::Other_Symbol, unicode1Name: 'KAERITEN TYUU')]
     case IDEOGRAPHIC_ANNOTATION_MIDDLE_MARK = "\u{3197}";
 
-    #[Info(id: 0x3198, name: 'IDEOGRAPHIC ANNOTATION BOTTOM MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3198, name: 'IDEOGRAPHIC ANNOTATION BOTTOM MARK', category: Cat::Other_Symbol, unicode1Name: 'KAERITEN GE')]
     case IDEOGRAPHIC_ANNOTATION_BOTTOM_MARK = "\u{3198}";
 
-    #[Info(id: 0x3199, name: 'IDEOGRAPHIC ANNOTATION FIRST MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3199, name: 'IDEOGRAPHIC ANNOTATION FIRST MARK', category: Cat::Other_Symbol, unicode1Name: 'KAERITEN KOU')]
     case IDEOGRAPHIC_ANNOTATION_FIRST_MARK = "\u{3199}";
 
-    #[Info(id: 0x319A, name: 'IDEOGRAPHIC ANNOTATION SECOND MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x319A, name: 'IDEOGRAPHIC ANNOTATION SECOND MARK', category: Cat::Other_Symbol, unicode1Name: 'KAERITEN OTU')]
     case IDEOGRAPHIC_ANNOTATION_SECOND_MARK = "\u{319A}";
 
-    #[Info(id: 0x319B, name: 'IDEOGRAPHIC ANNOTATION THIRD MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x319B, name: 'IDEOGRAPHIC ANNOTATION THIRD MARK', category: Cat::Other_Symbol, unicode1Name: 'KAERITEN HEI')]
     case IDEOGRAPHIC_ANNOTATION_THIRD_MARK = "\u{319B}";
 
-    #[Info(id: 0x319C, name: 'IDEOGRAPHIC ANNOTATION FOURTH MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x319C, name: 'IDEOGRAPHIC ANNOTATION FOURTH MARK', category: Cat::Other_Symbol, unicode1Name: 'KAERITEN TEI')]
     case IDEOGRAPHIC_ANNOTATION_FOURTH_MARK = "\u{319C}";
 
-    #[Info(id: 0x319D, name: 'IDEOGRAPHIC ANNOTATION HEAVEN MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x319D, name: 'IDEOGRAPHIC ANNOTATION HEAVEN MARK', category: Cat::Other_Symbol, unicode1Name: 'KAERITEN TEN')]
     case IDEOGRAPHIC_ANNOTATION_HEAVEN_MARK = "\u{319D}";
 
-    #[Info(id: 0x319E, name: 'IDEOGRAPHIC ANNOTATION EARTH MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x319E, name: 'IDEOGRAPHIC ANNOTATION EARTH MARK', category: Cat::Other_Symbol, unicode1Name: 'KAERITEN TI')]
     case IDEOGRAPHIC_ANNOTATION_EARTH_MARK = "\u{319E}";
 
-    #[Info(id: 0x319F, name: 'IDEOGRAPHIC ANNOTATION MAN MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x319F, name: 'IDEOGRAPHIC ANNOTATION MAN MARK', category: Cat::Other_Symbol, unicode1Name: 'KAERITEN ZIN')]
     case IDEOGRAPHIC_ANNOTATION_MAN_MARK = "\u{319F}";
 }

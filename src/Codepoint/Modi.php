@@ -205,7 +205,7 @@ enum Modi: string
     #[Info(id: 0x1163E, name: 'MODI SIGN VISARGA', category: Cat::Spacing_Mark)]
     case MODI_SIGN_VISARGA = "\u{1163E}";
 
-    #[Info(id: 0x1163F, name: 'MODI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1163F, name: 'MODI SIGN VIRAMA', category: Cat::Nonspacing_Mark, informativeAliases: ['halant'])]
     case MODI_SIGN_VIRAMA = "\u{1163F}";
 
     #[Info(id: 0x11640, name: 'MODI SIGN ARDHACANDRA', category: Cat::Nonspacing_Mark)]

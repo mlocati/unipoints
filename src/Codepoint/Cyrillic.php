@@ -28,13 +28,13 @@ enum Cyrillic: string
     #[Info(id: 0x403, name: 'CYRILLIC CAPITAL LETTER GJE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_GJE = "\u{403}";
 
-    #[Info(id: 0x404, name: 'CYRILLIC CAPITAL LETTER UKRAINIAN IE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x404, name: 'CYRILLIC CAPITAL LETTER UKRAINIAN IE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER E')]
     case CYRILLIC_CAPITAL_LETTER_UKRAINIAN_IE = "\u{404}";
 
     #[Info(id: 0x405, name: 'CYRILLIC CAPITAL LETTER DZE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_DZE = "\u{405}";
 
-    #[Info(id: 0x406, name: 'CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x406, name: 'CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER I')]
     case CYRILLIC_CAPITAL_LETTER_BYELORUSSIAN_UKRAINIAN_I = "\u{406}";
 
     #[Info(id: 0x407, name: 'CYRILLIC CAPITAL LETTER YI', category: Cat::Uppercase_Letter)]
@@ -73,7 +73,7 @@ enum Cyrillic: string
     #[Info(id: 0x412, name: 'CYRILLIC CAPITAL LETTER VE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_VE = "\u{412}";
 
-    #[Info(id: 0x413, name: 'CYRILLIC CAPITAL LETTER GHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x413, name: 'CYRILLIC CAPITAL LETTER GHE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER GE')]
     case CYRILLIC_CAPITAL_LETTER_GHE = "\u{413}";
 
     #[Info(id: 0x414, name: 'CYRILLIC CAPITAL LETTER DE', category: Cat::Uppercase_Letter)]
@@ -88,10 +88,10 @@ enum Cyrillic: string
     #[Info(id: 0x417, name: 'CYRILLIC CAPITAL LETTER ZE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_ZE = "\u{417}";
 
-    #[Info(id: 0x418, name: 'CYRILLIC CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x418, name: 'CYRILLIC CAPITAL LETTER I', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER II')]
     case CYRILLIC_CAPITAL_LETTER_I = "\u{418}";
 
-    #[Info(id: 0x419, name: 'CYRILLIC CAPITAL LETTER SHORT I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x419, name: 'CYRILLIC CAPITAL LETTER SHORT I', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER SHORT II')]
     case CYRILLIC_CAPITAL_LETTER_SHORT_I = "\u{419}";
 
     #[Info(id: 0x41A, name: 'CYRILLIC CAPITAL LETTER KA', category: Cat::Uppercase_Letter)]
@@ -127,7 +127,7 @@ enum Cyrillic: string
     #[Info(id: 0x424, name: 'CYRILLIC CAPITAL LETTER EF', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_EF = "\u{424}";
 
-    #[Info(id: 0x425, name: 'CYRILLIC CAPITAL LETTER HA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x425, name: 'CYRILLIC CAPITAL LETTER HA', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER KHA')]
     case CYRILLIC_CAPITAL_LETTER_HA = "\u{425}";
 
     #[Info(id: 0x426, name: 'CYRILLIC CAPITAL LETTER TSE', category: Cat::Uppercase_Letter)]
@@ -145,19 +145,19 @@ enum Cyrillic: string
     #[Info(id: 0x42A, name: 'CYRILLIC CAPITAL LETTER HARD SIGN', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_HARD_SIGN = "\u{42A}";
 
-    #[Info(id: 0x42B, name: 'CYRILLIC CAPITAL LETTER YERU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x42B, name: 'CYRILLIC CAPITAL LETTER YERU', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER YERI')]
     case CYRILLIC_CAPITAL_LETTER_YERU = "\u{42B}";
 
     #[Info(id: 0x42C, name: 'CYRILLIC CAPITAL LETTER SOFT SIGN', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_SOFT_SIGN = "\u{42C}";
 
-    #[Info(id: 0x42D, name: 'CYRILLIC CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x42D, name: 'CYRILLIC CAPITAL LETTER E', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER REVERSED E')]
     case CYRILLIC_CAPITAL_LETTER_E = "\u{42D}";
 
-    #[Info(id: 0x42E, name: 'CYRILLIC CAPITAL LETTER YU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x42E, name: 'CYRILLIC CAPITAL LETTER YU', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER IU')]
     case CYRILLIC_CAPITAL_LETTER_YU = "\u{42E}";
 
-    #[Info(id: 0x42F, name: 'CYRILLIC CAPITAL LETTER YA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x42F, name: 'CYRILLIC CAPITAL LETTER YA', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER IA')]
     case CYRILLIC_CAPITAL_LETTER_YA = "\u{42F}";
 
     #[Info(id: 0x430, name: 'CYRILLIC SMALL LETTER A', category: Cat::Lowercase_Letter)]
@@ -169,7 +169,7 @@ enum Cyrillic: string
     #[Info(id: 0x432, name: 'CYRILLIC SMALL LETTER VE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_VE = "\u{432}";
 
-    #[Info(id: 0x433, name: 'CYRILLIC SMALL LETTER GHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x433, name: 'CYRILLIC SMALL LETTER GHE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER GE')]
     case CYRILLIC_SMALL_LETTER_GHE = "\u{433}";
 
     #[Info(id: 0x434, name: 'CYRILLIC SMALL LETTER DE', category: Cat::Lowercase_Letter)]
@@ -184,10 +184,10 @@ enum Cyrillic: string
     #[Info(id: 0x437, name: 'CYRILLIC SMALL LETTER ZE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_ZE = "\u{437}";
 
-    #[Info(id: 0x438, name: 'CYRILLIC SMALL LETTER I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x438, name: 'CYRILLIC SMALL LETTER I', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER II')]
     case CYRILLIC_SMALL_LETTER_I = "\u{438}";
 
-    #[Info(id: 0x439, name: 'CYRILLIC SMALL LETTER SHORT I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x439, name: 'CYRILLIC SMALL LETTER SHORT I', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER SHORT II')]
     case CYRILLIC_SMALL_LETTER_SHORT_I = "\u{439}";
 
     #[Info(id: 0x43A, name: 'CYRILLIC SMALL LETTER KA', category: Cat::Lowercase_Letter)]
@@ -223,7 +223,7 @@ enum Cyrillic: string
     #[Info(id: 0x444, name: 'CYRILLIC SMALL LETTER EF', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_EF = "\u{444}";
 
-    #[Info(id: 0x445, name: 'CYRILLIC SMALL LETTER HA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x445, name: 'CYRILLIC SMALL LETTER HA', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER KHA')]
     case CYRILLIC_SMALL_LETTER_HA = "\u{445}";
 
     #[Info(id: 0x446, name: 'CYRILLIC SMALL LETTER TSE', category: Cat::Lowercase_Letter)]
@@ -241,19 +241,19 @@ enum Cyrillic: string
     #[Info(id: 0x44A, name: 'CYRILLIC SMALL LETTER HARD SIGN', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_HARD_SIGN = "\u{44A}";
 
-    #[Info(id: 0x44B, name: 'CYRILLIC SMALL LETTER YERU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x44B, name: 'CYRILLIC SMALL LETTER YERU', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER YERI')]
     case CYRILLIC_SMALL_LETTER_YERU = "\u{44B}";
 
     #[Info(id: 0x44C, name: 'CYRILLIC SMALL LETTER SOFT SIGN', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_SOFT_SIGN = "\u{44C}";
 
-    #[Info(id: 0x44D, name: 'CYRILLIC SMALL LETTER E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x44D, name: 'CYRILLIC SMALL LETTER E', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER REVERSED E')]
     case CYRILLIC_SMALL_LETTER_E = "\u{44D}";
 
-    #[Info(id: 0x44E, name: 'CYRILLIC SMALL LETTER YU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x44E, name: 'CYRILLIC SMALL LETTER YU', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER IU')]
     case CYRILLIC_SMALL_LETTER_YU = "\u{44E}";
 
-    #[Info(id: 0x44F, name: 'CYRILLIC SMALL LETTER YA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x44F, name: 'CYRILLIC SMALL LETTER YA', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER IA')]
     case CYRILLIC_SMALL_LETTER_YA = "\u{44F}";
 
     #[Info(id: 0x450, name: 'CYRILLIC SMALL LETTER IE WITH GRAVE', category: Cat::Lowercase_Letter)]
@@ -268,13 +268,13 @@ enum Cyrillic: string
     #[Info(id: 0x453, name: 'CYRILLIC SMALL LETTER GJE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_GJE = "\u{453}";
 
-    #[Info(id: 0x454, name: 'CYRILLIC SMALL LETTER UKRAINIAN IE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x454, name: 'CYRILLIC SMALL LETTER UKRAINIAN IE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER E', informativeAliases: ['Old Cyrillic yest'])]
     case CYRILLIC_SMALL_LETTER_UKRAINIAN_IE = "\u{454}";
 
     #[Info(id: 0x455, name: 'CYRILLIC SMALL LETTER DZE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_DZE = "\u{455}";
 
-    #[Info(id: 0x456, name: 'CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x456, name: 'CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER I', informativeAliases: ['Old Cyrillic i'])]
     case CYRILLIC_SMALL_LETTER_BYELORUSSIAN_UKRAINIAN_I = "\u{456}";
 
     #[Info(id: 0x457, name: 'CYRILLIC SMALL LETTER YI', category: Cat::Lowercase_Letter)]
@@ -370,16 +370,16 @@ enum Cyrillic: string
     #[Info(id: 0x475, name: 'CYRILLIC SMALL LETTER IZHITSA', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_IZHITSA = "\u{475}";
 
-    #[Info(id: 0x476, name: 'CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x476, name: 'CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER IZHITSA DOUBLE GRAVE')]
     case CYRILLIC_CAPITAL_LETTER_IZHITSA_WITH_DOUBLE_GRAVE_ACCENT = "\u{476}";
 
-    #[Info(id: 0x477, name: 'CYRILLIC SMALL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x477, name: 'CYRILLIC SMALL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER IZHITSA DOUBLE GRAVE')]
     case CYRILLIC_SMALL_LETTER_IZHITSA_WITH_DOUBLE_GRAVE_ACCENT = "\u{477}";
 
-    #[Info(id: 0x478, name: 'CYRILLIC CAPITAL LETTER UK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x478, name: 'CYRILLIC CAPITAL LETTER UK', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER UK DIGRAPH')]
     case CYRILLIC_CAPITAL_LETTER_UK = "\u{478}";
 
-    #[Info(id: 0x479, name: 'CYRILLIC SMALL LETTER UK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x479, name: 'CYRILLIC SMALL LETTER UK', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER UK DIGRAPH')]
     case CYRILLIC_SMALL_LETTER_UK = "\u{479}";
 
     #[Info(id: 0x47A, name: 'CYRILLIC CAPITAL LETTER ROUND OMEGA', category: Cat::Uppercase_Letter)]
@@ -388,10 +388,10 @@ enum Cyrillic: string
     #[Info(id: 0x47B, name: 'CYRILLIC SMALL LETTER ROUND OMEGA', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_ROUND_OMEGA = "\u{47B}";
 
-    #[Info(id: 0x47C, name: 'CYRILLIC CAPITAL LETTER OMEGA WITH TITLO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x47C, name: 'CYRILLIC CAPITAL LETTER OMEGA WITH TITLO', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER OMEGA TITLO', informativeAliases: ['Cyrillic "beautiful omega"'])]
     case CYRILLIC_CAPITAL_LETTER_OMEGA_WITH_TITLO = "\u{47C}";
 
-    #[Info(id: 0x47D, name: 'CYRILLIC SMALL LETTER OMEGA WITH TITLO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x47D, name: 'CYRILLIC SMALL LETTER OMEGA WITH TITLO', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER OMEGA TITLO')]
     case CYRILLIC_SMALL_LETTER_OMEGA_WITH_TITLO = "\u{47D}";
 
     #[Info(id: 0x47E, name: 'CYRILLIC CAPITAL LETTER OT', category: Cat::Uppercase_Letter)]
@@ -409,16 +409,16 @@ enum Cyrillic: string
     #[Info(id: 0x482, name: 'CYRILLIC THOUSANDS SIGN', category: Cat::Other_Symbol)]
     case CYRILLIC_THOUSANDS_SIGN = "\u{482}";
 
-    #[Info(id: 0x483, name: 'COMBINING CYRILLIC TITLO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x483, name: 'COMBINING CYRILLIC TITLO', category: Cat::Nonspacing_Mark, unicode1Name: 'CYRILLIC NON-SPACING TITLO')]
     case COMBINING_CYRILLIC_TITLO = "\u{483}";
 
-    #[Info(id: 0x484, name: 'COMBINING CYRILLIC PALATALIZATION', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x484, name: 'COMBINING CYRILLIC PALATALIZATION', category: Cat::Nonspacing_Mark, unicode1Name: 'CYRILLIC NON-SPACING PALATALIZATION')]
     case COMBINING_CYRILLIC_PALATALIZATION = "\u{484}";
 
-    #[Info(id: 0x485, name: 'COMBINING CYRILLIC DASIA PNEUMATA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x485, name: 'COMBINING CYRILLIC DASIA PNEUMATA', category: Cat::Nonspacing_Mark, unicode1Name: 'CYRILLIC NON-SPACING DASIA PNEUMATA')]
     case COMBINING_CYRILLIC_DASIA_PNEUMATA = "\u{485}";
 
-    #[Info(id: 0x486, name: 'COMBINING CYRILLIC PSILI PNEUMATA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x486, name: 'COMBINING CYRILLIC PSILI PNEUMATA', category: Cat::Nonspacing_Mark, unicode1Name: 'CYRILLIC NON-SPACING PSILI PNEUMATA')]
     case COMBINING_CYRILLIC_PSILI_PNEUMATA = "\u{486}";
 
     #[Info(id: 0x487, name: 'COMBINING CYRILLIC POKRYTIE', category: Cat::Nonspacing_Mark)]
@@ -448,94 +448,94 @@ enum Cyrillic: string
     #[Info(id: 0x48F, name: 'CYRILLIC SMALL LETTER ER WITH TICK', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_ER_WITH_TICK = "\u{48F}";
 
-    #[Info(id: 0x490, name: 'CYRILLIC CAPITAL LETTER GHE WITH UPTURN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x490, name: 'CYRILLIC CAPITAL LETTER GHE WITH UPTURN', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER GE WITH UPTURN')]
     case CYRILLIC_CAPITAL_LETTER_GHE_WITH_UPTURN = "\u{490}";
 
-    #[Info(id: 0x491, name: 'CYRILLIC SMALL LETTER GHE WITH UPTURN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x491, name: 'CYRILLIC SMALL LETTER GHE WITH UPTURN', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER GE WITH UPTURN')]
     case CYRILLIC_SMALL_LETTER_GHE_WITH_UPTURN = "\u{491}";
 
-    #[Info(id: 0x492, name: 'CYRILLIC CAPITAL LETTER GHE WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x492, name: 'CYRILLIC CAPITAL LETTER GHE WITH STROKE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER GE BAR')]
     case CYRILLIC_CAPITAL_LETTER_GHE_WITH_STROKE = "\u{492}";
 
-    #[Info(id: 0x493, name: 'CYRILLIC SMALL LETTER GHE WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x493, name: 'CYRILLIC SMALL LETTER GHE WITH STROKE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER GE BAR')]
     case CYRILLIC_SMALL_LETTER_GHE_WITH_STROKE = "\u{493}";
 
-    #[Info(id: 0x494, name: 'CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x494, name: 'CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER GE HOOK')]
     case CYRILLIC_CAPITAL_LETTER_GHE_WITH_MIDDLE_HOOK = "\u{494}";
 
-    #[Info(id: 0x495, name: 'CYRILLIC SMALL LETTER GHE WITH MIDDLE HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x495, name: 'CYRILLIC SMALL LETTER GHE WITH MIDDLE HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER GE HOOK')]
     case CYRILLIC_SMALL_LETTER_GHE_WITH_MIDDLE_HOOK = "\u{495}";
 
-    #[Info(id: 0x496, name: 'CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x496, name: 'CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER ZHE WITH RIGHT DESCENDER')]
     case CYRILLIC_CAPITAL_LETTER_ZHE_WITH_DESCENDER = "\u{496}";
 
-    #[Info(id: 0x497, name: 'CYRILLIC SMALL LETTER ZHE WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x497, name: 'CYRILLIC SMALL LETTER ZHE WITH DESCENDER', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER ZHE WITH RIGHT DESCENDER')]
     case CYRILLIC_SMALL_LETTER_ZHE_WITH_DESCENDER = "\u{497}";
 
-    #[Info(id: 0x498, name: 'CYRILLIC CAPITAL LETTER ZE WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x498, name: 'CYRILLIC CAPITAL LETTER ZE WITH DESCENDER', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER ZE CEDILLA')]
     case CYRILLIC_CAPITAL_LETTER_ZE_WITH_DESCENDER = "\u{498}";
 
-    #[Info(id: 0x499, name: 'CYRILLIC SMALL LETTER ZE WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x499, name: 'CYRILLIC SMALL LETTER ZE WITH DESCENDER', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER ZE CEDILLA')]
     case CYRILLIC_SMALL_LETTER_ZE_WITH_DESCENDER = "\u{499}";
 
-    #[Info(id: 0x49A, name: 'CYRILLIC CAPITAL LETTER KA WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x49A, name: 'CYRILLIC CAPITAL LETTER KA WITH DESCENDER', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER KA WITH RIGHT DESCENDER')]
     case CYRILLIC_CAPITAL_LETTER_KA_WITH_DESCENDER = "\u{49A}";
 
-    #[Info(id: 0x49B, name: 'CYRILLIC SMALL LETTER KA WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x49B, name: 'CYRILLIC SMALL LETTER KA WITH DESCENDER', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER KA WITH RIGHT DESCENDER')]
     case CYRILLIC_SMALL_LETTER_KA_WITH_DESCENDER = "\u{49B}";
 
-    #[Info(id: 0x49C, name: 'CYRILLIC CAPITAL LETTER KA WITH VERTICAL STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x49C, name: 'CYRILLIC CAPITAL LETTER KA WITH VERTICAL STROKE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER KA VERTICAL BAR')]
     case CYRILLIC_CAPITAL_LETTER_KA_WITH_VERTICAL_STROKE = "\u{49C}";
 
-    #[Info(id: 0x49D, name: 'CYRILLIC SMALL LETTER KA WITH VERTICAL STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x49D, name: 'CYRILLIC SMALL LETTER KA WITH VERTICAL STROKE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER KA VERTICAL BAR')]
     case CYRILLIC_SMALL_LETTER_KA_WITH_VERTICAL_STROKE = "\u{49D}";
 
-    #[Info(id: 0x49E, name: 'CYRILLIC CAPITAL LETTER KA WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x49E, name: 'CYRILLIC CAPITAL LETTER KA WITH STROKE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER KA BAR')]
     case CYRILLIC_CAPITAL_LETTER_KA_WITH_STROKE = "\u{49E}";
 
-    #[Info(id: 0x49F, name: 'CYRILLIC SMALL LETTER KA WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x49F, name: 'CYRILLIC SMALL LETTER KA WITH STROKE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER KA BAR')]
     case CYRILLIC_SMALL_LETTER_KA_WITH_STROKE = "\u{49F}";
 
-    #[Info(id: 0x4A0, name: 'CYRILLIC CAPITAL LETTER BASHKIR KA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4A0, name: 'CYRILLIC CAPITAL LETTER BASHKIR KA', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER REVERSED GE KA')]
     case CYRILLIC_CAPITAL_LETTER_BASHKIR_KA = "\u{4A0}";
 
-    #[Info(id: 0x4A1, name: 'CYRILLIC SMALL LETTER BASHKIR KA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4A1, name: 'CYRILLIC SMALL LETTER BASHKIR KA', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER REVERSED GE KA')]
     case CYRILLIC_SMALL_LETTER_BASHKIR_KA = "\u{4A1}";
 
-    #[Info(id: 0x4A2, name: 'CYRILLIC CAPITAL LETTER EN WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4A2, name: 'CYRILLIC CAPITAL LETTER EN WITH DESCENDER', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER EN WITH RIGHT DESCENDER')]
     case CYRILLIC_CAPITAL_LETTER_EN_WITH_DESCENDER = "\u{4A2}";
 
-    #[Info(id: 0x4A3, name: 'CYRILLIC SMALL LETTER EN WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4A3, name: 'CYRILLIC SMALL LETTER EN WITH DESCENDER', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER EN WITH RIGHT DESCENDER')]
     case CYRILLIC_SMALL_LETTER_EN_WITH_DESCENDER = "\u{4A3}";
 
-    #[Info(id: 0x4A4, name: 'CYRILLIC CAPITAL LIGATURE EN GHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4A4, name: 'CYRILLIC CAPITAL LIGATURE EN GHE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER EN GE')]
     case CYRILLIC_CAPITAL_LIGATURE_EN_GHE = "\u{4A4}";
 
-    #[Info(id: 0x4A5, name: 'CYRILLIC SMALL LIGATURE EN GHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4A5, name: 'CYRILLIC SMALL LIGATURE EN GHE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER EN GE')]
     case CYRILLIC_SMALL_LIGATURE_EN_GHE = "\u{4A5}";
 
-    #[Info(id: 0x4A6, name: 'CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4A6, name: 'CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER PE HOOK')]
     case CYRILLIC_CAPITAL_LETTER_PE_WITH_MIDDLE_HOOK = "\u{4A6}";
 
-    #[Info(id: 0x4A7, name: 'CYRILLIC SMALL LETTER PE WITH MIDDLE HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4A7, name: 'CYRILLIC SMALL LETTER PE WITH MIDDLE HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER PE HOOK')]
     case CYRILLIC_SMALL_LETTER_PE_WITH_MIDDLE_HOOK = "\u{4A7}";
 
-    #[Info(id: 0x4A8, name: 'CYRILLIC CAPITAL LETTER ABKHASIAN HA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4A8, name: 'CYRILLIC CAPITAL LETTER ABKHASIAN HA', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER O HOOK')]
     case CYRILLIC_CAPITAL_LETTER_ABKHASIAN_HA = "\u{4A8}";
 
-    #[Info(id: 0x4A9, name: 'CYRILLIC SMALL LETTER ABKHASIAN HA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4A9, name: 'CYRILLIC SMALL LETTER ABKHASIAN HA', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER O HOOK')]
     case CYRILLIC_SMALL_LETTER_ABKHASIAN_HA = "\u{4A9}";
 
-    #[Info(id: 0x4AA, name: 'CYRILLIC CAPITAL LETTER ES WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4AA, name: 'CYRILLIC CAPITAL LETTER ES WITH DESCENDER', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER ES CEDILLA')]
     case CYRILLIC_CAPITAL_LETTER_ES_WITH_DESCENDER = "\u{4AA}";
 
-    #[Info(id: 0x4AB, name: 'CYRILLIC SMALL LETTER ES WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4AB, name: 'CYRILLIC SMALL LETTER ES WITH DESCENDER', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER ES CEDILLA')]
     case CYRILLIC_SMALL_LETTER_ES_WITH_DESCENDER = "\u{4AB}";
 
-    #[Info(id: 0x4AC, name: 'CYRILLIC CAPITAL LETTER TE WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4AC, name: 'CYRILLIC CAPITAL LETTER TE WITH DESCENDER', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER TE WITH RIGHT DESCENDER')]
     case CYRILLIC_CAPITAL_LETTER_TE_WITH_DESCENDER = "\u{4AC}";
 
-    #[Info(id: 0x4AD, name: 'CYRILLIC SMALL LETTER TE WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4AD, name: 'CYRILLIC SMALL LETTER TE WITH DESCENDER', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER TE WITH RIGHT DESCENDER')]
     case CYRILLIC_SMALL_LETTER_TE_WITH_DESCENDER = "\u{4AD}";
 
     #[Info(id: 0x4AE, name: 'CYRILLIC CAPITAL LETTER STRAIGHT U', category: Cat::Uppercase_Letter)]
@@ -544,67 +544,67 @@ enum Cyrillic: string
     #[Info(id: 0x4AF, name: 'CYRILLIC SMALL LETTER STRAIGHT U', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_STRAIGHT_U = "\u{4AF}";
 
-    #[Info(id: 0x4B0, name: 'CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4B0, name: 'CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER STRAIGHT U BAR')]
     case CYRILLIC_CAPITAL_LETTER_STRAIGHT_U_WITH_STROKE = "\u{4B0}";
 
-    #[Info(id: 0x4B1, name: 'CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4B1, name: 'CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER STRAIGHT U BAR')]
     case CYRILLIC_SMALL_LETTER_STRAIGHT_U_WITH_STROKE = "\u{4B1}";
 
-    #[Info(id: 0x4B2, name: 'CYRILLIC CAPITAL LETTER HA WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4B2, name: 'CYRILLIC CAPITAL LETTER HA WITH DESCENDER', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER KHA WITH RIGHT DESCENDER')]
     case CYRILLIC_CAPITAL_LETTER_HA_WITH_DESCENDER = "\u{4B2}";
 
-    #[Info(id: 0x4B3, name: 'CYRILLIC SMALL LETTER HA WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4B3, name: 'CYRILLIC SMALL LETTER HA WITH DESCENDER', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER KHA WITH RIGHT DESCENDER')]
     case CYRILLIC_SMALL_LETTER_HA_WITH_DESCENDER = "\u{4B3}";
 
-    #[Info(id: 0x4B4, name: 'CYRILLIC CAPITAL LIGATURE TE TSE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4B4, name: 'CYRILLIC CAPITAL LIGATURE TE TSE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER TE TSE')]
     case CYRILLIC_CAPITAL_LIGATURE_TE_TSE = "\u{4B4}";
 
-    #[Info(id: 0x4B5, name: 'CYRILLIC SMALL LIGATURE TE TSE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4B5, name: 'CYRILLIC SMALL LIGATURE TE TSE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER TE TSE')]
     case CYRILLIC_SMALL_LIGATURE_TE_TSE = "\u{4B5}";
 
-    #[Info(id: 0x4B6, name: 'CYRILLIC CAPITAL LETTER CHE WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4B6, name: 'CYRILLIC CAPITAL LETTER CHE WITH DESCENDER', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER CHE WITH RIGHT DESCENDER')]
     case CYRILLIC_CAPITAL_LETTER_CHE_WITH_DESCENDER = "\u{4B6}";
 
-    #[Info(id: 0x4B7, name: 'CYRILLIC SMALL LETTER CHE WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4B7, name: 'CYRILLIC SMALL LETTER CHE WITH DESCENDER', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER CHE WITH RIGHT DESCENDER')]
     case CYRILLIC_SMALL_LETTER_CHE_WITH_DESCENDER = "\u{4B7}";
 
-    #[Info(id: 0x4B8, name: 'CYRILLIC CAPITAL LETTER CHE WITH VERTICAL STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4B8, name: 'CYRILLIC CAPITAL LETTER CHE WITH VERTICAL STROKE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER CHE VERTICAL BAR')]
     case CYRILLIC_CAPITAL_LETTER_CHE_WITH_VERTICAL_STROKE = "\u{4B8}";
 
-    #[Info(id: 0x4B9, name: 'CYRILLIC SMALL LETTER CHE WITH VERTICAL STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4B9, name: 'CYRILLIC SMALL LETTER CHE WITH VERTICAL STROKE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER CHE VERTICAL BAR')]
     case CYRILLIC_SMALL_LETTER_CHE_WITH_VERTICAL_STROKE = "\u{4B9}";
 
-    #[Info(id: 0x4BA, name: 'CYRILLIC CAPITAL LETTER SHHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4BA, name: 'CYRILLIC CAPITAL LETTER SHHA', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER H')]
     case CYRILLIC_CAPITAL_LETTER_SHHA = "\u{4BA}";
 
-    #[Info(id: 0x4BB, name: 'CYRILLIC SMALL LETTER SHHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4BB, name: 'CYRILLIC SMALL LETTER SHHA', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER H')]
     case CYRILLIC_SMALL_LETTER_SHHA = "\u{4BB}";
 
-    #[Info(id: 0x4BC, name: 'CYRILLIC CAPITAL LETTER ABKHASIAN CHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4BC, name: 'CYRILLIC CAPITAL LETTER ABKHASIAN CHE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER IE HOOK')]
     case CYRILLIC_CAPITAL_LETTER_ABKHASIAN_CHE = "\u{4BC}";
 
-    #[Info(id: 0x4BD, name: 'CYRILLIC SMALL LETTER ABKHASIAN CHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4BD, name: 'CYRILLIC SMALL LETTER ABKHASIAN CHE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER IE HOOK')]
     case CYRILLIC_SMALL_LETTER_ABKHASIAN_CHE = "\u{4BD}";
 
-    #[Info(id: 0x4BE, name: 'CYRILLIC CAPITAL LETTER ABKHASIAN CHE WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4BE, name: 'CYRILLIC CAPITAL LETTER ABKHASIAN CHE WITH DESCENDER', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER IE HOOK OGONEK')]
     case CYRILLIC_CAPITAL_LETTER_ABKHASIAN_CHE_WITH_DESCENDER = "\u{4BE}";
 
-    #[Info(id: 0x4BF, name: 'CYRILLIC SMALL LETTER ABKHASIAN CHE WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4BF, name: 'CYRILLIC SMALL LETTER ABKHASIAN CHE WITH DESCENDER', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER IE HOOK OGONEK')]
     case CYRILLIC_SMALL_LETTER_ABKHASIAN_CHE_WITH_DESCENDER = "\u{4BF}";
 
-    #[Info(id: 0x4C0, name: 'CYRILLIC LETTER PALOCHKA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4C0, name: 'CYRILLIC LETTER PALOCHKA', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC LETTER I')]
     case CYRILLIC_LETTER_PALOCHKA = "\u{4C0}";
 
-    #[Info(id: 0x4C1, name: 'CYRILLIC CAPITAL LETTER ZHE WITH BREVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4C1, name: 'CYRILLIC CAPITAL LETTER ZHE WITH BREVE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER SHORT ZHE')]
     case CYRILLIC_CAPITAL_LETTER_ZHE_WITH_BREVE = "\u{4C1}";
 
-    #[Info(id: 0x4C2, name: 'CYRILLIC SMALL LETTER ZHE WITH BREVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4C2, name: 'CYRILLIC SMALL LETTER ZHE WITH BREVE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER SHORT ZHE')]
     case CYRILLIC_SMALL_LETTER_ZHE_WITH_BREVE = "\u{4C2}";
 
-    #[Info(id: 0x4C3, name: 'CYRILLIC CAPITAL LETTER KA WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4C3, name: 'CYRILLIC CAPITAL LETTER KA WITH HOOK', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER KA HOOK')]
     case CYRILLIC_CAPITAL_LETTER_KA_WITH_HOOK = "\u{4C3}";
 
-    #[Info(id: 0x4C4, name: 'CYRILLIC SMALL LETTER KA WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4C4, name: 'CYRILLIC SMALL LETTER KA WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER KA HOOK')]
     case CYRILLIC_SMALL_LETTER_KA_WITH_HOOK = "\u{4C4}";
 
     #[Info(id: 0x4C5, name: 'CYRILLIC CAPITAL LETTER EL WITH TAIL', category: Cat::Uppercase_Letter)]
@@ -613,10 +613,10 @@ enum Cyrillic: string
     #[Info(id: 0x4C6, name: 'CYRILLIC SMALL LETTER EL WITH TAIL', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_EL_WITH_TAIL = "\u{4C6}";
 
-    #[Info(id: 0x4C7, name: 'CYRILLIC CAPITAL LETTER EN WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4C7, name: 'CYRILLIC CAPITAL LETTER EN WITH HOOK', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER EN HOOK')]
     case CYRILLIC_CAPITAL_LETTER_EN_WITH_HOOK = "\u{4C7}";
 
-    #[Info(id: 0x4C8, name: 'CYRILLIC SMALL LETTER EN WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4C8, name: 'CYRILLIC SMALL LETTER EN WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER EN HOOK')]
     case CYRILLIC_SMALL_LETTER_EN_WITH_HOOK = "\u{4C8}";
 
     #[Info(id: 0x4C9, name: 'CYRILLIC CAPITAL LETTER EN WITH TAIL', category: Cat::Uppercase_Letter)]
@@ -625,10 +625,10 @@ enum Cyrillic: string
     #[Info(id: 0x4CA, name: 'CYRILLIC SMALL LETTER EN WITH TAIL', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_EN_WITH_TAIL = "\u{4CA}";
 
-    #[Info(id: 0x4CB, name: 'CYRILLIC CAPITAL LETTER KHAKASSIAN CHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4CB, name: 'CYRILLIC CAPITAL LETTER KHAKASSIAN CHE', category: Cat::Uppercase_Letter, unicode1Name: 'CYRILLIC CAPITAL LETTER CHE WITH LEFT DESCENDER')]
     case CYRILLIC_CAPITAL_LETTER_KHAKASSIAN_CHE = "\u{4CB}";
 
-    #[Info(id: 0x4CC, name: 'CYRILLIC SMALL LETTER KHAKASSIAN CHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x4CC, name: 'CYRILLIC SMALL LETTER KHAKASSIAN CHE', category: Cat::Lowercase_Letter, unicode1Name: 'CYRILLIC SMALL LETTER CHE WITH LEFT DESCENDER')]
     case CYRILLIC_SMALL_LETTER_KHAKASSIAN_CHE = "\u{4CC}";
 
     #[Info(id: 0x4CD, name: 'CYRILLIC CAPITAL LETTER EM WITH TAIL', category: Cat::Uppercase_Letter)]

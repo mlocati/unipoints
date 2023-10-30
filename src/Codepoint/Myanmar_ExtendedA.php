@@ -58,7 +58,7 @@ enum Myanmar_ExtendedA: string
     #[Info(id: 0xAA6D, name: 'MYANMAR LETTER KHAMTI HA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_HA = "\u{AA6D}";
 
-    #[Info(id: 0xAA6E, name: 'MYANMAR LETTER KHAMTI HHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA6E, name: 'MYANMAR LETTER KHAMTI HHA', category: Cat::Other_Letter, correctedNames: ['MYANMAR LETTER KHAMTI LLA'])]
     case MYANMAR_LETTER_KHAMTI_HHA = "\u{AA6E}";
 
     #[Info(id: 0xAA6F, name: 'MYANMAR LETTER KHAMTI FA', category: Cat::Other_Letter)]

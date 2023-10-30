@@ -16,7 +16,7 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Mandaic: string
 {
-    #[Info(id: 0x840, name: 'MANDAIC LETTER HALQA', category: Cat::Other_Letter)]
+    #[Info(id: 0x840, name: 'MANDAIC LETTER HALQA', category: Cat::Other_Letter, informativeAliases: ['a'])]
     case MANDAIC_LETTER_HALQA = "\u{840}";
 
     #[Info(id: 0x841, name: 'MANDAIC LETTER AB', category: Cat::Other_Letter)]
@@ -31,19 +31,19 @@ enum Mandaic: string
     #[Info(id: 0x844, name: 'MANDAIC LETTER AH', category: Cat::Other_Letter)]
     case MANDAIC_LETTER_AH = "\u{844}";
 
-    #[Info(id: 0x845, name: 'MANDAIC LETTER USHENNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x845, name: 'MANDAIC LETTER USHENNA', category: Cat::Other_Letter, informativeAliases: ['u'])]
     case MANDAIC_LETTER_USHENNA = "\u{845}";
 
     #[Info(id: 0x846, name: 'MANDAIC LETTER AZ', category: Cat::Other_Letter)]
     case MANDAIC_LETTER_AZ = "\u{846}";
 
-    #[Info(id: 0x847, name: 'MANDAIC LETTER IT', category: Cat::Other_Letter)]
+    #[Info(id: 0x847, name: 'MANDAIC LETTER IT', category: Cat::Other_Letter, informativeAliases: ['pharyngeal hu'])]
     case MANDAIC_LETTER_IT = "\u{847}";
 
     #[Info(id: 0x848, name: 'MANDAIC LETTER ATT', category: Cat::Other_Letter)]
     case MANDAIC_LETTER_ATT = "\u{848}";
 
-    #[Info(id: 0x849, name: 'MANDAIC LETTER AKSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x849, name: 'MANDAIC LETTER AKSA', category: Cat::Other_Letter, informativeAliases: ['i'])]
     case MANDAIC_LETTER_AKSA = "\u{849}";
 
     #[Info(id: 0x84A, name: 'MANDAIC LETTER AK', category: Cat::Other_Letter)]
@@ -82,7 +82,7 @@ enum Mandaic: string
     #[Info(id: 0x855, name: 'MANDAIC LETTER AT', category: Cat::Other_Letter)]
     case MANDAIC_LETTER_AT = "\u{855}";
 
-    #[Info(id: 0x856, name: 'MANDAIC LETTER DUSHENNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x856, name: 'MANDAIC LETTER DUSHENNA', category: Cat::Other_Letter, informativeAliases: ['di'])]
     case MANDAIC_LETTER_DUSHENNA = "\u{856}";
 
     #[Info(id: 0x857, name: 'MANDAIC LETTER KAD', category: Cat::Other_Letter)]

@@ -25,7 +25,7 @@ enum Gurmukhi: string
     #[Info(id: 0xA03, name: 'GURMUKHI SIGN VISARGA', category: Cat::Spacing_Mark)]
     case GURMUKHI_SIGN_VISARGA = "\u{A03}";
 
-    #[Info(id: 0xA05, name: 'GURMUKHI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xA05, name: 'GURMUKHI LETTER A', category: Cat::Other_Letter, informativeAliases: ['aira'])]
     case GURMUKHI_LETTER_A = "\u{A05}";
 
     #[Info(id: 0xA06, name: 'GURMUKHI LETTER AA', category: Cat::Other_Letter)]
@@ -154,34 +154,34 @@ enum Gurmukhi: string
     #[Info(id: 0xA39, name: 'GURMUKHI LETTER HA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_HA = "\u{A39}";
 
-    #[Info(id: 0xA3C, name: 'GURMUKHI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA3C, name: 'GURMUKHI SIGN NUKTA', category: Cat::Nonspacing_Mark, informativeAliases: ['pairin bindi'])]
     case GURMUKHI_SIGN_NUKTA = "\u{A3C}";
 
-    #[Info(id: 0xA3E, name: 'GURMUKHI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA3E, name: 'GURMUKHI VOWEL SIGN AA', category: Cat::Spacing_Mark, informativeAliases: ['kanna'])]
     case GURMUKHI_VOWEL_SIGN_AA = "\u{A3E}";
 
-    #[Info(id: 0xA3F, name: 'GURMUKHI VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA3F, name: 'GURMUKHI VOWEL SIGN I', category: Cat::Spacing_Mark, informativeAliases: ['sihari'])]
     case GURMUKHI_VOWEL_SIGN_I = "\u{A3F}";
 
-    #[Info(id: 0xA40, name: 'GURMUKHI VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA40, name: 'GURMUKHI VOWEL SIGN II', category: Cat::Spacing_Mark, informativeAliases: ['bihari'])]
     case GURMUKHI_VOWEL_SIGN_II = "\u{A40}";
 
-    #[Info(id: 0xA41, name: 'GURMUKHI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA41, name: 'GURMUKHI VOWEL SIGN U', category: Cat::Nonspacing_Mark, informativeAliases: ['aunkar'])]
     case GURMUKHI_VOWEL_SIGN_U = "\u{A41}";
 
-    #[Info(id: 0xA42, name: 'GURMUKHI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA42, name: 'GURMUKHI VOWEL SIGN UU', category: Cat::Nonspacing_Mark, informativeAliases: ['dulainkar'])]
     case GURMUKHI_VOWEL_SIGN_UU = "\u{A42}";
 
-    #[Info(id: 0xA47, name: 'GURMUKHI VOWEL SIGN EE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA47, name: 'GURMUKHI VOWEL SIGN EE', category: Cat::Nonspacing_Mark, informativeAliases: ['lanvan'])]
     case GURMUKHI_VOWEL_SIGN_EE = "\u{A47}";
 
-    #[Info(id: 0xA48, name: 'GURMUKHI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA48, name: 'GURMUKHI VOWEL SIGN AI', category: Cat::Nonspacing_Mark, informativeAliases: ['dulanvan'])]
     case GURMUKHI_VOWEL_SIGN_AI = "\u{A48}";
 
-    #[Info(id: 0xA4B, name: 'GURMUKHI VOWEL SIGN OO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA4B, name: 'GURMUKHI VOWEL SIGN OO', category: Cat::Nonspacing_Mark, informativeAliases: ['hora'])]
     case GURMUKHI_VOWEL_SIGN_OO = "\u{A4B}";
 
-    #[Info(id: 0xA4C, name: 'GURMUKHI VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA4C, name: 'GURMUKHI VOWEL SIGN AU', category: Cat::Nonspacing_Mark, informativeAliases: ['kanaura'])]
     case GURMUKHI_VOWEL_SIGN_AU = "\u{A4C}";
 
     #[Info(id: 0xA4D, name: 'GURMUKHI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]

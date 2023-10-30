@@ -16,22 +16,22 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Enclosed_CJK_Letters_and_Months: string
 {
-    #[Info(id: 0x3200, name: 'PARENTHESIZED HANGUL KIYEOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3200, name: 'PARENTHESIZED HANGUL KIYEOK', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL GIYEOG')]
     case PARENTHESIZED_HANGUL_KIYEOK = "\u{3200}";
 
     #[Info(id: 0x3201, name: 'PARENTHESIZED HANGUL NIEUN', category: Cat::Other_Symbol)]
     case PARENTHESIZED_HANGUL_NIEUN = "\u{3201}";
 
-    #[Info(id: 0x3202, name: 'PARENTHESIZED HANGUL TIKEUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3202, name: 'PARENTHESIZED HANGUL TIKEUT', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL DIGEUD')]
     case PARENTHESIZED_HANGUL_TIKEUT = "\u{3202}";
 
-    #[Info(id: 0x3203, name: 'PARENTHESIZED HANGUL RIEUL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3203, name: 'PARENTHESIZED HANGUL RIEUL', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL LIEUL')]
     case PARENTHESIZED_HANGUL_RIEUL = "\u{3203}";
 
     #[Info(id: 0x3204, name: 'PARENTHESIZED HANGUL MIEUM', category: Cat::Other_Symbol)]
     case PARENTHESIZED_HANGUL_MIEUM = "\u{3204}";
 
-    #[Info(id: 0x3205, name: 'PARENTHESIZED HANGUL PIEUP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3205, name: 'PARENTHESIZED HANGUL PIEUP', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL BIEUB')]
     case PARENTHESIZED_HANGUL_PIEUP = "\u{3205}";
 
     #[Info(id: 0x3206, name: 'PARENTHESIZED HANGUL SIOS', category: Cat::Other_Symbol)]
@@ -40,67 +40,67 @@ enum Enclosed_CJK_Letters_and_Months: string
     #[Info(id: 0x3207, name: 'PARENTHESIZED HANGUL IEUNG', category: Cat::Other_Symbol)]
     case PARENTHESIZED_HANGUL_IEUNG = "\u{3207}";
 
-    #[Info(id: 0x3208, name: 'PARENTHESIZED HANGUL CIEUC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3208, name: 'PARENTHESIZED HANGUL CIEUC', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL JIEUJ')]
     case PARENTHESIZED_HANGUL_CIEUC = "\u{3208}";
 
-    #[Info(id: 0x3209, name: 'PARENTHESIZED HANGUL CHIEUCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3209, name: 'PARENTHESIZED HANGUL CHIEUCH', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL CIEUC')]
     case PARENTHESIZED_HANGUL_CHIEUCH = "\u{3209}";
 
-    #[Info(id: 0x320A, name: 'PARENTHESIZED HANGUL KHIEUKH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x320A, name: 'PARENTHESIZED HANGUL KHIEUKH', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL KIYEOK')]
     case PARENTHESIZED_HANGUL_KHIEUKH = "\u{320A}";
 
-    #[Info(id: 0x320B, name: 'PARENTHESIZED HANGUL THIEUTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x320B, name: 'PARENTHESIZED HANGUL THIEUTH', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL TIEUT')]
     case PARENTHESIZED_HANGUL_THIEUTH = "\u{320B}";
 
-    #[Info(id: 0x320C, name: 'PARENTHESIZED HANGUL PHIEUPH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x320C, name: 'PARENTHESIZED HANGUL PHIEUPH', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL PIEUP')]
     case PARENTHESIZED_HANGUL_PHIEUPH = "\u{320C}";
 
     #[Info(id: 0x320D, name: 'PARENTHESIZED HANGUL HIEUH', category: Cat::Other_Symbol)]
     case PARENTHESIZED_HANGUL_HIEUH = "\u{320D}";
 
-    #[Info(id: 0x320E, name: 'PARENTHESIZED HANGUL KIYEOK A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x320E, name: 'PARENTHESIZED HANGUL KIYEOK A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL GA')]
     case PARENTHESIZED_HANGUL_KIYEOK_A = "\u{320E}";
 
-    #[Info(id: 0x320F, name: 'PARENTHESIZED HANGUL NIEUN A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x320F, name: 'PARENTHESIZED HANGUL NIEUN A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL NA')]
     case PARENTHESIZED_HANGUL_NIEUN_A = "\u{320F}";
 
-    #[Info(id: 0x3210, name: 'PARENTHESIZED HANGUL TIKEUT A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3210, name: 'PARENTHESIZED HANGUL TIKEUT A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL DA')]
     case PARENTHESIZED_HANGUL_TIKEUT_A = "\u{3210}";
 
-    #[Info(id: 0x3211, name: 'PARENTHESIZED HANGUL RIEUL A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3211, name: 'PARENTHESIZED HANGUL RIEUL A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL LA')]
     case PARENTHESIZED_HANGUL_RIEUL_A = "\u{3211}";
 
-    #[Info(id: 0x3212, name: 'PARENTHESIZED HANGUL MIEUM A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3212, name: 'PARENTHESIZED HANGUL MIEUM A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL MA')]
     case PARENTHESIZED_HANGUL_MIEUM_A = "\u{3212}";
 
-    #[Info(id: 0x3213, name: 'PARENTHESIZED HANGUL PIEUP A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3213, name: 'PARENTHESIZED HANGUL PIEUP A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL BA')]
     case PARENTHESIZED_HANGUL_PIEUP_A = "\u{3213}";
 
-    #[Info(id: 0x3214, name: 'PARENTHESIZED HANGUL SIOS A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3214, name: 'PARENTHESIZED HANGUL SIOS A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL SA')]
     case PARENTHESIZED_HANGUL_SIOS_A = "\u{3214}";
 
-    #[Info(id: 0x3215, name: 'PARENTHESIZED HANGUL IEUNG A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3215, name: 'PARENTHESIZED HANGUL IEUNG A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL A')]
     case PARENTHESIZED_HANGUL_IEUNG_A = "\u{3215}";
 
-    #[Info(id: 0x3216, name: 'PARENTHESIZED HANGUL CIEUC A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3216, name: 'PARENTHESIZED HANGUL CIEUC A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL JA')]
     case PARENTHESIZED_HANGUL_CIEUC_A = "\u{3216}";
 
-    #[Info(id: 0x3217, name: 'PARENTHESIZED HANGUL CHIEUCH A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3217, name: 'PARENTHESIZED HANGUL CHIEUCH A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL CA')]
     case PARENTHESIZED_HANGUL_CHIEUCH_A = "\u{3217}";
 
-    #[Info(id: 0x3218, name: 'PARENTHESIZED HANGUL KHIEUKH A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3218, name: 'PARENTHESIZED HANGUL KHIEUKH A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL KA')]
     case PARENTHESIZED_HANGUL_KHIEUKH_A = "\u{3218}";
 
-    #[Info(id: 0x3219, name: 'PARENTHESIZED HANGUL THIEUTH A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3219, name: 'PARENTHESIZED HANGUL THIEUTH A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL TA')]
     case PARENTHESIZED_HANGUL_THIEUTH_A = "\u{3219}";
 
-    #[Info(id: 0x321A, name: 'PARENTHESIZED HANGUL PHIEUPH A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x321A, name: 'PARENTHESIZED HANGUL PHIEUPH A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL PA')]
     case PARENTHESIZED_HANGUL_PHIEUPH_A = "\u{321A}";
 
-    #[Info(id: 0x321B, name: 'PARENTHESIZED HANGUL HIEUH A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x321B, name: 'PARENTHESIZED HANGUL HIEUH A', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL HA')]
     case PARENTHESIZED_HANGUL_HIEUH_A = "\u{321B}";
 
-    #[Info(id: 0x321C, name: 'PARENTHESIZED HANGUL CIEUC U', category: Cat::Other_Symbol)]
+    #[Info(id: 0x321C, name: 'PARENTHESIZED HANGUL CIEUC U', category: Cat::Other_Symbol, unicode1Name: 'PARENTHESIZED HANGUL JU')]
     case PARENTHESIZED_HANGUL_CIEUC_U = "\u{321C}";
 
     #[Info(id: 0x321D, name: 'PARENTHESIZED KOREAN CHARACTER OJEON', category: Cat::Other_Symbol)]
@@ -229,28 +229,28 @@ enum Enclosed_CJK_Letters_and_Months: string
     #[Info(id: 0x3247, name: 'CIRCLED IDEOGRAPH KOTO', category: Cat::Other_Symbol)]
     case CIRCLED_IDEOGRAPH_KOTO = "\u{3247}";
 
-    #[Info(id: 0x3248, name: 'CIRCLED NUMBER TEN ON BLACK SQUARE', category: Cat::Other_Number)]
+    #[Info(id: 0x3248, name: 'CIRCLED NUMBER TEN ON BLACK SQUARE', category: Cat::Other_Number, informativeAliases: ['speed limit 10 km/h'])]
     case CIRCLED_NUMBER_TEN_ON_BLACK_SQUARE = "\u{3248}";
 
-    #[Info(id: 0x3249, name: 'CIRCLED NUMBER TWENTY ON BLACK SQUARE', category: Cat::Other_Number)]
+    #[Info(id: 0x3249, name: 'CIRCLED NUMBER TWENTY ON BLACK SQUARE', category: Cat::Other_Number, informativeAliases: ['speed limit 20 km/h'])]
     case CIRCLED_NUMBER_TWENTY_ON_BLACK_SQUARE = "\u{3249}";
 
-    #[Info(id: 0x324A, name: 'CIRCLED NUMBER THIRTY ON BLACK SQUARE', category: Cat::Other_Number)]
+    #[Info(id: 0x324A, name: 'CIRCLED NUMBER THIRTY ON BLACK SQUARE', category: Cat::Other_Number, informativeAliases: ['speed limit 30 km/h'])]
     case CIRCLED_NUMBER_THIRTY_ON_BLACK_SQUARE = "\u{324A}";
 
-    #[Info(id: 0x324B, name: 'CIRCLED NUMBER FORTY ON BLACK SQUARE', category: Cat::Other_Number)]
+    #[Info(id: 0x324B, name: 'CIRCLED NUMBER FORTY ON BLACK SQUARE', category: Cat::Other_Number, informativeAliases: ['speed limit 40 km/h'])]
     case CIRCLED_NUMBER_FORTY_ON_BLACK_SQUARE = "\u{324B}";
 
-    #[Info(id: 0x324C, name: 'CIRCLED NUMBER FIFTY ON BLACK SQUARE', category: Cat::Other_Number)]
+    #[Info(id: 0x324C, name: 'CIRCLED NUMBER FIFTY ON BLACK SQUARE', category: Cat::Other_Number, informativeAliases: ['speed limit 50 km/h'])]
     case CIRCLED_NUMBER_FIFTY_ON_BLACK_SQUARE = "\u{324C}";
 
-    #[Info(id: 0x324D, name: 'CIRCLED NUMBER SIXTY ON BLACK SQUARE', category: Cat::Other_Number)]
+    #[Info(id: 0x324D, name: 'CIRCLED NUMBER SIXTY ON BLACK SQUARE', category: Cat::Other_Number, informativeAliases: ['speed limit 60 km/h'])]
     case CIRCLED_NUMBER_SIXTY_ON_BLACK_SQUARE = "\u{324D}";
 
-    #[Info(id: 0x324E, name: 'CIRCLED NUMBER SEVENTY ON BLACK SQUARE', category: Cat::Other_Number)]
+    #[Info(id: 0x324E, name: 'CIRCLED NUMBER SEVENTY ON BLACK SQUARE', category: Cat::Other_Number, informativeAliases: ['speed limit 70 km/h'])]
     case CIRCLED_NUMBER_SEVENTY_ON_BLACK_SQUARE = "\u{324E}";
 
-    #[Info(id: 0x324F, name: 'CIRCLED NUMBER EIGHTY ON BLACK SQUARE', category: Cat::Other_Number)]
+    #[Info(id: 0x324F, name: 'CIRCLED NUMBER EIGHTY ON BLACK SQUARE', category: Cat::Other_Number, informativeAliases: ['speed limit 80 km/h'])]
     case CIRCLED_NUMBER_EIGHTY_ON_BLACK_SQUARE = "\u{324F}";
 
     #[Info(id: 0x3250, name: 'PARTNERSHIP SIGN', category: Cat::Other_Symbol)]
@@ -301,22 +301,22 @@ enum Enclosed_CJK_Letters_and_Months: string
     #[Info(id: 0x325F, name: 'CIRCLED NUMBER THIRTY FIVE', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_THIRTY_FIVE = "\u{325F}";
 
-    #[Info(id: 0x3260, name: 'CIRCLED HANGUL KIYEOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3260, name: 'CIRCLED HANGUL KIYEOK', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL GIYEOG')]
     case CIRCLED_HANGUL_KIYEOK = "\u{3260}";
 
     #[Info(id: 0x3261, name: 'CIRCLED HANGUL NIEUN', category: Cat::Other_Symbol)]
     case CIRCLED_HANGUL_NIEUN = "\u{3261}";
 
-    #[Info(id: 0x3262, name: 'CIRCLED HANGUL TIKEUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3262, name: 'CIRCLED HANGUL TIKEUT', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL DIGEUD')]
     case CIRCLED_HANGUL_TIKEUT = "\u{3262}";
 
-    #[Info(id: 0x3263, name: 'CIRCLED HANGUL RIEUL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3263, name: 'CIRCLED HANGUL RIEUL', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL LIEUL')]
     case CIRCLED_HANGUL_RIEUL = "\u{3263}";
 
     #[Info(id: 0x3264, name: 'CIRCLED HANGUL MIEUM', category: Cat::Other_Symbol)]
     case CIRCLED_HANGUL_MIEUM = "\u{3264}";
 
-    #[Info(id: 0x3265, name: 'CIRCLED HANGUL PIEUP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3265, name: 'CIRCLED HANGUL PIEUP', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL BIEUB')]
     case CIRCLED_HANGUL_PIEUP = "\u{3265}";
 
     #[Info(id: 0x3266, name: 'CIRCLED HANGUL SIOS', category: Cat::Other_Symbol)]
@@ -325,64 +325,64 @@ enum Enclosed_CJK_Letters_and_Months: string
     #[Info(id: 0x3267, name: 'CIRCLED HANGUL IEUNG', category: Cat::Other_Symbol)]
     case CIRCLED_HANGUL_IEUNG = "\u{3267}";
 
-    #[Info(id: 0x3268, name: 'CIRCLED HANGUL CIEUC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3268, name: 'CIRCLED HANGUL CIEUC', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL JIEUJ')]
     case CIRCLED_HANGUL_CIEUC = "\u{3268}";
 
-    #[Info(id: 0x3269, name: 'CIRCLED HANGUL CHIEUCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3269, name: 'CIRCLED HANGUL CHIEUCH', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL CIEUC')]
     case CIRCLED_HANGUL_CHIEUCH = "\u{3269}";
 
-    #[Info(id: 0x326A, name: 'CIRCLED HANGUL KHIEUKH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x326A, name: 'CIRCLED HANGUL KHIEUKH', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL KIYEOK')]
     case CIRCLED_HANGUL_KHIEUKH = "\u{326A}";
 
-    #[Info(id: 0x326B, name: 'CIRCLED HANGUL THIEUTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x326B, name: 'CIRCLED HANGUL THIEUTH', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL TIEUT')]
     case CIRCLED_HANGUL_THIEUTH = "\u{326B}";
 
-    #[Info(id: 0x326C, name: 'CIRCLED HANGUL PHIEUPH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x326C, name: 'CIRCLED HANGUL PHIEUPH', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL PIEUP')]
     case CIRCLED_HANGUL_PHIEUPH = "\u{326C}";
 
     #[Info(id: 0x326D, name: 'CIRCLED HANGUL HIEUH', category: Cat::Other_Symbol)]
     case CIRCLED_HANGUL_HIEUH = "\u{326D}";
 
-    #[Info(id: 0x326E, name: 'CIRCLED HANGUL KIYEOK A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x326E, name: 'CIRCLED HANGUL KIYEOK A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL GA')]
     case CIRCLED_HANGUL_KIYEOK_A = "\u{326E}";
 
-    #[Info(id: 0x326F, name: 'CIRCLED HANGUL NIEUN A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x326F, name: 'CIRCLED HANGUL NIEUN A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL NA')]
     case CIRCLED_HANGUL_NIEUN_A = "\u{326F}";
 
-    #[Info(id: 0x3270, name: 'CIRCLED HANGUL TIKEUT A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3270, name: 'CIRCLED HANGUL TIKEUT A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL DA')]
     case CIRCLED_HANGUL_TIKEUT_A = "\u{3270}";
 
-    #[Info(id: 0x3271, name: 'CIRCLED HANGUL RIEUL A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3271, name: 'CIRCLED HANGUL RIEUL A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL LA')]
     case CIRCLED_HANGUL_RIEUL_A = "\u{3271}";
 
-    #[Info(id: 0x3272, name: 'CIRCLED HANGUL MIEUM A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3272, name: 'CIRCLED HANGUL MIEUM A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL MA')]
     case CIRCLED_HANGUL_MIEUM_A = "\u{3272}";
 
-    #[Info(id: 0x3273, name: 'CIRCLED HANGUL PIEUP A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3273, name: 'CIRCLED HANGUL PIEUP A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL BA')]
     case CIRCLED_HANGUL_PIEUP_A = "\u{3273}";
 
-    #[Info(id: 0x3274, name: 'CIRCLED HANGUL SIOS A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3274, name: 'CIRCLED HANGUL SIOS A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL SA')]
     case CIRCLED_HANGUL_SIOS_A = "\u{3274}";
 
-    #[Info(id: 0x3275, name: 'CIRCLED HANGUL IEUNG A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3275, name: 'CIRCLED HANGUL IEUNG A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL A')]
     case CIRCLED_HANGUL_IEUNG_A = "\u{3275}";
 
-    #[Info(id: 0x3276, name: 'CIRCLED HANGUL CIEUC A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3276, name: 'CIRCLED HANGUL CIEUC A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL JA')]
     case CIRCLED_HANGUL_CIEUC_A = "\u{3276}";
 
-    #[Info(id: 0x3277, name: 'CIRCLED HANGUL CHIEUCH A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3277, name: 'CIRCLED HANGUL CHIEUCH A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL CA')]
     case CIRCLED_HANGUL_CHIEUCH_A = "\u{3277}";
 
-    #[Info(id: 0x3278, name: 'CIRCLED HANGUL KHIEUKH A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3278, name: 'CIRCLED HANGUL KHIEUKH A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL KA')]
     case CIRCLED_HANGUL_KHIEUKH_A = "\u{3278}";
 
-    #[Info(id: 0x3279, name: 'CIRCLED HANGUL THIEUTH A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3279, name: 'CIRCLED HANGUL THIEUTH A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL TA')]
     case CIRCLED_HANGUL_THIEUTH_A = "\u{3279}";
 
-    #[Info(id: 0x327A, name: 'CIRCLED HANGUL PHIEUPH A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x327A, name: 'CIRCLED HANGUL PHIEUPH A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL PA')]
     case CIRCLED_HANGUL_PHIEUPH_A = "\u{327A}";
 
-    #[Info(id: 0x327B, name: 'CIRCLED HANGUL HIEUH A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x327B, name: 'CIRCLED HANGUL HIEUH A', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HANGUL HA')]
     case CIRCLED_HANGUL_HIEUH_A = "\u{327B}";
 
     #[Info(id: 0x327C, name: 'CIRCLED KOREAN CHARACTER CHAMKO', category: Cat::Other_Symbol)]
@@ -397,7 +397,7 @@ enum Enclosed_CJK_Letters_and_Months: string
     #[Info(id: 0x327F, name: 'KOREAN STANDARD SYMBOL', category: Cat::Other_Symbol)]
     case KOREAN_STANDARD_SYMBOL = "\u{327F}";
 
-    #[Info(id: 0x3280, name: 'CIRCLED IDEOGRAPH ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x3280, name: 'CIRCLED IDEOGRAPH ONE', category: Cat::Other_Number, informativeAliases: ['maru-iti, symbol of unification'])]
     case CIRCLED_IDEOGRAPH_ONE = "\u{3280}";
 
     #[Info(id: 0x3281, name: 'CIRCLED IDEOGRAPH TWO', category: Cat::Other_Number)]
@@ -508,7 +508,7 @@ enum Enclosed_CJK_Letters_and_Months: string
     #[Info(id: 0x32A4, name: 'CIRCLED IDEOGRAPH HIGH', category: Cat::Other_Symbol)]
     case CIRCLED_IDEOGRAPH_HIGH = "\u{32A4}";
 
-    #[Info(id: 0x32A5, name: 'CIRCLED IDEOGRAPH CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x32A5, name: 'CIRCLED IDEOGRAPH CENTRE', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED IDEOGRAPH CENTER')]
     case CIRCLED_IDEOGRAPH_CENTRE = "\u{32A5}";
 
     #[Info(id: 0x32A6, name: 'CIRCLED IDEOGRAPH LOW', category: Cat::Other_Symbol)]

@@ -94,10 +94,10 @@ enum Ornamental_Dingbats: string
     #[Info(id: 0x1F669, name: 'HOLLOW QUILT SQUARE ORNAMENT IN BLACK SQUARE', category: Cat::Other_Symbol)]
     case HOLLOW_QUILT_SQUARE_ORNAMENT_IN_BLACK_SQUARE = "\u{1F669}";
 
-    #[Info(id: 0x1F66A, name: 'SOLID QUILT SQUARE ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F66A, name: 'SOLID QUILT SQUARE ORNAMENT', category: Cat::Other_Symbol, informativeAliases: ['fourfold knot ornament'])]
     case SOLID_QUILT_SQUARE_ORNAMENT = "\u{1F66A}";
 
-    #[Info(id: 0x1F66B, name: 'SOLID QUILT SQUARE ORNAMENT IN BLACK SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F66B, name: 'SOLID QUILT SQUARE ORNAMENT IN BLACK SQUARE', category: Cat::Other_Symbol, informativeAliases: ['inverse fourfold knot ornament'])]
     case SOLID_QUILT_SQUARE_ORNAMENT_IN_BLACK_SQUARE = "\u{1F66B}";
 
     #[Info(id: 0x1F66C, name: 'LEFTWARDS ROCKET', category: Cat::Other_Symbol)]
@@ -112,7 +112,7 @@ enum Ornamental_Dingbats: string
     #[Info(id: 0x1F66F, name: 'DOWNWARDS ROCKET', category: Cat::Other_Symbol)]
     case DOWNWARDS_ROCKET = "\u{1F66F}";
 
-    #[Info(id: 0x1F670, name: 'SCRIPT LIGATURE ET ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F670, name: 'SCRIPT LIGATURE ET ORNAMENT', category: Cat::Other_Symbol, informativeAliases: ['italic ampersand lowercase'])]
     case SCRIPT_LIGATURE_ET_ORNAMENT = "\u{1F670}";
 
     #[Info(id: 0x1F671, name: 'HEAVY SCRIPT LIGATURE ET ORNAMENT', category: Cat::Other_Symbol)]
@@ -127,7 +127,7 @@ enum Ornamental_Dingbats: string
     #[Info(id: 0x1F674, name: 'HEAVY AMPERSAND ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_AMPERSAND_ORNAMENT = "\u{1F674}";
 
-    #[Info(id: 0x1F675, name: 'SWASH AMPERSAND ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F675, name: 'SWASH AMPERSAND ORNAMENT', category: Cat::Other_Symbol, informativeAliases: ['italic ampersand'])]
     case SWASH_AMPERSAND_ORNAMENT = "\u{1F675}";
 
     #[Info(id: 0x1F676, name: 'SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]

@@ -16,13 +16,13 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Devanagari: string
 {
-    #[Info(id: 0x900, name: 'DEVANAGARI SIGN INVERTED CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x900, name: 'DEVANAGARI SIGN INVERTED CANDRABINDU', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika adhomukha candrabindu'])]
     case DEVANAGARI_SIGN_INVERTED_CANDRABINDU = "\u{900}";
 
-    #[Info(id: 0x901, name: 'DEVANAGARI SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x901, name: 'DEVANAGARI SIGN CANDRABINDU', category: Cat::Nonspacing_Mark, informativeAliases: ['anunasika'])]
     case DEVANAGARI_SIGN_CANDRABINDU = "\u{901}";
 
-    #[Info(id: 0x902, name: 'DEVANAGARI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x902, name: 'DEVANAGARI SIGN ANUSVARA', category: Cat::Nonspacing_Mark, informativeAliases: ['bindu'])]
     case DEVANAGARI_SIGN_ANUSVARA = "\u{902}";
 
     #[Info(id: 0x903, name: 'DEVANAGARI SIGN VISARGA', category: Cat::Spacing_Mark)]
@@ -223,7 +223,7 @@ enum Devanagari: string
     #[Info(id: 0x944, name: 'DEVANAGARI VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
     case DEVANAGARI_VOWEL_SIGN_VOCALIC_RR = "\u{944}";
 
-    #[Info(id: 0x945, name: 'DEVANAGARI VOWEL SIGN CANDRA E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x945, name: 'DEVANAGARI VOWEL SIGN CANDRA E', category: Cat::Nonspacing_Mark, informativeAliases: ['candra'])]
     case DEVANAGARI_VOWEL_SIGN_CANDRA_E = "\u{945}";
 
     #[Info(id: 0x946, name: 'DEVANAGARI VOWEL SIGN SHORT E', category: Cat::Nonspacing_Mark)]
@@ -247,7 +247,7 @@ enum Devanagari: string
     #[Info(id: 0x94C, name: 'DEVANAGARI VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case DEVANAGARI_VOWEL_SIGN_AU = "\u{94C}";
 
-    #[Info(id: 0x94D, name: 'DEVANAGARI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x94D, name: 'DEVANAGARI SIGN VIRAMA', category: Cat::Nonspacing_Mark, informativeAliases: ['halant (the preferred Hindi name)'])]
     case DEVANAGARI_SIGN_VIRAMA = "\u{94D}";
 
     #[Info(id: 0x94E, name: 'DEVANAGARI VOWEL SIGN PRISHTHAMATRA E', category: Cat::Spacing_Mark)]
@@ -259,10 +259,10 @@ enum Devanagari: string
     #[Info(id: 0x950, name: 'DEVANAGARI OM', category: Cat::Other_Letter)]
     case DEVANAGARI_OM = "\u{950}";
 
-    #[Info(id: 0x951, name: 'DEVANAGARI STRESS SIGN UDATTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x951, name: 'DEVANAGARI STRESS SIGN UDATTA', category: Cat::Nonspacing_Mark, informativeAliases: ['Vedic tone svarita'])]
     case DEVANAGARI_STRESS_SIGN_UDATTA = "\u{951}";
 
-    #[Info(id: 0x952, name: 'DEVANAGARI STRESS SIGN ANUDATTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x952, name: 'DEVANAGARI STRESS SIGN ANUDATTA', category: Cat::Nonspacing_Mark, informativeAliases: ['Vedic tone anudatta'])]
     case DEVANAGARI_STRESS_SIGN_ANUDATTA = "\u{952}";
 
     #[Info(id: 0x953, name: 'DEVANAGARI GRAVE ACCENT', category: Cat::Nonspacing_Mark)]
@@ -316,10 +316,10 @@ enum Devanagari: string
     #[Info(id: 0x963, name: 'DEVANAGARI VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case DEVANAGARI_VOWEL_SIGN_VOCALIC_LL = "\u{963}";
 
-    #[Info(id: 0x964, name: 'DEVANAGARI DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x964, name: 'DEVANAGARI DANDA', category: Cat::Other_Punctuation, informativeAliases: ['purna viram'])]
     case DEVANAGARI_DANDA = "\u{964}";
 
-    #[Info(id: 0x965, name: 'DEVANAGARI DOUBLE DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x965, name: 'DEVANAGARI DOUBLE DANDA', category: Cat::Other_Punctuation, informativeAliases: ['deergh viram'])]
     case DEVANAGARI_DOUBLE_DANDA = "\u{965}";
 
     #[Info(id: 0x966, name: 'DEVANAGARI DIGIT ZERO', category: Cat::Decimal_Number)]

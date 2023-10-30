@@ -64,7 +64,7 @@ enum Tifinagh: string
     #[Info(id: 0x2D3F, name: 'TIFINAGH LETTER YAKHH', category: Cat::Other_Letter)]
     case TIFINAGH_LETTER_YAKHH = "\u{2D3F}";
 
-    #[Info(id: 0x2D40, name: 'TIFINAGH LETTER YAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x2D40, name: 'TIFINAGH LETTER YAH', category: Cat::Other_Letter, informativeAliases: ['Tuareg yab'])]
     case TIFINAGH_LETTER_YAH = "\u{2D40}";
 
     #[Info(id: 0x2D41, name: 'TIFINAGH LETTER BERBER ACADEMY YAH', category: Cat::Other_Letter)]
@@ -121,7 +121,7 @@ enum Tifinagh: string
     #[Info(id: 0x2D52, name: 'TIFINAGH LETTER YAP', category: Cat::Other_Letter)]
     case TIFINAGH_LETTER_YAP = "\u{2D52}";
 
-    #[Info(id: 0x2D53, name: 'TIFINAGH LETTER YU', category: Cat::Other_Letter)]
+    #[Info(id: 0x2D53, name: 'TIFINAGH LETTER YU', category: Cat::Other_Letter, informativeAliases: ['Tuareg yaw'])]
     case TIFINAGH_LETTER_YU = "\u{2D53}";
 
     #[Info(id: 0x2D54, name: 'TIFINAGH LETTER YAR', category: Cat::Other_Letter)]
@@ -136,7 +136,7 @@ enum Tifinagh: string
     #[Info(id: 0x2D57, name: 'TIFINAGH LETTER TUAREG YAGH', category: Cat::Other_Letter)]
     case TIFINAGH_LETTER_TUAREG_YAGH = "\u{2D57}";
 
-    #[Info(id: 0x2D58, name: 'TIFINAGH LETTER AYER YAGH', category: Cat::Other_Letter)]
+    #[Info(id: 0x2D58, name: 'TIFINAGH LETTER AYER YAGH', category: Cat::Other_Letter, informativeAliases: ['Adrar yaj'])]
     case TIFINAGH_LETTER_AYER_YAGH = "\u{2D58}";
 
     #[Info(id: 0x2D59, name: 'TIFINAGH LETTER YAS', category: Cat::Other_Letter)]
@@ -172,7 +172,7 @@ enum Tifinagh: string
     #[Info(id: 0x2D63, name: 'TIFINAGH LETTER YAZ', category: Cat::Other_Letter)]
     case TIFINAGH_LETTER_YAZ = "\u{2D63}";
 
-    #[Info(id: 0x2D64, name: 'TIFINAGH LETTER TAWELLEMET YAZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x2D64, name: 'TIFINAGH LETTER TAWELLEMET YAZ', category: Cat::Other_Letter, informativeAliases: ['harpoon yaz'])]
     case TIFINAGH_LETTER_TAWELLEMET_YAZ = "\u{2D64}";
 
     #[Info(id: 0x2D65, name: 'TIFINAGH LETTER YAZZ', category: Cat::Other_Letter)]
@@ -184,10 +184,10 @@ enum Tifinagh: string
     #[Info(id: 0x2D67, name: 'TIFINAGH LETTER YO', category: Cat::Other_Letter)]
     case TIFINAGH_LETTER_YO = "\u{2D67}";
 
-    #[Info(id: 0x2D6F, name: 'TIFINAGH MODIFIER LETTER LABIALIZATION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x2D6F, name: 'TIFINAGH MODIFIER LETTER LABIALIZATION MARK', category: Cat::Modifier_Letter, informativeAliases: ['tamatart'])]
     case TIFINAGH_MODIFIER_LETTER_LABIALIZATION_MARK = "\u{2D6F}";
 
-    #[Info(id: 0x2D70, name: 'TIFINAGH SEPARATOR MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2D70, name: 'TIFINAGH SEPARATOR MARK', category: Cat::Other_Punctuation, informativeAliases: ['tazarast'])]
     case TIFINAGH_SEPARATOR_MARK = "\u{2D70}";
 
     #[Info(id: 0x2D7F, name: 'TIFINAGH CONSONANT JOINER', category: Cat::Nonspacing_Mark)]

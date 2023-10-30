@@ -16,13 +16,13 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Sundanese: string
 {
-    #[Info(id: 0x1B80, name: 'SUNDANESE SIGN PANYECEK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1B80, name: 'SUNDANESE SIGN PANYECEK', category: Cat::Nonspacing_Mark, informativeAliases: ['anusvara'])]
     case SUNDANESE_SIGN_PANYECEK = "\u{1B80}";
 
-    #[Info(id: 0x1B81, name: 'SUNDANESE SIGN PANGLAYAR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1B81, name: 'SUNDANESE SIGN PANGLAYAR', category: Cat::Nonspacing_Mark, informativeAliases: ['final r'])]
     case SUNDANESE_SIGN_PANGLAYAR = "\u{1B81}";
 
-    #[Info(id: 0x1B82, name: 'SUNDANESE SIGN PANGWISAD', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1B82, name: 'SUNDANESE SIGN PANGWISAD', category: Cat::Spacing_Mark, informativeAliases: ['visarga'])]
     case SUNDANESE_SIGN_PANGWISAD = "\u{1B82}";
 
     #[Info(id: 0x1B83, name: 'SUNDANESE LETTER A', category: Cat::Other_Letter)]
@@ -115,43 +115,43 @@ enum Sundanese: string
     #[Info(id: 0x1BA0, name: 'SUNDANESE LETTER HA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_HA = "\u{1BA0}";
 
-    #[Info(id: 0x1BA1, name: 'SUNDANESE CONSONANT SIGN PAMINGKAL', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BA1, name: 'SUNDANESE CONSONANT SIGN PAMINGKAL', category: Cat::Spacing_Mark, informativeAliases: ['subjoined ya'])]
     case SUNDANESE_CONSONANT_SIGN_PAMINGKAL = "\u{1BA1}";
 
-    #[Info(id: 0x1BA2, name: 'SUNDANESE CONSONANT SIGN PANYAKRA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA2, name: 'SUNDANESE CONSONANT SIGN PANYAKRA', category: Cat::Nonspacing_Mark, informativeAliases: ['subjoined ra'])]
     case SUNDANESE_CONSONANT_SIGN_PANYAKRA = "\u{1BA2}";
 
-    #[Info(id: 0x1BA3, name: 'SUNDANESE CONSONANT SIGN PANYIKU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA3, name: 'SUNDANESE CONSONANT SIGN PANYIKU', category: Cat::Nonspacing_Mark, informativeAliases: ['subjoined la'])]
     case SUNDANESE_CONSONANT_SIGN_PANYIKU = "\u{1BA3}";
 
-    #[Info(id: 0x1BA4, name: 'SUNDANESE VOWEL SIGN PANGHULU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA4, name: 'SUNDANESE VOWEL SIGN PANGHULU', category: Cat::Nonspacing_Mark, informativeAliases: ['i'])]
     case SUNDANESE_VOWEL_SIGN_PANGHULU = "\u{1BA4}";
 
-    #[Info(id: 0x1BA5, name: 'SUNDANESE VOWEL SIGN PANYUKU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA5, name: 'SUNDANESE VOWEL SIGN PANYUKU', category: Cat::Nonspacing_Mark, informativeAliases: ['u'])]
     case SUNDANESE_VOWEL_SIGN_PANYUKU = "\u{1BA5}";
 
-    #[Info(id: 0x1BA6, name: 'SUNDANESE VOWEL SIGN PANAELAENG', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BA6, name: 'SUNDANESE VOWEL SIGN PANAELAENG', category: Cat::Spacing_Mark, informativeAliases: ['ae'])]
     case SUNDANESE_VOWEL_SIGN_PANAELAENG = "\u{1BA6}";
 
-    #[Info(id: 0x1BA7, name: 'SUNDANESE VOWEL SIGN PANOLONG', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BA7, name: 'SUNDANESE VOWEL SIGN PANOLONG', category: Cat::Spacing_Mark, informativeAliases: ['o'])]
     case SUNDANESE_VOWEL_SIGN_PANOLONG = "\u{1BA7}";
 
-    #[Info(id: 0x1BA8, name: 'SUNDANESE VOWEL SIGN PAMEPET', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA8, name: 'SUNDANESE VOWEL SIGN PAMEPET', category: Cat::Nonspacing_Mark, informativeAliases: ['e'])]
     case SUNDANESE_VOWEL_SIGN_PAMEPET = "\u{1BA8}";
 
-    #[Info(id: 0x1BA9, name: 'SUNDANESE VOWEL SIGN PANEULEUNG', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA9, name: 'SUNDANESE VOWEL SIGN PANEULEUNG', category: Cat::Nonspacing_Mark, informativeAliases: ['eu'])]
     case SUNDANESE_VOWEL_SIGN_PANEULEUNG = "\u{1BA9}";
 
-    #[Info(id: 0x1BAA, name: 'SUNDANESE SIGN PAMAAEH', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BAA, name: 'SUNDANESE SIGN PAMAAEH', category: Cat::Spacing_Mark, informativeAliases: ['virama'])]
     case SUNDANESE_SIGN_PAMAAEH = "\u{1BAA}";
 
     #[Info(id: 0x1BAB, name: 'SUNDANESE SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_SIGN_VIRAMA = "\u{1BAB}";
 
-    #[Info(id: 0x1BAC, name: 'SUNDANESE CONSONANT SIGN PASANGAN MA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BAC, name: 'SUNDANESE CONSONANT SIGN PASANGAN MA', category: Cat::Nonspacing_Mark, informativeAliases: ['subjoined ma'])]
     case SUNDANESE_CONSONANT_SIGN_PASANGAN_MA = "\u{1BAC}";
 
-    #[Info(id: 0x1BAD, name: 'SUNDANESE CONSONANT SIGN PASANGAN WA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BAD, name: 'SUNDANESE CONSONANT SIGN PASANGAN WA', category: Cat::Nonspacing_Mark, informativeAliases: ['subjoined wa'])]
     case SUNDANESE_CONSONANT_SIGN_PASANGAN_WA = "\u{1BAD}";
 
     #[Info(id: 0x1BAE, name: 'SUNDANESE LETTER KHA', category: Cat::Other_Letter)]
@@ -190,7 +190,7 @@ enum Sundanese: string
     #[Info(id: 0x1BB9, name: 'SUNDANESE DIGIT NINE', category: Cat::Decimal_Number)]
     case SUNDANESE_DIGIT_NINE = "\u{1BB9}";
 
-    #[Info(id: 0x1BBA, name: 'SUNDANESE AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BBA, name: 'SUNDANESE AVAGRAHA', category: Cat::Other_Letter, informativeAliases: ['gemination mark'])]
     case SUNDANESE_AVAGRAHA = "\u{1BBA}";
 
     #[Info(id: 0x1BBB, name: 'SUNDANESE LETTER REU', category: Cat::Other_Letter)]
@@ -199,7 +199,7 @@ enum Sundanese: string
     #[Info(id: 0x1BBC, name: 'SUNDANESE LETTER LEU', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_LEU = "\u{1BBC}";
 
-    #[Info(id: 0x1BBD, name: 'SUNDANESE LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BBD, name: 'SUNDANESE LETTER BHA', category: Cat::Other_Letter, correctedNames: ['SUNDANESE LETTER ARCHAIC I'])]
     case SUNDANESE_LETTER_BHA = "\u{1BBD}";
 
     #[Info(id: 0x1BBE, name: 'SUNDANESE LETTER FINAL K', category: Cat::Other_Letter)]

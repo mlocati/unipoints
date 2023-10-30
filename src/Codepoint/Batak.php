@@ -133,43 +133,43 @@ enum Batak: string
     #[Info(id: 0x1BE6, name: 'BATAK SIGN TOMPI', category: Cat::Nonspacing_Mark)]
     case BATAK_SIGN_TOMPI = "\u{1BE6}";
 
-    #[Info(id: 0x1BE7, name: 'BATAK VOWEL SIGN E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BE7, name: 'BATAK VOWEL SIGN E', category: Cat::Spacing_Mark, informativeAliases: ['kebereten'])]
     case BATAK_VOWEL_SIGN_E = "\u{1BE7}";
 
-    #[Info(id: 0x1BE8, name: 'BATAK VOWEL SIGN PAKPAK E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BE8, name: 'BATAK VOWEL SIGN PAKPAK E', category: Cat::Nonspacing_Mark, informativeAliases: ['ketolongen'])]
     case BATAK_VOWEL_SIGN_PAKPAK_E = "\u{1BE8}";
 
-    #[Info(id: 0x1BE9, name: 'BATAK VOWEL SIGN EE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BE9, name: 'BATAK VOWEL SIGN EE', category: Cat::Nonspacing_Mark, informativeAliases: ['talinga'])]
     case BATAK_VOWEL_SIGN_EE = "\u{1BE9}";
 
-    #[Info(id: 0x1BEA, name: 'BATAK VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BEA, name: 'BATAK VOWEL SIGN I', category: Cat::Spacing_Mark, informativeAliases: ['ulua'])]
     case BATAK_VOWEL_SIGN_I = "\u{1BEA}";
 
-    #[Info(id: 0x1BEB, name: 'BATAK VOWEL SIGN KARO I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BEB, name: 'BATAK VOWEL SIGN KARO I', category: Cat::Spacing_Mark, informativeAliases: ['haluan'])]
     case BATAK_VOWEL_SIGN_KARO_I = "\u{1BEB}";
 
-    #[Info(id: 0x1BEC, name: 'BATAK VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BEC, name: 'BATAK VOWEL SIGN O', category: Cat::Spacing_Mark, informativeAliases: ['siala ulu'])]
     case BATAK_VOWEL_SIGN_O = "\u{1BEC}";
 
-    #[Info(id: 0x1BED, name: 'BATAK VOWEL SIGN KARO O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BED, name: 'BATAK VOWEL SIGN KARO O', category: Cat::Nonspacing_Mark, informativeAliases: ['hatulungan'])]
     case BATAK_VOWEL_SIGN_KARO_O = "\u{1BED}";
 
-    #[Info(id: 0x1BEE, name: 'BATAK VOWEL SIGN U', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BEE, name: 'BATAK VOWEL SIGN U', category: Cat::Spacing_Mark, informativeAliases: ['boruta'])]
     case BATAK_VOWEL_SIGN_U = "\u{1BEE}";
 
-    #[Info(id: 0x1BEF, name: 'BATAK VOWEL SIGN U FOR SIMALUNGUN SA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BEF, name: 'BATAK VOWEL SIGN U FOR SIMALUNGUN SA', category: Cat::Nonspacing_Mark, informativeAliases: ['haboritan for simalungun sa'])]
     case BATAK_VOWEL_SIGN_U_FOR_SIMALUNGUN_SA = "\u{1BEF}";
 
-    #[Info(id: 0x1BF0, name: 'BATAK CONSONANT SIGN NG', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BF0, name: 'BATAK CONSONANT SIGN NG', category: Cat::Nonspacing_Mark, informativeAliases: ['amisara'])]
     case BATAK_CONSONANT_SIGN_NG = "\u{1BF0}";
 
-    #[Info(id: 0x1BF1, name: 'BATAK CONSONANT SIGN H', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BF1, name: 'BATAK CONSONANT SIGN H', category: Cat::Nonspacing_Mark, informativeAliases: ['hajoringan'])]
     case BATAK_CONSONANT_SIGN_H = "\u{1BF1}";
 
-    #[Info(id: 0x1BF2, name: 'BATAK PANGOLAT', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BF2, name: 'BATAK PANGOLAT', category: Cat::Spacing_Mark, informativeAliases: ['virama'])]
     case BATAK_PANGOLAT = "\u{1BF2}";
 
-    #[Info(id: 0x1BF3, name: 'BATAK PANONGONAN', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BF3, name: 'BATAK PANONGONAN', category: Cat::Spacing_Mark, informativeAliases: ['virama'])]
     case BATAK_PANONGONAN = "\u{1BF3}";
 
     #[Info(id: 0x1BFC, name: 'BATAK SYMBOL BINDU NA METEK', category: Cat::Other_Punctuation)]

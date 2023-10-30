@@ -217,10 +217,10 @@ enum Tai_Viet: string
     #[Info(id: 0xAAC2, name: 'TAI VIET TONE MAI SONG', category: Cat::Other_Letter)]
     case TAI_VIET_TONE_MAI_SONG = "\u{AAC2}";
 
-    #[Info(id: 0xAADB, name: 'TAI VIET SYMBOL KON', category: Cat::Other_Letter)]
+    #[Info(id: 0xAADB, name: 'TAI VIET SYMBOL KON', category: Cat::Other_Letter, informativeAliases: ['person'])]
     case TAI_VIET_SYMBOL_KON = "\u{AADB}";
 
-    #[Info(id: 0xAADC, name: 'TAI VIET SYMBOL NUENG', category: Cat::Other_Letter)]
+    #[Info(id: 0xAADC, name: 'TAI VIET SYMBOL NUENG', category: Cat::Other_Letter, informativeAliases: ['one'])]
     case TAI_VIET_SYMBOL_NUENG = "\u{AADC}";
 
     #[Info(id: 0xAADD, name: 'TAI VIET SYMBOL SAM', category: Cat::Modifier_Letter)]

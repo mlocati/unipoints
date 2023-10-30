@@ -100,13 +100,13 @@ enum Samaritan: string
     #[Info(id: 0x81B, name: 'SAMARITAN MARK EPENTHETIC YUT', category: Cat::Nonspacing_Mark)]
     case SAMARITAN_MARK_EPENTHETIC_YUT = "\u{81B}";
 
-    #[Info(id: 0x81C, name: 'SAMARITAN VOWEL SIGN LONG E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x81C, name: 'SAMARITAN VOWEL SIGN LONG E', category: Cat::Nonspacing_Mark, informativeAliases: ['fatha al-nida'])]
     case SAMARITAN_VOWEL_SIGN_LONG_E = "\u{81C}";
 
     #[Info(id: 0x81D, name: 'SAMARITAN VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case SAMARITAN_VOWEL_SIGN_E = "\u{81D}";
 
-    #[Info(id: 0x81E, name: 'SAMARITAN VOWEL SIGN OVERLONG AA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x81E, name: 'SAMARITAN VOWEL SIGN OVERLONG AA', category: Cat::Nonspacing_Mark, informativeAliases: ['fatha al-ima'])]
     case SAMARITAN_VOWEL_SIGN_OVERLONG_AA = "\u{81E}";
 
     #[Info(id: 0x81F, name: 'SAMARITAN VOWEL SIGN LONG AA', category: Cat::Nonspacing_Mark)]
@@ -115,7 +115,7 @@ enum Samaritan: string
     #[Info(id: 0x820, name: 'SAMARITAN VOWEL SIGN AA', category: Cat::Nonspacing_Mark)]
     case SAMARITAN_VOWEL_SIGN_AA = "\u{820}";
 
-    #[Info(id: 0x821, name: 'SAMARITAN VOWEL SIGN OVERLONG A', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x821, name: 'SAMARITAN VOWEL SIGN OVERLONG A', category: Cat::Nonspacing_Mark, informativeAliases: ['fatha al-iha'])]
     case SAMARITAN_VOWEL_SIGN_OVERLONG_A = "\u{821}";
 
     #[Info(id: 0x822, name: 'SAMARITAN VOWEL SIGN LONG A', category: Cat::Nonspacing_Mark)]
@@ -127,10 +127,10 @@ enum Samaritan: string
     #[Info(id: 0x824, name: 'SAMARITAN MODIFIER LETTER SHORT A', category: Cat::Modifier_Letter)]
     case SAMARITAN_MODIFIER_LETTER_SHORT_A = "\u{824}";
 
-    #[Info(id: 0x825, name: 'SAMARITAN VOWEL SIGN SHORT A', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x825, name: 'SAMARITAN VOWEL SIGN SHORT A', category: Cat::Nonspacing_Mark, informativeAliases: ['fatha'])]
     case SAMARITAN_VOWEL_SIGN_SHORT_A = "\u{825}";
 
-    #[Info(id: 0x826, name: 'SAMARITAN VOWEL SIGN LONG U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x826, name: 'SAMARITAN VOWEL SIGN LONG U', category: Cat::Nonspacing_Mark, informativeAliases: ['damma'])]
     case SAMARITAN_VOWEL_SIGN_LONG_U = "\u{826}";
 
     #[Info(id: 0x827, name: 'SAMARITAN VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
@@ -139,7 +139,7 @@ enum Samaritan: string
     #[Info(id: 0x828, name: 'SAMARITAN MODIFIER LETTER I', category: Cat::Modifier_Letter)]
     case SAMARITAN_MODIFIER_LETTER_I = "\u{828}";
 
-    #[Info(id: 0x829, name: 'SAMARITAN VOWEL SIGN LONG I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x829, name: 'SAMARITAN VOWEL SIGN LONG I', category: Cat::Nonspacing_Mark, informativeAliases: ['kasra'])]
     case SAMARITAN_VOWEL_SIGN_LONG_I = "\u{829}";
 
     #[Info(id: 0x82A, name: 'SAMARITAN VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
@@ -154,22 +154,22 @@ enum Samaritan: string
     #[Info(id: 0x82D, name: 'SAMARITAN MARK NEQUDAA', category: Cat::Nonspacing_Mark)]
     case SAMARITAN_MARK_NEQUDAA = "\u{82D}";
 
-    #[Info(id: 0x830, name: 'SAMARITAN PUNCTUATION NEQUDAA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x830, name: 'SAMARITAN PUNCTUATION NEQUDAA', category: Cat::Other_Punctuation, informativeAliases: ['word separator'])]
     case SAMARITAN_PUNCTUATION_NEQUDAA = "\u{830}";
 
-    #[Info(id: 0x831, name: 'SAMARITAN PUNCTUATION AFSAAQ', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x831, name: 'SAMARITAN PUNCTUATION AFSAAQ', category: Cat::Other_Punctuation, informativeAliases: ['interruption'])]
     case SAMARITAN_PUNCTUATION_AFSAAQ = "\u{831}";
 
-    #[Info(id: 0x832, name: 'SAMARITAN PUNCTUATION ANGED', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x832, name: 'SAMARITAN PUNCTUATION ANGED', category: Cat::Other_Punctuation, informativeAliases: ['restraint'])]
     case SAMARITAN_PUNCTUATION_ANGED = "\u{832}";
 
-    #[Info(id: 0x833, name: 'SAMARITAN PUNCTUATION BAU', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x833, name: 'SAMARITAN PUNCTUATION BAU', category: Cat::Other_Punctuation, informativeAliases: ['prayer'])]
     case SAMARITAN_PUNCTUATION_BAU = "\u{833}";
 
-    #[Info(id: 0x834, name: 'SAMARITAN PUNCTUATION ATMAAU', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x834, name: 'SAMARITAN PUNCTUATION ATMAAU', category: Cat::Other_Punctuation, informativeAliases: ['surprise'])]
     case SAMARITAN_PUNCTUATION_ATMAAU = "\u{834}";
 
-    #[Info(id: 0x835, name: 'SAMARITAN PUNCTUATION SHIYYAALAA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x835, name: 'SAMARITAN PUNCTUATION SHIYYAALAA', category: Cat::Other_Punctuation, informativeAliases: ['question'])]
     case SAMARITAN_PUNCTUATION_SHIYYAALAA = "\u{835}";
 
     #[Info(id: 0x836, name: 'SAMARITAN ABBREVIATION MARK', category: Cat::Other_Punctuation)]
@@ -178,24 +178,24 @@ enum Samaritan: string
     #[Info(id: 0x837, name: 'SAMARITAN PUNCTUATION MELODIC QITSA', category: Cat::Other_Punctuation)]
     case SAMARITAN_PUNCTUATION_MELODIC_QITSA = "\u{837}";
 
-    #[Info(id: 0x838, name: 'SAMARITAN PUNCTUATION ZIQAA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x838, name: 'SAMARITAN PUNCTUATION ZIQAA', category: Cat::Other_Punctuation, informativeAliases: ['shouting'])]
     case SAMARITAN_PUNCTUATION_ZIQAA = "\u{838}";
 
-    #[Info(id: 0x839, name: 'SAMARITAN PUNCTUATION QITSA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x839, name: 'SAMARITAN PUNCTUATION QITSA', category: Cat::Other_Punctuation, informativeAliases: ['end of section'])]
     case SAMARITAN_PUNCTUATION_QITSA = "\u{839}";
 
-    #[Info(id: 0x83A, name: 'SAMARITAN PUNCTUATION ZAEF', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x83A, name: 'SAMARITAN PUNCTUATION ZAEF', category: Cat::Other_Punctuation, informativeAliases: ['outburst'])]
     case SAMARITAN_PUNCTUATION_ZAEF = "\u{83A}";
 
-    #[Info(id: 0x83B, name: 'SAMARITAN PUNCTUATION TURU', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x83B, name: 'SAMARITAN PUNCTUATION TURU', category: Cat::Other_Punctuation, informativeAliases: ['teaching'])]
     case SAMARITAN_PUNCTUATION_TURU = "\u{83B}";
 
-    #[Info(id: 0x83C, name: 'SAMARITAN PUNCTUATION ARKAANU', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x83C, name: 'SAMARITAN PUNCTUATION ARKAANU', category: Cat::Other_Punctuation, informativeAliases: ['submissiveness'])]
     case SAMARITAN_PUNCTUATION_ARKAANU = "\u{83C}";
 
-    #[Info(id: 0x83D, name: 'SAMARITAN PUNCTUATION SOF MASHFAAT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x83D, name: 'SAMARITAN PUNCTUATION SOF MASHFAAT', category: Cat::Other_Punctuation, informativeAliases: ['full stop'])]
     case SAMARITAN_PUNCTUATION_SOF_MASHFAAT = "\u{83D}";
 
-    #[Info(id: 0x83E, name: 'SAMARITAN PUNCTUATION ANNAAU', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x83E, name: 'SAMARITAN PUNCTUATION ANNAAU', category: Cat::Other_Punctuation, informativeAliases: ['rest'])]
     case SAMARITAN_PUNCTUATION_ANNAAU = "\u{83E}";
 }

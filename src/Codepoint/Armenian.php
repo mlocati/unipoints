@@ -67,7 +67,7 @@ enum Armenian: string
     #[Info(id: 0x541, name: 'ARMENIAN CAPITAL LETTER JA', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_JA = "\u{541}";
 
-    #[Info(id: 0x542, name: 'ARMENIAN CAPITAL LETTER GHAD', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x542, name: 'ARMENIAN CAPITAL LETTER GHAD', category: Cat::Uppercase_Letter, unicode1Name: 'ARMENIAN CAPITAL LETTER LAD')]
     case ARMENIAN_CAPITAL_LETTER_GHAD = "\u{542}";
 
     #[Info(id: 0x543, name: 'ARMENIAN CAPITAL LETTER CHEH', category: Cat::Uppercase_Letter)]
@@ -133,22 +133,22 @@ enum Armenian: string
     #[Info(id: 0x559, name: 'ARMENIAN MODIFIER LETTER LEFT HALF RING', category: Cat::Modifier_Letter)]
     case ARMENIAN_MODIFIER_LETTER_LEFT_HALF_RING = "\u{559}";
 
-    #[Info(id: 0x55A, name: 'ARMENIAN APOSTROPHE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55A, name: 'ARMENIAN APOSTROPHE', category: Cat::Other_Punctuation, unicode1Name: 'ARMENIAN MODIFIER LETTER RIGHT HALF RING', informativeAliases: ['armenian modifier letter right half ring (1.0)'])]
     case ARMENIAN_APOSTROPHE = "\u{55A}";
 
-    #[Info(id: 0x55B, name: 'ARMENIAN EMPHASIS MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55B, name: 'ARMENIAN EMPHASIS MARK', category: Cat::Other_Punctuation, informativeAliases: ['shesht'])]
     case ARMENIAN_EMPHASIS_MARK = "\u{55B}";
 
-    #[Info(id: 0x55C, name: 'ARMENIAN EXCLAMATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55C, name: 'ARMENIAN EXCLAMATION MARK', category: Cat::Other_Punctuation, informativeAliases: ['batsaganchakan nshan'])]
     case ARMENIAN_EXCLAMATION_MARK = "\u{55C}";
 
-    #[Info(id: 0x55D, name: 'ARMENIAN COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55D, name: 'ARMENIAN COMMA', category: Cat::Other_Punctuation, informativeAliases: ['bowt'])]
     case ARMENIAN_COMMA = "\u{55D}";
 
-    #[Info(id: 0x55E, name: 'ARMENIAN QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55E, name: 'ARMENIAN QUESTION MARK', category: Cat::Other_Punctuation, informativeAliases: ['hartsakan nshan'])]
     case ARMENIAN_QUESTION_MARK = "\u{55E}";
 
-    #[Info(id: 0x55F, name: 'ARMENIAN ABBREVIATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55F, name: 'ARMENIAN ABBREVIATION MARK', category: Cat::Other_Punctuation, informativeAliases: ['patiw'])]
     case ARMENIAN_ABBREVIATION_MARK = "\u{55F}";
 
     #[Info(id: 0x560, name: 'ARMENIAN SMALL LETTER TURNED AYB', category: Cat::Lowercase_Letter)]
@@ -205,7 +205,7 @@ enum Armenian: string
     #[Info(id: 0x571, name: 'ARMENIAN SMALL LETTER JA', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_JA = "\u{571}";
 
-    #[Info(id: 0x572, name: 'ARMENIAN SMALL LETTER GHAD', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x572, name: 'ARMENIAN SMALL LETTER GHAD', category: Cat::Lowercase_Letter, unicode1Name: 'ARMENIAN SMALL LETTER LAD')]
     case ARMENIAN_SMALL_LETTER_GHAD = "\u{572}";
 
     #[Info(id: 0x573, name: 'ARMENIAN SMALL LETTER CHEH', category: Cat::Lowercase_Letter)]
@@ -274,10 +274,10 @@ enum Armenian: string
     #[Info(id: 0x588, name: 'ARMENIAN SMALL LETTER YI WITH STROKE', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_YI_WITH_STROKE = "\u{588}";
 
-    #[Info(id: 0x589, name: 'ARMENIAN FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x589, name: 'ARMENIAN FULL STOP', category: Cat::Other_Punctuation, unicode1Name: 'ARMENIAN PERIOD', informativeAliases: ['vertsaket'])]
     case ARMENIAN_FULL_STOP = "\u{589}";
 
-    #[Info(id: 0x58A, name: 'ARMENIAN HYPHEN', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0x58A, name: 'ARMENIAN HYPHEN', category: Cat::Dash_Punctuation, informativeAliases: ['yentamna'])]
     case ARMENIAN_HYPHEN = "\u{58A}";
 
     #[Info(id: 0x58D, name: 'RIGHT-FACING ARMENIAN ETERNITY SIGN', category: Cat::Other_Symbol)]

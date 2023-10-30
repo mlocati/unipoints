@@ -25,40 +25,40 @@ enum Number_Forms: string
     #[Info(id: 0x2152, name: 'VULGAR FRACTION ONE TENTH', category: Cat::Other_Number)]
     case VULGAR_FRACTION_ONE_TENTH = "\u{2152}";
 
-    #[Info(id: 0x2153, name: 'VULGAR FRACTION ONE THIRD', category: Cat::Other_Number)]
+    #[Info(id: 0x2153, name: 'VULGAR FRACTION ONE THIRD', category: Cat::Other_Number, unicode1Name: 'FRACTION ONE THIRD')]
     case VULGAR_FRACTION_ONE_THIRD = "\u{2153}";
 
-    #[Info(id: 0x2154, name: 'VULGAR FRACTION TWO THIRDS', category: Cat::Other_Number)]
+    #[Info(id: 0x2154, name: 'VULGAR FRACTION TWO THIRDS', category: Cat::Other_Number, unicode1Name: 'FRACTION TWO THIRDS')]
     case VULGAR_FRACTION_TWO_THIRDS = "\u{2154}";
 
-    #[Info(id: 0x2155, name: 'VULGAR FRACTION ONE FIFTH', category: Cat::Other_Number)]
+    #[Info(id: 0x2155, name: 'VULGAR FRACTION ONE FIFTH', category: Cat::Other_Number, unicode1Name: 'FRACTION ONE FIFTH')]
     case VULGAR_FRACTION_ONE_FIFTH = "\u{2155}";
 
-    #[Info(id: 0x2156, name: 'VULGAR FRACTION TWO FIFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x2156, name: 'VULGAR FRACTION TWO FIFTHS', category: Cat::Other_Number, unicode1Name: 'FRACTION TWO FIFTHS')]
     case VULGAR_FRACTION_TWO_FIFTHS = "\u{2156}";
 
-    #[Info(id: 0x2157, name: 'VULGAR FRACTION THREE FIFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x2157, name: 'VULGAR FRACTION THREE FIFTHS', category: Cat::Other_Number, unicode1Name: 'FRACTION THREE FIFTHS')]
     case VULGAR_FRACTION_THREE_FIFTHS = "\u{2157}";
 
-    #[Info(id: 0x2158, name: 'VULGAR FRACTION FOUR FIFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x2158, name: 'VULGAR FRACTION FOUR FIFTHS', category: Cat::Other_Number, unicode1Name: 'FRACTION FOUR FIFTHS')]
     case VULGAR_FRACTION_FOUR_FIFTHS = "\u{2158}";
 
-    #[Info(id: 0x2159, name: 'VULGAR FRACTION ONE SIXTH', category: Cat::Other_Number)]
+    #[Info(id: 0x2159, name: 'VULGAR FRACTION ONE SIXTH', category: Cat::Other_Number, unicode1Name: 'FRACTION ONE SIXTH')]
     case VULGAR_FRACTION_ONE_SIXTH = "\u{2159}";
 
-    #[Info(id: 0x215A, name: 'VULGAR FRACTION FIVE SIXTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x215A, name: 'VULGAR FRACTION FIVE SIXTHS', category: Cat::Other_Number, unicode1Name: 'FRACTION FIVE SIXTHS')]
     case VULGAR_FRACTION_FIVE_SIXTHS = "\u{215A}";
 
-    #[Info(id: 0x215B, name: 'VULGAR FRACTION ONE EIGHTH', category: Cat::Other_Number)]
+    #[Info(id: 0x215B, name: 'VULGAR FRACTION ONE EIGHTH', category: Cat::Other_Number, unicode1Name: 'FRACTION ONE EIGHTH')]
     case VULGAR_FRACTION_ONE_EIGHTH = "\u{215B}";
 
-    #[Info(id: 0x215C, name: 'VULGAR FRACTION THREE EIGHTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x215C, name: 'VULGAR FRACTION THREE EIGHTHS', category: Cat::Other_Number, unicode1Name: 'FRACTION THREE EIGHTHS')]
     case VULGAR_FRACTION_THREE_EIGHTHS = "\u{215C}";
 
-    #[Info(id: 0x215D, name: 'VULGAR FRACTION FIVE EIGHTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x215D, name: 'VULGAR FRACTION FIVE EIGHTHS', category: Cat::Other_Number, unicode1Name: 'FRACTION FIVE EIGHTHS')]
     case VULGAR_FRACTION_FIVE_EIGHTHS = "\u{215D}";
 
-    #[Info(id: 0x215E, name: 'VULGAR FRACTION SEVEN EIGHTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x215E, name: 'VULGAR FRACTION SEVEN EIGHTHS', category: Cat::Other_Number, unicode1Name: 'FRACTION SEVEN EIGHTHS')]
     case VULGAR_FRACTION_SEVEN_EIGHTHS = "\u{215E}";
 
     #[Info(id: 0x215F, name: 'FRACTION NUMERATOR ONE', category: Cat::Other_Number)]
@@ -169,7 +169,7 @@ enum Number_Forms: string
     #[Info(id: 0x2182, name: 'ROMAN NUMERAL TEN THOUSAND', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_TEN_THOUSAND = "\u{2182}";
 
-    #[Info(id: 0x2183, name: 'ROMAN NUMERAL REVERSED ONE HUNDRED', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2183, name: 'ROMAN NUMERAL REVERSED ONE HUNDRED', category: Cat::Uppercase_Letter, informativeAliases: ['apostrophic C', 'Claudian antisigma'])]
     case ROMAN_NUMERAL_REVERSED_ONE_HUNDRED = "\u{2183}";
 
     #[Info(id: 0x2184, name: 'LATIN SMALL LETTER REVERSED C', category: Cat::Lowercase_Letter)]

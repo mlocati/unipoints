@@ -136,64 +136,64 @@ enum Enclosed_Alphanumerics: string
     #[Info(id: 0x2487, name: 'PARENTHESIZED NUMBER TWENTY', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_TWENTY = "\u{2487}";
 
-    #[Info(id: 0x2488, name: 'DIGIT ONE FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2488, name: 'DIGIT ONE FULL STOP', category: Cat::Other_Number, unicode1Name: 'DIGIT ONE PERIOD')]
     case DIGIT_ONE_FULL_STOP = "\u{2488}";
 
-    #[Info(id: 0x2489, name: 'DIGIT TWO FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2489, name: 'DIGIT TWO FULL STOP', category: Cat::Other_Number, unicode1Name: 'DIGIT TWO PERIOD')]
     case DIGIT_TWO_FULL_STOP = "\u{2489}";
 
-    #[Info(id: 0x248A, name: 'DIGIT THREE FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248A, name: 'DIGIT THREE FULL STOP', category: Cat::Other_Number, unicode1Name: 'DIGIT THREE PERIOD')]
     case DIGIT_THREE_FULL_STOP = "\u{248A}";
 
-    #[Info(id: 0x248B, name: 'DIGIT FOUR FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248B, name: 'DIGIT FOUR FULL STOP', category: Cat::Other_Number, unicode1Name: 'DIGIT FOUR PERIOD')]
     case DIGIT_FOUR_FULL_STOP = "\u{248B}";
 
-    #[Info(id: 0x248C, name: 'DIGIT FIVE FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248C, name: 'DIGIT FIVE FULL STOP', category: Cat::Other_Number, unicode1Name: 'DIGIT FIVE PERIOD')]
     case DIGIT_FIVE_FULL_STOP = "\u{248C}";
 
-    #[Info(id: 0x248D, name: 'DIGIT SIX FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248D, name: 'DIGIT SIX FULL STOP', category: Cat::Other_Number, unicode1Name: 'DIGIT SIX PERIOD')]
     case DIGIT_SIX_FULL_STOP = "\u{248D}";
 
-    #[Info(id: 0x248E, name: 'DIGIT SEVEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248E, name: 'DIGIT SEVEN FULL STOP', category: Cat::Other_Number, unicode1Name: 'DIGIT SEVEN PERIOD')]
     case DIGIT_SEVEN_FULL_STOP = "\u{248E}";
 
-    #[Info(id: 0x248F, name: 'DIGIT EIGHT FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248F, name: 'DIGIT EIGHT FULL STOP', category: Cat::Other_Number, unicode1Name: 'DIGIT EIGHT PERIOD')]
     case DIGIT_EIGHT_FULL_STOP = "\u{248F}";
 
-    #[Info(id: 0x2490, name: 'DIGIT NINE FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2490, name: 'DIGIT NINE FULL STOP', category: Cat::Other_Number, unicode1Name: 'DIGIT NINE PERIOD')]
     case DIGIT_NINE_FULL_STOP = "\u{2490}";
 
-    #[Info(id: 0x2491, name: 'NUMBER TEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2491, name: 'NUMBER TEN FULL STOP', category: Cat::Other_Number, unicode1Name: 'NUMBER TEN PERIOD')]
     case NUMBER_TEN_FULL_STOP = "\u{2491}";
 
-    #[Info(id: 0x2492, name: 'NUMBER ELEVEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2492, name: 'NUMBER ELEVEN FULL STOP', category: Cat::Other_Number, unicode1Name: 'NUMBER ELEVEN PERIOD')]
     case NUMBER_ELEVEN_FULL_STOP = "\u{2492}";
 
-    #[Info(id: 0x2493, name: 'NUMBER TWELVE FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2493, name: 'NUMBER TWELVE FULL STOP', category: Cat::Other_Number, unicode1Name: 'NUMBER TWELVE PERIOD')]
     case NUMBER_TWELVE_FULL_STOP = "\u{2493}";
 
-    #[Info(id: 0x2494, name: 'NUMBER THIRTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2494, name: 'NUMBER THIRTEEN FULL STOP', category: Cat::Other_Number, unicode1Name: 'NUMBER THIRTEEN PERIOD')]
     case NUMBER_THIRTEEN_FULL_STOP = "\u{2494}";
 
-    #[Info(id: 0x2495, name: 'NUMBER FOURTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2495, name: 'NUMBER FOURTEEN FULL STOP', category: Cat::Other_Number, unicode1Name: 'NUMBER FOURTEEN PERIOD')]
     case NUMBER_FOURTEEN_FULL_STOP = "\u{2495}";
 
-    #[Info(id: 0x2496, name: 'NUMBER FIFTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2496, name: 'NUMBER FIFTEEN FULL STOP', category: Cat::Other_Number, unicode1Name: 'NUMBER FIFTEEN PERIOD')]
     case NUMBER_FIFTEEN_FULL_STOP = "\u{2496}";
 
-    #[Info(id: 0x2497, name: 'NUMBER SIXTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2497, name: 'NUMBER SIXTEEN FULL STOP', category: Cat::Other_Number, unicode1Name: 'NUMBER SIXTEEN PERIOD')]
     case NUMBER_SIXTEEN_FULL_STOP = "\u{2497}";
 
-    #[Info(id: 0x2498, name: 'NUMBER SEVENTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2498, name: 'NUMBER SEVENTEEN FULL STOP', category: Cat::Other_Number, unicode1Name: 'NUMBER SEVENTEEN PERIOD')]
     case NUMBER_SEVENTEEN_FULL_STOP = "\u{2498}";
 
-    #[Info(id: 0x2499, name: 'NUMBER EIGHTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2499, name: 'NUMBER EIGHTEEN FULL STOP', category: Cat::Other_Number, unicode1Name: 'NUMBER EIGHTEEN PERIOD')]
     case NUMBER_EIGHTEEN_FULL_STOP = "\u{2499}";
 
-    #[Info(id: 0x249A, name: 'NUMBER NINETEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x249A, name: 'NUMBER NINETEEN FULL STOP', category: Cat::Other_Number, unicode1Name: 'NUMBER NINETEEN PERIOD')]
     case NUMBER_NINETEEN_FULL_STOP = "\u{249A}";
 
-    #[Info(id: 0x249B, name: 'NUMBER TWENTY FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x249B, name: 'NUMBER TWENTY FULL STOP', category: Cat::Other_Number, unicode1Name: 'NUMBER TWENTY PERIOD')]
     case NUMBER_TWENTY_FULL_STOP = "\u{249B}";
 
     #[Info(id: 0x249C, name: 'PARENTHESIZED LATIN SMALL LETTER A', category: Cat::Other_Symbol)]

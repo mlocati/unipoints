@@ -16,229 +16,229 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Thai: string
 {
-    #[Info(id: 0xE01, name: 'THAI CHARACTER KO KAI', category: Cat::Other_Letter)]
+    #[Info(id: 0xE01, name: 'THAI CHARACTER KO KAI', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER KO KAI')]
     case THAI_CHARACTER_KO_KAI = "\u{E01}";
 
-    #[Info(id: 0xE02, name: 'THAI CHARACTER KHO KHAI', category: Cat::Other_Letter)]
+    #[Info(id: 0xE02, name: 'THAI CHARACTER KHO KHAI', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER KHO KHAI')]
     case THAI_CHARACTER_KHO_KHAI = "\u{E02}";
 
-    #[Info(id: 0xE03, name: 'THAI CHARACTER KHO KHUAT', category: Cat::Other_Letter)]
+    #[Info(id: 0xE03, name: 'THAI CHARACTER KHO KHUAT', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER KHO KHUAT')]
     case THAI_CHARACTER_KHO_KHUAT = "\u{E03}";
 
-    #[Info(id: 0xE04, name: 'THAI CHARACTER KHO KHWAI', category: Cat::Other_Letter)]
+    #[Info(id: 0xE04, name: 'THAI CHARACTER KHO KHWAI', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER KHO KHWAI')]
     case THAI_CHARACTER_KHO_KHWAI = "\u{E04}";
 
-    #[Info(id: 0xE05, name: 'THAI CHARACTER KHO KHON', category: Cat::Other_Letter)]
+    #[Info(id: 0xE05, name: 'THAI CHARACTER KHO KHON', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER KHO KHON')]
     case THAI_CHARACTER_KHO_KHON = "\u{E05}";
 
-    #[Info(id: 0xE06, name: 'THAI CHARACTER KHO RAKHANG', category: Cat::Other_Letter)]
+    #[Info(id: 0xE06, name: 'THAI CHARACTER KHO RAKHANG', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER KHO RAKHANG')]
     case THAI_CHARACTER_KHO_RAKHANG = "\u{E06}";
 
-    #[Info(id: 0xE07, name: 'THAI CHARACTER NGO NGU', category: Cat::Other_Letter)]
+    #[Info(id: 0xE07, name: 'THAI CHARACTER NGO NGU', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER NGO NGU')]
     case THAI_CHARACTER_NGO_NGU = "\u{E07}";
 
-    #[Info(id: 0xE08, name: 'THAI CHARACTER CHO CHAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xE08, name: 'THAI CHARACTER CHO CHAN', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER CHO CHAN')]
     case THAI_CHARACTER_CHO_CHAN = "\u{E08}";
 
-    #[Info(id: 0xE09, name: 'THAI CHARACTER CHO CHING', category: Cat::Other_Letter)]
+    #[Info(id: 0xE09, name: 'THAI CHARACTER CHO CHING', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER CHO CHING')]
     case THAI_CHARACTER_CHO_CHING = "\u{E09}";
 
-    #[Info(id: 0xE0A, name: 'THAI CHARACTER CHO CHANG', category: Cat::Other_Letter)]
+    #[Info(id: 0xE0A, name: 'THAI CHARACTER CHO CHANG', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER CHO CHANG')]
     case THAI_CHARACTER_CHO_CHANG = "\u{E0A}";
 
-    #[Info(id: 0xE0B, name: 'THAI CHARACTER SO SO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE0B, name: 'THAI CHARACTER SO SO', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER SO SO')]
     case THAI_CHARACTER_SO_SO = "\u{E0B}";
 
-    #[Info(id: 0xE0C, name: 'THAI CHARACTER CHO CHOE', category: Cat::Other_Letter)]
+    #[Info(id: 0xE0C, name: 'THAI CHARACTER CHO CHOE', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER CHO CHOE')]
     case THAI_CHARACTER_CHO_CHOE = "\u{E0C}";
 
-    #[Info(id: 0xE0D, name: 'THAI CHARACTER YO YING', category: Cat::Other_Letter)]
+    #[Info(id: 0xE0D, name: 'THAI CHARACTER YO YING', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER YO YING')]
     case THAI_CHARACTER_YO_YING = "\u{E0D}";
 
-    #[Info(id: 0xE0E, name: 'THAI CHARACTER DO CHADA', category: Cat::Other_Letter)]
+    #[Info(id: 0xE0E, name: 'THAI CHARACTER DO CHADA', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER DO CHADA')]
     case THAI_CHARACTER_DO_CHADA = "\u{E0E}";
 
-    #[Info(id: 0xE0F, name: 'THAI CHARACTER TO PATAK', category: Cat::Other_Letter)]
+    #[Info(id: 0xE0F, name: 'THAI CHARACTER TO PATAK', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER TO PATAK')]
     case THAI_CHARACTER_TO_PATAK = "\u{E0F}";
 
-    #[Info(id: 0xE10, name: 'THAI CHARACTER THO THAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xE10, name: 'THAI CHARACTER THO THAN', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER THO THAN')]
     case THAI_CHARACTER_THO_THAN = "\u{E10}";
 
-    #[Info(id: 0xE11, name: 'THAI CHARACTER THO NANGMONTHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE11, name: 'THAI CHARACTER THO NANGMONTHO', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER THO NANGMONTHO')]
     case THAI_CHARACTER_THO_NANGMONTHO = "\u{E11}";
 
-    #[Info(id: 0xE12, name: 'THAI CHARACTER THO PHUTHAO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE12, name: 'THAI CHARACTER THO PHUTHAO', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER THO PHUTHAO')]
     case THAI_CHARACTER_THO_PHUTHAO = "\u{E12}";
 
-    #[Info(id: 0xE13, name: 'THAI CHARACTER NO NEN', category: Cat::Other_Letter)]
+    #[Info(id: 0xE13, name: 'THAI CHARACTER NO NEN', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER NO NEN')]
     case THAI_CHARACTER_NO_NEN = "\u{E13}";
 
-    #[Info(id: 0xE14, name: 'THAI CHARACTER DO DEK', category: Cat::Other_Letter)]
+    #[Info(id: 0xE14, name: 'THAI CHARACTER DO DEK', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER DO DEK')]
     case THAI_CHARACTER_DO_DEK = "\u{E14}";
 
-    #[Info(id: 0xE15, name: 'THAI CHARACTER TO TAO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE15, name: 'THAI CHARACTER TO TAO', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER TO TAO')]
     case THAI_CHARACTER_TO_TAO = "\u{E15}";
 
-    #[Info(id: 0xE16, name: 'THAI CHARACTER THO THUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0xE16, name: 'THAI CHARACTER THO THUNG', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER THO THUNG')]
     case THAI_CHARACTER_THO_THUNG = "\u{E16}";
 
-    #[Info(id: 0xE17, name: 'THAI CHARACTER THO THAHAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xE17, name: 'THAI CHARACTER THO THAHAN', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER THO THAHAN')]
     case THAI_CHARACTER_THO_THAHAN = "\u{E17}";
 
-    #[Info(id: 0xE18, name: 'THAI CHARACTER THO THONG', category: Cat::Other_Letter)]
+    #[Info(id: 0xE18, name: 'THAI CHARACTER THO THONG', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER THO THONG')]
     case THAI_CHARACTER_THO_THONG = "\u{E18}";
 
-    #[Info(id: 0xE19, name: 'THAI CHARACTER NO NU', category: Cat::Other_Letter)]
+    #[Info(id: 0xE19, name: 'THAI CHARACTER NO NU', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER NO NU')]
     case THAI_CHARACTER_NO_NU = "\u{E19}";
 
-    #[Info(id: 0xE1A, name: 'THAI CHARACTER BO BAIMAI', category: Cat::Other_Letter)]
+    #[Info(id: 0xE1A, name: 'THAI CHARACTER BO BAIMAI', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER BO BAIMAI')]
     case THAI_CHARACTER_BO_BAIMAI = "\u{E1A}";
 
-    #[Info(id: 0xE1B, name: 'THAI CHARACTER PO PLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xE1B, name: 'THAI CHARACTER PO PLA', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER PO PLA')]
     case THAI_CHARACTER_PO_PLA = "\u{E1B}";
 
-    #[Info(id: 0xE1C, name: 'THAI CHARACTER PHO PHUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0xE1C, name: 'THAI CHARACTER PHO PHUNG', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER PHO PHUNG')]
     case THAI_CHARACTER_PHO_PHUNG = "\u{E1C}";
 
-    #[Info(id: 0xE1D, name: 'THAI CHARACTER FO FA', category: Cat::Other_Letter)]
+    #[Info(id: 0xE1D, name: 'THAI CHARACTER FO FA', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER FO FA')]
     case THAI_CHARACTER_FO_FA = "\u{E1D}";
 
-    #[Info(id: 0xE1E, name: 'THAI CHARACTER PHO PHAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xE1E, name: 'THAI CHARACTER PHO PHAN', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER PHO PHAN')]
     case THAI_CHARACTER_PHO_PHAN = "\u{E1E}";
 
-    #[Info(id: 0xE1F, name: 'THAI CHARACTER FO FAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xE1F, name: 'THAI CHARACTER FO FAN', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER FO FAN')]
     case THAI_CHARACTER_FO_FAN = "\u{E1F}";
 
-    #[Info(id: 0xE20, name: 'THAI CHARACTER PHO SAMPHAO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE20, name: 'THAI CHARACTER PHO SAMPHAO', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER PHO SAMPHAO')]
     case THAI_CHARACTER_PHO_SAMPHAO = "\u{E20}";
 
-    #[Info(id: 0xE21, name: 'THAI CHARACTER MO MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xE21, name: 'THAI CHARACTER MO MA', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER MO MA')]
     case THAI_CHARACTER_MO_MA = "\u{E21}";
 
-    #[Info(id: 0xE22, name: 'THAI CHARACTER YO YAK', category: Cat::Other_Letter)]
+    #[Info(id: 0xE22, name: 'THAI CHARACTER YO YAK', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER YO YAK')]
     case THAI_CHARACTER_YO_YAK = "\u{E22}";
 
-    #[Info(id: 0xE23, name: 'THAI CHARACTER RO RUA', category: Cat::Other_Letter)]
+    #[Info(id: 0xE23, name: 'THAI CHARACTER RO RUA', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER RO RUA')]
     case THAI_CHARACTER_RO_RUA = "\u{E23}";
 
-    #[Info(id: 0xE24, name: 'THAI CHARACTER RU', category: Cat::Other_Letter)]
+    #[Info(id: 0xE24, name: 'THAI CHARACTER RU', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER RU')]
     case THAI_CHARACTER_RU = "\u{E24}";
 
-    #[Info(id: 0xE25, name: 'THAI CHARACTER LO LING', category: Cat::Other_Letter)]
+    #[Info(id: 0xE25, name: 'THAI CHARACTER LO LING', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER LO LING')]
     case THAI_CHARACTER_LO_LING = "\u{E25}";
 
-    #[Info(id: 0xE26, name: 'THAI CHARACTER LU', category: Cat::Other_Letter)]
+    #[Info(id: 0xE26, name: 'THAI CHARACTER LU', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER LU')]
     case THAI_CHARACTER_LU = "\u{E26}";
 
-    #[Info(id: 0xE27, name: 'THAI CHARACTER WO WAEN', category: Cat::Other_Letter)]
+    #[Info(id: 0xE27, name: 'THAI CHARACTER WO WAEN', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER WO WAEN')]
     case THAI_CHARACTER_WO_WAEN = "\u{E27}";
 
-    #[Info(id: 0xE28, name: 'THAI CHARACTER SO SALA', category: Cat::Other_Letter)]
+    #[Info(id: 0xE28, name: 'THAI CHARACTER SO SALA', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER SO SALA')]
     case THAI_CHARACTER_SO_SALA = "\u{E28}";
 
-    #[Info(id: 0xE29, name: 'THAI CHARACTER SO RUSI', category: Cat::Other_Letter)]
+    #[Info(id: 0xE29, name: 'THAI CHARACTER SO RUSI', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER SO RUSI')]
     case THAI_CHARACTER_SO_RUSI = "\u{E29}";
 
-    #[Info(id: 0xE2A, name: 'THAI CHARACTER SO SUA', category: Cat::Other_Letter)]
+    #[Info(id: 0xE2A, name: 'THAI CHARACTER SO SUA', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER SO SUA')]
     case THAI_CHARACTER_SO_SUA = "\u{E2A}";
 
-    #[Info(id: 0xE2B, name: 'THAI CHARACTER HO HIP', category: Cat::Other_Letter)]
+    #[Info(id: 0xE2B, name: 'THAI CHARACTER HO HIP', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER HO HIP')]
     case THAI_CHARACTER_HO_HIP = "\u{E2B}";
 
-    #[Info(id: 0xE2C, name: 'THAI CHARACTER LO CHULA', category: Cat::Other_Letter)]
+    #[Info(id: 0xE2C, name: 'THAI CHARACTER LO CHULA', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER LO CHULA')]
     case THAI_CHARACTER_LO_CHULA = "\u{E2C}";
 
-    #[Info(id: 0xE2D, name: 'THAI CHARACTER O ANG', category: Cat::Other_Letter)]
+    #[Info(id: 0xE2D, name: 'THAI CHARACTER O ANG', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER O ANG')]
     case THAI_CHARACTER_O_ANG = "\u{E2D}";
 
-    #[Info(id: 0xE2E, name: 'THAI CHARACTER HO NOKHUK', category: Cat::Other_Letter)]
+    #[Info(id: 0xE2E, name: 'THAI CHARACTER HO NOKHUK', category: Cat::Other_Letter, unicode1Name: 'THAI LETTER HO NOK HUK', informativeAliases: ['ho nok huk'])]
     case THAI_CHARACTER_HO_NOKHUK = "\u{E2E}";
 
-    #[Info(id: 0xE2F, name: 'THAI CHARACTER PAIYANNOI', category: Cat::Other_Letter)]
+    #[Info(id: 0xE2F, name: 'THAI CHARACTER PAIYANNOI', category: Cat::Other_Letter, unicode1Name: 'THAI PAI YAN NOI', informativeAliases: ['paiyan noi'])]
     case THAI_CHARACTER_PAIYANNOI = "\u{E2F}";
 
-    #[Info(id: 0xE30, name: 'THAI CHARACTER SARA A', category: Cat::Other_Letter)]
+    #[Info(id: 0xE30, name: 'THAI CHARACTER SARA A', category: Cat::Other_Letter, unicode1Name: 'THAI VOWEL SIGN SARA A')]
     case THAI_CHARACTER_SARA_A = "\u{E30}";
 
-    #[Info(id: 0xE31, name: 'THAI CHARACTER MAI HAN-AKAT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE31, name: 'THAI CHARACTER MAI HAN-AKAT', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI VOWEL SIGN MAI HAN-AKAT')]
     case THAI_CHARACTER_MAI_HAN_AKAT = "\u{E31}";
 
-    #[Info(id: 0xE32, name: 'THAI CHARACTER SARA AA', category: Cat::Other_Letter)]
+    #[Info(id: 0xE32, name: 'THAI CHARACTER SARA AA', category: Cat::Other_Letter, unicode1Name: 'THAI VOWEL SIGN SARA AA')]
     case THAI_CHARACTER_SARA_AA = "\u{E32}";
 
-    #[Info(id: 0xE33, name: 'THAI CHARACTER SARA AM', category: Cat::Other_Letter)]
+    #[Info(id: 0xE33, name: 'THAI CHARACTER SARA AM', category: Cat::Other_Letter, unicode1Name: 'THAI VOWEL SIGN SARA AM')]
     case THAI_CHARACTER_SARA_AM = "\u{E33}";
 
-    #[Info(id: 0xE34, name: 'THAI CHARACTER SARA I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE34, name: 'THAI CHARACTER SARA I', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI VOWEL SIGN SARA I')]
     case THAI_CHARACTER_SARA_I = "\u{E34}";
 
-    #[Info(id: 0xE35, name: 'THAI CHARACTER SARA II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE35, name: 'THAI CHARACTER SARA II', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI VOWEL SIGN SARA II')]
     case THAI_CHARACTER_SARA_II = "\u{E35}";
 
-    #[Info(id: 0xE36, name: 'THAI CHARACTER SARA UE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE36, name: 'THAI CHARACTER SARA UE', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI VOWEL SIGN SARA UE')]
     case THAI_CHARACTER_SARA_UE = "\u{E36}";
 
-    #[Info(id: 0xE37, name: 'THAI CHARACTER SARA UEE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE37, name: 'THAI CHARACTER SARA UEE', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI VOWEL SIGN SARA UEE', informativeAliases: ['sara uue'])]
     case THAI_CHARACTER_SARA_UEE = "\u{E37}";
 
-    #[Info(id: 0xE38, name: 'THAI CHARACTER SARA U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE38, name: 'THAI CHARACTER SARA U', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI VOWEL SIGN SARA U')]
     case THAI_CHARACTER_SARA_U = "\u{E38}";
 
-    #[Info(id: 0xE39, name: 'THAI CHARACTER SARA UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE39, name: 'THAI CHARACTER SARA UU', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI VOWEL SIGN SARA UU')]
     case THAI_CHARACTER_SARA_UU = "\u{E39}";
 
-    #[Info(id: 0xE3A, name: 'THAI CHARACTER PHINTHU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE3A, name: 'THAI CHARACTER PHINTHU', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI VOWEL SIGN PHINTHU')]
     case THAI_CHARACTER_PHINTHU = "\u{E3A}";
 
-    #[Info(id: 0xE3F, name: 'THAI CURRENCY SYMBOL BAHT', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xE3F, name: 'THAI CURRENCY SYMBOL BAHT', category: Cat::Currency_Symbol, unicode1Name: 'THAI BAHT SIGN')]
     case THAI_CURRENCY_SYMBOL_BAHT = "\u{E3F}";
 
-    #[Info(id: 0xE40, name: 'THAI CHARACTER SARA E', category: Cat::Other_Letter)]
+    #[Info(id: 0xE40, name: 'THAI CHARACTER SARA E', category: Cat::Other_Letter, unicode1Name: 'THAI VOWEL SIGN SARA E')]
     case THAI_CHARACTER_SARA_E = "\u{E40}";
 
-    #[Info(id: 0xE41, name: 'THAI CHARACTER SARA AE', category: Cat::Other_Letter)]
+    #[Info(id: 0xE41, name: 'THAI CHARACTER SARA AE', category: Cat::Other_Letter, unicode1Name: 'THAI VOWEL SIGN SARA AE')]
     case THAI_CHARACTER_SARA_AE = "\u{E41}";
 
-    #[Info(id: 0xE42, name: 'THAI CHARACTER SARA O', category: Cat::Other_Letter)]
+    #[Info(id: 0xE42, name: 'THAI CHARACTER SARA O', category: Cat::Other_Letter, unicode1Name: 'THAI VOWEL SIGN SARA O')]
     case THAI_CHARACTER_SARA_O = "\u{E42}";
 
-    #[Info(id: 0xE43, name: 'THAI CHARACTER SARA AI MAIMUAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xE43, name: 'THAI CHARACTER SARA AI MAIMUAN', category: Cat::Other_Letter, unicode1Name: 'THAI VOWEL SIGN SARA MAI MUAN', informativeAliases: ['sara ai mai muan'])]
     case THAI_CHARACTER_SARA_AI_MAIMUAN = "\u{E43}";
 
-    #[Info(id: 0xE44, name: 'THAI CHARACTER SARA AI MAIMALAI', category: Cat::Other_Letter)]
+    #[Info(id: 0xE44, name: 'THAI CHARACTER SARA AI MAIMALAI', category: Cat::Other_Letter, unicode1Name: 'THAI VOWEL SIGN SARA MAI MALAI', informativeAliases: ['sara ai mai malai'])]
     case THAI_CHARACTER_SARA_AI_MAIMALAI = "\u{E44}";
 
-    #[Info(id: 0xE45, name: 'THAI CHARACTER LAKKHANGYAO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE45, name: 'THAI CHARACTER LAKKHANGYAO', category: Cat::Other_Letter, unicode1Name: 'THAI LAK KHANG YAO', informativeAliases: ['lakkhang yao'])]
     case THAI_CHARACTER_LAKKHANGYAO = "\u{E45}";
 
-    #[Info(id: 0xE46, name: 'THAI CHARACTER MAIYAMOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xE46, name: 'THAI CHARACTER MAIYAMOK', category: Cat::Modifier_Letter, unicode1Name: 'THAI MAI YAMOK', informativeAliases: ['mai yamok'])]
     case THAI_CHARACTER_MAIYAMOK = "\u{E46}";
 
-    #[Info(id: 0xE47, name: 'THAI CHARACTER MAITAIKHU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE47, name: 'THAI CHARACTER MAITAIKHU', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI VOWEL SIGN MAI TAI KHU', informativeAliases: ['mai taikhu'])]
     case THAI_CHARACTER_MAITAIKHU = "\u{E47}";
 
-    #[Info(id: 0xE48, name: 'THAI CHARACTER MAI EK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE48, name: 'THAI CHARACTER MAI EK', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI TONE MAI EK')]
     case THAI_CHARACTER_MAI_EK = "\u{E48}";
 
-    #[Info(id: 0xE49, name: 'THAI CHARACTER MAI THO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE49, name: 'THAI CHARACTER MAI THO', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI TONE MAI THO')]
     case THAI_CHARACTER_MAI_THO = "\u{E49}";
 
-    #[Info(id: 0xE4A, name: 'THAI CHARACTER MAI TRI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE4A, name: 'THAI CHARACTER MAI TRI', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI TONE MAI TRI')]
     case THAI_CHARACTER_MAI_TRI = "\u{E4A}";
 
-    #[Info(id: 0xE4B, name: 'THAI CHARACTER MAI CHATTAWA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE4B, name: 'THAI CHARACTER MAI CHATTAWA', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI TONE MAI CHATTAWA')]
     case THAI_CHARACTER_MAI_CHATTAWA = "\u{E4B}";
 
-    #[Info(id: 0xE4C, name: 'THAI CHARACTER THANTHAKHAT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE4C, name: 'THAI CHARACTER THANTHAKHAT', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI THANTHAKHAT')]
     case THAI_CHARACTER_THANTHAKHAT = "\u{E4C}";
 
-    #[Info(id: 0xE4D, name: 'THAI CHARACTER NIKHAHIT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE4D, name: 'THAI CHARACTER NIKHAHIT', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI NIKKHAHIT', informativeAliases: ['nikkhahit'])]
     case THAI_CHARACTER_NIKHAHIT = "\u{E4D}";
 
-    #[Info(id: 0xE4E, name: 'THAI CHARACTER YAMAKKAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xE4E, name: 'THAI CHARACTER YAMAKKAN', category: Cat::Nonspacing_Mark, unicode1Name: 'THAI YAMAKKAN')]
     case THAI_CHARACTER_YAMAKKAN = "\u{E4E}";
 
-    #[Info(id: 0xE4F, name: 'THAI CHARACTER FONGMAN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xE4F, name: 'THAI CHARACTER FONGMAN', category: Cat::Other_Punctuation, unicode1Name: 'THAI FONGMAN')]
     case THAI_CHARACTER_FONGMAN = "\u{E4F}";
 
     #[Info(id: 0xE50, name: 'THAI DIGIT ZERO', category: Cat::Decimal_Number)]
@@ -271,9 +271,9 @@ enum Thai: string
     #[Info(id: 0xE59, name: 'THAI DIGIT NINE', category: Cat::Decimal_Number)]
     case THAI_DIGIT_NINE = "\u{E59}";
 
-    #[Info(id: 0xE5A, name: 'THAI CHARACTER ANGKHANKHU', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xE5A, name: 'THAI CHARACTER ANGKHANKHU', category: Cat::Other_Punctuation, unicode1Name: 'THAI ANGKHANKHU')]
     case THAI_CHARACTER_ANGKHANKHU = "\u{E5A}";
 
-    #[Info(id: 0xE5B, name: 'THAI CHARACTER KHOMUT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xE5B, name: 'THAI CHARACTER KHOMUT', category: Cat::Other_Punctuation, unicode1Name: 'THAI KHOMUT')]
     case THAI_CHARACTER_KHOMUT = "\u{E5B}";
 }

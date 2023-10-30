@@ -28,7 +28,7 @@ enum Tibetan: string
     #[Info(id: 0xF03, name: 'TIBETAN MARK GTER YIG MGO -UM GTER TSHEG MA', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_GTER_YIG_MGO__UM_GTER_TSHEG_MA = "\u{F03}";
 
-    #[Info(id: 0xF04, name: 'TIBETAN MARK INITIAL YIG MGO MDUN MA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF04, name: 'TIBETAN MARK INITIAL YIG MGO MDUN MA', category: Cat::Other_Punctuation, unicode1Name: 'TIBETAN SINGLE ORNAMENT')]
     case TIBETAN_MARK_INITIAL_YIG_MGO_MDUN_MA = "\u{F04}";
 
     #[Info(id: 0xF05, name: 'TIBETAN MARK CLOSING YIG MGO SGAB MA', category: Cat::Other_Punctuation)]
@@ -40,7 +40,7 @@ enum Tibetan: string
     #[Info(id: 0xF07, name: 'TIBETAN MARK YIG MGO TSHEG SHAD MA', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_YIG_MGO_TSHEG_SHAD_MA = "\u{F07}";
 
-    #[Info(id: 0xF08, name: 'TIBETAN MARK SBRUL SHAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF08, name: 'TIBETAN MARK SBRUL SHAD', category: Cat::Other_Punctuation, unicode1Name: 'TIBETAN RGYANSHAD')]
     case TIBETAN_MARK_SBRUL_SHAD = "\u{F08}";
 
     #[Info(id: 0xF09, name: 'TIBETAN MARK BSKUR YIG MGO', category: Cat::Other_Punctuation)]
@@ -49,16 +49,16 @@ enum Tibetan: string
     #[Info(id: 0xF0A, name: 'TIBETAN MARK BKA- SHOG YIG MGO', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_BKA__SHOG_YIG_MGO = "\u{F0A}";
 
-    #[Info(id: 0xF0B, name: 'TIBETAN MARK INTERSYLLABIC TSHEG', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF0B, name: 'TIBETAN MARK INTERSYLLABIC TSHEG', category: Cat::Other_Punctuation, unicode1Name: 'TIBETAN TSEG', informativeAliases: ['tsek'])]
     case TIBETAN_MARK_INTERSYLLABIC_TSHEG = "\u{F0B}";
 
     #[Info(id: 0xF0C, name: 'TIBETAN MARK DELIMITER TSHEG BSTAR', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_DELIMITER_TSHEG_BSTAR = "\u{F0C}";
 
-    #[Info(id: 0xF0D, name: 'TIBETAN MARK SHAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF0D, name: 'TIBETAN MARK SHAD', category: Cat::Other_Punctuation, unicode1Name: 'TIBETAN SHAD', informativeAliases: ['shey'])]
     case TIBETAN_MARK_SHAD = "\u{F0D}";
 
-    #[Info(id: 0xF0E, name: 'TIBETAN MARK NYIS SHAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF0E, name: 'TIBETAN MARK NYIS SHAD', category: Cat::Other_Punctuation, unicode1Name: 'TIBETAN DOUBLE SHAD')]
     case TIBETAN_MARK_NYIS_SHAD = "\u{F0E}";
 
     #[Info(id: 0xF0F, name: 'TIBETAN MARK TSHEG SHAD', category: Cat::Other_Punctuation)]
@@ -67,7 +67,7 @@ enum Tibetan: string
     #[Info(id: 0xF10, name: 'TIBETAN MARK NYIS TSHEG SHAD', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_NYIS_TSHEG_SHAD = "\u{F10}";
 
-    #[Info(id: 0xF11, name: 'TIBETAN MARK RIN CHEN SPUNGS SHAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF11, name: 'TIBETAN MARK RIN CHEN SPUNGS SHAD', category: Cat::Other_Punctuation, unicode1Name: 'TIBETAN RINCHANPHUNGSHAD')]
     case TIBETAN_MARK_RIN_CHEN_SPUNGS_SHAD = "\u{F11}";
 
     #[Info(id: 0xF12, name: 'TIBETAN MARK RGYA GRAM SHAD', category: Cat::Other_Punctuation)]
@@ -76,7 +76,7 @@ enum Tibetan: string
     #[Info(id: 0xF13, name: 'TIBETAN MARK CARET -DZUD RTAGS ME LONG CAN', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_CARET__DZUD_RTAGS_ME_LONG_CAN = "\u{F13}";
 
-    #[Info(id: 0xF14, name: 'TIBETAN MARK GTER TSHEG', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF14, name: 'TIBETAN MARK GTER TSHEG', category: Cat::Other_Punctuation, unicode1Name: 'TIBETAN COMMA')]
     case TIBETAN_MARK_GTER_TSHEG = "\u{F14}";
 
     #[Info(id: 0xF15, name: 'TIBETAN LOGOTYPE SIGN CHAD RTAGS', category: Cat::Other_Symbol)]
@@ -109,7 +109,7 @@ enum Tibetan: string
     #[Info(id: 0xF1E, name: 'TIBETAN SIGN RDEL NAG GNYIS', category: Cat::Other_Symbol)]
     case TIBETAN_SIGN_RDEL_NAG_GNYIS = "\u{F1E}";
 
-    #[Info(id: 0xF1F, name: 'TIBETAN SIGN RDEL DKAR RDEL NAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF1F, name: 'TIBETAN SIGN RDEL DKAR RDEL NAG', category: Cat::Other_Symbol, informativeAliases: ['deka dena'])]
     case TIBETAN_SIGN_RDEL_DKAR_RDEL_NAG = "\u{F1F}";
 
     #[Info(id: 0xF20, name: 'TIBETAN DIGIT ZERO', category: Cat::Decimal_Number)]
@@ -175,19 +175,19 @@ enum Tibetan: string
     #[Info(id: 0xF34, name: 'TIBETAN MARK BSDUS RTAGS', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_BSDUS_RTAGS = "\u{F34}";
 
-    #[Info(id: 0xF35, name: 'TIBETAN MARK NGAS BZUNG NYI ZLA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF35, name: 'TIBETAN MARK NGAS BZUNG NYI ZLA', category: Cat::Nonspacing_Mark, unicode1Name: 'TIBETAN HONORIFIC UNDER RING')]
     case TIBETAN_MARK_NGAS_BZUNG_NYI_ZLA = "\u{F35}";
 
     #[Info(id: 0xF36, name: 'TIBETAN MARK CARET -DZUD RTAGS BZHI MIG CAN', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_CARET__DZUD_RTAGS_BZHI_MIG_CAN = "\u{F36}";
 
-    #[Info(id: 0xF37, name: 'TIBETAN MARK NGAS BZUNG SGOR RTAGS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF37, name: 'TIBETAN MARK NGAS BZUNG SGOR RTAGS', category: Cat::Nonspacing_Mark, unicode1Name: 'TIBETAN UNDER RING')]
     case TIBETAN_MARK_NGAS_BZUNG_SGOR_RTAGS = "\u{F37}";
 
     #[Info(id: 0xF38, name: 'TIBETAN MARK CHE MGO', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_CHE_MGO = "\u{F38}";
 
-    #[Info(id: 0xF39, name: 'TIBETAN MARK TSA -PHRU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF39, name: 'TIBETAN MARK TSA -PHRU', category: Cat::Nonspacing_Mark, unicode1Name: 'TIBETAN LENITION MARK')]
     case TIBETAN_MARK_TSA__PHRU = "\u{F39}";
 
     #[Info(id: 0xF3A, name: 'TIBETAN MARK GUG RTAGS GYON', category: Cat::Open_Punctuation)]
@@ -196,10 +196,10 @@ enum Tibetan: string
     #[Info(id: 0xF3B, name: 'TIBETAN MARK GUG RTAGS GYAS', category: Cat::Close_Punctuation)]
     case TIBETAN_MARK_GUG_RTAGS_GYAS = "\u{F3B}";
 
-    #[Info(id: 0xF3C, name: 'TIBETAN MARK ANG KHANG GYON', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xF3C, name: 'TIBETAN MARK ANG KHANG GYON', category: Cat::Open_Punctuation, unicode1Name: 'TIBETAN LEFT BRACE')]
     case TIBETAN_MARK_ANG_KHANG_GYON = "\u{F3C}";
 
-    #[Info(id: 0xF3D, name: 'TIBETAN MARK ANG KHANG GYAS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xF3D, name: 'TIBETAN MARK ANG KHANG GYAS', category: Cat::Close_Punctuation, unicode1Name: 'TIBETAN RIGHT BRACE')]
     case TIBETAN_MARK_ANG_KHANG_GYAS = "\u{F3D}";
 
     #[Info(id: 0xF3E, name: 'TIBETAN SIGN YAR TSHES', category: Cat::Spacing_Mark)]
@@ -235,19 +235,19 @@ enum Tibetan: string
     #[Info(id: 0xF49, name: 'TIBETAN LETTER NYA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_NYA = "\u{F49}";
 
-    #[Info(id: 0xF4A, name: 'TIBETAN LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF4A, name: 'TIBETAN LETTER TTA', category: Cat::Other_Letter, unicode1Name: 'TIBETAN LETTER REVERSED TA')]
     case TIBETAN_LETTER_TTA = "\u{F4A}";
 
-    #[Info(id: 0xF4B, name: 'TIBETAN LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF4B, name: 'TIBETAN LETTER TTHA', category: Cat::Other_Letter, unicode1Name: 'TIBETAN LETTER REVERSED THA')]
     case TIBETAN_LETTER_TTHA = "\u{F4B}";
 
-    #[Info(id: 0xF4C, name: 'TIBETAN LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF4C, name: 'TIBETAN LETTER DDA', category: Cat::Other_Letter, unicode1Name: 'TIBETAN LETTER REVERSED DA')]
     case TIBETAN_LETTER_DDA = "\u{F4C}";
 
     #[Info(id: 0xF4D, name: 'TIBETAN LETTER DDHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_DDHA = "\u{F4D}";
 
-    #[Info(id: 0xF4E, name: 'TIBETAN LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF4E, name: 'TIBETAN LETTER NNA', category: Cat::Other_Letter, unicode1Name: 'TIBETAN LETTER REVERSED NA')]
     case TIBETAN_LETTER_NNA = "\u{F4E}";
 
     #[Info(id: 0xF4F, name: 'TIBETAN LETTER TA', category: Cat::Other_Letter)]
@@ -301,7 +301,7 @@ enum Tibetan: string
     #[Info(id: 0xF5F, name: 'TIBETAN LETTER ZA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_ZA = "\u{F5F}";
 
-    #[Info(id: 0xF60, name: 'TIBETAN LETTER -A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF60, name: 'TIBETAN LETTER -A', category: Cat::Other_Letter, unicode1Name: 'TIBETAN LETTER AA')]
     case TIBETAN_LETTER__A = "\u{F60}";
 
     #[Info(id: 0xF61, name: 'TIBETAN LETTER YA', category: Cat::Other_Letter)]
@@ -316,7 +316,7 @@ enum Tibetan: string
     #[Info(id: 0xF64, name: 'TIBETAN LETTER SHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_SHA = "\u{F64}";
 
-    #[Info(id: 0xF65, name: 'TIBETAN LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF65, name: 'TIBETAN LETTER SSA', category: Cat::Other_Letter, unicode1Name: 'TIBETAN LETTER REVERSED SHA', informativeAliases: ['reversed sha'])]
     case TIBETAN_LETTER_SSA = "\u{F65}";
 
     #[Info(id: 0xF66, name: 'TIBETAN LETTER SA', category: Cat::Other_Letter)]
@@ -340,7 +340,7 @@ enum Tibetan: string
     #[Info(id: 0xF6C, name: 'TIBETAN LETTER RRA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_RRA = "\u{F6C}";
 
-    #[Info(id: 0xF71, name: 'TIBETAN VOWEL SIGN AA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF71, name: 'TIBETAN VOWEL SIGN AA', category: Cat::Nonspacing_Mark, informativeAliases: ['a-chung'])]
     case TIBETAN_VOWEL_SIGN_AA = "\u{F71}";
 
     #[Info(id: 0xF72, name: 'TIBETAN VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
@@ -370,37 +370,37 @@ enum Tibetan: string
     #[Info(id: 0xF7A, name: 'TIBETAN VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_E = "\u{F7A}";
 
-    #[Info(id: 0xF7B, name: 'TIBETAN VOWEL SIGN EE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF7B, name: 'TIBETAN VOWEL SIGN EE', category: Cat::Nonspacing_Mark, unicode1Name: 'TIBETAN VOWEL SIGN AI')]
     case TIBETAN_VOWEL_SIGN_EE = "\u{F7B}";
 
     #[Info(id: 0xF7C, name: 'TIBETAN VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_O = "\u{F7C}";
 
-    #[Info(id: 0xF7D, name: 'TIBETAN VOWEL SIGN OO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF7D, name: 'TIBETAN VOWEL SIGN OO', category: Cat::Nonspacing_Mark, unicode1Name: 'TIBETAN VOWEL SIGN AU')]
     case TIBETAN_VOWEL_SIGN_OO = "\u{F7D}";
 
-    #[Info(id: 0xF7E, name: 'TIBETAN SIGN RJES SU NGA RO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF7E, name: 'TIBETAN SIGN RJES SU NGA RO', category: Cat::Nonspacing_Mark, unicode1Name: 'TIBETAN ANUSVARA', informativeAliases: ['anusvara'])]
     case TIBETAN_SIGN_RJES_SU_NGA_RO = "\u{F7E}";
 
-    #[Info(id: 0xF7F, name: 'TIBETAN SIGN RNAM BCAD', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xF7F, name: 'TIBETAN SIGN RNAM BCAD', category: Cat::Spacing_Mark, unicode1Name: 'TIBETAN VISARGA', informativeAliases: ['visarga'])]
     case TIBETAN_SIGN_RNAM_BCAD = "\u{F7F}";
 
-    #[Info(id: 0xF80, name: 'TIBETAN VOWEL SIGN REVERSED I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF80, name: 'TIBETAN VOWEL SIGN REVERSED I', category: Cat::Nonspacing_Mark, unicode1Name: 'TIBETAN VOWEL SIGN SHORT I')]
     case TIBETAN_VOWEL_SIGN_REVERSED_I = "\u{F80}";
 
     #[Info(id: 0xF81, name: 'TIBETAN VOWEL SIGN REVERSED II', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_REVERSED_II = "\u{F81}";
 
-    #[Info(id: 0xF82, name: 'TIBETAN SIGN NYI ZLA NAA DA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF82, name: 'TIBETAN SIGN NYI ZLA NAA DA', category: Cat::Nonspacing_Mark, unicode1Name: 'TIBETAN CANDRABINDU WITH ORNAMENT')]
     case TIBETAN_SIGN_NYI_ZLA_NAA_DA = "\u{F82}";
 
-    #[Info(id: 0xF83, name: 'TIBETAN SIGN SNA LDAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF83, name: 'TIBETAN SIGN SNA LDAN', category: Cat::Nonspacing_Mark, unicode1Name: 'TIBETAN CANDRABINDU')]
     case TIBETAN_SIGN_SNA_LDAN = "\u{F83}";
 
-    #[Info(id: 0xF84, name: 'TIBETAN MARK HALANTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF84, name: 'TIBETAN MARK HALANTA', category: Cat::Nonspacing_Mark, unicode1Name: 'TIBETAN VIRAMA', informativeAliases: ['srog med'])]
     case TIBETAN_MARK_HALANTA = "\u{F84}";
 
-    #[Info(id: 0xF85, name: 'TIBETAN MARK PALUTA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF85, name: 'TIBETAN MARK PALUTA', category: Cat::Other_Punctuation, unicode1Name: 'TIBETAN CHUCHENYIGE')]
     case TIBETAN_MARK_PALUTA = "\u{F85}";
 
     #[Info(id: 0xF86, name: 'TIBETAN SIGN LCI RTAGS', category: Cat::Nonspacing_Mark)]
@@ -517,7 +517,7 @@ enum Tibetan: string
     #[Info(id: 0xFAC, name: 'TIBETAN SUBJOINED LETTER DZHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_DZHA = "\u{FAC}";
 
-    #[Info(id: 0xFAD, name: 'TIBETAN SUBJOINED LETTER WA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFAD, name: 'TIBETAN SUBJOINED LETTER WA', category: Cat::Nonspacing_Mark, informativeAliases: ['wa-zur, wa-btags (wa ta)'])]
     case TIBETAN_SUBJOINED_LETTER_WA = "\u{FAD}";
 
     #[Info(id: 0xFAE, name: 'TIBETAN SUBJOINED LETTER ZHA', category: Cat::Nonspacing_Mark)]
@@ -526,13 +526,13 @@ enum Tibetan: string
     #[Info(id: 0xFAF, name: 'TIBETAN SUBJOINED LETTER ZA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_ZA = "\u{FAF}";
 
-    #[Info(id: 0xFB0, name: 'TIBETAN SUBJOINED LETTER -A', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB0, name: 'TIBETAN SUBJOINED LETTER -A', category: Cat::Nonspacing_Mark, informativeAliases: ['a-chung'])]
     case TIBETAN_SUBJOINED_LETTER__A = "\u{FB0}";
 
-    #[Info(id: 0xFB1, name: 'TIBETAN SUBJOINED LETTER YA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB1, name: 'TIBETAN SUBJOINED LETTER YA', category: Cat::Nonspacing_Mark, informativeAliases: ['ya-btags (ya ta)'])]
     case TIBETAN_SUBJOINED_LETTER_YA = "\u{FB1}";
 
-    #[Info(id: 0xFB2, name: 'TIBETAN SUBJOINED LETTER RA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB2, name: 'TIBETAN SUBJOINED LETTER RA', category: Cat::Nonspacing_Mark, informativeAliases: ['ra-btags (ra ta)'])]
     case TIBETAN_SUBJOINED_LETTER_RA = "\u{FB2}";
 
     #[Info(id: 0xFB3, name: 'TIBETAN SUBJOINED LETTER LA', category: Cat::Nonspacing_Mark)]
@@ -541,7 +541,7 @@ enum Tibetan: string
     #[Info(id: 0xFB4, name: 'TIBETAN SUBJOINED LETTER SHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_SHA = "\u{FB4}";
 
-    #[Info(id: 0xFB5, name: 'TIBETAN SUBJOINED LETTER SSA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB5, name: 'TIBETAN SUBJOINED LETTER SSA', category: Cat::Nonspacing_Mark, informativeAliases: ['reversed subjoined sha'])]
     case TIBETAN_SUBJOINED_LETTER_SSA = "\u{FB5}";
 
     #[Info(id: 0xFB6, name: 'TIBETAN SUBJOINED LETTER SA', category: Cat::Nonspacing_Mark)]
@@ -610,37 +610,37 @@ enum Tibetan: string
     #[Info(id: 0xFCC, name: 'TIBETAN SYMBOL NOR BU BZHI -KHYIL', category: Cat::Other_Symbol)]
     case TIBETAN_SYMBOL_NOR_BU_BZHI__KHYIL = "\u{FCC}";
 
-    #[Info(id: 0xFCE, name: 'TIBETAN SIGN RDEL NAG RDEL DKAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFCE, name: 'TIBETAN SIGN RDEL NAG RDEL DKAR', category: Cat::Other_Symbol, informativeAliases: ['dena deka'])]
     case TIBETAN_SIGN_RDEL_NAG_RDEL_DKAR = "\u{FCE}";
 
     #[Info(id: 0xFCF, name: 'TIBETAN SIGN RDEL NAG GSUM', category: Cat::Other_Symbol)]
     case TIBETAN_SIGN_RDEL_NAG_GSUM = "\u{FCF}";
 
-    #[Info(id: 0xFD0, name: 'TIBETAN MARK BSKA- SHOG GI MGO RGYAN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFD0, name: 'TIBETAN MARK BSKA- SHOG GI MGO RGYAN', category: Cat::Other_Punctuation, correctedNames: ['TIBETAN MARK BKA- SHOG GI MGO RGYAN'])]
     case TIBETAN_MARK_BSKA__SHOG_GI_MGO_RGYAN = "\u{FD0}";
 
     #[Info(id: 0xFD1, name: 'TIBETAN MARK MNYAM YIG GI MGO RGYAN', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_MNYAM_YIG_GI_MGO_RGYAN = "\u{FD1}";
 
-    #[Info(id: 0xFD2, name: 'TIBETAN MARK NYIS TSHEG', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFD2, name: 'TIBETAN MARK NYIS TSHEG', category: Cat::Other_Punctuation, informativeAliases: ['nyi tsek'])]
     case TIBETAN_MARK_NYIS_TSHEG = "\u{FD2}";
 
-    #[Info(id: 0xFD3, name: 'TIBETAN MARK INITIAL BRDA RNYING YIG MGO MDUN MA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFD3, name: 'TIBETAN MARK INITIAL BRDA RNYING YIG MGO MDUN MA', category: Cat::Other_Punctuation, informativeAliases: ['da nying yik go dun ma'])]
     case TIBETAN_MARK_INITIAL_BRDA_RNYING_YIG_MGO_MDUN_MA = "\u{FD3}";
 
-    #[Info(id: 0xFD4, name: 'TIBETAN MARK CLOSING BRDA RNYING YIG MGO SGAB MA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFD4, name: 'TIBETAN MARK CLOSING BRDA RNYING YIG MGO SGAB MA', category: Cat::Other_Punctuation, informativeAliases: ['da nying yik go kab ma'])]
     case TIBETAN_MARK_CLOSING_BRDA_RNYING_YIG_MGO_SGAB_MA = "\u{FD4}";
 
-    #[Info(id: 0xFD5, name: 'RIGHT-FACING SVASTI SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD5, name: 'RIGHT-FACING SVASTI SIGN', category: Cat::Other_Symbol, informativeAliases: ['gyung drung nang -khor'])]
     case RIGHT_FACING_SVASTI_SIGN = "\u{FD5}";
 
-    #[Info(id: 0xFD6, name: 'LEFT-FACING SVASTI SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD6, name: 'LEFT-FACING SVASTI SIGN', category: Cat::Other_Symbol, informativeAliases: ['gyung drung phyi -khor'])]
     case LEFT_FACING_SVASTI_SIGN = "\u{FD6}";
 
-    #[Info(id: 0xFD7, name: 'RIGHT-FACING SVASTI SIGN WITH DOTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD7, name: 'RIGHT-FACING SVASTI SIGN WITH DOTS', category: Cat::Other_Symbol, informativeAliases: ['gyung drung nang -khor bzhi mig can'])]
     case RIGHT_FACING_SVASTI_SIGN_WITH_DOTS = "\u{FD7}";
 
-    #[Info(id: 0xFD8, name: 'LEFT-FACING SVASTI SIGN WITH DOTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD8, name: 'LEFT-FACING SVASTI SIGN WITH DOTS', category: Cat::Other_Symbol, informativeAliases: ['gyung drung phyi -khor bzhi mig can'])]
     case LEFT_FACING_SVASTI_SIGN_WITH_DOTS = "\u{FD8}";
 
     #[Info(id: 0xFD9, name: 'TIBETAN MARK LEADING MCHAN RTAGS', category: Cat::Other_Punctuation)]

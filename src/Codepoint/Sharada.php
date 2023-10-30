@@ -289,7 +289,7 @@ enum Sharada: string
     #[Info(id: 0x111DA, name: 'SHARADA EKAM', category: Cat::Other_Letter)]
     case SHARADA_EKAM = "\u{111DA}";
 
-    #[Info(id: 0x111DB, name: 'SHARADA SIGN SIDDHAM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x111DB, name: 'SHARADA SIGN SIDDHAM', category: Cat::Other_Punctuation, informativeAliases: ['siddhirastu'])]
     case SHARADA_SIGN_SIDDHAM = "\u{111DB}";
 
     #[Info(id: 0x111DC, name: 'SHARADA HEADSTROKE', category: Cat::Other_Letter)]

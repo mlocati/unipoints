@@ -19,25 +19,25 @@ enum Old_Hungarian: string
     #[Info(id: 0x10C80, name: 'OLD HUNGARIAN CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
     case OLD_HUNGARIAN_CAPITAL_LETTER_A = "\u{10C80}";
 
-    #[Info(id: 0x10C81, name: 'OLD HUNGARIAN CAPITAL LETTER AA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C81, name: 'OLD HUNGARIAN CAPITAL LETTER AA', category: Cat::Uppercase_Letter, informativeAliases: ['Á'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_AA = "\u{10C81}";
 
-    #[Info(id: 0x10C82, name: 'OLD HUNGARIAN CAPITAL LETTER EB', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C82, name: 'OLD HUNGARIAN CAPITAL LETTER EB', category: Cat::Uppercase_Letter, informativeAliases: ['B'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EB = "\u{10C82}";
 
     #[Info(id: 0x10C83, name: 'OLD HUNGARIAN CAPITAL LETTER AMB', category: Cat::Uppercase_Letter)]
     case OLD_HUNGARIAN_CAPITAL_LETTER_AMB = "\u{10C83}";
 
-    #[Info(id: 0x10C84, name: 'OLD HUNGARIAN CAPITAL LETTER EC', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C84, name: 'OLD HUNGARIAN CAPITAL LETTER EC', category: Cat::Uppercase_Letter, informativeAliases: ['C'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EC = "\u{10C84}";
 
     #[Info(id: 0x10C85, name: 'OLD HUNGARIAN CAPITAL LETTER ENC', category: Cat::Uppercase_Letter)]
     case OLD_HUNGARIAN_CAPITAL_LETTER_ENC = "\u{10C85}";
 
-    #[Info(id: 0x10C86, name: 'OLD HUNGARIAN CAPITAL LETTER ECS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C86, name: 'OLD HUNGARIAN CAPITAL LETTER ECS', category: Cat::Uppercase_Letter, informativeAliases: ['Cs'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_ECS = "\u{10C86}";
 
-    #[Info(id: 0x10C87, name: 'OLD HUNGARIAN CAPITAL LETTER ED', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C87, name: 'OLD HUNGARIAN CAPITAL LETTER ED', category: Cat::Uppercase_Letter, informativeAliases: ['D'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_ED = "\u{10C87}";
 
     #[Info(id: 0x10C88, name: 'OLD HUNGARIAN CAPITAL LETTER AND', category: Cat::Uppercase_Letter)]
@@ -46,34 +46,34 @@ enum Old_Hungarian: string
     #[Info(id: 0x10C89, name: 'OLD HUNGARIAN CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
     case OLD_HUNGARIAN_CAPITAL_LETTER_E = "\u{10C89}";
 
-    #[Info(id: 0x10C8A, name: 'OLD HUNGARIAN CAPITAL LETTER CLOSE E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C8A, name: 'OLD HUNGARIAN CAPITAL LETTER CLOSE E', category: Cat::Uppercase_Letter, informativeAliases: ['Ë'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_CLOSE_E = "\u{10C8A}";
 
-    #[Info(id: 0x10C8B, name: 'OLD HUNGARIAN CAPITAL LETTER EE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C8B, name: 'OLD HUNGARIAN CAPITAL LETTER EE', category: Cat::Uppercase_Letter, informativeAliases: ['É'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EE = "\u{10C8B}";
 
-    #[Info(id: 0x10C8C, name: 'OLD HUNGARIAN CAPITAL LETTER EF', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C8C, name: 'OLD HUNGARIAN CAPITAL LETTER EF', category: Cat::Uppercase_Letter, informativeAliases: ['F'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EF = "\u{10C8C}";
 
-    #[Info(id: 0x10C8D, name: 'OLD HUNGARIAN CAPITAL LETTER EG', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C8D, name: 'OLD HUNGARIAN CAPITAL LETTER EG', category: Cat::Uppercase_Letter, informativeAliases: ['G'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EG = "\u{10C8D}";
 
-    #[Info(id: 0x10C8E, name: 'OLD HUNGARIAN CAPITAL LETTER EGY', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C8E, name: 'OLD HUNGARIAN CAPITAL LETTER EGY', category: Cat::Uppercase_Letter, informativeAliases: ['Gy'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EGY = "\u{10C8E}";
 
-    #[Info(id: 0x10C8F, name: 'OLD HUNGARIAN CAPITAL LETTER EH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C8F, name: 'OLD HUNGARIAN CAPITAL LETTER EH', category: Cat::Uppercase_Letter, informativeAliases: ['H'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EH = "\u{10C8F}";
 
     #[Info(id: 0x10C90, name: 'OLD HUNGARIAN CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
     case OLD_HUNGARIAN_CAPITAL_LETTER_I = "\u{10C90}";
 
-    #[Info(id: 0x10C91, name: 'OLD HUNGARIAN CAPITAL LETTER II', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C91, name: 'OLD HUNGARIAN CAPITAL LETTER II', category: Cat::Uppercase_Letter, informativeAliases: ['Í'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_II = "\u{10C91}";
 
-    #[Info(id: 0x10C92, name: 'OLD HUNGARIAN CAPITAL LETTER EJ', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C92, name: 'OLD HUNGARIAN CAPITAL LETTER EJ', category: Cat::Uppercase_Letter, informativeAliases: ['J'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EJ = "\u{10C92}";
 
-    #[Info(id: 0x10C93, name: 'OLD HUNGARIAN CAPITAL LETTER EK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C93, name: 'OLD HUNGARIAN CAPITAL LETTER EK', category: Cat::Uppercase_Letter, informativeAliases: ['K'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EK = "\u{10C93}";
 
     #[Info(id: 0x10C94, name: 'OLD HUNGARIAN CAPITAL LETTER AK', category: Cat::Uppercase_Letter)]
@@ -82,61 +82,61 @@ enum Old_Hungarian: string
     #[Info(id: 0x10C95, name: 'OLD HUNGARIAN CAPITAL LETTER UNK', category: Cat::Uppercase_Letter)]
     case OLD_HUNGARIAN_CAPITAL_LETTER_UNK = "\u{10C95}";
 
-    #[Info(id: 0x10C96, name: 'OLD HUNGARIAN CAPITAL LETTER EL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C96, name: 'OLD HUNGARIAN CAPITAL LETTER EL', category: Cat::Uppercase_Letter, informativeAliases: ['L'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EL = "\u{10C96}";
 
-    #[Info(id: 0x10C97, name: 'OLD HUNGARIAN CAPITAL LETTER ELY', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C97, name: 'OLD HUNGARIAN CAPITAL LETTER ELY', category: Cat::Uppercase_Letter, informativeAliases: ['Ly'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_ELY = "\u{10C97}";
 
-    #[Info(id: 0x10C98, name: 'OLD HUNGARIAN CAPITAL LETTER EM', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C98, name: 'OLD HUNGARIAN CAPITAL LETTER EM', category: Cat::Uppercase_Letter, informativeAliases: ['M'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EM = "\u{10C98}";
 
-    #[Info(id: 0x10C99, name: 'OLD HUNGARIAN CAPITAL LETTER EN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C99, name: 'OLD HUNGARIAN CAPITAL LETTER EN', category: Cat::Uppercase_Letter, informativeAliases: ['N'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EN = "\u{10C99}";
 
-    #[Info(id: 0x10C9A, name: 'OLD HUNGARIAN CAPITAL LETTER ENY', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C9A, name: 'OLD HUNGARIAN CAPITAL LETTER ENY', category: Cat::Uppercase_Letter, informativeAliases: ['Ny'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_ENY = "\u{10C9A}";
 
-    #[Info(id: 0x10C9B, name: 'OLD HUNGARIAN CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C9B, name: 'OLD HUNGARIAN CAPITAL LETTER O', category: Cat::Uppercase_Letter, informativeAliases: ['O'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_O = "\u{10C9B}";
 
-    #[Info(id: 0x10C9C, name: 'OLD HUNGARIAN CAPITAL LETTER OO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C9C, name: 'OLD HUNGARIAN CAPITAL LETTER OO', category: Cat::Uppercase_Letter, informativeAliases: ['Ó'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_OO = "\u{10C9C}";
 
-    #[Info(id: 0x10C9D, name: 'OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG OE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C9D, name: 'OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG OE', category: Cat::Uppercase_Letter, informativeAliases: ['Ö'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_NIKOLSBURG_OE = "\u{10C9D}";
 
-    #[Info(id: 0x10C9E, name: 'OLD HUNGARIAN CAPITAL LETTER RUDIMENTA OE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C9E, name: 'OLD HUNGARIAN CAPITAL LETTER RUDIMENTA OE', category: Cat::Uppercase_Letter, informativeAliases: ['Ö'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_RUDIMENTA_OE = "\u{10C9E}";
 
-    #[Info(id: 0x10C9F, name: 'OLD HUNGARIAN CAPITAL LETTER OEE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C9F, name: 'OLD HUNGARIAN CAPITAL LETTER OEE', category: Cat::Uppercase_Letter, informativeAliases: ['Ő'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_OEE = "\u{10C9F}";
 
-    #[Info(id: 0x10CA0, name: 'OLD HUNGARIAN CAPITAL LETTER EP', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CA0, name: 'OLD HUNGARIAN CAPITAL LETTER EP', category: Cat::Uppercase_Letter, informativeAliases: ['P'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EP = "\u{10CA0}";
 
     #[Info(id: 0x10CA1, name: 'OLD HUNGARIAN CAPITAL LETTER EMP', category: Cat::Uppercase_Letter)]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EMP = "\u{10CA1}";
 
-    #[Info(id: 0x10CA2, name: 'OLD HUNGARIAN CAPITAL LETTER ER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CA2, name: 'OLD HUNGARIAN CAPITAL LETTER ER', category: Cat::Uppercase_Letter, informativeAliases: ['R'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_ER = "\u{10CA2}";
 
     #[Info(id: 0x10CA3, name: 'OLD HUNGARIAN CAPITAL LETTER SHORT ER', category: Cat::Uppercase_Letter)]
     case OLD_HUNGARIAN_CAPITAL_LETTER_SHORT_ER = "\u{10CA3}";
 
-    #[Info(id: 0x10CA4, name: 'OLD HUNGARIAN CAPITAL LETTER ES', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CA4, name: 'OLD HUNGARIAN CAPITAL LETTER ES', category: Cat::Uppercase_Letter, informativeAliases: ['S'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_ES = "\u{10CA4}";
 
-    #[Info(id: 0x10CA5, name: 'OLD HUNGARIAN CAPITAL LETTER ESZ', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CA5, name: 'OLD HUNGARIAN CAPITAL LETTER ESZ', category: Cat::Uppercase_Letter, informativeAliases: ['Sz'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_ESZ = "\u{10CA5}";
 
-    #[Info(id: 0x10CA6, name: 'OLD HUNGARIAN CAPITAL LETTER ET', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CA6, name: 'OLD HUNGARIAN CAPITAL LETTER ET', category: Cat::Uppercase_Letter, informativeAliases: ['T'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_ET = "\u{10CA6}";
 
     #[Info(id: 0x10CA7, name: 'OLD HUNGARIAN CAPITAL LETTER ENT', category: Cat::Uppercase_Letter)]
     case OLD_HUNGARIAN_CAPITAL_LETTER_ENT = "\u{10CA7}";
 
-    #[Info(id: 0x10CA8, name: 'OLD HUNGARIAN CAPITAL LETTER ETY', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CA8, name: 'OLD HUNGARIAN CAPITAL LETTER ETY', category: Cat::Uppercase_Letter, informativeAliases: ['Ty'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_ETY = "\u{10CA8}";
 
     #[Info(id: 0x10CA9, name: 'OLD HUNGARIAN CAPITAL LETTER ECH', category: Cat::Uppercase_Letter)]
@@ -145,22 +145,22 @@ enum Old_Hungarian: string
     #[Info(id: 0x10CAA, name: 'OLD HUNGARIAN CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
     case OLD_HUNGARIAN_CAPITAL_LETTER_U = "\u{10CAA}";
 
-    #[Info(id: 0x10CAB, name: 'OLD HUNGARIAN CAPITAL LETTER UU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CAB, name: 'OLD HUNGARIAN CAPITAL LETTER UU', category: Cat::Uppercase_Letter, informativeAliases: ['Ú'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_UU = "\u{10CAB}";
 
-    #[Info(id: 0x10CAC, name: 'OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG UE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CAC, name: 'OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG UE', category: Cat::Uppercase_Letter, informativeAliases: ['Ü'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_NIKOLSBURG_UE = "\u{10CAC}";
 
-    #[Info(id: 0x10CAD, name: 'OLD HUNGARIAN CAPITAL LETTER RUDIMENTA UE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CAD, name: 'OLD HUNGARIAN CAPITAL LETTER RUDIMENTA UE', category: Cat::Uppercase_Letter, informativeAliases: ['Ü, Ű'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_RUDIMENTA_UE = "\u{10CAD}";
 
-    #[Info(id: 0x10CAE, name: 'OLD HUNGARIAN CAPITAL LETTER EV', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CAE, name: 'OLD HUNGARIAN CAPITAL LETTER EV', category: Cat::Uppercase_Letter, informativeAliases: ['V'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EV = "\u{10CAE}";
 
-    #[Info(id: 0x10CAF, name: 'OLD HUNGARIAN CAPITAL LETTER EZ', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CAF, name: 'OLD HUNGARIAN CAPITAL LETTER EZ', category: Cat::Uppercase_Letter, informativeAliases: ['Z'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EZ = "\u{10CAF}";
 
-    #[Info(id: 0x10CB0, name: 'OLD HUNGARIAN CAPITAL LETTER EZS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CB0, name: 'OLD HUNGARIAN CAPITAL LETTER EZS', category: Cat::Uppercase_Letter, informativeAliases: ['Zs'])]
     case OLD_HUNGARIAN_CAPITAL_LETTER_EZS = "\u{10CB0}";
 
     #[Info(id: 0x10CB1, name: 'OLD HUNGARIAN CAPITAL LETTER ENT-SHAPED SIGN', category: Cat::Uppercase_Letter)]
@@ -172,25 +172,25 @@ enum Old_Hungarian: string
     #[Info(id: 0x10CC0, name: 'OLD HUNGARIAN SMALL LETTER A', category: Cat::Lowercase_Letter)]
     case OLD_HUNGARIAN_SMALL_LETTER_A = "\u{10CC0}";
 
-    #[Info(id: 0x10CC1, name: 'OLD HUNGARIAN SMALL LETTER AA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CC1, name: 'OLD HUNGARIAN SMALL LETTER AA', category: Cat::Lowercase_Letter, informativeAliases: ['á'])]
     case OLD_HUNGARIAN_SMALL_LETTER_AA = "\u{10CC1}";
 
-    #[Info(id: 0x10CC2, name: 'OLD HUNGARIAN SMALL LETTER EB', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CC2, name: 'OLD HUNGARIAN SMALL LETTER EB', category: Cat::Lowercase_Letter, informativeAliases: ['b'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EB = "\u{10CC2}";
 
     #[Info(id: 0x10CC3, name: 'OLD HUNGARIAN SMALL LETTER AMB', category: Cat::Lowercase_Letter)]
     case OLD_HUNGARIAN_SMALL_LETTER_AMB = "\u{10CC3}";
 
-    #[Info(id: 0x10CC4, name: 'OLD HUNGARIAN SMALL LETTER EC', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CC4, name: 'OLD HUNGARIAN SMALL LETTER EC', category: Cat::Lowercase_Letter, informativeAliases: ['c'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EC = "\u{10CC4}";
 
     #[Info(id: 0x10CC5, name: 'OLD HUNGARIAN SMALL LETTER ENC', category: Cat::Lowercase_Letter)]
     case OLD_HUNGARIAN_SMALL_LETTER_ENC = "\u{10CC5}";
 
-    #[Info(id: 0x10CC6, name: 'OLD HUNGARIAN SMALL LETTER ECS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CC6, name: 'OLD HUNGARIAN SMALL LETTER ECS', category: Cat::Lowercase_Letter, informativeAliases: ['cs'])]
     case OLD_HUNGARIAN_SMALL_LETTER_ECS = "\u{10CC6}";
 
-    #[Info(id: 0x10CC7, name: 'OLD HUNGARIAN SMALL LETTER ED', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CC7, name: 'OLD HUNGARIAN SMALL LETTER ED', category: Cat::Lowercase_Letter, informativeAliases: ['d'])]
     case OLD_HUNGARIAN_SMALL_LETTER_ED = "\u{10CC7}";
 
     #[Info(id: 0x10CC8, name: 'OLD HUNGARIAN SMALL LETTER AND', category: Cat::Lowercase_Letter)]
@@ -199,34 +199,34 @@ enum Old_Hungarian: string
     #[Info(id: 0x10CC9, name: 'OLD HUNGARIAN SMALL LETTER E', category: Cat::Lowercase_Letter)]
     case OLD_HUNGARIAN_SMALL_LETTER_E = "\u{10CC9}";
 
-    #[Info(id: 0x10CCA, name: 'OLD HUNGARIAN SMALL LETTER CLOSE E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CCA, name: 'OLD HUNGARIAN SMALL LETTER CLOSE E', category: Cat::Lowercase_Letter, informativeAliases: ['ë'])]
     case OLD_HUNGARIAN_SMALL_LETTER_CLOSE_E = "\u{10CCA}";
 
-    #[Info(id: 0x10CCB, name: 'OLD HUNGARIAN SMALL LETTER EE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CCB, name: 'OLD HUNGARIAN SMALL LETTER EE', category: Cat::Lowercase_Letter, informativeAliases: ['é'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EE = "\u{10CCB}";
 
-    #[Info(id: 0x10CCC, name: 'OLD HUNGARIAN SMALL LETTER EF', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CCC, name: 'OLD HUNGARIAN SMALL LETTER EF', category: Cat::Lowercase_Letter, informativeAliases: ['f'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EF = "\u{10CCC}";
 
-    #[Info(id: 0x10CCD, name: 'OLD HUNGARIAN SMALL LETTER EG', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CCD, name: 'OLD HUNGARIAN SMALL LETTER EG', category: Cat::Lowercase_Letter, informativeAliases: ['g'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EG = "\u{10CCD}";
 
-    #[Info(id: 0x10CCE, name: 'OLD HUNGARIAN SMALL LETTER EGY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CCE, name: 'OLD HUNGARIAN SMALL LETTER EGY', category: Cat::Lowercase_Letter, informativeAliases: ['gy'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EGY = "\u{10CCE}";
 
-    #[Info(id: 0x10CCF, name: 'OLD HUNGARIAN SMALL LETTER EH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CCF, name: 'OLD HUNGARIAN SMALL LETTER EH', category: Cat::Lowercase_Letter, informativeAliases: ['h'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EH = "\u{10CCF}";
 
     #[Info(id: 0x10CD0, name: 'OLD HUNGARIAN SMALL LETTER I', category: Cat::Lowercase_Letter)]
     case OLD_HUNGARIAN_SMALL_LETTER_I = "\u{10CD0}";
 
-    #[Info(id: 0x10CD1, name: 'OLD HUNGARIAN SMALL LETTER II', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CD1, name: 'OLD HUNGARIAN SMALL LETTER II', category: Cat::Lowercase_Letter, informativeAliases: ['í'])]
     case OLD_HUNGARIAN_SMALL_LETTER_II = "\u{10CD1}";
 
-    #[Info(id: 0x10CD2, name: 'OLD HUNGARIAN SMALL LETTER EJ', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CD2, name: 'OLD HUNGARIAN SMALL LETTER EJ', category: Cat::Lowercase_Letter, informativeAliases: ['j'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EJ = "\u{10CD2}";
 
-    #[Info(id: 0x10CD3, name: 'OLD HUNGARIAN SMALL LETTER EK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CD3, name: 'OLD HUNGARIAN SMALL LETTER EK', category: Cat::Lowercase_Letter, informativeAliases: ['k'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EK = "\u{10CD3}";
 
     #[Info(id: 0x10CD4, name: 'OLD HUNGARIAN SMALL LETTER AK', category: Cat::Lowercase_Letter)]
@@ -235,61 +235,61 @@ enum Old_Hungarian: string
     #[Info(id: 0x10CD5, name: 'OLD HUNGARIAN SMALL LETTER UNK', category: Cat::Lowercase_Letter)]
     case OLD_HUNGARIAN_SMALL_LETTER_UNK = "\u{10CD5}";
 
-    #[Info(id: 0x10CD6, name: 'OLD HUNGARIAN SMALL LETTER EL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CD6, name: 'OLD HUNGARIAN SMALL LETTER EL', category: Cat::Lowercase_Letter, informativeAliases: ['l'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EL = "\u{10CD6}";
 
-    #[Info(id: 0x10CD7, name: 'OLD HUNGARIAN SMALL LETTER ELY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CD7, name: 'OLD HUNGARIAN SMALL LETTER ELY', category: Cat::Lowercase_Letter, informativeAliases: ['ly'])]
     case OLD_HUNGARIAN_SMALL_LETTER_ELY = "\u{10CD7}";
 
-    #[Info(id: 0x10CD8, name: 'OLD HUNGARIAN SMALL LETTER EM', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CD8, name: 'OLD HUNGARIAN SMALL LETTER EM', category: Cat::Lowercase_Letter, informativeAliases: ['m'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EM = "\u{10CD8}";
 
-    #[Info(id: 0x10CD9, name: 'OLD HUNGARIAN SMALL LETTER EN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CD9, name: 'OLD HUNGARIAN SMALL LETTER EN', category: Cat::Lowercase_Letter, informativeAliases: ['n'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EN = "\u{10CD9}";
 
-    #[Info(id: 0x10CDA, name: 'OLD HUNGARIAN SMALL LETTER ENY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CDA, name: 'OLD HUNGARIAN SMALL LETTER ENY', category: Cat::Lowercase_Letter, informativeAliases: ['ny'])]
     case OLD_HUNGARIAN_SMALL_LETTER_ENY = "\u{10CDA}";
 
     #[Info(id: 0x10CDB, name: 'OLD HUNGARIAN SMALL LETTER O', category: Cat::Lowercase_Letter)]
     case OLD_HUNGARIAN_SMALL_LETTER_O = "\u{10CDB}";
 
-    #[Info(id: 0x10CDC, name: 'OLD HUNGARIAN SMALL LETTER OO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CDC, name: 'OLD HUNGARIAN SMALL LETTER OO', category: Cat::Lowercase_Letter, informativeAliases: ['ó'])]
     case OLD_HUNGARIAN_SMALL_LETTER_OO = "\u{10CDC}";
 
-    #[Info(id: 0x10CDD, name: 'OLD HUNGARIAN SMALL LETTER NIKOLSBURG OE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CDD, name: 'OLD HUNGARIAN SMALL LETTER NIKOLSBURG OE', category: Cat::Lowercase_Letter, informativeAliases: ['ö'])]
     case OLD_HUNGARIAN_SMALL_LETTER_NIKOLSBURG_OE = "\u{10CDD}";
 
-    #[Info(id: 0x10CDE, name: 'OLD HUNGARIAN SMALL LETTER RUDIMENTA OE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CDE, name: 'OLD HUNGARIAN SMALL LETTER RUDIMENTA OE', category: Cat::Lowercase_Letter, informativeAliases: ['ö'])]
     case OLD_HUNGARIAN_SMALL_LETTER_RUDIMENTA_OE = "\u{10CDE}";
 
-    #[Info(id: 0x10CDF, name: 'OLD HUNGARIAN SMALL LETTER OEE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CDF, name: 'OLD HUNGARIAN SMALL LETTER OEE', category: Cat::Lowercase_Letter, informativeAliases: ['ő'])]
     case OLD_HUNGARIAN_SMALL_LETTER_OEE = "\u{10CDF}";
 
-    #[Info(id: 0x10CE0, name: 'OLD HUNGARIAN SMALL LETTER EP', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CE0, name: 'OLD HUNGARIAN SMALL LETTER EP', category: Cat::Lowercase_Letter, informativeAliases: ['p'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EP = "\u{10CE0}";
 
     #[Info(id: 0x10CE1, name: 'OLD HUNGARIAN SMALL LETTER EMP', category: Cat::Lowercase_Letter)]
     case OLD_HUNGARIAN_SMALL_LETTER_EMP = "\u{10CE1}";
 
-    #[Info(id: 0x10CE2, name: 'OLD HUNGARIAN SMALL LETTER ER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CE2, name: 'OLD HUNGARIAN SMALL LETTER ER', category: Cat::Lowercase_Letter, informativeAliases: ['r'])]
     case OLD_HUNGARIAN_SMALL_LETTER_ER = "\u{10CE2}";
 
     #[Info(id: 0x10CE3, name: 'OLD HUNGARIAN SMALL LETTER SHORT ER', category: Cat::Lowercase_Letter)]
     case OLD_HUNGARIAN_SMALL_LETTER_SHORT_ER = "\u{10CE3}";
 
-    #[Info(id: 0x10CE4, name: 'OLD HUNGARIAN SMALL LETTER ES', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CE4, name: 'OLD HUNGARIAN SMALL LETTER ES', category: Cat::Lowercase_Letter, informativeAliases: ['s'])]
     case OLD_HUNGARIAN_SMALL_LETTER_ES = "\u{10CE4}";
 
-    #[Info(id: 0x10CE5, name: 'OLD HUNGARIAN SMALL LETTER ESZ', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CE5, name: 'OLD HUNGARIAN SMALL LETTER ESZ', category: Cat::Lowercase_Letter, informativeAliases: ['sz'])]
     case OLD_HUNGARIAN_SMALL_LETTER_ESZ = "\u{10CE5}";
 
-    #[Info(id: 0x10CE6, name: 'OLD HUNGARIAN SMALL LETTER ET', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CE6, name: 'OLD HUNGARIAN SMALL LETTER ET', category: Cat::Lowercase_Letter, informativeAliases: ['t'])]
     case OLD_HUNGARIAN_SMALL_LETTER_ET = "\u{10CE6}";
 
     #[Info(id: 0x10CE7, name: 'OLD HUNGARIAN SMALL LETTER ENT', category: Cat::Lowercase_Letter)]
     case OLD_HUNGARIAN_SMALL_LETTER_ENT = "\u{10CE7}";
 
-    #[Info(id: 0x10CE8, name: 'OLD HUNGARIAN SMALL LETTER ETY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CE8, name: 'OLD HUNGARIAN SMALL LETTER ETY', category: Cat::Lowercase_Letter, informativeAliases: ['ty'])]
     case OLD_HUNGARIAN_SMALL_LETTER_ETY = "\u{10CE8}";
 
     #[Info(id: 0x10CE9, name: 'OLD HUNGARIAN SMALL LETTER ECH', category: Cat::Lowercase_Letter)]
@@ -298,22 +298,22 @@ enum Old_Hungarian: string
     #[Info(id: 0x10CEA, name: 'OLD HUNGARIAN SMALL LETTER U', category: Cat::Lowercase_Letter)]
     case OLD_HUNGARIAN_SMALL_LETTER_U = "\u{10CEA}";
 
-    #[Info(id: 0x10CEB, name: 'OLD HUNGARIAN SMALL LETTER UU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CEB, name: 'OLD HUNGARIAN SMALL LETTER UU', category: Cat::Lowercase_Letter, informativeAliases: ['ú'])]
     case OLD_HUNGARIAN_SMALL_LETTER_UU = "\u{10CEB}";
 
-    #[Info(id: 0x10CEC, name: 'OLD HUNGARIAN SMALL LETTER NIKOLSBURG UE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CEC, name: 'OLD HUNGARIAN SMALL LETTER NIKOLSBURG UE', category: Cat::Lowercase_Letter, informativeAliases: ['ü'])]
     case OLD_HUNGARIAN_SMALL_LETTER_NIKOLSBURG_UE = "\u{10CEC}";
 
-    #[Info(id: 0x10CED, name: 'OLD HUNGARIAN SMALL LETTER RUDIMENTA UE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CED, name: 'OLD HUNGARIAN SMALL LETTER RUDIMENTA UE', category: Cat::Lowercase_Letter, informativeAliases: ['ü, ű'])]
     case OLD_HUNGARIAN_SMALL_LETTER_RUDIMENTA_UE = "\u{10CED}";
 
-    #[Info(id: 0x10CEE, name: 'OLD HUNGARIAN SMALL LETTER EV', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CEE, name: 'OLD HUNGARIAN SMALL LETTER EV', category: Cat::Lowercase_Letter, informativeAliases: ['v'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EV = "\u{10CEE}";
 
-    #[Info(id: 0x10CEF, name: 'OLD HUNGARIAN SMALL LETTER EZ', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CEF, name: 'OLD HUNGARIAN SMALL LETTER EZ', category: Cat::Lowercase_Letter, informativeAliases: ['z'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EZ = "\u{10CEF}";
 
-    #[Info(id: 0x10CF0, name: 'OLD HUNGARIAN SMALL LETTER EZS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10CF0, name: 'OLD HUNGARIAN SMALL LETTER EZS', category: Cat::Lowercase_Letter, informativeAliases: ['zs'])]
     case OLD_HUNGARIAN_SMALL_LETTER_EZS = "\u{10CF0}";
 
     #[Info(id: 0x10CF1, name: 'OLD HUNGARIAN SMALL LETTER ENT-SHAPED SIGN', category: Cat::Lowercase_Letter)]

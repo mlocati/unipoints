@@ -28,7 +28,7 @@ enum Symbols_and_Pictographs_ExtendedA: string
     #[Info(id: 0x1FA73, name: 'SHORTS', category: Cat::Other_Symbol)]
     case SHORTS = "\u{1FA73}";
 
-    #[Info(id: 0x1FA74, name: 'THONG SANDAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA74, name: 'THONG SANDAL', category: Cat::Other_Symbol, informativeAliases: ['flip flop'])]
     case THONG_SANDAL = "\u{1FA74}";
 
     #[Info(id: 0x1FA75, name: 'LIGHT BLUE HEART', category: Cat::Other_Symbol)]
@@ -160,7 +160,7 @@ enum Symbols_and_Pictographs_ExtendedA: string
     #[Info(id: 0x1FAA9, name: 'MIRROR BALL', category: Cat::Other_Symbol)]
     case MIRROR_BALL = "\u{1FAA9}";
 
-    #[Info(id: 0x1FAAA, name: 'IDENTIFICATION CARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FAAA, name: 'IDENTIFICATION CARD', category: Cat::Other_Symbol, informativeAliases: ['ID'])]
     case IDENTIFICATION_CARD = "\u{1FAAA}";
 
     #[Info(id: 0x1FAAB, name: 'LOW BATTERY', category: Cat::Other_Symbol)]

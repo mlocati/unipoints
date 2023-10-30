@@ -364,13 +364,13 @@ enum Tai_Tham: string
     #[Info(id: 0x1AA2, name: 'TAI THAM SIGN SAWAN', category: Cat::Other_Punctuation)]
     case TAI_THAM_SIGN_SAWAN = "\u{1AA2}";
 
-    #[Info(id: 0x1AA3, name: 'TAI THAM SIGN KEOW', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1AA3, name: 'TAI THAM SIGN KEOW', category: Cat::Other_Punctuation, informativeAliases: ['courtyard'])]
     case TAI_THAM_SIGN_KEOW = "\u{1AA3}";
 
-    #[Info(id: 0x1AA4, name: 'TAI THAM SIGN HOY', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1AA4, name: 'TAI THAM SIGN HOY', category: Cat::Other_Punctuation, informativeAliases: ['oyster'])]
     case TAI_THAM_SIGN_HOY = "\u{1AA4}";
 
-    #[Info(id: 0x1AA5, name: 'TAI THAM SIGN DOKMAI', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1AA5, name: 'TAI THAM SIGN DOKMAI', category: Cat::Other_Punctuation, informativeAliases: ['flower'])]
     case TAI_THAM_SIGN_DOKMAI = "\u{1AA5}";
 
     #[Info(id: 0x1AA6, name: 'TAI THAM SIGN REVERSED ROTATED RANA', category: Cat::Other_Punctuation)]

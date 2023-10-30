@@ -1891,10 +1891,10 @@ enum Arabic_Presentation_FormsA: string
     #[Info(id: 0xFDF9, name: 'ARABIC LIGATURE SALLA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SALLA_ISOLATED_FORM = "\u{FDF9}";
 
-    #[Info(id: 0xFDFA, name: 'ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDFA, name: 'ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM', category: Cat::Other_Letter, unicode1Name: 'ARABIC LETTER SALLALLAHOU ALAYHE WASALLAM')]
     case ARABIC_LIGATURE_SALLALLAHOU_ALAYHE_WASALLAM = "\u{FDFA}";
 
-    #[Info(id: 0xFDFB, name: 'ARABIC LIGATURE JALLAJALALOUHOU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDFB, name: 'ARABIC LIGATURE JALLAJALALOUHOU', category: Cat::Other_Letter, unicode1Name: 'ARABIC LETTER JALLAJALALOUHOU')]
     case ARABIC_LIGATURE_JALLAJALALOUHOU = "\u{FDFB}";
 
     #[Info(id: 0xFDFC, name: 'RIAL SIGN', category: Cat::Currency_Symbol)]

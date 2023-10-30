@@ -32,6 +32,29 @@ final class CodepointEnumTest extends TestCase
         return $result;
     }
 
+    public static function provideNameTestCases(): array
+    {
+        return [
+            [
+                Codepoint::NULL,
+                'NULL',
+                [
+                    'abbreviations' => ['NUL'],
+                ],
+            ],
+            [
+                Codepoint::LINE_FEED,
+                'LINE FEED',
+                [
+                    'controlNames' => ['NEW LINE', 'END OF LINE'],
+                    'abbreviations' => ['LF', 'EOL'],
+                    'unicode1Name' => 'LINE FEED (LF)',
+                    'informativeAliases' => ['new line (NL)', 'end of line (EOL)'],
+                ],
+            ],
+        ];
+    }
+
     /**
      * @dataProvider provideEnumClasses
      */
@@ -73,6 +96,30 @@ final class CodepointEnumTest extends TestCase
     {
         foreach (self::listEnumCases($className, $block) as [$case, $previousCase]) {
             $this->testInfo($case, $previousCase, $block);
+        }
+    }
+
+
+    /**
+     * @dataProvider provideNameTestCases
+     */
+    public function testNames(Codepoint $codepoint, string $expectedName, array $otherExpectedNames)
+    {
+        $info = CodepointInfo::from($codepoint);
+        $blockSpecificCodepoint = constant(Codepoint::class . "\\{$info->block->name}::{$codepoint->name}");
+        $blockSpecificInfo = CodepointInfo::from($blockSpecificCodepoint);
+        foreach ([$info, $blockSpecificInfo] as $info) {
+            $this->assertSame($expectedName, $info->name);
+            foreach ($otherExpectedNames as $property => $expectedNames) {
+                $actualNames = $info->{$property};
+                if (is_array($expectedNames)) {
+                    $this->assertIsArray($actualNames);
+                    $commonNames = array_intersect($expectedNames, $actualNames);
+                    $this->assertEqualsCanonicalizing($expectedNames, $commonNames);
+                } else {
+                    $this->assertSame($expectedNames, $actualNames);
+                }
+            }
         }
     }
 

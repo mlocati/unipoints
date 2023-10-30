@@ -55,13 +55,13 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F10C, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ZERO', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_ZERO = "\u{1F10C}";
 
-    #[Info(id: 0x1F10D, name: 'CIRCLED ZERO WITH SLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F10D, name: 'CIRCLED ZERO WITH SLASH', category: Cat::Other_Symbol, informativeAliases: ['no rights reserved'])]
     case CIRCLED_ZERO_WITH_SLASH = "\u{1F10D}";
 
-    #[Info(id: 0x1F10E, name: 'CIRCLED ANTICLOCKWISE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F10E, name: 'CIRCLED ANTICLOCKWISE ARROW', category: Cat::Other_Symbol, informativeAliases: ['share alike'])]
     case CIRCLED_ANTICLOCKWISE_ARROW = "\u{1F10E}";
 
-    #[Info(id: 0x1F10F, name: 'CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F10F, name: 'CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH', category: Cat::Other_Symbol, informativeAliases: ['non commercial'])]
     case CIRCLED_DOLLAR_SIGN_WITH_OVERLAID_BACKSLASH = "\u{1F10F}";
 
     #[Info(id: 0x1F110, name: 'PARENTHESIZED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
@@ -145,10 +145,10 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F12A, name: 'TORTOISE SHELL BRACKETED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
     case TORTOISE_SHELL_BRACKETED_LATIN_CAPITAL_LETTER_S = "\u{1F12A}";
 
-    #[Info(id: 0x1F12B, name: 'CIRCLED ITALIC LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F12B, name: 'CIRCLED ITALIC LATIN CAPITAL LETTER C', category: Cat::Other_Symbol, informativeAliases: ['compact disc, single disc record'])]
     case CIRCLED_ITALIC_LATIN_CAPITAL_LETTER_C = "\u{1F12B}";
 
-    #[Info(id: 0x1F12C, name: 'CIRCLED ITALIC LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F12C, name: 'CIRCLED ITALIC LATIN CAPITAL LETTER R', category: Cat::Other_Symbol, informativeAliases: ['disc record'])]
     case CIRCLED_ITALIC_LATIN_CAPITAL_LETTER_R = "\u{1F12C}";
 
     #[Info(id: 0x1F12D, name: 'CIRCLED CD', category: Cat::Other_Symbol)]
@@ -160,10 +160,10 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F12F, name: 'COPYLEFT SYMBOL', category: Cat::Other_Symbol)]
     case COPYLEFT_SYMBOL = "\u{1F12F}";
 
-    #[Info(id: 0x1F130, name: 'SQUARED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F130, name: 'SQUARED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol, informativeAliases: ['Anreisetag (day of arrival)'])]
     case SQUARED_LATIN_CAPITAL_LETTER_A = "\u{1F130}";
 
-    #[Info(id: 0x1F131, name: 'SQUARED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F131, name: 'SQUARED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol, informativeAliases: ['bank', 'b-mode stereo compression broadcasting service (ARIB STD B24)'])]
     case SQUARED_LATIN_CAPITAL_LETTER_B = "\u{1F131}";
 
     #[Info(id: 0x1F132, name: 'SQUARED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
@@ -199,13 +199,13 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F13C, name: 'SQUARED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_M = "\u{1F13C}";
 
-    #[Info(id: 0x1F13D, name: 'SQUARED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F13D, name: 'SQUARED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol, informativeAliases: ['news (ARIB STD B24)'])]
     case SQUARED_LATIN_CAPITAL_LETTER_N = "\u{1F13D}";
 
     #[Info(id: 0x1F13E, name: 'SQUARED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_O = "\u{1F13E}";
 
-    #[Info(id: 0x1F13F, name: 'SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F13F, name: 'SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol, informativeAliases: ['progressive broadcasting (ARIB STD B24)'])]
     case SQUARED_LATIN_CAPITAL_LETTER_P = "\u{1F13F}";
 
     #[Info(id: 0x1F140, name: 'SQUARED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
@@ -214,10 +214,10 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F141, name: 'SQUARED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_R = "\u{1F141}";
 
-    #[Info(id: 0x1F142, name: 'SQUARED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F142, name: 'SQUARED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol, informativeAliases: ['stereo broadcasting service (ARIB STD B24)'])]
     case SQUARED_LATIN_CAPITAL_LETTER_S = "\u{1F142}";
 
-    #[Info(id: 0x1F143, name: 'SQUARED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F143, name: 'SQUARED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol, informativeAliases: ['tobacconist'])]
     case SQUARED_LATIN_CAPITAL_LETTER_T = "\u{1F143}";
 
     #[Info(id: 0x1F144, name: 'SQUARED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
@@ -226,7 +226,7 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F145, name: 'SQUARED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_V = "\u{1F145}";
 
-    #[Info(id: 0x1F146, name: 'SQUARED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F146, name: 'SQUARED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol, informativeAliases: ['wide-format 16:9 broadcasting service (ARIB STD B24)'])]
     case SQUARED_LATIN_CAPITAL_LETTER_W = "\u{1F146}";
 
     #[Info(id: 0x1F147, name: 'SQUARED LATIN CAPITAL LETTER X', category: Cat::Other_Symbol)]
@@ -238,25 +238,25 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F149, name: 'SQUARED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_Z = "\u{1F149}";
 
-    #[Info(id: 0x1F14A, name: 'SQUARED HV', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14A, name: 'SQUARED HV', category: Cat::Other_Symbol, informativeAliases: ['hdtv'])]
     case SQUARED_HV = "\u{1F14A}";
 
-    #[Info(id: 0x1F14B, name: 'SQUARED MV', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14B, name: 'SQUARED MV', category: Cat::Other_Symbol, informativeAliases: ['multi-view television'])]
     case SQUARED_MV = "\u{1F14B}";
 
-    #[Info(id: 0x1F14C, name: 'SQUARED SD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14C, name: 'SQUARED SD', category: Cat::Other_Symbol, informativeAliases: ['sdtv'])]
     case SQUARED_SD = "\u{1F14C}";
 
-    #[Info(id: 0x1F14D, name: 'SQUARED SS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14D, name: 'SQUARED SS', category: Cat::Other_Symbol, informativeAliases: ['surround stereo broadcasting service'])]
     case SQUARED_SS = "\u{1F14D}";
 
-    #[Info(id: 0x1F14E, name: 'SQUARED PPV', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14E, name: 'SQUARED PPV', category: Cat::Other_Symbol, informativeAliases: ['pay-per-view'])]
     case SQUARED_PPV = "\u{1F14E}";
 
-    #[Info(id: 0x1F14F, name: 'SQUARED WC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14F, name: 'SQUARED WC', category: Cat::Other_Symbol, informativeAliases: ['water closet, public toilet'])]
     case SQUARED_WC = "\u{1F14F}";
 
-    #[Info(id: 0x1F150, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F150, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol, informativeAliases: ['airport'])]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_A = "\u{1F150}";
 
     #[Info(id: 0x1F151, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
@@ -271,13 +271,13 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F154, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_E = "\u{1F154}";
 
-    #[Info(id: 0x1F155, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F155, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol, informativeAliases: ['ferry'])]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_F = "\u{1F155}";
 
     #[Info(id: 0x1F156, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_G = "\u{1F156}";
 
-    #[Info(id: 0x1F157, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F157, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol, informativeAliases: ['hotel (ARIB STD B24)'])]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_H = "\u{1F157}";
 
     #[Info(id: 0x1F158, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
@@ -286,13 +286,13 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F159, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_J = "\u{1F159}";
 
-    #[Info(id: 0x1F15A, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F15A, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol, informativeAliases: ['Kurort (spa)'])]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_K = "\u{1F15A}";
 
-    #[Info(id: 0x1F15B, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F15B, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol, informativeAliases: ['light rail'])]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_L = "\u{1F15B}";
 
-    #[Info(id: 0x1F15C, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F15C, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol, informativeAliases: ['metro'])]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_M = "\u{1F15C}";
 
     #[Info(id: 0x1F15D, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
@@ -301,22 +301,22 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F15E, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_O = "\u{1F15E}";
 
-    #[Info(id: 0x1F15F, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F15F, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol, informativeAliases: ['parking space (ARIB STD B24)'])]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_P = "\u{1F15F}";
 
     #[Info(id: 0x1F160, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_Q = "\u{1F160}";
 
-    #[Info(id: 0x1F161, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F161, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol, informativeAliases: ['Raststätte (rest stop)'])]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_R = "\u{1F161}";
 
-    #[Info(id: 0x1F162, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F162, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol, informativeAliases: ['Stadtbahn (metropolitan railway)'])]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_S = "\u{1F162}";
 
-    #[Info(id: 0x1F163, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F163, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol, informativeAliases: ['Tankstelle (petrol station)'])]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_T = "\u{1F163}";
 
-    #[Info(id: 0x1F164, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F164, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol, informativeAliases: ['underground rail'])]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_U = "\u{1F164}";
 
     #[Info(id: 0x1F165, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
@@ -334,31 +334,31 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F169, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_Z = "\u{1F169}";
 
-    #[Info(id: 0x1F16A, name: 'RAISED MC SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16A, name: 'RAISED MC SIGN', category: Cat::Other_Symbol, informativeAliases: ['marque de commerce'])]
     case RAISED_MC_SIGN = "\u{1F16A}";
 
-    #[Info(id: 0x1F16B, name: 'RAISED MD SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16B, name: 'RAISED MD SIGN', category: Cat::Other_Symbol, informativeAliases: ['marque déposée'])]
     case RAISED_MD_SIGN = "\u{1F16B}";
 
-    #[Info(id: 0x1F16C, name: 'RAISED MR SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16C, name: 'RAISED MR SIGN', category: Cat::Other_Symbol, informativeAliases: ['marca registrada'])]
     case RAISED_MR_SIGN = "\u{1F16C}";
 
-    #[Info(id: 0x1F16D, name: 'CIRCLED CC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16D, name: 'CIRCLED CC', category: Cat::Other_Symbol, informativeAliases: ['Creative Commons license'])]
     case CIRCLED_CC = "\u{1F16D}";
 
-    #[Info(id: 0x1F16E, name: 'CIRCLED C WITH OVERLAID BACKSLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16E, name: 'CIRCLED C WITH OVERLAID BACKSLASH', category: Cat::Other_Symbol, informativeAliases: ['public domain'])]
     case CIRCLED_C_WITH_OVERLAID_BACKSLASH = "\u{1F16E}";
 
-    #[Info(id: 0x1F16F, name: 'CIRCLED HUMAN FIGURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16F, name: 'CIRCLED HUMAN FIGURE', category: Cat::Other_Symbol, informativeAliases: ['attribution, credit'])]
     case CIRCLED_HUMAN_FIGURE = "\u{1F16F}";
 
-    #[Info(id: 0x1F170, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F170, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol, informativeAliases: ['blood type A'])]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_A = "\u{1F170}";
 
-    #[Info(id: 0x1F171, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F171, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol, informativeAliases: ['blood type B'])]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_B = "\u{1F171}";
 
-    #[Info(id: 0x1F172, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F172, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol, informativeAliases: ['centre, city centre'])]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_C = "\u{1F172}";
 
     #[Info(id: 0x1F173, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER D', category: Cat::Other_Symbol)]
@@ -367,37 +367,37 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F174, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_E = "\u{1F174}";
 
-    #[Info(id: 0x1F175, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F175, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol, informativeAliases: ['Feuerwache (fire department)'])]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_F = "\u{1F175}";
 
     #[Info(id: 0x1F176, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_G = "\u{1F176}";
 
-    #[Info(id: 0x1F177, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F177, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol, informativeAliases: ['Haltestelle (bus stop)'])]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_H = "\u{1F177}";
 
     #[Info(id: 0x1F178, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_I = "\u{1F178}";
 
-    #[Info(id: 0x1F179, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F179, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol, informativeAliases: ['junction (ARIB STD B24)'])]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_J = "\u{1F179}";
 
     #[Info(id: 0x1F17A, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_K = "\u{1F17A}";
 
-    #[Info(id: 0x1F17B, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F17B, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol, informativeAliases: ['leisure center (ARIB STD B24)'])]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_L = "\u{1F17B}";
 
-    #[Info(id: 0x1F17C, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F17C, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol, informativeAliases: ['museum, cultural center (ARIB STD B24)'])]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_M = "\u{1F17C}";
 
     #[Info(id: 0x1F17D, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_N = "\u{1F17D}";
 
-    #[Info(id: 0x1F17E, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F17E, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol, informativeAliases: ['blood type O'])]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_O = "\u{1F17E}";
 
-    #[Info(id: 0x1F17F, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F17F, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol, informativeAliases: ['parking space empty-full (ARIB STD B24)'])]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_P = "\u{1F17F}";
 
     #[Info(id: 0x1F180, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
@@ -430,55 +430,55 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F189, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_Z = "\u{1F189}";
 
-    #[Info(id: 0x1F18A, name: 'CROSSED NEGATIVE SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18A, name: 'CROSSED NEGATIVE SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol, informativeAliases: ['parking space closed'])]
     case CROSSED_NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_P = "\u{1F18A}";
 
-    #[Info(id: 0x1F18B, name: 'NEGATIVE SQUARED IC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18B, name: 'NEGATIVE SQUARED IC', category: Cat::Other_Symbol, informativeAliases: ['interchange, ramp'])]
     case NEGATIVE_SQUARED_IC = "\u{1F18B}";
 
-    #[Info(id: 0x1F18C, name: 'NEGATIVE SQUARED PA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18C, name: 'NEGATIVE SQUARED PA', category: Cat::Other_Symbol, informativeAliases: ['parking area'])]
     case NEGATIVE_SQUARED_PA = "\u{1F18C}";
 
-    #[Info(id: 0x1F18D, name: 'NEGATIVE SQUARED SA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18D, name: 'NEGATIVE SQUARED SA', category: Cat::Other_Symbol, informativeAliases: ['service area'])]
     case NEGATIVE_SQUARED_SA = "\u{1F18D}";
 
-    #[Info(id: 0x1F18E, name: 'NEGATIVE SQUARED AB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18E, name: 'NEGATIVE SQUARED AB', category: Cat::Other_Symbol, informativeAliases: ['blood type AB'])]
     case NEGATIVE_SQUARED_AB = "\u{1F18E}";
 
-    #[Info(id: 0x1F18F, name: 'NEGATIVE SQUARED WC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18F, name: 'NEGATIVE SQUARED WC', category: Cat::Other_Symbol, informativeAliases: ['water closet, public toilet'])]
     case NEGATIVE_SQUARED_WC = "\u{1F18F}";
 
-    #[Info(id: 0x1F190, name: 'SQUARE DJ', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F190, name: 'SQUARE DJ', category: Cat::Other_Symbol, informativeAliases: ['disc jockey'])]
     case SQUARE_DJ = "\u{1F190}";
 
-    #[Info(id: 0x1F191, name: 'SQUARED CL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F191, name: 'SQUARED CL', category: Cat::Other_Symbol, informativeAliases: ['clear'])]
     case SQUARED_CL = "\u{1F191}";
 
     #[Info(id: 0x1F192, name: 'SQUARED COOL', category: Cat::Other_Symbol)]
     case SQUARED_COOL = "\u{1F192}";
 
-    #[Info(id: 0x1F193, name: 'SQUARED FREE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F193, name: 'SQUARED FREE', category: Cat::Other_Symbol, informativeAliases: ['free postage'])]
     case SQUARED_FREE = "\u{1F193}";
 
-    #[Info(id: 0x1F194, name: 'SQUARED ID', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F194, name: 'SQUARED ID', category: Cat::Other_Symbol, informativeAliases: ['identification, ID'])]
     case SQUARED_ID = "\u{1F194}";
 
     #[Info(id: 0x1F195, name: 'SQUARED NEW', category: Cat::Other_Symbol)]
     case SQUARED_NEW = "\u{1F195}";
 
-    #[Info(id: 0x1F196, name: 'SQUARED NG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F196, name: 'SQUARED NG', category: Cat::Other_Symbol, informativeAliases: ['no good'])]
     case SQUARED_NG = "\u{1F196}";
 
     #[Info(id: 0x1F197, name: 'SQUARED OK', category: Cat::Other_Symbol)]
     case SQUARED_OK = "\u{1F197}";
 
-    #[Info(id: 0x1F198, name: 'SQUARED SOS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F198, name: 'SQUARED SOS', category: Cat::Other_Symbol, informativeAliases: ['search, hunt for missing person'])]
     case SQUARED_SOS = "\u{1F198}";
 
-    #[Info(id: 0x1F199, name: 'SQUARED UP WITH EXCLAMATION MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F199, name: 'SQUARED UP WITH EXCLAMATION MARK', category: Cat::Other_Symbol, informativeAliases: ['new information, update'])]
     case SQUARED_UP_WITH_EXCLAMATION_MARK = "\u{1F199}";
 
-    #[Info(id: 0x1F19A, name: 'SQUARED VS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F19A, name: 'SQUARED VS', category: Cat::Other_Symbol, informativeAliases: ['versus'])]
     case SQUARED_VS = "\u{1F19A}";
 
     #[Info(id: 0x1F19B, name: 'SQUARED THREE D', category: Cat::Other_Symbol)]
@@ -511,28 +511,28 @@ enum Enclosed_Alphanumeric_Supplement: string
     #[Info(id: 0x1F1A4, name: 'SQUARED ONE HUNDRED TWENTY P', category: Cat::Other_Symbol)]
     case SQUARED_ONE_HUNDRED_TWENTY_P = "\u{1F1A4}";
 
-    #[Info(id: 0x1F1A5, name: 'SQUARED LATIN SMALL LETTER D', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A5, name: 'SQUARED LATIN SMALL LETTER D', category: Cat::Other_Symbol, informativeAliases: ['data'])]
     case SQUARED_LATIN_SMALL_LETTER_D = "\u{1F1A5}";
 
-    #[Info(id: 0x1F1A6, name: 'SQUARED HC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A6, name: 'SQUARED HC', category: Cat::Other_Symbol, informativeAliases: ['hybrid cast'])]
     case SQUARED_HC = "\u{1F1A6}";
 
-    #[Info(id: 0x1F1A7, name: 'SQUARED HDR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A7, name: 'SQUARED HDR', category: Cat::Other_Symbol, informativeAliases: ['high dynamic range'])]
     case SQUARED_HDR = "\u{1F1A7}";
 
-    #[Info(id: 0x1F1A8, name: 'SQUARED HI-RES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A8, name: 'SQUARED HI-RES', category: Cat::Other_Symbol, informativeAliases: ['high resolution'])]
     case SQUARED_HI_RES = "\u{1F1A8}";
 
     #[Info(id: 0x1F1A9, name: 'SQUARED LOSSLESS', category: Cat::Other_Symbol)]
     case SQUARED_LOSSLESS = "\u{1F1A9}";
 
-    #[Info(id: 0x1F1AA, name: 'SQUARED SHV', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1AA, name: 'SQUARED SHV', category: Cat::Other_Symbol, informativeAliases: ['super high vision'])]
     case SQUARED_SHV = "\u{1F1AA}";
 
-    #[Info(id: 0x1F1AB, name: 'SQUARED UHD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1AB, name: 'SQUARED UHD', category: Cat::Other_Symbol, informativeAliases: ['ultra-high definition'])]
     case SQUARED_UHD = "\u{1F1AB}";
 
-    #[Info(id: 0x1F1AC, name: 'SQUARED VOD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1AC, name: 'SQUARED VOD', category: Cat::Other_Symbol, informativeAliases: ['video on demand'])]
     case SQUARED_VOD = "\u{1F1AC}";
 
     #[Info(id: 0x1F1AD, name: 'MASK WORK SYMBOL', category: Cat::Other_Symbol)]

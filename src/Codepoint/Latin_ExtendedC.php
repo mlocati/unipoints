@@ -55,7 +55,7 @@ enum Latin_ExtendedC: string
     #[Info(id: 0x2C6C, name: 'LATIN SMALL LETTER Z WITH DESCENDER', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Z_WITH_DESCENDER = "\u{2C6C}";
 
-    #[Info(id: 0x2C6D, name: 'LATIN CAPITAL LETTER ALPHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C6D, name: 'LATIN CAPITAL LETTER ALPHA', category: Cat::Uppercase_Letter, informativeAliases: ['capital script a'])]
     case LATIN_CAPITAL_LETTER_ALPHA = "\u{2C6D}";
 
     #[Info(id: 0x2C6E, name: 'LATIN CAPITAL LETTER M WITH HOOK', category: Cat::Uppercase_Letter)]

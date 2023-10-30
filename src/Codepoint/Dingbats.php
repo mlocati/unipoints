@@ -43,16 +43,16 @@ enum Dingbats: string
     #[Info(id: 0x2708, name: 'AIRPLANE', category: Cat::Other_Symbol)]
     case AIRPLANE = "\u{2708}";
 
-    #[Info(id: 0x2709, name: 'ENVELOPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2709, name: 'ENVELOPE', category: Cat::Other_Symbol, informativeAliases: ['sealed envelope'])]
     case ENVELOPE = "\u{2709}";
 
-    #[Info(id: 0x270A, name: 'RAISED FIST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x270A, name: 'RAISED FIST', category: Cat::Other_Symbol, informativeAliases: ['rock in Rock, Paper, Scissors game'])]
     case RAISED_FIST = "\u{270A}";
 
-    #[Info(id: 0x270B, name: 'RAISED HAND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x270B, name: 'RAISED HAND', category: Cat::Other_Symbol, informativeAliases: ['paper in Rock, Paper, Scissors game'])]
     case RAISED_HAND = "\u{270B}";
 
-    #[Info(id: 0x270C, name: 'VICTORY HAND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x270C, name: 'VICTORY HAND', category: Cat::Other_Symbol, informativeAliases: ['scissors in Rock, Paper, Scissors game'])]
     case VICTORY_HAND = "\u{270C}";
 
     #[Info(id: 0x270D, name: 'WRITING HAND', category: Cat::Other_Symbol)]
@@ -97,10 +97,10 @@ enum Dingbats: string
     #[Info(id: 0x271A, name: 'HEAVY GREEK CROSS', category: Cat::Other_Symbol)]
     case HEAVY_GREEK_CROSS = "\u{271A}";
 
-    #[Info(id: 0x271B, name: 'OPEN CENTRE CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x271B, name: 'OPEN CENTRE CROSS', category: Cat::Other_Symbol, unicode1Name: 'OPEN CENTER CROSS')]
     case OPEN_CENTRE_CROSS = "\u{271B}";
 
-    #[Info(id: 0x271C, name: 'HEAVY OPEN CENTRE CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x271C, name: 'HEAVY OPEN CENTRE CROSS', category: Cat::Other_Symbol, unicode1Name: 'HEAVY OPEN CENTER CROSS')]
     case HEAVY_OPEN_CENTRE_CROSS = "\u{271C}";
 
     #[Info(id: 0x271D, name: 'LATIN CROSS', category: Cat::Other_Symbol)]
@@ -145,10 +145,10 @@ enum Dingbats: string
     #[Info(id: 0x272A, name: 'CIRCLED WHITE STAR', category: Cat::Other_Symbol)]
     case CIRCLED_WHITE_STAR = "\u{272A}";
 
-    #[Info(id: 0x272B, name: 'OPEN CENTRE BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x272B, name: 'OPEN CENTRE BLACK STAR', category: Cat::Other_Symbol, unicode1Name: 'OPEN CENTER BLACK STAR')]
     case OPEN_CENTRE_BLACK_STAR = "\u{272B}";
 
-    #[Info(id: 0x272C, name: 'BLACK CENTRE WHITE STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x272C, name: 'BLACK CENTRE WHITE STAR', category: Cat::Other_Symbol, unicode1Name: 'BLACK CENTER WHITE STAR')]
     case BLACK_CENTRE_WHITE_STAR = "\u{272C}";
 
     #[Info(id: 0x272D, name: 'OUTLINED BLACK STAR', category: Cat::Other_Symbol)]
@@ -166,7 +166,7 @@ enum Dingbats: string
     #[Info(id: 0x2731, name: 'HEAVY ASTERISK', category: Cat::Other_Symbol)]
     case HEAVY_ASTERISK = "\u{2731}";
 
-    #[Info(id: 0x2732, name: 'OPEN CENTRE ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2732, name: 'OPEN CENTRE ASTERISK', category: Cat::Other_Symbol, unicode1Name: 'OPEN CENTER ASTERISK')]
     case OPEN_CENTRE_ASTERISK = "\u{2732}";
 
     #[Info(id: 0x2733, name: 'EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
@@ -190,13 +190,13 @@ enum Dingbats: string
     #[Info(id: 0x2739, name: 'TWELVE POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case TWELVE_POINTED_BLACK_STAR = "\u{2739}";
 
-    #[Info(id: 0x273A, name: 'SIXTEEN POINTED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x273A, name: 'SIXTEEN POINTED ASTERISK', category: Cat::Other_Symbol, informativeAliases: ['starburst'])]
     case SIXTEEN_POINTED_ASTERISK = "\u{273A}";
 
     #[Info(id: 0x273B, name: 'TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case TEARDROP_SPOKED_ASTERISK = "\u{273B}";
 
-    #[Info(id: 0x273C, name: 'OPEN CENTRE TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x273C, name: 'OPEN CENTRE TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol, unicode1Name: 'OPEN CENTER TEARDROP-SPOKED ASTERISK')]
     case OPEN_CENTRE_TEARDROP_SPOKED_ASTERISK = "\u{273C}";
 
     #[Info(id: 0x273D, name: 'HEAVY TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol)]
@@ -214,7 +214,7 @@ enum Dingbats: string
     #[Info(id: 0x2741, name: 'EIGHT PETALLED OUTLINED BLACK FLORETTE', category: Cat::Other_Symbol)]
     case EIGHT_PETALLED_OUTLINED_BLACK_FLORETTE = "\u{2741}";
 
-    #[Info(id: 0x2742, name: 'CIRCLED OPEN CENTRE EIGHT POINTED STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2742, name: 'CIRCLED OPEN CENTRE EIGHT POINTED STAR', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED OPEN CENTER EIGHT POINTED STAR')]
     case CIRCLED_OPEN_CENTRE_EIGHT_POINTED_STAR = "\u{2742}";
 
     #[Info(id: 0x2743, name: 'HEAVY TEARDROP-SPOKED PINWHEEL ASTERISK', category: Cat::Other_Symbol)]
@@ -235,13 +235,13 @@ enum Dingbats: string
     #[Info(id: 0x2748, name: 'HEAVY SPARKLE', category: Cat::Other_Symbol)]
     case HEAVY_SPARKLE = "\u{2748}";
 
-    #[Info(id: 0x2749, name: 'BALLOON-SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2749, name: 'BALLOON-SPOKED ASTERISK', category: Cat::Other_Symbol, informativeAliases: ['jack'])]
     case BALLOON_SPOKED_ASTERISK = "\u{2749}";
 
     #[Info(id: 0x274A, name: 'EIGHT TEARDROP-SPOKED PROPELLER ASTERISK', category: Cat::Other_Symbol)]
     case EIGHT_TEARDROP_SPOKED_PROPELLER_ASTERISK = "\u{274A}";
 
-    #[Info(id: 0x274B, name: 'HEAVY EIGHT TEARDROP-SPOKED PROPELLER ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x274B, name: 'HEAVY EIGHT TEARDROP-SPOKED PROPELLER ASTERISK', category: Cat::Other_Symbol, informativeAliases: ['turbofan'])]
     case HEAVY_EIGHT_TEARDROP_SPOKED_PROPELLER_ASTERISK = "\u{274B}";
 
     #[Info(id: 0x274C, name: 'CROSS MARK', category: Cat::Other_Symbol)]
@@ -277,7 +277,7 @@ enum Dingbats: string
     #[Info(id: 0x2756, name: 'BLACK DIAMOND MINUS WHITE X', category: Cat::Other_Symbol)]
     case BLACK_DIAMOND_MINUS_WHITE_X = "\u{2756}";
 
-    #[Info(id: 0x2757, name: 'HEAVY EXCLAMATION MARK SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2757, name: 'HEAVY EXCLAMATION MARK SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['obstacles on the road, ARIB STD B24'])]
     case HEAVY_EXCLAMATION_MARK_SYMBOL = "\u{2757}";
 
     #[Info(id: 0x2758, name: 'LIGHT VERTICAL BAR', category: Cat::Other_Symbol)]
@@ -322,10 +322,10 @@ enum Dingbats: string
     #[Info(id: 0x2765, name: 'ROTATED HEAVY BLACK HEART BULLET', category: Cat::Other_Symbol)]
     case ROTATED_HEAVY_BLACK_HEART_BULLET = "\u{2765}";
 
-    #[Info(id: 0x2766, name: 'FLORAL HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2766, name: 'FLORAL HEART', category: Cat::Other_Symbol, informativeAliases: ['Aldus leaf'])]
     case FLORAL_HEART = "\u{2766}";
 
-    #[Info(id: 0x2767, name: 'ROTATED FLORAL HEART BULLET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2767, name: 'ROTATED FLORAL HEART BULLET', category: Cat::Other_Symbol, informativeAliases: ['hedera, ivy leaf'])]
     case ROTATED_FLORAL_HEART_BULLET = "\u{2767}";
 
     #[Info(id: 0x2768, name: 'MEDIUM LEFT PARENTHESIS ORNAMENT', category: Cat::Open_Punctuation)]
@@ -370,97 +370,97 @@ enum Dingbats: string
     #[Info(id: 0x2775, name: 'MEDIUM RIGHT CURLY BRACKET ORNAMENT', category: Cat::Close_Punctuation)]
     case MEDIUM_RIGHT_CURLY_BRACKET_ORNAMENT = "\u{2775}";
 
-    #[Info(id: 0x2776, name: 'DINGBAT NEGATIVE CIRCLED DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x2776, name: 'DINGBAT NEGATIVE CIRCLED DIGIT ONE', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED DIGIT ONE')]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_ONE = "\u{2776}";
 
-    #[Info(id: 0x2777, name: 'DINGBAT NEGATIVE CIRCLED DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x2777, name: 'DINGBAT NEGATIVE CIRCLED DIGIT TWO', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED DIGIT TWO')]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_TWO = "\u{2777}";
 
-    #[Info(id: 0x2778, name: 'DINGBAT NEGATIVE CIRCLED DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x2778, name: 'DINGBAT NEGATIVE CIRCLED DIGIT THREE', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED DIGIT THREE')]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_THREE = "\u{2778}";
 
-    #[Info(id: 0x2779, name: 'DINGBAT NEGATIVE CIRCLED DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x2779, name: 'DINGBAT NEGATIVE CIRCLED DIGIT FOUR', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED DIGIT FOUR')]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_FOUR = "\u{2779}";
 
-    #[Info(id: 0x277A, name: 'DINGBAT NEGATIVE CIRCLED DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x277A, name: 'DINGBAT NEGATIVE CIRCLED DIGIT FIVE', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED DIGIT FIVE')]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_FIVE = "\u{277A}";
 
-    #[Info(id: 0x277B, name: 'DINGBAT NEGATIVE CIRCLED DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x277B, name: 'DINGBAT NEGATIVE CIRCLED DIGIT SIX', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED DIGIT SIX')]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_SIX = "\u{277B}";
 
-    #[Info(id: 0x277C, name: 'DINGBAT NEGATIVE CIRCLED DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x277C, name: 'DINGBAT NEGATIVE CIRCLED DIGIT SEVEN', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED DIGIT SEVEN')]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_SEVEN = "\u{277C}";
 
-    #[Info(id: 0x277D, name: 'DINGBAT NEGATIVE CIRCLED DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x277D, name: 'DINGBAT NEGATIVE CIRCLED DIGIT EIGHT', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED DIGIT EIGHT')]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_EIGHT = "\u{277D}";
 
-    #[Info(id: 0x277E, name: 'DINGBAT NEGATIVE CIRCLED DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x277E, name: 'DINGBAT NEGATIVE CIRCLED DIGIT NINE', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED DIGIT NINE')]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_NINE = "\u{277E}";
 
-    #[Info(id: 0x277F, name: 'DINGBAT NEGATIVE CIRCLED NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x277F, name: 'DINGBAT NEGATIVE CIRCLED NUMBER TEN', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED NUMBER TEN')]
     case DINGBAT_NEGATIVE_CIRCLED_NUMBER_TEN = "\u{277F}";
 
-    #[Info(id: 0x2780, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x2780, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT ONE', category: Cat::Other_Number, unicode1Name: 'CIRCLED SANS-SERIF DIGIT ONE')]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_ONE = "\u{2780}";
 
-    #[Info(id: 0x2781, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x2781, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT TWO', category: Cat::Other_Number, unicode1Name: 'CIRCLED SANS-SERIF DIGIT TWO')]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_TWO = "\u{2781}";
 
-    #[Info(id: 0x2782, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x2782, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT THREE', category: Cat::Other_Number, unicode1Name: 'CIRCLED SANS-SERIF DIGIT THREE')]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_THREE = "\u{2782}";
 
-    #[Info(id: 0x2783, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x2783, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT FOUR', category: Cat::Other_Number, unicode1Name: 'CIRCLED SANS-SERIF DIGIT FOUR')]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_FOUR = "\u{2783}";
 
-    #[Info(id: 0x2784, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x2784, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT FIVE', category: Cat::Other_Number, unicode1Name: 'CIRCLED SANS-SERIF DIGIT FIVE')]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_FIVE = "\u{2784}";
 
-    #[Info(id: 0x2785, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x2785, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT SIX', category: Cat::Other_Number, unicode1Name: 'CIRCLED SANS-SERIF DIGIT SIX')]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_SIX = "\u{2785}";
 
-    #[Info(id: 0x2786, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2786, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT SEVEN', category: Cat::Other_Number, unicode1Name: 'CIRCLED SANS-SERIF DIGIT SEVEN')]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_SEVEN = "\u{2786}";
 
-    #[Info(id: 0x2787, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x2787, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT EIGHT', category: Cat::Other_Number, unicode1Name: 'CIRCLED SANS-SERIF DIGIT EIGHT')]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_EIGHT = "\u{2787}";
 
-    #[Info(id: 0x2788, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x2788, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT NINE', category: Cat::Other_Number, unicode1Name: 'CIRCLED SANS-SERIF DIGIT NINE')]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_NINE = "\u{2788}";
 
-    #[Info(id: 0x2789, name: 'DINGBAT CIRCLED SANS-SERIF NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2789, name: 'DINGBAT CIRCLED SANS-SERIF NUMBER TEN', category: Cat::Other_Number, unicode1Name: 'CIRCLED SANS-SERIF NUMBER TEN')]
     case DINGBAT_CIRCLED_SANS_SERIF_NUMBER_TEN = "\u{2789}";
 
-    #[Info(id: 0x278A, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x278A, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ONE', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED SANS-SERIF DIGIT ONE')]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_ONE = "\u{278A}";
 
-    #[Info(id: 0x278B, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x278B, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT TWO', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED SANS-SERIF DIGIT TWO')]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_TWO = "\u{278B}";
 
-    #[Info(id: 0x278C, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x278C, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT THREE', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED SANS-SERIF DIGIT THREE')]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_THREE = "\u{278C}";
 
-    #[Info(id: 0x278D, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x278D, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FOUR', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED SANS-SERIF DIGIT FOUR')]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_FOUR = "\u{278D}";
 
-    #[Info(id: 0x278E, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x278E, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FIVE', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED SANS-SERIF DIGIT FIVE')]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_FIVE = "\u{278E}";
 
-    #[Info(id: 0x278F, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x278F, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SIX', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED SANS-SERIF DIGIT SIX')]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_SIX = "\u{278F}";
 
-    #[Info(id: 0x2790, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2790, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SEVEN', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED SANS-SERIF DIGIT SEVEN')]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_SEVEN = "\u{2790}";
 
-    #[Info(id: 0x2791, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x2791, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT EIGHT', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED SANS-SERIF DIGIT EIGHT')]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_EIGHT = "\u{2791}";
 
-    #[Info(id: 0x2792, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x2792, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT NINE', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED SANS-SERIF DIGIT NINE')]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_NINE = "\u{2792}";
 
-    #[Info(id: 0x2793, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2793, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF NUMBER TEN', category: Cat::Other_Number, unicode1Name: 'INVERSE CIRCLED SANS-SERIF NUMBER TEN')]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_NUMBER_TEN = "\u{2793}";
 
-    #[Info(id: 0x2794, name: 'HEAVY WIDE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2794, name: 'HEAVY WIDE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY WIDE-HEADED RIGHT ARROW')]
     case HEAVY_WIDE_HEADED_RIGHTWARDS_ARROW = "\u{2794}";
 
     #[Info(id: 0x2795, name: 'HEAVY PLUS SIGN', category: Cat::Other_Symbol)]
@@ -472,121 +472,121 @@ enum Dingbats: string
     #[Info(id: 0x2797, name: 'HEAVY DIVISION SIGN', category: Cat::Other_Symbol)]
     case HEAVY_DIVISION_SIGN = "\u{2797}";
 
-    #[Info(id: 0x2798, name: 'HEAVY SOUTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2798, name: 'HEAVY SOUTH EAST ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY LOWER RIGHT ARROW')]
     case HEAVY_SOUTH_EAST_ARROW = "\u{2798}";
 
-    #[Info(id: 0x2799, name: 'HEAVY RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2799, name: 'HEAVY RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY RIGHT ARROW')]
     case HEAVY_RIGHTWARDS_ARROW = "\u{2799}";
 
-    #[Info(id: 0x279A, name: 'HEAVY NORTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279A, name: 'HEAVY NORTH EAST ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY UPPER RIGHT ARROW')]
     case HEAVY_NORTH_EAST_ARROW = "\u{279A}";
 
-    #[Info(id: 0x279B, name: 'DRAFTING POINT RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279B, name: 'DRAFTING POINT RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'DRAFTING POINT RIGHT ARROW')]
     case DRAFTING_POINT_RIGHTWARDS_ARROW = "\u{279B}";
 
-    #[Info(id: 0x279C, name: 'HEAVY ROUND-TIPPED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279C, name: 'HEAVY ROUND-TIPPED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY ROUND-TIPPED RIGHT ARROW')]
     case HEAVY_ROUND_TIPPED_RIGHTWARDS_ARROW = "\u{279C}";
 
-    #[Info(id: 0x279D, name: 'TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279D, name: 'TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'TRIANGLE-HEADED RIGHT ARROW')]
     case TRIANGLE_HEADED_RIGHTWARDS_ARROW = "\u{279D}";
 
-    #[Info(id: 0x279E, name: 'HEAVY TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279E, name: 'HEAVY TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY TRIANGLE-HEADED RIGHT ARROW')]
     case HEAVY_TRIANGLE_HEADED_RIGHTWARDS_ARROW = "\u{279E}";
 
-    #[Info(id: 0x279F, name: 'DASHED TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279F, name: 'DASHED TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'DASHED TRIANGLE-HEADED RIGHT ARROW')]
     case DASHED_TRIANGLE_HEADED_RIGHTWARDS_ARROW = "\u{279F}";
 
-    #[Info(id: 0x27A0, name: 'HEAVY DASHED TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A0, name: 'HEAVY DASHED TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY DASHED TRIANGLE-HEADED RIGHT ARROW')]
     case HEAVY_DASHED_TRIANGLE_HEADED_RIGHTWARDS_ARROW = "\u{27A0}";
 
-    #[Info(id: 0x27A1, name: 'BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A1, name: 'BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'BLACK RIGHT ARROW')]
     case BLACK_RIGHTWARDS_ARROW = "\u{27A1}";
 
-    #[Info(id: 0x27A2, name: 'THREE-D TOP-LIGHTED RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A2, name: 'THREE-D TOP-LIGHTED RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol, unicode1Name: 'THREE-D TOP-LIGHTED RIGHT ARROWHEAD')]
     case THREE_D_TOP_LIGHTED_RIGHTWARDS_ARROWHEAD = "\u{27A2}";
 
-    #[Info(id: 0x27A3, name: 'THREE-D BOTTOM-LIGHTED RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A3, name: 'THREE-D BOTTOM-LIGHTED RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol, unicode1Name: 'THREE-D BOTTOM-LIGHTED RIGHT ARROWHEAD')]
     case THREE_D_BOTTOM_LIGHTED_RIGHTWARDS_ARROWHEAD = "\u{27A3}";
 
-    #[Info(id: 0x27A4, name: 'BLACK RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A4, name: 'BLACK RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol, unicode1Name: 'BLACK RIGHT ARROWHEAD')]
     case BLACK_RIGHTWARDS_ARROWHEAD = "\u{27A4}";
 
-    #[Info(id: 0x27A5, name: 'HEAVY BLACK CURVED DOWNWARDS AND RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A5, name: 'HEAVY BLACK CURVED DOWNWARDS AND RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY BLACK CURVED DOWN AND RIGHT ARROW')]
     case HEAVY_BLACK_CURVED_DOWNWARDS_AND_RIGHTWARDS_ARROW = "\u{27A5}";
 
-    #[Info(id: 0x27A6, name: 'HEAVY BLACK CURVED UPWARDS AND RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A6, name: 'HEAVY BLACK CURVED UPWARDS AND RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY BLACK CURVED UP AND RIGHT ARROW')]
     case HEAVY_BLACK_CURVED_UPWARDS_AND_RIGHTWARDS_ARROW = "\u{27A6}";
 
-    #[Info(id: 0x27A7, name: 'SQUAT BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A7, name: 'SQUAT BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'SQUAT BLACK RIGHT ARROW')]
     case SQUAT_BLACK_RIGHTWARDS_ARROW = "\u{27A7}";
 
-    #[Info(id: 0x27A8, name: 'HEAVY CONCAVE-POINTED BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A8, name: 'HEAVY CONCAVE-POINTED BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY CONCAVE-POINTED BLACK RIGHT ARROW')]
     case HEAVY_CONCAVE_POINTED_BLACK_RIGHTWARDS_ARROW = "\u{27A8}";
 
-    #[Info(id: 0x27A9, name: 'RIGHT-SHADED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A9, name: 'RIGHT-SHADED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'RIGHT-SHADED WHITE RIGHT ARROW')]
     case RIGHT_SHADED_WHITE_RIGHTWARDS_ARROW = "\u{27A9}";
 
-    #[Info(id: 0x27AA, name: 'LEFT-SHADED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AA, name: 'LEFT-SHADED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'LEFT-SHADED WHITE RIGHT ARROW')]
     case LEFT_SHADED_WHITE_RIGHTWARDS_ARROW = "\u{27AA}";
 
-    #[Info(id: 0x27AB, name: 'BACK-TILTED SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AB, name: 'BACK-TILTED SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'BACK-TILTED SHADOWED WHITE RIGHT ARROW')]
     case BACK_TILTED_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27AB}";
 
-    #[Info(id: 0x27AC, name: 'FRONT-TILTED SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AC, name: 'FRONT-TILTED SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'FRONT-TILTED SHADOWED WHITE RIGHT ARROW')]
     case FRONT_TILTED_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27AC}";
 
-    #[Info(id: 0x27AD, name: 'HEAVY LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AD, name: 'HEAVY LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY LOWER RIGHT-SHADOWED WHITE RIGHT ARROW')]
     case HEAVY_LOWER_RIGHT_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27AD}";
 
-    #[Info(id: 0x27AE, name: 'HEAVY UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AE, name: 'HEAVY UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY UPPER RIGHT-SHADOWED WHITE RIGHT ARROW')]
     case HEAVY_UPPER_RIGHT_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27AE}";
 
-    #[Info(id: 0x27AF, name: 'NOTCHED LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AF, name: 'NOTCHED LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'NOTCHED LOWER RIGHT-SHADOWED WHITE RIGHT ARROW')]
     case NOTCHED_LOWER_RIGHT_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27AF}";
 
-    #[Info(id: 0x27B0, name: 'CURLY LOOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B0, name: 'CURLY LOOP', category: Cat::Other_Symbol, informativeAliases: ['kururi'])]
     case CURLY_LOOP = "\u{27B0}";
 
-    #[Info(id: 0x27B1, name: 'NOTCHED UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B1, name: 'NOTCHED UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'NOTCHED UPPER RIGHT-SHADOWED WHITE RIGHT ARROW')]
     case NOTCHED_UPPER_RIGHT_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27B1}";
 
-    #[Info(id: 0x27B2, name: 'CIRCLED HEAVY WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B2, name: 'CIRCLED HEAVY WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'CIRCLED HEAVY WHITE RIGHT ARROW')]
     case CIRCLED_HEAVY_WHITE_RIGHTWARDS_ARROW = "\u{27B2}";
 
-    #[Info(id: 0x27B3, name: 'WHITE-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B3, name: 'WHITE-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'WHITE-FEATHERED RIGHT ARROW')]
     case WHITE_FEATHERED_RIGHTWARDS_ARROW = "\u{27B3}";
 
-    #[Info(id: 0x27B4, name: 'BLACK-FEATHERED SOUTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B4, name: 'BLACK-FEATHERED SOUTH EAST ARROW', category: Cat::Other_Symbol, unicode1Name: 'BLACK-FEATHERED LOWER RIGHT ARROW')]
     case BLACK_FEATHERED_SOUTH_EAST_ARROW = "\u{27B4}";
 
-    #[Info(id: 0x27B5, name: 'BLACK-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B5, name: 'BLACK-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'BLACK-FEATHERED RIGHT ARROW')]
     case BLACK_FEATHERED_RIGHTWARDS_ARROW = "\u{27B5}";
 
-    #[Info(id: 0x27B6, name: 'BLACK-FEATHERED NORTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B6, name: 'BLACK-FEATHERED NORTH EAST ARROW', category: Cat::Other_Symbol, unicode1Name: 'BLACK-FEATHERED UPPER RIGHT ARROW')]
     case BLACK_FEATHERED_NORTH_EAST_ARROW = "\u{27B6}";
 
-    #[Info(id: 0x27B7, name: 'HEAVY BLACK-FEATHERED SOUTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B7, name: 'HEAVY BLACK-FEATHERED SOUTH EAST ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY BLACK-FEATHERED LOWER RIGHT ARROW')]
     case HEAVY_BLACK_FEATHERED_SOUTH_EAST_ARROW = "\u{27B7}";
 
-    #[Info(id: 0x27B8, name: 'HEAVY BLACK-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B8, name: 'HEAVY BLACK-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY BLACK-FEATHERED RIGHT ARROW')]
     case HEAVY_BLACK_FEATHERED_RIGHTWARDS_ARROW = "\u{27B8}";
 
-    #[Info(id: 0x27B9, name: 'HEAVY BLACK-FEATHERED NORTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B9, name: 'HEAVY BLACK-FEATHERED NORTH EAST ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY BLACK-FEATHERED UPPER RIGHT ARROW')]
     case HEAVY_BLACK_FEATHERED_NORTH_EAST_ARROW = "\u{27B9}";
 
-    #[Info(id: 0x27BA, name: 'TEARDROP-BARBED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27BA, name: 'TEARDROP-BARBED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'TEARDROP-BARBED RIGHT ARROW')]
     case TEARDROP_BARBED_RIGHTWARDS_ARROW = "\u{27BA}";
 
-    #[Info(id: 0x27BB, name: 'HEAVY TEARDROP-SHANKED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27BB, name: 'HEAVY TEARDROP-SHANKED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY TEARDROP-SHANKED RIGHT ARROW')]
     case HEAVY_TEARDROP_SHANKED_RIGHTWARDS_ARROW = "\u{27BB}";
 
-    #[Info(id: 0x27BC, name: 'WEDGE-TAILED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27BC, name: 'WEDGE-TAILED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'WEDGE-TAILED RIGHT ARROW')]
     case WEDGE_TAILED_RIGHTWARDS_ARROW = "\u{27BC}";
 
-    #[Info(id: 0x27BD, name: 'HEAVY WEDGE-TAILED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27BD, name: 'HEAVY WEDGE-TAILED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'HEAVY WEDGE-TAILED RIGHT ARROW')]
     case HEAVY_WEDGE_TAILED_RIGHTWARDS_ARROW = "\u{27BD}";
 
-    #[Info(id: 0x27BE, name: 'OPEN-OUTLINED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27BE, name: 'OPEN-OUTLINED RIGHTWARDS ARROW', category: Cat::Other_Symbol, unicode1Name: 'OPEN-OUTLINED RIGHT ARROW')]
     case OPEN_OUTLINED_RIGHTWARDS_ARROW = "\u{27BE}";
 
     #[Info(id: 0x27BF, name: 'DOUBLE CURLY LOOP', category: Cat::Other_Symbol)]
