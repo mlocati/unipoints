@@ -1,0 +1,49 @@
+name: Check newer Unicode version
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+  repository_dispatch:
+    types:
+      - check-newer-unicode-version
+
+jobs:
+  check-newer-unicode-version:
+    name: Check newer Unicode version
+    if: github.repository == 'mlocati/unipoints'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup PHP
+        uses: shivammathur/setup-php@2.25.5
+        with:
+          php-version: "8.2"
+          tools: composer:v2
+          coverage: none
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Composer dependencies
+        run: composer update --optimize-autoloader --no-progress --ansi --no-interaction
+      - name: Check newer version
+        id: check
+        run: |
+          if ./bin/unipoints check-newer; then
+            echo "new-version=$(./bin/unipoints latest)" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Update default version to ${{ steps.check.outputs.new-version }}
+        if: steps.check.outputs.new-version 
+        run: ./.github/workflows/update-unicode-version "${{ steps.check.outputs.new-version }}"
+      - name: Build assets
+        if: steps.check.outputs.new-version
+        run: ./bin/unipoints build
+      - name: Create pull request
+        id: create-pr
+        if: steps.check.outputs.new-version
+        uses: peter-evans/create-pull-request@v5
+        with:
+          title: Update Unicode to v${{ steps.check.outputs.new-version }}
+          commit-message: Update Unicode to v${{ steps.check.outputs.new-version }}
+          branch: new-unicode-version/${{ steps.check.outputs.new-version }}
+          body: Created by ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      - name: Pull request info
+        if: steps.check.outputs.new-version
+        run: printf 'Pull request created:\n%s' "${{ steps.create-pr.outputs.pull-request-url }}"

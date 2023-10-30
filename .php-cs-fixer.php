@@ -38,6 +38,7 @@ return $config
             __DIR__ . '/test',
         ])
         ->append([
+            __DIR__ . '/.github/workflows/update-unicode-version',
             __DIR__ . '/bin/unipoints',
             __FILE__,
         ])
