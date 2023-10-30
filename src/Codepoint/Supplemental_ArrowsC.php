@@ -16,453 +16,453 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Supplemental_ArrowsC: string
 {
-    #[Info(id: 129024, name: 'LEFTWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F800, name: 'LEFTWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case LEFTWARDS_ARROW_WITH_SMALL_TRIANGLE_ARROWHEAD = "\u{1F800}";
 
-    #[Info(id: 129025, name: 'UPWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F801, name: 'UPWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case UPWARDS_ARROW_WITH_SMALL_TRIANGLE_ARROWHEAD = "\u{1F801}";
 
-    #[Info(id: 129026, name: 'RIGHTWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F802, name: 'RIGHTWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case RIGHTWARDS_ARROW_WITH_SMALL_TRIANGLE_ARROWHEAD = "\u{1F802}";
 
-    #[Info(id: 129027, name: 'DOWNWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F803, name: 'DOWNWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case DOWNWARDS_ARROW_WITH_SMALL_TRIANGLE_ARROWHEAD = "\u{1F803}";
 
-    #[Info(id: 129028, name: 'LEFTWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F804, name: 'LEFTWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case LEFTWARDS_ARROW_WITH_MEDIUM_TRIANGLE_ARROWHEAD = "\u{1F804}";
 
-    #[Info(id: 129029, name: 'UPWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F805, name: 'UPWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case UPWARDS_ARROW_WITH_MEDIUM_TRIANGLE_ARROWHEAD = "\u{1F805}";
 
-    #[Info(id: 129030, name: 'RIGHTWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F806, name: 'RIGHTWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case RIGHTWARDS_ARROW_WITH_MEDIUM_TRIANGLE_ARROWHEAD = "\u{1F806}";
 
-    #[Info(id: 129031, name: 'DOWNWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F807, name: 'DOWNWARDS ARROW WITH MEDIUM TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case DOWNWARDS_ARROW_WITH_MEDIUM_TRIANGLE_ARROWHEAD = "\u{1F807}";
 
-    #[Info(id: 129032, name: 'LEFTWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F808, name: 'LEFTWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case LEFTWARDS_ARROW_WITH_LARGE_TRIANGLE_ARROWHEAD = "\u{1F808}";
 
-    #[Info(id: 129033, name: 'UPWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F809, name: 'UPWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case UPWARDS_ARROW_WITH_LARGE_TRIANGLE_ARROWHEAD = "\u{1F809}";
 
-    #[Info(id: 129034, name: 'RIGHTWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F80A, name: 'RIGHTWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case RIGHTWARDS_ARROW_WITH_LARGE_TRIANGLE_ARROWHEAD = "\u{1F80A}";
 
-    #[Info(id: 129035, name: 'DOWNWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F80B, name: 'DOWNWARDS ARROW WITH LARGE TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case DOWNWARDS_ARROW_WITH_LARGE_TRIANGLE_ARROWHEAD = "\u{1F80B}";
 
-    #[Info(id: 129040, name: 'LEFTWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F810, name: 'LEFTWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case LEFTWARDS_ARROW_WITH_SMALL_EQUILATERAL_ARROWHEAD = "\u{1F810}";
 
-    #[Info(id: 129041, name: 'UPWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F811, name: 'UPWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case UPWARDS_ARROW_WITH_SMALL_EQUILATERAL_ARROWHEAD = "\u{1F811}";
 
-    #[Info(id: 129042, name: 'RIGHTWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F812, name: 'RIGHTWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case RIGHTWARDS_ARROW_WITH_SMALL_EQUILATERAL_ARROWHEAD = "\u{1F812}";
 
-    #[Info(id: 129043, name: 'DOWNWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F813, name: 'DOWNWARDS ARROW WITH SMALL EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case DOWNWARDS_ARROW_WITH_SMALL_EQUILATERAL_ARROWHEAD = "\u{1F813}";
 
-    #[Info(id: 129044, name: 'LEFTWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F814, name: 'LEFTWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case LEFTWARDS_ARROW_WITH_EQUILATERAL_ARROWHEAD = "\u{1F814}";
 
-    #[Info(id: 129045, name: 'UPWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F815, name: 'UPWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case UPWARDS_ARROW_WITH_EQUILATERAL_ARROWHEAD = "\u{1F815}";
 
-    #[Info(id: 129046, name: 'RIGHTWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F816, name: 'RIGHTWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case RIGHTWARDS_ARROW_WITH_EQUILATERAL_ARROWHEAD = "\u{1F816}";
 
-    #[Info(id: 129047, name: 'DOWNWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F817, name: 'DOWNWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case DOWNWARDS_ARROW_WITH_EQUILATERAL_ARROWHEAD = "\u{1F817}";
 
-    #[Info(id: 129048, name: 'HEAVY LEFTWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F818, name: 'HEAVY LEFTWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case HEAVY_LEFTWARDS_ARROW_WITH_EQUILATERAL_ARROWHEAD = "\u{1F818}";
 
-    #[Info(id: 129049, name: 'HEAVY UPWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F819, name: 'HEAVY UPWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case HEAVY_UPWARDS_ARROW_WITH_EQUILATERAL_ARROWHEAD = "\u{1F819}";
 
-    #[Info(id: 129050, name: 'HEAVY RIGHTWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F81A, name: 'HEAVY RIGHTWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case HEAVY_RIGHTWARDS_ARROW_WITH_EQUILATERAL_ARROWHEAD = "\u{1F81A}";
 
-    #[Info(id: 129051, name: 'HEAVY DOWNWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F81B, name: 'HEAVY DOWNWARDS ARROW WITH EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case HEAVY_DOWNWARDS_ARROW_WITH_EQUILATERAL_ARROWHEAD = "\u{1F81B}";
 
-    #[Info(id: 129052, name: 'HEAVY LEFTWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F81C, name: 'HEAVY LEFTWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case HEAVY_LEFTWARDS_ARROW_WITH_LARGE_EQUILATERAL_ARROWHEAD = "\u{1F81C}";
 
-    #[Info(id: 129053, name: 'HEAVY UPWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F81D, name: 'HEAVY UPWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case HEAVY_UPWARDS_ARROW_WITH_LARGE_EQUILATERAL_ARROWHEAD = "\u{1F81D}";
 
-    #[Info(id: 129054, name: 'HEAVY RIGHTWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F81E, name: 'HEAVY RIGHTWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case HEAVY_RIGHTWARDS_ARROW_WITH_LARGE_EQUILATERAL_ARROWHEAD = "\u{1F81E}";
 
-    #[Info(id: 129055, name: 'HEAVY DOWNWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F81F, name: 'HEAVY DOWNWARDS ARROW WITH LARGE EQUILATERAL ARROWHEAD', category: Cat::Other_Symbol)]
     case HEAVY_DOWNWARDS_ARROW_WITH_LARGE_EQUILATERAL_ARROWHEAD = "\u{1F81F}";
 
-    #[Info(id: 129056, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F820, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT', category: Cat::Other_Symbol)]
     case LEFTWARDS_TRIANGLE_HEADED_ARROW_WITH_NARROW_SHAFT = "\u{1F820}";
 
-    #[Info(id: 129057, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F821, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT', category: Cat::Other_Symbol)]
     case UPWARDS_TRIANGLE_HEADED_ARROW_WITH_NARROW_SHAFT = "\u{1F821}";
 
-    #[Info(id: 129058, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F822, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT', category: Cat::Other_Symbol)]
     case RIGHTWARDS_TRIANGLE_HEADED_ARROW_WITH_NARROW_SHAFT = "\u{1F822}";
 
-    #[Info(id: 129059, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F823, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH NARROW SHAFT', category: Cat::Other_Symbol)]
     case DOWNWARDS_TRIANGLE_HEADED_ARROW_WITH_NARROW_SHAFT = "\u{1F823}";
 
-    #[Info(id: 129060, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F824, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT', category: Cat::Other_Symbol)]
     case LEFTWARDS_TRIANGLE_HEADED_ARROW_WITH_MEDIUM_SHAFT = "\u{1F824}";
 
-    #[Info(id: 129061, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F825, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT', category: Cat::Other_Symbol)]
     case UPWARDS_TRIANGLE_HEADED_ARROW_WITH_MEDIUM_SHAFT = "\u{1F825}";
 
-    #[Info(id: 129062, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F826, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT', category: Cat::Other_Symbol)]
     case RIGHTWARDS_TRIANGLE_HEADED_ARROW_WITH_MEDIUM_SHAFT = "\u{1F826}";
 
-    #[Info(id: 129063, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F827, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH MEDIUM SHAFT', category: Cat::Other_Symbol)]
     case DOWNWARDS_TRIANGLE_HEADED_ARROW_WITH_MEDIUM_SHAFT = "\u{1F827}";
 
-    #[Info(id: 129064, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F828, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT', category: Cat::Other_Symbol)]
     case LEFTWARDS_TRIANGLE_HEADED_ARROW_WITH_BOLD_SHAFT = "\u{1F828}";
 
-    #[Info(id: 129065, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F829, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT', category: Cat::Other_Symbol)]
     case UPWARDS_TRIANGLE_HEADED_ARROW_WITH_BOLD_SHAFT = "\u{1F829}";
 
-    #[Info(id: 129066, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F82A, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT', category: Cat::Other_Symbol)]
     case RIGHTWARDS_TRIANGLE_HEADED_ARROW_WITH_BOLD_SHAFT = "\u{1F82A}";
 
-    #[Info(id: 129067, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F82B, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH BOLD SHAFT', category: Cat::Other_Symbol)]
     case DOWNWARDS_TRIANGLE_HEADED_ARROW_WITH_BOLD_SHAFT = "\u{1F82B}";
 
-    #[Info(id: 129068, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F82C, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT', category: Cat::Other_Symbol)]
     case LEFTWARDS_TRIANGLE_HEADED_ARROW_WITH_HEAVY_SHAFT = "\u{1F82C}";
 
-    #[Info(id: 129069, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F82D, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT', category: Cat::Other_Symbol)]
     case UPWARDS_TRIANGLE_HEADED_ARROW_WITH_HEAVY_SHAFT = "\u{1F82D}";
 
-    #[Info(id: 129070, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F82E, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT', category: Cat::Other_Symbol)]
     case RIGHTWARDS_TRIANGLE_HEADED_ARROW_WITH_HEAVY_SHAFT = "\u{1F82E}";
 
-    #[Info(id: 129071, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F82F, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH HEAVY SHAFT', category: Cat::Other_Symbol)]
     case DOWNWARDS_TRIANGLE_HEADED_ARROW_WITH_HEAVY_SHAFT = "\u{1F82F}";
 
-    #[Info(id: 129072, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F830, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT', category: Cat::Other_Symbol)]
     case LEFTWARDS_TRIANGLE_HEADED_ARROW_WITH_VERY_HEAVY_SHAFT = "\u{1F830}";
 
-    #[Info(id: 129073, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F831, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT', category: Cat::Other_Symbol)]
     case UPWARDS_TRIANGLE_HEADED_ARROW_WITH_VERY_HEAVY_SHAFT = "\u{1F831}";
 
-    #[Info(id: 129074, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F832, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT', category: Cat::Other_Symbol)]
     case RIGHTWARDS_TRIANGLE_HEADED_ARROW_WITH_VERY_HEAVY_SHAFT = "\u{1F832}";
 
-    #[Info(id: 129075, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F833, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH VERY HEAVY SHAFT', category: Cat::Other_Symbol)]
     case DOWNWARDS_TRIANGLE_HEADED_ARROW_WITH_VERY_HEAVY_SHAFT = "\u{1F833}";
 
-    #[Info(id: 129076, name: 'LEFTWARDS FINGER-POST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F834, name: 'LEFTWARDS FINGER-POST ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_FINGER_POST_ARROW = "\u{1F834}";
 
-    #[Info(id: 129077, name: 'UPWARDS FINGER-POST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F835, name: 'UPWARDS FINGER-POST ARROW', category: Cat::Other_Symbol)]
     case UPWARDS_FINGER_POST_ARROW = "\u{1F835}";
 
-    #[Info(id: 129078, name: 'RIGHTWARDS FINGER-POST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F836, name: 'RIGHTWARDS FINGER-POST ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_FINGER_POST_ARROW = "\u{1F836}";
 
-    #[Info(id: 129079, name: 'DOWNWARDS FINGER-POST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F837, name: 'DOWNWARDS FINGER-POST ARROW', category: Cat::Other_Symbol)]
     case DOWNWARDS_FINGER_POST_ARROW = "\u{1F837}";
 
-    #[Info(id: 129080, name: 'LEFTWARDS SQUARED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F838, name: 'LEFTWARDS SQUARED ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_SQUARED_ARROW = "\u{1F838}";
 
-    #[Info(id: 129081, name: 'UPWARDS SQUARED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F839, name: 'UPWARDS SQUARED ARROW', category: Cat::Other_Symbol)]
     case UPWARDS_SQUARED_ARROW = "\u{1F839}";
 
-    #[Info(id: 129082, name: 'RIGHTWARDS SQUARED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F83A, name: 'RIGHTWARDS SQUARED ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_SQUARED_ARROW = "\u{1F83A}";
 
-    #[Info(id: 129083, name: 'DOWNWARDS SQUARED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F83B, name: 'DOWNWARDS SQUARED ARROW', category: Cat::Other_Symbol)]
     case DOWNWARDS_SQUARED_ARROW = "\u{1F83B}";
 
-    #[Info(id: 129084, name: 'LEFTWARDS COMPRESSED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F83C, name: 'LEFTWARDS COMPRESSED ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_COMPRESSED_ARROW = "\u{1F83C}";
 
-    #[Info(id: 129085, name: 'UPWARDS COMPRESSED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F83D, name: 'UPWARDS COMPRESSED ARROW', category: Cat::Other_Symbol)]
     case UPWARDS_COMPRESSED_ARROW = "\u{1F83D}";
 
-    #[Info(id: 129086, name: 'RIGHTWARDS COMPRESSED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F83E, name: 'RIGHTWARDS COMPRESSED ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_COMPRESSED_ARROW = "\u{1F83E}";
 
-    #[Info(id: 129087, name: 'DOWNWARDS COMPRESSED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F83F, name: 'DOWNWARDS COMPRESSED ARROW', category: Cat::Other_Symbol)]
     case DOWNWARDS_COMPRESSED_ARROW = "\u{1F83F}";
 
-    #[Info(id: 129088, name: 'LEFTWARDS HEAVY COMPRESSED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F840, name: 'LEFTWARDS HEAVY COMPRESSED ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_HEAVY_COMPRESSED_ARROW = "\u{1F840}";
 
-    #[Info(id: 129089, name: 'UPWARDS HEAVY COMPRESSED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F841, name: 'UPWARDS HEAVY COMPRESSED ARROW', category: Cat::Other_Symbol)]
     case UPWARDS_HEAVY_COMPRESSED_ARROW = "\u{1F841}";
 
-    #[Info(id: 129090, name: 'RIGHTWARDS HEAVY COMPRESSED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F842, name: 'RIGHTWARDS HEAVY COMPRESSED ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_HEAVY_COMPRESSED_ARROW = "\u{1F842}";
 
-    #[Info(id: 129091, name: 'DOWNWARDS HEAVY COMPRESSED ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F843, name: 'DOWNWARDS HEAVY COMPRESSED ARROW', category: Cat::Other_Symbol)]
     case DOWNWARDS_HEAVY_COMPRESSED_ARROW = "\u{1F843}";
 
-    #[Info(id: 129092, name: 'LEFTWARDS HEAVY ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F844, name: 'LEFTWARDS HEAVY ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_HEAVY_ARROW = "\u{1F844}";
 
-    #[Info(id: 129093, name: 'UPWARDS HEAVY ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F845, name: 'UPWARDS HEAVY ARROW', category: Cat::Other_Symbol)]
     case UPWARDS_HEAVY_ARROW = "\u{1F845}";
 
-    #[Info(id: 129094, name: 'RIGHTWARDS HEAVY ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F846, name: 'RIGHTWARDS HEAVY ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_HEAVY_ARROW = "\u{1F846}";
 
-    #[Info(id: 129095, name: 'DOWNWARDS HEAVY ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F847, name: 'DOWNWARDS HEAVY ARROW', category: Cat::Other_Symbol)]
     case DOWNWARDS_HEAVY_ARROW = "\u{1F847}";
 
-    #[Info(id: 129104, name: 'LEFTWARDS SANS-SERIF ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F850, name: 'LEFTWARDS SANS-SERIF ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_SANS_SERIF_ARROW = "\u{1F850}";
 
-    #[Info(id: 129105, name: 'UPWARDS SANS-SERIF ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F851, name: 'UPWARDS SANS-SERIF ARROW', category: Cat::Other_Symbol)]
     case UPWARDS_SANS_SERIF_ARROW = "\u{1F851}";
 
-    #[Info(id: 129106, name: 'RIGHTWARDS SANS-SERIF ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F852, name: 'RIGHTWARDS SANS-SERIF ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_SANS_SERIF_ARROW = "\u{1F852}";
 
-    #[Info(id: 129107, name: 'DOWNWARDS SANS-SERIF ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F853, name: 'DOWNWARDS SANS-SERIF ARROW', category: Cat::Other_Symbol)]
     case DOWNWARDS_SANS_SERIF_ARROW = "\u{1F853}";
 
-    #[Info(id: 129108, name: 'NORTH WEST SANS-SERIF ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F854, name: 'NORTH WEST SANS-SERIF ARROW', category: Cat::Other_Symbol)]
     case NORTH_WEST_SANS_SERIF_ARROW = "\u{1F854}";
 
-    #[Info(id: 129109, name: 'NORTH EAST SANS-SERIF ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F855, name: 'NORTH EAST SANS-SERIF ARROW', category: Cat::Other_Symbol)]
     case NORTH_EAST_SANS_SERIF_ARROW = "\u{1F855}";
 
-    #[Info(id: 129110, name: 'SOUTH EAST SANS-SERIF ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F856, name: 'SOUTH EAST SANS-SERIF ARROW', category: Cat::Other_Symbol)]
     case SOUTH_EAST_SANS_SERIF_ARROW = "\u{1F856}";
 
-    #[Info(id: 129111, name: 'SOUTH WEST SANS-SERIF ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F857, name: 'SOUTH WEST SANS-SERIF ARROW', category: Cat::Other_Symbol)]
     case SOUTH_WEST_SANS_SERIF_ARROW = "\u{1F857}";
 
-    #[Info(id: 129112, name: 'LEFT RIGHT SANS-SERIF ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F858, name: 'LEFT RIGHT SANS-SERIF ARROW', category: Cat::Other_Symbol)]
     case LEFT_RIGHT_SANS_SERIF_ARROW = "\u{1F858}";
 
-    #[Info(id: 129113, name: 'UP DOWN SANS-SERIF ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F859, name: 'UP DOWN SANS-SERIF ARROW', category: Cat::Other_Symbol)]
     case UP_DOWN_SANS_SERIF_ARROW = "\u{1F859}";
 
-    #[Info(id: 129120, name: 'WIDE-HEADED LEFTWARDS LIGHT BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F860, name: 'WIDE-HEADED LEFTWARDS LIGHT BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_LEFTWARDS_LIGHT_BARB_ARROW = "\u{1F860}";
 
-    #[Info(id: 129121, name: 'WIDE-HEADED UPWARDS LIGHT BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F861, name: 'WIDE-HEADED UPWARDS LIGHT BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_UPWARDS_LIGHT_BARB_ARROW = "\u{1F861}";
 
-    #[Info(id: 129122, name: 'WIDE-HEADED RIGHTWARDS LIGHT BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F862, name: 'WIDE-HEADED RIGHTWARDS LIGHT BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_RIGHTWARDS_LIGHT_BARB_ARROW = "\u{1F862}";
 
-    #[Info(id: 129123, name: 'WIDE-HEADED DOWNWARDS LIGHT BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F863, name: 'WIDE-HEADED DOWNWARDS LIGHT BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_DOWNWARDS_LIGHT_BARB_ARROW = "\u{1F863}";
 
-    #[Info(id: 129124, name: 'WIDE-HEADED NORTH WEST LIGHT BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F864, name: 'WIDE-HEADED NORTH WEST LIGHT BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_NORTH_WEST_LIGHT_BARB_ARROW = "\u{1F864}";
 
-    #[Info(id: 129125, name: 'WIDE-HEADED NORTH EAST LIGHT BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F865, name: 'WIDE-HEADED NORTH EAST LIGHT BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_NORTH_EAST_LIGHT_BARB_ARROW = "\u{1F865}";
 
-    #[Info(id: 129126, name: 'WIDE-HEADED SOUTH EAST LIGHT BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F866, name: 'WIDE-HEADED SOUTH EAST LIGHT BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_SOUTH_EAST_LIGHT_BARB_ARROW = "\u{1F866}";
 
-    #[Info(id: 129127, name: 'WIDE-HEADED SOUTH WEST LIGHT BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F867, name: 'WIDE-HEADED SOUTH WEST LIGHT BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_SOUTH_WEST_LIGHT_BARB_ARROW = "\u{1F867}";
 
-    #[Info(id: 129128, name: 'WIDE-HEADED LEFTWARDS BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F868, name: 'WIDE-HEADED LEFTWARDS BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_LEFTWARDS_BARB_ARROW = "\u{1F868}";
 
-    #[Info(id: 129129, name: 'WIDE-HEADED UPWARDS BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F869, name: 'WIDE-HEADED UPWARDS BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_UPWARDS_BARB_ARROW = "\u{1F869}";
 
-    #[Info(id: 129130, name: 'WIDE-HEADED RIGHTWARDS BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F86A, name: 'WIDE-HEADED RIGHTWARDS BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_RIGHTWARDS_BARB_ARROW = "\u{1F86A}";
 
-    #[Info(id: 129131, name: 'WIDE-HEADED DOWNWARDS BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F86B, name: 'WIDE-HEADED DOWNWARDS BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_DOWNWARDS_BARB_ARROW = "\u{1F86B}";
 
-    #[Info(id: 129132, name: 'WIDE-HEADED NORTH WEST BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F86C, name: 'WIDE-HEADED NORTH WEST BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_NORTH_WEST_BARB_ARROW = "\u{1F86C}";
 
-    #[Info(id: 129133, name: 'WIDE-HEADED NORTH EAST BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F86D, name: 'WIDE-HEADED NORTH EAST BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_NORTH_EAST_BARB_ARROW = "\u{1F86D}";
 
-    #[Info(id: 129134, name: 'WIDE-HEADED SOUTH EAST BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F86E, name: 'WIDE-HEADED SOUTH EAST BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_SOUTH_EAST_BARB_ARROW = "\u{1F86E}";
 
-    #[Info(id: 129135, name: 'WIDE-HEADED SOUTH WEST BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F86F, name: 'WIDE-HEADED SOUTH WEST BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_SOUTH_WEST_BARB_ARROW = "\u{1F86F}";
 
-    #[Info(id: 129136, name: 'WIDE-HEADED LEFTWARDS MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F870, name: 'WIDE-HEADED LEFTWARDS MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_LEFTWARDS_MEDIUM_BARB_ARROW = "\u{1F870}";
 
-    #[Info(id: 129137, name: 'WIDE-HEADED UPWARDS MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F871, name: 'WIDE-HEADED UPWARDS MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_UPWARDS_MEDIUM_BARB_ARROW = "\u{1F871}";
 
-    #[Info(id: 129138, name: 'WIDE-HEADED RIGHTWARDS MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F872, name: 'WIDE-HEADED RIGHTWARDS MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_RIGHTWARDS_MEDIUM_BARB_ARROW = "\u{1F872}";
 
-    #[Info(id: 129139, name: 'WIDE-HEADED DOWNWARDS MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F873, name: 'WIDE-HEADED DOWNWARDS MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_DOWNWARDS_MEDIUM_BARB_ARROW = "\u{1F873}";
 
-    #[Info(id: 129140, name: 'WIDE-HEADED NORTH WEST MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F874, name: 'WIDE-HEADED NORTH WEST MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_NORTH_WEST_MEDIUM_BARB_ARROW = "\u{1F874}";
 
-    #[Info(id: 129141, name: 'WIDE-HEADED NORTH EAST MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F875, name: 'WIDE-HEADED NORTH EAST MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_NORTH_EAST_MEDIUM_BARB_ARROW = "\u{1F875}";
 
-    #[Info(id: 129142, name: 'WIDE-HEADED SOUTH EAST MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F876, name: 'WIDE-HEADED SOUTH EAST MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_SOUTH_EAST_MEDIUM_BARB_ARROW = "\u{1F876}";
 
-    #[Info(id: 129143, name: 'WIDE-HEADED SOUTH WEST MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F877, name: 'WIDE-HEADED SOUTH WEST MEDIUM BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_SOUTH_WEST_MEDIUM_BARB_ARROW = "\u{1F877}";
 
-    #[Info(id: 129144, name: 'WIDE-HEADED LEFTWARDS HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F878, name: 'WIDE-HEADED LEFTWARDS HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_LEFTWARDS_HEAVY_BARB_ARROW = "\u{1F878}";
 
-    #[Info(id: 129145, name: 'WIDE-HEADED UPWARDS HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F879, name: 'WIDE-HEADED UPWARDS HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_UPWARDS_HEAVY_BARB_ARROW = "\u{1F879}";
 
-    #[Info(id: 129146, name: 'WIDE-HEADED RIGHTWARDS HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F87A, name: 'WIDE-HEADED RIGHTWARDS HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_RIGHTWARDS_HEAVY_BARB_ARROW = "\u{1F87A}";
 
-    #[Info(id: 129147, name: 'WIDE-HEADED DOWNWARDS HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F87B, name: 'WIDE-HEADED DOWNWARDS HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_DOWNWARDS_HEAVY_BARB_ARROW = "\u{1F87B}";
 
-    #[Info(id: 129148, name: 'WIDE-HEADED NORTH WEST HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F87C, name: 'WIDE-HEADED NORTH WEST HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_NORTH_WEST_HEAVY_BARB_ARROW = "\u{1F87C}";
 
-    #[Info(id: 129149, name: 'WIDE-HEADED NORTH EAST HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F87D, name: 'WIDE-HEADED NORTH EAST HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_NORTH_EAST_HEAVY_BARB_ARROW = "\u{1F87D}";
 
-    #[Info(id: 129150, name: 'WIDE-HEADED SOUTH EAST HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F87E, name: 'WIDE-HEADED SOUTH EAST HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_SOUTH_EAST_HEAVY_BARB_ARROW = "\u{1F87E}";
 
-    #[Info(id: 129151, name: 'WIDE-HEADED SOUTH WEST HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F87F, name: 'WIDE-HEADED SOUTH WEST HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_SOUTH_WEST_HEAVY_BARB_ARROW = "\u{1F87F}";
 
-    #[Info(id: 129152, name: 'WIDE-HEADED LEFTWARDS VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F880, name: 'WIDE-HEADED LEFTWARDS VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_LEFTWARDS_VERY_HEAVY_BARB_ARROW = "\u{1F880}";
 
-    #[Info(id: 129153, name: 'WIDE-HEADED UPWARDS VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F881, name: 'WIDE-HEADED UPWARDS VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_UPWARDS_VERY_HEAVY_BARB_ARROW = "\u{1F881}";
 
-    #[Info(id: 129154, name: 'WIDE-HEADED RIGHTWARDS VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F882, name: 'WIDE-HEADED RIGHTWARDS VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_RIGHTWARDS_VERY_HEAVY_BARB_ARROW = "\u{1F882}";
 
-    #[Info(id: 129155, name: 'WIDE-HEADED DOWNWARDS VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F883, name: 'WIDE-HEADED DOWNWARDS VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_DOWNWARDS_VERY_HEAVY_BARB_ARROW = "\u{1F883}";
 
-    #[Info(id: 129156, name: 'WIDE-HEADED NORTH WEST VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F884, name: 'WIDE-HEADED NORTH WEST VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_NORTH_WEST_VERY_HEAVY_BARB_ARROW = "\u{1F884}";
 
-    #[Info(id: 129157, name: 'WIDE-HEADED NORTH EAST VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F885, name: 'WIDE-HEADED NORTH EAST VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_NORTH_EAST_VERY_HEAVY_BARB_ARROW = "\u{1F885}";
 
-    #[Info(id: 129158, name: 'WIDE-HEADED SOUTH EAST VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F886, name: 'WIDE-HEADED SOUTH EAST VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_SOUTH_EAST_VERY_HEAVY_BARB_ARROW = "\u{1F886}";
 
-    #[Info(id: 129159, name: 'WIDE-HEADED SOUTH WEST VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F887, name: 'WIDE-HEADED SOUTH WEST VERY HEAVY BARB ARROW', category: Cat::Other_Symbol)]
     case WIDE_HEADED_SOUTH_WEST_VERY_HEAVY_BARB_ARROW = "\u{1F887}";
 
-    #[Info(id: 129168, name: 'LEFTWARDS TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F890, name: 'LEFTWARDS TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case LEFTWARDS_TRIANGLE_ARROWHEAD = "\u{1F890}";
 
-    #[Info(id: 129169, name: 'UPWARDS TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F891, name: 'UPWARDS TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case UPWARDS_TRIANGLE_ARROWHEAD = "\u{1F891}";
 
-    #[Info(id: 129170, name: 'RIGHTWARDS TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F892, name: 'RIGHTWARDS TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case RIGHTWARDS_TRIANGLE_ARROWHEAD = "\u{1F892}";
 
-    #[Info(id: 129171, name: 'DOWNWARDS TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F893, name: 'DOWNWARDS TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case DOWNWARDS_TRIANGLE_ARROWHEAD = "\u{1F893}";
 
-    #[Info(id: 129172, name: 'LEFTWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F894, name: 'LEFTWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case LEFTWARDS_WHITE_ARROW_WITHIN_TRIANGLE_ARROWHEAD = "\u{1F894}";
 
-    #[Info(id: 129173, name: 'UPWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F895, name: 'UPWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case UPWARDS_WHITE_ARROW_WITHIN_TRIANGLE_ARROWHEAD = "\u{1F895}";
 
-    #[Info(id: 129174, name: 'RIGHTWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F896, name: 'RIGHTWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case RIGHTWARDS_WHITE_ARROW_WITHIN_TRIANGLE_ARROWHEAD = "\u{1F896}";
 
-    #[Info(id: 129175, name: 'DOWNWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F897, name: 'DOWNWARDS WHITE ARROW WITHIN TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
     case DOWNWARDS_WHITE_ARROW_WITHIN_TRIANGLE_ARROWHEAD = "\u{1F897}";
 
-    #[Info(id: 129176, name: 'LEFTWARDS ARROW WITH NOTCHED TAIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F898, name: 'LEFTWARDS ARROW WITH NOTCHED TAIL', category: Cat::Other_Symbol)]
     case LEFTWARDS_ARROW_WITH_NOTCHED_TAIL = "\u{1F898}";
 
-    #[Info(id: 129177, name: 'UPWARDS ARROW WITH NOTCHED TAIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F899, name: 'UPWARDS ARROW WITH NOTCHED TAIL', category: Cat::Other_Symbol)]
     case UPWARDS_ARROW_WITH_NOTCHED_TAIL = "\u{1F899}";
 
-    #[Info(id: 129178, name: 'RIGHTWARDS ARROW WITH NOTCHED TAIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F89A, name: 'RIGHTWARDS ARROW WITH NOTCHED TAIL', category: Cat::Other_Symbol)]
     case RIGHTWARDS_ARROW_WITH_NOTCHED_TAIL = "\u{1F89A}";
 
-    #[Info(id: 129179, name: 'DOWNWARDS ARROW WITH NOTCHED TAIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F89B, name: 'DOWNWARDS ARROW WITH NOTCHED TAIL', category: Cat::Other_Symbol)]
     case DOWNWARDS_ARROW_WITH_NOTCHED_TAIL = "\u{1F89B}";
 
-    #[Info(id: 129180, name: 'HEAVY ARROW SHAFT WIDTH ONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F89C, name: 'HEAVY ARROW SHAFT WIDTH ONE', category: Cat::Other_Symbol)]
     case HEAVY_ARROW_SHAFT_WIDTH_ONE = "\u{1F89C}";
 
-    #[Info(id: 129181, name: 'HEAVY ARROW SHAFT WIDTH TWO THIRDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F89D, name: 'HEAVY ARROW SHAFT WIDTH TWO THIRDS', category: Cat::Other_Symbol)]
     case HEAVY_ARROW_SHAFT_WIDTH_TWO_THIRDS = "\u{1F89D}";
 
-    #[Info(id: 129182, name: 'HEAVY ARROW SHAFT WIDTH ONE HALF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F89E, name: 'HEAVY ARROW SHAFT WIDTH ONE HALF', category: Cat::Other_Symbol)]
     case HEAVY_ARROW_SHAFT_WIDTH_ONE_HALF = "\u{1F89E}";
 
-    #[Info(id: 129183, name: 'HEAVY ARROW SHAFT WIDTH ONE THIRD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F89F, name: 'HEAVY ARROW SHAFT WIDTH ONE THIRD', category: Cat::Other_Symbol)]
     case HEAVY_ARROW_SHAFT_WIDTH_ONE_THIRD = "\u{1F89F}";
 
-    #[Info(id: 129184, name: 'LEFTWARDS BOTTOM-SHADED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8A0, name: 'LEFTWARDS BOTTOM-SHADED WHITE ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_BOTTOM_SHADED_WHITE_ARROW = "\u{1F8A0}";
 
-    #[Info(id: 129185, name: 'RIGHTWARDS BOTTOM SHADED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8A1, name: 'RIGHTWARDS BOTTOM SHADED WHITE ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_BOTTOM_SHADED_WHITE_ARROW = "\u{1F8A1}";
 
-    #[Info(id: 129186, name: 'LEFTWARDS TOP SHADED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8A2, name: 'LEFTWARDS TOP SHADED WHITE ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_TOP_SHADED_WHITE_ARROW = "\u{1F8A2}";
 
-    #[Info(id: 129187, name: 'RIGHTWARDS TOP SHADED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8A3, name: 'RIGHTWARDS TOP SHADED WHITE ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_TOP_SHADED_WHITE_ARROW = "\u{1F8A3}";
 
-    #[Info(id: 129188, name: 'LEFTWARDS LEFT-SHADED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8A4, name: 'LEFTWARDS LEFT-SHADED WHITE ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_LEFT_SHADED_WHITE_ARROW = "\u{1F8A4}";
 
-    #[Info(id: 129189, name: 'RIGHTWARDS RIGHT-SHADED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8A5, name: 'RIGHTWARDS RIGHT-SHADED WHITE ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_RIGHT_SHADED_WHITE_ARROW = "\u{1F8A5}";
 
-    #[Info(id: 129190, name: 'LEFTWARDS RIGHT-SHADED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8A6, name: 'LEFTWARDS RIGHT-SHADED WHITE ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_RIGHT_SHADED_WHITE_ARROW = "\u{1F8A6}";
 
-    #[Info(id: 129191, name: 'RIGHTWARDS LEFT-SHADED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8A7, name: 'RIGHTWARDS LEFT-SHADED WHITE ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_LEFT_SHADED_WHITE_ARROW = "\u{1F8A7}";
 
-    #[Info(id: 129192, name: 'LEFTWARDS BACK-TILTED SHADOWED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8A8, name: 'LEFTWARDS BACK-TILTED SHADOWED WHITE ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_BACK_TILTED_SHADOWED_WHITE_ARROW = "\u{1F8A8}";
 
-    #[Info(id: 129193, name: 'RIGHTWARDS BACK-TILTED SHADOWED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8A9, name: 'RIGHTWARDS BACK-TILTED SHADOWED WHITE ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_BACK_TILTED_SHADOWED_WHITE_ARROW = "\u{1F8A9}";
 
-    #[Info(id: 129194, name: 'LEFTWARDS FRONT-TILTED SHADOWED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8AA, name: 'LEFTWARDS FRONT-TILTED SHADOWED WHITE ARROW', category: Cat::Other_Symbol)]
     case LEFTWARDS_FRONT_TILTED_SHADOWED_WHITE_ARROW = "\u{1F8AA}";
 
-    #[Info(id: 129195, name: 'RIGHTWARDS FRONT-TILTED SHADOWED WHITE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8AB, name: 'RIGHTWARDS FRONT-TILTED SHADOWED WHITE ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_FRONT_TILTED_SHADOWED_WHITE_ARROW = "\u{1F8AB}";
 
-    #[Info(id: 129196, name: 'WHITE ARROW SHAFT WIDTH ONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8AC, name: 'WHITE ARROW SHAFT WIDTH ONE', category: Cat::Other_Symbol)]
     case WHITE_ARROW_SHAFT_WIDTH_ONE = "\u{1F8AC}";
 
-    #[Info(id: 129197, name: 'WHITE ARROW SHAFT WIDTH TWO THIRDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8AD, name: 'WHITE ARROW SHAFT WIDTH TWO THIRDS', category: Cat::Other_Symbol)]
     case WHITE_ARROW_SHAFT_WIDTH_TWO_THIRDS = "\u{1F8AD}";
 
-    #[Info(id: 129200, name: 'ARROW POINTING UPWARDS THEN NORTH WEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8B0, name: 'ARROW POINTING UPWARDS THEN NORTH WEST', category: Cat::Other_Symbol)]
     case ARROW_POINTING_UPWARDS_THEN_NORTH_WEST = "\u{1F8B0}";
 
-    #[Info(id: 129201, name: 'ARROW POINTING RIGHTWARDS THEN CURVING SOUTH WEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F8B1, name: 'ARROW POINTING RIGHTWARDS THEN CURVING SOUTH WEST', category: Cat::Other_Symbol)]
     case ARROW_POINTING_RIGHTWARDS_THEN_CURVING_SOUTH_WEST = "\u{1F8B1}";
 }

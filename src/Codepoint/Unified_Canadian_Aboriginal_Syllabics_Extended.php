@@ -16,213 +16,213 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Unified_Canadian_Aboriginal_Syllabics_Extended: string
 {
-    #[Info(id: 6320, name: 'CANADIAN SYLLABICS OY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18B0, name: 'CANADIAN SYLLABICS OY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OY = "\u{18B0}";
 
-    #[Info(id: 6321, name: 'CANADIAN SYLLABICS AY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18B1, name: 'CANADIAN SYLLABICS AY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_AY = "\u{18B1}";
 
-    #[Info(id: 6322, name: 'CANADIAN SYLLABICS AAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18B2, name: 'CANADIAN SYLLABICS AAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_AAY = "\u{18B2}";
 
-    #[Info(id: 6323, name: 'CANADIAN SYLLABICS WAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18B3, name: 'CANADIAN SYLLABICS WAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_WAY = "\u{18B3}";
 
-    #[Info(id: 6324, name: 'CANADIAN SYLLABICS POY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18B4, name: 'CANADIAN SYLLABICS POY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_POY = "\u{18B4}";
 
-    #[Info(id: 6325, name: 'CANADIAN SYLLABICS PAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18B5, name: 'CANADIAN SYLLABICS PAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_PAY = "\u{18B5}";
 
-    #[Info(id: 6326, name: 'CANADIAN SYLLABICS PWOY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18B6, name: 'CANADIAN SYLLABICS PWOY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_PWOY = "\u{18B6}";
 
-    #[Info(id: 6327, name: 'CANADIAN SYLLABICS TAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18B7, name: 'CANADIAN SYLLABICS TAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_TAY = "\u{18B7}";
 
-    #[Info(id: 6328, name: 'CANADIAN SYLLABICS KAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18B8, name: 'CANADIAN SYLLABICS KAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_KAY = "\u{18B8}";
 
-    #[Info(id: 6329, name: 'CANADIAN SYLLABICS KWAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18B9, name: 'CANADIAN SYLLABICS KWAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_KWAY = "\u{18B9}";
 
-    #[Info(id: 6330, name: 'CANADIAN SYLLABICS MAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18BA, name: 'CANADIAN SYLLABICS MAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_MAY = "\u{18BA}";
 
-    #[Info(id: 6331, name: 'CANADIAN SYLLABICS NOY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18BB, name: 'CANADIAN SYLLABICS NOY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_NOY = "\u{18BB}";
 
-    #[Info(id: 6332, name: 'CANADIAN SYLLABICS NAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18BC, name: 'CANADIAN SYLLABICS NAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_NAY = "\u{18BC}";
 
-    #[Info(id: 6333, name: 'CANADIAN SYLLABICS LAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18BD, name: 'CANADIAN SYLLABICS LAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_LAY = "\u{18BD}";
 
-    #[Info(id: 6334, name: 'CANADIAN SYLLABICS SOY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18BE, name: 'CANADIAN SYLLABICS SOY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_SOY = "\u{18BE}";
 
-    #[Info(id: 6335, name: 'CANADIAN SYLLABICS SAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18BF, name: 'CANADIAN SYLLABICS SAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_SAY = "\u{18BF}";
 
-    #[Info(id: 6336, name: 'CANADIAN SYLLABICS SHOY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18C0, name: 'CANADIAN SYLLABICS SHOY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_SHOY = "\u{18C0}";
 
-    #[Info(id: 6337, name: 'CANADIAN SYLLABICS SHAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18C1, name: 'CANADIAN SYLLABICS SHAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_SHAY = "\u{18C1}";
 
-    #[Info(id: 6338, name: 'CANADIAN SYLLABICS SHWOY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18C2, name: 'CANADIAN SYLLABICS SHWOY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_SHWOY = "\u{18C2}";
 
-    #[Info(id: 6339, name: 'CANADIAN SYLLABICS YOY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18C3, name: 'CANADIAN SYLLABICS YOY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_YOY = "\u{18C3}";
 
-    #[Info(id: 6340, name: 'CANADIAN SYLLABICS YAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18C4, name: 'CANADIAN SYLLABICS YAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_YAY = "\u{18C4}";
 
-    #[Info(id: 6341, name: 'CANADIAN SYLLABICS RAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x18C5, name: 'CANADIAN SYLLABICS RAY', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_RAY = "\u{18C5}";
 
-    #[Info(id: 6342, name: 'CANADIAN SYLLABICS NWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x18C6, name: 'CANADIAN SYLLABICS NWI', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_NWI = "\u{18C6}";
 
-    #[Info(id: 6343, name: 'CANADIAN SYLLABICS OJIBWAY NWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x18C7, name: 'CANADIAN SYLLABICS OJIBWAY NWI', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_NWI = "\u{18C7}";
 
-    #[Info(id: 6344, name: 'CANADIAN SYLLABICS NWII', category: Cat::Other_Letter)]
+    #[Info(id: 0x18C8, name: 'CANADIAN SYLLABICS NWII', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_NWII = "\u{18C8}";
 
-    #[Info(id: 6345, name: 'CANADIAN SYLLABICS OJIBWAY NWII', category: Cat::Other_Letter)]
+    #[Info(id: 0x18C9, name: 'CANADIAN SYLLABICS OJIBWAY NWII', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_NWII = "\u{18C9}";
 
-    #[Info(id: 6346, name: 'CANADIAN SYLLABICS NWO', category: Cat::Other_Letter)]
+    #[Info(id: 0x18CA, name: 'CANADIAN SYLLABICS NWO', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_NWO = "\u{18CA}";
 
-    #[Info(id: 6347, name: 'CANADIAN SYLLABICS OJIBWAY NWO', category: Cat::Other_Letter)]
+    #[Info(id: 0x18CB, name: 'CANADIAN SYLLABICS OJIBWAY NWO', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_NWO = "\u{18CB}";
 
-    #[Info(id: 6348, name: 'CANADIAN SYLLABICS NWOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x18CC, name: 'CANADIAN SYLLABICS NWOO', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_NWOO = "\u{18CC}";
 
-    #[Info(id: 6349, name: 'CANADIAN SYLLABICS OJIBWAY NWOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x18CD, name: 'CANADIAN SYLLABICS OJIBWAY NWOO', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_NWOO = "\u{18CD}";
 
-    #[Info(id: 6350, name: 'CANADIAN SYLLABICS RWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x18CE, name: 'CANADIAN SYLLABICS RWEE', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_RWEE = "\u{18CE}";
 
-    #[Info(id: 6351, name: 'CANADIAN SYLLABICS RWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x18CF, name: 'CANADIAN SYLLABICS RWI', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_RWI = "\u{18CF}";
 
-    #[Info(id: 6352, name: 'CANADIAN SYLLABICS RWII', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D0, name: 'CANADIAN SYLLABICS RWII', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_RWII = "\u{18D0}";
 
-    #[Info(id: 6353, name: 'CANADIAN SYLLABICS RWO', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D1, name: 'CANADIAN SYLLABICS RWO', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_RWO = "\u{18D1}";
 
-    #[Info(id: 6354, name: 'CANADIAN SYLLABICS RWOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D2, name: 'CANADIAN SYLLABICS RWOO', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_RWOO = "\u{18D2}";
 
-    #[Info(id: 6355, name: 'CANADIAN SYLLABICS RWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D3, name: 'CANADIAN SYLLABICS RWA', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_RWA = "\u{18D3}";
 
-    #[Info(id: 6356, name: 'CANADIAN SYLLABICS OJIBWAY P', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D4, name: 'CANADIAN SYLLABICS OJIBWAY P', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_P = "\u{18D4}";
 
-    #[Info(id: 6357, name: 'CANADIAN SYLLABICS OJIBWAY T', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D5, name: 'CANADIAN SYLLABICS OJIBWAY T', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_T = "\u{18D5}";
 
-    #[Info(id: 6358, name: 'CANADIAN SYLLABICS OJIBWAY K', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D6, name: 'CANADIAN SYLLABICS OJIBWAY K', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_K = "\u{18D6}";
 
-    #[Info(id: 6359, name: 'CANADIAN SYLLABICS OJIBWAY C', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D7, name: 'CANADIAN SYLLABICS OJIBWAY C', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_C = "\u{18D7}";
 
-    #[Info(id: 6360, name: 'CANADIAN SYLLABICS OJIBWAY M', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D8, name: 'CANADIAN SYLLABICS OJIBWAY M', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_M = "\u{18D8}";
 
-    #[Info(id: 6361, name: 'CANADIAN SYLLABICS OJIBWAY N', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D9, name: 'CANADIAN SYLLABICS OJIBWAY N', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_N = "\u{18D9}";
 
-    #[Info(id: 6362, name: 'CANADIAN SYLLABICS OJIBWAY S', category: Cat::Other_Letter)]
+    #[Info(id: 0x18DA, name: 'CANADIAN SYLLABICS OJIBWAY S', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_S = "\u{18DA}";
 
-    #[Info(id: 6363, name: 'CANADIAN SYLLABICS OJIBWAY SH', category: Cat::Other_Letter)]
+    #[Info(id: 0x18DB, name: 'CANADIAN SYLLABICS OJIBWAY SH', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_OJIBWAY_SH = "\u{18DB}";
 
-    #[Info(id: 6364, name: 'CANADIAN SYLLABICS EASTERN W', category: Cat::Other_Letter)]
+    #[Info(id: 0x18DC, name: 'CANADIAN SYLLABICS EASTERN W', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_EASTERN_W = "\u{18DC}";
 
-    #[Info(id: 6365, name: 'CANADIAN SYLLABICS WESTERN W', category: Cat::Other_Letter)]
+    #[Info(id: 0x18DD, name: 'CANADIAN SYLLABICS WESTERN W', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_WESTERN_W = "\u{18DD}";
 
-    #[Info(id: 6366, name: 'CANADIAN SYLLABICS FINAL SMALL RING', category: Cat::Other_Letter)]
+    #[Info(id: 0x18DE, name: 'CANADIAN SYLLABICS FINAL SMALL RING', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_FINAL_SMALL_RING = "\u{18DE}";
 
-    #[Info(id: 6367, name: 'CANADIAN SYLLABICS FINAL RAISED DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0x18DF, name: 'CANADIAN SYLLABICS FINAL RAISED DOT', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_FINAL_RAISED_DOT = "\u{18DF}";
 
-    #[Info(id: 6368, name: 'CANADIAN SYLLABICS R-CREE RWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x18E0, name: 'CANADIAN SYLLABICS R-CREE RWE', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_R_CREE_RWE = "\u{18E0}";
 
-    #[Info(id: 6369, name: 'CANADIAN SYLLABICS WEST-CREE LOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x18E1, name: 'CANADIAN SYLLABICS WEST-CREE LOO', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_WEST_CREE_LOO = "\u{18E1}";
 
-    #[Info(id: 6370, name: 'CANADIAN SYLLABICS WEST-CREE LAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18E2, name: 'CANADIAN SYLLABICS WEST-CREE LAA', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_WEST_CREE_LAA = "\u{18E2}";
 
-    #[Info(id: 6371, name: 'CANADIAN SYLLABICS THWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x18E3, name: 'CANADIAN SYLLABICS THWE', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_THWE = "\u{18E3}";
 
-    #[Info(id: 6372, name: 'CANADIAN SYLLABICS THWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18E4, name: 'CANADIAN SYLLABICS THWA', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_THWA = "\u{18E4}";
 
-    #[Info(id: 6373, name: 'CANADIAN SYLLABICS TTHWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x18E5, name: 'CANADIAN SYLLABICS TTHWE', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_TTHWE = "\u{18E5}";
 
-    #[Info(id: 6374, name: 'CANADIAN SYLLABICS TTHOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x18E6, name: 'CANADIAN SYLLABICS TTHOO', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_TTHOO = "\u{18E6}";
 
-    #[Info(id: 6375, name: 'CANADIAN SYLLABICS TTHAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18E7, name: 'CANADIAN SYLLABICS TTHAA', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_TTHAA = "\u{18E7}";
 
-    #[Info(id: 6376, name: 'CANADIAN SYLLABICS TLHWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x18E8, name: 'CANADIAN SYLLABICS TLHWE', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_TLHWE = "\u{18E8}";
 
-    #[Info(id: 6377, name: 'CANADIAN SYLLABICS TLHOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x18E9, name: 'CANADIAN SYLLABICS TLHOO', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_TLHOO = "\u{18E9}";
 
-    #[Info(id: 6378, name: 'CANADIAN SYLLABICS SAYISI SHWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x18EA, name: 'CANADIAN SYLLABICS SAYISI SHWE', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_SAYISI_SHWE = "\u{18EA}";
 
-    #[Info(id: 6379, name: 'CANADIAN SYLLABICS SAYISI SHOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x18EB, name: 'CANADIAN SYLLABICS SAYISI SHOO', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_SAYISI_SHOO = "\u{18EB}";
 
-    #[Info(id: 6380, name: 'CANADIAN SYLLABICS SAYISI HOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x18EC, name: 'CANADIAN SYLLABICS SAYISI HOO', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_SAYISI_HOO = "\u{18EC}";
 
-    #[Info(id: 6381, name: 'CANADIAN SYLLABICS CARRIER GWU', category: Cat::Other_Letter)]
+    #[Info(id: 0x18ED, name: 'CANADIAN SYLLABICS CARRIER GWU', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_CARRIER_GWU = "\u{18ED}";
 
-    #[Info(id: 6382, name: 'CANADIAN SYLLABICS CARRIER DENE GEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x18EE, name: 'CANADIAN SYLLABICS CARRIER DENE GEE', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_CARRIER_DENE_GEE = "\u{18EE}";
 
-    #[Info(id: 6383, name: 'CANADIAN SYLLABICS CARRIER GAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18EF, name: 'CANADIAN SYLLABICS CARRIER GAA', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_CARRIER_GAA = "\u{18EF}";
 
-    #[Info(id: 6384, name: 'CANADIAN SYLLABICS CARRIER GWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18F0, name: 'CANADIAN SYLLABICS CARRIER GWA', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_CARRIER_GWA = "\u{18F0}";
 
-    #[Info(id: 6385, name: 'CANADIAN SYLLABICS SAYISI JUU', category: Cat::Other_Letter)]
+    #[Info(id: 0x18F1, name: 'CANADIAN SYLLABICS SAYISI JUU', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_SAYISI_JUU = "\u{18F1}";
 
-    #[Info(id: 6386, name: 'CANADIAN SYLLABICS CARRIER JWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18F2, name: 'CANADIAN SYLLABICS CARRIER JWA', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_CARRIER_JWA = "\u{18F2}";
 
-    #[Info(id: 6387, name: 'CANADIAN SYLLABICS BEAVER DENE L', category: Cat::Other_Letter)]
+    #[Info(id: 0x18F3, name: 'CANADIAN SYLLABICS BEAVER DENE L', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_BEAVER_DENE_L = "\u{18F3}";
 
-    #[Info(id: 6388, name: 'CANADIAN SYLLABICS BEAVER DENE R', category: Cat::Other_Letter)]
+    #[Info(id: 0x18F4, name: 'CANADIAN SYLLABICS BEAVER DENE R', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_BEAVER_DENE_R = "\u{18F4}";
 
-    #[Info(id: 6389, name: 'CANADIAN SYLLABICS CARRIER DENTAL S', category: Cat::Other_Letter)]
+    #[Info(id: 0x18F5, name: 'CANADIAN SYLLABICS CARRIER DENTAL S', category: Cat::Other_Letter)]
     case CANADIAN_SYLLABICS_CARRIER_DENTAL_S = "\u{18F5}";
 }

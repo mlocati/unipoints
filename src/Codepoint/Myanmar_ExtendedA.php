@@ -16,99 +16,99 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Myanmar_ExtendedA: string
 {
-    #[Info(id: 43616, name: 'MYANMAR LETTER KHAMTI GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA60, name: 'MYANMAR LETTER KHAMTI GA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_GA = "\u{AA60}";
 
-    #[Info(id: 43617, name: 'MYANMAR LETTER KHAMTI CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA61, name: 'MYANMAR LETTER KHAMTI CA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_CA = "\u{AA61}";
 
-    #[Info(id: 43618, name: 'MYANMAR LETTER KHAMTI CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA62, name: 'MYANMAR LETTER KHAMTI CHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_CHA = "\u{AA62}";
 
-    #[Info(id: 43619, name: 'MYANMAR LETTER KHAMTI JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA63, name: 'MYANMAR LETTER KHAMTI JA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_JA = "\u{AA63}";
 
-    #[Info(id: 43620, name: 'MYANMAR LETTER KHAMTI JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA64, name: 'MYANMAR LETTER KHAMTI JHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_JHA = "\u{AA64}";
 
-    #[Info(id: 43621, name: 'MYANMAR LETTER KHAMTI NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA65, name: 'MYANMAR LETTER KHAMTI NYA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_NYA = "\u{AA65}";
 
-    #[Info(id: 43622, name: 'MYANMAR LETTER KHAMTI TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA66, name: 'MYANMAR LETTER KHAMTI TTA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_TTA = "\u{AA66}";
 
-    #[Info(id: 43623, name: 'MYANMAR LETTER KHAMTI TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA67, name: 'MYANMAR LETTER KHAMTI TTHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_TTHA = "\u{AA67}";
 
-    #[Info(id: 43624, name: 'MYANMAR LETTER KHAMTI DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA68, name: 'MYANMAR LETTER KHAMTI DDA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_DDA = "\u{AA68}";
 
-    #[Info(id: 43625, name: 'MYANMAR LETTER KHAMTI DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA69, name: 'MYANMAR LETTER KHAMTI DDHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_DDHA = "\u{AA69}";
 
-    #[Info(id: 43626, name: 'MYANMAR LETTER KHAMTI DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA6A, name: 'MYANMAR LETTER KHAMTI DHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_DHA = "\u{AA6A}";
 
-    #[Info(id: 43627, name: 'MYANMAR LETTER KHAMTI NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA6B, name: 'MYANMAR LETTER KHAMTI NA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_NA = "\u{AA6B}";
 
-    #[Info(id: 43628, name: 'MYANMAR LETTER KHAMTI SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA6C, name: 'MYANMAR LETTER KHAMTI SA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_SA = "\u{AA6C}";
 
-    #[Info(id: 43629, name: 'MYANMAR LETTER KHAMTI HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA6D, name: 'MYANMAR LETTER KHAMTI HA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_HA = "\u{AA6D}";
 
-    #[Info(id: 43630, name: 'MYANMAR LETTER KHAMTI HHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA6E, name: 'MYANMAR LETTER KHAMTI HHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_HHA = "\u{AA6E}";
 
-    #[Info(id: 43631, name: 'MYANMAR LETTER KHAMTI FA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA6F, name: 'MYANMAR LETTER KHAMTI FA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_FA = "\u{AA6F}";
 
-    #[Info(id: 43632, name: 'MYANMAR MODIFIER LETTER KHAMTI REDUPLICATION', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xAA70, name: 'MYANMAR MODIFIER LETTER KHAMTI REDUPLICATION', category: Cat::Modifier_Letter)]
     case MYANMAR_MODIFIER_LETTER_KHAMTI_REDUPLICATION = "\u{AA70}";
 
-    #[Info(id: 43633, name: 'MYANMAR LETTER KHAMTI XA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA71, name: 'MYANMAR LETTER KHAMTI XA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_XA = "\u{AA71}";
 
-    #[Info(id: 43634, name: 'MYANMAR LETTER KHAMTI ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA72, name: 'MYANMAR LETTER KHAMTI ZA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_ZA = "\u{AA72}";
 
-    #[Info(id: 43635, name: 'MYANMAR LETTER KHAMTI RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA73, name: 'MYANMAR LETTER KHAMTI RA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHAMTI_RA = "\u{AA73}";
 
-    #[Info(id: 43636, name: 'MYANMAR LOGOGRAM KHAMTI OAY', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA74, name: 'MYANMAR LOGOGRAM KHAMTI OAY', category: Cat::Other_Letter)]
     case MYANMAR_LOGOGRAM_KHAMTI_OAY = "\u{AA74}";
 
-    #[Info(id: 43637, name: 'MYANMAR LOGOGRAM KHAMTI QN', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA75, name: 'MYANMAR LOGOGRAM KHAMTI QN', category: Cat::Other_Letter)]
     case MYANMAR_LOGOGRAM_KHAMTI_QN = "\u{AA75}";
 
-    #[Info(id: 43638, name: 'MYANMAR LOGOGRAM KHAMTI HM', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA76, name: 'MYANMAR LOGOGRAM KHAMTI HM', category: Cat::Other_Letter)]
     case MYANMAR_LOGOGRAM_KHAMTI_HM = "\u{AA76}";
 
-    #[Info(id: 43639, name: 'MYANMAR SYMBOL AITON EXCLAMATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0xAA77, name: 'MYANMAR SYMBOL AITON EXCLAMATION', category: Cat::Other_Symbol)]
     case MYANMAR_SYMBOL_AITON_EXCLAMATION = "\u{AA77}";
 
-    #[Info(id: 43640, name: 'MYANMAR SYMBOL AITON ONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0xAA78, name: 'MYANMAR SYMBOL AITON ONE', category: Cat::Other_Symbol)]
     case MYANMAR_SYMBOL_AITON_ONE = "\u{AA78}";
 
-    #[Info(id: 43641, name: 'MYANMAR SYMBOL AITON TWO', category: Cat::Other_Symbol)]
+    #[Info(id: 0xAA79, name: 'MYANMAR SYMBOL AITON TWO', category: Cat::Other_Symbol)]
     case MYANMAR_SYMBOL_AITON_TWO = "\u{AA79}";
 
-    #[Info(id: 43642, name: 'MYANMAR LETTER AITON RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA7A, name: 'MYANMAR LETTER AITON RA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_AITON_RA = "\u{AA7A}";
 
-    #[Info(id: 43643, name: 'MYANMAR SIGN PAO KAREN TONE', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xAA7B, name: 'MYANMAR SIGN PAO KAREN TONE', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_PAO_KAREN_TONE = "\u{AA7B}";
 
-    #[Info(id: 43644, name: 'MYANMAR SIGN TAI LAING TONE-2', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAA7C, name: 'MYANMAR SIGN TAI LAING TONE-2', category: Cat::Nonspacing_Mark)]
     case MYANMAR_SIGN_TAI_LAING_TONE_2 = "\u{AA7C}";
 
-    #[Info(id: 43645, name: 'MYANMAR SIGN TAI LAING TONE-5', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xAA7D, name: 'MYANMAR SIGN TAI LAING TONE-5', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_TAI_LAING_TONE_5 = "\u{AA7D}";
 
-    #[Info(id: 43646, name: 'MYANMAR LETTER SHWE PALAUNG CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA7E, name: 'MYANMAR LETTER SHWE PALAUNG CHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHWE_PALAUNG_CHA = "\u{AA7E}";
 
-    #[Info(id: 43647, name: 'MYANMAR LETTER SHWE PALAUNG SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA7F, name: 'MYANMAR LETTER SHWE PALAUNG SHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHWE_PALAUNG_SHA = "\u{AA7F}";
 }

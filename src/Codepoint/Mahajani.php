@@ -16,120 +16,120 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Mahajani: string
 {
-    #[Info(id: 69968, name: 'MAHAJANI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11150, name: 'MAHAJANI LETTER A', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_A = "\u{11150}";
 
-    #[Info(id: 69969, name: 'MAHAJANI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11151, name: 'MAHAJANI LETTER I', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_I = "\u{11151}";
 
-    #[Info(id: 69970, name: 'MAHAJANI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11152, name: 'MAHAJANI LETTER U', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_U = "\u{11152}";
 
-    #[Info(id: 69971, name: 'MAHAJANI LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x11153, name: 'MAHAJANI LETTER E', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_E = "\u{11153}";
 
-    #[Info(id: 69972, name: 'MAHAJANI LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x11154, name: 'MAHAJANI LETTER O', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_O = "\u{11154}";
 
-    #[Info(id: 69973, name: 'MAHAJANI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11155, name: 'MAHAJANI LETTER KA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_KA = "\u{11155}";
 
-    #[Info(id: 69974, name: 'MAHAJANI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11156, name: 'MAHAJANI LETTER KHA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_KHA = "\u{11156}";
 
-    #[Info(id: 69975, name: 'MAHAJANI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11157, name: 'MAHAJANI LETTER GA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_GA = "\u{11157}";
 
-    #[Info(id: 69976, name: 'MAHAJANI LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11158, name: 'MAHAJANI LETTER GHA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_GHA = "\u{11158}";
 
-    #[Info(id: 69977, name: 'MAHAJANI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11159, name: 'MAHAJANI LETTER CA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_CA = "\u{11159}";
 
-    #[Info(id: 69978, name: 'MAHAJANI LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1115A, name: 'MAHAJANI LETTER CHA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_CHA = "\u{1115A}";
 
-    #[Info(id: 69979, name: 'MAHAJANI LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1115B, name: 'MAHAJANI LETTER JA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_JA = "\u{1115B}";
 
-    #[Info(id: 69980, name: 'MAHAJANI LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1115C, name: 'MAHAJANI LETTER JHA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_JHA = "\u{1115C}";
 
-    #[Info(id: 69981, name: 'MAHAJANI LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1115D, name: 'MAHAJANI LETTER NYA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_NYA = "\u{1115D}";
 
-    #[Info(id: 69982, name: 'MAHAJANI LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1115E, name: 'MAHAJANI LETTER TTA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_TTA = "\u{1115E}";
 
-    #[Info(id: 69983, name: 'MAHAJANI LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1115F, name: 'MAHAJANI LETTER TTHA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_TTHA = "\u{1115F}";
 
-    #[Info(id: 69984, name: 'MAHAJANI LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11160, name: 'MAHAJANI LETTER DDA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_DDA = "\u{11160}";
 
-    #[Info(id: 69985, name: 'MAHAJANI LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11161, name: 'MAHAJANI LETTER DDHA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_DDHA = "\u{11161}";
 
-    #[Info(id: 69986, name: 'MAHAJANI LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11162, name: 'MAHAJANI LETTER NNA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_NNA = "\u{11162}";
 
-    #[Info(id: 69987, name: 'MAHAJANI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11163, name: 'MAHAJANI LETTER TA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_TA = "\u{11163}";
 
-    #[Info(id: 69988, name: 'MAHAJANI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11164, name: 'MAHAJANI LETTER THA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_THA = "\u{11164}";
 
-    #[Info(id: 69989, name: 'MAHAJANI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11165, name: 'MAHAJANI LETTER DA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_DA = "\u{11165}";
 
-    #[Info(id: 69990, name: 'MAHAJANI LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11166, name: 'MAHAJANI LETTER DHA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_DHA = "\u{11166}";
 
-    #[Info(id: 69991, name: 'MAHAJANI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11167, name: 'MAHAJANI LETTER NA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_NA = "\u{11167}";
 
-    #[Info(id: 69992, name: 'MAHAJANI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11168, name: 'MAHAJANI LETTER PA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_PA = "\u{11168}";
 
-    #[Info(id: 69993, name: 'MAHAJANI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11169, name: 'MAHAJANI LETTER PHA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_PHA = "\u{11169}";
 
-    #[Info(id: 69994, name: 'MAHAJANI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1116A, name: 'MAHAJANI LETTER BA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_BA = "\u{1116A}";
 
-    #[Info(id: 69995, name: 'MAHAJANI LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1116B, name: 'MAHAJANI LETTER BHA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_BHA = "\u{1116B}";
 
-    #[Info(id: 69996, name: 'MAHAJANI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1116C, name: 'MAHAJANI LETTER MA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_MA = "\u{1116C}";
 
-    #[Info(id: 69997, name: 'MAHAJANI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1116D, name: 'MAHAJANI LETTER RA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_RA = "\u{1116D}";
 
-    #[Info(id: 69998, name: 'MAHAJANI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1116E, name: 'MAHAJANI LETTER LA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_LA = "\u{1116E}";
 
-    #[Info(id: 69999, name: 'MAHAJANI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1116F, name: 'MAHAJANI LETTER VA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_VA = "\u{1116F}";
 
-    #[Info(id: 70000, name: 'MAHAJANI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11170, name: 'MAHAJANI LETTER SA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_SA = "\u{11170}";
 
-    #[Info(id: 70001, name: 'MAHAJANI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11171, name: 'MAHAJANI LETTER HA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_HA = "\u{11171}";
 
-    #[Info(id: 70002, name: 'MAHAJANI LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11172, name: 'MAHAJANI LETTER RRA', category: Cat::Other_Letter)]
     case MAHAJANI_LETTER_RRA = "\u{11172}";
 
-    #[Info(id: 70003, name: 'MAHAJANI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11173, name: 'MAHAJANI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case MAHAJANI_SIGN_NUKTA = "\u{11173}";
 
-    #[Info(id: 70004, name: 'MAHAJANI ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11174, name: 'MAHAJANI ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
     case MAHAJANI_ABBREVIATION_SIGN = "\u{11174}";
 
-    #[Info(id: 70005, name: 'MAHAJANI SECTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11175, name: 'MAHAJANI SECTION MARK', category: Cat::Other_Punctuation)]
     case MAHAJANI_SECTION_MARK = "\u{11175}";
 
-    #[Info(id: 70006, name: 'MAHAJANI LIGATURE SHRI', category: Cat::Other_Letter)]
+    #[Info(id: 0x11176, name: 'MAHAJANI LIGATURE SHRI', category: Cat::Other_Letter)]
     case MAHAJANI_LIGATURE_SHRI = "\u{11176}";
 }

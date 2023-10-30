@@ -16,147 +16,147 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Lisu: string
 {
-    #[Info(id: 42192, name: 'LISU LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4D0, name: 'LISU LETTER BA', category: Cat::Other_Letter)]
     case LISU_LETTER_BA = "\u{A4D0}";
 
-    #[Info(id: 42193, name: 'LISU LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4D1, name: 'LISU LETTER PA', category: Cat::Other_Letter)]
     case LISU_LETTER_PA = "\u{A4D1}";
 
-    #[Info(id: 42194, name: 'LISU LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4D2, name: 'LISU LETTER PHA', category: Cat::Other_Letter)]
     case LISU_LETTER_PHA = "\u{A4D2}";
 
-    #[Info(id: 42195, name: 'LISU LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4D3, name: 'LISU LETTER DA', category: Cat::Other_Letter)]
     case LISU_LETTER_DA = "\u{A4D3}";
 
-    #[Info(id: 42196, name: 'LISU LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4D4, name: 'LISU LETTER TA', category: Cat::Other_Letter)]
     case LISU_LETTER_TA = "\u{A4D4}";
 
-    #[Info(id: 42197, name: 'LISU LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4D5, name: 'LISU LETTER THA', category: Cat::Other_Letter)]
     case LISU_LETTER_THA = "\u{A4D5}";
 
-    #[Info(id: 42198, name: 'LISU LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4D6, name: 'LISU LETTER GA', category: Cat::Other_Letter)]
     case LISU_LETTER_GA = "\u{A4D6}";
 
-    #[Info(id: 42199, name: 'LISU LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4D7, name: 'LISU LETTER KA', category: Cat::Other_Letter)]
     case LISU_LETTER_KA = "\u{A4D7}";
 
-    #[Info(id: 42200, name: 'LISU LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4D8, name: 'LISU LETTER KHA', category: Cat::Other_Letter)]
     case LISU_LETTER_KHA = "\u{A4D8}";
 
-    #[Info(id: 42201, name: 'LISU LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4D9, name: 'LISU LETTER JA', category: Cat::Other_Letter)]
     case LISU_LETTER_JA = "\u{A4D9}";
 
-    #[Info(id: 42202, name: 'LISU LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4DA, name: 'LISU LETTER CA', category: Cat::Other_Letter)]
     case LISU_LETTER_CA = "\u{A4DA}";
 
-    #[Info(id: 42203, name: 'LISU LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4DB, name: 'LISU LETTER CHA', category: Cat::Other_Letter)]
     case LISU_LETTER_CHA = "\u{A4DB}";
 
-    #[Info(id: 42204, name: 'LISU LETTER DZA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4DC, name: 'LISU LETTER DZA', category: Cat::Other_Letter)]
     case LISU_LETTER_DZA = "\u{A4DC}";
 
-    #[Info(id: 42205, name: 'LISU LETTER TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4DD, name: 'LISU LETTER TSA', category: Cat::Other_Letter)]
     case LISU_LETTER_TSA = "\u{A4DD}";
 
-    #[Info(id: 42206, name: 'LISU LETTER TSHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4DE, name: 'LISU LETTER TSHA', category: Cat::Other_Letter)]
     case LISU_LETTER_TSHA = "\u{A4DE}";
 
-    #[Info(id: 42207, name: 'LISU LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4DF, name: 'LISU LETTER MA', category: Cat::Other_Letter)]
     case LISU_LETTER_MA = "\u{A4DF}";
 
-    #[Info(id: 42208, name: 'LISU LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4E0, name: 'LISU LETTER NA', category: Cat::Other_Letter)]
     case LISU_LETTER_NA = "\u{A4E0}";
 
-    #[Info(id: 42209, name: 'LISU LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4E1, name: 'LISU LETTER LA', category: Cat::Other_Letter)]
     case LISU_LETTER_LA = "\u{A4E1}";
 
-    #[Info(id: 42210, name: 'LISU LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4E2, name: 'LISU LETTER SA', category: Cat::Other_Letter)]
     case LISU_LETTER_SA = "\u{A4E2}";
 
-    #[Info(id: 42211, name: 'LISU LETTER ZHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4E3, name: 'LISU LETTER ZHA', category: Cat::Other_Letter)]
     case LISU_LETTER_ZHA = "\u{A4E3}";
 
-    #[Info(id: 42212, name: 'LISU LETTER ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4E4, name: 'LISU LETTER ZA', category: Cat::Other_Letter)]
     case LISU_LETTER_ZA = "\u{A4E4}";
 
-    #[Info(id: 42213, name: 'LISU LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4E5, name: 'LISU LETTER NGA', category: Cat::Other_Letter)]
     case LISU_LETTER_NGA = "\u{A4E5}";
 
-    #[Info(id: 42214, name: 'LISU LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4E6, name: 'LISU LETTER HA', category: Cat::Other_Letter)]
     case LISU_LETTER_HA = "\u{A4E6}";
 
-    #[Info(id: 42215, name: 'LISU LETTER XA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4E7, name: 'LISU LETTER XA', category: Cat::Other_Letter)]
     case LISU_LETTER_XA = "\u{A4E7}";
 
-    #[Info(id: 42216, name: 'LISU LETTER HHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4E8, name: 'LISU LETTER HHA', category: Cat::Other_Letter)]
     case LISU_LETTER_HHA = "\u{A4E8}";
 
-    #[Info(id: 42217, name: 'LISU LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4E9, name: 'LISU LETTER FA', category: Cat::Other_Letter)]
     case LISU_LETTER_FA = "\u{A4E9}";
 
-    #[Info(id: 42218, name: 'LISU LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4EA, name: 'LISU LETTER WA', category: Cat::Other_Letter)]
     case LISU_LETTER_WA = "\u{A4EA}";
 
-    #[Info(id: 42219, name: 'LISU LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4EB, name: 'LISU LETTER SHA', category: Cat::Other_Letter)]
     case LISU_LETTER_SHA = "\u{A4EB}";
 
-    #[Info(id: 42220, name: 'LISU LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4EC, name: 'LISU LETTER YA', category: Cat::Other_Letter)]
     case LISU_LETTER_YA = "\u{A4EC}";
 
-    #[Info(id: 42221, name: 'LISU LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4ED, name: 'LISU LETTER GHA', category: Cat::Other_Letter)]
     case LISU_LETTER_GHA = "\u{A4ED}";
 
-    #[Info(id: 42222, name: 'LISU LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4EE, name: 'LISU LETTER A', category: Cat::Other_Letter)]
     case LISU_LETTER_A = "\u{A4EE}";
 
-    #[Info(id: 42223, name: 'LISU LETTER AE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4EF, name: 'LISU LETTER AE', category: Cat::Other_Letter)]
     case LISU_LETTER_AE = "\u{A4EF}";
 
-    #[Info(id: 42224, name: 'LISU LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4F0, name: 'LISU LETTER E', category: Cat::Other_Letter)]
     case LISU_LETTER_E = "\u{A4F0}";
 
-    #[Info(id: 42225, name: 'LISU LETTER EU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4F1, name: 'LISU LETTER EU', category: Cat::Other_Letter)]
     case LISU_LETTER_EU = "\u{A4F1}";
 
-    #[Info(id: 42226, name: 'LISU LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4F2, name: 'LISU LETTER I', category: Cat::Other_Letter)]
     case LISU_LETTER_I = "\u{A4F2}";
 
-    #[Info(id: 42227, name: 'LISU LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4F3, name: 'LISU LETTER O', category: Cat::Other_Letter)]
     case LISU_LETTER_O = "\u{A4F3}";
 
-    #[Info(id: 42228, name: 'LISU LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4F4, name: 'LISU LETTER U', category: Cat::Other_Letter)]
     case LISU_LETTER_U = "\u{A4F4}";
 
-    #[Info(id: 42229, name: 'LISU LETTER UE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4F5, name: 'LISU LETTER UE', category: Cat::Other_Letter)]
     case LISU_LETTER_UE = "\u{A4F5}";
 
-    #[Info(id: 42230, name: 'LISU LETTER UH', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4F6, name: 'LISU LETTER UH', category: Cat::Other_Letter)]
     case LISU_LETTER_UH = "\u{A4F6}";
 
-    #[Info(id: 42231, name: 'LISU LETTER OE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA4F7, name: 'LISU LETTER OE', category: Cat::Other_Letter)]
     case LISU_LETTER_OE = "\u{A4F7}";
 
-    #[Info(id: 42232, name: 'LISU LETTER TONE MYA TI', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA4F8, name: 'LISU LETTER TONE MYA TI', category: Cat::Modifier_Letter)]
     case LISU_LETTER_TONE_MYA_TI = "\u{A4F8}";
 
-    #[Info(id: 42233, name: 'LISU LETTER TONE NA PO', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA4F9, name: 'LISU LETTER TONE NA PO', category: Cat::Modifier_Letter)]
     case LISU_LETTER_TONE_NA_PO = "\u{A4F9}";
 
-    #[Info(id: 42234, name: 'LISU LETTER TONE MYA CYA', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA4FA, name: 'LISU LETTER TONE MYA CYA', category: Cat::Modifier_Letter)]
     case LISU_LETTER_TONE_MYA_CYA = "\u{A4FA}";
 
-    #[Info(id: 42235, name: 'LISU LETTER TONE MYA BO', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA4FB, name: 'LISU LETTER TONE MYA BO', category: Cat::Modifier_Letter)]
     case LISU_LETTER_TONE_MYA_BO = "\u{A4FB}";
 
-    #[Info(id: 42236, name: 'LISU LETTER TONE MYA NA', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA4FC, name: 'LISU LETTER TONE MYA NA', category: Cat::Modifier_Letter)]
     case LISU_LETTER_TONE_MYA_NA = "\u{A4FC}";
 
-    #[Info(id: 42237, name: 'LISU LETTER TONE MYA JEU', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA4FD, name: 'LISU LETTER TONE MYA JEU', category: Cat::Modifier_Letter)]
     case LISU_LETTER_TONE_MYA_JEU = "\u{A4FD}";
 
-    #[Info(id: 42238, name: 'LISU PUNCTUATION COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA4FE, name: 'LISU PUNCTUATION COMMA', category: Cat::Other_Punctuation)]
     case LISU_PUNCTUATION_COMMA = "\u{A4FE}";
 
-    #[Info(id: 42239, name: 'LISU PUNCTUATION FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA4FF, name: 'LISU PUNCTUATION FULL STOP', category: Cat::Other_Punctuation)]
     case LISU_PUNCTUATION_FULL_STOP = "\u{A4FF}";
 }

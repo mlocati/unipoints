@@ -16,63 +16,63 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Sinhala_Archaic_Numbers: string
 {
-    #[Info(id: 70113, name: 'SINHALA ARCHAIC DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x111E1, name: 'SINHALA ARCHAIC DIGIT ONE', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_DIGIT_ONE = "\u{111E1}";
 
-    #[Info(id: 70114, name: 'SINHALA ARCHAIC DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x111E2, name: 'SINHALA ARCHAIC DIGIT TWO', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_DIGIT_TWO = "\u{111E2}";
 
-    #[Info(id: 70115, name: 'SINHALA ARCHAIC DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x111E3, name: 'SINHALA ARCHAIC DIGIT THREE', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_DIGIT_THREE = "\u{111E3}";
 
-    #[Info(id: 70116, name: 'SINHALA ARCHAIC DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x111E4, name: 'SINHALA ARCHAIC DIGIT FOUR', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_DIGIT_FOUR = "\u{111E4}";
 
-    #[Info(id: 70117, name: 'SINHALA ARCHAIC DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x111E5, name: 'SINHALA ARCHAIC DIGIT FIVE', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_DIGIT_FIVE = "\u{111E5}";
 
-    #[Info(id: 70118, name: 'SINHALA ARCHAIC DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x111E6, name: 'SINHALA ARCHAIC DIGIT SIX', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_DIGIT_SIX = "\u{111E6}";
 
-    #[Info(id: 70119, name: 'SINHALA ARCHAIC DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x111E7, name: 'SINHALA ARCHAIC DIGIT SEVEN', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_DIGIT_SEVEN = "\u{111E7}";
 
-    #[Info(id: 70120, name: 'SINHALA ARCHAIC DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x111E8, name: 'SINHALA ARCHAIC DIGIT EIGHT', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_DIGIT_EIGHT = "\u{111E8}";
 
-    #[Info(id: 70121, name: 'SINHALA ARCHAIC DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x111E9, name: 'SINHALA ARCHAIC DIGIT NINE', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_DIGIT_NINE = "\u{111E9}";
 
-    #[Info(id: 70122, name: 'SINHALA ARCHAIC NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x111EA, name: 'SINHALA ARCHAIC NUMBER TEN', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_NUMBER_TEN = "\u{111EA}";
 
-    #[Info(id: 70123, name: 'SINHALA ARCHAIC NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x111EB, name: 'SINHALA ARCHAIC NUMBER TWENTY', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_NUMBER_TWENTY = "\u{111EB}";
 
-    #[Info(id: 70124, name: 'SINHALA ARCHAIC NUMBER THIRTY', category: Cat::Other_Number)]
+    #[Info(id: 0x111EC, name: 'SINHALA ARCHAIC NUMBER THIRTY', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_NUMBER_THIRTY = "\u{111EC}";
 
-    #[Info(id: 70125, name: 'SINHALA ARCHAIC NUMBER FORTY', category: Cat::Other_Number)]
+    #[Info(id: 0x111ED, name: 'SINHALA ARCHAIC NUMBER FORTY', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_NUMBER_FORTY = "\u{111ED}";
 
-    #[Info(id: 70126, name: 'SINHALA ARCHAIC NUMBER FIFTY', category: Cat::Other_Number)]
+    #[Info(id: 0x111EE, name: 'SINHALA ARCHAIC NUMBER FIFTY', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_NUMBER_FIFTY = "\u{111EE}";
 
-    #[Info(id: 70127, name: 'SINHALA ARCHAIC NUMBER SIXTY', category: Cat::Other_Number)]
+    #[Info(id: 0x111EF, name: 'SINHALA ARCHAIC NUMBER SIXTY', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_NUMBER_SIXTY = "\u{111EF}";
 
-    #[Info(id: 70128, name: 'SINHALA ARCHAIC NUMBER SEVENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x111F0, name: 'SINHALA ARCHAIC NUMBER SEVENTY', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_NUMBER_SEVENTY = "\u{111F0}";
 
-    #[Info(id: 70129, name: 'SINHALA ARCHAIC NUMBER EIGHTY', category: Cat::Other_Number)]
+    #[Info(id: 0x111F1, name: 'SINHALA ARCHAIC NUMBER EIGHTY', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_NUMBER_EIGHTY = "\u{111F1}";
 
-    #[Info(id: 70130, name: 'SINHALA ARCHAIC NUMBER NINETY', category: Cat::Other_Number)]
+    #[Info(id: 0x111F2, name: 'SINHALA ARCHAIC NUMBER NINETY', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_NUMBER_NINETY = "\u{111F2}";
 
-    #[Info(id: 70131, name: 'SINHALA ARCHAIC NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x111F3, name: 'SINHALA ARCHAIC NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_NUMBER_ONE_HUNDRED = "\u{111F3}";
 
-    #[Info(id: 70132, name: 'SINHALA ARCHAIC NUMBER ONE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x111F4, name: 'SINHALA ARCHAIC NUMBER ONE THOUSAND', category: Cat::Other_Number)]
     case SINHALA_ARCHAIC_NUMBER_ONE_THOUSAND = "\u{111F4}";
 }

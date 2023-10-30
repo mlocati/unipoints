@@ -16,114 +16,114 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Rejang: string
 {
-    #[Info(id: 43312, name: 'REJANG LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA930, name: 'REJANG LETTER KA', category: Cat::Other_Letter)]
     case REJANG_LETTER_KA = "\u{A930}";
 
-    #[Info(id: 43313, name: 'REJANG LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA931, name: 'REJANG LETTER GA', category: Cat::Other_Letter)]
     case REJANG_LETTER_GA = "\u{A931}";
 
-    #[Info(id: 43314, name: 'REJANG LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA932, name: 'REJANG LETTER NGA', category: Cat::Other_Letter)]
     case REJANG_LETTER_NGA = "\u{A932}";
 
-    #[Info(id: 43315, name: 'REJANG LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA933, name: 'REJANG LETTER TA', category: Cat::Other_Letter)]
     case REJANG_LETTER_TA = "\u{A933}";
 
-    #[Info(id: 43316, name: 'REJANG LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA934, name: 'REJANG LETTER DA', category: Cat::Other_Letter)]
     case REJANG_LETTER_DA = "\u{A934}";
 
-    #[Info(id: 43317, name: 'REJANG LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA935, name: 'REJANG LETTER NA', category: Cat::Other_Letter)]
     case REJANG_LETTER_NA = "\u{A935}";
 
-    #[Info(id: 43318, name: 'REJANG LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA936, name: 'REJANG LETTER PA', category: Cat::Other_Letter)]
     case REJANG_LETTER_PA = "\u{A936}";
 
-    #[Info(id: 43319, name: 'REJANG LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA937, name: 'REJANG LETTER BA', category: Cat::Other_Letter)]
     case REJANG_LETTER_BA = "\u{A937}";
 
-    #[Info(id: 43320, name: 'REJANG LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA938, name: 'REJANG LETTER MA', category: Cat::Other_Letter)]
     case REJANG_LETTER_MA = "\u{A938}";
 
-    #[Info(id: 43321, name: 'REJANG LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA939, name: 'REJANG LETTER CA', category: Cat::Other_Letter)]
     case REJANG_LETTER_CA = "\u{A939}";
 
-    #[Info(id: 43322, name: 'REJANG LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA93A, name: 'REJANG LETTER JA', category: Cat::Other_Letter)]
     case REJANG_LETTER_JA = "\u{A93A}";
 
-    #[Info(id: 43323, name: 'REJANG LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA93B, name: 'REJANG LETTER NYA', category: Cat::Other_Letter)]
     case REJANG_LETTER_NYA = "\u{A93B}";
 
-    #[Info(id: 43324, name: 'REJANG LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA93C, name: 'REJANG LETTER SA', category: Cat::Other_Letter)]
     case REJANG_LETTER_SA = "\u{A93C}";
 
-    #[Info(id: 43325, name: 'REJANG LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA93D, name: 'REJANG LETTER RA', category: Cat::Other_Letter)]
     case REJANG_LETTER_RA = "\u{A93D}";
 
-    #[Info(id: 43326, name: 'REJANG LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA93E, name: 'REJANG LETTER LA', category: Cat::Other_Letter)]
     case REJANG_LETTER_LA = "\u{A93E}";
 
-    #[Info(id: 43327, name: 'REJANG LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA93F, name: 'REJANG LETTER YA', category: Cat::Other_Letter)]
     case REJANG_LETTER_YA = "\u{A93F}";
 
-    #[Info(id: 43328, name: 'REJANG LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA940, name: 'REJANG LETTER WA', category: Cat::Other_Letter)]
     case REJANG_LETTER_WA = "\u{A940}";
 
-    #[Info(id: 43329, name: 'REJANG LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA941, name: 'REJANG LETTER HA', category: Cat::Other_Letter)]
     case REJANG_LETTER_HA = "\u{A941}";
 
-    #[Info(id: 43330, name: 'REJANG LETTER MBA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA942, name: 'REJANG LETTER MBA', category: Cat::Other_Letter)]
     case REJANG_LETTER_MBA = "\u{A942}";
 
-    #[Info(id: 43331, name: 'REJANG LETTER NGGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA943, name: 'REJANG LETTER NGGA', category: Cat::Other_Letter)]
     case REJANG_LETTER_NGGA = "\u{A943}";
 
-    #[Info(id: 43332, name: 'REJANG LETTER NDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA944, name: 'REJANG LETTER NDA', category: Cat::Other_Letter)]
     case REJANG_LETTER_NDA = "\u{A944}";
 
-    #[Info(id: 43333, name: 'REJANG LETTER NYJA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA945, name: 'REJANG LETTER NYJA', category: Cat::Other_Letter)]
     case REJANG_LETTER_NYJA = "\u{A945}";
 
-    #[Info(id: 43334, name: 'REJANG LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xA946, name: 'REJANG LETTER A', category: Cat::Other_Letter)]
     case REJANG_LETTER_A = "\u{A946}";
 
-    #[Info(id: 43335, name: 'REJANG VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA947, name: 'REJANG VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case REJANG_VOWEL_SIGN_I = "\u{A947}";
 
-    #[Info(id: 43336, name: 'REJANG VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA948, name: 'REJANG VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case REJANG_VOWEL_SIGN_U = "\u{A948}";
 
-    #[Info(id: 43337, name: 'REJANG VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA949, name: 'REJANG VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case REJANG_VOWEL_SIGN_E = "\u{A949}";
 
-    #[Info(id: 43338, name: 'REJANG VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA94A, name: 'REJANG VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case REJANG_VOWEL_SIGN_AI = "\u{A94A}";
 
-    #[Info(id: 43339, name: 'REJANG VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA94B, name: 'REJANG VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case REJANG_VOWEL_SIGN_O = "\u{A94B}";
 
-    #[Info(id: 43340, name: 'REJANG VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA94C, name: 'REJANG VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
     case REJANG_VOWEL_SIGN_AU = "\u{A94C}";
 
-    #[Info(id: 43341, name: 'REJANG VOWEL SIGN EU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA94D, name: 'REJANG VOWEL SIGN EU', category: Cat::Nonspacing_Mark)]
     case REJANG_VOWEL_SIGN_EU = "\u{A94D}";
 
-    #[Info(id: 43342, name: 'REJANG VOWEL SIGN EA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA94E, name: 'REJANG VOWEL SIGN EA', category: Cat::Nonspacing_Mark)]
     case REJANG_VOWEL_SIGN_EA = "\u{A94E}";
 
-    #[Info(id: 43343, name: 'REJANG CONSONANT SIGN NG', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA94F, name: 'REJANG CONSONANT SIGN NG', category: Cat::Nonspacing_Mark)]
     case REJANG_CONSONANT_SIGN_NG = "\u{A94F}";
 
-    #[Info(id: 43344, name: 'REJANG CONSONANT SIGN N', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA950, name: 'REJANG CONSONANT SIGN N', category: Cat::Nonspacing_Mark)]
     case REJANG_CONSONANT_SIGN_N = "\u{A950}";
 
-    #[Info(id: 43345, name: 'REJANG CONSONANT SIGN R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA951, name: 'REJANG CONSONANT SIGN R', category: Cat::Nonspacing_Mark)]
     case REJANG_CONSONANT_SIGN_R = "\u{A951}";
 
-    #[Info(id: 43346, name: 'REJANG CONSONANT SIGN H', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA952, name: 'REJANG CONSONANT SIGN H', category: Cat::Spacing_Mark)]
     case REJANG_CONSONANT_SIGN_H = "\u{A952}";
 
-    #[Info(id: 43347, name: 'REJANG VIRAMA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA953, name: 'REJANG VIRAMA', category: Cat::Spacing_Mark)]
     case REJANG_VIRAMA = "\u{A953}";
 
-    #[Info(id: 43359, name: 'REJANG SECTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA95F, name: 'REJANG SECTION MARK', category: Cat::Other_Punctuation)]
     case REJANG_SECTION_MARK = "\u{A95F}";
 }

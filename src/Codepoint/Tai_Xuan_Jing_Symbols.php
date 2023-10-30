@@ -16,264 +16,264 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Tai_Xuan_Jing_Symbols: string
 {
-    #[Info(id: 119552, name: 'MONOGRAM FOR EARTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D300, name: 'MONOGRAM FOR EARTH', category: Cat::Other_Symbol)]
     case MONOGRAM_FOR_EARTH = "\u{1D300}";
 
-    #[Info(id: 119553, name: 'DIGRAM FOR HEAVENLY EARTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D301, name: 'DIGRAM FOR HEAVENLY EARTH', category: Cat::Other_Symbol)]
     case DIGRAM_FOR_HEAVENLY_EARTH = "\u{1D301}";
 
-    #[Info(id: 119554, name: 'DIGRAM FOR HUMAN EARTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D302, name: 'DIGRAM FOR HUMAN EARTH', category: Cat::Other_Symbol)]
     case DIGRAM_FOR_HUMAN_EARTH = "\u{1D302}";
 
-    #[Info(id: 119555, name: 'DIGRAM FOR EARTHLY HEAVEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D303, name: 'DIGRAM FOR EARTHLY HEAVEN', category: Cat::Other_Symbol)]
     case DIGRAM_FOR_EARTHLY_HEAVEN = "\u{1D303}";
 
-    #[Info(id: 119556, name: 'DIGRAM FOR EARTHLY HUMAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D304, name: 'DIGRAM FOR EARTHLY HUMAN', category: Cat::Other_Symbol)]
     case DIGRAM_FOR_EARTHLY_HUMAN = "\u{1D304}";
 
-    #[Info(id: 119557, name: 'DIGRAM FOR EARTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D305, name: 'DIGRAM FOR EARTH', category: Cat::Other_Symbol)]
     case DIGRAM_FOR_EARTH = "\u{1D305}";
 
-    #[Info(id: 119558, name: 'TETRAGRAM FOR CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D306, name: 'TETRAGRAM FOR CENTRE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_CENTRE = "\u{1D306}";
 
-    #[Info(id: 119559, name: 'TETRAGRAM FOR FULL CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D307, name: 'TETRAGRAM FOR FULL CIRCLE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_FULL_CIRCLE = "\u{1D307}";
 
-    #[Info(id: 119560, name: 'TETRAGRAM FOR MIRED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D308, name: 'TETRAGRAM FOR MIRED', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_MIRED = "\u{1D308}";
 
-    #[Info(id: 119561, name: 'TETRAGRAM FOR BARRIER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D309, name: 'TETRAGRAM FOR BARRIER', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_BARRIER = "\u{1D309}";
 
-    #[Info(id: 119562, name: 'TETRAGRAM FOR KEEPING SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D30A, name: 'TETRAGRAM FOR KEEPING SMALL', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_KEEPING_SMALL = "\u{1D30A}";
 
-    #[Info(id: 119563, name: 'TETRAGRAM FOR CONTRARIETY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D30B, name: 'TETRAGRAM FOR CONTRARIETY', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_CONTRARIETY = "\u{1D30B}";
 
-    #[Info(id: 119564, name: 'TETRAGRAM FOR ASCENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D30C, name: 'TETRAGRAM FOR ASCENT', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_ASCENT = "\u{1D30C}";
 
-    #[Info(id: 119565, name: 'TETRAGRAM FOR OPPOSITION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D30D, name: 'TETRAGRAM FOR OPPOSITION', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_OPPOSITION = "\u{1D30D}";
 
-    #[Info(id: 119566, name: 'TETRAGRAM FOR BRANCHING OUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D30E, name: 'TETRAGRAM FOR BRANCHING OUT', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_BRANCHING_OUT = "\u{1D30E}";
 
-    #[Info(id: 119567, name: 'TETRAGRAM FOR DEFECTIVENESS OR DISTORTION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D30F, name: 'TETRAGRAM FOR DEFECTIVENESS OR DISTORTION', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_DEFECTIVENESS_OR_DISTORTION = "\u{1D30F}";
 
-    #[Info(id: 119568, name: 'TETRAGRAM FOR DIVERGENCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D310, name: 'TETRAGRAM FOR DIVERGENCE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_DIVERGENCE = "\u{1D310}";
 
-    #[Info(id: 119569, name: 'TETRAGRAM FOR YOUTHFULNESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D311, name: 'TETRAGRAM FOR YOUTHFULNESS', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_YOUTHFULNESS = "\u{1D311}";
 
-    #[Info(id: 119570, name: 'TETRAGRAM FOR INCREASE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D312, name: 'TETRAGRAM FOR INCREASE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_INCREASE = "\u{1D312}";
 
-    #[Info(id: 119571, name: 'TETRAGRAM FOR PENETRATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D313, name: 'TETRAGRAM FOR PENETRATION', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_PENETRATION = "\u{1D313}";
 
-    #[Info(id: 119572, name: 'TETRAGRAM FOR REACH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D314, name: 'TETRAGRAM FOR REACH', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_REACH = "\u{1D314}";
 
-    #[Info(id: 119573, name: 'TETRAGRAM FOR CONTACT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D315, name: 'TETRAGRAM FOR CONTACT', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_CONTACT = "\u{1D315}";
 
-    #[Info(id: 119574, name: 'TETRAGRAM FOR HOLDING BACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D316, name: 'TETRAGRAM FOR HOLDING BACK', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_HOLDING_BACK = "\u{1D316}";
 
-    #[Info(id: 119575, name: 'TETRAGRAM FOR WAITING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D317, name: 'TETRAGRAM FOR WAITING', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_WAITING = "\u{1D317}";
 
-    #[Info(id: 119576, name: 'TETRAGRAM FOR FOLLOWING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D318, name: 'TETRAGRAM FOR FOLLOWING', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_FOLLOWING = "\u{1D318}";
 
-    #[Info(id: 119577, name: 'TETRAGRAM FOR ADVANCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D319, name: 'TETRAGRAM FOR ADVANCE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_ADVANCE = "\u{1D319}";
 
-    #[Info(id: 119578, name: 'TETRAGRAM FOR RELEASE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D31A, name: 'TETRAGRAM FOR RELEASE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_RELEASE = "\u{1D31A}";
 
-    #[Info(id: 119579, name: 'TETRAGRAM FOR RESISTANCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D31B, name: 'TETRAGRAM FOR RESISTANCE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_RESISTANCE = "\u{1D31B}";
 
-    #[Info(id: 119580, name: 'TETRAGRAM FOR EASE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D31C, name: 'TETRAGRAM FOR EASE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_EASE = "\u{1D31C}";
 
-    #[Info(id: 119581, name: 'TETRAGRAM FOR JOY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D31D, name: 'TETRAGRAM FOR JOY', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_JOY = "\u{1D31D}";
 
-    #[Info(id: 119582, name: 'TETRAGRAM FOR CONTENTION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D31E, name: 'TETRAGRAM FOR CONTENTION', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_CONTENTION = "\u{1D31E}";
 
-    #[Info(id: 119583, name: 'TETRAGRAM FOR ENDEAVOUR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D31F, name: 'TETRAGRAM FOR ENDEAVOUR', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_ENDEAVOUR = "\u{1D31F}";
 
-    #[Info(id: 119584, name: 'TETRAGRAM FOR DUTIES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D320, name: 'TETRAGRAM FOR DUTIES', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_DUTIES = "\u{1D320}";
 
-    #[Info(id: 119585, name: 'TETRAGRAM FOR CHANGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D321, name: 'TETRAGRAM FOR CHANGE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_CHANGE = "\u{1D321}";
 
-    #[Info(id: 119586, name: 'TETRAGRAM FOR DECISIVENESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D322, name: 'TETRAGRAM FOR DECISIVENESS', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_DECISIVENESS = "\u{1D322}";
 
-    #[Info(id: 119587, name: 'TETRAGRAM FOR BOLD RESOLUTION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D323, name: 'TETRAGRAM FOR BOLD RESOLUTION', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_BOLD_RESOLUTION = "\u{1D323}";
 
-    #[Info(id: 119588, name: 'TETRAGRAM FOR PACKING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D324, name: 'TETRAGRAM FOR PACKING', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_PACKING = "\u{1D324}";
 
-    #[Info(id: 119589, name: 'TETRAGRAM FOR LEGION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D325, name: 'TETRAGRAM FOR LEGION', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_LEGION = "\u{1D325}";
 
-    #[Info(id: 119590, name: 'TETRAGRAM FOR CLOSENESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D326, name: 'TETRAGRAM FOR CLOSENESS', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_CLOSENESS = "\u{1D326}";
 
-    #[Info(id: 119591, name: 'TETRAGRAM FOR KINSHIP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D327, name: 'TETRAGRAM FOR KINSHIP', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_KINSHIP = "\u{1D327}";
 
-    #[Info(id: 119592, name: 'TETRAGRAM FOR GATHERING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D328, name: 'TETRAGRAM FOR GATHERING', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_GATHERING = "\u{1D328}";
 
-    #[Info(id: 119593, name: 'TETRAGRAM FOR STRENGTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D329, name: 'TETRAGRAM FOR STRENGTH', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_STRENGTH = "\u{1D329}";
 
-    #[Info(id: 119594, name: 'TETRAGRAM FOR PURITY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D32A, name: 'TETRAGRAM FOR PURITY', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_PURITY = "\u{1D32A}";
 
-    #[Info(id: 119595, name: 'TETRAGRAM FOR FULLNESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D32B, name: 'TETRAGRAM FOR FULLNESS', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_FULLNESS = "\u{1D32B}";
 
-    #[Info(id: 119596, name: 'TETRAGRAM FOR RESIDENCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D32C, name: 'TETRAGRAM FOR RESIDENCE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_RESIDENCE = "\u{1D32C}";
 
-    #[Info(id: 119597, name: 'TETRAGRAM FOR LAW OR MODEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D32D, name: 'TETRAGRAM FOR LAW OR MODEL', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_LAW_OR_MODEL = "\u{1D32D}";
 
-    #[Info(id: 119598, name: 'TETRAGRAM FOR RESPONSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D32E, name: 'TETRAGRAM FOR RESPONSE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_RESPONSE = "\u{1D32E}";
 
-    #[Info(id: 119599, name: 'TETRAGRAM FOR GOING TO MEET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D32F, name: 'TETRAGRAM FOR GOING TO MEET', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_GOING_TO_MEET = "\u{1D32F}";
 
-    #[Info(id: 119600, name: 'TETRAGRAM FOR ENCOUNTERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D330, name: 'TETRAGRAM FOR ENCOUNTERS', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_ENCOUNTERS = "\u{1D330}";
 
-    #[Info(id: 119601, name: 'TETRAGRAM FOR STOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D331, name: 'TETRAGRAM FOR STOVE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_STOVE = "\u{1D331}";
 
-    #[Info(id: 119602, name: 'TETRAGRAM FOR GREATNESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D332, name: 'TETRAGRAM FOR GREATNESS', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_GREATNESS = "\u{1D332}";
 
-    #[Info(id: 119603, name: 'TETRAGRAM FOR ENLARGEMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D333, name: 'TETRAGRAM FOR ENLARGEMENT', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_ENLARGEMENT = "\u{1D333}";
 
-    #[Info(id: 119604, name: 'TETRAGRAM FOR PATTERN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D334, name: 'TETRAGRAM FOR PATTERN', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_PATTERN = "\u{1D334}";
 
-    #[Info(id: 119605, name: 'TETRAGRAM FOR RITUAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D335, name: 'TETRAGRAM FOR RITUAL', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_RITUAL = "\u{1D335}";
 
-    #[Info(id: 119606, name: 'TETRAGRAM FOR FLIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D336, name: 'TETRAGRAM FOR FLIGHT', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_FLIGHT = "\u{1D336}";
 
-    #[Info(id: 119607, name: 'TETRAGRAM FOR VASTNESS OR WASTING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D337, name: 'TETRAGRAM FOR VASTNESS OR WASTING', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_VASTNESS_OR_WASTING = "\u{1D337}";
 
-    #[Info(id: 119608, name: 'TETRAGRAM FOR CONSTANCY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D338, name: 'TETRAGRAM FOR CONSTANCY', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_CONSTANCY = "\u{1D338}";
 
-    #[Info(id: 119609, name: 'TETRAGRAM FOR MEASURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D339, name: 'TETRAGRAM FOR MEASURE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_MEASURE = "\u{1D339}";
 
-    #[Info(id: 119610, name: 'TETRAGRAM FOR ETERNITY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D33A, name: 'TETRAGRAM FOR ETERNITY', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_ETERNITY = "\u{1D33A}";
 
-    #[Info(id: 119611, name: 'TETRAGRAM FOR UNITY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D33B, name: 'TETRAGRAM FOR UNITY', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_UNITY = "\u{1D33B}";
 
-    #[Info(id: 119612, name: 'TETRAGRAM FOR DIMINISHMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D33C, name: 'TETRAGRAM FOR DIMINISHMENT', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_DIMINISHMENT = "\u{1D33C}";
 
-    #[Info(id: 119613, name: 'TETRAGRAM FOR CLOSED MOUTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D33D, name: 'TETRAGRAM FOR CLOSED MOUTH', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_CLOSED_MOUTH = "\u{1D33D}";
 
-    #[Info(id: 119614, name: 'TETRAGRAM FOR GUARDEDNESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D33E, name: 'TETRAGRAM FOR GUARDEDNESS', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_GUARDEDNESS = "\u{1D33E}";
 
-    #[Info(id: 119615, name: 'TETRAGRAM FOR GATHERING IN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D33F, name: 'TETRAGRAM FOR GATHERING IN', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_GATHERING_IN = "\u{1D33F}";
 
-    #[Info(id: 119616, name: 'TETRAGRAM FOR MASSING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D340, name: 'TETRAGRAM FOR MASSING', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_MASSING = "\u{1D340}";
 
-    #[Info(id: 119617, name: 'TETRAGRAM FOR ACCUMULATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D341, name: 'TETRAGRAM FOR ACCUMULATION', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_ACCUMULATION = "\u{1D341}";
 
-    #[Info(id: 119618, name: 'TETRAGRAM FOR EMBELLISHMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D342, name: 'TETRAGRAM FOR EMBELLISHMENT', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_EMBELLISHMENT = "\u{1D342}";
 
-    #[Info(id: 119619, name: 'TETRAGRAM FOR DOUBT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D343, name: 'TETRAGRAM FOR DOUBT', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_DOUBT = "\u{1D343}";
 
-    #[Info(id: 119620, name: 'TETRAGRAM FOR WATCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D344, name: 'TETRAGRAM FOR WATCH', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_WATCH = "\u{1D344}";
 
-    #[Info(id: 119621, name: 'TETRAGRAM FOR SINKING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D345, name: 'TETRAGRAM FOR SINKING', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_SINKING = "\u{1D345}";
 
-    #[Info(id: 119622, name: 'TETRAGRAM FOR INNER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D346, name: 'TETRAGRAM FOR INNER', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_INNER = "\u{1D346}";
 
-    #[Info(id: 119623, name: 'TETRAGRAM FOR DEPARTURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D347, name: 'TETRAGRAM FOR DEPARTURE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_DEPARTURE = "\u{1D347}";
 
-    #[Info(id: 119624, name: 'TETRAGRAM FOR DARKENING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D348, name: 'TETRAGRAM FOR DARKENING', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_DARKENING = "\u{1D348}";
 
-    #[Info(id: 119625, name: 'TETRAGRAM FOR DIMMING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D349, name: 'TETRAGRAM FOR DIMMING', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_DIMMING = "\u{1D349}";
 
-    #[Info(id: 119626, name: 'TETRAGRAM FOR EXHAUSTION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D34A, name: 'TETRAGRAM FOR EXHAUSTION', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_EXHAUSTION = "\u{1D34A}";
 
-    #[Info(id: 119627, name: 'TETRAGRAM FOR SEVERANCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D34B, name: 'TETRAGRAM FOR SEVERANCE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_SEVERANCE = "\u{1D34B}";
 
-    #[Info(id: 119628, name: 'TETRAGRAM FOR STOPPAGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D34C, name: 'TETRAGRAM FOR STOPPAGE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_STOPPAGE = "\u{1D34C}";
 
-    #[Info(id: 119629, name: 'TETRAGRAM FOR HARDNESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D34D, name: 'TETRAGRAM FOR HARDNESS', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_HARDNESS = "\u{1D34D}";
 
-    #[Info(id: 119630, name: 'TETRAGRAM FOR COMPLETION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D34E, name: 'TETRAGRAM FOR COMPLETION', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_COMPLETION = "\u{1D34E}";
 
-    #[Info(id: 119631, name: 'TETRAGRAM FOR CLOSURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D34F, name: 'TETRAGRAM FOR CLOSURE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_CLOSURE = "\u{1D34F}";
 
-    #[Info(id: 119632, name: 'TETRAGRAM FOR FAILURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D350, name: 'TETRAGRAM FOR FAILURE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_FAILURE = "\u{1D350}";
 
-    #[Info(id: 119633, name: 'TETRAGRAM FOR AGGRAVATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D351, name: 'TETRAGRAM FOR AGGRAVATION', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_AGGRAVATION = "\u{1D351}";
 
-    #[Info(id: 119634, name: 'TETRAGRAM FOR COMPLIANCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D352, name: 'TETRAGRAM FOR COMPLIANCE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_COMPLIANCE = "\u{1D352}";
 
-    #[Info(id: 119635, name: 'TETRAGRAM FOR ON THE VERGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D353, name: 'TETRAGRAM FOR ON THE VERGE', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_ON_THE_VERGE = "\u{1D353}";
 
-    #[Info(id: 119636, name: 'TETRAGRAM FOR DIFFICULTIES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D354, name: 'TETRAGRAM FOR DIFFICULTIES', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_DIFFICULTIES = "\u{1D354}";
 
-    #[Info(id: 119637, name: 'TETRAGRAM FOR LABOURING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D355, name: 'TETRAGRAM FOR LABOURING', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_LABOURING = "\u{1D355}";
 
-    #[Info(id: 119638, name: 'TETRAGRAM FOR FOSTERING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D356, name: 'TETRAGRAM FOR FOSTERING', category: Cat::Other_Symbol)]
     case TETRAGRAM_FOR_FOSTERING = "\u{1D356}";
 }

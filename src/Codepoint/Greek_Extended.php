@@ -16,702 +16,702 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Greek_Extended: string
 {
-    #[Info(id: 7936, name: 'GREEK SMALL LETTER ALPHA WITH PSILI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F00, name: 'GREEK SMALL LETTER ALPHA WITH PSILI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_PSILI = "\u{1F00}";
 
-    #[Info(id: 7937, name: 'GREEK SMALL LETTER ALPHA WITH DASIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F01, name: 'GREEK SMALL LETTER ALPHA WITH DASIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_DASIA = "\u{1F01}";
 
-    #[Info(id: 7938, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F02, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_VARIA = "\u{1F02}";
 
-    #[Info(id: 7939, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F03, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_VARIA = "\u{1F03}";
 
-    #[Info(id: 7940, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F04, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_OXIA = "\u{1F04}";
 
-    #[Info(id: 7941, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F05, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_OXIA = "\u{1F05}";
 
-    #[Info(id: 7942, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F06, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI = "\u{1F06}";
 
-    #[Info(id: 7943, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F07, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI = "\u{1F07}";
 
-    #[Info(id: 7944, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F08, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI = "\u{1F08}";
 
-    #[Info(id: 7945, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F09, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA = "\u{1F09}";
 
-    #[Info(id: 7946, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F0A, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_VARIA = "\u{1F0A}";
 
-    #[Info(id: 7947, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F0B, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_VARIA = "\u{1F0B}";
 
-    #[Info(id: 7948, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F0C, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_OXIA = "\u{1F0C}";
 
-    #[Info(id: 7949, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F0D, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_OXIA = "\u{1F0D}";
 
-    #[Info(id: 7950, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F0E, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI = "\u{1F0E}";
 
-    #[Info(id: 7951, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F0F, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI = "\u{1F0F}";
 
-    #[Info(id: 7952, name: 'GREEK SMALL LETTER EPSILON WITH PSILI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F10, name: 'GREEK SMALL LETTER EPSILON WITH PSILI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_EPSILON_WITH_PSILI = "\u{1F10}";
 
-    #[Info(id: 7953, name: 'GREEK SMALL LETTER EPSILON WITH DASIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F11, name: 'GREEK SMALL LETTER EPSILON WITH DASIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_EPSILON_WITH_DASIA = "\u{1F11}";
 
-    #[Info(id: 7954, name: 'GREEK SMALL LETTER EPSILON WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F12, name: 'GREEK SMALL LETTER EPSILON WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_EPSILON_WITH_PSILI_AND_VARIA = "\u{1F12}";
 
-    #[Info(id: 7955, name: 'GREEK SMALL LETTER EPSILON WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F13, name: 'GREEK SMALL LETTER EPSILON WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_EPSILON_WITH_DASIA_AND_VARIA = "\u{1F13}";
 
-    #[Info(id: 7956, name: 'GREEK SMALL LETTER EPSILON WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F14, name: 'GREEK SMALL LETTER EPSILON WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_EPSILON_WITH_PSILI_AND_OXIA = "\u{1F14}";
 
-    #[Info(id: 7957, name: 'GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F15, name: 'GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_EPSILON_WITH_DASIA_AND_OXIA = "\u{1F15}";
 
-    #[Info(id: 7960, name: 'GREEK CAPITAL LETTER EPSILON WITH PSILI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F18, name: 'GREEK CAPITAL LETTER EPSILON WITH PSILI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_EPSILON_WITH_PSILI = "\u{1F18}";
 
-    #[Info(id: 7961, name: 'GREEK CAPITAL LETTER EPSILON WITH DASIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F19, name: 'GREEK CAPITAL LETTER EPSILON WITH DASIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_EPSILON_WITH_DASIA = "\u{1F19}";
 
-    #[Info(id: 7962, name: 'GREEK CAPITAL LETTER EPSILON WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F1A, name: 'GREEK CAPITAL LETTER EPSILON WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_EPSILON_WITH_PSILI_AND_VARIA = "\u{1F1A}";
 
-    #[Info(id: 7963, name: 'GREEK CAPITAL LETTER EPSILON WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F1B, name: 'GREEK CAPITAL LETTER EPSILON WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_EPSILON_WITH_DASIA_AND_VARIA = "\u{1F1B}";
 
-    #[Info(id: 7964, name: 'GREEK CAPITAL LETTER EPSILON WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F1C, name: 'GREEK CAPITAL LETTER EPSILON WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_EPSILON_WITH_PSILI_AND_OXIA = "\u{1F1C}";
 
-    #[Info(id: 7965, name: 'GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F1D, name: 'GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_EPSILON_WITH_DASIA_AND_OXIA = "\u{1F1D}";
 
-    #[Info(id: 7968, name: 'GREEK SMALL LETTER ETA WITH PSILI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F20, name: 'GREEK SMALL LETTER ETA WITH PSILI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_PSILI = "\u{1F20}";
 
-    #[Info(id: 7969, name: 'GREEK SMALL LETTER ETA WITH DASIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F21, name: 'GREEK SMALL LETTER ETA WITH DASIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_DASIA = "\u{1F21}";
 
-    #[Info(id: 7970, name: 'GREEK SMALL LETTER ETA WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F22, name: 'GREEK SMALL LETTER ETA WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_VARIA = "\u{1F22}";
 
-    #[Info(id: 7971, name: 'GREEK SMALL LETTER ETA WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F23, name: 'GREEK SMALL LETTER ETA WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_VARIA = "\u{1F23}";
 
-    #[Info(id: 7972, name: 'GREEK SMALL LETTER ETA WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F24, name: 'GREEK SMALL LETTER ETA WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_OXIA = "\u{1F24}";
 
-    #[Info(id: 7973, name: 'GREEK SMALL LETTER ETA WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F25, name: 'GREEK SMALL LETTER ETA WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_OXIA = "\u{1F25}";
 
-    #[Info(id: 7974, name: 'GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F26, name: 'GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI = "\u{1F26}";
 
-    #[Info(id: 7975, name: 'GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F27, name: 'GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI = "\u{1F27}";
 
-    #[Info(id: 7976, name: 'GREEK CAPITAL LETTER ETA WITH PSILI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F28, name: 'GREEK CAPITAL LETTER ETA WITH PSILI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_PSILI = "\u{1F28}";
 
-    #[Info(id: 7977, name: 'GREEK CAPITAL LETTER ETA WITH DASIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F29, name: 'GREEK CAPITAL LETTER ETA WITH DASIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_DASIA = "\u{1F29}";
 
-    #[Info(id: 7978, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F2A, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_VARIA = "\u{1F2A}";
 
-    #[Info(id: 7979, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F2B, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_VARIA = "\u{1F2B}";
 
-    #[Info(id: 7980, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F2C, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_OXIA = "\u{1F2C}";
 
-    #[Info(id: 7981, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F2D, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_OXIA = "\u{1F2D}";
 
-    #[Info(id: 7982, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F2E, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI = "\u{1F2E}";
 
-    #[Info(id: 7983, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F2F, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI = "\u{1F2F}";
 
-    #[Info(id: 7984, name: 'GREEK SMALL LETTER IOTA WITH PSILI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F30, name: 'GREEK SMALL LETTER IOTA WITH PSILI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_PSILI = "\u{1F30}";
 
-    #[Info(id: 7985, name: 'GREEK SMALL LETTER IOTA WITH DASIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F31, name: 'GREEK SMALL LETTER IOTA WITH DASIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_DASIA = "\u{1F31}";
 
-    #[Info(id: 7986, name: 'GREEK SMALL LETTER IOTA WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F32, name: 'GREEK SMALL LETTER IOTA WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_PSILI_AND_VARIA = "\u{1F32}";
 
-    #[Info(id: 7987, name: 'GREEK SMALL LETTER IOTA WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F33, name: 'GREEK SMALL LETTER IOTA WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_DASIA_AND_VARIA = "\u{1F33}";
 
-    #[Info(id: 7988, name: 'GREEK SMALL LETTER IOTA WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F34, name: 'GREEK SMALL LETTER IOTA WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_PSILI_AND_OXIA = "\u{1F34}";
 
-    #[Info(id: 7989, name: 'GREEK SMALL LETTER IOTA WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F35, name: 'GREEK SMALL LETTER IOTA WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_DASIA_AND_OXIA = "\u{1F35}";
 
-    #[Info(id: 7990, name: 'GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F36, name: 'GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_PSILI_AND_PERISPOMENI = "\u{1F36}";
 
-    #[Info(id: 7991, name: 'GREEK SMALL LETTER IOTA WITH DASIA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F37, name: 'GREEK SMALL LETTER IOTA WITH DASIA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_DASIA_AND_PERISPOMENI = "\u{1F37}";
 
-    #[Info(id: 7992, name: 'GREEK CAPITAL LETTER IOTA WITH PSILI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F38, name: 'GREEK CAPITAL LETTER IOTA WITH PSILI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI = "\u{1F38}";
 
-    #[Info(id: 7993, name: 'GREEK CAPITAL LETTER IOTA WITH DASIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F39, name: 'GREEK CAPITAL LETTER IOTA WITH DASIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA = "\u{1F39}";
 
-    #[Info(id: 7994, name: 'GREEK CAPITAL LETTER IOTA WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F3A, name: 'GREEK CAPITAL LETTER IOTA WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI_AND_VARIA = "\u{1F3A}";
 
-    #[Info(id: 7995, name: 'GREEK CAPITAL LETTER IOTA WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F3B, name: 'GREEK CAPITAL LETTER IOTA WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA_AND_VARIA = "\u{1F3B}";
 
-    #[Info(id: 7996, name: 'GREEK CAPITAL LETTER IOTA WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F3C, name: 'GREEK CAPITAL LETTER IOTA WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI_AND_OXIA = "\u{1F3C}";
 
-    #[Info(id: 7997, name: 'GREEK CAPITAL LETTER IOTA WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F3D, name: 'GREEK CAPITAL LETTER IOTA WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA_AND_OXIA = "\u{1F3D}";
 
-    #[Info(id: 7998, name: 'GREEK CAPITAL LETTER IOTA WITH PSILI AND PERISPOMENI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F3E, name: 'GREEK CAPITAL LETTER IOTA WITH PSILI AND PERISPOMENI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_PSILI_AND_PERISPOMENI = "\u{1F3E}";
 
-    #[Info(id: 7999, name: 'GREEK CAPITAL LETTER IOTA WITH DASIA AND PERISPOMENI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F3F, name: 'GREEK CAPITAL LETTER IOTA WITH DASIA AND PERISPOMENI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_DASIA_AND_PERISPOMENI = "\u{1F3F}";
 
-    #[Info(id: 8000, name: 'GREEK SMALL LETTER OMICRON WITH PSILI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F40, name: 'GREEK SMALL LETTER OMICRON WITH PSILI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMICRON_WITH_PSILI = "\u{1F40}";
 
-    #[Info(id: 8001, name: 'GREEK SMALL LETTER OMICRON WITH DASIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F41, name: 'GREEK SMALL LETTER OMICRON WITH DASIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMICRON_WITH_DASIA = "\u{1F41}";
 
-    #[Info(id: 8002, name: 'GREEK SMALL LETTER OMICRON WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F42, name: 'GREEK SMALL LETTER OMICRON WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMICRON_WITH_PSILI_AND_VARIA = "\u{1F42}";
 
-    #[Info(id: 8003, name: 'GREEK SMALL LETTER OMICRON WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F43, name: 'GREEK SMALL LETTER OMICRON WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMICRON_WITH_DASIA_AND_VARIA = "\u{1F43}";
 
-    #[Info(id: 8004, name: 'GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F44, name: 'GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMICRON_WITH_PSILI_AND_OXIA = "\u{1F44}";
 
-    #[Info(id: 8005, name: 'GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F45, name: 'GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMICRON_WITH_DASIA_AND_OXIA = "\u{1F45}";
 
-    #[Info(id: 8008, name: 'GREEK CAPITAL LETTER OMICRON WITH PSILI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F48, name: 'GREEK CAPITAL LETTER OMICRON WITH PSILI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMICRON_WITH_PSILI = "\u{1F48}";
 
-    #[Info(id: 8009, name: 'GREEK CAPITAL LETTER OMICRON WITH DASIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F49, name: 'GREEK CAPITAL LETTER OMICRON WITH DASIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMICRON_WITH_DASIA = "\u{1F49}";
 
-    #[Info(id: 8010, name: 'GREEK CAPITAL LETTER OMICRON WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F4A, name: 'GREEK CAPITAL LETTER OMICRON WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMICRON_WITH_PSILI_AND_VARIA = "\u{1F4A}";
 
-    #[Info(id: 8011, name: 'GREEK CAPITAL LETTER OMICRON WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F4B, name: 'GREEK CAPITAL LETTER OMICRON WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMICRON_WITH_DASIA_AND_VARIA = "\u{1F4B}";
 
-    #[Info(id: 8012, name: 'GREEK CAPITAL LETTER OMICRON WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F4C, name: 'GREEK CAPITAL LETTER OMICRON WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMICRON_WITH_PSILI_AND_OXIA = "\u{1F4C}";
 
-    #[Info(id: 8013, name: 'GREEK CAPITAL LETTER OMICRON WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F4D, name: 'GREEK CAPITAL LETTER OMICRON WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMICRON_WITH_DASIA_AND_OXIA = "\u{1F4D}";
 
-    #[Info(id: 8016, name: 'GREEK SMALL LETTER UPSILON WITH PSILI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F50, name: 'GREEK SMALL LETTER UPSILON WITH PSILI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_PSILI = "\u{1F50}";
 
-    #[Info(id: 8017, name: 'GREEK SMALL LETTER UPSILON WITH DASIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F51, name: 'GREEK SMALL LETTER UPSILON WITH DASIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_DASIA = "\u{1F51}";
 
-    #[Info(id: 8018, name: 'GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F52, name: 'GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_PSILI_AND_VARIA = "\u{1F52}";
 
-    #[Info(id: 8019, name: 'GREEK SMALL LETTER UPSILON WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F53, name: 'GREEK SMALL LETTER UPSILON WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_DASIA_AND_VARIA = "\u{1F53}";
 
-    #[Info(id: 8020, name: 'GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F54, name: 'GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_PSILI_AND_OXIA = "\u{1F54}";
 
-    #[Info(id: 8021, name: 'GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F55, name: 'GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_DASIA_AND_OXIA = "\u{1F55}";
 
-    #[Info(id: 8022, name: 'GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F56, name: 'GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_PSILI_AND_PERISPOMENI = "\u{1F56}";
 
-    #[Info(id: 8023, name: 'GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F57, name: 'GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_DASIA_AND_PERISPOMENI = "\u{1F57}";
 
-    #[Info(id: 8025, name: 'GREEK CAPITAL LETTER UPSILON WITH DASIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F59, name: 'GREEK CAPITAL LETTER UPSILON WITH DASIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA = "\u{1F59}";
 
-    #[Info(id: 8027, name: 'GREEK CAPITAL LETTER UPSILON WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F5B, name: 'GREEK CAPITAL LETTER UPSILON WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA_AND_VARIA = "\u{1F5B}";
 
-    #[Info(id: 8029, name: 'GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F5D, name: 'GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA_AND_OXIA = "\u{1F5D}";
 
-    #[Info(id: 8031, name: 'GREEK CAPITAL LETTER UPSILON WITH DASIA AND PERISPOMENI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F5F, name: 'GREEK CAPITAL LETTER UPSILON WITH DASIA AND PERISPOMENI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_UPSILON_WITH_DASIA_AND_PERISPOMENI = "\u{1F5F}";
 
-    #[Info(id: 8032, name: 'GREEK SMALL LETTER OMEGA WITH PSILI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F60, name: 'GREEK SMALL LETTER OMEGA WITH PSILI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_PSILI = "\u{1F60}";
 
-    #[Info(id: 8033, name: 'GREEK SMALL LETTER OMEGA WITH DASIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F61, name: 'GREEK SMALL LETTER OMEGA WITH DASIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_DASIA = "\u{1F61}";
 
-    #[Info(id: 8034, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F62, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_VARIA = "\u{1F62}";
 
-    #[Info(id: 8035, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F63, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_VARIA = "\u{1F63}";
 
-    #[Info(id: 8036, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F64, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_OXIA = "\u{1F64}";
 
-    #[Info(id: 8037, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F65, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_OXIA = "\u{1F65}";
 
-    #[Info(id: 8038, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F66, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI = "\u{1F66}";
 
-    #[Info(id: 8039, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F67, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI = "\u{1F67}";
 
-    #[Info(id: 8040, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F68, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI = "\u{1F68}";
 
-    #[Info(id: 8041, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F69, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA = "\u{1F69}";
 
-    #[Info(id: 8042, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F6A, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_VARIA = "\u{1F6A}";
 
-    #[Info(id: 8043, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F6B, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_VARIA = "\u{1F6B}";
 
-    #[Info(id: 8044, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F6C, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_OXIA = "\u{1F6C}";
 
-    #[Info(id: 8045, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F6D, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_OXIA = "\u{1F6D}";
 
-    #[Info(id: 8046, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F6E, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI = "\u{1F6E}";
 
-    #[Info(id: 8047, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F6F, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI = "\u{1F6F}";
 
-    #[Info(id: 8048, name: 'GREEK SMALL LETTER ALPHA WITH VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F70, name: 'GREEK SMALL LETTER ALPHA WITH VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_VARIA = "\u{1F70}";
 
-    #[Info(id: 8049, name: 'GREEK SMALL LETTER ALPHA WITH OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F71, name: 'GREEK SMALL LETTER ALPHA WITH OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_OXIA = "\u{1F71}";
 
-    #[Info(id: 8050, name: 'GREEK SMALL LETTER EPSILON WITH VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F72, name: 'GREEK SMALL LETTER EPSILON WITH VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_EPSILON_WITH_VARIA = "\u{1F72}";
 
-    #[Info(id: 8051, name: 'GREEK SMALL LETTER EPSILON WITH OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F73, name: 'GREEK SMALL LETTER EPSILON WITH OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_EPSILON_WITH_OXIA = "\u{1F73}";
 
-    #[Info(id: 8052, name: 'GREEK SMALL LETTER ETA WITH VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F74, name: 'GREEK SMALL LETTER ETA WITH VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_VARIA = "\u{1F74}";
 
-    #[Info(id: 8053, name: 'GREEK SMALL LETTER ETA WITH OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F75, name: 'GREEK SMALL LETTER ETA WITH OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_OXIA = "\u{1F75}";
 
-    #[Info(id: 8054, name: 'GREEK SMALL LETTER IOTA WITH VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F76, name: 'GREEK SMALL LETTER IOTA WITH VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_VARIA = "\u{1F76}";
 
-    #[Info(id: 8055, name: 'GREEK SMALL LETTER IOTA WITH OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F77, name: 'GREEK SMALL LETTER IOTA WITH OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_OXIA = "\u{1F77}";
 
-    #[Info(id: 8056, name: 'GREEK SMALL LETTER OMICRON WITH VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F78, name: 'GREEK SMALL LETTER OMICRON WITH VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMICRON_WITH_VARIA = "\u{1F78}";
 
-    #[Info(id: 8057, name: 'GREEK SMALL LETTER OMICRON WITH OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F79, name: 'GREEK SMALL LETTER OMICRON WITH OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMICRON_WITH_OXIA = "\u{1F79}";
 
-    #[Info(id: 8058, name: 'GREEK SMALL LETTER UPSILON WITH VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F7A, name: 'GREEK SMALL LETTER UPSILON WITH VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_VARIA = "\u{1F7A}";
 
-    #[Info(id: 8059, name: 'GREEK SMALL LETTER UPSILON WITH OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F7B, name: 'GREEK SMALL LETTER UPSILON WITH OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_OXIA = "\u{1F7B}";
 
-    #[Info(id: 8060, name: 'GREEK SMALL LETTER OMEGA WITH VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F7C, name: 'GREEK SMALL LETTER OMEGA WITH VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_VARIA = "\u{1F7C}";
 
-    #[Info(id: 8061, name: 'GREEK SMALL LETTER OMEGA WITH OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F7D, name: 'GREEK SMALL LETTER OMEGA WITH OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_OXIA = "\u{1F7D}";
 
-    #[Info(id: 8064, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F80, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_YPOGEGRAMMENI = "\u{1F80}";
 
-    #[Info(id: 8065, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F81, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_YPOGEGRAMMENI = "\u{1F81}";
 
-    #[Info(id: 8066, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F82, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI = "\u{1F82}";
 
-    #[Info(id: 8067, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F83, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI = "\u{1F83}";
 
-    #[Info(id: 8068, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F84, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI = "\u{1F84}";
 
-    #[Info(id: 8069, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F85, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI = "\u{1F85}";
 
-    #[Info(id: 8070, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F86, name: 'GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI = "\u{1F86}";
 
-    #[Info(id: 8071, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F87, name: 'GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI = "\u{1F87}";
 
-    #[Info(id: 8072, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F88, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_PROSGEGRAMMENI = "\u{1F88}";
 
-    #[Info(id: 8073, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F89, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_PROSGEGRAMMENI = "\u{1F89}";
 
-    #[Info(id: 8074, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F8A, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI = "\u{1F8A}";
 
-    #[Info(id: 8075, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F8B, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI = "\u{1F8B}";
 
-    #[Info(id: 8076, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F8C, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI = "\u{1F8C}";
 
-    #[Info(id: 8077, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F8D, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI = "\u{1F8D}";
 
-    #[Info(id: 8078, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F8E, name: 'GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI = "\u{1F8E}";
 
-    #[Info(id: 8079, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F8F, name: 'GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI = "\u{1F8F}";
 
-    #[Info(id: 8080, name: 'GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F90, name: 'GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_YPOGEGRAMMENI = "\u{1F90}";
 
-    #[Info(id: 8081, name: 'GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F91, name: 'GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_YPOGEGRAMMENI = "\u{1F91}";
 
-    #[Info(id: 8082, name: 'GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F92, name: 'GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI = "\u{1F92}";
 
-    #[Info(id: 8083, name: 'GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F93, name: 'GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI = "\u{1F93}";
 
-    #[Info(id: 8084, name: 'GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F94, name: 'GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI = "\u{1F94}";
 
-    #[Info(id: 8085, name: 'GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F95, name: 'GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI = "\u{1F95}";
 
-    #[Info(id: 8086, name: 'GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F96, name: 'GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI = "\u{1F96}";
 
-    #[Info(id: 8087, name: 'GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F97, name: 'GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI = "\u{1F97}";
 
-    #[Info(id: 8088, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F98, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_PROSGEGRAMMENI = "\u{1F98}";
 
-    #[Info(id: 8089, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F99, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_PROSGEGRAMMENI = "\u{1F99}";
 
-    #[Info(id: 8090, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F9A, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI = "\u{1F9A}";
 
-    #[Info(id: 8091, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F9B, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI = "\u{1F9B}";
 
-    #[Info(id: 8092, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F9C, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI = "\u{1F9C}";
 
-    #[Info(id: 8093, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F9D, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI = "\u{1F9D}";
 
-    #[Info(id: 8094, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F9E, name: 'GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI = "\u{1F9E}";
 
-    #[Info(id: 8095, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F9F, name: 'GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI = "\u{1F9F}";
 
-    #[Info(id: 8096, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FA0, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_YPOGEGRAMMENI = "\u{1FA0}";
 
-    #[Info(id: 8097, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FA1, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_YPOGEGRAMMENI = "\u{1FA1}";
 
-    #[Info(id: 8098, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FA2, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_VARIA_AND_YPOGEGRAMMENI = "\u{1FA2}";
 
-    #[Info(id: 8099, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FA3, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_VARIA_AND_YPOGEGRAMMENI = "\u{1FA3}";
 
-    #[Info(id: 8100, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FA4, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_OXIA_AND_YPOGEGRAMMENI = "\u{1FA4}";
 
-    #[Info(id: 8101, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FA5, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_OXIA_AND_YPOGEGRAMMENI = "\u{1FA5}";
 
-    #[Info(id: 8102, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FA6, name: 'GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI_AND_YPOGEGRAMMENI = "\u{1FA6}";
 
-    #[Info(id: 8103, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FA7, name: 'GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI_AND_YPOGEGRAMMENI = "\u{1FA7}";
 
-    #[Info(id: 8104, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1FA8, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PROSGEGRAMMENI = "\u{1FA8}";
 
-    #[Info(id: 8105, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1FA9, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PROSGEGRAMMENI = "\u{1FA9}";
 
-    #[Info(id: 8106, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1FAA, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_VARIA_AND_PROSGEGRAMMENI = "\u{1FAA}";
 
-    #[Info(id: 8107, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1FAB, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_VARIA_AND_PROSGEGRAMMENI = "\u{1FAB}";
 
-    #[Info(id: 8108, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1FAC, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_OXIA_AND_PROSGEGRAMMENI = "\u{1FAC}";
 
-    #[Info(id: 8109, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1FAD, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_OXIA_AND_PROSGEGRAMMENI = "\u{1FAD}";
 
-    #[Info(id: 8110, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1FAE, name: 'GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_PSILI_AND_PERISPOMENI_AND_PROSGEGRAMMENI = "\u{1FAE}";
 
-    #[Info(id: 8111, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1FAF, name: 'GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_DASIA_AND_PERISPOMENI_AND_PROSGEGRAMMENI = "\u{1FAF}";
 
-    #[Info(id: 8112, name: 'GREEK SMALL LETTER ALPHA WITH VRACHY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FB0, name: 'GREEK SMALL LETTER ALPHA WITH VRACHY', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_VRACHY = "\u{1FB0}";
 
-    #[Info(id: 8113, name: 'GREEK SMALL LETTER ALPHA WITH MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FB1, name: 'GREEK SMALL LETTER ALPHA WITH MACRON', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_MACRON = "\u{1FB1}";
 
-    #[Info(id: 8114, name: 'GREEK SMALL LETTER ALPHA WITH VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FB2, name: 'GREEK SMALL LETTER ALPHA WITH VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_VARIA_AND_YPOGEGRAMMENI = "\u{1FB2}";
 
-    #[Info(id: 8115, name: 'GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FB3, name: 'GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_YPOGEGRAMMENI = "\u{1FB3}";
 
-    #[Info(id: 8116, name: 'GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FB4, name: 'GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_OXIA_AND_YPOGEGRAMMENI = "\u{1FB4}";
 
-    #[Info(id: 8118, name: 'GREEK SMALL LETTER ALPHA WITH PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FB6, name: 'GREEK SMALL LETTER ALPHA WITH PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_PERISPOMENI = "\u{1FB6}";
 
-    #[Info(id: 8119, name: 'GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FB7, name: 'GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_PERISPOMENI_AND_YPOGEGRAMMENI = "\u{1FB7}";
 
-    #[Info(id: 8120, name: 'GREEK CAPITAL LETTER ALPHA WITH VRACHY', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FB8, name: 'GREEK CAPITAL LETTER ALPHA WITH VRACHY', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_VRACHY = "\u{1FB8}";
 
-    #[Info(id: 8121, name: 'GREEK CAPITAL LETTER ALPHA WITH MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FB9, name: 'GREEK CAPITAL LETTER ALPHA WITH MACRON', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_MACRON = "\u{1FB9}";
 
-    #[Info(id: 8122, name: 'GREEK CAPITAL LETTER ALPHA WITH VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FBA, name: 'GREEK CAPITAL LETTER ALPHA WITH VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_VARIA = "\u{1FBA}";
 
-    #[Info(id: 8123, name: 'GREEK CAPITAL LETTER ALPHA WITH OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FBB, name: 'GREEK CAPITAL LETTER ALPHA WITH OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_OXIA = "\u{1FBB}";
 
-    #[Info(id: 8124, name: 'GREEK CAPITAL LETTER ALPHA WITH PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1FBC, name: 'GREEK CAPITAL LETTER ALPHA WITH PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_PROSGEGRAMMENI = "\u{1FBC}";
 
-    #[Info(id: 8125, name: 'GREEK KORONIS', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FBD, name: 'GREEK KORONIS', category: Cat::Modifier_Symbol)]
     case GREEK_KORONIS = "\u{1FBD}";
 
-    #[Info(id: 8126, name: 'GREEK PROSGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FBE, name: 'GREEK PROSGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_PROSGEGRAMMENI = "\u{1FBE}";
 
-    #[Info(id: 8127, name: 'GREEK PSILI', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FBF, name: 'GREEK PSILI', category: Cat::Modifier_Symbol)]
     case GREEK_PSILI = "\u{1FBF}";
 
-    #[Info(id: 8128, name: 'GREEK PERISPOMENI', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FC0, name: 'GREEK PERISPOMENI', category: Cat::Modifier_Symbol)]
     case GREEK_PERISPOMENI = "\u{1FC0}";
 
-    #[Info(id: 8129, name: 'GREEK DIALYTIKA AND PERISPOMENI', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FC1, name: 'GREEK DIALYTIKA AND PERISPOMENI', category: Cat::Modifier_Symbol)]
     case GREEK_DIALYTIKA_AND_PERISPOMENI = "\u{1FC1}";
 
-    #[Info(id: 8130, name: 'GREEK SMALL LETTER ETA WITH VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FC2, name: 'GREEK SMALL LETTER ETA WITH VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_VARIA_AND_YPOGEGRAMMENI = "\u{1FC2}";
 
-    #[Info(id: 8131, name: 'GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FC3, name: 'GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_YPOGEGRAMMENI = "\u{1FC3}";
 
-    #[Info(id: 8132, name: 'GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FC4, name: 'GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_OXIA_AND_YPOGEGRAMMENI = "\u{1FC4}";
 
-    #[Info(id: 8134, name: 'GREEK SMALL LETTER ETA WITH PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FC6, name: 'GREEK SMALL LETTER ETA WITH PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_PERISPOMENI = "\u{1FC6}";
 
-    #[Info(id: 8135, name: 'GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FC7, name: 'GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_PERISPOMENI_AND_YPOGEGRAMMENI = "\u{1FC7}";
 
-    #[Info(id: 8136, name: 'GREEK CAPITAL LETTER EPSILON WITH VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FC8, name: 'GREEK CAPITAL LETTER EPSILON WITH VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_EPSILON_WITH_VARIA = "\u{1FC8}";
 
-    #[Info(id: 8137, name: 'GREEK CAPITAL LETTER EPSILON WITH OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FC9, name: 'GREEK CAPITAL LETTER EPSILON WITH OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_EPSILON_WITH_OXIA = "\u{1FC9}";
 
-    #[Info(id: 8138, name: 'GREEK CAPITAL LETTER ETA WITH VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FCA, name: 'GREEK CAPITAL LETTER ETA WITH VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_VARIA = "\u{1FCA}";
 
-    #[Info(id: 8139, name: 'GREEK CAPITAL LETTER ETA WITH OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FCB, name: 'GREEK CAPITAL LETTER ETA WITH OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_OXIA = "\u{1FCB}";
 
-    #[Info(id: 8140, name: 'GREEK CAPITAL LETTER ETA WITH PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1FCC, name: 'GREEK CAPITAL LETTER ETA WITH PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_PROSGEGRAMMENI = "\u{1FCC}";
 
-    #[Info(id: 8141, name: 'GREEK PSILI AND VARIA', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FCD, name: 'GREEK PSILI AND VARIA', category: Cat::Modifier_Symbol)]
     case GREEK_PSILI_AND_VARIA = "\u{1FCD}";
 
-    #[Info(id: 8142, name: 'GREEK PSILI AND OXIA', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FCE, name: 'GREEK PSILI AND OXIA', category: Cat::Modifier_Symbol)]
     case GREEK_PSILI_AND_OXIA = "\u{1FCE}";
 
-    #[Info(id: 8143, name: 'GREEK PSILI AND PERISPOMENI', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FCF, name: 'GREEK PSILI AND PERISPOMENI', category: Cat::Modifier_Symbol)]
     case GREEK_PSILI_AND_PERISPOMENI = "\u{1FCF}";
 
-    #[Info(id: 8144, name: 'GREEK SMALL LETTER IOTA WITH VRACHY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FD0, name: 'GREEK SMALL LETTER IOTA WITH VRACHY', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_VRACHY = "\u{1FD0}";
 
-    #[Info(id: 8145, name: 'GREEK SMALL LETTER IOTA WITH MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FD1, name: 'GREEK SMALL LETTER IOTA WITH MACRON', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_MACRON = "\u{1FD1}";
 
-    #[Info(id: 8146, name: 'GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FD2, name: 'GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_VARIA = "\u{1FD2}";
 
-    #[Info(id: 8147, name: 'GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FD3, name: 'GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_OXIA = "\u{1FD3}";
 
-    #[Info(id: 8150, name: 'GREEK SMALL LETTER IOTA WITH PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FD6, name: 'GREEK SMALL LETTER IOTA WITH PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_PERISPOMENI = "\u{1FD6}";
 
-    #[Info(id: 8151, name: 'GREEK SMALL LETTER IOTA WITH DIALYTIKA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FD7, name: 'GREEK SMALL LETTER IOTA WITH DIALYTIKA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_PERISPOMENI = "\u{1FD7}";
 
-    #[Info(id: 8152, name: 'GREEK CAPITAL LETTER IOTA WITH VRACHY', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FD8, name: 'GREEK CAPITAL LETTER IOTA WITH VRACHY', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_VRACHY = "\u{1FD8}";
 
-    #[Info(id: 8153, name: 'GREEK CAPITAL LETTER IOTA WITH MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FD9, name: 'GREEK CAPITAL LETTER IOTA WITH MACRON', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_MACRON = "\u{1FD9}";
 
-    #[Info(id: 8154, name: 'GREEK CAPITAL LETTER IOTA WITH VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FDA, name: 'GREEK CAPITAL LETTER IOTA WITH VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_VARIA = "\u{1FDA}";
 
-    #[Info(id: 8155, name: 'GREEK CAPITAL LETTER IOTA WITH OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FDB, name: 'GREEK CAPITAL LETTER IOTA WITH OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_OXIA = "\u{1FDB}";
 
-    #[Info(id: 8157, name: 'GREEK DASIA AND VARIA', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FDD, name: 'GREEK DASIA AND VARIA', category: Cat::Modifier_Symbol)]
     case GREEK_DASIA_AND_VARIA = "\u{1FDD}";
 
-    #[Info(id: 8158, name: 'GREEK DASIA AND OXIA', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FDE, name: 'GREEK DASIA AND OXIA', category: Cat::Modifier_Symbol)]
     case GREEK_DASIA_AND_OXIA = "\u{1FDE}";
 
-    #[Info(id: 8159, name: 'GREEK DASIA AND PERISPOMENI', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FDF, name: 'GREEK DASIA AND PERISPOMENI', category: Cat::Modifier_Symbol)]
     case GREEK_DASIA_AND_PERISPOMENI = "\u{1FDF}";
 
-    #[Info(id: 8160, name: 'GREEK SMALL LETTER UPSILON WITH VRACHY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FE0, name: 'GREEK SMALL LETTER UPSILON WITH VRACHY', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_VRACHY = "\u{1FE0}";
 
-    #[Info(id: 8161, name: 'GREEK SMALL LETTER UPSILON WITH MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FE1, name: 'GREEK SMALL LETTER UPSILON WITH MACRON', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_MACRON = "\u{1FE1}";
 
-    #[Info(id: 8162, name: 'GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FE2, name: 'GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_VARIA = "\u{1FE2}";
 
-    #[Info(id: 8163, name: 'GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FE3, name: 'GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_OXIA = "\u{1FE3}";
 
-    #[Info(id: 8164, name: 'GREEK SMALL LETTER RHO WITH PSILI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FE4, name: 'GREEK SMALL LETTER RHO WITH PSILI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_RHO_WITH_PSILI = "\u{1FE4}";
 
-    #[Info(id: 8165, name: 'GREEK SMALL LETTER RHO WITH DASIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FE5, name: 'GREEK SMALL LETTER RHO WITH DASIA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_RHO_WITH_DASIA = "\u{1FE5}";
 
-    #[Info(id: 8166, name: 'GREEK SMALL LETTER UPSILON WITH PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FE6, name: 'GREEK SMALL LETTER UPSILON WITH PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_PERISPOMENI = "\u{1FE6}";
 
-    #[Info(id: 8167, name: 'GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FE7, name: 'GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_PERISPOMENI = "\u{1FE7}";
 
-    #[Info(id: 8168, name: 'GREEK CAPITAL LETTER UPSILON WITH VRACHY', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FE8, name: 'GREEK CAPITAL LETTER UPSILON WITH VRACHY', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_UPSILON_WITH_VRACHY = "\u{1FE8}";
 
-    #[Info(id: 8169, name: 'GREEK CAPITAL LETTER UPSILON WITH MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FE9, name: 'GREEK CAPITAL LETTER UPSILON WITH MACRON', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_UPSILON_WITH_MACRON = "\u{1FE9}";
 
-    #[Info(id: 8170, name: 'GREEK CAPITAL LETTER UPSILON WITH VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FEA, name: 'GREEK CAPITAL LETTER UPSILON WITH VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_UPSILON_WITH_VARIA = "\u{1FEA}";
 
-    #[Info(id: 8171, name: 'GREEK CAPITAL LETTER UPSILON WITH OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FEB, name: 'GREEK CAPITAL LETTER UPSILON WITH OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_UPSILON_WITH_OXIA = "\u{1FEB}";
 
-    #[Info(id: 8172, name: 'GREEK CAPITAL LETTER RHO WITH DASIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FEC, name: 'GREEK CAPITAL LETTER RHO WITH DASIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_RHO_WITH_DASIA = "\u{1FEC}";
 
-    #[Info(id: 8173, name: 'GREEK DIALYTIKA AND VARIA', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FED, name: 'GREEK DIALYTIKA AND VARIA', category: Cat::Modifier_Symbol)]
     case GREEK_DIALYTIKA_AND_VARIA = "\u{1FED}";
 
-    #[Info(id: 8174, name: 'GREEK DIALYTIKA AND OXIA', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FEE, name: 'GREEK DIALYTIKA AND OXIA', category: Cat::Modifier_Symbol)]
     case GREEK_DIALYTIKA_AND_OXIA = "\u{1FEE}";
 
-    #[Info(id: 8175, name: 'GREEK VARIA', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FEF, name: 'GREEK VARIA', category: Cat::Modifier_Symbol)]
     case GREEK_VARIA = "\u{1FEF}";
 
-    #[Info(id: 8178, name: 'GREEK SMALL LETTER OMEGA WITH VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FF2, name: 'GREEK SMALL LETTER OMEGA WITH VARIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_VARIA_AND_YPOGEGRAMMENI = "\u{1FF2}";
 
-    #[Info(id: 8179, name: 'GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FF3, name: 'GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_YPOGEGRAMMENI = "\u{1FF3}";
 
-    #[Info(id: 8180, name: 'GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FF4, name: 'GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_OXIA_AND_YPOGEGRAMMENI = "\u{1FF4}";
 
-    #[Info(id: 8182, name: 'GREEK SMALL LETTER OMEGA WITH PERISPOMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FF6, name: 'GREEK SMALL LETTER OMEGA WITH PERISPOMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_PERISPOMENI = "\u{1FF6}";
 
-    #[Info(id: 8183, name: 'GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FF7, name: 'GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_PERISPOMENI_AND_YPOGEGRAMMENI = "\u{1FF7}";
 
-    #[Info(id: 8184, name: 'GREEK CAPITAL LETTER OMICRON WITH VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FF8, name: 'GREEK CAPITAL LETTER OMICRON WITH VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMICRON_WITH_VARIA = "\u{1FF8}";
 
-    #[Info(id: 8185, name: 'GREEK CAPITAL LETTER OMICRON WITH OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FF9, name: 'GREEK CAPITAL LETTER OMICRON WITH OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMICRON_WITH_OXIA = "\u{1FF9}";
 
-    #[Info(id: 8186, name: 'GREEK CAPITAL LETTER OMEGA WITH VARIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FFA, name: 'GREEK CAPITAL LETTER OMEGA WITH VARIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_VARIA = "\u{1FFA}";
 
-    #[Info(id: 8187, name: 'GREEK CAPITAL LETTER OMEGA WITH OXIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FFB, name: 'GREEK CAPITAL LETTER OMEGA WITH OXIA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_OXIA = "\u{1FFB}";
 
-    #[Info(id: 8188, name: 'GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1FFC, name: 'GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI', category: Cat::Titlecase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_PROSGEGRAMMENI = "\u{1FFC}";
 
-    #[Info(id: 8189, name: 'GREEK OXIA', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FFD, name: 'GREEK OXIA', category: Cat::Modifier_Symbol)]
     case GREEK_OXIA = "\u{1FFD}";
 
-    #[Info(id: 8190, name: 'GREEK DASIA', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1FFE, name: 'GREEK DASIA', category: Cat::Modifier_Symbol)]
     case GREEK_DASIA = "\u{1FFE}";
 }

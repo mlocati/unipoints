@@ -16,162 +16,162 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Caucasian_Albanian: string
 {
-    #[Info(id: 66864, name: 'CAUCASIAN ALBANIAN LETTER ALT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10530, name: 'CAUCASIAN ALBANIAN LETTER ALT', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_ALT = "\u{10530}";
 
-    #[Info(id: 66865, name: 'CAUCASIAN ALBANIAN LETTER BET', category: Cat::Other_Letter)]
+    #[Info(id: 0x10531, name: 'CAUCASIAN ALBANIAN LETTER BET', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_BET = "\u{10531}";
 
-    #[Info(id: 66866, name: 'CAUCASIAN ALBANIAN LETTER GIM', category: Cat::Other_Letter)]
+    #[Info(id: 0x10532, name: 'CAUCASIAN ALBANIAN LETTER GIM', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_GIM = "\u{10532}";
 
-    #[Info(id: 66867, name: 'CAUCASIAN ALBANIAN LETTER DAT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10533, name: 'CAUCASIAN ALBANIAN LETTER DAT', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_DAT = "\u{10533}";
 
-    #[Info(id: 66868, name: 'CAUCASIAN ALBANIAN LETTER EB', category: Cat::Other_Letter)]
+    #[Info(id: 0x10534, name: 'CAUCASIAN ALBANIAN LETTER EB', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_EB = "\u{10534}";
 
-    #[Info(id: 66869, name: 'CAUCASIAN ALBANIAN LETTER ZARL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10535, name: 'CAUCASIAN ALBANIAN LETTER ZARL', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_ZARL = "\u{10535}";
 
-    #[Info(id: 66870, name: 'CAUCASIAN ALBANIAN LETTER EYN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10536, name: 'CAUCASIAN ALBANIAN LETTER EYN', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_EYN = "\u{10536}";
 
-    #[Info(id: 66871, name: 'CAUCASIAN ALBANIAN LETTER ZHIL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10537, name: 'CAUCASIAN ALBANIAN LETTER ZHIL', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_ZHIL = "\u{10537}";
 
-    #[Info(id: 66872, name: 'CAUCASIAN ALBANIAN LETTER TAS', category: Cat::Other_Letter)]
+    #[Info(id: 0x10538, name: 'CAUCASIAN ALBANIAN LETTER TAS', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_TAS = "\u{10538}";
 
-    #[Info(id: 66873, name: 'CAUCASIAN ALBANIAN LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10539, name: 'CAUCASIAN ALBANIAN LETTER CHA', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_CHA = "\u{10539}";
 
-    #[Info(id: 66874, name: 'CAUCASIAN ALBANIAN LETTER YOWD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1053A, name: 'CAUCASIAN ALBANIAN LETTER YOWD', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_YOWD = "\u{1053A}";
 
-    #[Info(id: 66875, name: 'CAUCASIAN ALBANIAN LETTER ZHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1053B, name: 'CAUCASIAN ALBANIAN LETTER ZHA', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_ZHA = "\u{1053B}";
 
-    #[Info(id: 66876, name: 'CAUCASIAN ALBANIAN LETTER IRB', category: Cat::Other_Letter)]
+    #[Info(id: 0x1053C, name: 'CAUCASIAN ALBANIAN LETTER IRB', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_IRB = "\u{1053C}";
 
-    #[Info(id: 66877, name: 'CAUCASIAN ALBANIAN LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1053D, name: 'CAUCASIAN ALBANIAN LETTER SHA', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_SHA = "\u{1053D}";
 
-    #[Info(id: 66878, name: 'CAUCASIAN ALBANIAN LETTER LAN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1053E, name: 'CAUCASIAN ALBANIAN LETTER LAN', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_LAN = "\u{1053E}";
 
-    #[Info(id: 66879, name: 'CAUCASIAN ALBANIAN LETTER INYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1053F, name: 'CAUCASIAN ALBANIAN LETTER INYA', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_INYA = "\u{1053F}";
 
-    #[Info(id: 66880, name: 'CAUCASIAN ALBANIAN LETTER XEYN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10540, name: 'CAUCASIAN ALBANIAN LETTER XEYN', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_XEYN = "\u{10540}";
 
-    #[Info(id: 66881, name: 'CAUCASIAN ALBANIAN LETTER DYAN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10541, name: 'CAUCASIAN ALBANIAN LETTER DYAN', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_DYAN = "\u{10541}";
 
-    #[Info(id: 66882, name: 'CAUCASIAN ALBANIAN LETTER CAR', category: Cat::Other_Letter)]
+    #[Info(id: 0x10542, name: 'CAUCASIAN ALBANIAN LETTER CAR', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_CAR = "\u{10542}";
 
-    #[Info(id: 66883, name: 'CAUCASIAN ALBANIAN LETTER JHOX', category: Cat::Other_Letter)]
+    #[Info(id: 0x10543, name: 'CAUCASIAN ALBANIAN LETTER JHOX', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_JHOX = "\u{10543}";
 
-    #[Info(id: 66884, name: 'CAUCASIAN ALBANIAN LETTER KAR', category: Cat::Other_Letter)]
+    #[Info(id: 0x10544, name: 'CAUCASIAN ALBANIAN LETTER KAR', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_KAR = "\u{10544}";
 
-    #[Info(id: 66885, name: 'CAUCASIAN ALBANIAN LETTER LYIT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10545, name: 'CAUCASIAN ALBANIAN LETTER LYIT', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_LYIT = "\u{10545}";
 
-    #[Info(id: 66886, name: 'CAUCASIAN ALBANIAN LETTER HEYT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10546, name: 'CAUCASIAN ALBANIAN LETTER HEYT', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_HEYT = "\u{10546}";
 
-    #[Info(id: 66887, name: 'CAUCASIAN ALBANIAN LETTER QAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x10547, name: 'CAUCASIAN ALBANIAN LETTER QAY', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_QAY = "\u{10547}";
 
-    #[Info(id: 66888, name: 'CAUCASIAN ALBANIAN LETTER AOR', category: Cat::Other_Letter)]
+    #[Info(id: 0x10548, name: 'CAUCASIAN ALBANIAN LETTER AOR', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_AOR = "\u{10548}";
 
-    #[Info(id: 66889, name: 'CAUCASIAN ALBANIAN LETTER CHOY', category: Cat::Other_Letter)]
+    #[Info(id: 0x10549, name: 'CAUCASIAN ALBANIAN LETTER CHOY', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_CHOY = "\u{10549}";
 
-    #[Info(id: 66890, name: 'CAUCASIAN ALBANIAN LETTER CHI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1054A, name: 'CAUCASIAN ALBANIAN LETTER CHI', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_CHI = "\u{1054A}";
 
-    #[Info(id: 66891, name: 'CAUCASIAN ALBANIAN LETTER CYAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x1054B, name: 'CAUCASIAN ALBANIAN LETTER CYAY', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_CYAY = "\u{1054B}";
 
-    #[Info(id: 66892, name: 'CAUCASIAN ALBANIAN LETTER MAQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x1054C, name: 'CAUCASIAN ALBANIAN LETTER MAQ', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_MAQ = "\u{1054C}";
 
-    #[Info(id: 66893, name: 'CAUCASIAN ALBANIAN LETTER QAR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1054D, name: 'CAUCASIAN ALBANIAN LETTER QAR', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_QAR = "\u{1054D}";
 
-    #[Info(id: 66894, name: 'CAUCASIAN ALBANIAN LETTER NOWC', category: Cat::Other_Letter)]
+    #[Info(id: 0x1054E, name: 'CAUCASIAN ALBANIAN LETTER NOWC', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_NOWC = "\u{1054E}";
 
-    #[Info(id: 66895, name: 'CAUCASIAN ALBANIAN LETTER DZYAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x1054F, name: 'CAUCASIAN ALBANIAN LETTER DZYAY', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_DZYAY = "\u{1054F}";
 
-    #[Info(id: 66896, name: 'CAUCASIAN ALBANIAN LETTER SHAK', category: Cat::Other_Letter)]
+    #[Info(id: 0x10550, name: 'CAUCASIAN ALBANIAN LETTER SHAK', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_SHAK = "\u{10550}";
 
-    #[Info(id: 66897, name: 'CAUCASIAN ALBANIAN LETTER JAYN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10551, name: 'CAUCASIAN ALBANIAN LETTER JAYN', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_JAYN = "\u{10551}";
 
-    #[Info(id: 66898, name: 'CAUCASIAN ALBANIAN LETTER ON', category: Cat::Other_Letter)]
+    #[Info(id: 0x10552, name: 'CAUCASIAN ALBANIAN LETTER ON', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_ON = "\u{10552}";
 
-    #[Info(id: 66899, name: 'CAUCASIAN ALBANIAN LETTER TYAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x10553, name: 'CAUCASIAN ALBANIAN LETTER TYAY', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_TYAY = "\u{10553}";
 
-    #[Info(id: 66900, name: 'CAUCASIAN ALBANIAN LETTER FAM', category: Cat::Other_Letter)]
+    #[Info(id: 0x10554, name: 'CAUCASIAN ALBANIAN LETTER FAM', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_FAM = "\u{10554}";
 
-    #[Info(id: 66901, name: 'CAUCASIAN ALBANIAN LETTER DZAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x10555, name: 'CAUCASIAN ALBANIAN LETTER DZAY', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_DZAY = "\u{10555}";
 
-    #[Info(id: 66902, name: 'CAUCASIAN ALBANIAN LETTER CHAT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10556, name: 'CAUCASIAN ALBANIAN LETTER CHAT', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_CHAT = "\u{10556}";
 
-    #[Info(id: 66903, name: 'CAUCASIAN ALBANIAN LETTER PEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10557, name: 'CAUCASIAN ALBANIAN LETTER PEN', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_PEN = "\u{10557}";
 
-    #[Info(id: 66904, name: 'CAUCASIAN ALBANIAN LETTER GHEYS', category: Cat::Other_Letter)]
+    #[Info(id: 0x10558, name: 'CAUCASIAN ALBANIAN LETTER GHEYS', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_GHEYS = "\u{10558}";
 
-    #[Info(id: 66905, name: 'CAUCASIAN ALBANIAN LETTER RAT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10559, name: 'CAUCASIAN ALBANIAN LETTER RAT', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_RAT = "\u{10559}";
 
-    #[Info(id: 66906, name: 'CAUCASIAN ALBANIAN LETTER SEYK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1055A, name: 'CAUCASIAN ALBANIAN LETTER SEYK', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_SEYK = "\u{1055A}";
 
-    #[Info(id: 66907, name: 'CAUCASIAN ALBANIAN LETTER VEYZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x1055B, name: 'CAUCASIAN ALBANIAN LETTER VEYZ', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_VEYZ = "\u{1055B}";
 
-    #[Info(id: 66908, name: 'CAUCASIAN ALBANIAN LETTER TIWR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1055C, name: 'CAUCASIAN ALBANIAN LETTER TIWR', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_TIWR = "\u{1055C}";
 
-    #[Info(id: 66909, name: 'CAUCASIAN ALBANIAN LETTER SHOY', category: Cat::Other_Letter)]
+    #[Info(id: 0x1055D, name: 'CAUCASIAN ALBANIAN LETTER SHOY', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_SHOY = "\u{1055D}";
 
-    #[Info(id: 66910, name: 'CAUCASIAN ALBANIAN LETTER IWN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1055E, name: 'CAUCASIAN ALBANIAN LETTER IWN', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_IWN = "\u{1055E}";
 
-    #[Info(id: 66911, name: 'CAUCASIAN ALBANIAN LETTER CYAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1055F, name: 'CAUCASIAN ALBANIAN LETTER CYAW', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_CYAW = "\u{1055F}";
 
-    #[Info(id: 66912, name: 'CAUCASIAN ALBANIAN LETTER CAYN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10560, name: 'CAUCASIAN ALBANIAN LETTER CAYN', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_CAYN = "\u{10560}";
 
-    #[Info(id: 66913, name: 'CAUCASIAN ALBANIAN LETTER YAYD', category: Cat::Other_Letter)]
+    #[Info(id: 0x10561, name: 'CAUCASIAN ALBANIAN LETTER YAYD', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_YAYD = "\u{10561}";
 
-    #[Info(id: 66914, name: 'CAUCASIAN ALBANIAN LETTER PIWR', category: Cat::Other_Letter)]
+    #[Info(id: 0x10562, name: 'CAUCASIAN ALBANIAN LETTER PIWR', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_PIWR = "\u{10562}";
 
-    #[Info(id: 66915, name: 'CAUCASIAN ALBANIAN LETTER KIW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10563, name: 'CAUCASIAN ALBANIAN LETTER KIW', category: Cat::Other_Letter)]
     case CAUCASIAN_ALBANIAN_LETTER_KIW = "\u{10563}";
 
-    #[Info(id: 66927, name: 'CAUCASIAN ALBANIAN CITATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1056F, name: 'CAUCASIAN ALBANIAN CITATION MARK', category: Cat::Other_Punctuation)]
     case CAUCASIAN_ALBANIAN_CITATION_MARK = "\u{1056F}";
 }

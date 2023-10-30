@@ -16,192 +16,192 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Gunjala_Gondi: string
 {
-    #[Info(id: 73056, name: 'GUNJALA GONDI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D60, name: 'GUNJALA GONDI LETTER A', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_A = "\u{11D60}";
 
-    #[Info(id: 73057, name: 'GUNJALA GONDI LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D61, name: 'GUNJALA GONDI LETTER AA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_AA = "\u{11D61}";
 
-    #[Info(id: 73058, name: 'GUNJALA GONDI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D62, name: 'GUNJALA GONDI LETTER I', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_I = "\u{11D62}";
 
-    #[Info(id: 73059, name: 'GUNJALA GONDI LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D63, name: 'GUNJALA GONDI LETTER II', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_II = "\u{11D63}";
 
-    #[Info(id: 73060, name: 'GUNJALA GONDI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D64, name: 'GUNJALA GONDI LETTER U', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_U = "\u{11D64}";
 
-    #[Info(id: 73061, name: 'GUNJALA GONDI LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D65, name: 'GUNJALA GONDI LETTER UU', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_UU = "\u{11D65}";
 
-    #[Info(id: 73063, name: 'GUNJALA GONDI LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D67, name: 'GUNJALA GONDI LETTER EE', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_EE = "\u{11D67}";
 
-    #[Info(id: 73064, name: 'GUNJALA GONDI LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D68, name: 'GUNJALA GONDI LETTER AI', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_AI = "\u{11D68}";
 
-    #[Info(id: 73066, name: 'GUNJALA GONDI LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D6A, name: 'GUNJALA GONDI LETTER OO', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_OO = "\u{11D6A}";
 
-    #[Info(id: 73067, name: 'GUNJALA GONDI LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D6B, name: 'GUNJALA GONDI LETTER AU', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_AU = "\u{11D6B}";
 
-    #[Info(id: 73068, name: 'GUNJALA GONDI LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D6C, name: 'GUNJALA GONDI LETTER YA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_YA = "\u{11D6C}";
 
-    #[Info(id: 73069, name: 'GUNJALA GONDI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D6D, name: 'GUNJALA GONDI LETTER VA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_VA = "\u{11D6D}";
 
-    #[Info(id: 73070, name: 'GUNJALA GONDI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D6E, name: 'GUNJALA GONDI LETTER BA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_BA = "\u{11D6E}";
 
-    #[Info(id: 73071, name: 'GUNJALA GONDI LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D6F, name: 'GUNJALA GONDI LETTER BHA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_BHA = "\u{11D6F}";
 
-    #[Info(id: 73072, name: 'GUNJALA GONDI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D70, name: 'GUNJALA GONDI LETTER MA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_MA = "\u{11D70}";
 
-    #[Info(id: 73073, name: 'GUNJALA GONDI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D71, name: 'GUNJALA GONDI LETTER KA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_KA = "\u{11D71}";
 
-    #[Info(id: 73074, name: 'GUNJALA GONDI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D72, name: 'GUNJALA GONDI LETTER KHA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_KHA = "\u{11D72}";
 
-    #[Info(id: 73075, name: 'GUNJALA GONDI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D73, name: 'GUNJALA GONDI LETTER TA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_TA = "\u{11D73}";
 
-    #[Info(id: 73076, name: 'GUNJALA GONDI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D74, name: 'GUNJALA GONDI LETTER THA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_THA = "\u{11D74}";
 
-    #[Info(id: 73077, name: 'GUNJALA GONDI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D75, name: 'GUNJALA GONDI LETTER LA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_LA = "\u{11D75}";
 
-    #[Info(id: 73078, name: 'GUNJALA GONDI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D76, name: 'GUNJALA GONDI LETTER GA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_GA = "\u{11D76}";
 
-    #[Info(id: 73079, name: 'GUNJALA GONDI LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D77, name: 'GUNJALA GONDI LETTER GHA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_GHA = "\u{11D77}";
 
-    #[Info(id: 73080, name: 'GUNJALA GONDI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D78, name: 'GUNJALA GONDI LETTER DA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_DA = "\u{11D78}";
 
-    #[Info(id: 73081, name: 'GUNJALA GONDI LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D79, name: 'GUNJALA GONDI LETTER DHA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_DHA = "\u{11D79}";
 
-    #[Info(id: 73082, name: 'GUNJALA GONDI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D7A, name: 'GUNJALA GONDI LETTER NA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_NA = "\u{11D7A}";
 
-    #[Info(id: 73083, name: 'GUNJALA GONDI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D7B, name: 'GUNJALA GONDI LETTER CA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_CA = "\u{11D7B}";
 
-    #[Info(id: 73084, name: 'GUNJALA GONDI LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D7C, name: 'GUNJALA GONDI LETTER CHA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_CHA = "\u{11D7C}";
 
-    #[Info(id: 73085, name: 'GUNJALA GONDI LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D7D, name: 'GUNJALA GONDI LETTER TTA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_TTA = "\u{11D7D}";
 
-    #[Info(id: 73086, name: 'GUNJALA GONDI LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D7E, name: 'GUNJALA GONDI LETTER TTHA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_TTHA = "\u{11D7E}";
 
-    #[Info(id: 73087, name: 'GUNJALA GONDI LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D7F, name: 'GUNJALA GONDI LETTER LLA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_LLA = "\u{11D7F}";
 
-    #[Info(id: 73088, name: 'GUNJALA GONDI LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D80, name: 'GUNJALA GONDI LETTER JA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_JA = "\u{11D80}";
 
-    #[Info(id: 73089, name: 'GUNJALA GONDI LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D81, name: 'GUNJALA GONDI LETTER JHA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_JHA = "\u{11D81}";
 
-    #[Info(id: 73090, name: 'GUNJALA GONDI LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D82, name: 'GUNJALA GONDI LETTER DDA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_DDA = "\u{11D82}";
 
-    #[Info(id: 73091, name: 'GUNJALA GONDI LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D83, name: 'GUNJALA GONDI LETTER DDHA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_DDHA = "\u{11D83}";
 
-    #[Info(id: 73092, name: 'GUNJALA GONDI LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D84, name: 'GUNJALA GONDI LETTER NGA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_NGA = "\u{11D84}";
 
-    #[Info(id: 73093, name: 'GUNJALA GONDI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D85, name: 'GUNJALA GONDI LETTER PA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_PA = "\u{11D85}";
 
-    #[Info(id: 73094, name: 'GUNJALA GONDI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D86, name: 'GUNJALA GONDI LETTER PHA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_PHA = "\u{11D86}";
 
-    #[Info(id: 73095, name: 'GUNJALA GONDI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D87, name: 'GUNJALA GONDI LETTER HA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_HA = "\u{11D87}";
 
-    #[Info(id: 73096, name: 'GUNJALA GONDI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D88, name: 'GUNJALA GONDI LETTER RA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_RA = "\u{11D88}";
 
-    #[Info(id: 73097, name: 'GUNJALA GONDI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D89, name: 'GUNJALA GONDI LETTER SA', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_LETTER_SA = "\u{11D89}";
 
-    #[Info(id: 73098, name: 'GUNJALA GONDI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11D8A, name: 'GUNJALA GONDI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case GUNJALA_GONDI_VOWEL_SIGN_AA = "\u{11D8A}";
 
-    #[Info(id: 73099, name: 'GUNJALA GONDI VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11D8B, name: 'GUNJALA GONDI VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case GUNJALA_GONDI_VOWEL_SIGN_I = "\u{11D8B}";
 
-    #[Info(id: 73100, name: 'GUNJALA GONDI VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11D8C, name: 'GUNJALA GONDI VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case GUNJALA_GONDI_VOWEL_SIGN_II = "\u{11D8C}";
 
-    #[Info(id: 73101, name: 'GUNJALA GONDI VOWEL SIGN U', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11D8D, name: 'GUNJALA GONDI VOWEL SIGN U', category: Cat::Spacing_Mark)]
     case GUNJALA_GONDI_VOWEL_SIGN_U = "\u{11D8D}";
 
-    #[Info(id: 73102, name: 'GUNJALA GONDI VOWEL SIGN UU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11D8E, name: 'GUNJALA GONDI VOWEL SIGN UU', category: Cat::Spacing_Mark)]
     case GUNJALA_GONDI_VOWEL_SIGN_UU = "\u{11D8E}";
 
-    #[Info(id: 73104, name: 'GUNJALA GONDI VOWEL SIGN EE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D90, name: 'GUNJALA GONDI VOWEL SIGN EE', category: Cat::Nonspacing_Mark)]
     case GUNJALA_GONDI_VOWEL_SIGN_EE = "\u{11D90}";
 
-    #[Info(id: 73105, name: 'GUNJALA GONDI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D91, name: 'GUNJALA GONDI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case GUNJALA_GONDI_VOWEL_SIGN_AI = "\u{11D91}";
 
-    #[Info(id: 73107, name: 'GUNJALA GONDI VOWEL SIGN OO', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11D93, name: 'GUNJALA GONDI VOWEL SIGN OO', category: Cat::Spacing_Mark)]
     case GUNJALA_GONDI_VOWEL_SIGN_OO = "\u{11D93}";
 
-    #[Info(id: 73108, name: 'GUNJALA GONDI VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11D94, name: 'GUNJALA GONDI VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case GUNJALA_GONDI_VOWEL_SIGN_AU = "\u{11D94}";
 
-    #[Info(id: 73109, name: 'GUNJALA GONDI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D95, name: 'GUNJALA GONDI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case GUNJALA_GONDI_SIGN_ANUSVARA = "\u{11D95}";
 
-    #[Info(id: 73110, name: 'GUNJALA GONDI SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11D96, name: 'GUNJALA GONDI SIGN VISARGA', category: Cat::Spacing_Mark)]
     case GUNJALA_GONDI_SIGN_VISARGA = "\u{11D96}";
 
-    #[Info(id: 73111, name: 'GUNJALA GONDI VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D97, name: 'GUNJALA GONDI VIRAMA', category: Cat::Nonspacing_Mark)]
     case GUNJALA_GONDI_VIRAMA = "\u{11D97}";
 
-    #[Info(id: 73112, name: 'GUNJALA GONDI OM', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D98, name: 'GUNJALA GONDI OM', category: Cat::Other_Letter)]
     case GUNJALA_GONDI_OM = "\u{11D98}";
 
-    #[Info(id: 73120, name: 'GUNJALA GONDI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11DA0, name: 'GUNJALA GONDI DIGIT ZERO', category: Cat::Decimal_Number)]
     case GUNJALA_GONDI_DIGIT_ZERO = "\u{11DA0}";
 
-    #[Info(id: 73121, name: 'GUNJALA GONDI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11DA1, name: 'GUNJALA GONDI DIGIT ONE', category: Cat::Decimal_Number)]
     case GUNJALA_GONDI_DIGIT_ONE = "\u{11DA1}";
 
-    #[Info(id: 73122, name: 'GUNJALA GONDI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11DA2, name: 'GUNJALA GONDI DIGIT TWO', category: Cat::Decimal_Number)]
     case GUNJALA_GONDI_DIGIT_TWO = "\u{11DA2}";
 
-    #[Info(id: 73123, name: 'GUNJALA GONDI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11DA3, name: 'GUNJALA GONDI DIGIT THREE', category: Cat::Decimal_Number)]
     case GUNJALA_GONDI_DIGIT_THREE = "\u{11DA3}";
 
-    #[Info(id: 73124, name: 'GUNJALA GONDI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11DA4, name: 'GUNJALA GONDI DIGIT FOUR', category: Cat::Decimal_Number)]
     case GUNJALA_GONDI_DIGIT_FOUR = "\u{11DA4}";
 
-    #[Info(id: 73125, name: 'GUNJALA GONDI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11DA5, name: 'GUNJALA GONDI DIGIT FIVE', category: Cat::Decimal_Number)]
     case GUNJALA_GONDI_DIGIT_FIVE = "\u{11DA5}";
 
-    #[Info(id: 73126, name: 'GUNJALA GONDI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11DA6, name: 'GUNJALA GONDI DIGIT SIX', category: Cat::Decimal_Number)]
     case GUNJALA_GONDI_DIGIT_SIX = "\u{11DA6}";
 
-    #[Info(id: 73127, name: 'GUNJALA GONDI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11DA7, name: 'GUNJALA GONDI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case GUNJALA_GONDI_DIGIT_SEVEN = "\u{11DA7}";
 
-    #[Info(id: 73128, name: 'GUNJALA GONDI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11DA8, name: 'GUNJALA GONDI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case GUNJALA_GONDI_DIGIT_EIGHT = "\u{11DA8}";
 
-    #[Info(id: 73129, name: 'GUNJALA GONDI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11DA9, name: 'GUNJALA GONDI DIGIT NINE', category: Cat::Decimal_Number)]
     case GUNJALA_GONDI_DIGIT_NINE = "\u{11DA9}";
 }

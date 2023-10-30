@@ -16,129 +16,129 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Nag_Mundari: string
 {
-    #[Info(id: 124112, name: 'NAG MUNDARI LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4D0, name: 'NAG MUNDARI LETTER O', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_O = "\u{1E4D0}";
 
-    #[Info(id: 124113, name: 'NAG MUNDARI LETTER OP', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4D1, name: 'NAG MUNDARI LETTER OP', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_OP = "\u{1E4D1}";
 
-    #[Info(id: 124114, name: 'NAG MUNDARI LETTER OL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4D2, name: 'NAG MUNDARI LETTER OL', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_OL = "\u{1E4D2}";
 
-    #[Info(id: 124115, name: 'NAG MUNDARI LETTER OY', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4D3, name: 'NAG MUNDARI LETTER OY', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_OY = "\u{1E4D3}";
 
-    #[Info(id: 124116, name: 'NAG MUNDARI LETTER ONG', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4D4, name: 'NAG MUNDARI LETTER ONG', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_ONG = "\u{1E4D4}";
 
-    #[Info(id: 124117, name: 'NAG MUNDARI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4D5, name: 'NAG MUNDARI LETTER A', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_A = "\u{1E4D5}";
 
-    #[Info(id: 124118, name: 'NAG MUNDARI LETTER AJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4D6, name: 'NAG MUNDARI LETTER AJ', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_AJ = "\u{1E4D6}";
 
-    #[Info(id: 124119, name: 'NAG MUNDARI LETTER AB', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4D7, name: 'NAG MUNDARI LETTER AB', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_AB = "\u{1E4D7}";
 
-    #[Info(id: 124120, name: 'NAG MUNDARI LETTER ANY', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4D8, name: 'NAG MUNDARI LETTER ANY', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_ANY = "\u{1E4D8}";
 
-    #[Info(id: 124121, name: 'NAG MUNDARI LETTER AH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4D9, name: 'NAG MUNDARI LETTER AH', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_AH = "\u{1E4D9}";
 
-    #[Info(id: 124122, name: 'NAG MUNDARI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4DA, name: 'NAG MUNDARI LETTER I', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_I = "\u{1E4DA}";
 
-    #[Info(id: 124123, name: 'NAG MUNDARI LETTER IS', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4DB, name: 'NAG MUNDARI LETTER IS', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_IS = "\u{1E4DB}";
 
-    #[Info(id: 124124, name: 'NAG MUNDARI LETTER IDD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4DC, name: 'NAG MUNDARI LETTER IDD', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_IDD = "\u{1E4DC}";
 
-    #[Info(id: 124125, name: 'NAG MUNDARI LETTER IT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4DD, name: 'NAG MUNDARI LETTER IT', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_IT = "\u{1E4DD}";
 
-    #[Info(id: 124126, name: 'NAG MUNDARI LETTER IH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4DE, name: 'NAG MUNDARI LETTER IH', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_IH = "\u{1E4DE}";
 
-    #[Info(id: 124127, name: 'NAG MUNDARI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4DF, name: 'NAG MUNDARI LETTER U', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_U = "\u{1E4DF}";
 
-    #[Info(id: 124128, name: 'NAG MUNDARI LETTER UC', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4E0, name: 'NAG MUNDARI LETTER UC', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_UC = "\u{1E4E0}";
 
-    #[Info(id: 124129, name: 'NAG MUNDARI LETTER UD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4E1, name: 'NAG MUNDARI LETTER UD', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_UD = "\u{1E4E1}";
 
-    #[Info(id: 124130, name: 'NAG MUNDARI LETTER UK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4E2, name: 'NAG MUNDARI LETTER UK', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_UK = "\u{1E4E2}";
 
-    #[Info(id: 124131, name: 'NAG MUNDARI LETTER UR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4E3, name: 'NAG MUNDARI LETTER UR', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_UR = "\u{1E4E3}";
 
-    #[Info(id: 124132, name: 'NAG MUNDARI LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4E4, name: 'NAG MUNDARI LETTER E', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_E = "\u{1E4E4}";
 
-    #[Info(id: 124133, name: 'NAG MUNDARI LETTER ENN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4E5, name: 'NAG MUNDARI LETTER ENN', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_ENN = "\u{1E4E5}";
 
-    #[Info(id: 124134, name: 'NAG MUNDARI LETTER EG', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4E6, name: 'NAG MUNDARI LETTER EG', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_EG = "\u{1E4E6}";
 
-    #[Info(id: 124135, name: 'NAG MUNDARI LETTER EM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4E7, name: 'NAG MUNDARI LETTER EM', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_EM = "\u{1E4E7}";
 
-    #[Info(id: 124136, name: 'NAG MUNDARI LETTER EN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4E8, name: 'NAG MUNDARI LETTER EN', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_EN = "\u{1E4E8}";
 
-    #[Info(id: 124137, name: 'NAG MUNDARI LETTER ETT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4E9, name: 'NAG MUNDARI LETTER ETT', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_ETT = "\u{1E4E9}";
 
-    #[Info(id: 124138, name: 'NAG MUNDARI LETTER ELL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E4EA, name: 'NAG MUNDARI LETTER ELL', category: Cat::Other_Letter)]
     case NAG_MUNDARI_LETTER_ELL = "\u{1E4EA}";
 
-    #[Info(id: 124139, name: 'NAG MUNDARI SIGN OJOD', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E4EB, name: 'NAG MUNDARI SIGN OJOD', category: Cat::Modifier_Letter)]
     case NAG_MUNDARI_SIGN_OJOD = "\u{1E4EB}";
 
-    #[Info(id: 124140, name: 'NAG MUNDARI SIGN MUHOR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E4EC, name: 'NAG MUNDARI SIGN MUHOR', category: Cat::Nonspacing_Mark)]
     case NAG_MUNDARI_SIGN_MUHOR = "\u{1E4EC}";
 
-    #[Info(id: 124141, name: 'NAG MUNDARI SIGN TOYOR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E4ED, name: 'NAG MUNDARI SIGN TOYOR', category: Cat::Nonspacing_Mark)]
     case NAG_MUNDARI_SIGN_TOYOR = "\u{1E4ED}";
 
-    #[Info(id: 124142, name: 'NAG MUNDARI SIGN IKIR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E4EE, name: 'NAG MUNDARI SIGN IKIR', category: Cat::Nonspacing_Mark)]
     case NAG_MUNDARI_SIGN_IKIR = "\u{1E4EE}";
 
-    #[Info(id: 124143, name: 'NAG MUNDARI SIGN SUTUH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E4EF, name: 'NAG MUNDARI SIGN SUTUH', category: Cat::Nonspacing_Mark)]
     case NAG_MUNDARI_SIGN_SUTUH = "\u{1E4EF}";
 
-    #[Info(id: 124144, name: 'NAG MUNDARI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E4F0, name: 'NAG MUNDARI DIGIT ZERO', category: Cat::Decimal_Number)]
     case NAG_MUNDARI_DIGIT_ZERO = "\u{1E4F0}";
 
-    #[Info(id: 124145, name: 'NAG MUNDARI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E4F1, name: 'NAG MUNDARI DIGIT ONE', category: Cat::Decimal_Number)]
     case NAG_MUNDARI_DIGIT_ONE = "\u{1E4F1}";
 
-    #[Info(id: 124146, name: 'NAG MUNDARI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E4F2, name: 'NAG MUNDARI DIGIT TWO', category: Cat::Decimal_Number)]
     case NAG_MUNDARI_DIGIT_TWO = "\u{1E4F2}";
 
-    #[Info(id: 124147, name: 'NAG MUNDARI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E4F3, name: 'NAG MUNDARI DIGIT THREE', category: Cat::Decimal_Number)]
     case NAG_MUNDARI_DIGIT_THREE = "\u{1E4F3}";
 
-    #[Info(id: 124148, name: 'NAG MUNDARI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E4F4, name: 'NAG MUNDARI DIGIT FOUR', category: Cat::Decimal_Number)]
     case NAG_MUNDARI_DIGIT_FOUR = "\u{1E4F4}";
 
-    #[Info(id: 124149, name: 'NAG MUNDARI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E4F5, name: 'NAG MUNDARI DIGIT FIVE', category: Cat::Decimal_Number)]
     case NAG_MUNDARI_DIGIT_FIVE = "\u{1E4F5}";
 
-    #[Info(id: 124150, name: 'NAG MUNDARI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E4F6, name: 'NAG MUNDARI DIGIT SIX', category: Cat::Decimal_Number)]
     case NAG_MUNDARI_DIGIT_SIX = "\u{1E4F6}";
 
-    #[Info(id: 124151, name: 'NAG MUNDARI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E4F7, name: 'NAG MUNDARI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case NAG_MUNDARI_DIGIT_SEVEN = "\u{1E4F7}";
 
-    #[Info(id: 124152, name: 'NAG MUNDARI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E4F8, name: 'NAG MUNDARI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case NAG_MUNDARI_DIGIT_EIGHT = "\u{1E4F8}";
 
-    #[Info(id: 124153, name: 'NAG MUNDARI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E4F9, name: 'NAG MUNDARI DIGIT NINE', category: Cat::Decimal_Number)]
     case NAG_MUNDARI_DIGIT_NINE = "\u{1E4F9}";
 }

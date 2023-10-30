@@ -16,372 +16,372 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Coptic: string
 {
-    #[Info(id: 11392, name: 'COPTIC CAPITAL LETTER ALFA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C80, name: 'COPTIC CAPITAL LETTER ALFA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_ALFA = "\u{2C80}";
 
-    #[Info(id: 11393, name: 'COPTIC SMALL LETTER ALFA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C81, name: 'COPTIC SMALL LETTER ALFA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_ALFA = "\u{2C81}";
 
-    #[Info(id: 11394, name: 'COPTIC CAPITAL LETTER VIDA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C82, name: 'COPTIC CAPITAL LETTER VIDA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_VIDA = "\u{2C82}";
 
-    #[Info(id: 11395, name: 'COPTIC SMALL LETTER VIDA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C83, name: 'COPTIC SMALL LETTER VIDA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_VIDA = "\u{2C83}";
 
-    #[Info(id: 11396, name: 'COPTIC CAPITAL LETTER GAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C84, name: 'COPTIC CAPITAL LETTER GAMMA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_GAMMA = "\u{2C84}";
 
-    #[Info(id: 11397, name: 'COPTIC SMALL LETTER GAMMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C85, name: 'COPTIC SMALL LETTER GAMMA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_GAMMA = "\u{2C85}";
 
-    #[Info(id: 11398, name: 'COPTIC CAPITAL LETTER DALDA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C86, name: 'COPTIC CAPITAL LETTER DALDA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_DALDA = "\u{2C86}";
 
-    #[Info(id: 11399, name: 'COPTIC SMALL LETTER DALDA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C87, name: 'COPTIC SMALL LETTER DALDA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_DALDA = "\u{2C87}";
 
-    #[Info(id: 11400, name: 'COPTIC CAPITAL LETTER EIE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C88, name: 'COPTIC CAPITAL LETTER EIE', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_EIE = "\u{2C88}";
 
-    #[Info(id: 11401, name: 'COPTIC SMALL LETTER EIE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C89, name: 'COPTIC SMALL LETTER EIE', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_EIE = "\u{2C89}";
 
-    #[Info(id: 11402, name: 'COPTIC CAPITAL LETTER SOU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C8A, name: 'COPTIC CAPITAL LETTER SOU', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_SOU = "\u{2C8A}";
 
-    #[Info(id: 11403, name: 'COPTIC SMALL LETTER SOU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C8B, name: 'COPTIC SMALL LETTER SOU', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_SOU = "\u{2C8B}";
 
-    #[Info(id: 11404, name: 'COPTIC CAPITAL LETTER ZATA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C8C, name: 'COPTIC CAPITAL LETTER ZATA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_ZATA = "\u{2C8C}";
 
-    #[Info(id: 11405, name: 'COPTIC SMALL LETTER ZATA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C8D, name: 'COPTIC SMALL LETTER ZATA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_ZATA = "\u{2C8D}";
 
-    #[Info(id: 11406, name: 'COPTIC CAPITAL LETTER HATE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C8E, name: 'COPTIC CAPITAL LETTER HATE', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_HATE = "\u{2C8E}";
 
-    #[Info(id: 11407, name: 'COPTIC SMALL LETTER HATE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C8F, name: 'COPTIC SMALL LETTER HATE', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_HATE = "\u{2C8F}";
 
-    #[Info(id: 11408, name: 'COPTIC CAPITAL LETTER THETHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C90, name: 'COPTIC CAPITAL LETTER THETHE', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_THETHE = "\u{2C90}";
 
-    #[Info(id: 11409, name: 'COPTIC SMALL LETTER THETHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C91, name: 'COPTIC SMALL LETTER THETHE', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_THETHE = "\u{2C91}";
 
-    #[Info(id: 11410, name: 'COPTIC CAPITAL LETTER IAUDA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C92, name: 'COPTIC CAPITAL LETTER IAUDA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_IAUDA = "\u{2C92}";
 
-    #[Info(id: 11411, name: 'COPTIC SMALL LETTER IAUDA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C93, name: 'COPTIC SMALL LETTER IAUDA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_IAUDA = "\u{2C93}";
 
-    #[Info(id: 11412, name: 'COPTIC CAPITAL LETTER KAPA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C94, name: 'COPTIC CAPITAL LETTER KAPA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_KAPA = "\u{2C94}";
 
-    #[Info(id: 11413, name: 'COPTIC SMALL LETTER KAPA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C95, name: 'COPTIC SMALL LETTER KAPA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_KAPA = "\u{2C95}";
 
-    #[Info(id: 11414, name: 'COPTIC CAPITAL LETTER LAULA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C96, name: 'COPTIC CAPITAL LETTER LAULA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_LAULA = "\u{2C96}";
 
-    #[Info(id: 11415, name: 'COPTIC SMALL LETTER LAULA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C97, name: 'COPTIC SMALL LETTER LAULA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_LAULA = "\u{2C97}";
 
-    #[Info(id: 11416, name: 'COPTIC CAPITAL LETTER MI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C98, name: 'COPTIC CAPITAL LETTER MI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_MI = "\u{2C98}";
 
-    #[Info(id: 11417, name: 'COPTIC SMALL LETTER MI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C99, name: 'COPTIC SMALL LETTER MI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_MI = "\u{2C99}";
 
-    #[Info(id: 11418, name: 'COPTIC CAPITAL LETTER NI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C9A, name: 'COPTIC CAPITAL LETTER NI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_NI = "\u{2C9A}";
 
-    #[Info(id: 11419, name: 'COPTIC SMALL LETTER NI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C9B, name: 'COPTIC SMALL LETTER NI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_NI = "\u{2C9B}";
 
-    #[Info(id: 11420, name: 'COPTIC CAPITAL LETTER KSI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C9C, name: 'COPTIC CAPITAL LETTER KSI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_KSI = "\u{2C9C}";
 
-    #[Info(id: 11421, name: 'COPTIC SMALL LETTER KSI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C9D, name: 'COPTIC SMALL LETTER KSI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_KSI = "\u{2C9D}";
 
-    #[Info(id: 11422, name: 'COPTIC CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C9E, name: 'COPTIC CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_O = "\u{2C9E}";
 
-    #[Info(id: 11423, name: 'COPTIC SMALL LETTER O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C9F, name: 'COPTIC SMALL LETTER O', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_O = "\u{2C9F}";
 
-    #[Info(id: 11424, name: 'COPTIC CAPITAL LETTER PI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CA0, name: 'COPTIC CAPITAL LETTER PI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_PI = "\u{2CA0}";
 
-    #[Info(id: 11425, name: 'COPTIC SMALL LETTER PI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CA1, name: 'COPTIC SMALL LETTER PI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_PI = "\u{2CA1}";
 
-    #[Info(id: 11426, name: 'COPTIC CAPITAL LETTER RO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CA2, name: 'COPTIC CAPITAL LETTER RO', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_RO = "\u{2CA2}";
 
-    #[Info(id: 11427, name: 'COPTIC SMALL LETTER RO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CA3, name: 'COPTIC SMALL LETTER RO', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_RO = "\u{2CA3}";
 
-    #[Info(id: 11428, name: 'COPTIC CAPITAL LETTER SIMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CA4, name: 'COPTIC CAPITAL LETTER SIMA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_SIMA = "\u{2CA4}";
 
-    #[Info(id: 11429, name: 'COPTIC SMALL LETTER SIMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CA5, name: 'COPTIC SMALL LETTER SIMA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_SIMA = "\u{2CA5}";
 
-    #[Info(id: 11430, name: 'COPTIC CAPITAL LETTER TAU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CA6, name: 'COPTIC CAPITAL LETTER TAU', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_TAU = "\u{2CA6}";
 
-    #[Info(id: 11431, name: 'COPTIC SMALL LETTER TAU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CA7, name: 'COPTIC SMALL LETTER TAU', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_TAU = "\u{2CA7}";
 
-    #[Info(id: 11432, name: 'COPTIC CAPITAL LETTER UA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CA8, name: 'COPTIC CAPITAL LETTER UA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_UA = "\u{2CA8}";
 
-    #[Info(id: 11433, name: 'COPTIC SMALL LETTER UA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CA9, name: 'COPTIC SMALL LETTER UA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_UA = "\u{2CA9}";
 
-    #[Info(id: 11434, name: 'COPTIC CAPITAL LETTER FI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CAA, name: 'COPTIC CAPITAL LETTER FI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_FI = "\u{2CAA}";
 
-    #[Info(id: 11435, name: 'COPTIC SMALL LETTER FI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CAB, name: 'COPTIC SMALL LETTER FI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_FI = "\u{2CAB}";
 
-    #[Info(id: 11436, name: 'COPTIC CAPITAL LETTER KHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CAC, name: 'COPTIC CAPITAL LETTER KHI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_KHI = "\u{2CAC}";
 
-    #[Info(id: 11437, name: 'COPTIC SMALL LETTER KHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CAD, name: 'COPTIC SMALL LETTER KHI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_KHI = "\u{2CAD}";
 
-    #[Info(id: 11438, name: 'COPTIC CAPITAL LETTER PSI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CAE, name: 'COPTIC CAPITAL LETTER PSI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_PSI = "\u{2CAE}";
 
-    #[Info(id: 11439, name: 'COPTIC SMALL LETTER PSI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CAF, name: 'COPTIC SMALL LETTER PSI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_PSI = "\u{2CAF}";
 
-    #[Info(id: 11440, name: 'COPTIC CAPITAL LETTER OOU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CB0, name: 'COPTIC CAPITAL LETTER OOU', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OOU = "\u{2CB0}";
 
-    #[Info(id: 11441, name: 'COPTIC SMALL LETTER OOU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CB1, name: 'COPTIC SMALL LETTER OOU', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OOU = "\u{2CB1}";
 
-    #[Info(id: 11442, name: 'COPTIC CAPITAL LETTER DIALECT-P ALEF', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CB2, name: 'COPTIC CAPITAL LETTER DIALECT-P ALEF', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_DIALECT_P_ALEF = "\u{2CB2}";
 
-    #[Info(id: 11443, name: 'COPTIC SMALL LETTER DIALECT-P ALEF', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CB3, name: 'COPTIC SMALL LETTER DIALECT-P ALEF', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_DIALECT_P_ALEF = "\u{2CB3}";
 
-    #[Info(id: 11444, name: 'COPTIC CAPITAL LETTER OLD COPTIC AIN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CB4, name: 'COPTIC CAPITAL LETTER OLD COPTIC AIN', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_COPTIC_AIN = "\u{2CB4}";
 
-    #[Info(id: 11445, name: 'COPTIC SMALL LETTER OLD COPTIC AIN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CB5, name: 'COPTIC SMALL LETTER OLD COPTIC AIN', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_COPTIC_AIN = "\u{2CB5}";
 
-    #[Info(id: 11446, name: 'COPTIC CAPITAL LETTER CRYPTOGRAMMIC EIE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CB6, name: 'COPTIC CAPITAL LETTER CRYPTOGRAMMIC EIE', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_CRYPTOGRAMMIC_EIE = "\u{2CB6}";
 
-    #[Info(id: 11447, name: 'COPTIC SMALL LETTER CRYPTOGRAMMIC EIE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CB7, name: 'COPTIC SMALL LETTER CRYPTOGRAMMIC EIE', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_CRYPTOGRAMMIC_EIE = "\u{2CB7}";
 
-    #[Info(id: 11448, name: 'COPTIC CAPITAL LETTER DIALECT-P KAPA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CB8, name: 'COPTIC CAPITAL LETTER DIALECT-P KAPA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_DIALECT_P_KAPA = "\u{2CB8}";
 
-    #[Info(id: 11449, name: 'COPTIC SMALL LETTER DIALECT-P KAPA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CB9, name: 'COPTIC SMALL LETTER DIALECT-P KAPA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_DIALECT_P_KAPA = "\u{2CB9}";
 
-    #[Info(id: 11450, name: 'COPTIC CAPITAL LETTER DIALECT-P NI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CBA, name: 'COPTIC CAPITAL LETTER DIALECT-P NI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_DIALECT_P_NI = "\u{2CBA}";
 
-    #[Info(id: 11451, name: 'COPTIC SMALL LETTER DIALECT-P NI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CBB, name: 'COPTIC SMALL LETTER DIALECT-P NI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_DIALECT_P_NI = "\u{2CBB}";
 
-    #[Info(id: 11452, name: 'COPTIC CAPITAL LETTER CRYPTOGRAMMIC NI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CBC, name: 'COPTIC CAPITAL LETTER CRYPTOGRAMMIC NI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_CRYPTOGRAMMIC_NI = "\u{2CBC}";
 
-    #[Info(id: 11453, name: 'COPTIC SMALL LETTER CRYPTOGRAMMIC NI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CBD, name: 'COPTIC SMALL LETTER CRYPTOGRAMMIC NI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_CRYPTOGRAMMIC_NI = "\u{2CBD}";
 
-    #[Info(id: 11454, name: 'COPTIC CAPITAL LETTER OLD COPTIC OOU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CBE, name: 'COPTIC CAPITAL LETTER OLD COPTIC OOU', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_COPTIC_OOU = "\u{2CBE}";
 
-    #[Info(id: 11455, name: 'COPTIC SMALL LETTER OLD COPTIC OOU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CBF, name: 'COPTIC SMALL LETTER OLD COPTIC OOU', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_COPTIC_OOU = "\u{2CBF}";
 
-    #[Info(id: 11456, name: 'COPTIC CAPITAL LETTER SAMPI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CC0, name: 'COPTIC CAPITAL LETTER SAMPI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_SAMPI = "\u{2CC0}";
 
-    #[Info(id: 11457, name: 'COPTIC SMALL LETTER SAMPI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CC1, name: 'COPTIC SMALL LETTER SAMPI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_SAMPI = "\u{2CC1}";
 
-    #[Info(id: 11458, name: 'COPTIC CAPITAL LETTER CROSSED SHEI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CC2, name: 'COPTIC CAPITAL LETTER CROSSED SHEI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_CROSSED_SHEI = "\u{2CC2}";
 
-    #[Info(id: 11459, name: 'COPTIC SMALL LETTER CROSSED SHEI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CC3, name: 'COPTIC SMALL LETTER CROSSED SHEI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_CROSSED_SHEI = "\u{2CC3}";
 
-    #[Info(id: 11460, name: 'COPTIC CAPITAL LETTER OLD COPTIC SHEI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CC4, name: 'COPTIC CAPITAL LETTER OLD COPTIC SHEI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_COPTIC_SHEI = "\u{2CC4}";
 
-    #[Info(id: 11461, name: 'COPTIC SMALL LETTER OLD COPTIC SHEI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CC5, name: 'COPTIC SMALL LETTER OLD COPTIC SHEI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_COPTIC_SHEI = "\u{2CC5}";
 
-    #[Info(id: 11462, name: 'COPTIC CAPITAL LETTER OLD COPTIC ESH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CC6, name: 'COPTIC CAPITAL LETTER OLD COPTIC ESH', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_COPTIC_ESH = "\u{2CC6}";
 
-    #[Info(id: 11463, name: 'COPTIC SMALL LETTER OLD COPTIC ESH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CC7, name: 'COPTIC SMALL LETTER OLD COPTIC ESH', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_COPTIC_ESH = "\u{2CC7}";
 
-    #[Info(id: 11464, name: 'COPTIC CAPITAL LETTER AKHMIMIC KHEI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CC8, name: 'COPTIC CAPITAL LETTER AKHMIMIC KHEI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_AKHMIMIC_KHEI = "\u{2CC8}";
 
-    #[Info(id: 11465, name: 'COPTIC SMALL LETTER AKHMIMIC KHEI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CC9, name: 'COPTIC SMALL LETTER AKHMIMIC KHEI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_AKHMIMIC_KHEI = "\u{2CC9}";
 
-    #[Info(id: 11466, name: 'COPTIC CAPITAL LETTER DIALECT-P HORI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CCA, name: 'COPTIC CAPITAL LETTER DIALECT-P HORI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_DIALECT_P_HORI = "\u{2CCA}";
 
-    #[Info(id: 11467, name: 'COPTIC SMALL LETTER DIALECT-P HORI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CCB, name: 'COPTIC SMALL LETTER DIALECT-P HORI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_DIALECT_P_HORI = "\u{2CCB}";
 
-    #[Info(id: 11468, name: 'COPTIC CAPITAL LETTER OLD COPTIC HORI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CCC, name: 'COPTIC CAPITAL LETTER OLD COPTIC HORI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_COPTIC_HORI = "\u{2CCC}";
 
-    #[Info(id: 11469, name: 'COPTIC SMALL LETTER OLD COPTIC HORI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CCD, name: 'COPTIC SMALL LETTER OLD COPTIC HORI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_COPTIC_HORI = "\u{2CCD}";
 
-    #[Info(id: 11470, name: 'COPTIC CAPITAL LETTER OLD COPTIC HA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CCE, name: 'COPTIC CAPITAL LETTER OLD COPTIC HA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_COPTIC_HA = "\u{2CCE}";
 
-    #[Info(id: 11471, name: 'COPTIC SMALL LETTER OLD COPTIC HA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CCF, name: 'COPTIC SMALL LETTER OLD COPTIC HA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_COPTIC_HA = "\u{2CCF}";
 
-    #[Info(id: 11472, name: 'COPTIC CAPITAL LETTER L-SHAPED HA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CD0, name: 'COPTIC CAPITAL LETTER L-SHAPED HA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_L_SHAPED_HA = "\u{2CD0}";
 
-    #[Info(id: 11473, name: 'COPTIC SMALL LETTER L-SHAPED HA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CD1, name: 'COPTIC SMALL LETTER L-SHAPED HA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_L_SHAPED_HA = "\u{2CD1}";
 
-    #[Info(id: 11474, name: 'COPTIC CAPITAL LETTER OLD COPTIC HEI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CD2, name: 'COPTIC CAPITAL LETTER OLD COPTIC HEI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_COPTIC_HEI = "\u{2CD2}";
 
-    #[Info(id: 11475, name: 'COPTIC SMALL LETTER OLD COPTIC HEI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CD3, name: 'COPTIC SMALL LETTER OLD COPTIC HEI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_COPTIC_HEI = "\u{2CD3}";
 
-    #[Info(id: 11476, name: 'COPTIC CAPITAL LETTER OLD COPTIC HAT', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CD4, name: 'COPTIC CAPITAL LETTER OLD COPTIC HAT', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_COPTIC_HAT = "\u{2CD4}";
 
-    #[Info(id: 11477, name: 'COPTIC SMALL LETTER OLD COPTIC HAT', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CD5, name: 'COPTIC SMALL LETTER OLD COPTIC HAT', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_COPTIC_HAT = "\u{2CD5}";
 
-    #[Info(id: 11478, name: 'COPTIC CAPITAL LETTER OLD COPTIC GANGIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CD6, name: 'COPTIC CAPITAL LETTER OLD COPTIC GANGIA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_COPTIC_GANGIA = "\u{2CD6}";
 
-    #[Info(id: 11479, name: 'COPTIC SMALL LETTER OLD COPTIC GANGIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CD7, name: 'COPTIC SMALL LETTER OLD COPTIC GANGIA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_COPTIC_GANGIA = "\u{2CD7}";
 
-    #[Info(id: 11480, name: 'COPTIC CAPITAL LETTER OLD COPTIC DJA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CD8, name: 'COPTIC CAPITAL LETTER OLD COPTIC DJA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_COPTIC_DJA = "\u{2CD8}";
 
-    #[Info(id: 11481, name: 'COPTIC SMALL LETTER OLD COPTIC DJA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CD9, name: 'COPTIC SMALL LETTER OLD COPTIC DJA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_COPTIC_DJA = "\u{2CD9}";
 
-    #[Info(id: 11482, name: 'COPTIC CAPITAL LETTER OLD COPTIC SHIMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CDA, name: 'COPTIC CAPITAL LETTER OLD COPTIC SHIMA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_COPTIC_SHIMA = "\u{2CDA}";
 
-    #[Info(id: 11483, name: 'COPTIC SMALL LETTER OLD COPTIC SHIMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CDB, name: 'COPTIC SMALL LETTER OLD COPTIC SHIMA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_COPTIC_SHIMA = "\u{2CDB}";
 
-    #[Info(id: 11484, name: 'COPTIC CAPITAL LETTER OLD NUBIAN SHIMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CDC, name: 'COPTIC CAPITAL LETTER OLD NUBIAN SHIMA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_NUBIAN_SHIMA = "\u{2CDC}";
 
-    #[Info(id: 11485, name: 'COPTIC SMALL LETTER OLD NUBIAN SHIMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CDD, name: 'COPTIC SMALL LETTER OLD NUBIAN SHIMA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_NUBIAN_SHIMA = "\u{2CDD}";
 
-    #[Info(id: 11486, name: 'COPTIC CAPITAL LETTER OLD NUBIAN NGI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CDE, name: 'COPTIC CAPITAL LETTER OLD NUBIAN NGI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_NUBIAN_NGI = "\u{2CDE}";
 
-    #[Info(id: 11487, name: 'COPTIC SMALL LETTER OLD NUBIAN NGI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CDF, name: 'COPTIC SMALL LETTER OLD NUBIAN NGI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_NUBIAN_NGI = "\u{2CDF}";
 
-    #[Info(id: 11488, name: 'COPTIC CAPITAL LETTER OLD NUBIAN NYI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CE0, name: 'COPTIC CAPITAL LETTER OLD NUBIAN NYI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_NUBIAN_NYI = "\u{2CE0}";
 
-    #[Info(id: 11489, name: 'COPTIC SMALL LETTER OLD NUBIAN NYI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CE1, name: 'COPTIC SMALL LETTER OLD NUBIAN NYI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_NUBIAN_NYI = "\u{2CE1}";
 
-    #[Info(id: 11490, name: 'COPTIC CAPITAL LETTER OLD NUBIAN WAU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CE2, name: 'COPTIC CAPITAL LETTER OLD NUBIAN WAU', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_OLD_NUBIAN_WAU = "\u{2CE2}";
 
-    #[Info(id: 11491, name: 'COPTIC SMALL LETTER OLD NUBIAN WAU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CE3, name: 'COPTIC SMALL LETTER OLD NUBIAN WAU', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_OLD_NUBIAN_WAU = "\u{2CE3}";
 
-    #[Info(id: 11492, name: 'COPTIC SYMBOL KAI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CE4, name: 'COPTIC SYMBOL KAI', category: Cat::Lowercase_Letter)]
     case COPTIC_SYMBOL_KAI = "\u{2CE4}";
 
-    #[Info(id: 11493, name: 'COPTIC SYMBOL MI RO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2CE5, name: 'COPTIC SYMBOL MI RO', category: Cat::Other_Symbol)]
     case COPTIC_SYMBOL_MI_RO = "\u{2CE5}";
 
-    #[Info(id: 11494, name: 'COPTIC SYMBOL PI RO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2CE6, name: 'COPTIC SYMBOL PI RO', category: Cat::Other_Symbol)]
     case COPTIC_SYMBOL_PI_RO = "\u{2CE6}";
 
-    #[Info(id: 11495, name: 'COPTIC SYMBOL STAUROS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2CE7, name: 'COPTIC SYMBOL STAUROS', category: Cat::Other_Symbol)]
     case COPTIC_SYMBOL_STAUROS = "\u{2CE7}";
 
-    #[Info(id: 11496, name: 'COPTIC SYMBOL TAU RO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2CE8, name: 'COPTIC SYMBOL TAU RO', category: Cat::Other_Symbol)]
     case COPTIC_SYMBOL_TAU_RO = "\u{2CE8}";
 
-    #[Info(id: 11497, name: 'COPTIC SYMBOL KHI RO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2CE9, name: 'COPTIC SYMBOL KHI RO', category: Cat::Other_Symbol)]
     case COPTIC_SYMBOL_KHI_RO = "\u{2CE9}";
 
-    #[Info(id: 11498, name: 'COPTIC SYMBOL SHIMA SIMA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2CEA, name: 'COPTIC SYMBOL SHIMA SIMA', category: Cat::Other_Symbol)]
     case COPTIC_SYMBOL_SHIMA_SIMA = "\u{2CEA}";
 
-    #[Info(id: 11499, name: 'COPTIC CAPITAL LETTER CRYPTOGRAMMIC SHEI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CEB, name: 'COPTIC CAPITAL LETTER CRYPTOGRAMMIC SHEI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_CRYPTOGRAMMIC_SHEI = "\u{2CEB}";
 
-    #[Info(id: 11500, name: 'COPTIC SMALL LETTER CRYPTOGRAMMIC SHEI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CEC, name: 'COPTIC SMALL LETTER CRYPTOGRAMMIC SHEI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_CRYPTOGRAMMIC_SHEI = "\u{2CEC}";
 
-    #[Info(id: 11501, name: 'COPTIC CAPITAL LETTER CRYPTOGRAMMIC GANGIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CED, name: 'COPTIC CAPITAL LETTER CRYPTOGRAMMIC GANGIA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_CRYPTOGRAMMIC_GANGIA = "\u{2CED}";
 
-    #[Info(id: 11502, name: 'COPTIC SMALL LETTER CRYPTOGRAMMIC GANGIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CEE, name: 'COPTIC SMALL LETTER CRYPTOGRAMMIC GANGIA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_CRYPTOGRAMMIC_GANGIA = "\u{2CEE}";
 
-    #[Info(id: 11503, name: 'COPTIC COMBINING NI ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2CEF, name: 'COPTIC COMBINING NI ABOVE', category: Cat::Nonspacing_Mark)]
     case COPTIC_COMBINING_NI_ABOVE = "\u{2CEF}";
 
-    #[Info(id: 11504, name: 'COPTIC COMBINING SPIRITUS ASPER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2CF0, name: 'COPTIC COMBINING SPIRITUS ASPER', category: Cat::Nonspacing_Mark)]
     case COPTIC_COMBINING_SPIRITUS_ASPER = "\u{2CF0}";
 
-    #[Info(id: 11505, name: 'COPTIC COMBINING SPIRITUS LENIS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2CF1, name: 'COPTIC COMBINING SPIRITUS LENIS', category: Cat::Nonspacing_Mark)]
     case COPTIC_COMBINING_SPIRITUS_LENIS = "\u{2CF1}";
 
-    #[Info(id: 11506, name: 'COPTIC CAPITAL LETTER BOHAIRIC KHEI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2CF2, name: 'COPTIC CAPITAL LETTER BOHAIRIC KHEI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_BOHAIRIC_KHEI = "\u{2CF2}";
 
-    #[Info(id: 11507, name: 'COPTIC SMALL LETTER BOHAIRIC KHEI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2CF3, name: 'COPTIC SMALL LETTER BOHAIRIC KHEI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_BOHAIRIC_KHEI = "\u{2CF3}";
 
-    #[Info(id: 11513, name: 'COPTIC OLD NUBIAN FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2CF9, name: 'COPTIC OLD NUBIAN FULL STOP', category: Cat::Other_Punctuation)]
     case COPTIC_OLD_NUBIAN_FULL_STOP = "\u{2CF9}";
 
-    #[Info(id: 11514, name: 'COPTIC OLD NUBIAN DIRECT QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2CFA, name: 'COPTIC OLD NUBIAN DIRECT QUESTION MARK', category: Cat::Other_Punctuation)]
     case COPTIC_OLD_NUBIAN_DIRECT_QUESTION_MARK = "\u{2CFA}";
 
-    #[Info(id: 11515, name: 'COPTIC OLD NUBIAN INDIRECT QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2CFB, name: 'COPTIC OLD NUBIAN INDIRECT QUESTION MARK', category: Cat::Other_Punctuation)]
     case COPTIC_OLD_NUBIAN_INDIRECT_QUESTION_MARK = "\u{2CFB}";
 
-    #[Info(id: 11516, name: 'COPTIC OLD NUBIAN VERSE DIVIDER', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2CFC, name: 'COPTIC OLD NUBIAN VERSE DIVIDER', category: Cat::Other_Punctuation)]
     case COPTIC_OLD_NUBIAN_VERSE_DIVIDER = "\u{2CFC}";
 
-    #[Info(id: 11517, name: 'COPTIC FRACTION ONE HALF', category: Cat::Other_Number)]
+    #[Info(id: 0x2CFD, name: 'COPTIC FRACTION ONE HALF', category: Cat::Other_Number)]
     case COPTIC_FRACTION_ONE_HALF = "\u{2CFD}";
 
-    #[Info(id: 11518, name: 'COPTIC FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2CFE, name: 'COPTIC FULL STOP', category: Cat::Other_Punctuation)]
     case COPTIC_FULL_STOP = "\u{2CFE}";
 
-    #[Info(id: 11519, name: 'COPTIC MORPHOLOGICAL DIVIDER', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2CFF, name: 'COPTIC MORPHOLOGICAL DIVIDER', category: Cat::Other_Punctuation)]
     case COPTIC_MORPHOLOGICAL_DIVIDER = "\u{2CFF}";
 }

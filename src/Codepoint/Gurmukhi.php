@@ -16,243 +16,243 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Gurmukhi: string
 {
-    #[Info(id: 2561, name: 'GURMUKHI SIGN ADAK BINDI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA01, name: 'GURMUKHI SIGN ADAK BINDI', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_SIGN_ADAK_BINDI = "\u{A01}";
 
-    #[Info(id: 2562, name: 'GURMUKHI SIGN BINDI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA02, name: 'GURMUKHI SIGN BINDI', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_SIGN_BINDI = "\u{A02}";
 
-    #[Info(id: 2563, name: 'GURMUKHI SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA03, name: 'GURMUKHI SIGN VISARGA', category: Cat::Spacing_Mark)]
     case GURMUKHI_SIGN_VISARGA = "\u{A03}";
 
-    #[Info(id: 2565, name: 'GURMUKHI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xA05, name: 'GURMUKHI LETTER A', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_A = "\u{A05}";
 
-    #[Info(id: 2566, name: 'GURMUKHI LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA06, name: 'GURMUKHI LETTER AA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_AA = "\u{A06}";
 
-    #[Info(id: 2567, name: 'GURMUKHI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xA07, name: 'GURMUKHI LETTER I', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_I = "\u{A07}";
 
-    #[Info(id: 2568, name: 'GURMUKHI LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0xA08, name: 'GURMUKHI LETTER II', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_II = "\u{A08}";
 
-    #[Info(id: 2569, name: 'GURMUKHI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0xA09, name: 'GURMUKHI LETTER U', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_U = "\u{A09}";
 
-    #[Info(id: 2570, name: 'GURMUKHI LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA0A, name: 'GURMUKHI LETTER UU', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_UU = "\u{A0A}";
 
-    #[Info(id: 2575, name: 'GURMUKHI LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA0F, name: 'GURMUKHI LETTER EE', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_EE = "\u{A0F}";
 
-    #[Info(id: 2576, name: 'GURMUKHI LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA10, name: 'GURMUKHI LETTER AI', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_AI = "\u{A10}";
 
-    #[Info(id: 2579, name: 'GURMUKHI LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA13, name: 'GURMUKHI LETTER OO', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_OO = "\u{A13}";
 
-    #[Info(id: 2580, name: 'GURMUKHI LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA14, name: 'GURMUKHI LETTER AU', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_AU = "\u{A14}";
 
-    #[Info(id: 2581, name: 'GURMUKHI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA15, name: 'GURMUKHI LETTER KA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_KA = "\u{A15}";
 
-    #[Info(id: 2582, name: 'GURMUKHI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA16, name: 'GURMUKHI LETTER KHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_KHA = "\u{A16}";
 
-    #[Info(id: 2583, name: 'GURMUKHI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA17, name: 'GURMUKHI LETTER GA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_GA = "\u{A17}";
 
-    #[Info(id: 2584, name: 'GURMUKHI LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA18, name: 'GURMUKHI LETTER GHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_GHA = "\u{A18}";
 
-    #[Info(id: 2585, name: 'GURMUKHI LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA19, name: 'GURMUKHI LETTER NGA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_NGA = "\u{A19}";
 
-    #[Info(id: 2586, name: 'GURMUKHI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA1A, name: 'GURMUKHI LETTER CA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_CA = "\u{A1A}";
 
-    #[Info(id: 2587, name: 'GURMUKHI LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA1B, name: 'GURMUKHI LETTER CHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_CHA = "\u{A1B}";
 
-    #[Info(id: 2588, name: 'GURMUKHI LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA1C, name: 'GURMUKHI LETTER JA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_JA = "\u{A1C}";
 
-    #[Info(id: 2589, name: 'GURMUKHI LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA1D, name: 'GURMUKHI LETTER JHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_JHA = "\u{A1D}";
 
-    #[Info(id: 2590, name: 'GURMUKHI LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA1E, name: 'GURMUKHI LETTER NYA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_NYA = "\u{A1E}";
 
-    #[Info(id: 2591, name: 'GURMUKHI LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA1F, name: 'GURMUKHI LETTER TTA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_TTA = "\u{A1F}";
 
-    #[Info(id: 2592, name: 'GURMUKHI LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA20, name: 'GURMUKHI LETTER TTHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_TTHA = "\u{A20}";
 
-    #[Info(id: 2593, name: 'GURMUKHI LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA21, name: 'GURMUKHI LETTER DDA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_DDA = "\u{A21}";
 
-    #[Info(id: 2594, name: 'GURMUKHI LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA22, name: 'GURMUKHI LETTER DDHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_DDHA = "\u{A22}";
 
-    #[Info(id: 2595, name: 'GURMUKHI LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA23, name: 'GURMUKHI LETTER NNA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_NNA = "\u{A23}";
 
-    #[Info(id: 2596, name: 'GURMUKHI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA24, name: 'GURMUKHI LETTER TA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_TA = "\u{A24}";
 
-    #[Info(id: 2597, name: 'GURMUKHI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA25, name: 'GURMUKHI LETTER THA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_THA = "\u{A25}";
 
-    #[Info(id: 2598, name: 'GURMUKHI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA26, name: 'GURMUKHI LETTER DA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_DA = "\u{A26}";
 
-    #[Info(id: 2599, name: 'GURMUKHI LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA27, name: 'GURMUKHI LETTER DHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_DHA = "\u{A27}";
 
-    #[Info(id: 2600, name: 'GURMUKHI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA28, name: 'GURMUKHI LETTER NA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_NA = "\u{A28}";
 
-    #[Info(id: 2602, name: 'GURMUKHI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA2A, name: 'GURMUKHI LETTER PA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_PA = "\u{A2A}";
 
-    #[Info(id: 2603, name: 'GURMUKHI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA2B, name: 'GURMUKHI LETTER PHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_PHA = "\u{A2B}";
 
-    #[Info(id: 2604, name: 'GURMUKHI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA2C, name: 'GURMUKHI LETTER BA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_BA = "\u{A2C}";
 
-    #[Info(id: 2605, name: 'GURMUKHI LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA2D, name: 'GURMUKHI LETTER BHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_BHA = "\u{A2D}";
 
-    #[Info(id: 2606, name: 'GURMUKHI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA2E, name: 'GURMUKHI LETTER MA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_MA = "\u{A2E}";
 
-    #[Info(id: 2607, name: 'GURMUKHI LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA2F, name: 'GURMUKHI LETTER YA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_YA = "\u{A2F}";
 
-    #[Info(id: 2608, name: 'GURMUKHI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA30, name: 'GURMUKHI LETTER RA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_RA = "\u{A30}";
 
-    #[Info(id: 2610, name: 'GURMUKHI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA32, name: 'GURMUKHI LETTER LA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_LA = "\u{A32}";
 
-    #[Info(id: 2611, name: 'GURMUKHI LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA33, name: 'GURMUKHI LETTER LLA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_LLA = "\u{A33}";
 
-    #[Info(id: 2613, name: 'GURMUKHI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA35, name: 'GURMUKHI LETTER VA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_VA = "\u{A35}";
 
-    #[Info(id: 2614, name: 'GURMUKHI LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA36, name: 'GURMUKHI LETTER SHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_SHA = "\u{A36}";
 
-    #[Info(id: 2616, name: 'GURMUKHI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA38, name: 'GURMUKHI LETTER SA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_SA = "\u{A38}";
 
-    #[Info(id: 2617, name: 'GURMUKHI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA39, name: 'GURMUKHI LETTER HA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_HA = "\u{A39}";
 
-    #[Info(id: 2620, name: 'GURMUKHI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA3C, name: 'GURMUKHI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_SIGN_NUKTA = "\u{A3C}";
 
-    #[Info(id: 2622, name: 'GURMUKHI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA3E, name: 'GURMUKHI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case GURMUKHI_VOWEL_SIGN_AA = "\u{A3E}";
 
-    #[Info(id: 2623, name: 'GURMUKHI VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA3F, name: 'GURMUKHI VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case GURMUKHI_VOWEL_SIGN_I = "\u{A3F}";
 
-    #[Info(id: 2624, name: 'GURMUKHI VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA40, name: 'GURMUKHI VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case GURMUKHI_VOWEL_SIGN_II = "\u{A40}";
 
-    #[Info(id: 2625, name: 'GURMUKHI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA41, name: 'GURMUKHI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_VOWEL_SIGN_U = "\u{A41}";
 
-    #[Info(id: 2626, name: 'GURMUKHI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA42, name: 'GURMUKHI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_VOWEL_SIGN_UU = "\u{A42}";
 
-    #[Info(id: 2631, name: 'GURMUKHI VOWEL SIGN EE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA47, name: 'GURMUKHI VOWEL SIGN EE', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_VOWEL_SIGN_EE = "\u{A47}";
 
-    #[Info(id: 2632, name: 'GURMUKHI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA48, name: 'GURMUKHI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_VOWEL_SIGN_AI = "\u{A48}";
 
-    #[Info(id: 2635, name: 'GURMUKHI VOWEL SIGN OO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA4B, name: 'GURMUKHI VOWEL SIGN OO', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_VOWEL_SIGN_OO = "\u{A4B}";
 
-    #[Info(id: 2636, name: 'GURMUKHI VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA4C, name: 'GURMUKHI VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_VOWEL_SIGN_AU = "\u{A4C}";
 
-    #[Info(id: 2637, name: 'GURMUKHI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA4D, name: 'GURMUKHI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_SIGN_VIRAMA = "\u{A4D}";
 
-    #[Info(id: 2641, name: 'GURMUKHI SIGN UDAAT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA51, name: 'GURMUKHI SIGN UDAAT', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_SIGN_UDAAT = "\u{A51}";
 
-    #[Info(id: 2649, name: 'GURMUKHI LETTER KHHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA59, name: 'GURMUKHI LETTER KHHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_KHHA = "\u{A59}";
 
-    #[Info(id: 2650, name: 'GURMUKHI LETTER GHHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5A, name: 'GURMUKHI LETTER GHHA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_GHHA = "\u{A5A}";
 
-    #[Info(id: 2651, name: 'GURMUKHI LETTER ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5B, name: 'GURMUKHI LETTER ZA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_ZA = "\u{A5B}";
 
-    #[Info(id: 2652, name: 'GURMUKHI LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5C, name: 'GURMUKHI LETTER RRA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_RRA = "\u{A5C}";
 
-    #[Info(id: 2654, name: 'GURMUKHI LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5E, name: 'GURMUKHI LETTER FA', category: Cat::Other_Letter)]
     case GURMUKHI_LETTER_FA = "\u{A5E}";
 
-    #[Info(id: 2662, name: 'GURMUKHI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA66, name: 'GURMUKHI DIGIT ZERO', category: Cat::Decimal_Number)]
     case GURMUKHI_DIGIT_ZERO = "\u{A66}";
 
-    #[Info(id: 2663, name: 'GURMUKHI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA67, name: 'GURMUKHI DIGIT ONE', category: Cat::Decimal_Number)]
     case GURMUKHI_DIGIT_ONE = "\u{A67}";
 
-    #[Info(id: 2664, name: 'GURMUKHI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA68, name: 'GURMUKHI DIGIT TWO', category: Cat::Decimal_Number)]
     case GURMUKHI_DIGIT_TWO = "\u{A68}";
 
-    #[Info(id: 2665, name: 'GURMUKHI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA69, name: 'GURMUKHI DIGIT THREE', category: Cat::Decimal_Number)]
     case GURMUKHI_DIGIT_THREE = "\u{A69}";
 
-    #[Info(id: 2666, name: 'GURMUKHI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA6A, name: 'GURMUKHI DIGIT FOUR', category: Cat::Decimal_Number)]
     case GURMUKHI_DIGIT_FOUR = "\u{A6A}";
 
-    #[Info(id: 2667, name: 'GURMUKHI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA6B, name: 'GURMUKHI DIGIT FIVE', category: Cat::Decimal_Number)]
     case GURMUKHI_DIGIT_FIVE = "\u{A6B}";
 
-    #[Info(id: 2668, name: 'GURMUKHI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA6C, name: 'GURMUKHI DIGIT SIX', category: Cat::Decimal_Number)]
     case GURMUKHI_DIGIT_SIX = "\u{A6C}";
 
-    #[Info(id: 2669, name: 'GURMUKHI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA6D, name: 'GURMUKHI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case GURMUKHI_DIGIT_SEVEN = "\u{A6D}";
 
-    #[Info(id: 2670, name: 'GURMUKHI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA6E, name: 'GURMUKHI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case GURMUKHI_DIGIT_EIGHT = "\u{A6E}";
 
-    #[Info(id: 2671, name: 'GURMUKHI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA6F, name: 'GURMUKHI DIGIT NINE', category: Cat::Decimal_Number)]
     case GURMUKHI_DIGIT_NINE = "\u{A6F}";
 
-    #[Info(id: 2672, name: 'GURMUKHI TIPPI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA70, name: 'GURMUKHI TIPPI', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_TIPPI = "\u{A70}";
 
-    #[Info(id: 2673, name: 'GURMUKHI ADDAK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA71, name: 'GURMUKHI ADDAK', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_ADDAK = "\u{A71}";
 
-    #[Info(id: 2674, name: 'GURMUKHI IRI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA72, name: 'GURMUKHI IRI', category: Cat::Other_Letter)]
     case GURMUKHI_IRI = "\u{A72}";
 
-    #[Info(id: 2675, name: 'GURMUKHI URA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA73, name: 'GURMUKHI URA', category: Cat::Other_Letter)]
     case GURMUKHI_URA = "\u{A73}";
 
-    #[Info(id: 2676, name: 'GURMUKHI EK ONKAR', category: Cat::Other_Letter)]
+    #[Info(id: 0xA74, name: 'GURMUKHI EK ONKAR', category: Cat::Other_Letter)]
     case GURMUKHI_EK_ONKAR = "\u{A74}";
 
-    #[Info(id: 2677, name: 'GURMUKHI SIGN YAKASH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA75, name: 'GURMUKHI SIGN YAKASH', category: Cat::Nonspacing_Mark)]
     case GURMUKHI_SIGN_YAKASH = "\u{A75}";
 
-    #[Info(id: 2678, name: 'GURMUKHI ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA76, name: 'GURMUKHI ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
     case GURMUKHI_ABBREVIATION_SIGN = "\u{A76}";
 }

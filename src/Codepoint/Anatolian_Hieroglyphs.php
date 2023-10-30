@@ -16,1752 +16,1752 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Anatolian_Hieroglyphs: string
 {
-    #[Info(id: 82944, name: 'ANATOLIAN HIEROGLYPH A001', category: Cat::Other_Letter)]
+    #[Info(id: 0x14400, name: 'ANATOLIAN HIEROGLYPH A001', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A001 = "\u{14400}";
 
-    #[Info(id: 82945, name: 'ANATOLIAN HIEROGLYPH A002', category: Cat::Other_Letter)]
+    #[Info(id: 0x14401, name: 'ANATOLIAN HIEROGLYPH A002', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A002 = "\u{14401}";
 
-    #[Info(id: 82946, name: 'ANATOLIAN HIEROGLYPH A003', category: Cat::Other_Letter)]
+    #[Info(id: 0x14402, name: 'ANATOLIAN HIEROGLYPH A003', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A003 = "\u{14402}";
 
-    #[Info(id: 82947, name: 'ANATOLIAN HIEROGLYPH A004', category: Cat::Other_Letter)]
+    #[Info(id: 0x14403, name: 'ANATOLIAN HIEROGLYPH A004', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A004 = "\u{14403}";
 
-    #[Info(id: 82948, name: 'ANATOLIAN HIEROGLYPH A005', category: Cat::Other_Letter)]
+    #[Info(id: 0x14404, name: 'ANATOLIAN HIEROGLYPH A005', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A005 = "\u{14404}";
 
-    #[Info(id: 82949, name: 'ANATOLIAN HIEROGLYPH A006', category: Cat::Other_Letter)]
+    #[Info(id: 0x14405, name: 'ANATOLIAN HIEROGLYPH A006', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A006 = "\u{14405}";
 
-    #[Info(id: 82950, name: 'ANATOLIAN HIEROGLYPH A007', category: Cat::Other_Letter)]
+    #[Info(id: 0x14406, name: 'ANATOLIAN HIEROGLYPH A007', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A007 = "\u{14406}";
 
-    #[Info(id: 82951, name: 'ANATOLIAN HIEROGLYPH A008', category: Cat::Other_Letter)]
+    #[Info(id: 0x14407, name: 'ANATOLIAN HIEROGLYPH A008', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A008 = "\u{14407}";
 
-    #[Info(id: 82952, name: 'ANATOLIAN HIEROGLYPH A009', category: Cat::Other_Letter)]
+    #[Info(id: 0x14408, name: 'ANATOLIAN HIEROGLYPH A009', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A009 = "\u{14408}";
 
-    #[Info(id: 82953, name: 'ANATOLIAN HIEROGLYPH A010', category: Cat::Other_Letter)]
+    #[Info(id: 0x14409, name: 'ANATOLIAN HIEROGLYPH A010', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A010 = "\u{14409}";
 
-    #[Info(id: 82954, name: 'ANATOLIAN HIEROGLYPH A010A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1440A, name: 'ANATOLIAN HIEROGLYPH A010A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A010A = "\u{1440A}";
 
-    #[Info(id: 82955, name: 'ANATOLIAN HIEROGLYPH A011', category: Cat::Other_Letter)]
+    #[Info(id: 0x1440B, name: 'ANATOLIAN HIEROGLYPH A011', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A011 = "\u{1440B}";
 
-    #[Info(id: 82956, name: 'ANATOLIAN HIEROGLYPH A012', category: Cat::Other_Letter)]
+    #[Info(id: 0x1440C, name: 'ANATOLIAN HIEROGLYPH A012', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A012 = "\u{1440C}";
 
-    #[Info(id: 82957, name: 'ANATOLIAN HIEROGLYPH A013', category: Cat::Other_Letter)]
+    #[Info(id: 0x1440D, name: 'ANATOLIAN HIEROGLYPH A013', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A013 = "\u{1440D}";
 
-    #[Info(id: 82958, name: 'ANATOLIAN HIEROGLYPH A014', category: Cat::Other_Letter)]
+    #[Info(id: 0x1440E, name: 'ANATOLIAN HIEROGLYPH A014', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A014 = "\u{1440E}";
 
-    #[Info(id: 82959, name: 'ANATOLIAN HIEROGLYPH A015', category: Cat::Other_Letter)]
+    #[Info(id: 0x1440F, name: 'ANATOLIAN HIEROGLYPH A015', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A015 = "\u{1440F}";
 
-    #[Info(id: 82960, name: 'ANATOLIAN HIEROGLYPH A016', category: Cat::Other_Letter)]
+    #[Info(id: 0x14410, name: 'ANATOLIAN HIEROGLYPH A016', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A016 = "\u{14410}";
 
-    #[Info(id: 82961, name: 'ANATOLIAN HIEROGLYPH A017', category: Cat::Other_Letter)]
+    #[Info(id: 0x14411, name: 'ANATOLIAN HIEROGLYPH A017', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A017 = "\u{14411}";
 
-    #[Info(id: 82962, name: 'ANATOLIAN HIEROGLYPH A018', category: Cat::Other_Letter)]
+    #[Info(id: 0x14412, name: 'ANATOLIAN HIEROGLYPH A018', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A018 = "\u{14412}";
 
-    #[Info(id: 82963, name: 'ANATOLIAN HIEROGLYPH A019', category: Cat::Other_Letter)]
+    #[Info(id: 0x14413, name: 'ANATOLIAN HIEROGLYPH A019', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A019 = "\u{14413}";
 
-    #[Info(id: 82964, name: 'ANATOLIAN HIEROGLYPH A020', category: Cat::Other_Letter)]
+    #[Info(id: 0x14414, name: 'ANATOLIAN HIEROGLYPH A020', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A020 = "\u{14414}";
 
-    #[Info(id: 82965, name: 'ANATOLIAN HIEROGLYPH A021', category: Cat::Other_Letter)]
+    #[Info(id: 0x14415, name: 'ANATOLIAN HIEROGLYPH A021', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A021 = "\u{14415}";
 
-    #[Info(id: 82966, name: 'ANATOLIAN HIEROGLYPH A022', category: Cat::Other_Letter)]
+    #[Info(id: 0x14416, name: 'ANATOLIAN HIEROGLYPH A022', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A022 = "\u{14416}";
 
-    #[Info(id: 82967, name: 'ANATOLIAN HIEROGLYPH A023', category: Cat::Other_Letter)]
+    #[Info(id: 0x14417, name: 'ANATOLIAN HIEROGLYPH A023', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A023 = "\u{14417}";
 
-    #[Info(id: 82968, name: 'ANATOLIAN HIEROGLYPH A024', category: Cat::Other_Letter)]
+    #[Info(id: 0x14418, name: 'ANATOLIAN HIEROGLYPH A024', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A024 = "\u{14418}";
 
-    #[Info(id: 82969, name: 'ANATOLIAN HIEROGLYPH A025', category: Cat::Other_Letter)]
+    #[Info(id: 0x14419, name: 'ANATOLIAN HIEROGLYPH A025', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A025 = "\u{14419}";
 
-    #[Info(id: 82970, name: 'ANATOLIAN HIEROGLYPH A026', category: Cat::Other_Letter)]
+    #[Info(id: 0x1441A, name: 'ANATOLIAN HIEROGLYPH A026', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A026 = "\u{1441A}";
 
-    #[Info(id: 82971, name: 'ANATOLIAN HIEROGLYPH A026A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1441B, name: 'ANATOLIAN HIEROGLYPH A026A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A026A = "\u{1441B}";
 
-    #[Info(id: 82972, name: 'ANATOLIAN HIEROGLYPH A027', category: Cat::Other_Letter)]
+    #[Info(id: 0x1441C, name: 'ANATOLIAN HIEROGLYPH A027', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A027 = "\u{1441C}";
 
-    #[Info(id: 82973, name: 'ANATOLIAN HIEROGLYPH A028', category: Cat::Other_Letter)]
+    #[Info(id: 0x1441D, name: 'ANATOLIAN HIEROGLYPH A028', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A028 = "\u{1441D}";
 
-    #[Info(id: 82974, name: 'ANATOLIAN HIEROGLYPH A029', category: Cat::Other_Letter)]
+    #[Info(id: 0x1441E, name: 'ANATOLIAN HIEROGLYPH A029', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A029 = "\u{1441E}";
 
-    #[Info(id: 82975, name: 'ANATOLIAN HIEROGLYPH A030', category: Cat::Other_Letter)]
+    #[Info(id: 0x1441F, name: 'ANATOLIAN HIEROGLYPH A030', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A030 = "\u{1441F}";
 
-    #[Info(id: 82976, name: 'ANATOLIAN HIEROGLYPH A031', category: Cat::Other_Letter)]
+    #[Info(id: 0x14420, name: 'ANATOLIAN HIEROGLYPH A031', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A031 = "\u{14420}";
 
-    #[Info(id: 82977, name: 'ANATOLIAN HIEROGLYPH A032', category: Cat::Other_Letter)]
+    #[Info(id: 0x14421, name: 'ANATOLIAN HIEROGLYPH A032', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A032 = "\u{14421}";
 
-    #[Info(id: 82978, name: 'ANATOLIAN HIEROGLYPH A033', category: Cat::Other_Letter)]
+    #[Info(id: 0x14422, name: 'ANATOLIAN HIEROGLYPH A033', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A033 = "\u{14422}";
 
-    #[Info(id: 82979, name: 'ANATOLIAN HIEROGLYPH A034', category: Cat::Other_Letter)]
+    #[Info(id: 0x14423, name: 'ANATOLIAN HIEROGLYPH A034', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A034 = "\u{14423}";
 
-    #[Info(id: 82980, name: 'ANATOLIAN HIEROGLYPH A035', category: Cat::Other_Letter)]
+    #[Info(id: 0x14424, name: 'ANATOLIAN HIEROGLYPH A035', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A035 = "\u{14424}";
 
-    #[Info(id: 82981, name: 'ANATOLIAN HIEROGLYPH A036', category: Cat::Other_Letter)]
+    #[Info(id: 0x14425, name: 'ANATOLIAN HIEROGLYPH A036', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A036 = "\u{14425}";
 
-    #[Info(id: 82982, name: 'ANATOLIAN HIEROGLYPH A037', category: Cat::Other_Letter)]
+    #[Info(id: 0x14426, name: 'ANATOLIAN HIEROGLYPH A037', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A037 = "\u{14426}";
 
-    #[Info(id: 82983, name: 'ANATOLIAN HIEROGLYPH A038', category: Cat::Other_Letter)]
+    #[Info(id: 0x14427, name: 'ANATOLIAN HIEROGLYPH A038', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A038 = "\u{14427}";
 
-    #[Info(id: 82984, name: 'ANATOLIAN HIEROGLYPH A039', category: Cat::Other_Letter)]
+    #[Info(id: 0x14428, name: 'ANATOLIAN HIEROGLYPH A039', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A039 = "\u{14428}";
 
-    #[Info(id: 82985, name: 'ANATOLIAN HIEROGLYPH A039A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14429, name: 'ANATOLIAN HIEROGLYPH A039A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A039A = "\u{14429}";
 
-    #[Info(id: 82986, name: 'ANATOLIAN HIEROGLYPH A040', category: Cat::Other_Letter)]
+    #[Info(id: 0x1442A, name: 'ANATOLIAN HIEROGLYPH A040', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A040 = "\u{1442A}";
 
-    #[Info(id: 82987, name: 'ANATOLIAN HIEROGLYPH A041', category: Cat::Other_Letter)]
+    #[Info(id: 0x1442B, name: 'ANATOLIAN HIEROGLYPH A041', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A041 = "\u{1442B}";
 
-    #[Info(id: 82988, name: 'ANATOLIAN HIEROGLYPH A041A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1442C, name: 'ANATOLIAN HIEROGLYPH A041A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A041A = "\u{1442C}";
 
-    #[Info(id: 82989, name: 'ANATOLIAN HIEROGLYPH A042', category: Cat::Other_Letter)]
+    #[Info(id: 0x1442D, name: 'ANATOLIAN HIEROGLYPH A042', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A042 = "\u{1442D}";
 
-    #[Info(id: 82990, name: 'ANATOLIAN HIEROGLYPH A043', category: Cat::Other_Letter)]
+    #[Info(id: 0x1442E, name: 'ANATOLIAN HIEROGLYPH A043', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A043 = "\u{1442E}";
 
-    #[Info(id: 82991, name: 'ANATOLIAN HIEROGLYPH A044', category: Cat::Other_Letter)]
+    #[Info(id: 0x1442F, name: 'ANATOLIAN HIEROGLYPH A044', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A044 = "\u{1442F}";
 
-    #[Info(id: 82992, name: 'ANATOLIAN HIEROGLYPH A045', category: Cat::Other_Letter)]
+    #[Info(id: 0x14430, name: 'ANATOLIAN HIEROGLYPH A045', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A045 = "\u{14430}";
 
-    #[Info(id: 82993, name: 'ANATOLIAN HIEROGLYPH A045A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14431, name: 'ANATOLIAN HIEROGLYPH A045A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A045A = "\u{14431}";
 
-    #[Info(id: 82994, name: 'ANATOLIAN HIEROGLYPH A046', category: Cat::Other_Letter)]
+    #[Info(id: 0x14432, name: 'ANATOLIAN HIEROGLYPH A046', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A046 = "\u{14432}";
 
-    #[Info(id: 82995, name: 'ANATOLIAN HIEROGLYPH A046A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14433, name: 'ANATOLIAN HIEROGLYPH A046A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A046A = "\u{14433}";
 
-    #[Info(id: 82996, name: 'ANATOLIAN HIEROGLYPH A046B', category: Cat::Other_Letter)]
+    #[Info(id: 0x14434, name: 'ANATOLIAN HIEROGLYPH A046B', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A046B = "\u{14434}";
 
-    #[Info(id: 82997, name: 'ANATOLIAN HIEROGLYPH A047', category: Cat::Other_Letter)]
+    #[Info(id: 0x14435, name: 'ANATOLIAN HIEROGLYPH A047', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A047 = "\u{14435}";
 
-    #[Info(id: 82998, name: 'ANATOLIAN HIEROGLYPH A048', category: Cat::Other_Letter)]
+    #[Info(id: 0x14436, name: 'ANATOLIAN HIEROGLYPH A048', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A048 = "\u{14436}";
 
-    #[Info(id: 82999, name: 'ANATOLIAN HIEROGLYPH A049', category: Cat::Other_Letter)]
+    #[Info(id: 0x14437, name: 'ANATOLIAN HIEROGLYPH A049', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A049 = "\u{14437}";
 
-    #[Info(id: 83000, name: 'ANATOLIAN HIEROGLYPH A050', category: Cat::Other_Letter)]
+    #[Info(id: 0x14438, name: 'ANATOLIAN HIEROGLYPH A050', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A050 = "\u{14438}";
 
-    #[Info(id: 83001, name: 'ANATOLIAN HIEROGLYPH A051', category: Cat::Other_Letter)]
+    #[Info(id: 0x14439, name: 'ANATOLIAN HIEROGLYPH A051', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A051 = "\u{14439}";
 
-    #[Info(id: 83002, name: 'ANATOLIAN HIEROGLYPH A052', category: Cat::Other_Letter)]
+    #[Info(id: 0x1443A, name: 'ANATOLIAN HIEROGLYPH A052', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A052 = "\u{1443A}";
 
-    #[Info(id: 83003, name: 'ANATOLIAN HIEROGLYPH A053', category: Cat::Other_Letter)]
+    #[Info(id: 0x1443B, name: 'ANATOLIAN HIEROGLYPH A053', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A053 = "\u{1443B}";
 
-    #[Info(id: 83004, name: 'ANATOLIAN HIEROGLYPH A054', category: Cat::Other_Letter)]
+    #[Info(id: 0x1443C, name: 'ANATOLIAN HIEROGLYPH A054', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A054 = "\u{1443C}";
 
-    #[Info(id: 83005, name: 'ANATOLIAN HIEROGLYPH A055', category: Cat::Other_Letter)]
+    #[Info(id: 0x1443D, name: 'ANATOLIAN HIEROGLYPH A055', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A055 = "\u{1443D}";
 
-    #[Info(id: 83006, name: 'ANATOLIAN HIEROGLYPH A056', category: Cat::Other_Letter)]
+    #[Info(id: 0x1443E, name: 'ANATOLIAN HIEROGLYPH A056', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A056 = "\u{1443E}";
 
-    #[Info(id: 83007, name: 'ANATOLIAN HIEROGLYPH A057', category: Cat::Other_Letter)]
+    #[Info(id: 0x1443F, name: 'ANATOLIAN HIEROGLYPH A057', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A057 = "\u{1443F}";
 
-    #[Info(id: 83008, name: 'ANATOLIAN HIEROGLYPH A058', category: Cat::Other_Letter)]
+    #[Info(id: 0x14440, name: 'ANATOLIAN HIEROGLYPH A058', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A058 = "\u{14440}";
 
-    #[Info(id: 83009, name: 'ANATOLIAN HIEROGLYPH A059', category: Cat::Other_Letter)]
+    #[Info(id: 0x14441, name: 'ANATOLIAN HIEROGLYPH A059', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A059 = "\u{14441}";
 
-    #[Info(id: 83010, name: 'ANATOLIAN HIEROGLYPH A060', category: Cat::Other_Letter)]
+    #[Info(id: 0x14442, name: 'ANATOLIAN HIEROGLYPH A060', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A060 = "\u{14442}";
 
-    #[Info(id: 83011, name: 'ANATOLIAN HIEROGLYPH A061', category: Cat::Other_Letter)]
+    #[Info(id: 0x14443, name: 'ANATOLIAN HIEROGLYPH A061', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A061 = "\u{14443}";
 
-    #[Info(id: 83012, name: 'ANATOLIAN HIEROGLYPH A062', category: Cat::Other_Letter)]
+    #[Info(id: 0x14444, name: 'ANATOLIAN HIEROGLYPH A062', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A062 = "\u{14444}";
 
-    #[Info(id: 83013, name: 'ANATOLIAN HIEROGLYPH A063', category: Cat::Other_Letter)]
+    #[Info(id: 0x14445, name: 'ANATOLIAN HIEROGLYPH A063', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A063 = "\u{14445}";
 
-    #[Info(id: 83014, name: 'ANATOLIAN HIEROGLYPH A064', category: Cat::Other_Letter)]
+    #[Info(id: 0x14446, name: 'ANATOLIAN HIEROGLYPH A064', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A064 = "\u{14446}";
 
-    #[Info(id: 83015, name: 'ANATOLIAN HIEROGLYPH A065', category: Cat::Other_Letter)]
+    #[Info(id: 0x14447, name: 'ANATOLIAN HIEROGLYPH A065', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A065 = "\u{14447}";
 
-    #[Info(id: 83016, name: 'ANATOLIAN HIEROGLYPH A066', category: Cat::Other_Letter)]
+    #[Info(id: 0x14448, name: 'ANATOLIAN HIEROGLYPH A066', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A066 = "\u{14448}";
 
-    #[Info(id: 83017, name: 'ANATOLIAN HIEROGLYPH A066A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14449, name: 'ANATOLIAN HIEROGLYPH A066A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A066A = "\u{14449}";
 
-    #[Info(id: 83018, name: 'ANATOLIAN HIEROGLYPH A066B', category: Cat::Other_Letter)]
+    #[Info(id: 0x1444A, name: 'ANATOLIAN HIEROGLYPH A066B', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A066B = "\u{1444A}";
 
-    #[Info(id: 83019, name: 'ANATOLIAN HIEROGLYPH A066C', category: Cat::Other_Letter)]
+    #[Info(id: 0x1444B, name: 'ANATOLIAN HIEROGLYPH A066C', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A066C = "\u{1444B}";
 
-    #[Info(id: 83020, name: 'ANATOLIAN HIEROGLYPH A067', category: Cat::Other_Letter)]
+    #[Info(id: 0x1444C, name: 'ANATOLIAN HIEROGLYPH A067', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A067 = "\u{1444C}";
 
-    #[Info(id: 83021, name: 'ANATOLIAN HIEROGLYPH A068', category: Cat::Other_Letter)]
+    #[Info(id: 0x1444D, name: 'ANATOLIAN HIEROGLYPH A068', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A068 = "\u{1444D}";
 
-    #[Info(id: 83022, name: 'ANATOLIAN HIEROGLYPH A069', category: Cat::Other_Letter)]
+    #[Info(id: 0x1444E, name: 'ANATOLIAN HIEROGLYPH A069', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A069 = "\u{1444E}";
 
-    #[Info(id: 83023, name: 'ANATOLIAN HIEROGLYPH A070', category: Cat::Other_Letter)]
+    #[Info(id: 0x1444F, name: 'ANATOLIAN HIEROGLYPH A070', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A070 = "\u{1444F}";
 
-    #[Info(id: 83024, name: 'ANATOLIAN HIEROGLYPH A071', category: Cat::Other_Letter)]
+    #[Info(id: 0x14450, name: 'ANATOLIAN HIEROGLYPH A071', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A071 = "\u{14450}";
 
-    #[Info(id: 83025, name: 'ANATOLIAN HIEROGLYPH A072', category: Cat::Other_Letter)]
+    #[Info(id: 0x14451, name: 'ANATOLIAN HIEROGLYPH A072', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A072 = "\u{14451}";
 
-    #[Info(id: 83026, name: 'ANATOLIAN HIEROGLYPH A073', category: Cat::Other_Letter)]
+    #[Info(id: 0x14452, name: 'ANATOLIAN HIEROGLYPH A073', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A073 = "\u{14452}";
 
-    #[Info(id: 83027, name: 'ANATOLIAN HIEROGLYPH A074', category: Cat::Other_Letter)]
+    #[Info(id: 0x14453, name: 'ANATOLIAN HIEROGLYPH A074', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A074 = "\u{14453}";
 
-    #[Info(id: 83028, name: 'ANATOLIAN HIEROGLYPH A075', category: Cat::Other_Letter)]
+    #[Info(id: 0x14454, name: 'ANATOLIAN HIEROGLYPH A075', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A075 = "\u{14454}";
 
-    #[Info(id: 83029, name: 'ANATOLIAN HIEROGLYPH A076', category: Cat::Other_Letter)]
+    #[Info(id: 0x14455, name: 'ANATOLIAN HIEROGLYPH A076', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A076 = "\u{14455}";
 
-    #[Info(id: 83030, name: 'ANATOLIAN HIEROGLYPH A077', category: Cat::Other_Letter)]
+    #[Info(id: 0x14456, name: 'ANATOLIAN HIEROGLYPH A077', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A077 = "\u{14456}";
 
-    #[Info(id: 83031, name: 'ANATOLIAN HIEROGLYPH A078', category: Cat::Other_Letter)]
+    #[Info(id: 0x14457, name: 'ANATOLIAN HIEROGLYPH A078', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A078 = "\u{14457}";
 
-    #[Info(id: 83032, name: 'ANATOLIAN HIEROGLYPH A079', category: Cat::Other_Letter)]
+    #[Info(id: 0x14458, name: 'ANATOLIAN HIEROGLYPH A079', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A079 = "\u{14458}";
 
-    #[Info(id: 83033, name: 'ANATOLIAN HIEROGLYPH A080', category: Cat::Other_Letter)]
+    #[Info(id: 0x14459, name: 'ANATOLIAN HIEROGLYPH A080', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A080 = "\u{14459}";
 
-    #[Info(id: 83034, name: 'ANATOLIAN HIEROGLYPH A081', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445A, name: 'ANATOLIAN HIEROGLYPH A081', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A081 = "\u{1445A}";
 
-    #[Info(id: 83035, name: 'ANATOLIAN HIEROGLYPH A082', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445B, name: 'ANATOLIAN HIEROGLYPH A082', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A082 = "\u{1445B}";
 
-    #[Info(id: 83036, name: 'ANATOLIAN HIEROGLYPH A083', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445C, name: 'ANATOLIAN HIEROGLYPH A083', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A083 = "\u{1445C}";
 
-    #[Info(id: 83037, name: 'ANATOLIAN HIEROGLYPH A084', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445D, name: 'ANATOLIAN HIEROGLYPH A084', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A084 = "\u{1445D}";
 
-    #[Info(id: 83038, name: 'ANATOLIAN HIEROGLYPH A085', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445E, name: 'ANATOLIAN HIEROGLYPH A085', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A085 = "\u{1445E}";
 
-    #[Info(id: 83039, name: 'ANATOLIAN HIEROGLYPH A086', category: Cat::Other_Letter)]
+    #[Info(id: 0x1445F, name: 'ANATOLIAN HIEROGLYPH A086', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A086 = "\u{1445F}";
 
-    #[Info(id: 83040, name: 'ANATOLIAN HIEROGLYPH A087', category: Cat::Other_Letter)]
+    #[Info(id: 0x14460, name: 'ANATOLIAN HIEROGLYPH A087', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A087 = "\u{14460}";
 
-    #[Info(id: 83041, name: 'ANATOLIAN HIEROGLYPH A088', category: Cat::Other_Letter)]
+    #[Info(id: 0x14461, name: 'ANATOLIAN HIEROGLYPH A088', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A088 = "\u{14461}";
 
-    #[Info(id: 83042, name: 'ANATOLIAN HIEROGLYPH A089', category: Cat::Other_Letter)]
+    #[Info(id: 0x14462, name: 'ANATOLIAN HIEROGLYPH A089', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A089 = "\u{14462}";
 
-    #[Info(id: 83043, name: 'ANATOLIAN HIEROGLYPH A090', category: Cat::Other_Letter)]
+    #[Info(id: 0x14463, name: 'ANATOLIAN HIEROGLYPH A090', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A090 = "\u{14463}";
 
-    #[Info(id: 83044, name: 'ANATOLIAN HIEROGLYPH A091', category: Cat::Other_Letter)]
+    #[Info(id: 0x14464, name: 'ANATOLIAN HIEROGLYPH A091', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A091 = "\u{14464}";
 
-    #[Info(id: 83045, name: 'ANATOLIAN HIEROGLYPH A092', category: Cat::Other_Letter)]
+    #[Info(id: 0x14465, name: 'ANATOLIAN HIEROGLYPH A092', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A092 = "\u{14465}";
 
-    #[Info(id: 83046, name: 'ANATOLIAN HIEROGLYPH A093', category: Cat::Other_Letter)]
+    #[Info(id: 0x14466, name: 'ANATOLIAN HIEROGLYPH A093', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A093 = "\u{14466}";
 
-    #[Info(id: 83047, name: 'ANATOLIAN HIEROGLYPH A094', category: Cat::Other_Letter)]
+    #[Info(id: 0x14467, name: 'ANATOLIAN HIEROGLYPH A094', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A094 = "\u{14467}";
 
-    #[Info(id: 83048, name: 'ANATOLIAN HIEROGLYPH A095', category: Cat::Other_Letter)]
+    #[Info(id: 0x14468, name: 'ANATOLIAN HIEROGLYPH A095', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A095 = "\u{14468}";
 
-    #[Info(id: 83049, name: 'ANATOLIAN HIEROGLYPH A096', category: Cat::Other_Letter)]
+    #[Info(id: 0x14469, name: 'ANATOLIAN HIEROGLYPH A096', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A096 = "\u{14469}";
 
-    #[Info(id: 83050, name: 'ANATOLIAN HIEROGLYPH A097', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446A, name: 'ANATOLIAN HIEROGLYPH A097', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A097 = "\u{1446A}";
 
-    #[Info(id: 83051, name: 'ANATOLIAN HIEROGLYPH A097A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446B, name: 'ANATOLIAN HIEROGLYPH A097A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A097A = "\u{1446B}";
 
-    #[Info(id: 83052, name: 'ANATOLIAN HIEROGLYPH A098', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446C, name: 'ANATOLIAN HIEROGLYPH A098', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A098 = "\u{1446C}";
 
-    #[Info(id: 83053, name: 'ANATOLIAN HIEROGLYPH A098A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446D, name: 'ANATOLIAN HIEROGLYPH A098A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A098A = "\u{1446D}";
 
-    #[Info(id: 83054, name: 'ANATOLIAN HIEROGLYPH A099', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446E, name: 'ANATOLIAN HIEROGLYPH A099', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A099 = "\u{1446E}";
 
-    #[Info(id: 83055, name: 'ANATOLIAN HIEROGLYPH A100', category: Cat::Other_Letter)]
+    #[Info(id: 0x1446F, name: 'ANATOLIAN HIEROGLYPH A100', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A100 = "\u{1446F}";
 
-    #[Info(id: 83056, name: 'ANATOLIAN HIEROGLYPH A100A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14470, name: 'ANATOLIAN HIEROGLYPH A100A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A100A = "\u{14470}";
 
-    #[Info(id: 83057, name: 'ANATOLIAN HIEROGLYPH A101', category: Cat::Other_Letter)]
+    #[Info(id: 0x14471, name: 'ANATOLIAN HIEROGLYPH A101', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A101 = "\u{14471}";
 
-    #[Info(id: 83058, name: 'ANATOLIAN HIEROGLYPH A101A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14472, name: 'ANATOLIAN HIEROGLYPH A101A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A101A = "\u{14472}";
 
-    #[Info(id: 83059, name: 'ANATOLIAN HIEROGLYPH A102', category: Cat::Other_Letter)]
+    #[Info(id: 0x14473, name: 'ANATOLIAN HIEROGLYPH A102', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A102 = "\u{14473}";
 
-    #[Info(id: 83060, name: 'ANATOLIAN HIEROGLYPH A102A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14474, name: 'ANATOLIAN HIEROGLYPH A102A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A102A = "\u{14474}";
 
-    #[Info(id: 83061, name: 'ANATOLIAN HIEROGLYPH A103', category: Cat::Other_Letter)]
+    #[Info(id: 0x14475, name: 'ANATOLIAN HIEROGLYPH A103', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A103 = "\u{14475}";
 
-    #[Info(id: 83062, name: 'ANATOLIAN HIEROGLYPH A104', category: Cat::Other_Letter)]
+    #[Info(id: 0x14476, name: 'ANATOLIAN HIEROGLYPH A104', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A104 = "\u{14476}";
 
-    #[Info(id: 83063, name: 'ANATOLIAN HIEROGLYPH A104A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14477, name: 'ANATOLIAN HIEROGLYPH A104A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A104A = "\u{14477}";
 
-    #[Info(id: 83064, name: 'ANATOLIAN HIEROGLYPH A104B', category: Cat::Other_Letter)]
+    #[Info(id: 0x14478, name: 'ANATOLIAN HIEROGLYPH A104B', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A104B = "\u{14478}";
 
-    #[Info(id: 83065, name: 'ANATOLIAN HIEROGLYPH A104C', category: Cat::Other_Letter)]
+    #[Info(id: 0x14479, name: 'ANATOLIAN HIEROGLYPH A104C', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A104C = "\u{14479}";
 
-    #[Info(id: 83066, name: 'ANATOLIAN HIEROGLYPH A105', category: Cat::Other_Letter)]
+    #[Info(id: 0x1447A, name: 'ANATOLIAN HIEROGLYPH A105', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A105 = "\u{1447A}";
 
-    #[Info(id: 83067, name: 'ANATOLIAN HIEROGLYPH A105A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1447B, name: 'ANATOLIAN HIEROGLYPH A105A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A105A = "\u{1447B}";
 
-    #[Info(id: 83068, name: 'ANATOLIAN HIEROGLYPH A105B', category: Cat::Other_Letter)]
+    #[Info(id: 0x1447C, name: 'ANATOLIAN HIEROGLYPH A105B', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A105B = "\u{1447C}";
 
-    #[Info(id: 83069, name: 'ANATOLIAN HIEROGLYPH A106', category: Cat::Other_Letter)]
+    #[Info(id: 0x1447D, name: 'ANATOLIAN HIEROGLYPH A106', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A106 = "\u{1447D}";
 
-    #[Info(id: 83070, name: 'ANATOLIAN HIEROGLYPH A107', category: Cat::Other_Letter)]
+    #[Info(id: 0x1447E, name: 'ANATOLIAN HIEROGLYPH A107', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A107 = "\u{1447E}";
 
-    #[Info(id: 83071, name: 'ANATOLIAN HIEROGLYPH A107A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1447F, name: 'ANATOLIAN HIEROGLYPH A107A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A107A = "\u{1447F}";
 
-    #[Info(id: 83072, name: 'ANATOLIAN HIEROGLYPH A107B', category: Cat::Other_Letter)]
+    #[Info(id: 0x14480, name: 'ANATOLIAN HIEROGLYPH A107B', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A107B = "\u{14480}";
 
-    #[Info(id: 83073, name: 'ANATOLIAN HIEROGLYPH A107C', category: Cat::Other_Letter)]
+    #[Info(id: 0x14481, name: 'ANATOLIAN HIEROGLYPH A107C', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A107C = "\u{14481}";
 
-    #[Info(id: 83074, name: 'ANATOLIAN HIEROGLYPH A108', category: Cat::Other_Letter)]
+    #[Info(id: 0x14482, name: 'ANATOLIAN HIEROGLYPH A108', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A108 = "\u{14482}";
 
-    #[Info(id: 83075, name: 'ANATOLIAN HIEROGLYPH A109', category: Cat::Other_Letter)]
+    #[Info(id: 0x14483, name: 'ANATOLIAN HIEROGLYPH A109', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A109 = "\u{14483}";
 
-    #[Info(id: 83076, name: 'ANATOLIAN HIEROGLYPH A110', category: Cat::Other_Letter)]
+    #[Info(id: 0x14484, name: 'ANATOLIAN HIEROGLYPH A110', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A110 = "\u{14484}";
 
-    #[Info(id: 83077, name: 'ANATOLIAN HIEROGLYPH A110A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14485, name: 'ANATOLIAN HIEROGLYPH A110A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A110A = "\u{14485}";
 
-    #[Info(id: 83078, name: 'ANATOLIAN HIEROGLYPH A110B', category: Cat::Other_Letter)]
+    #[Info(id: 0x14486, name: 'ANATOLIAN HIEROGLYPH A110B', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A110B = "\u{14486}";
 
-    #[Info(id: 83079, name: 'ANATOLIAN HIEROGLYPH A111', category: Cat::Other_Letter)]
+    #[Info(id: 0x14487, name: 'ANATOLIAN HIEROGLYPH A111', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A111 = "\u{14487}";
 
-    #[Info(id: 83080, name: 'ANATOLIAN HIEROGLYPH A112', category: Cat::Other_Letter)]
+    #[Info(id: 0x14488, name: 'ANATOLIAN HIEROGLYPH A112', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A112 = "\u{14488}";
 
-    #[Info(id: 83081, name: 'ANATOLIAN HIEROGLYPH A113', category: Cat::Other_Letter)]
+    #[Info(id: 0x14489, name: 'ANATOLIAN HIEROGLYPH A113', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A113 = "\u{14489}";
 
-    #[Info(id: 83082, name: 'ANATOLIAN HIEROGLYPH A114', category: Cat::Other_Letter)]
+    #[Info(id: 0x1448A, name: 'ANATOLIAN HIEROGLYPH A114', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A114 = "\u{1448A}";
 
-    #[Info(id: 83083, name: 'ANATOLIAN HIEROGLYPH A115', category: Cat::Other_Letter)]
+    #[Info(id: 0x1448B, name: 'ANATOLIAN HIEROGLYPH A115', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A115 = "\u{1448B}";
 
-    #[Info(id: 83084, name: 'ANATOLIAN HIEROGLYPH A115A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1448C, name: 'ANATOLIAN HIEROGLYPH A115A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A115A = "\u{1448C}";
 
-    #[Info(id: 83085, name: 'ANATOLIAN HIEROGLYPH A116', category: Cat::Other_Letter)]
+    #[Info(id: 0x1448D, name: 'ANATOLIAN HIEROGLYPH A116', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A116 = "\u{1448D}";
 
-    #[Info(id: 83086, name: 'ANATOLIAN HIEROGLYPH A117', category: Cat::Other_Letter)]
+    #[Info(id: 0x1448E, name: 'ANATOLIAN HIEROGLYPH A117', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A117 = "\u{1448E}";
 
-    #[Info(id: 83087, name: 'ANATOLIAN HIEROGLYPH A118', category: Cat::Other_Letter)]
+    #[Info(id: 0x1448F, name: 'ANATOLIAN HIEROGLYPH A118', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A118 = "\u{1448F}";
 
-    #[Info(id: 83088, name: 'ANATOLIAN HIEROGLYPH A119', category: Cat::Other_Letter)]
+    #[Info(id: 0x14490, name: 'ANATOLIAN HIEROGLYPH A119', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A119 = "\u{14490}";
 
-    #[Info(id: 83089, name: 'ANATOLIAN HIEROGLYPH A120', category: Cat::Other_Letter)]
+    #[Info(id: 0x14491, name: 'ANATOLIAN HIEROGLYPH A120', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A120 = "\u{14491}";
 
-    #[Info(id: 83090, name: 'ANATOLIAN HIEROGLYPH A121', category: Cat::Other_Letter)]
+    #[Info(id: 0x14492, name: 'ANATOLIAN HIEROGLYPH A121', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A121 = "\u{14492}";
 
-    #[Info(id: 83091, name: 'ANATOLIAN HIEROGLYPH A122', category: Cat::Other_Letter)]
+    #[Info(id: 0x14493, name: 'ANATOLIAN HIEROGLYPH A122', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A122 = "\u{14493}";
 
-    #[Info(id: 83092, name: 'ANATOLIAN HIEROGLYPH A123', category: Cat::Other_Letter)]
+    #[Info(id: 0x14494, name: 'ANATOLIAN HIEROGLYPH A123', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A123 = "\u{14494}";
 
-    #[Info(id: 83093, name: 'ANATOLIAN HIEROGLYPH A124', category: Cat::Other_Letter)]
+    #[Info(id: 0x14495, name: 'ANATOLIAN HIEROGLYPH A124', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A124 = "\u{14495}";
 
-    #[Info(id: 83094, name: 'ANATOLIAN HIEROGLYPH A125', category: Cat::Other_Letter)]
+    #[Info(id: 0x14496, name: 'ANATOLIAN HIEROGLYPH A125', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A125 = "\u{14496}";
 
-    #[Info(id: 83095, name: 'ANATOLIAN HIEROGLYPH A125A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14497, name: 'ANATOLIAN HIEROGLYPH A125A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A125A = "\u{14497}";
 
-    #[Info(id: 83096, name: 'ANATOLIAN HIEROGLYPH A126', category: Cat::Other_Letter)]
+    #[Info(id: 0x14498, name: 'ANATOLIAN HIEROGLYPH A126', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A126 = "\u{14498}";
 
-    #[Info(id: 83097, name: 'ANATOLIAN HIEROGLYPH A127', category: Cat::Other_Letter)]
+    #[Info(id: 0x14499, name: 'ANATOLIAN HIEROGLYPH A127', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A127 = "\u{14499}";
 
-    #[Info(id: 83098, name: 'ANATOLIAN HIEROGLYPH A128', category: Cat::Other_Letter)]
+    #[Info(id: 0x1449A, name: 'ANATOLIAN HIEROGLYPH A128', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A128 = "\u{1449A}";
 
-    #[Info(id: 83099, name: 'ANATOLIAN HIEROGLYPH A129', category: Cat::Other_Letter)]
+    #[Info(id: 0x1449B, name: 'ANATOLIAN HIEROGLYPH A129', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A129 = "\u{1449B}";
 
-    #[Info(id: 83100, name: 'ANATOLIAN HIEROGLYPH A130', category: Cat::Other_Letter)]
+    #[Info(id: 0x1449C, name: 'ANATOLIAN HIEROGLYPH A130', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A130 = "\u{1449C}";
 
-    #[Info(id: 83101, name: 'ANATOLIAN HIEROGLYPH A131', category: Cat::Other_Letter)]
+    #[Info(id: 0x1449D, name: 'ANATOLIAN HIEROGLYPH A131', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A131 = "\u{1449D}";
 
-    #[Info(id: 83102, name: 'ANATOLIAN HIEROGLYPH A132', category: Cat::Other_Letter)]
+    #[Info(id: 0x1449E, name: 'ANATOLIAN HIEROGLYPH A132', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A132 = "\u{1449E}";
 
-    #[Info(id: 83103, name: 'ANATOLIAN HIEROGLYPH A133', category: Cat::Other_Letter)]
+    #[Info(id: 0x1449F, name: 'ANATOLIAN HIEROGLYPH A133', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A133 = "\u{1449F}";
 
-    #[Info(id: 83104, name: 'ANATOLIAN HIEROGLYPH A134', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A0, name: 'ANATOLIAN HIEROGLYPH A134', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A134 = "\u{144A0}";
 
-    #[Info(id: 83105, name: 'ANATOLIAN HIEROGLYPH A135', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A1, name: 'ANATOLIAN HIEROGLYPH A135', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A135 = "\u{144A1}";
 
-    #[Info(id: 83106, name: 'ANATOLIAN HIEROGLYPH A135A', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A2, name: 'ANATOLIAN HIEROGLYPH A135A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A135A = "\u{144A2}";
 
-    #[Info(id: 83107, name: 'ANATOLIAN HIEROGLYPH A136', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A3, name: 'ANATOLIAN HIEROGLYPH A136', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A136 = "\u{144A3}";
 
-    #[Info(id: 83108, name: 'ANATOLIAN HIEROGLYPH A137', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A4, name: 'ANATOLIAN HIEROGLYPH A137', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A137 = "\u{144A4}";
 
-    #[Info(id: 83109, name: 'ANATOLIAN HIEROGLYPH A138', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A5, name: 'ANATOLIAN HIEROGLYPH A138', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A138 = "\u{144A5}";
 
-    #[Info(id: 83110, name: 'ANATOLIAN HIEROGLYPH A139', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A6, name: 'ANATOLIAN HIEROGLYPH A139', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A139 = "\u{144A6}";
 
-    #[Info(id: 83111, name: 'ANATOLIAN HIEROGLYPH A140', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A7, name: 'ANATOLIAN HIEROGLYPH A140', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A140 = "\u{144A7}";
 
-    #[Info(id: 83112, name: 'ANATOLIAN HIEROGLYPH A141', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A8, name: 'ANATOLIAN HIEROGLYPH A141', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A141 = "\u{144A8}";
 
-    #[Info(id: 83113, name: 'ANATOLIAN HIEROGLYPH A142', category: Cat::Other_Letter)]
+    #[Info(id: 0x144A9, name: 'ANATOLIAN HIEROGLYPH A142', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A142 = "\u{144A9}";
 
-    #[Info(id: 83114, name: 'ANATOLIAN HIEROGLYPH A143', category: Cat::Other_Letter)]
+    #[Info(id: 0x144AA, name: 'ANATOLIAN HIEROGLYPH A143', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A143 = "\u{144AA}";
 
-    #[Info(id: 83115, name: 'ANATOLIAN HIEROGLYPH A144', category: Cat::Other_Letter)]
+    #[Info(id: 0x144AB, name: 'ANATOLIAN HIEROGLYPH A144', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A144 = "\u{144AB}";
 
-    #[Info(id: 83116, name: 'ANATOLIAN HIEROGLYPH A145', category: Cat::Other_Letter)]
+    #[Info(id: 0x144AC, name: 'ANATOLIAN HIEROGLYPH A145', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A145 = "\u{144AC}";
 
-    #[Info(id: 83117, name: 'ANATOLIAN HIEROGLYPH A146', category: Cat::Other_Letter)]
+    #[Info(id: 0x144AD, name: 'ANATOLIAN HIEROGLYPH A146', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A146 = "\u{144AD}";
 
-    #[Info(id: 83118, name: 'ANATOLIAN HIEROGLYPH A147', category: Cat::Other_Letter)]
+    #[Info(id: 0x144AE, name: 'ANATOLIAN HIEROGLYPH A147', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A147 = "\u{144AE}";
 
-    #[Info(id: 83119, name: 'ANATOLIAN HIEROGLYPH A148', category: Cat::Other_Letter)]
+    #[Info(id: 0x144AF, name: 'ANATOLIAN HIEROGLYPH A148', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A148 = "\u{144AF}";
 
-    #[Info(id: 83120, name: 'ANATOLIAN HIEROGLYPH A149', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B0, name: 'ANATOLIAN HIEROGLYPH A149', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A149 = "\u{144B0}";
 
-    #[Info(id: 83121, name: 'ANATOLIAN HIEROGLYPH A150', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B1, name: 'ANATOLIAN HIEROGLYPH A150', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A150 = "\u{144B1}";
 
-    #[Info(id: 83122, name: 'ANATOLIAN HIEROGLYPH A151', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B2, name: 'ANATOLIAN HIEROGLYPH A151', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A151 = "\u{144B2}";
 
-    #[Info(id: 83123, name: 'ANATOLIAN HIEROGLYPH A152', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B3, name: 'ANATOLIAN HIEROGLYPH A152', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A152 = "\u{144B3}";
 
-    #[Info(id: 83124, name: 'ANATOLIAN HIEROGLYPH A153', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B4, name: 'ANATOLIAN HIEROGLYPH A153', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A153 = "\u{144B4}";
 
-    #[Info(id: 83125, name: 'ANATOLIAN HIEROGLYPH A154', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B5, name: 'ANATOLIAN HIEROGLYPH A154', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A154 = "\u{144B5}";
 
-    #[Info(id: 83126, name: 'ANATOLIAN HIEROGLYPH A155', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B6, name: 'ANATOLIAN HIEROGLYPH A155', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A155 = "\u{144B6}";
 
-    #[Info(id: 83127, name: 'ANATOLIAN HIEROGLYPH A156', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B7, name: 'ANATOLIAN HIEROGLYPH A156', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A156 = "\u{144B7}";
 
-    #[Info(id: 83128, name: 'ANATOLIAN HIEROGLYPH A157', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B8, name: 'ANATOLIAN HIEROGLYPH A157', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A157 = "\u{144B8}";
 
-    #[Info(id: 83129, name: 'ANATOLIAN HIEROGLYPH A158', category: Cat::Other_Letter)]
+    #[Info(id: 0x144B9, name: 'ANATOLIAN HIEROGLYPH A158', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A158 = "\u{144B9}";
 
-    #[Info(id: 83130, name: 'ANATOLIAN HIEROGLYPH A159', category: Cat::Other_Letter)]
+    #[Info(id: 0x144BA, name: 'ANATOLIAN HIEROGLYPH A159', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A159 = "\u{144BA}";
 
-    #[Info(id: 83131, name: 'ANATOLIAN HIEROGLYPH A160', category: Cat::Other_Letter)]
+    #[Info(id: 0x144BB, name: 'ANATOLIAN HIEROGLYPH A160', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A160 = "\u{144BB}";
 
-    #[Info(id: 83132, name: 'ANATOLIAN HIEROGLYPH A161', category: Cat::Other_Letter)]
+    #[Info(id: 0x144BC, name: 'ANATOLIAN HIEROGLYPH A161', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A161 = "\u{144BC}";
 
-    #[Info(id: 83133, name: 'ANATOLIAN HIEROGLYPH A162', category: Cat::Other_Letter)]
+    #[Info(id: 0x144BD, name: 'ANATOLIAN HIEROGLYPH A162', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A162 = "\u{144BD}";
 
-    #[Info(id: 83134, name: 'ANATOLIAN HIEROGLYPH A163', category: Cat::Other_Letter)]
+    #[Info(id: 0x144BE, name: 'ANATOLIAN HIEROGLYPH A163', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A163 = "\u{144BE}";
 
-    #[Info(id: 83135, name: 'ANATOLIAN HIEROGLYPH A164', category: Cat::Other_Letter)]
+    #[Info(id: 0x144BF, name: 'ANATOLIAN HIEROGLYPH A164', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A164 = "\u{144BF}";
 
-    #[Info(id: 83136, name: 'ANATOLIAN HIEROGLYPH A165', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C0, name: 'ANATOLIAN HIEROGLYPH A165', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A165 = "\u{144C0}";
 
-    #[Info(id: 83137, name: 'ANATOLIAN HIEROGLYPH A166', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C1, name: 'ANATOLIAN HIEROGLYPH A166', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A166 = "\u{144C1}";
 
-    #[Info(id: 83138, name: 'ANATOLIAN HIEROGLYPH A167', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C2, name: 'ANATOLIAN HIEROGLYPH A167', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A167 = "\u{144C2}";
 
-    #[Info(id: 83139, name: 'ANATOLIAN HIEROGLYPH A168', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C3, name: 'ANATOLIAN HIEROGLYPH A168', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A168 = "\u{144C3}";
 
-    #[Info(id: 83140, name: 'ANATOLIAN HIEROGLYPH A169', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C4, name: 'ANATOLIAN HIEROGLYPH A169', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A169 = "\u{144C4}";
 
-    #[Info(id: 83141, name: 'ANATOLIAN HIEROGLYPH A170', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C5, name: 'ANATOLIAN HIEROGLYPH A170', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A170 = "\u{144C5}";
 
-    #[Info(id: 83142, name: 'ANATOLIAN HIEROGLYPH A171', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C6, name: 'ANATOLIAN HIEROGLYPH A171', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A171 = "\u{144C6}";
 
-    #[Info(id: 83143, name: 'ANATOLIAN HIEROGLYPH A172', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C7, name: 'ANATOLIAN HIEROGLYPH A172', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A172 = "\u{144C7}";
 
-    #[Info(id: 83144, name: 'ANATOLIAN HIEROGLYPH A173', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C8, name: 'ANATOLIAN HIEROGLYPH A173', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A173 = "\u{144C8}";
 
-    #[Info(id: 83145, name: 'ANATOLIAN HIEROGLYPH A174', category: Cat::Other_Letter)]
+    #[Info(id: 0x144C9, name: 'ANATOLIAN HIEROGLYPH A174', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A174 = "\u{144C9}";
 
-    #[Info(id: 83146, name: 'ANATOLIAN HIEROGLYPH A175', category: Cat::Other_Letter)]
+    #[Info(id: 0x144CA, name: 'ANATOLIAN HIEROGLYPH A175', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A175 = "\u{144CA}";
 
-    #[Info(id: 83147, name: 'ANATOLIAN HIEROGLYPH A176', category: Cat::Other_Letter)]
+    #[Info(id: 0x144CB, name: 'ANATOLIAN HIEROGLYPH A176', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A176 = "\u{144CB}";
 
-    #[Info(id: 83148, name: 'ANATOLIAN HIEROGLYPH A177', category: Cat::Other_Letter)]
+    #[Info(id: 0x144CC, name: 'ANATOLIAN HIEROGLYPH A177', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A177 = "\u{144CC}";
 
-    #[Info(id: 83149, name: 'ANATOLIAN HIEROGLYPH A178', category: Cat::Other_Letter)]
+    #[Info(id: 0x144CD, name: 'ANATOLIAN HIEROGLYPH A178', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A178 = "\u{144CD}";
 
-    #[Info(id: 83150, name: 'ANATOLIAN HIEROGLYPH A179', category: Cat::Other_Letter)]
+    #[Info(id: 0x144CE, name: 'ANATOLIAN HIEROGLYPH A179', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A179 = "\u{144CE}";
 
-    #[Info(id: 83151, name: 'ANATOLIAN HIEROGLYPH A180', category: Cat::Other_Letter)]
+    #[Info(id: 0x144CF, name: 'ANATOLIAN HIEROGLYPH A180', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A180 = "\u{144CF}";
 
-    #[Info(id: 83152, name: 'ANATOLIAN HIEROGLYPH A181', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D0, name: 'ANATOLIAN HIEROGLYPH A181', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A181 = "\u{144D0}";
 
-    #[Info(id: 83153, name: 'ANATOLIAN HIEROGLYPH A182', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D1, name: 'ANATOLIAN HIEROGLYPH A182', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A182 = "\u{144D1}";
 
-    #[Info(id: 83154, name: 'ANATOLIAN HIEROGLYPH A183', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D2, name: 'ANATOLIAN HIEROGLYPH A183', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A183 = "\u{144D2}";
 
-    #[Info(id: 83155, name: 'ANATOLIAN HIEROGLYPH A184', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D3, name: 'ANATOLIAN HIEROGLYPH A184', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A184 = "\u{144D3}";
 
-    #[Info(id: 83156, name: 'ANATOLIAN HIEROGLYPH A185', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D4, name: 'ANATOLIAN HIEROGLYPH A185', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A185 = "\u{144D4}";
 
-    #[Info(id: 83157, name: 'ANATOLIAN HIEROGLYPH A186', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D5, name: 'ANATOLIAN HIEROGLYPH A186', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A186 = "\u{144D5}";
 
-    #[Info(id: 83158, name: 'ANATOLIAN HIEROGLYPH A187', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D6, name: 'ANATOLIAN HIEROGLYPH A187', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A187 = "\u{144D6}";
 
-    #[Info(id: 83159, name: 'ANATOLIAN HIEROGLYPH A188', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D7, name: 'ANATOLIAN HIEROGLYPH A188', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A188 = "\u{144D7}";
 
-    #[Info(id: 83160, name: 'ANATOLIAN HIEROGLYPH A189', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D8, name: 'ANATOLIAN HIEROGLYPH A189', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A189 = "\u{144D8}";
 
-    #[Info(id: 83161, name: 'ANATOLIAN HIEROGLYPH A190', category: Cat::Other_Letter)]
+    #[Info(id: 0x144D9, name: 'ANATOLIAN HIEROGLYPH A190', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A190 = "\u{144D9}";
 
-    #[Info(id: 83162, name: 'ANATOLIAN HIEROGLYPH A191', category: Cat::Other_Letter)]
+    #[Info(id: 0x144DA, name: 'ANATOLIAN HIEROGLYPH A191', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A191 = "\u{144DA}";
 
-    #[Info(id: 83163, name: 'ANATOLIAN HIEROGLYPH A192', category: Cat::Other_Letter)]
+    #[Info(id: 0x144DB, name: 'ANATOLIAN HIEROGLYPH A192', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A192 = "\u{144DB}";
 
-    #[Info(id: 83164, name: 'ANATOLIAN HIEROGLYPH A193', category: Cat::Other_Letter)]
+    #[Info(id: 0x144DC, name: 'ANATOLIAN HIEROGLYPH A193', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A193 = "\u{144DC}";
 
-    #[Info(id: 83165, name: 'ANATOLIAN HIEROGLYPH A194', category: Cat::Other_Letter)]
+    #[Info(id: 0x144DD, name: 'ANATOLIAN HIEROGLYPH A194', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A194 = "\u{144DD}";
 
-    #[Info(id: 83166, name: 'ANATOLIAN HIEROGLYPH A195', category: Cat::Other_Letter)]
+    #[Info(id: 0x144DE, name: 'ANATOLIAN HIEROGLYPH A195', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A195 = "\u{144DE}";
 
-    #[Info(id: 83167, name: 'ANATOLIAN HIEROGLYPH A196', category: Cat::Other_Letter)]
+    #[Info(id: 0x144DF, name: 'ANATOLIAN HIEROGLYPH A196', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A196 = "\u{144DF}";
 
-    #[Info(id: 83168, name: 'ANATOLIAN HIEROGLYPH A197', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E0, name: 'ANATOLIAN HIEROGLYPH A197', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A197 = "\u{144E0}";
 
-    #[Info(id: 83169, name: 'ANATOLIAN HIEROGLYPH A198', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E1, name: 'ANATOLIAN HIEROGLYPH A198', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A198 = "\u{144E1}";
 
-    #[Info(id: 83170, name: 'ANATOLIAN HIEROGLYPH A199', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E2, name: 'ANATOLIAN HIEROGLYPH A199', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A199 = "\u{144E2}";
 
-    #[Info(id: 83171, name: 'ANATOLIAN HIEROGLYPH A200', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E3, name: 'ANATOLIAN HIEROGLYPH A200', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A200 = "\u{144E3}";
 
-    #[Info(id: 83172, name: 'ANATOLIAN HIEROGLYPH A201', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E4, name: 'ANATOLIAN HIEROGLYPH A201', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A201 = "\u{144E4}";
 
-    #[Info(id: 83173, name: 'ANATOLIAN HIEROGLYPH A202', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E5, name: 'ANATOLIAN HIEROGLYPH A202', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A202 = "\u{144E5}";
 
-    #[Info(id: 83174, name: 'ANATOLIAN HIEROGLYPH A202A', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E6, name: 'ANATOLIAN HIEROGLYPH A202A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A202A = "\u{144E6}";
 
-    #[Info(id: 83175, name: 'ANATOLIAN HIEROGLYPH A202B', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E7, name: 'ANATOLIAN HIEROGLYPH A202B', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A202B = "\u{144E7}";
 
-    #[Info(id: 83176, name: 'ANATOLIAN HIEROGLYPH A203', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E8, name: 'ANATOLIAN HIEROGLYPH A203', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A203 = "\u{144E8}";
 
-    #[Info(id: 83177, name: 'ANATOLIAN HIEROGLYPH A204', category: Cat::Other_Letter)]
+    #[Info(id: 0x144E9, name: 'ANATOLIAN HIEROGLYPH A204', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A204 = "\u{144E9}";
 
-    #[Info(id: 83178, name: 'ANATOLIAN HIEROGLYPH A205', category: Cat::Other_Letter)]
+    #[Info(id: 0x144EA, name: 'ANATOLIAN HIEROGLYPH A205', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A205 = "\u{144EA}";
 
-    #[Info(id: 83179, name: 'ANATOLIAN HIEROGLYPH A206', category: Cat::Other_Letter)]
+    #[Info(id: 0x144EB, name: 'ANATOLIAN HIEROGLYPH A206', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A206 = "\u{144EB}";
 
-    #[Info(id: 83180, name: 'ANATOLIAN HIEROGLYPH A207', category: Cat::Other_Letter)]
+    #[Info(id: 0x144EC, name: 'ANATOLIAN HIEROGLYPH A207', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A207 = "\u{144EC}";
 
-    #[Info(id: 83181, name: 'ANATOLIAN HIEROGLYPH A207A', category: Cat::Other_Letter)]
+    #[Info(id: 0x144ED, name: 'ANATOLIAN HIEROGLYPH A207A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A207A = "\u{144ED}";
 
-    #[Info(id: 83182, name: 'ANATOLIAN HIEROGLYPH A208', category: Cat::Other_Letter)]
+    #[Info(id: 0x144EE, name: 'ANATOLIAN HIEROGLYPH A208', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A208 = "\u{144EE}";
 
-    #[Info(id: 83183, name: 'ANATOLIAN HIEROGLYPH A209', category: Cat::Other_Letter)]
+    #[Info(id: 0x144EF, name: 'ANATOLIAN HIEROGLYPH A209', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A209 = "\u{144EF}";
 
-    #[Info(id: 83184, name: 'ANATOLIAN HIEROGLYPH A209A', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F0, name: 'ANATOLIAN HIEROGLYPH A209A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A209A = "\u{144F0}";
 
-    #[Info(id: 83185, name: 'ANATOLIAN HIEROGLYPH A210', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F1, name: 'ANATOLIAN HIEROGLYPH A210', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A210 = "\u{144F1}";
 
-    #[Info(id: 83186, name: 'ANATOLIAN HIEROGLYPH A211', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F2, name: 'ANATOLIAN HIEROGLYPH A211', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A211 = "\u{144F2}";
 
-    #[Info(id: 83187, name: 'ANATOLIAN HIEROGLYPH A212', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F3, name: 'ANATOLIAN HIEROGLYPH A212', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A212 = "\u{144F3}";
 
-    #[Info(id: 83188, name: 'ANATOLIAN HIEROGLYPH A213', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F4, name: 'ANATOLIAN HIEROGLYPH A213', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A213 = "\u{144F4}";
 
-    #[Info(id: 83189, name: 'ANATOLIAN HIEROGLYPH A214', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F5, name: 'ANATOLIAN HIEROGLYPH A214', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A214 = "\u{144F5}";
 
-    #[Info(id: 83190, name: 'ANATOLIAN HIEROGLYPH A215', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F6, name: 'ANATOLIAN HIEROGLYPH A215', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A215 = "\u{144F6}";
 
-    #[Info(id: 83191, name: 'ANATOLIAN HIEROGLYPH A215A', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F7, name: 'ANATOLIAN HIEROGLYPH A215A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A215A = "\u{144F7}";
 
-    #[Info(id: 83192, name: 'ANATOLIAN HIEROGLYPH A216', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F8, name: 'ANATOLIAN HIEROGLYPH A216', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A216 = "\u{144F8}";
 
-    #[Info(id: 83193, name: 'ANATOLIAN HIEROGLYPH A216A', category: Cat::Other_Letter)]
+    #[Info(id: 0x144F9, name: 'ANATOLIAN HIEROGLYPH A216A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A216A = "\u{144F9}";
 
-    #[Info(id: 83194, name: 'ANATOLIAN HIEROGLYPH A217', category: Cat::Other_Letter)]
+    #[Info(id: 0x144FA, name: 'ANATOLIAN HIEROGLYPH A217', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A217 = "\u{144FA}";
 
-    #[Info(id: 83195, name: 'ANATOLIAN HIEROGLYPH A218', category: Cat::Other_Letter)]
+    #[Info(id: 0x144FB, name: 'ANATOLIAN HIEROGLYPH A218', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A218 = "\u{144FB}";
 
-    #[Info(id: 83196, name: 'ANATOLIAN HIEROGLYPH A219', category: Cat::Other_Letter)]
+    #[Info(id: 0x144FC, name: 'ANATOLIAN HIEROGLYPH A219', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A219 = "\u{144FC}";
 
-    #[Info(id: 83197, name: 'ANATOLIAN HIEROGLYPH A220', category: Cat::Other_Letter)]
+    #[Info(id: 0x144FD, name: 'ANATOLIAN HIEROGLYPH A220', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A220 = "\u{144FD}";
 
-    #[Info(id: 83198, name: 'ANATOLIAN HIEROGLYPH A221', category: Cat::Other_Letter)]
+    #[Info(id: 0x144FE, name: 'ANATOLIAN HIEROGLYPH A221', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A221 = "\u{144FE}";
 
-    #[Info(id: 83199, name: 'ANATOLIAN HIEROGLYPH A222', category: Cat::Other_Letter)]
+    #[Info(id: 0x144FF, name: 'ANATOLIAN HIEROGLYPH A222', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A222 = "\u{144FF}";
 
-    #[Info(id: 83200, name: 'ANATOLIAN HIEROGLYPH A223', category: Cat::Other_Letter)]
+    #[Info(id: 0x14500, name: 'ANATOLIAN HIEROGLYPH A223', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A223 = "\u{14500}";
 
-    #[Info(id: 83201, name: 'ANATOLIAN HIEROGLYPH A224', category: Cat::Other_Letter)]
+    #[Info(id: 0x14501, name: 'ANATOLIAN HIEROGLYPH A224', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A224 = "\u{14501}";
 
-    #[Info(id: 83202, name: 'ANATOLIAN HIEROGLYPH A225', category: Cat::Other_Letter)]
+    #[Info(id: 0x14502, name: 'ANATOLIAN HIEROGLYPH A225', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A225 = "\u{14502}";
 
-    #[Info(id: 83203, name: 'ANATOLIAN HIEROGLYPH A226', category: Cat::Other_Letter)]
+    #[Info(id: 0x14503, name: 'ANATOLIAN HIEROGLYPH A226', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A226 = "\u{14503}";
 
-    #[Info(id: 83204, name: 'ANATOLIAN HIEROGLYPH A227', category: Cat::Other_Letter)]
+    #[Info(id: 0x14504, name: 'ANATOLIAN HIEROGLYPH A227', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A227 = "\u{14504}";
 
-    #[Info(id: 83205, name: 'ANATOLIAN HIEROGLYPH A227A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14505, name: 'ANATOLIAN HIEROGLYPH A227A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A227A = "\u{14505}";
 
-    #[Info(id: 83206, name: 'ANATOLIAN HIEROGLYPH A228', category: Cat::Other_Letter)]
+    #[Info(id: 0x14506, name: 'ANATOLIAN HIEROGLYPH A228', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A228 = "\u{14506}";
 
-    #[Info(id: 83207, name: 'ANATOLIAN HIEROGLYPH A229', category: Cat::Other_Letter)]
+    #[Info(id: 0x14507, name: 'ANATOLIAN HIEROGLYPH A229', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A229 = "\u{14507}";
 
-    #[Info(id: 83208, name: 'ANATOLIAN HIEROGLYPH A230', category: Cat::Other_Letter)]
+    #[Info(id: 0x14508, name: 'ANATOLIAN HIEROGLYPH A230', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A230 = "\u{14508}";
 
-    #[Info(id: 83209, name: 'ANATOLIAN HIEROGLYPH A231', category: Cat::Other_Letter)]
+    #[Info(id: 0x14509, name: 'ANATOLIAN HIEROGLYPH A231', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A231 = "\u{14509}";
 
-    #[Info(id: 83210, name: 'ANATOLIAN HIEROGLYPH A232', category: Cat::Other_Letter)]
+    #[Info(id: 0x1450A, name: 'ANATOLIAN HIEROGLYPH A232', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A232 = "\u{1450A}";
 
-    #[Info(id: 83211, name: 'ANATOLIAN HIEROGLYPH A233', category: Cat::Other_Letter)]
+    #[Info(id: 0x1450B, name: 'ANATOLIAN HIEROGLYPH A233', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A233 = "\u{1450B}";
 
-    #[Info(id: 83212, name: 'ANATOLIAN HIEROGLYPH A234', category: Cat::Other_Letter)]
+    #[Info(id: 0x1450C, name: 'ANATOLIAN HIEROGLYPH A234', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A234 = "\u{1450C}";
 
-    #[Info(id: 83213, name: 'ANATOLIAN HIEROGLYPH A235', category: Cat::Other_Letter)]
+    #[Info(id: 0x1450D, name: 'ANATOLIAN HIEROGLYPH A235', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A235 = "\u{1450D}";
 
-    #[Info(id: 83214, name: 'ANATOLIAN HIEROGLYPH A236', category: Cat::Other_Letter)]
+    #[Info(id: 0x1450E, name: 'ANATOLIAN HIEROGLYPH A236', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A236 = "\u{1450E}";
 
-    #[Info(id: 83215, name: 'ANATOLIAN HIEROGLYPH A237', category: Cat::Other_Letter)]
+    #[Info(id: 0x1450F, name: 'ANATOLIAN HIEROGLYPH A237', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A237 = "\u{1450F}";
 
-    #[Info(id: 83216, name: 'ANATOLIAN HIEROGLYPH A238', category: Cat::Other_Letter)]
+    #[Info(id: 0x14510, name: 'ANATOLIAN HIEROGLYPH A238', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A238 = "\u{14510}";
 
-    #[Info(id: 83217, name: 'ANATOLIAN HIEROGLYPH A239', category: Cat::Other_Letter)]
+    #[Info(id: 0x14511, name: 'ANATOLIAN HIEROGLYPH A239', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A239 = "\u{14511}";
 
-    #[Info(id: 83218, name: 'ANATOLIAN HIEROGLYPH A240', category: Cat::Other_Letter)]
+    #[Info(id: 0x14512, name: 'ANATOLIAN HIEROGLYPH A240', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A240 = "\u{14512}";
 
-    #[Info(id: 83219, name: 'ANATOLIAN HIEROGLYPH A241', category: Cat::Other_Letter)]
+    #[Info(id: 0x14513, name: 'ANATOLIAN HIEROGLYPH A241', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A241 = "\u{14513}";
 
-    #[Info(id: 83220, name: 'ANATOLIAN HIEROGLYPH A242', category: Cat::Other_Letter)]
+    #[Info(id: 0x14514, name: 'ANATOLIAN HIEROGLYPH A242', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A242 = "\u{14514}";
 
-    #[Info(id: 83221, name: 'ANATOLIAN HIEROGLYPH A243', category: Cat::Other_Letter)]
+    #[Info(id: 0x14515, name: 'ANATOLIAN HIEROGLYPH A243', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A243 = "\u{14515}";
 
-    #[Info(id: 83222, name: 'ANATOLIAN HIEROGLYPH A244', category: Cat::Other_Letter)]
+    #[Info(id: 0x14516, name: 'ANATOLIAN HIEROGLYPH A244', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A244 = "\u{14516}";
 
-    #[Info(id: 83223, name: 'ANATOLIAN HIEROGLYPH A245', category: Cat::Other_Letter)]
+    #[Info(id: 0x14517, name: 'ANATOLIAN HIEROGLYPH A245', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A245 = "\u{14517}";
 
-    #[Info(id: 83224, name: 'ANATOLIAN HIEROGLYPH A246', category: Cat::Other_Letter)]
+    #[Info(id: 0x14518, name: 'ANATOLIAN HIEROGLYPH A246', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A246 = "\u{14518}";
 
-    #[Info(id: 83225, name: 'ANATOLIAN HIEROGLYPH A247', category: Cat::Other_Letter)]
+    #[Info(id: 0x14519, name: 'ANATOLIAN HIEROGLYPH A247', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A247 = "\u{14519}";
 
-    #[Info(id: 83226, name: 'ANATOLIAN HIEROGLYPH A248', category: Cat::Other_Letter)]
+    #[Info(id: 0x1451A, name: 'ANATOLIAN HIEROGLYPH A248', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A248 = "\u{1451A}";
 
-    #[Info(id: 83227, name: 'ANATOLIAN HIEROGLYPH A249', category: Cat::Other_Letter)]
+    #[Info(id: 0x1451B, name: 'ANATOLIAN HIEROGLYPH A249', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A249 = "\u{1451B}";
 
-    #[Info(id: 83228, name: 'ANATOLIAN HIEROGLYPH A250', category: Cat::Other_Letter)]
+    #[Info(id: 0x1451C, name: 'ANATOLIAN HIEROGLYPH A250', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A250 = "\u{1451C}";
 
-    #[Info(id: 83229, name: 'ANATOLIAN HIEROGLYPH A251', category: Cat::Other_Letter)]
+    #[Info(id: 0x1451D, name: 'ANATOLIAN HIEROGLYPH A251', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A251 = "\u{1451D}";
 
-    #[Info(id: 83230, name: 'ANATOLIAN HIEROGLYPH A252', category: Cat::Other_Letter)]
+    #[Info(id: 0x1451E, name: 'ANATOLIAN HIEROGLYPH A252', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A252 = "\u{1451E}";
 
-    #[Info(id: 83231, name: 'ANATOLIAN HIEROGLYPH A253', category: Cat::Other_Letter)]
+    #[Info(id: 0x1451F, name: 'ANATOLIAN HIEROGLYPH A253', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A253 = "\u{1451F}";
 
-    #[Info(id: 83232, name: 'ANATOLIAN HIEROGLYPH A254', category: Cat::Other_Letter)]
+    #[Info(id: 0x14520, name: 'ANATOLIAN HIEROGLYPH A254', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A254 = "\u{14520}";
 
-    #[Info(id: 83233, name: 'ANATOLIAN HIEROGLYPH A255', category: Cat::Other_Letter)]
+    #[Info(id: 0x14521, name: 'ANATOLIAN HIEROGLYPH A255', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A255 = "\u{14521}";
 
-    #[Info(id: 83234, name: 'ANATOLIAN HIEROGLYPH A256', category: Cat::Other_Letter)]
+    #[Info(id: 0x14522, name: 'ANATOLIAN HIEROGLYPH A256', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A256 = "\u{14522}";
 
-    #[Info(id: 83235, name: 'ANATOLIAN HIEROGLYPH A257', category: Cat::Other_Letter)]
+    #[Info(id: 0x14523, name: 'ANATOLIAN HIEROGLYPH A257', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A257 = "\u{14523}";
 
-    #[Info(id: 83236, name: 'ANATOLIAN HIEROGLYPH A258', category: Cat::Other_Letter)]
+    #[Info(id: 0x14524, name: 'ANATOLIAN HIEROGLYPH A258', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A258 = "\u{14524}";
 
-    #[Info(id: 83237, name: 'ANATOLIAN HIEROGLYPH A259', category: Cat::Other_Letter)]
+    #[Info(id: 0x14525, name: 'ANATOLIAN HIEROGLYPH A259', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A259 = "\u{14525}";
 
-    #[Info(id: 83238, name: 'ANATOLIAN HIEROGLYPH A260', category: Cat::Other_Letter)]
+    #[Info(id: 0x14526, name: 'ANATOLIAN HIEROGLYPH A260', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A260 = "\u{14526}";
 
-    #[Info(id: 83239, name: 'ANATOLIAN HIEROGLYPH A261', category: Cat::Other_Letter)]
+    #[Info(id: 0x14527, name: 'ANATOLIAN HIEROGLYPH A261', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A261 = "\u{14527}";
 
-    #[Info(id: 83240, name: 'ANATOLIAN HIEROGLYPH A262', category: Cat::Other_Letter)]
+    #[Info(id: 0x14528, name: 'ANATOLIAN HIEROGLYPH A262', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A262 = "\u{14528}";
 
-    #[Info(id: 83241, name: 'ANATOLIAN HIEROGLYPH A263', category: Cat::Other_Letter)]
+    #[Info(id: 0x14529, name: 'ANATOLIAN HIEROGLYPH A263', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A263 = "\u{14529}";
 
-    #[Info(id: 83242, name: 'ANATOLIAN HIEROGLYPH A264', category: Cat::Other_Letter)]
+    #[Info(id: 0x1452A, name: 'ANATOLIAN HIEROGLYPH A264', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A264 = "\u{1452A}";
 
-    #[Info(id: 83243, name: 'ANATOLIAN HIEROGLYPH A265', category: Cat::Other_Letter)]
+    #[Info(id: 0x1452B, name: 'ANATOLIAN HIEROGLYPH A265', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A265 = "\u{1452B}";
 
-    #[Info(id: 83244, name: 'ANATOLIAN HIEROGLYPH A266', category: Cat::Other_Letter)]
+    #[Info(id: 0x1452C, name: 'ANATOLIAN HIEROGLYPH A266', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A266 = "\u{1452C}";
 
-    #[Info(id: 83245, name: 'ANATOLIAN HIEROGLYPH A267', category: Cat::Other_Letter)]
+    #[Info(id: 0x1452D, name: 'ANATOLIAN HIEROGLYPH A267', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A267 = "\u{1452D}";
 
-    #[Info(id: 83246, name: 'ANATOLIAN HIEROGLYPH A267A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1452E, name: 'ANATOLIAN HIEROGLYPH A267A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A267A = "\u{1452E}";
 
-    #[Info(id: 83247, name: 'ANATOLIAN HIEROGLYPH A268', category: Cat::Other_Letter)]
+    #[Info(id: 0x1452F, name: 'ANATOLIAN HIEROGLYPH A268', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A268 = "\u{1452F}";
 
-    #[Info(id: 83248, name: 'ANATOLIAN HIEROGLYPH A269', category: Cat::Other_Letter)]
+    #[Info(id: 0x14530, name: 'ANATOLIAN HIEROGLYPH A269', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A269 = "\u{14530}";
 
-    #[Info(id: 83249, name: 'ANATOLIAN HIEROGLYPH A270', category: Cat::Other_Letter)]
+    #[Info(id: 0x14531, name: 'ANATOLIAN HIEROGLYPH A270', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A270 = "\u{14531}";
 
-    #[Info(id: 83250, name: 'ANATOLIAN HIEROGLYPH A271', category: Cat::Other_Letter)]
+    #[Info(id: 0x14532, name: 'ANATOLIAN HIEROGLYPH A271', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A271 = "\u{14532}";
 
-    #[Info(id: 83251, name: 'ANATOLIAN HIEROGLYPH A272', category: Cat::Other_Letter)]
+    #[Info(id: 0x14533, name: 'ANATOLIAN HIEROGLYPH A272', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A272 = "\u{14533}";
 
-    #[Info(id: 83252, name: 'ANATOLIAN HIEROGLYPH A273', category: Cat::Other_Letter)]
+    #[Info(id: 0x14534, name: 'ANATOLIAN HIEROGLYPH A273', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A273 = "\u{14534}";
 
-    #[Info(id: 83253, name: 'ANATOLIAN HIEROGLYPH A274', category: Cat::Other_Letter)]
+    #[Info(id: 0x14535, name: 'ANATOLIAN HIEROGLYPH A274', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A274 = "\u{14535}";
 
-    #[Info(id: 83254, name: 'ANATOLIAN HIEROGLYPH A275', category: Cat::Other_Letter)]
+    #[Info(id: 0x14536, name: 'ANATOLIAN HIEROGLYPH A275', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A275 = "\u{14536}";
 
-    #[Info(id: 83255, name: 'ANATOLIAN HIEROGLYPH A276', category: Cat::Other_Letter)]
+    #[Info(id: 0x14537, name: 'ANATOLIAN HIEROGLYPH A276', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A276 = "\u{14537}";
 
-    #[Info(id: 83256, name: 'ANATOLIAN HIEROGLYPH A277', category: Cat::Other_Letter)]
+    #[Info(id: 0x14538, name: 'ANATOLIAN HIEROGLYPH A277', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A277 = "\u{14538}";
 
-    #[Info(id: 83257, name: 'ANATOLIAN HIEROGLYPH A278', category: Cat::Other_Letter)]
+    #[Info(id: 0x14539, name: 'ANATOLIAN HIEROGLYPH A278', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A278 = "\u{14539}";
 
-    #[Info(id: 83258, name: 'ANATOLIAN HIEROGLYPH A279', category: Cat::Other_Letter)]
+    #[Info(id: 0x1453A, name: 'ANATOLIAN HIEROGLYPH A279', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A279 = "\u{1453A}";
 
-    #[Info(id: 83259, name: 'ANATOLIAN HIEROGLYPH A280', category: Cat::Other_Letter)]
+    #[Info(id: 0x1453B, name: 'ANATOLIAN HIEROGLYPH A280', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A280 = "\u{1453B}";
 
-    #[Info(id: 83260, name: 'ANATOLIAN HIEROGLYPH A281', category: Cat::Other_Letter)]
+    #[Info(id: 0x1453C, name: 'ANATOLIAN HIEROGLYPH A281', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A281 = "\u{1453C}";
 
-    #[Info(id: 83261, name: 'ANATOLIAN HIEROGLYPH A282', category: Cat::Other_Letter)]
+    #[Info(id: 0x1453D, name: 'ANATOLIAN HIEROGLYPH A282', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A282 = "\u{1453D}";
 
-    #[Info(id: 83262, name: 'ANATOLIAN HIEROGLYPH A283', category: Cat::Other_Letter)]
+    #[Info(id: 0x1453E, name: 'ANATOLIAN HIEROGLYPH A283', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A283 = "\u{1453E}";
 
-    #[Info(id: 83263, name: 'ANATOLIAN HIEROGLYPH A284', category: Cat::Other_Letter)]
+    #[Info(id: 0x1453F, name: 'ANATOLIAN HIEROGLYPH A284', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A284 = "\u{1453F}";
 
-    #[Info(id: 83264, name: 'ANATOLIAN HIEROGLYPH A285', category: Cat::Other_Letter)]
+    #[Info(id: 0x14540, name: 'ANATOLIAN HIEROGLYPH A285', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A285 = "\u{14540}";
 
-    #[Info(id: 83265, name: 'ANATOLIAN HIEROGLYPH A286', category: Cat::Other_Letter)]
+    #[Info(id: 0x14541, name: 'ANATOLIAN HIEROGLYPH A286', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A286 = "\u{14541}";
 
-    #[Info(id: 83266, name: 'ANATOLIAN HIEROGLYPH A287', category: Cat::Other_Letter)]
+    #[Info(id: 0x14542, name: 'ANATOLIAN HIEROGLYPH A287', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A287 = "\u{14542}";
 
-    #[Info(id: 83267, name: 'ANATOLIAN HIEROGLYPH A288', category: Cat::Other_Letter)]
+    #[Info(id: 0x14543, name: 'ANATOLIAN HIEROGLYPH A288', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A288 = "\u{14543}";
 
-    #[Info(id: 83268, name: 'ANATOLIAN HIEROGLYPH A289', category: Cat::Other_Letter)]
+    #[Info(id: 0x14544, name: 'ANATOLIAN HIEROGLYPH A289', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A289 = "\u{14544}";
 
-    #[Info(id: 83269, name: 'ANATOLIAN HIEROGLYPH A289A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14545, name: 'ANATOLIAN HIEROGLYPH A289A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A289A = "\u{14545}";
 
-    #[Info(id: 83270, name: 'ANATOLIAN HIEROGLYPH A290', category: Cat::Other_Letter)]
+    #[Info(id: 0x14546, name: 'ANATOLIAN HIEROGLYPH A290', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A290 = "\u{14546}";
 
-    #[Info(id: 83271, name: 'ANATOLIAN HIEROGLYPH A291', category: Cat::Other_Letter)]
+    #[Info(id: 0x14547, name: 'ANATOLIAN HIEROGLYPH A291', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A291 = "\u{14547}";
 
-    #[Info(id: 83272, name: 'ANATOLIAN HIEROGLYPH A292', category: Cat::Other_Letter)]
+    #[Info(id: 0x14548, name: 'ANATOLIAN HIEROGLYPH A292', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A292 = "\u{14548}";
 
-    #[Info(id: 83273, name: 'ANATOLIAN HIEROGLYPH A293', category: Cat::Other_Letter)]
+    #[Info(id: 0x14549, name: 'ANATOLIAN HIEROGLYPH A293', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A293 = "\u{14549}";
 
-    #[Info(id: 83274, name: 'ANATOLIAN HIEROGLYPH A294', category: Cat::Other_Letter)]
+    #[Info(id: 0x1454A, name: 'ANATOLIAN HIEROGLYPH A294', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A294 = "\u{1454A}";
 
-    #[Info(id: 83275, name: 'ANATOLIAN HIEROGLYPH A294A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1454B, name: 'ANATOLIAN HIEROGLYPH A294A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A294A = "\u{1454B}";
 
-    #[Info(id: 83276, name: 'ANATOLIAN HIEROGLYPH A295', category: Cat::Other_Letter)]
+    #[Info(id: 0x1454C, name: 'ANATOLIAN HIEROGLYPH A295', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A295 = "\u{1454C}";
 
-    #[Info(id: 83277, name: 'ANATOLIAN HIEROGLYPH A296', category: Cat::Other_Letter)]
+    #[Info(id: 0x1454D, name: 'ANATOLIAN HIEROGLYPH A296', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A296 = "\u{1454D}";
 
-    #[Info(id: 83278, name: 'ANATOLIAN HIEROGLYPH A297', category: Cat::Other_Letter)]
+    #[Info(id: 0x1454E, name: 'ANATOLIAN HIEROGLYPH A297', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A297 = "\u{1454E}";
 
-    #[Info(id: 83279, name: 'ANATOLIAN HIEROGLYPH A298', category: Cat::Other_Letter)]
+    #[Info(id: 0x1454F, name: 'ANATOLIAN HIEROGLYPH A298', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A298 = "\u{1454F}";
 
-    #[Info(id: 83280, name: 'ANATOLIAN HIEROGLYPH A299', category: Cat::Other_Letter)]
+    #[Info(id: 0x14550, name: 'ANATOLIAN HIEROGLYPH A299', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A299 = "\u{14550}";
 
-    #[Info(id: 83281, name: 'ANATOLIAN HIEROGLYPH A299A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14551, name: 'ANATOLIAN HIEROGLYPH A299A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A299A = "\u{14551}";
 
-    #[Info(id: 83282, name: 'ANATOLIAN HIEROGLYPH A300', category: Cat::Other_Letter)]
+    #[Info(id: 0x14552, name: 'ANATOLIAN HIEROGLYPH A300', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A300 = "\u{14552}";
 
-    #[Info(id: 83283, name: 'ANATOLIAN HIEROGLYPH A301', category: Cat::Other_Letter)]
+    #[Info(id: 0x14553, name: 'ANATOLIAN HIEROGLYPH A301', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A301 = "\u{14553}";
 
-    #[Info(id: 83284, name: 'ANATOLIAN HIEROGLYPH A302', category: Cat::Other_Letter)]
+    #[Info(id: 0x14554, name: 'ANATOLIAN HIEROGLYPH A302', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A302 = "\u{14554}";
 
-    #[Info(id: 83285, name: 'ANATOLIAN HIEROGLYPH A303', category: Cat::Other_Letter)]
+    #[Info(id: 0x14555, name: 'ANATOLIAN HIEROGLYPH A303', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A303 = "\u{14555}";
 
-    #[Info(id: 83286, name: 'ANATOLIAN HIEROGLYPH A304', category: Cat::Other_Letter)]
+    #[Info(id: 0x14556, name: 'ANATOLIAN HIEROGLYPH A304', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A304 = "\u{14556}";
 
-    #[Info(id: 83287, name: 'ANATOLIAN HIEROGLYPH A305', category: Cat::Other_Letter)]
+    #[Info(id: 0x14557, name: 'ANATOLIAN HIEROGLYPH A305', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A305 = "\u{14557}";
 
-    #[Info(id: 83288, name: 'ANATOLIAN HIEROGLYPH A306', category: Cat::Other_Letter)]
+    #[Info(id: 0x14558, name: 'ANATOLIAN HIEROGLYPH A306', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A306 = "\u{14558}";
 
-    #[Info(id: 83289, name: 'ANATOLIAN HIEROGLYPH A307', category: Cat::Other_Letter)]
+    #[Info(id: 0x14559, name: 'ANATOLIAN HIEROGLYPH A307', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A307 = "\u{14559}";
 
-    #[Info(id: 83290, name: 'ANATOLIAN HIEROGLYPH A308', category: Cat::Other_Letter)]
+    #[Info(id: 0x1455A, name: 'ANATOLIAN HIEROGLYPH A308', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A308 = "\u{1455A}";
 
-    #[Info(id: 83291, name: 'ANATOLIAN HIEROGLYPH A309', category: Cat::Other_Letter)]
+    #[Info(id: 0x1455B, name: 'ANATOLIAN HIEROGLYPH A309', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A309 = "\u{1455B}";
 
-    #[Info(id: 83292, name: 'ANATOLIAN HIEROGLYPH A309A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1455C, name: 'ANATOLIAN HIEROGLYPH A309A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A309A = "\u{1455C}";
 
-    #[Info(id: 83293, name: 'ANATOLIAN HIEROGLYPH A310', category: Cat::Other_Letter)]
+    #[Info(id: 0x1455D, name: 'ANATOLIAN HIEROGLYPH A310', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A310 = "\u{1455D}";
 
-    #[Info(id: 83294, name: 'ANATOLIAN HIEROGLYPH A311', category: Cat::Other_Letter)]
+    #[Info(id: 0x1455E, name: 'ANATOLIAN HIEROGLYPH A311', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A311 = "\u{1455E}";
 
-    #[Info(id: 83295, name: 'ANATOLIAN HIEROGLYPH A312', category: Cat::Other_Letter)]
+    #[Info(id: 0x1455F, name: 'ANATOLIAN HIEROGLYPH A312', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A312 = "\u{1455F}";
 
-    #[Info(id: 83296, name: 'ANATOLIAN HIEROGLYPH A313', category: Cat::Other_Letter)]
+    #[Info(id: 0x14560, name: 'ANATOLIAN HIEROGLYPH A313', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A313 = "\u{14560}";
 
-    #[Info(id: 83297, name: 'ANATOLIAN HIEROGLYPH A314', category: Cat::Other_Letter)]
+    #[Info(id: 0x14561, name: 'ANATOLIAN HIEROGLYPH A314', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A314 = "\u{14561}";
 
-    #[Info(id: 83298, name: 'ANATOLIAN HIEROGLYPH A315', category: Cat::Other_Letter)]
+    #[Info(id: 0x14562, name: 'ANATOLIAN HIEROGLYPH A315', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A315 = "\u{14562}";
 
-    #[Info(id: 83299, name: 'ANATOLIAN HIEROGLYPH A316', category: Cat::Other_Letter)]
+    #[Info(id: 0x14563, name: 'ANATOLIAN HIEROGLYPH A316', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A316 = "\u{14563}";
 
-    #[Info(id: 83300, name: 'ANATOLIAN HIEROGLYPH A317', category: Cat::Other_Letter)]
+    #[Info(id: 0x14564, name: 'ANATOLIAN HIEROGLYPH A317', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A317 = "\u{14564}";
 
-    #[Info(id: 83301, name: 'ANATOLIAN HIEROGLYPH A318', category: Cat::Other_Letter)]
+    #[Info(id: 0x14565, name: 'ANATOLIAN HIEROGLYPH A318', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A318 = "\u{14565}";
 
-    #[Info(id: 83302, name: 'ANATOLIAN HIEROGLYPH A319', category: Cat::Other_Letter)]
+    #[Info(id: 0x14566, name: 'ANATOLIAN HIEROGLYPH A319', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A319 = "\u{14566}";
 
-    #[Info(id: 83303, name: 'ANATOLIAN HIEROGLYPH A320', category: Cat::Other_Letter)]
+    #[Info(id: 0x14567, name: 'ANATOLIAN HIEROGLYPH A320', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A320 = "\u{14567}";
 
-    #[Info(id: 83304, name: 'ANATOLIAN HIEROGLYPH A321', category: Cat::Other_Letter)]
+    #[Info(id: 0x14568, name: 'ANATOLIAN HIEROGLYPH A321', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A321 = "\u{14568}";
 
-    #[Info(id: 83305, name: 'ANATOLIAN HIEROGLYPH A322', category: Cat::Other_Letter)]
+    #[Info(id: 0x14569, name: 'ANATOLIAN HIEROGLYPH A322', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A322 = "\u{14569}";
 
-    #[Info(id: 83306, name: 'ANATOLIAN HIEROGLYPH A323', category: Cat::Other_Letter)]
+    #[Info(id: 0x1456A, name: 'ANATOLIAN HIEROGLYPH A323', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A323 = "\u{1456A}";
 
-    #[Info(id: 83307, name: 'ANATOLIAN HIEROGLYPH A324', category: Cat::Other_Letter)]
+    #[Info(id: 0x1456B, name: 'ANATOLIAN HIEROGLYPH A324', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A324 = "\u{1456B}";
 
-    #[Info(id: 83308, name: 'ANATOLIAN HIEROGLYPH A325', category: Cat::Other_Letter)]
+    #[Info(id: 0x1456C, name: 'ANATOLIAN HIEROGLYPH A325', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A325 = "\u{1456C}";
 
-    #[Info(id: 83309, name: 'ANATOLIAN HIEROGLYPH A326', category: Cat::Other_Letter)]
+    #[Info(id: 0x1456D, name: 'ANATOLIAN HIEROGLYPH A326', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A326 = "\u{1456D}";
 
-    #[Info(id: 83310, name: 'ANATOLIAN HIEROGLYPH A327', category: Cat::Other_Letter)]
+    #[Info(id: 0x1456E, name: 'ANATOLIAN HIEROGLYPH A327', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A327 = "\u{1456E}";
 
-    #[Info(id: 83311, name: 'ANATOLIAN HIEROGLYPH A328', category: Cat::Other_Letter)]
+    #[Info(id: 0x1456F, name: 'ANATOLIAN HIEROGLYPH A328', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A328 = "\u{1456F}";
 
-    #[Info(id: 83312, name: 'ANATOLIAN HIEROGLYPH A329', category: Cat::Other_Letter)]
+    #[Info(id: 0x14570, name: 'ANATOLIAN HIEROGLYPH A329', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A329 = "\u{14570}";
 
-    #[Info(id: 83313, name: 'ANATOLIAN HIEROGLYPH A329A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14571, name: 'ANATOLIAN HIEROGLYPH A329A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A329A = "\u{14571}";
 
-    #[Info(id: 83314, name: 'ANATOLIAN HIEROGLYPH A330', category: Cat::Other_Letter)]
+    #[Info(id: 0x14572, name: 'ANATOLIAN HIEROGLYPH A330', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A330 = "\u{14572}";
 
-    #[Info(id: 83315, name: 'ANATOLIAN HIEROGLYPH A331', category: Cat::Other_Letter)]
+    #[Info(id: 0x14573, name: 'ANATOLIAN HIEROGLYPH A331', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A331 = "\u{14573}";
 
-    #[Info(id: 83316, name: 'ANATOLIAN HIEROGLYPH A332A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14574, name: 'ANATOLIAN HIEROGLYPH A332A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A332A = "\u{14574}";
 
-    #[Info(id: 83317, name: 'ANATOLIAN HIEROGLYPH A332B', category: Cat::Other_Letter)]
+    #[Info(id: 0x14575, name: 'ANATOLIAN HIEROGLYPH A332B', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A332B = "\u{14575}";
 
-    #[Info(id: 83318, name: 'ANATOLIAN HIEROGLYPH A332C', category: Cat::Other_Letter)]
+    #[Info(id: 0x14576, name: 'ANATOLIAN HIEROGLYPH A332C', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A332C = "\u{14576}";
 
-    #[Info(id: 83319, name: 'ANATOLIAN HIEROGLYPH A333', category: Cat::Other_Letter)]
+    #[Info(id: 0x14577, name: 'ANATOLIAN HIEROGLYPH A333', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A333 = "\u{14577}";
 
-    #[Info(id: 83320, name: 'ANATOLIAN HIEROGLYPH A334', category: Cat::Other_Letter)]
+    #[Info(id: 0x14578, name: 'ANATOLIAN HIEROGLYPH A334', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A334 = "\u{14578}";
 
-    #[Info(id: 83321, name: 'ANATOLIAN HIEROGLYPH A335', category: Cat::Other_Letter)]
+    #[Info(id: 0x14579, name: 'ANATOLIAN HIEROGLYPH A335', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A335 = "\u{14579}";
 
-    #[Info(id: 83322, name: 'ANATOLIAN HIEROGLYPH A336', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457A, name: 'ANATOLIAN HIEROGLYPH A336', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A336 = "\u{1457A}";
 
-    #[Info(id: 83323, name: 'ANATOLIAN HIEROGLYPH A336A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457B, name: 'ANATOLIAN HIEROGLYPH A336A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A336A = "\u{1457B}";
 
-    #[Info(id: 83324, name: 'ANATOLIAN HIEROGLYPH A336B', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457C, name: 'ANATOLIAN HIEROGLYPH A336B', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A336B = "\u{1457C}";
 
-    #[Info(id: 83325, name: 'ANATOLIAN HIEROGLYPH A336C', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457D, name: 'ANATOLIAN HIEROGLYPH A336C', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A336C = "\u{1457D}";
 
-    #[Info(id: 83326, name: 'ANATOLIAN HIEROGLYPH A337', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457E, name: 'ANATOLIAN HIEROGLYPH A337', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A337 = "\u{1457E}";
 
-    #[Info(id: 83327, name: 'ANATOLIAN HIEROGLYPH A338', category: Cat::Other_Letter)]
+    #[Info(id: 0x1457F, name: 'ANATOLIAN HIEROGLYPH A338', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A338 = "\u{1457F}";
 
-    #[Info(id: 83328, name: 'ANATOLIAN HIEROGLYPH A339', category: Cat::Other_Letter)]
+    #[Info(id: 0x14580, name: 'ANATOLIAN HIEROGLYPH A339', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A339 = "\u{14580}";
 
-    #[Info(id: 83329, name: 'ANATOLIAN HIEROGLYPH A340', category: Cat::Other_Letter)]
+    #[Info(id: 0x14581, name: 'ANATOLIAN HIEROGLYPH A340', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A340 = "\u{14581}";
 
-    #[Info(id: 83330, name: 'ANATOLIAN HIEROGLYPH A341', category: Cat::Other_Letter)]
+    #[Info(id: 0x14582, name: 'ANATOLIAN HIEROGLYPH A341', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A341 = "\u{14582}";
 
-    #[Info(id: 83331, name: 'ANATOLIAN HIEROGLYPH A342', category: Cat::Other_Letter)]
+    #[Info(id: 0x14583, name: 'ANATOLIAN HIEROGLYPH A342', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A342 = "\u{14583}";
 
-    #[Info(id: 83332, name: 'ANATOLIAN HIEROGLYPH A343', category: Cat::Other_Letter)]
+    #[Info(id: 0x14584, name: 'ANATOLIAN HIEROGLYPH A343', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A343 = "\u{14584}";
 
-    #[Info(id: 83333, name: 'ANATOLIAN HIEROGLYPH A344', category: Cat::Other_Letter)]
+    #[Info(id: 0x14585, name: 'ANATOLIAN HIEROGLYPH A344', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A344 = "\u{14585}";
 
-    #[Info(id: 83334, name: 'ANATOLIAN HIEROGLYPH A345', category: Cat::Other_Letter)]
+    #[Info(id: 0x14586, name: 'ANATOLIAN HIEROGLYPH A345', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A345 = "\u{14586}";
 
-    #[Info(id: 83335, name: 'ANATOLIAN HIEROGLYPH A346', category: Cat::Other_Letter)]
+    #[Info(id: 0x14587, name: 'ANATOLIAN HIEROGLYPH A346', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A346 = "\u{14587}";
 
-    #[Info(id: 83336, name: 'ANATOLIAN HIEROGLYPH A347', category: Cat::Other_Letter)]
+    #[Info(id: 0x14588, name: 'ANATOLIAN HIEROGLYPH A347', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A347 = "\u{14588}";
 
-    #[Info(id: 83337, name: 'ANATOLIAN HIEROGLYPH A348', category: Cat::Other_Letter)]
+    #[Info(id: 0x14589, name: 'ANATOLIAN HIEROGLYPH A348', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A348 = "\u{14589}";
 
-    #[Info(id: 83338, name: 'ANATOLIAN HIEROGLYPH A349', category: Cat::Other_Letter)]
+    #[Info(id: 0x1458A, name: 'ANATOLIAN HIEROGLYPH A349', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A349 = "\u{1458A}";
 
-    #[Info(id: 83339, name: 'ANATOLIAN HIEROGLYPH A350', category: Cat::Other_Letter)]
+    #[Info(id: 0x1458B, name: 'ANATOLIAN HIEROGLYPH A350', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A350 = "\u{1458B}";
 
-    #[Info(id: 83340, name: 'ANATOLIAN HIEROGLYPH A351', category: Cat::Other_Letter)]
+    #[Info(id: 0x1458C, name: 'ANATOLIAN HIEROGLYPH A351', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A351 = "\u{1458C}";
 
-    #[Info(id: 83341, name: 'ANATOLIAN HIEROGLYPH A352', category: Cat::Other_Letter)]
+    #[Info(id: 0x1458D, name: 'ANATOLIAN HIEROGLYPH A352', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A352 = "\u{1458D}";
 
-    #[Info(id: 83342, name: 'ANATOLIAN HIEROGLYPH A353', category: Cat::Other_Letter)]
+    #[Info(id: 0x1458E, name: 'ANATOLIAN HIEROGLYPH A353', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A353 = "\u{1458E}";
 
-    #[Info(id: 83343, name: 'ANATOLIAN HIEROGLYPH A354', category: Cat::Other_Letter)]
+    #[Info(id: 0x1458F, name: 'ANATOLIAN HIEROGLYPH A354', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A354 = "\u{1458F}";
 
-    #[Info(id: 83344, name: 'ANATOLIAN HIEROGLYPH A355', category: Cat::Other_Letter)]
+    #[Info(id: 0x14590, name: 'ANATOLIAN HIEROGLYPH A355', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A355 = "\u{14590}";
 
-    #[Info(id: 83345, name: 'ANATOLIAN HIEROGLYPH A356', category: Cat::Other_Letter)]
+    #[Info(id: 0x14591, name: 'ANATOLIAN HIEROGLYPH A356', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A356 = "\u{14591}";
 
-    #[Info(id: 83346, name: 'ANATOLIAN HIEROGLYPH A357', category: Cat::Other_Letter)]
+    #[Info(id: 0x14592, name: 'ANATOLIAN HIEROGLYPH A357', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A357 = "\u{14592}";
 
-    #[Info(id: 83347, name: 'ANATOLIAN HIEROGLYPH A358', category: Cat::Other_Letter)]
+    #[Info(id: 0x14593, name: 'ANATOLIAN HIEROGLYPH A358', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A358 = "\u{14593}";
 
-    #[Info(id: 83348, name: 'ANATOLIAN HIEROGLYPH A359', category: Cat::Other_Letter)]
+    #[Info(id: 0x14594, name: 'ANATOLIAN HIEROGLYPH A359', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A359 = "\u{14594}";
 
-    #[Info(id: 83349, name: 'ANATOLIAN HIEROGLYPH A359A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14595, name: 'ANATOLIAN HIEROGLYPH A359A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A359A = "\u{14595}";
 
-    #[Info(id: 83350, name: 'ANATOLIAN HIEROGLYPH A360', category: Cat::Other_Letter)]
+    #[Info(id: 0x14596, name: 'ANATOLIAN HIEROGLYPH A360', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A360 = "\u{14596}";
 
-    #[Info(id: 83351, name: 'ANATOLIAN HIEROGLYPH A361', category: Cat::Other_Letter)]
+    #[Info(id: 0x14597, name: 'ANATOLIAN HIEROGLYPH A361', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A361 = "\u{14597}";
 
-    #[Info(id: 83352, name: 'ANATOLIAN HIEROGLYPH A362', category: Cat::Other_Letter)]
+    #[Info(id: 0x14598, name: 'ANATOLIAN HIEROGLYPH A362', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A362 = "\u{14598}";
 
-    #[Info(id: 83353, name: 'ANATOLIAN HIEROGLYPH A363', category: Cat::Other_Letter)]
+    #[Info(id: 0x14599, name: 'ANATOLIAN HIEROGLYPH A363', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A363 = "\u{14599}";
 
-    #[Info(id: 83354, name: 'ANATOLIAN HIEROGLYPH A364', category: Cat::Other_Letter)]
+    #[Info(id: 0x1459A, name: 'ANATOLIAN HIEROGLYPH A364', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A364 = "\u{1459A}";
 
-    #[Info(id: 83355, name: 'ANATOLIAN HIEROGLYPH A364A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1459B, name: 'ANATOLIAN HIEROGLYPH A364A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A364A = "\u{1459B}";
 
-    #[Info(id: 83356, name: 'ANATOLIAN HIEROGLYPH A365', category: Cat::Other_Letter)]
+    #[Info(id: 0x1459C, name: 'ANATOLIAN HIEROGLYPH A365', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A365 = "\u{1459C}";
 
-    #[Info(id: 83357, name: 'ANATOLIAN HIEROGLYPH A366', category: Cat::Other_Letter)]
+    #[Info(id: 0x1459D, name: 'ANATOLIAN HIEROGLYPH A366', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A366 = "\u{1459D}";
 
-    #[Info(id: 83358, name: 'ANATOLIAN HIEROGLYPH A367', category: Cat::Other_Letter)]
+    #[Info(id: 0x1459E, name: 'ANATOLIAN HIEROGLYPH A367', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A367 = "\u{1459E}";
 
-    #[Info(id: 83359, name: 'ANATOLIAN HIEROGLYPH A368', category: Cat::Other_Letter)]
+    #[Info(id: 0x1459F, name: 'ANATOLIAN HIEROGLYPH A368', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A368 = "\u{1459F}";
 
-    #[Info(id: 83360, name: 'ANATOLIAN HIEROGLYPH A368A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A0, name: 'ANATOLIAN HIEROGLYPH A368A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A368A = "\u{145A0}";
 
-    #[Info(id: 83361, name: 'ANATOLIAN HIEROGLYPH A369', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A1, name: 'ANATOLIAN HIEROGLYPH A369', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A369 = "\u{145A1}";
 
-    #[Info(id: 83362, name: 'ANATOLIAN HIEROGLYPH A370', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A2, name: 'ANATOLIAN HIEROGLYPH A370', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A370 = "\u{145A2}";
 
-    #[Info(id: 83363, name: 'ANATOLIAN HIEROGLYPH A371', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A3, name: 'ANATOLIAN HIEROGLYPH A371', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A371 = "\u{145A3}";
 
-    #[Info(id: 83364, name: 'ANATOLIAN HIEROGLYPH A371A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A4, name: 'ANATOLIAN HIEROGLYPH A371A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A371A = "\u{145A4}";
 
-    #[Info(id: 83365, name: 'ANATOLIAN HIEROGLYPH A372', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A5, name: 'ANATOLIAN HIEROGLYPH A372', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A372 = "\u{145A5}";
 
-    #[Info(id: 83366, name: 'ANATOLIAN HIEROGLYPH A373', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A6, name: 'ANATOLIAN HIEROGLYPH A373', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A373 = "\u{145A6}";
 
-    #[Info(id: 83367, name: 'ANATOLIAN HIEROGLYPH A374', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A7, name: 'ANATOLIAN HIEROGLYPH A374', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A374 = "\u{145A7}";
 
-    #[Info(id: 83368, name: 'ANATOLIAN HIEROGLYPH A375', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A8, name: 'ANATOLIAN HIEROGLYPH A375', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A375 = "\u{145A8}";
 
-    #[Info(id: 83369, name: 'ANATOLIAN HIEROGLYPH A376', category: Cat::Other_Letter)]
+    #[Info(id: 0x145A9, name: 'ANATOLIAN HIEROGLYPH A376', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A376 = "\u{145A9}";
 
-    #[Info(id: 83370, name: 'ANATOLIAN HIEROGLYPH A377', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AA, name: 'ANATOLIAN HIEROGLYPH A377', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A377 = "\u{145AA}";
 
-    #[Info(id: 83371, name: 'ANATOLIAN HIEROGLYPH A378', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AB, name: 'ANATOLIAN HIEROGLYPH A378', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A378 = "\u{145AB}";
 
-    #[Info(id: 83372, name: 'ANATOLIAN HIEROGLYPH A379', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AC, name: 'ANATOLIAN HIEROGLYPH A379', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A379 = "\u{145AC}";
 
-    #[Info(id: 83373, name: 'ANATOLIAN HIEROGLYPH A380', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AD, name: 'ANATOLIAN HIEROGLYPH A380', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A380 = "\u{145AD}";
 
-    #[Info(id: 83374, name: 'ANATOLIAN HIEROGLYPH A381', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AE, name: 'ANATOLIAN HIEROGLYPH A381', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A381 = "\u{145AE}";
 
-    #[Info(id: 83375, name: 'ANATOLIAN HIEROGLYPH A381A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145AF, name: 'ANATOLIAN HIEROGLYPH A381A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A381A = "\u{145AF}";
 
-    #[Info(id: 83376, name: 'ANATOLIAN HIEROGLYPH A382', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B0, name: 'ANATOLIAN HIEROGLYPH A382', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A382 = "\u{145B0}";
 
-    #[Info(id: 83377, name: 'ANATOLIAN HIEROGLYPH A383 RA OR RI', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B1, name: 'ANATOLIAN HIEROGLYPH A383 RA OR RI', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A383_RA_OR_RI = "\u{145B1}";
 
-    #[Info(id: 83378, name: 'ANATOLIAN HIEROGLYPH A383A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B2, name: 'ANATOLIAN HIEROGLYPH A383A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A383A = "\u{145B2}";
 
-    #[Info(id: 83379, name: 'ANATOLIAN HIEROGLYPH A384', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B3, name: 'ANATOLIAN HIEROGLYPH A384', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A384 = "\u{145B3}";
 
-    #[Info(id: 83380, name: 'ANATOLIAN HIEROGLYPH A385', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B4, name: 'ANATOLIAN HIEROGLYPH A385', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A385 = "\u{145B4}";
 
-    #[Info(id: 83381, name: 'ANATOLIAN HIEROGLYPH A386', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B5, name: 'ANATOLIAN HIEROGLYPH A386', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A386 = "\u{145B5}";
 
-    #[Info(id: 83382, name: 'ANATOLIAN HIEROGLYPH A386A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B6, name: 'ANATOLIAN HIEROGLYPH A386A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A386A = "\u{145B6}";
 
-    #[Info(id: 83383, name: 'ANATOLIAN HIEROGLYPH A387', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B7, name: 'ANATOLIAN HIEROGLYPH A387', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A387 = "\u{145B7}";
 
-    #[Info(id: 83384, name: 'ANATOLIAN HIEROGLYPH A388', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B8, name: 'ANATOLIAN HIEROGLYPH A388', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A388 = "\u{145B8}";
 
-    #[Info(id: 83385, name: 'ANATOLIAN HIEROGLYPH A389', category: Cat::Other_Letter)]
+    #[Info(id: 0x145B9, name: 'ANATOLIAN HIEROGLYPH A389', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A389 = "\u{145B9}";
 
-    #[Info(id: 83386, name: 'ANATOLIAN HIEROGLYPH A390', category: Cat::Other_Letter)]
+    #[Info(id: 0x145BA, name: 'ANATOLIAN HIEROGLYPH A390', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A390 = "\u{145BA}";
 
-    #[Info(id: 83387, name: 'ANATOLIAN HIEROGLYPH A391', category: Cat::Other_Letter)]
+    #[Info(id: 0x145BB, name: 'ANATOLIAN HIEROGLYPH A391', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A391 = "\u{145BB}";
 
-    #[Info(id: 83388, name: 'ANATOLIAN HIEROGLYPH A392', category: Cat::Other_Letter)]
+    #[Info(id: 0x145BC, name: 'ANATOLIAN HIEROGLYPH A392', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A392 = "\u{145BC}";
 
-    #[Info(id: 83389, name: 'ANATOLIAN HIEROGLYPH A393 EIGHT', category: Cat::Other_Letter)]
+    #[Info(id: 0x145BD, name: 'ANATOLIAN HIEROGLYPH A393 EIGHT', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A393_EIGHT = "\u{145BD}";
 
-    #[Info(id: 83390, name: 'ANATOLIAN HIEROGLYPH A394', category: Cat::Other_Letter)]
+    #[Info(id: 0x145BE, name: 'ANATOLIAN HIEROGLYPH A394', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A394 = "\u{145BE}";
 
-    #[Info(id: 83391, name: 'ANATOLIAN HIEROGLYPH A395', category: Cat::Other_Letter)]
+    #[Info(id: 0x145BF, name: 'ANATOLIAN HIEROGLYPH A395', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A395 = "\u{145BF}";
 
-    #[Info(id: 83392, name: 'ANATOLIAN HIEROGLYPH A396', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C0, name: 'ANATOLIAN HIEROGLYPH A396', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A396 = "\u{145C0}";
 
-    #[Info(id: 83393, name: 'ANATOLIAN HIEROGLYPH A397', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C1, name: 'ANATOLIAN HIEROGLYPH A397', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A397 = "\u{145C1}";
 
-    #[Info(id: 83394, name: 'ANATOLIAN HIEROGLYPH A398', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C2, name: 'ANATOLIAN HIEROGLYPH A398', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A398 = "\u{145C2}";
 
-    #[Info(id: 83395, name: 'ANATOLIAN HIEROGLYPH A399', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C3, name: 'ANATOLIAN HIEROGLYPH A399', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A399 = "\u{145C3}";
 
-    #[Info(id: 83396, name: 'ANATOLIAN HIEROGLYPH A400', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C4, name: 'ANATOLIAN HIEROGLYPH A400', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A400 = "\u{145C4}";
 
-    #[Info(id: 83397, name: 'ANATOLIAN HIEROGLYPH A401', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C5, name: 'ANATOLIAN HIEROGLYPH A401', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A401 = "\u{145C5}";
 
-    #[Info(id: 83398, name: 'ANATOLIAN HIEROGLYPH A402', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C6, name: 'ANATOLIAN HIEROGLYPH A402', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A402 = "\u{145C6}";
 
-    #[Info(id: 83399, name: 'ANATOLIAN HIEROGLYPH A403', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C7, name: 'ANATOLIAN HIEROGLYPH A403', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A403 = "\u{145C7}";
 
-    #[Info(id: 83400, name: 'ANATOLIAN HIEROGLYPH A404', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C8, name: 'ANATOLIAN HIEROGLYPH A404', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A404 = "\u{145C8}";
 
-    #[Info(id: 83401, name: 'ANATOLIAN HIEROGLYPH A405', category: Cat::Other_Letter)]
+    #[Info(id: 0x145C9, name: 'ANATOLIAN HIEROGLYPH A405', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A405 = "\u{145C9}";
 
-    #[Info(id: 83402, name: 'ANATOLIAN HIEROGLYPH A406', category: Cat::Other_Letter)]
+    #[Info(id: 0x145CA, name: 'ANATOLIAN HIEROGLYPH A406', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A406 = "\u{145CA}";
 
-    #[Info(id: 83403, name: 'ANATOLIAN HIEROGLYPH A407', category: Cat::Other_Letter)]
+    #[Info(id: 0x145CB, name: 'ANATOLIAN HIEROGLYPH A407', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A407 = "\u{145CB}";
 
-    #[Info(id: 83404, name: 'ANATOLIAN HIEROGLYPH A408', category: Cat::Other_Letter)]
+    #[Info(id: 0x145CC, name: 'ANATOLIAN HIEROGLYPH A408', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A408 = "\u{145CC}";
 
-    #[Info(id: 83405, name: 'ANATOLIAN HIEROGLYPH A409', category: Cat::Other_Letter)]
+    #[Info(id: 0x145CD, name: 'ANATOLIAN HIEROGLYPH A409', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A409 = "\u{145CD}";
 
-    #[Info(id: 83406, name: 'ANATOLIAN HIEROGLYPH A410 BEGIN LOGOGRAM MARK', category: Cat::Other_Letter)]
+    #[Info(id: 0x145CE, name: 'ANATOLIAN HIEROGLYPH A410 BEGIN LOGOGRAM MARK', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A410_BEGIN_LOGOGRAM_MARK = "\u{145CE}";
 
-    #[Info(id: 83407, name: 'ANATOLIAN HIEROGLYPH A410A END LOGOGRAM MARK', category: Cat::Other_Letter)]
+    #[Info(id: 0x145CF, name: 'ANATOLIAN HIEROGLYPH A410A END LOGOGRAM MARK', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A410A_END_LOGOGRAM_MARK = "\u{145CF}";
 
-    #[Info(id: 83408, name: 'ANATOLIAN HIEROGLYPH A411', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D0, name: 'ANATOLIAN HIEROGLYPH A411', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A411 = "\u{145D0}";
 
-    #[Info(id: 83409, name: 'ANATOLIAN HIEROGLYPH A412', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D1, name: 'ANATOLIAN HIEROGLYPH A412', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A412 = "\u{145D1}";
 
-    #[Info(id: 83410, name: 'ANATOLIAN HIEROGLYPH A413', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D2, name: 'ANATOLIAN HIEROGLYPH A413', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A413 = "\u{145D2}";
 
-    #[Info(id: 83411, name: 'ANATOLIAN HIEROGLYPH A414', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D3, name: 'ANATOLIAN HIEROGLYPH A414', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A414 = "\u{145D3}";
 
-    #[Info(id: 83412, name: 'ANATOLIAN HIEROGLYPH A415', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D4, name: 'ANATOLIAN HIEROGLYPH A415', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A415 = "\u{145D4}";
 
-    #[Info(id: 83413, name: 'ANATOLIAN HIEROGLYPH A416', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D5, name: 'ANATOLIAN HIEROGLYPH A416', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A416 = "\u{145D5}";
 
-    #[Info(id: 83414, name: 'ANATOLIAN HIEROGLYPH A417', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D6, name: 'ANATOLIAN HIEROGLYPH A417', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A417 = "\u{145D6}";
 
-    #[Info(id: 83415, name: 'ANATOLIAN HIEROGLYPH A418', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D7, name: 'ANATOLIAN HIEROGLYPH A418', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A418 = "\u{145D7}";
 
-    #[Info(id: 83416, name: 'ANATOLIAN HIEROGLYPH A419', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D8, name: 'ANATOLIAN HIEROGLYPH A419', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A419 = "\u{145D8}";
 
-    #[Info(id: 83417, name: 'ANATOLIAN HIEROGLYPH A420', category: Cat::Other_Letter)]
+    #[Info(id: 0x145D9, name: 'ANATOLIAN HIEROGLYPH A420', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A420 = "\u{145D9}";
 
-    #[Info(id: 83418, name: 'ANATOLIAN HIEROGLYPH A421', category: Cat::Other_Letter)]
+    #[Info(id: 0x145DA, name: 'ANATOLIAN HIEROGLYPH A421', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A421 = "\u{145DA}";
 
-    #[Info(id: 83419, name: 'ANATOLIAN HIEROGLYPH A422', category: Cat::Other_Letter)]
+    #[Info(id: 0x145DB, name: 'ANATOLIAN HIEROGLYPH A422', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A422 = "\u{145DB}";
 
-    #[Info(id: 83420, name: 'ANATOLIAN HIEROGLYPH A423', category: Cat::Other_Letter)]
+    #[Info(id: 0x145DC, name: 'ANATOLIAN HIEROGLYPH A423', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A423 = "\u{145DC}";
 
-    #[Info(id: 83421, name: 'ANATOLIAN HIEROGLYPH A424', category: Cat::Other_Letter)]
+    #[Info(id: 0x145DD, name: 'ANATOLIAN HIEROGLYPH A424', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A424 = "\u{145DD}";
 
-    #[Info(id: 83422, name: 'ANATOLIAN HIEROGLYPH A425', category: Cat::Other_Letter)]
+    #[Info(id: 0x145DE, name: 'ANATOLIAN HIEROGLYPH A425', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A425 = "\u{145DE}";
 
-    #[Info(id: 83423, name: 'ANATOLIAN HIEROGLYPH A426', category: Cat::Other_Letter)]
+    #[Info(id: 0x145DF, name: 'ANATOLIAN HIEROGLYPH A426', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A426 = "\u{145DF}";
 
-    #[Info(id: 83424, name: 'ANATOLIAN HIEROGLYPH A427', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E0, name: 'ANATOLIAN HIEROGLYPH A427', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A427 = "\u{145E0}";
 
-    #[Info(id: 83425, name: 'ANATOLIAN HIEROGLYPH A428', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E1, name: 'ANATOLIAN HIEROGLYPH A428', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A428 = "\u{145E1}";
 
-    #[Info(id: 83426, name: 'ANATOLIAN HIEROGLYPH A429', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E2, name: 'ANATOLIAN HIEROGLYPH A429', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A429 = "\u{145E2}";
 
-    #[Info(id: 83427, name: 'ANATOLIAN HIEROGLYPH A430', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E3, name: 'ANATOLIAN HIEROGLYPH A430', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A430 = "\u{145E3}";
 
-    #[Info(id: 83428, name: 'ANATOLIAN HIEROGLYPH A431', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E4, name: 'ANATOLIAN HIEROGLYPH A431', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A431 = "\u{145E4}";
 
-    #[Info(id: 83429, name: 'ANATOLIAN HIEROGLYPH A432', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E5, name: 'ANATOLIAN HIEROGLYPH A432', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A432 = "\u{145E5}";
 
-    #[Info(id: 83430, name: 'ANATOLIAN HIEROGLYPH A433', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E6, name: 'ANATOLIAN HIEROGLYPH A433', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A433 = "\u{145E6}";
 
-    #[Info(id: 83431, name: 'ANATOLIAN HIEROGLYPH A434', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E7, name: 'ANATOLIAN HIEROGLYPH A434', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A434 = "\u{145E7}";
 
-    #[Info(id: 83432, name: 'ANATOLIAN HIEROGLYPH A435', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E8, name: 'ANATOLIAN HIEROGLYPH A435', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A435 = "\u{145E8}";
 
-    #[Info(id: 83433, name: 'ANATOLIAN HIEROGLYPH A436', category: Cat::Other_Letter)]
+    #[Info(id: 0x145E9, name: 'ANATOLIAN HIEROGLYPH A436', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A436 = "\u{145E9}";
 
-    #[Info(id: 83434, name: 'ANATOLIAN HIEROGLYPH A437', category: Cat::Other_Letter)]
+    #[Info(id: 0x145EA, name: 'ANATOLIAN HIEROGLYPH A437', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A437 = "\u{145EA}";
 
-    #[Info(id: 83435, name: 'ANATOLIAN HIEROGLYPH A438', category: Cat::Other_Letter)]
+    #[Info(id: 0x145EB, name: 'ANATOLIAN HIEROGLYPH A438', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A438 = "\u{145EB}";
 
-    #[Info(id: 83436, name: 'ANATOLIAN HIEROGLYPH A439', category: Cat::Other_Letter)]
+    #[Info(id: 0x145EC, name: 'ANATOLIAN HIEROGLYPH A439', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A439 = "\u{145EC}";
 
-    #[Info(id: 83437, name: 'ANATOLIAN HIEROGLYPH A440', category: Cat::Other_Letter)]
+    #[Info(id: 0x145ED, name: 'ANATOLIAN HIEROGLYPH A440', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A440 = "\u{145ED}";
 
-    #[Info(id: 83438, name: 'ANATOLIAN HIEROGLYPH A441', category: Cat::Other_Letter)]
+    #[Info(id: 0x145EE, name: 'ANATOLIAN HIEROGLYPH A441', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A441 = "\u{145EE}";
 
-    #[Info(id: 83439, name: 'ANATOLIAN HIEROGLYPH A442', category: Cat::Other_Letter)]
+    #[Info(id: 0x145EF, name: 'ANATOLIAN HIEROGLYPH A442', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A442 = "\u{145EF}";
 
-    #[Info(id: 83440, name: 'ANATOLIAN HIEROGLYPH A443', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F0, name: 'ANATOLIAN HIEROGLYPH A443', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A443 = "\u{145F0}";
 
-    #[Info(id: 83441, name: 'ANATOLIAN HIEROGLYPH A444', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F1, name: 'ANATOLIAN HIEROGLYPH A444', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A444 = "\u{145F1}";
 
-    #[Info(id: 83442, name: 'ANATOLIAN HIEROGLYPH A445', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F2, name: 'ANATOLIAN HIEROGLYPH A445', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A445 = "\u{145F2}";
 
-    #[Info(id: 83443, name: 'ANATOLIAN HIEROGLYPH A446', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F3, name: 'ANATOLIAN HIEROGLYPH A446', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A446 = "\u{145F3}";
 
-    #[Info(id: 83444, name: 'ANATOLIAN HIEROGLYPH A447', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F4, name: 'ANATOLIAN HIEROGLYPH A447', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A447 = "\u{145F4}";
 
-    #[Info(id: 83445, name: 'ANATOLIAN HIEROGLYPH A448', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F5, name: 'ANATOLIAN HIEROGLYPH A448', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A448 = "\u{145F5}";
 
-    #[Info(id: 83446, name: 'ANATOLIAN HIEROGLYPH A449', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F6, name: 'ANATOLIAN HIEROGLYPH A449', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A449 = "\u{145F6}";
 
-    #[Info(id: 83447, name: 'ANATOLIAN HIEROGLYPH A450', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F7, name: 'ANATOLIAN HIEROGLYPH A450', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A450 = "\u{145F7}";
 
-    #[Info(id: 83448, name: 'ANATOLIAN HIEROGLYPH A450A', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F8, name: 'ANATOLIAN HIEROGLYPH A450A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A450A = "\u{145F8}";
 
-    #[Info(id: 83449, name: 'ANATOLIAN HIEROGLYPH A451', category: Cat::Other_Letter)]
+    #[Info(id: 0x145F9, name: 'ANATOLIAN HIEROGLYPH A451', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A451 = "\u{145F9}";
 
-    #[Info(id: 83450, name: 'ANATOLIAN HIEROGLYPH A452', category: Cat::Other_Letter)]
+    #[Info(id: 0x145FA, name: 'ANATOLIAN HIEROGLYPH A452', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A452 = "\u{145FA}";
 
-    #[Info(id: 83451, name: 'ANATOLIAN HIEROGLYPH A453', category: Cat::Other_Letter)]
+    #[Info(id: 0x145FB, name: 'ANATOLIAN HIEROGLYPH A453', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A453 = "\u{145FB}";
 
-    #[Info(id: 83452, name: 'ANATOLIAN HIEROGLYPH A454', category: Cat::Other_Letter)]
+    #[Info(id: 0x145FC, name: 'ANATOLIAN HIEROGLYPH A454', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A454 = "\u{145FC}";
 
-    #[Info(id: 83453, name: 'ANATOLIAN HIEROGLYPH A455', category: Cat::Other_Letter)]
+    #[Info(id: 0x145FD, name: 'ANATOLIAN HIEROGLYPH A455', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A455 = "\u{145FD}";
 
-    #[Info(id: 83454, name: 'ANATOLIAN HIEROGLYPH A456', category: Cat::Other_Letter)]
+    #[Info(id: 0x145FE, name: 'ANATOLIAN HIEROGLYPH A456', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A456 = "\u{145FE}";
 
-    #[Info(id: 83455, name: 'ANATOLIAN HIEROGLYPH A457', category: Cat::Other_Letter)]
+    #[Info(id: 0x145FF, name: 'ANATOLIAN HIEROGLYPH A457', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A457 = "\u{145FF}";
 
-    #[Info(id: 83456, name: 'ANATOLIAN HIEROGLYPH A457A', category: Cat::Other_Letter)]
+    #[Info(id: 0x14600, name: 'ANATOLIAN HIEROGLYPH A457A', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A457A = "\u{14600}";
 
-    #[Info(id: 83457, name: 'ANATOLIAN HIEROGLYPH A458', category: Cat::Other_Letter)]
+    #[Info(id: 0x14601, name: 'ANATOLIAN HIEROGLYPH A458', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A458 = "\u{14601}";
 
-    #[Info(id: 83458, name: 'ANATOLIAN HIEROGLYPH A459', category: Cat::Other_Letter)]
+    #[Info(id: 0x14602, name: 'ANATOLIAN HIEROGLYPH A459', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A459 = "\u{14602}";
 
-    #[Info(id: 83459, name: 'ANATOLIAN HIEROGLYPH A460', category: Cat::Other_Letter)]
+    #[Info(id: 0x14603, name: 'ANATOLIAN HIEROGLYPH A460', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A460 = "\u{14603}";
 
-    #[Info(id: 83460, name: 'ANATOLIAN HIEROGLYPH A461', category: Cat::Other_Letter)]
+    #[Info(id: 0x14604, name: 'ANATOLIAN HIEROGLYPH A461', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A461 = "\u{14604}";
 
-    #[Info(id: 83461, name: 'ANATOLIAN HIEROGLYPH A462', category: Cat::Other_Letter)]
+    #[Info(id: 0x14605, name: 'ANATOLIAN HIEROGLYPH A462', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A462 = "\u{14605}";
 
-    #[Info(id: 83462, name: 'ANATOLIAN HIEROGLYPH A463', category: Cat::Other_Letter)]
+    #[Info(id: 0x14606, name: 'ANATOLIAN HIEROGLYPH A463', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A463 = "\u{14606}";
 
-    #[Info(id: 83463, name: 'ANATOLIAN HIEROGLYPH A464', category: Cat::Other_Letter)]
+    #[Info(id: 0x14607, name: 'ANATOLIAN HIEROGLYPH A464', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A464 = "\u{14607}";
 
-    #[Info(id: 83464, name: 'ANATOLIAN HIEROGLYPH A465', category: Cat::Other_Letter)]
+    #[Info(id: 0x14608, name: 'ANATOLIAN HIEROGLYPH A465', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A465 = "\u{14608}";
 
-    #[Info(id: 83465, name: 'ANATOLIAN HIEROGLYPH A466', category: Cat::Other_Letter)]
+    #[Info(id: 0x14609, name: 'ANATOLIAN HIEROGLYPH A466', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A466 = "\u{14609}";
 
-    #[Info(id: 83466, name: 'ANATOLIAN HIEROGLYPH A467', category: Cat::Other_Letter)]
+    #[Info(id: 0x1460A, name: 'ANATOLIAN HIEROGLYPH A467', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A467 = "\u{1460A}";
 
-    #[Info(id: 83467, name: 'ANATOLIAN HIEROGLYPH A468', category: Cat::Other_Letter)]
+    #[Info(id: 0x1460B, name: 'ANATOLIAN HIEROGLYPH A468', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A468 = "\u{1460B}";
 
-    #[Info(id: 83468, name: 'ANATOLIAN HIEROGLYPH A469', category: Cat::Other_Letter)]
+    #[Info(id: 0x1460C, name: 'ANATOLIAN HIEROGLYPH A469', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A469 = "\u{1460C}";
 
-    #[Info(id: 83469, name: 'ANATOLIAN HIEROGLYPH A470', category: Cat::Other_Letter)]
+    #[Info(id: 0x1460D, name: 'ANATOLIAN HIEROGLYPH A470', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A470 = "\u{1460D}";
 
-    #[Info(id: 83470, name: 'ANATOLIAN HIEROGLYPH A471', category: Cat::Other_Letter)]
+    #[Info(id: 0x1460E, name: 'ANATOLIAN HIEROGLYPH A471', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A471 = "\u{1460E}";
 
-    #[Info(id: 83471, name: 'ANATOLIAN HIEROGLYPH A472', category: Cat::Other_Letter)]
+    #[Info(id: 0x1460F, name: 'ANATOLIAN HIEROGLYPH A472', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A472 = "\u{1460F}";
 
-    #[Info(id: 83472, name: 'ANATOLIAN HIEROGLYPH A473', category: Cat::Other_Letter)]
+    #[Info(id: 0x14610, name: 'ANATOLIAN HIEROGLYPH A473', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A473 = "\u{14610}";
 
-    #[Info(id: 83473, name: 'ANATOLIAN HIEROGLYPH A474', category: Cat::Other_Letter)]
+    #[Info(id: 0x14611, name: 'ANATOLIAN HIEROGLYPH A474', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A474 = "\u{14611}";
 
-    #[Info(id: 83474, name: 'ANATOLIAN HIEROGLYPH A475', category: Cat::Other_Letter)]
+    #[Info(id: 0x14612, name: 'ANATOLIAN HIEROGLYPH A475', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A475 = "\u{14612}";
 
-    #[Info(id: 83475, name: 'ANATOLIAN HIEROGLYPH A476', category: Cat::Other_Letter)]
+    #[Info(id: 0x14613, name: 'ANATOLIAN HIEROGLYPH A476', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A476 = "\u{14613}";
 
-    #[Info(id: 83476, name: 'ANATOLIAN HIEROGLYPH A477', category: Cat::Other_Letter)]
+    #[Info(id: 0x14614, name: 'ANATOLIAN HIEROGLYPH A477', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A477 = "\u{14614}";
 
-    #[Info(id: 83477, name: 'ANATOLIAN HIEROGLYPH A478', category: Cat::Other_Letter)]
+    #[Info(id: 0x14615, name: 'ANATOLIAN HIEROGLYPH A478', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A478 = "\u{14615}";
 
-    #[Info(id: 83478, name: 'ANATOLIAN HIEROGLYPH A479', category: Cat::Other_Letter)]
+    #[Info(id: 0x14616, name: 'ANATOLIAN HIEROGLYPH A479', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A479 = "\u{14616}";
 
-    #[Info(id: 83479, name: 'ANATOLIAN HIEROGLYPH A480', category: Cat::Other_Letter)]
+    #[Info(id: 0x14617, name: 'ANATOLIAN HIEROGLYPH A480', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A480 = "\u{14617}";
 
-    #[Info(id: 83480, name: 'ANATOLIAN HIEROGLYPH A481', category: Cat::Other_Letter)]
+    #[Info(id: 0x14618, name: 'ANATOLIAN HIEROGLYPH A481', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A481 = "\u{14618}";
 
-    #[Info(id: 83481, name: 'ANATOLIAN HIEROGLYPH A482', category: Cat::Other_Letter)]
+    #[Info(id: 0x14619, name: 'ANATOLIAN HIEROGLYPH A482', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A482 = "\u{14619}";
 
-    #[Info(id: 83482, name: 'ANATOLIAN HIEROGLYPH A483', category: Cat::Other_Letter)]
+    #[Info(id: 0x1461A, name: 'ANATOLIAN HIEROGLYPH A483', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A483 = "\u{1461A}";
 
-    #[Info(id: 83483, name: 'ANATOLIAN HIEROGLYPH A484', category: Cat::Other_Letter)]
+    #[Info(id: 0x1461B, name: 'ANATOLIAN HIEROGLYPH A484', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A484 = "\u{1461B}";
 
-    #[Info(id: 83484, name: 'ANATOLIAN HIEROGLYPH A485', category: Cat::Other_Letter)]
+    #[Info(id: 0x1461C, name: 'ANATOLIAN HIEROGLYPH A485', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A485 = "\u{1461C}";
 
-    #[Info(id: 83485, name: 'ANATOLIAN HIEROGLYPH A486', category: Cat::Other_Letter)]
+    #[Info(id: 0x1461D, name: 'ANATOLIAN HIEROGLYPH A486', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A486 = "\u{1461D}";
 
-    #[Info(id: 83486, name: 'ANATOLIAN HIEROGLYPH A487', category: Cat::Other_Letter)]
+    #[Info(id: 0x1461E, name: 'ANATOLIAN HIEROGLYPH A487', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A487 = "\u{1461E}";
 
-    #[Info(id: 83487, name: 'ANATOLIAN HIEROGLYPH A488', category: Cat::Other_Letter)]
+    #[Info(id: 0x1461F, name: 'ANATOLIAN HIEROGLYPH A488', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A488 = "\u{1461F}";
 
-    #[Info(id: 83488, name: 'ANATOLIAN HIEROGLYPH A489', category: Cat::Other_Letter)]
+    #[Info(id: 0x14620, name: 'ANATOLIAN HIEROGLYPH A489', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A489 = "\u{14620}";
 
-    #[Info(id: 83489, name: 'ANATOLIAN HIEROGLYPH A490', category: Cat::Other_Letter)]
+    #[Info(id: 0x14621, name: 'ANATOLIAN HIEROGLYPH A490', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A490 = "\u{14621}";
 
-    #[Info(id: 83490, name: 'ANATOLIAN HIEROGLYPH A491', category: Cat::Other_Letter)]
+    #[Info(id: 0x14622, name: 'ANATOLIAN HIEROGLYPH A491', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A491 = "\u{14622}";
 
-    #[Info(id: 83491, name: 'ANATOLIAN HIEROGLYPH A492', category: Cat::Other_Letter)]
+    #[Info(id: 0x14623, name: 'ANATOLIAN HIEROGLYPH A492', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A492 = "\u{14623}";
 
-    #[Info(id: 83492, name: 'ANATOLIAN HIEROGLYPH A493', category: Cat::Other_Letter)]
+    #[Info(id: 0x14624, name: 'ANATOLIAN HIEROGLYPH A493', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A493 = "\u{14624}";
 
-    #[Info(id: 83493, name: 'ANATOLIAN HIEROGLYPH A494', category: Cat::Other_Letter)]
+    #[Info(id: 0x14625, name: 'ANATOLIAN HIEROGLYPH A494', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A494 = "\u{14625}";
 
-    #[Info(id: 83494, name: 'ANATOLIAN HIEROGLYPH A495', category: Cat::Other_Letter)]
+    #[Info(id: 0x14626, name: 'ANATOLIAN HIEROGLYPH A495', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A495 = "\u{14626}";
 
-    #[Info(id: 83495, name: 'ANATOLIAN HIEROGLYPH A496', category: Cat::Other_Letter)]
+    #[Info(id: 0x14627, name: 'ANATOLIAN HIEROGLYPH A496', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A496 = "\u{14627}";
 
-    #[Info(id: 83496, name: 'ANATOLIAN HIEROGLYPH A497', category: Cat::Other_Letter)]
+    #[Info(id: 0x14628, name: 'ANATOLIAN HIEROGLYPH A497', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A497 = "\u{14628}";
 
-    #[Info(id: 83497, name: 'ANATOLIAN HIEROGLYPH A501', category: Cat::Other_Letter)]
+    #[Info(id: 0x14629, name: 'ANATOLIAN HIEROGLYPH A501', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A501 = "\u{14629}";
 
-    #[Info(id: 83498, name: 'ANATOLIAN HIEROGLYPH A502', category: Cat::Other_Letter)]
+    #[Info(id: 0x1462A, name: 'ANATOLIAN HIEROGLYPH A502', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A502 = "\u{1462A}";
 
-    #[Info(id: 83499, name: 'ANATOLIAN HIEROGLYPH A503', category: Cat::Other_Letter)]
+    #[Info(id: 0x1462B, name: 'ANATOLIAN HIEROGLYPH A503', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A503 = "\u{1462B}";
 
-    #[Info(id: 83500, name: 'ANATOLIAN HIEROGLYPH A504', category: Cat::Other_Letter)]
+    #[Info(id: 0x1462C, name: 'ANATOLIAN HIEROGLYPH A504', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A504 = "\u{1462C}";
 
-    #[Info(id: 83501, name: 'ANATOLIAN HIEROGLYPH A505', category: Cat::Other_Letter)]
+    #[Info(id: 0x1462D, name: 'ANATOLIAN HIEROGLYPH A505', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A505 = "\u{1462D}";
 
-    #[Info(id: 83502, name: 'ANATOLIAN HIEROGLYPH A506', category: Cat::Other_Letter)]
+    #[Info(id: 0x1462E, name: 'ANATOLIAN HIEROGLYPH A506', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A506 = "\u{1462E}";
 
-    #[Info(id: 83503, name: 'ANATOLIAN HIEROGLYPH A507', category: Cat::Other_Letter)]
+    #[Info(id: 0x1462F, name: 'ANATOLIAN HIEROGLYPH A507', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A507 = "\u{1462F}";
 
-    #[Info(id: 83504, name: 'ANATOLIAN HIEROGLYPH A508', category: Cat::Other_Letter)]
+    #[Info(id: 0x14630, name: 'ANATOLIAN HIEROGLYPH A508', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A508 = "\u{14630}";
 
-    #[Info(id: 83505, name: 'ANATOLIAN HIEROGLYPH A509', category: Cat::Other_Letter)]
+    #[Info(id: 0x14631, name: 'ANATOLIAN HIEROGLYPH A509', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A509 = "\u{14631}";
 
-    #[Info(id: 83506, name: 'ANATOLIAN HIEROGLYPH A510', category: Cat::Other_Letter)]
+    #[Info(id: 0x14632, name: 'ANATOLIAN HIEROGLYPH A510', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A510 = "\u{14632}";
 
-    #[Info(id: 83507, name: 'ANATOLIAN HIEROGLYPH A511', category: Cat::Other_Letter)]
+    #[Info(id: 0x14633, name: 'ANATOLIAN HIEROGLYPH A511', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A511 = "\u{14633}";
 
-    #[Info(id: 83508, name: 'ANATOLIAN HIEROGLYPH A512', category: Cat::Other_Letter)]
+    #[Info(id: 0x14634, name: 'ANATOLIAN HIEROGLYPH A512', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A512 = "\u{14634}";
 
-    #[Info(id: 83509, name: 'ANATOLIAN HIEROGLYPH A513', category: Cat::Other_Letter)]
+    #[Info(id: 0x14635, name: 'ANATOLIAN HIEROGLYPH A513', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A513 = "\u{14635}";
 
-    #[Info(id: 83510, name: 'ANATOLIAN HIEROGLYPH A514', category: Cat::Other_Letter)]
+    #[Info(id: 0x14636, name: 'ANATOLIAN HIEROGLYPH A514', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A514 = "\u{14636}";
 
-    #[Info(id: 83511, name: 'ANATOLIAN HIEROGLYPH A515', category: Cat::Other_Letter)]
+    #[Info(id: 0x14637, name: 'ANATOLIAN HIEROGLYPH A515', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A515 = "\u{14637}";
 
-    #[Info(id: 83512, name: 'ANATOLIAN HIEROGLYPH A516', category: Cat::Other_Letter)]
+    #[Info(id: 0x14638, name: 'ANATOLIAN HIEROGLYPH A516', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A516 = "\u{14638}";
 
-    #[Info(id: 83513, name: 'ANATOLIAN HIEROGLYPH A517', category: Cat::Other_Letter)]
+    #[Info(id: 0x14639, name: 'ANATOLIAN HIEROGLYPH A517', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A517 = "\u{14639}";
 
-    #[Info(id: 83514, name: 'ANATOLIAN HIEROGLYPH A518', category: Cat::Other_Letter)]
+    #[Info(id: 0x1463A, name: 'ANATOLIAN HIEROGLYPH A518', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A518 = "\u{1463A}";
 
-    #[Info(id: 83515, name: 'ANATOLIAN HIEROGLYPH A519', category: Cat::Other_Letter)]
+    #[Info(id: 0x1463B, name: 'ANATOLIAN HIEROGLYPH A519', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A519 = "\u{1463B}";
 
-    #[Info(id: 83516, name: 'ANATOLIAN HIEROGLYPH A520', category: Cat::Other_Letter)]
+    #[Info(id: 0x1463C, name: 'ANATOLIAN HIEROGLYPH A520', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A520 = "\u{1463C}";
 
-    #[Info(id: 83517, name: 'ANATOLIAN HIEROGLYPH A521', category: Cat::Other_Letter)]
+    #[Info(id: 0x1463D, name: 'ANATOLIAN HIEROGLYPH A521', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A521 = "\u{1463D}";
 
-    #[Info(id: 83518, name: 'ANATOLIAN HIEROGLYPH A522', category: Cat::Other_Letter)]
+    #[Info(id: 0x1463E, name: 'ANATOLIAN HIEROGLYPH A522', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A522 = "\u{1463E}";
 
-    #[Info(id: 83519, name: 'ANATOLIAN HIEROGLYPH A523', category: Cat::Other_Letter)]
+    #[Info(id: 0x1463F, name: 'ANATOLIAN HIEROGLYPH A523', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A523 = "\u{1463F}";
 
-    #[Info(id: 83520, name: 'ANATOLIAN HIEROGLYPH A524', category: Cat::Other_Letter)]
+    #[Info(id: 0x14640, name: 'ANATOLIAN HIEROGLYPH A524', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A524 = "\u{14640}";
 
-    #[Info(id: 83521, name: 'ANATOLIAN HIEROGLYPH A525', category: Cat::Other_Letter)]
+    #[Info(id: 0x14641, name: 'ANATOLIAN HIEROGLYPH A525', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A525 = "\u{14641}";
 
-    #[Info(id: 83522, name: 'ANATOLIAN HIEROGLYPH A526', category: Cat::Other_Letter)]
+    #[Info(id: 0x14642, name: 'ANATOLIAN HIEROGLYPH A526', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A526 = "\u{14642}";
 
-    #[Info(id: 83523, name: 'ANATOLIAN HIEROGLYPH A527', category: Cat::Other_Letter)]
+    #[Info(id: 0x14643, name: 'ANATOLIAN HIEROGLYPH A527', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A527 = "\u{14643}";
 
-    #[Info(id: 83524, name: 'ANATOLIAN HIEROGLYPH A528', category: Cat::Other_Letter)]
+    #[Info(id: 0x14644, name: 'ANATOLIAN HIEROGLYPH A528', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A528 = "\u{14644}";
 
-    #[Info(id: 83525, name: 'ANATOLIAN HIEROGLYPH A529', category: Cat::Other_Letter)]
+    #[Info(id: 0x14645, name: 'ANATOLIAN HIEROGLYPH A529', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A529 = "\u{14645}";
 
-    #[Info(id: 83526, name: 'ANATOLIAN HIEROGLYPH A530', category: Cat::Other_Letter)]
+    #[Info(id: 0x14646, name: 'ANATOLIAN HIEROGLYPH A530', category: Cat::Other_Letter)]
     case ANATOLIAN_HIEROGLYPH_A530 = "\u{14646}";
 }

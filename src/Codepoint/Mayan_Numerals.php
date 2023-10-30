@@ -16,63 +16,63 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Mayan_Numerals: string
 {
-    #[Info(id: 119520, name: 'MAYAN NUMERAL ZERO', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2E0, name: 'MAYAN NUMERAL ZERO', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_ZERO = "\u{1D2E0}";
 
-    #[Info(id: 119521, name: 'MAYAN NUMERAL ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2E1, name: 'MAYAN NUMERAL ONE', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_ONE = "\u{1D2E1}";
 
-    #[Info(id: 119522, name: 'MAYAN NUMERAL TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2E2, name: 'MAYAN NUMERAL TWO', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_TWO = "\u{1D2E2}";
 
-    #[Info(id: 119523, name: 'MAYAN NUMERAL THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2E3, name: 'MAYAN NUMERAL THREE', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_THREE = "\u{1D2E3}";
 
-    #[Info(id: 119524, name: 'MAYAN NUMERAL FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2E4, name: 'MAYAN NUMERAL FOUR', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_FOUR = "\u{1D2E4}";
 
-    #[Info(id: 119525, name: 'MAYAN NUMERAL FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2E5, name: 'MAYAN NUMERAL FIVE', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_FIVE = "\u{1D2E5}";
 
-    #[Info(id: 119526, name: 'MAYAN NUMERAL SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2E6, name: 'MAYAN NUMERAL SIX', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_SIX = "\u{1D2E6}";
 
-    #[Info(id: 119527, name: 'MAYAN NUMERAL SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2E7, name: 'MAYAN NUMERAL SEVEN', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_SEVEN = "\u{1D2E7}";
 
-    #[Info(id: 119528, name: 'MAYAN NUMERAL EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2E8, name: 'MAYAN NUMERAL EIGHT', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_EIGHT = "\u{1D2E8}";
 
-    #[Info(id: 119529, name: 'MAYAN NUMERAL NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2E9, name: 'MAYAN NUMERAL NINE', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_NINE = "\u{1D2E9}";
 
-    #[Info(id: 119530, name: 'MAYAN NUMERAL TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2EA, name: 'MAYAN NUMERAL TEN', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_TEN = "\u{1D2EA}";
 
-    #[Info(id: 119531, name: 'MAYAN NUMERAL ELEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2EB, name: 'MAYAN NUMERAL ELEVEN', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_ELEVEN = "\u{1D2EB}";
 
-    #[Info(id: 119532, name: 'MAYAN NUMERAL TWELVE', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2EC, name: 'MAYAN NUMERAL TWELVE', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_TWELVE = "\u{1D2EC}";
 
-    #[Info(id: 119533, name: 'MAYAN NUMERAL THIRTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2ED, name: 'MAYAN NUMERAL THIRTEEN', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_THIRTEEN = "\u{1D2ED}";
 
-    #[Info(id: 119534, name: 'MAYAN NUMERAL FOURTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2EE, name: 'MAYAN NUMERAL FOURTEEN', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_FOURTEEN = "\u{1D2EE}";
 
-    #[Info(id: 119535, name: 'MAYAN NUMERAL FIFTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2EF, name: 'MAYAN NUMERAL FIFTEEN', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_FIFTEEN = "\u{1D2EF}";
 
-    #[Info(id: 119536, name: 'MAYAN NUMERAL SIXTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2F0, name: 'MAYAN NUMERAL SIXTEEN', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_SIXTEEN = "\u{1D2F0}";
 
-    #[Info(id: 119537, name: 'MAYAN NUMERAL SEVENTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2F1, name: 'MAYAN NUMERAL SEVENTEEN', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_SEVENTEEN = "\u{1D2F1}";
 
-    #[Info(id: 119538, name: 'MAYAN NUMERAL EIGHTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2F2, name: 'MAYAN NUMERAL EIGHTEEN', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_EIGHTEEN = "\u{1D2F2}";
 
-    #[Info(id: 119539, name: 'MAYAN NUMERAL NINETEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1D2F3, name: 'MAYAN NUMERAL NINETEEN', category: Cat::Other_Number)]
     case MAYAN_NUMERAL_NINETEEN = "\u{1D2F3}";
 }

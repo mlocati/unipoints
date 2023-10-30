@@ -16,2307 +16,2307 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Miscellaneous_Symbols_and_Pictographs: string
 {
-    #[Info(id: 127744, name: 'CYCLONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F300, name: 'CYCLONE', category: Cat::Other_Symbol)]
     case CYCLONE = "\u{1F300}";
 
-    #[Info(id: 127745, name: 'FOGGY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F301, name: 'FOGGY', category: Cat::Other_Symbol)]
     case FOGGY = "\u{1F301}";
 
-    #[Info(id: 127746, name: 'CLOSED UMBRELLA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F302, name: 'CLOSED UMBRELLA', category: Cat::Other_Symbol)]
     case CLOSED_UMBRELLA = "\u{1F302}";
 
-    #[Info(id: 127747, name: 'NIGHT WITH STARS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F303, name: 'NIGHT WITH STARS', category: Cat::Other_Symbol)]
     case NIGHT_WITH_STARS = "\u{1F303}";
 
-    #[Info(id: 127748, name: 'SUNRISE OVER MOUNTAINS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F304, name: 'SUNRISE OVER MOUNTAINS', category: Cat::Other_Symbol)]
     case SUNRISE_OVER_MOUNTAINS = "\u{1F304}";
 
-    #[Info(id: 127749, name: 'SUNRISE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F305, name: 'SUNRISE', category: Cat::Other_Symbol)]
     case SUNRISE = "\u{1F305}";
 
-    #[Info(id: 127750, name: 'CITYSCAPE AT DUSK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F306, name: 'CITYSCAPE AT DUSK', category: Cat::Other_Symbol)]
     case CITYSCAPE_AT_DUSK = "\u{1F306}";
 
-    #[Info(id: 127751, name: 'SUNSET OVER BUILDINGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F307, name: 'SUNSET OVER BUILDINGS', category: Cat::Other_Symbol)]
     case SUNSET_OVER_BUILDINGS = "\u{1F307}";
 
-    #[Info(id: 127752, name: 'RAINBOW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F308, name: 'RAINBOW', category: Cat::Other_Symbol)]
     case RAINBOW = "\u{1F308}";
 
-    #[Info(id: 127753, name: 'BRIDGE AT NIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F309, name: 'BRIDGE AT NIGHT', category: Cat::Other_Symbol)]
     case BRIDGE_AT_NIGHT = "\u{1F309}";
 
-    #[Info(id: 127754, name: 'WATER WAVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F30A, name: 'WATER WAVE', category: Cat::Other_Symbol)]
     case WATER_WAVE = "\u{1F30A}";
 
-    #[Info(id: 127755, name: 'VOLCANO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F30B, name: 'VOLCANO', category: Cat::Other_Symbol)]
     case VOLCANO = "\u{1F30B}";
 
-    #[Info(id: 127756, name: 'MILKY WAY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F30C, name: 'MILKY WAY', category: Cat::Other_Symbol)]
     case MILKY_WAY = "\u{1F30C}";
 
-    #[Info(id: 127757, name: 'EARTH GLOBE EUROPE-AFRICA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F30D, name: 'EARTH GLOBE EUROPE-AFRICA', category: Cat::Other_Symbol)]
     case EARTH_GLOBE_EUROPE_AFRICA = "\u{1F30D}";
 
-    #[Info(id: 127758, name: 'EARTH GLOBE AMERICAS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F30E, name: 'EARTH GLOBE AMERICAS', category: Cat::Other_Symbol)]
     case EARTH_GLOBE_AMERICAS = "\u{1F30E}";
 
-    #[Info(id: 127759, name: 'EARTH GLOBE ASIA-AUSTRALIA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F30F, name: 'EARTH GLOBE ASIA-AUSTRALIA', category: Cat::Other_Symbol)]
     case EARTH_GLOBE_ASIA_AUSTRALIA = "\u{1F30F}";
 
-    #[Info(id: 127760, name: 'GLOBE WITH MERIDIANS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F310, name: 'GLOBE WITH MERIDIANS', category: Cat::Other_Symbol)]
     case GLOBE_WITH_MERIDIANS = "\u{1F310}";
 
-    #[Info(id: 127761, name: 'NEW MOON SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F311, name: 'NEW MOON SYMBOL', category: Cat::Other_Symbol)]
     case NEW_MOON_SYMBOL = "\u{1F311}";
 
-    #[Info(id: 127762, name: 'WAXING CRESCENT MOON SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F312, name: 'WAXING CRESCENT MOON SYMBOL', category: Cat::Other_Symbol)]
     case WAXING_CRESCENT_MOON_SYMBOL = "\u{1F312}";
 
-    #[Info(id: 127763, name: 'FIRST QUARTER MOON SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F313, name: 'FIRST QUARTER MOON SYMBOL', category: Cat::Other_Symbol)]
     case FIRST_QUARTER_MOON_SYMBOL = "\u{1F313}";
 
-    #[Info(id: 127764, name: 'WAXING GIBBOUS MOON SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F314, name: 'WAXING GIBBOUS MOON SYMBOL', category: Cat::Other_Symbol)]
     case WAXING_GIBBOUS_MOON_SYMBOL = "\u{1F314}";
 
-    #[Info(id: 127765, name: 'FULL MOON SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F315, name: 'FULL MOON SYMBOL', category: Cat::Other_Symbol)]
     case FULL_MOON_SYMBOL = "\u{1F315}";
 
-    #[Info(id: 127766, name: 'WANING GIBBOUS MOON SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F316, name: 'WANING GIBBOUS MOON SYMBOL', category: Cat::Other_Symbol)]
     case WANING_GIBBOUS_MOON_SYMBOL = "\u{1F316}";
 
-    #[Info(id: 127767, name: 'LAST QUARTER MOON SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F317, name: 'LAST QUARTER MOON SYMBOL', category: Cat::Other_Symbol)]
     case LAST_QUARTER_MOON_SYMBOL = "\u{1F317}";
 
-    #[Info(id: 127768, name: 'WANING CRESCENT MOON SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F318, name: 'WANING CRESCENT MOON SYMBOL', category: Cat::Other_Symbol)]
     case WANING_CRESCENT_MOON_SYMBOL = "\u{1F318}";
 
-    #[Info(id: 127769, name: 'CRESCENT MOON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F319, name: 'CRESCENT MOON', category: Cat::Other_Symbol)]
     case CRESCENT_MOON = "\u{1F319}";
 
-    #[Info(id: 127770, name: 'NEW MOON WITH FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F31A, name: 'NEW MOON WITH FACE', category: Cat::Other_Symbol)]
     case NEW_MOON_WITH_FACE = "\u{1F31A}";
 
-    #[Info(id: 127771, name: 'FIRST QUARTER MOON WITH FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F31B, name: 'FIRST QUARTER MOON WITH FACE', category: Cat::Other_Symbol)]
     case FIRST_QUARTER_MOON_WITH_FACE = "\u{1F31B}";
 
-    #[Info(id: 127772, name: 'LAST QUARTER MOON WITH FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F31C, name: 'LAST QUARTER MOON WITH FACE', category: Cat::Other_Symbol)]
     case LAST_QUARTER_MOON_WITH_FACE = "\u{1F31C}";
 
-    #[Info(id: 127773, name: 'FULL MOON WITH FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F31D, name: 'FULL MOON WITH FACE', category: Cat::Other_Symbol)]
     case FULL_MOON_WITH_FACE = "\u{1F31D}";
 
-    #[Info(id: 127774, name: 'SUN WITH FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F31E, name: 'SUN WITH FACE', category: Cat::Other_Symbol)]
     case SUN_WITH_FACE = "\u{1F31E}";
 
-    #[Info(id: 127775, name: 'GLOWING STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F31F, name: 'GLOWING STAR', category: Cat::Other_Symbol)]
     case GLOWING_STAR = "\u{1F31F}";
 
-    #[Info(id: 127776, name: 'SHOOTING STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F320, name: 'SHOOTING STAR', category: Cat::Other_Symbol)]
     case SHOOTING_STAR = "\u{1F320}";
 
-    #[Info(id: 127777, name: 'THERMOMETER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F321, name: 'THERMOMETER', category: Cat::Other_Symbol)]
     case THERMOMETER = "\u{1F321}";
 
-    #[Info(id: 127778, name: 'BLACK DROPLET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F322, name: 'BLACK DROPLET', category: Cat::Other_Symbol)]
     case BLACK_DROPLET = "\u{1F322}";
 
-    #[Info(id: 127779, name: 'WHITE SUN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F323, name: 'WHITE SUN', category: Cat::Other_Symbol)]
     case WHITE_SUN = "\u{1F323}";
 
-    #[Info(id: 127780, name: 'WHITE SUN WITH SMALL CLOUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F324, name: 'WHITE SUN WITH SMALL CLOUD', category: Cat::Other_Symbol)]
     case WHITE_SUN_WITH_SMALL_CLOUD = "\u{1F324}";
 
-    #[Info(id: 127781, name: 'WHITE SUN BEHIND CLOUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F325, name: 'WHITE SUN BEHIND CLOUD', category: Cat::Other_Symbol)]
     case WHITE_SUN_BEHIND_CLOUD = "\u{1F325}";
 
-    #[Info(id: 127782, name: 'WHITE SUN BEHIND CLOUD WITH RAIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F326, name: 'WHITE SUN BEHIND CLOUD WITH RAIN', category: Cat::Other_Symbol)]
     case WHITE_SUN_BEHIND_CLOUD_WITH_RAIN = "\u{1F326}";
 
-    #[Info(id: 127783, name: 'CLOUD WITH RAIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F327, name: 'CLOUD WITH RAIN', category: Cat::Other_Symbol)]
     case CLOUD_WITH_RAIN = "\u{1F327}";
 
-    #[Info(id: 127784, name: 'CLOUD WITH SNOW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F328, name: 'CLOUD WITH SNOW', category: Cat::Other_Symbol)]
     case CLOUD_WITH_SNOW = "\u{1F328}";
 
-    #[Info(id: 127785, name: 'CLOUD WITH LIGHTNING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F329, name: 'CLOUD WITH LIGHTNING', category: Cat::Other_Symbol)]
     case CLOUD_WITH_LIGHTNING = "\u{1F329}";
 
-    #[Info(id: 127786, name: 'CLOUD WITH TORNADO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F32A, name: 'CLOUD WITH TORNADO', category: Cat::Other_Symbol)]
     case CLOUD_WITH_TORNADO = "\u{1F32A}";
 
-    #[Info(id: 127787, name: 'FOG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F32B, name: 'FOG', category: Cat::Other_Symbol)]
     case FOG = "\u{1F32B}";
 
-    #[Info(id: 127788, name: 'WIND BLOWING FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F32C, name: 'WIND BLOWING FACE', category: Cat::Other_Symbol)]
     case WIND_BLOWING_FACE = "\u{1F32C}";
 
-    #[Info(id: 127789, name: 'HOT DOG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F32D, name: 'HOT DOG', category: Cat::Other_Symbol)]
     case HOT_DOG = "\u{1F32D}";
 
-    #[Info(id: 127790, name: 'TACO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F32E, name: 'TACO', category: Cat::Other_Symbol)]
     case TACO = "\u{1F32E}";
 
-    #[Info(id: 127791, name: 'BURRITO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F32F, name: 'BURRITO', category: Cat::Other_Symbol)]
     case BURRITO = "\u{1F32F}";
 
-    #[Info(id: 127792, name: 'CHESTNUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F330, name: 'CHESTNUT', category: Cat::Other_Symbol)]
     case CHESTNUT = "\u{1F330}";
 
-    #[Info(id: 127793, name: 'SEEDLING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F331, name: 'SEEDLING', category: Cat::Other_Symbol)]
     case SEEDLING = "\u{1F331}";
 
-    #[Info(id: 127794, name: 'EVERGREEN TREE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F332, name: 'EVERGREEN TREE', category: Cat::Other_Symbol)]
     case EVERGREEN_TREE = "\u{1F332}";
 
-    #[Info(id: 127795, name: 'DECIDUOUS TREE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F333, name: 'DECIDUOUS TREE', category: Cat::Other_Symbol)]
     case DECIDUOUS_TREE = "\u{1F333}";
 
-    #[Info(id: 127796, name: 'PALM TREE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F334, name: 'PALM TREE', category: Cat::Other_Symbol)]
     case PALM_TREE = "\u{1F334}";
 
-    #[Info(id: 127797, name: 'CACTUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F335, name: 'CACTUS', category: Cat::Other_Symbol)]
     case CACTUS = "\u{1F335}";
 
-    #[Info(id: 127798, name: 'HOT PEPPER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F336, name: 'HOT PEPPER', category: Cat::Other_Symbol)]
     case HOT_PEPPER = "\u{1F336}";
 
-    #[Info(id: 127799, name: 'TULIP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F337, name: 'TULIP', category: Cat::Other_Symbol)]
     case TULIP = "\u{1F337}";
 
-    #[Info(id: 127800, name: 'CHERRY BLOSSOM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F338, name: 'CHERRY BLOSSOM', category: Cat::Other_Symbol)]
     case CHERRY_BLOSSOM = "\u{1F338}";
 
-    #[Info(id: 127801, name: 'ROSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F339, name: 'ROSE', category: Cat::Other_Symbol)]
     case ROSE = "\u{1F339}";
 
-    #[Info(id: 127802, name: 'HIBISCUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F33A, name: 'HIBISCUS', category: Cat::Other_Symbol)]
     case HIBISCUS = "\u{1F33A}";
 
-    #[Info(id: 127803, name: 'SUNFLOWER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F33B, name: 'SUNFLOWER', category: Cat::Other_Symbol)]
     case SUNFLOWER = "\u{1F33B}";
 
-    #[Info(id: 127804, name: 'BLOSSOM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F33C, name: 'BLOSSOM', category: Cat::Other_Symbol)]
     case BLOSSOM = "\u{1F33C}";
 
-    #[Info(id: 127805, name: 'EAR OF MAIZE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F33D, name: 'EAR OF MAIZE', category: Cat::Other_Symbol)]
     case EAR_OF_MAIZE = "\u{1F33D}";
 
-    #[Info(id: 127806, name: 'EAR OF RICE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F33E, name: 'EAR OF RICE', category: Cat::Other_Symbol)]
     case EAR_OF_RICE = "\u{1F33E}";
 
-    #[Info(id: 127807, name: 'HERB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F33F, name: 'HERB', category: Cat::Other_Symbol)]
     case HERB = "\u{1F33F}";
 
-    #[Info(id: 127808, name: 'FOUR LEAF CLOVER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F340, name: 'FOUR LEAF CLOVER', category: Cat::Other_Symbol)]
     case FOUR_LEAF_CLOVER = "\u{1F340}";
 
-    #[Info(id: 127809, name: 'MAPLE LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F341, name: 'MAPLE LEAF', category: Cat::Other_Symbol)]
     case MAPLE_LEAF = "\u{1F341}";
 
-    #[Info(id: 127810, name: 'FALLEN LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F342, name: 'FALLEN LEAF', category: Cat::Other_Symbol)]
     case FALLEN_LEAF = "\u{1F342}";
 
-    #[Info(id: 127811, name: 'LEAF FLUTTERING IN WIND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F343, name: 'LEAF FLUTTERING IN WIND', category: Cat::Other_Symbol)]
     case LEAF_FLUTTERING_IN_WIND = "\u{1F343}";
 
-    #[Info(id: 127812, name: 'MUSHROOM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F344, name: 'MUSHROOM', category: Cat::Other_Symbol)]
     case MUSHROOM = "\u{1F344}";
 
-    #[Info(id: 127813, name: 'TOMATO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F345, name: 'TOMATO', category: Cat::Other_Symbol)]
     case TOMATO = "\u{1F345}";
 
-    #[Info(id: 127814, name: 'AUBERGINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F346, name: 'AUBERGINE', category: Cat::Other_Symbol)]
     case AUBERGINE = "\u{1F346}";
 
-    #[Info(id: 127815, name: 'GRAPES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F347, name: 'GRAPES', category: Cat::Other_Symbol)]
     case GRAPES = "\u{1F347}";
 
-    #[Info(id: 127816, name: 'MELON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F348, name: 'MELON', category: Cat::Other_Symbol)]
     case MELON = "\u{1F348}";
 
-    #[Info(id: 127817, name: 'WATERMELON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F349, name: 'WATERMELON', category: Cat::Other_Symbol)]
     case WATERMELON = "\u{1F349}";
 
-    #[Info(id: 127818, name: 'TANGERINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F34A, name: 'TANGERINE', category: Cat::Other_Symbol)]
     case TANGERINE = "\u{1F34A}";
 
-    #[Info(id: 127819, name: 'LEMON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F34B, name: 'LEMON', category: Cat::Other_Symbol)]
     case LEMON = "\u{1F34B}";
 
-    #[Info(id: 127820, name: 'BANANA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F34C, name: 'BANANA', category: Cat::Other_Symbol)]
     case BANANA = "\u{1F34C}";
 
-    #[Info(id: 127821, name: 'PINEAPPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F34D, name: 'PINEAPPLE', category: Cat::Other_Symbol)]
     case PINEAPPLE = "\u{1F34D}";
 
-    #[Info(id: 127822, name: 'RED APPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F34E, name: 'RED APPLE', category: Cat::Other_Symbol)]
     case RED_APPLE = "\u{1F34E}";
 
-    #[Info(id: 127823, name: 'GREEN APPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F34F, name: 'GREEN APPLE', category: Cat::Other_Symbol)]
     case GREEN_APPLE = "\u{1F34F}";
 
-    #[Info(id: 127824, name: 'PEAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F350, name: 'PEAR', category: Cat::Other_Symbol)]
     case PEAR = "\u{1F350}";
 
-    #[Info(id: 127825, name: 'PEACH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F351, name: 'PEACH', category: Cat::Other_Symbol)]
     case PEACH = "\u{1F351}";
 
-    #[Info(id: 127826, name: 'CHERRIES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F352, name: 'CHERRIES', category: Cat::Other_Symbol)]
     case CHERRIES = "\u{1F352}";
 
-    #[Info(id: 127827, name: 'STRAWBERRY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F353, name: 'STRAWBERRY', category: Cat::Other_Symbol)]
     case STRAWBERRY = "\u{1F353}";
 
-    #[Info(id: 127828, name: 'HAMBURGER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F354, name: 'HAMBURGER', category: Cat::Other_Symbol)]
     case HAMBURGER = "\u{1F354}";
 
-    #[Info(id: 127829, name: 'SLICE OF PIZZA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F355, name: 'SLICE OF PIZZA', category: Cat::Other_Symbol)]
     case SLICE_OF_PIZZA = "\u{1F355}";
 
-    #[Info(id: 127830, name: 'MEAT ON BONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F356, name: 'MEAT ON BONE', category: Cat::Other_Symbol)]
     case MEAT_ON_BONE = "\u{1F356}";
 
-    #[Info(id: 127831, name: 'POULTRY LEG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F357, name: 'POULTRY LEG', category: Cat::Other_Symbol)]
     case POULTRY_LEG = "\u{1F357}";
 
-    #[Info(id: 127832, name: 'RICE CRACKER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F358, name: 'RICE CRACKER', category: Cat::Other_Symbol)]
     case RICE_CRACKER = "\u{1F358}";
 
-    #[Info(id: 127833, name: 'RICE BALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F359, name: 'RICE BALL', category: Cat::Other_Symbol)]
     case RICE_BALL = "\u{1F359}";
 
-    #[Info(id: 127834, name: 'COOKED RICE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F35A, name: 'COOKED RICE', category: Cat::Other_Symbol)]
     case COOKED_RICE = "\u{1F35A}";
 
-    #[Info(id: 127835, name: 'CURRY AND RICE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F35B, name: 'CURRY AND RICE', category: Cat::Other_Symbol)]
     case CURRY_AND_RICE = "\u{1F35B}";
 
-    #[Info(id: 127836, name: 'STEAMING BOWL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F35C, name: 'STEAMING BOWL', category: Cat::Other_Symbol)]
     case STEAMING_BOWL = "\u{1F35C}";
 
-    #[Info(id: 127837, name: 'SPAGHETTI', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F35D, name: 'SPAGHETTI', category: Cat::Other_Symbol)]
     case SPAGHETTI = "\u{1F35D}";
 
-    #[Info(id: 127838, name: 'BREAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F35E, name: 'BREAD', category: Cat::Other_Symbol)]
     case BREAD = "\u{1F35E}";
 
-    #[Info(id: 127839, name: 'FRENCH FRIES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F35F, name: 'FRENCH FRIES', category: Cat::Other_Symbol)]
     case FRENCH_FRIES = "\u{1F35F}";
 
-    #[Info(id: 127840, name: 'ROASTED SWEET POTATO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F360, name: 'ROASTED SWEET POTATO', category: Cat::Other_Symbol)]
     case ROASTED_SWEET_POTATO = "\u{1F360}";
 
-    #[Info(id: 127841, name: 'DANGO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F361, name: 'DANGO', category: Cat::Other_Symbol)]
     case DANGO = "\u{1F361}";
 
-    #[Info(id: 127842, name: 'ODEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F362, name: 'ODEN', category: Cat::Other_Symbol)]
     case ODEN = "\u{1F362}";
 
-    #[Info(id: 127843, name: 'SUSHI', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F363, name: 'SUSHI', category: Cat::Other_Symbol)]
     case SUSHI = "\u{1F363}";
 
-    #[Info(id: 127844, name: 'FRIED SHRIMP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F364, name: 'FRIED SHRIMP', category: Cat::Other_Symbol)]
     case FRIED_SHRIMP = "\u{1F364}";
 
-    #[Info(id: 127845, name: 'FISH CAKE WITH SWIRL DESIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F365, name: 'FISH CAKE WITH SWIRL DESIGN', category: Cat::Other_Symbol)]
     case FISH_CAKE_WITH_SWIRL_DESIGN = "\u{1F365}";
 
-    #[Info(id: 127846, name: 'SOFT ICE CREAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F366, name: 'SOFT ICE CREAM', category: Cat::Other_Symbol)]
     case SOFT_ICE_CREAM = "\u{1F366}";
 
-    #[Info(id: 127847, name: 'SHAVED ICE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F367, name: 'SHAVED ICE', category: Cat::Other_Symbol)]
     case SHAVED_ICE = "\u{1F367}";
 
-    #[Info(id: 127848, name: 'ICE CREAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F368, name: 'ICE CREAM', category: Cat::Other_Symbol)]
     case ICE_CREAM = "\u{1F368}";
 
-    #[Info(id: 127849, name: 'DOUGHNUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F369, name: 'DOUGHNUT', category: Cat::Other_Symbol)]
     case DOUGHNUT = "\u{1F369}";
 
-    #[Info(id: 127850, name: 'COOKIE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F36A, name: 'COOKIE', category: Cat::Other_Symbol)]
     case COOKIE = "\u{1F36A}";
 
-    #[Info(id: 127851, name: 'CHOCOLATE BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F36B, name: 'CHOCOLATE BAR', category: Cat::Other_Symbol)]
     case CHOCOLATE_BAR = "\u{1F36B}";
 
-    #[Info(id: 127852, name: 'CANDY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F36C, name: 'CANDY', category: Cat::Other_Symbol)]
     case CANDY = "\u{1F36C}";
 
-    #[Info(id: 127853, name: 'LOLLIPOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F36D, name: 'LOLLIPOP', category: Cat::Other_Symbol)]
     case LOLLIPOP = "\u{1F36D}";
 
-    #[Info(id: 127854, name: 'CUSTARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F36E, name: 'CUSTARD', category: Cat::Other_Symbol)]
     case CUSTARD = "\u{1F36E}";
 
-    #[Info(id: 127855, name: 'HONEY POT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F36F, name: 'HONEY POT', category: Cat::Other_Symbol)]
     case HONEY_POT = "\u{1F36F}";
 
-    #[Info(id: 127856, name: 'SHORTCAKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F370, name: 'SHORTCAKE', category: Cat::Other_Symbol)]
     case SHORTCAKE = "\u{1F370}";
 
-    #[Info(id: 127857, name: 'BENTO BOX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F371, name: 'BENTO BOX', category: Cat::Other_Symbol)]
     case BENTO_BOX = "\u{1F371}";
 
-    #[Info(id: 127858, name: 'POT OF FOOD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F372, name: 'POT OF FOOD', category: Cat::Other_Symbol)]
     case POT_OF_FOOD = "\u{1F372}";
 
-    #[Info(id: 127859, name: 'COOKING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F373, name: 'COOKING', category: Cat::Other_Symbol)]
     case COOKING = "\u{1F373}";
 
-    #[Info(id: 127860, name: 'FORK AND KNIFE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F374, name: 'FORK AND KNIFE', category: Cat::Other_Symbol)]
     case FORK_AND_KNIFE = "\u{1F374}";
 
-    #[Info(id: 127861, name: 'TEACUP WITHOUT HANDLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F375, name: 'TEACUP WITHOUT HANDLE', category: Cat::Other_Symbol)]
     case TEACUP_WITHOUT_HANDLE = "\u{1F375}";
 
-    #[Info(id: 127862, name: 'SAKE BOTTLE AND CUP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F376, name: 'SAKE BOTTLE AND CUP', category: Cat::Other_Symbol)]
     case SAKE_BOTTLE_AND_CUP = "\u{1F376}";
 
-    #[Info(id: 127863, name: 'WINE GLASS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F377, name: 'WINE GLASS', category: Cat::Other_Symbol)]
     case WINE_GLASS = "\u{1F377}";
 
-    #[Info(id: 127864, name: 'COCKTAIL GLASS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F378, name: 'COCKTAIL GLASS', category: Cat::Other_Symbol)]
     case COCKTAIL_GLASS = "\u{1F378}";
 
-    #[Info(id: 127865, name: 'TROPICAL DRINK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F379, name: 'TROPICAL DRINK', category: Cat::Other_Symbol)]
     case TROPICAL_DRINK = "\u{1F379}";
 
-    #[Info(id: 127866, name: 'BEER MUG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F37A, name: 'BEER MUG', category: Cat::Other_Symbol)]
     case BEER_MUG = "\u{1F37A}";
 
-    #[Info(id: 127867, name: 'CLINKING BEER MUGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F37B, name: 'CLINKING BEER MUGS', category: Cat::Other_Symbol)]
     case CLINKING_BEER_MUGS = "\u{1F37B}";
 
-    #[Info(id: 127868, name: 'BABY BOTTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F37C, name: 'BABY BOTTLE', category: Cat::Other_Symbol)]
     case BABY_BOTTLE = "\u{1F37C}";
 
-    #[Info(id: 127869, name: 'FORK AND KNIFE WITH PLATE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F37D, name: 'FORK AND KNIFE WITH PLATE', category: Cat::Other_Symbol)]
     case FORK_AND_KNIFE_WITH_PLATE = "\u{1F37D}";
 
-    #[Info(id: 127870, name: 'BOTTLE WITH POPPING CORK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F37E, name: 'BOTTLE WITH POPPING CORK', category: Cat::Other_Symbol)]
     case BOTTLE_WITH_POPPING_CORK = "\u{1F37E}";
 
-    #[Info(id: 127871, name: 'POPCORN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F37F, name: 'POPCORN', category: Cat::Other_Symbol)]
     case POPCORN = "\u{1F37F}";
 
-    #[Info(id: 127872, name: 'RIBBON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F380, name: 'RIBBON', category: Cat::Other_Symbol)]
     case RIBBON = "\u{1F380}";
 
-    #[Info(id: 127873, name: 'WRAPPED PRESENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F381, name: 'WRAPPED PRESENT', category: Cat::Other_Symbol)]
     case WRAPPED_PRESENT = "\u{1F381}";
 
-    #[Info(id: 127874, name: 'BIRTHDAY CAKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F382, name: 'BIRTHDAY CAKE', category: Cat::Other_Symbol)]
     case BIRTHDAY_CAKE = "\u{1F382}";
 
-    #[Info(id: 127875, name: 'JACK-O-LANTERN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F383, name: 'JACK-O-LANTERN', category: Cat::Other_Symbol)]
     case JACK_O_LANTERN = "\u{1F383}";
 
-    #[Info(id: 127876, name: 'CHRISTMAS TREE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F384, name: 'CHRISTMAS TREE', category: Cat::Other_Symbol)]
     case CHRISTMAS_TREE = "\u{1F384}";
 
-    #[Info(id: 127877, name: 'FATHER CHRISTMAS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F385, name: 'FATHER CHRISTMAS', category: Cat::Other_Symbol)]
     case FATHER_CHRISTMAS = "\u{1F385}";
 
-    #[Info(id: 127878, name: 'FIREWORKS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F386, name: 'FIREWORKS', category: Cat::Other_Symbol)]
     case FIREWORKS = "\u{1F386}";
 
-    #[Info(id: 127879, name: 'FIREWORK SPARKLER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F387, name: 'FIREWORK SPARKLER', category: Cat::Other_Symbol)]
     case FIREWORK_SPARKLER = "\u{1F387}";
 
-    #[Info(id: 127880, name: 'BALLOON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F388, name: 'BALLOON', category: Cat::Other_Symbol)]
     case BALLOON = "\u{1F388}";
 
-    #[Info(id: 127881, name: 'PARTY POPPER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F389, name: 'PARTY POPPER', category: Cat::Other_Symbol)]
     case PARTY_POPPER = "\u{1F389}";
 
-    #[Info(id: 127882, name: 'CONFETTI BALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F38A, name: 'CONFETTI BALL', category: Cat::Other_Symbol)]
     case CONFETTI_BALL = "\u{1F38A}";
 
-    #[Info(id: 127883, name: 'TANABATA TREE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F38B, name: 'TANABATA TREE', category: Cat::Other_Symbol)]
     case TANABATA_TREE = "\u{1F38B}";
 
-    #[Info(id: 127884, name: 'CROSSED FLAGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F38C, name: 'CROSSED FLAGS', category: Cat::Other_Symbol)]
     case CROSSED_FLAGS = "\u{1F38C}";
 
-    #[Info(id: 127885, name: 'PINE DECORATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F38D, name: 'PINE DECORATION', category: Cat::Other_Symbol)]
     case PINE_DECORATION = "\u{1F38D}";
 
-    #[Info(id: 127886, name: 'JAPANESE DOLLS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F38E, name: 'JAPANESE DOLLS', category: Cat::Other_Symbol)]
     case JAPANESE_DOLLS = "\u{1F38E}";
 
-    #[Info(id: 127887, name: 'CARP STREAMER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F38F, name: 'CARP STREAMER', category: Cat::Other_Symbol)]
     case CARP_STREAMER = "\u{1F38F}";
 
-    #[Info(id: 127888, name: 'WIND CHIME', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F390, name: 'WIND CHIME', category: Cat::Other_Symbol)]
     case WIND_CHIME = "\u{1F390}";
 
-    #[Info(id: 127889, name: 'MOON VIEWING CEREMONY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F391, name: 'MOON VIEWING CEREMONY', category: Cat::Other_Symbol)]
     case MOON_VIEWING_CEREMONY = "\u{1F391}";
 
-    #[Info(id: 127890, name: 'SCHOOL SATCHEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F392, name: 'SCHOOL SATCHEL', category: Cat::Other_Symbol)]
     case SCHOOL_SATCHEL = "\u{1F392}";
 
-    #[Info(id: 127891, name: 'GRADUATION CAP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F393, name: 'GRADUATION CAP', category: Cat::Other_Symbol)]
     case GRADUATION_CAP = "\u{1F393}";
 
-    #[Info(id: 127892, name: 'HEART WITH TIP ON THE LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F394, name: 'HEART WITH TIP ON THE LEFT', category: Cat::Other_Symbol)]
     case HEART_WITH_TIP_ON_THE_LEFT = "\u{1F394}";
 
-    #[Info(id: 127893, name: 'BOUQUET OF FLOWERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F395, name: 'BOUQUET OF FLOWERS', category: Cat::Other_Symbol)]
     case BOUQUET_OF_FLOWERS = "\u{1F395}";
 
-    #[Info(id: 127894, name: 'MILITARY MEDAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F396, name: 'MILITARY MEDAL', category: Cat::Other_Symbol)]
     case MILITARY_MEDAL = "\u{1F396}";
 
-    #[Info(id: 127895, name: 'REMINDER RIBBON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F397, name: 'REMINDER RIBBON', category: Cat::Other_Symbol)]
     case REMINDER_RIBBON = "\u{1F397}";
 
-    #[Info(id: 127896, name: 'MUSICAL KEYBOARD WITH JACKS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F398, name: 'MUSICAL KEYBOARD WITH JACKS', category: Cat::Other_Symbol)]
     case MUSICAL_KEYBOARD_WITH_JACKS = "\u{1F398}";
 
-    #[Info(id: 127897, name: 'STUDIO MICROPHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F399, name: 'STUDIO MICROPHONE', category: Cat::Other_Symbol)]
     case STUDIO_MICROPHONE = "\u{1F399}";
 
-    #[Info(id: 127898, name: 'LEVEL SLIDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F39A, name: 'LEVEL SLIDER', category: Cat::Other_Symbol)]
     case LEVEL_SLIDER = "\u{1F39A}";
 
-    #[Info(id: 127899, name: 'CONTROL KNOBS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F39B, name: 'CONTROL KNOBS', category: Cat::Other_Symbol)]
     case CONTROL_KNOBS = "\u{1F39B}";
 
-    #[Info(id: 127900, name: 'BEAMED ASCENDING MUSICAL NOTES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F39C, name: 'BEAMED ASCENDING MUSICAL NOTES', category: Cat::Other_Symbol)]
     case BEAMED_ASCENDING_MUSICAL_NOTES = "\u{1F39C}";
 
-    #[Info(id: 127901, name: 'BEAMED DESCENDING MUSICAL NOTES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F39D, name: 'BEAMED DESCENDING MUSICAL NOTES', category: Cat::Other_Symbol)]
     case BEAMED_DESCENDING_MUSICAL_NOTES = "\u{1F39D}";
 
-    #[Info(id: 127902, name: 'FILM FRAMES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F39E, name: 'FILM FRAMES', category: Cat::Other_Symbol)]
     case FILM_FRAMES = "\u{1F39E}";
 
-    #[Info(id: 127903, name: 'ADMISSION TICKETS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F39F, name: 'ADMISSION TICKETS', category: Cat::Other_Symbol)]
     case ADMISSION_TICKETS = "\u{1F39F}";
 
-    #[Info(id: 127904, name: 'CAROUSEL HORSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A0, name: 'CAROUSEL HORSE', category: Cat::Other_Symbol)]
     case CAROUSEL_HORSE = "\u{1F3A0}";
 
-    #[Info(id: 127905, name: 'FERRIS WHEEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A1, name: 'FERRIS WHEEL', category: Cat::Other_Symbol)]
     case FERRIS_WHEEL = "\u{1F3A1}";
 
-    #[Info(id: 127906, name: 'ROLLER COASTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A2, name: 'ROLLER COASTER', category: Cat::Other_Symbol)]
     case ROLLER_COASTER = "\u{1F3A2}";
 
-    #[Info(id: 127907, name: 'FISHING POLE AND FISH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A3, name: 'FISHING POLE AND FISH', category: Cat::Other_Symbol)]
     case FISHING_POLE_AND_FISH = "\u{1F3A3}";
 
-    #[Info(id: 127908, name: 'MICROPHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A4, name: 'MICROPHONE', category: Cat::Other_Symbol)]
     case MICROPHONE = "\u{1F3A4}";
 
-    #[Info(id: 127909, name: 'MOVIE CAMERA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A5, name: 'MOVIE CAMERA', category: Cat::Other_Symbol)]
     case MOVIE_CAMERA = "\u{1F3A5}";
 
-    #[Info(id: 127910, name: 'CINEMA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A6, name: 'CINEMA', category: Cat::Other_Symbol)]
     case CINEMA = "\u{1F3A6}";
 
-    #[Info(id: 127911, name: 'HEADPHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A7, name: 'HEADPHONE', category: Cat::Other_Symbol)]
     case HEADPHONE = "\u{1F3A7}";
 
-    #[Info(id: 127912, name: 'ARTIST PALETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A8, name: 'ARTIST PALETTE', category: Cat::Other_Symbol)]
     case ARTIST_PALETTE = "\u{1F3A8}";
 
-    #[Info(id: 127913, name: 'TOP HAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A9, name: 'TOP HAT', category: Cat::Other_Symbol)]
     case TOP_HAT = "\u{1F3A9}";
 
-    #[Info(id: 127914, name: 'CIRCUS TENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3AA, name: 'CIRCUS TENT', category: Cat::Other_Symbol)]
     case CIRCUS_TENT = "\u{1F3AA}";
 
-    #[Info(id: 127915, name: 'TICKET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3AB, name: 'TICKET', category: Cat::Other_Symbol)]
     case TICKET = "\u{1F3AB}";
 
-    #[Info(id: 127916, name: 'CLAPPER BOARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3AC, name: 'CLAPPER BOARD', category: Cat::Other_Symbol)]
     case CLAPPER_BOARD = "\u{1F3AC}";
 
-    #[Info(id: 127917, name: 'PERFORMING ARTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3AD, name: 'PERFORMING ARTS', category: Cat::Other_Symbol)]
     case PERFORMING_ARTS = "\u{1F3AD}";
 
-    #[Info(id: 127918, name: 'VIDEO GAME', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3AE, name: 'VIDEO GAME', category: Cat::Other_Symbol)]
     case VIDEO_GAME = "\u{1F3AE}";
 
-    #[Info(id: 127919, name: 'DIRECT HIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3AF, name: 'DIRECT HIT', category: Cat::Other_Symbol)]
     case DIRECT_HIT = "\u{1F3AF}";
 
-    #[Info(id: 127920, name: 'SLOT MACHINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B0, name: 'SLOT MACHINE', category: Cat::Other_Symbol)]
     case SLOT_MACHINE = "\u{1F3B0}";
 
-    #[Info(id: 127921, name: 'BILLIARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B1, name: 'BILLIARDS', category: Cat::Other_Symbol)]
     case BILLIARDS = "\u{1F3B1}";
 
-    #[Info(id: 127922, name: 'GAME DIE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B2, name: 'GAME DIE', category: Cat::Other_Symbol)]
     case GAME_DIE = "\u{1F3B2}";
 
-    #[Info(id: 127923, name: 'BOWLING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B3, name: 'BOWLING', category: Cat::Other_Symbol)]
     case BOWLING = "\u{1F3B3}";
 
-    #[Info(id: 127924, name: 'FLOWER PLAYING CARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B4, name: 'FLOWER PLAYING CARDS', category: Cat::Other_Symbol)]
     case FLOWER_PLAYING_CARDS = "\u{1F3B4}";
 
-    #[Info(id: 127925, name: 'MUSICAL NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B5, name: 'MUSICAL NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_NOTE = "\u{1F3B5}";
 
-    #[Info(id: 127926, name: 'MULTIPLE MUSICAL NOTES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B6, name: 'MULTIPLE MUSICAL NOTES', category: Cat::Other_Symbol)]
     case MULTIPLE_MUSICAL_NOTES = "\u{1F3B6}";
 
-    #[Info(id: 127927, name: 'SAXOPHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B7, name: 'SAXOPHONE', category: Cat::Other_Symbol)]
     case SAXOPHONE = "\u{1F3B7}";
 
-    #[Info(id: 127928, name: 'GUITAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B8, name: 'GUITAR', category: Cat::Other_Symbol)]
     case GUITAR = "\u{1F3B8}";
 
-    #[Info(id: 127929, name: 'MUSICAL KEYBOARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B9, name: 'MUSICAL KEYBOARD', category: Cat::Other_Symbol)]
     case MUSICAL_KEYBOARD = "\u{1F3B9}";
 
-    #[Info(id: 127930, name: 'TRUMPET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3BA, name: 'TRUMPET', category: Cat::Other_Symbol)]
     case TRUMPET = "\u{1F3BA}";
 
-    #[Info(id: 127931, name: 'VIOLIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3BB, name: 'VIOLIN', category: Cat::Other_Symbol)]
     case VIOLIN = "\u{1F3BB}";
 
-    #[Info(id: 127932, name: 'MUSICAL SCORE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3BC, name: 'MUSICAL SCORE', category: Cat::Other_Symbol)]
     case MUSICAL_SCORE = "\u{1F3BC}";
 
-    #[Info(id: 127933, name: 'RUNNING SHIRT WITH SASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3BD, name: 'RUNNING SHIRT WITH SASH', category: Cat::Other_Symbol)]
     case RUNNING_SHIRT_WITH_SASH = "\u{1F3BD}";
 
-    #[Info(id: 127934, name: 'TENNIS RACQUET AND BALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3BE, name: 'TENNIS RACQUET AND BALL', category: Cat::Other_Symbol)]
     case TENNIS_RACQUET_AND_BALL = "\u{1F3BE}";
 
-    #[Info(id: 127935, name: 'SKI AND SKI BOOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3BF, name: 'SKI AND SKI BOOT', category: Cat::Other_Symbol)]
     case SKI_AND_SKI_BOOT = "\u{1F3BF}";
 
-    #[Info(id: 127936, name: 'BASKETBALL AND HOOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C0, name: 'BASKETBALL AND HOOP', category: Cat::Other_Symbol)]
     case BASKETBALL_AND_HOOP = "\u{1F3C0}";
 
-    #[Info(id: 127937, name: 'CHEQUERED FLAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C1, name: 'CHEQUERED FLAG', category: Cat::Other_Symbol)]
     case CHEQUERED_FLAG = "\u{1F3C1}";
 
-    #[Info(id: 127938, name: 'SNOWBOARDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C2, name: 'SNOWBOARDER', category: Cat::Other_Symbol)]
     case SNOWBOARDER = "\u{1F3C2}";
 
-    #[Info(id: 127939, name: 'RUNNER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C3, name: 'RUNNER', category: Cat::Other_Symbol)]
     case RUNNER = "\u{1F3C3}";
 
-    #[Info(id: 127940, name: 'SURFER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C4, name: 'SURFER', category: Cat::Other_Symbol)]
     case SURFER = "\u{1F3C4}";
 
-    #[Info(id: 127941, name: 'SPORTS MEDAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C5, name: 'SPORTS MEDAL', category: Cat::Other_Symbol)]
     case SPORTS_MEDAL = "\u{1F3C5}";
 
-    #[Info(id: 127942, name: 'TROPHY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C6, name: 'TROPHY', category: Cat::Other_Symbol)]
     case TROPHY = "\u{1F3C6}";
 
-    #[Info(id: 127943, name: 'HORSE RACING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C7, name: 'HORSE RACING', category: Cat::Other_Symbol)]
     case HORSE_RACING = "\u{1F3C7}";
 
-    #[Info(id: 127944, name: 'AMERICAN FOOTBALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C8, name: 'AMERICAN FOOTBALL', category: Cat::Other_Symbol)]
     case AMERICAN_FOOTBALL = "\u{1F3C8}";
 
-    #[Info(id: 127945, name: 'RUGBY FOOTBALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C9, name: 'RUGBY FOOTBALL', category: Cat::Other_Symbol)]
     case RUGBY_FOOTBALL = "\u{1F3C9}";
 
-    #[Info(id: 127946, name: 'SWIMMER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3CA, name: 'SWIMMER', category: Cat::Other_Symbol)]
     case SWIMMER = "\u{1F3CA}";
 
-    #[Info(id: 127947, name: 'WEIGHT LIFTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3CB, name: 'WEIGHT LIFTER', category: Cat::Other_Symbol)]
     case WEIGHT_LIFTER = "\u{1F3CB}";
 
-    #[Info(id: 127948, name: 'GOLFER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3CC, name: 'GOLFER', category: Cat::Other_Symbol)]
     case GOLFER = "\u{1F3CC}";
 
-    #[Info(id: 127949, name: 'RACING MOTORCYCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3CD, name: 'RACING MOTORCYCLE', category: Cat::Other_Symbol)]
     case RACING_MOTORCYCLE = "\u{1F3CD}";
 
-    #[Info(id: 127950, name: 'RACING CAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3CE, name: 'RACING CAR', category: Cat::Other_Symbol)]
     case RACING_CAR = "\u{1F3CE}";
 
-    #[Info(id: 127951, name: 'CRICKET BAT AND BALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3CF, name: 'CRICKET BAT AND BALL', category: Cat::Other_Symbol)]
     case CRICKET_BAT_AND_BALL = "\u{1F3CF}";
 
-    #[Info(id: 127952, name: 'VOLLEYBALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D0, name: 'VOLLEYBALL', category: Cat::Other_Symbol)]
     case VOLLEYBALL = "\u{1F3D0}";
 
-    #[Info(id: 127953, name: 'FIELD HOCKEY STICK AND BALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D1, name: 'FIELD HOCKEY STICK AND BALL', category: Cat::Other_Symbol)]
     case FIELD_HOCKEY_STICK_AND_BALL = "\u{1F3D1}";
 
-    #[Info(id: 127954, name: 'ICE HOCKEY STICK AND PUCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D2, name: 'ICE HOCKEY STICK AND PUCK', category: Cat::Other_Symbol)]
     case ICE_HOCKEY_STICK_AND_PUCK = "\u{1F3D2}";
 
-    #[Info(id: 127955, name: 'TABLE TENNIS PADDLE AND BALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D3, name: 'TABLE TENNIS PADDLE AND BALL', category: Cat::Other_Symbol)]
     case TABLE_TENNIS_PADDLE_AND_BALL = "\u{1F3D3}";
 
-    #[Info(id: 127956, name: 'SNOW CAPPED MOUNTAIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D4, name: 'SNOW CAPPED MOUNTAIN', category: Cat::Other_Symbol)]
     case SNOW_CAPPED_MOUNTAIN = "\u{1F3D4}";
 
-    #[Info(id: 127957, name: 'CAMPING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D5, name: 'CAMPING', category: Cat::Other_Symbol)]
     case CAMPING = "\u{1F3D5}";
 
-    #[Info(id: 127958, name: 'BEACH WITH UMBRELLA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D6, name: 'BEACH WITH UMBRELLA', category: Cat::Other_Symbol)]
     case BEACH_WITH_UMBRELLA = "\u{1F3D6}";
 
-    #[Info(id: 127959, name: 'BUILDING CONSTRUCTION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D7, name: 'BUILDING CONSTRUCTION', category: Cat::Other_Symbol)]
     case BUILDING_CONSTRUCTION = "\u{1F3D7}";
 
-    #[Info(id: 127960, name: 'HOUSE BUILDINGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D8, name: 'HOUSE BUILDINGS', category: Cat::Other_Symbol)]
     case HOUSE_BUILDINGS = "\u{1F3D8}";
 
-    #[Info(id: 127961, name: 'CITYSCAPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D9, name: 'CITYSCAPE', category: Cat::Other_Symbol)]
     case CITYSCAPE = "\u{1F3D9}";
 
-    #[Info(id: 127962, name: 'DERELICT HOUSE BUILDING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3DA, name: 'DERELICT HOUSE BUILDING', category: Cat::Other_Symbol)]
     case DERELICT_HOUSE_BUILDING = "\u{1F3DA}";
 
-    #[Info(id: 127963, name: 'CLASSICAL BUILDING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3DB, name: 'CLASSICAL BUILDING', category: Cat::Other_Symbol)]
     case CLASSICAL_BUILDING = "\u{1F3DB}";
 
-    #[Info(id: 127964, name: 'DESERT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3DC, name: 'DESERT', category: Cat::Other_Symbol)]
     case DESERT = "\u{1F3DC}";
 
-    #[Info(id: 127965, name: 'DESERT ISLAND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3DD, name: 'DESERT ISLAND', category: Cat::Other_Symbol)]
     case DESERT_ISLAND = "\u{1F3DD}";
 
-    #[Info(id: 127966, name: 'NATIONAL PARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3DE, name: 'NATIONAL PARK', category: Cat::Other_Symbol)]
     case NATIONAL_PARK = "\u{1F3DE}";
 
-    #[Info(id: 127967, name: 'STADIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3DF, name: 'STADIUM', category: Cat::Other_Symbol)]
     case STADIUM = "\u{1F3DF}";
 
-    #[Info(id: 127968, name: 'HOUSE BUILDING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E0, name: 'HOUSE BUILDING', category: Cat::Other_Symbol)]
     case HOUSE_BUILDING = "\u{1F3E0}";
 
-    #[Info(id: 127969, name: 'HOUSE WITH GARDEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E1, name: 'HOUSE WITH GARDEN', category: Cat::Other_Symbol)]
     case HOUSE_WITH_GARDEN = "\u{1F3E1}";
 
-    #[Info(id: 127970, name: 'OFFICE BUILDING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E2, name: 'OFFICE BUILDING', category: Cat::Other_Symbol)]
     case OFFICE_BUILDING = "\u{1F3E2}";
 
-    #[Info(id: 127971, name: 'JAPANESE POST OFFICE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E3, name: 'JAPANESE POST OFFICE', category: Cat::Other_Symbol)]
     case JAPANESE_POST_OFFICE = "\u{1F3E3}";
 
-    #[Info(id: 127972, name: 'EUROPEAN POST OFFICE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E4, name: 'EUROPEAN POST OFFICE', category: Cat::Other_Symbol)]
     case EUROPEAN_POST_OFFICE = "\u{1F3E4}";
 
-    #[Info(id: 127973, name: 'HOSPITAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E5, name: 'HOSPITAL', category: Cat::Other_Symbol)]
     case HOSPITAL = "\u{1F3E5}";
 
-    #[Info(id: 127974, name: 'BANK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E6, name: 'BANK', category: Cat::Other_Symbol)]
     case BANK = "\u{1F3E6}";
 
-    #[Info(id: 127975, name: 'AUTOMATED TELLER MACHINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E7, name: 'AUTOMATED TELLER MACHINE', category: Cat::Other_Symbol)]
     case AUTOMATED_TELLER_MACHINE = "\u{1F3E7}";
 
-    #[Info(id: 127976, name: 'HOTEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E8, name: 'HOTEL', category: Cat::Other_Symbol)]
     case HOTEL = "\u{1F3E8}";
 
-    #[Info(id: 127977, name: 'LOVE HOTEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E9, name: 'LOVE HOTEL', category: Cat::Other_Symbol)]
     case LOVE_HOTEL = "\u{1F3E9}";
 
-    #[Info(id: 127978, name: 'CONVENIENCE STORE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3EA, name: 'CONVENIENCE STORE', category: Cat::Other_Symbol)]
     case CONVENIENCE_STORE = "\u{1F3EA}";
 
-    #[Info(id: 127979, name: 'SCHOOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3EB, name: 'SCHOOL', category: Cat::Other_Symbol)]
     case SCHOOL = "\u{1F3EB}";
 
-    #[Info(id: 127980, name: 'DEPARTMENT STORE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3EC, name: 'DEPARTMENT STORE', category: Cat::Other_Symbol)]
     case DEPARTMENT_STORE = "\u{1F3EC}";
 
-    #[Info(id: 127981, name: 'FACTORY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3ED, name: 'FACTORY', category: Cat::Other_Symbol)]
     case FACTORY = "\u{1F3ED}";
 
-    #[Info(id: 127982, name: 'IZAKAYA LANTERN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3EE, name: 'IZAKAYA LANTERN', category: Cat::Other_Symbol)]
     case IZAKAYA_LANTERN = "\u{1F3EE}";
 
-    #[Info(id: 127983, name: 'JAPANESE CASTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3EF, name: 'JAPANESE CASTLE', category: Cat::Other_Symbol)]
     case JAPANESE_CASTLE = "\u{1F3EF}";
 
-    #[Info(id: 127984, name: 'EUROPEAN CASTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F0, name: 'EUROPEAN CASTLE', category: Cat::Other_Symbol)]
     case EUROPEAN_CASTLE = "\u{1F3F0}";
 
-    #[Info(id: 127985, name: 'WHITE PENNANT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F1, name: 'WHITE PENNANT', category: Cat::Other_Symbol)]
     case WHITE_PENNANT = "\u{1F3F1}";
 
-    #[Info(id: 127986, name: 'BLACK PENNANT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F2, name: 'BLACK PENNANT', category: Cat::Other_Symbol)]
     case BLACK_PENNANT = "\u{1F3F2}";
 
-    #[Info(id: 127987, name: 'WAVING WHITE FLAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F3, name: 'WAVING WHITE FLAG', category: Cat::Other_Symbol)]
     case WAVING_WHITE_FLAG = "\u{1F3F3}";
 
-    #[Info(id: 127988, name: 'WAVING BLACK FLAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F4, name: 'WAVING BLACK FLAG', category: Cat::Other_Symbol)]
     case WAVING_BLACK_FLAG = "\u{1F3F4}";
 
-    #[Info(id: 127989, name: 'ROSETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F5, name: 'ROSETTE', category: Cat::Other_Symbol)]
     case ROSETTE = "\u{1F3F5}";
 
-    #[Info(id: 127990, name: 'BLACK ROSETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F6, name: 'BLACK ROSETTE', category: Cat::Other_Symbol)]
     case BLACK_ROSETTE = "\u{1F3F6}";
 
-    #[Info(id: 127991, name: 'LABEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F7, name: 'LABEL', category: Cat::Other_Symbol)]
     case LABEL = "\u{1F3F7}";
 
-    #[Info(id: 127992, name: 'BADMINTON RACQUET AND SHUTTLECOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F8, name: 'BADMINTON RACQUET AND SHUTTLECOCK', category: Cat::Other_Symbol)]
     case BADMINTON_RACQUET_AND_SHUTTLECOCK = "\u{1F3F8}";
 
-    #[Info(id: 127993, name: 'BOW AND ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F9, name: 'BOW AND ARROW', category: Cat::Other_Symbol)]
     case BOW_AND_ARROW = "\u{1F3F9}";
 
-    #[Info(id: 127994, name: 'AMPHORA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3FA, name: 'AMPHORA', category: Cat::Other_Symbol)]
     case AMPHORA = "\u{1F3FA}";
 
-    #[Info(id: 127995, name: 'EMOJI MODIFIER FITZPATRICK TYPE-1-2', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1F3FB, name: 'EMOJI MODIFIER FITZPATRICK TYPE-1-2', category: Cat::Modifier_Symbol)]
     case EMOJI_MODIFIER_FITZPATRICK_TYPE_1_2 = "\u{1F3FB}";
 
-    #[Info(id: 127996, name: 'EMOJI MODIFIER FITZPATRICK TYPE-3', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1F3FC, name: 'EMOJI MODIFIER FITZPATRICK TYPE-3', category: Cat::Modifier_Symbol)]
     case EMOJI_MODIFIER_FITZPATRICK_TYPE_3 = "\u{1F3FC}";
 
-    #[Info(id: 127997, name: 'EMOJI MODIFIER FITZPATRICK TYPE-4', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1F3FD, name: 'EMOJI MODIFIER FITZPATRICK TYPE-4', category: Cat::Modifier_Symbol)]
     case EMOJI_MODIFIER_FITZPATRICK_TYPE_4 = "\u{1F3FD}";
 
-    #[Info(id: 127998, name: 'EMOJI MODIFIER FITZPATRICK TYPE-5', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1F3FE, name: 'EMOJI MODIFIER FITZPATRICK TYPE-5', category: Cat::Modifier_Symbol)]
     case EMOJI_MODIFIER_FITZPATRICK_TYPE_5 = "\u{1F3FE}";
 
-    #[Info(id: 127999, name: 'EMOJI MODIFIER FITZPATRICK TYPE-6', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x1F3FF, name: 'EMOJI MODIFIER FITZPATRICK TYPE-6', category: Cat::Modifier_Symbol)]
     case EMOJI_MODIFIER_FITZPATRICK_TYPE_6 = "\u{1F3FF}";
 
-    #[Info(id: 128000, name: 'RAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F400, name: 'RAT', category: Cat::Other_Symbol)]
     case RAT = "\u{1F400}";
 
-    #[Info(id: 128001, name: 'MOUSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F401, name: 'MOUSE', category: Cat::Other_Symbol)]
     case MOUSE = "\u{1F401}";
 
-    #[Info(id: 128002, name: 'OX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F402, name: 'OX', category: Cat::Other_Symbol)]
     case OX = "\u{1F402}";
 
-    #[Info(id: 128003, name: 'WATER BUFFALO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F403, name: 'WATER BUFFALO', category: Cat::Other_Symbol)]
     case WATER_BUFFALO = "\u{1F403}";
 
-    #[Info(id: 128004, name: 'COW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F404, name: 'COW', category: Cat::Other_Symbol)]
     case COW = "\u{1F404}";
 
-    #[Info(id: 128005, name: 'TIGER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F405, name: 'TIGER', category: Cat::Other_Symbol)]
     case TIGER = "\u{1F405}";
 
-    #[Info(id: 128006, name: 'LEOPARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F406, name: 'LEOPARD', category: Cat::Other_Symbol)]
     case LEOPARD = "\u{1F406}";
 
-    #[Info(id: 128007, name: 'RABBIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F407, name: 'RABBIT', category: Cat::Other_Symbol)]
     case RABBIT = "\u{1F407}";
 
-    #[Info(id: 128008, name: 'CAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F408, name: 'CAT', category: Cat::Other_Symbol)]
     case CAT = "\u{1F408}";
 
-    #[Info(id: 128009, name: 'DRAGON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F409, name: 'DRAGON', category: Cat::Other_Symbol)]
     case DRAGON = "\u{1F409}";
 
-    #[Info(id: 128010, name: 'CROCODILE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F40A, name: 'CROCODILE', category: Cat::Other_Symbol)]
     case CROCODILE = "\u{1F40A}";
 
-    #[Info(id: 128011, name: 'WHALE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F40B, name: 'WHALE', category: Cat::Other_Symbol)]
     case WHALE = "\u{1F40B}";
 
-    #[Info(id: 128012, name: 'SNAIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F40C, name: 'SNAIL', category: Cat::Other_Symbol)]
     case SNAIL = "\u{1F40C}";
 
-    #[Info(id: 128013, name: 'SNAKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F40D, name: 'SNAKE', category: Cat::Other_Symbol)]
     case SNAKE = "\u{1F40D}";
 
-    #[Info(id: 128014, name: 'HORSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F40E, name: 'HORSE', category: Cat::Other_Symbol)]
     case HORSE = "\u{1F40E}";
 
-    #[Info(id: 128015, name: 'RAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F40F, name: 'RAM', category: Cat::Other_Symbol)]
     case RAM = "\u{1F40F}";
 
-    #[Info(id: 128016, name: 'GOAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F410, name: 'GOAT', category: Cat::Other_Symbol)]
     case GOAT = "\u{1F410}";
 
-    #[Info(id: 128017, name: 'SHEEP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F411, name: 'SHEEP', category: Cat::Other_Symbol)]
     case SHEEP = "\u{1F411}";
 
-    #[Info(id: 128018, name: 'MONKEY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F412, name: 'MONKEY', category: Cat::Other_Symbol)]
     case MONKEY = "\u{1F412}";
 
-    #[Info(id: 128019, name: 'ROOSTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F413, name: 'ROOSTER', category: Cat::Other_Symbol)]
     case ROOSTER = "\u{1F413}";
 
-    #[Info(id: 128020, name: 'CHICKEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F414, name: 'CHICKEN', category: Cat::Other_Symbol)]
     case CHICKEN = "\u{1F414}";
 
-    #[Info(id: 128021, name: 'DOG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F415, name: 'DOG', category: Cat::Other_Symbol)]
     case DOG = "\u{1F415}";
 
-    #[Info(id: 128022, name: 'PIG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F416, name: 'PIG', category: Cat::Other_Symbol)]
     case PIG = "\u{1F416}";
 
-    #[Info(id: 128023, name: 'BOAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F417, name: 'BOAR', category: Cat::Other_Symbol)]
     case BOAR = "\u{1F417}";
 
-    #[Info(id: 128024, name: 'ELEPHANT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F418, name: 'ELEPHANT', category: Cat::Other_Symbol)]
     case ELEPHANT = "\u{1F418}";
 
-    #[Info(id: 128025, name: 'OCTOPUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F419, name: 'OCTOPUS', category: Cat::Other_Symbol)]
     case OCTOPUS = "\u{1F419}";
 
-    #[Info(id: 128026, name: 'SPIRAL SHELL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F41A, name: 'SPIRAL SHELL', category: Cat::Other_Symbol)]
     case SPIRAL_SHELL = "\u{1F41A}";
 
-    #[Info(id: 128027, name: 'BUG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F41B, name: 'BUG', category: Cat::Other_Symbol)]
     case BUG = "\u{1F41B}";
 
-    #[Info(id: 128028, name: 'ANT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F41C, name: 'ANT', category: Cat::Other_Symbol)]
     case ANT = "\u{1F41C}";
 
-    #[Info(id: 128029, name: 'HONEYBEE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F41D, name: 'HONEYBEE', category: Cat::Other_Symbol)]
     case HONEYBEE = "\u{1F41D}";
 
-    #[Info(id: 128030, name: 'LADY BEETLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F41E, name: 'LADY BEETLE', category: Cat::Other_Symbol)]
     case LADY_BEETLE = "\u{1F41E}";
 
-    #[Info(id: 128031, name: 'FISH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F41F, name: 'FISH', category: Cat::Other_Symbol)]
     case FISH = "\u{1F41F}";
 
-    #[Info(id: 128032, name: 'TROPICAL FISH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F420, name: 'TROPICAL FISH', category: Cat::Other_Symbol)]
     case TROPICAL_FISH = "\u{1F420}";
 
-    #[Info(id: 128033, name: 'BLOWFISH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F421, name: 'BLOWFISH', category: Cat::Other_Symbol)]
     case BLOWFISH = "\u{1F421}";
 
-    #[Info(id: 128034, name: 'TURTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F422, name: 'TURTLE', category: Cat::Other_Symbol)]
     case TURTLE = "\u{1F422}";
 
-    #[Info(id: 128035, name: 'HATCHING CHICK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F423, name: 'HATCHING CHICK', category: Cat::Other_Symbol)]
     case HATCHING_CHICK = "\u{1F423}";
 
-    #[Info(id: 128036, name: 'BABY CHICK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F424, name: 'BABY CHICK', category: Cat::Other_Symbol)]
     case BABY_CHICK = "\u{1F424}";
 
-    #[Info(id: 128037, name: 'FRONT-FACING BABY CHICK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F425, name: 'FRONT-FACING BABY CHICK', category: Cat::Other_Symbol)]
     case FRONT_FACING_BABY_CHICK = "\u{1F425}";
 
-    #[Info(id: 128038, name: 'BIRD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F426, name: 'BIRD', category: Cat::Other_Symbol)]
     case BIRD = "\u{1F426}";
 
-    #[Info(id: 128039, name: 'PENGUIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F427, name: 'PENGUIN', category: Cat::Other_Symbol)]
     case PENGUIN = "\u{1F427}";
 
-    #[Info(id: 128040, name: 'KOALA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F428, name: 'KOALA', category: Cat::Other_Symbol)]
     case KOALA = "\u{1F428}";
 
-    #[Info(id: 128041, name: 'POODLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F429, name: 'POODLE', category: Cat::Other_Symbol)]
     case POODLE = "\u{1F429}";
 
-    #[Info(id: 128042, name: 'DROMEDARY CAMEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F42A, name: 'DROMEDARY CAMEL', category: Cat::Other_Symbol)]
     case DROMEDARY_CAMEL = "\u{1F42A}";
 
-    #[Info(id: 128043, name: 'BACTRIAN CAMEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F42B, name: 'BACTRIAN CAMEL', category: Cat::Other_Symbol)]
     case BACTRIAN_CAMEL = "\u{1F42B}";
 
-    #[Info(id: 128044, name: 'DOLPHIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F42C, name: 'DOLPHIN', category: Cat::Other_Symbol)]
     case DOLPHIN = "\u{1F42C}";
 
-    #[Info(id: 128045, name: 'MOUSE FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F42D, name: 'MOUSE FACE', category: Cat::Other_Symbol)]
     case MOUSE_FACE = "\u{1F42D}";
 
-    #[Info(id: 128046, name: 'COW FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F42E, name: 'COW FACE', category: Cat::Other_Symbol)]
     case COW_FACE = "\u{1F42E}";
 
-    #[Info(id: 128047, name: 'TIGER FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F42F, name: 'TIGER FACE', category: Cat::Other_Symbol)]
     case TIGER_FACE = "\u{1F42F}";
 
-    #[Info(id: 128048, name: 'RABBIT FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F430, name: 'RABBIT FACE', category: Cat::Other_Symbol)]
     case RABBIT_FACE = "\u{1F430}";
 
-    #[Info(id: 128049, name: 'CAT FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F431, name: 'CAT FACE', category: Cat::Other_Symbol)]
     case CAT_FACE = "\u{1F431}";
 
-    #[Info(id: 128050, name: 'DRAGON FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F432, name: 'DRAGON FACE', category: Cat::Other_Symbol)]
     case DRAGON_FACE = "\u{1F432}";
 
-    #[Info(id: 128051, name: 'SPOUTING WHALE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F433, name: 'SPOUTING WHALE', category: Cat::Other_Symbol)]
     case SPOUTING_WHALE = "\u{1F433}";
 
-    #[Info(id: 128052, name: 'HORSE FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F434, name: 'HORSE FACE', category: Cat::Other_Symbol)]
     case HORSE_FACE = "\u{1F434}";
 
-    #[Info(id: 128053, name: 'MONKEY FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F435, name: 'MONKEY FACE', category: Cat::Other_Symbol)]
     case MONKEY_FACE = "\u{1F435}";
 
-    #[Info(id: 128054, name: 'DOG FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F436, name: 'DOG FACE', category: Cat::Other_Symbol)]
     case DOG_FACE = "\u{1F436}";
 
-    #[Info(id: 128055, name: 'PIG FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F437, name: 'PIG FACE', category: Cat::Other_Symbol)]
     case PIG_FACE = "\u{1F437}";
 
-    #[Info(id: 128056, name: 'FROG FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F438, name: 'FROG FACE', category: Cat::Other_Symbol)]
     case FROG_FACE = "\u{1F438}";
 
-    #[Info(id: 128057, name: 'HAMSTER FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F439, name: 'HAMSTER FACE', category: Cat::Other_Symbol)]
     case HAMSTER_FACE = "\u{1F439}";
 
-    #[Info(id: 128058, name: 'WOLF FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F43A, name: 'WOLF FACE', category: Cat::Other_Symbol)]
     case WOLF_FACE = "\u{1F43A}";
 
-    #[Info(id: 128059, name: 'BEAR FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F43B, name: 'BEAR FACE', category: Cat::Other_Symbol)]
     case BEAR_FACE = "\u{1F43B}";
 
-    #[Info(id: 128060, name: 'PANDA FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F43C, name: 'PANDA FACE', category: Cat::Other_Symbol)]
     case PANDA_FACE = "\u{1F43C}";
 
-    #[Info(id: 128061, name: 'PIG NOSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F43D, name: 'PIG NOSE', category: Cat::Other_Symbol)]
     case PIG_NOSE = "\u{1F43D}";
 
-    #[Info(id: 128062, name: 'PAW PRINTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F43E, name: 'PAW PRINTS', category: Cat::Other_Symbol)]
     case PAW_PRINTS = "\u{1F43E}";
 
-    #[Info(id: 128063, name: 'CHIPMUNK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F43F, name: 'CHIPMUNK', category: Cat::Other_Symbol)]
     case CHIPMUNK = "\u{1F43F}";
 
-    #[Info(id: 128064, name: 'EYES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F440, name: 'EYES', category: Cat::Other_Symbol)]
     case EYES = "\u{1F440}";
 
-    #[Info(id: 128065, name: 'EYE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F441, name: 'EYE', category: Cat::Other_Symbol)]
     case EYE = "\u{1F441}";
 
-    #[Info(id: 128066, name: 'EAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F442, name: 'EAR', category: Cat::Other_Symbol)]
     case EAR = "\u{1F442}";
 
-    #[Info(id: 128067, name: 'NOSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F443, name: 'NOSE', category: Cat::Other_Symbol)]
     case NOSE = "\u{1F443}";
 
-    #[Info(id: 128068, name: 'MOUTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F444, name: 'MOUTH', category: Cat::Other_Symbol)]
     case MOUTH = "\u{1F444}";
 
-    #[Info(id: 128069, name: 'TONGUE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F445, name: 'TONGUE', category: Cat::Other_Symbol)]
     case TONGUE = "\u{1F445}";
 
-    #[Info(id: 128070, name: 'WHITE UP POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F446, name: 'WHITE UP POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
     case WHITE_UP_POINTING_BACKHAND_INDEX = "\u{1F446}";
 
-    #[Info(id: 128071, name: 'WHITE DOWN POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F447, name: 'WHITE DOWN POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
     case WHITE_DOWN_POINTING_BACKHAND_INDEX = "\u{1F447}";
 
-    #[Info(id: 128072, name: 'WHITE LEFT POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F448, name: 'WHITE LEFT POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
     case WHITE_LEFT_POINTING_BACKHAND_INDEX = "\u{1F448}";
 
-    #[Info(id: 128073, name: 'WHITE RIGHT POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F449, name: 'WHITE RIGHT POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
     case WHITE_RIGHT_POINTING_BACKHAND_INDEX = "\u{1F449}";
 
-    #[Info(id: 128074, name: 'FISTED HAND SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F44A, name: 'FISTED HAND SIGN', category: Cat::Other_Symbol)]
     case FISTED_HAND_SIGN = "\u{1F44A}";
 
-    #[Info(id: 128075, name: 'WAVING HAND SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F44B, name: 'WAVING HAND SIGN', category: Cat::Other_Symbol)]
     case WAVING_HAND_SIGN = "\u{1F44B}";
 
-    #[Info(id: 128076, name: 'OK HAND SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F44C, name: 'OK HAND SIGN', category: Cat::Other_Symbol)]
     case OK_HAND_SIGN = "\u{1F44C}";
 
-    #[Info(id: 128077, name: 'THUMBS UP SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F44D, name: 'THUMBS UP SIGN', category: Cat::Other_Symbol)]
     case THUMBS_UP_SIGN = "\u{1F44D}";
 
-    #[Info(id: 128078, name: 'THUMBS DOWN SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F44E, name: 'THUMBS DOWN SIGN', category: Cat::Other_Symbol)]
     case THUMBS_DOWN_SIGN = "\u{1F44E}";
 
-    #[Info(id: 128079, name: 'CLAPPING HANDS SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F44F, name: 'CLAPPING HANDS SIGN', category: Cat::Other_Symbol)]
     case CLAPPING_HANDS_SIGN = "\u{1F44F}";
 
-    #[Info(id: 128080, name: 'OPEN HANDS SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F450, name: 'OPEN HANDS SIGN', category: Cat::Other_Symbol)]
     case OPEN_HANDS_SIGN = "\u{1F450}";
 
-    #[Info(id: 128081, name: 'CROWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F451, name: 'CROWN', category: Cat::Other_Symbol)]
     case CROWN = "\u{1F451}";
 
-    #[Info(id: 128082, name: 'WOMANS HAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F452, name: 'WOMANS HAT', category: Cat::Other_Symbol)]
     case WOMANS_HAT = "\u{1F452}";
 
-    #[Info(id: 128083, name: 'EYEGLASSES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F453, name: 'EYEGLASSES', category: Cat::Other_Symbol)]
     case EYEGLASSES = "\u{1F453}";
 
-    #[Info(id: 128084, name: 'NECKTIE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F454, name: 'NECKTIE', category: Cat::Other_Symbol)]
     case NECKTIE = "\u{1F454}";
 
-    #[Info(id: 128085, name: 'T-SHIRT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F455, name: 'T-SHIRT', category: Cat::Other_Symbol)]
     case T_SHIRT = "\u{1F455}";
 
-    #[Info(id: 128086, name: 'JEANS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F456, name: 'JEANS', category: Cat::Other_Symbol)]
     case JEANS = "\u{1F456}";
 
-    #[Info(id: 128087, name: 'DRESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F457, name: 'DRESS', category: Cat::Other_Symbol)]
     case DRESS = "\u{1F457}";
 
-    #[Info(id: 128088, name: 'KIMONO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F458, name: 'KIMONO', category: Cat::Other_Symbol)]
     case KIMONO = "\u{1F458}";
 
-    #[Info(id: 128089, name: 'BIKINI', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F459, name: 'BIKINI', category: Cat::Other_Symbol)]
     case BIKINI = "\u{1F459}";
 
-    #[Info(id: 128090, name: 'WOMANS CLOTHES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F45A, name: 'WOMANS CLOTHES', category: Cat::Other_Symbol)]
     case WOMANS_CLOTHES = "\u{1F45A}";
 
-    #[Info(id: 128091, name: 'PURSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F45B, name: 'PURSE', category: Cat::Other_Symbol)]
     case PURSE = "\u{1F45B}";
 
-    #[Info(id: 128092, name: 'HANDBAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F45C, name: 'HANDBAG', category: Cat::Other_Symbol)]
     case HANDBAG = "\u{1F45C}";
 
-    #[Info(id: 128093, name: 'POUCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F45D, name: 'POUCH', category: Cat::Other_Symbol)]
     case POUCH = "\u{1F45D}";
 
-    #[Info(id: 128094, name: 'MANS SHOE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F45E, name: 'MANS SHOE', category: Cat::Other_Symbol)]
     case MANS_SHOE = "\u{1F45E}";
 
-    #[Info(id: 128095, name: 'ATHLETIC SHOE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F45F, name: 'ATHLETIC SHOE', category: Cat::Other_Symbol)]
     case ATHLETIC_SHOE = "\u{1F45F}";
 
-    #[Info(id: 128096, name: 'HIGH-HEELED SHOE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F460, name: 'HIGH-HEELED SHOE', category: Cat::Other_Symbol)]
     case HIGH_HEELED_SHOE = "\u{1F460}";
 
-    #[Info(id: 128097, name: 'WOMANS SANDAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F461, name: 'WOMANS SANDAL', category: Cat::Other_Symbol)]
     case WOMANS_SANDAL = "\u{1F461}";
 
-    #[Info(id: 128098, name: 'WOMANS BOOTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F462, name: 'WOMANS BOOTS', category: Cat::Other_Symbol)]
     case WOMANS_BOOTS = "\u{1F462}";
 
-    #[Info(id: 128099, name: 'FOOTPRINTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F463, name: 'FOOTPRINTS', category: Cat::Other_Symbol)]
     case FOOTPRINTS = "\u{1F463}";
 
-    #[Info(id: 128100, name: 'BUST IN SILHOUETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F464, name: 'BUST IN SILHOUETTE', category: Cat::Other_Symbol)]
     case BUST_IN_SILHOUETTE = "\u{1F464}";
 
-    #[Info(id: 128101, name: 'BUSTS IN SILHOUETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F465, name: 'BUSTS IN SILHOUETTE', category: Cat::Other_Symbol)]
     case BUSTS_IN_SILHOUETTE = "\u{1F465}";
 
-    #[Info(id: 128102, name: 'BOY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F466, name: 'BOY', category: Cat::Other_Symbol)]
     case BOY = "\u{1F466}";
 
-    #[Info(id: 128103, name: 'GIRL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F467, name: 'GIRL', category: Cat::Other_Symbol)]
     case GIRL = "\u{1F467}";
 
-    #[Info(id: 128104, name: 'MAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F468, name: 'MAN', category: Cat::Other_Symbol)]
     case MAN = "\u{1F468}";
 
-    #[Info(id: 128105, name: 'WOMAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F469, name: 'WOMAN', category: Cat::Other_Symbol)]
     case WOMAN = "\u{1F469}";
 
-    #[Info(id: 128106, name: 'FAMILY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F46A, name: 'FAMILY', category: Cat::Other_Symbol)]
     case FAMILY = "\u{1F46A}";
 
-    #[Info(id: 128107, name: 'MAN AND WOMAN HOLDING HANDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F46B, name: 'MAN AND WOMAN HOLDING HANDS', category: Cat::Other_Symbol)]
     case MAN_AND_WOMAN_HOLDING_HANDS = "\u{1F46B}";
 
-    #[Info(id: 128108, name: 'TWO MEN HOLDING HANDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F46C, name: 'TWO MEN HOLDING HANDS', category: Cat::Other_Symbol)]
     case TWO_MEN_HOLDING_HANDS = "\u{1F46C}";
 
-    #[Info(id: 128109, name: 'TWO WOMEN HOLDING HANDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F46D, name: 'TWO WOMEN HOLDING HANDS', category: Cat::Other_Symbol)]
     case TWO_WOMEN_HOLDING_HANDS = "\u{1F46D}";
 
-    #[Info(id: 128110, name: 'POLICE OFFICER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F46E, name: 'POLICE OFFICER', category: Cat::Other_Symbol)]
     case POLICE_OFFICER = "\u{1F46E}";
 
-    #[Info(id: 128111, name: 'WOMAN WITH BUNNY EARS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F46F, name: 'WOMAN WITH BUNNY EARS', category: Cat::Other_Symbol)]
     case WOMAN_WITH_BUNNY_EARS = "\u{1F46F}";
 
-    #[Info(id: 128112, name: 'BRIDE WITH VEIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F470, name: 'BRIDE WITH VEIL', category: Cat::Other_Symbol)]
     case BRIDE_WITH_VEIL = "\u{1F470}";
 
-    #[Info(id: 128113, name: 'PERSON WITH BLOND HAIR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F471, name: 'PERSON WITH BLOND HAIR', category: Cat::Other_Symbol)]
     case PERSON_WITH_BLOND_HAIR = "\u{1F471}";
 
-    #[Info(id: 128114, name: 'MAN WITH GUA PI MAO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F472, name: 'MAN WITH GUA PI MAO', category: Cat::Other_Symbol)]
     case MAN_WITH_GUA_PI_MAO = "\u{1F472}";
 
-    #[Info(id: 128115, name: 'MAN WITH TURBAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F473, name: 'MAN WITH TURBAN', category: Cat::Other_Symbol)]
     case MAN_WITH_TURBAN = "\u{1F473}";
 
-    #[Info(id: 128116, name: 'OLDER MAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F474, name: 'OLDER MAN', category: Cat::Other_Symbol)]
     case OLDER_MAN = "\u{1F474}";
 
-    #[Info(id: 128117, name: 'OLDER WOMAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F475, name: 'OLDER WOMAN', category: Cat::Other_Symbol)]
     case OLDER_WOMAN = "\u{1F475}";
 
-    #[Info(id: 128118, name: 'BABY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F476, name: 'BABY', category: Cat::Other_Symbol)]
     case BABY = "\u{1F476}";
 
-    #[Info(id: 128119, name: 'CONSTRUCTION WORKER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F477, name: 'CONSTRUCTION WORKER', category: Cat::Other_Symbol)]
     case CONSTRUCTION_WORKER = "\u{1F477}";
 
-    #[Info(id: 128120, name: 'PRINCESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F478, name: 'PRINCESS', category: Cat::Other_Symbol)]
     case PRINCESS = "\u{1F478}";
 
-    #[Info(id: 128121, name: 'JAPANESE OGRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F479, name: 'JAPANESE OGRE', category: Cat::Other_Symbol)]
     case JAPANESE_OGRE = "\u{1F479}";
 
-    #[Info(id: 128122, name: 'JAPANESE GOBLIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F47A, name: 'JAPANESE GOBLIN', category: Cat::Other_Symbol)]
     case JAPANESE_GOBLIN = "\u{1F47A}";
 
-    #[Info(id: 128123, name: 'GHOST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F47B, name: 'GHOST', category: Cat::Other_Symbol)]
     case GHOST = "\u{1F47B}";
 
-    #[Info(id: 128124, name: 'BABY ANGEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F47C, name: 'BABY ANGEL', category: Cat::Other_Symbol)]
     case BABY_ANGEL = "\u{1F47C}";
 
-    #[Info(id: 128125, name: 'EXTRATERRESTRIAL ALIEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F47D, name: 'EXTRATERRESTRIAL ALIEN', category: Cat::Other_Symbol)]
     case EXTRATERRESTRIAL_ALIEN = "\u{1F47D}";
 
-    #[Info(id: 128126, name: 'ALIEN MONSTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F47E, name: 'ALIEN MONSTER', category: Cat::Other_Symbol)]
     case ALIEN_MONSTER = "\u{1F47E}";
 
-    #[Info(id: 128127, name: 'IMP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F47F, name: 'IMP', category: Cat::Other_Symbol)]
     case IMP = "\u{1F47F}";
 
-    #[Info(id: 128128, name: 'SKULL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F480, name: 'SKULL', category: Cat::Other_Symbol)]
     case SKULL = "\u{1F480}";
 
-    #[Info(id: 128129, name: 'INFORMATION DESK PERSON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F481, name: 'INFORMATION DESK PERSON', category: Cat::Other_Symbol)]
     case INFORMATION_DESK_PERSON = "\u{1F481}";
 
-    #[Info(id: 128130, name: 'GUARDSMAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F482, name: 'GUARDSMAN', category: Cat::Other_Symbol)]
     case GUARDSMAN = "\u{1F482}";
 
-    #[Info(id: 128131, name: 'DANCER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F483, name: 'DANCER', category: Cat::Other_Symbol)]
     case DANCER = "\u{1F483}";
 
-    #[Info(id: 128132, name: 'LIPSTICK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F484, name: 'LIPSTICK', category: Cat::Other_Symbol)]
     case LIPSTICK = "\u{1F484}";
 
-    #[Info(id: 128133, name: 'NAIL POLISH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F485, name: 'NAIL POLISH', category: Cat::Other_Symbol)]
     case NAIL_POLISH = "\u{1F485}";
 
-    #[Info(id: 128134, name: 'FACE MASSAGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F486, name: 'FACE MASSAGE', category: Cat::Other_Symbol)]
     case FACE_MASSAGE = "\u{1F486}";
 
-    #[Info(id: 128135, name: 'HAIRCUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F487, name: 'HAIRCUT', category: Cat::Other_Symbol)]
     case HAIRCUT = "\u{1F487}";
 
-    #[Info(id: 128136, name: 'BARBER POLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F488, name: 'BARBER POLE', category: Cat::Other_Symbol)]
     case BARBER_POLE = "\u{1F488}";
 
-    #[Info(id: 128137, name: 'SYRINGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F489, name: 'SYRINGE', category: Cat::Other_Symbol)]
     case SYRINGE = "\u{1F489}";
 
-    #[Info(id: 128138, name: 'PILL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F48A, name: 'PILL', category: Cat::Other_Symbol)]
     case PILL = "\u{1F48A}";
 
-    #[Info(id: 128139, name: 'KISS MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F48B, name: 'KISS MARK', category: Cat::Other_Symbol)]
     case KISS_MARK = "\u{1F48B}";
 
-    #[Info(id: 128140, name: 'LOVE LETTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F48C, name: 'LOVE LETTER', category: Cat::Other_Symbol)]
     case LOVE_LETTER = "\u{1F48C}";
 
-    #[Info(id: 128141, name: 'RING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F48D, name: 'RING', category: Cat::Other_Symbol)]
     case RING = "\u{1F48D}";
 
-    #[Info(id: 128142, name: 'GEM STONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F48E, name: 'GEM STONE', category: Cat::Other_Symbol)]
     case GEM_STONE = "\u{1F48E}";
 
-    #[Info(id: 128143, name: 'KISS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F48F, name: 'KISS', category: Cat::Other_Symbol)]
     case KISS = "\u{1F48F}";
 
-    #[Info(id: 128144, name: 'BOUQUET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F490, name: 'BOUQUET', category: Cat::Other_Symbol)]
     case BOUQUET = "\u{1F490}";
 
-    #[Info(id: 128145, name: 'COUPLE WITH HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F491, name: 'COUPLE WITH HEART', category: Cat::Other_Symbol)]
     case COUPLE_WITH_HEART = "\u{1F491}";
 
-    #[Info(id: 128146, name: 'WEDDING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F492, name: 'WEDDING', category: Cat::Other_Symbol)]
     case WEDDING = "\u{1F492}";
 
-    #[Info(id: 128147, name: 'BEATING HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F493, name: 'BEATING HEART', category: Cat::Other_Symbol)]
     case BEATING_HEART = "\u{1F493}";
 
-    #[Info(id: 128148, name: 'BROKEN HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F494, name: 'BROKEN HEART', category: Cat::Other_Symbol)]
     case BROKEN_HEART = "\u{1F494}";
 
-    #[Info(id: 128149, name: 'TWO HEARTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F495, name: 'TWO HEARTS', category: Cat::Other_Symbol)]
     case TWO_HEARTS = "\u{1F495}";
 
-    #[Info(id: 128150, name: 'SPARKLING HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F496, name: 'SPARKLING HEART', category: Cat::Other_Symbol)]
     case SPARKLING_HEART = "\u{1F496}";
 
-    #[Info(id: 128151, name: 'GROWING HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F497, name: 'GROWING HEART', category: Cat::Other_Symbol)]
     case GROWING_HEART = "\u{1F497}";
 
-    #[Info(id: 128152, name: 'HEART WITH ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F498, name: 'HEART WITH ARROW', category: Cat::Other_Symbol)]
     case HEART_WITH_ARROW = "\u{1F498}";
 
-    #[Info(id: 128153, name: 'BLUE HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F499, name: 'BLUE HEART', category: Cat::Other_Symbol)]
     case BLUE_HEART = "\u{1F499}";
 
-    #[Info(id: 128154, name: 'GREEN HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F49A, name: 'GREEN HEART', category: Cat::Other_Symbol)]
     case GREEN_HEART = "\u{1F49A}";
 
-    #[Info(id: 128155, name: 'YELLOW HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F49B, name: 'YELLOW HEART', category: Cat::Other_Symbol)]
     case YELLOW_HEART = "\u{1F49B}";
 
-    #[Info(id: 128156, name: 'PURPLE HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F49C, name: 'PURPLE HEART', category: Cat::Other_Symbol)]
     case PURPLE_HEART = "\u{1F49C}";
 
-    #[Info(id: 128157, name: 'HEART WITH RIBBON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F49D, name: 'HEART WITH RIBBON', category: Cat::Other_Symbol)]
     case HEART_WITH_RIBBON = "\u{1F49D}";
 
-    #[Info(id: 128158, name: 'REVOLVING HEARTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F49E, name: 'REVOLVING HEARTS', category: Cat::Other_Symbol)]
     case REVOLVING_HEARTS = "\u{1F49E}";
 
-    #[Info(id: 128159, name: 'HEART DECORATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F49F, name: 'HEART DECORATION', category: Cat::Other_Symbol)]
     case HEART_DECORATION = "\u{1F49F}";
 
-    #[Info(id: 128160, name: 'DIAMOND SHAPE WITH A DOT INSIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A0, name: 'DIAMOND SHAPE WITH A DOT INSIDE', category: Cat::Other_Symbol)]
     case DIAMOND_SHAPE_WITH_A_DOT_INSIDE = "\u{1F4A0}";
 
-    #[Info(id: 128161, name: 'ELECTRIC LIGHT BULB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A1, name: 'ELECTRIC LIGHT BULB', category: Cat::Other_Symbol)]
     case ELECTRIC_LIGHT_BULB = "\u{1F4A1}";
 
-    #[Info(id: 128162, name: 'ANGER SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A2, name: 'ANGER SYMBOL', category: Cat::Other_Symbol)]
     case ANGER_SYMBOL = "\u{1F4A2}";
 
-    #[Info(id: 128163, name: 'BOMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A3, name: 'BOMB', category: Cat::Other_Symbol)]
     case BOMB = "\u{1F4A3}";
 
-    #[Info(id: 128164, name: 'SLEEPING SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A4, name: 'SLEEPING SYMBOL', category: Cat::Other_Symbol)]
     case SLEEPING_SYMBOL = "\u{1F4A4}";
 
-    #[Info(id: 128165, name: 'COLLISION SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A5, name: 'COLLISION SYMBOL', category: Cat::Other_Symbol)]
     case COLLISION_SYMBOL = "\u{1F4A5}";
 
-    #[Info(id: 128166, name: 'SPLASHING SWEAT SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A6, name: 'SPLASHING SWEAT SYMBOL', category: Cat::Other_Symbol)]
     case SPLASHING_SWEAT_SYMBOL = "\u{1F4A6}";
 
-    #[Info(id: 128167, name: 'DROPLET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A7, name: 'DROPLET', category: Cat::Other_Symbol)]
     case DROPLET = "\u{1F4A7}";
 
-    #[Info(id: 128168, name: 'DASH SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A8, name: 'DASH SYMBOL', category: Cat::Other_Symbol)]
     case DASH_SYMBOL = "\u{1F4A8}";
 
-    #[Info(id: 128169, name: 'PILE OF POO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A9, name: 'PILE OF POO', category: Cat::Other_Symbol)]
     case PILE_OF_POO = "\u{1F4A9}";
 
-    #[Info(id: 128170, name: 'FLEXED BICEPS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4AA, name: 'FLEXED BICEPS', category: Cat::Other_Symbol)]
     case FLEXED_BICEPS = "\u{1F4AA}";
 
-    #[Info(id: 128171, name: 'DIZZY SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4AB, name: 'DIZZY SYMBOL', category: Cat::Other_Symbol)]
     case DIZZY_SYMBOL = "\u{1F4AB}";
 
-    #[Info(id: 128172, name: 'SPEECH BALLOON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4AC, name: 'SPEECH BALLOON', category: Cat::Other_Symbol)]
     case SPEECH_BALLOON = "\u{1F4AC}";
 
-    #[Info(id: 128173, name: 'THOUGHT BALLOON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4AD, name: 'THOUGHT BALLOON', category: Cat::Other_Symbol)]
     case THOUGHT_BALLOON = "\u{1F4AD}";
 
-    #[Info(id: 128174, name: 'WHITE FLOWER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4AE, name: 'WHITE FLOWER', category: Cat::Other_Symbol)]
     case WHITE_FLOWER = "\u{1F4AE}";
 
-    #[Info(id: 128175, name: 'HUNDRED POINTS SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4AF, name: 'HUNDRED POINTS SYMBOL', category: Cat::Other_Symbol)]
     case HUNDRED_POINTS_SYMBOL = "\u{1F4AF}";
 
-    #[Info(id: 128176, name: 'MONEY BAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4B0, name: 'MONEY BAG', category: Cat::Other_Symbol)]
     case MONEY_BAG = "\u{1F4B0}";
 
-    #[Info(id: 128177, name: 'CURRENCY EXCHANGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4B1, name: 'CURRENCY EXCHANGE', category: Cat::Other_Symbol)]
     case CURRENCY_EXCHANGE = "\u{1F4B1}";
 
-    #[Info(id: 128178, name: 'HEAVY DOLLAR SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4B2, name: 'HEAVY DOLLAR SIGN', category: Cat::Other_Symbol)]
     case HEAVY_DOLLAR_SIGN = "\u{1F4B2}";
 
-    #[Info(id: 128179, name: 'CREDIT CARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4B3, name: 'CREDIT CARD', category: Cat::Other_Symbol)]
     case CREDIT_CARD = "\u{1F4B3}";
 
-    #[Info(id: 128180, name: 'BANKNOTE WITH YEN SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4B4, name: 'BANKNOTE WITH YEN SIGN', category: Cat::Other_Symbol)]
     case BANKNOTE_WITH_YEN_SIGN = "\u{1F4B4}";
 
-    #[Info(id: 128181, name: 'BANKNOTE WITH DOLLAR SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4B5, name: 'BANKNOTE WITH DOLLAR SIGN', category: Cat::Other_Symbol)]
     case BANKNOTE_WITH_DOLLAR_SIGN = "\u{1F4B5}";
 
-    #[Info(id: 128182, name: 'BANKNOTE WITH EURO SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4B6, name: 'BANKNOTE WITH EURO SIGN', category: Cat::Other_Symbol)]
     case BANKNOTE_WITH_EURO_SIGN = "\u{1F4B6}";
 
-    #[Info(id: 128183, name: 'BANKNOTE WITH POUND SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4B7, name: 'BANKNOTE WITH POUND SIGN', category: Cat::Other_Symbol)]
     case BANKNOTE_WITH_POUND_SIGN = "\u{1F4B7}";
 
-    #[Info(id: 128184, name: 'MONEY WITH WINGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4B8, name: 'MONEY WITH WINGS', category: Cat::Other_Symbol)]
     case MONEY_WITH_WINGS = "\u{1F4B8}";
 
-    #[Info(id: 128185, name: 'CHART WITH UPWARDS TREND AND YEN SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4B9, name: 'CHART WITH UPWARDS TREND AND YEN SIGN', category: Cat::Other_Symbol)]
     case CHART_WITH_UPWARDS_TREND_AND_YEN_SIGN = "\u{1F4B9}";
 
-    #[Info(id: 128186, name: 'SEAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4BA, name: 'SEAT', category: Cat::Other_Symbol)]
     case SEAT = "\u{1F4BA}";
 
-    #[Info(id: 128187, name: 'PERSONAL COMPUTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4BB, name: 'PERSONAL COMPUTER', category: Cat::Other_Symbol)]
     case PERSONAL_COMPUTER = "\u{1F4BB}";
 
-    #[Info(id: 128188, name: 'BRIEFCASE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4BC, name: 'BRIEFCASE', category: Cat::Other_Symbol)]
     case BRIEFCASE = "\u{1F4BC}";
 
-    #[Info(id: 128189, name: 'MINIDISC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4BD, name: 'MINIDISC', category: Cat::Other_Symbol)]
     case MINIDISC = "\u{1F4BD}";
 
-    #[Info(id: 128190, name: 'FLOPPY DISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4BE, name: 'FLOPPY DISK', category: Cat::Other_Symbol)]
     case FLOPPY_DISK = "\u{1F4BE}";
 
-    #[Info(id: 128191, name: 'OPTICAL DISC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4BF, name: 'OPTICAL DISC', category: Cat::Other_Symbol)]
     case OPTICAL_DISC = "\u{1F4BF}";
 
-    #[Info(id: 128192, name: 'DVD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4C0, name: 'DVD', category: Cat::Other_Symbol)]
     case DVD = "\u{1F4C0}";
 
-    #[Info(id: 128193, name: 'FILE FOLDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4C1, name: 'FILE FOLDER', category: Cat::Other_Symbol)]
     case FILE_FOLDER = "\u{1F4C1}";
 
-    #[Info(id: 128194, name: 'OPEN FILE FOLDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4C2, name: 'OPEN FILE FOLDER', category: Cat::Other_Symbol)]
     case OPEN_FILE_FOLDER = "\u{1F4C2}";
 
-    #[Info(id: 128195, name: 'PAGE WITH CURL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4C3, name: 'PAGE WITH CURL', category: Cat::Other_Symbol)]
     case PAGE_WITH_CURL = "\u{1F4C3}";
 
-    #[Info(id: 128196, name: 'PAGE FACING UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4C4, name: 'PAGE FACING UP', category: Cat::Other_Symbol)]
     case PAGE_FACING_UP = "\u{1F4C4}";
 
-    #[Info(id: 128197, name: 'CALENDAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4C5, name: 'CALENDAR', category: Cat::Other_Symbol)]
     case CALENDAR = "\u{1F4C5}";
 
-    #[Info(id: 128198, name: 'TEAR-OFF CALENDAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4C6, name: 'TEAR-OFF CALENDAR', category: Cat::Other_Symbol)]
     case TEAR_OFF_CALENDAR = "\u{1F4C6}";
 
-    #[Info(id: 128199, name: 'CARD INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4C7, name: 'CARD INDEX', category: Cat::Other_Symbol)]
     case CARD_INDEX = "\u{1F4C7}";
 
-    #[Info(id: 128200, name: 'CHART WITH UPWARDS TREND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4C8, name: 'CHART WITH UPWARDS TREND', category: Cat::Other_Symbol)]
     case CHART_WITH_UPWARDS_TREND = "\u{1F4C8}";
 
-    #[Info(id: 128201, name: 'CHART WITH DOWNWARDS TREND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4C9, name: 'CHART WITH DOWNWARDS TREND', category: Cat::Other_Symbol)]
     case CHART_WITH_DOWNWARDS_TREND = "\u{1F4C9}";
 
-    #[Info(id: 128202, name: 'BAR CHART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4CA, name: 'BAR CHART', category: Cat::Other_Symbol)]
     case BAR_CHART = "\u{1F4CA}";
 
-    #[Info(id: 128203, name: 'CLIPBOARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4CB, name: 'CLIPBOARD', category: Cat::Other_Symbol)]
     case CLIPBOARD = "\u{1F4CB}";
 
-    #[Info(id: 128204, name: 'PUSHPIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4CC, name: 'PUSHPIN', category: Cat::Other_Symbol)]
     case PUSHPIN = "\u{1F4CC}";
 
-    #[Info(id: 128205, name: 'ROUND PUSHPIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4CD, name: 'ROUND PUSHPIN', category: Cat::Other_Symbol)]
     case ROUND_PUSHPIN = "\u{1F4CD}";
 
-    #[Info(id: 128206, name: 'PAPERCLIP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4CE, name: 'PAPERCLIP', category: Cat::Other_Symbol)]
     case PAPERCLIP = "\u{1F4CE}";
 
-    #[Info(id: 128207, name: 'STRAIGHT RULER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4CF, name: 'STRAIGHT RULER', category: Cat::Other_Symbol)]
     case STRAIGHT_RULER = "\u{1F4CF}";
 
-    #[Info(id: 128208, name: 'TRIANGULAR RULER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4D0, name: 'TRIANGULAR RULER', category: Cat::Other_Symbol)]
     case TRIANGULAR_RULER = "\u{1F4D0}";
 
-    #[Info(id: 128209, name: 'BOOKMARK TABS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4D1, name: 'BOOKMARK TABS', category: Cat::Other_Symbol)]
     case BOOKMARK_TABS = "\u{1F4D1}";
 
-    #[Info(id: 128210, name: 'LEDGER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4D2, name: 'LEDGER', category: Cat::Other_Symbol)]
     case LEDGER = "\u{1F4D2}";
 
-    #[Info(id: 128211, name: 'NOTEBOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4D3, name: 'NOTEBOOK', category: Cat::Other_Symbol)]
     case NOTEBOOK = "\u{1F4D3}";
 
-    #[Info(id: 128212, name: 'NOTEBOOK WITH DECORATIVE COVER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4D4, name: 'NOTEBOOK WITH DECORATIVE COVER', category: Cat::Other_Symbol)]
     case NOTEBOOK_WITH_DECORATIVE_COVER = "\u{1F4D4}";
 
-    #[Info(id: 128213, name: 'CLOSED BOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4D5, name: 'CLOSED BOOK', category: Cat::Other_Symbol)]
     case CLOSED_BOOK = "\u{1F4D5}";
 
-    #[Info(id: 128214, name: 'OPEN BOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4D6, name: 'OPEN BOOK', category: Cat::Other_Symbol)]
     case OPEN_BOOK = "\u{1F4D6}";
 
-    #[Info(id: 128215, name: 'GREEN BOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4D7, name: 'GREEN BOOK', category: Cat::Other_Symbol)]
     case GREEN_BOOK = "\u{1F4D7}";
 
-    #[Info(id: 128216, name: 'BLUE BOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4D8, name: 'BLUE BOOK', category: Cat::Other_Symbol)]
     case BLUE_BOOK = "\u{1F4D8}";
 
-    #[Info(id: 128217, name: 'ORANGE BOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4D9, name: 'ORANGE BOOK', category: Cat::Other_Symbol)]
     case ORANGE_BOOK = "\u{1F4D9}";
 
-    #[Info(id: 128218, name: 'BOOKS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4DA, name: 'BOOKS', category: Cat::Other_Symbol)]
     case BOOKS = "\u{1F4DA}";
 
-    #[Info(id: 128219, name: 'NAME BADGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4DB, name: 'NAME BADGE', category: Cat::Other_Symbol)]
     case NAME_BADGE = "\u{1F4DB}";
 
-    #[Info(id: 128220, name: 'SCROLL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4DC, name: 'SCROLL', category: Cat::Other_Symbol)]
     case SCROLL = "\u{1F4DC}";
 
-    #[Info(id: 128221, name: 'MEMO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4DD, name: 'MEMO', category: Cat::Other_Symbol)]
     case MEMO = "\u{1F4DD}";
 
-    #[Info(id: 128222, name: 'TELEPHONE RECEIVER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4DE, name: 'TELEPHONE RECEIVER', category: Cat::Other_Symbol)]
     case TELEPHONE_RECEIVER = "\u{1F4DE}";
 
-    #[Info(id: 128223, name: 'PAGER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4DF, name: 'PAGER', category: Cat::Other_Symbol)]
     case PAGER = "\u{1F4DF}";
 
-    #[Info(id: 128224, name: 'FAX MACHINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4E0, name: 'FAX MACHINE', category: Cat::Other_Symbol)]
     case FAX_MACHINE = "\u{1F4E0}";
 
-    #[Info(id: 128225, name: 'SATELLITE ANTENNA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4E1, name: 'SATELLITE ANTENNA', category: Cat::Other_Symbol)]
     case SATELLITE_ANTENNA = "\u{1F4E1}";
 
-    #[Info(id: 128226, name: 'PUBLIC ADDRESS LOUDSPEAKER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4E2, name: 'PUBLIC ADDRESS LOUDSPEAKER', category: Cat::Other_Symbol)]
     case PUBLIC_ADDRESS_LOUDSPEAKER = "\u{1F4E2}";
 
-    #[Info(id: 128227, name: 'CHEERING MEGAPHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4E3, name: 'CHEERING MEGAPHONE', category: Cat::Other_Symbol)]
     case CHEERING_MEGAPHONE = "\u{1F4E3}";
 
-    #[Info(id: 128228, name: 'OUTBOX TRAY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4E4, name: 'OUTBOX TRAY', category: Cat::Other_Symbol)]
     case OUTBOX_TRAY = "\u{1F4E4}";
 
-    #[Info(id: 128229, name: 'INBOX TRAY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4E5, name: 'INBOX TRAY', category: Cat::Other_Symbol)]
     case INBOX_TRAY = "\u{1F4E5}";
 
-    #[Info(id: 128230, name: 'PACKAGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4E6, name: 'PACKAGE', category: Cat::Other_Symbol)]
     case PACKAGE = "\u{1F4E6}";
 
-    #[Info(id: 128231, name: 'E-MAIL SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4E7, name: 'E-MAIL SYMBOL', category: Cat::Other_Symbol)]
     case E_MAIL_SYMBOL = "\u{1F4E7}";
 
-    #[Info(id: 128232, name: 'INCOMING ENVELOPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4E8, name: 'INCOMING ENVELOPE', category: Cat::Other_Symbol)]
     case INCOMING_ENVELOPE = "\u{1F4E8}";
 
-    #[Info(id: 128233, name: 'ENVELOPE WITH DOWNWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4E9, name: 'ENVELOPE WITH DOWNWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
     case ENVELOPE_WITH_DOWNWARDS_ARROW_ABOVE = "\u{1F4E9}";
 
-    #[Info(id: 128234, name: 'CLOSED MAILBOX WITH LOWERED FLAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4EA, name: 'CLOSED MAILBOX WITH LOWERED FLAG', category: Cat::Other_Symbol)]
     case CLOSED_MAILBOX_WITH_LOWERED_FLAG = "\u{1F4EA}";
 
-    #[Info(id: 128235, name: 'CLOSED MAILBOX WITH RAISED FLAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4EB, name: 'CLOSED MAILBOX WITH RAISED FLAG', category: Cat::Other_Symbol)]
     case CLOSED_MAILBOX_WITH_RAISED_FLAG = "\u{1F4EB}";
 
-    #[Info(id: 128236, name: 'OPEN MAILBOX WITH RAISED FLAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4EC, name: 'OPEN MAILBOX WITH RAISED FLAG', category: Cat::Other_Symbol)]
     case OPEN_MAILBOX_WITH_RAISED_FLAG = "\u{1F4EC}";
 
-    #[Info(id: 128237, name: 'OPEN MAILBOX WITH LOWERED FLAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4ED, name: 'OPEN MAILBOX WITH LOWERED FLAG', category: Cat::Other_Symbol)]
     case OPEN_MAILBOX_WITH_LOWERED_FLAG = "\u{1F4ED}";
 
-    #[Info(id: 128238, name: 'POSTBOX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4EE, name: 'POSTBOX', category: Cat::Other_Symbol)]
     case POSTBOX = "\u{1F4EE}";
 
-    #[Info(id: 128239, name: 'POSTAL HORN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4EF, name: 'POSTAL HORN', category: Cat::Other_Symbol)]
     case POSTAL_HORN = "\u{1F4EF}";
 
-    #[Info(id: 128240, name: 'NEWSPAPER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F0, name: 'NEWSPAPER', category: Cat::Other_Symbol)]
     case NEWSPAPER = "\u{1F4F0}";
 
-    #[Info(id: 128241, name: 'MOBILE PHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F1, name: 'MOBILE PHONE', category: Cat::Other_Symbol)]
     case MOBILE_PHONE = "\u{1F4F1}";
 
-    #[Info(id: 128242, name: 'MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F2, name: 'MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT', category: Cat::Other_Symbol)]
     case MOBILE_PHONE_WITH_RIGHTWARDS_ARROW_AT_LEFT = "\u{1F4F2}";
 
-    #[Info(id: 128243, name: 'VIBRATION MODE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F3, name: 'VIBRATION MODE', category: Cat::Other_Symbol)]
     case VIBRATION_MODE = "\u{1F4F3}";
 
-    #[Info(id: 128244, name: 'MOBILE PHONE OFF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F4, name: 'MOBILE PHONE OFF', category: Cat::Other_Symbol)]
     case MOBILE_PHONE_OFF = "\u{1F4F4}";
 
-    #[Info(id: 128245, name: 'NO MOBILE PHONES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F5, name: 'NO MOBILE PHONES', category: Cat::Other_Symbol)]
     case NO_MOBILE_PHONES = "\u{1F4F5}";
 
-    #[Info(id: 128246, name: 'ANTENNA WITH BARS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F6, name: 'ANTENNA WITH BARS', category: Cat::Other_Symbol)]
     case ANTENNA_WITH_BARS = "\u{1F4F6}";
 
-    #[Info(id: 128247, name: 'CAMERA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F7, name: 'CAMERA', category: Cat::Other_Symbol)]
     case CAMERA = "\u{1F4F7}";
 
-    #[Info(id: 128248, name: 'CAMERA WITH FLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F8, name: 'CAMERA WITH FLASH', category: Cat::Other_Symbol)]
     case CAMERA_WITH_FLASH = "\u{1F4F8}";
 
-    #[Info(id: 128249, name: 'VIDEO CAMERA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F9, name: 'VIDEO CAMERA', category: Cat::Other_Symbol)]
     case VIDEO_CAMERA = "\u{1F4F9}";
 
-    #[Info(id: 128250, name: 'TELEVISION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4FA, name: 'TELEVISION', category: Cat::Other_Symbol)]
     case TELEVISION = "\u{1F4FA}";
 
-    #[Info(id: 128251, name: 'RADIO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4FB, name: 'RADIO', category: Cat::Other_Symbol)]
     case RADIO = "\u{1F4FB}";
 
-    #[Info(id: 128252, name: 'VIDEOCASSETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4FC, name: 'VIDEOCASSETTE', category: Cat::Other_Symbol)]
     case VIDEOCASSETTE = "\u{1F4FC}";
 
-    #[Info(id: 128253, name: 'FILM PROJECTOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4FD, name: 'FILM PROJECTOR', category: Cat::Other_Symbol)]
     case FILM_PROJECTOR = "\u{1F4FD}";
 
-    #[Info(id: 128254, name: 'PORTABLE STEREO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4FE, name: 'PORTABLE STEREO', category: Cat::Other_Symbol)]
     case PORTABLE_STEREO = "\u{1F4FE}";
 
-    #[Info(id: 128255, name: 'PRAYER BEADS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4FF, name: 'PRAYER BEADS', category: Cat::Other_Symbol)]
     case PRAYER_BEADS = "\u{1F4FF}";
 
-    #[Info(id: 128256, name: 'TWISTED RIGHTWARDS ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F500, name: 'TWISTED RIGHTWARDS ARROWS', category: Cat::Other_Symbol)]
     case TWISTED_RIGHTWARDS_ARROWS = "\u{1F500}";
 
-    #[Info(id: 128257, name: 'CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F501, name: 'CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol)]
     case CLOCKWISE_RIGHTWARDS_AND_LEFTWARDS_OPEN_CIRCLE_ARROWS = "\u{1F501}";
 
-    #[Info(id: 128258, name: 'CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F502, name: 'CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY', category: Cat::Other_Symbol)]
     case CLOCKWISE_RIGHTWARDS_AND_LEFTWARDS_OPEN_CIRCLE_ARROWS_WITH_CIRCLED_ONE_OVERLAY = "\u{1F502}";
 
-    #[Info(id: 128259, name: 'CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F503, name: 'CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol)]
     case CLOCKWISE_DOWNWARDS_AND_UPWARDS_OPEN_CIRCLE_ARROWS = "\u{1F503}";
 
-    #[Info(id: 128260, name: 'ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F504, name: 'ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol)]
     case ANTICLOCKWISE_DOWNWARDS_AND_UPWARDS_OPEN_CIRCLE_ARROWS = "\u{1F504}";
 
-    #[Info(id: 128261, name: 'LOW BRIGHTNESS SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F505, name: 'LOW BRIGHTNESS SYMBOL', category: Cat::Other_Symbol)]
     case LOW_BRIGHTNESS_SYMBOL = "\u{1F505}";
 
-    #[Info(id: 128262, name: 'HIGH BRIGHTNESS SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F506, name: 'HIGH BRIGHTNESS SYMBOL', category: Cat::Other_Symbol)]
     case HIGH_BRIGHTNESS_SYMBOL = "\u{1F506}";
 
-    #[Info(id: 128263, name: 'SPEAKER WITH CANCELLATION STROKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F507, name: 'SPEAKER WITH CANCELLATION STROKE', category: Cat::Other_Symbol)]
     case SPEAKER_WITH_CANCELLATION_STROKE = "\u{1F507}";
 
-    #[Info(id: 128264, name: 'SPEAKER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F508, name: 'SPEAKER', category: Cat::Other_Symbol)]
     case SPEAKER = "\u{1F508}";
 
-    #[Info(id: 128265, name: 'SPEAKER WITH ONE SOUND WAVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F509, name: 'SPEAKER WITH ONE SOUND WAVE', category: Cat::Other_Symbol)]
     case SPEAKER_WITH_ONE_SOUND_WAVE = "\u{1F509}";
 
-    #[Info(id: 128266, name: 'SPEAKER WITH THREE SOUND WAVES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F50A, name: 'SPEAKER WITH THREE SOUND WAVES', category: Cat::Other_Symbol)]
     case SPEAKER_WITH_THREE_SOUND_WAVES = "\u{1F50A}";
 
-    #[Info(id: 128267, name: 'BATTERY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F50B, name: 'BATTERY', category: Cat::Other_Symbol)]
     case BATTERY = "\u{1F50B}";
 
-    #[Info(id: 128268, name: 'ELECTRIC PLUG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F50C, name: 'ELECTRIC PLUG', category: Cat::Other_Symbol)]
     case ELECTRIC_PLUG = "\u{1F50C}";
 
-    #[Info(id: 128269, name: 'LEFT-POINTING MAGNIFYING GLASS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F50D, name: 'LEFT-POINTING MAGNIFYING GLASS', category: Cat::Other_Symbol)]
     case LEFT_POINTING_MAGNIFYING_GLASS = "\u{1F50D}";
 
-    #[Info(id: 128270, name: 'RIGHT-POINTING MAGNIFYING GLASS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F50E, name: 'RIGHT-POINTING MAGNIFYING GLASS', category: Cat::Other_Symbol)]
     case RIGHT_POINTING_MAGNIFYING_GLASS = "\u{1F50E}";
 
-    #[Info(id: 128271, name: 'LOCK WITH INK PEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F50F, name: 'LOCK WITH INK PEN', category: Cat::Other_Symbol)]
     case LOCK_WITH_INK_PEN = "\u{1F50F}";
 
-    #[Info(id: 128272, name: 'CLOSED LOCK WITH KEY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F510, name: 'CLOSED LOCK WITH KEY', category: Cat::Other_Symbol)]
     case CLOSED_LOCK_WITH_KEY = "\u{1F510}";
 
-    #[Info(id: 128273, name: 'KEY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F511, name: 'KEY', category: Cat::Other_Symbol)]
     case KEY = "\u{1F511}";
 
-    #[Info(id: 128274, name: 'LOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F512, name: 'LOCK', category: Cat::Other_Symbol)]
     case LOCK = "\u{1F512}";
 
-    #[Info(id: 128275, name: 'OPEN LOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F513, name: 'OPEN LOCK', category: Cat::Other_Symbol)]
     case OPEN_LOCK = "\u{1F513}";
 
-    #[Info(id: 128276, name: 'BELL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F514, name: 'BELL', category: Cat::Other_Symbol)]
     case BELL = "\u{1F514}";
 
-    #[Info(id: 128277, name: 'BELL WITH CANCELLATION STROKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F515, name: 'BELL WITH CANCELLATION STROKE', category: Cat::Other_Symbol)]
     case BELL_WITH_CANCELLATION_STROKE = "\u{1F515}";
 
-    #[Info(id: 128278, name: 'BOOKMARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F516, name: 'BOOKMARK', category: Cat::Other_Symbol)]
     case BOOKMARK = "\u{1F516}";
 
-    #[Info(id: 128279, name: 'LINK SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F517, name: 'LINK SYMBOL', category: Cat::Other_Symbol)]
     case LINK_SYMBOL = "\u{1F517}";
 
-    #[Info(id: 128280, name: 'RADIO BUTTON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F518, name: 'RADIO BUTTON', category: Cat::Other_Symbol)]
     case RADIO_BUTTON = "\u{1F518}";
 
-    #[Info(id: 128281, name: 'BACK WITH LEFTWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F519, name: 'BACK WITH LEFTWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
     case BACK_WITH_LEFTWARDS_ARROW_ABOVE = "\u{1F519}";
 
-    #[Info(id: 128282, name: 'END WITH LEFTWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F51A, name: 'END WITH LEFTWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
     case END_WITH_LEFTWARDS_ARROW_ABOVE = "\u{1F51A}";
 
-    #[Info(id: 128283, name: 'ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F51B, name: 'ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE', category: Cat::Other_Symbol)]
     case ON_WITH_EXCLAMATION_MARK_WITH_LEFT_RIGHT_ARROW_ABOVE = "\u{1F51B}";
 
-    #[Info(id: 128284, name: 'SOON WITH RIGHTWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F51C, name: 'SOON WITH RIGHTWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
     case SOON_WITH_RIGHTWARDS_ARROW_ABOVE = "\u{1F51C}";
 
-    #[Info(id: 128285, name: 'TOP WITH UPWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F51D, name: 'TOP WITH UPWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
     case TOP_WITH_UPWARDS_ARROW_ABOVE = "\u{1F51D}";
 
-    #[Info(id: 128286, name: 'NO ONE UNDER EIGHTEEN SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F51E, name: 'NO ONE UNDER EIGHTEEN SYMBOL', category: Cat::Other_Symbol)]
     case NO_ONE_UNDER_EIGHTEEN_SYMBOL = "\u{1F51E}";
 
-    #[Info(id: 128287, name: 'KEYCAP TEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F51F, name: 'KEYCAP TEN', category: Cat::Other_Symbol)]
     case KEYCAP_TEN = "\u{1F51F}";
 
-    #[Info(id: 128288, name: 'INPUT SYMBOL FOR LATIN CAPITAL LETTERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F520, name: 'INPUT SYMBOL FOR LATIN CAPITAL LETTERS', category: Cat::Other_Symbol)]
     case INPUT_SYMBOL_FOR_LATIN_CAPITAL_LETTERS = "\u{1F520}";
 
-    #[Info(id: 128289, name: 'INPUT SYMBOL FOR LATIN SMALL LETTERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F521, name: 'INPUT SYMBOL FOR LATIN SMALL LETTERS', category: Cat::Other_Symbol)]
     case INPUT_SYMBOL_FOR_LATIN_SMALL_LETTERS = "\u{1F521}";
 
-    #[Info(id: 128290, name: 'INPUT SYMBOL FOR NUMBERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F522, name: 'INPUT SYMBOL FOR NUMBERS', category: Cat::Other_Symbol)]
     case INPUT_SYMBOL_FOR_NUMBERS = "\u{1F522}";
 
-    #[Info(id: 128291, name: 'INPUT SYMBOL FOR SYMBOLS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F523, name: 'INPUT SYMBOL FOR SYMBOLS', category: Cat::Other_Symbol)]
     case INPUT_SYMBOL_FOR_SYMBOLS = "\u{1F523}";
 
-    #[Info(id: 128292, name: 'INPUT SYMBOL FOR LATIN LETTERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F524, name: 'INPUT SYMBOL FOR LATIN LETTERS', category: Cat::Other_Symbol)]
     case INPUT_SYMBOL_FOR_LATIN_LETTERS = "\u{1F524}";
 
-    #[Info(id: 128293, name: 'FIRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F525, name: 'FIRE', category: Cat::Other_Symbol)]
     case FIRE = "\u{1F525}";
 
-    #[Info(id: 128294, name: 'ELECTRIC TORCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F526, name: 'ELECTRIC TORCH', category: Cat::Other_Symbol)]
     case ELECTRIC_TORCH = "\u{1F526}";
 
-    #[Info(id: 128295, name: 'WRENCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F527, name: 'WRENCH', category: Cat::Other_Symbol)]
     case WRENCH = "\u{1F527}";
 
-    #[Info(id: 128296, name: 'HAMMER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F528, name: 'HAMMER', category: Cat::Other_Symbol)]
     case HAMMER = "\u{1F528}";
 
-    #[Info(id: 128297, name: 'NUT AND BOLT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F529, name: 'NUT AND BOLT', category: Cat::Other_Symbol)]
     case NUT_AND_BOLT = "\u{1F529}";
 
-    #[Info(id: 128298, name: 'HOCHO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F52A, name: 'HOCHO', category: Cat::Other_Symbol)]
     case HOCHO = "\u{1F52A}";
 
-    #[Info(id: 128299, name: 'PISTOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F52B, name: 'PISTOL', category: Cat::Other_Symbol)]
     case PISTOL = "\u{1F52B}";
 
-    #[Info(id: 128300, name: 'MICROSCOPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F52C, name: 'MICROSCOPE', category: Cat::Other_Symbol)]
     case MICROSCOPE = "\u{1F52C}";
 
-    #[Info(id: 128301, name: 'TELESCOPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F52D, name: 'TELESCOPE', category: Cat::Other_Symbol)]
     case TELESCOPE = "\u{1F52D}";
 
-    #[Info(id: 128302, name: 'CRYSTAL BALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F52E, name: 'CRYSTAL BALL', category: Cat::Other_Symbol)]
     case CRYSTAL_BALL = "\u{1F52E}";
 
-    #[Info(id: 128303, name: 'SIX POINTED STAR WITH MIDDLE DOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F52F, name: 'SIX POINTED STAR WITH MIDDLE DOT', category: Cat::Other_Symbol)]
     case SIX_POINTED_STAR_WITH_MIDDLE_DOT = "\u{1F52F}";
 
-    #[Info(id: 128304, name: 'JAPANESE SYMBOL FOR BEGINNER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F530, name: 'JAPANESE SYMBOL FOR BEGINNER', category: Cat::Other_Symbol)]
     case JAPANESE_SYMBOL_FOR_BEGINNER = "\u{1F530}";
 
-    #[Info(id: 128305, name: 'TRIDENT EMBLEM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F531, name: 'TRIDENT EMBLEM', category: Cat::Other_Symbol)]
     case TRIDENT_EMBLEM = "\u{1F531}";
 
-    #[Info(id: 128306, name: 'BLACK SQUARE BUTTON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F532, name: 'BLACK SQUARE BUTTON', category: Cat::Other_Symbol)]
     case BLACK_SQUARE_BUTTON = "\u{1F532}";
 
-    #[Info(id: 128307, name: 'WHITE SQUARE BUTTON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F533, name: 'WHITE SQUARE BUTTON', category: Cat::Other_Symbol)]
     case WHITE_SQUARE_BUTTON = "\u{1F533}";
 
-    #[Info(id: 128308, name: 'LARGE RED CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F534, name: 'LARGE RED CIRCLE', category: Cat::Other_Symbol)]
     case LARGE_RED_CIRCLE = "\u{1F534}";
 
-    #[Info(id: 128309, name: 'LARGE BLUE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F535, name: 'LARGE BLUE CIRCLE', category: Cat::Other_Symbol)]
     case LARGE_BLUE_CIRCLE = "\u{1F535}";
 
-    #[Info(id: 128310, name: 'LARGE ORANGE DIAMOND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F536, name: 'LARGE ORANGE DIAMOND', category: Cat::Other_Symbol)]
     case LARGE_ORANGE_DIAMOND = "\u{1F536}";
 
-    #[Info(id: 128311, name: 'LARGE BLUE DIAMOND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F537, name: 'LARGE BLUE DIAMOND', category: Cat::Other_Symbol)]
     case LARGE_BLUE_DIAMOND = "\u{1F537}";
 
-    #[Info(id: 128312, name: 'SMALL ORANGE DIAMOND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F538, name: 'SMALL ORANGE DIAMOND', category: Cat::Other_Symbol)]
     case SMALL_ORANGE_DIAMOND = "\u{1F538}";
 
-    #[Info(id: 128313, name: 'SMALL BLUE DIAMOND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F539, name: 'SMALL BLUE DIAMOND', category: Cat::Other_Symbol)]
     case SMALL_BLUE_DIAMOND = "\u{1F539}";
 
-    #[Info(id: 128314, name: 'UP-POINTING RED TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F53A, name: 'UP-POINTING RED TRIANGLE', category: Cat::Other_Symbol)]
     case UP_POINTING_RED_TRIANGLE = "\u{1F53A}";
 
-    #[Info(id: 128315, name: 'DOWN-POINTING RED TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F53B, name: 'DOWN-POINTING RED TRIANGLE', category: Cat::Other_Symbol)]
     case DOWN_POINTING_RED_TRIANGLE = "\u{1F53B}";
 
-    #[Info(id: 128316, name: 'UP-POINTING SMALL RED TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F53C, name: 'UP-POINTING SMALL RED TRIANGLE', category: Cat::Other_Symbol)]
     case UP_POINTING_SMALL_RED_TRIANGLE = "\u{1F53C}";
 
-    #[Info(id: 128317, name: 'DOWN-POINTING SMALL RED TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F53D, name: 'DOWN-POINTING SMALL RED TRIANGLE', category: Cat::Other_Symbol)]
     case DOWN_POINTING_SMALL_RED_TRIANGLE = "\u{1F53D}";
 
-    #[Info(id: 128318, name: 'LOWER RIGHT SHADOWED WHITE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F53E, name: 'LOWER RIGHT SHADOWED WHITE CIRCLE', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_SHADOWED_WHITE_CIRCLE = "\u{1F53E}";
 
-    #[Info(id: 128319, name: 'UPPER RIGHT SHADOWED WHITE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F53F, name: 'UPPER RIGHT SHADOWED WHITE CIRCLE', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_SHADOWED_WHITE_CIRCLE = "\u{1F53F}";
 
-    #[Info(id: 128320, name: 'CIRCLED CROSS POMMEE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F540, name: 'CIRCLED CROSS POMMEE', category: Cat::Other_Symbol)]
     case CIRCLED_CROSS_POMMEE = "\u{1F540}";
 
-    #[Info(id: 128321, name: 'CROSS POMMEE WITH HALF-CIRCLE BELOW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F541, name: 'CROSS POMMEE WITH HALF-CIRCLE BELOW', category: Cat::Other_Symbol)]
     case CROSS_POMMEE_WITH_HALF_CIRCLE_BELOW = "\u{1F541}";
 
-    #[Info(id: 128322, name: 'CROSS POMMEE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F542, name: 'CROSS POMMEE', category: Cat::Other_Symbol)]
     case CROSS_POMMEE = "\u{1F542}";
 
-    #[Info(id: 128323, name: 'NOTCHED LEFT SEMICIRCLE WITH THREE DOTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F543, name: 'NOTCHED LEFT SEMICIRCLE WITH THREE DOTS', category: Cat::Other_Symbol)]
     case NOTCHED_LEFT_SEMICIRCLE_WITH_THREE_DOTS = "\u{1F543}";
 
-    #[Info(id: 128324, name: 'NOTCHED RIGHT SEMICIRCLE WITH THREE DOTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F544, name: 'NOTCHED RIGHT SEMICIRCLE WITH THREE DOTS', category: Cat::Other_Symbol)]
     case NOTCHED_RIGHT_SEMICIRCLE_WITH_THREE_DOTS = "\u{1F544}";
 
-    #[Info(id: 128325, name: 'SYMBOL FOR MARKS CHAPTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F545, name: 'SYMBOL FOR MARKS CHAPTER', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_MARKS_CHAPTER = "\u{1F545}";
 
-    #[Info(id: 128326, name: 'WHITE LATIN CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F546, name: 'WHITE LATIN CROSS', category: Cat::Other_Symbol)]
     case WHITE_LATIN_CROSS = "\u{1F546}";
 
-    #[Info(id: 128327, name: 'HEAVY LATIN CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F547, name: 'HEAVY LATIN CROSS', category: Cat::Other_Symbol)]
     case HEAVY_LATIN_CROSS = "\u{1F547}";
 
-    #[Info(id: 128328, name: 'CELTIC CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F548, name: 'CELTIC CROSS', category: Cat::Other_Symbol)]
     case CELTIC_CROSS = "\u{1F548}";
 
-    #[Info(id: 128329, name: 'OM SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F549, name: 'OM SYMBOL', category: Cat::Other_Symbol)]
     case OM_SYMBOL = "\u{1F549}";
 
-    #[Info(id: 128330, name: 'DOVE OF PEACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F54A, name: 'DOVE OF PEACE', category: Cat::Other_Symbol)]
     case DOVE_OF_PEACE = "\u{1F54A}";
 
-    #[Info(id: 128331, name: 'KAABA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F54B, name: 'KAABA', category: Cat::Other_Symbol)]
     case KAABA = "\u{1F54B}";
 
-    #[Info(id: 128332, name: 'MOSQUE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F54C, name: 'MOSQUE', category: Cat::Other_Symbol)]
     case MOSQUE = "\u{1F54C}";
 
-    #[Info(id: 128333, name: 'SYNAGOGUE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F54D, name: 'SYNAGOGUE', category: Cat::Other_Symbol)]
     case SYNAGOGUE = "\u{1F54D}";
 
-    #[Info(id: 128334, name: 'MENORAH WITH NINE BRANCHES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F54E, name: 'MENORAH WITH NINE BRANCHES', category: Cat::Other_Symbol)]
     case MENORAH_WITH_NINE_BRANCHES = "\u{1F54E}";
 
-    #[Info(id: 128335, name: 'BOWL OF HYGIEIA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F54F, name: 'BOWL OF HYGIEIA', category: Cat::Other_Symbol)]
     case BOWL_OF_HYGIEIA = "\u{1F54F}";
 
-    #[Info(id: 128336, name: 'CLOCK FACE ONE OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F550, name: 'CLOCK FACE ONE OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_ONE_OCLOCK = "\u{1F550}";
 
-    #[Info(id: 128337, name: 'CLOCK FACE TWO OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F551, name: 'CLOCK FACE TWO OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_TWO_OCLOCK = "\u{1F551}";
 
-    #[Info(id: 128338, name: 'CLOCK FACE THREE OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F552, name: 'CLOCK FACE THREE OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_THREE_OCLOCK = "\u{1F552}";
 
-    #[Info(id: 128339, name: 'CLOCK FACE FOUR OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F553, name: 'CLOCK FACE FOUR OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_FOUR_OCLOCK = "\u{1F553}";
 
-    #[Info(id: 128340, name: 'CLOCK FACE FIVE OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F554, name: 'CLOCK FACE FIVE OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_FIVE_OCLOCK = "\u{1F554}";
 
-    #[Info(id: 128341, name: 'CLOCK FACE SIX OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F555, name: 'CLOCK FACE SIX OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_SIX_OCLOCK = "\u{1F555}";
 
-    #[Info(id: 128342, name: 'CLOCK FACE SEVEN OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F556, name: 'CLOCK FACE SEVEN OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_SEVEN_OCLOCK = "\u{1F556}";
 
-    #[Info(id: 128343, name: 'CLOCK FACE EIGHT OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F557, name: 'CLOCK FACE EIGHT OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_EIGHT_OCLOCK = "\u{1F557}";
 
-    #[Info(id: 128344, name: 'CLOCK FACE NINE OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F558, name: 'CLOCK FACE NINE OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_NINE_OCLOCK = "\u{1F558}";
 
-    #[Info(id: 128345, name: 'CLOCK FACE TEN OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F559, name: 'CLOCK FACE TEN OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_TEN_OCLOCK = "\u{1F559}";
 
-    #[Info(id: 128346, name: 'CLOCK FACE ELEVEN OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F55A, name: 'CLOCK FACE ELEVEN OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_ELEVEN_OCLOCK = "\u{1F55A}";
 
-    #[Info(id: 128347, name: 'CLOCK FACE TWELVE OCLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F55B, name: 'CLOCK FACE TWELVE OCLOCK', category: Cat::Other_Symbol)]
     case CLOCK_FACE_TWELVE_OCLOCK = "\u{1F55B}";
 
-    #[Info(id: 128348, name: 'CLOCK FACE ONE-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F55C, name: 'CLOCK FACE ONE-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_ONE_THIRTY = "\u{1F55C}";
 
-    #[Info(id: 128349, name: 'CLOCK FACE TWO-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F55D, name: 'CLOCK FACE TWO-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_TWO_THIRTY = "\u{1F55D}";
 
-    #[Info(id: 128350, name: 'CLOCK FACE THREE-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F55E, name: 'CLOCK FACE THREE-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_THREE_THIRTY = "\u{1F55E}";
 
-    #[Info(id: 128351, name: 'CLOCK FACE FOUR-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F55F, name: 'CLOCK FACE FOUR-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_FOUR_THIRTY = "\u{1F55F}";
 
-    #[Info(id: 128352, name: 'CLOCK FACE FIVE-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F560, name: 'CLOCK FACE FIVE-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_FIVE_THIRTY = "\u{1F560}";
 
-    #[Info(id: 128353, name: 'CLOCK FACE SIX-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F561, name: 'CLOCK FACE SIX-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_SIX_THIRTY = "\u{1F561}";
 
-    #[Info(id: 128354, name: 'CLOCK FACE SEVEN-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F562, name: 'CLOCK FACE SEVEN-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_SEVEN_THIRTY = "\u{1F562}";
 
-    #[Info(id: 128355, name: 'CLOCK FACE EIGHT-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F563, name: 'CLOCK FACE EIGHT-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_EIGHT_THIRTY = "\u{1F563}";
 
-    #[Info(id: 128356, name: 'CLOCK FACE NINE-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F564, name: 'CLOCK FACE NINE-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_NINE_THIRTY = "\u{1F564}";
 
-    #[Info(id: 128357, name: 'CLOCK FACE TEN-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F565, name: 'CLOCK FACE TEN-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_TEN_THIRTY = "\u{1F565}";
 
-    #[Info(id: 128358, name: 'CLOCK FACE ELEVEN-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F566, name: 'CLOCK FACE ELEVEN-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_ELEVEN_THIRTY = "\u{1F566}";
 
-    #[Info(id: 128359, name: 'CLOCK FACE TWELVE-THIRTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F567, name: 'CLOCK FACE TWELVE-THIRTY', category: Cat::Other_Symbol)]
     case CLOCK_FACE_TWELVE_THIRTY = "\u{1F567}";
 
-    #[Info(id: 128360, name: 'RIGHT SPEAKER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F568, name: 'RIGHT SPEAKER', category: Cat::Other_Symbol)]
     case RIGHT_SPEAKER = "\u{1F568}";
 
-    #[Info(id: 128361, name: 'RIGHT SPEAKER WITH ONE SOUND WAVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F569, name: 'RIGHT SPEAKER WITH ONE SOUND WAVE', category: Cat::Other_Symbol)]
     case RIGHT_SPEAKER_WITH_ONE_SOUND_WAVE = "\u{1F569}";
 
-    #[Info(id: 128362, name: 'RIGHT SPEAKER WITH THREE SOUND WAVES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F56A, name: 'RIGHT SPEAKER WITH THREE SOUND WAVES', category: Cat::Other_Symbol)]
     case RIGHT_SPEAKER_WITH_THREE_SOUND_WAVES = "\u{1F56A}";
 
-    #[Info(id: 128363, name: 'BULLHORN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F56B, name: 'BULLHORN', category: Cat::Other_Symbol)]
     case BULLHORN = "\u{1F56B}";
 
-    #[Info(id: 128364, name: 'BULLHORN WITH SOUND WAVES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F56C, name: 'BULLHORN WITH SOUND WAVES', category: Cat::Other_Symbol)]
     case BULLHORN_WITH_SOUND_WAVES = "\u{1F56C}";
 
-    #[Info(id: 128365, name: 'RINGING BELL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F56D, name: 'RINGING BELL', category: Cat::Other_Symbol)]
     case RINGING_BELL = "\u{1F56D}";
 
-    #[Info(id: 128366, name: 'BOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F56E, name: 'BOOK', category: Cat::Other_Symbol)]
     case BOOK = "\u{1F56E}";
 
-    #[Info(id: 128367, name: 'CANDLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F56F, name: 'CANDLE', category: Cat::Other_Symbol)]
     case CANDLE = "\u{1F56F}";
 
-    #[Info(id: 128368, name: 'MANTELPIECE CLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F570, name: 'MANTELPIECE CLOCK', category: Cat::Other_Symbol)]
     case MANTELPIECE_CLOCK = "\u{1F570}";
 
-    #[Info(id: 128369, name: 'BLACK SKULL AND CROSSBONES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F571, name: 'BLACK SKULL AND CROSSBONES', category: Cat::Other_Symbol)]
     case BLACK_SKULL_AND_CROSSBONES = "\u{1F571}";
 
-    #[Info(id: 128370, name: 'NO PIRACY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F572, name: 'NO PIRACY', category: Cat::Other_Symbol)]
     case NO_PIRACY = "\u{1F572}";
 
-    #[Info(id: 128371, name: 'HOLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F573, name: 'HOLE', category: Cat::Other_Symbol)]
     case HOLE = "\u{1F573}";
 
-    #[Info(id: 128372, name: 'MAN IN BUSINESS SUIT LEVITATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F574, name: 'MAN IN BUSINESS SUIT LEVITATING', category: Cat::Other_Symbol)]
     case MAN_IN_BUSINESS_SUIT_LEVITATING = "\u{1F574}";
 
-    #[Info(id: 128373, name: 'SLEUTH OR SPY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F575, name: 'SLEUTH OR SPY', category: Cat::Other_Symbol)]
     case SLEUTH_OR_SPY = "\u{1F575}";
 
-    #[Info(id: 128374, name: 'DARK SUNGLASSES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F576, name: 'DARK SUNGLASSES', category: Cat::Other_Symbol)]
     case DARK_SUNGLASSES = "\u{1F576}";
 
-    #[Info(id: 128375, name: 'SPIDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F577, name: 'SPIDER', category: Cat::Other_Symbol)]
     case SPIDER = "\u{1F577}";
 
-    #[Info(id: 128376, name: 'SPIDER WEB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F578, name: 'SPIDER WEB', category: Cat::Other_Symbol)]
     case SPIDER_WEB = "\u{1F578}";
 
-    #[Info(id: 128377, name: 'JOYSTICK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F579, name: 'JOYSTICK', category: Cat::Other_Symbol)]
     case JOYSTICK = "\u{1F579}";
 
-    #[Info(id: 128378, name: 'MAN DANCING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F57A, name: 'MAN DANCING', category: Cat::Other_Symbol)]
     case MAN_DANCING = "\u{1F57A}";
 
-    #[Info(id: 128379, name: 'LEFT HAND TELEPHONE RECEIVER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F57B, name: 'LEFT HAND TELEPHONE RECEIVER', category: Cat::Other_Symbol)]
     case LEFT_HAND_TELEPHONE_RECEIVER = "\u{1F57B}";
 
-    #[Info(id: 128380, name: 'TELEPHONE RECEIVER WITH PAGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F57C, name: 'TELEPHONE RECEIVER WITH PAGE', category: Cat::Other_Symbol)]
     case TELEPHONE_RECEIVER_WITH_PAGE = "\u{1F57C}";
 
-    #[Info(id: 128381, name: 'RIGHT HAND TELEPHONE RECEIVER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F57D, name: 'RIGHT HAND TELEPHONE RECEIVER', category: Cat::Other_Symbol)]
     case RIGHT_HAND_TELEPHONE_RECEIVER = "\u{1F57D}";
 
-    #[Info(id: 128382, name: 'WHITE TOUCHTONE TELEPHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F57E, name: 'WHITE TOUCHTONE TELEPHONE', category: Cat::Other_Symbol)]
     case WHITE_TOUCHTONE_TELEPHONE = "\u{1F57E}";
 
-    #[Info(id: 128383, name: 'BLACK TOUCHTONE TELEPHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F57F, name: 'BLACK TOUCHTONE TELEPHONE', category: Cat::Other_Symbol)]
     case BLACK_TOUCHTONE_TELEPHONE = "\u{1F57F}";
 
-    #[Info(id: 128384, name: 'TELEPHONE ON TOP OF MODEM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F580, name: 'TELEPHONE ON TOP OF MODEM', category: Cat::Other_Symbol)]
     case TELEPHONE_ON_TOP_OF_MODEM = "\u{1F580}";
 
-    #[Info(id: 128385, name: 'CLAMSHELL MOBILE PHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F581, name: 'CLAMSHELL MOBILE PHONE', category: Cat::Other_Symbol)]
     case CLAMSHELL_MOBILE_PHONE = "\u{1F581}";
 
-    #[Info(id: 128386, name: 'BACK OF ENVELOPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F582, name: 'BACK OF ENVELOPE', category: Cat::Other_Symbol)]
     case BACK_OF_ENVELOPE = "\u{1F582}";
 
-    #[Info(id: 128387, name: 'STAMPED ENVELOPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F583, name: 'STAMPED ENVELOPE', category: Cat::Other_Symbol)]
     case STAMPED_ENVELOPE = "\u{1F583}";
 
-    #[Info(id: 128388, name: 'ENVELOPE WITH LIGHTNING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F584, name: 'ENVELOPE WITH LIGHTNING', category: Cat::Other_Symbol)]
     case ENVELOPE_WITH_LIGHTNING = "\u{1F584}";
 
-    #[Info(id: 128389, name: 'FLYING ENVELOPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F585, name: 'FLYING ENVELOPE', category: Cat::Other_Symbol)]
     case FLYING_ENVELOPE = "\u{1F585}";
 
-    #[Info(id: 128390, name: 'PEN OVER STAMPED ENVELOPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F586, name: 'PEN OVER STAMPED ENVELOPE', category: Cat::Other_Symbol)]
     case PEN_OVER_STAMPED_ENVELOPE = "\u{1F586}";
 
-    #[Info(id: 128391, name: 'LINKED PAPERCLIPS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F587, name: 'LINKED PAPERCLIPS', category: Cat::Other_Symbol)]
     case LINKED_PAPERCLIPS = "\u{1F587}";
 
-    #[Info(id: 128392, name: 'BLACK PUSHPIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F588, name: 'BLACK PUSHPIN', category: Cat::Other_Symbol)]
     case BLACK_PUSHPIN = "\u{1F588}";
 
-    #[Info(id: 128393, name: 'LOWER LEFT PENCIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F589, name: 'LOWER LEFT PENCIL', category: Cat::Other_Symbol)]
     case LOWER_LEFT_PENCIL = "\u{1F589}";
 
-    #[Info(id: 128394, name: 'LOWER LEFT BALLPOINT PEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F58A, name: 'LOWER LEFT BALLPOINT PEN', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BALLPOINT_PEN = "\u{1F58A}";
 
-    #[Info(id: 128395, name: 'LOWER LEFT FOUNTAIN PEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F58B, name: 'LOWER LEFT FOUNTAIN PEN', category: Cat::Other_Symbol)]
     case LOWER_LEFT_FOUNTAIN_PEN = "\u{1F58B}";
 
-    #[Info(id: 128396, name: 'LOWER LEFT PAINTBRUSH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F58C, name: 'LOWER LEFT PAINTBRUSH', category: Cat::Other_Symbol)]
     case LOWER_LEFT_PAINTBRUSH = "\u{1F58C}";
 
-    #[Info(id: 128397, name: 'LOWER LEFT CRAYON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F58D, name: 'LOWER LEFT CRAYON', category: Cat::Other_Symbol)]
     case LOWER_LEFT_CRAYON = "\u{1F58D}";
 
-    #[Info(id: 128398, name: 'LEFT WRITING HAND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F58E, name: 'LEFT WRITING HAND', category: Cat::Other_Symbol)]
     case LEFT_WRITING_HAND = "\u{1F58E}";
 
-    #[Info(id: 128399, name: 'TURNED OK HAND SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F58F, name: 'TURNED OK HAND SIGN', category: Cat::Other_Symbol)]
     case TURNED_OK_HAND_SIGN = "\u{1F58F}";
 
-    #[Info(id: 128400, name: 'RAISED HAND WITH FINGERS SPLAYED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F590, name: 'RAISED HAND WITH FINGERS SPLAYED', category: Cat::Other_Symbol)]
     case RAISED_HAND_WITH_FINGERS_SPLAYED = "\u{1F590}";
 
-    #[Info(id: 128401, name: 'REVERSED RAISED HAND WITH FINGERS SPLAYED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F591, name: 'REVERSED RAISED HAND WITH FINGERS SPLAYED', category: Cat::Other_Symbol)]
     case REVERSED_RAISED_HAND_WITH_FINGERS_SPLAYED = "\u{1F591}";
 
-    #[Info(id: 128402, name: 'REVERSED THUMBS UP SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F592, name: 'REVERSED THUMBS UP SIGN', category: Cat::Other_Symbol)]
     case REVERSED_THUMBS_UP_SIGN = "\u{1F592}";
 
-    #[Info(id: 128403, name: 'REVERSED THUMBS DOWN SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F593, name: 'REVERSED THUMBS DOWN SIGN', category: Cat::Other_Symbol)]
     case REVERSED_THUMBS_DOWN_SIGN = "\u{1F593}";
 
-    #[Info(id: 128404, name: 'REVERSED VICTORY HAND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F594, name: 'REVERSED VICTORY HAND', category: Cat::Other_Symbol)]
     case REVERSED_VICTORY_HAND = "\u{1F594}";
 
-    #[Info(id: 128405, name: 'REVERSED HAND WITH MIDDLE FINGER EXTENDED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F595, name: 'REVERSED HAND WITH MIDDLE FINGER EXTENDED', category: Cat::Other_Symbol)]
     case REVERSED_HAND_WITH_MIDDLE_FINGER_EXTENDED = "\u{1F595}";
 
-    #[Info(id: 128406, name: 'RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F596, name: 'RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS', category: Cat::Other_Symbol)]
     case RAISED_HAND_WITH_PART_BETWEEN_MIDDLE_AND_RING_FINGERS = "\u{1F596}";
 
-    #[Info(id: 128407, name: 'WHITE DOWN POINTING LEFT HAND INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F597, name: 'WHITE DOWN POINTING LEFT HAND INDEX', category: Cat::Other_Symbol)]
     case WHITE_DOWN_POINTING_LEFT_HAND_INDEX = "\u{1F597}";
 
-    #[Info(id: 128408, name: 'SIDEWAYS WHITE LEFT POINTING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F598, name: 'SIDEWAYS WHITE LEFT POINTING INDEX', category: Cat::Other_Symbol)]
     case SIDEWAYS_WHITE_LEFT_POINTING_INDEX = "\u{1F598}";
 
-    #[Info(id: 128409, name: 'SIDEWAYS WHITE RIGHT POINTING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F599, name: 'SIDEWAYS WHITE RIGHT POINTING INDEX', category: Cat::Other_Symbol)]
     case SIDEWAYS_WHITE_RIGHT_POINTING_INDEX = "\u{1F599}";
 
-    #[Info(id: 128410, name: 'SIDEWAYS BLACK LEFT POINTING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F59A, name: 'SIDEWAYS BLACK LEFT POINTING INDEX', category: Cat::Other_Symbol)]
     case SIDEWAYS_BLACK_LEFT_POINTING_INDEX = "\u{1F59A}";
 
-    #[Info(id: 128411, name: 'SIDEWAYS BLACK RIGHT POINTING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F59B, name: 'SIDEWAYS BLACK RIGHT POINTING INDEX', category: Cat::Other_Symbol)]
     case SIDEWAYS_BLACK_RIGHT_POINTING_INDEX = "\u{1F59B}";
 
-    #[Info(id: 128412, name: 'BLACK LEFT POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F59C, name: 'BLACK LEFT POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
     case BLACK_LEFT_POINTING_BACKHAND_INDEX = "\u{1F59C}";
 
-    #[Info(id: 128413, name: 'BLACK RIGHT POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F59D, name: 'BLACK RIGHT POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
     case BLACK_RIGHT_POINTING_BACKHAND_INDEX = "\u{1F59D}";
 
-    #[Info(id: 128414, name: 'SIDEWAYS WHITE UP POINTING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F59E, name: 'SIDEWAYS WHITE UP POINTING INDEX', category: Cat::Other_Symbol)]
     case SIDEWAYS_WHITE_UP_POINTING_INDEX = "\u{1F59E}";
 
-    #[Info(id: 128415, name: 'SIDEWAYS WHITE DOWN POINTING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F59F, name: 'SIDEWAYS WHITE DOWN POINTING INDEX', category: Cat::Other_Symbol)]
     case SIDEWAYS_WHITE_DOWN_POINTING_INDEX = "\u{1F59F}";
 
-    #[Info(id: 128416, name: 'SIDEWAYS BLACK UP POINTING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A0, name: 'SIDEWAYS BLACK UP POINTING INDEX', category: Cat::Other_Symbol)]
     case SIDEWAYS_BLACK_UP_POINTING_INDEX = "\u{1F5A0}";
 
-    #[Info(id: 128417, name: 'SIDEWAYS BLACK DOWN POINTING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A1, name: 'SIDEWAYS BLACK DOWN POINTING INDEX', category: Cat::Other_Symbol)]
     case SIDEWAYS_BLACK_DOWN_POINTING_INDEX = "\u{1F5A1}";
 
-    #[Info(id: 128418, name: 'BLACK UP POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A2, name: 'BLACK UP POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
     case BLACK_UP_POINTING_BACKHAND_INDEX = "\u{1F5A2}";
 
-    #[Info(id: 128419, name: 'BLACK DOWN POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A3, name: 'BLACK DOWN POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
     case BLACK_DOWN_POINTING_BACKHAND_INDEX = "\u{1F5A3}";
 
-    #[Info(id: 128420, name: 'BLACK HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A4, name: 'BLACK HEART', category: Cat::Other_Symbol)]
     case BLACK_HEART = "\u{1F5A4}";
 
-    #[Info(id: 128421, name: 'DESKTOP COMPUTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A5, name: 'DESKTOP COMPUTER', category: Cat::Other_Symbol)]
     case DESKTOP_COMPUTER = "\u{1F5A5}";
 
-    #[Info(id: 128422, name: 'KEYBOARD AND MOUSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A6, name: 'KEYBOARD AND MOUSE', category: Cat::Other_Symbol)]
     case KEYBOARD_AND_MOUSE = "\u{1F5A6}";
 
-    #[Info(id: 128423, name: 'THREE NETWORKED COMPUTERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A7, name: 'THREE NETWORKED COMPUTERS', category: Cat::Other_Symbol)]
     case THREE_NETWORKED_COMPUTERS = "\u{1F5A7}";
 
-    #[Info(id: 128424, name: 'PRINTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A8, name: 'PRINTER', category: Cat::Other_Symbol)]
     case PRINTER = "\u{1F5A8}";
 
-    #[Info(id: 128425, name: 'POCKET CALCULATOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A9, name: 'POCKET CALCULATOR', category: Cat::Other_Symbol)]
     case POCKET_CALCULATOR = "\u{1F5A9}";
 
-    #[Info(id: 128426, name: 'BLACK HARD SHELL FLOPPY DISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5AA, name: 'BLACK HARD SHELL FLOPPY DISK', category: Cat::Other_Symbol)]
     case BLACK_HARD_SHELL_FLOPPY_DISK = "\u{1F5AA}";
 
-    #[Info(id: 128427, name: 'WHITE HARD SHELL FLOPPY DISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5AB, name: 'WHITE HARD SHELL FLOPPY DISK', category: Cat::Other_Symbol)]
     case WHITE_HARD_SHELL_FLOPPY_DISK = "\u{1F5AB}";
 
-    #[Info(id: 128428, name: 'SOFT SHELL FLOPPY DISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5AC, name: 'SOFT SHELL FLOPPY DISK', category: Cat::Other_Symbol)]
     case SOFT_SHELL_FLOPPY_DISK = "\u{1F5AC}";
 
-    #[Info(id: 128429, name: 'TAPE CARTRIDGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5AD, name: 'TAPE CARTRIDGE', category: Cat::Other_Symbol)]
     case TAPE_CARTRIDGE = "\u{1F5AD}";
 
-    #[Info(id: 128430, name: 'WIRED KEYBOARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5AE, name: 'WIRED KEYBOARD', category: Cat::Other_Symbol)]
     case WIRED_KEYBOARD = "\u{1F5AE}";
 
-    #[Info(id: 128431, name: 'ONE BUTTON MOUSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5AF, name: 'ONE BUTTON MOUSE', category: Cat::Other_Symbol)]
     case ONE_BUTTON_MOUSE = "\u{1F5AF}";
 
-    #[Info(id: 128432, name: 'TWO BUTTON MOUSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B0, name: 'TWO BUTTON MOUSE', category: Cat::Other_Symbol)]
     case TWO_BUTTON_MOUSE = "\u{1F5B0}";
 
-    #[Info(id: 128433, name: 'THREE BUTTON MOUSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B1, name: 'THREE BUTTON MOUSE', category: Cat::Other_Symbol)]
     case THREE_BUTTON_MOUSE = "\u{1F5B1}";
 
-    #[Info(id: 128434, name: 'TRACKBALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B2, name: 'TRACKBALL', category: Cat::Other_Symbol)]
     case TRACKBALL = "\u{1F5B2}";
 
-    #[Info(id: 128435, name: 'OLD PERSONAL COMPUTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B3, name: 'OLD PERSONAL COMPUTER', category: Cat::Other_Symbol)]
     case OLD_PERSONAL_COMPUTER = "\u{1F5B3}";
 
-    #[Info(id: 128436, name: 'HARD DISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B4, name: 'HARD DISK', category: Cat::Other_Symbol)]
     case HARD_DISK = "\u{1F5B4}";
 
-    #[Info(id: 128437, name: 'SCREEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B5, name: 'SCREEN', category: Cat::Other_Symbol)]
     case SCREEN = "\u{1F5B5}";
 
-    #[Info(id: 128438, name: 'PRINTER ICON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B6, name: 'PRINTER ICON', category: Cat::Other_Symbol)]
     case PRINTER_ICON = "\u{1F5B6}";
 
-    #[Info(id: 128439, name: 'FAX ICON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B7, name: 'FAX ICON', category: Cat::Other_Symbol)]
     case FAX_ICON = "\u{1F5B7}";
 
-    #[Info(id: 128440, name: 'OPTICAL DISC ICON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B8, name: 'OPTICAL DISC ICON', category: Cat::Other_Symbol)]
     case OPTICAL_DISC_ICON = "\u{1F5B8}";
 
-    #[Info(id: 128441, name: 'DOCUMENT WITH TEXT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B9, name: 'DOCUMENT WITH TEXT', category: Cat::Other_Symbol)]
     case DOCUMENT_WITH_TEXT = "\u{1F5B9}";
 
-    #[Info(id: 128442, name: 'DOCUMENT WITH TEXT AND PICTURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5BA, name: 'DOCUMENT WITH TEXT AND PICTURE', category: Cat::Other_Symbol)]
     case DOCUMENT_WITH_TEXT_AND_PICTURE = "\u{1F5BA}";
 
-    #[Info(id: 128443, name: 'DOCUMENT WITH PICTURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5BB, name: 'DOCUMENT WITH PICTURE', category: Cat::Other_Symbol)]
     case DOCUMENT_WITH_PICTURE = "\u{1F5BB}";
 
-    #[Info(id: 128444, name: 'FRAME WITH PICTURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5BC, name: 'FRAME WITH PICTURE', category: Cat::Other_Symbol)]
     case FRAME_WITH_PICTURE = "\u{1F5BC}";
 
-    #[Info(id: 128445, name: 'FRAME WITH TILES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5BD, name: 'FRAME WITH TILES', category: Cat::Other_Symbol)]
     case FRAME_WITH_TILES = "\u{1F5BD}";
 
-    #[Info(id: 128446, name: 'FRAME WITH AN X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5BE, name: 'FRAME WITH AN X', category: Cat::Other_Symbol)]
     case FRAME_WITH_AN_X = "\u{1F5BE}";
 
-    #[Info(id: 128447, name: 'BLACK FOLDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5BF, name: 'BLACK FOLDER', category: Cat::Other_Symbol)]
     case BLACK_FOLDER = "\u{1F5BF}";
 
-    #[Info(id: 128448, name: 'FOLDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C0, name: 'FOLDER', category: Cat::Other_Symbol)]
     case FOLDER = "\u{1F5C0}";
 
-    #[Info(id: 128449, name: 'OPEN FOLDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C1, name: 'OPEN FOLDER', category: Cat::Other_Symbol)]
     case OPEN_FOLDER = "\u{1F5C1}";
 
-    #[Info(id: 128450, name: 'CARD INDEX DIVIDERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C2, name: 'CARD INDEX DIVIDERS', category: Cat::Other_Symbol)]
     case CARD_INDEX_DIVIDERS = "\u{1F5C2}";
 
-    #[Info(id: 128451, name: 'CARD FILE BOX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C3, name: 'CARD FILE BOX', category: Cat::Other_Symbol)]
     case CARD_FILE_BOX = "\u{1F5C3}";
 
-    #[Info(id: 128452, name: 'FILE CABINET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C4, name: 'FILE CABINET', category: Cat::Other_Symbol)]
     case FILE_CABINET = "\u{1F5C4}";
 
-    #[Info(id: 128453, name: 'EMPTY NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C5, name: 'EMPTY NOTE', category: Cat::Other_Symbol)]
     case EMPTY_NOTE = "\u{1F5C5}";
 
-    #[Info(id: 128454, name: 'EMPTY NOTE PAGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C6, name: 'EMPTY NOTE PAGE', category: Cat::Other_Symbol)]
     case EMPTY_NOTE_PAGE = "\u{1F5C6}";
 
-    #[Info(id: 128455, name: 'EMPTY NOTE PAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C7, name: 'EMPTY NOTE PAD', category: Cat::Other_Symbol)]
     case EMPTY_NOTE_PAD = "\u{1F5C7}";
 
-    #[Info(id: 128456, name: 'NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C8, name: 'NOTE', category: Cat::Other_Symbol)]
     case NOTE = "\u{1F5C8}";
 
-    #[Info(id: 128457, name: 'NOTE PAGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C9, name: 'NOTE PAGE', category: Cat::Other_Symbol)]
     case NOTE_PAGE = "\u{1F5C9}";
 
-    #[Info(id: 128458, name: 'NOTE PAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5CA, name: 'NOTE PAD', category: Cat::Other_Symbol)]
     case NOTE_PAD = "\u{1F5CA}";
 
-    #[Info(id: 128459, name: 'EMPTY DOCUMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5CB, name: 'EMPTY DOCUMENT', category: Cat::Other_Symbol)]
     case EMPTY_DOCUMENT = "\u{1F5CB}";
 
-    #[Info(id: 128460, name: 'EMPTY PAGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5CC, name: 'EMPTY PAGE', category: Cat::Other_Symbol)]
     case EMPTY_PAGE = "\u{1F5CC}";
 
-    #[Info(id: 128461, name: 'EMPTY PAGES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5CD, name: 'EMPTY PAGES', category: Cat::Other_Symbol)]
     case EMPTY_PAGES = "\u{1F5CD}";
 
-    #[Info(id: 128462, name: 'DOCUMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5CE, name: 'DOCUMENT', category: Cat::Other_Symbol)]
     case DOCUMENT = "\u{1F5CE}";
 
-    #[Info(id: 128463, name: 'PAGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5CF, name: 'PAGE', category: Cat::Other_Symbol)]
     case PAGE = "\u{1F5CF}";
 
-    #[Info(id: 128464, name: 'PAGES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D0, name: 'PAGES', category: Cat::Other_Symbol)]
     case PAGES = "\u{1F5D0}";
 
-    #[Info(id: 128465, name: 'WASTEBASKET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D1, name: 'WASTEBASKET', category: Cat::Other_Symbol)]
     case WASTEBASKET = "\u{1F5D1}";
 
-    #[Info(id: 128466, name: 'SPIRAL NOTE PAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D2, name: 'SPIRAL NOTE PAD', category: Cat::Other_Symbol)]
     case SPIRAL_NOTE_PAD = "\u{1F5D2}";
 
-    #[Info(id: 128467, name: 'SPIRAL CALENDAR PAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D3, name: 'SPIRAL CALENDAR PAD', category: Cat::Other_Symbol)]
     case SPIRAL_CALENDAR_PAD = "\u{1F5D3}";
 
-    #[Info(id: 128468, name: 'DESKTOP WINDOW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D4, name: 'DESKTOP WINDOW', category: Cat::Other_Symbol)]
     case DESKTOP_WINDOW = "\u{1F5D4}";
 
-    #[Info(id: 128469, name: 'MINIMIZE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D5, name: 'MINIMIZE', category: Cat::Other_Symbol)]
     case MINIMIZE = "\u{1F5D5}";
 
-    #[Info(id: 128470, name: 'MAXIMIZE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D6, name: 'MAXIMIZE', category: Cat::Other_Symbol)]
     case MAXIMIZE = "\u{1F5D6}";
 
-    #[Info(id: 128471, name: 'OVERLAP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D7, name: 'OVERLAP', category: Cat::Other_Symbol)]
     case OVERLAP = "\u{1F5D7}";
 
-    #[Info(id: 128472, name: 'CLOCKWISE RIGHT AND LEFT SEMICIRCLE ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D8, name: 'CLOCKWISE RIGHT AND LEFT SEMICIRCLE ARROWS', category: Cat::Other_Symbol)]
     case CLOCKWISE_RIGHT_AND_LEFT_SEMICIRCLE_ARROWS = "\u{1F5D8}";
 
-    #[Info(id: 128473, name: 'CANCELLATION X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D9, name: 'CANCELLATION X', category: Cat::Other_Symbol)]
     case CANCELLATION_X = "\u{1F5D9}";
 
-    #[Info(id: 128474, name: 'INCREASE FONT SIZE SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5DA, name: 'INCREASE FONT SIZE SYMBOL', category: Cat::Other_Symbol)]
     case INCREASE_FONT_SIZE_SYMBOL = "\u{1F5DA}";
 
-    #[Info(id: 128475, name: 'DECREASE FONT SIZE SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5DB, name: 'DECREASE FONT SIZE SYMBOL', category: Cat::Other_Symbol)]
     case DECREASE_FONT_SIZE_SYMBOL = "\u{1F5DB}";
 
-    #[Info(id: 128476, name: 'COMPRESSION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5DC, name: 'COMPRESSION', category: Cat::Other_Symbol)]
     case COMPRESSION = "\u{1F5DC}";
 
-    #[Info(id: 128477, name: 'OLD KEY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5DD, name: 'OLD KEY', category: Cat::Other_Symbol)]
     case OLD_KEY = "\u{1F5DD}";
 
-    #[Info(id: 128478, name: 'ROLLED-UP NEWSPAPER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5DE, name: 'ROLLED-UP NEWSPAPER', category: Cat::Other_Symbol)]
     case ROLLED_UP_NEWSPAPER = "\u{1F5DE}";
 
-    #[Info(id: 128479, name: 'PAGE WITH CIRCLED TEXT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5DF, name: 'PAGE WITH CIRCLED TEXT', category: Cat::Other_Symbol)]
     case PAGE_WITH_CIRCLED_TEXT = "\u{1F5DF}";
 
-    #[Info(id: 128480, name: 'STOCK CHART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E0, name: 'STOCK CHART', category: Cat::Other_Symbol)]
     case STOCK_CHART = "\u{1F5E0}";
 
-    #[Info(id: 128481, name: 'DAGGER KNIFE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E1, name: 'DAGGER KNIFE', category: Cat::Other_Symbol)]
     case DAGGER_KNIFE = "\u{1F5E1}";
 
-    #[Info(id: 128482, name: 'LIPS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E2, name: 'LIPS', category: Cat::Other_Symbol)]
     case LIPS = "\u{1F5E2}";
 
-    #[Info(id: 128483, name: 'SPEAKING HEAD IN SILHOUETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E3, name: 'SPEAKING HEAD IN SILHOUETTE', category: Cat::Other_Symbol)]
     case SPEAKING_HEAD_IN_SILHOUETTE = "\u{1F5E3}";
 
-    #[Info(id: 128484, name: 'THREE RAYS ABOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E4, name: 'THREE RAYS ABOVE', category: Cat::Other_Symbol)]
     case THREE_RAYS_ABOVE = "\u{1F5E4}";
 
-    #[Info(id: 128485, name: 'THREE RAYS BELOW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E5, name: 'THREE RAYS BELOW', category: Cat::Other_Symbol)]
     case THREE_RAYS_BELOW = "\u{1F5E5}";
 
-    #[Info(id: 128486, name: 'THREE RAYS LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E6, name: 'THREE RAYS LEFT', category: Cat::Other_Symbol)]
     case THREE_RAYS_LEFT = "\u{1F5E6}";
 
-    #[Info(id: 128487, name: 'THREE RAYS RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E7, name: 'THREE RAYS RIGHT', category: Cat::Other_Symbol)]
     case THREE_RAYS_RIGHT = "\u{1F5E7}";
 
-    #[Info(id: 128488, name: 'LEFT SPEECH BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E8, name: 'LEFT SPEECH BUBBLE', category: Cat::Other_Symbol)]
     case LEFT_SPEECH_BUBBLE = "\u{1F5E8}";
 
-    #[Info(id: 128489, name: 'RIGHT SPEECH BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E9, name: 'RIGHT SPEECH BUBBLE', category: Cat::Other_Symbol)]
     case RIGHT_SPEECH_BUBBLE = "\u{1F5E9}";
 
-    #[Info(id: 128490, name: 'TWO SPEECH BUBBLES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5EA, name: 'TWO SPEECH BUBBLES', category: Cat::Other_Symbol)]
     case TWO_SPEECH_BUBBLES = "\u{1F5EA}";
 
-    #[Info(id: 128491, name: 'THREE SPEECH BUBBLES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5EB, name: 'THREE SPEECH BUBBLES', category: Cat::Other_Symbol)]
     case THREE_SPEECH_BUBBLES = "\u{1F5EB}";
 
-    #[Info(id: 128492, name: 'LEFT THOUGHT BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5EC, name: 'LEFT THOUGHT BUBBLE', category: Cat::Other_Symbol)]
     case LEFT_THOUGHT_BUBBLE = "\u{1F5EC}";
 
-    #[Info(id: 128493, name: 'RIGHT THOUGHT BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5ED, name: 'RIGHT THOUGHT BUBBLE', category: Cat::Other_Symbol)]
     case RIGHT_THOUGHT_BUBBLE = "\u{1F5ED}";
 
-    #[Info(id: 128494, name: 'LEFT ANGER BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5EE, name: 'LEFT ANGER BUBBLE', category: Cat::Other_Symbol)]
     case LEFT_ANGER_BUBBLE = "\u{1F5EE}";
 
-    #[Info(id: 128495, name: 'RIGHT ANGER BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5EF, name: 'RIGHT ANGER BUBBLE', category: Cat::Other_Symbol)]
     case RIGHT_ANGER_BUBBLE = "\u{1F5EF}";
 
-    #[Info(id: 128496, name: 'MOOD BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F0, name: 'MOOD BUBBLE', category: Cat::Other_Symbol)]
     case MOOD_BUBBLE = "\u{1F5F0}";
 
-    #[Info(id: 128497, name: 'LIGHTNING MOOD BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F1, name: 'LIGHTNING MOOD BUBBLE', category: Cat::Other_Symbol)]
     case LIGHTNING_MOOD_BUBBLE = "\u{1F5F1}";
 
-    #[Info(id: 128498, name: 'LIGHTNING MOOD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F2, name: 'LIGHTNING MOOD', category: Cat::Other_Symbol)]
     case LIGHTNING_MOOD = "\u{1F5F2}";
 
-    #[Info(id: 128499, name: 'BALLOT BOX WITH BALLOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F3, name: 'BALLOT BOX WITH BALLOT', category: Cat::Other_Symbol)]
     case BALLOT_BOX_WITH_BALLOT = "\u{1F5F3}";
 
-    #[Info(id: 128500, name: 'BALLOT SCRIPT X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F4, name: 'BALLOT SCRIPT X', category: Cat::Other_Symbol)]
     case BALLOT_SCRIPT_X = "\u{1F5F4}";
 
-    #[Info(id: 128501, name: 'BALLOT BOX WITH SCRIPT X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F5, name: 'BALLOT BOX WITH SCRIPT X', category: Cat::Other_Symbol)]
     case BALLOT_BOX_WITH_SCRIPT_X = "\u{1F5F5}";
 
-    #[Info(id: 128502, name: 'BALLOT BOLD SCRIPT X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F6, name: 'BALLOT BOLD SCRIPT X', category: Cat::Other_Symbol)]
     case BALLOT_BOLD_SCRIPT_X = "\u{1F5F6}";
 
-    #[Info(id: 128503, name: 'BALLOT BOX WITH BOLD SCRIPT X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F7, name: 'BALLOT BOX WITH BOLD SCRIPT X', category: Cat::Other_Symbol)]
     case BALLOT_BOX_WITH_BOLD_SCRIPT_X = "\u{1F5F7}";
 
-    #[Info(id: 128504, name: 'LIGHT CHECK MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F8, name: 'LIGHT CHECK MARK', category: Cat::Other_Symbol)]
     case LIGHT_CHECK_MARK = "\u{1F5F8}";
 
-    #[Info(id: 128505, name: 'BALLOT BOX WITH BOLD CHECK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F9, name: 'BALLOT BOX WITH BOLD CHECK', category: Cat::Other_Symbol)]
     case BALLOT_BOX_WITH_BOLD_CHECK = "\u{1F5F9}";
 
-    #[Info(id: 128506, name: 'WORLD MAP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5FA, name: 'WORLD MAP', category: Cat::Other_Symbol)]
     case WORLD_MAP = "\u{1F5FA}";
 
-    #[Info(id: 128507, name: 'MOUNT FUJI', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5FB, name: 'MOUNT FUJI', category: Cat::Other_Symbol)]
     case MOUNT_FUJI = "\u{1F5FB}";
 
-    #[Info(id: 128508, name: 'TOKYO TOWER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5FC, name: 'TOKYO TOWER', category: Cat::Other_Symbol)]
     case TOKYO_TOWER = "\u{1F5FC}";
 
-    #[Info(id: 128509, name: 'STATUE OF LIBERTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5FD, name: 'STATUE OF LIBERTY', category: Cat::Other_Symbol)]
     case STATUE_OF_LIBERTY = "\u{1F5FD}";
 
-    #[Info(id: 128510, name: 'SILHOUETTE OF JAPAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5FE, name: 'SILHOUETTE OF JAPAN', category: Cat::Other_Symbol)]
     case SILHOUETTE_OF_JAPAN = "\u{1F5FE}";
 
-    #[Info(id: 128511, name: 'MOYAI', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5FF, name: 'MOYAI', category: Cat::Other_Symbol)]
     case MOYAI = "\u{1F5FF}";
 }

@@ -16,276 +16,276 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Kannada: string
 {
-    #[Info(id: 3200, name: 'KANNADA SIGN SPACING CANDRABINDU', category: Cat::Other_Letter)]
+    #[Info(id: 0xC80, name: 'KANNADA SIGN SPACING CANDRABINDU', category: Cat::Other_Letter)]
     case KANNADA_SIGN_SPACING_CANDRABINDU = "\u{C80}";
 
-    #[Info(id: 3201, name: 'KANNADA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC81, name: 'KANNADA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case KANNADA_SIGN_CANDRABINDU = "\u{C81}";
 
-    #[Info(id: 3202, name: 'KANNADA SIGN ANUSVARA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xC82, name: 'KANNADA SIGN ANUSVARA', category: Cat::Spacing_Mark)]
     case KANNADA_SIGN_ANUSVARA = "\u{C82}";
 
-    #[Info(id: 3203, name: 'KANNADA SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xC83, name: 'KANNADA SIGN VISARGA', category: Cat::Spacing_Mark)]
     case KANNADA_SIGN_VISARGA = "\u{C83}";
 
-    #[Info(id: 3204, name: 'KANNADA SIGN SIDDHAM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xC84, name: 'KANNADA SIGN SIDDHAM', category: Cat::Other_Punctuation)]
     case KANNADA_SIGN_SIDDHAM = "\u{C84}";
 
-    #[Info(id: 3205, name: 'KANNADA LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xC85, name: 'KANNADA LETTER A', category: Cat::Other_Letter)]
     case KANNADA_LETTER_A = "\u{C85}";
 
-    #[Info(id: 3206, name: 'KANNADA LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC86, name: 'KANNADA LETTER AA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_AA = "\u{C86}";
 
-    #[Info(id: 3207, name: 'KANNADA LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xC87, name: 'KANNADA LETTER I', category: Cat::Other_Letter)]
     case KANNADA_LETTER_I = "\u{C87}";
 
-    #[Info(id: 3208, name: 'KANNADA LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0xC88, name: 'KANNADA LETTER II', category: Cat::Other_Letter)]
     case KANNADA_LETTER_II = "\u{C88}";
 
-    #[Info(id: 3209, name: 'KANNADA LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0xC89, name: 'KANNADA LETTER U', category: Cat::Other_Letter)]
     case KANNADA_LETTER_U = "\u{C89}";
 
-    #[Info(id: 3210, name: 'KANNADA LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0xC8A, name: 'KANNADA LETTER UU', category: Cat::Other_Letter)]
     case KANNADA_LETTER_UU = "\u{C8A}";
 
-    #[Info(id: 3211, name: 'KANNADA LETTER VOCALIC R', category: Cat::Other_Letter)]
+    #[Info(id: 0xC8B, name: 'KANNADA LETTER VOCALIC R', category: Cat::Other_Letter)]
     case KANNADA_LETTER_VOCALIC_R = "\u{C8B}";
 
-    #[Info(id: 3212, name: 'KANNADA LETTER VOCALIC L', category: Cat::Other_Letter)]
+    #[Info(id: 0xC8C, name: 'KANNADA LETTER VOCALIC L', category: Cat::Other_Letter)]
     case KANNADA_LETTER_VOCALIC_L = "\u{C8C}";
 
-    #[Info(id: 3214, name: 'KANNADA LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0xC8E, name: 'KANNADA LETTER E', category: Cat::Other_Letter)]
     case KANNADA_LETTER_E = "\u{C8E}";
 
-    #[Info(id: 3215, name: 'KANNADA LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0xC8F, name: 'KANNADA LETTER EE', category: Cat::Other_Letter)]
     case KANNADA_LETTER_EE = "\u{C8F}";
 
-    #[Info(id: 3216, name: 'KANNADA LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0xC90, name: 'KANNADA LETTER AI', category: Cat::Other_Letter)]
     case KANNADA_LETTER_AI = "\u{C90}";
 
-    #[Info(id: 3218, name: 'KANNADA LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xC92, name: 'KANNADA LETTER O', category: Cat::Other_Letter)]
     case KANNADA_LETTER_O = "\u{C92}";
 
-    #[Info(id: 3219, name: 'KANNADA LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0xC93, name: 'KANNADA LETTER OO', category: Cat::Other_Letter)]
     case KANNADA_LETTER_OO = "\u{C93}";
 
-    #[Info(id: 3220, name: 'KANNADA LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0xC94, name: 'KANNADA LETTER AU', category: Cat::Other_Letter)]
     case KANNADA_LETTER_AU = "\u{C94}";
 
-    #[Info(id: 3221, name: 'KANNADA LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC95, name: 'KANNADA LETTER KA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_KA = "\u{C95}";
 
-    #[Info(id: 3222, name: 'KANNADA LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC96, name: 'KANNADA LETTER KHA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_KHA = "\u{C96}";
 
-    #[Info(id: 3223, name: 'KANNADA LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC97, name: 'KANNADA LETTER GA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_GA = "\u{C97}";
 
-    #[Info(id: 3224, name: 'KANNADA LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC98, name: 'KANNADA LETTER GHA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_GHA = "\u{C98}";
 
-    #[Info(id: 3225, name: 'KANNADA LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC99, name: 'KANNADA LETTER NGA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_NGA = "\u{C99}";
 
-    #[Info(id: 3226, name: 'KANNADA LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC9A, name: 'KANNADA LETTER CA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_CA = "\u{C9A}";
 
-    #[Info(id: 3227, name: 'KANNADA LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC9B, name: 'KANNADA LETTER CHA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_CHA = "\u{C9B}";
 
-    #[Info(id: 3228, name: 'KANNADA LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC9C, name: 'KANNADA LETTER JA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_JA = "\u{C9C}";
 
-    #[Info(id: 3229, name: 'KANNADA LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC9D, name: 'KANNADA LETTER JHA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_JHA = "\u{C9D}";
 
-    #[Info(id: 3230, name: 'KANNADA LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC9E, name: 'KANNADA LETTER NYA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_NYA = "\u{C9E}";
 
-    #[Info(id: 3231, name: 'KANNADA LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC9F, name: 'KANNADA LETTER TTA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_TTA = "\u{C9F}";
 
-    #[Info(id: 3232, name: 'KANNADA LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCA0, name: 'KANNADA LETTER TTHA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_TTHA = "\u{CA0}";
 
-    #[Info(id: 3233, name: 'KANNADA LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCA1, name: 'KANNADA LETTER DDA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_DDA = "\u{CA1}";
 
-    #[Info(id: 3234, name: 'KANNADA LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCA2, name: 'KANNADA LETTER DDHA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_DDHA = "\u{CA2}";
 
-    #[Info(id: 3235, name: 'KANNADA LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCA3, name: 'KANNADA LETTER NNA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_NNA = "\u{CA3}";
 
-    #[Info(id: 3236, name: 'KANNADA LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCA4, name: 'KANNADA LETTER TA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_TA = "\u{CA4}";
 
-    #[Info(id: 3237, name: 'KANNADA LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCA5, name: 'KANNADA LETTER THA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_THA = "\u{CA5}";
 
-    #[Info(id: 3238, name: 'KANNADA LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCA6, name: 'KANNADA LETTER DA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_DA = "\u{CA6}";
 
-    #[Info(id: 3239, name: 'KANNADA LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCA7, name: 'KANNADA LETTER DHA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_DHA = "\u{CA7}";
 
-    #[Info(id: 3240, name: 'KANNADA LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCA8, name: 'KANNADA LETTER NA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_NA = "\u{CA8}";
 
-    #[Info(id: 3242, name: 'KANNADA LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCAA, name: 'KANNADA LETTER PA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_PA = "\u{CAA}";
 
-    #[Info(id: 3243, name: 'KANNADA LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCAB, name: 'KANNADA LETTER PHA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_PHA = "\u{CAB}";
 
-    #[Info(id: 3244, name: 'KANNADA LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCAC, name: 'KANNADA LETTER BA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_BA = "\u{CAC}";
 
-    #[Info(id: 3245, name: 'KANNADA LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCAD, name: 'KANNADA LETTER BHA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_BHA = "\u{CAD}";
 
-    #[Info(id: 3246, name: 'KANNADA LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCAE, name: 'KANNADA LETTER MA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_MA = "\u{CAE}";
 
-    #[Info(id: 3247, name: 'KANNADA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCAF, name: 'KANNADA LETTER YA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_YA = "\u{CAF}";
 
-    #[Info(id: 3248, name: 'KANNADA LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCB0, name: 'KANNADA LETTER RA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_RA = "\u{CB0}";
 
-    #[Info(id: 3249, name: 'KANNADA LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCB1, name: 'KANNADA LETTER RRA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_RRA = "\u{CB1}";
 
-    #[Info(id: 3250, name: 'KANNADA LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCB2, name: 'KANNADA LETTER LA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_LA = "\u{CB2}";
 
-    #[Info(id: 3251, name: 'KANNADA LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCB3, name: 'KANNADA LETTER LLA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_LLA = "\u{CB3}";
 
-    #[Info(id: 3253, name: 'KANNADA LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCB5, name: 'KANNADA LETTER VA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_VA = "\u{CB5}";
 
-    #[Info(id: 3254, name: 'KANNADA LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCB6, name: 'KANNADA LETTER SHA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_SHA = "\u{CB6}";
 
-    #[Info(id: 3255, name: 'KANNADA LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCB7, name: 'KANNADA LETTER SSA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_SSA = "\u{CB7}";
 
-    #[Info(id: 3256, name: 'KANNADA LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCB8, name: 'KANNADA LETTER SA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_SA = "\u{CB8}";
 
-    #[Info(id: 3257, name: 'KANNADA LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCB9, name: 'KANNADA LETTER HA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_HA = "\u{CB9}";
 
-    #[Info(id: 3260, name: 'KANNADA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xCBC, name: 'KANNADA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case KANNADA_SIGN_NUKTA = "\u{CBC}";
 
-    #[Info(id: 3261, name: 'KANNADA SIGN AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCBD, name: 'KANNADA SIGN AVAGRAHA', category: Cat::Other_Letter)]
     case KANNADA_SIGN_AVAGRAHA = "\u{CBD}";
 
-    #[Info(id: 3262, name: 'KANNADA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCBE, name: 'KANNADA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case KANNADA_VOWEL_SIGN_AA = "\u{CBE}";
 
-    #[Info(id: 3263, name: 'KANNADA VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xCBF, name: 'KANNADA VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case KANNADA_VOWEL_SIGN_I = "\u{CBF}";
 
-    #[Info(id: 3264, name: 'KANNADA VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCC0, name: 'KANNADA VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case KANNADA_VOWEL_SIGN_II = "\u{CC0}";
 
-    #[Info(id: 3265, name: 'KANNADA VOWEL SIGN U', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCC1, name: 'KANNADA VOWEL SIGN U', category: Cat::Spacing_Mark)]
     case KANNADA_VOWEL_SIGN_U = "\u{CC1}";
 
-    #[Info(id: 3266, name: 'KANNADA VOWEL SIGN UU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCC2, name: 'KANNADA VOWEL SIGN UU', category: Cat::Spacing_Mark)]
     case KANNADA_VOWEL_SIGN_UU = "\u{CC2}";
 
-    #[Info(id: 3267, name: 'KANNADA VOWEL SIGN VOCALIC R', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCC3, name: 'KANNADA VOWEL SIGN VOCALIC R', category: Cat::Spacing_Mark)]
     case KANNADA_VOWEL_SIGN_VOCALIC_R = "\u{CC3}";
 
-    #[Info(id: 3268, name: 'KANNADA VOWEL SIGN VOCALIC RR', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCC4, name: 'KANNADA VOWEL SIGN VOCALIC RR', category: Cat::Spacing_Mark)]
     case KANNADA_VOWEL_SIGN_VOCALIC_RR = "\u{CC4}";
 
-    #[Info(id: 3270, name: 'KANNADA VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xCC6, name: 'KANNADA VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case KANNADA_VOWEL_SIGN_E = "\u{CC6}";
 
-    #[Info(id: 3271, name: 'KANNADA VOWEL SIGN EE', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCC7, name: 'KANNADA VOWEL SIGN EE', category: Cat::Spacing_Mark)]
     case KANNADA_VOWEL_SIGN_EE = "\u{CC7}";
 
-    #[Info(id: 3272, name: 'KANNADA VOWEL SIGN AI', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCC8, name: 'KANNADA VOWEL SIGN AI', category: Cat::Spacing_Mark)]
     case KANNADA_VOWEL_SIGN_AI = "\u{CC8}";
 
-    #[Info(id: 3274, name: 'KANNADA VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCCA, name: 'KANNADA VOWEL SIGN O', category: Cat::Spacing_Mark)]
     case KANNADA_VOWEL_SIGN_O = "\u{CCA}";
 
-    #[Info(id: 3275, name: 'KANNADA VOWEL SIGN OO', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCCB, name: 'KANNADA VOWEL SIGN OO', category: Cat::Spacing_Mark)]
     case KANNADA_VOWEL_SIGN_OO = "\u{CCB}";
 
-    #[Info(id: 3276, name: 'KANNADA VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xCCC, name: 'KANNADA VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
     case KANNADA_VOWEL_SIGN_AU = "\u{CCC}";
 
-    #[Info(id: 3277, name: 'KANNADA SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xCCD, name: 'KANNADA SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case KANNADA_SIGN_VIRAMA = "\u{CCD}";
 
-    #[Info(id: 3285, name: 'KANNADA LENGTH MARK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCD5, name: 'KANNADA LENGTH MARK', category: Cat::Spacing_Mark)]
     case KANNADA_LENGTH_MARK = "\u{CD5}";
 
-    #[Info(id: 3286, name: 'KANNADA AI LENGTH MARK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCD6, name: 'KANNADA AI LENGTH MARK', category: Cat::Spacing_Mark)]
     case KANNADA_AI_LENGTH_MARK = "\u{CD6}";
 
-    #[Info(id: 3293, name: 'KANNADA LETTER NAKAARA POLLU', category: Cat::Other_Letter)]
+    #[Info(id: 0xCDD, name: 'KANNADA LETTER NAKAARA POLLU', category: Cat::Other_Letter)]
     case KANNADA_LETTER_NAKAARA_POLLU = "\u{CDD}";
 
-    #[Info(id: 3294, name: 'KANNADA LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCDE, name: 'KANNADA LETTER FA', category: Cat::Other_Letter)]
     case KANNADA_LETTER_FA = "\u{CDE}";
 
-    #[Info(id: 3296, name: 'KANNADA LETTER VOCALIC RR', category: Cat::Other_Letter)]
+    #[Info(id: 0xCE0, name: 'KANNADA LETTER VOCALIC RR', category: Cat::Other_Letter)]
     case KANNADA_LETTER_VOCALIC_RR = "\u{CE0}";
 
-    #[Info(id: 3297, name: 'KANNADA LETTER VOCALIC LL', category: Cat::Other_Letter)]
+    #[Info(id: 0xCE1, name: 'KANNADA LETTER VOCALIC LL', category: Cat::Other_Letter)]
     case KANNADA_LETTER_VOCALIC_LL = "\u{CE1}";
 
-    #[Info(id: 3298, name: 'KANNADA VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xCE2, name: 'KANNADA VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
     case KANNADA_VOWEL_SIGN_VOCALIC_L = "\u{CE2}";
 
-    #[Info(id: 3299, name: 'KANNADA VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xCE3, name: 'KANNADA VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case KANNADA_VOWEL_SIGN_VOCALIC_LL = "\u{CE3}";
 
-    #[Info(id: 3302, name: 'KANNADA DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xCE6, name: 'KANNADA DIGIT ZERO', category: Cat::Decimal_Number)]
     case KANNADA_DIGIT_ZERO = "\u{CE6}";
 
-    #[Info(id: 3303, name: 'KANNADA DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xCE7, name: 'KANNADA DIGIT ONE', category: Cat::Decimal_Number)]
     case KANNADA_DIGIT_ONE = "\u{CE7}";
 
-    #[Info(id: 3304, name: 'KANNADA DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xCE8, name: 'KANNADA DIGIT TWO', category: Cat::Decimal_Number)]
     case KANNADA_DIGIT_TWO = "\u{CE8}";
 
-    #[Info(id: 3305, name: 'KANNADA DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xCE9, name: 'KANNADA DIGIT THREE', category: Cat::Decimal_Number)]
     case KANNADA_DIGIT_THREE = "\u{CE9}";
 
-    #[Info(id: 3306, name: 'KANNADA DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xCEA, name: 'KANNADA DIGIT FOUR', category: Cat::Decimal_Number)]
     case KANNADA_DIGIT_FOUR = "\u{CEA}";
 
-    #[Info(id: 3307, name: 'KANNADA DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xCEB, name: 'KANNADA DIGIT FIVE', category: Cat::Decimal_Number)]
     case KANNADA_DIGIT_FIVE = "\u{CEB}";
 
-    #[Info(id: 3308, name: 'KANNADA DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xCEC, name: 'KANNADA DIGIT SIX', category: Cat::Decimal_Number)]
     case KANNADA_DIGIT_SIX = "\u{CEC}";
 
-    #[Info(id: 3309, name: 'KANNADA DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xCED, name: 'KANNADA DIGIT SEVEN', category: Cat::Decimal_Number)]
     case KANNADA_DIGIT_SEVEN = "\u{CED}";
 
-    #[Info(id: 3310, name: 'KANNADA DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xCEE, name: 'KANNADA DIGIT EIGHT', category: Cat::Decimal_Number)]
     case KANNADA_DIGIT_EIGHT = "\u{CEE}";
 
-    #[Info(id: 3311, name: 'KANNADA DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xCEF, name: 'KANNADA DIGIT NINE', category: Cat::Decimal_Number)]
     case KANNADA_DIGIT_NINE = "\u{CEF}";
 
-    #[Info(id: 3313, name: 'KANNADA SIGN JIHVAMULIYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCF1, name: 'KANNADA SIGN JIHVAMULIYA', category: Cat::Other_Letter)]
     case KANNADA_SIGN_JIHVAMULIYA = "\u{CF1}";
 
-    #[Info(id: 3314, name: 'KANNADA SIGN UPADHMANIYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCF2, name: 'KANNADA SIGN UPADHMANIYA', category: Cat::Other_Letter)]
     case KANNADA_SIGN_UPADHMANIYA = "\u{CF2}";
 
-    #[Info(id: 3315, name: 'KANNADA SIGN COMBINING ANUSVARA ABOVE RIGHT', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xCF3, name: 'KANNADA SIGN COMBINING ANUSVARA ABOVE RIGHT', category: Cat::Spacing_Mark)]
     case KANNADA_SIGN_COMBINING_ANUSVARA_ABOVE_RIGHT = "\u{CF3}";
 }

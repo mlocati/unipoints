@@ -16,387 +16,387 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Basic_Latin: string
 {
-    #[Info(id: 0, name: 'NULL', category: Cat::Control)]
+    #[Info(id: 0x0, name: 'NULL', category: Cat::Control)]
     case NULL = "\u{0}";
 
-    #[Info(id: 1, name: 'START OF HEADING', category: Cat::Control)]
+    #[Info(id: 0x1, name: 'START OF HEADING', category: Cat::Control)]
     case START_OF_HEADING = "\u{1}";
 
-    #[Info(id: 2, name: 'START OF TEXT', category: Cat::Control)]
+    #[Info(id: 0x2, name: 'START OF TEXT', category: Cat::Control)]
     case START_OF_TEXT = "\u{2}";
 
-    #[Info(id: 3, name: 'END OF TEXT', category: Cat::Control)]
+    #[Info(id: 0x3, name: 'END OF TEXT', category: Cat::Control)]
     case END_OF_TEXT = "\u{3}";
 
-    #[Info(id: 4, name: 'END OF TRANSMISSION', category: Cat::Control)]
+    #[Info(id: 0x4, name: 'END OF TRANSMISSION', category: Cat::Control)]
     case END_OF_TRANSMISSION = "\u{4}";
 
-    #[Info(id: 5, name: 'ENQUIRY', category: Cat::Control)]
+    #[Info(id: 0x5, name: 'ENQUIRY', category: Cat::Control)]
     case ENQUIRY = "\u{5}";
 
-    #[Info(id: 6, name: 'ACKNOWLEDGE', category: Cat::Control)]
+    #[Info(id: 0x6, name: 'ACKNOWLEDGE', category: Cat::Control)]
     case ACKNOWLEDGE = "\u{6}";
 
-    #[Info(id: 7, name: 'ALERT', category: Cat::Control)]
+    #[Info(id: 0x7, name: 'ALERT', category: Cat::Control)]
     case ALERT = "\u{7}";
 
-    #[Info(id: 8, name: 'BACKSPACE', category: Cat::Control)]
+    #[Info(id: 0x8, name: 'BACKSPACE', category: Cat::Control)]
     case BACKSPACE = "\u{8}";
 
-    #[Info(id: 9, name: 'CHARACTER TABULATION', category: Cat::Control)]
+    #[Info(id: 0x9, name: 'CHARACTER TABULATION', category: Cat::Control)]
     case CHARACTER_TABULATION = "\u{9}";
 
-    #[Info(id: 10, name: 'LINE FEED', category: Cat::Control)]
+    #[Info(id: 0xA, name: 'LINE FEED', category: Cat::Control)]
     case LINE_FEED = "\u{A}";
 
-    #[Info(id: 11, name: 'LINE TABULATION', category: Cat::Control)]
+    #[Info(id: 0xB, name: 'LINE TABULATION', category: Cat::Control)]
     case LINE_TABULATION = "\u{B}";
 
-    #[Info(id: 12, name: 'FORM FEED', category: Cat::Control)]
+    #[Info(id: 0xC, name: 'FORM FEED', category: Cat::Control)]
     case FORM_FEED = "\u{C}";
 
-    #[Info(id: 13, name: 'CARRIAGE RETURN', category: Cat::Control)]
+    #[Info(id: 0xD, name: 'CARRIAGE RETURN', category: Cat::Control)]
     case CARRIAGE_RETURN = "\u{D}";
 
-    #[Info(id: 14, name: 'SHIFT OUT', category: Cat::Control)]
+    #[Info(id: 0xE, name: 'SHIFT OUT', category: Cat::Control)]
     case SHIFT_OUT = "\u{E}";
 
-    #[Info(id: 15, name: 'SHIFT IN', category: Cat::Control)]
+    #[Info(id: 0xF, name: 'SHIFT IN', category: Cat::Control)]
     case SHIFT_IN = "\u{F}";
 
-    #[Info(id: 16, name: 'DATA LINK ESCAPE', category: Cat::Control)]
+    #[Info(id: 0x10, name: 'DATA LINK ESCAPE', category: Cat::Control)]
     case DATA_LINK_ESCAPE = "\u{10}";
 
-    #[Info(id: 17, name: 'DEVICE CONTROL ONE', category: Cat::Control)]
+    #[Info(id: 0x11, name: 'DEVICE CONTROL ONE', category: Cat::Control)]
     case DEVICE_CONTROL_ONE = "\u{11}";
 
-    #[Info(id: 18, name: 'DEVICE CONTROL TWO', category: Cat::Control)]
+    #[Info(id: 0x12, name: 'DEVICE CONTROL TWO', category: Cat::Control)]
     case DEVICE_CONTROL_TWO = "\u{12}";
 
-    #[Info(id: 19, name: 'DEVICE CONTROL THREE', category: Cat::Control)]
+    #[Info(id: 0x13, name: 'DEVICE CONTROL THREE', category: Cat::Control)]
     case DEVICE_CONTROL_THREE = "\u{13}";
 
-    #[Info(id: 20, name: 'DEVICE CONTROL FOUR', category: Cat::Control)]
+    #[Info(id: 0x14, name: 'DEVICE CONTROL FOUR', category: Cat::Control)]
     case DEVICE_CONTROL_FOUR = "\u{14}";
 
-    #[Info(id: 21, name: 'NEGATIVE ACKNOWLEDGE', category: Cat::Control)]
+    #[Info(id: 0x15, name: 'NEGATIVE ACKNOWLEDGE', category: Cat::Control)]
     case NEGATIVE_ACKNOWLEDGE = "\u{15}";
 
-    #[Info(id: 22, name: 'SYNCHRONOUS IDLE', category: Cat::Control)]
+    #[Info(id: 0x16, name: 'SYNCHRONOUS IDLE', category: Cat::Control)]
     case SYNCHRONOUS_IDLE = "\u{16}";
 
-    #[Info(id: 23, name: 'END OF TRANSMISSION BLOCK', category: Cat::Control)]
+    #[Info(id: 0x17, name: 'END OF TRANSMISSION BLOCK', category: Cat::Control)]
     case END_OF_TRANSMISSION_BLOCK = "\u{17}";
 
-    #[Info(id: 24, name: 'CANCEL', category: Cat::Control)]
+    #[Info(id: 0x18, name: 'CANCEL', category: Cat::Control)]
     case CANCEL = "\u{18}";
 
-    #[Info(id: 25, name: 'END OF MEDIUM', category: Cat::Control)]
+    #[Info(id: 0x19, name: 'END OF MEDIUM', category: Cat::Control)]
     case END_OF_MEDIUM = "\u{19}";
 
-    #[Info(id: 26, name: 'SUBSTITUTE', category: Cat::Control)]
+    #[Info(id: 0x1A, name: 'SUBSTITUTE', category: Cat::Control)]
     case SUBSTITUTE = "\u{1A}";
 
-    #[Info(id: 27, name: 'ESCAPE', category: Cat::Control)]
+    #[Info(id: 0x1B, name: 'ESCAPE', category: Cat::Control)]
     case ESCAPE = "\u{1B}";
 
-    #[Info(id: 28, name: 'INFORMATION SEPARATOR FOUR', category: Cat::Control)]
+    #[Info(id: 0x1C, name: 'INFORMATION SEPARATOR FOUR', category: Cat::Control)]
     case INFORMATION_SEPARATOR_FOUR = "\u{1C}";
 
-    #[Info(id: 29, name: 'INFORMATION SEPARATOR THREE', category: Cat::Control)]
+    #[Info(id: 0x1D, name: 'INFORMATION SEPARATOR THREE', category: Cat::Control)]
     case INFORMATION_SEPARATOR_THREE = "\u{1D}";
 
-    #[Info(id: 30, name: 'INFORMATION SEPARATOR TWO', category: Cat::Control)]
+    #[Info(id: 0x1E, name: 'INFORMATION SEPARATOR TWO', category: Cat::Control)]
     case INFORMATION_SEPARATOR_TWO = "\u{1E}";
 
-    #[Info(id: 31, name: 'INFORMATION SEPARATOR ONE', category: Cat::Control)]
+    #[Info(id: 0x1F, name: 'INFORMATION SEPARATOR ONE', category: Cat::Control)]
     case INFORMATION_SEPARATOR_ONE = "\u{1F}";
 
-    #[Info(id: 32, name: 'SPACE', category: Cat::Space_Separator)]
+    #[Info(id: 0x20, name: 'SPACE', category: Cat::Space_Separator)]
     case SPACE = "\u{20}";
 
-    #[Info(id: 33, name: 'EXCLAMATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x21, name: 'EXCLAMATION MARK', category: Cat::Other_Punctuation)]
     case EXCLAMATION_MARK = "\u{21}";
 
-    #[Info(id: 34, name: 'QUOTATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x22, name: 'QUOTATION MARK', category: Cat::Other_Punctuation)]
     case QUOTATION_MARK = "\u{22}";
 
-    #[Info(id: 35, name: 'NUMBER SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x23, name: 'NUMBER SIGN', category: Cat::Other_Punctuation)]
     case NUMBER_SIGN = "\u{23}";
 
-    #[Info(id: 36, name: 'DOLLAR SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x24, name: 'DOLLAR SIGN', category: Cat::Currency_Symbol)]
     case DOLLAR_SIGN = "\u{24}";
 
-    #[Info(id: 37, name: 'PERCENT SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x25, name: 'PERCENT SIGN', category: Cat::Other_Punctuation)]
     case PERCENT_SIGN = "\u{25}";
 
-    #[Info(id: 38, name: 'AMPERSAND', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x26, name: 'AMPERSAND', category: Cat::Other_Punctuation)]
     case AMPERSAND = "\u{26}";
 
-    #[Info(id: 39, name: 'APOSTROPHE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x27, name: 'APOSTROPHE', category: Cat::Other_Punctuation)]
     case APOSTROPHE = "\u{27}";
 
-    #[Info(id: 40, name: 'LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x28, name: 'LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
     case LEFT_PARENTHESIS = "\u{28}";
 
-    #[Info(id: 41, name: 'RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x29, name: 'RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
     case RIGHT_PARENTHESIS = "\u{29}";
 
-    #[Info(id: 42, name: 'ASTERISK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2A, name: 'ASTERISK', category: Cat::Other_Punctuation)]
     case ASTERISK = "\u{2A}";
 
-    #[Info(id: 43, name: 'PLUS SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2B, name: 'PLUS SIGN', category: Cat::Math_Symbol)]
     case PLUS_SIGN = "\u{2B}";
 
-    #[Info(id: 44, name: 'COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2C, name: 'COMMA', category: Cat::Other_Punctuation)]
     case COMMA = "\u{2C}";
 
-    #[Info(id: 45, name: 'HYPHEN-MINUS', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0x2D, name: 'HYPHEN-MINUS', category: Cat::Dash_Punctuation)]
     case HYPHEN_MINUS = "\u{2D}";
 
-    #[Info(id: 46, name: 'FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2E, name: 'FULL STOP', category: Cat::Other_Punctuation)]
     case FULL_STOP = "\u{2E}";
 
-    #[Info(id: 47, name: 'SOLIDUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2F, name: 'SOLIDUS', category: Cat::Other_Punctuation)]
     case SOLIDUS = "\u{2F}";
 
-    #[Info(id: 48, name: 'DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x30, name: 'DIGIT ZERO', category: Cat::Decimal_Number)]
     case DIGIT_ZERO = "\u{30}";
 
-    #[Info(id: 49, name: 'DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x31, name: 'DIGIT ONE', category: Cat::Decimal_Number)]
     case DIGIT_ONE = "\u{31}";
 
-    #[Info(id: 50, name: 'DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x32, name: 'DIGIT TWO', category: Cat::Decimal_Number)]
     case DIGIT_TWO = "\u{32}";
 
-    #[Info(id: 51, name: 'DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x33, name: 'DIGIT THREE', category: Cat::Decimal_Number)]
     case DIGIT_THREE = "\u{33}";
 
-    #[Info(id: 52, name: 'DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x34, name: 'DIGIT FOUR', category: Cat::Decimal_Number)]
     case DIGIT_FOUR = "\u{34}";
 
-    #[Info(id: 53, name: 'DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x35, name: 'DIGIT FIVE', category: Cat::Decimal_Number)]
     case DIGIT_FIVE = "\u{35}";
 
-    #[Info(id: 54, name: 'DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x36, name: 'DIGIT SIX', category: Cat::Decimal_Number)]
     case DIGIT_SIX = "\u{36}";
 
-    #[Info(id: 55, name: 'DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x37, name: 'DIGIT SEVEN', category: Cat::Decimal_Number)]
     case DIGIT_SEVEN = "\u{37}";
 
-    #[Info(id: 56, name: 'DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x38, name: 'DIGIT EIGHT', category: Cat::Decimal_Number)]
     case DIGIT_EIGHT = "\u{38}";
 
-    #[Info(id: 57, name: 'DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x39, name: 'DIGIT NINE', category: Cat::Decimal_Number)]
     case DIGIT_NINE = "\u{39}";
 
-    #[Info(id: 58, name: 'COLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x3A, name: 'COLON', category: Cat::Other_Punctuation)]
     case COLON = "\u{3A}";
 
-    #[Info(id: 59, name: 'SEMICOLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x3B, name: 'SEMICOLON', category: Cat::Other_Punctuation)]
     case SEMICOLON = "\u{3B}";
 
-    #[Info(id: 60, name: 'LESS-THAN SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x3C, name: 'LESS-THAN SIGN', category: Cat::Math_Symbol)]
     case LESS_THAN_SIGN = "\u{3C}";
 
-    #[Info(id: 61, name: 'EQUALS SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x3D, name: 'EQUALS SIGN', category: Cat::Math_Symbol)]
     case EQUALS_SIGN = "\u{3D}";
 
-    #[Info(id: 62, name: 'GREATER-THAN SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x3E, name: 'GREATER-THAN SIGN', category: Cat::Math_Symbol)]
     case GREATER_THAN_SIGN = "\u{3E}";
 
-    #[Info(id: 63, name: 'QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x3F, name: 'QUESTION MARK', category: Cat::Other_Punctuation)]
     case QUESTION_MARK = "\u{3F}";
 
-    #[Info(id: 64, name: 'COMMERCIAL AT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x40, name: 'COMMERCIAL AT', category: Cat::Other_Punctuation)]
     case COMMERCIAL_AT = "\u{40}";
 
-    #[Info(id: 65, name: 'LATIN CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x41, name: 'LATIN CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_A = "\u{41}";
 
-    #[Info(id: 66, name: 'LATIN CAPITAL LETTER B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x42, name: 'LATIN CAPITAL LETTER B', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_B = "\u{42}";
 
-    #[Info(id: 67, name: 'LATIN CAPITAL LETTER C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x43, name: 'LATIN CAPITAL LETTER C', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_C = "\u{43}";
 
-    #[Info(id: 68, name: 'LATIN CAPITAL LETTER D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x44, name: 'LATIN CAPITAL LETTER D', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_D = "\u{44}";
 
-    #[Info(id: 69, name: 'LATIN CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x45, name: 'LATIN CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_E = "\u{45}";
 
-    #[Info(id: 70, name: 'LATIN CAPITAL LETTER F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x46, name: 'LATIN CAPITAL LETTER F', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_F = "\u{46}";
 
-    #[Info(id: 71, name: 'LATIN CAPITAL LETTER G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x47, name: 'LATIN CAPITAL LETTER G', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_G = "\u{47}";
 
-    #[Info(id: 72, name: 'LATIN CAPITAL LETTER H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x48, name: 'LATIN CAPITAL LETTER H', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_H = "\u{48}";
 
-    #[Info(id: 73, name: 'LATIN CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x49, name: 'LATIN CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_I = "\u{49}";
 
-    #[Info(id: 74, name: 'LATIN CAPITAL LETTER J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4A, name: 'LATIN CAPITAL LETTER J', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_J = "\u{4A}";
 
-    #[Info(id: 75, name: 'LATIN CAPITAL LETTER K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4B, name: 'LATIN CAPITAL LETTER K', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_K = "\u{4B}";
 
-    #[Info(id: 76, name: 'LATIN CAPITAL LETTER L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4C, name: 'LATIN CAPITAL LETTER L', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_L = "\u{4C}";
 
-    #[Info(id: 77, name: 'LATIN CAPITAL LETTER M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4D, name: 'LATIN CAPITAL LETTER M', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_M = "\u{4D}";
 
-    #[Info(id: 78, name: 'LATIN CAPITAL LETTER N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4E, name: 'LATIN CAPITAL LETTER N', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_N = "\u{4E}";
 
-    #[Info(id: 79, name: 'LATIN CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x4F, name: 'LATIN CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O = "\u{4F}";
 
-    #[Info(id: 80, name: 'LATIN CAPITAL LETTER P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x50, name: 'LATIN CAPITAL LETTER P', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_P = "\u{50}";
 
-    #[Info(id: 81, name: 'LATIN CAPITAL LETTER Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x51, name: 'LATIN CAPITAL LETTER Q', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_Q = "\u{51}";
 
-    #[Info(id: 82, name: 'LATIN CAPITAL LETTER R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x52, name: 'LATIN CAPITAL LETTER R', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_R = "\u{52}";
 
-    #[Info(id: 83, name: 'LATIN CAPITAL LETTER S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x53, name: 'LATIN CAPITAL LETTER S', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_S = "\u{53}";
 
-    #[Info(id: 84, name: 'LATIN CAPITAL LETTER T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x54, name: 'LATIN CAPITAL LETTER T', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_T = "\u{54}";
 
-    #[Info(id: 85, name: 'LATIN CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x55, name: 'LATIN CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_U = "\u{55}";
 
-    #[Info(id: 86, name: 'LATIN CAPITAL LETTER V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x56, name: 'LATIN CAPITAL LETTER V', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_V = "\u{56}";
 
-    #[Info(id: 87, name: 'LATIN CAPITAL LETTER W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x57, name: 'LATIN CAPITAL LETTER W', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_W = "\u{57}";
 
-    #[Info(id: 88, name: 'LATIN CAPITAL LETTER X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x58, name: 'LATIN CAPITAL LETTER X', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_X = "\u{58}";
 
-    #[Info(id: 89, name: 'LATIN CAPITAL LETTER Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x59, name: 'LATIN CAPITAL LETTER Y', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_Y = "\u{59}";
 
-    #[Info(id: 90, name: 'LATIN CAPITAL LETTER Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x5A, name: 'LATIN CAPITAL LETTER Z', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_Z = "\u{5A}";
 
-    #[Info(id: 91, name: 'LEFT SQUARE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x5B, name: 'LEFT SQUARE BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_SQUARE_BRACKET = "\u{5B}";
 
-    #[Info(id: 92, name: 'REVERSE SOLIDUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x5C, name: 'REVERSE SOLIDUS', category: Cat::Other_Punctuation)]
     case REVERSE_SOLIDUS = "\u{5C}";
 
-    #[Info(id: 93, name: 'RIGHT SQUARE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x5D, name: 'RIGHT SQUARE BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_SQUARE_BRACKET = "\u{5D}";
 
-    #[Info(id: 94, name: 'CIRCUMFLEX ACCENT', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x5E, name: 'CIRCUMFLEX ACCENT', category: Cat::Modifier_Symbol)]
     case CIRCUMFLEX_ACCENT = "\u{5E}";
 
-    #[Info(id: 95, name: 'LOW LINE', category: Cat::Connector_Punctuation)]
+    #[Info(id: 0x5F, name: 'LOW LINE', category: Cat::Connector_Punctuation)]
     case LOW_LINE = "\u{5F}";
 
-    #[Info(id: 96, name: 'GRAVE ACCENT', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x60, name: 'GRAVE ACCENT', category: Cat::Modifier_Symbol)]
     case GRAVE_ACCENT = "\u{60}";
 
-    #[Info(id: 97, name: 'LATIN SMALL LETTER A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x61, name: 'LATIN SMALL LETTER A', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_A = "\u{61}";
 
-    #[Info(id: 98, name: 'LATIN SMALL LETTER B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x62, name: 'LATIN SMALL LETTER B', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_B = "\u{62}";
 
-    #[Info(id: 99, name: 'LATIN SMALL LETTER C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x63, name: 'LATIN SMALL LETTER C', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_C = "\u{63}";
 
-    #[Info(id: 100, name: 'LATIN SMALL LETTER D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x64, name: 'LATIN SMALL LETTER D', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_D = "\u{64}";
 
-    #[Info(id: 101, name: 'LATIN SMALL LETTER E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x65, name: 'LATIN SMALL LETTER E', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_E = "\u{65}";
 
-    #[Info(id: 102, name: 'LATIN SMALL LETTER F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x66, name: 'LATIN SMALL LETTER F', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_F = "\u{66}";
 
-    #[Info(id: 103, name: 'LATIN SMALL LETTER G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x67, name: 'LATIN SMALL LETTER G', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_G = "\u{67}";
 
-    #[Info(id: 104, name: 'LATIN SMALL LETTER H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x68, name: 'LATIN SMALL LETTER H', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_H = "\u{68}";
 
-    #[Info(id: 105, name: 'LATIN SMALL LETTER I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x69, name: 'LATIN SMALL LETTER I', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_I = "\u{69}";
 
-    #[Info(id: 106, name: 'LATIN SMALL LETTER J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x6A, name: 'LATIN SMALL LETTER J', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_J = "\u{6A}";
 
-    #[Info(id: 107, name: 'LATIN SMALL LETTER K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x6B, name: 'LATIN SMALL LETTER K', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_K = "\u{6B}";
 
-    #[Info(id: 108, name: 'LATIN SMALL LETTER L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x6C, name: 'LATIN SMALL LETTER L', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_L = "\u{6C}";
 
-    #[Info(id: 109, name: 'LATIN SMALL LETTER M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x6D, name: 'LATIN SMALL LETTER M', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_M = "\u{6D}";
 
-    #[Info(id: 110, name: 'LATIN SMALL LETTER N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x6E, name: 'LATIN SMALL LETTER N', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_N = "\u{6E}";
 
-    #[Info(id: 111, name: 'LATIN SMALL LETTER O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x6F, name: 'LATIN SMALL LETTER O', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O = "\u{6F}";
 
-    #[Info(id: 112, name: 'LATIN SMALL LETTER P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x70, name: 'LATIN SMALL LETTER P', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_P = "\u{70}";
 
-    #[Info(id: 113, name: 'LATIN SMALL LETTER Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x71, name: 'LATIN SMALL LETTER Q', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Q = "\u{71}";
 
-    #[Info(id: 114, name: 'LATIN SMALL LETTER R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x72, name: 'LATIN SMALL LETTER R', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_R = "\u{72}";
 
-    #[Info(id: 115, name: 'LATIN SMALL LETTER S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x73, name: 'LATIN SMALL LETTER S', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_S = "\u{73}";
 
-    #[Info(id: 116, name: 'LATIN SMALL LETTER T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x74, name: 'LATIN SMALL LETTER T', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_T = "\u{74}";
 
-    #[Info(id: 117, name: 'LATIN SMALL LETTER U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x75, name: 'LATIN SMALL LETTER U', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U = "\u{75}";
 
-    #[Info(id: 118, name: 'LATIN SMALL LETTER V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x76, name: 'LATIN SMALL LETTER V', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_V = "\u{76}";
 
-    #[Info(id: 119, name: 'LATIN SMALL LETTER W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x77, name: 'LATIN SMALL LETTER W', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_W = "\u{77}";
 
-    #[Info(id: 120, name: 'LATIN SMALL LETTER X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x78, name: 'LATIN SMALL LETTER X', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_X = "\u{78}";
 
-    #[Info(id: 121, name: 'LATIN SMALL LETTER Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x79, name: 'LATIN SMALL LETTER Y', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Y = "\u{79}";
 
-    #[Info(id: 122, name: 'LATIN SMALL LETTER Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x7A, name: 'LATIN SMALL LETTER Z', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Z = "\u{7A}";
 
-    #[Info(id: 123, name: 'LEFT CURLY BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x7B, name: 'LEFT CURLY BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_CURLY_BRACKET = "\u{7B}";
 
-    #[Info(id: 124, name: 'VERTICAL LINE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x7C, name: 'VERTICAL LINE', category: Cat::Math_Symbol)]
     case VERTICAL_LINE = "\u{7C}";
 
-    #[Info(id: 125, name: 'RIGHT CURLY BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x7D, name: 'RIGHT CURLY BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_CURLY_BRACKET = "\u{7D}";
 
-    #[Info(id: 126, name: 'TILDE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x7E, name: 'TILDE', category: Cat::Math_Symbol)]
     case TILDE = "\u{7E}";
 
-    #[Info(id: 127, name: 'DELETE', category: Cat::Control)]
+    #[Info(id: 0x7F, name: 'DELETE', category: Cat::Control)]
     case DELETE = "\u{7F}";
 }

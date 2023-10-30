@@ -16,252 +16,252 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum New_Tai_Lue: string
 {
-    #[Info(id: 6528, name: 'NEW TAI LUE LETTER HIGH QA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1980, name: 'NEW TAI LUE LETTER HIGH QA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_QA = "\u{1980}";
 
-    #[Info(id: 6529, name: 'NEW TAI LUE LETTER LOW QA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1981, name: 'NEW TAI LUE LETTER LOW QA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_QA = "\u{1981}";
 
-    #[Info(id: 6530, name: 'NEW TAI LUE LETTER HIGH KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1982, name: 'NEW TAI LUE LETTER HIGH KA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_KA = "\u{1982}";
 
-    #[Info(id: 6531, name: 'NEW TAI LUE LETTER HIGH XA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1983, name: 'NEW TAI LUE LETTER HIGH XA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_XA = "\u{1983}";
 
-    #[Info(id: 6532, name: 'NEW TAI LUE LETTER HIGH NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1984, name: 'NEW TAI LUE LETTER HIGH NGA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_NGA = "\u{1984}";
 
-    #[Info(id: 6533, name: 'NEW TAI LUE LETTER LOW KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1985, name: 'NEW TAI LUE LETTER LOW KA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_KA = "\u{1985}";
 
-    #[Info(id: 6534, name: 'NEW TAI LUE LETTER LOW XA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1986, name: 'NEW TAI LUE LETTER LOW XA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_XA = "\u{1986}";
 
-    #[Info(id: 6535, name: 'NEW TAI LUE LETTER LOW NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1987, name: 'NEW TAI LUE LETTER LOW NGA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_NGA = "\u{1987}";
 
-    #[Info(id: 6536, name: 'NEW TAI LUE LETTER HIGH TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1988, name: 'NEW TAI LUE LETTER HIGH TSA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_TSA = "\u{1988}";
 
-    #[Info(id: 6537, name: 'NEW TAI LUE LETTER HIGH SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1989, name: 'NEW TAI LUE LETTER HIGH SA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_SA = "\u{1989}";
 
-    #[Info(id: 6538, name: 'NEW TAI LUE LETTER HIGH YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x198A, name: 'NEW TAI LUE LETTER HIGH YA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_YA = "\u{198A}";
 
-    #[Info(id: 6539, name: 'NEW TAI LUE LETTER LOW TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x198B, name: 'NEW TAI LUE LETTER LOW TSA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_TSA = "\u{198B}";
 
-    #[Info(id: 6540, name: 'NEW TAI LUE LETTER LOW SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x198C, name: 'NEW TAI LUE LETTER LOW SA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_SA = "\u{198C}";
 
-    #[Info(id: 6541, name: 'NEW TAI LUE LETTER LOW YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x198D, name: 'NEW TAI LUE LETTER LOW YA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_YA = "\u{198D}";
 
-    #[Info(id: 6542, name: 'NEW TAI LUE LETTER HIGH TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x198E, name: 'NEW TAI LUE LETTER HIGH TA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_TA = "\u{198E}";
 
-    #[Info(id: 6543, name: 'NEW TAI LUE LETTER HIGH THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x198F, name: 'NEW TAI LUE LETTER HIGH THA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_THA = "\u{198F}";
 
-    #[Info(id: 6544, name: 'NEW TAI LUE LETTER HIGH NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1990, name: 'NEW TAI LUE LETTER HIGH NA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_NA = "\u{1990}";
 
-    #[Info(id: 6545, name: 'NEW TAI LUE LETTER LOW TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1991, name: 'NEW TAI LUE LETTER LOW TA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_TA = "\u{1991}";
 
-    #[Info(id: 6546, name: 'NEW TAI LUE LETTER LOW THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1992, name: 'NEW TAI LUE LETTER LOW THA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_THA = "\u{1992}";
 
-    #[Info(id: 6547, name: 'NEW TAI LUE LETTER LOW NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1993, name: 'NEW TAI LUE LETTER LOW NA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_NA = "\u{1993}";
 
-    #[Info(id: 6548, name: 'NEW TAI LUE LETTER HIGH PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1994, name: 'NEW TAI LUE LETTER HIGH PA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_PA = "\u{1994}";
 
-    #[Info(id: 6549, name: 'NEW TAI LUE LETTER HIGH PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1995, name: 'NEW TAI LUE LETTER HIGH PHA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_PHA = "\u{1995}";
 
-    #[Info(id: 6550, name: 'NEW TAI LUE LETTER HIGH MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1996, name: 'NEW TAI LUE LETTER HIGH MA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_MA = "\u{1996}";
 
-    #[Info(id: 6551, name: 'NEW TAI LUE LETTER LOW PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1997, name: 'NEW TAI LUE LETTER LOW PA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_PA = "\u{1997}";
 
-    #[Info(id: 6552, name: 'NEW TAI LUE LETTER LOW PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1998, name: 'NEW TAI LUE LETTER LOW PHA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_PHA = "\u{1998}";
 
-    #[Info(id: 6553, name: 'NEW TAI LUE LETTER LOW MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1999, name: 'NEW TAI LUE LETTER LOW MA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_MA = "\u{1999}";
 
-    #[Info(id: 6554, name: 'NEW TAI LUE LETTER HIGH FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x199A, name: 'NEW TAI LUE LETTER HIGH FA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_FA = "\u{199A}";
 
-    #[Info(id: 6555, name: 'NEW TAI LUE LETTER HIGH VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x199B, name: 'NEW TAI LUE LETTER HIGH VA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_VA = "\u{199B}";
 
-    #[Info(id: 6556, name: 'NEW TAI LUE LETTER HIGH LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x199C, name: 'NEW TAI LUE LETTER HIGH LA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_LA = "\u{199C}";
 
-    #[Info(id: 6557, name: 'NEW TAI LUE LETTER LOW FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x199D, name: 'NEW TAI LUE LETTER LOW FA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_FA = "\u{199D}";
 
-    #[Info(id: 6558, name: 'NEW TAI LUE LETTER LOW VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x199E, name: 'NEW TAI LUE LETTER LOW VA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_VA = "\u{199E}";
 
-    #[Info(id: 6559, name: 'NEW TAI LUE LETTER LOW LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x199F, name: 'NEW TAI LUE LETTER LOW LA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_LA = "\u{199F}";
 
-    #[Info(id: 6560, name: 'NEW TAI LUE LETTER HIGH HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19A0, name: 'NEW TAI LUE LETTER HIGH HA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_HA = "\u{19A0}";
 
-    #[Info(id: 6561, name: 'NEW TAI LUE LETTER HIGH DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19A1, name: 'NEW TAI LUE LETTER HIGH DA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_DA = "\u{19A1}";
 
-    #[Info(id: 6562, name: 'NEW TAI LUE LETTER HIGH BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19A2, name: 'NEW TAI LUE LETTER HIGH BA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_BA = "\u{19A2}";
 
-    #[Info(id: 6563, name: 'NEW TAI LUE LETTER LOW HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19A3, name: 'NEW TAI LUE LETTER LOW HA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_HA = "\u{19A3}";
 
-    #[Info(id: 6564, name: 'NEW TAI LUE LETTER LOW DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19A4, name: 'NEW TAI LUE LETTER LOW DA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_DA = "\u{19A4}";
 
-    #[Info(id: 6565, name: 'NEW TAI LUE LETTER LOW BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19A5, name: 'NEW TAI LUE LETTER LOW BA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_BA = "\u{19A5}";
 
-    #[Info(id: 6566, name: 'NEW TAI LUE LETTER HIGH KVA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19A6, name: 'NEW TAI LUE LETTER HIGH KVA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_KVA = "\u{19A6}";
 
-    #[Info(id: 6567, name: 'NEW TAI LUE LETTER HIGH XVA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19A7, name: 'NEW TAI LUE LETTER HIGH XVA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_XVA = "\u{19A7}";
 
-    #[Info(id: 6568, name: 'NEW TAI LUE LETTER LOW KVA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19A8, name: 'NEW TAI LUE LETTER LOW KVA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_KVA = "\u{19A8}";
 
-    #[Info(id: 6569, name: 'NEW TAI LUE LETTER LOW XVA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19A9, name: 'NEW TAI LUE LETTER LOW XVA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_XVA = "\u{19A9}";
 
-    #[Info(id: 6570, name: 'NEW TAI LUE LETTER HIGH SUA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19AA, name: 'NEW TAI LUE LETTER HIGH SUA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_HIGH_SUA = "\u{19AA}";
 
-    #[Info(id: 6571, name: 'NEW TAI LUE LETTER LOW SUA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19AB, name: 'NEW TAI LUE LETTER LOW SUA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_LOW_SUA = "\u{19AB}";
 
-    #[Info(id: 6576, name: 'NEW TAI LUE VOWEL SIGN VOWEL SHORTENER', category: Cat::Other_Letter)]
+    #[Info(id: 0x19B0, name: 'NEW TAI LUE VOWEL SIGN VOWEL SHORTENER', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_VOWEL_SHORTENER = "\u{19B0}";
 
-    #[Info(id: 6577, name: 'NEW TAI LUE VOWEL SIGN AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19B1, name: 'NEW TAI LUE VOWEL SIGN AA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_AA = "\u{19B1}";
 
-    #[Info(id: 6578, name: 'NEW TAI LUE VOWEL SIGN II', category: Cat::Other_Letter)]
+    #[Info(id: 0x19B2, name: 'NEW TAI LUE VOWEL SIGN II', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_II = "\u{19B2}";
 
-    #[Info(id: 6579, name: 'NEW TAI LUE VOWEL SIGN U', category: Cat::Other_Letter)]
+    #[Info(id: 0x19B3, name: 'NEW TAI LUE VOWEL SIGN U', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_U = "\u{19B3}";
 
-    #[Info(id: 6580, name: 'NEW TAI LUE VOWEL SIGN UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x19B4, name: 'NEW TAI LUE VOWEL SIGN UU', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_UU = "\u{19B4}";
 
-    #[Info(id: 6581, name: 'NEW TAI LUE VOWEL SIGN E', category: Cat::Other_Letter)]
+    #[Info(id: 0x19B5, name: 'NEW TAI LUE VOWEL SIGN E', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_E = "\u{19B5}";
 
-    #[Info(id: 6582, name: 'NEW TAI LUE VOWEL SIGN AE', category: Cat::Other_Letter)]
+    #[Info(id: 0x19B6, name: 'NEW TAI LUE VOWEL SIGN AE', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_AE = "\u{19B6}";
 
-    #[Info(id: 6583, name: 'NEW TAI LUE VOWEL SIGN O', category: Cat::Other_Letter)]
+    #[Info(id: 0x19B7, name: 'NEW TAI LUE VOWEL SIGN O', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_O = "\u{19B7}";
 
-    #[Info(id: 6584, name: 'NEW TAI LUE VOWEL SIGN OA', category: Cat::Other_Letter)]
+    #[Info(id: 0x19B8, name: 'NEW TAI LUE VOWEL SIGN OA', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_OA = "\u{19B8}";
 
-    #[Info(id: 6585, name: 'NEW TAI LUE VOWEL SIGN UE', category: Cat::Other_Letter)]
+    #[Info(id: 0x19B9, name: 'NEW TAI LUE VOWEL SIGN UE', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_UE = "\u{19B9}";
 
-    #[Info(id: 6586, name: 'NEW TAI LUE VOWEL SIGN AY', category: Cat::Other_Letter)]
+    #[Info(id: 0x19BA, name: 'NEW TAI LUE VOWEL SIGN AY', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_AY = "\u{19BA}";
 
-    #[Info(id: 6587, name: 'NEW TAI LUE VOWEL SIGN AAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x19BB, name: 'NEW TAI LUE VOWEL SIGN AAY', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_AAY = "\u{19BB}";
 
-    #[Info(id: 6588, name: 'NEW TAI LUE VOWEL SIGN UY', category: Cat::Other_Letter)]
+    #[Info(id: 0x19BC, name: 'NEW TAI LUE VOWEL SIGN UY', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_UY = "\u{19BC}";
 
-    #[Info(id: 6589, name: 'NEW TAI LUE VOWEL SIGN OY', category: Cat::Other_Letter)]
+    #[Info(id: 0x19BD, name: 'NEW TAI LUE VOWEL SIGN OY', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_OY = "\u{19BD}";
 
-    #[Info(id: 6590, name: 'NEW TAI LUE VOWEL SIGN OAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x19BE, name: 'NEW TAI LUE VOWEL SIGN OAY', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_OAY = "\u{19BE}";
 
-    #[Info(id: 6591, name: 'NEW TAI LUE VOWEL SIGN UEY', category: Cat::Other_Letter)]
+    #[Info(id: 0x19BF, name: 'NEW TAI LUE VOWEL SIGN UEY', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_UEY = "\u{19BF}";
 
-    #[Info(id: 6592, name: 'NEW TAI LUE VOWEL SIGN IY', category: Cat::Other_Letter)]
+    #[Info(id: 0x19C0, name: 'NEW TAI LUE VOWEL SIGN IY', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_VOWEL_SIGN_IY = "\u{19C0}";
 
-    #[Info(id: 6593, name: 'NEW TAI LUE LETTER FINAL V', category: Cat::Other_Letter)]
+    #[Info(id: 0x19C1, name: 'NEW TAI LUE LETTER FINAL V', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_FINAL_V = "\u{19C1}";
 
-    #[Info(id: 6594, name: 'NEW TAI LUE LETTER FINAL NG', category: Cat::Other_Letter)]
+    #[Info(id: 0x19C2, name: 'NEW TAI LUE LETTER FINAL NG', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_FINAL_NG = "\u{19C2}";
 
-    #[Info(id: 6595, name: 'NEW TAI LUE LETTER FINAL N', category: Cat::Other_Letter)]
+    #[Info(id: 0x19C3, name: 'NEW TAI LUE LETTER FINAL N', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_FINAL_N = "\u{19C3}";
 
-    #[Info(id: 6596, name: 'NEW TAI LUE LETTER FINAL M', category: Cat::Other_Letter)]
+    #[Info(id: 0x19C4, name: 'NEW TAI LUE LETTER FINAL M', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_FINAL_M = "\u{19C4}";
 
-    #[Info(id: 6597, name: 'NEW TAI LUE LETTER FINAL K', category: Cat::Other_Letter)]
+    #[Info(id: 0x19C5, name: 'NEW TAI LUE LETTER FINAL K', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_FINAL_K = "\u{19C5}";
 
-    #[Info(id: 6598, name: 'NEW TAI LUE LETTER FINAL D', category: Cat::Other_Letter)]
+    #[Info(id: 0x19C6, name: 'NEW TAI LUE LETTER FINAL D', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_FINAL_D = "\u{19C6}";
 
-    #[Info(id: 6599, name: 'NEW TAI LUE LETTER FINAL B', category: Cat::Other_Letter)]
+    #[Info(id: 0x19C7, name: 'NEW TAI LUE LETTER FINAL B', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_LETTER_FINAL_B = "\u{19C7}";
 
-    #[Info(id: 6600, name: 'NEW TAI LUE TONE MARK-1', category: Cat::Other_Letter)]
+    #[Info(id: 0x19C8, name: 'NEW TAI LUE TONE MARK-1', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_TONE_MARK_1 = "\u{19C8}";
 
-    #[Info(id: 6601, name: 'NEW TAI LUE TONE MARK-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x19C9, name: 'NEW TAI LUE TONE MARK-2', category: Cat::Other_Letter)]
     case NEW_TAI_LUE_TONE_MARK_2 = "\u{19C9}";
 
-    #[Info(id: 6608, name: 'NEW TAI LUE DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x19D0, name: 'NEW TAI LUE DIGIT ZERO', category: Cat::Decimal_Number)]
     case NEW_TAI_LUE_DIGIT_ZERO = "\u{19D0}";
 
-    #[Info(id: 6609, name: 'NEW TAI LUE DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x19D1, name: 'NEW TAI LUE DIGIT ONE', category: Cat::Decimal_Number)]
     case NEW_TAI_LUE_DIGIT_ONE = "\u{19D1}";
 
-    #[Info(id: 6610, name: 'NEW TAI LUE DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x19D2, name: 'NEW TAI LUE DIGIT TWO', category: Cat::Decimal_Number)]
     case NEW_TAI_LUE_DIGIT_TWO = "\u{19D2}";
 
-    #[Info(id: 6611, name: 'NEW TAI LUE DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x19D3, name: 'NEW TAI LUE DIGIT THREE', category: Cat::Decimal_Number)]
     case NEW_TAI_LUE_DIGIT_THREE = "\u{19D3}";
 
-    #[Info(id: 6612, name: 'NEW TAI LUE DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x19D4, name: 'NEW TAI LUE DIGIT FOUR', category: Cat::Decimal_Number)]
     case NEW_TAI_LUE_DIGIT_FOUR = "\u{19D4}";
 
-    #[Info(id: 6613, name: 'NEW TAI LUE DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x19D5, name: 'NEW TAI LUE DIGIT FIVE', category: Cat::Decimal_Number)]
     case NEW_TAI_LUE_DIGIT_FIVE = "\u{19D5}";
 
-    #[Info(id: 6614, name: 'NEW TAI LUE DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x19D6, name: 'NEW TAI LUE DIGIT SIX', category: Cat::Decimal_Number)]
     case NEW_TAI_LUE_DIGIT_SIX = "\u{19D6}";
 
-    #[Info(id: 6615, name: 'NEW TAI LUE DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x19D7, name: 'NEW TAI LUE DIGIT SEVEN', category: Cat::Decimal_Number)]
     case NEW_TAI_LUE_DIGIT_SEVEN = "\u{19D7}";
 
-    #[Info(id: 6616, name: 'NEW TAI LUE DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x19D8, name: 'NEW TAI LUE DIGIT EIGHT', category: Cat::Decimal_Number)]
     case NEW_TAI_LUE_DIGIT_EIGHT = "\u{19D8}";
 
-    #[Info(id: 6617, name: 'NEW TAI LUE DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x19D9, name: 'NEW TAI LUE DIGIT NINE', category: Cat::Decimal_Number)]
     case NEW_TAI_LUE_DIGIT_NINE = "\u{19D9}";
 
-    #[Info(id: 6618, name: 'NEW TAI LUE THAM DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x19DA, name: 'NEW TAI LUE THAM DIGIT ONE', category: Cat::Other_Number)]
     case NEW_TAI_LUE_THAM_DIGIT_ONE = "\u{19DA}";
 
-    #[Info(id: 6622, name: 'NEW TAI LUE SIGN LAE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19DE, name: 'NEW TAI LUE SIGN LAE', category: Cat::Other_Symbol)]
     case NEW_TAI_LUE_SIGN_LAE = "\u{19DE}";
 
-    #[Info(id: 6623, name: 'NEW TAI LUE SIGN LAEV', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19DF, name: 'NEW TAI LUE SIGN LAEV', category: Cat::Other_Symbol)]
     case NEW_TAI_LUE_SIGN_LAEV = "\u{19DF}";
 }

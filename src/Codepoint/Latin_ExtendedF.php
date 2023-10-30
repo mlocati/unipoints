@@ -16,174 +16,174 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Latin_ExtendedF: string
 {
-    #[Info(id: 67456, name: 'MODIFIER LETTER SMALL CAPITAL AA', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10780, name: 'MODIFIER LETTER SMALL CAPITAL AA', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_CAPITAL_AA = "\u{10780}";
 
-    #[Info(id: 67457, name: 'MODIFIER LETTER SUPERSCRIPT TRIANGULAR COLON', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10781, name: 'MODIFIER LETTER SUPERSCRIPT TRIANGULAR COLON', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SUPERSCRIPT_TRIANGULAR_COLON = "\u{10781}";
 
-    #[Info(id: 67458, name: 'MODIFIER LETTER SUPERSCRIPT HALF TRIANGULAR COLON', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10782, name: 'MODIFIER LETTER SUPERSCRIPT HALF TRIANGULAR COLON', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SUPERSCRIPT_HALF_TRIANGULAR_COLON = "\u{10782}";
 
-    #[Info(id: 67459, name: 'MODIFIER LETTER SMALL AE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10783, name: 'MODIFIER LETTER SMALL AE', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_AE = "\u{10783}";
 
-    #[Info(id: 67460, name: 'MODIFIER LETTER SMALL CAPITAL B', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10784, name: 'MODIFIER LETTER SMALL CAPITAL B', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_CAPITAL_B = "\u{10784}";
 
-    #[Info(id: 67461, name: 'MODIFIER LETTER SMALL B WITH HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10785, name: 'MODIFIER LETTER SMALL B WITH HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_B_WITH_HOOK = "\u{10785}";
 
-    #[Info(id: 67463, name: 'MODIFIER LETTER SMALL DZ DIGRAPH', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10787, name: 'MODIFIER LETTER SMALL DZ DIGRAPH', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_DZ_DIGRAPH = "\u{10787}";
 
-    #[Info(id: 67464, name: 'MODIFIER LETTER SMALL DZ DIGRAPH WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10788, name: 'MODIFIER LETTER SMALL DZ DIGRAPH WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_DZ_DIGRAPH_WITH_RETROFLEX_HOOK = "\u{10788}";
 
-    #[Info(id: 67465, name: 'MODIFIER LETTER SMALL DZ DIGRAPH WITH CURL', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10789, name: 'MODIFIER LETTER SMALL DZ DIGRAPH WITH CURL', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_DZ_DIGRAPH_WITH_CURL = "\u{10789}";
 
-    #[Info(id: 67466, name: 'MODIFIER LETTER SMALL DEZH DIGRAPH', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1078A, name: 'MODIFIER LETTER SMALL DEZH DIGRAPH', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_DEZH_DIGRAPH = "\u{1078A}";
 
-    #[Info(id: 67467, name: 'MODIFIER LETTER SMALL D WITH TAIL', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1078B, name: 'MODIFIER LETTER SMALL D WITH TAIL', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_D_WITH_TAIL = "\u{1078B}";
 
-    #[Info(id: 67468, name: 'MODIFIER LETTER SMALL D WITH HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1078C, name: 'MODIFIER LETTER SMALL D WITH HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_D_WITH_HOOK = "\u{1078C}";
 
-    #[Info(id: 67469, name: 'MODIFIER LETTER SMALL D WITH HOOK AND TAIL', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1078D, name: 'MODIFIER LETTER SMALL D WITH HOOK AND TAIL', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_D_WITH_HOOK_AND_TAIL = "\u{1078D}";
 
-    #[Info(id: 67470, name: 'MODIFIER LETTER SMALL REVERSED E', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1078E, name: 'MODIFIER LETTER SMALL REVERSED E', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_REVERSED_E = "\u{1078E}";
 
-    #[Info(id: 67471, name: 'MODIFIER LETTER SMALL CLOSED REVERSED OPEN E', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1078F, name: 'MODIFIER LETTER SMALL CLOSED REVERSED OPEN E', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_CLOSED_REVERSED_OPEN_E = "\u{1078F}";
 
-    #[Info(id: 67472, name: 'MODIFIER LETTER SMALL FENG DIGRAPH', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10790, name: 'MODIFIER LETTER SMALL FENG DIGRAPH', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_FENG_DIGRAPH = "\u{10790}";
 
-    #[Info(id: 67473, name: 'MODIFIER LETTER SMALL RAMS HORN', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10791, name: 'MODIFIER LETTER SMALL RAMS HORN', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_RAMS_HORN = "\u{10791}";
 
-    #[Info(id: 67474, name: 'MODIFIER LETTER SMALL CAPITAL G', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10792, name: 'MODIFIER LETTER SMALL CAPITAL G', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_CAPITAL_G = "\u{10792}";
 
-    #[Info(id: 67475, name: 'MODIFIER LETTER SMALL G WITH HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10793, name: 'MODIFIER LETTER SMALL G WITH HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_G_WITH_HOOK = "\u{10793}";
 
-    #[Info(id: 67476, name: 'MODIFIER LETTER SMALL CAPITAL G WITH HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10794, name: 'MODIFIER LETTER SMALL CAPITAL G WITH HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_CAPITAL_G_WITH_HOOK = "\u{10794}";
 
-    #[Info(id: 67477, name: 'MODIFIER LETTER SMALL H WITH STROKE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10795, name: 'MODIFIER LETTER SMALL H WITH STROKE', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_H_WITH_STROKE = "\u{10795}";
 
-    #[Info(id: 67478, name: 'MODIFIER LETTER SMALL CAPITAL H', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10796, name: 'MODIFIER LETTER SMALL CAPITAL H', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_CAPITAL_H = "\u{10796}";
 
-    #[Info(id: 67479, name: 'MODIFIER LETTER SMALL HENG WITH HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10797, name: 'MODIFIER LETTER SMALL HENG WITH HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_HENG_WITH_HOOK = "\u{10797}";
 
-    #[Info(id: 67480, name: 'MODIFIER LETTER SMALL DOTLESS J WITH STROKE AND HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10798, name: 'MODIFIER LETTER SMALL DOTLESS J WITH STROKE AND HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_DOTLESS_J_WITH_STROKE_AND_HOOK = "\u{10798}";
 
-    #[Info(id: 67481, name: 'MODIFIER LETTER SMALL LS DIGRAPH', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10799, name: 'MODIFIER LETTER SMALL LS DIGRAPH', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_LS_DIGRAPH = "\u{10799}";
 
-    #[Info(id: 67482, name: 'MODIFIER LETTER SMALL LZ DIGRAPH', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1079A, name: 'MODIFIER LETTER SMALL LZ DIGRAPH', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_LZ_DIGRAPH = "\u{1079A}";
 
-    #[Info(id: 67483, name: 'MODIFIER LETTER SMALL L WITH BELT', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1079B, name: 'MODIFIER LETTER SMALL L WITH BELT', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_L_WITH_BELT = "\u{1079B}";
 
-    #[Info(id: 67484, name: 'MODIFIER LETTER SMALL CAPITAL L WITH BELT', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1079C, name: 'MODIFIER LETTER SMALL CAPITAL L WITH BELT', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_CAPITAL_L_WITH_BELT = "\u{1079C}";
 
-    #[Info(id: 67485, name: 'MODIFIER LETTER SMALL L WITH RETROFLEX HOOK AND BELT', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1079D, name: 'MODIFIER LETTER SMALL L WITH RETROFLEX HOOK AND BELT', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_L_WITH_RETROFLEX_HOOK_AND_BELT = "\u{1079D}";
 
-    #[Info(id: 67486, name: 'MODIFIER LETTER SMALL LEZH', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1079E, name: 'MODIFIER LETTER SMALL LEZH', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_LEZH = "\u{1079E}";
 
-    #[Info(id: 67487, name: 'MODIFIER LETTER SMALL LEZH WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1079F, name: 'MODIFIER LETTER SMALL LEZH WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_LEZH_WITH_RETROFLEX_HOOK = "\u{1079F}";
 
-    #[Info(id: 67488, name: 'MODIFIER LETTER SMALL TURNED Y', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107A0, name: 'MODIFIER LETTER SMALL TURNED Y', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_TURNED_Y = "\u{107A0}";
 
-    #[Info(id: 67489, name: 'MODIFIER LETTER SMALL TURNED Y WITH BELT', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107A1, name: 'MODIFIER LETTER SMALL TURNED Y WITH BELT', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_TURNED_Y_WITH_BELT = "\u{107A1}";
 
-    #[Info(id: 67490, name: 'MODIFIER LETTER SMALL O WITH STROKE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107A2, name: 'MODIFIER LETTER SMALL O WITH STROKE', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_O_WITH_STROKE = "\u{107A2}";
 
-    #[Info(id: 67491, name: 'MODIFIER LETTER SMALL CAPITAL OE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107A3, name: 'MODIFIER LETTER SMALL CAPITAL OE', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_CAPITAL_OE = "\u{107A3}";
 
-    #[Info(id: 67492, name: 'MODIFIER LETTER SMALL CLOSED OMEGA', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107A4, name: 'MODIFIER LETTER SMALL CLOSED OMEGA', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_CLOSED_OMEGA = "\u{107A4}";
 
-    #[Info(id: 67493, name: 'MODIFIER LETTER SMALL Q', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107A5, name: 'MODIFIER LETTER SMALL Q', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_Q = "\u{107A5}";
 
-    #[Info(id: 67494, name: 'MODIFIER LETTER SMALL TURNED R WITH LONG LEG', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107A6, name: 'MODIFIER LETTER SMALL TURNED R WITH LONG LEG', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_TURNED_R_WITH_LONG_LEG = "\u{107A6}";
 
-    #[Info(id: 67495, name: 'MODIFIER LETTER SMALL TURNED R WITH LONG LEG AND RETROFLEX HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107A7, name: 'MODIFIER LETTER SMALL TURNED R WITH LONG LEG AND RETROFLEX HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_TURNED_R_WITH_LONG_LEG_AND_RETROFLEX_HOOK = "\u{107A7}";
 
-    #[Info(id: 67496, name: 'MODIFIER LETTER SMALL R WITH TAIL', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107A8, name: 'MODIFIER LETTER SMALL R WITH TAIL', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_R_WITH_TAIL = "\u{107A8}";
 
-    #[Info(id: 67497, name: 'MODIFIER LETTER SMALL R WITH FISHHOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107A9, name: 'MODIFIER LETTER SMALL R WITH FISHHOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_R_WITH_FISHHOOK = "\u{107A9}";
 
-    #[Info(id: 67498, name: 'MODIFIER LETTER SMALL CAPITAL R', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107AA, name: 'MODIFIER LETTER SMALL CAPITAL R', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_CAPITAL_R = "\u{107AA}";
 
-    #[Info(id: 67499, name: 'MODIFIER LETTER SMALL TC DIGRAPH WITH CURL', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107AB, name: 'MODIFIER LETTER SMALL TC DIGRAPH WITH CURL', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_TC_DIGRAPH_WITH_CURL = "\u{107AB}";
 
-    #[Info(id: 67500, name: 'MODIFIER LETTER SMALL TS DIGRAPH', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107AC, name: 'MODIFIER LETTER SMALL TS DIGRAPH', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_TS_DIGRAPH = "\u{107AC}";
 
-    #[Info(id: 67501, name: 'MODIFIER LETTER SMALL TS DIGRAPH WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107AD, name: 'MODIFIER LETTER SMALL TS DIGRAPH WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_TS_DIGRAPH_WITH_RETROFLEX_HOOK = "\u{107AD}";
 
-    #[Info(id: 67502, name: 'MODIFIER LETTER SMALL TESH DIGRAPH', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107AE, name: 'MODIFIER LETTER SMALL TESH DIGRAPH', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_TESH_DIGRAPH = "\u{107AE}";
 
-    #[Info(id: 67503, name: 'MODIFIER LETTER SMALL T WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107AF, name: 'MODIFIER LETTER SMALL T WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_T_WITH_RETROFLEX_HOOK = "\u{107AF}";
 
-    #[Info(id: 67504, name: 'MODIFIER LETTER SMALL V WITH RIGHT HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107B0, name: 'MODIFIER LETTER SMALL V WITH RIGHT HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_V_WITH_RIGHT_HOOK = "\u{107B0}";
 
-    #[Info(id: 67506, name: 'MODIFIER LETTER SMALL CAPITAL Y', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107B2, name: 'MODIFIER LETTER SMALL CAPITAL Y', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_CAPITAL_Y = "\u{107B2}";
 
-    #[Info(id: 67507, name: 'MODIFIER LETTER GLOTTAL STOP WITH STROKE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107B3, name: 'MODIFIER LETTER GLOTTAL STOP WITH STROKE', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_GLOTTAL_STOP_WITH_STROKE = "\u{107B3}";
 
-    #[Info(id: 67508, name: 'MODIFIER LETTER REVERSED GLOTTAL STOP WITH STROKE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107B4, name: 'MODIFIER LETTER REVERSED GLOTTAL STOP WITH STROKE', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_REVERSED_GLOTTAL_STOP_WITH_STROKE = "\u{107B4}";
 
-    #[Info(id: 67509, name: 'MODIFIER LETTER BILABIAL CLICK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107B5, name: 'MODIFIER LETTER BILABIAL CLICK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_BILABIAL_CLICK = "\u{107B5}";
 
-    #[Info(id: 67510, name: 'MODIFIER LETTER DENTAL CLICK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107B6, name: 'MODIFIER LETTER DENTAL CLICK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_DENTAL_CLICK = "\u{107B6}";
 
-    #[Info(id: 67511, name: 'MODIFIER LETTER LATERAL CLICK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107B7, name: 'MODIFIER LETTER LATERAL CLICK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_LATERAL_CLICK = "\u{107B7}";
 
-    #[Info(id: 67512, name: 'MODIFIER LETTER ALVEOLAR CLICK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107B8, name: 'MODIFIER LETTER ALVEOLAR CLICK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_ALVEOLAR_CLICK = "\u{107B8}";
 
-    #[Info(id: 67513, name: 'MODIFIER LETTER RETROFLEX CLICK WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107B9, name: 'MODIFIER LETTER RETROFLEX CLICK WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_RETROFLEX_CLICK_WITH_RETROFLEX_HOOK = "\u{107B9}";
 
-    #[Info(id: 67514, name: 'MODIFIER LETTER SMALL S WITH CURL', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x107BA, name: 'MODIFIER LETTER SMALL S WITH CURL', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_S_WITH_CURL = "\u{107BA}";
 }

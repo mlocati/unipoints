@@ -16,297 +16,297 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Chess_Symbols: string
 {
-    #[Info(id: 129536, name: 'NEUTRAL CHESS KING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA00, name: 'NEUTRAL CHESS KING', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_KING = "\u{1FA00}";
 
-    #[Info(id: 129537, name: 'NEUTRAL CHESS QUEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA01, name: 'NEUTRAL CHESS QUEEN', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_QUEEN = "\u{1FA01}";
 
-    #[Info(id: 129538, name: 'NEUTRAL CHESS ROOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA02, name: 'NEUTRAL CHESS ROOK', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_ROOK = "\u{1FA02}";
 
-    #[Info(id: 129539, name: 'NEUTRAL CHESS BISHOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA03, name: 'NEUTRAL CHESS BISHOP', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_BISHOP = "\u{1FA03}";
 
-    #[Info(id: 129540, name: 'NEUTRAL CHESS KNIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA04, name: 'NEUTRAL CHESS KNIGHT', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_KNIGHT = "\u{1FA04}";
 
-    #[Info(id: 129541, name: 'NEUTRAL CHESS PAWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA05, name: 'NEUTRAL CHESS PAWN', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_PAWN = "\u{1FA05}";
 
-    #[Info(id: 129542, name: 'WHITE CHESS KNIGHT ROTATED FORTY-FIVE DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA06, name: 'WHITE CHESS KNIGHT ROTATED FORTY-FIVE DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_KNIGHT_ROTATED_FORTY_FIVE_DEGREES = "\u{1FA06}";
 
-    #[Info(id: 129543, name: 'BLACK CHESS KNIGHT ROTATED FORTY-FIVE DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA07, name: 'BLACK CHESS KNIGHT ROTATED FORTY-FIVE DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KNIGHT_ROTATED_FORTY_FIVE_DEGREES = "\u{1FA07}";
 
-    #[Info(id: 129544, name: 'NEUTRAL CHESS KNIGHT ROTATED FORTY-FIVE DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA08, name: 'NEUTRAL CHESS KNIGHT ROTATED FORTY-FIVE DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_KNIGHT_ROTATED_FORTY_FIVE_DEGREES = "\u{1FA08}";
 
-    #[Info(id: 129545, name: 'WHITE CHESS KING ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA09, name: 'WHITE CHESS KING ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_KING_ROTATED_NINETY_DEGREES = "\u{1FA09}";
 
-    #[Info(id: 129546, name: 'WHITE CHESS QUEEN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA0A, name: 'WHITE CHESS QUEEN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_QUEEN_ROTATED_NINETY_DEGREES = "\u{1FA0A}";
 
-    #[Info(id: 129547, name: 'WHITE CHESS ROOK ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA0B, name: 'WHITE CHESS ROOK ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_ROOK_ROTATED_NINETY_DEGREES = "\u{1FA0B}";
 
-    #[Info(id: 129548, name: 'WHITE CHESS BISHOP ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA0C, name: 'WHITE CHESS BISHOP ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_BISHOP_ROTATED_NINETY_DEGREES = "\u{1FA0C}";
 
-    #[Info(id: 129549, name: 'WHITE CHESS KNIGHT ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA0D, name: 'WHITE CHESS KNIGHT ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_KNIGHT_ROTATED_NINETY_DEGREES = "\u{1FA0D}";
 
-    #[Info(id: 129550, name: 'WHITE CHESS PAWN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA0E, name: 'WHITE CHESS PAWN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_PAWN_ROTATED_NINETY_DEGREES = "\u{1FA0E}";
 
-    #[Info(id: 129551, name: 'BLACK CHESS KING ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA0F, name: 'BLACK CHESS KING ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KING_ROTATED_NINETY_DEGREES = "\u{1FA0F}";
 
-    #[Info(id: 129552, name: 'BLACK CHESS QUEEN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA10, name: 'BLACK CHESS QUEEN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_QUEEN_ROTATED_NINETY_DEGREES = "\u{1FA10}";
 
-    #[Info(id: 129553, name: 'BLACK CHESS ROOK ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA11, name: 'BLACK CHESS ROOK ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_ROOK_ROTATED_NINETY_DEGREES = "\u{1FA11}";
 
-    #[Info(id: 129554, name: 'BLACK CHESS BISHOP ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA12, name: 'BLACK CHESS BISHOP ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_BISHOP_ROTATED_NINETY_DEGREES = "\u{1FA12}";
 
-    #[Info(id: 129555, name: 'BLACK CHESS KNIGHT ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA13, name: 'BLACK CHESS KNIGHT ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KNIGHT_ROTATED_NINETY_DEGREES = "\u{1FA13}";
 
-    #[Info(id: 129556, name: 'BLACK CHESS PAWN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA14, name: 'BLACK CHESS PAWN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_PAWN_ROTATED_NINETY_DEGREES = "\u{1FA14}";
 
-    #[Info(id: 129557, name: 'NEUTRAL CHESS KING ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA15, name: 'NEUTRAL CHESS KING ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_KING_ROTATED_NINETY_DEGREES = "\u{1FA15}";
 
-    #[Info(id: 129558, name: 'NEUTRAL CHESS QUEEN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA16, name: 'NEUTRAL CHESS QUEEN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_QUEEN_ROTATED_NINETY_DEGREES = "\u{1FA16}";
 
-    #[Info(id: 129559, name: 'NEUTRAL CHESS ROOK ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA17, name: 'NEUTRAL CHESS ROOK ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_ROOK_ROTATED_NINETY_DEGREES = "\u{1FA17}";
 
-    #[Info(id: 129560, name: 'NEUTRAL CHESS BISHOP ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA18, name: 'NEUTRAL CHESS BISHOP ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_BISHOP_ROTATED_NINETY_DEGREES = "\u{1FA18}";
 
-    #[Info(id: 129561, name: 'NEUTRAL CHESS KNIGHT ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA19, name: 'NEUTRAL CHESS KNIGHT ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_KNIGHT_ROTATED_NINETY_DEGREES = "\u{1FA19}";
 
-    #[Info(id: 129562, name: 'NEUTRAL CHESS PAWN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA1A, name: 'NEUTRAL CHESS PAWN ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_PAWN_ROTATED_NINETY_DEGREES = "\u{1FA1A}";
 
-    #[Info(id: 129563, name: 'WHITE CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA1B, name: 'WHITE CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_KNIGHT_ROTATED_ONE_HUNDRED_THIRTY_FIVE_DEGREES = "\u{1FA1B}";
 
-    #[Info(id: 129564, name: 'BLACK CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA1C, name: 'BLACK CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KNIGHT_ROTATED_ONE_HUNDRED_THIRTY_FIVE_DEGREES = "\u{1FA1C}";
 
-    #[Info(id: 129565, name: 'NEUTRAL CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA1D, name: 'NEUTRAL CHESS KNIGHT ROTATED ONE HUNDRED THIRTY-FIVE DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_KNIGHT_ROTATED_ONE_HUNDRED_THIRTY_FIVE_DEGREES = "\u{1FA1D}";
 
-    #[Info(id: 129566, name: 'WHITE CHESS TURNED KING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA1E, name: 'WHITE CHESS TURNED KING', category: Cat::Other_Symbol)]
     case WHITE_CHESS_TURNED_KING = "\u{1FA1E}";
 
-    #[Info(id: 129567, name: 'WHITE CHESS TURNED QUEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA1F, name: 'WHITE CHESS TURNED QUEEN', category: Cat::Other_Symbol)]
     case WHITE_CHESS_TURNED_QUEEN = "\u{1FA1F}";
 
-    #[Info(id: 129568, name: 'WHITE CHESS TURNED ROOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA20, name: 'WHITE CHESS TURNED ROOK', category: Cat::Other_Symbol)]
     case WHITE_CHESS_TURNED_ROOK = "\u{1FA20}";
 
-    #[Info(id: 129569, name: 'WHITE CHESS TURNED BISHOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA21, name: 'WHITE CHESS TURNED BISHOP', category: Cat::Other_Symbol)]
     case WHITE_CHESS_TURNED_BISHOP = "\u{1FA21}";
 
-    #[Info(id: 129570, name: 'WHITE CHESS TURNED KNIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA22, name: 'WHITE CHESS TURNED KNIGHT', category: Cat::Other_Symbol)]
     case WHITE_CHESS_TURNED_KNIGHT = "\u{1FA22}";
 
-    #[Info(id: 129571, name: 'WHITE CHESS TURNED PAWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA23, name: 'WHITE CHESS TURNED PAWN', category: Cat::Other_Symbol)]
     case WHITE_CHESS_TURNED_PAWN = "\u{1FA23}";
 
-    #[Info(id: 129572, name: 'BLACK CHESS TURNED KING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA24, name: 'BLACK CHESS TURNED KING', category: Cat::Other_Symbol)]
     case BLACK_CHESS_TURNED_KING = "\u{1FA24}";
 
-    #[Info(id: 129573, name: 'BLACK CHESS TURNED QUEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA25, name: 'BLACK CHESS TURNED QUEEN', category: Cat::Other_Symbol)]
     case BLACK_CHESS_TURNED_QUEEN = "\u{1FA25}";
 
-    #[Info(id: 129574, name: 'BLACK CHESS TURNED ROOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA26, name: 'BLACK CHESS TURNED ROOK', category: Cat::Other_Symbol)]
     case BLACK_CHESS_TURNED_ROOK = "\u{1FA26}";
 
-    #[Info(id: 129575, name: 'BLACK CHESS TURNED BISHOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA27, name: 'BLACK CHESS TURNED BISHOP', category: Cat::Other_Symbol)]
     case BLACK_CHESS_TURNED_BISHOP = "\u{1FA27}";
 
-    #[Info(id: 129576, name: 'BLACK CHESS TURNED KNIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA28, name: 'BLACK CHESS TURNED KNIGHT', category: Cat::Other_Symbol)]
     case BLACK_CHESS_TURNED_KNIGHT = "\u{1FA28}";
 
-    #[Info(id: 129577, name: 'BLACK CHESS TURNED PAWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA29, name: 'BLACK CHESS TURNED PAWN', category: Cat::Other_Symbol)]
     case BLACK_CHESS_TURNED_PAWN = "\u{1FA29}";
 
-    #[Info(id: 129578, name: 'NEUTRAL CHESS TURNED KING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA2A, name: 'NEUTRAL CHESS TURNED KING', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_TURNED_KING = "\u{1FA2A}";
 
-    #[Info(id: 129579, name: 'NEUTRAL CHESS TURNED QUEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA2B, name: 'NEUTRAL CHESS TURNED QUEEN', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_TURNED_QUEEN = "\u{1FA2B}";
 
-    #[Info(id: 129580, name: 'NEUTRAL CHESS TURNED ROOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA2C, name: 'NEUTRAL CHESS TURNED ROOK', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_TURNED_ROOK = "\u{1FA2C}";
 
-    #[Info(id: 129581, name: 'NEUTRAL CHESS TURNED BISHOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA2D, name: 'NEUTRAL CHESS TURNED BISHOP', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_TURNED_BISHOP = "\u{1FA2D}";
 
-    #[Info(id: 129582, name: 'NEUTRAL CHESS TURNED KNIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA2E, name: 'NEUTRAL CHESS TURNED KNIGHT', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_TURNED_KNIGHT = "\u{1FA2E}";
 
-    #[Info(id: 129583, name: 'NEUTRAL CHESS TURNED PAWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA2F, name: 'NEUTRAL CHESS TURNED PAWN', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_TURNED_PAWN = "\u{1FA2F}";
 
-    #[Info(id: 129584, name: 'WHITE CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA30, name: 'WHITE CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_KNIGHT_ROTATED_TWO_HUNDRED_TWENTY_FIVE_DEGREES = "\u{1FA30}";
 
-    #[Info(id: 129585, name: 'BLACK CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA31, name: 'BLACK CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KNIGHT_ROTATED_TWO_HUNDRED_TWENTY_FIVE_DEGREES = "\u{1FA31}";
 
-    #[Info(id: 129586, name: 'NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA32, name: 'NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED TWENTY-FIVE DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_KNIGHT_ROTATED_TWO_HUNDRED_TWENTY_FIVE_DEGREES = "\u{1FA32}";
 
-    #[Info(id: 129587, name: 'WHITE CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA33, name: 'WHITE CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_KING_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA33}";
 
-    #[Info(id: 129588, name: 'WHITE CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA34, name: 'WHITE CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_QUEEN_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA34}";
 
-    #[Info(id: 129589, name: 'WHITE CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA35, name: 'WHITE CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_ROOK_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA35}";
 
-    #[Info(id: 129590, name: 'WHITE CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA36, name: 'WHITE CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_BISHOP_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA36}";
 
-    #[Info(id: 129591, name: 'WHITE CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA37, name: 'WHITE CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_KNIGHT_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA37}";
 
-    #[Info(id: 129592, name: 'WHITE CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA38, name: 'WHITE CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_PAWN_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA38}";
 
-    #[Info(id: 129593, name: 'BLACK CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA39, name: 'BLACK CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KING_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA39}";
 
-    #[Info(id: 129594, name: 'BLACK CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA3A, name: 'BLACK CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_QUEEN_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA3A}";
 
-    #[Info(id: 129595, name: 'BLACK CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA3B, name: 'BLACK CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_ROOK_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA3B}";
 
-    #[Info(id: 129596, name: 'BLACK CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA3C, name: 'BLACK CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_BISHOP_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA3C}";
 
-    #[Info(id: 129597, name: 'BLACK CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA3D, name: 'BLACK CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KNIGHT_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA3D}";
 
-    #[Info(id: 129598, name: 'BLACK CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA3E, name: 'BLACK CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_PAWN_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA3E}";
 
-    #[Info(id: 129599, name: 'NEUTRAL CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA3F, name: 'NEUTRAL CHESS KING ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_KING_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA3F}";
 
-    #[Info(id: 129600, name: 'NEUTRAL CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA40, name: 'NEUTRAL CHESS QUEEN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_QUEEN_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA40}";
 
-    #[Info(id: 129601, name: 'NEUTRAL CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA41, name: 'NEUTRAL CHESS ROOK ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_ROOK_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA41}";
 
-    #[Info(id: 129602, name: 'NEUTRAL CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA42, name: 'NEUTRAL CHESS BISHOP ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_BISHOP_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA42}";
 
-    #[Info(id: 129603, name: 'NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA43, name: 'NEUTRAL CHESS KNIGHT ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_KNIGHT_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA43}";
 
-    #[Info(id: 129604, name: 'NEUTRAL CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA44, name: 'NEUTRAL CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_PAWN_ROTATED_TWO_HUNDRED_SEVENTY_DEGREES = "\u{1FA44}";
 
-    #[Info(id: 129605, name: 'WHITE CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA45, name: 'WHITE CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_KNIGHT_ROTATED_THREE_HUNDRED_FIFTEEN_DEGREES = "\u{1FA45}";
 
-    #[Info(id: 129606, name: 'BLACK CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA46, name: 'BLACK CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KNIGHT_ROTATED_THREE_HUNDRED_FIFTEEN_DEGREES = "\u{1FA46}";
 
-    #[Info(id: 129607, name: 'NEUTRAL CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA47, name: 'NEUTRAL CHESS KNIGHT ROTATED THREE HUNDRED FIFTEEN DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_KNIGHT_ROTATED_THREE_HUNDRED_FIFTEEN_DEGREES = "\u{1FA47}";
 
-    #[Info(id: 129608, name: 'WHITE CHESS EQUIHOPPER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA48, name: 'WHITE CHESS EQUIHOPPER', category: Cat::Other_Symbol)]
     case WHITE_CHESS_EQUIHOPPER = "\u{1FA48}";
 
-    #[Info(id: 129609, name: 'BLACK CHESS EQUIHOPPER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA49, name: 'BLACK CHESS EQUIHOPPER', category: Cat::Other_Symbol)]
     case BLACK_CHESS_EQUIHOPPER = "\u{1FA49}";
 
-    #[Info(id: 129610, name: 'NEUTRAL CHESS EQUIHOPPER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA4A, name: 'NEUTRAL CHESS EQUIHOPPER', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_EQUIHOPPER = "\u{1FA4A}";
 
-    #[Info(id: 129611, name: 'WHITE CHESS EQUIHOPPER ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA4B, name: 'WHITE CHESS EQUIHOPPER ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case WHITE_CHESS_EQUIHOPPER_ROTATED_NINETY_DEGREES = "\u{1FA4B}";
 
-    #[Info(id: 129612, name: 'BLACK CHESS EQUIHOPPER ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA4C, name: 'BLACK CHESS EQUIHOPPER ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case BLACK_CHESS_EQUIHOPPER_ROTATED_NINETY_DEGREES = "\u{1FA4C}";
 
-    #[Info(id: 129613, name: 'NEUTRAL CHESS EQUIHOPPER ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA4D, name: 'NEUTRAL CHESS EQUIHOPPER ROTATED NINETY DEGREES', category: Cat::Other_Symbol)]
     case NEUTRAL_CHESS_EQUIHOPPER_ROTATED_NINETY_DEGREES = "\u{1FA4D}";
 
-    #[Info(id: 129614, name: 'WHITE CHESS KNIGHT-QUEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA4E, name: 'WHITE CHESS KNIGHT-QUEEN', category: Cat::Other_Symbol)]
     case WHITE_CHESS_KNIGHT_QUEEN = "\u{1FA4E}";
 
-    #[Info(id: 129615, name: 'WHITE CHESS KNIGHT-ROOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA4F, name: 'WHITE CHESS KNIGHT-ROOK', category: Cat::Other_Symbol)]
     case WHITE_CHESS_KNIGHT_ROOK = "\u{1FA4F}";
 
-    #[Info(id: 129616, name: 'WHITE CHESS KNIGHT-BISHOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA50, name: 'WHITE CHESS KNIGHT-BISHOP', category: Cat::Other_Symbol)]
     case WHITE_CHESS_KNIGHT_BISHOP = "\u{1FA50}";
 
-    #[Info(id: 129617, name: 'BLACK CHESS KNIGHT-QUEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA51, name: 'BLACK CHESS KNIGHT-QUEEN', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KNIGHT_QUEEN = "\u{1FA51}";
 
-    #[Info(id: 129618, name: 'BLACK CHESS KNIGHT-ROOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA52, name: 'BLACK CHESS KNIGHT-ROOK', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KNIGHT_ROOK = "\u{1FA52}";
 
-    #[Info(id: 129619, name: 'BLACK CHESS KNIGHT-BISHOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA53, name: 'BLACK CHESS KNIGHT-BISHOP', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KNIGHT_BISHOP = "\u{1FA53}";
 
-    #[Info(id: 129632, name: 'XIANGQI RED GENERAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA60, name: 'XIANGQI RED GENERAL', category: Cat::Other_Symbol)]
     case XIANGQI_RED_GENERAL = "\u{1FA60}";
 
-    #[Info(id: 129633, name: 'XIANGQI RED MANDARIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA61, name: 'XIANGQI RED MANDARIN', category: Cat::Other_Symbol)]
     case XIANGQI_RED_MANDARIN = "\u{1FA61}";
 
-    #[Info(id: 129634, name: 'XIANGQI RED ELEPHANT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA62, name: 'XIANGQI RED ELEPHANT', category: Cat::Other_Symbol)]
     case XIANGQI_RED_ELEPHANT = "\u{1FA62}";
 
-    #[Info(id: 129635, name: 'XIANGQI RED HORSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA63, name: 'XIANGQI RED HORSE', category: Cat::Other_Symbol)]
     case XIANGQI_RED_HORSE = "\u{1FA63}";
 
-    #[Info(id: 129636, name: 'XIANGQI RED CHARIOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA64, name: 'XIANGQI RED CHARIOT', category: Cat::Other_Symbol)]
     case XIANGQI_RED_CHARIOT = "\u{1FA64}";
 
-    #[Info(id: 129637, name: 'XIANGQI RED CANNON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA65, name: 'XIANGQI RED CANNON', category: Cat::Other_Symbol)]
     case XIANGQI_RED_CANNON = "\u{1FA65}";
 
-    #[Info(id: 129638, name: 'XIANGQI RED SOLDIER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA66, name: 'XIANGQI RED SOLDIER', category: Cat::Other_Symbol)]
     case XIANGQI_RED_SOLDIER = "\u{1FA66}";
 
-    #[Info(id: 129639, name: 'XIANGQI BLACK GENERAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA67, name: 'XIANGQI BLACK GENERAL', category: Cat::Other_Symbol)]
     case XIANGQI_BLACK_GENERAL = "\u{1FA67}";
 
-    #[Info(id: 129640, name: 'XIANGQI BLACK MANDARIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA68, name: 'XIANGQI BLACK MANDARIN', category: Cat::Other_Symbol)]
     case XIANGQI_BLACK_MANDARIN = "\u{1FA68}";
 
-    #[Info(id: 129641, name: 'XIANGQI BLACK ELEPHANT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA69, name: 'XIANGQI BLACK ELEPHANT', category: Cat::Other_Symbol)]
     case XIANGQI_BLACK_ELEPHANT = "\u{1FA69}";
 
-    #[Info(id: 129642, name: 'XIANGQI BLACK HORSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA6A, name: 'XIANGQI BLACK HORSE', category: Cat::Other_Symbol)]
     case XIANGQI_BLACK_HORSE = "\u{1FA6A}";
 
-    #[Info(id: 129643, name: 'XIANGQI BLACK CHARIOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA6B, name: 'XIANGQI BLACK CHARIOT', category: Cat::Other_Symbol)]
     case XIANGQI_BLACK_CHARIOT = "\u{1FA6B}";
 
-    #[Info(id: 129644, name: 'XIANGQI BLACK CANNON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA6C, name: 'XIANGQI BLACK CANNON', category: Cat::Other_Symbol)]
     case XIANGQI_BLACK_CANNON = "\u{1FA6C}";
 
-    #[Info(id: 129645, name: 'XIANGQI BLACK SOLDIER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FA6D, name: 'XIANGQI BLACK SOLDIER', category: Cat::Other_Symbol)]
     case XIANGQI_BLACK_SOLDIER = "\u{1FA6D}";
 }

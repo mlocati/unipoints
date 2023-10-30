@@ -16,579 +16,579 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Dingbats: string
 {
-    #[Info(id: 9984, name: 'BLACK SAFETY SCISSORS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2700, name: 'BLACK SAFETY SCISSORS', category: Cat::Other_Symbol)]
     case BLACK_SAFETY_SCISSORS = "\u{2700}";
 
-    #[Info(id: 9985, name: 'UPPER BLADE SCISSORS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2701, name: 'UPPER BLADE SCISSORS', category: Cat::Other_Symbol)]
     case UPPER_BLADE_SCISSORS = "\u{2701}";
 
-    #[Info(id: 9986, name: 'BLACK SCISSORS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2702, name: 'BLACK SCISSORS', category: Cat::Other_Symbol)]
     case BLACK_SCISSORS = "\u{2702}";
 
-    #[Info(id: 9987, name: 'LOWER BLADE SCISSORS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2703, name: 'LOWER BLADE SCISSORS', category: Cat::Other_Symbol)]
     case LOWER_BLADE_SCISSORS = "\u{2703}";
 
-    #[Info(id: 9988, name: 'WHITE SCISSORS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2704, name: 'WHITE SCISSORS', category: Cat::Other_Symbol)]
     case WHITE_SCISSORS = "\u{2704}";
 
-    #[Info(id: 9989, name: 'WHITE HEAVY CHECK MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2705, name: 'WHITE HEAVY CHECK MARK', category: Cat::Other_Symbol)]
     case WHITE_HEAVY_CHECK_MARK = "\u{2705}";
 
-    #[Info(id: 9990, name: 'TELEPHONE LOCATION SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2706, name: 'TELEPHONE LOCATION SIGN', category: Cat::Other_Symbol)]
     case TELEPHONE_LOCATION_SIGN = "\u{2706}";
 
-    #[Info(id: 9991, name: 'TAPE DRIVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2707, name: 'TAPE DRIVE', category: Cat::Other_Symbol)]
     case TAPE_DRIVE = "\u{2707}";
 
-    #[Info(id: 9992, name: 'AIRPLANE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2708, name: 'AIRPLANE', category: Cat::Other_Symbol)]
     case AIRPLANE = "\u{2708}";
 
-    #[Info(id: 9993, name: 'ENVELOPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2709, name: 'ENVELOPE', category: Cat::Other_Symbol)]
     case ENVELOPE = "\u{2709}";
 
-    #[Info(id: 9994, name: 'RAISED FIST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x270A, name: 'RAISED FIST', category: Cat::Other_Symbol)]
     case RAISED_FIST = "\u{270A}";
 
-    #[Info(id: 9995, name: 'RAISED HAND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x270B, name: 'RAISED HAND', category: Cat::Other_Symbol)]
     case RAISED_HAND = "\u{270B}";
 
-    #[Info(id: 9996, name: 'VICTORY HAND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x270C, name: 'VICTORY HAND', category: Cat::Other_Symbol)]
     case VICTORY_HAND = "\u{270C}";
 
-    #[Info(id: 9997, name: 'WRITING HAND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x270D, name: 'WRITING HAND', category: Cat::Other_Symbol)]
     case WRITING_HAND = "\u{270D}";
 
-    #[Info(id: 9998, name: 'LOWER RIGHT PENCIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x270E, name: 'LOWER RIGHT PENCIL', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_PENCIL = "\u{270E}";
 
-    #[Info(id: 9999, name: 'PENCIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x270F, name: 'PENCIL', category: Cat::Other_Symbol)]
     case PENCIL = "\u{270F}";
 
-    #[Info(id: 10000, name: 'UPPER RIGHT PENCIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2710, name: 'UPPER RIGHT PENCIL', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_PENCIL = "\u{2710}";
 
-    #[Info(id: 10001, name: 'WHITE NIB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2711, name: 'WHITE NIB', category: Cat::Other_Symbol)]
     case WHITE_NIB = "\u{2711}";
 
-    #[Info(id: 10002, name: 'BLACK NIB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2712, name: 'BLACK NIB', category: Cat::Other_Symbol)]
     case BLACK_NIB = "\u{2712}";
 
-    #[Info(id: 10003, name: 'CHECK MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2713, name: 'CHECK MARK', category: Cat::Other_Symbol)]
     case CHECK_MARK = "\u{2713}";
 
-    #[Info(id: 10004, name: 'HEAVY CHECK MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2714, name: 'HEAVY CHECK MARK', category: Cat::Other_Symbol)]
     case HEAVY_CHECK_MARK = "\u{2714}";
 
-    #[Info(id: 10005, name: 'MULTIPLICATION X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2715, name: 'MULTIPLICATION X', category: Cat::Other_Symbol)]
     case MULTIPLICATION_X = "\u{2715}";
 
-    #[Info(id: 10006, name: 'HEAVY MULTIPLICATION X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2716, name: 'HEAVY MULTIPLICATION X', category: Cat::Other_Symbol)]
     case HEAVY_MULTIPLICATION_X = "\u{2716}";
 
-    #[Info(id: 10007, name: 'BALLOT X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2717, name: 'BALLOT X', category: Cat::Other_Symbol)]
     case BALLOT_X = "\u{2717}";
 
-    #[Info(id: 10008, name: 'HEAVY BALLOT X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2718, name: 'HEAVY BALLOT X', category: Cat::Other_Symbol)]
     case HEAVY_BALLOT_X = "\u{2718}";
 
-    #[Info(id: 10009, name: 'OUTLINED GREEK CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2719, name: 'OUTLINED GREEK CROSS', category: Cat::Other_Symbol)]
     case OUTLINED_GREEK_CROSS = "\u{2719}";
 
-    #[Info(id: 10010, name: 'HEAVY GREEK CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x271A, name: 'HEAVY GREEK CROSS', category: Cat::Other_Symbol)]
     case HEAVY_GREEK_CROSS = "\u{271A}";
 
-    #[Info(id: 10011, name: 'OPEN CENTRE CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x271B, name: 'OPEN CENTRE CROSS', category: Cat::Other_Symbol)]
     case OPEN_CENTRE_CROSS = "\u{271B}";
 
-    #[Info(id: 10012, name: 'HEAVY OPEN CENTRE CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x271C, name: 'HEAVY OPEN CENTRE CROSS', category: Cat::Other_Symbol)]
     case HEAVY_OPEN_CENTRE_CROSS = "\u{271C}";
 
-    #[Info(id: 10013, name: 'LATIN CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x271D, name: 'LATIN CROSS', category: Cat::Other_Symbol)]
     case LATIN_CROSS = "\u{271D}";
 
-    #[Info(id: 10014, name: 'SHADOWED WHITE LATIN CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x271E, name: 'SHADOWED WHITE LATIN CROSS', category: Cat::Other_Symbol)]
     case SHADOWED_WHITE_LATIN_CROSS = "\u{271E}";
 
-    #[Info(id: 10015, name: 'OUTLINED LATIN CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x271F, name: 'OUTLINED LATIN CROSS', category: Cat::Other_Symbol)]
     case OUTLINED_LATIN_CROSS = "\u{271F}";
 
-    #[Info(id: 10016, name: 'MALTESE CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2720, name: 'MALTESE CROSS', category: Cat::Other_Symbol)]
     case MALTESE_CROSS = "\u{2720}";
 
-    #[Info(id: 10017, name: 'STAR OF DAVID', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2721, name: 'STAR OF DAVID', category: Cat::Other_Symbol)]
     case STAR_OF_DAVID = "\u{2721}";
 
-    #[Info(id: 10018, name: 'FOUR TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2722, name: 'FOUR TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case FOUR_TEARDROP_SPOKED_ASTERISK = "\u{2722}";
 
-    #[Info(id: 10019, name: 'FOUR BALLOON-SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2723, name: 'FOUR BALLOON-SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case FOUR_BALLOON_SPOKED_ASTERISK = "\u{2723}";
 
-    #[Info(id: 10020, name: 'HEAVY FOUR BALLOON-SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2724, name: 'HEAVY FOUR BALLOON-SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case HEAVY_FOUR_BALLOON_SPOKED_ASTERISK = "\u{2724}";
 
-    #[Info(id: 10021, name: 'FOUR CLUB-SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2725, name: 'FOUR CLUB-SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case FOUR_CLUB_SPOKED_ASTERISK = "\u{2725}";
 
-    #[Info(id: 10022, name: 'BLACK FOUR POINTED STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2726, name: 'BLACK FOUR POINTED STAR', category: Cat::Other_Symbol)]
     case BLACK_FOUR_POINTED_STAR = "\u{2726}";
 
-    #[Info(id: 10023, name: 'WHITE FOUR POINTED STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2727, name: 'WHITE FOUR POINTED STAR', category: Cat::Other_Symbol)]
     case WHITE_FOUR_POINTED_STAR = "\u{2727}";
 
-    #[Info(id: 10024, name: 'SPARKLES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2728, name: 'SPARKLES', category: Cat::Other_Symbol)]
     case SPARKLES = "\u{2728}";
 
-    #[Info(id: 10025, name: 'STRESS OUTLINED WHITE STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2729, name: 'STRESS OUTLINED WHITE STAR', category: Cat::Other_Symbol)]
     case STRESS_OUTLINED_WHITE_STAR = "\u{2729}";
 
-    #[Info(id: 10026, name: 'CIRCLED WHITE STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x272A, name: 'CIRCLED WHITE STAR', category: Cat::Other_Symbol)]
     case CIRCLED_WHITE_STAR = "\u{272A}";
 
-    #[Info(id: 10027, name: 'OPEN CENTRE BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x272B, name: 'OPEN CENTRE BLACK STAR', category: Cat::Other_Symbol)]
     case OPEN_CENTRE_BLACK_STAR = "\u{272B}";
 
-    #[Info(id: 10028, name: 'BLACK CENTRE WHITE STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x272C, name: 'BLACK CENTRE WHITE STAR', category: Cat::Other_Symbol)]
     case BLACK_CENTRE_WHITE_STAR = "\u{272C}";
 
-    #[Info(id: 10029, name: 'OUTLINED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x272D, name: 'OUTLINED BLACK STAR', category: Cat::Other_Symbol)]
     case OUTLINED_BLACK_STAR = "\u{272D}";
 
-    #[Info(id: 10030, name: 'HEAVY OUTLINED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x272E, name: 'HEAVY OUTLINED BLACK STAR', category: Cat::Other_Symbol)]
     case HEAVY_OUTLINED_BLACK_STAR = "\u{272E}";
 
-    #[Info(id: 10031, name: 'PINWHEEL STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x272F, name: 'PINWHEEL STAR', category: Cat::Other_Symbol)]
     case PINWHEEL_STAR = "\u{272F}";
 
-    #[Info(id: 10032, name: 'SHADOWED WHITE STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2730, name: 'SHADOWED WHITE STAR', category: Cat::Other_Symbol)]
     case SHADOWED_WHITE_STAR = "\u{2730}";
 
-    #[Info(id: 10033, name: 'HEAVY ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2731, name: 'HEAVY ASTERISK', category: Cat::Other_Symbol)]
     case HEAVY_ASTERISK = "\u{2731}";
 
-    #[Info(id: 10034, name: 'OPEN CENTRE ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2732, name: 'OPEN CENTRE ASTERISK', category: Cat::Other_Symbol)]
     case OPEN_CENTRE_ASTERISK = "\u{2732}";
 
-    #[Info(id: 10035, name: 'EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2733, name: 'EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case EIGHT_SPOKED_ASTERISK = "\u{2733}";
 
-    #[Info(id: 10036, name: 'EIGHT POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2734, name: 'EIGHT POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case EIGHT_POINTED_BLACK_STAR = "\u{2734}";
 
-    #[Info(id: 10037, name: 'EIGHT POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2735, name: 'EIGHT POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
     case EIGHT_POINTED_PINWHEEL_STAR = "\u{2735}";
 
-    #[Info(id: 10038, name: 'SIX POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2736, name: 'SIX POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case SIX_POINTED_BLACK_STAR = "\u{2736}";
 
-    #[Info(id: 10039, name: 'EIGHT POINTED RECTILINEAR BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2737, name: 'EIGHT POINTED RECTILINEAR BLACK STAR', category: Cat::Other_Symbol)]
     case EIGHT_POINTED_RECTILINEAR_BLACK_STAR = "\u{2737}";
 
-    #[Info(id: 10040, name: 'HEAVY EIGHT POINTED RECTILINEAR BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2738, name: 'HEAVY EIGHT POINTED RECTILINEAR BLACK STAR', category: Cat::Other_Symbol)]
     case HEAVY_EIGHT_POINTED_RECTILINEAR_BLACK_STAR = "\u{2738}";
 
-    #[Info(id: 10041, name: 'TWELVE POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2739, name: 'TWELVE POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case TWELVE_POINTED_BLACK_STAR = "\u{2739}";
 
-    #[Info(id: 10042, name: 'SIXTEEN POINTED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x273A, name: 'SIXTEEN POINTED ASTERISK', category: Cat::Other_Symbol)]
     case SIXTEEN_POINTED_ASTERISK = "\u{273A}";
 
-    #[Info(id: 10043, name: 'TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x273B, name: 'TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case TEARDROP_SPOKED_ASTERISK = "\u{273B}";
 
-    #[Info(id: 10044, name: 'OPEN CENTRE TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x273C, name: 'OPEN CENTRE TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case OPEN_CENTRE_TEARDROP_SPOKED_ASTERISK = "\u{273C}";
 
-    #[Info(id: 10045, name: 'HEAVY TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x273D, name: 'HEAVY TEARDROP-SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case HEAVY_TEARDROP_SPOKED_ASTERISK = "\u{273D}";
 
-    #[Info(id: 10046, name: 'SIX PETALLED BLACK AND WHITE FLORETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x273E, name: 'SIX PETALLED BLACK AND WHITE FLORETTE', category: Cat::Other_Symbol)]
     case SIX_PETALLED_BLACK_AND_WHITE_FLORETTE = "\u{273E}";
 
-    #[Info(id: 10047, name: 'BLACK FLORETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x273F, name: 'BLACK FLORETTE', category: Cat::Other_Symbol)]
     case BLACK_FLORETTE = "\u{273F}";
 
-    #[Info(id: 10048, name: 'WHITE FLORETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2740, name: 'WHITE FLORETTE', category: Cat::Other_Symbol)]
     case WHITE_FLORETTE = "\u{2740}";
 
-    #[Info(id: 10049, name: 'EIGHT PETALLED OUTLINED BLACK FLORETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2741, name: 'EIGHT PETALLED OUTLINED BLACK FLORETTE', category: Cat::Other_Symbol)]
     case EIGHT_PETALLED_OUTLINED_BLACK_FLORETTE = "\u{2741}";
 
-    #[Info(id: 10050, name: 'CIRCLED OPEN CENTRE EIGHT POINTED STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2742, name: 'CIRCLED OPEN CENTRE EIGHT POINTED STAR', category: Cat::Other_Symbol)]
     case CIRCLED_OPEN_CENTRE_EIGHT_POINTED_STAR = "\u{2742}";
 
-    #[Info(id: 10051, name: 'HEAVY TEARDROP-SPOKED PINWHEEL ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2743, name: 'HEAVY TEARDROP-SPOKED PINWHEEL ASTERISK', category: Cat::Other_Symbol)]
     case HEAVY_TEARDROP_SPOKED_PINWHEEL_ASTERISK = "\u{2743}";
 
-    #[Info(id: 10052, name: 'SNOWFLAKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2744, name: 'SNOWFLAKE', category: Cat::Other_Symbol)]
     case SNOWFLAKE = "\u{2744}";
 
-    #[Info(id: 10053, name: 'TIGHT TRIFOLIATE SNOWFLAKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2745, name: 'TIGHT TRIFOLIATE SNOWFLAKE', category: Cat::Other_Symbol)]
     case TIGHT_TRIFOLIATE_SNOWFLAKE = "\u{2745}";
 
-    #[Info(id: 10054, name: 'HEAVY CHEVRON SNOWFLAKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2746, name: 'HEAVY CHEVRON SNOWFLAKE', category: Cat::Other_Symbol)]
     case HEAVY_CHEVRON_SNOWFLAKE = "\u{2746}";
 
-    #[Info(id: 10055, name: 'SPARKLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2747, name: 'SPARKLE', category: Cat::Other_Symbol)]
     case SPARKLE = "\u{2747}";
 
-    #[Info(id: 10056, name: 'HEAVY SPARKLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2748, name: 'HEAVY SPARKLE', category: Cat::Other_Symbol)]
     case HEAVY_SPARKLE = "\u{2748}";
 
-    #[Info(id: 10057, name: 'BALLOON-SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2749, name: 'BALLOON-SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case BALLOON_SPOKED_ASTERISK = "\u{2749}";
 
-    #[Info(id: 10058, name: 'EIGHT TEARDROP-SPOKED PROPELLER ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x274A, name: 'EIGHT TEARDROP-SPOKED PROPELLER ASTERISK', category: Cat::Other_Symbol)]
     case EIGHT_TEARDROP_SPOKED_PROPELLER_ASTERISK = "\u{274A}";
 
-    #[Info(id: 10059, name: 'HEAVY EIGHT TEARDROP-SPOKED PROPELLER ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x274B, name: 'HEAVY EIGHT TEARDROP-SPOKED PROPELLER ASTERISK', category: Cat::Other_Symbol)]
     case HEAVY_EIGHT_TEARDROP_SPOKED_PROPELLER_ASTERISK = "\u{274B}";
 
-    #[Info(id: 10060, name: 'CROSS MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x274C, name: 'CROSS MARK', category: Cat::Other_Symbol)]
     case CROSS_MARK = "\u{274C}";
 
-    #[Info(id: 10061, name: 'SHADOWED WHITE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x274D, name: 'SHADOWED WHITE CIRCLE', category: Cat::Other_Symbol)]
     case SHADOWED_WHITE_CIRCLE = "\u{274D}";
 
-    #[Info(id: 10062, name: 'NEGATIVE SQUARED CROSS MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x274E, name: 'NEGATIVE SQUARED CROSS MARK', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_CROSS_MARK = "\u{274E}";
 
-    #[Info(id: 10063, name: 'LOWER RIGHT DROP-SHADOWED WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x274F, name: 'LOWER RIGHT DROP-SHADOWED WHITE SQUARE', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_DROP_SHADOWED_WHITE_SQUARE = "\u{274F}";
 
-    #[Info(id: 10064, name: 'UPPER RIGHT DROP-SHADOWED WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2750, name: 'UPPER RIGHT DROP-SHADOWED WHITE SQUARE', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_DROP_SHADOWED_WHITE_SQUARE = "\u{2750}";
 
-    #[Info(id: 10065, name: 'LOWER RIGHT SHADOWED WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2751, name: 'LOWER RIGHT SHADOWED WHITE SQUARE', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_SHADOWED_WHITE_SQUARE = "\u{2751}";
 
-    #[Info(id: 10066, name: 'UPPER RIGHT SHADOWED WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2752, name: 'UPPER RIGHT SHADOWED WHITE SQUARE', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_SHADOWED_WHITE_SQUARE = "\u{2752}";
 
-    #[Info(id: 10067, name: 'BLACK QUESTION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2753, name: 'BLACK QUESTION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case BLACK_QUESTION_MARK_ORNAMENT = "\u{2753}";
 
-    #[Info(id: 10068, name: 'WHITE QUESTION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2754, name: 'WHITE QUESTION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case WHITE_QUESTION_MARK_ORNAMENT = "\u{2754}";
 
-    #[Info(id: 10069, name: 'WHITE EXCLAMATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2755, name: 'WHITE EXCLAMATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case WHITE_EXCLAMATION_MARK_ORNAMENT = "\u{2755}";
 
-    #[Info(id: 10070, name: 'BLACK DIAMOND MINUS WHITE X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2756, name: 'BLACK DIAMOND MINUS WHITE X', category: Cat::Other_Symbol)]
     case BLACK_DIAMOND_MINUS_WHITE_X = "\u{2756}";
 
-    #[Info(id: 10071, name: 'HEAVY EXCLAMATION MARK SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2757, name: 'HEAVY EXCLAMATION MARK SYMBOL', category: Cat::Other_Symbol)]
     case HEAVY_EXCLAMATION_MARK_SYMBOL = "\u{2757}";
 
-    #[Info(id: 10072, name: 'LIGHT VERTICAL BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2758, name: 'LIGHT VERTICAL BAR', category: Cat::Other_Symbol)]
     case LIGHT_VERTICAL_BAR = "\u{2758}";
 
-    #[Info(id: 10073, name: 'MEDIUM VERTICAL BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2759, name: 'MEDIUM VERTICAL BAR', category: Cat::Other_Symbol)]
     case MEDIUM_VERTICAL_BAR = "\u{2759}";
 
-    #[Info(id: 10074, name: 'HEAVY VERTICAL BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x275A, name: 'HEAVY VERTICAL BAR', category: Cat::Other_Symbol)]
     case HEAVY_VERTICAL_BAR = "\u{275A}";
 
-    #[Info(id: 10075, name: 'HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x275B, name: 'HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_SINGLE_TURNED_COMMA_QUOTATION_MARK_ORNAMENT = "\u{275B}";
 
-    #[Info(id: 10076, name: 'HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x275C, name: 'HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_SINGLE_COMMA_QUOTATION_MARK_ORNAMENT = "\u{275C}";
 
-    #[Info(id: 10077, name: 'HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x275D, name: 'HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_DOUBLE_TURNED_COMMA_QUOTATION_MARK_ORNAMENT = "\u{275D}";
 
-    #[Info(id: 10078, name: 'HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x275E, name: 'HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_DOUBLE_COMMA_QUOTATION_MARK_ORNAMENT = "\u{275E}";
 
-    #[Info(id: 10079, name: 'HEAVY LOW SINGLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x275F, name: 'HEAVY LOW SINGLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_LOW_SINGLE_COMMA_QUOTATION_MARK_ORNAMENT = "\u{275F}";
 
-    #[Info(id: 10080, name: 'HEAVY LOW DOUBLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2760, name: 'HEAVY LOW DOUBLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_LOW_DOUBLE_COMMA_QUOTATION_MARK_ORNAMENT = "\u{2760}";
 
-    #[Info(id: 10081, name: 'CURVED STEM PARAGRAPH SIGN ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2761, name: 'CURVED STEM PARAGRAPH SIGN ORNAMENT', category: Cat::Other_Symbol)]
     case CURVED_STEM_PARAGRAPH_SIGN_ORNAMENT = "\u{2761}";
 
-    #[Info(id: 10082, name: 'HEAVY EXCLAMATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2762, name: 'HEAVY EXCLAMATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_EXCLAMATION_MARK_ORNAMENT = "\u{2762}";
 
-    #[Info(id: 10083, name: 'HEAVY HEART EXCLAMATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2763, name: 'HEAVY HEART EXCLAMATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_HEART_EXCLAMATION_MARK_ORNAMENT = "\u{2763}";
 
-    #[Info(id: 10084, name: 'HEAVY BLACK HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2764, name: 'HEAVY BLACK HEART', category: Cat::Other_Symbol)]
     case HEAVY_BLACK_HEART = "\u{2764}";
 
-    #[Info(id: 10085, name: 'ROTATED HEAVY BLACK HEART BULLET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2765, name: 'ROTATED HEAVY BLACK HEART BULLET', category: Cat::Other_Symbol)]
     case ROTATED_HEAVY_BLACK_HEART_BULLET = "\u{2765}";
 
-    #[Info(id: 10086, name: 'FLORAL HEART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2766, name: 'FLORAL HEART', category: Cat::Other_Symbol)]
     case FLORAL_HEART = "\u{2766}";
 
-    #[Info(id: 10087, name: 'ROTATED FLORAL HEART BULLET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2767, name: 'ROTATED FLORAL HEART BULLET', category: Cat::Other_Symbol)]
     case ROTATED_FLORAL_HEART_BULLET = "\u{2767}";
 
-    #[Info(id: 10088, name: 'MEDIUM LEFT PARENTHESIS ORNAMENT', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2768, name: 'MEDIUM LEFT PARENTHESIS ORNAMENT', category: Cat::Open_Punctuation)]
     case MEDIUM_LEFT_PARENTHESIS_ORNAMENT = "\u{2768}";
 
-    #[Info(id: 10089, name: 'MEDIUM RIGHT PARENTHESIS ORNAMENT', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2769, name: 'MEDIUM RIGHT PARENTHESIS ORNAMENT', category: Cat::Close_Punctuation)]
     case MEDIUM_RIGHT_PARENTHESIS_ORNAMENT = "\u{2769}";
 
-    #[Info(id: 10090, name: 'MEDIUM FLATTENED LEFT PARENTHESIS ORNAMENT', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x276A, name: 'MEDIUM FLATTENED LEFT PARENTHESIS ORNAMENT', category: Cat::Open_Punctuation)]
     case MEDIUM_FLATTENED_LEFT_PARENTHESIS_ORNAMENT = "\u{276A}";
 
-    #[Info(id: 10091, name: 'MEDIUM FLATTENED RIGHT PARENTHESIS ORNAMENT', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x276B, name: 'MEDIUM FLATTENED RIGHT PARENTHESIS ORNAMENT', category: Cat::Close_Punctuation)]
     case MEDIUM_FLATTENED_RIGHT_PARENTHESIS_ORNAMENT = "\u{276B}";
 
-    #[Info(id: 10092, name: 'MEDIUM LEFT-POINTING ANGLE BRACKET ORNAMENT', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x276C, name: 'MEDIUM LEFT-POINTING ANGLE BRACKET ORNAMENT', category: Cat::Open_Punctuation)]
     case MEDIUM_LEFT_POINTING_ANGLE_BRACKET_ORNAMENT = "\u{276C}";
 
-    #[Info(id: 10093, name: 'MEDIUM RIGHT-POINTING ANGLE BRACKET ORNAMENT', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x276D, name: 'MEDIUM RIGHT-POINTING ANGLE BRACKET ORNAMENT', category: Cat::Close_Punctuation)]
     case MEDIUM_RIGHT_POINTING_ANGLE_BRACKET_ORNAMENT = "\u{276D}";
 
-    #[Info(id: 10094, name: 'HEAVY LEFT-POINTING ANGLE QUOTATION MARK ORNAMENT', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x276E, name: 'HEAVY LEFT-POINTING ANGLE QUOTATION MARK ORNAMENT', category: Cat::Open_Punctuation)]
     case HEAVY_LEFT_POINTING_ANGLE_QUOTATION_MARK_ORNAMENT = "\u{276E}";
 
-    #[Info(id: 10095, name: 'HEAVY RIGHT-POINTING ANGLE QUOTATION MARK ORNAMENT', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x276F, name: 'HEAVY RIGHT-POINTING ANGLE QUOTATION MARK ORNAMENT', category: Cat::Close_Punctuation)]
     case HEAVY_RIGHT_POINTING_ANGLE_QUOTATION_MARK_ORNAMENT = "\u{276F}";
 
-    #[Info(id: 10096, name: 'HEAVY LEFT-POINTING ANGLE BRACKET ORNAMENT', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2770, name: 'HEAVY LEFT-POINTING ANGLE BRACKET ORNAMENT', category: Cat::Open_Punctuation)]
     case HEAVY_LEFT_POINTING_ANGLE_BRACKET_ORNAMENT = "\u{2770}";
 
-    #[Info(id: 10097, name: 'HEAVY RIGHT-POINTING ANGLE BRACKET ORNAMENT', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2771, name: 'HEAVY RIGHT-POINTING ANGLE BRACKET ORNAMENT', category: Cat::Close_Punctuation)]
     case HEAVY_RIGHT_POINTING_ANGLE_BRACKET_ORNAMENT = "\u{2771}";
 
-    #[Info(id: 10098, name: 'LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2772, name: 'LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT', category: Cat::Open_Punctuation)]
     case LIGHT_LEFT_TORTOISE_SHELL_BRACKET_ORNAMENT = "\u{2772}";
 
-    #[Info(id: 10099, name: 'LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2773, name: 'LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT', category: Cat::Close_Punctuation)]
     case LIGHT_RIGHT_TORTOISE_SHELL_BRACKET_ORNAMENT = "\u{2773}";
 
-    #[Info(id: 10100, name: 'MEDIUM LEFT CURLY BRACKET ORNAMENT', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2774, name: 'MEDIUM LEFT CURLY BRACKET ORNAMENT', category: Cat::Open_Punctuation)]
     case MEDIUM_LEFT_CURLY_BRACKET_ORNAMENT = "\u{2774}";
 
-    #[Info(id: 10101, name: 'MEDIUM RIGHT CURLY BRACKET ORNAMENT', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2775, name: 'MEDIUM RIGHT CURLY BRACKET ORNAMENT', category: Cat::Close_Punctuation)]
     case MEDIUM_RIGHT_CURLY_BRACKET_ORNAMENT = "\u{2775}";
 
-    #[Info(id: 10102, name: 'DINGBAT NEGATIVE CIRCLED DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x2776, name: 'DINGBAT NEGATIVE CIRCLED DIGIT ONE', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_ONE = "\u{2776}";
 
-    #[Info(id: 10103, name: 'DINGBAT NEGATIVE CIRCLED DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x2777, name: 'DINGBAT NEGATIVE CIRCLED DIGIT TWO', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_TWO = "\u{2777}";
 
-    #[Info(id: 10104, name: 'DINGBAT NEGATIVE CIRCLED DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x2778, name: 'DINGBAT NEGATIVE CIRCLED DIGIT THREE', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_THREE = "\u{2778}";
 
-    #[Info(id: 10105, name: 'DINGBAT NEGATIVE CIRCLED DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x2779, name: 'DINGBAT NEGATIVE CIRCLED DIGIT FOUR', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_FOUR = "\u{2779}";
 
-    #[Info(id: 10106, name: 'DINGBAT NEGATIVE CIRCLED DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x277A, name: 'DINGBAT NEGATIVE CIRCLED DIGIT FIVE', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_FIVE = "\u{277A}";
 
-    #[Info(id: 10107, name: 'DINGBAT NEGATIVE CIRCLED DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x277B, name: 'DINGBAT NEGATIVE CIRCLED DIGIT SIX', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_SIX = "\u{277B}";
 
-    #[Info(id: 10108, name: 'DINGBAT NEGATIVE CIRCLED DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x277C, name: 'DINGBAT NEGATIVE CIRCLED DIGIT SEVEN', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_SEVEN = "\u{277C}";
 
-    #[Info(id: 10109, name: 'DINGBAT NEGATIVE CIRCLED DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x277D, name: 'DINGBAT NEGATIVE CIRCLED DIGIT EIGHT', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_EIGHT = "\u{277D}";
 
-    #[Info(id: 10110, name: 'DINGBAT NEGATIVE CIRCLED DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x277E, name: 'DINGBAT NEGATIVE CIRCLED DIGIT NINE', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_DIGIT_NINE = "\u{277E}";
 
-    #[Info(id: 10111, name: 'DINGBAT NEGATIVE CIRCLED NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x277F, name: 'DINGBAT NEGATIVE CIRCLED NUMBER TEN', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_NUMBER_TEN = "\u{277F}";
 
-    #[Info(id: 10112, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x2780, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT ONE', category: Cat::Other_Number)]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_ONE = "\u{2780}";
 
-    #[Info(id: 10113, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x2781, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT TWO', category: Cat::Other_Number)]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_TWO = "\u{2781}";
 
-    #[Info(id: 10114, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x2782, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT THREE', category: Cat::Other_Number)]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_THREE = "\u{2782}";
 
-    #[Info(id: 10115, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x2783, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT FOUR', category: Cat::Other_Number)]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_FOUR = "\u{2783}";
 
-    #[Info(id: 10116, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x2784, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT FIVE', category: Cat::Other_Number)]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_FIVE = "\u{2784}";
 
-    #[Info(id: 10117, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x2785, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT SIX', category: Cat::Other_Number)]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_SIX = "\u{2785}";
 
-    #[Info(id: 10118, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2786, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT SEVEN', category: Cat::Other_Number)]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_SEVEN = "\u{2786}";
 
-    #[Info(id: 10119, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x2787, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT EIGHT', category: Cat::Other_Number)]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_EIGHT = "\u{2787}";
 
-    #[Info(id: 10120, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x2788, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT NINE', category: Cat::Other_Number)]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_NINE = "\u{2788}";
 
-    #[Info(id: 10121, name: 'DINGBAT CIRCLED SANS-SERIF NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2789, name: 'DINGBAT CIRCLED SANS-SERIF NUMBER TEN', category: Cat::Other_Number)]
     case DINGBAT_CIRCLED_SANS_SERIF_NUMBER_TEN = "\u{2789}";
 
-    #[Info(id: 10122, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x278A, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ONE', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_ONE = "\u{278A}";
 
-    #[Info(id: 10123, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x278B, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT TWO', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_TWO = "\u{278B}";
 
-    #[Info(id: 10124, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x278C, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT THREE', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_THREE = "\u{278C}";
 
-    #[Info(id: 10125, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x278D, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FOUR', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_FOUR = "\u{278D}";
 
-    #[Info(id: 10126, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x278E, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FIVE', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_FIVE = "\u{278E}";
 
-    #[Info(id: 10127, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x278F, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SIX', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_SIX = "\u{278F}";
 
-    #[Info(id: 10128, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2790, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SEVEN', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_SEVEN = "\u{2790}";
 
-    #[Info(id: 10129, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x2791, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT EIGHT', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_EIGHT = "\u{2791}";
 
-    #[Info(id: 10130, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x2792, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT NINE', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_NINE = "\u{2792}";
 
-    #[Info(id: 10131, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2793, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF NUMBER TEN', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_NUMBER_TEN = "\u{2793}";
 
-    #[Info(id: 10132, name: 'HEAVY WIDE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2794, name: 'HEAVY WIDE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_WIDE_HEADED_RIGHTWARDS_ARROW = "\u{2794}";
 
-    #[Info(id: 10133, name: 'HEAVY PLUS SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2795, name: 'HEAVY PLUS SIGN', category: Cat::Other_Symbol)]
     case HEAVY_PLUS_SIGN = "\u{2795}";
 
-    #[Info(id: 10134, name: 'HEAVY MINUS SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2796, name: 'HEAVY MINUS SIGN', category: Cat::Other_Symbol)]
     case HEAVY_MINUS_SIGN = "\u{2796}";
 
-    #[Info(id: 10135, name: 'HEAVY DIVISION SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2797, name: 'HEAVY DIVISION SIGN', category: Cat::Other_Symbol)]
     case HEAVY_DIVISION_SIGN = "\u{2797}";
 
-    #[Info(id: 10136, name: 'HEAVY SOUTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2798, name: 'HEAVY SOUTH EAST ARROW', category: Cat::Other_Symbol)]
     case HEAVY_SOUTH_EAST_ARROW = "\u{2798}";
 
-    #[Info(id: 10137, name: 'HEAVY RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2799, name: 'HEAVY RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_RIGHTWARDS_ARROW = "\u{2799}";
 
-    #[Info(id: 10138, name: 'HEAVY NORTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279A, name: 'HEAVY NORTH EAST ARROW', category: Cat::Other_Symbol)]
     case HEAVY_NORTH_EAST_ARROW = "\u{279A}";
 
-    #[Info(id: 10139, name: 'DRAFTING POINT RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279B, name: 'DRAFTING POINT RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case DRAFTING_POINT_RIGHTWARDS_ARROW = "\u{279B}";
 
-    #[Info(id: 10140, name: 'HEAVY ROUND-TIPPED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279C, name: 'HEAVY ROUND-TIPPED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_ROUND_TIPPED_RIGHTWARDS_ARROW = "\u{279C}";
 
-    #[Info(id: 10141, name: 'TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279D, name: 'TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case TRIANGLE_HEADED_RIGHTWARDS_ARROW = "\u{279D}";
 
-    #[Info(id: 10142, name: 'HEAVY TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279E, name: 'HEAVY TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_TRIANGLE_HEADED_RIGHTWARDS_ARROW = "\u{279E}";
 
-    #[Info(id: 10143, name: 'DASHED TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x279F, name: 'DASHED TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case DASHED_TRIANGLE_HEADED_RIGHTWARDS_ARROW = "\u{279F}";
 
-    #[Info(id: 10144, name: 'HEAVY DASHED TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A0, name: 'HEAVY DASHED TRIANGLE-HEADED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_DASHED_TRIANGLE_HEADED_RIGHTWARDS_ARROW = "\u{27A0}";
 
-    #[Info(id: 10145, name: 'BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A1, name: 'BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case BLACK_RIGHTWARDS_ARROW = "\u{27A1}";
 
-    #[Info(id: 10146, name: 'THREE-D TOP-LIGHTED RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A2, name: 'THREE-D TOP-LIGHTED RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol)]
     case THREE_D_TOP_LIGHTED_RIGHTWARDS_ARROWHEAD = "\u{27A2}";
 
-    #[Info(id: 10147, name: 'THREE-D BOTTOM-LIGHTED RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A3, name: 'THREE-D BOTTOM-LIGHTED RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol)]
     case THREE_D_BOTTOM_LIGHTED_RIGHTWARDS_ARROWHEAD = "\u{27A3}";
 
-    #[Info(id: 10148, name: 'BLACK RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A4, name: 'BLACK RIGHTWARDS ARROWHEAD', category: Cat::Other_Symbol)]
     case BLACK_RIGHTWARDS_ARROWHEAD = "\u{27A4}";
 
-    #[Info(id: 10149, name: 'HEAVY BLACK CURVED DOWNWARDS AND RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A5, name: 'HEAVY BLACK CURVED DOWNWARDS AND RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_BLACK_CURVED_DOWNWARDS_AND_RIGHTWARDS_ARROW = "\u{27A5}";
 
-    #[Info(id: 10150, name: 'HEAVY BLACK CURVED UPWARDS AND RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A6, name: 'HEAVY BLACK CURVED UPWARDS AND RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_BLACK_CURVED_UPWARDS_AND_RIGHTWARDS_ARROW = "\u{27A6}";
 
-    #[Info(id: 10151, name: 'SQUAT BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A7, name: 'SQUAT BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case SQUAT_BLACK_RIGHTWARDS_ARROW = "\u{27A7}";
 
-    #[Info(id: 10152, name: 'HEAVY CONCAVE-POINTED BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A8, name: 'HEAVY CONCAVE-POINTED BLACK RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_CONCAVE_POINTED_BLACK_RIGHTWARDS_ARROW = "\u{27A8}";
 
-    #[Info(id: 10153, name: 'RIGHT-SHADED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27A9, name: 'RIGHT-SHADED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case RIGHT_SHADED_WHITE_RIGHTWARDS_ARROW = "\u{27A9}";
 
-    #[Info(id: 10154, name: 'LEFT-SHADED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AA, name: 'LEFT-SHADED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case LEFT_SHADED_WHITE_RIGHTWARDS_ARROW = "\u{27AA}";
 
-    #[Info(id: 10155, name: 'BACK-TILTED SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AB, name: 'BACK-TILTED SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case BACK_TILTED_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27AB}";
 
-    #[Info(id: 10156, name: 'FRONT-TILTED SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AC, name: 'FRONT-TILTED SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case FRONT_TILTED_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27AC}";
 
-    #[Info(id: 10157, name: 'HEAVY LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AD, name: 'HEAVY LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_LOWER_RIGHT_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27AD}";
 
-    #[Info(id: 10158, name: 'HEAVY UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AE, name: 'HEAVY UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_UPPER_RIGHT_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27AE}";
 
-    #[Info(id: 10159, name: 'NOTCHED LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27AF, name: 'NOTCHED LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case NOTCHED_LOWER_RIGHT_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27AF}";
 
-    #[Info(id: 10160, name: 'CURLY LOOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B0, name: 'CURLY LOOP', category: Cat::Other_Symbol)]
     case CURLY_LOOP = "\u{27B0}";
 
-    #[Info(id: 10161, name: 'NOTCHED UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B1, name: 'NOTCHED UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case NOTCHED_UPPER_RIGHT_SHADOWED_WHITE_RIGHTWARDS_ARROW = "\u{27B1}";
 
-    #[Info(id: 10162, name: 'CIRCLED HEAVY WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B2, name: 'CIRCLED HEAVY WHITE RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case CIRCLED_HEAVY_WHITE_RIGHTWARDS_ARROW = "\u{27B2}";
 
-    #[Info(id: 10163, name: 'WHITE-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B3, name: 'WHITE-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case WHITE_FEATHERED_RIGHTWARDS_ARROW = "\u{27B3}";
 
-    #[Info(id: 10164, name: 'BLACK-FEATHERED SOUTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B4, name: 'BLACK-FEATHERED SOUTH EAST ARROW', category: Cat::Other_Symbol)]
     case BLACK_FEATHERED_SOUTH_EAST_ARROW = "\u{27B4}";
 
-    #[Info(id: 10165, name: 'BLACK-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B5, name: 'BLACK-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case BLACK_FEATHERED_RIGHTWARDS_ARROW = "\u{27B5}";
 
-    #[Info(id: 10166, name: 'BLACK-FEATHERED NORTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B6, name: 'BLACK-FEATHERED NORTH EAST ARROW', category: Cat::Other_Symbol)]
     case BLACK_FEATHERED_NORTH_EAST_ARROW = "\u{27B6}";
 
-    #[Info(id: 10167, name: 'HEAVY BLACK-FEATHERED SOUTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B7, name: 'HEAVY BLACK-FEATHERED SOUTH EAST ARROW', category: Cat::Other_Symbol)]
     case HEAVY_BLACK_FEATHERED_SOUTH_EAST_ARROW = "\u{27B7}";
 
-    #[Info(id: 10168, name: 'HEAVY BLACK-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B8, name: 'HEAVY BLACK-FEATHERED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_BLACK_FEATHERED_RIGHTWARDS_ARROW = "\u{27B8}";
 
-    #[Info(id: 10169, name: 'HEAVY BLACK-FEATHERED NORTH EAST ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27B9, name: 'HEAVY BLACK-FEATHERED NORTH EAST ARROW', category: Cat::Other_Symbol)]
     case HEAVY_BLACK_FEATHERED_NORTH_EAST_ARROW = "\u{27B9}";
 
-    #[Info(id: 10170, name: 'TEARDROP-BARBED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27BA, name: 'TEARDROP-BARBED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case TEARDROP_BARBED_RIGHTWARDS_ARROW = "\u{27BA}";
 
-    #[Info(id: 10171, name: 'HEAVY TEARDROP-SHANKED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27BB, name: 'HEAVY TEARDROP-SHANKED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_TEARDROP_SHANKED_RIGHTWARDS_ARROW = "\u{27BB}";
 
-    #[Info(id: 10172, name: 'WEDGE-TAILED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27BC, name: 'WEDGE-TAILED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case WEDGE_TAILED_RIGHTWARDS_ARROW = "\u{27BC}";
 
-    #[Info(id: 10173, name: 'HEAVY WEDGE-TAILED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27BD, name: 'HEAVY WEDGE-TAILED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case HEAVY_WEDGE_TAILED_RIGHTWARDS_ARROW = "\u{27BD}";
 
-    #[Info(id: 10174, name: 'OPEN-OUTLINED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27BE, name: 'OPEN-OUTLINED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
     case OPEN_OUTLINED_RIGHTWARDS_ARROW = "\u{27BE}";
 
-    #[Info(id: 10175, name: 'DOUBLE CURLY LOOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x27BF, name: 'DOUBLE CURLY LOOP', category: Cat::Other_Symbol)]
     case DOUBLE_CURLY_LOOP = "\u{27BF}";
 }

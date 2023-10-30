@@ -16,72 +16,72 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Elymaic: string
 {
-    #[Info(id: 69600, name: 'ELYMAIC LETTER ALEPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FE0, name: 'ELYMAIC LETTER ALEPH', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_ALEPH = "\u{10FE0}";
 
-    #[Info(id: 69601, name: 'ELYMAIC LETTER BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FE1, name: 'ELYMAIC LETTER BETH', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_BETH = "\u{10FE1}";
 
-    #[Info(id: 69602, name: 'ELYMAIC LETTER GIMEL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FE2, name: 'ELYMAIC LETTER GIMEL', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_GIMEL = "\u{10FE2}";
 
-    #[Info(id: 69603, name: 'ELYMAIC LETTER DALETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FE3, name: 'ELYMAIC LETTER DALETH', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_DALETH = "\u{10FE3}";
 
-    #[Info(id: 69604, name: 'ELYMAIC LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FE4, name: 'ELYMAIC LETTER HE', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_HE = "\u{10FE4}";
 
-    #[Info(id: 69605, name: 'ELYMAIC LETTER WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FE5, name: 'ELYMAIC LETTER WAW', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_WAW = "\u{10FE5}";
 
-    #[Info(id: 69606, name: 'ELYMAIC LETTER ZAYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FE6, name: 'ELYMAIC LETTER ZAYIN', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_ZAYIN = "\u{10FE6}";
 
-    #[Info(id: 69607, name: 'ELYMAIC LETTER HETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FE7, name: 'ELYMAIC LETTER HETH', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_HETH = "\u{10FE7}";
 
-    #[Info(id: 69608, name: 'ELYMAIC LETTER TETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FE8, name: 'ELYMAIC LETTER TETH', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_TETH = "\u{10FE8}";
 
-    #[Info(id: 69609, name: 'ELYMAIC LETTER YODH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FE9, name: 'ELYMAIC LETTER YODH', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_YODH = "\u{10FE9}";
 
-    #[Info(id: 69610, name: 'ELYMAIC LETTER KAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FEA, name: 'ELYMAIC LETTER KAPH', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_KAPH = "\u{10FEA}";
 
-    #[Info(id: 69611, name: 'ELYMAIC LETTER LAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FEB, name: 'ELYMAIC LETTER LAMEDH', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_LAMEDH = "\u{10FEB}";
 
-    #[Info(id: 69612, name: 'ELYMAIC LETTER MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FEC, name: 'ELYMAIC LETTER MEM', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_MEM = "\u{10FEC}";
 
-    #[Info(id: 69613, name: 'ELYMAIC LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FED, name: 'ELYMAIC LETTER NUN', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_NUN = "\u{10FED}";
 
-    #[Info(id: 69614, name: 'ELYMAIC LETTER SAMEKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FEE, name: 'ELYMAIC LETTER SAMEKH', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_SAMEKH = "\u{10FEE}";
 
-    #[Info(id: 69615, name: 'ELYMAIC LETTER AYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FEF, name: 'ELYMAIC LETTER AYIN', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_AYIN = "\u{10FEF}";
 
-    #[Info(id: 69616, name: 'ELYMAIC LETTER PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FF0, name: 'ELYMAIC LETTER PE', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_PE = "\u{10FF0}";
 
-    #[Info(id: 69617, name: 'ELYMAIC LETTER SADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FF1, name: 'ELYMAIC LETTER SADHE', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_SADHE = "\u{10FF1}";
 
-    #[Info(id: 69618, name: 'ELYMAIC LETTER QOPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FF2, name: 'ELYMAIC LETTER QOPH', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_QOPH = "\u{10FF2}";
 
-    #[Info(id: 69619, name: 'ELYMAIC LETTER RESH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FF3, name: 'ELYMAIC LETTER RESH', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_RESH = "\u{10FF3}";
 
-    #[Info(id: 69620, name: 'ELYMAIC LETTER SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FF4, name: 'ELYMAIC LETTER SHIN', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_SHIN = "\u{10FF4}";
 
-    #[Info(id: 69621, name: 'ELYMAIC LETTER TAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FF5, name: 'ELYMAIC LETTER TAW', category: Cat::Other_Letter)]
     case ELYMAIC_LETTER_TAW = "\u{10FF5}";
 
-    #[Info(id: 69622, name: 'ELYMAIC LIGATURE ZAYIN-YODH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10FF6, name: 'ELYMAIC LIGATURE ZAYIN-YODH', category: Cat::Other_Letter)]
     case ELYMAIC_LIGATURE_ZAYIN_YODH = "\u{10FF6}";
 }

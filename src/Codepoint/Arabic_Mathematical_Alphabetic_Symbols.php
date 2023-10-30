@@ -16,432 +16,432 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Arabic_Mathematical_Alphabetic_Symbols: string
 {
-    #[Info(id: 126464, name: 'ARABIC MATHEMATICAL ALEF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE00, name: 'ARABIC MATHEMATICAL ALEF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_ALEF = "\u{1EE00}";
 
-    #[Info(id: 126465, name: 'ARABIC MATHEMATICAL BEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE01, name: 'ARABIC MATHEMATICAL BEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_BEH = "\u{1EE01}";
 
-    #[Info(id: 126466, name: 'ARABIC MATHEMATICAL JEEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE02, name: 'ARABIC MATHEMATICAL JEEM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_JEEM = "\u{1EE02}";
 
-    #[Info(id: 126467, name: 'ARABIC MATHEMATICAL DAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE03, name: 'ARABIC MATHEMATICAL DAL', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DAL = "\u{1EE03}";
 
-    #[Info(id: 126469, name: 'ARABIC MATHEMATICAL WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE05, name: 'ARABIC MATHEMATICAL WAW', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_WAW = "\u{1EE05}";
 
-    #[Info(id: 126470, name: 'ARABIC MATHEMATICAL ZAIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE06, name: 'ARABIC MATHEMATICAL ZAIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_ZAIN = "\u{1EE06}";
 
-    #[Info(id: 126471, name: 'ARABIC MATHEMATICAL HAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE07, name: 'ARABIC MATHEMATICAL HAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_HAH = "\u{1EE07}";
 
-    #[Info(id: 126472, name: 'ARABIC MATHEMATICAL TAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE08, name: 'ARABIC MATHEMATICAL TAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAH = "\u{1EE08}";
 
-    #[Info(id: 126473, name: 'ARABIC MATHEMATICAL YEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE09, name: 'ARABIC MATHEMATICAL YEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_YEH = "\u{1EE09}";
 
-    #[Info(id: 126474, name: 'ARABIC MATHEMATICAL KAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE0A, name: 'ARABIC MATHEMATICAL KAF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_KAF = "\u{1EE0A}";
 
-    #[Info(id: 126475, name: 'ARABIC MATHEMATICAL LAM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE0B, name: 'ARABIC MATHEMATICAL LAM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LAM = "\u{1EE0B}";
 
-    #[Info(id: 126476, name: 'ARABIC MATHEMATICAL MEEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE0C, name: 'ARABIC MATHEMATICAL MEEM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_MEEM = "\u{1EE0C}";
 
-    #[Info(id: 126477, name: 'ARABIC MATHEMATICAL NOON', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE0D, name: 'ARABIC MATHEMATICAL NOON', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_NOON = "\u{1EE0D}";
 
-    #[Info(id: 126478, name: 'ARABIC MATHEMATICAL SEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE0E, name: 'ARABIC MATHEMATICAL SEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_SEEN = "\u{1EE0E}";
 
-    #[Info(id: 126479, name: 'ARABIC MATHEMATICAL AIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE0F, name: 'ARABIC MATHEMATICAL AIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_AIN = "\u{1EE0F}";
 
-    #[Info(id: 126480, name: 'ARABIC MATHEMATICAL FEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE10, name: 'ARABIC MATHEMATICAL FEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_FEH = "\u{1EE10}";
 
-    #[Info(id: 126481, name: 'ARABIC MATHEMATICAL SAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE11, name: 'ARABIC MATHEMATICAL SAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_SAD = "\u{1EE11}";
 
-    #[Info(id: 126482, name: 'ARABIC MATHEMATICAL QAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE12, name: 'ARABIC MATHEMATICAL QAF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_QAF = "\u{1EE12}";
 
-    #[Info(id: 126483, name: 'ARABIC MATHEMATICAL REH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE13, name: 'ARABIC MATHEMATICAL REH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_REH = "\u{1EE13}";
 
-    #[Info(id: 126484, name: 'ARABIC MATHEMATICAL SHEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE14, name: 'ARABIC MATHEMATICAL SHEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_SHEEN = "\u{1EE14}";
 
-    #[Info(id: 126485, name: 'ARABIC MATHEMATICAL TEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE15, name: 'ARABIC MATHEMATICAL TEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TEH = "\u{1EE15}";
 
-    #[Info(id: 126486, name: 'ARABIC MATHEMATICAL THEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE16, name: 'ARABIC MATHEMATICAL THEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_THEH = "\u{1EE16}";
 
-    #[Info(id: 126487, name: 'ARABIC MATHEMATICAL KHAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE17, name: 'ARABIC MATHEMATICAL KHAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_KHAH = "\u{1EE17}";
 
-    #[Info(id: 126488, name: 'ARABIC MATHEMATICAL THAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE18, name: 'ARABIC MATHEMATICAL THAL', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_THAL = "\u{1EE18}";
 
-    #[Info(id: 126489, name: 'ARABIC MATHEMATICAL DAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE19, name: 'ARABIC MATHEMATICAL DAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DAD = "\u{1EE19}";
 
-    #[Info(id: 126490, name: 'ARABIC MATHEMATICAL ZAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE1A, name: 'ARABIC MATHEMATICAL ZAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_ZAH = "\u{1EE1A}";
 
-    #[Info(id: 126491, name: 'ARABIC MATHEMATICAL GHAIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE1B, name: 'ARABIC MATHEMATICAL GHAIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_GHAIN = "\u{1EE1B}";
 
-    #[Info(id: 126492, name: 'ARABIC MATHEMATICAL DOTLESS BEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE1C, name: 'ARABIC MATHEMATICAL DOTLESS BEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOTLESS_BEH = "\u{1EE1C}";
 
-    #[Info(id: 126493, name: 'ARABIC MATHEMATICAL DOTLESS NOON', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE1D, name: 'ARABIC MATHEMATICAL DOTLESS NOON', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOTLESS_NOON = "\u{1EE1D}";
 
-    #[Info(id: 126494, name: 'ARABIC MATHEMATICAL DOTLESS FEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE1E, name: 'ARABIC MATHEMATICAL DOTLESS FEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOTLESS_FEH = "\u{1EE1E}";
 
-    #[Info(id: 126495, name: 'ARABIC MATHEMATICAL DOTLESS QAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE1F, name: 'ARABIC MATHEMATICAL DOTLESS QAF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOTLESS_QAF = "\u{1EE1F}";
 
-    #[Info(id: 126497, name: 'ARABIC MATHEMATICAL INITIAL BEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE21, name: 'ARABIC MATHEMATICAL INITIAL BEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_BEH = "\u{1EE21}";
 
-    #[Info(id: 126498, name: 'ARABIC MATHEMATICAL INITIAL JEEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE22, name: 'ARABIC MATHEMATICAL INITIAL JEEM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_JEEM = "\u{1EE22}";
 
-    #[Info(id: 126500, name: 'ARABIC MATHEMATICAL INITIAL HEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE24, name: 'ARABIC MATHEMATICAL INITIAL HEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_HEH = "\u{1EE24}";
 
-    #[Info(id: 126503, name: 'ARABIC MATHEMATICAL INITIAL HAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE27, name: 'ARABIC MATHEMATICAL INITIAL HAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_HAH = "\u{1EE27}";
 
-    #[Info(id: 126505, name: 'ARABIC MATHEMATICAL INITIAL YEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE29, name: 'ARABIC MATHEMATICAL INITIAL YEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_YEH = "\u{1EE29}";
 
-    #[Info(id: 126506, name: 'ARABIC MATHEMATICAL INITIAL KAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE2A, name: 'ARABIC MATHEMATICAL INITIAL KAF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_KAF = "\u{1EE2A}";
 
-    #[Info(id: 126507, name: 'ARABIC MATHEMATICAL INITIAL LAM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE2B, name: 'ARABIC MATHEMATICAL INITIAL LAM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_LAM = "\u{1EE2B}";
 
-    #[Info(id: 126508, name: 'ARABIC MATHEMATICAL INITIAL MEEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE2C, name: 'ARABIC MATHEMATICAL INITIAL MEEM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_MEEM = "\u{1EE2C}";
 
-    #[Info(id: 126509, name: 'ARABIC MATHEMATICAL INITIAL NOON', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE2D, name: 'ARABIC MATHEMATICAL INITIAL NOON', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_NOON = "\u{1EE2D}";
 
-    #[Info(id: 126510, name: 'ARABIC MATHEMATICAL INITIAL SEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE2E, name: 'ARABIC MATHEMATICAL INITIAL SEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_SEEN = "\u{1EE2E}";
 
-    #[Info(id: 126511, name: 'ARABIC MATHEMATICAL INITIAL AIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE2F, name: 'ARABIC MATHEMATICAL INITIAL AIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_AIN = "\u{1EE2F}";
 
-    #[Info(id: 126512, name: 'ARABIC MATHEMATICAL INITIAL FEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE30, name: 'ARABIC MATHEMATICAL INITIAL FEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_FEH = "\u{1EE30}";
 
-    #[Info(id: 126513, name: 'ARABIC MATHEMATICAL INITIAL SAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE31, name: 'ARABIC MATHEMATICAL INITIAL SAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_SAD = "\u{1EE31}";
 
-    #[Info(id: 126514, name: 'ARABIC MATHEMATICAL INITIAL QAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE32, name: 'ARABIC MATHEMATICAL INITIAL QAF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_QAF = "\u{1EE32}";
 
-    #[Info(id: 126516, name: 'ARABIC MATHEMATICAL INITIAL SHEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE34, name: 'ARABIC MATHEMATICAL INITIAL SHEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_SHEEN = "\u{1EE34}";
 
-    #[Info(id: 126517, name: 'ARABIC MATHEMATICAL INITIAL TEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE35, name: 'ARABIC MATHEMATICAL INITIAL TEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_TEH = "\u{1EE35}";
 
-    #[Info(id: 126518, name: 'ARABIC MATHEMATICAL INITIAL THEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE36, name: 'ARABIC MATHEMATICAL INITIAL THEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_THEH = "\u{1EE36}";
 
-    #[Info(id: 126519, name: 'ARABIC MATHEMATICAL INITIAL KHAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE37, name: 'ARABIC MATHEMATICAL INITIAL KHAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_KHAH = "\u{1EE37}";
 
-    #[Info(id: 126521, name: 'ARABIC MATHEMATICAL INITIAL DAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE39, name: 'ARABIC MATHEMATICAL INITIAL DAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_DAD = "\u{1EE39}";
 
-    #[Info(id: 126523, name: 'ARABIC MATHEMATICAL INITIAL GHAIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE3B, name: 'ARABIC MATHEMATICAL INITIAL GHAIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_INITIAL_GHAIN = "\u{1EE3B}";
 
-    #[Info(id: 126530, name: 'ARABIC MATHEMATICAL TAILED JEEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE42, name: 'ARABIC MATHEMATICAL TAILED JEEM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_JEEM = "\u{1EE42}";
 
-    #[Info(id: 126535, name: 'ARABIC MATHEMATICAL TAILED HAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE47, name: 'ARABIC MATHEMATICAL TAILED HAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_HAH = "\u{1EE47}";
 
-    #[Info(id: 126537, name: 'ARABIC MATHEMATICAL TAILED YEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE49, name: 'ARABIC MATHEMATICAL TAILED YEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_YEH = "\u{1EE49}";
 
-    #[Info(id: 126539, name: 'ARABIC MATHEMATICAL TAILED LAM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE4B, name: 'ARABIC MATHEMATICAL TAILED LAM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_LAM = "\u{1EE4B}";
 
-    #[Info(id: 126541, name: 'ARABIC MATHEMATICAL TAILED NOON', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE4D, name: 'ARABIC MATHEMATICAL TAILED NOON', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_NOON = "\u{1EE4D}";
 
-    #[Info(id: 126542, name: 'ARABIC MATHEMATICAL TAILED SEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE4E, name: 'ARABIC MATHEMATICAL TAILED SEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_SEEN = "\u{1EE4E}";
 
-    #[Info(id: 126543, name: 'ARABIC MATHEMATICAL TAILED AIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE4F, name: 'ARABIC MATHEMATICAL TAILED AIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_AIN = "\u{1EE4F}";
 
-    #[Info(id: 126545, name: 'ARABIC MATHEMATICAL TAILED SAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE51, name: 'ARABIC MATHEMATICAL TAILED SAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_SAD = "\u{1EE51}";
 
-    #[Info(id: 126546, name: 'ARABIC MATHEMATICAL TAILED QAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE52, name: 'ARABIC MATHEMATICAL TAILED QAF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_QAF = "\u{1EE52}";
 
-    #[Info(id: 126548, name: 'ARABIC MATHEMATICAL TAILED SHEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE54, name: 'ARABIC MATHEMATICAL TAILED SHEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_SHEEN = "\u{1EE54}";
 
-    #[Info(id: 126551, name: 'ARABIC MATHEMATICAL TAILED KHAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE57, name: 'ARABIC MATHEMATICAL TAILED KHAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_KHAH = "\u{1EE57}";
 
-    #[Info(id: 126553, name: 'ARABIC MATHEMATICAL TAILED DAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE59, name: 'ARABIC MATHEMATICAL TAILED DAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_DAD = "\u{1EE59}";
 
-    #[Info(id: 126555, name: 'ARABIC MATHEMATICAL TAILED GHAIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE5B, name: 'ARABIC MATHEMATICAL TAILED GHAIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_GHAIN = "\u{1EE5B}";
 
-    #[Info(id: 126557, name: 'ARABIC MATHEMATICAL TAILED DOTLESS NOON', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE5D, name: 'ARABIC MATHEMATICAL TAILED DOTLESS NOON', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_DOTLESS_NOON = "\u{1EE5D}";
 
-    #[Info(id: 126559, name: 'ARABIC MATHEMATICAL TAILED DOTLESS QAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE5F, name: 'ARABIC MATHEMATICAL TAILED DOTLESS QAF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_TAILED_DOTLESS_QAF = "\u{1EE5F}";
 
-    #[Info(id: 126561, name: 'ARABIC MATHEMATICAL STRETCHED BEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE61, name: 'ARABIC MATHEMATICAL STRETCHED BEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_BEH = "\u{1EE61}";
 
-    #[Info(id: 126562, name: 'ARABIC MATHEMATICAL STRETCHED JEEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE62, name: 'ARABIC MATHEMATICAL STRETCHED JEEM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_JEEM = "\u{1EE62}";
 
-    #[Info(id: 126564, name: 'ARABIC MATHEMATICAL STRETCHED HEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE64, name: 'ARABIC MATHEMATICAL STRETCHED HEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_HEH = "\u{1EE64}";
 
-    #[Info(id: 126567, name: 'ARABIC MATHEMATICAL STRETCHED HAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE67, name: 'ARABIC MATHEMATICAL STRETCHED HAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_HAH = "\u{1EE67}";
 
-    #[Info(id: 126568, name: 'ARABIC MATHEMATICAL STRETCHED TAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE68, name: 'ARABIC MATHEMATICAL STRETCHED TAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_TAH = "\u{1EE68}";
 
-    #[Info(id: 126569, name: 'ARABIC MATHEMATICAL STRETCHED YEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE69, name: 'ARABIC MATHEMATICAL STRETCHED YEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_YEH = "\u{1EE69}";
 
-    #[Info(id: 126570, name: 'ARABIC MATHEMATICAL STRETCHED KAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE6A, name: 'ARABIC MATHEMATICAL STRETCHED KAF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_KAF = "\u{1EE6A}";
 
-    #[Info(id: 126572, name: 'ARABIC MATHEMATICAL STRETCHED MEEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE6C, name: 'ARABIC MATHEMATICAL STRETCHED MEEM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_MEEM = "\u{1EE6C}";
 
-    #[Info(id: 126573, name: 'ARABIC MATHEMATICAL STRETCHED NOON', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE6D, name: 'ARABIC MATHEMATICAL STRETCHED NOON', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_NOON = "\u{1EE6D}";
 
-    #[Info(id: 126574, name: 'ARABIC MATHEMATICAL STRETCHED SEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE6E, name: 'ARABIC MATHEMATICAL STRETCHED SEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_SEEN = "\u{1EE6E}";
 
-    #[Info(id: 126575, name: 'ARABIC MATHEMATICAL STRETCHED AIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE6F, name: 'ARABIC MATHEMATICAL STRETCHED AIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_AIN = "\u{1EE6F}";
 
-    #[Info(id: 126576, name: 'ARABIC MATHEMATICAL STRETCHED FEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE70, name: 'ARABIC MATHEMATICAL STRETCHED FEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_FEH = "\u{1EE70}";
 
-    #[Info(id: 126577, name: 'ARABIC MATHEMATICAL STRETCHED SAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE71, name: 'ARABIC MATHEMATICAL STRETCHED SAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_SAD = "\u{1EE71}";
 
-    #[Info(id: 126578, name: 'ARABIC MATHEMATICAL STRETCHED QAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE72, name: 'ARABIC MATHEMATICAL STRETCHED QAF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_QAF = "\u{1EE72}";
 
-    #[Info(id: 126580, name: 'ARABIC MATHEMATICAL STRETCHED SHEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE74, name: 'ARABIC MATHEMATICAL STRETCHED SHEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_SHEEN = "\u{1EE74}";
 
-    #[Info(id: 126581, name: 'ARABIC MATHEMATICAL STRETCHED TEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE75, name: 'ARABIC MATHEMATICAL STRETCHED TEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_TEH = "\u{1EE75}";
 
-    #[Info(id: 126582, name: 'ARABIC MATHEMATICAL STRETCHED THEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE76, name: 'ARABIC MATHEMATICAL STRETCHED THEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_THEH = "\u{1EE76}";
 
-    #[Info(id: 126583, name: 'ARABIC MATHEMATICAL STRETCHED KHAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE77, name: 'ARABIC MATHEMATICAL STRETCHED KHAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_KHAH = "\u{1EE77}";
 
-    #[Info(id: 126585, name: 'ARABIC MATHEMATICAL STRETCHED DAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE79, name: 'ARABIC MATHEMATICAL STRETCHED DAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_DAD = "\u{1EE79}";
 
-    #[Info(id: 126586, name: 'ARABIC MATHEMATICAL STRETCHED ZAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE7A, name: 'ARABIC MATHEMATICAL STRETCHED ZAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_ZAH = "\u{1EE7A}";
 
-    #[Info(id: 126587, name: 'ARABIC MATHEMATICAL STRETCHED GHAIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE7B, name: 'ARABIC MATHEMATICAL STRETCHED GHAIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_GHAIN = "\u{1EE7B}";
 
-    #[Info(id: 126588, name: 'ARABIC MATHEMATICAL STRETCHED DOTLESS BEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE7C, name: 'ARABIC MATHEMATICAL STRETCHED DOTLESS BEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_DOTLESS_BEH = "\u{1EE7C}";
 
-    #[Info(id: 126590, name: 'ARABIC MATHEMATICAL STRETCHED DOTLESS FEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE7E, name: 'ARABIC MATHEMATICAL STRETCHED DOTLESS FEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_STRETCHED_DOTLESS_FEH = "\u{1EE7E}";
 
-    #[Info(id: 126592, name: 'ARABIC MATHEMATICAL LOOPED ALEF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE80, name: 'ARABIC MATHEMATICAL LOOPED ALEF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_ALEF = "\u{1EE80}";
 
-    #[Info(id: 126593, name: 'ARABIC MATHEMATICAL LOOPED BEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE81, name: 'ARABIC MATHEMATICAL LOOPED BEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_BEH = "\u{1EE81}";
 
-    #[Info(id: 126594, name: 'ARABIC MATHEMATICAL LOOPED JEEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE82, name: 'ARABIC MATHEMATICAL LOOPED JEEM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_JEEM = "\u{1EE82}";
 
-    #[Info(id: 126595, name: 'ARABIC MATHEMATICAL LOOPED DAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE83, name: 'ARABIC MATHEMATICAL LOOPED DAL', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_DAL = "\u{1EE83}";
 
-    #[Info(id: 126596, name: 'ARABIC MATHEMATICAL LOOPED HEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE84, name: 'ARABIC MATHEMATICAL LOOPED HEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_HEH = "\u{1EE84}";
 
-    #[Info(id: 126597, name: 'ARABIC MATHEMATICAL LOOPED WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE85, name: 'ARABIC MATHEMATICAL LOOPED WAW', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_WAW = "\u{1EE85}";
 
-    #[Info(id: 126598, name: 'ARABIC MATHEMATICAL LOOPED ZAIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE86, name: 'ARABIC MATHEMATICAL LOOPED ZAIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_ZAIN = "\u{1EE86}";
 
-    #[Info(id: 126599, name: 'ARABIC MATHEMATICAL LOOPED HAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE87, name: 'ARABIC MATHEMATICAL LOOPED HAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_HAH = "\u{1EE87}";
 
-    #[Info(id: 126600, name: 'ARABIC MATHEMATICAL LOOPED TAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE88, name: 'ARABIC MATHEMATICAL LOOPED TAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_TAH = "\u{1EE88}";
 
-    #[Info(id: 126601, name: 'ARABIC MATHEMATICAL LOOPED YEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE89, name: 'ARABIC MATHEMATICAL LOOPED YEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_YEH = "\u{1EE89}";
 
-    #[Info(id: 126603, name: 'ARABIC MATHEMATICAL LOOPED LAM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE8B, name: 'ARABIC MATHEMATICAL LOOPED LAM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_LAM = "\u{1EE8B}";
 
-    #[Info(id: 126604, name: 'ARABIC MATHEMATICAL LOOPED MEEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE8C, name: 'ARABIC MATHEMATICAL LOOPED MEEM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_MEEM = "\u{1EE8C}";
 
-    #[Info(id: 126605, name: 'ARABIC MATHEMATICAL LOOPED NOON', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE8D, name: 'ARABIC MATHEMATICAL LOOPED NOON', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_NOON = "\u{1EE8D}";
 
-    #[Info(id: 126606, name: 'ARABIC MATHEMATICAL LOOPED SEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE8E, name: 'ARABIC MATHEMATICAL LOOPED SEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_SEEN = "\u{1EE8E}";
 
-    #[Info(id: 126607, name: 'ARABIC MATHEMATICAL LOOPED AIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE8F, name: 'ARABIC MATHEMATICAL LOOPED AIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_AIN = "\u{1EE8F}";
 
-    #[Info(id: 126608, name: 'ARABIC MATHEMATICAL LOOPED FEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE90, name: 'ARABIC MATHEMATICAL LOOPED FEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_FEH = "\u{1EE90}";
 
-    #[Info(id: 126609, name: 'ARABIC MATHEMATICAL LOOPED SAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE91, name: 'ARABIC MATHEMATICAL LOOPED SAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_SAD = "\u{1EE91}";
 
-    #[Info(id: 126610, name: 'ARABIC MATHEMATICAL LOOPED QAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE92, name: 'ARABIC MATHEMATICAL LOOPED QAF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_QAF = "\u{1EE92}";
 
-    #[Info(id: 126611, name: 'ARABIC MATHEMATICAL LOOPED REH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE93, name: 'ARABIC MATHEMATICAL LOOPED REH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_REH = "\u{1EE93}";
 
-    #[Info(id: 126612, name: 'ARABIC MATHEMATICAL LOOPED SHEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE94, name: 'ARABIC MATHEMATICAL LOOPED SHEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_SHEEN = "\u{1EE94}";
 
-    #[Info(id: 126613, name: 'ARABIC MATHEMATICAL LOOPED TEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE95, name: 'ARABIC MATHEMATICAL LOOPED TEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_TEH = "\u{1EE95}";
 
-    #[Info(id: 126614, name: 'ARABIC MATHEMATICAL LOOPED THEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE96, name: 'ARABIC MATHEMATICAL LOOPED THEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_THEH = "\u{1EE96}";
 
-    #[Info(id: 126615, name: 'ARABIC MATHEMATICAL LOOPED KHAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE97, name: 'ARABIC MATHEMATICAL LOOPED KHAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_KHAH = "\u{1EE97}";
 
-    #[Info(id: 126616, name: 'ARABIC MATHEMATICAL LOOPED THAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE98, name: 'ARABIC MATHEMATICAL LOOPED THAL', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_THAL = "\u{1EE98}";
 
-    #[Info(id: 126617, name: 'ARABIC MATHEMATICAL LOOPED DAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE99, name: 'ARABIC MATHEMATICAL LOOPED DAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_DAD = "\u{1EE99}";
 
-    #[Info(id: 126618, name: 'ARABIC MATHEMATICAL LOOPED ZAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE9A, name: 'ARABIC MATHEMATICAL LOOPED ZAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_ZAH = "\u{1EE9A}";
 
-    #[Info(id: 126619, name: 'ARABIC MATHEMATICAL LOOPED GHAIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EE9B, name: 'ARABIC MATHEMATICAL LOOPED GHAIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_LOOPED_GHAIN = "\u{1EE9B}";
 
-    #[Info(id: 126625, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK BEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEA1, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK BEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_BEH = "\u{1EEA1}";
 
-    #[Info(id: 126626, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK JEEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEA2, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK JEEM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_JEEM = "\u{1EEA2}";
 
-    #[Info(id: 126627, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK DAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEA3, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK DAL', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_DAL = "\u{1EEA3}";
 
-    #[Info(id: 126629, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEA5, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK WAW', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_WAW = "\u{1EEA5}";
 
-    #[Info(id: 126630, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK ZAIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEA6, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK ZAIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_ZAIN = "\u{1EEA6}";
 
-    #[Info(id: 126631, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK HAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEA7, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK HAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_HAH = "\u{1EEA7}";
 
-    #[Info(id: 126632, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK TAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEA8, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK TAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_TAH = "\u{1EEA8}";
 
-    #[Info(id: 126633, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK YEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEA9, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK YEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_YEH = "\u{1EEA9}";
 
-    #[Info(id: 126635, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK LAM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEAB, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK LAM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_LAM = "\u{1EEAB}";
 
-    #[Info(id: 126636, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK MEEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEAC, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK MEEM', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_MEEM = "\u{1EEAC}";
 
-    #[Info(id: 126637, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK NOON', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEAD, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK NOON', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_NOON = "\u{1EEAD}";
 
-    #[Info(id: 126638, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK SEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEAE, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK SEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_SEEN = "\u{1EEAE}";
 
-    #[Info(id: 126639, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK AIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEAF, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK AIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_AIN = "\u{1EEAF}";
 
-    #[Info(id: 126640, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK FEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEB0, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK FEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_FEH = "\u{1EEB0}";
 
-    #[Info(id: 126641, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK SAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEB1, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK SAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_SAD = "\u{1EEB1}";
 
-    #[Info(id: 126642, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK QAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEB2, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK QAF', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_QAF = "\u{1EEB2}";
 
-    #[Info(id: 126643, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK REH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEB3, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK REH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_REH = "\u{1EEB3}";
 
-    #[Info(id: 126644, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK SHEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEB4, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK SHEEN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_SHEEN = "\u{1EEB4}";
 
-    #[Info(id: 126645, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK TEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEB5, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK TEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_TEH = "\u{1EEB5}";
 
-    #[Info(id: 126646, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK THEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEB6, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK THEH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_THEH = "\u{1EEB6}";
 
-    #[Info(id: 126647, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK KHAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEB7, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK KHAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_KHAH = "\u{1EEB7}";
 
-    #[Info(id: 126648, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK THAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEB8, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK THAL', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_THAL = "\u{1EEB8}";
 
-    #[Info(id: 126649, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK DAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEB9, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK DAD', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_DAD = "\u{1EEB9}";
 
-    #[Info(id: 126650, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK ZAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEBA, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK ZAH', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_ZAH = "\u{1EEBA}";
 
-    #[Info(id: 126651, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK GHAIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1EEBB, name: 'ARABIC MATHEMATICAL DOUBLE-STRUCK GHAIN', category: Cat::Other_Letter)]
     case ARABIC_MATHEMATICAL_DOUBLE_STRUCK_GHAIN = "\u{1EEBB}";
 
-    #[Info(id: 126704, name: 'ARABIC MATHEMATICAL OPERATOR MEEM WITH HAH WITH TATWEEL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1EEF0, name: 'ARABIC MATHEMATICAL OPERATOR MEEM WITH HAH WITH TATWEEL', category: Cat::Math_Symbol)]
     case ARABIC_MATHEMATICAL_OPERATOR_MEEM_WITH_HAH_WITH_TATWEEL = "\u{1EEF0}";
 
-    #[Info(id: 126705, name: 'ARABIC MATHEMATICAL OPERATOR HAH WITH DAL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1EEF1, name: 'ARABIC MATHEMATICAL OPERATOR HAH WITH DAL', category: Cat::Math_Symbol)]
     case ARABIC_MATHEMATICAL_OPERATOR_HAH_WITH_DAL = "\u{1EEF1}";
 }

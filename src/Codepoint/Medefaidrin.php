@@ -16,276 +16,276 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Medefaidrin: string
 {
-    #[Info(id: 93760, name: 'MEDEFAIDRIN CAPITAL LETTER M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E40, name: 'MEDEFAIDRIN CAPITAL LETTER M', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_M = "\u{16E40}";
 
-    #[Info(id: 93761, name: 'MEDEFAIDRIN CAPITAL LETTER S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E41, name: 'MEDEFAIDRIN CAPITAL LETTER S', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_S = "\u{16E41}";
 
-    #[Info(id: 93762, name: 'MEDEFAIDRIN CAPITAL LETTER V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E42, name: 'MEDEFAIDRIN CAPITAL LETTER V', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_V = "\u{16E42}";
 
-    #[Info(id: 93763, name: 'MEDEFAIDRIN CAPITAL LETTER W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E43, name: 'MEDEFAIDRIN CAPITAL LETTER W', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_W = "\u{16E43}";
 
-    #[Info(id: 93764, name: 'MEDEFAIDRIN CAPITAL LETTER ATIU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E44, name: 'MEDEFAIDRIN CAPITAL LETTER ATIU', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_ATIU = "\u{16E44}";
 
-    #[Info(id: 93765, name: 'MEDEFAIDRIN CAPITAL LETTER Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E45, name: 'MEDEFAIDRIN CAPITAL LETTER Z', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_Z = "\u{16E45}";
 
-    #[Info(id: 93766, name: 'MEDEFAIDRIN CAPITAL LETTER KP', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E46, name: 'MEDEFAIDRIN CAPITAL LETTER KP', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_KP = "\u{16E46}";
 
-    #[Info(id: 93767, name: 'MEDEFAIDRIN CAPITAL LETTER P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E47, name: 'MEDEFAIDRIN CAPITAL LETTER P', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_P = "\u{16E47}";
 
-    #[Info(id: 93768, name: 'MEDEFAIDRIN CAPITAL LETTER T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E48, name: 'MEDEFAIDRIN CAPITAL LETTER T', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_T = "\u{16E48}";
 
-    #[Info(id: 93769, name: 'MEDEFAIDRIN CAPITAL LETTER G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E49, name: 'MEDEFAIDRIN CAPITAL LETTER G', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_G = "\u{16E49}";
 
-    #[Info(id: 93770, name: 'MEDEFAIDRIN CAPITAL LETTER F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E4A, name: 'MEDEFAIDRIN CAPITAL LETTER F', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_F = "\u{16E4A}";
 
-    #[Info(id: 93771, name: 'MEDEFAIDRIN CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E4B, name: 'MEDEFAIDRIN CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_I = "\u{16E4B}";
 
-    #[Info(id: 93772, name: 'MEDEFAIDRIN CAPITAL LETTER K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E4C, name: 'MEDEFAIDRIN CAPITAL LETTER K', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_K = "\u{16E4C}";
 
-    #[Info(id: 93773, name: 'MEDEFAIDRIN CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E4D, name: 'MEDEFAIDRIN CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_A = "\u{16E4D}";
 
-    #[Info(id: 93774, name: 'MEDEFAIDRIN CAPITAL LETTER J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E4E, name: 'MEDEFAIDRIN CAPITAL LETTER J', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_J = "\u{16E4E}";
 
-    #[Info(id: 93775, name: 'MEDEFAIDRIN CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E4F, name: 'MEDEFAIDRIN CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_E = "\u{16E4F}";
 
-    #[Info(id: 93776, name: 'MEDEFAIDRIN CAPITAL LETTER B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E50, name: 'MEDEFAIDRIN CAPITAL LETTER B', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_B = "\u{16E50}";
 
-    #[Info(id: 93777, name: 'MEDEFAIDRIN CAPITAL LETTER C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E51, name: 'MEDEFAIDRIN CAPITAL LETTER C', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_C = "\u{16E51}";
 
-    #[Info(id: 93778, name: 'MEDEFAIDRIN CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E52, name: 'MEDEFAIDRIN CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_U = "\u{16E52}";
 
-    #[Info(id: 93779, name: 'MEDEFAIDRIN CAPITAL LETTER YU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E53, name: 'MEDEFAIDRIN CAPITAL LETTER YU', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_YU = "\u{16E53}";
 
-    #[Info(id: 93780, name: 'MEDEFAIDRIN CAPITAL LETTER L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E54, name: 'MEDEFAIDRIN CAPITAL LETTER L', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_L = "\u{16E54}";
 
-    #[Info(id: 93781, name: 'MEDEFAIDRIN CAPITAL LETTER Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E55, name: 'MEDEFAIDRIN CAPITAL LETTER Q', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_Q = "\u{16E55}";
 
-    #[Info(id: 93782, name: 'MEDEFAIDRIN CAPITAL LETTER HP', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E56, name: 'MEDEFAIDRIN CAPITAL LETTER HP', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_HP = "\u{16E56}";
 
-    #[Info(id: 93783, name: 'MEDEFAIDRIN CAPITAL LETTER NY', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E57, name: 'MEDEFAIDRIN CAPITAL LETTER NY', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_NY = "\u{16E57}";
 
-    #[Info(id: 93784, name: 'MEDEFAIDRIN CAPITAL LETTER X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E58, name: 'MEDEFAIDRIN CAPITAL LETTER X', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_X = "\u{16E58}";
 
-    #[Info(id: 93785, name: 'MEDEFAIDRIN CAPITAL LETTER D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E59, name: 'MEDEFAIDRIN CAPITAL LETTER D', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_D = "\u{16E59}";
 
-    #[Info(id: 93786, name: 'MEDEFAIDRIN CAPITAL LETTER OE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E5A, name: 'MEDEFAIDRIN CAPITAL LETTER OE', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_OE = "\u{16E5A}";
 
-    #[Info(id: 93787, name: 'MEDEFAIDRIN CAPITAL LETTER N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E5B, name: 'MEDEFAIDRIN CAPITAL LETTER N', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_N = "\u{16E5B}";
 
-    #[Info(id: 93788, name: 'MEDEFAIDRIN CAPITAL LETTER R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E5C, name: 'MEDEFAIDRIN CAPITAL LETTER R', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_R = "\u{16E5C}";
 
-    #[Info(id: 93789, name: 'MEDEFAIDRIN CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E5D, name: 'MEDEFAIDRIN CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_O = "\u{16E5D}";
 
-    #[Info(id: 93790, name: 'MEDEFAIDRIN CAPITAL LETTER AI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E5E, name: 'MEDEFAIDRIN CAPITAL LETTER AI', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_AI = "\u{16E5E}";
 
-    #[Info(id: 93791, name: 'MEDEFAIDRIN CAPITAL LETTER Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x16E5F, name: 'MEDEFAIDRIN CAPITAL LETTER Y', category: Cat::Uppercase_Letter)]
     case MEDEFAIDRIN_CAPITAL_LETTER_Y = "\u{16E5F}";
 
-    #[Info(id: 93792, name: 'MEDEFAIDRIN SMALL LETTER M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E60, name: 'MEDEFAIDRIN SMALL LETTER M', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_M = "\u{16E60}";
 
-    #[Info(id: 93793, name: 'MEDEFAIDRIN SMALL LETTER S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E61, name: 'MEDEFAIDRIN SMALL LETTER S', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_S = "\u{16E61}";
 
-    #[Info(id: 93794, name: 'MEDEFAIDRIN SMALL LETTER V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E62, name: 'MEDEFAIDRIN SMALL LETTER V', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_V = "\u{16E62}";
 
-    #[Info(id: 93795, name: 'MEDEFAIDRIN SMALL LETTER W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E63, name: 'MEDEFAIDRIN SMALL LETTER W', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_W = "\u{16E63}";
 
-    #[Info(id: 93796, name: 'MEDEFAIDRIN SMALL LETTER ATIU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E64, name: 'MEDEFAIDRIN SMALL LETTER ATIU', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_ATIU = "\u{16E64}";
 
-    #[Info(id: 93797, name: 'MEDEFAIDRIN SMALL LETTER Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E65, name: 'MEDEFAIDRIN SMALL LETTER Z', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_Z = "\u{16E65}";
 
-    #[Info(id: 93798, name: 'MEDEFAIDRIN SMALL LETTER KP', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E66, name: 'MEDEFAIDRIN SMALL LETTER KP', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_KP = "\u{16E66}";
 
-    #[Info(id: 93799, name: 'MEDEFAIDRIN SMALL LETTER P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E67, name: 'MEDEFAIDRIN SMALL LETTER P', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_P = "\u{16E67}";
 
-    #[Info(id: 93800, name: 'MEDEFAIDRIN SMALL LETTER T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E68, name: 'MEDEFAIDRIN SMALL LETTER T', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_T = "\u{16E68}";
 
-    #[Info(id: 93801, name: 'MEDEFAIDRIN SMALL LETTER G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E69, name: 'MEDEFAIDRIN SMALL LETTER G', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_G = "\u{16E69}";
 
-    #[Info(id: 93802, name: 'MEDEFAIDRIN SMALL LETTER F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E6A, name: 'MEDEFAIDRIN SMALL LETTER F', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_F = "\u{16E6A}";
 
-    #[Info(id: 93803, name: 'MEDEFAIDRIN SMALL LETTER I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E6B, name: 'MEDEFAIDRIN SMALL LETTER I', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_I = "\u{16E6B}";
 
-    #[Info(id: 93804, name: 'MEDEFAIDRIN SMALL LETTER K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E6C, name: 'MEDEFAIDRIN SMALL LETTER K', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_K = "\u{16E6C}";
 
-    #[Info(id: 93805, name: 'MEDEFAIDRIN SMALL LETTER A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E6D, name: 'MEDEFAIDRIN SMALL LETTER A', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_A = "\u{16E6D}";
 
-    #[Info(id: 93806, name: 'MEDEFAIDRIN SMALL LETTER J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E6E, name: 'MEDEFAIDRIN SMALL LETTER J', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_J = "\u{16E6E}";
 
-    #[Info(id: 93807, name: 'MEDEFAIDRIN SMALL LETTER E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E6F, name: 'MEDEFAIDRIN SMALL LETTER E', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_E = "\u{16E6F}";
 
-    #[Info(id: 93808, name: 'MEDEFAIDRIN SMALL LETTER B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E70, name: 'MEDEFAIDRIN SMALL LETTER B', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_B = "\u{16E70}";
 
-    #[Info(id: 93809, name: 'MEDEFAIDRIN SMALL LETTER C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E71, name: 'MEDEFAIDRIN SMALL LETTER C', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_C = "\u{16E71}";
 
-    #[Info(id: 93810, name: 'MEDEFAIDRIN SMALL LETTER U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E72, name: 'MEDEFAIDRIN SMALL LETTER U', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_U = "\u{16E72}";
 
-    #[Info(id: 93811, name: 'MEDEFAIDRIN SMALL LETTER YU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E73, name: 'MEDEFAIDRIN SMALL LETTER YU', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_YU = "\u{16E73}";
 
-    #[Info(id: 93812, name: 'MEDEFAIDRIN SMALL LETTER L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E74, name: 'MEDEFAIDRIN SMALL LETTER L', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_L = "\u{16E74}";
 
-    #[Info(id: 93813, name: 'MEDEFAIDRIN SMALL LETTER Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E75, name: 'MEDEFAIDRIN SMALL LETTER Q', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_Q = "\u{16E75}";
 
-    #[Info(id: 93814, name: 'MEDEFAIDRIN SMALL LETTER HP', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E76, name: 'MEDEFAIDRIN SMALL LETTER HP', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_HP = "\u{16E76}";
 
-    #[Info(id: 93815, name: 'MEDEFAIDRIN SMALL LETTER NY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E77, name: 'MEDEFAIDRIN SMALL LETTER NY', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_NY = "\u{16E77}";
 
-    #[Info(id: 93816, name: 'MEDEFAIDRIN SMALL LETTER X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E78, name: 'MEDEFAIDRIN SMALL LETTER X', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_X = "\u{16E78}";
 
-    #[Info(id: 93817, name: 'MEDEFAIDRIN SMALL LETTER D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E79, name: 'MEDEFAIDRIN SMALL LETTER D', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_D = "\u{16E79}";
 
-    #[Info(id: 93818, name: 'MEDEFAIDRIN SMALL LETTER OE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E7A, name: 'MEDEFAIDRIN SMALL LETTER OE', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_OE = "\u{16E7A}";
 
-    #[Info(id: 93819, name: 'MEDEFAIDRIN SMALL LETTER N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E7B, name: 'MEDEFAIDRIN SMALL LETTER N', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_N = "\u{16E7B}";
 
-    #[Info(id: 93820, name: 'MEDEFAIDRIN SMALL LETTER R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E7C, name: 'MEDEFAIDRIN SMALL LETTER R', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_R = "\u{16E7C}";
 
-    #[Info(id: 93821, name: 'MEDEFAIDRIN SMALL LETTER O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E7D, name: 'MEDEFAIDRIN SMALL LETTER O', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_O = "\u{16E7D}";
 
-    #[Info(id: 93822, name: 'MEDEFAIDRIN SMALL LETTER AI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E7E, name: 'MEDEFAIDRIN SMALL LETTER AI', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_AI = "\u{16E7E}";
 
-    #[Info(id: 93823, name: 'MEDEFAIDRIN SMALL LETTER Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x16E7F, name: 'MEDEFAIDRIN SMALL LETTER Y', category: Cat::Lowercase_Letter)]
     case MEDEFAIDRIN_SMALL_LETTER_Y = "\u{16E7F}";
 
-    #[Info(id: 93824, name: 'MEDEFAIDRIN DIGIT ZERO', category: Cat::Other_Number)]
+    #[Info(id: 0x16E80, name: 'MEDEFAIDRIN DIGIT ZERO', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_ZERO = "\u{16E80}";
 
-    #[Info(id: 93825, name: 'MEDEFAIDRIN DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x16E81, name: 'MEDEFAIDRIN DIGIT ONE', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_ONE = "\u{16E81}";
 
-    #[Info(id: 93826, name: 'MEDEFAIDRIN DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x16E82, name: 'MEDEFAIDRIN DIGIT TWO', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_TWO = "\u{16E82}";
 
-    #[Info(id: 93827, name: 'MEDEFAIDRIN DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x16E83, name: 'MEDEFAIDRIN DIGIT THREE', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_THREE = "\u{16E83}";
 
-    #[Info(id: 93828, name: 'MEDEFAIDRIN DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x16E84, name: 'MEDEFAIDRIN DIGIT FOUR', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_FOUR = "\u{16E84}";
 
-    #[Info(id: 93829, name: 'MEDEFAIDRIN DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x16E85, name: 'MEDEFAIDRIN DIGIT FIVE', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_FIVE = "\u{16E85}";
 
-    #[Info(id: 93830, name: 'MEDEFAIDRIN DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x16E86, name: 'MEDEFAIDRIN DIGIT SIX', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_SIX = "\u{16E86}";
 
-    #[Info(id: 93831, name: 'MEDEFAIDRIN DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x16E87, name: 'MEDEFAIDRIN DIGIT SEVEN', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_SEVEN = "\u{16E87}";
 
-    #[Info(id: 93832, name: 'MEDEFAIDRIN DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x16E88, name: 'MEDEFAIDRIN DIGIT EIGHT', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_EIGHT = "\u{16E88}";
 
-    #[Info(id: 93833, name: 'MEDEFAIDRIN DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x16E89, name: 'MEDEFAIDRIN DIGIT NINE', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_NINE = "\u{16E89}";
 
-    #[Info(id: 93834, name: 'MEDEFAIDRIN NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x16E8A, name: 'MEDEFAIDRIN NUMBER TEN', category: Cat::Other_Number)]
     case MEDEFAIDRIN_NUMBER_TEN = "\u{16E8A}";
 
-    #[Info(id: 93835, name: 'MEDEFAIDRIN NUMBER ELEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x16E8B, name: 'MEDEFAIDRIN NUMBER ELEVEN', category: Cat::Other_Number)]
     case MEDEFAIDRIN_NUMBER_ELEVEN = "\u{16E8B}";
 
-    #[Info(id: 93836, name: 'MEDEFAIDRIN NUMBER TWELVE', category: Cat::Other_Number)]
+    #[Info(id: 0x16E8C, name: 'MEDEFAIDRIN NUMBER TWELVE', category: Cat::Other_Number)]
     case MEDEFAIDRIN_NUMBER_TWELVE = "\u{16E8C}";
 
-    #[Info(id: 93837, name: 'MEDEFAIDRIN NUMBER THIRTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x16E8D, name: 'MEDEFAIDRIN NUMBER THIRTEEN', category: Cat::Other_Number)]
     case MEDEFAIDRIN_NUMBER_THIRTEEN = "\u{16E8D}";
 
-    #[Info(id: 93838, name: 'MEDEFAIDRIN NUMBER FOURTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x16E8E, name: 'MEDEFAIDRIN NUMBER FOURTEEN', category: Cat::Other_Number)]
     case MEDEFAIDRIN_NUMBER_FOURTEEN = "\u{16E8E}";
 
-    #[Info(id: 93839, name: 'MEDEFAIDRIN NUMBER FIFTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x16E8F, name: 'MEDEFAIDRIN NUMBER FIFTEEN', category: Cat::Other_Number)]
     case MEDEFAIDRIN_NUMBER_FIFTEEN = "\u{16E8F}";
 
-    #[Info(id: 93840, name: 'MEDEFAIDRIN NUMBER SIXTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x16E90, name: 'MEDEFAIDRIN NUMBER SIXTEEN', category: Cat::Other_Number)]
     case MEDEFAIDRIN_NUMBER_SIXTEEN = "\u{16E90}";
 
-    #[Info(id: 93841, name: 'MEDEFAIDRIN NUMBER SEVENTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x16E91, name: 'MEDEFAIDRIN NUMBER SEVENTEEN', category: Cat::Other_Number)]
     case MEDEFAIDRIN_NUMBER_SEVENTEEN = "\u{16E91}";
 
-    #[Info(id: 93842, name: 'MEDEFAIDRIN NUMBER EIGHTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x16E92, name: 'MEDEFAIDRIN NUMBER EIGHTEEN', category: Cat::Other_Number)]
     case MEDEFAIDRIN_NUMBER_EIGHTEEN = "\u{16E92}";
 
-    #[Info(id: 93843, name: 'MEDEFAIDRIN NUMBER NINETEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x16E93, name: 'MEDEFAIDRIN NUMBER NINETEEN', category: Cat::Other_Number)]
     case MEDEFAIDRIN_NUMBER_NINETEEN = "\u{16E93}";
 
-    #[Info(id: 93844, name: 'MEDEFAIDRIN DIGIT ONE ALTERNATE FORM', category: Cat::Other_Number)]
+    #[Info(id: 0x16E94, name: 'MEDEFAIDRIN DIGIT ONE ALTERNATE FORM', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_ONE_ALTERNATE_FORM = "\u{16E94}";
 
-    #[Info(id: 93845, name: 'MEDEFAIDRIN DIGIT TWO ALTERNATE FORM', category: Cat::Other_Number)]
+    #[Info(id: 0x16E95, name: 'MEDEFAIDRIN DIGIT TWO ALTERNATE FORM', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_TWO_ALTERNATE_FORM = "\u{16E95}";
 
-    #[Info(id: 93846, name: 'MEDEFAIDRIN DIGIT THREE ALTERNATE FORM', category: Cat::Other_Number)]
+    #[Info(id: 0x16E96, name: 'MEDEFAIDRIN DIGIT THREE ALTERNATE FORM', category: Cat::Other_Number)]
     case MEDEFAIDRIN_DIGIT_THREE_ALTERNATE_FORM = "\u{16E96}";
 
-    #[Info(id: 93847, name: 'MEDEFAIDRIN COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x16E97, name: 'MEDEFAIDRIN COMMA', category: Cat::Other_Punctuation)]
     case MEDEFAIDRIN_COMMA = "\u{16E97}";
 
-    #[Info(id: 93848, name: 'MEDEFAIDRIN FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x16E98, name: 'MEDEFAIDRIN FULL STOP', category: Cat::Other_Punctuation)]
     case MEDEFAIDRIN_FULL_STOP = "\u{16E98}";
 
-    #[Info(id: 93849, name: 'MEDEFAIDRIN SYMBOL AIVA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x16E99, name: 'MEDEFAIDRIN SYMBOL AIVA', category: Cat::Other_Punctuation)]
     case MEDEFAIDRIN_SYMBOL_AIVA = "\u{16E99}";
 
-    #[Info(id: 93850, name: 'MEDEFAIDRIN EXCLAMATION OH', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x16E9A, name: 'MEDEFAIDRIN EXCLAMATION OH', category: Cat::Other_Punctuation)]
     case MEDEFAIDRIN_EXCLAMATION_OH = "\u{16E9A}";
 }

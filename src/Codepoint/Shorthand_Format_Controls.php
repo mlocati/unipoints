@@ -16,15 +16,15 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Shorthand_Format_Controls: string
 {
-    #[Info(id: 113824, name: 'SHORTHAND FORMAT LETTER OVERLAP', category: Cat::Format)]
+    #[Info(id: 0x1BCA0, name: 'SHORTHAND FORMAT LETTER OVERLAP', category: Cat::Format)]
     case SHORTHAND_FORMAT_LETTER_OVERLAP = "\u{1BCA0}";
 
-    #[Info(id: 113825, name: 'SHORTHAND FORMAT CONTINUING OVERLAP', category: Cat::Format)]
+    #[Info(id: 0x1BCA1, name: 'SHORTHAND FORMAT CONTINUING OVERLAP', category: Cat::Format)]
     case SHORTHAND_FORMAT_CONTINUING_OVERLAP = "\u{1BCA1}";
 
-    #[Info(id: 113826, name: 'SHORTHAND FORMAT DOWN STEP', category: Cat::Format)]
+    #[Info(id: 0x1BCA2, name: 'SHORTHAND FORMAT DOWN STEP', category: Cat::Format)]
     case SHORTHAND_FORMAT_DOWN_STEP = "\u{1BCA2}";
 
-    #[Info(id: 113827, name: 'SHORTHAND FORMAT UP STEP', category: Cat::Format)]
+    #[Info(id: 0x1BCA3, name: 'SHORTHAND FORMAT UP STEP', category: Cat::Format)]
     case SHORTHAND_FORMAT_UP_STEP = "\u{1BCA3}";
 }

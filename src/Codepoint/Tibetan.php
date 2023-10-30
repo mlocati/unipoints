@@ -16,636 +16,636 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Tibetan: string
 {
-    #[Info(id: 3840, name: 'TIBETAN SYLLABLE OM', category: Cat::Other_Letter)]
+    #[Info(id: 0xF00, name: 'TIBETAN SYLLABLE OM', category: Cat::Other_Letter)]
     case TIBETAN_SYLLABLE_OM = "\u{F00}";
 
-    #[Info(id: 3841, name: 'TIBETAN MARK GTER YIG MGO TRUNCATED A', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF01, name: 'TIBETAN MARK GTER YIG MGO TRUNCATED A', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_GTER_YIG_MGO_TRUNCATED_A = "\u{F01}";
 
-    #[Info(id: 3842, name: 'TIBETAN MARK GTER YIG MGO -UM RNAM BCAD MA', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF02, name: 'TIBETAN MARK GTER YIG MGO -UM RNAM BCAD MA', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_GTER_YIG_MGO__UM_RNAM_BCAD_MA = "\u{F02}";
 
-    #[Info(id: 3843, name: 'TIBETAN MARK GTER YIG MGO -UM GTER TSHEG MA', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF03, name: 'TIBETAN MARK GTER YIG MGO -UM GTER TSHEG MA', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_GTER_YIG_MGO__UM_GTER_TSHEG_MA = "\u{F03}";
 
-    #[Info(id: 3844, name: 'TIBETAN MARK INITIAL YIG MGO MDUN MA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF04, name: 'TIBETAN MARK INITIAL YIG MGO MDUN MA', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_INITIAL_YIG_MGO_MDUN_MA = "\u{F04}";
 
-    #[Info(id: 3845, name: 'TIBETAN MARK CLOSING YIG MGO SGAB MA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF05, name: 'TIBETAN MARK CLOSING YIG MGO SGAB MA', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_CLOSING_YIG_MGO_SGAB_MA = "\u{F05}";
 
-    #[Info(id: 3846, name: 'TIBETAN MARK CARET YIG MGO PHUR SHAD MA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF06, name: 'TIBETAN MARK CARET YIG MGO PHUR SHAD MA', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_CARET_YIG_MGO_PHUR_SHAD_MA = "\u{F06}";
 
-    #[Info(id: 3847, name: 'TIBETAN MARK YIG MGO TSHEG SHAD MA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF07, name: 'TIBETAN MARK YIG MGO TSHEG SHAD MA', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_YIG_MGO_TSHEG_SHAD_MA = "\u{F07}";
 
-    #[Info(id: 3848, name: 'TIBETAN MARK SBRUL SHAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF08, name: 'TIBETAN MARK SBRUL SHAD', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_SBRUL_SHAD = "\u{F08}";
 
-    #[Info(id: 3849, name: 'TIBETAN MARK BSKUR YIG MGO', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF09, name: 'TIBETAN MARK BSKUR YIG MGO', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_BSKUR_YIG_MGO = "\u{F09}";
 
-    #[Info(id: 3850, name: 'TIBETAN MARK BKA- SHOG YIG MGO', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF0A, name: 'TIBETAN MARK BKA- SHOG YIG MGO', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_BKA__SHOG_YIG_MGO = "\u{F0A}";
 
-    #[Info(id: 3851, name: 'TIBETAN MARK INTERSYLLABIC TSHEG', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF0B, name: 'TIBETAN MARK INTERSYLLABIC TSHEG', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_INTERSYLLABIC_TSHEG = "\u{F0B}";
 
-    #[Info(id: 3852, name: 'TIBETAN MARK DELIMITER TSHEG BSTAR', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF0C, name: 'TIBETAN MARK DELIMITER TSHEG BSTAR', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_DELIMITER_TSHEG_BSTAR = "\u{F0C}";
 
-    #[Info(id: 3853, name: 'TIBETAN MARK SHAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF0D, name: 'TIBETAN MARK SHAD', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_SHAD = "\u{F0D}";
 
-    #[Info(id: 3854, name: 'TIBETAN MARK NYIS SHAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF0E, name: 'TIBETAN MARK NYIS SHAD', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_NYIS_SHAD = "\u{F0E}";
 
-    #[Info(id: 3855, name: 'TIBETAN MARK TSHEG SHAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF0F, name: 'TIBETAN MARK TSHEG SHAD', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_TSHEG_SHAD = "\u{F0F}";
 
-    #[Info(id: 3856, name: 'TIBETAN MARK NYIS TSHEG SHAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF10, name: 'TIBETAN MARK NYIS TSHEG SHAD', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_NYIS_TSHEG_SHAD = "\u{F10}";
 
-    #[Info(id: 3857, name: 'TIBETAN MARK RIN CHEN SPUNGS SHAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF11, name: 'TIBETAN MARK RIN CHEN SPUNGS SHAD', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_RIN_CHEN_SPUNGS_SHAD = "\u{F11}";
 
-    #[Info(id: 3858, name: 'TIBETAN MARK RGYA GRAM SHAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF12, name: 'TIBETAN MARK RGYA GRAM SHAD', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_RGYA_GRAM_SHAD = "\u{F12}";
 
-    #[Info(id: 3859, name: 'TIBETAN MARK CARET -DZUD RTAGS ME LONG CAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF13, name: 'TIBETAN MARK CARET -DZUD RTAGS ME LONG CAN', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_CARET__DZUD_RTAGS_ME_LONG_CAN = "\u{F13}";
 
-    #[Info(id: 3860, name: 'TIBETAN MARK GTER TSHEG', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF14, name: 'TIBETAN MARK GTER TSHEG', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_GTER_TSHEG = "\u{F14}";
 
-    #[Info(id: 3861, name: 'TIBETAN LOGOTYPE SIGN CHAD RTAGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF15, name: 'TIBETAN LOGOTYPE SIGN CHAD RTAGS', category: Cat::Other_Symbol)]
     case TIBETAN_LOGOTYPE_SIGN_CHAD_RTAGS = "\u{F15}";
 
-    #[Info(id: 3862, name: 'TIBETAN LOGOTYPE SIGN LHAG RTAGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF16, name: 'TIBETAN LOGOTYPE SIGN LHAG RTAGS', category: Cat::Other_Symbol)]
     case TIBETAN_LOGOTYPE_SIGN_LHAG_RTAGS = "\u{F16}";
 
-    #[Info(id: 3863, name: 'TIBETAN ASTROLOGICAL SIGN SGRA GCAN -CHAR RTAGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF17, name: 'TIBETAN ASTROLOGICAL SIGN SGRA GCAN -CHAR RTAGS', category: Cat::Other_Symbol)]
     case TIBETAN_ASTROLOGICAL_SIGN_SGRA_GCAN__CHAR_RTAGS = "\u{F17}";
 
-    #[Info(id: 3864, name: 'TIBETAN ASTROLOGICAL SIGN -KHYUD PA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF18, name: 'TIBETAN ASTROLOGICAL SIGN -KHYUD PA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_ASTROLOGICAL_SIGN__KHYUD_PA = "\u{F18}";
 
-    #[Info(id: 3865, name: 'TIBETAN ASTROLOGICAL SIGN SDONG TSHUGS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF19, name: 'TIBETAN ASTROLOGICAL SIGN SDONG TSHUGS', category: Cat::Nonspacing_Mark)]
     case TIBETAN_ASTROLOGICAL_SIGN_SDONG_TSHUGS = "\u{F19}";
 
-    #[Info(id: 3866, name: 'TIBETAN SIGN RDEL DKAR GCIG', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF1A, name: 'TIBETAN SIGN RDEL DKAR GCIG', category: Cat::Other_Symbol)]
     case TIBETAN_SIGN_RDEL_DKAR_GCIG = "\u{F1A}";
 
-    #[Info(id: 3867, name: 'TIBETAN SIGN RDEL DKAR GNYIS', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF1B, name: 'TIBETAN SIGN RDEL DKAR GNYIS', category: Cat::Other_Symbol)]
     case TIBETAN_SIGN_RDEL_DKAR_GNYIS = "\u{F1B}";
 
-    #[Info(id: 3868, name: 'TIBETAN SIGN RDEL DKAR GSUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF1C, name: 'TIBETAN SIGN RDEL DKAR GSUM', category: Cat::Other_Symbol)]
     case TIBETAN_SIGN_RDEL_DKAR_GSUM = "\u{F1C}";
 
-    #[Info(id: 3869, name: 'TIBETAN SIGN RDEL NAG GCIG', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF1D, name: 'TIBETAN SIGN RDEL NAG GCIG', category: Cat::Other_Symbol)]
     case TIBETAN_SIGN_RDEL_NAG_GCIG = "\u{F1D}";
 
-    #[Info(id: 3870, name: 'TIBETAN SIGN RDEL NAG GNYIS', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF1E, name: 'TIBETAN SIGN RDEL NAG GNYIS', category: Cat::Other_Symbol)]
     case TIBETAN_SIGN_RDEL_NAG_GNYIS = "\u{F1E}";
 
-    #[Info(id: 3871, name: 'TIBETAN SIGN RDEL DKAR RDEL NAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF1F, name: 'TIBETAN SIGN RDEL DKAR RDEL NAG', category: Cat::Other_Symbol)]
     case TIBETAN_SIGN_RDEL_DKAR_RDEL_NAG = "\u{F1F}";
 
-    #[Info(id: 3872, name: 'TIBETAN DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xF20, name: 'TIBETAN DIGIT ZERO', category: Cat::Decimal_Number)]
     case TIBETAN_DIGIT_ZERO = "\u{F20}";
 
-    #[Info(id: 3873, name: 'TIBETAN DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xF21, name: 'TIBETAN DIGIT ONE', category: Cat::Decimal_Number)]
     case TIBETAN_DIGIT_ONE = "\u{F21}";
 
-    #[Info(id: 3874, name: 'TIBETAN DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xF22, name: 'TIBETAN DIGIT TWO', category: Cat::Decimal_Number)]
     case TIBETAN_DIGIT_TWO = "\u{F22}";
 
-    #[Info(id: 3875, name: 'TIBETAN DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xF23, name: 'TIBETAN DIGIT THREE', category: Cat::Decimal_Number)]
     case TIBETAN_DIGIT_THREE = "\u{F23}";
 
-    #[Info(id: 3876, name: 'TIBETAN DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xF24, name: 'TIBETAN DIGIT FOUR', category: Cat::Decimal_Number)]
     case TIBETAN_DIGIT_FOUR = "\u{F24}";
 
-    #[Info(id: 3877, name: 'TIBETAN DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xF25, name: 'TIBETAN DIGIT FIVE', category: Cat::Decimal_Number)]
     case TIBETAN_DIGIT_FIVE = "\u{F25}";
 
-    #[Info(id: 3878, name: 'TIBETAN DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xF26, name: 'TIBETAN DIGIT SIX', category: Cat::Decimal_Number)]
     case TIBETAN_DIGIT_SIX = "\u{F26}";
 
-    #[Info(id: 3879, name: 'TIBETAN DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xF27, name: 'TIBETAN DIGIT SEVEN', category: Cat::Decimal_Number)]
     case TIBETAN_DIGIT_SEVEN = "\u{F27}";
 
-    #[Info(id: 3880, name: 'TIBETAN DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xF28, name: 'TIBETAN DIGIT EIGHT', category: Cat::Decimal_Number)]
     case TIBETAN_DIGIT_EIGHT = "\u{F28}";
 
-    #[Info(id: 3881, name: 'TIBETAN DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xF29, name: 'TIBETAN DIGIT NINE', category: Cat::Decimal_Number)]
     case TIBETAN_DIGIT_NINE = "\u{F29}";
 
-    #[Info(id: 3882, name: 'TIBETAN DIGIT HALF ONE', category: Cat::Other_Number)]
+    #[Info(id: 0xF2A, name: 'TIBETAN DIGIT HALF ONE', category: Cat::Other_Number)]
     case TIBETAN_DIGIT_HALF_ONE = "\u{F2A}";
 
-    #[Info(id: 3883, name: 'TIBETAN DIGIT HALF TWO', category: Cat::Other_Number)]
+    #[Info(id: 0xF2B, name: 'TIBETAN DIGIT HALF TWO', category: Cat::Other_Number)]
     case TIBETAN_DIGIT_HALF_TWO = "\u{F2B}";
 
-    #[Info(id: 3884, name: 'TIBETAN DIGIT HALF THREE', category: Cat::Other_Number)]
+    #[Info(id: 0xF2C, name: 'TIBETAN DIGIT HALF THREE', category: Cat::Other_Number)]
     case TIBETAN_DIGIT_HALF_THREE = "\u{F2C}";
 
-    #[Info(id: 3885, name: 'TIBETAN DIGIT HALF FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0xF2D, name: 'TIBETAN DIGIT HALF FOUR', category: Cat::Other_Number)]
     case TIBETAN_DIGIT_HALF_FOUR = "\u{F2D}";
 
-    #[Info(id: 3886, name: 'TIBETAN DIGIT HALF FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0xF2E, name: 'TIBETAN DIGIT HALF FIVE', category: Cat::Other_Number)]
     case TIBETAN_DIGIT_HALF_FIVE = "\u{F2E}";
 
-    #[Info(id: 3887, name: 'TIBETAN DIGIT HALF SIX', category: Cat::Other_Number)]
+    #[Info(id: 0xF2F, name: 'TIBETAN DIGIT HALF SIX', category: Cat::Other_Number)]
     case TIBETAN_DIGIT_HALF_SIX = "\u{F2F}";
 
-    #[Info(id: 3888, name: 'TIBETAN DIGIT HALF SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0xF30, name: 'TIBETAN DIGIT HALF SEVEN', category: Cat::Other_Number)]
     case TIBETAN_DIGIT_HALF_SEVEN = "\u{F30}";
 
-    #[Info(id: 3889, name: 'TIBETAN DIGIT HALF EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0xF31, name: 'TIBETAN DIGIT HALF EIGHT', category: Cat::Other_Number)]
     case TIBETAN_DIGIT_HALF_EIGHT = "\u{F31}";
 
-    #[Info(id: 3890, name: 'TIBETAN DIGIT HALF NINE', category: Cat::Other_Number)]
+    #[Info(id: 0xF32, name: 'TIBETAN DIGIT HALF NINE', category: Cat::Other_Number)]
     case TIBETAN_DIGIT_HALF_NINE = "\u{F32}";
 
-    #[Info(id: 3891, name: 'TIBETAN DIGIT HALF ZERO', category: Cat::Other_Number)]
+    #[Info(id: 0xF33, name: 'TIBETAN DIGIT HALF ZERO', category: Cat::Other_Number)]
     case TIBETAN_DIGIT_HALF_ZERO = "\u{F33}";
 
-    #[Info(id: 3892, name: 'TIBETAN MARK BSDUS RTAGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF34, name: 'TIBETAN MARK BSDUS RTAGS', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_BSDUS_RTAGS = "\u{F34}";
 
-    #[Info(id: 3893, name: 'TIBETAN MARK NGAS BZUNG NYI ZLA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF35, name: 'TIBETAN MARK NGAS BZUNG NYI ZLA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_MARK_NGAS_BZUNG_NYI_ZLA = "\u{F35}";
 
-    #[Info(id: 3894, name: 'TIBETAN MARK CARET -DZUD RTAGS BZHI MIG CAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF36, name: 'TIBETAN MARK CARET -DZUD RTAGS BZHI MIG CAN', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_CARET__DZUD_RTAGS_BZHI_MIG_CAN = "\u{F36}";
 
-    #[Info(id: 3895, name: 'TIBETAN MARK NGAS BZUNG SGOR RTAGS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF37, name: 'TIBETAN MARK NGAS BZUNG SGOR RTAGS', category: Cat::Nonspacing_Mark)]
     case TIBETAN_MARK_NGAS_BZUNG_SGOR_RTAGS = "\u{F37}";
 
-    #[Info(id: 3896, name: 'TIBETAN MARK CHE MGO', category: Cat::Other_Symbol)]
+    #[Info(id: 0xF38, name: 'TIBETAN MARK CHE MGO', category: Cat::Other_Symbol)]
     case TIBETAN_MARK_CHE_MGO = "\u{F38}";
 
-    #[Info(id: 3897, name: 'TIBETAN MARK TSA -PHRU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF39, name: 'TIBETAN MARK TSA -PHRU', category: Cat::Nonspacing_Mark)]
     case TIBETAN_MARK_TSA__PHRU = "\u{F39}";
 
-    #[Info(id: 3898, name: 'TIBETAN MARK GUG RTAGS GYON', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xF3A, name: 'TIBETAN MARK GUG RTAGS GYON', category: Cat::Open_Punctuation)]
     case TIBETAN_MARK_GUG_RTAGS_GYON = "\u{F3A}";
 
-    #[Info(id: 3899, name: 'TIBETAN MARK GUG RTAGS GYAS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xF3B, name: 'TIBETAN MARK GUG RTAGS GYAS', category: Cat::Close_Punctuation)]
     case TIBETAN_MARK_GUG_RTAGS_GYAS = "\u{F3B}";
 
-    #[Info(id: 3900, name: 'TIBETAN MARK ANG KHANG GYON', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xF3C, name: 'TIBETAN MARK ANG KHANG GYON', category: Cat::Open_Punctuation)]
     case TIBETAN_MARK_ANG_KHANG_GYON = "\u{F3C}";
 
-    #[Info(id: 3901, name: 'TIBETAN MARK ANG KHANG GYAS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xF3D, name: 'TIBETAN MARK ANG KHANG GYAS', category: Cat::Close_Punctuation)]
     case TIBETAN_MARK_ANG_KHANG_GYAS = "\u{F3D}";
 
-    #[Info(id: 3902, name: 'TIBETAN SIGN YAR TSHES', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xF3E, name: 'TIBETAN SIGN YAR TSHES', category: Cat::Spacing_Mark)]
     case TIBETAN_SIGN_YAR_TSHES = "\u{F3E}";
 
-    #[Info(id: 3903, name: 'TIBETAN SIGN MAR TSHES', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xF3F, name: 'TIBETAN SIGN MAR TSHES', category: Cat::Spacing_Mark)]
     case TIBETAN_SIGN_MAR_TSHES = "\u{F3F}";
 
-    #[Info(id: 3904, name: 'TIBETAN LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF40, name: 'TIBETAN LETTER KA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_KA = "\u{F40}";
 
-    #[Info(id: 3905, name: 'TIBETAN LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF41, name: 'TIBETAN LETTER KHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_KHA = "\u{F41}";
 
-    #[Info(id: 3906, name: 'TIBETAN LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF42, name: 'TIBETAN LETTER GA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_GA = "\u{F42}";
 
-    #[Info(id: 3907, name: 'TIBETAN LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF43, name: 'TIBETAN LETTER GHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_GHA = "\u{F43}";
 
-    #[Info(id: 3908, name: 'TIBETAN LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF44, name: 'TIBETAN LETTER NGA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_NGA = "\u{F44}";
 
-    #[Info(id: 3909, name: 'TIBETAN LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF45, name: 'TIBETAN LETTER CA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_CA = "\u{F45}";
 
-    #[Info(id: 3910, name: 'TIBETAN LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF46, name: 'TIBETAN LETTER CHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_CHA = "\u{F46}";
 
-    #[Info(id: 3911, name: 'TIBETAN LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF47, name: 'TIBETAN LETTER JA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_JA = "\u{F47}";
 
-    #[Info(id: 3913, name: 'TIBETAN LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF49, name: 'TIBETAN LETTER NYA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_NYA = "\u{F49}";
 
-    #[Info(id: 3914, name: 'TIBETAN LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF4A, name: 'TIBETAN LETTER TTA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_TTA = "\u{F4A}";
 
-    #[Info(id: 3915, name: 'TIBETAN LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF4B, name: 'TIBETAN LETTER TTHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_TTHA = "\u{F4B}";
 
-    #[Info(id: 3916, name: 'TIBETAN LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF4C, name: 'TIBETAN LETTER DDA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_DDA = "\u{F4C}";
 
-    #[Info(id: 3917, name: 'TIBETAN LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF4D, name: 'TIBETAN LETTER DDHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_DDHA = "\u{F4D}";
 
-    #[Info(id: 3918, name: 'TIBETAN LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF4E, name: 'TIBETAN LETTER NNA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_NNA = "\u{F4E}";
 
-    #[Info(id: 3919, name: 'TIBETAN LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF4F, name: 'TIBETAN LETTER TA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_TA = "\u{F4F}";
 
-    #[Info(id: 3920, name: 'TIBETAN LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF50, name: 'TIBETAN LETTER THA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_THA = "\u{F50}";
 
-    #[Info(id: 3921, name: 'TIBETAN LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF51, name: 'TIBETAN LETTER DA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_DA = "\u{F51}";
 
-    #[Info(id: 3922, name: 'TIBETAN LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF52, name: 'TIBETAN LETTER DHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_DHA = "\u{F52}";
 
-    #[Info(id: 3923, name: 'TIBETAN LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF53, name: 'TIBETAN LETTER NA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_NA = "\u{F53}";
 
-    #[Info(id: 3924, name: 'TIBETAN LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF54, name: 'TIBETAN LETTER PA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_PA = "\u{F54}";
 
-    #[Info(id: 3925, name: 'TIBETAN LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF55, name: 'TIBETAN LETTER PHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_PHA = "\u{F55}";
 
-    #[Info(id: 3926, name: 'TIBETAN LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF56, name: 'TIBETAN LETTER BA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_BA = "\u{F56}";
 
-    #[Info(id: 3927, name: 'TIBETAN LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF57, name: 'TIBETAN LETTER BHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_BHA = "\u{F57}";
 
-    #[Info(id: 3928, name: 'TIBETAN LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF58, name: 'TIBETAN LETTER MA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_MA = "\u{F58}";
 
-    #[Info(id: 3929, name: 'TIBETAN LETTER TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF59, name: 'TIBETAN LETTER TSA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_TSA = "\u{F59}";
 
-    #[Info(id: 3930, name: 'TIBETAN LETTER TSHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF5A, name: 'TIBETAN LETTER TSHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_TSHA = "\u{F5A}";
 
-    #[Info(id: 3931, name: 'TIBETAN LETTER DZA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF5B, name: 'TIBETAN LETTER DZA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_DZA = "\u{F5B}";
 
-    #[Info(id: 3932, name: 'TIBETAN LETTER DZHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF5C, name: 'TIBETAN LETTER DZHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_DZHA = "\u{F5C}";
 
-    #[Info(id: 3933, name: 'TIBETAN LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF5D, name: 'TIBETAN LETTER WA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_WA = "\u{F5D}";
 
-    #[Info(id: 3934, name: 'TIBETAN LETTER ZHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF5E, name: 'TIBETAN LETTER ZHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_ZHA = "\u{F5E}";
 
-    #[Info(id: 3935, name: 'TIBETAN LETTER ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF5F, name: 'TIBETAN LETTER ZA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_ZA = "\u{F5F}";
 
-    #[Info(id: 3936, name: 'TIBETAN LETTER -A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF60, name: 'TIBETAN LETTER -A', category: Cat::Other_Letter)]
     case TIBETAN_LETTER__A = "\u{F60}";
 
-    #[Info(id: 3937, name: 'TIBETAN LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF61, name: 'TIBETAN LETTER YA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_YA = "\u{F61}";
 
-    #[Info(id: 3938, name: 'TIBETAN LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF62, name: 'TIBETAN LETTER RA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_RA = "\u{F62}";
 
-    #[Info(id: 3939, name: 'TIBETAN LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF63, name: 'TIBETAN LETTER LA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_LA = "\u{F63}";
 
-    #[Info(id: 3940, name: 'TIBETAN LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF64, name: 'TIBETAN LETTER SHA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_SHA = "\u{F64}";
 
-    #[Info(id: 3941, name: 'TIBETAN LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF65, name: 'TIBETAN LETTER SSA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_SSA = "\u{F65}";
 
-    #[Info(id: 3942, name: 'TIBETAN LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF66, name: 'TIBETAN LETTER SA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_SA = "\u{F66}";
 
-    #[Info(id: 3943, name: 'TIBETAN LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF67, name: 'TIBETAN LETTER HA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_HA = "\u{F67}";
 
-    #[Info(id: 3944, name: 'TIBETAN LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF68, name: 'TIBETAN LETTER A', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_A = "\u{F68}";
 
-    #[Info(id: 3945, name: 'TIBETAN LETTER KSSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF69, name: 'TIBETAN LETTER KSSA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_KSSA = "\u{F69}";
 
-    #[Info(id: 3946, name: 'TIBETAN LETTER FIXED-FORM RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF6A, name: 'TIBETAN LETTER FIXED-FORM RA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_FIXED_FORM_RA = "\u{F6A}";
 
-    #[Info(id: 3947, name: 'TIBETAN LETTER KKA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF6B, name: 'TIBETAN LETTER KKA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_KKA = "\u{F6B}";
 
-    #[Info(id: 3948, name: 'TIBETAN LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF6C, name: 'TIBETAN LETTER RRA', category: Cat::Other_Letter)]
     case TIBETAN_LETTER_RRA = "\u{F6C}";
 
-    #[Info(id: 3953, name: 'TIBETAN VOWEL SIGN AA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF71, name: 'TIBETAN VOWEL SIGN AA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_AA = "\u{F71}";
 
-    #[Info(id: 3954, name: 'TIBETAN VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF72, name: 'TIBETAN VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_I = "\u{F72}";
 
-    #[Info(id: 3955, name: 'TIBETAN VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF73, name: 'TIBETAN VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_II = "\u{F73}";
 
-    #[Info(id: 3956, name: 'TIBETAN VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF74, name: 'TIBETAN VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_U = "\u{F74}";
 
-    #[Info(id: 3957, name: 'TIBETAN VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF75, name: 'TIBETAN VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_UU = "\u{F75}";
 
-    #[Info(id: 3958, name: 'TIBETAN VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF76, name: 'TIBETAN VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_VOCALIC_R = "\u{F76}";
 
-    #[Info(id: 3959, name: 'TIBETAN VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF77, name: 'TIBETAN VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_VOCALIC_RR = "\u{F77}";
 
-    #[Info(id: 3960, name: 'TIBETAN VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF78, name: 'TIBETAN VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_VOCALIC_L = "\u{F78}";
 
-    #[Info(id: 3961, name: 'TIBETAN VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF79, name: 'TIBETAN VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_VOCALIC_LL = "\u{F79}";
 
-    #[Info(id: 3962, name: 'TIBETAN VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF7A, name: 'TIBETAN VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_E = "\u{F7A}";
 
-    #[Info(id: 3963, name: 'TIBETAN VOWEL SIGN EE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF7B, name: 'TIBETAN VOWEL SIGN EE', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_EE = "\u{F7B}";
 
-    #[Info(id: 3964, name: 'TIBETAN VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF7C, name: 'TIBETAN VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_O = "\u{F7C}";
 
-    #[Info(id: 3965, name: 'TIBETAN VOWEL SIGN OO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF7D, name: 'TIBETAN VOWEL SIGN OO', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_OO = "\u{F7D}";
 
-    #[Info(id: 3966, name: 'TIBETAN SIGN RJES SU NGA RO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF7E, name: 'TIBETAN SIGN RJES SU NGA RO', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SIGN_RJES_SU_NGA_RO = "\u{F7E}";
 
-    #[Info(id: 3967, name: 'TIBETAN SIGN RNAM BCAD', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xF7F, name: 'TIBETAN SIGN RNAM BCAD', category: Cat::Spacing_Mark)]
     case TIBETAN_SIGN_RNAM_BCAD = "\u{F7F}";
 
-    #[Info(id: 3968, name: 'TIBETAN VOWEL SIGN REVERSED I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF80, name: 'TIBETAN VOWEL SIGN REVERSED I', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_REVERSED_I = "\u{F80}";
 
-    #[Info(id: 3969, name: 'TIBETAN VOWEL SIGN REVERSED II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF81, name: 'TIBETAN VOWEL SIGN REVERSED II', category: Cat::Nonspacing_Mark)]
     case TIBETAN_VOWEL_SIGN_REVERSED_II = "\u{F81}";
 
-    #[Info(id: 3970, name: 'TIBETAN SIGN NYI ZLA NAA DA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF82, name: 'TIBETAN SIGN NYI ZLA NAA DA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SIGN_NYI_ZLA_NAA_DA = "\u{F82}";
 
-    #[Info(id: 3971, name: 'TIBETAN SIGN SNA LDAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF83, name: 'TIBETAN SIGN SNA LDAN', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SIGN_SNA_LDAN = "\u{F83}";
 
-    #[Info(id: 3972, name: 'TIBETAN MARK HALANTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF84, name: 'TIBETAN MARK HALANTA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_MARK_HALANTA = "\u{F84}";
 
-    #[Info(id: 3973, name: 'TIBETAN MARK PALUTA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xF85, name: 'TIBETAN MARK PALUTA', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_PALUTA = "\u{F85}";
 
-    #[Info(id: 3974, name: 'TIBETAN SIGN LCI RTAGS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF86, name: 'TIBETAN SIGN LCI RTAGS', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SIGN_LCI_RTAGS = "\u{F86}";
 
-    #[Info(id: 3975, name: 'TIBETAN SIGN YANG RTAGS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF87, name: 'TIBETAN SIGN YANG RTAGS', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SIGN_YANG_RTAGS = "\u{F87}";
 
-    #[Info(id: 3976, name: 'TIBETAN SIGN LCE TSA CAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xF88, name: 'TIBETAN SIGN LCE TSA CAN', category: Cat::Other_Letter)]
     case TIBETAN_SIGN_LCE_TSA_CAN = "\u{F88}";
 
-    #[Info(id: 3977, name: 'TIBETAN SIGN MCHU CAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xF89, name: 'TIBETAN SIGN MCHU CAN', category: Cat::Other_Letter)]
     case TIBETAN_SIGN_MCHU_CAN = "\u{F89}";
 
-    #[Info(id: 3978, name: 'TIBETAN SIGN GRU CAN RGYINGS', category: Cat::Other_Letter)]
+    #[Info(id: 0xF8A, name: 'TIBETAN SIGN GRU CAN RGYINGS', category: Cat::Other_Letter)]
     case TIBETAN_SIGN_GRU_CAN_RGYINGS = "\u{F8A}";
 
-    #[Info(id: 3979, name: 'TIBETAN SIGN GRU MED RGYINGS', category: Cat::Other_Letter)]
+    #[Info(id: 0xF8B, name: 'TIBETAN SIGN GRU MED RGYINGS', category: Cat::Other_Letter)]
     case TIBETAN_SIGN_GRU_MED_RGYINGS = "\u{F8B}";
 
-    #[Info(id: 3980, name: 'TIBETAN SIGN INVERTED MCHU CAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xF8C, name: 'TIBETAN SIGN INVERTED MCHU CAN', category: Cat::Other_Letter)]
     case TIBETAN_SIGN_INVERTED_MCHU_CAN = "\u{F8C}";
 
-    #[Info(id: 3981, name: 'TIBETAN SUBJOINED SIGN LCE TSA CAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF8D, name: 'TIBETAN SUBJOINED SIGN LCE TSA CAN', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_SIGN_LCE_TSA_CAN = "\u{F8D}";
 
-    #[Info(id: 3982, name: 'TIBETAN SUBJOINED SIGN MCHU CAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF8E, name: 'TIBETAN SUBJOINED SIGN MCHU CAN', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_SIGN_MCHU_CAN = "\u{F8E}";
 
-    #[Info(id: 3983, name: 'TIBETAN SUBJOINED SIGN INVERTED MCHU CAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF8F, name: 'TIBETAN SUBJOINED SIGN INVERTED MCHU CAN', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_SIGN_INVERTED_MCHU_CAN = "\u{F8F}";
 
-    #[Info(id: 3984, name: 'TIBETAN SUBJOINED LETTER KA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF90, name: 'TIBETAN SUBJOINED LETTER KA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_KA = "\u{F90}";
 
-    #[Info(id: 3985, name: 'TIBETAN SUBJOINED LETTER KHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF91, name: 'TIBETAN SUBJOINED LETTER KHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_KHA = "\u{F91}";
 
-    #[Info(id: 3986, name: 'TIBETAN SUBJOINED LETTER GA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF92, name: 'TIBETAN SUBJOINED LETTER GA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_GA = "\u{F92}";
 
-    #[Info(id: 3987, name: 'TIBETAN SUBJOINED LETTER GHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF93, name: 'TIBETAN SUBJOINED LETTER GHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_GHA = "\u{F93}";
 
-    #[Info(id: 3988, name: 'TIBETAN SUBJOINED LETTER NGA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF94, name: 'TIBETAN SUBJOINED LETTER NGA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_NGA = "\u{F94}";
 
-    #[Info(id: 3989, name: 'TIBETAN SUBJOINED LETTER CA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF95, name: 'TIBETAN SUBJOINED LETTER CA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_CA = "\u{F95}";
 
-    #[Info(id: 3990, name: 'TIBETAN SUBJOINED LETTER CHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF96, name: 'TIBETAN SUBJOINED LETTER CHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_CHA = "\u{F96}";
 
-    #[Info(id: 3991, name: 'TIBETAN SUBJOINED LETTER JA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF97, name: 'TIBETAN SUBJOINED LETTER JA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_JA = "\u{F97}";
 
-    #[Info(id: 3993, name: 'TIBETAN SUBJOINED LETTER NYA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF99, name: 'TIBETAN SUBJOINED LETTER NYA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_NYA = "\u{F99}";
 
-    #[Info(id: 3994, name: 'TIBETAN SUBJOINED LETTER TTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF9A, name: 'TIBETAN SUBJOINED LETTER TTA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_TTA = "\u{F9A}";
 
-    #[Info(id: 3995, name: 'TIBETAN SUBJOINED LETTER TTHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF9B, name: 'TIBETAN SUBJOINED LETTER TTHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_TTHA = "\u{F9B}";
 
-    #[Info(id: 3996, name: 'TIBETAN SUBJOINED LETTER DDA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF9C, name: 'TIBETAN SUBJOINED LETTER DDA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_DDA = "\u{F9C}";
 
-    #[Info(id: 3997, name: 'TIBETAN SUBJOINED LETTER DDHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF9D, name: 'TIBETAN SUBJOINED LETTER DDHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_DDHA = "\u{F9D}";
 
-    #[Info(id: 3998, name: 'TIBETAN SUBJOINED LETTER NNA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF9E, name: 'TIBETAN SUBJOINED LETTER NNA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_NNA = "\u{F9E}";
 
-    #[Info(id: 3999, name: 'TIBETAN SUBJOINED LETTER TA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xF9F, name: 'TIBETAN SUBJOINED LETTER TA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_TA = "\u{F9F}";
 
-    #[Info(id: 4000, name: 'TIBETAN SUBJOINED LETTER THA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFA0, name: 'TIBETAN SUBJOINED LETTER THA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_THA = "\u{FA0}";
 
-    #[Info(id: 4001, name: 'TIBETAN SUBJOINED LETTER DA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFA1, name: 'TIBETAN SUBJOINED LETTER DA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_DA = "\u{FA1}";
 
-    #[Info(id: 4002, name: 'TIBETAN SUBJOINED LETTER DHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFA2, name: 'TIBETAN SUBJOINED LETTER DHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_DHA = "\u{FA2}";
 
-    #[Info(id: 4003, name: 'TIBETAN SUBJOINED LETTER NA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFA3, name: 'TIBETAN SUBJOINED LETTER NA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_NA = "\u{FA3}";
 
-    #[Info(id: 4004, name: 'TIBETAN SUBJOINED LETTER PA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFA4, name: 'TIBETAN SUBJOINED LETTER PA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_PA = "\u{FA4}";
 
-    #[Info(id: 4005, name: 'TIBETAN SUBJOINED LETTER PHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFA5, name: 'TIBETAN SUBJOINED LETTER PHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_PHA = "\u{FA5}";
 
-    #[Info(id: 4006, name: 'TIBETAN SUBJOINED LETTER BA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFA6, name: 'TIBETAN SUBJOINED LETTER BA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_BA = "\u{FA6}";
 
-    #[Info(id: 4007, name: 'TIBETAN SUBJOINED LETTER BHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFA7, name: 'TIBETAN SUBJOINED LETTER BHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_BHA = "\u{FA7}";
 
-    #[Info(id: 4008, name: 'TIBETAN SUBJOINED LETTER MA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFA8, name: 'TIBETAN SUBJOINED LETTER MA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_MA = "\u{FA8}";
 
-    #[Info(id: 4009, name: 'TIBETAN SUBJOINED LETTER TSA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFA9, name: 'TIBETAN SUBJOINED LETTER TSA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_TSA = "\u{FA9}";
 
-    #[Info(id: 4010, name: 'TIBETAN SUBJOINED LETTER TSHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFAA, name: 'TIBETAN SUBJOINED LETTER TSHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_TSHA = "\u{FAA}";
 
-    #[Info(id: 4011, name: 'TIBETAN SUBJOINED LETTER DZA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFAB, name: 'TIBETAN SUBJOINED LETTER DZA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_DZA = "\u{FAB}";
 
-    #[Info(id: 4012, name: 'TIBETAN SUBJOINED LETTER DZHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFAC, name: 'TIBETAN SUBJOINED LETTER DZHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_DZHA = "\u{FAC}";
 
-    #[Info(id: 4013, name: 'TIBETAN SUBJOINED LETTER WA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFAD, name: 'TIBETAN SUBJOINED LETTER WA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_WA = "\u{FAD}";
 
-    #[Info(id: 4014, name: 'TIBETAN SUBJOINED LETTER ZHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFAE, name: 'TIBETAN SUBJOINED LETTER ZHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_ZHA = "\u{FAE}";
 
-    #[Info(id: 4015, name: 'TIBETAN SUBJOINED LETTER ZA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFAF, name: 'TIBETAN SUBJOINED LETTER ZA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_ZA = "\u{FAF}";
 
-    #[Info(id: 4016, name: 'TIBETAN SUBJOINED LETTER -A', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB0, name: 'TIBETAN SUBJOINED LETTER -A', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER__A = "\u{FB0}";
 
-    #[Info(id: 4017, name: 'TIBETAN SUBJOINED LETTER YA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB1, name: 'TIBETAN SUBJOINED LETTER YA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_YA = "\u{FB1}";
 
-    #[Info(id: 4018, name: 'TIBETAN SUBJOINED LETTER RA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB2, name: 'TIBETAN SUBJOINED LETTER RA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_RA = "\u{FB2}";
 
-    #[Info(id: 4019, name: 'TIBETAN SUBJOINED LETTER LA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB3, name: 'TIBETAN SUBJOINED LETTER LA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_LA = "\u{FB3}";
 
-    #[Info(id: 4020, name: 'TIBETAN SUBJOINED LETTER SHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB4, name: 'TIBETAN SUBJOINED LETTER SHA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_SHA = "\u{FB4}";
 
-    #[Info(id: 4021, name: 'TIBETAN SUBJOINED LETTER SSA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB5, name: 'TIBETAN SUBJOINED LETTER SSA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_SSA = "\u{FB5}";
 
-    #[Info(id: 4022, name: 'TIBETAN SUBJOINED LETTER SA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB6, name: 'TIBETAN SUBJOINED LETTER SA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_SA = "\u{FB6}";
 
-    #[Info(id: 4023, name: 'TIBETAN SUBJOINED LETTER HA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB7, name: 'TIBETAN SUBJOINED LETTER HA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_HA = "\u{FB7}";
 
-    #[Info(id: 4024, name: 'TIBETAN SUBJOINED LETTER A', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB8, name: 'TIBETAN SUBJOINED LETTER A', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_A = "\u{FB8}";
 
-    #[Info(id: 4025, name: 'TIBETAN SUBJOINED LETTER KSSA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB9, name: 'TIBETAN SUBJOINED LETTER KSSA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_KSSA = "\u{FB9}";
 
-    #[Info(id: 4026, name: 'TIBETAN SUBJOINED LETTER FIXED-FORM WA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFBA, name: 'TIBETAN SUBJOINED LETTER FIXED-FORM WA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_FIXED_FORM_WA = "\u{FBA}";
 
-    #[Info(id: 4027, name: 'TIBETAN SUBJOINED LETTER FIXED-FORM YA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFBB, name: 'TIBETAN SUBJOINED LETTER FIXED-FORM YA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_FIXED_FORM_YA = "\u{FBB}";
 
-    #[Info(id: 4028, name: 'TIBETAN SUBJOINED LETTER FIXED-FORM RA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFBC, name: 'TIBETAN SUBJOINED LETTER FIXED-FORM RA', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SUBJOINED_LETTER_FIXED_FORM_RA = "\u{FBC}";
 
-    #[Info(id: 4030, name: 'TIBETAN KU RU KHA', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFBE, name: 'TIBETAN KU RU KHA', category: Cat::Other_Symbol)]
     case TIBETAN_KU_RU_KHA = "\u{FBE}";
 
-    #[Info(id: 4031, name: 'TIBETAN KU RU KHA BZHI MIG CAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFBF, name: 'TIBETAN KU RU KHA BZHI MIG CAN', category: Cat::Other_Symbol)]
     case TIBETAN_KU_RU_KHA_BZHI_MIG_CAN = "\u{FBF}";
 
-    #[Info(id: 4032, name: 'TIBETAN CANTILLATION SIGN HEAVY BEAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFC0, name: 'TIBETAN CANTILLATION SIGN HEAVY BEAT', category: Cat::Other_Symbol)]
     case TIBETAN_CANTILLATION_SIGN_HEAVY_BEAT = "\u{FC0}";
 
-    #[Info(id: 4033, name: 'TIBETAN CANTILLATION SIGN LIGHT BEAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFC1, name: 'TIBETAN CANTILLATION SIGN LIGHT BEAT', category: Cat::Other_Symbol)]
     case TIBETAN_CANTILLATION_SIGN_LIGHT_BEAT = "\u{FC1}";
 
-    #[Info(id: 4034, name: 'TIBETAN CANTILLATION SIGN CANG TE-U', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFC2, name: 'TIBETAN CANTILLATION SIGN CANG TE-U', category: Cat::Other_Symbol)]
     case TIBETAN_CANTILLATION_SIGN_CANG_TE_U = "\u{FC2}";
 
-    #[Info(id: 4035, name: 'TIBETAN CANTILLATION SIGN SBUB -CHAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFC3, name: 'TIBETAN CANTILLATION SIGN SBUB -CHAL', category: Cat::Other_Symbol)]
     case TIBETAN_CANTILLATION_SIGN_SBUB__CHAL = "\u{FC3}";
 
-    #[Info(id: 4036, name: 'TIBETAN SYMBOL DRIL BU', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFC4, name: 'TIBETAN SYMBOL DRIL BU', category: Cat::Other_Symbol)]
     case TIBETAN_SYMBOL_DRIL_BU = "\u{FC4}";
 
-    #[Info(id: 4037, name: 'TIBETAN SYMBOL RDO RJE', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFC5, name: 'TIBETAN SYMBOL RDO RJE', category: Cat::Other_Symbol)]
     case TIBETAN_SYMBOL_RDO_RJE = "\u{FC5}";
 
-    #[Info(id: 4038, name: 'TIBETAN SYMBOL PADMA GDAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFC6, name: 'TIBETAN SYMBOL PADMA GDAN', category: Cat::Nonspacing_Mark)]
     case TIBETAN_SYMBOL_PADMA_GDAN = "\u{FC6}";
 
-    #[Info(id: 4039, name: 'TIBETAN SYMBOL RDO RJE RGYA GRAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFC7, name: 'TIBETAN SYMBOL RDO RJE RGYA GRAM', category: Cat::Other_Symbol)]
     case TIBETAN_SYMBOL_RDO_RJE_RGYA_GRAM = "\u{FC7}";
 
-    #[Info(id: 4040, name: 'TIBETAN SYMBOL PHUR PA', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFC8, name: 'TIBETAN SYMBOL PHUR PA', category: Cat::Other_Symbol)]
     case TIBETAN_SYMBOL_PHUR_PA = "\u{FC8}";
 
-    #[Info(id: 4041, name: 'TIBETAN SYMBOL NOR BU', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFC9, name: 'TIBETAN SYMBOL NOR BU', category: Cat::Other_Symbol)]
     case TIBETAN_SYMBOL_NOR_BU = "\u{FC9}";
 
-    #[Info(id: 4042, name: 'TIBETAN SYMBOL NOR BU NYIS -KHYIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFCA, name: 'TIBETAN SYMBOL NOR BU NYIS -KHYIL', category: Cat::Other_Symbol)]
     case TIBETAN_SYMBOL_NOR_BU_NYIS__KHYIL = "\u{FCA}";
 
-    #[Info(id: 4043, name: 'TIBETAN SYMBOL NOR BU GSUM -KHYIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFCB, name: 'TIBETAN SYMBOL NOR BU GSUM -KHYIL', category: Cat::Other_Symbol)]
     case TIBETAN_SYMBOL_NOR_BU_GSUM__KHYIL = "\u{FCB}";
 
-    #[Info(id: 4044, name: 'TIBETAN SYMBOL NOR BU BZHI -KHYIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFCC, name: 'TIBETAN SYMBOL NOR BU BZHI -KHYIL', category: Cat::Other_Symbol)]
     case TIBETAN_SYMBOL_NOR_BU_BZHI__KHYIL = "\u{FCC}";
 
-    #[Info(id: 4046, name: 'TIBETAN SIGN RDEL NAG RDEL DKAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFCE, name: 'TIBETAN SIGN RDEL NAG RDEL DKAR', category: Cat::Other_Symbol)]
     case TIBETAN_SIGN_RDEL_NAG_RDEL_DKAR = "\u{FCE}";
 
-    #[Info(id: 4047, name: 'TIBETAN SIGN RDEL NAG GSUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFCF, name: 'TIBETAN SIGN RDEL NAG GSUM', category: Cat::Other_Symbol)]
     case TIBETAN_SIGN_RDEL_NAG_GSUM = "\u{FCF}";
 
-    #[Info(id: 4048, name: 'TIBETAN MARK BSKA- SHOG GI MGO RGYAN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFD0, name: 'TIBETAN MARK BSKA- SHOG GI MGO RGYAN', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_BSKA__SHOG_GI_MGO_RGYAN = "\u{FD0}";
 
-    #[Info(id: 4049, name: 'TIBETAN MARK MNYAM YIG GI MGO RGYAN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFD1, name: 'TIBETAN MARK MNYAM YIG GI MGO RGYAN', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_MNYAM_YIG_GI_MGO_RGYAN = "\u{FD1}";
 
-    #[Info(id: 4050, name: 'TIBETAN MARK NYIS TSHEG', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFD2, name: 'TIBETAN MARK NYIS TSHEG', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_NYIS_TSHEG = "\u{FD2}";
 
-    #[Info(id: 4051, name: 'TIBETAN MARK INITIAL BRDA RNYING YIG MGO MDUN MA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFD3, name: 'TIBETAN MARK INITIAL BRDA RNYING YIG MGO MDUN MA', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_INITIAL_BRDA_RNYING_YIG_MGO_MDUN_MA = "\u{FD3}";
 
-    #[Info(id: 4052, name: 'TIBETAN MARK CLOSING BRDA RNYING YIG MGO SGAB MA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFD4, name: 'TIBETAN MARK CLOSING BRDA RNYING YIG MGO SGAB MA', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_CLOSING_BRDA_RNYING_YIG_MGO_SGAB_MA = "\u{FD4}";
 
-    #[Info(id: 4053, name: 'RIGHT-FACING SVASTI SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD5, name: 'RIGHT-FACING SVASTI SIGN', category: Cat::Other_Symbol)]
     case RIGHT_FACING_SVASTI_SIGN = "\u{FD5}";
 
-    #[Info(id: 4054, name: 'LEFT-FACING SVASTI SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD6, name: 'LEFT-FACING SVASTI SIGN', category: Cat::Other_Symbol)]
     case LEFT_FACING_SVASTI_SIGN = "\u{FD6}";
 
-    #[Info(id: 4055, name: 'RIGHT-FACING SVASTI SIGN WITH DOTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD7, name: 'RIGHT-FACING SVASTI SIGN WITH DOTS', category: Cat::Other_Symbol)]
     case RIGHT_FACING_SVASTI_SIGN_WITH_DOTS = "\u{FD7}";
 
-    #[Info(id: 4056, name: 'LEFT-FACING SVASTI SIGN WITH DOTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD8, name: 'LEFT-FACING SVASTI SIGN WITH DOTS', category: Cat::Other_Symbol)]
     case LEFT_FACING_SVASTI_SIGN_WITH_DOTS = "\u{FD8}";
 
-    #[Info(id: 4057, name: 'TIBETAN MARK LEADING MCHAN RTAGS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFD9, name: 'TIBETAN MARK LEADING MCHAN RTAGS', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_LEADING_MCHAN_RTAGS = "\u{FD9}";
 
-    #[Info(id: 4058, name: 'TIBETAN MARK TRAILING MCHAN RTAGS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFDA, name: 'TIBETAN MARK TRAILING MCHAN RTAGS', category: Cat::Other_Punctuation)]
     case TIBETAN_MARK_TRAILING_MCHAN_RTAGS = "\u{FDA}";
 }

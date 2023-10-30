@@ -16,240 +16,240 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Modi: string
 {
-    #[Info(id: 71168, name: 'MODI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11600, name: 'MODI LETTER A', category: Cat::Other_Letter)]
     case MODI_LETTER_A = "\u{11600}";
 
-    #[Info(id: 71169, name: 'MODI LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11601, name: 'MODI LETTER AA', category: Cat::Other_Letter)]
     case MODI_LETTER_AA = "\u{11601}";
 
-    #[Info(id: 71170, name: 'MODI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11602, name: 'MODI LETTER I', category: Cat::Other_Letter)]
     case MODI_LETTER_I = "\u{11602}";
 
-    #[Info(id: 71171, name: 'MODI LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x11603, name: 'MODI LETTER II', category: Cat::Other_Letter)]
     case MODI_LETTER_II = "\u{11603}";
 
-    #[Info(id: 71172, name: 'MODI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11604, name: 'MODI LETTER U', category: Cat::Other_Letter)]
     case MODI_LETTER_U = "\u{11604}";
 
-    #[Info(id: 71173, name: 'MODI LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11605, name: 'MODI LETTER UU', category: Cat::Other_Letter)]
     case MODI_LETTER_UU = "\u{11605}";
 
-    #[Info(id: 71174, name: 'MODI LETTER VOCALIC R', category: Cat::Other_Letter)]
+    #[Info(id: 0x11606, name: 'MODI LETTER VOCALIC R', category: Cat::Other_Letter)]
     case MODI_LETTER_VOCALIC_R = "\u{11606}";
 
-    #[Info(id: 71175, name: 'MODI LETTER VOCALIC RR', category: Cat::Other_Letter)]
+    #[Info(id: 0x11607, name: 'MODI LETTER VOCALIC RR', category: Cat::Other_Letter)]
     case MODI_LETTER_VOCALIC_RR = "\u{11607}";
 
-    #[Info(id: 71176, name: 'MODI LETTER VOCALIC L', category: Cat::Other_Letter)]
+    #[Info(id: 0x11608, name: 'MODI LETTER VOCALIC L', category: Cat::Other_Letter)]
     case MODI_LETTER_VOCALIC_L = "\u{11608}";
 
-    #[Info(id: 71177, name: 'MODI LETTER VOCALIC LL', category: Cat::Other_Letter)]
+    #[Info(id: 0x11609, name: 'MODI LETTER VOCALIC LL', category: Cat::Other_Letter)]
     case MODI_LETTER_VOCALIC_LL = "\u{11609}";
 
-    #[Info(id: 71178, name: 'MODI LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1160A, name: 'MODI LETTER E', category: Cat::Other_Letter)]
     case MODI_LETTER_E = "\u{1160A}";
 
-    #[Info(id: 71179, name: 'MODI LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1160B, name: 'MODI LETTER AI', category: Cat::Other_Letter)]
     case MODI_LETTER_AI = "\u{1160B}";
 
-    #[Info(id: 71180, name: 'MODI LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1160C, name: 'MODI LETTER O', category: Cat::Other_Letter)]
     case MODI_LETTER_O = "\u{1160C}";
 
-    #[Info(id: 71181, name: 'MODI LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1160D, name: 'MODI LETTER AU', category: Cat::Other_Letter)]
     case MODI_LETTER_AU = "\u{1160D}";
 
-    #[Info(id: 71182, name: 'MODI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1160E, name: 'MODI LETTER KA', category: Cat::Other_Letter)]
     case MODI_LETTER_KA = "\u{1160E}";
 
-    #[Info(id: 71183, name: 'MODI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1160F, name: 'MODI LETTER KHA', category: Cat::Other_Letter)]
     case MODI_LETTER_KHA = "\u{1160F}";
 
-    #[Info(id: 71184, name: 'MODI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11610, name: 'MODI LETTER GA', category: Cat::Other_Letter)]
     case MODI_LETTER_GA = "\u{11610}";
 
-    #[Info(id: 71185, name: 'MODI LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11611, name: 'MODI LETTER GHA', category: Cat::Other_Letter)]
     case MODI_LETTER_GHA = "\u{11611}";
 
-    #[Info(id: 71186, name: 'MODI LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11612, name: 'MODI LETTER NGA', category: Cat::Other_Letter)]
     case MODI_LETTER_NGA = "\u{11612}";
 
-    #[Info(id: 71187, name: 'MODI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11613, name: 'MODI LETTER CA', category: Cat::Other_Letter)]
     case MODI_LETTER_CA = "\u{11613}";
 
-    #[Info(id: 71188, name: 'MODI LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11614, name: 'MODI LETTER CHA', category: Cat::Other_Letter)]
     case MODI_LETTER_CHA = "\u{11614}";
 
-    #[Info(id: 71189, name: 'MODI LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11615, name: 'MODI LETTER JA', category: Cat::Other_Letter)]
     case MODI_LETTER_JA = "\u{11615}";
 
-    #[Info(id: 71190, name: 'MODI LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11616, name: 'MODI LETTER JHA', category: Cat::Other_Letter)]
     case MODI_LETTER_JHA = "\u{11616}";
 
-    #[Info(id: 71191, name: 'MODI LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11617, name: 'MODI LETTER NYA', category: Cat::Other_Letter)]
     case MODI_LETTER_NYA = "\u{11617}";
 
-    #[Info(id: 71192, name: 'MODI LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11618, name: 'MODI LETTER TTA', category: Cat::Other_Letter)]
     case MODI_LETTER_TTA = "\u{11618}";
 
-    #[Info(id: 71193, name: 'MODI LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11619, name: 'MODI LETTER TTHA', category: Cat::Other_Letter)]
     case MODI_LETTER_TTHA = "\u{11619}";
 
-    #[Info(id: 71194, name: 'MODI LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1161A, name: 'MODI LETTER DDA', category: Cat::Other_Letter)]
     case MODI_LETTER_DDA = "\u{1161A}";
 
-    #[Info(id: 71195, name: 'MODI LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1161B, name: 'MODI LETTER DDHA', category: Cat::Other_Letter)]
     case MODI_LETTER_DDHA = "\u{1161B}";
 
-    #[Info(id: 71196, name: 'MODI LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1161C, name: 'MODI LETTER NNA', category: Cat::Other_Letter)]
     case MODI_LETTER_NNA = "\u{1161C}";
 
-    #[Info(id: 71197, name: 'MODI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1161D, name: 'MODI LETTER TA', category: Cat::Other_Letter)]
     case MODI_LETTER_TA = "\u{1161D}";
 
-    #[Info(id: 71198, name: 'MODI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1161E, name: 'MODI LETTER THA', category: Cat::Other_Letter)]
     case MODI_LETTER_THA = "\u{1161E}";
 
-    #[Info(id: 71199, name: 'MODI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1161F, name: 'MODI LETTER DA', category: Cat::Other_Letter)]
     case MODI_LETTER_DA = "\u{1161F}";
 
-    #[Info(id: 71200, name: 'MODI LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11620, name: 'MODI LETTER DHA', category: Cat::Other_Letter)]
     case MODI_LETTER_DHA = "\u{11620}";
 
-    #[Info(id: 71201, name: 'MODI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11621, name: 'MODI LETTER NA', category: Cat::Other_Letter)]
     case MODI_LETTER_NA = "\u{11621}";
 
-    #[Info(id: 71202, name: 'MODI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11622, name: 'MODI LETTER PA', category: Cat::Other_Letter)]
     case MODI_LETTER_PA = "\u{11622}";
 
-    #[Info(id: 71203, name: 'MODI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11623, name: 'MODI LETTER PHA', category: Cat::Other_Letter)]
     case MODI_LETTER_PHA = "\u{11623}";
 
-    #[Info(id: 71204, name: 'MODI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11624, name: 'MODI LETTER BA', category: Cat::Other_Letter)]
     case MODI_LETTER_BA = "\u{11624}";
 
-    #[Info(id: 71205, name: 'MODI LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11625, name: 'MODI LETTER BHA', category: Cat::Other_Letter)]
     case MODI_LETTER_BHA = "\u{11625}";
 
-    #[Info(id: 71206, name: 'MODI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11626, name: 'MODI LETTER MA', category: Cat::Other_Letter)]
     case MODI_LETTER_MA = "\u{11626}";
 
-    #[Info(id: 71207, name: 'MODI LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11627, name: 'MODI LETTER YA', category: Cat::Other_Letter)]
     case MODI_LETTER_YA = "\u{11627}";
 
-    #[Info(id: 71208, name: 'MODI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11628, name: 'MODI LETTER RA', category: Cat::Other_Letter)]
     case MODI_LETTER_RA = "\u{11628}";
 
-    #[Info(id: 71209, name: 'MODI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11629, name: 'MODI LETTER LA', category: Cat::Other_Letter)]
     case MODI_LETTER_LA = "\u{11629}";
 
-    #[Info(id: 71210, name: 'MODI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1162A, name: 'MODI LETTER VA', category: Cat::Other_Letter)]
     case MODI_LETTER_VA = "\u{1162A}";
 
-    #[Info(id: 71211, name: 'MODI LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1162B, name: 'MODI LETTER SHA', category: Cat::Other_Letter)]
     case MODI_LETTER_SHA = "\u{1162B}";
 
-    #[Info(id: 71212, name: 'MODI LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1162C, name: 'MODI LETTER SSA', category: Cat::Other_Letter)]
     case MODI_LETTER_SSA = "\u{1162C}";
 
-    #[Info(id: 71213, name: 'MODI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1162D, name: 'MODI LETTER SA', category: Cat::Other_Letter)]
     case MODI_LETTER_SA = "\u{1162D}";
 
-    #[Info(id: 71214, name: 'MODI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1162E, name: 'MODI LETTER HA', category: Cat::Other_Letter)]
     case MODI_LETTER_HA = "\u{1162E}";
 
-    #[Info(id: 71215, name: 'MODI LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1162F, name: 'MODI LETTER LLA', category: Cat::Other_Letter)]
     case MODI_LETTER_LLA = "\u{1162F}";
 
-    #[Info(id: 71216, name: 'MODI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11630, name: 'MODI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case MODI_VOWEL_SIGN_AA = "\u{11630}";
 
-    #[Info(id: 71217, name: 'MODI VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11631, name: 'MODI VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case MODI_VOWEL_SIGN_I = "\u{11631}";
 
-    #[Info(id: 71218, name: 'MODI VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11632, name: 'MODI VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case MODI_VOWEL_SIGN_II = "\u{11632}";
 
-    #[Info(id: 71219, name: 'MODI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11633, name: 'MODI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case MODI_VOWEL_SIGN_U = "\u{11633}";
 
-    #[Info(id: 71220, name: 'MODI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11634, name: 'MODI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case MODI_VOWEL_SIGN_UU = "\u{11634}";
 
-    #[Info(id: 71221, name: 'MODI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11635, name: 'MODI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case MODI_VOWEL_SIGN_VOCALIC_R = "\u{11635}";
 
-    #[Info(id: 71222, name: 'MODI VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11636, name: 'MODI VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
     case MODI_VOWEL_SIGN_VOCALIC_RR = "\u{11636}";
 
-    #[Info(id: 71223, name: 'MODI VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11637, name: 'MODI VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
     case MODI_VOWEL_SIGN_VOCALIC_L = "\u{11637}";
 
-    #[Info(id: 71224, name: 'MODI VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11638, name: 'MODI VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case MODI_VOWEL_SIGN_VOCALIC_LL = "\u{11638}";
 
-    #[Info(id: 71225, name: 'MODI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11639, name: 'MODI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case MODI_VOWEL_SIGN_E = "\u{11639}";
 
-    #[Info(id: 71226, name: 'MODI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1163A, name: 'MODI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case MODI_VOWEL_SIGN_AI = "\u{1163A}";
 
-    #[Info(id: 71227, name: 'MODI VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1163B, name: 'MODI VOWEL SIGN O', category: Cat::Spacing_Mark)]
     case MODI_VOWEL_SIGN_O = "\u{1163B}";
 
-    #[Info(id: 71228, name: 'MODI VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1163C, name: 'MODI VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case MODI_VOWEL_SIGN_AU = "\u{1163C}";
 
-    #[Info(id: 71229, name: 'MODI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1163D, name: 'MODI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case MODI_SIGN_ANUSVARA = "\u{1163D}";
 
-    #[Info(id: 71230, name: 'MODI SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1163E, name: 'MODI SIGN VISARGA', category: Cat::Spacing_Mark)]
     case MODI_SIGN_VISARGA = "\u{1163E}";
 
-    #[Info(id: 71231, name: 'MODI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1163F, name: 'MODI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case MODI_SIGN_VIRAMA = "\u{1163F}";
 
-    #[Info(id: 71232, name: 'MODI SIGN ARDHACANDRA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11640, name: 'MODI SIGN ARDHACANDRA', category: Cat::Nonspacing_Mark)]
     case MODI_SIGN_ARDHACANDRA = "\u{11640}";
 
-    #[Info(id: 71233, name: 'MODI DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11641, name: 'MODI DANDA', category: Cat::Other_Punctuation)]
     case MODI_DANDA = "\u{11641}";
 
-    #[Info(id: 71234, name: 'MODI DOUBLE DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11642, name: 'MODI DOUBLE DANDA', category: Cat::Other_Punctuation)]
     case MODI_DOUBLE_DANDA = "\u{11642}";
 
-    #[Info(id: 71235, name: 'MODI ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11643, name: 'MODI ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
     case MODI_ABBREVIATION_SIGN = "\u{11643}";
 
-    #[Info(id: 71236, name: 'MODI SIGN HUVA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11644, name: 'MODI SIGN HUVA', category: Cat::Other_Letter)]
     case MODI_SIGN_HUVA = "\u{11644}";
 
-    #[Info(id: 71248, name: 'MODI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11650, name: 'MODI DIGIT ZERO', category: Cat::Decimal_Number)]
     case MODI_DIGIT_ZERO = "\u{11650}";
 
-    #[Info(id: 71249, name: 'MODI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11651, name: 'MODI DIGIT ONE', category: Cat::Decimal_Number)]
     case MODI_DIGIT_ONE = "\u{11651}";
 
-    #[Info(id: 71250, name: 'MODI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11652, name: 'MODI DIGIT TWO', category: Cat::Decimal_Number)]
     case MODI_DIGIT_TWO = "\u{11652}";
 
-    #[Info(id: 71251, name: 'MODI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11653, name: 'MODI DIGIT THREE', category: Cat::Decimal_Number)]
     case MODI_DIGIT_THREE = "\u{11653}";
 
-    #[Info(id: 71252, name: 'MODI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11654, name: 'MODI DIGIT FOUR', category: Cat::Decimal_Number)]
     case MODI_DIGIT_FOUR = "\u{11654}";
 
-    #[Info(id: 71253, name: 'MODI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11655, name: 'MODI DIGIT FIVE', category: Cat::Decimal_Number)]
     case MODI_DIGIT_FIVE = "\u{11655}";
 
-    #[Info(id: 71254, name: 'MODI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11656, name: 'MODI DIGIT SIX', category: Cat::Decimal_Number)]
     case MODI_DIGIT_SIX = "\u{11656}";
 
-    #[Info(id: 71255, name: 'MODI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11657, name: 'MODI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MODI_DIGIT_SEVEN = "\u{11657}";
 
-    #[Info(id: 71256, name: 'MODI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11658, name: 'MODI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MODI_DIGIT_EIGHT = "\u{11658}";
 
-    #[Info(id: 71257, name: 'MODI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11659, name: 'MODI DIGIT NINE', category: Cat::Decimal_Number)]
     case MODI_DIGIT_NINE = "\u{11659}";
 }

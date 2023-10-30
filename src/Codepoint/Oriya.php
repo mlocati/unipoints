@@ -16,276 +16,276 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Oriya: string
 {
-    #[Info(id: 2817, name: 'ORIYA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB01, name: 'ORIYA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case ORIYA_SIGN_CANDRABINDU = "\u{B01}";
 
-    #[Info(id: 2818, name: 'ORIYA SIGN ANUSVARA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xB02, name: 'ORIYA SIGN ANUSVARA', category: Cat::Spacing_Mark)]
     case ORIYA_SIGN_ANUSVARA = "\u{B02}";
 
-    #[Info(id: 2819, name: 'ORIYA SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xB03, name: 'ORIYA SIGN VISARGA', category: Cat::Spacing_Mark)]
     case ORIYA_SIGN_VISARGA = "\u{B03}";
 
-    #[Info(id: 2821, name: 'ORIYA LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xB05, name: 'ORIYA LETTER A', category: Cat::Other_Letter)]
     case ORIYA_LETTER_A = "\u{B05}";
 
-    #[Info(id: 2822, name: 'ORIYA LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB06, name: 'ORIYA LETTER AA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_AA = "\u{B06}";
 
-    #[Info(id: 2823, name: 'ORIYA LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xB07, name: 'ORIYA LETTER I', category: Cat::Other_Letter)]
     case ORIYA_LETTER_I = "\u{B07}";
 
-    #[Info(id: 2824, name: 'ORIYA LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0xB08, name: 'ORIYA LETTER II', category: Cat::Other_Letter)]
     case ORIYA_LETTER_II = "\u{B08}";
 
-    #[Info(id: 2825, name: 'ORIYA LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0xB09, name: 'ORIYA LETTER U', category: Cat::Other_Letter)]
     case ORIYA_LETTER_U = "\u{B09}";
 
-    #[Info(id: 2826, name: 'ORIYA LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0xB0A, name: 'ORIYA LETTER UU', category: Cat::Other_Letter)]
     case ORIYA_LETTER_UU = "\u{B0A}";
 
-    #[Info(id: 2827, name: 'ORIYA LETTER VOCALIC R', category: Cat::Other_Letter)]
+    #[Info(id: 0xB0B, name: 'ORIYA LETTER VOCALIC R', category: Cat::Other_Letter)]
     case ORIYA_LETTER_VOCALIC_R = "\u{B0B}";
 
-    #[Info(id: 2828, name: 'ORIYA LETTER VOCALIC L', category: Cat::Other_Letter)]
+    #[Info(id: 0xB0C, name: 'ORIYA LETTER VOCALIC L', category: Cat::Other_Letter)]
     case ORIYA_LETTER_VOCALIC_L = "\u{B0C}";
 
-    #[Info(id: 2831, name: 'ORIYA LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0xB0F, name: 'ORIYA LETTER E', category: Cat::Other_Letter)]
     case ORIYA_LETTER_E = "\u{B0F}";
 
-    #[Info(id: 2832, name: 'ORIYA LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0xB10, name: 'ORIYA LETTER AI', category: Cat::Other_Letter)]
     case ORIYA_LETTER_AI = "\u{B10}";
 
-    #[Info(id: 2835, name: 'ORIYA LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xB13, name: 'ORIYA LETTER O', category: Cat::Other_Letter)]
     case ORIYA_LETTER_O = "\u{B13}";
 
-    #[Info(id: 2836, name: 'ORIYA LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0xB14, name: 'ORIYA LETTER AU', category: Cat::Other_Letter)]
     case ORIYA_LETTER_AU = "\u{B14}";
 
-    #[Info(id: 2837, name: 'ORIYA LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB15, name: 'ORIYA LETTER KA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_KA = "\u{B15}";
 
-    #[Info(id: 2838, name: 'ORIYA LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB16, name: 'ORIYA LETTER KHA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_KHA = "\u{B16}";
 
-    #[Info(id: 2839, name: 'ORIYA LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB17, name: 'ORIYA LETTER GA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_GA = "\u{B17}";
 
-    #[Info(id: 2840, name: 'ORIYA LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB18, name: 'ORIYA LETTER GHA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_GHA = "\u{B18}";
 
-    #[Info(id: 2841, name: 'ORIYA LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB19, name: 'ORIYA LETTER NGA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_NGA = "\u{B19}";
 
-    #[Info(id: 2842, name: 'ORIYA LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB1A, name: 'ORIYA LETTER CA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_CA = "\u{B1A}";
 
-    #[Info(id: 2843, name: 'ORIYA LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB1B, name: 'ORIYA LETTER CHA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_CHA = "\u{B1B}";
 
-    #[Info(id: 2844, name: 'ORIYA LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB1C, name: 'ORIYA LETTER JA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_JA = "\u{B1C}";
 
-    #[Info(id: 2845, name: 'ORIYA LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB1D, name: 'ORIYA LETTER JHA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_JHA = "\u{B1D}";
 
-    #[Info(id: 2846, name: 'ORIYA LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB1E, name: 'ORIYA LETTER NYA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_NYA = "\u{B1E}";
 
-    #[Info(id: 2847, name: 'ORIYA LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB1F, name: 'ORIYA LETTER TTA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_TTA = "\u{B1F}";
 
-    #[Info(id: 2848, name: 'ORIYA LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB20, name: 'ORIYA LETTER TTHA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_TTHA = "\u{B20}";
 
-    #[Info(id: 2849, name: 'ORIYA LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB21, name: 'ORIYA LETTER DDA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_DDA = "\u{B21}";
 
-    #[Info(id: 2850, name: 'ORIYA LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB22, name: 'ORIYA LETTER DDHA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_DDHA = "\u{B22}";
 
-    #[Info(id: 2851, name: 'ORIYA LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB23, name: 'ORIYA LETTER NNA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_NNA = "\u{B23}";
 
-    #[Info(id: 2852, name: 'ORIYA LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB24, name: 'ORIYA LETTER TA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_TA = "\u{B24}";
 
-    #[Info(id: 2853, name: 'ORIYA LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB25, name: 'ORIYA LETTER THA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_THA = "\u{B25}";
 
-    #[Info(id: 2854, name: 'ORIYA LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB26, name: 'ORIYA LETTER DA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_DA = "\u{B26}";
 
-    #[Info(id: 2855, name: 'ORIYA LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB27, name: 'ORIYA LETTER DHA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_DHA = "\u{B27}";
 
-    #[Info(id: 2856, name: 'ORIYA LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB28, name: 'ORIYA LETTER NA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_NA = "\u{B28}";
 
-    #[Info(id: 2858, name: 'ORIYA LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB2A, name: 'ORIYA LETTER PA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_PA = "\u{B2A}";
 
-    #[Info(id: 2859, name: 'ORIYA LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB2B, name: 'ORIYA LETTER PHA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_PHA = "\u{B2B}";
 
-    #[Info(id: 2860, name: 'ORIYA LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB2C, name: 'ORIYA LETTER BA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_BA = "\u{B2C}";
 
-    #[Info(id: 2861, name: 'ORIYA LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB2D, name: 'ORIYA LETTER BHA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_BHA = "\u{B2D}";
 
-    #[Info(id: 2862, name: 'ORIYA LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB2E, name: 'ORIYA LETTER MA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_MA = "\u{B2E}";
 
-    #[Info(id: 2863, name: 'ORIYA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB2F, name: 'ORIYA LETTER YA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_YA = "\u{B2F}";
 
-    #[Info(id: 2864, name: 'ORIYA LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB30, name: 'ORIYA LETTER RA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_RA = "\u{B30}";
 
-    #[Info(id: 2866, name: 'ORIYA LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB32, name: 'ORIYA LETTER LA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_LA = "\u{B32}";
 
-    #[Info(id: 2867, name: 'ORIYA LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB33, name: 'ORIYA LETTER LLA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_LLA = "\u{B33}";
 
-    #[Info(id: 2869, name: 'ORIYA LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB35, name: 'ORIYA LETTER VA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_VA = "\u{B35}";
 
-    #[Info(id: 2870, name: 'ORIYA LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB36, name: 'ORIYA LETTER SHA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_SHA = "\u{B36}";
 
-    #[Info(id: 2871, name: 'ORIYA LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB37, name: 'ORIYA LETTER SSA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_SSA = "\u{B37}";
 
-    #[Info(id: 2872, name: 'ORIYA LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB38, name: 'ORIYA LETTER SA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_SA = "\u{B38}";
 
-    #[Info(id: 2873, name: 'ORIYA LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB39, name: 'ORIYA LETTER HA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_HA = "\u{B39}";
 
-    #[Info(id: 2876, name: 'ORIYA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB3C, name: 'ORIYA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case ORIYA_SIGN_NUKTA = "\u{B3C}";
 
-    #[Info(id: 2877, name: 'ORIYA SIGN AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB3D, name: 'ORIYA SIGN AVAGRAHA', category: Cat::Other_Letter)]
     case ORIYA_SIGN_AVAGRAHA = "\u{B3D}";
 
-    #[Info(id: 2878, name: 'ORIYA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xB3E, name: 'ORIYA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case ORIYA_VOWEL_SIGN_AA = "\u{B3E}";
 
-    #[Info(id: 2879, name: 'ORIYA VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB3F, name: 'ORIYA VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case ORIYA_VOWEL_SIGN_I = "\u{B3F}";
 
-    #[Info(id: 2880, name: 'ORIYA VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xB40, name: 'ORIYA VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case ORIYA_VOWEL_SIGN_II = "\u{B40}";
 
-    #[Info(id: 2881, name: 'ORIYA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB41, name: 'ORIYA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case ORIYA_VOWEL_SIGN_U = "\u{B41}";
 
-    #[Info(id: 2882, name: 'ORIYA VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB42, name: 'ORIYA VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case ORIYA_VOWEL_SIGN_UU = "\u{B42}";
 
-    #[Info(id: 2883, name: 'ORIYA VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB43, name: 'ORIYA VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case ORIYA_VOWEL_SIGN_VOCALIC_R = "\u{B43}";
 
-    #[Info(id: 2884, name: 'ORIYA VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB44, name: 'ORIYA VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
     case ORIYA_VOWEL_SIGN_VOCALIC_RR = "\u{B44}";
 
-    #[Info(id: 2887, name: 'ORIYA VOWEL SIGN E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xB47, name: 'ORIYA VOWEL SIGN E', category: Cat::Spacing_Mark)]
     case ORIYA_VOWEL_SIGN_E = "\u{B47}";
 
-    #[Info(id: 2888, name: 'ORIYA VOWEL SIGN AI', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xB48, name: 'ORIYA VOWEL SIGN AI', category: Cat::Spacing_Mark)]
     case ORIYA_VOWEL_SIGN_AI = "\u{B48}";
 
-    #[Info(id: 2891, name: 'ORIYA VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xB4B, name: 'ORIYA VOWEL SIGN O', category: Cat::Spacing_Mark)]
     case ORIYA_VOWEL_SIGN_O = "\u{B4B}";
 
-    #[Info(id: 2892, name: 'ORIYA VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xB4C, name: 'ORIYA VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case ORIYA_VOWEL_SIGN_AU = "\u{B4C}";
 
-    #[Info(id: 2893, name: 'ORIYA SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB4D, name: 'ORIYA SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case ORIYA_SIGN_VIRAMA = "\u{B4D}";
 
-    #[Info(id: 2901, name: 'ORIYA SIGN OVERLINE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB55, name: 'ORIYA SIGN OVERLINE', category: Cat::Nonspacing_Mark)]
     case ORIYA_SIGN_OVERLINE = "\u{B55}";
 
-    #[Info(id: 2902, name: 'ORIYA AI LENGTH MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB56, name: 'ORIYA AI LENGTH MARK', category: Cat::Nonspacing_Mark)]
     case ORIYA_AI_LENGTH_MARK = "\u{B56}";
 
-    #[Info(id: 2903, name: 'ORIYA AU LENGTH MARK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xB57, name: 'ORIYA AU LENGTH MARK', category: Cat::Spacing_Mark)]
     case ORIYA_AU_LENGTH_MARK = "\u{B57}";
 
-    #[Info(id: 2908, name: 'ORIYA LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB5C, name: 'ORIYA LETTER RRA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_RRA = "\u{B5C}";
 
-    #[Info(id: 2909, name: 'ORIYA LETTER RHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB5D, name: 'ORIYA LETTER RHA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_RHA = "\u{B5D}";
 
-    #[Info(id: 2911, name: 'ORIYA LETTER YYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB5F, name: 'ORIYA LETTER YYA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_YYA = "\u{B5F}";
 
-    #[Info(id: 2912, name: 'ORIYA LETTER VOCALIC RR', category: Cat::Other_Letter)]
+    #[Info(id: 0xB60, name: 'ORIYA LETTER VOCALIC RR', category: Cat::Other_Letter)]
     case ORIYA_LETTER_VOCALIC_RR = "\u{B60}";
 
-    #[Info(id: 2913, name: 'ORIYA LETTER VOCALIC LL', category: Cat::Other_Letter)]
+    #[Info(id: 0xB61, name: 'ORIYA LETTER VOCALIC LL', category: Cat::Other_Letter)]
     case ORIYA_LETTER_VOCALIC_LL = "\u{B61}";
 
-    #[Info(id: 2914, name: 'ORIYA VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB62, name: 'ORIYA VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
     case ORIYA_VOWEL_SIGN_VOCALIC_L = "\u{B62}";
 
-    #[Info(id: 2915, name: 'ORIYA VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB63, name: 'ORIYA VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case ORIYA_VOWEL_SIGN_VOCALIC_LL = "\u{B63}";
 
-    #[Info(id: 2918, name: 'ORIYA DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xB66, name: 'ORIYA DIGIT ZERO', category: Cat::Decimal_Number)]
     case ORIYA_DIGIT_ZERO = "\u{B66}";
 
-    #[Info(id: 2919, name: 'ORIYA DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xB67, name: 'ORIYA DIGIT ONE', category: Cat::Decimal_Number)]
     case ORIYA_DIGIT_ONE = "\u{B67}";
 
-    #[Info(id: 2920, name: 'ORIYA DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xB68, name: 'ORIYA DIGIT TWO', category: Cat::Decimal_Number)]
     case ORIYA_DIGIT_TWO = "\u{B68}";
 
-    #[Info(id: 2921, name: 'ORIYA DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xB69, name: 'ORIYA DIGIT THREE', category: Cat::Decimal_Number)]
     case ORIYA_DIGIT_THREE = "\u{B69}";
 
-    #[Info(id: 2922, name: 'ORIYA DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xB6A, name: 'ORIYA DIGIT FOUR', category: Cat::Decimal_Number)]
     case ORIYA_DIGIT_FOUR = "\u{B6A}";
 
-    #[Info(id: 2923, name: 'ORIYA DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xB6B, name: 'ORIYA DIGIT FIVE', category: Cat::Decimal_Number)]
     case ORIYA_DIGIT_FIVE = "\u{B6B}";
 
-    #[Info(id: 2924, name: 'ORIYA DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xB6C, name: 'ORIYA DIGIT SIX', category: Cat::Decimal_Number)]
     case ORIYA_DIGIT_SIX = "\u{B6C}";
 
-    #[Info(id: 2925, name: 'ORIYA DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xB6D, name: 'ORIYA DIGIT SEVEN', category: Cat::Decimal_Number)]
     case ORIYA_DIGIT_SEVEN = "\u{B6D}";
 
-    #[Info(id: 2926, name: 'ORIYA DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xB6E, name: 'ORIYA DIGIT EIGHT', category: Cat::Decimal_Number)]
     case ORIYA_DIGIT_EIGHT = "\u{B6E}";
 
-    #[Info(id: 2927, name: 'ORIYA DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xB6F, name: 'ORIYA DIGIT NINE', category: Cat::Decimal_Number)]
     case ORIYA_DIGIT_NINE = "\u{B6F}";
 
-    #[Info(id: 2928, name: 'ORIYA ISSHAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0xB70, name: 'ORIYA ISSHAR', category: Cat::Other_Symbol)]
     case ORIYA_ISSHAR = "\u{B70}";
 
-    #[Info(id: 2929, name: 'ORIYA LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB71, name: 'ORIYA LETTER WA', category: Cat::Other_Letter)]
     case ORIYA_LETTER_WA = "\u{B71}";
 
-    #[Info(id: 2930, name: 'ORIYA FRACTION ONE QUARTER', category: Cat::Other_Number)]
+    #[Info(id: 0xB72, name: 'ORIYA FRACTION ONE QUARTER', category: Cat::Other_Number)]
     case ORIYA_FRACTION_ONE_QUARTER = "\u{B72}";
 
-    #[Info(id: 2931, name: 'ORIYA FRACTION ONE HALF', category: Cat::Other_Number)]
+    #[Info(id: 0xB73, name: 'ORIYA FRACTION ONE HALF', category: Cat::Other_Number)]
     case ORIYA_FRACTION_ONE_HALF = "\u{B73}";
 
-    #[Info(id: 2932, name: 'ORIYA FRACTION THREE QUARTERS', category: Cat::Other_Number)]
+    #[Info(id: 0xB74, name: 'ORIYA FRACTION THREE QUARTERS', category: Cat::Other_Number)]
     case ORIYA_FRACTION_THREE_QUARTERS = "\u{B74}";
 
-    #[Info(id: 2933, name: 'ORIYA FRACTION ONE SIXTEENTH', category: Cat::Other_Number)]
+    #[Info(id: 0xB75, name: 'ORIYA FRACTION ONE SIXTEENTH', category: Cat::Other_Number)]
     case ORIYA_FRACTION_ONE_SIXTEENTH = "\u{B75}";
 
-    #[Info(id: 2934, name: 'ORIYA FRACTION ONE EIGHTH', category: Cat::Other_Number)]
+    #[Info(id: 0xB76, name: 'ORIYA FRACTION ONE EIGHTH', category: Cat::Other_Number)]
     case ORIYA_FRACTION_ONE_EIGHTH = "\u{B76}";
 
-    #[Info(id: 2935, name: 'ORIYA FRACTION THREE SIXTEENTHS', category: Cat::Other_Number)]
+    #[Info(id: 0xB77, name: 'ORIYA FRACTION THREE SIXTEENTHS', category: Cat::Other_Number)]
     case ORIYA_FRACTION_THREE_SIXTEENTHS = "\u{B77}";
 }

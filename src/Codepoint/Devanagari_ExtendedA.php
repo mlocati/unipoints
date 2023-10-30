@@ -16,33 +16,33 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Devanagari_ExtendedA: string
 {
-    #[Info(id: 72448, name: 'DEVANAGARI HEAD MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11B00, name: 'DEVANAGARI HEAD MARK', category: Cat::Other_Punctuation)]
     case DEVANAGARI_HEAD_MARK = "\u{11B00}";
 
-    #[Info(id: 72449, name: 'DEVANAGARI HEAD MARK WITH HEADSTROKE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11B01, name: 'DEVANAGARI HEAD MARK WITH HEADSTROKE', category: Cat::Other_Punctuation)]
     case DEVANAGARI_HEAD_MARK_WITH_HEADSTROKE = "\u{11B01}";
 
-    #[Info(id: 72450, name: 'DEVANAGARI SIGN BHALE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11B02, name: 'DEVANAGARI SIGN BHALE', category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_BHALE = "\u{11B02}";
 
-    #[Info(id: 72451, name: 'DEVANAGARI SIGN BHALE WITH HOOK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11B03, name: 'DEVANAGARI SIGN BHALE WITH HOOK', category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_BHALE_WITH_HOOK = "\u{11B03}";
 
-    #[Info(id: 72452, name: 'DEVANAGARI SIGN EXTENDED BHALE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11B04, name: 'DEVANAGARI SIGN EXTENDED BHALE', category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_EXTENDED_BHALE = "\u{11B04}";
 
-    #[Info(id: 72453, name: 'DEVANAGARI SIGN EXTENDED BHALE WITH HOOK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11B05, name: 'DEVANAGARI SIGN EXTENDED BHALE WITH HOOK', category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_EXTENDED_BHALE_WITH_HOOK = "\u{11B05}";
 
-    #[Info(id: 72454, name: 'DEVANAGARI SIGN WESTERN FIVE-LIKE BHALE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11B06, name: 'DEVANAGARI SIGN WESTERN FIVE-LIKE BHALE', category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_WESTERN_FIVE_LIKE_BHALE = "\u{11B06}";
 
-    #[Info(id: 72455, name: 'DEVANAGARI SIGN WESTERN NINE-LIKE BHALE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11B07, name: 'DEVANAGARI SIGN WESTERN NINE-LIKE BHALE', category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_WESTERN_NINE_LIKE_BHALE = "\u{11B07}";
 
-    #[Info(id: 72456, name: 'DEVANAGARI SIGN REVERSED NINE-LIKE BHALE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11B08, name: 'DEVANAGARI SIGN REVERSED NINE-LIKE BHALE', category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_REVERSED_NINE_LIKE_BHALE = "\u{11B08}";
 
-    #[Info(id: 72457, name: 'DEVANAGARI SIGN MINDU', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11B09, name: 'DEVANAGARI SIGN MINDU', category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_MINDU = "\u{11B09}";
 }

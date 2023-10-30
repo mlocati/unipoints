@@ -16,195 +16,195 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Sundanese: string
 {
-    #[Info(id: 7040, name: 'SUNDANESE SIGN PANYECEK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1B80, name: 'SUNDANESE SIGN PANYECEK', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_SIGN_PANYECEK = "\u{1B80}";
 
-    #[Info(id: 7041, name: 'SUNDANESE SIGN PANGLAYAR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1B81, name: 'SUNDANESE SIGN PANGLAYAR', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_SIGN_PANGLAYAR = "\u{1B81}";
 
-    #[Info(id: 7042, name: 'SUNDANESE SIGN PANGWISAD', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1B82, name: 'SUNDANESE SIGN PANGWISAD', category: Cat::Spacing_Mark)]
     case SUNDANESE_SIGN_PANGWISAD = "\u{1B82}";
 
-    #[Info(id: 7043, name: 'SUNDANESE LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B83, name: 'SUNDANESE LETTER A', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_A = "\u{1B83}";
 
-    #[Info(id: 7044, name: 'SUNDANESE LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B84, name: 'SUNDANESE LETTER I', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_I = "\u{1B84}";
 
-    #[Info(id: 7045, name: 'SUNDANESE LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B85, name: 'SUNDANESE LETTER U', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_U = "\u{1B85}";
 
-    #[Info(id: 7046, name: 'SUNDANESE LETTER AE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B86, name: 'SUNDANESE LETTER AE', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_AE = "\u{1B86}";
 
-    #[Info(id: 7047, name: 'SUNDANESE LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B87, name: 'SUNDANESE LETTER O', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_O = "\u{1B87}";
 
-    #[Info(id: 7048, name: 'SUNDANESE LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B88, name: 'SUNDANESE LETTER E', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_E = "\u{1B88}";
 
-    #[Info(id: 7049, name: 'SUNDANESE LETTER EU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B89, name: 'SUNDANESE LETTER EU', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_EU = "\u{1B89}";
 
-    #[Info(id: 7050, name: 'SUNDANESE LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B8A, name: 'SUNDANESE LETTER KA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_KA = "\u{1B8A}";
 
-    #[Info(id: 7051, name: 'SUNDANESE LETTER QA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B8B, name: 'SUNDANESE LETTER QA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_QA = "\u{1B8B}";
 
-    #[Info(id: 7052, name: 'SUNDANESE LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B8C, name: 'SUNDANESE LETTER GA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_GA = "\u{1B8C}";
 
-    #[Info(id: 7053, name: 'SUNDANESE LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B8D, name: 'SUNDANESE LETTER NGA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_NGA = "\u{1B8D}";
 
-    #[Info(id: 7054, name: 'SUNDANESE LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B8E, name: 'SUNDANESE LETTER CA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_CA = "\u{1B8E}";
 
-    #[Info(id: 7055, name: 'SUNDANESE LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B8F, name: 'SUNDANESE LETTER JA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_JA = "\u{1B8F}";
 
-    #[Info(id: 7056, name: 'SUNDANESE LETTER ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B90, name: 'SUNDANESE LETTER ZA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_ZA = "\u{1B90}";
 
-    #[Info(id: 7057, name: 'SUNDANESE LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B91, name: 'SUNDANESE LETTER NYA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_NYA = "\u{1B91}";
 
-    #[Info(id: 7058, name: 'SUNDANESE LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B92, name: 'SUNDANESE LETTER TA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_TA = "\u{1B92}";
 
-    #[Info(id: 7059, name: 'SUNDANESE LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B93, name: 'SUNDANESE LETTER DA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_DA = "\u{1B93}";
 
-    #[Info(id: 7060, name: 'SUNDANESE LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B94, name: 'SUNDANESE LETTER NA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_NA = "\u{1B94}";
 
-    #[Info(id: 7061, name: 'SUNDANESE LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B95, name: 'SUNDANESE LETTER PA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_PA = "\u{1B95}";
 
-    #[Info(id: 7062, name: 'SUNDANESE LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B96, name: 'SUNDANESE LETTER FA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_FA = "\u{1B96}";
 
-    #[Info(id: 7063, name: 'SUNDANESE LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B97, name: 'SUNDANESE LETTER VA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_VA = "\u{1B97}";
 
-    #[Info(id: 7064, name: 'SUNDANESE LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B98, name: 'SUNDANESE LETTER BA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_BA = "\u{1B98}";
 
-    #[Info(id: 7065, name: 'SUNDANESE LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B99, name: 'SUNDANESE LETTER MA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_MA = "\u{1B99}";
 
-    #[Info(id: 7066, name: 'SUNDANESE LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B9A, name: 'SUNDANESE LETTER YA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_YA = "\u{1B9A}";
 
-    #[Info(id: 7067, name: 'SUNDANESE LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B9B, name: 'SUNDANESE LETTER RA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_RA = "\u{1B9B}";
 
-    #[Info(id: 7068, name: 'SUNDANESE LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B9C, name: 'SUNDANESE LETTER LA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_LA = "\u{1B9C}";
 
-    #[Info(id: 7069, name: 'SUNDANESE LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B9D, name: 'SUNDANESE LETTER WA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_WA = "\u{1B9D}";
 
-    #[Info(id: 7070, name: 'SUNDANESE LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B9E, name: 'SUNDANESE LETTER SA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_SA = "\u{1B9E}";
 
-    #[Info(id: 7071, name: 'SUNDANESE LETTER XA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B9F, name: 'SUNDANESE LETTER XA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_XA = "\u{1B9F}";
 
-    #[Info(id: 7072, name: 'SUNDANESE LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BA0, name: 'SUNDANESE LETTER HA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_HA = "\u{1BA0}";
 
-    #[Info(id: 7073, name: 'SUNDANESE CONSONANT SIGN PAMINGKAL', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BA1, name: 'SUNDANESE CONSONANT SIGN PAMINGKAL', category: Cat::Spacing_Mark)]
     case SUNDANESE_CONSONANT_SIGN_PAMINGKAL = "\u{1BA1}";
 
-    #[Info(id: 7074, name: 'SUNDANESE CONSONANT SIGN PANYAKRA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA2, name: 'SUNDANESE CONSONANT SIGN PANYAKRA', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_CONSONANT_SIGN_PANYAKRA = "\u{1BA2}";
 
-    #[Info(id: 7075, name: 'SUNDANESE CONSONANT SIGN PANYIKU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA3, name: 'SUNDANESE CONSONANT SIGN PANYIKU', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_CONSONANT_SIGN_PANYIKU = "\u{1BA3}";
 
-    #[Info(id: 7076, name: 'SUNDANESE VOWEL SIGN PANGHULU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA4, name: 'SUNDANESE VOWEL SIGN PANGHULU', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_VOWEL_SIGN_PANGHULU = "\u{1BA4}";
 
-    #[Info(id: 7077, name: 'SUNDANESE VOWEL SIGN PANYUKU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA5, name: 'SUNDANESE VOWEL SIGN PANYUKU', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_VOWEL_SIGN_PANYUKU = "\u{1BA5}";
 
-    #[Info(id: 7078, name: 'SUNDANESE VOWEL SIGN PANAELAENG', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BA6, name: 'SUNDANESE VOWEL SIGN PANAELAENG', category: Cat::Spacing_Mark)]
     case SUNDANESE_VOWEL_SIGN_PANAELAENG = "\u{1BA6}";
 
-    #[Info(id: 7079, name: 'SUNDANESE VOWEL SIGN PANOLONG', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BA7, name: 'SUNDANESE VOWEL SIGN PANOLONG', category: Cat::Spacing_Mark)]
     case SUNDANESE_VOWEL_SIGN_PANOLONG = "\u{1BA7}";
 
-    #[Info(id: 7080, name: 'SUNDANESE VOWEL SIGN PAMEPET', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA8, name: 'SUNDANESE VOWEL SIGN PAMEPET', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_VOWEL_SIGN_PAMEPET = "\u{1BA8}";
 
-    #[Info(id: 7081, name: 'SUNDANESE VOWEL SIGN PANEULEUNG', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BA9, name: 'SUNDANESE VOWEL SIGN PANEULEUNG', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_VOWEL_SIGN_PANEULEUNG = "\u{1BA9}";
 
-    #[Info(id: 7082, name: 'SUNDANESE SIGN PAMAAEH', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1BAA, name: 'SUNDANESE SIGN PAMAAEH', category: Cat::Spacing_Mark)]
     case SUNDANESE_SIGN_PAMAAEH = "\u{1BAA}";
 
-    #[Info(id: 7083, name: 'SUNDANESE SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BAB, name: 'SUNDANESE SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_SIGN_VIRAMA = "\u{1BAB}";
 
-    #[Info(id: 7084, name: 'SUNDANESE CONSONANT SIGN PASANGAN MA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BAC, name: 'SUNDANESE CONSONANT SIGN PASANGAN MA', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_CONSONANT_SIGN_PASANGAN_MA = "\u{1BAC}";
 
-    #[Info(id: 7085, name: 'SUNDANESE CONSONANT SIGN PASANGAN WA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BAD, name: 'SUNDANESE CONSONANT SIGN PASANGAN WA', category: Cat::Nonspacing_Mark)]
     case SUNDANESE_CONSONANT_SIGN_PASANGAN_WA = "\u{1BAD}";
 
-    #[Info(id: 7086, name: 'SUNDANESE LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BAE, name: 'SUNDANESE LETTER KHA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_KHA = "\u{1BAE}";
 
-    #[Info(id: 7087, name: 'SUNDANESE LETTER SYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BAF, name: 'SUNDANESE LETTER SYA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_SYA = "\u{1BAF}";
 
-    #[Info(id: 7088, name: 'SUNDANESE DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1BB0, name: 'SUNDANESE DIGIT ZERO', category: Cat::Decimal_Number)]
     case SUNDANESE_DIGIT_ZERO = "\u{1BB0}";
 
-    #[Info(id: 7089, name: 'SUNDANESE DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1BB1, name: 'SUNDANESE DIGIT ONE', category: Cat::Decimal_Number)]
     case SUNDANESE_DIGIT_ONE = "\u{1BB1}";
 
-    #[Info(id: 7090, name: 'SUNDANESE DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1BB2, name: 'SUNDANESE DIGIT TWO', category: Cat::Decimal_Number)]
     case SUNDANESE_DIGIT_TWO = "\u{1BB2}";
 
-    #[Info(id: 7091, name: 'SUNDANESE DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1BB3, name: 'SUNDANESE DIGIT THREE', category: Cat::Decimal_Number)]
     case SUNDANESE_DIGIT_THREE = "\u{1BB3}";
 
-    #[Info(id: 7092, name: 'SUNDANESE DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1BB4, name: 'SUNDANESE DIGIT FOUR', category: Cat::Decimal_Number)]
     case SUNDANESE_DIGIT_FOUR = "\u{1BB4}";
 
-    #[Info(id: 7093, name: 'SUNDANESE DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1BB5, name: 'SUNDANESE DIGIT FIVE', category: Cat::Decimal_Number)]
     case SUNDANESE_DIGIT_FIVE = "\u{1BB5}";
 
-    #[Info(id: 7094, name: 'SUNDANESE DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1BB6, name: 'SUNDANESE DIGIT SIX', category: Cat::Decimal_Number)]
     case SUNDANESE_DIGIT_SIX = "\u{1BB6}";
 
-    #[Info(id: 7095, name: 'SUNDANESE DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1BB7, name: 'SUNDANESE DIGIT SEVEN', category: Cat::Decimal_Number)]
     case SUNDANESE_DIGIT_SEVEN = "\u{1BB7}";
 
-    #[Info(id: 7096, name: 'SUNDANESE DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1BB8, name: 'SUNDANESE DIGIT EIGHT', category: Cat::Decimal_Number)]
     case SUNDANESE_DIGIT_EIGHT = "\u{1BB8}";
 
-    #[Info(id: 7097, name: 'SUNDANESE DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1BB9, name: 'SUNDANESE DIGIT NINE', category: Cat::Decimal_Number)]
     case SUNDANESE_DIGIT_NINE = "\u{1BB9}";
 
-    #[Info(id: 7098, name: 'SUNDANESE AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BBA, name: 'SUNDANESE AVAGRAHA', category: Cat::Other_Letter)]
     case SUNDANESE_AVAGRAHA = "\u{1BBA}";
 
-    #[Info(id: 7099, name: 'SUNDANESE LETTER REU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BBB, name: 'SUNDANESE LETTER REU', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_REU = "\u{1BBB}";
 
-    #[Info(id: 7100, name: 'SUNDANESE LETTER LEU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BBC, name: 'SUNDANESE LETTER LEU', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_LEU = "\u{1BBC}";
 
-    #[Info(id: 7101, name: 'SUNDANESE LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BBD, name: 'SUNDANESE LETTER BHA', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_BHA = "\u{1BBD}";
 
-    #[Info(id: 7102, name: 'SUNDANESE LETTER FINAL K', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BBE, name: 'SUNDANESE LETTER FINAL K', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_FINAL_K = "\u{1BBE}";
 
-    #[Info(id: 7103, name: 'SUNDANESE LETTER FINAL M', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BBF, name: 'SUNDANESE LETTER FINAL M', category: Cat::Other_Letter)]
     case SUNDANESE_LETTER_FINAL_M = "\u{1BBF}";
 }

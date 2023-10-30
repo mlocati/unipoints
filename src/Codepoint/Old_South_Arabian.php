@@ -16,99 +16,99 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Old_South_Arabian: string
 {
-    #[Info(id: 68192, name: 'OLD SOUTH ARABIAN LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A60, name: 'OLD SOUTH ARABIAN LETTER HE', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_HE = "\u{10A60}";
 
-    #[Info(id: 68193, name: 'OLD SOUTH ARABIAN LETTER LAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A61, name: 'OLD SOUTH ARABIAN LETTER LAMEDH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_LAMEDH = "\u{10A61}";
 
-    #[Info(id: 68194, name: 'OLD SOUTH ARABIAN LETTER HETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A62, name: 'OLD SOUTH ARABIAN LETTER HETH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_HETH = "\u{10A62}";
 
-    #[Info(id: 68195, name: 'OLD SOUTH ARABIAN LETTER MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A63, name: 'OLD SOUTH ARABIAN LETTER MEM', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_MEM = "\u{10A63}";
 
-    #[Info(id: 68196, name: 'OLD SOUTH ARABIAN LETTER QOPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A64, name: 'OLD SOUTH ARABIAN LETTER QOPH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_QOPH = "\u{10A64}";
 
-    #[Info(id: 68197, name: 'OLD SOUTH ARABIAN LETTER WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A65, name: 'OLD SOUTH ARABIAN LETTER WAW', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_WAW = "\u{10A65}";
 
-    #[Info(id: 68198, name: 'OLD SOUTH ARABIAN LETTER SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A66, name: 'OLD SOUTH ARABIAN LETTER SHIN', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_SHIN = "\u{10A66}";
 
-    #[Info(id: 68199, name: 'OLD SOUTH ARABIAN LETTER RESH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A67, name: 'OLD SOUTH ARABIAN LETTER RESH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_RESH = "\u{10A67}";
 
-    #[Info(id: 68200, name: 'OLD SOUTH ARABIAN LETTER BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A68, name: 'OLD SOUTH ARABIAN LETTER BETH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_BETH = "\u{10A68}";
 
-    #[Info(id: 68201, name: 'OLD SOUTH ARABIAN LETTER TAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A69, name: 'OLD SOUTH ARABIAN LETTER TAW', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_TAW = "\u{10A69}";
 
-    #[Info(id: 68202, name: 'OLD SOUTH ARABIAN LETTER SAT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A6A, name: 'OLD SOUTH ARABIAN LETTER SAT', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_SAT = "\u{10A6A}";
 
-    #[Info(id: 68203, name: 'OLD SOUTH ARABIAN LETTER KAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A6B, name: 'OLD SOUTH ARABIAN LETTER KAPH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_KAPH = "\u{10A6B}";
 
-    #[Info(id: 68204, name: 'OLD SOUTH ARABIAN LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A6C, name: 'OLD SOUTH ARABIAN LETTER NUN', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_NUN = "\u{10A6C}";
 
-    #[Info(id: 68205, name: 'OLD SOUTH ARABIAN LETTER KHETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A6D, name: 'OLD SOUTH ARABIAN LETTER KHETH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_KHETH = "\u{10A6D}";
 
-    #[Info(id: 68206, name: 'OLD SOUTH ARABIAN LETTER SADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A6E, name: 'OLD SOUTH ARABIAN LETTER SADHE', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_SADHE = "\u{10A6E}";
 
-    #[Info(id: 68207, name: 'OLD SOUTH ARABIAN LETTER SAMEKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A6F, name: 'OLD SOUTH ARABIAN LETTER SAMEKH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_SAMEKH = "\u{10A6F}";
 
-    #[Info(id: 68208, name: 'OLD SOUTH ARABIAN LETTER FE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A70, name: 'OLD SOUTH ARABIAN LETTER FE', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_FE = "\u{10A70}";
 
-    #[Info(id: 68209, name: 'OLD SOUTH ARABIAN LETTER ALEF', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A71, name: 'OLD SOUTH ARABIAN LETTER ALEF', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_ALEF = "\u{10A71}";
 
-    #[Info(id: 68210, name: 'OLD SOUTH ARABIAN LETTER AYN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A72, name: 'OLD SOUTH ARABIAN LETTER AYN', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_AYN = "\u{10A72}";
 
-    #[Info(id: 68211, name: 'OLD SOUTH ARABIAN LETTER DHADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A73, name: 'OLD SOUTH ARABIAN LETTER DHADHE', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_DHADHE = "\u{10A73}";
 
-    #[Info(id: 68212, name: 'OLD SOUTH ARABIAN LETTER GIMEL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A74, name: 'OLD SOUTH ARABIAN LETTER GIMEL', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_GIMEL = "\u{10A74}";
 
-    #[Info(id: 68213, name: 'OLD SOUTH ARABIAN LETTER DALETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A75, name: 'OLD SOUTH ARABIAN LETTER DALETH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_DALETH = "\u{10A75}";
 
-    #[Info(id: 68214, name: 'OLD SOUTH ARABIAN LETTER GHAYN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A76, name: 'OLD SOUTH ARABIAN LETTER GHAYN', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_GHAYN = "\u{10A76}";
 
-    #[Info(id: 68215, name: 'OLD SOUTH ARABIAN LETTER TETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A77, name: 'OLD SOUTH ARABIAN LETTER TETH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_TETH = "\u{10A77}";
 
-    #[Info(id: 68216, name: 'OLD SOUTH ARABIAN LETTER ZAYN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A78, name: 'OLD SOUTH ARABIAN LETTER ZAYN', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_ZAYN = "\u{10A78}";
 
-    #[Info(id: 68217, name: 'OLD SOUTH ARABIAN LETTER DHALETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A79, name: 'OLD SOUTH ARABIAN LETTER DHALETH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_DHALETH = "\u{10A79}";
 
-    #[Info(id: 68218, name: 'OLD SOUTH ARABIAN LETTER YODH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A7A, name: 'OLD SOUTH ARABIAN LETTER YODH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_YODH = "\u{10A7A}";
 
-    #[Info(id: 68219, name: 'OLD SOUTH ARABIAN LETTER THAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A7B, name: 'OLD SOUTH ARABIAN LETTER THAW', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_THAW = "\u{10A7B}";
 
-    #[Info(id: 68220, name: 'OLD SOUTH ARABIAN LETTER THETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A7C, name: 'OLD SOUTH ARABIAN LETTER THETH', category: Cat::Other_Letter)]
     case OLD_SOUTH_ARABIAN_LETTER_THETH = "\u{10A7C}";
 
-    #[Info(id: 68221, name: 'OLD SOUTH ARABIAN NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x10A7D, name: 'OLD SOUTH ARABIAN NUMBER ONE', category: Cat::Other_Number)]
     case OLD_SOUTH_ARABIAN_NUMBER_ONE = "\u{10A7D}";
 
-    #[Info(id: 68222, name: 'OLD SOUTH ARABIAN NUMBER FIFTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10A7E, name: 'OLD SOUTH ARABIAN NUMBER FIFTY', category: Cat::Other_Number)]
     case OLD_SOUTH_ARABIAN_NUMBER_FIFTY = "\u{10A7E}";
 
-    #[Info(id: 68223, name: 'OLD SOUTH ARABIAN NUMERIC INDICATOR', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10A7F, name: 'OLD SOUTH ARABIAN NUMERIC INDICATOR', category: Cat::Other_Punctuation)]
     case OLD_SOUTH_ARABIAN_NUMERIC_INDICATOR = "\u{10A7F}";
 }

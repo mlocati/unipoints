@@ -16,219 +16,219 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Tamil: string
 {
-    #[Info(id: 2946, name: 'TAMIL SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xB82, name: 'TAMIL SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case TAMIL_SIGN_ANUSVARA = "\u{B82}";
 
-    #[Info(id: 2947, name: 'TAMIL SIGN VISARGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB83, name: 'TAMIL SIGN VISARGA', category: Cat::Other_Letter)]
     case TAMIL_SIGN_VISARGA = "\u{B83}";
 
-    #[Info(id: 2949, name: 'TAMIL LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xB85, name: 'TAMIL LETTER A', category: Cat::Other_Letter)]
     case TAMIL_LETTER_A = "\u{B85}";
 
-    #[Info(id: 2950, name: 'TAMIL LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB86, name: 'TAMIL LETTER AA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_AA = "\u{B86}";
 
-    #[Info(id: 2951, name: 'TAMIL LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xB87, name: 'TAMIL LETTER I', category: Cat::Other_Letter)]
     case TAMIL_LETTER_I = "\u{B87}";
 
-    #[Info(id: 2952, name: 'TAMIL LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0xB88, name: 'TAMIL LETTER II', category: Cat::Other_Letter)]
     case TAMIL_LETTER_II = "\u{B88}";
 
-    #[Info(id: 2953, name: 'TAMIL LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0xB89, name: 'TAMIL LETTER U', category: Cat::Other_Letter)]
     case TAMIL_LETTER_U = "\u{B89}";
 
-    #[Info(id: 2954, name: 'TAMIL LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0xB8A, name: 'TAMIL LETTER UU', category: Cat::Other_Letter)]
     case TAMIL_LETTER_UU = "\u{B8A}";
 
-    #[Info(id: 2958, name: 'TAMIL LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0xB8E, name: 'TAMIL LETTER E', category: Cat::Other_Letter)]
     case TAMIL_LETTER_E = "\u{B8E}";
 
-    #[Info(id: 2959, name: 'TAMIL LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0xB8F, name: 'TAMIL LETTER EE', category: Cat::Other_Letter)]
     case TAMIL_LETTER_EE = "\u{B8F}";
 
-    #[Info(id: 2960, name: 'TAMIL LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0xB90, name: 'TAMIL LETTER AI', category: Cat::Other_Letter)]
     case TAMIL_LETTER_AI = "\u{B90}";
 
-    #[Info(id: 2962, name: 'TAMIL LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xB92, name: 'TAMIL LETTER O', category: Cat::Other_Letter)]
     case TAMIL_LETTER_O = "\u{B92}";
 
-    #[Info(id: 2963, name: 'TAMIL LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0xB93, name: 'TAMIL LETTER OO', category: Cat::Other_Letter)]
     case TAMIL_LETTER_OO = "\u{B93}";
 
-    #[Info(id: 2964, name: 'TAMIL LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0xB94, name: 'TAMIL LETTER AU', category: Cat::Other_Letter)]
     case TAMIL_LETTER_AU = "\u{B94}";
 
-    #[Info(id: 2965, name: 'TAMIL LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB95, name: 'TAMIL LETTER KA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_KA = "\u{B95}";
 
-    #[Info(id: 2969, name: 'TAMIL LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB99, name: 'TAMIL LETTER NGA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_NGA = "\u{B99}";
 
-    #[Info(id: 2970, name: 'TAMIL LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB9A, name: 'TAMIL LETTER CA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_CA = "\u{B9A}";
 
-    #[Info(id: 2972, name: 'TAMIL LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB9C, name: 'TAMIL LETTER JA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_JA = "\u{B9C}";
 
-    #[Info(id: 2974, name: 'TAMIL LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB9E, name: 'TAMIL LETTER NYA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_NYA = "\u{B9E}";
 
-    #[Info(id: 2975, name: 'TAMIL LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB9F, name: 'TAMIL LETTER TTA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_TTA = "\u{B9F}";
 
-    #[Info(id: 2979, name: 'TAMIL LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBA3, name: 'TAMIL LETTER NNA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_NNA = "\u{BA3}";
 
-    #[Info(id: 2980, name: 'TAMIL LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBA4, name: 'TAMIL LETTER TA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_TA = "\u{BA4}";
 
-    #[Info(id: 2984, name: 'TAMIL LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBA8, name: 'TAMIL LETTER NA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_NA = "\u{BA8}";
 
-    #[Info(id: 2985, name: 'TAMIL LETTER NNNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBA9, name: 'TAMIL LETTER NNNA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_NNNA = "\u{BA9}";
 
-    #[Info(id: 2986, name: 'TAMIL LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBAA, name: 'TAMIL LETTER PA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_PA = "\u{BAA}";
 
-    #[Info(id: 2990, name: 'TAMIL LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBAE, name: 'TAMIL LETTER MA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_MA = "\u{BAE}";
 
-    #[Info(id: 2991, name: 'TAMIL LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBAF, name: 'TAMIL LETTER YA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_YA = "\u{BAF}";
 
-    #[Info(id: 2992, name: 'TAMIL LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBB0, name: 'TAMIL LETTER RA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_RA = "\u{BB0}";
 
-    #[Info(id: 2993, name: 'TAMIL LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBB1, name: 'TAMIL LETTER RRA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_RRA = "\u{BB1}";
 
-    #[Info(id: 2994, name: 'TAMIL LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBB2, name: 'TAMIL LETTER LA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_LA = "\u{BB2}";
 
-    #[Info(id: 2995, name: 'TAMIL LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBB3, name: 'TAMIL LETTER LLA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_LLA = "\u{BB3}";
 
-    #[Info(id: 2996, name: 'TAMIL LETTER LLLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBB4, name: 'TAMIL LETTER LLLA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_LLLA = "\u{BB4}";
 
-    #[Info(id: 2997, name: 'TAMIL LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBB5, name: 'TAMIL LETTER VA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_VA = "\u{BB5}";
 
-    #[Info(id: 2998, name: 'TAMIL LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBB6, name: 'TAMIL LETTER SHA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_SHA = "\u{BB6}";
 
-    #[Info(id: 2999, name: 'TAMIL LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBB7, name: 'TAMIL LETTER SSA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_SSA = "\u{BB7}";
 
-    #[Info(id: 3000, name: 'TAMIL LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBB8, name: 'TAMIL LETTER SA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_SA = "\u{BB8}";
 
-    #[Info(id: 3001, name: 'TAMIL LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBB9, name: 'TAMIL LETTER HA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_HA = "\u{BB9}";
 
-    #[Info(id: 3006, name: 'TAMIL VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xBBE, name: 'TAMIL VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case TAMIL_VOWEL_SIGN_AA = "\u{BBE}";
 
-    #[Info(id: 3007, name: 'TAMIL VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xBBF, name: 'TAMIL VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case TAMIL_VOWEL_SIGN_I = "\u{BBF}";
 
-    #[Info(id: 3008, name: 'TAMIL VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xBC0, name: 'TAMIL VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
     case TAMIL_VOWEL_SIGN_II = "\u{BC0}";
 
-    #[Info(id: 3009, name: 'TAMIL VOWEL SIGN U', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xBC1, name: 'TAMIL VOWEL SIGN U', category: Cat::Spacing_Mark)]
     case TAMIL_VOWEL_SIGN_U = "\u{BC1}";
 
-    #[Info(id: 3010, name: 'TAMIL VOWEL SIGN UU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xBC2, name: 'TAMIL VOWEL SIGN UU', category: Cat::Spacing_Mark)]
     case TAMIL_VOWEL_SIGN_UU = "\u{BC2}";
 
-    #[Info(id: 3014, name: 'TAMIL VOWEL SIGN E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xBC6, name: 'TAMIL VOWEL SIGN E', category: Cat::Spacing_Mark)]
     case TAMIL_VOWEL_SIGN_E = "\u{BC6}";
 
-    #[Info(id: 3015, name: 'TAMIL VOWEL SIGN EE', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xBC7, name: 'TAMIL VOWEL SIGN EE', category: Cat::Spacing_Mark)]
     case TAMIL_VOWEL_SIGN_EE = "\u{BC7}";
 
-    #[Info(id: 3016, name: 'TAMIL VOWEL SIGN AI', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xBC8, name: 'TAMIL VOWEL SIGN AI', category: Cat::Spacing_Mark)]
     case TAMIL_VOWEL_SIGN_AI = "\u{BC8}";
 
-    #[Info(id: 3018, name: 'TAMIL VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xBCA, name: 'TAMIL VOWEL SIGN O', category: Cat::Spacing_Mark)]
     case TAMIL_VOWEL_SIGN_O = "\u{BCA}";
 
-    #[Info(id: 3019, name: 'TAMIL VOWEL SIGN OO', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xBCB, name: 'TAMIL VOWEL SIGN OO', category: Cat::Spacing_Mark)]
     case TAMIL_VOWEL_SIGN_OO = "\u{BCB}";
 
-    #[Info(id: 3020, name: 'TAMIL VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xBCC, name: 'TAMIL VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case TAMIL_VOWEL_SIGN_AU = "\u{BCC}";
 
-    #[Info(id: 3021, name: 'TAMIL SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xBCD, name: 'TAMIL SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case TAMIL_SIGN_VIRAMA = "\u{BCD}";
 
-    #[Info(id: 3024, name: 'TAMIL OM', category: Cat::Other_Letter)]
+    #[Info(id: 0xBD0, name: 'TAMIL OM', category: Cat::Other_Letter)]
     case TAMIL_OM = "\u{BD0}";
 
-    #[Info(id: 3031, name: 'TAMIL AU LENGTH MARK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xBD7, name: 'TAMIL AU LENGTH MARK', category: Cat::Spacing_Mark)]
     case TAMIL_AU_LENGTH_MARK = "\u{BD7}";
 
-    #[Info(id: 3046, name: 'TAMIL DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xBE6, name: 'TAMIL DIGIT ZERO', category: Cat::Decimal_Number)]
     case TAMIL_DIGIT_ZERO = "\u{BE6}";
 
-    #[Info(id: 3047, name: 'TAMIL DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xBE7, name: 'TAMIL DIGIT ONE', category: Cat::Decimal_Number)]
     case TAMIL_DIGIT_ONE = "\u{BE7}";
 
-    #[Info(id: 3048, name: 'TAMIL DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xBE8, name: 'TAMIL DIGIT TWO', category: Cat::Decimal_Number)]
     case TAMIL_DIGIT_TWO = "\u{BE8}";
 
-    #[Info(id: 3049, name: 'TAMIL DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xBE9, name: 'TAMIL DIGIT THREE', category: Cat::Decimal_Number)]
     case TAMIL_DIGIT_THREE = "\u{BE9}";
 
-    #[Info(id: 3050, name: 'TAMIL DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xBEA, name: 'TAMIL DIGIT FOUR', category: Cat::Decimal_Number)]
     case TAMIL_DIGIT_FOUR = "\u{BEA}";
 
-    #[Info(id: 3051, name: 'TAMIL DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xBEB, name: 'TAMIL DIGIT FIVE', category: Cat::Decimal_Number)]
     case TAMIL_DIGIT_FIVE = "\u{BEB}";
 
-    #[Info(id: 3052, name: 'TAMIL DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xBEC, name: 'TAMIL DIGIT SIX', category: Cat::Decimal_Number)]
     case TAMIL_DIGIT_SIX = "\u{BEC}";
 
-    #[Info(id: 3053, name: 'TAMIL DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xBED, name: 'TAMIL DIGIT SEVEN', category: Cat::Decimal_Number)]
     case TAMIL_DIGIT_SEVEN = "\u{BED}";
 
-    #[Info(id: 3054, name: 'TAMIL DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xBEE, name: 'TAMIL DIGIT EIGHT', category: Cat::Decimal_Number)]
     case TAMIL_DIGIT_EIGHT = "\u{BEE}";
 
-    #[Info(id: 3055, name: 'TAMIL DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xBEF, name: 'TAMIL DIGIT NINE', category: Cat::Decimal_Number)]
     case TAMIL_DIGIT_NINE = "\u{BEF}";
 
-    #[Info(id: 3056, name: 'TAMIL NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0xBF0, name: 'TAMIL NUMBER TEN', category: Cat::Other_Number)]
     case TAMIL_NUMBER_TEN = "\u{BF0}";
 
-    #[Info(id: 3057, name: 'TAMIL NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0xBF1, name: 'TAMIL NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case TAMIL_NUMBER_ONE_HUNDRED = "\u{BF1}";
 
-    #[Info(id: 3058, name: 'TAMIL NUMBER ONE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0xBF2, name: 'TAMIL NUMBER ONE THOUSAND', category: Cat::Other_Number)]
     case TAMIL_NUMBER_ONE_THOUSAND = "\u{BF2}";
 
-    #[Info(id: 3059, name: 'TAMIL DAY SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF3, name: 'TAMIL DAY SIGN', category: Cat::Other_Symbol)]
     case TAMIL_DAY_SIGN = "\u{BF3}";
 
-    #[Info(id: 3060, name: 'TAMIL MONTH SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF4, name: 'TAMIL MONTH SIGN', category: Cat::Other_Symbol)]
     case TAMIL_MONTH_SIGN = "\u{BF4}";
 
-    #[Info(id: 3061, name: 'TAMIL YEAR SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF5, name: 'TAMIL YEAR SIGN', category: Cat::Other_Symbol)]
     case TAMIL_YEAR_SIGN = "\u{BF5}";
 
-    #[Info(id: 3062, name: 'TAMIL DEBIT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF6, name: 'TAMIL DEBIT SIGN', category: Cat::Other_Symbol)]
     case TAMIL_DEBIT_SIGN = "\u{BF6}";
 
-    #[Info(id: 3063, name: 'TAMIL CREDIT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF7, name: 'TAMIL CREDIT SIGN', category: Cat::Other_Symbol)]
     case TAMIL_CREDIT_SIGN = "\u{BF7}";
 
-    #[Info(id: 3064, name: 'TAMIL AS ABOVE SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF8, name: 'TAMIL AS ABOVE SIGN', category: Cat::Other_Symbol)]
     case TAMIL_AS_ABOVE_SIGN = "\u{BF8}";
 
-    #[Info(id: 3065, name: 'TAMIL RUPEE SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xBF9, name: 'TAMIL RUPEE SIGN', category: Cat::Currency_Symbol)]
     case TAMIL_RUPEE_SIGN = "\u{BF9}";
 
-    #[Info(id: 3066, name: 'TAMIL NUMBER SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBFA, name: 'TAMIL NUMBER SIGN', category: Cat::Other_Symbol)]
     case TAMIL_NUMBER_SIGN = "\u{BFA}";
 }

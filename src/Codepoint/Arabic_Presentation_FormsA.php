@@ -16,1896 +16,1896 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Arabic_Presentation_FormsA: string
 {
-    #[Info(id: 64336, name: 'ARABIC LETTER ALEF WASLA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB50, name: 'ARABIC LETTER ALEF WASLA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_ALEF_WASLA_ISOLATED_FORM = "\u{FB50}";
 
-    #[Info(id: 64337, name: 'ARABIC LETTER ALEF WASLA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB51, name: 'ARABIC LETTER ALEF WASLA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_ALEF_WASLA_FINAL_FORM = "\u{FB51}";
 
-    #[Info(id: 64338, name: 'ARABIC LETTER BEEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB52, name: 'ARABIC LETTER BEEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEEH_ISOLATED_FORM = "\u{FB52}";
 
-    #[Info(id: 64339, name: 'ARABIC LETTER BEEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB53, name: 'ARABIC LETTER BEEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEEH_FINAL_FORM = "\u{FB53}";
 
-    #[Info(id: 64340, name: 'ARABIC LETTER BEEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB54, name: 'ARABIC LETTER BEEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEEH_INITIAL_FORM = "\u{FB54}";
 
-    #[Info(id: 64341, name: 'ARABIC LETTER BEEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB55, name: 'ARABIC LETTER BEEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEEH_MEDIAL_FORM = "\u{FB55}";
 
-    #[Info(id: 64342, name: 'ARABIC LETTER PEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB56, name: 'ARABIC LETTER PEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_PEH_ISOLATED_FORM = "\u{FB56}";
 
-    #[Info(id: 64343, name: 'ARABIC LETTER PEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB57, name: 'ARABIC LETTER PEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_PEH_FINAL_FORM = "\u{FB57}";
 
-    #[Info(id: 64344, name: 'ARABIC LETTER PEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB58, name: 'ARABIC LETTER PEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_PEH_INITIAL_FORM = "\u{FB58}";
 
-    #[Info(id: 64345, name: 'ARABIC LETTER PEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB59, name: 'ARABIC LETTER PEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_PEH_MEDIAL_FORM = "\u{FB59}";
 
-    #[Info(id: 64346, name: 'ARABIC LETTER BEHEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB5A, name: 'ARABIC LETTER BEHEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEHEH_ISOLATED_FORM = "\u{FB5A}";
 
-    #[Info(id: 64347, name: 'ARABIC LETTER BEHEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB5B, name: 'ARABIC LETTER BEHEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEHEH_FINAL_FORM = "\u{FB5B}";
 
-    #[Info(id: 64348, name: 'ARABIC LETTER BEHEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB5C, name: 'ARABIC LETTER BEHEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEHEH_INITIAL_FORM = "\u{FB5C}";
 
-    #[Info(id: 64349, name: 'ARABIC LETTER BEHEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB5D, name: 'ARABIC LETTER BEHEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEHEH_MEDIAL_FORM = "\u{FB5D}";
 
-    #[Info(id: 64350, name: 'ARABIC LETTER TTEHEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB5E, name: 'ARABIC LETTER TTEHEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TTEHEH_ISOLATED_FORM = "\u{FB5E}";
 
-    #[Info(id: 64351, name: 'ARABIC LETTER TTEHEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB5F, name: 'ARABIC LETTER TTEHEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TTEHEH_FINAL_FORM = "\u{FB5F}";
 
-    #[Info(id: 64352, name: 'ARABIC LETTER TTEHEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB60, name: 'ARABIC LETTER TTEHEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TTEHEH_INITIAL_FORM = "\u{FB60}";
 
-    #[Info(id: 64353, name: 'ARABIC LETTER TTEHEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB61, name: 'ARABIC LETTER TTEHEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TTEHEH_MEDIAL_FORM = "\u{FB61}";
 
-    #[Info(id: 64354, name: 'ARABIC LETTER TEHEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB62, name: 'ARABIC LETTER TEHEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TEHEH_ISOLATED_FORM = "\u{FB62}";
 
-    #[Info(id: 64355, name: 'ARABIC LETTER TEHEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB63, name: 'ARABIC LETTER TEHEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TEHEH_FINAL_FORM = "\u{FB63}";
 
-    #[Info(id: 64356, name: 'ARABIC LETTER TEHEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB64, name: 'ARABIC LETTER TEHEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TEHEH_INITIAL_FORM = "\u{FB64}";
 
-    #[Info(id: 64357, name: 'ARABIC LETTER TEHEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB65, name: 'ARABIC LETTER TEHEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TEHEH_MEDIAL_FORM = "\u{FB65}";
 
-    #[Info(id: 64358, name: 'ARABIC LETTER TTEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB66, name: 'ARABIC LETTER TTEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TTEH_ISOLATED_FORM = "\u{FB66}";
 
-    #[Info(id: 64359, name: 'ARABIC LETTER TTEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB67, name: 'ARABIC LETTER TTEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TTEH_FINAL_FORM = "\u{FB67}";
 
-    #[Info(id: 64360, name: 'ARABIC LETTER TTEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB68, name: 'ARABIC LETTER TTEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TTEH_INITIAL_FORM = "\u{FB68}";
 
-    #[Info(id: 64361, name: 'ARABIC LETTER TTEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB69, name: 'ARABIC LETTER TTEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TTEH_MEDIAL_FORM = "\u{FB69}";
 
-    #[Info(id: 64362, name: 'ARABIC LETTER VEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB6A, name: 'ARABIC LETTER VEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_VEH_ISOLATED_FORM = "\u{FB6A}";
 
-    #[Info(id: 64363, name: 'ARABIC LETTER VEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB6B, name: 'ARABIC LETTER VEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_VEH_FINAL_FORM = "\u{FB6B}";
 
-    #[Info(id: 64364, name: 'ARABIC LETTER VEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB6C, name: 'ARABIC LETTER VEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_VEH_INITIAL_FORM = "\u{FB6C}";
 
-    #[Info(id: 64365, name: 'ARABIC LETTER VEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB6D, name: 'ARABIC LETTER VEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_VEH_MEDIAL_FORM = "\u{FB6D}";
 
-    #[Info(id: 64366, name: 'ARABIC LETTER PEHEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB6E, name: 'ARABIC LETTER PEHEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_PEHEH_ISOLATED_FORM = "\u{FB6E}";
 
-    #[Info(id: 64367, name: 'ARABIC LETTER PEHEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB6F, name: 'ARABIC LETTER PEHEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_PEHEH_FINAL_FORM = "\u{FB6F}";
 
-    #[Info(id: 64368, name: 'ARABIC LETTER PEHEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB70, name: 'ARABIC LETTER PEHEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_PEHEH_INITIAL_FORM = "\u{FB70}";
 
-    #[Info(id: 64369, name: 'ARABIC LETTER PEHEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB71, name: 'ARABIC LETTER PEHEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_PEHEH_MEDIAL_FORM = "\u{FB71}";
 
-    #[Info(id: 64370, name: 'ARABIC LETTER DYEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB72, name: 'ARABIC LETTER DYEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DYEH_ISOLATED_FORM = "\u{FB72}";
 
-    #[Info(id: 64371, name: 'ARABIC LETTER DYEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB73, name: 'ARABIC LETTER DYEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DYEH_FINAL_FORM = "\u{FB73}";
 
-    #[Info(id: 64372, name: 'ARABIC LETTER DYEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB74, name: 'ARABIC LETTER DYEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DYEH_INITIAL_FORM = "\u{FB74}";
 
-    #[Info(id: 64373, name: 'ARABIC LETTER DYEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB75, name: 'ARABIC LETTER DYEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DYEH_MEDIAL_FORM = "\u{FB75}";
 
-    #[Info(id: 64374, name: 'ARABIC LETTER NYEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB76, name: 'ARABIC LETTER NYEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NYEH_ISOLATED_FORM = "\u{FB76}";
 
-    #[Info(id: 64375, name: 'ARABIC LETTER NYEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB77, name: 'ARABIC LETTER NYEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NYEH_FINAL_FORM = "\u{FB77}";
 
-    #[Info(id: 64376, name: 'ARABIC LETTER NYEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB78, name: 'ARABIC LETTER NYEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NYEH_INITIAL_FORM = "\u{FB78}";
 
-    #[Info(id: 64377, name: 'ARABIC LETTER NYEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB79, name: 'ARABIC LETTER NYEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NYEH_MEDIAL_FORM = "\u{FB79}";
 
-    #[Info(id: 64378, name: 'ARABIC LETTER TCHEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB7A, name: 'ARABIC LETTER TCHEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TCHEH_ISOLATED_FORM = "\u{FB7A}";
 
-    #[Info(id: 64379, name: 'ARABIC LETTER TCHEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB7B, name: 'ARABIC LETTER TCHEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TCHEH_FINAL_FORM = "\u{FB7B}";
 
-    #[Info(id: 64380, name: 'ARABIC LETTER TCHEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB7C, name: 'ARABIC LETTER TCHEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TCHEH_INITIAL_FORM = "\u{FB7C}";
 
-    #[Info(id: 64381, name: 'ARABIC LETTER TCHEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB7D, name: 'ARABIC LETTER TCHEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TCHEH_MEDIAL_FORM = "\u{FB7D}";
 
-    #[Info(id: 64382, name: 'ARABIC LETTER TCHEHEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB7E, name: 'ARABIC LETTER TCHEHEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TCHEHEH_ISOLATED_FORM = "\u{FB7E}";
 
-    #[Info(id: 64383, name: 'ARABIC LETTER TCHEHEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB7F, name: 'ARABIC LETTER TCHEHEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TCHEHEH_FINAL_FORM = "\u{FB7F}";
 
-    #[Info(id: 64384, name: 'ARABIC LETTER TCHEHEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB80, name: 'ARABIC LETTER TCHEHEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TCHEHEH_INITIAL_FORM = "\u{FB80}";
 
-    #[Info(id: 64385, name: 'ARABIC LETTER TCHEHEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB81, name: 'ARABIC LETTER TCHEHEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TCHEHEH_MEDIAL_FORM = "\u{FB81}";
 
-    #[Info(id: 64386, name: 'ARABIC LETTER DDAHAL ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB82, name: 'ARABIC LETTER DDAHAL ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DDAHAL_ISOLATED_FORM = "\u{FB82}";
 
-    #[Info(id: 64387, name: 'ARABIC LETTER DDAHAL FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB83, name: 'ARABIC LETTER DDAHAL FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DDAHAL_FINAL_FORM = "\u{FB83}";
 
-    #[Info(id: 64388, name: 'ARABIC LETTER DAHAL ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB84, name: 'ARABIC LETTER DAHAL ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DAHAL_ISOLATED_FORM = "\u{FB84}";
 
-    #[Info(id: 64389, name: 'ARABIC LETTER DAHAL FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB85, name: 'ARABIC LETTER DAHAL FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DAHAL_FINAL_FORM = "\u{FB85}";
 
-    #[Info(id: 64390, name: 'ARABIC LETTER DUL ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB86, name: 'ARABIC LETTER DUL ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DUL_ISOLATED_FORM = "\u{FB86}";
 
-    #[Info(id: 64391, name: 'ARABIC LETTER DUL FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB87, name: 'ARABIC LETTER DUL FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DUL_FINAL_FORM = "\u{FB87}";
 
-    #[Info(id: 64392, name: 'ARABIC LETTER DDAL ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB88, name: 'ARABIC LETTER DDAL ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DDAL_ISOLATED_FORM = "\u{FB88}";
 
-    #[Info(id: 64393, name: 'ARABIC LETTER DDAL FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB89, name: 'ARABIC LETTER DDAL FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DDAL_FINAL_FORM = "\u{FB89}";
 
-    #[Info(id: 64394, name: 'ARABIC LETTER JEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB8A, name: 'ARABIC LETTER JEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_JEH_ISOLATED_FORM = "\u{FB8A}";
 
-    #[Info(id: 64395, name: 'ARABIC LETTER JEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB8B, name: 'ARABIC LETTER JEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_JEH_FINAL_FORM = "\u{FB8B}";
 
-    #[Info(id: 64396, name: 'ARABIC LETTER RREH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB8C, name: 'ARABIC LETTER RREH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_RREH_ISOLATED_FORM = "\u{FB8C}";
 
-    #[Info(id: 64397, name: 'ARABIC LETTER RREH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB8D, name: 'ARABIC LETTER RREH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_RREH_FINAL_FORM = "\u{FB8D}";
 
-    #[Info(id: 64398, name: 'ARABIC LETTER KEHEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB8E, name: 'ARABIC LETTER KEHEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KEHEH_ISOLATED_FORM = "\u{FB8E}";
 
-    #[Info(id: 64399, name: 'ARABIC LETTER KEHEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB8F, name: 'ARABIC LETTER KEHEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KEHEH_FINAL_FORM = "\u{FB8F}";
 
-    #[Info(id: 64400, name: 'ARABIC LETTER KEHEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB90, name: 'ARABIC LETTER KEHEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KEHEH_INITIAL_FORM = "\u{FB90}";
 
-    #[Info(id: 64401, name: 'ARABIC LETTER KEHEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB91, name: 'ARABIC LETTER KEHEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KEHEH_MEDIAL_FORM = "\u{FB91}";
 
-    #[Info(id: 64402, name: 'ARABIC LETTER GAF ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB92, name: 'ARABIC LETTER GAF ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_GAF_ISOLATED_FORM = "\u{FB92}";
 
-    #[Info(id: 64403, name: 'ARABIC LETTER GAF FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB93, name: 'ARABIC LETTER GAF FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_GAF_FINAL_FORM = "\u{FB93}";
 
-    #[Info(id: 64404, name: 'ARABIC LETTER GAF INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB94, name: 'ARABIC LETTER GAF INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_GAF_INITIAL_FORM = "\u{FB94}";
 
-    #[Info(id: 64405, name: 'ARABIC LETTER GAF MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB95, name: 'ARABIC LETTER GAF MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_GAF_MEDIAL_FORM = "\u{FB95}";
 
-    #[Info(id: 64406, name: 'ARABIC LETTER GUEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB96, name: 'ARABIC LETTER GUEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_GUEH_ISOLATED_FORM = "\u{FB96}";
 
-    #[Info(id: 64407, name: 'ARABIC LETTER GUEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB97, name: 'ARABIC LETTER GUEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_GUEH_FINAL_FORM = "\u{FB97}";
 
-    #[Info(id: 64408, name: 'ARABIC LETTER GUEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB98, name: 'ARABIC LETTER GUEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_GUEH_INITIAL_FORM = "\u{FB98}";
 
-    #[Info(id: 64409, name: 'ARABIC LETTER GUEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB99, name: 'ARABIC LETTER GUEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_GUEH_MEDIAL_FORM = "\u{FB99}";
 
-    #[Info(id: 64410, name: 'ARABIC LETTER NGOEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB9A, name: 'ARABIC LETTER NGOEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NGOEH_ISOLATED_FORM = "\u{FB9A}";
 
-    #[Info(id: 64411, name: 'ARABIC LETTER NGOEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB9B, name: 'ARABIC LETTER NGOEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NGOEH_FINAL_FORM = "\u{FB9B}";
 
-    #[Info(id: 64412, name: 'ARABIC LETTER NGOEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB9C, name: 'ARABIC LETTER NGOEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NGOEH_INITIAL_FORM = "\u{FB9C}";
 
-    #[Info(id: 64413, name: 'ARABIC LETTER NGOEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB9D, name: 'ARABIC LETTER NGOEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NGOEH_MEDIAL_FORM = "\u{FB9D}";
 
-    #[Info(id: 64414, name: 'ARABIC LETTER NOON GHUNNA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB9E, name: 'ARABIC LETTER NOON GHUNNA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NOON_GHUNNA_ISOLATED_FORM = "\u{FB9E}";
 
-    #[Info(id: 64415, name: 'ARABIC LETTER NOON GHUNNA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB9F, name: 'ARABIC LETTER NOON GHUNNA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NOON_GHUNNA_FINAL_FORM = "\u{FB9F}";
 
-    #[Info(id: 64416, name: 'ARABIC LETTER RNOON ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBA0, name: 'ARABIC LETTER RNOON ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_RNOON_ISOLATED_FORM = "\u{FBA0}";
 
-    #[Info(id: 64417, name: 'ARABIC LETTER RNOON FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBA1, name: 'ARABIC LETTER RNOON FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_RNOON_FINAL_FORM = "\u{FBA1}";
 
-    #[Info(id: 64418, name: 'ARABIC LETTER RNOON INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBA2, name: 'ARABIC LETTER RNOON INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_RNOON_INITIAL_FORM = "\u{FBA2}";
 
-    #[Info(id: 64419, name: 'ARABIC LETTER RNOON MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBA3, name: 'ARABIC LETTER RNOON MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_RNOON_MEDIAL_FORM = "\u{FBA3}";
 
-    #[Info(id: 64420, name: 'ARABIC LETTER HEH WITH YEH ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBA4, name: 'ARABIC LETTER HEH WITH YEH ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HEH_WITH_YEH_ABOVE_ISOLATED_FORM = "\u{FBA4}";
 
-    #[Info(id: 64421, name: 'ARABIC LETTER HEH WITH YEH ABOVE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBA5, name: 'ARABIC LETTER HEH WITH YEH ABOVE FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HEH_WITH_YEH_ABOVE_FINAL_FORM = "\u{FBA5}";
 
-    #[Info(id: 64422, name: 'ARABIC LETTER HEH GOAL ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBA6, name: 'ARABIC LETTER HEH GOAL ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HEH_GOAL_ISOLATED_FORM = "\u{FBA6}";
 
-    #[Info(id: 64423, name: 'ARABIC LETTER HEH GOAL FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBA7, name: 'ARABIC LETTER HEH GOAL FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HEH_GOAL_FINAL_FORM = "\u{FBA7}";
 
-    #[Info(id: 64424, name: 'ARABIC LETTER HEH GOAL INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBA8, name: 'ARABIC LETTER HEH GOAL INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HEH_GOAL_INITIAL_FORM = "\u{FBA8}";
 
-    #[Info(id: 64425, name: 'ARABIC LETTER HEH GOAL MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBA9, name: 'ARABIC LETTER HEH GOAL MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HEH_GOAL_MEDIAL_FORM = "\u{FBA9}";
 
-    #[Info(id: 64426, name: 'ARABIC LETTER HEH DOACHASHMEE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBAA, name: 'ARABIC LETTER HEH DOACHASHMEE ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HEH_DOACHASHMEE_ISOLATED_FORM = "\u{FBAA}";
 
-    #[Info(id: 64427, name: 'ARABIC LETTER HEH DOACHASHMEE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBAB, name: 'ARABIC LETTER HEH DOACHASHMEE FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HEH_DOACHASHMEE_FINAL_FORM = "\u{FBAB}";
 
-    #[Info(id: 64428, name: 'ARABIC LETTER HEH DOACHASHMEE INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBAC, name: 'ARABIC LETTER HEH DOACHASHMEE INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HEH_DOACHASHMEE_INITIAL_FORM = "\u{FBAC}";
 
-    #[Info(id: 64429, name: 'ARABIC LETTER HEH DOACHASHMEE MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBAD, name: 'ARABIC LETTER HEH DOACHASHMEE MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HEH_DOACHASHMEE_MEDIAL_FORM = "\u{FBAD}";
 
-    #[Info(id: 64430, name: 'ARABIC LETTER YEH BARREE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBAE, name: 'ARABIC LETTER YEH BARREE ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_BARREE_ISOLATED_FORM = "\u{FBAE}";
 
-    #[Info(id: 64431, name: 'ARABIC LETTER YEH BARREE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBAF, name: 'ARABIC LETTER YEH BARREE FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_BARREE_FINAL_FORM = "\u{FBAF}";
 
-    #[Info(id: 64432, name: 'ARABIC LETTER YEH BARREE WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBB0, name: 'ARABIC LETTER YEH BARREE WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_BARREE_WITH_HAMZA_ABOVE_ISOLATED_FORM = "\u{FBB0}";
 
-    #[Info(id: 64433, name: 'ARABIC LETTER YEH BARREE WITH HAMZA ABOVE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBB1, name: 'ARABIC LETTER YEH BARREE WITH HAMZA ABOVE FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_BARREE_WITH_HAMZA_ABOVE_FINAL_FORM = "\u{FBB1}";
 
-    #[Info(id: 64434, name: 'ARABIC SYMBOL DOT ABOVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBB2, name: 'ARABIC SYMBOL DOT ABOVE', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_DOT_ABOVE = "\u{FBB2}";
 
-    #[Info(id: 64435, name: 'ARABIC SYMBOL DOT BELOW', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBB3, name: 'ARABIC SYMBOL DOT BELOW', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_DOT_BELOW = "\u{FBB3}";
 
-    #[Info(id: 64436, name: 'ARABIC SYMBOL TWO DOTS ABOVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBB4, name: 'ARABIC SYMBOL TWO DOTS ABOVE', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_TWO_DOTS_ABOVE = "\u{FBB4}";
 
-    #[Info(id: 64437, name: 'ARABIC SYMBOL TWO DOTS BELOW', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBB5, name: 'ARABIC SYMBOL TWO DOTS BELOW', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_TWO_DOTS_BELOW = "\u{FBB5}";
 
-    #[Info(id: 64438, name: 'ARABIC SYMBOL THREE DOTS ABOVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBB6, name: 'ARABIC SYMBOL THREE DOTS ABOVE', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_THREE_DOTS_ABOVE = "\u{FBB6}";
 
-    #[Info(id: 64439, name: 'ARABIC SYMBOL THREE DOTS BELOW', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBB7, name: 'ARABIC SYMBOL THREE DOTS BELOW', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_THREE_DOTS_BELOW = "\u{FBB7}";
 
-    #[Info(id: 64440, name: 'ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS ABOVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBB8, name: 'ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS ABOVE', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_THREE_DOTS_POINTING_DOWNWARDS_ABOVE = "\u{FBB8}";
 
-    #[Info(id: 64441, name: 'ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS BELOW', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBB9, name: 'ARABIC SYMBOL THREE DOTS POINTING DOWNWARDS BELOW', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_THREE_DOTS_POINTING_DOWNWARDS_BELOW = "\u{FBB9}";
 
-    #[Info(id: 64442, name: 'ARABIC SYMBOL FOUR DOTS ABOVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBBA, name: 'ARABIC SYMBOL FOUR DOTS ABOVE', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_FOUR_DOTS_ABOVE = "\u{FBBA}";
 
-    #[Info(id: 64443, name: 'ARABIC SYMBOL FOUR DOTS BELOW', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBBB, name: 'ARABIC SYMBOL FOUR DOTS BELOW', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_FOUR_DOTS_BELOW = "\u{FBBB}";
 
-    #[Info(id: 64444, name: 'ARABIC SYMBOL DOUBLE VERTICAL BAR BELOW', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBBC, name: 'ARABIC SYMBOL DOUBLE VERTICAL BAR BELOW', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_DOUBLE_VERTICAL_BAR_BELOW = "\u{FBBC}";
 
-    #[Info(id: 64445, name: 'ARABIC SYMBOL TWO DOTS VERTICALLY ABOVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBBD, name: 'ARABIC SYMBOL TWO DOTS VERTICALLY ABOVE', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_TWO_DOTS_VERTICALLY_ABOVE = "\u{FBBD}";
 
-    #[Info(id: 64446, name: 'ARABIC SYMBOL TWO DOTS VERTICALLY BELOW', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBBE, name: 'ARABIC SYMBOL TWO DOTS VERTICALLY BELOW', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_TWO_DOTS_VERTICALLY_BELOW = "\u{FBBE}";
 
-    #[Info(id: 64447, name: 'ARABIC SYMBOL RING', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBBF, name: 'ARABIC SYMBOL RING', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_RING = "\u{FBBF}";
 
-    #[Info(id: 64448, name: 'ARABIC SYMBOL SMALL TAH ABOVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBC0, name: 'ARABIC SYMBOL SMALL TAH ABOVE', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_SMALL_TAH_ABOVE = "\u{FBC0}";
 
-    #[Info(id: 64449, name: 'ARABIC SYMBOL SMALL TAH BELOW', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBC1, name: 'ARABIC SYMBOL SMALL TAH BELOW', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_SMALL_TAH_BELOW = "\u{FBC1}";
 
-    #[Info(id: 64450, name: 'ARABIC SYMBOL WASLA ABOVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFBC2, name: 'ARABIC SYMBOL WASLA ABOVE', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_WASLA_ABOVE = "\u{FBC2}";
 
-    #[Info(id: 64467, name: 'ARABIC LETTER NG ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBD3, name: 'ARABIC LETTER NG ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NG_ISOLATED_FORM = "\u{FBD3}";
 
-    #[Info(id: 64468, name: 'ARABIC LETTER NG FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBD4, name: 'ARABIC LETTER NG FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NG_FINAL_FORM = "\u{FBD4}";
 
-    #[Info(id: 64469, name: 'ARABIC LETTER NG INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBD5, name: 'ARABIC LETTER NG INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NG_INITIAL_FORM = "\u{FBD5}";
 
-    #[Info(id: 64470, name: 'ARABIC LETTER NG MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBD6, name: 'ARABIC LETTER NG MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NG_MEDIAL_FORM = "\u{FBD6}";
 
-    #[Info(id: 64471, name: 'ARABIC LETTER U ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBD7, name: 'ARABIC LETTER U ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_U_ISOLATED_FORM = "\u{FBD7}";
 
-    #[Info(id: 64472, name: 'ARABIC LETTER U FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBD8, name: 'ARABIC LETTER U FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_U_FINAL_FORM = "\u{FBD8}";
 
-    #[Info(id: 64473, name: 'ARABIC LETTER OE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBD9, name: 'ARABIC LETTER OE ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_OE_ISOLATED_FORM = "\u{FBD9}";
 
-    #[Info(id: 64474, name: 'ARABIC LETTER OE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBDA, name: 'ARABIC LETTER OE FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_OE_FINAL_FORM = "\u{FBDA}";
 
-    #[Info(id: 64475, name: 'ARABIC LETTER YU ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBDB, name: 'ARABIC LETTER YU ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YU_ISOLATED_FORM = "\u{FBDB}";
 
-    #[Info(id: 64476, name: 'ARABIC LETTER YU FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBDC, name: 'ARABIC LETTER YU FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YU_FINAL_FORM = "\u{FBDC}";
 
-    #[Info(id: 64477, name: 'ARABIC LETTER U WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBDD, name: 'ARABIC LETTER U WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_U_WITH_HAMZA_ABOVE_ISOLATED_FORM = "\u{FBDD}";
 
-    #[Info(id: 64478, name: 'ARABIC LETTER VE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBDE, name: 'ARABIC LETTER VE ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_VE_ISOLATED_FORM = "\u{FBDE}";
 
-    #[Info(id: 64479, name: 'ARABIC LETTER VE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBDF, name: 'ARABIC LETTER VE FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_VE_FINAL_FORM = "\u{FBDF}";
 
-    #[Info(id: 64480, name: 'ARABIC LETTER KIRGHIZ OE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBE0, name: 'ARABIC LETTER KIRGHIZ OE ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KIRGHIZ_OE_ISOLATED_FORM = "\u{FBE0}";
 
-    #[Info(id: 64481, name: 'ARABIC LETTER KIRGHIZ OE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBE1, name: 'ARABIC LETTER KIRGHIZ OE FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KIRGHIZ_OE_FINAL_FORM = "\u{FBE1}";
 
-    #[Info(id: 64482, name: 'ARABIC LETTER KIRGHIZ YU ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBE2, name: 'ARABIC LETTER KIRGHIZ YU ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KIRGHIZ_YU_ISOLATED_FORM = "\u{FBE2}";
 
-    #[Info(id: 64483, name: 'ARABIC LETTER KIRGHIZ YU FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBE3, name: 'ARABIC LETTER KIRGHIZ YU FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KIRGHIZ_YU_FINAL_FORM = "\u{FBE3}";
 
-    #[Info(id: 64484, name: 'ARABIC LETTER E ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBE4, name: 'ARABIC LETTER E ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_E_ISOLATED_FORM = "\u{FBE4}";
 
-    #[Info(id: 64485, name: 'ARABIC LETTER E FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBE5, name: 'ARABIC LETTER E FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_E_FINAL_FORM = "\u{FBE5}";
 
-    #[Info(id: 64486, name: 'ARABIC LETTER E INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBE6, name: 'ARABIC LETTER E INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_E_INITIAL_FORM = "\u{FBE6}";
 
-    #[Info(id: 64487, name: 'ARABIC LETTER E MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBE7, name: 'ARABIC LETTER E MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_E_MEDIAL_FORM = "\u{FBE7}";
 
-    #[Info(id: 64488, name: 'ARABIC LETTER UIGHUR KAZAKH KIRGHIZ ALEF MAKSURA INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBE8, name: 'ARABIC LETTER UIGHUR KAZAKH KIRGHIZ ALEF MAKSURA INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_UIGHUR_KAZAKH_KIRGHIZ_ALEF_MAKSURA_INITIAL_FORM = "\u{FBE8}";
 
-    #[Info(id: 64489, name: 'ARABIC LETTER UIGHUR KAZAKH KIRGHIZ ALEF MAKSURA MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBE9, name: 'ARABIC LETTER UIGHUR KAZAKH KIRGHIZ ALEF MAKSURA MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_UIGHUR_KAZAKH_KIRGHIZ_ALEF_MAKSURA_MEDIAL_FORM = "\u{FBE9}";
 
-    #[Info(id: 64490, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH ALEF ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBEA, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH ALEF ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_ALEF_ISOLATED_FORM = "\u{FBEA}";
 
-    #[Info(id: 64491, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH ALEF FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBEB, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH ALEF FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_ALEF_FINAL_FORM = "\u{FBEB}";
 
-    #[Info(id: 64492, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH AE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBEC, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH AE ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_AE_ISOLATED_FORM = "\u{FBEC}";
 
-    #[Info(id: 64493, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH AE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBED, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH AE FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_AE_FINAL_FORM = "\u{FBED}";
 
-    #[Info(id: 64494, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH WAW ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBEE, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH WAW ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_WAW_ISOLATED_FORM = "\u{FBEE}";
 
-    #[Info(id: 64495, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH WAW FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBEF, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH WAW FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_WAW_FINAL_FORM = "\u{FBEF}";
 
-    #[Info(id: 64496, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH U ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBF0, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH U ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_U_ISOLATED_FORM = "\u{FBF0}";
 
-    #[Info(id: 64497, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH U FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBF1, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH U FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_U_FINAL_FORM = "\u{FBF1}";
 
-    #[Info(id: 64498, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH OE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBF2, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH OE ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_OE_ISOLATED_FORM = "\u{FBF2}";
 
-    #[Info(id: 64499, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH OE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBF3, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH OE FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_OE_FINAL_FORM = "\u{FBF3}";
 
-    #[Info(id: 64500, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH YU ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBF4, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH YU ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_YU_ISOLATED_FORM = "\u{FBF4}";
 
-    #[Info(id: 64501, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH YU FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBF5, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH YU FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_YU_FINAL_FORM = "\u{FBF5}";
 
-    #[Info(id: 64502, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH E ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBF6, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH E ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_E_ISOLATED_FORM = "\u{FBF6}";
 
-    #[Info(id: 64503, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH E FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBF7, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH E FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_E_FINAL_FORM = "\u{FBF7}";
 
-    #[Info(id: 64504, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH E INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBF8, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH E INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_E_INITIAL_FORM = "\u{FBF8}";
 
-    #[Info(id: 64505, name: 'ARABIC LIGATURE UIGHUR KIRGHIZ YEH WITH HAMZA ABOVE WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBF9, name: 'ARABIC LIGATURE UIGHUR KIRGHIZ YEH WITH HAMZA ABOVE WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_UIGHUR_KIRGHIZ_YEH_WITH_HAMZA_ABOVE_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FBF9}";
 
-    #[Info(id: 64506, name: 'ARABIC LIGATURE UIGHUR KIRGHIZ YEH WITH HAMZA ABOVE WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBFA, name: 'ARABIC LIGATURE UIGHUR KIRGHIZ YEH WITH HAMZA ABOVE WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_UIGHUR_KIRGHIZ_YEH_WITH_HAMZA_ABOVE_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FBFA}";
 
-    #[Info(id: 64507, name: 'ARABIC LIGATURE UIGHUR KIRGHIZ YEH WITH HAMZA ABOVE WITH ALEF MAKSURA INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBFB, name: 'ARABIC LIGATURE UIGHUR KIRGHIZ YEH WITH HAMZA ABOVE WITH ALEF MAKSURA INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_UIGHUR_KIRGHIZ_YEH_WITH_HAMZA_ABOVE_WITH_ALEF_MAKSURA_INITIAL_FORM = "\u{FBFB}";
 
-    #[Info(id: 64508, name: 'ARABIC LETTER FARSI YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBFC, name: 'ARABIC LETTER FARSI YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_FARSI_YEH_ISOLATED_FORM = "\u{FBFC}";
 
-    #[Info(id: 64509, name: 'ARABIC LETTER FARSI YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBFD, name: 'ARABIC LETTER FARSI YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_FARSI_YEH_FINAL_FORM = "\u{FBFD}";
 
-    #[Info(id: 64510, name: 'ARABIC LETTER FARSI YEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBFE, name: 'ARABIC LETTER FARSI YEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_FARSI_YEH_INITIAL_FORM = "\u{FBFE}";
 
-    #[Info(id: 64511, name: 'ARABIC LETTER FARSI YEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFBFF, name: 'ARABIC LETTER FARSI YEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_FARSI_YEH_MEDIAL_FORM = "\u{FBFF}";
 
-    #[Info(id: 64512, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC00, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_JEEM_ISOLATED_FORM = "\u{FC00}";
 
-    #[Info(id: 64513, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC01, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_HAH_ISOLATED_FORM = "\u{FC01}";
 
-    #[Info(id: 64514, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC02, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_MEEM_ISOLATED_FORM = "\u{FC02}";
 
-    #[Info(id: 64515, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC03, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC03}";
 
-    #[Info(id: 64516, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC04, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_YEH_ISOLATED_FORM = "\u{FC04}";
 
-    #[Info(id: 64517, name: 'ARABIC LIGATURE BEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC05, name: 'ARABIC LIGATURE BEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_JEEM_ISOLATED_FORM = "\u{FC05}";
 
-    #[Info(id: 64518, name: 'ARABIC LIGATURE BEH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC06, name: 'ARABIC LIGATURE BEH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_HAH_ISOLATED_FORM = "\u{FC06}";
 
-    #[Info(id: 64519, name: 'ARABIC LIGATURE BEH WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC07, name: 'ARABIC LIGATURE BEH WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_KHAH_ISOLATED_FORM = "\u{FC07}";
 
-    #[Info(id: 64520, name: 'ARABIC LIGATURE BEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC08, name: 'ARABIC LIGATURE BEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_MEEM_ISOLATED_FORM = "\u{FC08}";
 
-    #[Info(id: 64521, name: 'ARABIC LIGATURE BEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC09, name: 'ARABIC LIGATURE BEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC09}";
 
-    #[Info(id: 64522, name: 'ARABIC LIGATURE BEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC0A, name: 'ARABIC LIGATURE BEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_YEH_ISOLATED_FORM = "\u{FC0A}";
 
-    #[Info(id: 64523, name: 'ARABIC LIGATURE TEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC0B, name: 'ARABIC LIGATURE TEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_JEEM_ISOLATED_FORM = "\u{FC0B}";
 
-    #[Info(id: 64524, name: 'ARABIC LIGATURE TEH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC0C, name: 'ARABIC LIGATURE TEH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_HAH_ISOLATED_FORM = "\u{FC0C}";
 
-    #[Info(id: 64525, name: 'ARABIC LIGATURE TEH WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC0D, name: 'ARABIC LIGATURE TEH WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_KHAH_ISOLATED_FORM = "\u{FC0D}";
 
-    #[Info(id: 64526, name: 'ARABIC LIGATURE TEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC0E, name: 'ARABIC LIGATURE TEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_MEEM_ISOLATED_FORM = "\u{FC0E}";
 
-    #[Info(id: 64527, name: 'ARABIC LIGATURE TEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC0F, name: 'ARABIC LIGATURE TEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC0F}";
 
-    #[Info(id: 64528, name: 'ARABIC LIGATURE TEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC10, name: 'ARABIC LIGATURE TEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_YEH_ISOLATED_FORM = "\u{FC10}";
 
-    #[Info(id: 64529, name: 'ARABIC LIGATURE THEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC11, name: 'ARABIC LIGATURE THEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_JEEM_ISOLATED_FORM = "\u{FC11}";
 
-    #[Info(id: 64530, name: 'ARABIC LIGATURE THEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC12, name: 'ARABIC LIGATURE THEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_MEEM_ISOLATED_FORM = "\u{FC12}";
 
-    #[Info(id: 64531, name: 'ARABIC LIGATURE THEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC13, name: 'ARABIC LIGATURE THEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC13}";
 
-    #[Info(id: 64532, name: 'ARABIC LIGATURE THEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC14, name: 'ARABIC LIGATURE THEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_YEH_ISOLATED_FORM = "\u{FC14}";
 
-    #[Info(id: 64533, name: 'ARABIC LIGATURE JEEM WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC15, name: 'ARABIC LIGATURE JEEM WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_HAH_ISOLATED_FORM = "\u{FC15}";
 
-    #[Info(id: 64534, name: 'ARABIC LIGATURE JEEM WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC16, name: 'ARABIC LIGATURE JEEM WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_MEEM_ISOLATED_FORM = "\u{FC16}";
 
-    #[Info(id: 64535, name: 'ARABIC LIGATURE HAH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC17, name: 'ARABIC LIGATURE HAH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HAH_WITH_JEEM_ISOLATED_FORM = "\u{FC17}";
 
-    #[Info(id: 64536, name: 'ARABIC LIGATURE HAH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC18, name: 'ARABIC LIGATURE HAH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HAH_WITH_MEEM_ISOLATED_FORM = "\u{FC18}";
 
-    #[Info(id: 64537, name: 'ARABIC LIGATURE KHAH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC19, name: 'ARABIC LIGATURE KHAH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KHAH_WITH_JEEM_ISOLATED_FORM = "\u{FC19}";
 
-    #[Info(id: 64538, name: 'ARABIC LIGATURE KHAH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC1A, name: 'ARABIC LIGATURE KHAH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KHAH_WITH_HAH_ISOLATED_FORM = "\u{FC1A}";
 
-    #[Info(id: 64539, name: 'ARABIC LIGATURE KHAH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC1B, name: 'ARABIC LIGATURE KHAH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KHAH_WITH_MEEM_ISOLATED_FORM = "\u{FC1B}";
 
-    #[Info(id: 64540, name: 'ARABIC LIGATURE SEEN WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC1C, name: 'ARABIC LIGATURE SEEN WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_JEEM_ISOLATED_FORM = "\u{FC1C}";
 
-    #[Info(id: 64541, name: 'ARABIC LIGATURE SEEN WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC1D, name: 'ARABIC LIGATURE SEEN WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_HAH_ISOLATED_FORM = "\u{FC1D}";
 
-    #[Info(id: 64542, name: 'ARABIC LIGATURE SEEN WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC1E, name: 'ARABIC LIGATURE SEEN WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_KHAH_ISOLATED_FORM = "\u{FC1E}";
 
-    #[Info(id: 64543, name: 'ARABIC LIGATURE SEEN WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC1F, name: 'ARABIC LIGATURE SEEN WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_MEEM_ISOLATED_FORM = "\u{FC1F}";
 
-    #[Info(id: 64544, name: 'ARABIC LIGATURE SAD WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC20, name: 'ARABIC LIGATURE SAD WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_HAH_ISOLATED_FORM = "\u{FC20}";
 
-    #[Info(id: 64545, name: 'ARABIC LIGATURE SAD WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC21, name: 'ARABIC LIGATURE SAD WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_MEEM_ISOLATED_FORM = "\u{FC21}";
 
-    #[Info(id: 64546, name: 'ARABIC LIGATURE DAD WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC22, name: 'ARABIC LIGATURE DAD WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_JEEM_ISOLATED_FORM = "\u{FC22}";
 
-    #[Info(id: 64547, name: 'ARABIC LIGATURE DAD WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC23, name: 'ARABIC LIGATURE DAD WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_HAH_ISOLATED_FORM = "\u{FC23}";
 
-    #[Info(id: 64548, name: 'ARABIC LIGATURE DAD WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC24, name: 'ARABIC LIGATURE DAD WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_KHAH_ISOLATED_FORM = "\u{FC24}";
 
-    #[Info(id: 64549, name: 'ARABIC LIGATURE DAD WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC25, name: 'ARABIC LIGATURE DAD WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_MEEM_ISOLATED_FORM = "\u{FC25}";
 
-    #[Info(id: 64550, name: 'ARABIC LIGATURE TAH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC26, name: 'ARABIC LIGATURE TAH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_HAH_ISOLATED_FORM = "\u{FC26}";
 
-    #[Info(id: 64551, name: 'ARABIC LIGATURE TAH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC27, name: 'ARABIC LIGATURE TAH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_MEEM_ISOLATED_FORM = "\u{FC27}";
 
-    #[Info(id: 64552, name: 'ARABIC LIGATURE ZAH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC28, name: 'ARABIC LIGATURE ZAH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_ZAH_WITH_MEEM_ISOLATED_FORM = "\u{FC28}";
 
-    #[Info(id: 64553, name: 'ARABIC LIGATURE AIN WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC29, name: 'ARABIC LIGATURE AIN WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_JEEM_ISOLATED_FORM = "\u{FC29}";
 
-    #[Info(id: 64554, name: 'ARABIC LIGATURE AIN WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC2A, name: 'ARABIC LIGATURE AIN WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_MEEM_ISOLATED_FORM = "\u{FC2A}";
 
-    #[Info(id: 64555, name: 'ARABIC LIGATURE GHAIN WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC2B, name: 'ARABIC LIGATURE GHAIN WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_GHAIN_WITH_JEEM_ISOLATED_FORM = "\u{FC2B}";
 
-    #[Info(id: 64556, name: 'ARABIC LIGATURE GHAIN WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC2C, name: 'ARABIC LIGATURE GHAIN WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_GHAIN_WITH_MEEM_ISOLATED_FORM = "\u{FC2C}";
 
-    #[Info(id: 64557, name: 'ARABIC LIGATURE FEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC2D, name: 'ARABIC LIGATURE FEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_JEEM_ISOLATED_FORM = "\u{FC2D}";
 
-    #[Info(id: 64558, name: 'ARABIC LIGATURE FEH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC2E, name: 'ARABIC LIGATURE FEH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_HAH_ISOLATED_FORM = "\u{FC2E}";
 
-    #[Info(id: 64559, name: 'ARABIC LIGATURE FEH WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC2F, name: 'ARABIC LIGATURE FEH WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_KHAH_ISOLATED_FORM = "\u{FC2F}";
 
-    #[Info(id: 64560, name: 'ARABIC LIGATURE FEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC30, name: 'ARABIC LIGATURE FEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_MEEM_ISOLATED_FORM = "\u{FC30}";
 
-    #[Info(id: 64561, name: 'ARABIC LIGATURE FEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC31, name: 'ARABIC LIGATURE FEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC31}";
 
-    #[Info(id: 64562, name: 'ARABIC LIGATURE FEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC32, name: 'ARABIC LIGATURE FEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_YEH_ISOLATED_FORM = "\u{FC32}";
 
-    #[Info(id: 64563, name: 'ARABIC LIGATURE QAF WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC33, name: 'ARABIC LIGATURE QAF WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_HAH_ISOLATED_FORM = "\u{FC33}";
 
-    #[Info(id: 64564, name: 'ARABIC LIGATURE QAF WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC34, name: 'ARABIC LIGATURE QAF WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_MEEM_ISOLATED_FORM = "\u{FC34}";
 
-    #[Info(id: 64565, name: 'ARABIC LIGATURE QAF WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC35, name: 'ARABIC LIGATURE QAF WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC35}";
 
-    #[Info(id: 64566, name: 'ARABIC LIGATURE QAF WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC36, name: 'ARABIC LIGATURE QAF WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_YEH_ISOLATED_FORM = "\u{FC36}";
 
-    #[Info(id: 64567, name: 'ARABIC LIGATURE KAF WITH ALEF ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC37, name: 'ARABIC LIGATURE KAF WITH ALEF ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_ALEF_ISOLATED_FORM = "\u{FC37}";
 
-    #[Info(id: 64568, name: 'ARABIC LIGATURE KAF WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC38, name: 'ARABIC LIGATURE KAF WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_JEEM_ISOLATED_FORM = "\u{FC38}";
 
-    #[Info(id: 64569, name: 'ARABIC LIGATURE KAF WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC39, name: 'ARABIC LIGATURE KAF WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_HAH_ISOLATED_FORM = "\u{FC39}";
 
-    #[Info(id: 64570, name: 'ARABIC LIGATURE KAF WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC3A, name: 'ARABIC LIGATURE KAF WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_KHAH_ISOLATED_FORM = "\u{FC3A}";
 
-    #[Info(id: 64571, name: 'ARABIC LIGATURE KAF WITH LAM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC3B, name: 'ARABIC LIGATURE KAF WITH LAM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_LAM_ISOLATED_FORM = "\u{FC3B}";
 
-    #[Info(id: 64572, name: 'ARABIC LIGATURE KAF WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC3C, name: 'ARABIC LIGATURE KAF WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_MEEM_ISOLATED_FORM = "\u{FC3C}";
 
-    #[Info(id: 64573, name: 'ARABIC LIGATURE KAF WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC3D, name: 'ARABIC LIGATURE KAF WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC3D}";
 
-    #[Info(id: 64574, name: 'ARABIC LIGATURE KAF WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC3E, name: 'ARABIC LIGATURE KAF WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_YEH_ISOLATED_FORM = "\u{FC3E}";
 
-    #[Info(id: 64575, name: 'ARABIC LIGATURE LAM WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC3F, name: 'ARABIC LIGATURE LAM WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_JEEM_ISOLATED_FORM = "\u{FC3F}";
 
-    #[Info(id: 64576, name: 'ARABIC LIGATURE LAM WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC40, name: 'ARABIC LIGATURE LAM WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_HAH_ISOLATED_FORM = "\u{FC40}";
 
-    #[Info(id: 64577, name: 'ARABIC LIGATURE LAM WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC41, name: 'ARABIC LIGATURE LAM WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_KHAH_ISOLATED_FORM = "\u{FC41}";
 
-    #[Info(id: 64578, name: 'ARABIC LIGATURE LAM WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC42, name: 'ARABIC LIGATURE LAM WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_MEEM_ISOLATED_FORM = "\u{FC42}";
 
-    #[Info(id: 64579, name: 'ARABIC LIGATURE LAM WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC43, name: 'ARABIC LIGATURE LAM WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC43}";
 
-    #[Info(id: 64580, name: 'ARABIC LIGATURE LAM WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC44, name: 'ARABIC LIGATURE LAM WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_YEH_ISOLATED_FORM = "\u{FC44}";
 
-    #[Info(id: 64581, name: 'ARABIC LIGATURE MEEM WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC45, name: 'ARABIC LIGATURE MEEM WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_JEEM_ISOLATED_FORM = "\u{FC45}";
 
-    #[Info(id: 64582, name: 'ARABIC LIGATURE MEEM WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC46, name: 'ARABIC LIGATURE MEEM WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_HAH_ISOLATED_FORM = "\u{FC46}";
 
-    #[Info(id: 64583, name: 'ARABIC LIGATURE MEEM WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC47, name: 'ARABIC LIGATURE MEEM WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_KHAH_ISOLATED_FORM = "\u{FC47}";
 
-    #[Info(id: 64584, name: 'ARABIC LIGATURE MEEM WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC48, name: 'ARABIC LIGATURE MEEM WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_MEEM_ISOLATED_FORM = "\u{FC48}";
 
-    #[Info(id: 64585, name: 'ARABIC LIGATURE MEEM WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC49, name: 'ARABIC LIGATURE MEEM WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC49}";
 
-    #[Info(id: 64586, name: 'ARABIC LIGATURE MEEM WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC4A, name: 'ARABIC LIGATURE MEEM WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_YEH_ISOLATED_FORM = "\u{FC4A}";
 
-    #[Info(id: 64587, name: 'ARABIC LIGATURE NOON WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC4B, name: 'ARABIC LIGATURE NOON WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_JEEM_ISOLATED_FORM = "\u{FC4B}";
 
-    #[Info(id: 64588, name: 'ARABIC LIGATURE NOON WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC4C, name: 'ARABIC LIGATURE NOON WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_HAH_ISOLATED_FORM = "\u{FC4C}";
 
-    #[Info(id: 64589, name: 'ARABIC LIGATURE NOON WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC4D, name: 'ARABIC LIGATURE NOON WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_KHAH_ISOLATED_FORM = "\u{FC4D}";
 
-    #[Info(id: 64590, name: 'ARABIC LIGATURE NOON WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC4E, name: 'ARABIC LIGATURE NOON WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_MEEM_ISOLATED_FORM = "\u{FC4E}";
 
-    #[Info(id: 64591, name: 'ARABIC LIGATURE NOON WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC4F, name: 'ARABIC LIGATURE NOON WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC4F}";
 
-    #[Info(id: 64592, name: 'ARABIC LIGATURE NOON WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC50, name: 'ARABIC LIGATURE NOON WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_YEH_ISOLATED_FORM = "\u{FC50}";
 
-    #[Info(id: 64593, name: 'ARABIC LIGATURE HEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC51, name: 'ARABIC LIGATURE HEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HEH_WITH_JEEM_ISOLATED_FORM = "\u{FC51}";
 
-    #[Info(id: 64594, name: 'ARABIC LIGATURE HEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC52, name: 'ARABIC LIGATURE HEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HEH_WITH_MEEM_ISOLATED_FORM = "\u{FC52}";
 
-    #[Info(id: 64595, name: 'ARABIC LIGATURE HEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC53, name: 'ARABIC LIGATURE HEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HEH_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC53}";
 
-    #[Info(id: 64596, name: 'ARABIC LIGATURE HEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC54, name: 'ARABIC LIGATURE HEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HEH_WITH_YEH_ISOLATED_FORM = "\u{FC54}";
 
-    #[Info(id: 64597, name: 'ARABIC LIGATURE YEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC55, name: 'ARABIC LIGATURE YEH WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_JEEM_ISOLATED_FORM = "\u{FC55}";
 
-    #[Info(id: 64598, name: 'ARABIC LIGATURE YEH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC56, name: 'ARABIC LIGATURE YEH WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAH_ISOLATED_FORM = "\u{FC56}";
 
-    #[Info(id: 64599, name: 'ARABIC LIGATURE YEH WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC57, name: 'ARABIC LIGATURE YEH WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_KHAH_ISOLATED_FORM = "\u{FC57}";
 
-    #[Info(id: 64600, name: 'ARABIC LIGATURE YEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC58, name: 'ARABIC LIGATURE YEH WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_MEEM_ISOLATED_FORM = "\u{FC58}";
 
-    #[Info(id: 64601, name: 'ARABIC LIGATURE YEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC59, name: 'ARABIC LIGATURE YEH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FC59}";
 
-    #[Info(id: 64602, name: 'ARABIC LIGATURE YEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC5A, name: 'ARABIC LIGATURE YEH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_YEH_ISOLATED_FORM = "\u{FC5A}";
 
-    #[Info(id: 64603, name: 'ARABIC LIGATURE THAL WITH SUPERSCRIPT ALEF ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC5B, name: 'ARABIC LIGATURE THAL WITH SUPERSCRIPT ALEF ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THAL_WITH_SUPERSCRIPT_ALEF_ISOLATED_FORM = "\u{FC5B}";
 
-    #[Info(id: 64604, name: 'ARABIC LIGATURE REH WITH SUPERSCRIPT ALEF ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC5C, name: 'ARABIC LIGATURE REH WITH SUPERSCRIPT ALEF ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_REH_WITH_SUPERSCRIPT_ALEF_ISOLATED_FORM = "\u{FC5C}";
 
-    #[Info(id: 64605, name: 'ARABIC LIGATURE ALEF MAKSURA WITH SUPERSCRIPT ALEF ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC5D, name: 'ARABIC LIGATURE ALEF MAKSURA WITH SUPERSCRIPT ALEF ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_ALEF_MAKSURA_WITH_SUPERSCRIPT_ALEF_ISOLATED_FORM = "\u{FC5D}";
 
-    #[Info(id: 64606, name: 'ARABIC LIGATURE SHADDA WITH DAMMATAN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC5E, name: 'ARABIC LIGATURE SHADDA WITH DAMMATAN ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHADDA_WITH_DAMMATAN_ISOLATED_FORM = "\u{FC5E}";
 
-    #[Info(id: 64607, name: 'ARABIC LIGATURE SHADDA WITH KASRATAN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC5F, name: 'ARABIC LIGATURE SHADDA WITH KASRATAN ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHADDA_WITH_KASRATAN_ISOLATED_FORM = "\u{FC5F}";
 
-    #[Info(id: 64608, name: 'ARABIC LIGATURE SHADDA WITH FATHA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC60, name: 'ARABIC LIGATURE SHADDA WITH FATHA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHADDA_WITH_FATHA_ISOLATED_FORM = "\u{FC60}";
 
-    #[Info(id: 64609, name: 'ARABIC LIGATURE SHADDA WITH DAMMA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC61, name: 'ARABIC LIGATURE SHADDA WITH DAMMA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHADDA_WITH_DAMMA_ISOLATED_FORM = "\u{FC61}";
 
-    #[Info(id: 64610, name: 'ARABIC LIGATURE SHADDA WITH KASRA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC62, name: 'ARABIC LIGATURE SHADDA WITH KASRA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHADDA_WITH_KASRA_ISOLATED_FORM = "\u{FC62}";
 
-    #[Info(id: 64611, name: 'ARABIC LIGATURE SHADDA WITH SUPERSCRIPT ALEF ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC63, name: 'ARABIC LIGATURE SHADDA WITH SUPERSCRIPT ALEF ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHADDA_WITH_SUPERSCRIPT_ALEF_ISOLATED_FORM = "\u{FC63}";
 
-    #[Info(id: 64612, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH REH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC64, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH REH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_REH_FINAL_FORM = "\u{FC64}";
 
-    #[Info(id: 64613, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC65, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_ZAIN_FINAL_FORM = "\u{FC65}";
 
-    #[Info(id: 64614, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC66, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_MEEM_FINAL_FORM = "\u{FC66}";
 
-    #[Info(id: 64615, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH NOON FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC67, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH NOON FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_NOON_FINAL_FORM = "\u{FC67}";
 
-    #[Info(id: 64616, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC68, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FC68}";
 
-    #[Info(id: 64617, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC69, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_YEH_FINAL_FORM = "\u{FC69}";
 
-    #[Info(id: 64618, name: 'ARABIC LIGATURE BEH WITH REH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC6A, name: 'ARABIC LIGATURE BEH WITH REH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_REH_FINAL_FORM = "\u{FC6A}";
 
-    #[Info(id: 64619, name: 'ARABIC LIGATURE BEH WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC6B, name: 'ARABIC LIGATURE BEH WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_ZAIN_FINAL_FORM = "\u{FC6B}";
 
-    #[Info(id: 64620, name: 'ARABIC LIGATURE BEH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC6C, name: 'ARABIC LIGATURE BEH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_MEEM_FINAL_FORM = "\u{FC6C}";
 
-    #[Info(id: 64621, name: 'ARABIC LIGATURE BEH WITH NOON FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC6D, name: 'ARABIC LIGATURE BEH WITH NOON FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_NOON_FINAL_FORM = "\u{FC6D}";
 
-    #[Info(id: 64622, name: 'ARABIC LIGATURE BEH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC6E, name: 'ARABIC LIGATURE BEH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FC6E}";
 
-    #[Info(id: 64623, name: 'ARABIC LIGATURE BEH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC6F, name: 'ARABIC LIGATURE BEH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_YEH_FINAL_FORM = "\u{FC6F}";
 
-    #[Info(id: 64624, name: 'ARABIC LIGATURE TEH WITH REH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC70, name: 'ARABIC LIGATURE TEH WITH REH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_REH_FINAL_FORM = "\u{FC70}";
 
-    #[Info(id: 64625, name: 'ARABIC LIGATURE TEH WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC71, name: 'ARABIC LIGATURE TEH WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_ZAIN_FINAL_FORM = "\u{FC71}";
 
-    #[Info(id: 64626, name: 'ARABIC LIGATURE TEH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC72, name: 'ARABIC LIGATURE TEH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_MEEM_FINAL_FORM = "\u{FC72}";
 
-    #[Info(id: 64627, name: 'ARABIC LIGATURE TEH WITH NOON FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC73, name: 'ARABIC LIGATURE TEH WITH NOON FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_NOON_FINAL_FORM = "\u{FC73}";
 
-    #[Info(id: 64628, name: 'ARABIC LIGATURE TEH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC74, name: 'ARABIC LIGATURE TEH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FC74}";
 
-    #[Info(id: 64629, name: 'ARABIC LIGATURE TEH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC75, name: 'ARABIC LIGATURE TEH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_YEH_FINAL_FORM = "\u{FC75}";
 
-    #[Info(id: 64630, name: 'ARABIC LIGATURE THEH WITH REH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC76, name: 'ARABIC LIGATURE THEH WITH REH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_REH_FINAL_FORM = "\u{FC76}";
 
-    #[Info(id: 64631, name: 'ARABIC LIGATURE THEH WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC77, name: 'ARABIC LIGATURE THEH WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_ZAIN_FINAL_FORM = "\u{FC77}";
 
-    #[Info(id: 64632, name: 'ARABIC LIGATURE THEH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC78, name: 'ARABIC LIGATURE THEH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_MEEM_FINAL_FORM = "\u{FC78}";
 
-    #[Info(id: 64633, name: 'ARABIC LIGATURE THEH WITH NOON FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC79, name: 'ARABIC LIGATURE THEH WITH NOON FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_NOON_FINAL_FORM = "\u{FC79}";
 
-    #[Info(id: 64634, name: 'ARABIC LIGATURE THEH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC7A, name: 'ARABIC LIGATURE THEH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FC7A}";
 
-    #[Info(id: 64635, name: 'ARABIC LIGATURE THEH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC7B, name: 'ARABIC LIGATURE THEH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_YEH_FINAL_FORM = "\u{FC7B}";
 
-    #[Info(id: 64636, name: 'ARABIC LIGATURE FEH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC7C, name: 'ARABIC LIGATURE FEH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FC7C}";
 
-    #[Info(id: 64637, name: 'ARABIC LIGATURE FEH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC7D, name: 'ARABIC LIGATURE FEH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_YEH_FINAL_FORM = "\u{FC7D}";
 
-    #[Info(id: 64638, name: 'ARABIC LIGATURE QAF WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC7E, name: 'ARABIC LIGATURE QAF WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FC7E}";
 
-    #[Info(id: 64639, name: 'ARABIC LIGATURE QAF WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC7F, name: 'ARABIC LIGATURE QAF WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_YEH_FINAL_FORM = "\u{FC7F}";
 
-    #[Info(id: 64640, name: 'ARABIC LIGATURE KAF WITH ALEF FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC80, name: 'ARABIC LIGATURE KAF WITH ALEF FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_ALEF_FINAL_FORM = "\u{FC80}";
 
-    #[Info(id: 64641, name: 'ARABIC LIGATURE KAF WITH LAM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC81, name: 'ARABIC LIGATURE KAF WITH LAM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_LAM_FINAL_FORM = "\u{FC81}";
 
-    #[Info(id: 64642, name: 'ARABIC LIGATURE KAF WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC82, name: 'ARABIC LIGATURE KAF WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_MEEM_FINAL_FORM = "\u{FC82}";
 
-    #[Info(id: 64643, name: 'ARABIC LIGATURE KAF WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC83, name: 'ARABIC LIGATURE KAF WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FC83}";
 
-    #[Info(id: 64644, name: 'ARABIC LIGATURE KAF WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC84, name: 'ARABIC LIGATURE KAF WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_YEH_FINAL_FORM = "\u{FC84}";
 
-    #[Info(id: 64645, name: 'ARABIC LIGATURE LAM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC85, name: 'ARABIC LIGATURE LAM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_MEEM_FINAL_FORM = "\u{FC85}";
 
-    #[Info(id: 64646, name: 'ARABIC LIGATURE LAM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC86, name: 'ARABIC LIGATURE LAM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FC86}";
 
-    #[Info(id: 64647, name: 'ARABIC LIGATURE LAM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC87, name: 'ARABIC LIGATURE LAM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_YEH_FINAL_FORM = "\u{FC87}";
 
-    #[Info(id: 64648, name: 'ARABIC LIGATURE MEEM WITH ALEF FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC88, name: 'ARABIC LIGATURE MEEM WITH ALEF FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_ALEF_FINAL_FORM = "\u{FC88}";
 
-    #[Info(id: 64649, name: 'ARABIC LIGATURE MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC89, name: 'ARABIC LIGATURE MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_MEEM_FINAL_FORM = "\u{FC89}";
 
-    #[Info(id: 64650, name: 'ARABIC LIGATURE NOON WITH REH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC8A, name: 'ARABIC LIGATURE NOON WITH REH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_REH_FINAL_FORM = "\u{FC8A}";
 
-    #[Info(id: 64651, name: 'ARABIC LIGATURE NOON WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC8B, name: 'ARABIC LIGATURE NOON WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_ZAIN_FINAL_FORM = "\u{FC8B}";
 
-    #[Info(id: 64652, name: 'ARABIC LIGATURE NOON WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC8C, name: 'ARABIC LIGATURE NOON WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_MEEM_FINAL_FORM = "\u{FC8C}";
 
-    #[Info(id: 64653, name: 'ARABIC LIGATURE NOON WITH NOON FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC8D, name: 'ARABIC LIGATURE NOON WITH NOON FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_NOON_FINAL_FORM = "\u{FC8D}";
 
-    #[Info(id: 64654, name: 'ARABIC LIGATURE NOON WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC8E, name: 'ARABIC LIGATURE NOON WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FC8E}";
 
-    #[Info(id: 64655, name: 'ARABIC LIGATURE NOON WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC8F, name: 'ARABIC LIGATURE NOON WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_YEH_FINAL_FORM = "\u{FC8F}";
 
-    #[Info(id: 64656, name: 'ARABIC LIGATURE ALEF MAKSURA WITH SUPERSCRIPT ALEF FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC90, name: 'ARABIC LIGATURE ALEF MAKSURA WITH SUPERSCRIPT ALEF FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_ALEF_MAKSURA_WITH_SUPERSCRIPT_ALEF_FINAL_FORM = "\u{FC90}";
 
-    #[Info(id: 64657, name: 'ARABIC LIGATURE YEH WITH REH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC91, name: 'ARABIC LIGATURE YEH WITH REH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_REH_FINAL_FORM = "\u{FC91}";
 
-    #[Info(id: 64658, name: 'ARABIC LIGATURE YEH WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC92, name: 'ARABIC LIGATURE YEH WITH ZAIN FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_ZAIN_FINAL_FORM = "\u{FC92}";
 
-    #[Info(id: 64659, name: 'ARABIC LIGATURE YEH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC93, name: 'ARABIC LIGATURE YEH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_MEEM_FINAL_FORM = "\u{FC93}";
 
-    #[Info(id: 64660, name: 'ARABIC LIGATURE YEH WITH NOON FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC94, name: 'ARABIC LIGATURE YEH WITH NOON FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_NOON_FINAL_FORM = "\u{FC94}";
 
-    #[Info(id: 64661, name: 'ARABIC LIGATURE YEH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC95, name: 'ARABIC LIGATURE YEH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FC95}";
 
-    #[Info(id: 64662, name: 'ARABIC LIGATURE YEH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC96, name: 'ARABIC LIGATURE YEH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_YEH_FINAL_FORM = "\u{FC96}";
 
-    #[Info(id: 64663, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC97, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_JEEM_INITIAL_FORM = "\u{FC97}";
 
-    #[Info(id: 64664, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC98, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_HAH_INITIAL_FORM = "\u{FC98}";
 
-    #[Info(id: 64665, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC99, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_KHAH_INITIAL_FORM = "\u{FC99}";
 
-    #[Info(id: 64666, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC9A, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_MEEM_INITIAL_FORM = "\u{FC9A}";
 
-    #[Info(id: 64667, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC9B, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_HEH_INITIAL_FORM = "\u{FC9B}";
 
-    #[Info(id: 64668, name: 'ARABIC LIGATURE BEH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC9C, name: 'ARABIC LIGATURE BEH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_JEEM_INITIAL_FORM = "\u{FC9C}";
 
-    #[Info(id: 64669, name: 'ARABIC LIGATURE BEH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC9D, name: 'ARABIC LIGATURE BEH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_HAH_INITIAL_FORM = "\u{FC9D}";
 
-    #[Info(id: 64670, name: 'ARABIC LIGATURE BEH WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC9E, name: 'ARABIC LIGATURE BEH WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_KHAH_INITIAL_FORM = "\u{FC9E}";
 
-    #[Info(id: 64671, name: 'ARABIC LIGATURE BEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFC9F, name: 'ARABIC LIGATURE BEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_MEEM_INITIAL_FORM = "\u{FC9F}";
 
-    #[Info(id: 64672, name: 'ARABIC LIGATURE BEH WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCA0, name: 'ARABIC LIGATURE BEH WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_HEH_INITIAL_FORM = "\u{FCA0}";
 
-    #[Info(id: 64673, name: 'ARABIC LIGATURE TEH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCA1, name: 'ARABIC LIGATURE TEH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_JEEM_INITIAL_FORM = "\u{FCA1}";
 
-    #[Info(id: 64674, name: 'ARABIC LIGATURE TEH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCA2, name: 'ARABIC LIGATURE TEH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_HAH_INITIAL_FORM = "\u{FCA2}";
 
-    #[Info(id: 64675, name: 'ARABIC LIGATURE TEH WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCA3, name: 'ARABIC LIGATURE TEH WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_KHAH_INITIAL_FORM = "\u{FCA3}";
 
-    #[Info(id: 64676, name: 'ARABIC LIGATURE TEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCA4, name: 'ARABIC LIGATURE TEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_MEEM_INITIAL_FORM = "\u{FCA4}";
 
-    #[Info(id: 64677, name: 'ARABIC LIGATURE TEH WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCA5, name: 'ARABIC LIGATURE TEH WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_HEH_INITIAL_FORM = "\u{FCA5}";
 
-    #[Info(id: 64678, name: 'ARABIC LIGATURE THEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCA6, name: 'ARABIC LIGATURE THEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_MEEM_INITIAL_FORM = "\u{FCA6}";
 
-    #[Info(id: 64679, name: 'ARABIC LIGATURE JEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCA7, name: 'ARABIC LIGATURE JEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_HAH_INITIAL_FORM = "\u{FCA7}";
 
-    #[Info(id: 64680, name: 'ARABIC LIGATURE JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCA8, name: 'ARABIC LIGATURE JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_MEEM_INITIAL_FORM = "\u{FCA8}";
 
-    #[Info(id: 64681, name: 'ARABIC LIGATURE HAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCA9, name: 'ARABIC LIGATURE HAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HAH_WITH_JEEM_INITIAL_FORM = "\u{FCA9}";
 
-    #[Info(id: 64682, name: 'ARABIC LIGATURE HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCAA, name: 'ARABIC LIGATURE HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HAH_WITH_MEEM_INITIAL_FORM = "\u{FCAA}";
 
-    #[Info(id: 64683, name: 'ARABIC LIGATURE KHAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCAB, name: 'ARABIC LIGATURE KHAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KHAH_WITH_JEEM_INITIAL_FORM = "\u{FCAB}";
 
-    #[Info(id: 64684, name: 'ARABIC LIGATURE KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCAC, name: 'ARABIC LIGATURE KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KHAH_WITH_MEEM_INITIAL_FORM = "\u{FCAC}";
 
-    #[Info(id: 64685, name: 'ARABIC LIGATURE SEEN WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCAD, name: 'ARABIC LIGATURE SEEN WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_JEEM_INITIAL_FORM = "\u{FCAD}";
 
-    #[Info(id: 64686, name: 'ARABIC LIGATURE SEEN WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCAE, name: 'ARABIC LIGATURE SEEN WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_HAH_INITIAL_FORM = "\u{FCAE}";
 
-    #[Info(id: 64687, name: 'ARABIC LIGATURE SEEN WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCAF, name: 'ARABIC LIGATURE SEEN WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_KHAH_INITIAL_FORM = "\u{FCAF}";
 
-    #[Info(id: 64688, name: 'ARABIC LIGATURE SEEN WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCB0, name: 'ARABIC LIGATURE SEEN WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_MEEM_INITIAL_FORM = "\u{FCB0}";
 
-    #[Info(id: 64689, name: 'ARABIC LIGATURE SAD WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCB1, name: 'ARABIC LIGATURE SAD WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_HAH_INITIAL_FORM = "\u{FCB1}";
 
-    #[Info(id: 64690, name: 'ARABIC LIGATURE SAD WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCB2, name: 'ARABIC LIGATURE SAD WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_KHAH_INITIAL_FORM = "\u{FCB2}";
 
-    #[Info(id: 64691, name: 'ARABIC LIGATURE SAD WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCB3, name: 'ARABIC LIGATURE SAD WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_MEEM_INITIAL_FORM = "\u{FCB3}";
 
-    #[Info(id: 64692, name: 'ARABIC LIGATURE DAD WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCB4, name: 'ARABIC LIGATURE DAD WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_JEEM_INITIAL_FORM = "\u{FCB4}";
 
-    #[Info(id: 64693, name: 'ARABIC LIGATURE DAD WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCB5, name: 'ARABIC LIGATURE DAD WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_HAH_INITIAL_FORM = "\u{FCB5}";
 
-    #[Info(id: 64694, name: 'ARABIC LIGATURE DAD WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCB6, name: 'ARABIC LIGATURE DAD WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_KHAH_INITIAL_FORM = "\u{FCB6}";
 
-    #[Info(id: 64695, name: 'ARABIC LIGATURE DAD WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCB7, name: 'ARABIC LIGATURE DAD WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_MEEM_INITIAL_FORM = "\u{FCB7}";
 
-    #[Info(id: 64696, name: 'ARABIC LIGATURE TAH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCB8, name: 'ARABIC LIGATURE TAH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_HAH_INITIAL_FORM = "\u{FCB8}";
 
-    #[Info(id: 64697, name: 'ARABIC LIGATURE ZAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCB9, name: 'ARABIC LIGATURE ZAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_ZAH_WITH_MEEM_INITIAL_FORM = "\u{FCB9}";
 
-    #[Info(id: 64698, name: 'ARABIC LIGATURE AIN WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCBA, name: 'ARABIC LIGATURE AIN WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_JEEM_INITIAL_FORM = "\u{FCBA}";
 
-    #[Info(id: 64699, name: 'ARABIC LIGATURE AIN WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCBB, name: 'ARABIC LIGATURE AIN WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_MEEM_INITIAL_FORM = "\u{FCBB}";
 
-    #[Info(id: 64700, name: 'ARABIC LIGATURE GHAIN WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCBC, name: 'ARABIC LIGATURE GHAIN WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_GHAIN_WITH_JEEM_INITIAL_FORM = "\u{FCBC}";
 
-    #[Info(id: 64701, name: 'ARABIC LIGATURE GHAIN WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCBD, name: 'ARABIC LIGATURE GHAIN WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_GHAIN_WITH_MEEM_INITIAL_FORM = "\u{FCBD}";
 
-    #[Info(id: 64702, name: 'ARABIC LIGATURE FEH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCBE, name: 'ARABIC LIGATURE FEH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_JEEM_INITIAL_FORM = "\u{FCBE}";
 
-    #[Info(id: 64703, name: 'ARABIC LIGATURE FEH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCBF, name: 'ARABIC LIGATURE FEH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_HAH_INITIAL_FORM = "\u{FCBF}";
 
-    #[Info(id: 64704, name: 'ARABIC LIGATURE FEH WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCC0, name: 'ARABIC LIGATURE FEH WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_KHAH_INITIAL_FORM = "\u{FCC0}";
 
-    #[Info(id: 64705, name: 'ARABIC LIGATURE FEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCC1, name: 'ARABIC LIGATURE FEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_MEEM_INITIAL_FORM = "\u{FCC1}";
 
-    #[Info(id: 64706, name: 'ARABIC LIGATURE QAF WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCC2, name: 'ARABIC LIGATURE QAF WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_HAH_INITIAL_FORM = "\u{FCC2}";
 
-    #[Info(id: 64707, name: 'ARABIC LIGATURE QAF WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCC3, name: 'ARABIC LIGATURE QAF WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_MEEM_INITIAL_FORM = "\u{FCC3}";
 
-    #[Info(id: 64708, name: 'ARABIC LIGATURE KAF WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCC4, name: 'ARABIC LIGATURE KAF WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_JEEM_INITIAL_FORM = "\u{FCC4}";
 
-    #[Info(id: 64709, name: 'ARABIC LIGATURE KAF WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCC5, name: 'ARABIC LIGATURE KAF WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_HAH_INITIAL_FORM = "\u{FCC5}";
 
-    #[Info(id: 64710, name: 'ARABIC LIGATURE KAF WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCC6, name: 'ARABIC LIGATURE KAF WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_KHAH_INITIAL_FORM = "\u{FCC6}";
 
-    #[Info(id: 64711, name: 'ARABIC LIGATURE KAF WITH LAM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCC7, name: 'ARABIC LIGATURE KAF WITH LAM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_LAM_INITIAL_FORM = "\u{FCC7}";
 
-    #[Info(id: 64712, name: 'ARABIC LIGATURE KAF WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCC8, name: 'ARABIC LIGATURE KAF WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_MEEM_INITIAL_FORM = "\u{FCC8}";
 
-    #[Info(id: 64713, name: 'ARABIC LIGATURE LAM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCC9, name: 'ARABIC LIGATURE LAM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_JEEM_INITIAL_FORM = "\u{FCC9}";
 
-    #[Info(id: 64714, name: 'ARABIC LIGATURE LAM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCCA, name: 'ARABIC LIGATURE LAM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_HAH_INITIAL_FORM = "\u{FCCA}";
 
-    #[Info(id: 64715, name: 'ARABIC LIGATURE LAM WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCCB, name: 'ARABIC LIGATURE LAM WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_KHAH_INITIAL_FORM = "\u{FCCB}";
 
-    #[Info(id: 64716, name: 'ARABIC LIGATURE LAM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCCC, name: 'ARABIC LIGATURE LAM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_MEEM_INITIAL_FORM = "\u{FCCC}";
 
-    #[Info(id: 64717, name: 'ARABIC LIGATURE LAM WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCCD, name: 'ARABIC LIGATURE LAM WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_HEH_INITIAL_FORM = "\u{FCCD}";
 
-    #[Info(id: 64718, name: 'ARABIC LIGATURE MEEM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCCE, name: 'ARABIC LIGATURE MEEM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_JEEM_INITIAL_FORM = "\u{FCCE}";
 
-    #[Info(id: 64719, name: 'ARABIC LIGATURE MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCCF, name: 'ARABIC LIGATURE MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_HAH_INITIAL_FORM = "\u{FCCF}";
 
-    #[Info(id: 64720, name: 'ARABIC LIGATURE MEEM WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCD0, name: 'ARABIC LIGATURE MEEM WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_KHAH_INITIAL_FORM = "\u{FCD0}";
 
-    #[Info(id: 64721, name: 'ARABIC LIGATURE MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCD1, name: 'ARABIC LIGATURE MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_MEEM_INITIAL_FORM = "\u{FCD1}";
 
-    #[Info(id: 64722, name: 'ARABIC LIGATURE NOON WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCD2, name: 'ARABIC LIGATURE NOON WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_JEEM_INITIAL_FORM = "\u{FCD2}";
 
-    #[Info(id: 64723, name: 'ARABIC LIGATURE NOON WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCD3, name: 'ARABIC LIGATURE NOON WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_HAH_INITIAL_FORM = "\u{FCD3}";
 
-    #[Info(id: 64724, name: 'ARABIC LIGATURE NOON WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCD4, name: 'ARABIC LIGATURE NOON WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_KHAH_INITIAL_FORM = "\u{FCD4}";
 
-    #[Info(id: 64725, name: 'ARABIC LIGATURE NOON WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCD5, name: 'ARABIC LIGATURE NOON WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_MEEM_INITIAL_FORM = "\u{FCD5}";
 
-    #[Info(id: 64726, name: 'ARABIC LIGATURE NOON WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCD6, name: 'ARABIC LIGATURE NOON WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_HEH_INITIAL_FORM = "\u{FCD6}";
 
-    #[Info(id: 64727, name: 'ARABIC LIGATURE HEH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCD7, name: 'ARABIC LIGATURE HEH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HEH_WITH_JEEM_INITIAL_FORM = "\u{FCD7}";
 
-    #[Info(id: 64728, name: 'ARABIC LIGATURE HEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCD8, name: 'ARABIC LIGATURE HEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HEH_WITH_MEEM_INITIAL_FORM = "\u{FCD8}";
 
-    #[Info(id: 64729, name: 'ARABIC LIGATURE HEH WITH SUPERSCRIPT ALEF INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCD9, name: 'ARABIC LIGATURE HEH WITH SUPERSCRIPT ALEF INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HEH_WITH_SUPERSCRIPT_ALEF_INITIAL_FORM = "\u{FCD9}";
 
-    #[Info(id: 64730, name: 'ARABIC LIGATURE YEH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCDA, name: 'ARABIC LIGATURE YEH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_JEEM_INITIAL_FORM = "\u{FCDA}";
 
-    #[Info(id: 64731, name: 'ARABIC LIGATURE YEH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCDB, name: 'ARABIC LIGATURE YEH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAH_INITIAL_FORM = "\u{FCDB}";
 
-    #[Info(id: 64732, name: 'ARABIC LIGATURE YEH WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCDC, name: 'ARABIC LIGATURE YEH WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_KHAH_INITIAL_FORM = "\u{FCDC}";
 
-    #[Info(id: 64733, name: 'ARABIC LIGATURE YEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCDD, name: 'ARABIC LIGATURE YEH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_MEEM_INITIAL_FORM = "\u{FCDD}";
 
-    #[Info(id: 64734, name: 'ARABIC LIGATURE YEH WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCDE, name: 'ARABIC LIGATURE YEH WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HEH_INITIAL_FORM = "\u{FCDE}";
 
-    #[Info(id: 64735, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCDF, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_MEEM_MEDIAL_FORM = "\u{FCDF}";
 
-    #[Info(id: 64736, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCE0, name: 'ARABIC LIGATURE YEH WITH HAMZA ABOVE WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAMZA_ABOVE_WITH_HEH_MEDIAL_FORM = "\u{FCE0}";
 
-    #[Info(id: 64737, name: 'ARABIC LIGATURE BEH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCE1, name: 'ARABIC LIGATURE BEH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_MEEM_MEDIAL_FORM = "\u{FCE1}";
 
-    #[Info(id: 64738, name: 'ARABIC LIGATURE BEH WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCE2, name: 'ARABIC LIGATURE BEH WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_HEH_MEDIAL_FORM = "\u{FCE2}";
 
-    #[Info(id: 64739, name: 'ARABIC LIGATURE TEH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCE3, name: 'ARABIC LIGATURE TEH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_MEEM_MEDIAL_FORM = "\u{FCE3}";
 
-    #[Info(id: 64740, name: 'ARABIC LIGATURE TEH WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCE4, name: 'ARABIC LIGATURE TEH WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_HEH_MEDIAL_FORM = "\u{FCE4}";
 
-    #[Info(id: 64741, name: 'ARABIC LIGATURE THEH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCE5, name: 'ARABIC LIGATURE THEH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_MEEM_MEDIAL_FORM = "\u{FCE5}";
 
-    #[Info(id: 64742, name: 'ARABIC LIGATURE THEH WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCE6, name: 'ARABIC LIGATURE THEH WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_THEH_WITH_HEH_MEDIAL_FORM = "\u{FCE6}";
 
-    #[Info(id: 64743, name: 'ARABIC LIGATURE SEEN WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCE7, name: 'ARABIC LIGATURE SEEN WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_MEEM_MEDIAL_FORM = "\u{FCE7}";
 
-    #[Info(id: 64744, name: 'ARABIC LIGATURE SEEN WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCE8, name: 'ARABIC LIGATURE SEEN WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_HEH_MEDIAL_FORM = "\u{FCE8}";
 
-    #[Info(id: 64745, name: 'ARABIC LIGATURE SHEEN WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCE9, name: 'ARABIC LIGATURE SHEEN WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_MEEM_MEDIAL_FORM = "\u{FCE9}";
 
-    #[Info(id: 64746, name: 'ARABIC LIGATURE SHEEN WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCEA, name: 'ARABIC LIGATURE SHEEN WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_HEH_MEDIAL_FORM = "\u{FCEA}";
 
-    #[Info(id: 64747, name: 'ARABIC LIGATURE KAF WITH LAM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCEB, name: 'ARABIC LIGATURE KAF WITH LAM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_LAM_MEDIAL_FORM = "\u{FCEB}";
 
-    #[Info(id: 64748, name: 'ARABIC LIGATURE KAF WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCEC, name: 'ARABIC LIGATURE KAF WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_MEEM_MEDIAL_FORM = "\u{FCEC}";
 
-    #[Info(id: 64749, name: 'ARABIC LIGATURE LAM WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCED, name: 'ARABIC LIGATURE LAM WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_MEEM_MEDIAL_FORM = "\u{FCED}";
 
-    #[Info(id: 64750, name: 'ARABIC LIGATURE NOON WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCEE, name: 'ARABIC LIGATURE NOON WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_MEEM_MEDIAL_FORM = "\u{FCEE}";
 
-    #[Info(id: 64751, name: 'ARABIC LIGATURE NOON WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCEF, name: 'ARABIC LIGATURE NOON WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_HEH_MEDIAL_FORM = "\u{FCEF}";
 
-    #[Info(id: 64752, name: 'ARABIC LIGATURE YEH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCF0, name: 'ARABIC LIGATURE YEH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_MEEM_MEDIAL_FORM = "\u{FCF0}";
 
-    #[Info(id: 64753, name: 'ARABIC LIGATURE YEH WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCF1, name: 'ARABIC LIGATURE YEH WITH HEH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HEH_MEDIAL_FORM = "\u{FCF1}";
 
-    #[Info(id: 64754, name: 'ARABIC LIGATURE SHADDA WITH FATHA MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCF2, name: 'ARABIC LIGATURE SHADDA WITH FATHA MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHADDA_WITH_FATHA_MEDIAL_FORM = "\u{FCF2}";
 
-    #[Info(id: 64755, name: 'ARABIC LIGATURE SHADDA WITH DAMMA MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCF3, name: 'ARABIC LIGATURE SHADDA WITH DAMMA MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHADDA_WITH_DAMMA_MEDIAL_FORM = "\u{FCF3}";
 
-    #[Info(id: 64756, name: 'ARABIC LIGATURE SHADDA WITH KASRA MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCF4, name: 'ARABIC LIGATURE SHADDA WITH KASRA MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHADDA_WITH_KASRA_MEDIAL_FORM = "\u{FCF4}";
 
-    #[Info(id: 64757, name: 'ARABIC LIGATURE TAH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCF5, name: 'ARABIC LIGATURE TAH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FCF5}";
 
-    #[Info(id: 64758, name: 'ARABIC LIGATURE TAH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCF6, name: 'ARABIC LIGATURE TAH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_YEH_ISOLATED_FORM = "\u{FCF6}";
 
-    #[Info(id: 64759, name: 'ARABIC LIGATURE AIN WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCF7, name: 'ARABIC LIGATURE AIN WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FCF7}";
 
-    #[Info(id: 64760, name: 'ARABIC LIGATURE AIN WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCF8, name: 'ARABIC LIGATURE AIN WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_YEH_ISOLATED_FORM = "\u{FCF8}";
 
-    #[Info(id: 64761, name: 'ARABIC LIGATURE GHAIN WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCF9, name: 'ARABIC LIGATURE GHAIN WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_GHAIN_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FCF9}";
 
-    #[Info(id: 64762, name: 'ARABIC LIGATURE GHAIN WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCFA, name: 'ARABIC LIGATURE GHAIN WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_GHAIN_WITH_YEH_ISOLATED_FORM = "\u{FCFA}";
 
-    #[Info(id: 64763, name: 'ARABIC LIGATURE SEEN WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCFB, name: 'ARABIC LIGATURE SEEN WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FCFB}";
 
-    #[Info(id: 64764, name: 'ARABIC LIGATURE SEEN WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCFC, name: 'ARABIC LIGATURE SEEN WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_YEH_ISOLATED_FORM = "\u{FCFC}";
 
-    #[Info(id: 64765, name: 'ARABIC LIGATURE SHEEN WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCFD, name: 'ARABIC LIGATURE SHEEN WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FCFD}";
 
-    #[Info(id: 64766, name: 'ARABIC LIGATURE SHEEN WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCFE, name: 'ARABIC LIGATURE SHEEN WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_YEH_ISOLATED_FORM = "\u{FCFE}";
 
-    #[Info(id: 64767, name: 'ARABIC LIGATURE HAH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFCFF, name: 'ARABIC LIGATURE HAH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HAH_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FCFF}";
 
-    #[Info(id: 64768, name: 'ARABIC LIGATURE HAH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD00, name: 'ARABIC LIGATURE HAH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HAH_WITH_YEH_ISOLATED_FORM = "\u{FD00}";
 
-    #[Info(id: 64769, name: 'ARABIC LIGATURE JEEM WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD01, name: 'ARABIC LIGATURE JEEM WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FD01}";
 
-    #[Info(id: 64770, name: 'ARABIC LIGATURE JEEM WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD02, name: 'ARABIC LIGATURE JEEM WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_YEH_ISOLATED_FORM = "\u{FD02}";
 
-    #[Info(id: 64771, name: 'ARABIC LIGATURE KHAH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD03, name: 'ARABIC LIGATURE KHAH WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KHAH_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FD03}";
 
-    #[Info(id: 64772, name: 'ARABIC LIGATURE KHAH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD04, name: 'ARABIC LIGATURE KHAH WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KHAH_WITH_YEH_ISOLATED_FORM = "\u{FD04}";
 
-    #[Info(id: 64773, name: 'ARABIC LIGATURE SAD WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD05, name: 'ARABIC LIGATURE SAD WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FD05}";
 
-    #[Info(id: 64774, name: 'ARABIC LIGATURE SAD WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD06, name: 'ARABIC LIGATURE SAD WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_YEH_ISOLATED_FORM = "\u{FD06}";
 
-    #[Info(id: 64775, name: 'ARABIC LIGATURE DAD WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD07, name: 'ARABIC LIGATURE DAD WITH ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_ALEF_MAKSURA_ISOLATED_FORM = "\u{FD07}";
 
-    #[Info(id: 64776, name: 'ARABIC LIGATURE DAD WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD08, name: 'ARABIC LIGATURE DAD WITH YEH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_YEH_ISOLATED_FORM = "\u{FD08}";
 
-    #[Info(id: 64777, name: 'ARABIC LIGATURE SHEEN WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD09, name: 'ARABIC LIGATURE SHEEN WITH JEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_JEEM_ISOLATED_FORM = "\u{FD09}";
 
-    #[Info(id: 64778, name: 'ARABIC LIGATURE SHEEN WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD0A, name: 'ARABIC LIGATURE SHEEN WITH HAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_HAH_ISOLATED_FORM = "\u{FD0A}";
 
-    #[Info(id: 64779, name: 'ARABIC LIGATURE SHEEN WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD0B, name: 'ARABIC LIGATURE SHEEN WITH KHAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_KHAH_ISOLATED_FORM = "\u{FD0B}";
 
-    #[Info(id: 64780, name: 'ARABIC LIGATURE SHEEN WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD0C, name: 'ARABIC LIGATURE SHEEN WITH MEEM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_MEEM_ISOLATED_FORM = "\u{FD0C}";
 
-    #[Info(id: 64781, name: 'ARABIC LIGATURE SHEEN WITH REH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD0D, name: 'ARABIC LIGATURE SHEEN WITH REH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_REH_ISOLATED_FORM = "\u{FD0D}";
 
-    #[Info(id: 64782, name: 'ARABIC LIGATURE SEEN WITH REH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD0E, name: 'ARABIC LIGATURE SEEN WITH REH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_REH_ISOLATED_FORM = "\u{FD0E}";
 
-    #[Info(id: 64783, name: 'ARABIC LIGATURE SAD WITH REH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD0F, name: 'ARABIC LIGATURE SAD WITH REH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_REH_ISOLATED_FORM = "\u{FD0F}";
 
-    #[Info(id: 64784, name: 'ARABIC LIGATURE DAD WITH REH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD10, name: 'ARABIC LIGATURE DAD WITH REH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_REH_ISOLATED_FORM = "\u{FD10}";
 
-    #[Info(id: 64785, name: 'ARABIC LIGATURE TAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD11, name: 'ARABIC LIGATURE TAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD11}";
 
-    #[Info(id: 64786, name: 'ARABIC LIGATURE TAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD12, name: 'ARABIC LIGATURE TAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_YEH_FINAL_FORM = "\u{FD12}";
 
-    #[Info(id: 64787, name: 'ARABIC LIGATURE AIN WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD13, name: 'ARABIC LIGATURE AIN WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD13}";
 
-    #[Info(id: 64788, name: 'ARABIC LIGATURE AIN WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD14, name: 'ARABIC LIGATURE AIN WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_YEH_FINAL_FORM = "\u{FD14}";
 
-    #[Info(id: 64789, name: 'ARABIC LIGATURE GHAIN WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD15, name: 'ARABIC LIGATURE GHAIN WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_GHAIN_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD15}";
 
-    #[Info(id: 64790, name: 'ARABIC LIGATURE GHAIN WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD16, name: 'ARABIC LIGATURE GHAIN WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_GHAIN_WITH_YEH_FINAL_FORM = "\u{FD16}";
 
-    #[Info(id: 64791, name: 'ARABIC LIGATURE SEEN WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD17, name: 'ARABIC LIGATURE SEEN WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD17}";
 
-    #[Info(id: 64792, name: 'ARABIC LIGATURE SEEN WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD18, name: 'ARABIC LIGATURE SEEN WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_YEH_FINAL_FORM = "\u{FD18}";
 
-    #[Info(id: 64793, name: 'ARABIC LIGATURE SHEEN WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD19, name: 'ARABIC LIGATURE SHEEN WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD19}";
 
-    #[Info(id: 64794, name: 'ARABIC LIGATURE SHEEN WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD1A, name: 'ARABIC LIGATURE SHEEN WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_YEH_FINAL_FORM = "\u{FD1A}";
 
-    #[Info(id: 64795, name: 'ARABIC LIGATURE HAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD1B, name: 'ARABIC LIGATURE HAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HAH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD1B}";
 
-    #[Info(id: 64796, name: 'ARABIC LIGATURE HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD1C, name: 'ARABIC LIGATURE HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HAH_WITH_YEH_FINAL_FORM = "\u{FD1C}";
 
-    #[Info(id: 64797, name: 'ARABIC LIGATURE JEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD1D, name: 'ARABIC LIGATURE JEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD1D}";
 
-    #[Info(id: 64798, name: 'ARABIC LIGATURE JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD1E, name: 'ARABIC LIGATURE JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_YEH_FINAL_FORM = "\u{FD1E}";
 
-    #[Info(id: 64799, name: 'ARABIC LIGATURE KHAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD1F, name: 'ARABIC LIGATURE KHAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KHAH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD1F}";
 
-    #[Info(id: 64800, name: 'ARABIC LIGATURE KHAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD20, name: 'ARABIC LIGATURE KHAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KHAH_WITH_YEH_FINAL_FORM = "\u{FD20}";
 
-    #[Info(id: 64801, name: 'ARABIC LIGATURE SAD WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD21, name: 'ARABIC LIGATURE SAD WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD21}";
 
-    #[Info(id: 64802, name: 'ARABIC LIGATURE SAD WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD22, name: 'ARABIC LIGATURE SAD WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_YEH_FINAL_FORM = "\u{FD22}";
 
-    #[Info(id: 64803, name: 'ARABIC LIGATURE DAD WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD23, name: 'ARABIC LIGATURE DAD WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD23}";
 
-    #[Info(id: 64804, name: 'ARABIC LIGATURE DAD WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD24, name: 'ARABIC LIGATURE DAD WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_YEH_FINAL_FORM = "\u{FD24}";
 
-    #[Info(id: 64805, name: 'ARABIC LIGATURE SHEEN WITH JEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD25, name: 'ARABIC LIGATURE SHEEN WITH JEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_JEEM_FINAL_FORM = "\u{FD25}";
 
-    #[Info(id: 64806, name: 'ARABIC LIGATURE SHEEN WITH HAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD26, name: 'ARABIC LIGATURE SHEEN WITH HAH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_HAH_FINAL_FORM = "\u{FD26}";
 
-    #[Info(id: 64807, name: 'ARABIC LIGATURE SHEEN WITH KHAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD27, name: 'ARABIC LIGATURE SHEEN WITH KHAH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_KHAH_FINAL_FORM = "\u{FD27}";
 
-    #[Info(id: 64808, name: 'ARABIC LIGATURE SHEEN WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD28, name: 'ARABIC LIGATURE SHEEN WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_MEEM_FINAL_FORM = "\u{FD28}";
 
-    #[Info(id: 64809, name: 'ARABIC LIGATURE SHEEN WITH REH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD29, name: 'ARABIC LIGATURE SHEEN WITH REH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_REH_FINAL_FORM = "\u{FD29}";
 
-    #[Info(id: 64810, name: 'ARABIC LIGATURE SEEN WITH REH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD2A, name: 'ARABIC LIGATURE SEEN WITH REH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_REH_FINAL_FORM = "\u{FD2A}";
 
-    #[Info(id: 64811, name: 'ARABIC LIGATURE SAD WITH REH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD2B, name: 'ARABIC LIGATURE SAD WITH REH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_REH_FINAL_FORM = "\u{FD2B}";
 
-    #[Info(id: 64812, name: 'ARABIC LIGATURE DAD WITH REH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD2C, name: 'ARABIC LIGATURE DAD WITH REH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_REH_FINAL_FORM = "\u{FD2C}";
 
-    #[Info(id: 64813, name: 'ARABIC LIGATURE SHEEN WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD2D, name: 'ARABIC LIGATURE SHEEN WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_JEEM_INITIAL_FORM = "\u{FD2D}";
 
-    #[Info(id: 64814, name: 'ARABIC LIGATURE SHEEN WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD2E, name: 'ARABIC LIGATURE SHEEN WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_HAH_INITIAL_FORM = "\u{FD2E}";
 
-    #[Info(id: 64815, name: 'ARABIC LIGATURE SHEEN WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD2F, name: 'ARABIC LIGATURE SHEEN WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_KHAH_INITIAL_FORM = "\u{FD2F}";
 
-    #[Info(id: 64816, name: 'ARABIC LIGATURE SHEEN WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD30, name: 'ARABIC LIGATURE SHEEN WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_MEEM_INITIAL_FORM = "\u{FD30}";
 
-    #[Info(id: 64817, name: 'ARABIC LIGATURE SEEN WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD31, name: 'ARABIC LIGATURE SEEN WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_HEH_INITIAL_FORM = "\u{FD31}";
 
-    #[Info(id: 64818, name: 'ARABIC LIGATURE SHEEN WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD32, name: 'ARABIC LIGATURE SHEEN WITH HEH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_HEH_INITIAL_FORM = "\u{FD32}";
 
-    #[Info(id: 64819, name: 'ARABIC LIGATURE TAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD33, name: 'ARABIC LIGATURE TAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_MEEM_INITIAL_FORM = "\u{FD33}";
 
-    #[Info(id: 64820, name: 'ARABIC LIGATURE SEEN WITH JEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD34, name: 'ARABIC LIGATURE SEEN WITH JEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_JEEM_MEDIAL_FORM = "\u{FD34}";
 
-    #[Info(id: 64821, name: 'ARABIC LIGATURE SEEN WITH HAH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD35, name: 'ARABIC LIGATURE SEEN WITH HAH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_HAH_MEDIAL_FORM = "\u{FD35}";
 
-    #[Info(id: 64822, name: 'ARABIC LIGATURE SEEN WITH KHAH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD36, name: 'ARABIC LIGATURE SEEN WITH KHAH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_KHAH_MEDIAL_FORM = "\u{FD36}";
 
-    #[Info(id: 64823, name: 'ARABIC LIGATURE SHEEN WITH JEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD37, name: 'ARABIC LIGATURE SHEEN WITH JEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_JEEM_MEDIAL_FORM = "\u{FD37}";
 
-    #[Info(id: 64824, name: 'ARABIC LIGATURE SHEEN WITH HAH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD38, name: 'ARABIC LIGATURE SHEEN WITH HAH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_HAH_MEDIAL_FORM = "\u{FD38}";
 
-    #[Info(id: 64825, name: 'ARABIC LIGATURE SHEEN WITH KHAH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD39, name: 'ARABIC LIGATURE SHEEN WITH KHAH MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_KHAH_MEDIAL_FORM = "\u{FD39}";
 
-    #[Info(id: 64826, name: 'ARABIC LIGATURE TAH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD3A, name: 'ARABIC LIGATURE TAH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_MEEM_MEDIAL_FORM = "\u{FD3A}";
 
-    #[Info(id: 64827, name: 'ARABIC LIGATURE ZAH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD3B, name: 'ARABIC LIGATURE ZAH WITH MEEM MEDIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_ZAH_WITH_MEEM_MEDIAL_FORM = "\u{FD3B}";
 
-    #[Info(id: 64828, name: 'ARABIC LIGATURE ALEF WITH FATHATAN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD3C, name: 'ARABIC LIGATURE ALEF WITH FATHATAN FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_ALEF_WITH_FATHATAN_FINAL_FORM = "\u{FD3C}";
 
-    #[Info(id: 64829, name: 'ARABIC LIGATURE ALEF WITH FATHATAN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD3D, name: 'ARABIC LIGATURE ALEF WITH FATHATAN ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_ALEF_WITH_FATHATAN_ISOLATED_FORM = "\u{FD3D}";
 
-    #[Info(id: 64830, name: 'ORNATE LEFT PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFD3E, name: 'ORNATE LEFT PARENTHESIS', category: Cat::Close_Punctuation)]
     case ORNATE_LEFT_PARENTHESIS = "\u{FD3E}";
 
-    #[Info(id: 64831, name: 'ORNATE RIGHT PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFD3F, name: 'ORNATE RIGHT PARENTHESIS', category: Cat::Open_Punctuation)]
     case ORNATE_RIGHT_PARENTHESIS = "\u{FD3F}";
 
-    #[Info(id: 64832, name: 'ARABIC LIGATURE RAHIMAHU ALLAAH', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD40, name: 'ARABIC LIGATURE RAHIMAHU ALLAAH', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_RAHIMAHU_ALLAAH = "\u{FD40}";
 
-    #[Info(id: 64833, name: 'ARABIC LIGATURE RADI ALLAAHU ANH', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD41, name: 'ARABIC LIGATURE RADI ALLAAHU ANH', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_RADI_ALLAAHU_ANH = "\u{FD41}";
 
-    #[Info(id: 64834, name: 'ARABIC LIGATURE RADI ALLAAHU ANHAA', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD42, name: 'ARABIC LIGATURE RADI ALLAAHU ANHAA', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_RADI_ALLAAHU_ANHAA = "\u{FD42}";
 
-    #[Info(id: 64835, name: 'ARABIC LIGATURE RADI ALLAAHU ANHUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD43, name: 'ARABIC LIGATURE RADI ALLAAHU ANHUM', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_RADI_ALLAAHU_ANHUM = "\u{FD43}";
 
-    #[Info(id: 64836, name: 'ARABIC LIGATURE RADI ALLAAHU ANHUMAA', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD44, name: 'ARABIC LIGATURE RADI ALLAAHU ANHUMAA', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_RADI_ALLAAHU_ANHUMAA = "\u{FD44}";
 
-    #[Info(id: 64837, name: 'ARABIC LIGATURE RADI ALLAAHU ANHUNNA', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD45, name: 'ARABIC LIGATURE RADI ALLAAHU ANHUNNA', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_RADI_ALLAAHU_ANHUNNA = "\u{FD45}";
 
-    #[Info(id: 64838, name: 'ARABIC LIGATURE SALLALLAAHU ALAYHI WA-AALIH', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD46, name: 'ARABIC LIGATURE SALLALLAAHU ALAYHI WA-AALIH', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_SALLALLAAHU_ALAYHI_WA_AALIH = "\u{FD46}";
 
-    #[Info(id: 64839, name: 'ARABIC LIGATURE ALAYHI AS-SALAAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD47, name: 'ARABIC LIGATURE ALAYHI AS-SALAAM', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_ALAYHI_AS_SALAAM = "\u{FD47}";
 
-    #[Info(id: 64840, name: 'ARABIC LIGATURE ALAYHIM AS-SALAAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD48, name: 'ARABIC LIGATURE ALAYHIM AS-SALAAM', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_ALAYHIM_AS_SALAAM = "\u{FD48}";
 
-    #[Info(id: 64841, name: 'ARABIC LIGATURE ALAYHIMAA AS-SALAAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD49, name: 'ARABIC LIGATURE ALAYHIMAA AS-SALAAM', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_ALAYHIMAA_AS_SALAAM = "\u{FD49}";
 
-    #[Info(id: 64842, name: 'ARABIC LIGATURE ALAYHI AS-SALAATU WAS-SALAAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD4A, name: 'ARABIC LIGATURE ALAYHI AS-SALAATU WAS-SALAAM', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_ALAYHI_AS_SALAATU_WAS_SALAAM = "\u{FD4A}";
 
-    #[Info(id: 64843, name: 'ARABIC LIGATURE QUDDISA SIRRAH', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD4B, name: 'ARABIC LIGATURE QUDDISA SIRRAH', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_QUDDISA_SIRRAH = "\u{FD4B}";
 
-    #[Info(id: 64844, name: 'ARABIC LIGATURE SALLALLAHU ALAYHI WAAALIHEE WA-SALLAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD4C, name: 'ARABIC LIGATURE SALLALLAHU ALAYHI WAAALIHEE WA-SALLAM', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_SALLALLAHU_ALAYHI_WAAALIHEE_WA_SALLAM = "\u{FD4C}";
 
-    #[Info(id: 64845, name: 'ARABIC LIGATURE ALAYHAA AS-SALAAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD4D, name: 'ARABIC LIGATURE ALAYHAA AS-SALAAM', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_ALAYHAA_AS_SALAAM = "\u{FD4D}";
 
-    #[Info(id: 64846, name: 'ARABIC LIGATURE TABAARAKA WA-TAAALAA', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD4E, name: 'ARABIC LIGATURE TABAARAKA WA-TAAALAA', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_TABAARAKA_WA_TAAALAA = "\u{FD4E}";
 
-    #[Info(id: 64847, name: 'ARABIC LIGATURE RAHIMAHUM ALLAAH', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFD4F, name: 'ARABIC LIGATURE RAHIMAHUM ALLAAH', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_RAHIMAHUM_ALLAAH = "\u{FD4F}";
 
-    #[Info(id: 64848, name: 'ARABIC LIGATURE TEH WITH JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD50, name: 'ARABIC LIGATURE TEH WITH JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_JEEM_WITH_MEEM_INITIAL_FORM = "\u{FD50}";
 
-    #[Info(id: 64849, name: 'ARABIC LIGATURE TEH WITH HAH WITH JEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD51, name: 'ARABIC LIGATURE TEH WITH HAH WITH JEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_HAH_WITH_JEEM_FINAL_FORM = "\u{FD51}";
 
-    #[Info(id: 64850, name: 'ARABIC LIGATURE TEH WITH HAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD52, name: 'ARABIC LIGATURE TEH WITH HAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_HAH_WITH_JEEM_INITIAL_FORM = "\u{FD52}";
 
-    #[Info(id: 64851, name: 'ARABIC LIGATURE TEH WITH HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD53, name: 'ARABIC LIGATURE TEH WITH HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_HAH_WITH_MEEM_INITIAL_FORM = "\u{FD53}";
 
-    #[Info(id: 64852, name: 'ARABIC LIGATURE TEH WITH KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD54, name: 'ARABIC LIGATURE TEH WITH KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_KHAH_WITH_MEEM_INITIAL_FORM = "\u{FD54}";
 
-    #[Info(id: 64853, name: 'ARABIC LIGATURE TEH WITH MEEM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD55, name: 'ARABIC LIGATURE TEH WITH MEEM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_MEEM_WITH_JEEM_INITIAL_FORM = "\u{FD55}";
 
-    #[Info(id: 64854, name: 'ARABIC LIGATURE TEH WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD56, name: 'ARABIC LIGATURE TEH WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_MEEM_WITH_HAH_INITIAL_FORM = "\u{FD56}";
 
-    #[Info(id: 64855, name: 'ARABIC LIGATURE TEH WITH MEEM WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD57, name: 'ARABIC LIGATURE TEH WITH MEEM WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_MEEM_WITH_KHAH_INITIAL_FORM = "\u{FD57}";
 
-    #[Info(id: 64856, name: 'ARABIC LIGATURE JEEM WITH MEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD58, name: 'ARABIC LIGATURE JEEM WITH MEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_MEEM_WITH_HAH_FINAL_FORM = "\u{FD58}";
 
-    #[Info(id: 64857, name: 'ARABIC LIGATURE JEEM WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD59, name: 'ARABIC LIGATURE JEEM WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_MEEM_WITH_HAH_INITIAL_FORM = "\u{FD59}";
 
-    #[Info(id: 64858, name: 'ARABIC LIGATURE HAH WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD5A, name: 'ARABIC LIGATURE HAH WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HAH_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FD5A}";
 
-    #[Info(id: 64859, name: 'ARABIC LIGATURE HAH WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD5B, name: 'ARABIC LIGATURE HAH WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HAH_WITH_MEEM_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD5B}";
 
-    #[Info(id: 64860, name: 'ARABIC LIGATURE SEEN WITH HAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD5C, name: 'ARABIC LIGATURE SEEN WITH HAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_HAH_WITH_JEEM_INITIAL_FORM = "\u{FD5C}";
 
-    #[Info(id: 64861, name: 'ARABIC LIGATURE SEEN WITH JEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD5D, name: 'ARABIC LIGATURE SEEN WITH JEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_JEEM_WITH_HAH_INITIAL_FORM = "\u{FD5D}";
 
-    #[Info(id: 64862, name: 'ARABIC LIGATURE SEEN WITH JEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD5E, name: 'ARABIC LIGATURE SEEN WITH JEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_JEEM_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD5E}";
 
-    #[Info(id: 64863, name: 'ARABIC LIGATURE SEEN WITH MEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD5F, name: 'ARABIC LIGATURE SEEN WITH MEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_MEEM_WITH_HAH_FINAL_FORM = "\u{FD5F}";
 
-    #[Info(id: 64864, name: 'ARABIC LIGATURE SEEN WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD60, name: 'ARABIC LIGATURE SEEN WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_MEEM_WITH_HAH_INITIAL_FORM = "\u{FD60}";
 
-    #[Info(id: 64865, name: 'ARABIC LIGATURE SEEN WITH MEEM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD61, name: 'ARABIC LIGATURE SEEN WITH MEEM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_MEEM_WITH_JEEM_INITIAL_FORM = "\u{FD61}";
 
-    #[Info(id: 64866, name: 'ARABIC LIGATURE SEEN WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD62, name: 'ARABIC LIGATURE SEEN WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_MEEM_WITH_MEEM_FINAL_FORM = "\u{FD62}";
 
-    #[Info(id: 64867, name: 'ARABIC LIGATURE SEEN WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD63, name: 'ARABIC LIGATURE SEEN WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_MEEM_WITH_MEEM_INITIAL_FORM = "\u{FD63}";
 
-    #[Info(id: 64868, name: 'ARABIC LIGATURE SAD WITH HAH WITH HAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD64, name: 'ARABIC LIGATURE SAD WITH HAH WITH HAH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_HAH_WITH_HAH_FINAL_FORM = "\u{FD64}";
 
-    #[Info(id: 64869, name: 'ARABIC LIGATURE SAD WITH HAH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD65, name: 'ARABIC LIGATURE SAD WITH HAH WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_HAH_WITH_HAH_INITIAL_FORM = "\u{FD65}";
 
-    #[Info(id: 64870, name: 'ARABIC LIGATURE SAD WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD66, name: 'ARABIC LIGATURE SAD WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_MEEM_WITH_MEEM_FINAL_FORM = "\u{FD66}";
 
-    #[Info(id: 64871, name: 'ARABIC LIGATURE SHEEN WITH HAH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD67, name: 'ARABIC LIGATURE SHEEN WITH HAH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_HAH_WITH_MEEM_FINAL_FORM = "\u{FD67}";
 
-    #[Info(id: 64872, name: 'ARABIC LIGATURE SHEEN WITH HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD68, name: 'ARABIC LIGATURE SHEEN WITH HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_HAH_WITH_MEEM_INITIAL_FORM = "\u{FD68}";
 
-    #[Info(id: 64873, name: 'ARABIC LIGATURE SHEEN WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD69, name: 'ARABIC LIGATURE SHEEN WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_JEEM_WITH_YEH_FINAL_FORM = "\u{FD69}";
 
-    #[Info(id: 64874, name: 'ARABIC LIGATURE SHEEN WITH MEEM WITH KHAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD6A, name: 'ARABIC LIGATURE SHEEN WITH MEEM WITH KHAH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_MEEM_WITH_KHAH_FINAL_FORM = "\u{FD6A}";
 
-    #[Info(id: 64875, name: 'ARABIC LIGATURE SHEEN WITH MEEM WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD6B, name: 'ARABIC LIGATURE SHEEN WITH MEEM WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_MEEM_WITH_KHAH_INITIAL_FORM = "\u{FD6B}";
 
-    #[Info(id: 64876, name: 'ARABIC LIGATURE SHEEN WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD6C, name: 'ARABIC LIGATURE SHEEN WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_MEEM_WITH_MEEM_FINAL_FORM = "\u{FD6C}";
 
-    #[Info(id: 64877, name: 'ARABIC LIGATURE SHEEN WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD6D, name: 'ARABIC LIGATURE SHEEN WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_MEEM_WITH_MEEM_INITIAL_FORM = "\u{FD6D}";
 
-    #[Info(id: 64878, name: 'ARABIC LIGATURE DAD WITH HAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD6E, name: 'ARABIC LIGATURE DAD WITH HAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_HAH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD6E}";
 
-    #[Info(id: 64879, name: 'ARABIC LIGATURE DAD WITH KHAH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD6F, name: 'ARABIC LIGATURE DAD WITH KHAH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_KHAH_WITH_MEEM_FINAL_FORM = "\u{FD6F}";
 
-    #[Info(id: 64880, name: 'ARABIC LIGATURE DAD WITH KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD70, name: 'ARABIC LIGATURE DAD WITH KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_KHAH_WITH_MEEM_INITIAL_FORM = "\u{FD70}";
 
-    #[Info(id: 64881, name: 'ARABIC LIGATURE TAH WITH MEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD71, name: 'ARABIC LIGATURE TAH WITH MEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_MEEM_WITH_HAH_FINAL_FORM = "\u{FD71}";
 
-    #[Info(id: 64882, name: 'ARABIC LIGATURE TAH WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD72, name: 'ARABIC LIGATURE TAH WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_MEEM_WITH_HAH_INITIAL_FORM = "\u{FD72}";
 
-    #[Info(id: 64883, name: 'ARABIC LIGATURE TAH WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD73, name: 'ARABIC LIGATURE TAH WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_MEEM_WITH_MEEM_INITIAL_FORM = "\u{FD73}";
 
-    #[Info(id: 64884, name: 'ARABIC LIGATURE TAH WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD74, name: 'ARABIC LIGATURE TAH WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TAH_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FD74}";
 
-    #[Info(id: 64885, name: 'ARABIC LIGATURE AIN WITH JEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD75, name: 'ARABIC LIGATURE AIN WITH JEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_JEEM_WITH_MEEM_FINAL_FORM = "\u{FD75}";
 
-    #[Info(id: 64886, name: 'ARABIC LIGATURE AIN WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD76, name: 'ARABIC LIGATURE AIN WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_MEEM_WITH_MEEM_FINAL_FORM = "\u{FD76}";
 
-    #[Info(id: 64887, name: 'ARABIC LIGATURE AIN WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD77, name: 'ARABIC LIGATURE AIN WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_MEEM_WITH_MEEM_INITIAL_FORM = "\u{FD77}";
 
-    #[Info(id: 64888, name: 'ARABIC LIGATURE AIN WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD78, name: 'ARABIC LIGATURE AIN WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_MEEM_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD78}";
 
-    #[Info(id: 64889, name: 'ARABIC LIGATURE GHAIN WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD79, name: 'ARABIC LIGATURE GHAIN WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_GHAIN_WITH_MEEM_WITH_MEEM_FINAL_FORM = "\u{FD79}";
 
-    #[Info(id: 64890, name: 'ARABIC LIGATURE GHAIN WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD7A, name: 'ARABIC LIGATURE GHAIN WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_GHAIN_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FD7A}";
 
-    #[Info(id: 64891, name: 'ARABIC LIGATURE GHAIN WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD7B, name: 'ARABIC LIGATURE GHAIN WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_GHAIN_WITH_MEEM_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD7B}";
 
-    #[Info(id: 64892, name: 'ARABIC LIGATURE FEH WITH KHAH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD7C, name: 'ARABIC LIGATURE FEH WITH KHAH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_KHAH_WITH_MEEM_FINAL_FORM = "\u{FD7C}";
 
-    #[Info(id: 64893, name: 'ARABIC LIGATURE FEH WITH KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD7D, name: 'ARABIC LIGATURE FEH WITH KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_KHAH_WITH_MEEM_INITIAL_FORM = "\u{FD7D}";
 
-    #[Info(id: 64894, name: 'ARABIC LIGATURE QAF WITH MEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD7E, name: 'ARABIC LIGATURE QAF WITH MEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_MEEM_WITH_HAH_FINAL_FORM = "\u{FD7E}";
 
-    #[Info(id: 64895, name: 'ARABIC LIGATURE QAF WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD7F, name: 'ARABIC LIGATURE QAF WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_MEEM_WITH_MEEM_FINAL_FORM = "\u{FD7F}";
 
-    #[Info(id: 64896, name: 'ARABIC LIGATURE LAM WITH HAH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD80, name: 'ARABIC LIGATURE LAM WITH HAH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_HAH_WITH_MEEM_FINAL_FORM = "\u{FD80}";
 
-    #[Info(id: 64897, name: 'ARABIC LIGATURE LAM WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD81, name: 'ARABIC LIGATURE LAM WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_HAH_WITH_YEH_FINAL_FORM = "\u{FD81}";
 
-    #[Info(id: 64898, name: 'ARABIC LIGATURE LAM WITH HAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD82, name: 'ARABIC LIGATURE LAM WITH HAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_HAH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD82}";
 
-    #[Info(id: 64899, name: 'ARABIC LIGATURE LAM WITH JEEM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD83, name: 'ARABIC LIGATURE LAM WITH JEEM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_JEEM_WITH_JEEM_INITIAL_FORM = "\u{FD83}";
 
-    #[Info(id: 64900, name: 'ARABIC LIGATURE LAM WITH JEEM WITH JEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD84, name: 'ARABIC LIGATURE LAM WITH JEEM WITH JEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_JEEM_WITH_JEEM_FINAL_FORM = "\u{FD84}";
 
-    #[Info(id: 64901, name: 'ARABIC LIGATURE LAM WITH KHAH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD85, name: 'ARABIC LIGATURE LAM WITH KHAH WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_KHAH_WITH_MEEM_FINAL_FORM = "\u{FD85}";
 
-    #[Info(id: 64902, name: 'ARABIC LIGATURE LAM WITH KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD86, name: 'ARABIC LIGATURE LAM WITH KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_KHAH_WITH_MEEM_INITIAL_FORM = "\u{FD86}";
 
-    #[Info(id: 64903, name: 'ARABIC LIGATURE LAM WITH MEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD87, name: 'ARABIC LIGATURE LAM WITH MEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_MEEM_WITH_HAH_FINAL_FORM = "\u{FD87}";
 
-    #[Info(id: 64904, name: 'ARABIC LIGATURE LAM WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD88, name: 'ARABIC LIGATURE LAM WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_MEEM_WITH_HAH_INITIAL_FORM = "\u{FD88}";
 
-    #[Info(id: 64905, name: 'ARABIC LIGATURE MEEM WITH HAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD89, name: 'ARABIC LIGATURE MEEM WITH HAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_HAH_WITH_JEEM_INITIAL_FORM = "\u{FD89}";
 
-    #[Info(id: 64906, name: 'ARABIC LIGATURE MEEM WITH HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD8A, name: 'ARABIC LIGATURE MEEM WITH HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_HAH_WITH_MEEM_INITIAL_FORM = "\u{FD8A}";
 
-    #[Info(id: 64907, name: 'ARABIC LIGATURE MEEM WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD8B, name: 'ARABIC LIGATURE MEEM WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_HAH_WITH_YEH_FINAL_FORM = "\u{FD8B}";
 
-    #[Info(id: 64908, name: 'ARABIC LIGATURE MEEM WITH JEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD8C, name: 'ARABIC LIGATURE MEEM WITH JEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_JEEM_WITH_HAH_INITIAL_FORM = "\u{FD8C}";
 
-    #[Info(id: 64909, name: 'ARABIC LIGATURE MEEM WITH JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD8D, name: 'ARABIC LIGATURE MEEM WITH JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_JEEM_WITH_MEEM_INITIAL_FORM = "\u{FD8D}";
 
-    #[Info(id: 64910, name: 'ARABIC LIGATURE MEEM WITH KHAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD8E, name: 'ARABIC LIGATURE MEEM WITH KHAH WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_KHAH_WITH_JEEM_INITIAL_FORM = "\u{FD8E}";
 
-    #[Info(id: 64911, name: 'ARABIC LIGATURE MEEM WITH KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD8F, name: 'ARABIC LIGATURE MEEM WITH KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_KHAH_WITH_MEEM_INITIAL_FORM = "\u{FD8F}";
 
-    #[Info(id: 64914, name: 'ARABIC LIGATURE MEEM WITH JEEM WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD92, name: 'ARABIC LIGATURE MEEM WITH JEEM WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_JEEM_WITH_KHAH_INITIAL_FORM = "\u{FD92}";
 
-    #[Info(id: 64915, name: 'ARABIC LIGATURE HEH WITH MEEM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD93, name: 'ARABIC LIGATURE HEH WITH MEEM WITH JEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HEH_WITH_MEEM_WITH_JEEM_INITIAL_FORM = "\u{FD93}";
 
-    #[Info(id: 64916, name: 'ARABIC LIGATURE HEH WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD94, name: 'ARABIC LIGATURE HEH WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HEH_WITH_MEEM_WITH_MEEM_INITIAL_FORM = "\u{FD94}";
 
-    #[Info(id: 64917, name: 'ARABIC LIGATURE NOON WITH HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD95, name: 'ARABIC LIGATURE NOON WITH HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_HAH_WITH_MEEM_INITIAL_FORM = "\u{FD95}";
 
-    #[Info(id: 64918, name: 'ARABIC LIGATURE NOON WITH HAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD96, name: 'ARABIC LIGATURE NOON WITH HAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_HAH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD96}";
 
-    #[Info(id: 64919, name: 'ARABIC LIGATURE NOON WITH JEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD97, name: 'ARABIC LIGATURE NOON WITH JEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_JEEM_WITH_MEEM_FINAL_FORM = "\u{FD97}";
 
-    #[Info(id: 64920, name: 'ARABIC LIGATURE NOON WITH JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD98, name: 'ARABIC LIGATURE NOON WITH JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_JEEM_WITH_MEEM_INITIAL_FORM = "\u{FD98}";
 
-    #[Info(id: 64921, name: 'ARABIC LIGATURE NOON WITH JEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD99, name: 'ARABIC LIGATURE NOON WITH JEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_JEEM_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD99}";
 
-    #[Info(id: 64922, name: 'ARABIC LIGATURE NOON WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD9A, name: 'ARABIC LIGATURE NOON WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FD9A}";
 
-    #[Info(id: 64923, name: 'ARABIC LIGATURE NOON WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD9B, name: 'ARABIC LIGATURE NOON WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_MEEM_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FD9B}";
 
-    #[Info(id: 64924, name: 'ARABIC LIGATURE YEH WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD9C, name: 'ARABIC LIGATURE YEH WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_MEEM_WITH_MEEM_FINAL_FORM = "\u{FD9C}";
 
-    #[Info(id: 64925, name: 'ARABIC LIGATURE YEH WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD9D, name: 'ARABIC LIGATURE YEH WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_MEEM_WITH_MEEM_INITIAL_FORM = "\u{FD9D}";
 
-    #[Info(id: 64926, name: 'ARABIC LIGATURE BEH WITH KHAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD9E, name: 'ARABIC LIGATURE BEH WITH KHAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_KHAH_WITH_YEH_FINAL_FORM = "\u{FD9E}";
 
-    #[Info(id: 64927, name: 'ARABIC LIGATURE TEH WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFD9F, name: 'ARABIC LIGATURE TEH WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_JEEM_WITH_YEH_FINAL_FORM = "\u{FD9F}";
 
-    #[Info(id: 64928, name: 'ARABIC LIGATURE TEH WITH JEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDA0, name: 'ARABIC LIGATURE TEH WITH JEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_JEEM_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FDA0}";
 
-    #[Info(id: 64929, name: 'ARABIC LIGATURE TEH WITH KHAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDA1, name: 'ARABIC LIGATURE TEH WITH KHAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_KHAH_WITH_YEH_FINAL_FORM = "\u{FDA1}";
 
-    #[Info(id: 64930, name: 'ARABIC LIGATURE TEH WITH KHAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDA2, name: 'ARABIC LIGATURE TEH WITH KHAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_KHAH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FDA2}";
 
-    #[Info(id: 64931, name: 'ARABIC LIGATURE TEH WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDA3, name: 'ARABIC LIGATURE TEH WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FDA3}";
 
-    #[Info(id: 64932, name: 'ARABIC LIGATURE TEH WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDA4, name: 'ARABIC LIGATURE TEH WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_TEH_WITH_MEEM_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FDA4}";
 
-    #[Info(id: 64933, name: 'ARABIC LIGATURE JEEM WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDA5, name: 'ARABIC LIGATURE JEEM WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FDA5}";
 
-    #[Info(id: 64934, name: 'ARABIC LIGATURE JEEM WITH HAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDA6, name: 'ARABIC LIGATURE JEEM WITH HAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_HAH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FDA6}";
 
-    #[Info(id: 64935, name: 'ARABIC LIGATURE JEEM WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDA7, name: 'ARABIC LIGATURE JEEM WITH MEEM WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_MEEM_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FDA7}";
 
-    #[Info(id: 64936, name: 'ARABIC LIGATURE SEEN WITH KHAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDA8, name: 'ARABIC LIGATURE SEEN WITH KHAH WITH ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_KHAH_WITH_ALEF_MAKSURA_FINAL_FORM = "\u{FDA8}";
 
-    #[Info(id: 64937, name: 'ARABIC LIGATURE SAD WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDA9, name: 'ARABIC LIGATURE SAD WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_HAH_WITH_YEH_FINAL_FORM = "\u{FDA9}";
 
-    #[Info(id: 64938, name: 'ARABIC LIGATURE SHEEN WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDAA, name: 'ARABIC LIGATURE SHEEN WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SHEEN_WITH_HAH_WITH_YEH_FINAL_FORM = "\u{FDAA}";
 
-    #[Info(id: 64939, name: 'ARABIC LIGATURE DAD WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDAB, name: 'ARABIC LIGATURE DAD WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_DAD_WITH_HAH_WITH_YEH_FINAL_FORM = "\u{FDAB}";
 
-    #[Info(id: 64940, name: 'ARABIC LIGATURE LAM WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDAC, name: 'ARABIC LIGATURE LAM WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_JEEM_WITH_YEH_FINAL_FORM = "\u{FDAC}";
 
-    #[Info(id: 64941, name: 'ARABIC LIGATURE LAM WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDAD, name: 'ARABIC LIGATURE LAM WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FDAD}";
 
-    #[Info(id: 64942, name: 'ARABIC LIGATURE YEH WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDAE, name: 'ARABIC LIGATURE YEH WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_HAH_WITH_YEH_FINAL_FORM = "\u{FDAE}";
 
-    #[Info(id: 64943, name: 'ARABIC LIGATURE YEH WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDAF, name: 'ARABIC LIGATURE YEH WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_JEEM_WITH_YEH_FINAL_FORM = "\u{FDAF}";
 
-    #[Info(id: 64944, name: 'ARABIC LIGATURE YEH WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDB0, name: 'ARABIC LIGATURE YEH WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_YEH_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FDB0}";
 
-    #[Info(id: 64945, name: 'ARABIC LIGATURE MEEM WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDB1, name: 'ARABIC LIGATURE MEEM WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FDB1}";
 
-    #[Info(id: 64946, name: 'ARABIC LIGATURE QAF WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDB2, name: 'ARABIC LIGATURE QAF WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FDB2}";
 
-    #[Info(id: 64947, name: 'ARABIC LIGATURE NOON WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDB3, name: 'ARABIC LIGATURE NOON WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_HAH_WITH_YEH_FINAL_FORM = "\u{FDB3}";
 
-    #[Info(id: 64948, name: 'ARABIC LIGATURE QAF WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDB4, name: 'ARABIC LIGATURE QAF WITH MEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QAF_WITH_MEEM_WITH_HAH_INITIAL_FORM = "\u{FDB4}";
 
-    #[Info(id: 64949, name: 'ARABIC LIGATURE LAM WITH HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDB5, name: 'ARABIC LIGATURE LAM WITH HAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_HAH_WITH_MEEM_INITIAL_FORM = "\u{FDB5}";
 
-    #[Info(id: 64950, name: 'ARABIC LIGATURE AIN WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDB6, name: 'ARABIC LIGATURE AIN WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FDB6}";
 
-    #[Info(id: 64951, name: 'ARABIC LIGATURE KAF WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDB7, name: 'ARABIC LIGATURE KAF WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FDB7}";
 
-    #[Info(id: 64952, name: 'ARABIC LIGATURE NOON WITH JEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDB8, name: 'ARABIC LIGATURE NOON WITH JEEM WITH HAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_JEEM_WITH_HAH_INITIAL_FORM = "\u{FDB8}";
 
-    #[Info(id: 64953, name: 'ARABIC LIGATURE MEEM WITH KHAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDB9, name: 'ARABIC LIGATURE MEEM WITH KHAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_KHAH_WITH_YEH_FINAL_FORM = "\u{FDB9}";
 
-    #[Info(id: 64954, name: 'ARABIC LIGATURE LAM WITH JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDBA, name: 'ARABIC LIGATURE LAM WITH JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_JEEM_WITH_MEEM_INITIAL_FORM = "\u{FDBA}";
 
-    #[Info(id: 64955, name: 'ARABIC LIGATURE KAF WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDBB, name: 'ARABIC LIGATURE KAF WITH MEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_MEEM_WITH_MEEM_FINAL_FORM = "\u{FDBB}";
 
-    #[Info(id: 64956, name: 'ARABIC LIGATURE LAM WITH JEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDBC, name: 'ARABIC LIGATURE LAM WITH JEEM WITH MEEM FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_LAM_WITH_JEEM_WITH_MEEM_FINAL_FORM = "\u{FDBC}";
 
-    #[Info(id: 64957, name: 'ARABIC LIGATURE NOON WITH JEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDBD, name: 'ARABIC LIGATURE NOON WITH JEEM WITH HAH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_JEEM_WITH_HAH_FINAL_FORM = "\u{FDBD}";
 
-    #[Info(id: 64958, name: 'ARABIC LIGATURE JEEM WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDBE, name: 'ARABIC LIGATURE JEEM WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JEEM_WITH_HAH_WITH_YEH_FINAL_FORM = "\u{FDBE}";
 
-    #[Info(id: 64959, name: 'ARABIC LIGATURE HAH WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDBF, name: 'ARABIC LIGATURE HAH WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_HAH_WITH_JEEM_WITH_YEH_FINAL_FORM = "\u{FDBF}";
 
-    #[Info(id: 64960, name: 'ARABIC LIGATURE MEEM WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDC0, name: 'ARABIC LIGATURE MEEM WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_JEEM_WITH_YEH_FINAL_FORM = "\u{FDC0}";
 
-    #[Info(id: 64961, name: 'ARABIC LIGATURE FEH WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDC1, name: 'ARABIC LIGATURE FEH WITH MEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_FEH_WITH_MEEM_WITH_YEH_FINAL_FORM = "\u{FDC1}";
 
-    #[Info(id: 64962, name: 'ARABIC LIGATURE BEH WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDC2, name: 'ARABIC LIGATURE BEH WITH HAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_BEH_WITH_HAH_WITH_YEH_FINAL_FORM = "\u{FDC2}";
 
-    #[Info(id: 64963, name: 'ARABIC LIGATURE KAF WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDC3, name: 'ARABIC LIGATURE KAF WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_KAF_WITH_MEEM_WITH_MEEM_INITIAL_FORM = "\u{FDC3}";
 
-    #[Info(id: 64964, name: 'ARABIC LIGATURE AIN WITH JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDC4, name: 'ARABIC LIGATURE AIN WITH JEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AIN_WITH_JEEM_WITH_MEEM_INITIAL_FORM = "\u{FDC4}";
 
-    #[Info(id: 64965, name: 'ARABIC LIGATURE SAD WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDC5, name: 'ARABIC LIGATURE SAD WITH MEEM WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SAD_WITH_MEEM_WITH_MEEM_INITIAL_FORM = "\u{FDC5}";
 
-    #[Info(id: 64966, name: 'ARABIC LIGATURE SEEN WITH KHAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDC6, name: 'ARABIC LIGATURE SEEN WITH KHAH WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SEEN_WITH_KHAH_WITH_YEH_FINAL_FORM = "\u{FDC6}";
 
-    #[Info(id: 64967, name: 'ARABIC LIGATURE NOON WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDC7, name: 'ARABIC LIGATURE NOON WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_JEEM_WITH_YEH_FINAL_FORM = "\u{FDC7}";
 
-    #[Info(id: 64975, name: 'ARABIC LIGATURE SALAAMUHU ALAYNAA', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFDCF, name: 'ARABIC LIGATURE SALAAMUHU ALAYNAA', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_SALAAMUHU_ALAYNAA = "\u{FDCF}";
 
-    #[Info(id: 65008, name: 'ARABIC LIGATURE SALLA USED AS KORANIC STOP SIGN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDF0, name: 'ARABIC LIGATURE SALLA USED AS KORANIC STOP SIGN ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SALLA_USED_AS_KORANIC_STOP_SIGN_ISOLATED_FORM = "\u{FDF0}";
 
-    #[Info(id: 65009, name: 'ARABIC LIGATURE QALA USED AS KORANIC STOP SIGN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDF1, name: 'ARABIC LIGATURE QALA USED AS KORANIC STOP SIGN ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_QALA_USED_AS_KORANIC_STOP_SIGN_ISOLATED_FORM = "\u{FDF1}";
 
-    #[Info(id: 65010, name: 'ARABIC LIGATURE ALLAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDF2, name: 'ARABIC LIGATURE ALLAH ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_ALLAH_ISOLATED_FORM = "\u{FDF2}";
 
-    #[Info(id: 65011, name: 'ARABIC LIGATURE AKBAR ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDF3, name: 'ARABIC LIGATURE AKBAR ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_AKBAR_ISOLATED_FORM = "\u{FDF3}";
 
-    #[Info(id: 65012, name: 'ARABIC LIGATURE MOHAMMAD ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDF4, name: 'ARABIC LIGATURE MOHAMMAD ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MOHAMMAD_ISOLATED_FORM = "\u{FDF4}";
 
-    #[Info(id: 65013, name: 'ARABIC LIGATURE SALAM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDF5, name: 'ARABIC LIGATURE SALAM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SALAM_ISOLATED_FORM = "\u{FDF5}";
 
-    #[Info(id: 65014, name: 'ARABIC LIGATURE RASOUL ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDF6, name: 'ARABIC LIGATURE RASOUL ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_RASOUL_ISOLATED_FORM = "\u{FDF6}";
 
-    #[Info(id: 65015, name: 'ARABIC LIGATURE ALAYHE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDF7, name: 'ARABIC LIGATURE ALAYHE ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_ALAYHE_ISOLATED_FORM = "\u{FDF7}";
 
-    #[Info(id: 65016, name: 'ARABIC LIGATURE WASALLAM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDF8, name: 'ARABIC LIGATURE WASALLAM ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_WASALLAM_ISOLATED_FORM = "\u{FDF8}";
 
-    #[Info(id: 65017, name: 'ARABIC LIGATURE SALLA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDF9, name: 'ARABIC LIGATURE SALLA ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SALLA_ISOLATED_FORM = "\u{FDF9}";
 
-    #[Info(id: 65018, name: 'ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDFA, name: 'ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_SALLALLAHOU_ALAYHE_WASALLAM = "\u{FDFA}";
 
-    #[Info(id: 65019, name: 'ARABIC LIGATURE JALLAJALALOUHOU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFDFB, name: 'ARABIC LIGATURE JALLAJALALOUHOU', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_JALLAJALALOUHOU = "\u{FDFB}";
 
-    #[Info(id: 65020, name: 'RIAL SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xFDFC, name: 'RIAL SIGN', category: Cat::Currency_Symbol)]
     case RIAL_SIGN = "\u{FDFC}";
 
-    #[Info(id: 65021, name: 'ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFDFD, name: 'ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_BISMILLAH_AR_RAHMAN_AR_RAHEEM = "\u{FDFD}";
 
-    #[Info(id: 65022, name: 'ARABIC LIGATURE SUBHAANAHU WA TAAALAA', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFDFE, name: 'ARABIC LIGATURE SUBHAANAHU WA TAAALAA', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_SUBHAANAHU_WA_TAAALAA = "\u{FDFE}";
 
-    #[Info(id: 65023, name: 'ARABIC LIGATURE AZZA WA JALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFDFF, name: 'ARABIC LIGATURE AZZA WA JALL', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_AZZA_WA_JALL = "\u{FDFF}";
 }

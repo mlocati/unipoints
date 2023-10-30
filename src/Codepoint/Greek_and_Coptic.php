@@ -16,408 +16,408 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Greek_and_Coptic: string
 {
-    #[Info(id: 880, name: 'GREEK CAPITAL LETTER HETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x370, name: 'GREEK CAPITAL LETTER HETA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_HETA = "\u{370}";
 
-    #[Info(id: 881, name: 'GREEK SMALL LETTER HETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x371, name: 'GREEK SMALL LETTER HETA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_HETA = "\u{371}";
 
-    #[Info(id: 882, name: 'GREEK CAPITAL LETTER ARCHAIC SAMPI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x372, name: 'GREEK CAPITAL LETTER ARCHAIC SAMPI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ARCHAIC_SAMPI = "\u{372}";
 
-    #[Info(id: 883, name: 'GREEK SMALL LETTER ARCHAIC SAMPI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x373, name: 'GREEK SMALL LETTER ARCHAIC SAMPI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ARCHAIC_SAMPI = "\u{373}";
 
-    #[Info(id: 884, name: 'GREEK NUMERAL SIGN', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x374, name: 'GREEK NUMERAL SIGN', category: Cat::Modifier_Letter)]
     case GREEK_NUMERAL_SIGN = "\u{374}";
 
-    #[Info(id: 885, name: 'GREEK LOWER NUMERAL SIGN', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x375, name: 'GREEK LOWER NUMERAL SIGN', category: Cat::Modifier_Symbol)]
     case GREEK_LOWER_NUMERAL_SIGN = "\u{375}";
 
-    #[Info(id: 886, name: 'GREEK CAPITAL LETTER PAMPHYLIAN DIGAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x376, name: 'GREEK CAPITAL LETTER PAMPHYLIAN DIGAMMA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_PAMPHYLIAN_DIGAMMA = "\u{376}";
 
-    #[Info(id: 887, name: 'GREEK SMALL LETTER PAMPHYLIAN DIGAMMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x377, name: 'GREEK SMALL LETTER PAMPHYLIAN DIGAMMA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_PAMPHYLIAN_DIGAMMA = "\u{377}";
 
-    #[Info(id: 890, name: 'GREEK YPOGEGRAMMENI', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x37A, name: 'GREEK YPOGEGRAMMENI', category: Cat::Modifier_Letter)]
     case GREEK_YPOGEGRAMMENI = "\u{37A}";
 
-    #[Info(id: 891, name: 'GREEK SMALL REVERSED LUNATE SIGMA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x37B, name: 'GREEK SMALL REVERSED LUNATE SIGMA SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_REVERSED_LUNATE_SIGMA_SYMBOL = "\u{37B}";
 
-    #[Info(id: 892, name: 'GREEK SMALL DOTTED LUNATE SIGMA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x37C, name: 'GREEK SMALL DOTTED LUNATE SIGMA SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_DOTTED_LUNATE_SIGMA_SYMBOL = "\u{37C}";
 
-    #[Info(id: 893, name: 'GREEK SMALL REVERSED DOTTED LUNATE SIGMA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x37D, name: 'GREEK SMALL REVERSED DOTTED LUNATE SIGMA SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_REVERSED_DOTTED_LUNATE_SIGMA_SYMBOL = "\u{37D}";
 
-    #[Info(id: 894, name: 'GREEK QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x37E, name: 'GREEK QUESTION MARK', category: Cat::Other_Punctuation)]
     case GREEK_QUESTION_MARK = "\u{37E}";
 
-    #[Info(id: 895, name: 'GREEK CAPITAL LETTER YOT', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x37F, name: 'GREEK CAPITAL LETTER YOT', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_YOT = "\u{37F}";
 
-    #[Info(id: 900, name: 'GREEK TONOS', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x384, name: 'GREEK TONOS', category: Cat::Modifier_Symbol)]
     case GREEK_TONOS = "\u{384}";
 
-    #[Info(id: 901, name: 'GREEK DIALYTIKA TONOS', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x385, name: 'GREEK DIALYTIKA TONOS', category: Cat::Modifier_Symbol)]
     case GREEK_DIALYTIKA_TONOS = "\u{385}";
 
-    #[Info(id: 902, name: 'GREEK CAPITAL LETTER ALPHA WITH TONOS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x386, name: 'GREEK CAPITAL LETTER ALPHA WITH TONOS', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA_WITH_TONOS = "\u{386}";
 
-    #[Info(id: 903, name: 'GREEK ANO TELEIA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x387, name: 'GREEK ANO TELEIA', category: Cat::Other_Punctuation)]
     case GREEK_ANO_TELEIA = "\u{387}";
 
-    #[Info(id: 904, name: 'GREEK CAPITAL LETTER EPSILON WITH TONOS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x388, name: 'GREEK CAPITAL LETTER EPSILON WITH TONOS', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_EPSILON_WITH_TONOS = "\u{388}";
 
-    #[Info(id: 905, name: 'GREEK CAPITAL LETTER ETA WITH TONOS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x389, name: 'GREEK CAPITAL LETTER ETA WITH TONOS', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA_WITH_TONOS = "\u{389}";
 
-    #[Info(id: 906, name: 'GREEK CAPITAL LETTER IOTA WITH TONOS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x38A, name: 'GREEK CAPITAL LETTER IOTA WITH TONOS', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_TONOS = "\u{38A}";
 
-    #[Info(id: 908, name: 'GREEK CAPITAL LETTER OMICRON WITH TONOS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x38C, name: 'GREEK CAPITAL LETTER OMICRON WITH TONOS', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMICRON_WITH_TONOS = "\u{38C}";
 
-    #[Info(id: 910, name: 'GREEK CAPITAL LETTER UPSILON WITH TONOS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x38E, name: 'GREEK CAPITAL LETTER UPSILON WITH TONOS', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_UPSILON_WITH_TONOS = "\u{38E}";
 
-    #[Info(id: 911, name: 'GREEK CAPITAL LETTER OMEGA WITH TONOS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x38F, name: 'GREEK CAPITAL LETTER OMEGA WITH TONOS', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA_WITH_TONOS = "\u{38F}";
 
-    #[Info(id: 912, name: 'GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x390, name: 'GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA_AND_TONOS = "\u{390}";
 
-    #[Info(id: 913, name: 'GREEK CAPITAL LETTER ALPHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x391, name: 'GREEK CAPITAL LETTER ALPHA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ALPHA = "\u{391}";
 
-    #[Info(id: 914, name: 'GREEK CAPITAL LETTER BETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x392, name: 'GREEK CAPITAL LETTER BETA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_BETA = "\u{392}";
 
-    #[Info(id: 915, name: 'GREEK CAPITAL LETTER GAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x393, name: 'GREEK CAPITAL LETTER GAMMA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_GAMMA = "\u{393}";
 
-    #[Info(id: 916, name: 'GREEK CAPITAL LETTER DELTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x394, name: 'GREEK CAPITAL LETTER DELTA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_DELTA = "\u{394}";
 
-    #[Info(id: 917, name: 'GREEK CAPITAL LETTER EPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x395, name: 'GREEK CAPITAL LETTER EPSILON', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_EPSILON = "\u{395}";
 
-    #[Info(id: 918, name: 'GREEK CAPITAL LETTER ZETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x396, name: 'GREEK CAPITAL LETTER ZETA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ZETA = "\u{396}";
 
-    #[Info(id: 919, name: 'GREEK CAPITAL LETTER ETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x397, name: 'GREEK CAPITAL LETTER ETA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_ETA = "\u{397}";
 
-    #[Info(id: 920, name: 'GREEK CAPITAL LETTER THETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x398, name: 'GREEK CAPITAL LETTER THETA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_THETA = "\u{398}";
 
-    #[Info(id: 921, name: 'GREEK CAPITAL LETTER IOTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x399, name: 'GREEK CAPITAL LETTER IOTA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA = "\u{399}";
 
-    #[Info(id: 922, name: 'GREEK CAPITAL LETTER KAPPA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x39A, name: 'GREEK CAPITAL LETTER KAPPA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_KAPPA = "\u{39A}";
 
-    #[Info(id: 923, name: 'GREEK CAPITAL LETTER LAMDA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x39B, name: 'GREEK CAPITAL LETTER LAMDA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_LAMDA = "\u{39B}";
 
-    #[Info(id: 924, name: 'GREEK CAPITAL LETTER MU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x39C, name: 'GREEK CAPITAL LETTER MU', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_MU = "\u{39C}";
 
-    #[Info(id: 925, name: 'GREEK CAPITAL LETTER NU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x39D, name: 'GREEK CAPITAL LETTER NU', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_NU = "\u{39D}";
 
-    #[Info(id: 926, name: 'GREEK CAPITAL LETTER XI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x39E, name: 'GREEK CAPITAL LETTER XI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_XI = "\u{39E}";
 
-    #[Info(id: 927, name: 'GREEK CAPITAL LETTER OMICRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x39F, name: 'GREEK CAPITAL LETTER OMICRON', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMICRON = "\u{39F}";
 
-    #[Info(id: 928, name: 'GREEK CAPITAL LETTER PI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3A0, name: 'GREEK CAPITAL LETTER PI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_PI = "\u{3A0}";
 
-    #[Info(id: 929, name: 'GREEK CAPITAL LETTER RHO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3A1, name: 'GREEK CAPITAL LETTER RHO', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_RHO = "\u{3A1}";
 
-    #[Info(id: 931, name: 'GREEK CAPITAL LETTER SIGMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3A3, name: 'GREEK CAPITAL LETTER SIGMA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_SIGMA = "\u{3A3}";
 
-    #[Info(id: 932, name: 'GREEK CAPITAL LETTER TAU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3A4, name: 'GREEK CAPITAL LETTER TAU', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_TAU = "\u{3A4}";
 
-    #[Info(id: 933, name: 'GREEK CAPITAL LETTER UPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3A5, name: 'GREEK CAPITAL LETTER UPSILON', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_UPSILON = "\u{3A5}";
 
-    #[Info(id: 934, name: 'GREEK CAPITAL LETTER PHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3A6, name: 'GREEK CAPITAL LETTER PHI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_PHI = "\u{3A6}";
 
-    #[Info(id: 935, name: 'GREEK CAPITAL LETTER CHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3A7, name: 'GREEK CAPITAL LETTER CHI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_CHI = "\u{3A7}";
 
-    #[Info(id: 936, name: 'GREEK CAPITAL LETTER PSI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3A8, name: 'GREEK CAPITAL LETTER PSI', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_PSI = "\u{3A8}";
 
-    #[Info(id: 937, name: 'GREEK CAPITAL LETTER OMEGA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3A9, name: 'GREEK CAPITAL LETTER OMEGA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_OMEGA = "\u{3A9}";
 
-    #[Info(id: 938, name: 'GREEK CAPITAL LETTER IOTA WITH DIALYTIKA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3AA, name: 'GREEK CAPITAL LETTER IOTA WITH DIALYTIKA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_IOTA_WITH_DIALYTIKA = "\u{3AA}";
 
-    #[Info(id: 939, name: 'GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3AB, name: 'GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_UPSILON_WITH_DIALYTIKA = "\u{3AB}";
 
-    #[Info(id: 940, name: 'GREEK SMALL LETTER ALPHA WITH TONOS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3AC, name: 'GREEK SMALL LETTER ALPHA WITH TONOS', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA_WITH_TONOS = "\u{3AC}";
 
-    #[Info(id: 941, name: 'GREEK SMALL LETTER EPSILON WITH TONOS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3AD, name: 'GREEK SMALL LETTER EPSILON WITH TONOS', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_EPSILON_WITH_TONOS = "\u{3AD}";
 
-    #[Info(id: 942, name: 'GREEK SMALL LETTER ETA WITH TONOS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3AE, name: 'GREEK SMALL LETTER ETA WITH TONOS', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA_WITH_TONOS = "\u{3AE}";
 
-    #[Info(id: 943, name: 'GREEK SMALL LETTER IOTA WITH TONOS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3AF, name: 'GREEK SMALL LETTER IOTA WITH TONOS', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_TONOS = "\u{3AF}";
 
-    #[Info(id: 944, name: 'GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3B0, name: 'GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA_AND_TONOS = "\u{3B0}";
 
-    #[Info(id: 945, name: 'GREEK SMALL LETTER ALPHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3B1, name: 'GREEK SMALL LETTER ALPHA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ALPHA = "\u{3B1}";
 
-    #[Info(id: 946, name: 'GREEK SMALL LETTER BETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3B2, name: 'GREEK SMALL LETTER BETA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_BETA = "\u{3B2}";
 
-    #[Info(id: 947, name: 'GREEK SMALL LETTER GAMMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3B3, name: 'GREEK SMALL LETTER GAMMA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_GAMMA = "\u{3B3}";
 
-    #[Info(id: 948, name: 'GREEK SMALL LETTER DELTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3B4, name: 'GREEK SMALL LETTER DELTA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_DELTA = "\u{3B4}";
 
-    #[Info(id: 949, name: 'GREEK SMALL LETTER EPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3B5, name: 'GREEK SMALL LETTER EPSILON', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_EPSILON = "\u{3B5}";
 
-    #[Info(id: 950, name: 'GREEK SMALL LETTER ZETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3B6, name: 'GREEK SMALL LETTER ZETA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ZETA = "\u{3B6}";
 
-    #[Info(id: 951, name: 'GREEK SMALL LETTER ETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3B7, name: 'GREEK SMALL LETTER ETA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ETA = "\u{3B7}";
 
-    #[Info(id: 952, name: 'GREEK SMALL LETTER THETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3B8, name: 'GREEK SMALL LETTER THETA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_THETA = "\u{3B8}";
 
-    #[Info(id: 953, name: 'GREEK SMALL LETTER IOTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3B9, name: 'GREEK SMALL LETTER IOTA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA = "\u{3B9}";
 
-    #[Info(id: 954, name: 'GREEK SMALL LETTER KAPPA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3BA, name: 'GREEK SMALL LETTER KAPPA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_KAPPA = "\u{3BA}";
 
-    #[Info(id: 955, name: 'GREEK SMALL LETTER LAMDA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3BB, name: 'GREEK SMALL LETTER LAMDA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_LAMDA = "\u{3BB}";
 
-    #[Info(id: 956, name: 'GREEK SMALL LETTER MU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3BC, name: 'GREEK SMALL LETTER MU', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_MU = "\u{3BC}";
 
-    #[Info(id: 957, name: 'GREEK SMALL LETTER NU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3BD, name: 'GREEK SMALL LETTER NU', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_NU = "\u{3BD}";
 
-    #[Info(id: 958, name: 'GREEK SMALL LETTER XI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3BE, name: 'GREEK SMALL LETTER XI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_XI = "\u{3BE}";
 
-    #[Info(id: 959, name: 'GREEK SMALL LETTER OMICRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3BF, name: 'GREEK SMALL LETTER OMICRON', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMICRON = "\u{3BF}";
 
-    #[Info(id: 960, name: 'GREEK SMALL LETTER PI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3C0, name: 'GREEK SMALL LETTER PI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_PI = "\u{3C0}";
 
-    #[Info(id: 961, name: 'GREEK SMALL LETTER RHO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3C1, name: 'GREEK SMALL LETTER RHO', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_RHO = "\u{3C1}";
 
-    #[Info(id: 962, name: 'GREEK SMALL LETTER FINAL SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3C2, name: 'GREEK SMALL LETTER FINAL SIGMA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_FINAL_SIGMA = "\u{3C2}";
 
-    #[Info(id: 963, name: 'GREEK SMALL LETTER SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3C3, name: 'GREEK SMALL LETTER SIGMA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_SIGMA = "\u{3C3}";
 
-    #[Info(id: 964, name: 'GREEK SMALL LETTER TAU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3C4, name: 'GREEK SMALL LETTER TAU', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_TAU = "\u{3C4}";
 
-    #[Info(id: 965, name: 'GREEK SMALL LETTER UPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3C5, name: 'GREEK SMALL LETTER UPSILON', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON = "\u{3C5}";
 
-    #[Info(id: 966, name: 'GREEK SMALL LETTER PHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3C6, name: 'GREEK SMALL LETTER PHI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_PHI = "\u{3C6}";
 
-    #[Info(id: 967, name: 'GREEK SMALL LETTER CHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3C7, name: 'GREEK SMALL LETTER CHI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_CHI = "\u{3C7}";
 
-    #[Info(id: 968, name: 'GREEK SMALL LETTER PSI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3C8, name: 'GREEK SMALL LETTER PSI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_PSI = "\u{3C8}";
 
-    #[Info(id: 969, name: 'GREEK SMALL LETTER OMEGA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3C9, name: 'GREEK SMALL LETTER OMEGA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA = "\u{3C9}";
 
-    #[Info(id: 970, name: 'GREEK SMALL LETTER IOTA WITH DIALYTIKA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3CA, name: 'GREEK SMALL LETTER IOTA WITH DIALYTIKA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_IOTA_WITH_DIALYTIKA = "\u{3CA}";
 
-    #[Info(id: 971, name: 'GREEK SMALL LETTER UPSILON WITH DIALYTIKA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3CB, name: 'GREEK SMALL LETTER UPSILON WITH DIALYTIKA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_DIALYTIKA = "\u{3CB}";
 
-    #[Info(id: 972, name: 'GREEK SMALL LETTER OMICRON WITH TONOS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3CC, name: 'GREEK SMALL LETTER OMICRON WITH TONOS', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMICRON_WITH_TONOS = "\u{3CC}";
 
-    #[Info(id: 973, name: 'GREEK SMALL LETTER UPSILON WITH TONOS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3CD, name: 'GREEK SMALL LETTER UPSILON WITH TONOS', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_UPSILON_WITH_TONOS = "\u{3CD}";
 
-    #[Info(id: 974, name: 'GREEK SMALL LETTER OMEGA WITH TONOS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3CE, name: 'GREEK SMALL LETTER OMEGA WITH TONOS', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_OMEGA_WITH_TONOS = "\u{3CE}";
 
-    #[Info(id: 975, name: 'GREEK CAPITAL KAI SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3CF, name: 'GREEK CAPITAL KAI SYMBOL', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_KAI_SYMBOL = "\u{3CF}";
 
-    #[Info(id: 976, name: 'GREEK BETA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3D0, name: 'GREEK BETA SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_BETA_SYMBOL = "\u{3D0}";
 
-    #[Info(id: 977, name: 'GREEK THETA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3D1, name: 'GREEK THETA SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_THETA_SYMBOL = "\u{3D1}";
 
-    #[Info(id: 978, name: 'GREEK UPSILON WITH HOOK SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3D2, name: 'GREEK UPSILON WITH HOOK SYMBOL', category: Cat::Uppercase_Letter)]
     case GREEK_UPSILON_WITH_HOOK_SYMBOL = "\u{3D2}";
 
-    #[Info(id: 979, name: 'GREEK UPSILON WITH ACUTE AND HOOK SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3D3, name: 'GREEK UPSILON WITH ACUTE AND HOOK SYMBOL', category: Cat::Uppercase_Letter)]
     case GREEK_UPSILON_WITH_ACUTE_AND_HOOK_SYMBOL = "\u{3D3}";
 
-    #[Info(id: 980, name: 'GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3D4, name: 'GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL', category: Cat::Uppercase_Letter)]
     case GREEK_UPSILON_WITH_DIAERESIS_AND_HOOK_SYMBOL = "\u{3D4}";
 
-    #[Info(id: 981, name: 'GREEK PHI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3D5, name: 'GREEK PHI SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_PHI_SYMBOL = "\u{3D5}";
 
-    #[Info(id: 982, name: 'GREEK PI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3D6, name: 'GREEK PI SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_PI_SYMBOL = "\u{3D6}";
 
-    #[Info(id: 983, name: 'GREEK KAI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3D7, name: 'GREEK KAI SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_KAI_SYMBOL = "\u{3D7}";
 
-    #[Info(id: 984, name: 'GREEK LETTER ARCHAIC KOPPA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3D8, name: 'GREEK LETTER ARCHAIC KOPPA', category: Cat::Uppercase_Letter)]
     case GREEK_LETTER_ARCHAIC_KOPPA = "\u{3D8}";
 
-    #[Info(id: 985, name: 'GREEK SMALL LETTER ARCHAIC KOPPA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3D9, name: 'GREEK SMALL LETTER ARCHAIC KOPPA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_ARCHAIC_KOPPA = "\u{3D9}";
 
-    #[Info(id: 986, name: 'GREEK LETTER STIGMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3DA, name: 'GREEK LETTER STIGMA', category: Cat::Uppercase_Letter)]
     case GREEK_LETTER_STIGMA = "\u{3DA}";
 
-    #[Info(id: 987, name: 'GREEK SMALL LETTER STIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3DB, name: 'GREEK SMALL LETTER STIGMA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_STIGMA = "\u{3DB}";
 
-    #[Info(id: 988, name: 'GREEK LETTER DIGAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3DC, name: 'GREEK LETTER DIGAMMA', category: Cat::Uppercase_Letter)]
     case GREEK_LETTER_DIGAMMA = "\u{3DC}";
 
-    #[Info(id: 989, name: 'GREEK SMALL LETTER DIGAMMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3DD, name: 'GREEK SMALL LETTER DIGAMMA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_DIGAMMA = "\u{3DD}";
 
-    #[Info(id: 990, name: 'GREEK LETTER KOPPA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3DE, name: 'GREEK LETTER KOPPA', category: Cat::Uppercase_Letter)]
     case GREEK_LETTER_KOPPA = "\u{3DE}";
 
-    #[Info(id: 991, name: 'GREEK SMALL LETTER KOPPA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3DF, name: 'GREEK SMALL LETTER KOPPA', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_KOPPA = "\u{3DF}";
 
-    #[Info(id: 992, name: 'GREEK LETTER SAMPI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3E0, name: 'GREEK LETTER SAMPI', category: Cat::Uppercase_Letter)]
     case GREEK_LETTER_SAMPI = "\u{3E0}";
 
-    #[Info(id: 993, name: 'GREEK SMALL LETTER SAMPI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3E1, name: 'GREEK SMALL LETTER SAMPI', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_SAMPI = "\u{3E1}";
 
-    #[Info(id: 994, name: 'COPTIC CAPITAL LETTER SHEI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3E2, name: 'COPTIC CAPITAL LETTER SHEI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_SHEI = "\u{3E2}";
 
-    #[Info(id: 995, name: 'COPTIC SMALL LETTER SHEI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3E3, name: 'COPTIC SMALL LETTER SHEI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_SHEI = "\u{3E3}";
 
-    #[Info(id: 996, name: 'COPTIC CAPITAL LETTER FEI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3E4, name: 'COPTIC CAPITAL LETTER FEI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_FEI = "\u{3E4}";
 
-    #[Info(id: 997, name: 'COPTIC SMALL LETTER FEI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3E5, name: 'COPTIC SMALL LETTER FEI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_FEI = "\u{3E5}";
 
-    #[Info(id: 998, name: 'COPTIC CAPITAL LETTER KHEI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3E6, name: 'COPTIC CAPITAL LETTER KHEI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_KHEI = "\u{3E6}";
 
-    #[Info(id: 999, name: 'COPTIC SMALL LETTER KHEI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3E7, name: 'COPTIC SMALL LETTER KHEI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_KHEI = "\u{3E7}";
 
-    #[Info(id: 1000, name: 'COPTIC CAPITAL LETTER HORI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3E8, name: 'COPTIC CAPITAL LETTER HORI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_HORI = "\u{3E8}";
 
-    #[Info(id: 1001, name: 'COPTIC SMALL LETTER HORI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3E9, name: 'COPTIC SMALL LETTER HORI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_HORI = "\u{3E9}";
 
-    #[Info(id: 1002, name: 'COPTIC CAPITAL LETTER GANGIA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3EA, name: 'COPTIC CAPITAL LETTER GANGIA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_GANGIA = "\u{3EA}";
 
-    #[Info(id: 1003, name: 'COPTIC SMALL LETTER GANGIA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3EB, name: 'COPTIC SMALL LETTER GANGIA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_GANGIA = "\u{3EB}";
 
-    #[Info(id: 1004, name: 'COPTIC CAPITAL LETTER SHIMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3EC, name: 'COPTIC CAPITAL LETTER SHIMA', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_SHIMA = "\u{3EC}";
 
-    #[Info(id: 1005, name: 'COPTIC SMALL LETTER SHIMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3ED, name: 'COPTIC SMALL LETTER SHIMA', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_SHIMA = "\u{3ED}";
 
-    #[Info(id: 1006, name: 'COPTIC CAPITAL LETTER DEI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3EE, name: 'COPTIC CAPITAL LETTER DEI', category: Cat::Uppercase_Letter)]
     case COPTIC_CAPITAL_LETTER_DEI = "\u{3EE}";
 
-    #[Info(id: 1007, name: 'COPTIC SMALL LETTER DEI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3EF, name: 'COPTIC SMALL LETTER DEI', category: Cat::Lowercase_Letter)]
     case COPTIC_SMALL_LETTER_DEI = "\u{3EF}";
 
-    #[Info(id: 1008, name: 'GREEK KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3F0, name: 'GREEK KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_KAPPA_SYMBOL = "\u{3F0}";
 
-    #[Info(id: 1009, name: 'GREEK RHO SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3F1, name: 'GREEK RHO SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_RHO_SYMBOL = "\u{3F1}";
 
-    #[Info(id: 1010, name: 'GREEK LUNATE SIGMA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3F2, name: 'GREEK LUNATE SIGMA SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_LUNATE_SIGMA_SYMBOL = "\u{3F2}";
 
-    #[Info(id: 1011, name: 'GREEK LETTER YOT', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3F3, name: 'GREEK LETTER YOT', category: Cat::Lowercase_Letter)]
     case GREEK_LETTER_YOT = "\u{3F3}";
 
-    #[Info(id: 1012, name: 'GREEK CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3F4, name: 'GREEK CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_THETA_SYMBOL = "\u{3F4}";
 
-    #[Info(id: 1013, name: 'GREEK LUNATE EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3F5, name: 'GREEK LUNATE EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_LUNATE_EPSILON_SYMBOL = "\u{3F5}";
 
-    #[Info(id: 1014, name: 'GREEK REVERSED LUNATE EPSILON SYMBOL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x3F6, name: 'GREEK REVERSED LUNATE EPSILON SYMBOL', category: Cat::Math_Symbol)]
     case GREEK_REVERSED_LUNATE_EPSILON_SYMBOL = "\u{3F6}";
 
-    #[Info(id: 1015, name: 'GREEK CAPITAL LETTER SHO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3F7, name: 'GREEK CAPITAL LETTER SHO', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_SHO = "\u{3F7}";
 
-    #[Info(id: 1016, name: 'GREEK SMALL LETTER SHO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3F8, name: 'GREEK SMALL LETTER SHO', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_SHO = "\u{3F8}";
 
-    #[Info(id: 1017, name: 'GREEK CAPITAL LUNATE SIGMA SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3F9, name: 'GREEK CAPITAL LUNATE SIGMA SYMBOL', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LUNATE_SIGMA_SYMBOL = "\u{3F9}";
 
-    #[Info(id: 1018, name: 'GREEK CAPITAL LETTER SAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3FA, name: 'GREEK CAPITAL LETTER SAN', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_LETTER_SAN = "\u{3FA}";
 
-    #[Info(id: 1019, name: 'GREEK SMALL LETTER SAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3FB, name: 'GREEK SMALL LETTER SAN', category: Cat::Lowercase_Letter)]
     case GREEK_SMALL_LETTER_SAN = "\u{3FB}";
 
-    #[Info(id: 1020, name: 'GREEK RHO WITH STROKE SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x3FC, name: 'GREEK RHO WITH STROKE SYMBOL', category: Cat::Lowercase_Letter)]
     case GREEK_RHO_WITH_STROKE_SYMBOL = "\u{3FC}";
 
-    #[Info(id: 1021, name: 'GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3FD, name: 'GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_REVERSED_LUNATE_SIGMA_SYMBOL = "\u{3FD}";
 
-    #[Info(id: 1022, name: 'GREEK CAPITAL DOTTED LUNATE SIGMA SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3FE, name: 'GREEK CAPITAL DOTTED LUNATE SIGMA SYMBOL', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_DOTTED_LUNATE_SIGMA_SYMBOL = "\u{3FE}";
 
-    #[Info(id: 1023, name: 'GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x3FF, name: 'GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL', category: Cat::Uppercase_Letter)]
     case GREEK_CAPITAL_REVERSED_DOTTED_LUNATE_SIGMA_SYMBOL = "\u{3FF}";
 }

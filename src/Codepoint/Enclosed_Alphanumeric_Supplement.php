@@ -16,603 +16,603 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Enclosed_Alphanumeric_Supplement: string
 {
-    #[Info(id: 127232, name: 'DIGIT ZERO FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x1F100, name: 'DIGIT ZERO FULL STOP', category: Cat::Other_Number)]
     case DIGIT_ZERO_FULL_STOP = "\u{1F100}";
 
-    #[Info(id: 127233, name: 'DIGIT ZERO COMMA', category: Cat::Other_Number)]
+    #[Info(id: 0x1F101, name: 'DIGIT ZERO COMMA', category: Cat::Other_Number)]
     case DIGIT_ZERO_COMMA = "\u{1F101}";
 
-    #[Info(id: 127234, name: 'DIGIT ONE COMMA', category: Cat::Other_Number)]
+    #[Info(id: 0x1F102, name: 'DIGIT ONE COMMA', category: Cat::Other_Number)]
     case DIGIT_ONE_COMMA = "\u{1F102}";
 
-    #[Info(id: 127235, name: 'DIGIT TWO COMMA', category: Cat::Other_Number)]
+    #[Info(id: 0x1F103, name: 'DIGIT TWO COMMA', category: Cat::Other_Number)]
     case DIGIT_TWO_COMMA = "\u{1F103}";
 
-    #[Info(id: 127236, name: 'DIGIT THREE COMMA', category: Cat::Other_Number)]
+    #[Info(id: 0x1F104, name: 'DIGIT THREE COMMA', category: Cat::Other_Number)]
     case DIGIT_THREE_COMMA = "\u{1F104}";
 
-    #[Info(id: 127237, name: 'DIGIT FOUR COMMA', category: Cat::Other_Number)]
+    #[Info(id: 0x1F105, name: 'DIGIT FOUR COMMA', category: Cat::Other_Number)]
     case DIGIT_FOUR_COMMA = "\u{1F105}";
 
-    #[Info(id: 127238, name: 'DIGIT FIVE COMMA', category: Cat::Other_Number)]
+    #[Info(id: 0x1F106, name: 'DIGIT FIVE COMMA', category: Cat::Other_Number)]
     case DIGIT_FIVE_COMMA = "\u{1F106}";
 
-    #[Info(id: 127239, name: 'DIGIT SIX COMMA', category: Cat::Other_Number)]
+    #[Info(id: 0x1F107, name: 'DIGIT SIX COMMA', category: Cat::Other_Number)]
     case DIGIT_SIX_COMMA = "\u{1F107}";
 
-    #[Info(id: 127240, name: 'DIGIT SEVEN COMMA', category: Cat::Other_Number)]
+    #[Info(id: 0x1F108, name: 'DIGIT SEVEN COMMA', category: Cat::Other_Number)]
     case DIGIT_SEVEN_COMMA = "\u{1F108}";
 
-    #[Info(id: 127241, name: 'DIGIT EIGHT COMMA', category: Cat::Other_Number)]
+    #[Info(id: 0x1F109, name: 'DIGIT EIGHT COMMA', category: Cat::Other_Number)]
     case DIGIT_EIGHT_COMMA = "\u{1F109}";
 
-    #[Info(id: 127242, name: 'DIGIT NINE COMMA', category: Cat::Other_Number)]
+    #[Info(id: 0x1F10A, name: 'DIGIT NINE COMMA', category: Cat::Other_Number)]
     case DIGIT_NINE_COMMA = "\u{1F10A}";
 
-    #[Info(id: 127243, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT ZERO', category: Cat::Other_Number)]
+    #[Info(id: 0x1F10B, name: 'DINGBAT CIRCLED SANS-SERIF DIGIT ZERO', category: Cat::Other_Number)]
     case DINGBAT_CIRCLED_SANS_SERIF_DIGIT_ZERO = "\u{1F10B}";
 
-    #[Info(id: 127244, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ZERO', category: Cat::Other_Number)]
+    #[Info(id: 0x1F10C, name: 'DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ZERO', category: Cat::Other_Number)]
     case DINGBAT_NEGATIVE_CIRCLED_SANS_SERIF_DIGIT_ZERO = "\u{1F10C}";
 
-    #[Info(id: 127245, name: 'CIRCLED ZERO WITH SLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F10D, name: 'CIRCLED ZERO WITH SLASH', category: Cat::Other_Symbol)]
     case CIRCLED_ZERO_WITH_SLASH = "\u{1F10D}";
 
-    #[Info(id: 127246, name: 'CIRCLED ANTICLOCKWISE ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F10E, name: 'CIRCLED ANTICLOCKWISE ARROW', category: Cat::Other_Symbol)]
     case CIRCLED_ANTICLOCKWISE_ARROW = "\u{1F10E}";
 
-    #[Info(id: 127247, name: 'CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F10F, name: 'CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH', category: Cat::Other_Symbol)]
     case CIRCLED_DOLLAR_SIGN_WITH_OVERLAID_BACKSLASH = "\u{1F10F}";
 
-    #[Info(id: 127248, name: 'PARENTHESIZED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F110, name: 'PARENTHESIZED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_A = "\u{1F110}";
 
-    #[Info(id: 127249, name: 'PARENTHESIZED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F111, name: 'PARENTHESIZED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_B = "\u{1F111}";
 
-    #[Info(id: 127250, name: 'PARENTHESIZED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F112, name: 'PARENTHESIZED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_C = "\u{1F112}";
 
-    #[Info(id: 127251, name: 'PARENTHESIZED LATIN CAPITAL LETTER D', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F113, name: 'PARENTHESIZED LATIN CAPITAL LETTER D', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_D = "\u{1F113}";
 
-    #[Info(id: 127252, name: 'PARENTHESIZED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F114, name: 'PARENTHESIZED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_E = "\u{1F114}";
 
-    #[Info(id: 127253, name: 'PARENTHESIZED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F115, name: 'PARENTHESIZED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_F = "\u{1F115}";
 
-    #[Info(id: 127254, name: 'PARENTHESIZED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F116, name: 'PARENTHESIZED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_G = "\u{1F116}";
 
-    #[Info(id: 127255, name: 'PARENTHESIZED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F117, name: 'PARENTHESIZED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_H = "\u{1F117}";
 
-    #[Info(id: 127256, name: 'PARENTHESIZED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F118, name: 'PARENTHESIZED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_I = "\u{1F118}";
 
-    #[Info(id: 127257, name: 'PARENTHESIZED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F119, name: 'PARENTHESIZED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_J = "\u{1F119}";
 
-    #[Info(id: 127258, name: 'PARENTHESIZED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F11A, name: 'PARENTHESIZED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_K = "\u{1F11A}";
 
-    #[Info(id: 127259, name: 'PARENTHESIZED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F11B, name: 'PARENTHESIZED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_L = "\u{1F11B}";
 
-    #[Info(id: 127260, name: 'PARENTHESIZED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F11C, name: 'PARENTHESIZED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_M = "\u{1F11C}";
 
-    #[Info(id: 127261, name: 'PARENTHESIZED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F11D, name: 'PARENTHESIZED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_N = "\u{1F11D}";
 
-    #[Info(id: 127262, name: 'PARENTHESIZED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F11E, name: 'PARENTHESIZED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_O = "\u{1F11E}";
 
-    #[Info(id: 127263, name: 'PARENTHESIZED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F11F, name: 'PARENTHESIZED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_P = "\u{1F11F}";
 
-    #[Info(id: 127264, name: 'PARENTHESIZED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F120, name: 'PARENTHESIZED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_Q = "\u{1F120}";
 
-    #[Info(id: 127265, name: 'PARENTHESIZED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F121, name: 'PARENTHESIZED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_R = "\u{1F121}";
 
-    #[Info(id: 127266, name: 'PARENTHESIZED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F122, name: 'PARENTHESIZED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_S = "\u{1F122}";
 
-    #[Info(id: 127267, name: 'PARENTHESIZED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F123, name: 'PARENTHESIZED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_T = "\u{1F123}";
 
-    #[Info(id: 127268, name: 'PARENTHESIZED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F124, name: 'PARENTHESIZED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_U = "\u{1F124}";
 
-    #[Info(id: 127269, name: 'PARENTHESIZED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F125, name: 'PARENTHESIZED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_V = "\u{1F125}";
 
-    #[Info(id: 127270, name: 'PARENTHESIZED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F126, name: 'PARENTHESIZED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_W = "\u{1F126}";
 
-    #[Info(id: 127271, name: 'PARENTHESIZED LATIN CAPITAL LETTER X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F127, name: 'PARENTHESIZED LATIN CAPITAL LETTER X', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_X = "\u{1F127}";
 
-    #[Info(id: 127272, name: 'PARENTHESIZED LATIN CAPITAL LETTER Y', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F128, name: 'PARENTHESIZED LATIN CAPITAL LETTER Y', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_Y = "\u{1F128}";
 
-    #[Info(id: 127273, name: 'PARENTHESIZED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F129, name: 'PARENTHESIZED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_CAPITAL_LETTER_Z = "\u{1F129}";
 
-    #[Info(id: 127274, name: 'TORTOISE SHELL BRACKETED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F12A, name: 'TORTOISE SHELL BRACKETED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
     case TORTOISE_SHELL_BRACKETED_LATIN_CAPITAL_LETTER_S = "\u{1F12A}";
 
-    #[Info(id: 127275, name: 'CIRCLED ITALIC LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F12B, name: 'CIRCLED ITALIC LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
     case CIRCLED_ITALIC_LATIN_CAPITAL_LETTER_C = "\u{1F12B}";
 
-    #[Info(id: 127276, name: 'CIRCLED ITALIC LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F12C, name: 'CIRCLED ITALIC LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
     case CIRCLED_ITALIC_LATIN_CAPITAL_LETTER_R = "\u{1F12C}";
 
-    #[Info(id: 127277, name: 'CIRCLED CD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F12D, name: 'CIRCLED CD', category: Cat::Other_Symbol)]
     case CIRCLED_CD = "\u{1F12D}";
 
-    #[Info(id: 127278, name: 'CIRCLED WZ', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F12E, name: 'CIRCLED WZ', category: Cat::Other_Symbol)]
     case CIRCLED_WZ = "\u{1F12E}";
 
-    #[Info(id: 127279, name: 'COPYLEFT SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F12F, name: 'COPYLEFT SYMBOL', category: Cat::Other_Symbol)]
     case COPYLEFT_SYMBOL = "\u{1F12F}";
 
-    #[Info(id: 127280, name: 'SQUARED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F130, name: 'SQUARED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_A = "\u{1F130}";
 
-    #[Info(id: 127281, name: 'SQUARED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F131, name: 'SQUARED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_B = "\u{1F131}";
 
-    #[Info(id: 127282, name: 'SQUARED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F132, name: 'SQUARED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_C = "\u{1F132}";
 
-    #[Info(id: 127283, name: 'SQUARED LATIN CAPITAL LETTER D', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F133, name: 'SQUARED LATIN CAPITAL LETTER D', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_D = "\u{1F133}";
 
-    #[Info(id: 127284, name: 'SQUARED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F134, name: 'SQUARED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_E = "\u{1F134}";
 
-    #[Info(id: 127285, name: 'SQUARED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F135, name: 'SQUARED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_F = "\u{1F135}";
 
-    #[Info(id: 127286, name: 'SQUARED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F136, name: 'SQUARED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_G = "\u{1F136}";
 
-    #[Info(id: 127287, name: 'SQUARED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F137, name: 'SQUARED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_H = "\u{1F137}";
 
-    #[Info(id: 127288, name: 'SQUARED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F138, name: 'SQUARED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_I = "\u{1F138}";
 
-    #[Info(id: 127289, name: 'SQUARED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F139, name: 'SQUARED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_J = "\u{1F139}";
 
-    #[Info(id: 127290, name: 'SQUARED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F13A, name: 'SQUARED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_K = "\u{1F13A}";
 
-    #[Info(id: 127291, name: 'SQUARED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F13B, name: 'SQUARED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_L = "\u{1F13B}";
 
-    #[Info(id: 127292, name: 'SQUARED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F13C, name: 'SQUARED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_M = "\u{1F13C}";
 
-    #[Info(id: 127293, name: 'SQUARED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F13D, name: 'SQUARED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_N = "\u{1F13D}";
 
-    #[Info(id: 127294, name: 'SQUARED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F13E, name: 'SQUARED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_O = "\u{1F13E}";
 
-    #[Info(id: 127295, name: 'SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F13F, name: 'SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_P = "\u{1F13F}";
 
-    #[Info(id: 127296, name: 'SQUARED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F140, name: 'SQUARED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_Q = "\u{1F140}";
 
-    #[Info(id: 127297, name: 'SQUARED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F141, name: 'SQUARED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_R = "\u{1F141}";
 
-    #[Info(id: 127298, name: 'SQUARED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F142, name: 'SQUARED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_S = "\u{1F142}";
 
-    #[Info(id: 127299, name: 'SQUARED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F143, name: 'SQUARED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_T = "\u{1F143}";
 
-    #[Info(id: 127300, name: 'SQUARED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F144, name: 'SQUARED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_U = "\u{1F144}";
 
-    #[Info(id: 127301, name: 'SQUARED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F145, name: 'SQUARED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_V = "\u{1F145}";
 
-    #[Info(id: 127302, name: 'SQUARED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F146, name: 'SQUARED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_W = "\u{1F146}";
 
-    #[Info(id: 127303, name: 'SQUARED LATIN CAPITAL LETTER X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F147, name: 'SQUARED LATIN CAPITAL LETTER X', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_X = "\u{1F147}";
 
-    #[Info(id: 127304, name: 'SQUARED LATIN CAPITAL LETTER Y', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F148, name: 'SQUARED LATIN CAPITAL LETTER Y', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_Y = "\u{1F148}";
 
-    #[Info(id: 127305, name: 'SQUARED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F149, name: 'SQUARED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_CAPITAL_LETTER_Z = "\u{1F149}";
 
-    #[Info(id: 127306, name: 'SQUARED HV', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14A, name: 'SQUARED HV', category: Cat::Other_Symbol)]
     case SQUARED_HV = "\u{1F14A}";
 
-    #[Info(id: 127307, name: 'SQUARED MV', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14B, name: 'SQUARED MV', category: Cat::Other_Symbol)]
     case SQUARED_MV = "\u{1F14B}";
 
-    #[Info(id: 127308, name: 'SQUARED SD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14C, name: 'SQUARED SD', category: Cat::Other_Symbol)]
     case SQUARED_SD = "\u{1F14C}";
 
-    #[Info(id: 127309, name: 'SQUARED SS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14D, name: 'SQUARED SS', category: Cat::Other_Symbol)]
     case SQUARED_SS = "\u{1F14D}";
 
-    #[Info(id: 127310, name: 'SQUARED PPV', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14E, name: 'SQUARED PPV', category: Cat::Other_Symbol)]
     case SQUARED_PPV = "\u{1F14E}";
 
-    #[Info(id: 127311, name: 'SQUARED WC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F14F, name: 'SQUARED WC', category: Cat::Other_Symbol)]
     case SQUARED_WC = "\u{1F14F}";
 
-    #[Info(id: 127312, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F150, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_A = "\u{1F150}";
 
-    #[Info(id: 127313, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F151, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_B = "\u{1F151}";
 
-    #[Info(id: 127314, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F152, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_C = "\u{1F152}";
 
-    #[Info(id: 127315, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER D', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F153, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER D', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_D = "\u{1F153}";
 
-    #[Info(id: 127316, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F154, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_E = "\u{1F154}";
 
-    #[Info(id: 127317, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F155, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_F = "\u{1F155}";
 
-    #[Info(id: 127318, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F156, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_G = "\u{1F156}";
 
-    #[Info(id: 127319, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F157, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_H = "\u{1F157}";
 
-    #[Info(id: 127320, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F158, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_I = "\u{1F158}";
 
-    #[Info(id: 127321, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F159, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_J = "\u{1F159}";
 
-    #[Info(id: 127322, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F15A, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_K = "\u{1F15A}";
 
-    #[Info(id: 127323, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F15B, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_L = "\u{1F15B}";
 
-    #[Info(id: 127324, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F15C, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_M = "\u{1F15C}";
 
-    #[Info(id: 127325, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F15D, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_N = "\u{1F15D}";
 
-    #[Info(id: 127326, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F15E, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_O = "\u{1F15E}";
 
-    #[Info(id: 127327, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F15F, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_P = "\u{1F15F}";
 
-    #[Info(id: 127328, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F160, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_Q = "\u{1F160}";
 
-    #[Info(id: 127329, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F161, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_R = "\u{1F161}";
 
-    #[Info(id: 127330, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F162, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_S = "\u{1F162}";
 
-    #[Info(id: 127331, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F163, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_T = "\u{1F163}";
 
-    #[Info(id: 127332, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F164, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_U = "\u{1F164}";
 
-    #[Info(id: 127333, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F165, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_V = "\u{1F165}";
 
-    #[Info(id: 127334, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F166, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_W = "\u{1F166}";
 
-    #[Info(id: 127335, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F167, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER X', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_X = "\u{1F167}";
 
-    #[Info(id: 127336, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER Y', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F168, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER Y', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_Y = "\u{1F168}";
 
-    #[Info(id: 127337, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F169, name: 'NEGATIVE CIRCLED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_LATIN_CAPITAL_LETTER_Z = "\u{1F169}";
 
-    #[Info(id: 127338, name: 'RAISED MC SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16A, name: 'RAISED MC SIGN', category: Cat::Other_Symbol)]
     case RAISED_MC_SIGN = "\u{1F16A}";
 
-    #[Info(id: 127339, name: 'RAISED MD SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16B, name: 'RAISED MD SIGN', category: Cat::Other_Symbol)]
     case RAISED_MD_SIGN = "\u{1F16B}";
 
-    #[Info(id: 127340, name: 'RAISED MR SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16C, name: 'RAISED MR SIGN', category: Cat::Other_Symbol)]
     case RAISED_MR_SIGN = "\u{1F16C}";
 
-    #[Info(id: 127341, name: 'CIRCLED CC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16D, name: 'CIRCLED CC', category: Cat::Other_Symbol)]
     case CIRCLED_CC = "\u{1F16D}";
 
-    #[Info(id: 127342, name: 'CIRCLED C WITH OVERLAID BACKSLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16E, name: 'CIRCLED C WITH OVERLAID BACKSLASH', category: Cat::Other_Symbol)]
     case CIRCLED_C_WITH_OVERLAID_BACKSLASH = "\u{1F16E}";
 
-    #[Info(id: 127343, name: 'CIRCLED HUMAN FIGURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F16F, name: 'CIRCLED HUMAN FIGURE', category: Cat::Other_Symbol)]
     case CIRCLED_HUMAN_FIGURE = "\u{1F16F}";
 
-    #[Info(id: 127344, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F170, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_A = "\u{1F170}";
 
-    #[Info(id: 127345, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F171, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_B = "\u{1F171}";
 
-    #[Info(id: 127346, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F172, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_C = "\u{1F172}";
 
-    #[Info(id: 127347, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER D', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F173, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER D', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_D = "\u{1F173}";
 
-    #[Info(id: 127348, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F174, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_E = "\u{1F174}";
 
-    #[Info(id: 127349, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F175, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_F = "\u{1F175}";
 
-    #[Info(id: 127350, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F176, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_G = "\u{1F176}";
 
-    #[Info(id: 127351, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F177, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_H = "\u{1F177}";
 
-    #[Info(id: 127352, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F178, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_I = "\u{1F178}";
 
-    #[Info(id: 127353, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F179, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_J = "\u{1F179}";
 
-    #[Info(id: 127354, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F17A, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_K = "\u{1F17A}";
 
-    #[Info(id: 127355, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F17B, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_L = "\u{1F17B}";
 
-    #[Info(id: 127356, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F17C, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_M = "\u{1F17C}";
 
-    #[Info(id: 127357, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F17D, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_N = "\u{1F17D}";
 
-    #[Info(id: 127358, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F17E, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_O = "\u{1F17E}";
 
-    #[Info(id: 127359, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F17F, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_P = "\u{1F17F}";
 
-    #[Info(id: 127360, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F180, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_Q = "\u{1F180}";
 
-    #[Info(id: 127361, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F181, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_R = "\u{1F181}";
 
-    #[Info(id: 127362, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F182, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_S = "\u{1F182}";
 
-    #[Info(id: 127363, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F183, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_T = "\u{1F183}";
 
-    #[Info(id: 127364, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F184, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_U = "\u{1F184}";
 
-    #[Info(id: 127365, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F185, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_V = "\u{1F185}";
 
-    #[Info(id: 127366, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F186, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_W = "\u{1F186}";
 
-    #[Info(id: 127367, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F187, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER X', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_X = "\u{1F187}";
 
-    #[Info(id: 127368, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER Y', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F188, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER Y', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_Y = "\u{1F188}";
 
-    #[Info(id: 127369, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F189, name: 'NEGATIVE SQUARED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_Z = "\u{1F189}";
 
-    #[Info(id: 127370, name: 'CROSSED NEGATIVE SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18A, name: 'CROSSED NEGATIVE SQUARED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
     case CROSSED_NEGATIVE_SQUARED_LATIN_CAPITAL_LETTER_P = "\u{1F18A}";
 
-    #[Info(id: 127371, name: 'NEGATIVE SQUARED IC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18B, name: 'NEGATIVE SQUARED IC', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_IC = "\u{1F18B}";
 
-    #[Info(id: 127372, name: 'NEGATIVE SQUARED PA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18C, name: 'NEGATIVE SQUARED PA', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_PA = "\u{1F18C}";
 
-    #[Info(id: 127373, name: 'NEGATIVE SQUARED SA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18D, name: 'NEGATIVE SQUARED SA', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_SA = "\u{1F18D}";
 
-    #[Info(id: 127374, name: 'NEGATIVE SQUARED AB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18E, name: 'NEGATIVE SQUARED AB', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_AB = "\u{1F18E}";
 
-    #[Info(id: 127375, name: 'NEGATIVE SQUARED WC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F18F, name: 'NEGATIVE SQUARED WC', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_WC = "\u{1F18F}";
 
-    #[Info(id: 127376, name: 'SQUARE DJ', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F190, name: 'SQUARE DJ', category: Cat::Other_Symbol)]
     case SQUARE_DJ = "\u{1F190}";
 
-    #[Info(id: 127377, name: 'SQUARED CL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F191, name: 'SQUARED CL', category: Cat::Other_Symbol)]
     case SQUARED_CL = "\u{1F191}";
 
-    #[Info(id: 127378, name: 'SQUARED COOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F192, name: 'SQUARED COOL', category: Cat::Other_Symbol)]
     case SQUARED_COOL = "\u{1F192}";
 
-    #[Info(id: 127379, name: 'SQUARED FREE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F193, name: 'SQUARED FREE', category: Cat::Other_Symbol)]
     case SQUARED_FREE = "\u{1F193}";
 
-    #[Info(id: 127380, name: 'SQUARED ID', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F194, name: 'SQUARED ID', category: Cat::Other_Symbol)]
     case SQUARED_ID = "\u{1F194}";
 
-    #[Info(id: 127381, name: 'SQUARED NEW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F195, name: 'SQUARED NEW', category: Cat::Other_Symbol)]
     case SQUARED_NEW = "\u{1F195}";
 
-    #[Info(id: 127382, name: 'SQUARED NG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F196, name: 'SQUARED NG', category: Cat::Other_Symbol)]
     case SQUARED_NG = "\u{1F196}";
 
-    #[Info(id: 127383, name: 'SQUARED OK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F197, name: 'SQUARED OK', category: Cat::Other_Symbol)]
     case SQUARED_OK = "\u{1F197}";
 
-    #[Info(id: 127384, name: 'SQUARED SOS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F198, name: 'SQUARED SOS', category: Cat::Other_Symbol)]
     case SQUARED_SOS = "\u{1F198}";
 
-    #[Info(id: 127385, name: 'SQUARED UP WITH EXCLAMATION MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F199, name: 'SQUARED UP WITH EXCLAMATION MARK', category: Cat::Other_Symbol)]
     case SQUARED_UP_WITH_EXCLAMATION_MARK = "\u{1F199}";
 
-    #[Info(id: 127386, name: 'SQUARED VS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F19A, name: 'SQUARED VS', category: Cat::Other_Symbol)]
     case SQUARED_VS = "\u{1F19A}";
 
-    #[Info(id: 127387, name: 'SQUARED THREE D', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F19B, name: 'SQUARED THREE D', category: Cat::Other_Symbol)]
     case SQUARED_THREE_D = "\u{1F19B}";
 
-    #[Info(id: 127388, name: 'SQUARED SECOND SCREEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F19C, name: 'SQUARED SECOND SCREEN', category: Cat::Other_Symbol)]
     case SQUARED_SECOND_SCREEN = "\u{1F19C}";
 
-    #[Info(id: 127389, name: 'SQUARED TWO K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F19D, name: 'SQUARED TWO K', category: Cat::Other_Symbol)]
     case SQUARED_TWO_K = "\u{1F19D}";
 
-    #[Info(id: 127390, name: 'SQUARED FOUR K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F19E, name: 'SQUARED FOUR K', category: Cat::Other_Symbol)]
     case SQUARED_FOUR_K = "\u{1F19E}";
 
-    #[Info(id: 127391, name: 'SQUARED EIGHT K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F19F, name: 'SQUARED EIGHT K', category: Cat::Other_Symbol)]
     case SQUARED_EIGHT_K = "\u{1F19F}";
 
-    #[Info(id: 127392, name: 'SQUARED FIVE POINT ONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A0, name: 'SQUARED FIVE POINT ONE', category: Cat::Other_Symbol)]
     case SQUARED_FIVE_POINT_ONE = "\u{1F1A0}";
 
-    #[Info(id: 127393, name: 'SQUARED SEVEN POINT ONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A1, name: 'SQUARED SEVEN POINT ONE', category: Cat::Other_Symbol)]
     case SQUARED_SEVEN_POINT_ONE = "\u{1F1A1}";
 
-    #[Info(id: 127394, name: 'SQUARED TWENTY-TWO POINT TWO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A2, name: 'SQUARED TWENTY-TWO POINT TWO', category: Cat::Other_Symbol)]
     case SQUARED_TWENTY_TWO_POINT_TWO = "\u{1F1A2}";
 
-    #[Info(id: 127395, name: 'SQUARED SIXTY P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A3, name: 'SQUARED SIXTY P', category: Cat::Other_Symbol)]
     case SQUARED_SIXTY_P = "\u{1F1A3}";
 
-    #[Info(id: 127396, name: 'SQUARED ONE HUNDRED TWENTY P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A4, name: 'SQUARED ONE HUNDRED TWENTY P', category: Cat::Other_Symbol)]
     case SQUARED_ONE_HUNDRED_TWENTY_P = "\u{1F1A4}";
 
-    #[Info(id: 127397, name: 'SQUARED LATIN SMALL LETTER D', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A5, name: 'SQUARED LATIN SMALL LETTER D', category: Cat::Other_Symbol)]
     case SQUARED_LATIN_SMALL_LETTER_D = "\u{1F1A5}";
 
-    #[Info(id: 127398, name: 'SQUARED HC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A6, name: 'SQUARED HC', category: Cat::Other_Symbol)]
     case SQUARED_HC = "\u{1F1A6}";
 
-    #[Info(id: 127399, name: 'SQUARED HDR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A7, name: 'SQUARED HDR', category: Cat::Other_Symbol)]
     case SQUARED_HDR = "\u{1F1A7}";
 
-    #[Info(id: 127400, name: 'SQUARED HI-RES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A8, name: 'SQUARED HI-RES', category: Cat::Other_Symbol)]
     case SQUARED_HI_RES = "\u{1F1A8}";
 
-    #[Info(id: 127401, name: 'SQUARED LOSSLESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1A9, name: 'SQUARED LOSSLESS', category: Cat::Other_Symbol)]
     case SQUARED_LOSSLESS = "\u{1F1A9}";
 
-    #[Info(id: 127402, name: 'SQUARED SHV', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1AA, name: 'SQUARED SHV', category: Cat::Other_Symbol)]
     case SQUARED_SHV = "\u{1F1AA}";
 
-    #[Info(id: 127403, name: 'SQUARED UHD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1AB, name: 'SQUARED UHD', category: Cat::Other_Symbol)]
     case SQUARED_UHD = "\u{1F1AB}";
 
-    #[Info(id: 127404, name: 'SQUARED VOD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1AC, name: 'SQUARED VOD', category: Cat::Other_Symbol)]
     case SQUARED_VOD = "\u{1F1AC}";
 
-    #[Info(id: 127405, name: 'MASK WORK SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1AD, name: 'MASK WORK SYMBOL', category: Cat::Other_Symbol)]
     case MASK_WORK_SYMBOL = "\u{1F1AD}";
 
-    #[Info(id: 127462, name: 'REGIONAL INDICATOR SYMBOL LETTER A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1E6, name: 'REGIONAL INDICATOR SYMBOL LETTER A', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_A = "\u{1F1E6}";
 
-    #[Info(id: 127463, name: 'REGIONAL INDICATOR SYMBOL LETTER B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1E7, name: 'REGIONAL INDICATOR SYMBOL LETTER B', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_B = "\u{1F1E7}";
 
-    #[Info(id: 127464, name: 'REGIONAL INDICATOR SYMBOL LETTER C', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1E8, name: 'REGIONAL INDICATOR SYMBOL LETTER C', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_C = "\u{1F1E8}";
 
-    #[Info(id: 127465, name: 'REGIONAL INDICATOR SYMBOL LETTER D', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1E9, name: 'REGIONAL INDICATOR SYMBOL LETTER D', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_D = "\u{1F1E9}";
 
-    #[Info(id: 127466, name: 'REGIONAL INDICATOR SYMBOL LETTER E', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1EA, name: 'REGIONAL INDICATOR SYMBOL LETTER E', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_E = "\u{1F1EA}";
 
-    #[Info(id: 127467, name: 'REGIONAL INDICATOR SYMBOL LETTER F', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1EB, name: 'REGIONAL INDICATOR SYMBOL LETTER F', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_F = "\u{1F1EB}";
 
-    #[Info(id: 127468, name: 'REGIONAL INDICATOR SYMBOL LETTER G', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1EC, name: 'REGIONAL INDICATOR SYMBOL LETTER G', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_G = "\u{1F1EC}";
 
-    #[Info(id: 127469, name: 'REGIONAL INDICATOR SYMBOL LETTER H', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1ED, name: 'REGIONAL INDICATOR SYMBOL LETTER H', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_H = "\u{1F1ED}";
 
-    #[Info(id: 127470, name: 'REGIONAL INDICATOR SYMBOL LETTER I', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1EE, name: 'REGIONAL INDICATOR SYMBOL LETTER I', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_I = "\u{1F1EE}";
 
-    #[Info(id: 127471, name: 'REGIONAL INDICATOR SYMBOL LETTER J', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1EF, name: 'REGIONAL INDICATOR SYMBOL LETTER J', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_J = "\u{1F1EF}";
 
-    #[Info(id: 127472, name: 'REGIONAL INDICATOR SYMBOL LETTER K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1F0, name: 'REGIONAL INDICATOR SYMBOL LETTER K', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_K = "\u{1F1F0}";
 
-    #[Info(id: 127473, name: 'REGIONAL INDICATOR SYMBOL LETTER L', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1F1, name: 'REGIONAL INDICATOR SYMBOL LETTER L', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_L = "\u{1F1F1}";
 
-    #[Info(id: 127474, name: 'REGIONAL INDICATOR SYMBOL LETTER M', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1F2, name: 'REGIONAL INDICATOR SYMBOL LETTER M', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_M = "\u{1F1F2}";
 
-    #[Info(id: 127475, name: 'REGIONAL INDICATOR SYMBOL LETTER N', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1F3, name: 'REGIONAL INDICATOR SYMBOL LETTER N', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_N = "\u{1F1F3}";
 
-    #[Info(id: 127476, name: 'REGIONAL INDICATOR SYMBOL LETTER O', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1F4, name: 'REGIONAL INDICATOR SYMBOL LETTER O', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_O = "\u{1F1F4}";
 
-    #[Info(id: 127477, name: 'REGIONAL INDICATOR SYMBOL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1F5, name: 'REGIONAL INDICATOR SYMBOL LETTER P', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_P = "\u{1F1F5}";
 
-    #[Info(id: 127478, name: 'REGIONAL INDICATOR SYMBOL LETTER Q', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1F6, name: 'REGIONAL INDICATOR SYMBOL LETTER Q', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_Q = "\u{1F1F6}";
 
-    #[Info(id: 127479, name: 'REGIONAL INDICATOR SYMBOL LETTER R', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1F7, name: 'REGIONAL INDICATOR SYMBOL LETTER R', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_R = "\u{1F1F7}";
 
-    #[Info(id: 127480, name: 'REGIONAL INDICATOR SYMBOL LETTER S', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1F8, name: 'REGIONAL INDICATOR SYMBOL LETTER S', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_S = "\u{1F1F8}";
 
-    #[Info(id: 127481, name: 'REGIONAL INDICATOR SYMBOL LETTER T', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1F9, name: 'REGIONAL INDICATOR SYMBOL LETTER T', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_T = "\u{1F1F9}";
 
-    #[Info(id: 127482, name: 'REGIONAL INDICATOR SYMBOL LETTER U', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1FA, name: 'REGIONAL INDICATOR SYMBOL LETTER U', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_U = "\u{1F1FA}";
 
-    #[Info(id: 127483, name: 'REGIONAL INDICATOR SYMBOL LETTER V', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1FB, name: 'REGIONAL INDICATOR SYMBOL LETTER V', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_V = "\u{1F1FB}";
 
-    #[Info(id: 127484, name: 'REGIONAL INDICATOR SYMBOL LETTER W', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1FC, name: 'REGIONAL INDICATOR SYMBOL LETTER W', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_W = "\u{1F1FC}";
 
-    #[Info(id: 127485, name: 'REGIONAL INDICATOR SYMBOL LETTER X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1FD, name: 'REGIONAL INDICATOR SYMBOL LETTER X', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_X = "\u{1F1FD}";
 
-    #[Info(id: 127486, name: 'REGIONAL INDICATOR SYMBOL LETTER Y', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1FE, name: 'REGIONAL INDICATOR SYMBOL LETTER Y', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_Y = "\u{1F1FE}";
 
-    #[Info(id: 127487, name: 'REGIONAL INDICATOR SYMBOL LETTER Z', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F1FF, name: 'REGIONAL INDICATOR SYMBOL LETTER Z', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_Z = "\u{1F1FF}";
 }

@@ -16,255 +16,255 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Warang_Citi: string
 {
-    #[Info(id: 71840, name: 'WARANG CITI CAPITAL LETTER NGAA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118A0, name: 'WARANG CITI CAPITAL LETTER NGAA', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_NGAA = "\u{118A0}";
 
-    #[Info(id: 71841, name: 'WARANG CITI CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118A1, name: 'WARANG CITI CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_A = "\u{118A1}";
 
-    #[Info(id: 71842, name: 'WARANG CITI CAPITAL LETTER WI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118A2, name: 'WARANG CITI CAPITAL LETTER WI', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_WI = "\u{118A2}";
 
-    #[Info(id: 71843, name: 'WARANG CITI CAPITAL LETTER YU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118A3, name: 'WARANG CITI CAPITAL LETTER YU', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_YU = "\u{118A3}";
 
-    #[Info(id: 71844, name: 'WARANG CITI CAPITAL LETTER YA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118A4, name: 'WARANG CITI CAPITAL LETTER YA', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_YA = "\u{118A4}";
 
-    #[Info(id: 71845, name: 'WARANG CITI CAPITAL LETTER YO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118A5, name: 'WARANG CITI CAPITAL LETTER YO', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_YO = "\u{118A5}";
 
-    #[Info(id: 71846, name: 'WARANG CITI CAPITAL LETTER II', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118A6, name: 'WARANG CITI CAPITAL LETTER II', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_II = "\u{118A6}";
 
-    #[Info(id: 71847, name: 'WARANG CITI CAPITAL LETTER UU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118A7, name: 'WARANG CITI CAPITAL LETTER UU', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_UU = "\u{118A7}";
 
-    #[Info(id: 71848, name: 'WARANG CITI CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118A8, name: 'WARANG CITI CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_E = "\u{118A8}";
 
-    #[Info(id: 71849, name: 'WARANG CITI CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118A9, name: 'WARANG CITI CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_O = "\u{118A9}";
 
-    #[Info(id: 71850, name: 'WARANG CITI CAPITAL LETTER ANG', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118AA, name: 'WARANG CITI CAPITAL LETTER ANG', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_ANG = "\u{118AA}";
 
-    #[Info(id: 71851, name: 'WARANG CITI CAPITAL LETTER GA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118AB, name: 'WARANG CITI CAPITAL LETTER GA', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_GA = "\u{118AB}";
 
-    #[Info(id: 71852, name: 'WARANG CITI CAPITAL LETTER KO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118AC, name: 'WARANG CITI CAPITAL LETTER KO', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_KO = "\u{118AC}";
 
-    #[Info(id: 71853, name: 'WARANG CITI CAPITAL LETTER ENY', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118AD, name: 'WARANG CITI CAPITAL LETTER ENY', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_ENY = "\u{118AD}";
 
-    #[Info(id: 71854, name: 'WARANG CITI CAPITAL LETTER YUJ', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118AE, name: 'WARANG CITI CAPITAL LETTER YUJ', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_YUJ = "\u{118AE}";
 
-    #[Info(id: 71855, name: 'WARANG CITI CAPITAL LETTER UC', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118AF, name: 'WARANG CITI CAPITAL LETTER UC', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_UC = "\u{118AF}";
 
-    #[Info(id: 71856, name: 'WARANG CITI CAPITAL LETTER ENN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118B0, name: 'WARANG CITI CAPITAL LETTER ENN', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_ENN = "\u{118B0}";
 
-    #[Info(id: 71857, name: 'WARANG CITI CAPITAL LETTER ODD', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118B1, name: 'WARANG CITI CAPITAL LETTER ODD', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_ODD = "\u{118B1}";
 
-    #[Info(id: 71858, name: 'WARANG CITI CAPITAL LETTER TTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118B2, name: 'WARANG CITI CAPITAL LETTER TTE', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_TTE = "\u{118B2}";
 
-    #[Info(id: 71859, name: 'WARANG CITI CAPITAL LETTER NUNG', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118B3, name: 'WARANG CITI CAPITAL LETTER NUNG', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_NUNG = "\u{118B3}";
 
-    #[Info(id: 71860, name: 'WARANG CITI CAPITAL LETTER DA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118B4, name: 'WARANG CITI CAPITAL LETTER DA', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_DA = "\u{118B4}";
 
-    #[Info(id: 71861, name: 'WARANG CITI CAPITAL LETTER AT', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118B5, name: 'WARANG CITI CAPITAL LETTER AT', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_AT = "\u{118B5}";
 
-    #[Info(id: 71862, name: 'WARANG CITI CAPITAL LETTER AM', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118B6, name: 'WARANG CITI CAPITAL LETTER AM', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_AM = "\u{118B6}";
 
-    #[Info(id: 71863, name: 'WARANG CITI CAPITAL LETTER BU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118B7, name: 'WARANG CITI CAPITAL LETTER BU', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_BU = "\u{118B7}";
 
-    #[Info(id: 71864, name: 'WARANG CITI CAPITAL LETTER PU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118B8, name: 'WARANG CITI CAPITAL LETTER PU', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_PU = "\u{118B8}";
 
-    #[Info(id: 71865, name: 'WARANG CITI CAPITAL LETTER HIYO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118B9, name: 'WARANG CITI CAPITAL LETTER HIYO', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_HIYO = "\u{118B9}";
 
-    #[Info(id: 71866, name: 'WARANG CITI CAPITAL LETTER HOLO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118BA, name: 'WARANG CITI CAPITAL LETTER HOLO', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_HOLO = "\u{118BA}";
 
-    #[Info(id: 71867, name: 'WARANG CITI CAPITAL LETTER HORR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118BB, name: 'WARANG CITI CAPITAL LETTER HORR', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_HORR = "\u{118BB}";
 
-    #[Info(id: 71868, name: 'WARANG CITI CAPITAL LETTER HAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118BC, name: 'WARANG CITI CAPITAL LETTER HAR', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_HAR = "\u{118BC}";
 
-    #[Info(id: 71869, name: 'WARANG CITI CAPITAL LETTER SSUU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118BD, name: 'WARANG CITI CAPITAL LETTER SSUU', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_SSUU = "\u{118BD}";
 
-    #[Info(id: 71870, name: 'WARANG CITI CAPITAL LETTER SII', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118BE, name: 'WARANG CITI CAPITAL LETTER SII', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_SII = "\u{118BE}";
 
-    #[Info(id: 71871, name: 'WARANG CITI CAPITAL LETTER VIYO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x118BF, name: 'WARANG CITI CAPITAL LETTER VIYO', category: Cat::Uppercase_Letter)]
     case WARANG_CITI_CAPITAL_LETTER_VIYO = "\u{118BF}";
 
-    #[Info(id: 71872, name: 'WARANG CITI SMALL LETTER NGAA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118C0, name: 'WARANG CITI SMALL LETTER NGAA', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_NGAA = "\u{118C0}";
 
-    #[Info(id: 71873, name: 'WARANG CITI SMALL LETTER A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118C1, name: 'WARANG CITI SMALL LETTER A', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_A = "\u{118C1}";
 
-    #[Info(id: 71874, name: 'WARANG CITI SMALL LETTER WI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118C2, name: 'WARANG CITI SMALL LETTER WI', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_WI = "\u{118C2}";
 
-    #[Info(id: 71875, name: 'WARANG CITI SMALL LETTER YU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118C3, name: 'WARANG CITI SMALL LETTER YU', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_YU = "\u{118C3}";
 
-    #[Info(id: 71876, name: 'WARANG CITI SMALL LETTER YA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118C4, name: 'WARANG CITI SMALL LETTER YA', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_YA = "\u{118C4}";
 
-    #[Info(id: 71877, name: 'WARANG CITI SMALL LETTER YO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118C5, name: 'WARANG CITI SMALL LETTER YO', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_YO = "\u{118C5}";
 
-    #[Info(id: 71878, name: 'WARANG CITI SMALL LETTER II', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118C6, name: 'WARANG CITI SMALL LETTER II', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_II = "\u{118C6}";
 
-    #[Info(id: 71879, name: 'WARANG CITI SMALL LETTER UU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118C7, name: 'WARANG CITI SMALL LETTER UU', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_UU = "\u{118C7}";
 
-    #[Info(id: 71880, name: 'WARANG CITI SMALL LETTER E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118C8, name: 'WARANG CITI SMALL LETTER E', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_E = "\u{118C8}";
 
-    #[Info(id: 71881, name: 'WARANG CITI SMALL LETTER O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118C9, name: 'WARANG CITI SMALL LETTER O', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_O = "\u{118C9}";
 
-    #[Info(id: 71882, name: 'WARANG CITI SMALL LETTER ANG', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118CA, name: 'WARANG CITI SMALL LETTER ANG', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_ANG = "\u{118CA}";
 
-    #[Info(id: 71883, name: 'WARANG CITI SMALL LETTER GA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118CB, name: 'WARANG CITI SMALL LETTER GA', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_GA = "\u{118CB}";
 
-    #[Info(id: 71884, name: 'WARANG CITI SMALL LETTER KO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118CC, name: 'WARANG CITI SMALL LETTER KO', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_KO = "\u{118CC}";
 
-    #[Info(id: 71885, name: 'WARANG CITI SMALL LETTER ENY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118CD, name: 'WARANG CITI SMALL LETTER ENY', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_ENY = "\u{118CD}";
 
-    #[Info(id: 71886, name: 'WARANG CITI SMALL LETTER YUJ', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118CE, name: 'WARANG CITI SMALL LETTER YUJ', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_YUJ = "\u{118CE}";
 
-    #[Info(id: 71887, name: 'WARANG CITI SMALL LETTER UC', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118CF, name: 'WARANG CITI SMALL LETTER UC', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_UC = "\u{118CF}";
 
-    #[Info(id: 71888, name: 'WARANG CITI SMALL LETTER ENN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118D0, name: 'WARANG CITI SMALL LETTER ENN', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_ENN = "\u{118D0}";
 
-    #[Info(id: 71889, name: 'WARANG CITI SMALL LETTER ODD', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118D1, name: 'WARANG CITI SMALL LETTER ODD', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_ODD = "\u{118D1}";
 
-    #[Info(id: 71890, name: 'WARANG CITI SMALL LETTER TTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118D2, name: 'WARANG CITI SMALL LETTER TTE', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_TTE = "\u{118D2}";
 
-    #[Info(id: 71891, name: 'WARANG CITI SMALL LETTER NUNG', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118D3, name: 'WARANG CITI SMALL LETTER NUNG', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_NUNG = "\u{118D3}";
 
-    #[Info(id: 71892, name: 'WARANG CITI SMALL LETTER DA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118D4, name: 'WARANG CITI SMALL LETTER DA', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_DA = "\u{118D4}";
 
-    #[Info(id: 71893, name: 'WARANG CITI SMALL LETTER AT', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118D5, name: 'WARANG CITI SMALL LETTER AT', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_AT = "\u{118D5}";
 
-    #[Info(id: 71894, name: 'WARANG CITI SMALL LETTER AM', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118D6, name: 'WARANG CITI SMALL LETTER AM', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_AM = "\u{118D6}";
 
-    #[Info(id: 71895, name: 'WARANG CITI SMALL LETTER BU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118D7, name: 'WARANG CITI SMALL LETTER BU', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_BU = "\u{118D7}";
 
-    #[Info(id: 71896, name: 'WARANG CITI SMALL LETTER PU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118D8, name: 'WARANG CITI SMALL LETTER PU', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_PU = "\u{118D8}";
 
-    #[Info(id: 71897, name: 'WARANG CITI SMALL LETTER HIYO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118D9, name: 'WARANG CITI SMALL LETTER HIYO', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_HIYO = "\u{118D9}";
 
-    #[Info(id: 71898, name: 'WARANG CITI SMALL LETTER HOLO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118DA, name: 'WARANG CITI SMALL LETTER HOLO', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_HOLO = "\u{118DA}";
 
-    #[Info(id: 71899, name: 'WARANG CITI SMALL LETTER HORR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118DB, name: 'WARANG CITI SMALL LETTER HORR', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_HORR = "\u{118DB}";
 
-    #[Info(id: 71900, name: 'WARANG CITI SMALL LETTER HAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118DC, name: 'WARANG CITI SMALL LETTER HAR', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_HAR = "\u{118DC}";
 
-    #[Info(id: 71901, name: 'WARANG CITI SMALL LETTER SSUU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118DD, name: 'WARANG CITI SMALL LETTER SSUU', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_SSUU = "\u{118DD}";
 
-    #[Info(id: 71902, name: 'WARANG CITI SMALL LETTER SII', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118DE, name: 'WARANG CITI SMALL LETTER SII', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_SII = "\u{118DE}";
 
-    #[Info(id: 71903, name: 'WARANG CITI SMALL LETTER VIYO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x118DF, name: 'WARANG CITI SMALL LETTER VIYO', category: Cat::Lowercase_Letter)]
     case WARANG_CITI_SMALL_LETTER_VIYO = "\u{118DF}";
 
-    #[Info(id: 71904, name: 'WARANG CITI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x118E0, name: 'WARANG CITI DIGIT ZERO', category: Cat::Decimal_Number)]
     case WARANG_CITI_DIGIT_ZERO = "\u{118E0}";
 
-    #[Info(id: 71905, name: 'WARANG CITI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x118E1, name: 'WARANG CITI DIGIT ONE', category: Cat::Decimal_Number)]
     case WARANG_CITI_DIGIT_ONE = "\u{118E1}";
 
-    #[Info(id: 71906, name: 'WARANG CITI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x118E2, name: 'WARANG CITI DIGIT TWO', category: Cat::Decimal_Number)]
     case WARANG_CITI_DIGIT_TWO = "\u{118E2}";
 
-    #[Info(id: 71907, name: 'WARANG CITI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x118E3, name: 'WARANG CITI DIGIT THREE', category: Cat::Decimal_Number)]
     case WARANG_CITI_DIGIT_THREE = "\u{118E3}";
 
-    #[Info(id: 71908, name: 'WARANG CITI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x118E4, name: 'WARANG CITI DIGIT FOUR', category: Cat::Decimal_Number)]
     case WARANG_CITI_DIGIT_FOUR = "\u{118E4}";
 
-    #[Info(id: 71909, name: 'WARANG CITI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x118E5, name: 'WARANG CITI DIGIT FIVE', category: Cat::Decimal_Number)]
     case WARANG_CITI_DIGIT_FIVE = "\u{118E5}";
 
-    #[Info(id: 71910, name: 'WARANG CITI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x118E6, name: 'WARANG CITI DIGIT SIX', category: Cat::Decimal_Number)]
     case WARANG_CITI_DIGIT_SIX = "\u{118E6}";
 
-    #[Info(id: 71911, name: 'WARANG CITI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x118E7, name: 'WARANG CITI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case WARANG_CITI_DIGIT_SEVEN = "\u{118E7}";
 
-    #[Info(id: 71912, name: 'WARANG CITI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x118E8, name: 'WARANG CITI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case WARANG_CITI_DIGIT_EIGHT = "\u{118E8}";
 
-    #[Info(id: 71913, name: 'WARANG CITI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x118E9, name: 'WARANG CITI DIGIT NINE', category: Cat::Decimal_Number)]
     case WARANG_CITI_DIGIT_NINE = "\u{118E9}";
 
-    #[Info(id: 71914, name: 'WARANG CITI NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x118EA, name: 'WARANG CITI NUMBER TEN', category: Cat::Other_Number)]
     case WARANG_CITI_NUMBER_TEN = "\u{118EA}";
 
-    #[Info(id: 71915, name: 'WARANG CITI NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x118EB, name: 'WARANG CITI NUMBER TWENTY', category: Cat::Other_Number)]
     case WARANG_CITI_NUMBER_TWENTY = "\u{118EB}";
 
-    #[Info(id: 71916, name: 'WARANG CITI NUMBER THIRTY', category: Cat::Other_Number)]
+    #[Info(id: 0x118EC, name: 'WARANG CITI NUMBER THIRTY', category: Cat::Other_Number)]
     case WARANG_CITI_NUMBER_THIRTY = "\u{118EC}";
 
-    #[Info(id: 71917, name: 'WARANG CITI NUMBER FORTY', category: Cat::Other_Number)]
+    #[Info(id: 0x118ED, name: 'WARANG CITI NUMBER FORTY', category: Cat::Other_Number)]
     case WARANG_CITI_NUMBER_FORTY = "\u{118ED}";
 
-    #[Info(id: 71918, name: 'WARANG CITI NUMBER FIFTY', category: Cat::Other_Number)]
+    #[Info(id: 0x118EE, name: 'WARANG CITI NUMBER FIFTY', category: Cat::Other_Number)]
     case WARANG_CITI_NUMBER_FIFTY = "\u{118EE}";
 
-    #[Info(id: 71919, name: 'WARANG CITI NUMBER SIXTY', category: Cat::Other_Number)]
+    #[Info(id: 0x118EF, name: 'WARANG CITI NUMBER SIXTY', category: Cat::Other_Number)]
     case WARANG_CITI_NUMBER_SIXTY = "\u{118EF}";
 
-    #[Info(id: 71920, name: 'WARANG CITI NUMBER SEVENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x118F0, name: 'WARANG CITI NUMBER SEVENTY', category: Cat::Other_Number)]
     case WARANG_CITI_NUMBER_SEVENTY = "\u{118F0}";
 
-    #[Info(id: 71921, name: 'WARANG CITI NUMBER EIGHTY', category: Cat::Other_Number)]
+    #[Info(id: 0x118F1, name: 'WARANG CITI NUMBER EIGHTY', category: Cat::Other_Number)]
     case WARANG_CITI_NUMBER_EIGHTY = "\u{118F1}";
 
-    #[Info(id: 71922, name: 'WARANG CITI NUMBER NINETY', category: Cat::Other_Number)]
+    #[Info(id: 0x118F2, name: 'WARANG CITI NUMBER NINETY', category: Cat::Other_Number)]
     case WARANG_CITI_NUMBER_NINETY = "\u{118F2}";
 
-    #[Info(id: 71935, name: 'WARANG CITI OM', category: Cat::Other_Letter)]
+    #[Info(id: 0x118FF, name: 'WARANG CITI OM', category: Cat::Other_Letter)]
     case WARANG_CITI_OM = "\u{118FF}";
 }

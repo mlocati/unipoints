@@ -16,273 +16,273 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Meroitic_Cursive: string
 {
-    #[Info(id: 68000, name: 'MEROITIC CURSIVE LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x109A0, name: 'MEROITIC CURSIVE LETTER A', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_A = "\u{109A0}";
 
-    #[Info(id: 68001, name: 'MEROITIC CURSIVE LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x109A1, name: 'MEROITIC CURSIVE LETTER E', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_E = "\u{109A1}";
 
-    #[Info(id: 68002, name: 'MEROITIC CURSIVE LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x109A2, name: 'MEROITIC CURSIVE LETTER I', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_I = "\u{109A2}";
 
-    #[Info(id: 68003, name: 'MEROITIC CURSIVE LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x109A3, name: 'MEROITIC CURSIVE LETTER O', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_O = "\u{109A3}";
 
-    #[Info(id: 68004, name: 'MEROITIC CURSIVE LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109A4, name: 'MEROITIC CURSIVE LETTER YA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_YA = "\u{109A4}";
 
-    #[Info(id: 68005, name: 'MEROITIC CURSIVE LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109A5, name: 'MEROITIC CURSIVE LETTER WA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_WA = "\u{109A5}";
 
-    #[Info(id: 68006, name: 'MEROITIC CURSIVE LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109A6, name: 'MEROITIC CURSIVE LETTER BA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_BA = "\u{109A6}";
 
-    #[Info(id: 68007, name: 'MEROITIC CURSIVE LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109A7, name: 'MEROITIC CURSIVE LETTER PA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_PA = "\u{109A7}";
 
-    #[Info(id: 68008, name: 'MEROITIC CURSIVE LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109A8, name: 'MEROITIC CURSIVE LETTER MA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_MA = "\u{109A8}";
 
-    #[Info(id: 68009, name: 'MEROITIC CURSIVE LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109A9, name: 'MEROITIC CURSIVE LETTER NA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_NA = "\u{109A9}";
 
-    #[Info(id: 68010, name: 'MEROITIC CURSIVE LETTER NE', category: Cat::Other_Letter)]
+    #[Info(id: 0x109AA, name: 'MEROITIC CURSIVE LETTER NE', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_NE = "\u{109AA}";
 
-    #[Info(id: 68011, name: 'MEROITIC CURSIVE LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109AB, name: 'MEROITIC CURSIVE LETTER RA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_RA = "\u{109AB}";
 
-    #[Info(id: 68012, name: 'MEROITIC CURSIVE LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109AC, name: 'MEROITIC CURSIVE LETTER LA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_LA = "\u{109AC}";
 
-    #[Info(id: 68013, name: 'MEROITIC CURSIVE LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109AD, name: 'MEROITIC CURSIVE LETTER KHA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_KHA = "\u{109AD}";
 
-    #[Info(id: 68014, name: 'MEROITIC CURSIVE LETTER HHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109AE, name: 'MEROITIC CURSIVE LETTER HHA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_HHA = "\u{109AE}";
 
-    #[Info(id: 68015, name: 'MEROITIC CURSIVE LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109AF, name: 'MEROITIC CURSIVE LETTER SA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_SA = "\u{109AF}";
 
-    #[Info(id: 68016, name: 'MEROITIC CURSIVE LETTER ARCHAIC SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109B0, name: 'MEROITIC CURSIVE LETTER ARCHAIC SA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_ARCHAIC_SA = "\u{109B0}";
 
-    #[Info(id: 68017, name: 'MEROITIC CURSIVE LETTER SE', category: Cat::Other_Letter)]
+    #[Info(id: 0x109B1, name: 'MEROITIC CURSIVE LETTER SE', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_SE = "\u{109B1}";
 
-    #[Info(id: 68018, name: 'MEROITIC CURSIVE LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109B2, name: 'MEROITIC CURSIVE LETTER KA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_KA = "\u{109B2}";
 
-    #[Info(id: 68019, name: 'MEROITIC CURSIVE LETTER QA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109B3, name: 'MEROITIC CURSIVE LETTER QA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_QA = "\u{109B3}";
 
-    #[Info(id: 68020, name: 'MEROITIC CURSIVE LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109B4, name: 'MEROITIC CURSIVE LETTER TA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_TA = "\u{109B4}";
 
-    #[Info(id: 68021, name: 'MEROITIC CURSIVE LETTER TE', category: Cat::Other_Letter)]
+    #[Info(id: 0x109B5, name: 'MEROITIC CURSIVE LETTER TE', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_TE = "\u{109B5}";
 
-    #[Info(id: 68022, name: 'MEROITIC CURSIVE LETTER TO', category: Cat::Other_Letter)]
+    #[Info(id: 0x109B6, name: 'MEROITIC CURSIVE LETTER TO', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_TO = "\u{109B6}";
 
-    #[Info(id: 68023, name: 'MEROITIC CURSIVE LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x109B7, name: 'MEROITIC CURSIVE LETTER DA', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LETTER_DA = "\u{109B7}";
 
-    #[Info(id: 68028, name: 'MEROITIC CURSIVE FRACTION ELEVEN TWELFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x109BC, name: 'MEROITIC CURSIVE FRACTION ELEVEN TWELFTHS', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_ELEVEN_TWELFTHS = "\u{109BC}";
 
-    #[Info(id: 68029, name: 'MEROITIC CURSIVE FRACTION ONE HALF', category: Cat::Other_Number)]
+    #[Info(id: 0x109BD, name: 'MEROITIC CURSIVE FRACTION ONE HALF', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_ONE_HALF = "\u{109BD}";
 
-    #[Info(id: 68030, name: 'MEROITIC CURSIVE LOGOGRAM RMT', category: Cat::Other_Letter)]
+    #[Info(id: 0x109BE, name: 'MEROITIC CURSIVE LOGOGRAM RMT', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LOGOGRAM_RMT = "\u{109BE}";
 
-    #[Info(id: 68031, name: 'MEROITIC CURSIVE LOGOGRAM IMN', category: Cat::Other_Letter)]
+    #[Info(id: 0x109BF, name: 'MEROITIC CURSIVE LOGOGRAM IMN', category: Cat::Other_Letter)]
     case MEROITIC_CURSIVE_LOGOGRAM_IMN = "\u{109BF}";
 
-    #[Info(id: 68032, name: 'MEROITIC CURSIVE NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x109C0, name: 'MEROITIC CURSIVE NUMBER ONE', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_ONE = "\u{109C0}";
 
-    #[Info(id: 68033, name: 'MEROITIC CURSIVE NUMBER TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x109C1, name: 'MEROITIC CURSIVE NUMBER TWO', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_TWO = "\u{109C1}";
 
-    #[Info(id: 68034, name: 'MEROITIC CURSIVE NUMBER THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x109C2, name: 'MEROITIC CURSIVE NUMBER THREE', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_THREE = "\u{109C2}";
 
-    #[Info(id: 68035, name: 'MEROITIC CURSIVE NUMBER FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x109C3, name: 'MEROITIC CURSIVE NUMBER FOUR', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FOUR = "\u{109C3}";
 
-    #[Info(id: 68036, name: 'MEROITIC CURSIVE NUMBER FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x109C4, name: 'MEROITIC CURSIVE NUMBER FIVE', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FIVE = "\u{109C4}";
 
-    #[Info(id: 68037, name: 'MEROITIC CURSIVE NUMBER SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x109C5, name: 'MEROITIC CURSIVE NUMBER SIX', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SIX = "\u{109C5}";
 
-    #[Info(id: 68038, name: 'MEROITIC CURSIVE NUMBER SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x109C6, name: 'MEROITIC CURSIVE NUMBER SEVEN', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SEVEN = "\u{109C6}";
 
-    #[Info(id: 68039, name: 'MEROITIC CURSIVE NUMBER EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x109C7, name: 'MEROITIC CURSIVE NUMBER EIGHT', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_EIGHT = "\u{109C7}";
 
-    #[Info(id: 68040, name: 'MEROITIC CURSIVE NUMBER NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x109C8, name: 'MEROITIC CURSIVE NUMBER NINE', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_NINE = "\u{109C8}";
 
-    #[Info(id: 68041, name: 'MEROITIC CURSIVE NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x109C9, name: 'MEROITIC CURSIVE NUMBER TEN', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_TEN = "\u{109C9}";
 
-    #[Info(id: 68042, name: 'MEROITIC CURSIVE NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x109CA, name: 'MEROITIC CURSIVE NUMBER TWENTY', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_TWENTY = "\u{109CA}";
 
-    #[Info(id: 68043, name: 'MEROITIC CURSIVE NUMBER THIRTY', category: Cat::Other_Number)]
+    #[Info(id: 0x109CB, name: 'MEROITIC CURSIVE NUMBER THIRTY', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_THIRTY = "\u{109CB}";
 
-    #[Info(id: 68044, name: 'MEROITIC CURSIVE NUMBER FORTY', category: Cat::Other_Number)]
+    #[Info(id: 0x109CC, name: 'MEROITIC CURSIVE NUMBER FORTY', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FORTY = "\u{109CC}";
 
-    #[Info(id: 68045, name: 'MEROITIC CURSIVE NUMBER FIFTY', category: Cat::Other_Number)]
+    #[Info(id: 0x109CD, name: 'MEROITIC CURSIVE NUMBER FIFTY', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FIFTY = "\u{109CD}";
 
-    #[Info(id: 68046, name: 'MEROITIC CURSIVE NUMBER SIXTY', category: Cat::Other_Number)]
+    #[Info(id: 0x109CE, name: 'MEROITIC CURSIVE NUMBER SIXTY', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SIXTY = "\u{109CE}";
 
-    #[Info(id: 68047, name: 'MEROITIC CURSIVE NUMBER SEVENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x109CF, name: 'MEROITIC CURSIVE NUMBER SEVENTY', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SEVENTY = "\u{109CF}";
 
-    #[Info(id: 68050, name: 'MEROITIC CURSIVE NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x109D2, name: 'MEROITIC CURSIVE NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_ONE_HUNDRED = "\u{109D2}";
 
-    #[Info(id: 68051, name: 'MEROITIC CURSIVE NUMBER TWO HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x109D3, name: 'MEROITIC CURSIVE NUMBER TWO HUNDRED', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_TWO_HUNDRED = "\u{109D3}";
 
-    #[Info(id: 68052, name: 'MEROITIC CURSIVE NUMBER THREE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x109D4, name: 'MEROITIC CURSIVE NUMBER THREE HUNDRED', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_THREE_HUNDRED = "\u{109D4}";
 
-    #[Info(id: 68053, name: 'MEROITIC CURSIVE NUMBER FOUR HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x109D5, name: 'MEROITIC CURSIVE NUMBER FOUR HUNDRED', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FOUR_HUNDRED = "\u{109D5}";
 
-    #[Info(id: 68054, name: 'MEROITIC CURSIVE NUMBER FIVE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x109D6, name: 'MEROITIC CURSIVE NUMBER FIVE HUNDRED', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FIVE_HUNDRED = "\u{109D6}";
 
-    #[Info(id: 68055, name: 'MEROITIC CURSIVE NUMBER SIX HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x109D7, name: 'MEROITIC CURSIVE NUMBER SIX HUNDRED', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SIX_HUNDRED = "\u{109D7}";
 
-    #[Info(id: 68056, name: 'MEROITIC CURSIVE NUMBER SEVEN HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x109D8, name: 'MEROITIC CURSIVE NUMBER SEVEN HUNDRED', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SEVEN_HUNDRED = "\u{109D8}";
 
-    #[Info(id: 68057, name: 'MEROITIC CURSIVE NUMBER EIGHT HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x109D9, name: 'MEROITIC CURSIVE NUMBER EIGHT HUNDRED', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_EIGHT_HUNDRED = "\u{109D9}";
 
-    #[Info(id: 68058, name: 'MEROITIC CURSIVE NUMBER NINE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x109DA, name: 'MEROITIC CURSIVE NUMBER NINE HUNDRED', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_NINE_HUNDRED = "\u{109DA}";
 
-    #[Info(id: 68059, name: 'MEROITIC CURSIVE NUMBER ONE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109DB, name: 'MEROITIC CURSIVE NUMBER ONE THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_ONE_THOUSAND = "\u{109DB}";
 
-    #[Info(id: 68060, name: 'MEROITIC CURSIVE NUMBER TWO THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109DC, name: 'MEROITIC CURSIVE NUMBER TWO THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_TWO_THOUSAND = "\u{109DC}";
 
-    #[Info(id: 68061, name: 'MEROITIC CURSIVE NUMBER THREE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109DD, name: 'MEROITIC CURSIVE NUMBER THREE THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_THREE_THOUSAND = "\u{109DD}";
 
-    #[Info(id: 68062, name: 'MEROITIC CURSIVE NUMBER FOUR THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109DE, name: 'MEROITIC CURSIVE NUMBER FOUR THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FOUR_THOUSAND = "\u{109DE}";
 
-    #[Info(id: 68063, name: 'MEROITIC CURSIVE NUMBER FIVE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109DF, name: 'MEROITIC CURSIVE NUMBER FIVE THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FIVE_THOUSAND = "\u{109DF}";
 
-    #[Info(id: 68064, name: 'MEROITIC CURSIVE NUMBER SIX THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109E0, name: 'MEROITIC CURSIVE NUMBER SIX THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SIX_THOUSAND = "\u{109E0}";
 
-    #[Info(id: 68065, name: 'MEROITIC CURSIVE NUMBER SEVEN THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109E1, name: 'MEROITIC CURSIVE NUMBER SEVEN THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SEVEN_THOUSAND = "\u{109E1}";
 
-    #[Info(id: 68066, name: 'MEROITIC CURSIVE NUMBER EIGHT THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109E2, name: 'MEROITIC CURSIVE NUMBER EIGHT THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_EIGHT_THOUSAND = "\u{109E2}";
 
-    #[Info(id: 68067, name: 'MEROITIC CURSIVE NUMBER NINE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109E3, name: 'MEROITIC CURSIVE NUMBER NINE THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_NINE_THOUSAND = "\u{109E3}";
 
-    #[Info(id: 68068, name: 'MEROITIC CURSIVE NUMBER TEN THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109E4, name: 'MEROITIC CURSIVE NUMBER TEN THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_TEN_THOUSAND = "\u{109E4}";
 
-    #[Info(id: 68069, name: 'MEROITIC CURSIVE NUMBER TWENTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109E5, name: 'MEROITIC CURSIVE NUMBER TWENTY THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_TWENTY_THOUSAND = "\u{109E5}";
 
-    #[Info(id: 68070, name: 'MEROITIC CURSIVE NUMBER THIRTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109E6, name: 'MEROITIC CURSIVE NUMBER THIRTY THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_THIRTY_THOUSAND = "\u{109E6}";
 
-    #[Info(id: 68071, name: 'MEROITIC CURSIVE NUMBER FORTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109E7, name: 'MEROITIC CURSIVE NUMBER FORTY THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FORTY_THOUSAND = "\u{109E7}";
 
-    #[Info(id: 68072, name: 'MEROITIC CURSIVE NUMBER FIFTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109E8, name: 'MEROITIC CURSIVE NUMBER FIFTY THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FIFTY_THOUSAND = "\u{109E8}";
 
-    #[Info(id: 68073, name: 'MEROITIC CURSIVE NUMBER SIXTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109E9, name: 'MEROITIC CURSIVE NUMBER SIXTY THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SIXTY_THOUSAND = "\u{109E9}";
 
-    #[Info(id: 68074, name: 'MEROITIC CURSIVE NUMBER SEVENTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109EA, name: 'MEROITIC CURSIVE NUMBER SEVENTY THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SEVENTY_THOUSAND = "\u{109EA}";
 
-    #[Info(id: 68075, name: 'MEROITIC CURSIVE NUMBER EIGHTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109EB, name: 'MEROITIC CURSIVE NUMBER EIGHTY THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_EIGHTY_THOUSAND = "\u{109EB}";
 
-    #[Info(id: 68076, name: 'MEROITIC CURSIVE NUMBER NINETY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109EC, name: 'MEROITIC CURSIVE NUMBER NINETY THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_NINETY_THOUSAND = "\u{109EC}";
 
-    #[Info(id: 68077, name: 'MEROITIC CURSIVE NUMBER ONE HUNDRED THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109ED, name: 'MEROITIC CURSIVE NUMBER ONE HUNDRED THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_ONE_HUNDRED_THOUSAND = "\u{109ED}";
 
-    #[Info(id: 68078, name: 'MEROITIC CURSIVE NUMBER TWO HUNDRED THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109EE, name: 'MEROITIC CURSIVE NUMBER TWO HUNDRED THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_TWO_HUNDRED_THOUSAND = "\u{109EE}";
 
-    #[Info(id: 68079, name: 'MEROITIC CURSIVE NUMBER THREE HUNDRED THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109EF, name: 'MEROITIC CURSIVE NUMBER THREE HUNDRED THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_THREE_HUNDRED_THOUSAND = "\u{109EF}";
 
-    #[Info(id: 68080, name: 'MEROITIC CURSIVE NUMBER FOUR HUNDRED THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109F0, name: 'MEROITIC CURSIVE NUMBER FOUR HUNDRED THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FOUR_HUNDRED_THOUSAND = "\u{109F0}";
 
-    #[Info(id: 68081, name: 'MEROITIC CURSIVE NUMBER FIVE HUNDRED THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109F1, name: 'MEROITIC CURSIVE NUMBER FIVE HUNDRED THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_FIVE_HUNDRED_THOUSAND = "\u{109F1}";
 
-    #[Info(id: 68082, name: 'MEROITIC CURSIVE NUMBER SIX HUNDRED THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109F2, name: 'MEROITIC CURSIVE NUMBER SIX HUNDRED THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SIX_HUNDRED_THOUSAND = "\u{109F2}";
 
-    #[Info(id: 68083, name: 'MEROITIC CURSIVE NUMBER SEVEN HUNDRED THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109F3, name: 'MEROITIC CURSIVE NUMBER SEVEN HUNDRED THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_SEVEN_HUNDRED_THOUSAND = "\u{109F3}";
 
-    #[Info(id: 68084, name: 'MEROITIC CURSIVE NUMBER EIGHT HUNDRED THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109F4, name: 'MEROITIC CURSIVE NUMBER EIGHT HUNDRED THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_EIGHT_HUNDRED_THOUSAND = "\u{109F4}";
 
-    #[Info(id: 68085, name: 'MEROITIC CURSIVE NUMBER NINE HUNDRED THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x109F5, name: 'MEROITIC CURSIVE NUMBER NINE HUNDRED THOUSAND', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_NUMBER_NINE_HUNDRED_THOUSAND = "\u{109F5}";
 
-    #[Info(id: 68086, name: 'MEROITIC CURSIVE FRACTION ONE TWELFTH', category: Cat::Other_Number)]
+    #[Info(id: 0x109F6, name: 'MEROITIC CURSIVE FRACTION ONE TWELFTH', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_ONE_TWELFTH = "\u{109F6}";
 
-    #[Info(id: 68087, name: 'MEROITIC CURSIVE FRACTION TWO TWELFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x109F7, name: 'MEROITIC CURSIVE FRACTION TWO TWELFTHS', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_TWO_TWELFTHS = "\u{109F7}";
 
-    #[Info(id: 68088, name: 'MEROITIC CURSIVE FRACTION THREE TWELFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x109F8, name: 'MEROITIC CURSIVE FRACTION THREE TWELFTHS', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_THREE_TWELFTHS = "\u{109F8}";
 
-    #[Info(id: 68089, name: 'MEROITIC CURSIVE FRACTION FOUR TWELFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x109F9, name: 'MEROITIC CURSIVE FRACTION FOUR TWELFTHS', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_FOUR_TWELFTHS = "\u{109F9}";
 
-    #[Info(id: 68090, name: 'MEROITIC CURSIVE FRACTION FIVE TWELFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x109FA, name: 'MEROITIC CURSIVE FRACTION FIVE TWELFTHS', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_FIVE_TWELFTHS = "\u{109FA}";
 
-    #[Info(id: 68091, name: 'MEROITIC CURSIVE FRACTION SIX TWELFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x109FB, name: 'MEROITIC CURSIVE FRACTION SIX TWELFTHS', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_SIX_TWELFTHS = "\u{109FB}";
 
-    #[Info(id: 68092, name: 'MEROITIC CURSIVE FRACTION SEVEN TWELFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x109FC, name: 'MEROITIC CURSIVE FRACTION SEVEN TWELFTHS', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_SEVEN_TWELFTHS = "\u{109FC}";
 
-    #[Info(id: 68093, name: 'MEROITIC CURSIVE FRACTION EIGHT TWELFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x109FD, name: 'MEROITIC CURSIVE FRACTION EIGHT TWELFTHS', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_EIGHT_TWELFTHS = "\u{109FD}";
 
-    #[Info(id: 68094, name: 'MEROITIC CURSIVE FRACTION NINE TWELFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x109FE, name: 'MEROITIC CURSIVE FRACTION NINE TWELFTHS', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_NINE_TWELFTHS = "\u{109FE}";
 
-    #[Info(id: 68095, name: 'MEROITIC CURSIVE FRACTION TEN TWELFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x109FF, name: 'MEROITIC CURSIVE FRACTION TEN TWELFTHS', category: Cat::Other_Number)]
     case MEROITIC_CURSIVE_FRACTION_TEN_TWELFTHS = "\u{109FF}";
 }

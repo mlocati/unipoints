@@ -16,303 +16,303 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Telugu: string
 {
-    #[Info(id: 3072, name: 'TELUGU SIGN COMBINING CANDRABINDU ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC00, name: 'TELUGU SIGN COMBINING CANDRABINDU ABOVE', category: Cat::Nonspacing_Mark)]
     case TELUGU_SIGN_COMBINING_CANDRABINDU_ABOVE = "\u{C00}";
 
-    #[Info(id: 3073, name: 'TELUGU SIGN CANDRABINDU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xC01, name: 'TELUGU SIGN CANDRABINDU', category: Cat::Spacing_Mark)]
     case TELUGU_SIGN_CANDRABINDU = "\u{C01}";
 
-    #[Info(id: 3074, name: 'TELUGU SIGN ANUSVARA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xC02, name: 'TELUGU SIGN ANUSVARA', category: Cat::Spacing_Mark)]
     case TELUGU_SIGN_ANUSVARA = "\u{C02}";
 
-    #[Info(id: 3075, name: 'TELUGU SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xC03, name: 'TELUGU SIGN VISARGA', category: Cat::Spacing_Mark)]
     case TELUGU_SIGN_VISARGA = "\u{C03}";
 
-    #[Info(id: 3076, name: 'TELUGU SIGN COMBINING ANUSVARA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC04, name: 'TELUGU SIGN COMBINING ANUSVARA ABOVE', category: Cat::Nonspacing_Mark)]
     case TELUGU_SIGN_COMBINING_ANUSVARA_ABOVE = "\u{C04}";
 
-    #[Info(id: 3077, name: 'TELUGU LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xC05, name: 'TELUGU LETTER A', category: Cat::Other_Letter)]
     case TELUGU_LETTER_A = "\u{C05}";
 
-    #[Info(id: 3078, name: 'TELUGU LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC06, name: 'TELUGU LETTER AA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_AA = "\u{C06}";
 
-    #[Info(id: 3079, name: 'TELUGU LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xC07, name: 'TELUGU LETTER I', category: Cat::Other_Letter)]
     case TELUGU_LETTER_I = "\u{C07}";
 
-    #[Info(id: 3080, name: 'TELUGU LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0xC08, name: 'TELUGU LETTER II', category: Cat::Other_Letter)]
     case TELUGU_LETTER_II = "\u{C08}";
 
-    #[Info(id: 3081, name: 'TELUGU LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0xC09, name: 'TELUGU LETTER U', category: Cat::Other_Letter)]
     case TELUGU_LETTER_U = "\u{C09}";
 
-    #[Info(id: 3082, name: 'TELUGU LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0xC0A, name: 'TELUGU LETTER UU', category: Cat::Other_Letter)]
     case TELUGU_LETTER_UU = "\u{C0A}";
 
-    #[Info(id: 3083, name: 'TELUGU LETTER VOCALIC R', category: Cat::Other_Letter)]
+    #[Info(id: 0xC0B, name: 'TELUGU LETTER VOCALIC R', category: Cat::Other_Letter)]
     case TELUGU_LETTER_VOCALIC_R = "\u{C0B}";
 
-    #[Info(id: 3084, name: 'TELUGU LETTER VOCALIC L', category: Cat::Other_Letter)]
+    #[Info(id: 0xC0C, name: 'TELUGU LETTER VOCALIC L', category: Cat::Other_Letter)]
     case TELUGU_LETTER_VOCALIC_L = "\u{C0C}";
 
-    #[Info(id: 3086, name: 'TELUGU LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0xC0E, name: 'TELUGU LETTER E', category: Cat::Other_Letter)]
     case TELUGU_LETTER_E = "\u{C0E}";
 
-    #[Info(id: 3087, name: 'TELUGU LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0xC0F, name: 'TELUGU LETTER EE', category: Cat::Other_Letter)]
     case TELUGU_LETTER_EE = "\u{C0F}";
 
-    #[Info(id: 3088, name: 'TELUGU LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0xC10, name: 'TELUGU LETTER AI', category: Cat::Other_Letter)]
     case TELUGU_LETTER_AI = "\u{C10}";
 
-    #[Info(id: 3090, name: 'TELUGU LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xC12, name: 'TELUGU LETTER O', category: Cat::Other_Letter)]
     case TELUGU_LETTER_O = "\u{C12}";
 
-    #[Info(id: 3091, name: 'TELUGU LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0xC13, name: 'TELUGU LETTER OO', category: Cat::Other_Letter)]
     case TELUGU_LETTER_OO = "\u{C13}";
 
-    #[Info(id: 3092, name: 'TELUGU LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0xC14, name: 'TELUGU LETTER AU', category: Cat::Other_Letter)]
     case TELUGU_LETTER_AU = "\u{C14}";
 
-    #[Info(id: 3093, name: 'TELUGU LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC15, name: 'TELUGU LETTER KA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_KA = "\u{C15}";
 
-    #[Info(id: 3094, name: 'TELUGU LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC16, name: 'TELUGU LETTER KHA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_KHA = "\u{C16}";
 
-    #[Info(id: 3095, name: 'TELUGU LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC17, name: 'TELUGU LETTER GA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_GA = "\u{C17}";
 
-    #[Info(id: 3096, name: 'TELUGU LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC18, name: 'TELUGU LETTER GHA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_GHA = "\u{C18}";
 
-    #[Info(id: 3097, name: 'TELUGU LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC19, name: 'TELUGU LETTER NGA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_NGA = "\u{C19}";
 
-    #[Info(id: 3098, name: 'TELUGU LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC1A, name: 'TELUGU LETTER CA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_CA = "\u{C1A}";
 
-    #[Info(id: 3099, name: 'TELUGU LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC1B, name: 'TELUGU LETTER CHA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_CHA = "\u{C1B}";
 
-    #[Info(id: 3100, name: 'TELUGU LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC1C, name: 'TELUGU LETTER JA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_JA = "\u{C1C}";
 
-    #[Info(id: 3101, name: 'TELUGU LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC1D, name: 'TELUGU LETTER JHA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_JHA = "\u{C1D}";
 
-    #[Info(id: 3102, name: 'TELUGU LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC1E, name: 'TELUGU LETTER NYA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_NYA = "\u{C1E}";
 
-    #[Info(id: 3103, name: 'TELUGU LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC1F, name: 'TELUGU LETTER TTA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_TTA = "\u{C1F}";
 
-    #[Info(id: 3104, name: 'TELUGU LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC20, name: 'TELUGU LETTER TTHA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_TTHA = "\u{C20}";
 
-    #[Info(id: 3105, name: 'TELUGU LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC21, name: 'TELUGU LETTER DDA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_DDA = "\u{C21}";
 
-    #[Info(id: 3106, name: 'TELUGU LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC22, name: 'TELUGU LETTER DDHA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_DDHA = "\u{C22}";
 
-    #[Info(id: 3107, name: 'TELUGU LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC23, name: 'TELUGU LETTER NNA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_NNA = "\u{C23}";
 
-    #[Info(id: 3108, name: 'TELUGU LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC24, name: 'TELUGU LETTER TA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_TA = "\u{C24}";
 
-    #[Info(id: 3109, name: 'TELUGU LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC25, name: 'TELUGU LETTER THA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_THA = "\u{C25}";
 
-    #[Info(id: 3110, name: 'TELUGU LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC26, name: 'TELUGU LETTER DA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_DA = "\u{C26}";
 
-    #[Info(id: 3111, name: 'TELUGU LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC27, name: 'TELUGU LETTER DHA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_DHA = "\u{C27}";
 
-    #[Info(id: 3112, name: 'TELUGU LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC28, name: 'TELUGU LETTER NA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_NA = "\u{C28}";
 
-    #[Info(id: 3114, name: 'TELUGU LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC2A, name: 'TELUGU LETTER PA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_PA = "\u{C2A}";
 
-    #[Info(id: 3115, name: 'TELUGU LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC2B, name: 'TELUGU LETTER PHA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_PHA = "\u{C2B}";
 
-    #[Info(id: 3116, name: 'TELUGU LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC2C, name: 'TELUGU LETTER BA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_BA = "\u{C2C}";
 
-    #[Info(id: 3117, name: 'TELUGU LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC2D, name: 'TELUGU LETTER BHA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_BHA = "\u{C2D}";
 
-    #[Info(id: 3118, name: 'TELUGU LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC2E, name: 'TELUGU LETTER MA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_MA = "\u{C2E}";
 
-    #[Info(id: 3119, name: 'TELUGU LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC2F, name: 'TELUGU LETTER YA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_YA = "\u{C2F}";
 
-    #[Info(id: 3120, name: 'TELUGU LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC30, name: 'TELUGU LETTER RA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_RA = "\u{C30}";
 
-    #[Info(id: 3121, name: 'TELUGU LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC31, name: 'TELUGU LETTER RRA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_RRA = "\u{C31}";
 
-    #[Info(id: 3122, name: 'TELUGU LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC32, name: 'TELUGU LETTER LA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_LA = "\u{C32}";
 
-    #[Info(id: 3123, name: 'TELUGU LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC33, name: 'TELUGU LETTER LLA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_LLA = "\u{C33}";
 
-    #[Info(id: 3124, name: 'TELUGU LETTER LLLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC34, name: 'TELUGU LETTER LLLA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_LLLA = "\u{C34}";
 
-    #[Info(id: 3125, name: 'TELUGU LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC35, name: 'TELUGU LETTER VA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_VA = "\u{C35}";
 
-    #[Info(id: 3126, name: 'TELUGU LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC36, name: 'TELUGU LETTER SHA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_SHA = "\u{C36}";
 
-    #[Info(id: 3127, name: 'TELUGU LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC37, name: 'TELUGU LETTER SSA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_SSA = "\u{C37}";
 
-    #[Info(id: 3128, name: 'TELUGU LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC38, name: 'TELUGU LETTER SA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_SA = "\u{C38}";
 
-    #[Info(id: 3129, name: 'TELUGU LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC39, name: 'TELUGU LETTER HA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_HA = "\u{C39}";
 
-    #[Info(id: 3132, name: 'TELUGU SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC3C, name: 'TELUGU SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case TELUGU_SIGN_NUKTA = "\u{C3C}";
 
-    #[Info(id: 3133, name: 'TELUGU SIGN AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC3D, name: 'TELUGU SIGN AVAGRAHA', category: Cat::Other_Letter)]
     case TELUGU_SIGN_AVAGRAHA = "\u{C3D}";
 
-    #[Info(id: 3134, name: 'TELUGU VOWEL SIGN AA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC3E, name: 'TELUGU VOWEL SIGN AA', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_AA = "\u{C3E}";
 
-    #[Info(id: 3135, name: 'TELUGU VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC3F, name: 'TELUGU VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_I = "\u{C3F}";
 
-    #[Info(id: 3136, name: 'TELUGU VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC40, name: 'TELUGU VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_II = "\u{C40}";
 
-    #[Info(id: 3137, name: 'TELUGU VOWEL SIGN U', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xC41, name: 'TELUGU VOWEL SIGN U', category: Cat::Spacing_Mark)]
     case TELUGU_VOWEL_SIGN_U = "\u{C41}";
 
-    #[Info(id: 3138, name: 'TELUGU VOWEL SIGN UU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xC42, name: 'TELUGU VOWEL SIGN UU', category: Cat::Spacing_Mark)]
     case TELUGU_VOWEL_SIGN_UU = "\u{C42}";
 
-    #[Info(id: 3139, name: 'TELUGU VOWEL SIGN VOCALIC R', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xC43, name: 'TELUGU VOWEL SIGN VOCALIC R', category: Cat::Spacing_Mark)]
     case TELUGU_VOWEL_SIGN_VOCALIC_R = "\u{C43}";
 
-    #[Info(id: 3140, name: 'TELUGU VOWEL SIGN VOCALIC RR', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xC44, name: 'TELUGU VOWEL SIGN VOCALIC RR', category: Cat::Spacing_Mark)]
     case TELUGU_VOWEL_SIGN_VOCALIC_RR = "\u{C44}";
 
-    #[Info(id: 3142, name: 'TELUGU VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC46, name: 'TELUGU VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_E = "\u{C46}";
 
-    #[Info(id: 3143, name: 'TELUGU VOWEL SIGN EE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC47, name: 'TELUGU VOWEL SIGN EE', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_EE = "\u{C47}";
 
-    #[Info(id: 3144, name: 'TELUGU VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC48, name: 'TELUGU VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_AI = "\u{C48}";
 
-    #[Info(id: 3146, name: 'TELUGU VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC4A, name: 'TELUGU VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_O = "\u{C4A}";
 
-    #[Info(id: 3147, name: 'TELUGU VOWEL SIGN OO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC4B, name: 'TELUGU VOWEL SIGN OO', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_OO = "\u{C4B}";
 
-    #[Info(id: 3148, name: 'TELUGU VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC4C, name: 'TELUGU VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_AU = "\u{C4C}";
 
-    #[Info(id: 3149, name: 'TELUGU SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC4D, name: 'TELUGU SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case TELUGU_SIGN_VIRAMA = "\u{C4D}";
 
-    #[Info(id: 3157, name: 'TELUGU LENGTH MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC55, name: 'TELUGU LENGTH MARK', category: Cat::Nonspacing_Mark)]
     case TELUGU_LENGTH_MARK = "\u{C55}";
 
-    #[Info(id: 3158, name: 'TELUGU AI LENGTH MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC56, name: 'TELUGU AI LENGTH MARK', category: Cat::Nonspacing_Mark)]
     case TELUGU_AI_LENGTH_MARK = "\u{C56}";
 
-    #[Info(id: 3160, name: 'TELUGU LETTER TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC58, name: 'TELUGU LETTER TSA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_TSA = "\u{C58}";
 
-    #[Info(id: 3161, name: 'TELUGU LETTER DZA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC59, name: 'TELUGU LETTER DZA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_DZA = "\u{C59}";
 
-    #[Info(id: 3162, name: 'TELUGU LETTER RRRA', category: Cat::Other_Letter)]
+    #[Info(id: 0xC5A, name: 'TELUGU LETTER RRRA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_RRRA = "\u{C5A}";
 
-    #[Info(id: 3165, name: 'TELUGU LETTER NAKAARA POLLU', category: Cat::Other_Letter)]
+    #[Info(id: 0xC5D, name: 'TELUGU LETTER NAKAARA POLLU', category: Cat::Other_Letter)]
     case TELUGU_LETTER_NAKAARA_POLLU = "\u{C5D}";
 
-    #[Info(id: 3168, name: 'TELUGU LETTER VOCALIC RR', category: Cat::Other_Letter)]
+    #[Info(id: 0xC60, name: 'TELUGU LETTER VOCALIC RR', category: Cat::Other_Letter)]
     case TELUGU_LETTER_VOCALIC_RR = "\u{C60}";
 
-    #[Info(id: 3169, name: 'TELUGU LETTER VOCALIC LL', category: Cat::Other_Letter)]
+    #[Info(id: 0xC61, name: 'TELUGU LETTER VOCALIC LL', category: Cat::Other_Letter)]
     case TELUGU_LETTER_VOCALIC_LL = "\u{C61}";
 
-    #[Info(id: 3170, name: 'TELUGU VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC62, name: 'TELUGU VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_VOCALIC_L = "\u{C62}";
 
-    #[Info(id: 3171, name: 'TELUGU VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC63, name: 'TELUGU VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_VOCALIC_LL = "\u{C63}";
 
-    #[Info(id: 3174, name: 'TELUGU DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xC66, name: 'TELUGU DIGIT ZERO', category: Cat::Decimal_Number)]
     case TELUGU_DIGIT_ZERO = "\u{C66}";
 
-    #[Info(id: 3175, name: 'TELUGU DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xC67, name: 'TELUGU DIGIT ONE', category: Cat::Decimal_Number)]
     case TELUGU_DIGIT_ONE = "\u{C67}";
 
-    #[Info(id: 3176, name: 'TELUGU DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xC68, name: 'TELUGU DIGIT TWO', category: Cat::Decimal_Number)]
     case TELUGU_DIGIT_TWO = "\u{C68}";
 
-    #[Info(id: 3177, name: 'TELUGU DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xC69, name: 'TELUGU DIGIT THREE', category: Cat::Decimal_Number)]
     case TELUGU_DIGIT_THREE = "\u{C69}";
 
-    #[Info(id: 3178, name: 'TELUGU DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xC6A, name: 'TELUGU DIGIT FOUR', category: Cat::Decimal_Number)]
     case TELUGU_DIGIT_FOUR = "\u{C6A}";
 
-    #[Info(id: 3179, name: 'TELUGU DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xC6B, name: 'TELUGU DIGIT FIVE', category: Cat::Decimal_Number)]
     case TELUGU_DIGIT_FIVE = "\u{C6B}";
 
-    #[Info(id: 3180, name: 'TELUGU DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xC6C, name: 'TELUGU DIGIT SIX', category: Cat::Decimal_Number)]
     case TELUGU_DIGIT_SIX = "\u{C6C}";
 
-    #[Info(id: 3181, name: 'TELUGU DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xC6D, name: 'TELUGU DIGIT SEVEN', category: Cat::Decimal_Number)]
     case TELUGU_DIGIT_SEVEN = "\u{C6D}";
 
-    #[Info(id: 3182, name: 'TELUGU DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xC6E, name: 'TELUGU DIGIT EIGHT', category: Cat::Decimal_Number)]
     case TELUGU_DIGIT_EIGHT = "\u{C6E}";
 
-    #[Info(id: 3183, name: 'TELUGU DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xC6F, name: 'TELUGU DIGIT NINE', category: Cat::Decimal_Number)]
     case TELUGU_DIGIT_NINE = "\u{C6F}";
 
-    #[Info(id: 3191, name: 'TELUGU SIGN SIDDHAM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xC77, name: 'TELUGU SIGN SIDDHAM', category: Cat::Other_Punctuation)]
     case TELUGU_SIGN_SIDDHAM = "\u{C77}";
 
-    #[Info(id: 3192, name: 'TELUGU FRACTION DIGIT ZERO FOR ODD POWERS OF FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0xC78, name: 'TELUGU FRACTION DIGIT ZERO FOR ODD POWERS OF FOUR', category: Cat::Other_Number)]
     case TELUGU_FRACTION_DIGIT_ZERO_FOR_ODD_POWERS_OF_FOUR = "\u{C78}";
 
-    #[Info(id: 3193, name: 'TELUGU FRACTION DIGIT ONE FOR ODD POWERS OF FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0xC79, name: 'TELUGU FRACTION DIGIT ONE FOR ODD POWERS OF FOUR', category: Cat::Other_Number)]
     case TELUGU_FRACTION_DIGIT_ONE_FOR_ODD_POWERS_OF_FOUR = "\u{C79}";
 
-    #[Info(id: 3194, name: 'TELUGU FRACTION DIGIT TWO FOR ODD POWERS OF FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0xC7A, name: 'TELUGU FRACTION DIGIT TWO FOR ODD POWERS OF FOUR', category: Cat::Other_Number)]
     case TELUGU_FRACTION_DIGIT_TWO_FOR_ODD_POWERS_OF_FOUR = "\u{C7A}";
 
-    #[Info(id: 3195, name: 'TELUGU FRACTION DIGIT THREE FOR ODD POWERS OF FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0xC7B, name: 'TELUGU FRACTION DIGIT THREE FOR ODD POWERS OF FOUR', category: Cat::Other_Number)]
     case TELUGU_FRACTION_DIGIT_THREE_FOR_ODD_POWERS_OF_FOUR = "\u{C7B}";
 
-    #[Info(id: 3196, name: 'TELUGU FRACTION DIGIT ONE FOR EVEN POWERS OF FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0xC7C, name: 'TELUGU FRACTION DIGIT ONE FOR EVEN POWERS OF FOUR', category: Cat::Other_Number)]
     case TELUGU_FRACTION_DIGIT_ONE_FOR_EVEN_POWERS_OF_FOUR = "\u{C7C}";
 
-    #[Info(id: 3197, name: 'TELUGU FRACTION DIGIT TWO FOR EVEN POWERS OF FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0xC7D, name: 'TELUGU FRACTION DIGIT TWO FOR EVEN POWERS OF FOUR', category: Cat::Other_Number)]
     case TELUGU_FRACTION_DIGIT_TWO_FOR_EVEN_POWERS_OF_FOUR = "\u{C7D}";
 
-    #[Info(id: 3198, name: 'TELUGU FRACTION DIGIT THREE FOR EVEN POWERS OF FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0xC7E, name: 'TELUGU FRACTION DIGIT THREE FOR EVEN POWERS OF FOUR', category: Cat::Other_Number)]
     case TELUGU_FRACTION_DIGIT_THREE_FOR_EVEN_POWERS_OF_FOUR = "\u{C7E}";
 
-    #[Info(id: 3199, name: 'TELUGU SIGN TUUMU', category: Cat::Other_Symbol)]
+    #[Info(id: 0xC7F, name: 'TELUGU SIGN TUUMU', category: Cat::Other_Symbol)]
     case TELUGU_SIGN_TUUMU = "\u{C7F}";
 }

@@ -16,96 +16,96 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Imperial_Aramaic: string
 {
-    #[Info(id: 67648, name: 'IMPERIAL ARAMAIC LETTER ALEPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10840, name: 'IMPERIAL ARAMAIC LETTER ALEPH', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_ALEPH = "\u{10840}";
 
-    #[Info(id: 67649, name: 'IMPERIAL ARAMAIC LETTER BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10841, name: 'IMPERIAL ARAMAIC LETTER BETH', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_BETH = "\u{10841}";
 
-    #[Info(id: 67650, name: 'IMPERIAL ARAMAIC LETTER GIMEL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10842, name: 'IMPERIAL ARAMAIC LETTER GIMEL', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_GIMEL = "\u{10842}";
 
-    #[Info(id: 67651, name: 'IMPERIAL ARAMAIC LETTER DALETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10843, name: 'IMPERIAL ARAMAIC LETTER DALETH', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_DALETH = "\u{10843}";
 
-    #[Info(id: 67652, name: 'IMPERIAL ARAMAIC LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10844, name: 'IMPERIAL ARAMAIC LETTER HE', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_HE = "\u{10844}";
 
-    #[Info(id: 67653, name: 'IMPERIAL ARAMAIC LETTER WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10845, name: 'IMPERIAL ARAMAIC LETTER WAW', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_WAW = "\u{10845}";
 
-    #[Info(id: 67654, name: 'IMPERIAL ARAMAIC LETTER ZAYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10846, name: 'IMPERIAL ARAMAIC LETTER ZAYIN', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_ZAYIN = "\u{10846}";
 
-    #[Info(id: 67655, name: 'IMPERIAL ARAMAIC LETTER HETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10847, name: 'IMPERIAL ARAMAIC LETTER HETH', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_HETH = "\u{10847}";
 
-    #[Info(id: 67656, name: 'IMPERIAL ARAMAIC LETTER TETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10848, name: 'IMPERIAL ARAMAIC LETTER TETH', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_TETH = "\u{10848}";
 
-    #[Info(id: 67657, name: 'IMPERIAL ARAMAIC LETTER YODH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10849, name: 'IMPERIAL ARAMAIC LETTER YODH', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_YODH = "\u{10849}";
 
-    #[Info(id: 67658, name: 'IMPERIAL ARAMAIC LETTER KAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1084A, name: 'IMPERIAL ARAMAIC LETTER KAPH', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_KAPH = "\u{1084A}";
 
-    #[Info(id: 67659, name: 'IMPERIAL ARAMAIC LETTER LAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1084B, name: 'IMPERIAL ARAMAIC LETTER LAMEDH', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_LAMEDH = "\u{1084B}";
 
-    #[Info(id: 67660, name: 'IMPERIAL ARAMAIC LETTER MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1084C, name: 'IMPERIAL ARAMAIC LETTER MEM', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_MEM = "\u{1084C}";
 
-    #[Info(id: 67661, name: 'IMPERIAL ARAMAIC LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1084D, name: 'IMPERIAL ARAMAIC LETTER NUN', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_NUN = "\u{1084D}";
 
-    #[Info(id: 67662, name: 'IMPERIAL ARAMAIC LETTER SAMEKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1084E, name: 'IMPERIAL ARAMAIC LETTER SAMEKH', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_SAMEKH = "\u{1084E}";
 
-    #[Info(id: 67663, name: 'IMPERIAL ARAMAIC LETTER AYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1084F, name: 'IMPERIAL ARAMAIC LETTER AYIN', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_AYIN = "\u{1084F}";
 
-    #[Info(id: 67664, name: 'IMPERIAL ARAMAIC LETTER PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10850, name: 'IMPERIAL ARAMAIC LETTER PE', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_PE = "\u{10850}";
 
-    #[Info(id: 67665, name: 'IMPERIAL ARAMAIC LETTER SADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10851, name: 'IMPERIAL ARAMAIC LETTER SADHE', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_SADHE = "\u{10851}";
 
-    #[Info(id: 67666, name: 'IMPERIAL ARAMAIC LETTER QOPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10852, name: 'IMPERIAL ARAMAIC LETTER QOPH', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_QOPH = "\u{10852}";
 
-    #[Info(id: 67667, name: 'IMPERIAL ARAMAIC LETTER RESH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10853, name: 'IMPERIAL ARAMAIC LETTER RESH', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_RESH = "\u{10853}";
 
-    #[Info(id: 67668, name: 'IMPERIAL ARAMAIC LETTER SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10854, name: 'IMPERIAL ARAMAIC LETTER SHIN', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_SHIN = "\u{10854}";
 
-    #[Info(id: 67669, name: 'IMPERIAL ARAMAIC LETTER TAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10855, name: 'IMPERIAL ARAMAIC LETTER TAW', category: Cat::Other_Letter)]
     case IMPERIAL_ARAMAIC_LETTER_TAW = "\u{10855}";
 
-    #[Info(id: 67671, name: 'IMPERIAL ARAMAIC SECTION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10857, name: 'IMPERIAL ARAMAIC SECTION SIGN', category: Cat::Other_Punctuation)]
     case IMPERIAL_ARAMAIC_SECTION_SIGN = "\u{10857}";
 
-    #[Info(id: 67672, name: 'IMPERIAL ARAMAIC NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x10858, name: 'IMPERIAL ARAMAIC NUMBER ONE', category: Cat::Other_Number)]
     case IMPERIAL_ARAMAIC_NUMBER_ONE = "\u{10858}";
 
-    #[Info(id: 67673, name: 'IMPERIAL ARAMAIC NUMBER TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x10859, name: 'IMPERIAL ARAMAIC NUMBER TWO', category: Cat::Other_Number)]
     case IMPERIAL_ARAMAIC_NUMBER_TWO = "\u{10859}";
 
-    #[Info(id: 67674, name: 'IMPERIAL ARAMAIC NUMBER THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x1085A, name: 'IMPERIAL ARAMAIC NUMBER THREE', category: Cat::Other_Number)]
     case IMPERIAL_ARAMAIC_NUMBER_THREE = "\u{1085A}";
 
-    #[Info(id: 67675, name: 'IMPERIAL ARAMAIC NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1085B, name: 'IMPERIAL ARAMAIC NUMBER TEN', category: Cat::Other_Number)]
     case IMPERIAL_ARAMAIC_NUMBER_TEN = "\u{1085B}";
 
-    #[Info(id: 67676, name: 'IMPERIAL ARAMAIC NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x1085C, name: 'IMPERIAL ARAMAIC NUMBER TWENTY', category: Cat::Other_Number)]
     case IMPERIAL_ARAMAIC_NUMBER_TWENTY = "\u{1085C}";
 
-    #[Info(id: 67677, name: 'IMPERIAL ARAMAIC NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x1085D, name: 'IMPERIAL ARAMAIC NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case IMPERIAL_ARAMAIC_NUMBER_ONE_HUNDRED = "\u{1085D}";
 
-    #[Info(id: 67678, name: 'IMPERIAL ARAMAIC NUMBER ONE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x1085E, name: 'IMPERIAL ARAMAIC NUMBER ONE THOUSAND', category: Cat::Other_Number)]
     case IMPERIAL_ARAMAIC_NUMBER_ONE_THOUSAND = "\u{1085E}";
 
-    #[Info(id: 67679, name: 'IMPERIAL ARAMAIC NUMBER TEN THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x1085F, name: 'IMPERIAL ARAMAIC NUMBER TEN THOUSAND', category: Cat::Other_Number)]
     case IMPERIAL_ARAMAIC_NUMBER_TEN_THOUSAND = "\u{1085F}";
 }

@@ -16,141 +16,141 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Phaistos_Disc: string
 {
-    #[Info(id: 66000, name: 'PHAISTOS DISC SIGN PEDESTRIAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101D0, name: 'PHAISTOS DISC SIGN PEDESTRIAN', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_PEDESTRIAN = "\u{101D0}";
 
-    #[Info(id: 66001, name: 'PHAISTOS DISC SIGN PLUMED HEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101D1, name: 'PHAISTOS DISC SIGN PLUMED HEAD', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_PLUMED_HEAD = "\u{101D1}";
 
-    #[Info(id: 66002, name: 'PHAISTOS DISC SIGN TATTOOED HEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101D2, name: 'PHAISTOS DISC SIGN TATTOOED HEAD', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_TATTOOED_HEAD = "\u{101D2}";
 
-    #[Info(id: 66003, name: 'PHAISTOS DISC SIGN CAPTIVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101D3, name: 'PHAISTOS DISC SIGN CAPTIVE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_CAPTIVE = "\u{101D3}";
 
-    #[Info(id: 66004, name: 'PHAISTOS DISC SIGN CHILD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101D4, name: 'PHAISTOS DISC SIGN CHILD', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_CHILD = "\u{101D4}";
 
-    #[Info(id: 66005, name: 'PHAISTOS DISC SIGN WOMAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101D5, name: 'PHAISTOS DISC SIGN WOMAN', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_WOMAN = "\u{101D5}";
 
-    #[Info(id: 66006, name: 'PHAISTOS DISC SIGN HELMET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101D6, name: 'PHAISTOS DISC SIGN HELMET', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_HELMET = "\u{101D6}";
 
-    #[Info(id: 66007, name: 'PHAISTOS DISC SIGN GAUNTLET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101D7, name: 'PHAISTOS DISC SIGN GAUNTLET', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_GAUNTLET = "\u{101D7}";
 
-    #[Info(id: 66008, name: 'PHAISTOS DISC SIGN TIARA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101D8, name: 'PHAISTOS DISC SIGN TIARA', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_TIARA = "\u{101D8}";
 
-    #[Info(id: 66009, name: 'PHAISTOS DISC SIGN ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101D9, name: 'PHAISTOS DISC SIGN ARROW', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_ARROW = "\u{101D9}";
 
-    #[Info(id: 66010, name: 'PHAISTOS DISC SIGN BOW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101DA, name: 'PHAISTOS DISC SIGN BOW', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_BOW = "\u{101DA}";
 
-    #[Info(id: 66011, name: 'PHAISTOS DISC SIGN SHIELD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101DB, name: 'PHAISTOS DISC SIGN SHIELD', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_SHIELD = "\u{101DB}";
 
-    #[Info(id: 66012, name: 'PHAISTOS DISC SIGN CLUB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101DC, name: 'PHAISTOS DISC SIGN CLUB', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_CLUB = "\u{101DC}";
 
-    #[Info(id: 66013, name: 'PHAISTOS DISC SIGN MANACLES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101DD, name: 'PHAISTOS DISC SIGN MANACLES', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_MANACLES = "\u{101DD}";
 
-    #[Info(id: 66014, name: 'PHAISTOS DISC SIGN MATTOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101DE, name: 'PHAISTOS DISC SIGN MATTOCK', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_MATTOCK = "\u{101DE}";
 
-    #[Info(id: 66015, name: 'PHAISTOS DISC SIGN SAW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101DF, name: 'PHAISTOS DISC SIGN SAW', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_SAW = "\u{101DF}";
 
-    #[Info(id: 66016, name: 'PHAISTOS DISC SIGN LID', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101E0, name: 'PHAISTOS DISC SIGN LID', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_LID = "\u{101E0}";
 
-    #[Info(id: 66017, name: 'PHAISTOS DISC SIGN BOOMERANG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101E1, name: 'PHAISTOS DISC SIGN BOOMERANG', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_BOOMERANG = "\u{101E1}";
 
-    #[Info(id: 66018, name: 'PHAISTOS DISC SIGN CARPENTRY PLANE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101E2, name: 'PHAISTOS DISC SIGN CARPENTRY PLANE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_CARPENTRY_PLANE = "\u{101E2}";
 
-    #[Info(id: 66019, name: 'PHAISTOS DISC SIGN DOLIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101E3, name: 'PHAISTOS DISC SIGN DOLIUM', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_DOLIUM = "\u{101E3}";
 
-    #[Info(id: 66020, name: 'PHAISTOS DISC SIGN COMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101E4, name: 'PHAISTOS DISC SIGN COMB', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_COMB = "\u{101E4}";
 
-    #[Info(id: 66021, name: 'PHAISTOS DISC SIGN SLING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101E5, name: 'PHAISTOS DISC SIGN SLING', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_SLING = "\u{101E5}";
 
-    #[Info(id: 66022, name: 'PHAISTOS DISC SIGN COLUMN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101E6, name: 'PHAISTOS DISC SIGN COLUMN', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_COLUMN = "\u{101E6}";
 
-    #[Info(id: 66023, name: 'PHAISTOS DISC SIGN BEEHIVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101E7, name: 'PHAISTOS DISC SIGN BEEHIVE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_BEEHIVE = "\u{101E7}";
 
-    #[Info(id: 66024, name: 'PHAISTOS DISC SIGN SHIP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101E8, name: 'PHAISTOS DISC SIGN SHIP', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_SHIP = "\u{101E8}";
 
-    #[Info(id: 66025, name: 'PHAISTOS DISC SIGN HORN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101E9, name: 'PHAISTOS DISC SIGN HORN', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_HORN = "\u{101E9}";
 
-    #[Info(id: 66026, name: 'PHAISTOS DISC SIGN HIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101EA, name: 'PHAISTOS DISC SIGN HIDE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_HIDE = "\u{101EA}";
 
-    #[Info(id: 66027, name: 'PHAISTOS DISC SIGN BULLS LEG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101EB, name: 'PHAISTOS DISC SIGN BULLS LEG', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_BULLS_LEG = "\u{101EB}";
 
-    #[Info(id: 66028, name: 'PHAISTOS DISC SIGN CAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101EC, name: 'PHAISTOS DISC SIGN CAT', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_CAT = "\u{101EC}";
 
-    #[Info(id: 66029, name: 'PHAISTOS DISC SIGN RAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101ED, name: 'PHAISTOS DISC SIGN RAM', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_RAM = "\u{101ED}";
 
-    #[Info(id: 66030, name: 'PHAISTOS DISC SIGN EAGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101EE, name: 'PHAISTOS DISC SIGN EAGLE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_EAGLE = "\u{101EE}";
 
-    #[Info(id: 66031, name: 'PHAISTOS DISC SIGN DOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101EF, name: 'PHAISTOS DISC SIGN DOVE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_DOVE = "\u{101EF}";
 
-    #[Info(id: 66032, name: 'PHAISTOS DISC SIGN TUNNY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101F0, name: 'PHAISTOS DISC SIGN TUNNY', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_TUNNY = "\u{101F0}";
 
-    #[Info(id: 66033, name: 'PHAISTOS DISC SIGN BEE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101F1, name: 'PHAISTOS DISC SIGN BEE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_BEE = "\u{101F1}";
 
-    #[Info(id: 66034, name: 'PHAISTOS DISC SIGN PLANE TREE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101F2, name: 'PHAISTOS DISC SIGN PLANE TREE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_PLANE_TREE = "\u{101F2}";
 
-    #[Info(id: 66035, name: 'PHAISTOS DISC SIGN VINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101F3, name: 'PHAISTOS DISC SIGN VINE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_VINE = "\u{101F3}";
 
-    #[Info(id: 66036, name: 'PHAISTOS DISC SIGN PAPYRUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101F4, name: 'PHAISTOS DISC SIGN PAPYRUS', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_PAPYRUS = "\u{101F4}";
 
-    #[Info(id: 66037, name: 'PHAISTOS DISC SIGN ROSETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101F5, name: 'PHAISTOS DISC SIGN ROSETTE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_ROSETTE = "\u{101F5}";
 
-    #[Info(id: 66038, name: 'PHAISTOS DISC SIGN LILY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101F6, name: 'PHAISTOS DISC SIGN LILY', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_LILY = "\u{101F6}";
 
-    #[Info(id: 66039, name: 'PHAISTOS DISC SIGN OX BACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101F7, name: 'PHAISTOS DISC SIGN OX BACK', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_OX_BACK = "\u{101F7}";
 
-    #[Info(id: 66040, name: 'PHAISTOS DISC SIGN FLUTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101F8, name: 'PHAISTOS DISC SIGN FLUTE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_FLUTE = "\u{101F8}";
 
-    #[Info(id: 66041, name: 'PHAISTOS DISC SIGN GRATER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101F9, name: 'PHAISTOS DISC SIGN GRATER', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_GRATER = "\u{101F9}";
 
-    #[Info(id: 66042, name: 'PHAISTOS DISC SIGN STRAINER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101FA, name: 'PHAISTOS DISC SIGN STRAINER', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_STRAINER = "\u{101FA}";
 
-    #[Info(id: 66043, name: 'PHAISTOS DISC SIGN SMALL AXE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101FB, name: 'PHAISTOS DISC SIGN SMALL AXE', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_SMALL_AXE = "\u{101FB}";
 
-    #[Info(id: 66044, name: 'PHAISTOS DISC SIGN WAVY BAND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101FC, name: 'PHAISTOS DISC SIGN WAVY BAND', category: Cat::Other_Symbol)]
     case PHAISTOS_DISC_SIGN_WAVY_BAND = "\u{101FC}";
 
-    #[Info(id: 66045, name: 'PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x101FD, name: 'PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE', category: Cat::Nonspacing_Mark)]
     case PHAISTOS_DISC_SIGN_COMBINING_OBLIQUE_STROKE = "\u{101FD}";
 }

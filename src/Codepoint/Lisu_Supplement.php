@@ -16,6 +16,6 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Lisu_Supplement: string
 {
-    #[Info(id: 73648, name: 'LISU LETTER YHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11FB0, name: 'LISU LETTER YHA', category: Cat::Other_Letter)]
     case LISU_LETTER_YHA = "\u{11FB0}";
 }

@@ -16,678 +16,678 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Halfwidth_and_Fullwidth_Forms: string
 {
-    #[Info(id: 65281, name: 'FULLWIDTH EXCLAMATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF01, name: 'FULLWIDTH EXCLAMATION MARK', category: Cat::Other_Punctuation)]
     case FULLWIDTH_EXCLAMATION_MARK = "\u{FF01}";
 
-    #[Info(id: 65282, name: 'FULLWIDTH QUOTATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF02, name: 'FULLWIDTH QUOTATION MARK', category: Cat::Other_Punctuation)]
     case FULLWIDTH_QUOTATION_MARK = "\u{FF02}";
 
-    #[Info(id: 65283, name: 'FULLWIDTH NUMBER SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF03, name: 'FULLWIDTH NUMBER SIGN', category: Cat::Other_Punctuation)]
     case FULLWIDTH_NUMBER_SIGN = "\u{FF03}";
 
-    #[Info(id: 65284, name: 'FULLWIDTH DOLLAR SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xFF04, name: 'FULLWIDTH DOLLAR SIGN', category: Cat::Currency_Symbol)]
     case FULLWIDTH_DOLLAR_SIGN = "\u{FF04}";
 
-    #[Info(id: 65285, name: 'FULLWIDTH PERCENT SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF05, name: 'FULLWIDTH PERCENT SIGN', category: Cat::Other_Punctuation)]
     case FULLWIDTH_PERCENT_SIGN = "\u{FF05}";
 
-    #[Info(id: 65286, name: 'FULLWIDTH AMPERSAND', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF06, name: 'FULLWIDTH AMPERSAND', category: Cat::Other_Punctuation)]
     case FULLWIDTH_AMPERSAND = "\u{FF06}";
 
-    #[Info(id: 65287, name: 'FULLWIDTH APOSTROPHE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF07, name: 'FULLWIDTH APOSTROPHE', category: Cat::Other_Punctuation)]
     case FULLWIDTH_APOSTROPHE = "\u{FF07}";
 
-    #[Info(id: 65288, name: 'FULLWIDTH LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFF08, name: 'FULLWIDTH LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
     case FULLWIDTH_LEFT_PARENTHESIS = "\u{FF08}";
 
-    #[Info(id: 65289, name: 'FULLWIDTH RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFF09, name: 'FULLWIDTH RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
     case FULLWIDTH_RIGHT_PARENTHESIS = "\u{FF09}";
 
-    #[Info(id: 65290, name: 'FULLWIDTH ASTERISK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF0A, name: 'FULLWIDTH ASTERISK', category: Cat::Other_Punctuation)]
     case FULLWIDTH_ASTERISK = "\u{FF0A}";
 
-    #[Info(id: 65291, name: 'FULLWIDTH PLUS SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFF0B, name: 'FULLWIDTH PLUS SIGN', category: Cat::Math_Symbol)]
     case FULLWIDTH_PLUS_SIGN = "\u{FF0B}";
 
-    #[Info(id: 65292, name: 'FULLWIDTH COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF0C, name: 'FULLWIDTH COMMA', category: Cat::Other_Punctuation)]
     case FULLWIDTH_COMMA = "\u{FF0C}";
 
-    #[Info(id: 65293, name: 'FULLWIDTH HYPHEN-MINUS', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0xFF0D, name: 'FULLWIDTH HYPHEN-MINUS', category: Cat::Dash_Punctuation)]
     case FULLWIDTH_HYPHEN_MINUS = "\u{FF0D}";
 
-    #[Info(id: 65294, name: 'FULLWIDTH FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF0E, name: 'FULLWIDTH FULL STOP', category: Cat::Other_Punctuation)]
     case FULLWIDTH_FULL_STOP = "\u{FF0E}";
 
-    #[Info(id: 65295, name: 'FULLWIDTH SOLIDUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF0F, name: 'FULLWIDTH SOLIDUS', category: Cat::Other_Punctuation)]
     case FULLWIDTH_SOLIDUS = "\u{FF0F}";
 
-    #[Info(id: 65296, name: 'FULLWIDTH DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xFF10, name: 'FULLWIDTH DIGIT ZERO', category: Cat::Decimal_Number)]
     case FULLWIDTH_DIGIT_ZERO = "\u{FF10}";
 
-    #[Info(id: 65297, name: 'FULLWIDTH DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xFF11, name: 'FULLWIDTH DIGIT ONE', category: Cat::Decimal_Number)]
     case FULLWIDTH_DIGIT_ONE = "\u{FF11}";
 
-    #[Info(id: 65298, name: 'FULLWIDTH DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xFF12, name: 'FULLWIDTH DIGIT TWO', category: Cat::Decimal_Number)]
     case FULLWIDTH_DIGIT_TWO = "\u{FF12}";
 
-    #[Info(id: 65299, name: 'FULLWIDTH DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xFF13, name: 'FULLWIDTH DIGIT THREE', category: Cat::Decimal_Number)]
     case FULLWIDTH_DIGIT_THREE = "\u{FF13}";
 
-    #[Info(id: 65300, name: 'FULLWIDTH DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xFF14, name: 'FULLWIDTH DIGIT FOUR', category: Cat::Decimal_Number)]
     case FULLWIDTH_DIGIT_FOUR = "\u{FF14}";
 
-    #[Info(id: 65301, name: 'FULLWIDTH DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xFF15, name: 'FULLWIDTH DIGIT FIVE', category: Cat::Decimal_Number)]
     case FULLWIDTH_DIGIT_FIVE = "\u{FF15}";
 
-    #[Info(id: 65302, name: 'FULLWIDTH DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xFF16, name: 'FULLWIDTH DIGIT SIX', category: Cat::Decimal_Number)]
     case FULLWIDTH_DIGIT_SIX = "\u{FF16}";
 
-    #[Info(id: 65303, name: 'FULLWIDTH DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xFF17, name: 'FULLWIDTH DIGIT SEVEN', category: Cat::Decimal_Number)]
     case FULLWIDTH_DIGIT_SEVEN = "\u{FF17}";
 
-    #[Info(id: 65304, name: 'FULLWIDTH DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xFF18, name: 'FULLWIDTH DIGIT EIGHT', category: Cat::Decimal_Number)]
     case FULLWIDTH_DIGIT_EIGHT = "\u{FF18}";
 
-    #[Info(id: 65305, name: 'FULLWIDTH DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xFF19, name: 'FULLWIDTH DIGIT NINE', category: Cat::Decimal_Number)]
     case FULLWIDTH_DIGIT_NINE = "\u{FF19}";
 
-    #[Info(id: 65306, name: 'FULLWIDTH COLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF1A, name: 'FULLWIDTH COLON', category: Cat::Other_Punctuation)]
     case FULLWIDTH_COLON = "\u{FF1A}";
 
-    #[Info(id: 65307, name: 'FULLWIDTH SEMICOLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF1B, name: 'FULLWIDTH SEMICOLON', category: Cat::Other_Punctuation)]
     case FULLWIDTH_SEMICOLON = "\u{FF1B}";
 
-    #[Info(id: 65308, name: 'FULLWIDTH LESS-THAN SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFF1C, name: 'FULLWIDTH LESS-THAN SIGN', category: Cat::Math_Symbol)]
     case FULLWIDTH_LESS_THAN_SIGN = "\u{FF1C}";
 
-    #[Info(id: 65309, name: 'FULLWIDTH EQUALS SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFF1D, name: 'FULLWIDTH EQUALS SIGN', category: Cat::Math_Symbol)]
     case FULLWIDTH_EQUALS_SIGN = "\u{FF1D}";
 
-    #[Info(id: 65310, name: 'FULLWIDTH GREATER-THAN SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFF1E, name: 'FULLWIDTH GREATER-THAN SIGN', category: Cat::Math_Symbol)]
     case FULLWIDTH_GREATER_THAN_SIGN = "\u{FF1E}";
 
-    #[Info(id: 65311, name: 'FULLWIDTH QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF1F, name: 'FULLWIDTH QUESTION MARK', category: Cat::Other_Punctuation)]
     case FULLWIDTH_QUESTION_MARK = "\u{FF1F}";
 
-    #[Info(id: 65312, name: 'FULLWIDTH COMMERCIAL AT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF20, name: 'FULLWIDTH COMMERCIAL AT', category: Cat::Other_Punctuation)]
     case FULLWIDTH_COMMERCIAL_AT = "\u{FF20}";
 
-    #[Info(id: 65313, name: 'FULLWIDTH LATIN CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF21, name: 'FULLWIDTH LATIN CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_A = "\u{FF21}";
 
-    #[Info(id: 65314, name: 'FULLWIDTH LATIN CAPITAL LETTER B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF22, name: 'FULLWIDTH LATIN CAPITAL LETTER B', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_B = "\u{FF22}";
 
-    #[Info(id: 65315, name: 'FULLWIDTH LATIN CAPITAL LETTER C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF23, name: 'FULLWIDTH LATIN CAPITAL LETTER C', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_C = "\u{FF23}";
 
-    #[Info(id: 65316, name: 'FULLWIDTH LATIN CAPITAL LETTER D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF24, name: 'FULLWIDTH LATIN CAPITAL LETTER D', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_D = "\u{FF24}";
 
-    #[Info(id: 65317, name: 'FULLWIDTH LATIN CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF25, name: 'FULLWIDTH LATIN CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_E = "\u{FF25}";
 
-    #[Info(id: 65318, name: 'FULLWIDTH LATIN CAPITAL LETTER F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF26, name: 'FULLWIDTH LATIN CAPITAL LETTER F', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_F = "\u{FF26}";
 
-    #[Info(id: 65319, name: 'FULLWIDTH LATIN CAPITAL LETTER G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF27, name: 'FULLWIDTH LATIN CAPITAL LETTER G', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_G = "\u{FF27}";
 
-    #[Info(id: 65320, name: 'FULLWIDTH LATIN CAPITAL LETTER H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF28, name: 'FULLWIDTH LATIN CAPITAL LETTER H', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_H = "\u{FF28}";
 
-    #[Info(id: 65321, name: 'FULLWIDTH LATIN CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF29, name: 'FULLWIDTH LATIN CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_I = "\u{FF29}";
 
-    #[Info(id: 65322, name: 'FULLWIDTH LATIN CAPITAL LETTER J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF2A, name: 'FULLWIDTH LATIN CAPITAL LETTER J', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_J = "\u{FF2A}";
 
-    #[Info(id: 65323, name: 'FULLWIDTH LATIN CAPITAL LETTER K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF2B, name: 'FULLWIDTH LATIN CAPITAL LETTER K', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_K = "\u{FF2B}";
 
-    #[Info(id: 65324, name: 'FULLWIDTH LATIN CAPITAL LETTER L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF2C, name: 'FULLWIDTH LATIN CAPITAL LETTER L', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_L = "\u{FF2C}";
 
-    #[Info(id: 65325, name: 'FULLWIDTH LATIN CAPITAL LETTER M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF2D, name: 'FULLWIDTH LATIN CAPITAL LETTER M', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_M = "\u{FF2D}";
 
-    #[Info(id: 65326, name: 'FULLWIDTH LATIN CAPITAL LETTER N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF2E, name: 'FULLWIDTH LATIN CAPITAL LETTER N', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_N = "\u{FF2E}";
 
-    #[Info(id: 65327, name: 'FULLWIDTH LATIN CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF2F, name: 'FULLWIDTH LATIN CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_O = "\u{FF2F}";
 
-    #[Info(id: 65328, name: 'FULLWIDTH LATIN CAPITAL LETTER P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF30, name: 'FULLWIDTH LATIN CAPITAL LETTER P', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_P = "\u{FF30}";
 
-    #[Info(id: 65329, name: 'FULLWIDTH LATIN CAPITAL LETTER Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF31, name: 'FULLWIDTH LATIN CAPITAL LETTER Q', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_Q = "\u{FF31}";
 
-    #[Info(id: 65330, name: 'FULLWIDTH LATIN CAPITAL LETTER R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF32, name: 'FULLWIDTH LATIN CAPITAL LETTER R', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_R = "\u{FF32}";
 
-    #[Info(id: 65331, name: 'FULLWIDTH LATIN CAPITAL LETTER S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF33, name: 'FULLWIDTH LATIN CAPITAL LETTER S', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_S = "\u{FF33}";
 
-    #[Info(id: 65332, name: 'FULLWIDTH LATIN CAPITAL LETTER T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF34, name: 'FULLWIDTH LATIN CAPITAL LETTER T', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_T = "\u{FF34}";
 
-    #[Info(id: 65333, name: 'FULLWIDTH LATIN CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF35, name: 'FULLWIDTH LATIN CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_U = "\u{FF35}";
 
-    #[Info(id: 65334, name: 'FULLWIDTH LATIN CAPITAL LETTER V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF36, name: 'FULLWIDTH LATIN CAPITAL LETTER V', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_V = "\u{FF36}";
 
-    #[Info(id: 65335, name: 'FULLWIDTH LATIN CAPITAL LETTER W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF37, name: 'FULLWIDTH LATIN CAPITAL LETTER W', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_W = "\u{FF37}";
 
-    #[Info(id: 65336, name: 'FULLWIDTH LATIN CAPITAL LETTER X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF38, name: 'FULLWIDTH LATIN CAPITAL LETTER X', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_X = "\u{FF38}";
 
-    #[Info(id: 65337, name: 'FULLWIDTH LATIN CAPITAL LETTER Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF39, name: 'FULLWIDTH LATIN CAPITAL LETTER Y', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_Y = "\u{FF39}";
 
-    #[Info(id: 65338, name: 'FULLWIDTH LATIN CAPITAL LETTER Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xFF3A, name: 'FULLWIDTH LATIN CAPITAL LETTER Z', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_Z = "\u{FF3A}";
 
-    #[Info(id: 65339, name: 'FULLWIDTH LEFT SQUARE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFF3B, name: 'FULLWIDTH LEFT SQUARE BRACKET', category: Cat::Open_Punctuation)]
     case FULLWIDTH_LEFT_SQUARE_BRACKET = "\u{FF3B}";
 
-    #[Info(id: 65340, name: 'FULLWIDTH REVERSE SOLIDUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF3C, name: 'FULLWIDTH REVERSE SOLIDUS', category: Cat::Other_Punctuation)]
     case FULLWIDTH_REVERSE_SOLIDUS = "\u{FF3C}";
 
-    #[Info(id: 65341, name: 'FULLWIDTH RIGHT SQUARE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFF3D, name: 'FULLWIDTH RIGHT SQUARE BRACKET', category: Cat::Close_Punctuation)]
     case FULLWIDTH_RIGHT_SQUARE_BRACKET = "\u{FF3D}";
 
-    #[Info(id: 65342, name: 'FULLWIDTH CIRCUMFLEX ACCENT', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFF3E, name: 'FULLWIDTH CIRCUMFLEX ACCENT', category: Cat::Modifier_Symbol)]
     case FULLWIDTH_CIRCUMFLEX_ACCENT = "\u{FF3E}";
 
-    #[Info(id: 65343, name: 'FULLWIDTH LOW LINE', category: Cat::Connector_Punctuation)]
+    #[Info(id: 0xFF3F, name: 'FULLWIDTH LOW LINE', category: Cat::Connector_Punctuation)]
     case FULLWIDTH_LOW_LINE = "\u{FF3F}";
 
-    #[Info(id: 65344, name: 'FULLWIDTH GRAVE ACCENT', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFF40, name: 'FULLWIDTH GRAVE ACCENT', category: Cat::Modifier_Symbol)]
     case FULLWIDTH_GRAVE_ACCENT = "\u{FF40}";
 
-    #[Info(id: 65345, name: 'FULLWIDTH LATIN SMALL LETTER A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF41, name: 'FULLWIDTH LATIN SMALL LETTER A', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_A = "\u{FF41}";
 
-    #[Info(id: 65346, name: 'FULLWIDTH LATIN SMALL LETTER B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF42, name: 'FULLWIDTH LATIN SMALL LETTER B', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_B = "\u{FF42}";
 
-    #[Info(id: 65347, name: 'FULLWIDTH LATIN SMALL LETTER C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF43, name: 'FULLWIDTH LATIN SMALL LETTER C', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_C = "\u{FF43}";
 
-    #[Info(id: 65348, name: 'FULLWIDTH LATIN SMALL LETTER D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF44, name: 'FULLWIDTH LATIN SMALL LETTER D', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_D = "\u{FF44}";
 
-    #[Info(id: 65349, name: 'FULLWIDTH LATIN SMALL LETTER E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF45, name: 'FULLWIDTH LATIN SMALL LETTER E', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_E = "\u{FF45}";
 
-    #[Info(id: 65350, name: 'FULLWIDTH LATIN SMALL LETTER F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF46, name: 'FULLWIDTH LATIN SMALL LETTER F', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_F = "\u{FF46}";
 
-    #[Info(id: 65351, name: 'FULLWIDTH LATIN SMALL LETTER G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF47, name: 'FULLWIDTH LATIN SMALL LETTER G', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_G = "\u{FF47}";
 
-    #[Info(id: 65352, name: 'FULLWIDTH LATIN SMALL LETTER H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF48, name: 'FULLWIDTH LATIN SMALL LETTER H', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_H = "\u{FF48}";
 
-    #[Info(id: 65353, name: 'FULLWIDTH LATIN SMALL LETTER I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF49, name: 'FULLWIDTH LATIN SMALL LETTER I', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_I = "\u{FF49}";
 
-    #[Info(id: 65354, name: 'FULLWIDTH LATIN SMALL LETTER J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF4A, name: 'FULLWIDTH LATIN SMALL LETTER J', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_J = "\u{FF4A}";
 
-    #[Info(id: 65355, name: 'FULLWIDTH LATIN SMALL LETTER K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF4B, name: 'FULLWIDTH LATIN SMALL LETTER K', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_K = "\u{FF4B}";
 
-    #[Info(id: 65356, name: 'FULLWIDTH LATIN SMALL LETTER L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF4C, name: 'FULLWIDTH LATIN SMALL LETTER L', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_L = "\u{FF4C}";
 
-    #[Info(id: 65357, name: 'FULLWIDTH LATIN SMALL LETTER M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF4D, name: 'FULLWIDTH LATIN SMALL LETTER M', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_M = "\u{FF4D}";
 
-    #[Info(id: 65358, name: 'FULLWIDTH LATIN SMALL LETTER N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF4E, name: 'FULLWIDTH LATIN SMALL LETTER N', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_N = "\u{FF4E}";
 
-    #[Info(id: 65359, name: 'FULLWIDTH LATIN SMALL LETTER O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF4F, name: 'FULLWIDTH LATIN SMALL LETTER O', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_O = "\u{FF4F}";
 
-    #[Info(id: 65360, name: 'FULLWIDTH LATIN SMALL LETTER P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF50, name: 'FULLWIDTH LATIN SMALL LETTER P', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_P = "\u{FF50}";
 
-    #[Info(id: 65361, name: 'FULLWIDTH LATIN SMALL LETTER Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF51, name: 'FULLWIDTH LATIN SMALL LETTER Q', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_Q = "\u{FF51}";
 
-    #[Info(id: 65362, name: 'FULLWIDTH LATIN SMALL LETTER R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF52, name: 'FULLWIDTH LATIN SMALL LETTER R', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_R = "\u{FF52}";
 
-    #[Info(id: 65363, name: 'FULLWIDTH LATIN SMALL LETTER S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF53, name: 'FULLWIDTH LATIN SMALL LETTER S', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_S = "\u{FF53}";
 
-    #[Info(id: 65364, name: 'FULLWIDTH LATIN SMALL LETTER T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF54, name: 'FULLWIDTH LATIN SMALL LETTER T', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_T = "\u{FF54}";
 
-    #[Info(id: 65365, name: 'FULLWIDTH LATIN SMALL LETTER U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF55, name: 'FULLWIDTH LATIN SMALL LETTER U', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_U = "\u{FF55}";
 
-    #[Info(id: 65366, name: 'FULLWIDTH LATIN SMALL LETTER V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF56, name: 'FULLWIDTH LATIN SMALL LETTER V', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_V = "\u{FF56}";
 
-    #[Info(id: 65367, name: 'FULLWIDTH LATIN SMALL LETTER W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF57, name: 'FULLWIDTH LATIN SMALL LETTER W', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_W = "\u{FF57}";
 
-    #[Info(id: 65368, name: 'FULLWIDTH LATIN SMALL LETTER X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF58, name: 'FULLWIDTH LATIN SMALL LETTER X', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_X = "\u{FF58}";
 
-    #[Info(id: 65369, name: 'FULLWIDTH LATIN SMALL LETTER Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF59, name: 'FULLWIDTH LATIN SMALL LETTER Y', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_Y = "\u{FF59}";
 
-    #[Info(id: 65370, name: 'FULLWIDTH LATIN SMALL LETTER Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF5A, name: 'FULLWIDTH LATIN SMALL LETTER Z', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_Z = "\u{FF5A}";
 
-    #[Info(id: 65371, name: 'FULLWIDTH LEFT CURLY BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFF5B, name: 'FULLWIDTH LEFT CURLY BRACKET', category: Cat::Open_Punctuation)]
     case FULLWIDTH_LEFT_CURLY_BRACKET = "\u{FF5B}";
 
-    #[Info(id: 65372, name: 'FULLWIDTH VERTICAL LINE', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFF5C, name: 'FULLWIDTH VERTICAL LINE', category: Cat::Math_Symbol)]
     case FULLWIDTH_VERTICAL_LINE = "\u{FF5C}";
 
-    #[Info(id: 65373, name: 'FULLWIDTH RIGHT CURLY BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFF5D, name: 'FULLWIDTH RIGHT CURLY BRACKET', category: Cat::Close_Punctuation)]
     case FULLWIDTH_RIGHT_CURLY_BRACKET = "\u{FF5D}";
 
-    #[Info(id: 65374, name: 'FULLWIDTH TILDE', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFF5E, name: 'FULLWIDTH TILDE', category: Cat::Math_Symbol)]
     case FULLWIDTH_TILDE = "\u{FF5E}";
 
-    #[Info(id: 65375, name: 'FULLWIDTH LEFT WHITE PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFF5F, name: 'FULLWIDTH LEFT WHITE PARENTHESIS', category: Cat::Open_Punctuation)]
     case FULLWIDTH_LEFT_WHITE_PARENTHESIS = "\u{FF5F}";
 
-    #[Info(id: 65376, name: 'FULLWIDTH RIGHT WHITE PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFF60, name: 'FULLWIDTH RIGHT WHITE PARENTHESIS', category: Cat::Close_Punctuation)]
     case FULLWIDTH_RIGHT_WHITE_PARENTHESIS = "\u{FF60}";
 
-    #[Info(id: 65377, name: 'HALFWIDTH IDEOGRAPHIC FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF61, name: 'HALFWIDTH IDEOGRAPHIC FULL STOP', category: Cat::Other_Punctuation)]
     case HALFWIDTH_IDEOGRAPHIC_FULL_STOP = "\u{FF61}";
 
-    #[Info(id: 65378, name: 'HALFWIDTH LEFT CORNER BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFF62, name: 'HALFWIDTH LEFT CORNER BRACKET', category: Cat::Open_Punctuation)]
     case HALFWIDTH_LEFT_CORNER_BRACKET = "\u{FF62}";
 
-    #[Info(id: 65379, name: 'HALFWIDTH RIGHT CORNER BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFF63, name: 'HALFWIDTH RIGHT CORNER BRACKET', category: Cat::Close_Punctuation)]
     case HALFWIDTH_RIGHT_CORNER_BRACKET = "\u{FF63}";
 
-    #[Info(id: 65380, name: 'HALFWIDTH IDEOGRAPHIC COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF64, name: 'HALFWIDTH IDEOGRAPHIC COMMA', category: Cat::Other_Punctuation)]
     case HALFWIDTH_IDEOGRAPHIC_COMMA = "\u{FF64}";
 
-    #[Info(id: 65381, name: 'HALFWIDTH KATAKANA MIDDLE DOT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF65, name: 'HALFWIDTH KATAKANA MIDDLE DOT', category: Cat::Other_Punctuation)]
     case HALFWIDTH_KATAKANA_MIDDLE_DOT = "\u{FF65}";
 
-    #[Info(id: 65382, name: 'HALFWIDTH KATAKANA LETTER WO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF66, name: 'HALFWIDTH KATAKANA LETTER WO', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_WO = "\u{FF66}";
 
-    #[Info(id: 65383, name: 'HALFWIDTH KATAKANA LETTER SMALL A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF67, name: 'HALFWIDTH KATAKANA LETTER SMALL A', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SMALL_A = "\u{FF67}";
 
-    #[Info(id: 65384, name: 'HALFWIDTH KATAKANA LETTER SMALL I', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF68, name: 'HALFWIDTH KATAKANA LETTER SMALL I', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SMALL_I = "\u{FF68}";
 
-    #[Info(id: 65385, name: 'HALFWIDTH KATAKANA LETTER SMALL U', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF69, name: 'HALFWIDTH KATAKANA LETTER SMALL U', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SMALL_U = "\u{FF69}";
 
-    #[Info(id: 65386, name: 'HALFWIDTH KATAKANA LETTER SMALL E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF6A, name: 'HALFWIDTH KATAKANA LETTER SMALL E', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SMALL_E = "\u{FF6A}";
 
-    #[Info(id: 65387, name: 'HALFWIDTH KATAKANA LETTER SMALL O', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF6B, name: 'HALFWIDTH KATAKANA LETTER SMALL O', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SMALL_O = "\u{FF6B}";
 
-    #[Info(id: 65388, name: 'HALFWIDTH KATAKANA LETTER SMALL YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF6C, name: 'HALFWIDTH KATAKANA LETTER SMALL YA', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SMALL_YA = "\u{FF6C}";
 
-    #[Info(id: 65389, name: 'HALFWIDTH KATAKANA LETTER SMALL YU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF6D, name: 'HALFWIDTH KATAKANA LETTER SMALL YU', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SMALL_YU = "\u{FF6D}";
 
-    #[Info(id: 65390, name: 'HALFWIDTH KATAKANA LETTER SMALL YO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF6E, name: 'HALFWIDTH KATAKANA LETTER SMALL YO', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SMALL_YO = "\u{FF6E}";
 
-    #[Info(id: 65391, name: 'HALFWIDTH KATAKANA LETTER SMALL TU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF6F, name: 'HALFWIDTH KATAKANA LETTER SMALL TU', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SMALL_TU = "\u{FF6F}";
 
-    #[Info(id: 65392, name: 'HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xFF70, name: 'HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK', category: Cat::Modifier_Letter)]
     case HALFWIDTH_KATAKANA_HIRAGANA_PROLONGED_SOUND_MARK = "\u{FF70}";
 
-    #[Info(id: 65393, name: 'HALFWIDTH KATAKANA LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF71, name: 'HALFWIDTH KATAKANA LETTER A', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_A = "\u{FF71}";
 
-    #[Info(id: 65394, name: 'HALFWIDTH KATAKANA LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF72, name: 'HALFWIDTH KATAKANA LETTER I', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_I = "\u{FF72}";
 
-    #[Info(id: 65395, name: 'HALFWIDTH KATAKANA LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF73, name: 'HALFWIDTH KATAKANA LETTER U', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_U = "\u{FF73}";
 
-    #[Info(id: 65396, name: 'HALFWIDTH KATAKANA LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF74, name: 'HALFWIDTH KATAKANA LETTER E', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_E = "\u{FF74}";
 
-    #[Info(id: 65397, name: 'HALFWIDTH KATAKANA LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF75, name: 'HALFWIDTH KATAKANA LETTER O', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_O = "\u{FF75}";
 
-    #[Info(id: 65398, name: 'HALFWIDTH KATAKANA LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF76, name: 'HALFWIDTH KATAKANA LETTER KA', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_KA = "\u{FF76}";
 
-    #[Info(id: 65399, name: 'HALFWIDTH KATAKANA LETTER KI', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF77, name: 'HALFWIDTH KATAKANA LETTER KI', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_KI = "\u{FF77}";
 
-    #[Info(id: 65400, name: 'HALFWIDTH KATAKANA LETTER KU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF78, name: 'HALFWIDTH KATAKANA LETTER KU', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_KU = "\u{FF78}";
 
-    #[Info(id: 65401, name: 'HALFWIDTH KATAKANA LETTER KE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF79, name: 'HALFWIDTH KATAKANA LETTER KE', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_KE = "\u{FF79}";
 
-    #[Info(id: 65402, name: 'HALFWIDTH KATAKANA LETTER KO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF7A, name: 'HALFWIDTH KATAKANA LETTER KO', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_KO = "\u{FF7A}";
 
-    #[Info(id: 65403, name: 'HALFWIDTH KATAKANA LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF7B, name: 'HALFWIDTH KATAKANA LETTER SA', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SA = "\u{FF7B}";
 
-    #[Info(id: 65404, name: 'HALFWIDTH KATAKANA LETTER SI', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF7C, name: 'HALFWIDTH KATAKANA LETTER SI', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SI = "\u{FF7C}";
 
-    #[Info(id: 65405, name: 'HALFWIDTH KATAKANA LETTER SU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF7D, name: 'HALFWIDTH KATAKANA LETTER SU', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SU = "\u{FF7D}";
 
-    #[Info(id: 65406, name: 'HALFWIDTH KATAKANA LETTER SE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF7E, name: 'HALFWIDTH KATAKANA LETTER SE', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SE = "\u{FF7E}";
 
-    #[Info(id: 65407, name: 'HALFWIDTH KATAKANA LETTER SO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF7F, name: 'HALFWIDTH KATAKANA LETTER SO', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_SO = "\u{FF7F}";
 
-    #[Info(id: 65408, name: 'HALFWIDTH KATAKANA LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF80, name: 'HALFWIDTH KATAKANA LETTER TA', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_TA = "\u{FF80}";
 
-    #[Info(id: 65409, name: 'HALFWIDTH KATAKANA LETTER TI', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF81, name: 'HALFWIDTH KATAKANA LETTER TI', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_TI = "\u{FF81}";
 
-    #[Info(id: 65410, name: 'HALFWIDTH KATAKANA LETTER TU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF82, name: 'HALFWIDTH KATAKANA LETTER TU', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_TU = "\u{FF82}";
 
-    #[Info(id: 65411, name: 'HALFWIDTH KATAKANA LETTER TE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF83, name: 'HALFWIDTH KATAKANA LETTER TE', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_TE = "\u{FF83}";
 
-    #[Info(id: 65412, name: 'HALFWIDTH KATAKANA LETTER TO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF84, name: 'HALFWIDTH KATAKANA LETTER TO', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_TO = "\u{FF84}";
 
-    #[Info(id: 65413, name: 'HALFWIDTH KATAKANA LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF85, name: 'HALFWIDTH KATAKANA LETTER NA', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_NA = "\u{FF85}";
 
-    #[Info(id: 65414, name: 'HALFWIDTH KATAKANA LETTER NI', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF86, name: 'HALFWIDTH KATAKANA LETTER NI', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_NI = "\u{FF86}";
 
-    #[Info(id: 65415, name: 'HALFWIDTH KATAKANA LETTER NU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF87, name: 'HALFWIDTH KATAKANA LETTER NU', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_NU = "\u{FF87}";
 
-    #[Info(id: 65416, name: 'HALFWIDTH KATAKANA LETTER NE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF88, name: 'HALFWIDTH KATAKANA LETTER NE', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_NE = "\u{FF88}";
 
-    #[Info(id: 65417, name: 'HALFWIDTH KATAKANA LETTER NO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF89, name: 'HALFWIDTH KATAKANA LETTER NO', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_NO = "\u{FF89}";
 
-    #[Info(id: 65418, name: 'HALFWIDTH KATAKANA LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF8A, name: 'HALFWIDTH KATAKANA LETTER HA', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_HA = "\u{FF8A}";
 
-    #[Info(id: 65419, name: 'HALFWIDTH KATAKANA LETTER HI', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF8B, name: 'HALFWIDTH KATAKANA LETTER HI', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_HI = "\u{FF8B}";
 
-    #[Info(id: 65420, name: 'HALFWIDTH KATAKANA LETTER HU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF8C, name: 'HALFWIDTH KATAKANA LETTER HU', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_HU = "\u{FF8C}";
 
-    #[Info(id: 65421, name: 'HALFWIDTH KATAKANA LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF8D, name: 'HALFWIDTH KATAKANA LETTER HE', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_HE = "\u{FF8D}";
 
-    #[Info(id: 65422, name: 'HALFWIDTH KATAKANA LETTER HO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF8E, name: 'HALFWIDTH KATAKANA LETTER HO', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_HO = "\u{FF8E}";
 
-    #[Info(id: 65423, name: 'HALFWIDTH KATAKANA LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF8F, name: 'HALFWIDTH KATAKANA LETTER MA', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_MA = "\u{FF8F}";
 
-    #[Info(id: 65424, name: 'HALFWIDTH KATAKANA LETTER MI', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF90, name: 'HALFWIDTH KATAKANA LETTER MI', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_MI = "\u{FF90}";
 
-    #[Info(id: 65425, name: 'HALFWIDTH KATAKANA LETTER MU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF91, name: 'HALFWIDTH KATAKANA LETTER MU', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_MU = "\u{FF91}";
 
-    #[Info(id: 65426, name: 'HALFWIDTH KATAKANA LETTER ME', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF92, name: 'HALFWIDTH KATAKANA LETTER ME', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_ME = "\u{FF92}";
 
-    #[Info(id: 65427, name: 'HALFWIDTH KATAKANA LETTER MO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF93, name: 'HALFWIDTH KATAKANA LETTER MO', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_MO = "\u{FF93}";
 
-    #[Info(id: 65428, name: 'HALFWIDTH KATAKANA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF94, name: 'HALFWIDTH KATAKANA LETTER YA', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_YA = "\u{FF94}";
 
-    #[Info(id: 65429, name: 'HALFWIDTH KATAKANA LETTER YU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF95, name: 'HALFWIDTH KATAKANA LETTER YU', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_YU = "\u{FF95}";
 
-    #[Info(id: 65430, name: 'HALFWIDTH KATAKANA LETTER YO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF96, name: 'HALFWIDTH KATAKANA LETTER YO', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_YO = "\u{FF96}";
 
-    #[Info(id: 65431, name: 'HALFWIDTH KATAKANA LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF97, name: 'HALFWIDTH KATAKANA LETTER RA', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_RA = "\u{FF97}";
 
-    #[Info(id: 65432, name: 'HALFWIDTH KATAKANA LETTER RI', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF98, name: 'HALFWIDTH KATAKANA LETTER RI', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_RI = "\u{FF98}";
 
-    #[Info(id: 65433, name: 'HALFWIDTH KATAKANA LETTER RU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF99, name: 'HALFWIDTH KATAKANA LETTER RU', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_RU = "\u{FF99}";
 
-    #[Info(id: 65434, name: 'HALFWIDTH KATAKANA LETTER RE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF9A, name: 'HALFWIDTH KATAKANA LETTER RE', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_RE = "\u{FF9A}";
 
-    #[Info(id: 65435, name: 'HALFWIDTH KATAKANA LETTER RO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF9B, name: 'HALFWIDTH KATAKANA LETTER RO', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_RO = "\u{FF9B}";
 
-    #[Info(id: 65436, name: 'HALFWIDTH KATAKANA LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF9C, name: 'HALFWIDTH KATAKANA LETTER WA', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_WA = "\u{FF9C}";
 
-    #[Info(id: 65437, name: 'HALFWIDTH KATAKANA LETTER N', category: Cat::Other_Letter)]
+    #[Info(id: 0xFF9D, name: 'HALFWIDTH KATAKANA LETTER N', category: Cat::Other_Letter)]
     case HALFWIDTH_KATAKANA_LETTER_N = "\u{FF9D}";
 
-    #[Info(id: 65438, name: 'HALFWIDTH KATAKANA VOICED SOUND MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xFF9E, name: 'HALFWIDTH KATAKANA VOICED SOUND MARK', category: Cat::Modifier_Letter)]
     case HALFWIDTH_KATAKANA_VOICED_SOUND_MARK = "\u{FF9E}";
 
-    #[Info(id: 65439, name: 'HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xFF9F, name: 'HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK', category: Cat::Modifier_Letter)]
     case HALFWIDTH_KATAKANA_SEMI_VOICED_SOUND_MARK = "\u{FF9F}";
 
-    #[Info(id: 65440, name: 'HALFWIDTH HANGUL FILLER', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA0, name: 'HALFWIDTH HANGUL FILLER', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_FILLER = "\u{FFA0}";
 
-    #[Info(id: 65441, name: 'HALFWIDTH HANGUL LETTER KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA1, name: 'HALFWIDTH HANGUL LETTER KIYEOK', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_KIYEOK = "\u{FFA1}";
 
-    #[Info(id: 65442, name: 'HALFWIDTH HANGUL LETTER SSANGKIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA2, name: 'HALFWIDTH HANGUL LETTER SSANGKIYEOK', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_SSANGKIYEOK = "\u{FFA2}";
 
-    #[Info(id: 65443, name: 'HALFWIDTH HANGUL LETTER KIYEOK-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA3, name: 'HALFWIDTH HANGUL LETTER KIYEOK-SIOS', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_KIYEOK_SIOS = "\u{FFA3}";
 
-    #[Info(id: 65444, name: 'HALFWIDTH HANGUL LETTER NIEUN', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA4, name: 'HALFWIDTH HANGUL LETTER NIEUN', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_NIEUN = "\u{FFA4}";
 
-    #[Info(id: 65445, name: 'HALFWIDTH HANGUL LETTER NIEUN-CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA5, name: 'HALFWIDTH HANGUL LETTER NIEUN-CIEUC', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_NIEUN_CIEUC = "\u{FFA5}";
 
-    #[Info(id: 65446, name: 'HALFWIDTH HANGUL LETTER NIEUN-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA6, name: 'HALFWIDTH HANGUL LETTER NIEUN-HIEUH', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_NIEUN_HIEUH = "\u{FFA6}";
 
-    #[Info(id: 65447, name: 'HALFWIDTH HANGUL LETTER TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA7, name: 'HALFWIDTH HANGUL LETTER TIKEUT', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_TIKEUT = "\u{FFA7}";
 
-    #[Info(id: 65448, name: 'HALFWIDTH HANGUL LETTER SSANGTIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA8, name: 'HALFWIDTH HANGUL LETTER SSANGTIKEUT', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_SSANGTIKEUT = "\u{FFA8}";
 
-    #[Info(id: 65449, name: 'HALFWIDTH HANGUL LETTER RIEUL', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA9, name: 'HALFWIDTH HANGUL LETTER RIEUL', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_RIEUL = "\u{FFA9}";
 
-    #[Info(id: 65450, name: 'HALFWIDTH HANGUL LETTER RIEUL-KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAA, name: 'HALFWIDTH HANGUL LETTER RIEUL-KIYEOK', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_KIYEOK = "\u{FFAA}";
 
-    #[Info(id: 65451, name: 'HALFWIDTH HANGUL LETTER RIEUL-MIEUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAB, name: 'HALFWIDTH HANGUL LETTER RIEUL-MIEUM', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_MIEUM = "\u{FFAB}";
 
-    #[Info(id: 65452, name: 'HALFWIDTH HANGUL LETTER RIEUL-PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAC, name: 'HALFWIDTH HANGUL LETTER RIEUL-PIEUP', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_PIEUP = "\u{FFAC}";
 
-    #[Info(id: 65453, name: 'HALFWIDTH HANGUL LETTER RIEUL-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAD, name: 'HALFWIDTH HANGUL LETTER RIEUL-SIOS', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_SIOS = "\u{FFAD}";
 
-    #[Info(id: 65454, name: 'HALFWIDTH HANGUL LETTER RIEUL-THIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAE, name: 'HALFWIDTH HANGUL LETTER RIEUL-THIEUTH', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_THIEUTH = "\u{FFAE}";
 
-    #[Info(id: 65455, name: 'HALFWIDTH HANGUL LETTER RIEUL-PHIEUPH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAF, name: 'HALFWIDTH HANGUL LETTER RIEUL-PHIEUPH', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_PHIEUPH = "\u{FFAF}";
 
-    #[Info(id: 65456, name: 'HALFWIDTH HANGUL LETTER RIEUL-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB0, name: 'HALFWIDTH HANGUL LETTER RIEUL-HIEUH', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_HIEUH = "\u{FFB0}";
 
-    #[Info(id: 65457, name: 'HALFWIDTH HANGUL LETTER MIEUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB1, name: 'HALFWIDTH HANGUL LETTER MIEUM', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_MIEUM = "\u{FFB1}";
 
-    #[Info(id: 65458, name: 'HALFWIDTH HANGUL LETTER PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB2, name: 'HALFWIDTH HANGUL LETTER PIEUP', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_PIEUP = "\u{FFB2}";
 
-    #[Info(id: 65459, name: 'HALFWIDTH HANGUL LETTER SSANGPIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB3, name: 'HALFWIDTH HANGUL LETTER SSANGPIEUP', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_SSANGPIEUP = "\u{FFB3}";
 
-    #[Info(id: 65460, name: 'HALFWIDTH HANGUL LETTER PIEUP-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB4, name: 'HALFWIDTH HANGUL LETTER PIEUP-SIOS', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_PIEUP_SIOS = "\u{FFB4}";
 
-    #[Info(id: 65461, name: 'HALFWIDTH HANGUL LETTER SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB5, name: 'HALFWIDTH HANGUL LETTER SIOS', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_SIOS = "\u{FFB5}";
 
-    #[Info(id: 65462, name: 'HALFWIDTH HANGUL LETTER SSANGSIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB6, name: 'HALFWIDTH HANGUL LETTER SSANGSIOS', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_SSANGSIOS = "\u{FFB6}";
 
-    #[Info(id: 65463, name: 'HALFWIDTH HANGUL LETTER IEUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB7, name: 'HALFWIDTH HANGUL LETTER IEUNG', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_IEUNG = "\u{FFB7}";
 
-    #[Info(id: 65464, name: 'HALFWIDTH HANGUL LETTER CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB8, name: 'HALFWIDTH HANGUL LETTER CIEUC', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_CIEUC = "\u{FFB8}";
 
-    #[Info(id: 65465, name: 'HALFWIDTH HANGUL LETTER SSANGCIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB9, name: 'HALFWIDTH HANGUL LETTER SSANGCIEUC', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_SSANGCIEUC = "\u{FFB9}";
 
-    #[Info(id: 65466, name: 'HALFWIDTH HANGUL LETTER CHIEUCH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFBA, name: 'HALFWIDTH HANGUL LETTER CHIEUCH', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_CHIEUCH = "\u{FFBA}";
 
-    #[Info(id: 65467, name: 'HALFWIDTH HANGUL LETTER KHIEUKH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFBB, name: 'HALFWIDTH HANGUL LETTER KHIEUKH', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_KHIEUKH = "\u{FFBB}";
 
-    #[Info(id: 65468, name: 'HALFWIDTH HANGUL LETTER THIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFBC, name: 'HALFWIDTH HANGUL LETTER THIEUTH', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_THIEUTH = "\u{FFBC}";
 
-    #[Info(id: 65469, name: 'HALFWIDTH HANGUL LETTER PHIEUPH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFBD, name: 'HALFWIDTH HANGUL LETTER PHIEUPH', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_PHIEUPH = "\u{FFBD}";
 
-    #[Info(id: 65470, name: 'HALFWIDTH HANGUL LETTER HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFBE, name: 'HALFWIDTH HANGUL LETTER HIEUH', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_HIEUH = "\u{FFBE}";
 
-    #[Info(id: 65474, name: 'HALFWIDTH HANGUL LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFC2, name: 'HALFWIDTH HANGUL LETTER A', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_A = "\u{FFC2}";
 
-    #[Info(id: 65475, name: 'HALFWIDTH HANGUL LETTER AE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFC3, name: 'HALFWIDTH HANGUL LETTER AE', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_AE = "\u{FFC3}";
 
-    #[Info(id: 65476, name: 'HALFWIDTH HANGUL LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFC4, name: 'HALFWIDTH HANGUL LETTER YA', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_YA = "\u{FFC4}";
 
-    #[Info(id: 65477, name: 'HALFWIDTH HANGUL LETTER YAE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFC5, name: 'HALFWIDTH HANGUL LETTER YAE', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_YAE = "\u{FFC5}";
 
-    #[Info(id: 65478, name: 'HALFWIDTH HANGUL LETTER EO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFC6, name: 'HALFWIDTH HANGUL LETTER EO', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_EO = "\u{FFC6}";
 
-    #[Info(id: 65479, name: 'HALFWIDTH HANGUL LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFC7, name: 'HALFWIDTH HANGUL LETTER E', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_E = "\u{FFC7}";
 
-    #[Info(id: 65482, name: 'HALFWIDTH HANGUL LETTER YEO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFCA, name: 'HALFWIDTH HANGUL LETTER YEO', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_YEO = "\u{FFCA}";
 
-    #[Info(id: 65483, name: 'HALFWIDTH HANGUL LETTER YE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFCB, name: 'HALFWIDTH HANGUL LETTER YE', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_YE = "\u{FFCB}";
 
-    #[Info(id: 65484, name: 'HALFWIDTH HANGUL LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFCC, name: 'HALFWIDTH HANGUL LETTER O', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_O = "\u{FFCC}";
 
-    #[Info(id: 65485, name: 'HALFWIDTH HANGUL LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFCD, name: 'HALFWIDTH HANGUL LETTER WA', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_WA = "\u{FFCD}";
 
-    #[Info(id: 65486, name: 'HALFWIDTH HANGUL LETTER WAE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFCE, name: 'HALFWIDTH HANGUL LETTER WAE', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_WAE = "\u{FFCE}";
 
-    #[Info(id: 65487, name: 'HALFWIDTH HANGUL LETTER OE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFCF, name: 'HALFWIDTH HANGUL LETTER OE', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_OE = "\u{FFCF}";
 
-    #[Info(id: 65490, name: 'HALFWIDTH HANGUL LETTER YO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFD2, name: 'HALFWIDTH HANGUL LETTER YO', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_YO = "\u{FFD2}";
 
-    #[Info(id: 65491, name: 'HALFWIDTH HANGUL LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFD3, name: 'HALFWIDTH HANGUL LETTER U', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_U = "\u{FFD3}";
 
-    #[Info(id: 65492, name: 'HALFWIDTH HANGUL LETTER WEO', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFD4, name: 'HALFWIDTH HANGUL LETTER WEO', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_WEO = "\u{FFD4}";
 
-    #[Info(id: 65493, name: 'HALFWIDTH HANGUL LETTER WE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFD5, name: 'HALFWIDTH HANGUL LETTER WE', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_WE = "\u{FFD5}";
 
-    #[Info(id: 65494, name: 'HALFWIDTH HANGUL LETTER WI', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFD6, name: 'HALFWIDTH HANGUL LETTER WI', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_WI = "\u{FFD6}";
 
-    #[Info(id: 65495, name: 'HALFWIDTH HANGUL LETTER YU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFD7, name: 'HALFWIDTH HANGUL LETTER YU', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_YU = "\u{FFD7}";
 
-    #[Info(id: 65498, name: 'HALFWIDTH HANGUL LETTER EU', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFDA, name: 'HALFWIDTH HANGUL LETTER EU', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_EU = "\u{FFDA}";
 
-    #[Info(id: 65499, name: 'HALFWIDTH HANGUL LETTER YI', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFDB, name: 'HALFWIDTH HANGUL LETTER YI', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_YI = "\u{FFDB}";
 
-    #[Info(id: 65500, name: 'HALFWIDTH HANGUL LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFDC, name: 'HALFWIDTH HANGUL LETTER I', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_I = "\u{FFDC}";
 
-    #[Info(id: 65504, name: 'FULLWIDTH CENT SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xFFE0, name: 'FULLWIDTH CENT SIGN', category: Cat::Currency_Symbol)]
     case FULLWIDTH_CENT_SIGN = "\u{FFE0}";
 
-    #[Info(id: 65505, name: 'FULLWIDTH POUND SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xFFE1, name: 'FULLWIDTH POUND SIGN', category: Cat::Currency_Symbol)]
     case FULLWIDTH_POUND_SIGN = "\u{FFE1}";
 
-    #[Info(id: 65506, name: 'FULLWIDTH NOT SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFFE2, name: 'FULLWIDTH NOT SIGN', category: Cat::Math_Symbol)]
     case FULLWIDTH_NOT_SIGN = "\u{FFE2}";
 
-    #[Info(id: 65507, name: 'FULLWIDTH MACRON', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFFE3, name: 'FULLWIDTH MACRON', category: Cat::Modifier_Symbol)]
     case FULLWIDTH_MACRON = "\u{FFE3}";
 
-    #[Info(id: 65508, name: 'FULLWIDTH BROKEN BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFFE4, name: 'FULLWIDTH BROKEN BAR', category: Cat::Other_Symbol)]
     case FULLWIDTH_BROKEN_BAR = "\u{FFE4}";
 
-    #[Info(id: 65509, name: 'FULLWIDTH YEN SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xFFE5, name: 'FULLWIDTH YEN SIGN', category: Cat::Currency_Symbol)]
     case FULLWIDTH_YEN_SIGN = "\u{FFE5}";
 
-    #[Info(id: 65510, name: 'FULLWIDTH WON SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xFFE6, name: 'FULLWIDTH WON SIGN', category: Cat::Currency_Symbol)]
     case FULLWIDTH_WON_SIGN = "\u{FFE6}";
 
-    #[Info(id: 65512, name: 'HALFWIDTH FORMS LIGHT VERTICAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFFE8, name: 'HALFWIDTH FORMS LIGHT VERTICAL', category: Cat::Other_Symbol)]
     case HALFWIDTH_FORMS_LIGHT_VERTICAL = "\u{FFE8}";
 
-    #[Info(id: 65513, name: 'HALFWIDTH LEFTWARDS ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFFE9, name: 'HALFWIDTH LEFTWARDS ARROW', category: Cat::Math_Symbol)]
     case HALFWIDTH_LEFTWARDS_ARROW = "\u{FFE9}";
 
-    #[Info(id: 65514, name: 'HALFWIDTH UPWARDS ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFFEA, name: 'HALFWIDTH UPWARDS ARROW', category: Cat::Math_Symbol)]
     case HALFWIDTH_UPWARDS_ARROW = "\u{FFEA}";
 
-    #[Info(id: 65515, name: 'HALFWIDTH RIGHTWARDS ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFFEB, name: 'HALFWIDTH RIGHTWARDS ARROW', category: Cat::Math_Symbol)]
     case HALFWIDTH_RIGHTWARDS_ARROW = "\u{FFEB}";
 
-    #[Info(id: 65516, name: 'HALFWIDTH DOWNWARDS ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFFEC, name: 'HALFWIDTH DOWNWARDS ARROW', category: Cat::Math_Symbol)]
     case HALFWIDTH_DOWNWARDS_ARROW = "\u{FFEC}";
 
-    #[Info(id: 65517, name: 'HALFWIDTH BLACK SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFFED, name: 'HALFWIDTH BLACK SQUARE', category: Cat::Other_Symbol)]
     case HALFWIDTH_BLACK_SQUARE = "\u{FFED}";
 
-    #[Info(id: 65518, name: 'HALFWIDTH WHITE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFFEE, name: 'HALFWIDTH WHITE CIRCLE', category: Cat::Other_Symbol)]
     case HALFWIDTH_WHITE_CIRCLE = "\u{FFEE}";
 }

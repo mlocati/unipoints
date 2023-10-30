@@ -16,183 +16,183 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Latin_ExtendedE: string
 {
-    #[Info(id: 43824, name: 'LATIN SMALL LETTER BARRED ALPHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB30, name: 'LATIN SMALL LETTER BARRED ALPHA', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_BARRED_ALPHA = "\u{AB30}";
 
-    #[Info(id: 43825, name: 'LATIN SMALL LETTER A REVERSED-SCHWA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB31, name: 'LATIN SMALL LETTER A REVERSED-SCHWA', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_A_REVERSED_SCHWA = "\u{AB31}";
 
-    #[Info(id: 43826, name: 'LATIN SMALL LETTER BLACKLETTER E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB32, name: 'LATIN SMALL LETTER BLACKLETTER E', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_BLACKLETTER_E = "\u{AB32}";
 
-    #[Info(id: 43827, name: 'LATIN SMALL LETTER BARRED E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB33, name: 'LATIN SMALL LETTER BARRED E', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_BARRED_E = "\u{AB33}";
 
-    #[Info(id: 43828, name: 'LATIN SMALL LETTER E WITH FLOURISH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB34, name: 'LATIN SMALL LETTER E WITH FLOURISH', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_E_WITH_FLOURISH = "\u{AB34}";
 
-    #[Info(id: 43829, name: 'LATIN SMALL LETTER LENIS F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB35, name: 'LATIN SMALL LETTER LENIS F', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_LENIS_F = "\u{AB35}";
 
-    #[Info(id: 43830, name: 'LATIN SMALL LETTER SCRIPT G WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB36, name: 'LATIN SMALL LETTER SCRIPT G WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_SCRIPT_G_WITH_CROSSED_TAIL = "\u{AB36}";
 
-    #[Info(id: 43831, name: 'LATIN SMALL LETTER L WITH INVERTED LAZY S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB37, name: 'LATIN SMALL LETTER L WITH INVERTED LAZY S', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_L_WITH_INVERTED_LAZY_S = "\u{AB37}";
 
-    #[Info(id: 43832, name: 'LATIN SMALL LETTER L WITH DOUBLE MIDDLE TILDE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB38, name: 'LATIN SMALL LETTER L WITH DOUBLE MIDDLE TILDE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_L_WITH_DOUBLE_MIDDLE_TILDE = "\u{AB38}";
 
-    #[Info(id: 43833, name: 'LATIN SMALL LETTER L WITH MIDDLE RING', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB39, name: 'LATIN SMALL LETTER L WITH MIDDLE RING', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_L_WITH_MIDDLE_RING = "\u{AB39}";
 
-    #[Info(id: 43834, name: 'LATIN SMALL LETTER M WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB3A, name: 'LATIN SMALL LETTER M WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_M_WITH_CROSSED_TAIL = "\u{AB3A}";
 
-    #[Info(id: 43835, name: 'LATIN SMALL LETTER N WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB3B, name: 'LATIN SMALL LETTER N WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_N_WITH_CROSSED_TAIL = "\u{AB3B}";
 
-    #[Info(id: 43836, name: 'LATIN SMALL LETTER ENG WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB3C, name: 'LATIN SMALL LETTER ENG WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_ENG_WITH_CROSSED_TAIL = "\u{AB3C}";
 
-    #[Info(id: 43837, name: 'LATIN SMALL LETTER BLACKLETTER O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB3D, name: 'LATIN SMALL LETTER BLACKLETTER O', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_BLACKLETTER_O = "\u{AB3D}";
 
-    #[Info(id: 43838, name: 'LATIN SMALL LETTER BLACKLETTER O WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB3E, name: 'LATIN SMALL LETTER BLACKLETTER O WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_BLACKLETTER_O_WITH_STROKE = "\u{AB3E}";
 
-    #[Info(id: 43839, name: 'LATIN SMALL LETTER OPEN O WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB3F, name: 'LATIN SMALL LETTER OPEN O WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_OPEN_O_WITH_STROKE = "\u{AB3F}";
 
-    #[Info(id: 43840, name: 'LATIN SMALL LETTER INVERTED OE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB40, name: 'LATIN SMALL LETTER INVERTED OE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_INVERTED_OE = "\u{AB40}";
 
-    #[Info(id: 43841, name: 'LATIN SMALL LETTER TURNED OE WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB41, name: 'LATIN SMALL LETTER TURNED OE WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_OE_WITH_STROKE = "\u{AB41}";
 
-    #[Info(id: 43842, name: 'LATIN SMALL LETTER TURNED OE WITH HORIZONTAL STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB42, name: 'LATIN SMALL LETTER TURNED OE WITH HORIZONTAL STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_OE_WITH_HORIZONTAL_STROKE = "\u{AB42}";
 
-    #[Info(id: 43843, name: 'LATIN SMALL LETTER TURNED O OPEN-O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB43, name: 'LATIN SMALL LETTER TURNED O OPEN-O', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_O_OPEN_O = "\u{AB43}";
 
-    #[Info(id: 43844, name: 'LATIN SMALL LETTER TURNED O OPEN-O WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB44, name: 'LATIN SMALL LETTER TURNED O OPEN-O WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_O_OPEN_O_WITH_STROKE = "\u{AB44}";
 
-    #[Info(id: 43845, name: 'LATIN SMALL LETTER STIRRUP R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB45, name: 'LATIN SMALL LETTER STIRRUP R', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_STIRRUP_R = "\u{AB45}";
 
-    #[Info(id: 43846, name: 'LATIN LETTER SMALL CAPITAL R WITH RIGHT LEG', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB46, name: 'LATIN LETTER SMALL CAPITAL R WITH RIGHT LEG', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_SMALL_CAPITAL_R_WITH_RIGHT_LEG = "\u{AB46}";
 
-    #[Info(id: 43847, name: 'LATIN SMALL LETTER R WITHOUT HANDLE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB47, name: 'LATIN SMALL LETTER R WITHOUT HANDLE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_R_WITHOUT_HANDLE = "\u{AB47}";
 
-    #[Info(id: 43848, name: 'LATIN SMALL LETTER DOUBLE R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB48, name: 'LATIN SMALL LETTER DOUBLE R', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_DOUBLE_R = "\u{AB48}";
 
-    #[Info(id: 43849, name: 'LATIN SMALL LETTER R WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB49, name: 'LATIN SMALL LETTER R WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_R_WITH_CROSSED_TAIL = "\u{AB49}";
 
-    #[Info(id: 43850, name: 'LATIN SMALL LETTER DOUBLE R WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB4A, name: 'LATIN SMALL LETTER DOUBLE R WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_DOUBLE_R_WITH_CROSSED_TAIL = "\u{AB4A}";
 
-    #[Info(id: 43851, name: 'LATIN SMALL LETTER SCRIPT R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB4B, name: 'LATIN SMALL LETTER SCRIPT R', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_SCRIPT_R = "\u{AB4B}";
 
-    #[Info(id: 43852, name: 'LATIN SMALL LETTER SCRIPT R WITH RING', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB4C, name: 'LATIN SMALL LETTER SCRIPT R WITH RING', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_SCRIPT_R_WITH_RING = "\u{AB4C}";
 
-    #[Info(id: 43853, name: 'LATIN SMALL LETTER BASELINE ESH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB4D, name: 'LATIN SMALL LETTER BASELINE ESH', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_BASELINE_ESH = "\u{AB4D}";
 
-    #[Info(id: 43854, name: 'LATIN SMALL LETTER U WITH SHORT RIGHT LEG', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB4E, name: 'LATIN SMALL LETTER U WITH SHORT RIGHT LEG', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U_WITH_SHORT_RIGHT_LEG = "\u{AB4E}";
 
-    #[Info(id: 43855, name: 'LATIN SMALL LETTER U BAR WITH SHORT RIGHT LEG', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB4F, name: 'LATIN SMALL LETTER U BAR WITH SHORT RIGHT LEG', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U_BAR_WITH_SHORT_RIGHT_LEG = "\u{AB4F}";
 
-    #[Info(id: 43856, name: 'LATIN SMALL LETTER UI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB50, name: 'LATIN SMALL LETTER UI', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_UI = "\u{AB50}";
 
-    #[Info(id: 43857, name: 'LATIN SMALL LETTER TURNED UI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB51, name: 'LATIN SMALL LETTER TURNED UI', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_UI = "\u{AB51}";
 
-    #[Info(id: 43858, name: 'LATIN SMALL LETTER U WITH LEFT HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB52, name: 'LATIN SMALL LETTER U WITH LEFT HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U_WITH_LEFT_HOOK = "\u{AB52}";
 
-    #[Info(id: 43859, name: 'LATIN SMALL LETTER CHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB53, name: 'LATIN SMALL LETTER CHI', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_CHI = "\u{AB53}";
 
-    #[Info(id: 43860, name: 'LATIN SMALL LETTER CHI WITH LOW RIGHT RING', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB54, name: 'LATIN SMALL LETTER CHI WITH LOW RIGHT RING', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_CHI_WITH_LOW_RIGHT_RING = "\u{AB54}";
 
-    #[Info(id: 43861, name: 'LATIN SMALL LETTER CHI WITH LOW LEFT SERIF', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB55, name: 'LATIN SMALL LETTER CHI WITH LOW LEFT SERIF', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_CHI_WITH_LOW_LEFT_SERIF = "\u{AB55}";
 
-    #[Info(id: 43862, name: 'LATIN SMALL LETTER X WITH LOW RIGHT RING', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB56, name: 'LATIN SMALL LETTER X WITH LOW RIGHT RING', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_X_WITH_LOW_RIGHT_RING = "\u{AB56}";
 
-    #[Info(id: 43863, name: 'LATIN SMALL LETTER X WITH LONG LEFT LEG', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB57, name: 'LATIN SMALL LETTER X WITH LONG LEFT LEG', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_X_WITH_LONG_LEFT_LEG = "\u{AB57}";
 
-    #[Info(id: 43864, name: 'LATIN SMALL LETTER X WITH LONG LEFT LEG AND LOW RIGHT RING', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB58, name: 'LATIN SMALL LETTER X WITH LONG LEFT LEG AND LOW RIGHT RING', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_X_WITH_LONG_LEFT_LEG_AND_LOW_RIGHT_RING = "\u{AB58}";
 
-    #[Info(id: 43865, name: 'LATIN SMALL LETTER X WITH LONG LEFT LEG WITH SERIF', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB59, name: 'LATIN SMALL LETTER X WITH LONG LEFT LEG WITH SERIF', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_X_WITH_LONG_LEFT_LEG_WITH_SERIF = "\u{AB59}";
 
-    #[Info(id: 43866, name: 'LATIN SMALL LETTER Y WITH SHORT RIGHT LEG', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB5A, name: 'LATIN SMALL LETTER Y WITH SHORT RIGHT LEG', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Y_WITH_SHORT_RIGHT_LEG = "\u{AB5A}";
 
-    #[Info(id: 43867, name: 'MODIFIER BREVE WITH INVERTED BREVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xAB5B, name: 'MODIFIER BREVE WITH INVERTED BREVE', category: Cat::Modifier_Symbol)]
     case MODIFIER_BREVE_WITH_INVERTED_BREVE = "\u{AB5B}";
 
-    #[Info(id: 43868, name: 'MODIFIER LETTER SMALL HENG', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xAB5C, name: 'MODIFIER LETTER SMALL HENG', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_HENG = "\u{AB5C}";
 
-    #[Info(id: 43869, name: 'MODIFIER LETTER SMALL L WITH INVERTED LAZY S', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xAB5D, name: 'MODIFIER LETTER SMALL L WITH INVERTED LAZY S', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_L_WITH_INVERTED_LAZY_S = "\u{AB5D}";
 
-    #[Info(id: 43870, name: 'MODIFIER LETTER SMALL L WITH MIDDLE TILDE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xAB5E, name: 'MODIFIER LETTER SMALL L WITH MIDDLE TILDE', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_L_WITH_MIDDLE_TILDE = "\u{AB5E}";
 
-    #[Info(id: 43871, name: 'MODIFIER LETTER SMALL U WITH LEFT HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xAB5F, name: 'MODIFIER LETTER SMALL U WITH LEFT HOOK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_U_WITH_LEFT_HOOK = "\u{AB5F}";
 
-    #[Info(id: 43872, name: 'LATIN SMALL LETTER SAKHA YAT', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB60, name: 'LATIN SMALL LETTER SAKHA YAT', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_SAKHA_YAT = "\u{AB60}";
 
-    #[Info(id: 43873, name: 'LATIN SMALL LETTER IOTIFIED E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB61, name: 'LATIN SMALL LETTER IOTIFIED E', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_IOTIFIED_E = "\u{AB61}";
 
-    #[Info(id: 43874, name: 'LATIN SMALL LETTER OPEN OE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB62, name: 'LATIN SMALL LETTER OPEN OE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_OPEN_OE = "\u{AB62}";
 
-    #[Info(id: 43875, name: 'LATIN SMALL LETTER UO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB63, name: 'LATIN SMALL LETTER UO', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_UO = "\u{AB63}";
 
-    #[Info(id: 43876, name: 'LATIN SMALL LETTER INVERTED ALPHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB64, name: 'LATIN SMALL LETTER INVERTED ALPHA', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_INVERTED_ALPHA = "\u{AB64}";
 
-    #[Info(id: 43877, name: 'GREEK LETTER SMALL CAPITAL OMEGA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB65, name: 'GREEK LETTER SMALL CAPITAL OMEGA', category: Cat::Lowercase_Letter)]
     case GREEK_LETTER_SMALL_CAPITAL_OMEGA = "\u{AB65}";
 
-    #[Info(id: 43878, name: 'LATIN SMALL LETTER DZ DIGRAPH WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB66, name: 'LATIN SMALL LETTER DZ DIGRAPH WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_DZ_DIGRAPH_WITH_RETROFLEX_HOOK = "\u{AB66}";
 
-    #[Info(id: 43879, name: 'LATIN SMALL LETTER TS DIGRAPH WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB67, name: 'LATIN SMALL LETTER TS DIGRAPH WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TS_DIGRAPH_WITH_RETROFLEX_HOOK = "\u{AB67}";
 
-    #[Info(id: 43880, name: 'LATIN SMALL LETTER TURNED R WITH MIDDLE TILDE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB68, name: 'LATIN SMALL LETTER TURNED R WITH MIDDLE TILDE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_R_WITH_MIDDLE_TILDE = "\u{AB68}";
 
-    #[Info(id: 43881, name: 'MODIFIER LETTER SMALL TURNED W', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xAB69, name: 'MODIFIER LETTER SMALL TURNED W', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_TURNED_W = "\u{AB69}";
 
-    #[Info(id: 43882, name: 'MODIFIER LETTER LEFT TACK', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xAB6A, name: 'MODIFIER LETTER LEFT TACK', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_LEFT_TACK = "\u{AB6A}";
 
-    #[Info(id: 43883, name: 'MODIFIER LETTER RIGHT TACK', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xAB6B, name: 'MODIFIER LETTER RIGHT TACK', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_RIGHT_TACK = "\u{AB6B}";
 }

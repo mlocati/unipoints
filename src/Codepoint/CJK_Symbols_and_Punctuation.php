@@ -16,195 +16,195 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum CJK_Symbols_and_Punctuation: string
 {
-    #[Info(id: 12288, name: 'IDEOGRAPHIC SPACE', category: Cat::Space_Separator)]
+    #[Info(id: 0x3000, name: 'IDEOGRAPHIC SPACE', category: Cat::Space_Separator)]
     case IDEOGRAPHIC_SPACE = "\u{3000}";
 
-    #[Info(id: 12289, name: 'IDEOGRAPHIC COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x3001, name: 'IDEOGRAPHIC COMMA', category: Cat::Other_Punctuation)]
     case IDEOGRAPHIC_COMMA = "\u{3001}";
 
-    #[Info(id: 12290, name: 'IDEOGRAPHIC FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x3002, name: 'IDEOGRAPHIC FULL STOP', category: Cat::Other_Punctuation)]
     case IDEOGRAPHIC_FULL_STOP = "\u{3002}";
 
-    #[Info(id: 12291, name: 'DITTO MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x3003, name: 'DITTO MARK', category: Cat::Other_Punctuation)]
     case DITTO_MARK = "\u{3003}";
 
-    #[Info(id: 12292, name: 'JAPANESE INDUSTRIAL STANDARD SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3004, name: 'JAPANESE INDUSTRIAL STANDARD SYMBOL', category: Cat::Other_Symbol)]
     case JAPANESE_INDUSTRIAL_STANDARD_SYMBOL = "\u{3004}";
 
-    #[Info(id: 12293, name: 'IDEOGRAPHIC ITERATION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x3005, name: 'IDEOGRAPHIC ITERATION MARK', category: Cat::Modifier_Letter)]
     case IDEOGRAPHIC_ITERATION_MARK = "\u{3005}";
 
-    #[Info(id: 12294, name: 'IDEOGRAPHIC CLOSING MARK', category: Cat::Other_Letter)]
+    #[Info(id: 0x3006, name: 'IDEOGRAPHIC CLOSING MARK', category: Cat::Other_Letter)]
     case IDEOGRAPHIC_CLOSING_MARK = "\u{3006}";
 
-    #[Info(id: 12295, name: 'IDEOGRAPHIC NUMBER ZERO', category: Cat::Letter_Number)]
+    #[Info(id: 0x3007, name: 'IDEOGRAPHIC NUMBER ZERO', category: Cat::Letter_Number)]
     case IDEOGRAPHIC_NUMBER_ZERO = "\u{3007}";
 
-    #[Info(id: 12296, name: 'LEFT ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x3008, name: 'LEFT ANGLE BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_ANGLE_BRACKET = "\u{3008}";
 
-    #[Info(id: 12297, name: 'RIGHT ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x3009, name: 'RIGHT ANGLE BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_ANGLE_BRACKET = "\u{3009}";
 
-    #[Info(id: 12298, name: 'LEFT DOUBLE ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x300A, name: 'LEFT DOUBLE ANGLE BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_DOUBLE_ANGLE_BRACKET = "\u{300A}";
 
-    #[Info(id: 12299, name: 'RIGHT DOUBLE ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x300B, name: 'RIGHT DOUBLE ANGLE BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_DOUBLE_ANGLE_BRACKET = "\u{300B}";
 
-    #[Info(id: 12300, name: 'LEFT CORNER BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x300C, name: 'LEFT CORNER BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_CORNER_BRACKET = "\u{300C}";
 
-    #[Info(id: 12301, name: 'RIGHT CORNER BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x300D, name: 'RIGHT CORNER BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_CORNER_BRACKET = "\u{300D}";
 
-    #[Info(id: 12302, name: 'LEFT WHITE CORNER BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x300E, name: 'LEFT WHITE CORNER BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_WHITE_CORNER_BRACKET = "\u{300E}";
 
-    #[Info(id: 12303, name: 'RIGHT WHITE CORNER BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x300F, name: 'RIGHT WHITE CORNER BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_WHITE_CORNER_BRACKET = "\u{300F}";
 
-    #[Info(id: 12304, name: 'LEFT BLACK LENTICULAR BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x3010, name: 'LEFT BLACK LENTICULAR BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_BLACK_LENTICULAR_BRACKET = "\u{3010}";
 
-    #[Info(id: 12305, name: 'RIGHT BLACK LENTICULAR BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x3011, name: 'RIGHT BLACK LENTICULAR BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_BLACK_LENTICULAR_BRACKET = "\u{3011}";
 
-    #[Info(id: 12306, name: 'POSTAL MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3012, name: 'POSTAL MARK', category: Cat::Other_Symbol)]
     case POSTAL_MARK = "\u{3012}";
 
-    #[Info(id: 12307, name: 'GETA MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3013, name: 'GETA MARK', category: Cat::Other_Symbol)]
     case GETA_MARK = "\u{3013}";
 
-    #[Info(id: 12308, name: 'LEFT TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x3014, name: 'LEFT TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_TORTOISE_SHELL_BRACKET = "\u{3014}";
 
-    #[Info(id: 12309, name: 'RIGHT TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x3015, name: 'RIGHT TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_TORTOISE_SHELL_BRACKET = "\u{3015}";
 
-    #[Info(id: 12310, name: 'LEFT WHITE LENTICULAR BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x3016, name: 'LEFT WHITE LENTICULAR BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_WHITE_LENTICULAR_BRACKET = "\u{3016}";
 
-    #[Info(id: 12311, name: 'RIGHT WHITE LENTICULAR BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x3017, name: 'RIGHT WHITE LENTICULAR BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_WHITE_LENTICULAR_BRACKET = "\u{3017}";
 
-    #[Info(id: 12312, name: 'LEFT WHITE TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x3018, name: 'LEFT WHITE TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_WHITE_TORTOISE_SHELL_BRACKET = "\u{3018}";
 
-    #[Info(id: 12313, name: 'RIGHT WHITE TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x3019, name: 'RIGHT WHITE TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_WHITE_TORTOISE_SHELL_BRACKET = "\u{3019}";
 
-    #[Info(id: 12314, name: 'LEFT WHITE SQUARE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x301A, name: 'LEFT WHITE SQUARE BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_WHITE_SQUARE_BRACKET = "\u{301A}";
 
-    #[Info(id: 12315, name: 'RIGHT WHITE SQUARE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x301B, name: 'RIGHT WHITE SQUARE BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_WHITE_SQUARE_BRACKET = "\u{301B}";
 
-    #[Info(id: 12316, name: 'WAVE DASH', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0x301C, name: 'WAVE DASH', category: Cat::Dash_Punctuation)]
     case WAVE_DASH = "\u{301C}";
 
-    #[Info(id: 12317, name: 'REVERSED DOUBLE PRIME QUOTATION MARK', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x301D, name: 'REVERSED DOUBLE PRIME QUOTATION MARK', category: Cat::Open_Punctuation)]
     case REVERSED_DOUBLE_PRIME_QUOTATION_MARK = "\u{301D}";
 
-    #[Info(id: 12318, name: 'DOUBLE PRIME QUOTATION MARK', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x301E, name: 'DOUBLE PRIME QUOTATION MARK', category: Cat::Close_Punctuation)]
     case DOUBLE_PRIME_QUOTATION_MARK = "\u{301E}";
 
-    #[Info(id: 12319, name: 'LOW DOUBLE PRIME QUOTATION MARK', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x301F, name: 'LOW DOUBLE PRIME QUOTATION MARK', category: Cat::Close_Punctuation)]
     case LOW_DOUBLE_PRIME_QUOTATION_MARK = "\u{301F}";
 
-    #[Info(id: 12320, name: 'POSTAL MARK FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3020, name: 'POSTAL MARK FACE', category: Cat::Other_Symbol)]
     case POSTAL_MARK_FACE = "\u{3020}";
 
-    #[Info(id: 12321, name: 'HANGZHOU NUMERAL ONE', category: Cat::Letter_Number)]
+    #[Info(id: 0x3021, name: 'HANGZHOU NUMERAL ONE', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_ONE = "\u{3021}";
 
-    #[Info(id: 12322, name: 'HANGZHOU NUMERAL TWO', category: Cat::Letter_Number)]
+    #[Info(id: 0x3022, name: 'HANGZHOU NUMERAL TWO', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_TWO = "\u{3022}";
 
-    #[Info(id: 12323, name: 'HANGZHOU NUMERAL THREE', category: Cat::Letter_Number)]
+    #[Info(id: 0x3023, name: 'HANGZHOU NUMERAL THREE', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_THREE = "\u{3023}";
 
-    #[Info(id: 12324, name: 'HANGZHOU NUMERAL FOUR', category: Cat::Letter_Number)]
+    #[Info(id: 0x3024, name: 'HANGZHOU NUMERAL FOUR', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_FOUR = "\u{3024}";
 
-    #[Info(id: 12325, name: 'HANGZHOU NUMERAL FIVE', category: Cat::Letter_Number)]
+    #[Info(id: 0x3025, name: 'HANGZHOU NUMERAL FIVE', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_FIVE = "\u{3025}";
 
-    #[Info(id: 12326, name: 'HANGZHOU NUMERAL SIX', category: Cat::Letter_Number)]
+    #[Info(id: 0x3026, name: 'HANGZHOU NUMERAL SIX', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_SIX = "\u{3026}";
 
-    #[Info(id: 12327, name: 'HANGZHOU NUMERAL SEVEN', category: Cat::Letter_Number)]
+    #[Info(id: 0x3027, name: 'HANGZHOU NUMERAL SEVEN', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_SEVEN = "\u{3027}";
 
-    #[Info(id: 12328, name: 'HANGZHOU NUMERAL EIGHT', category: Cat::Letter_Number)]
+    #[Info(id: 0x3028, name: 'HANGZHOU NUMERAL EIGHT', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_EIGHT = "\u{3028}";
 
-    #[Info(id: 12329, name: 'HANGZHOU NUMERAL NINE', category: Cat::Letter_Number)]
+    #[Info(id: 0x3029, name: 'HANGZHOU NUMERAL NINE', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_NINE = "\u{3029}";
 
-    #[Info(id: 12330, name: 'IDEOGRAPHIC LEVEL TONE MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x302A, name: 'IDEOGRAPHIC LEVEL TONE MARK', category: Cat::Nonspacing_Mark)]
     case IDEOGRAPHIC_LEVEL_TONE_MARK = "\u{302A}";
 
-    #[Info(id: 12331, name: 'IDEOGRAPHIC RISING TONE MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x302B, name: 'IDEOGRAPHIC RISING TONE MARK', category: Cat::Nonspacing_Mark)]
     case IDEOGRAPHIC_RISING_TONE_MARK = "\u{302B}";
 
-    #[Info(id: 12332, name: 'IDEOGRAPHIC DEPARTING TONE MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x302C, name: 'IDEOGRAPHIC DEPARTING TONE MARK', category: Cat::Nonspacing_Mark)]
     case IDEOGRAPHIC_DEPARTING_TONE_MARK = "\u{302C}";
 
-    #[Info(id: 12333, name: 'IDEOGRAPHIC ENTERING TONE MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x302D, name: 'IDEOGRAPHIC ENTERING TONE MARK', category: Cat::Nonspacing_Mark)]
     case IDEOGRAPHIC_ENTERING_TONE_MARK = "\u{302D}";
 
-    #[Info(id: 12334, name: 'HANGUL SINGLE DOT TONE MARK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x302E, name: 'HANGUL SINGLE DOT TONE MARK', category: Cat::Spacing_Mark)]
     case HANGUL_SINGLE_DOT_TONE_MARK = "\u{302E}";
 
-    #[Info(id: 12335, name: 'HANGUL DOUBLE DOT TONE MARK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x302F, name: 'HANGUL DOUBLE DOT TONE MARK', category: Cat::Spacing_Mark)]
     case HANGUL_DOUBLE_DOT_TONE_MARK = "\u{302F}";
 
-    #[Info(id: 12336, name: 'WAVY DASH', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0x3030, name: 'WAVY DASH', category: Cat::Dash_Punctuation)]
     case WAVY_DASH = "\u{3030}";
 
-    #[Info(id: 12337, name: 'VERTICAL KANA REPEAT MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x3031, name: 'VERTICAL KANA REPEAT MARK', category: Cat::Modifier_Letter)]
     case VERTICAL_KANA_REPEAT_MARK = "\u{3031}";
 
-    #[Info(id: 12338, name: 'VERTICAL KANA REPEAT WITH VOICED SOUND MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x3032, name: 'VERTICAL KANA REPEAT WITH VOICED SOUND MARK', category: Cat::Modifier_Letter)]
     case VERTICAL_KANA_REPEAT_WITH_VOICED_SOUND_MARK = "\u{3032}";
 
-    #[Info(id: 12339, name: 'VERTICAL KANA REPEAT MARK UPPER HALF', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x3033, name: 'VERTICAL KANA REPEAT MARK UPPER HALF', category: Cat::Modifier_Letter)]
     case VERTICAL_KANA_REPEAT_MARK_UPPER_HALF = "\u{3033}";
 
-    #[Info(id: 12340, name: 'VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x3034, name: 'VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF', category: Cat::Modifier_Letter)]
     case VERTICAL_KANA_REPEAT_WITH_VOICED_SOUND_MARK_UPPER_HALF = "\u{3034}";
 
-    #[Info(id: 12341, name: 'VERTICAL KANA REPEAT MARK LOWER HALF', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x3035, name: 'VERTICAL KANA REPEAT MARK LOWER HALF', category: Cat::Modifier_Letter)]
     case VERTICAL_KANA_REPEAT_MARK_LOWER_HALF = "\u{3035}";
 
-    #[Info(id: 12342, name: 'CIRCLED POSTAL MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3036, name: 'CIRCLED POSTAL MARK', category: Cat::Other_Symbol)]
     case CIRCLED_POSTAL_MARK = "\u{3036}";
 
-    #[Info(id: 12343, name: 'IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3037, name: 'IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL', category: Cat::Other_Symbol)]
     case IDEOGRAPHIC_TELEGRAPH_LINE_FEED_SEPARATOR_SYMBOL = "\u{3037}";
 
-    #[Info(id: 12344, name: 'HANGZHOU NUMERAL TEN', category: Cat::Letter_Number)]
+    #[Info(id: 0x3038, name: 'HANGZHOU NUMERAL TEN', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_TEN = "\u{3038}";
 
-    #[Info(id: 12345, name: 'HANGZHOU NUMERAL TWENTY', category: Cat::Letter_Number)]
+    #[Info(id: 0x3039, name: 'HANGZHOU NUMERAL TWENTY', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_TWENTY = "\u{3039}";
 
-    #[Info(id: 12346, name: 'HANGZHOU NUMERAL THIRTY', category: Cat::Letter_Number)]
+    #[Info(id: 0x303A, name: 'HANGZHOU NUMERAL THIRTY', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_THIRTY = "\u{303A}";
 
-    #[Info(id: 12347, name: 'VERTICAL IDEOGRAPHIC ITERATION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x303B, name: 'VERTICAL IDEOGRAPHIC ITERATION MARK', category: Cat::Modifier_Letter)]
     case VERTICAL_IDEOGRAPHIC_ITERATION_MARK = "\u{303B}";
 
-    #[Info(id: 12348, name: 'MASU MARK', category: Cat::Other_Letter)]
+    #[Info(id: 0x303C, name: 'MASU MARK', category: Cat::Other_Letter)]
     case MASU_MARK = "\u{303C}";
 
-    #[Info(id: 12349, name: 'PART ALTERNATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x303D, name: 'PART ALTERNATION MARK', category: Cat::Other_Punctuation)]
     case PART_ALTERNATION_MARK = "\u{303D}";
 
-    #[Info(id: 12350, name: 'IDEOGRAPHIC VARIATION INDICATOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x303E, name: 'IDEOGRAPHIC VARIATION INDICATOR', category: Cat::Other_Symbol)]
     case IDEOGRAPHIC_VARIATION_INDICATOR = "\u{303E}";
 
-    #[Info(id: 12351, name: 'IDEOGRAPHIC HALF FILL SPACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x303F, name: 'IDEOGRAPHIC HALF FILL SPACE', category: Cat::Other_Symbol)]
     case IDEOGRAPHIC_HALF_FILL_SPACE = "\u{303F}";
 }

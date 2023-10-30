@@ -16,108 +16,108 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Sora_Sompeng: string
 {
-    #[Info(id: 69840, name: 'SORA SOMPENG LETTER SAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110D0, name: 'SORA SOMPENG LETTER SAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_SAH = "\u{110D0}";
 
-    #[Info(id: 69841, name: 'SORA SOMPENG LETTER TAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110D1, name: 'SORA SOMPENG LETTER TAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_TAH = "\u{110D1}";
 
-    #[Info(id: 69842, name: 'SORA SOMPENG LETTER BAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110D2, name: 'SORA SOMPENG LETTER BAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_BAH = "\u{110D2}";
 
-    #[Info(id: 69843, name: 'SORA SOMPENG LETTER CAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110D3, name: 'SORA SOMPENG LETTER CAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_CAH = "\u{110D3}";
 
-    #[Info(id: 69844, name: 'SORA SOMPENG LETTER DAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110D4, name: 'SORA SOMPENG LETTER DAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_DAH = "\u{110D4}";
 
-    #[Info(id: 69845, name: 'SORA SOMPENG LETTER GAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110D5, name: 'SORA SOMPENG LETTER GAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_GAH = "\u{110D5}";
 
-    #[Info(id: 69846, name: 'SORA SOMPENG LETTER MAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110D6, name: 'SORA SOMPENG LETTER MAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_MAH = "\u{110D6}";
 
-    #[Info(id: 69847, name: 'SORA SOMPENG LETTER NGAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110D7, name: 'SORA SOMPENG LETTER NGAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_NGAH = "\u{110D7}";
 
-    #[Info(id: 69848, name: 'SORA SOMPENG LETTER LAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110D8, name: 'SORA SOMPENG LETTER LAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_LAH = "\u{110D8}";
 
-    #[Info(id: 69849, name: 'SORA SOMPENG LETTER NAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110D9, name: 'SORA SOMPENG LETTER NAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_NAH = "\u{110D9}";
 
-    #[Info(id: 69850, name: 'SORA SOMPENG LETTER VAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110DA, name: 'SORA SOMPENG LETTER VAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_VAH = "\u{110DA}";
 
-    #[Info(id: 69851, name: 'SORA SOMPENG LETTER PAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110DB, name: 'SORA SOMPENG LETTER PAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_PAH = "\u{110DB}";
 
-    #[Info(id: 69852, name: 'SORA SOMPENG LETTER YAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110DC, name: 'SORA SOMPENG LETTER YAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_YAH = "\u{110DC}";
 
-    #[Info(id: 69853, name: 'SORA SOMPENG LETTER RAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110DD, name: 'SORA SOMPENG LETTER RAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_RAH = "\u{110DD}";
 
-    #[Info(id: 69854, name: 'SORA SOMPENG LETTER HAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110DE, name: 'SORA SOMPENG LETTER HAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_HAH = "\u{110DE}";
 
-    #[Info(id: 69855, name: 'SORA SOMPENG LETTER KAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110DF, name: 'SORA SOMPENG LETTER KAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_KAH = "\u{110DF}";
 
-    #[Info(id: 69856, name: 'SORA SOMPENG LETTER JAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110E0, name: 'SORA SOMPENG LETTER JAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_JAH = "\u{110E0}";
 
-    #[Info(id: 69857, name: 'SORA SOMPENG LETTER NYAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110E1, name: 'SORA SOMPENG LETTER NYAH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_NYAH = "\u{110E1}";
 
-    #[Info(id: 69858, name: 'SORA SOMPENG LETTER AH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110E2, name: 'SORA SOMPENG LETTER AH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_AH = "\u{110E2}";
 
-    #[Info(id: 69859, name: 'SORA SOMPENG LETTER EEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110E3, name: 'SORA SOMPENG LETTER EEH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_EEH = "\u{110E3}";
 
-    #[Info(id: 69860, name: 'SORA SOMPENG LETTER IH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110E4, name: 'SORA SOMPENG LETTER IH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_IH = "\u{110E4}";
 
-    #[Info(id: 69861, name: 'SORA SOMPENG LETTER UH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110E5, name: 'SORA SOMPENG LETTER UH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_UH = "\u{110E5}";
 
-    #[Info(id: 69862, name: 'SORA SOMPENG LETTER OH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110E6, name: 'SORA SOMPENG LETTER OH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_OH = "\u{110E6}";
 
-    #[Info(id: 69863, name: 'SORA SOMPENG LETTER EH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110E7, name: 'SORA SOMPENG LETTER EH', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_EH = "\u{110E7}";
 
-    #[Info(id: 69864, name: 'SORA SOMPENG LETTER MAE', category: Cat::Other_Letter)]
+    #[Info(id: 0x110E8, name: 'SORA SOMPENG LETTER MAE', category: Cat::Other_Letter)]
     case SORA_SOMPENG_LETTER_MAE = "\u{110E8}";
 
-    #[Info(id: 69872, name: 'SORA SOMPENG DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x110F0, name: 'SORA SOMPENG DIGIT ZERO', category: Cat::Decimal_Number)]
     case SORA_SOMPENG_DIGIT_ZERO = "\u{110F0}";
 
-    #[Info(id: 69873, name: 'SORA SOMPENG DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x110F1, name: 'SORA SOMPENG DIGIT ONE', category: Cat::Decimal_Number)]
     case SORA_SOMPENG_DIGIT_ONE = "\u{110F1}";
 
-    #[Info(id: 69874, name: 'SORA SOMPENG DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x110F2, name: 'SORA SOMPENG DIGIT TWO', category: Cat::Decimal_Number)]
     case SORA_SOMPENG_DIGIT_TWO = "\u{110F2}";
 
-    #[Info(id: 69875, name: 'SORA SOMPENG DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x110F3, name: 'SORA SOMPENG DIGIT THREE', category: Cat::Decimal_Number)]
     case SORA_SOMPENG_DIGIT_THREE = "\u{110F3}";
 
-    #[Info(id: 69876, name: 'SORA SOMPENG DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x110F4, name: 'SORA SOMPENG DIGIT FOUR', category: Cat::Decimal_Number)]
     case SORA_SOMPENG_DIGIT_FOUR = "\u{110F4}";
 
-    #[Info(id: 69877, name: 'SORA SOMPENG DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x110F5, name: 'SORA SOMPENG DIGIT FIVE', category: Cat::Decimal_Number)]
     case SORA_SOMPENG_DIGIT_FIVE = "\u{110F5}";
 
-    #[Info(id: 69878, name: 'SORA SOMPENG DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x110F6, name: 'SORA SOMPENG DIGIT SIX', category: Cat::Decimal_Number)]
     case SORA_SOMPENG_DIGIT_SIX = "\u{110F6}";
 
-    #[Info(id: 69879, name: 'SORA SOMPENG DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x110F7, name: 'SORA SOMPENG DIGIT SEVEN', category: Cat::Decimal_Number)]
     case SORA_SOMPENG_DIGIT_SEVEN = "\u{110F7}";
 
-    #[Info(id: 69880, name: 'SORA SOMPENG DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x110F8, name: 'SORA SOMPENG DIGIT EIGHT', category: Cat::Decimal_Number)]
     case SORA_SOMPENG_DIGIT_EIGHT = "\u{110F8}";
 
-    #[Info(id: 69881, name: 'SORA SOMPENG DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x110F9, name: 'SORA SOMPENG DIGIT NINE', category: Cat::Decimal_Number)]
     case SORA_SOMPENG_DIGIT_NINE = "\u{110F9}";
 }

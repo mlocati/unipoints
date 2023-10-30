@@ -16,384 +16,384 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Pahawh_Hmong: string
 {
-    #[Info(id: 92928, name: 'PAHAWH HMONG VOWEL KEEB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B00, name: 'PAHAWH HMONG VOWEL KEEB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KEEB = "\u{16B00}";
 
-    #[Info(id: 92929, name: 'PAHAWH HMONG VOWEL KEEV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B01, name: 'PAHAWH HMONG VOWEL KEEV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KEEV = "\u{16B01}";
 
-    #[Info(id: 92930, name: 'PAHAWH HMONG VOWEL KIB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B02, name: 'PAHAWH HMONG VOWEL KIB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KIB = "\u{16B02}";
 
-    #[Info(id: 92931, name: 'PAHAWH HMONG VOWEL KIV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B03, name: 'PAHAWH HMONG VOWEL KIV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KIV = "\u{16B03}";
 
-    #[Info(id: 92932, name: 'PAHAWH HMONG VOWEL KAUB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B04, name: 'PAHAWH HMONG VOWEL KAUB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KAUB = "\u{16B04}";
 
-    #[Info(id: 92933, name: 'PAHAWH HMONG VOWEL KAUV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B05, name: 'PAHAWH HMONG VOWEL KAUV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KAUV = "\u{16B05}";
 
-    #[Info(id: 92934, name: 'PAHAWH HMONG VOWEL KUB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B06, name: 'PAHAWH HMONG VOWEL KUB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KUB = "\u{16B06}";
 
-    #[Info(id: 92935, name: 'PAHAWH HMONG VOWEL KUV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B07, name: 'PAHAWH HMONG VOWEL KUV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KUV = "\u{16B07}";
 
-    #[Info(id: 92936, name: 'PAHAWH HMONG VOWEL KEB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B08, name: 'PAHAWH HMONG VOWEL KEB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KEB = "\u{16B08}";
 
-    #[Info(id: 92937, name: 'PAHAWH HMONG VOWEL KEV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B09, name: 'PAHAWH HMONG VOWEL KEV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KEV = "\u{16B09}";
 
-    #[Info(id: 92938, name: 'PAHAWH HMONG VOWEL KAIB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B0A, name: 'PAHAWH HMONG VOWEL KAIB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KAIB = "\u{16B0A}";
 
-    #[Info(id: 92939, name: 'PAHAWH HMONG VOWEL KAIV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B0B, name: 'PAHAWH HMONG VOWEL KAIV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KAIV = "\u{16B0B}";
 
-    #[Info(id: 92940, name: 'PAHAWH HMONG VOWEL KOOB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B0C, name: 'PAHAWH HMONG VOWEL KOOB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KOOB = "\u{16B0C}";
 
-    #[Info(id: 92941, name: 'PAHAWH HMONG VOWEL KOOV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B0D, name: 'PAHAWH HMONG VOWEL KOOV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KOOV = "\u{16B0D}";
 
-    #[Info(id: 92942, name: 'PAHAWH HMONG VOWEL KAWB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B0E, name: 'PAHAWH HMONG VOWEL KAWB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KAWB = "\u{16B0E}";
 
-    #[Info(id: 92943, name: 'PAHAWH HMONG VOWEL KAWV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B0F, name: 'PAHAWH HMONG VOWEL KAWV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KAWV = "\u{16B0F}";
 
-    #[Info(id: 92944, name: 'PAHAWH HMONG VOWEL KUAB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B10, name: 'PAHAWH HMONG VOWEL KUAB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KUAB = "\u{16B10}";
 
-    #[Info(id: 92945, name: 'PAHAWH HMONG VOWEL KUAV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B11, name: 'PAHAWH HMONG VOWEL KUAV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KUAV = "\u{16B11}";
 
-    #[Info(id: 92946, name: 'PAHAWH HMONG VOWEL KOB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B12, name: 'PAHAWH HMONG VOWEL KOB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KOB = "\u{16B12}";
 
-    #[Info(id: 92947, name: 'PAHAWH HMONG VOWEL KOV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B13, name: 'PAHAWH HMONG VOWEL KOV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KOV = "\u{16B13}";
 
-    #[Info(id: 92948, name: 'PAHAWH HMONG VOWEL KIAB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B14, name: 'PAHAWH HMONG VOWEL KIAB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KIAB = "\u{16B14}";
 
-    #[Info(id: 92949, name: 'PAHAWH HMONG VOWEL KIAV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B15, name: 'PAHAWH HMONG VOWEL KIAV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KIAV = "\u{16B15}";
 
-    #[Info(id: 92950, name: 'PAHAWH HMONG VOWEL KAB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B16, name: 'PAHAWH HMONG VOWEL KAB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KAB = "\u{16B16}";
 
-    #[Info(id: 92951, name: 'PAHAWH HMONG VOWEL KAV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B17, name: 'PAHAWH HMONG VOWEL KAV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KAV = "\u{16B17}";
 
-    #[Info(id: 92952, name: 'PAHAWH HMONG VOWEL KWB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B18, name: 'PAHAWH HMONG VOWEL KWB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KWB = "\u{16B18}";
 
-    #[Info(id: 92953, name: 'PAHAWH HMONG VOWEL KWV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B19, name: 'PAHAWH HMONG VOWEL KWV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KWV = "\u{16B19}";
 
-    #[Info(id: 92954, name: 'PAHAWH HMONG VOWEL KAAB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B1A, name: 'PAHAWH HMONG VOWEL KAAB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KAAB = "\u{16B1A}";
 
-    #[Info(id: 92955, name: 'PAHAWH HMONG VOWEL KAAV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B1B, name: 'PAHAWH HMONG VOWEL KAAV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_VOWEL_KAAV = "\u{16B1B}";
 
-    #[Info(id: 92956, name: 'PAHAWH HMONG CONSONANT VAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B1C, name: 'PAHAWH HMONG CONSONANT VAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_VAU = "\u{16B1C}";
 
-    #[Info(id: 92957, name: 'PAHAWH HMONG CONSONANT NTSAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B1D, name: 'PAHAWH HMONG CONSONANT NTSAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_NTSAU = "\u{16B1D}";
 
-    #[Info(id: 92958, name: 'PAHAWH HMONG CONSONANT LAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B1E, name: 'PAHAWH HMONG CONSONANT LAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_LAU = "\u{16B1E}";
 
-    #[Info(id: 92959, name: 'PAHAWH HMONG CONSONANT HAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B1F, name: 'PAHAWH HMONG CONSONANT HAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_HAU = "\u{16B1F}";
 
-    #[Info(id: 92960, name: 'PAHAWH HMONG CONSONANT NLAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B20, name: 'PAHAWH HMONG CONSONANT NLAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_NLAU = "\u{16B20}";
 
-    #[Info(id: 92961, name: 'PAHAWH HMONG CONSONANT RAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B21, name: 'PAHAWH HMONG CONSONANT RAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_RAU = "\u{16B21}";
 
-    #[Info(id: 92962, name: 'PAHAWH HMONG CONSONANT NKAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B22, name: 'PAHAWH HMONG CONSONANT NKAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_NKAU = "\u{16B22}";
 
-    #[Info(id: 92963, name: 'PAHAWH HMONG CONSONANT QHAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B23, name: 'PAHAWH HMONG CONSONANT QHAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_QHAU = "\u{16B23}";
 
-    #[Info(id: 92964, name: 'PAHAWH HMONG CONSONANT YAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B24, name: 'PAHAWH HMONG CONSONANT YAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_YAU = "\u{16B24}";
 
-    #[Info(id: 92965, name: 'PAHAWH HMONG CONSONANT HLAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B25, name: 'PAHAWH HMONG CONSONANT HLAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_HLAU = "\u{16B25}";
 
-    #[Info(id: 92966, name: 'PAHAWH HMONG CONSONANT MAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B26, name: 'PAHAWH HMONG CONSONANT MAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_MAU = "\u{16B26}";
 
-    #[Info(id: 92967, name: 'PAHAWH HMONG CONSONANT CHAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B27, name: 'PAHAWH HMONG CONSONANT CHAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_CHAU = "\u{16B27}";
 
-    #[Info(id: 92968, name: 'PAHAWH HMONG CONSONANT NCHAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B28, name: 'PAHAWH HMONG CONSONANT NCHAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_NCHAU = "\u{16B28}";
 
-    #[Info(id: 92969, name: 'PAHAWH HMONG CONSONANT HNAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B29, name: 'PAHAWH HMONG CONSONANT HNAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_HNAU = "\u{16B29}";
 
-    #[Info(id: 92970, name: 'PAHAWH HMONG CONSONANT PLHAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B2A, name: 'PAHAWH HMONG CONSONANT PLHAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_PLHAU = "\u{16B2A}";
 
-    #[Info(id: 92971, name: 'PAHAWH HMONG CONSONANT NTHAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B2B, name: 'PAHAWH HMONG CONSONANT NTHAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_NTHAU = "\u{16B2B}";
 
-    #[Info(id: 92972, name: 'PAHAWH HMONG CONSONANT NAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B2C, name: 'PAHAWH HMONG CONSONANT NAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_NAU = "\u{16B2C}";
 
-    #[Info(id: 92973, name: 'PAHAWH HMONG CONSONANT AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B2D, name: 'PAHAWH HMONG CONSONANT AU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_AU = "\u{16B2D}";
 
-    #[Info(id: 92974, name: 'PAHAWH HMONG CONSONANT XAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B2E, name: 'PAHAWH HMONG CONSONANT XAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_XAU = "\u{16B2E}";
 
-    #[Info(id: 92975, name: 'PAHAWH HMONG CONSONANT CAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B2F, name: 'PAHAWH HMONG CONSONANT CAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CONSONANT_CAU = "\u{16B2F}";
 
-    #[Info(id: 92976, name: 'PAHAWH HMONG MARK CIM TUB', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x16B30, name: 'PAHAWH HMONG MARK CIM TUB', category: Cat::Nonspacing_Mark)]
     case PAHAWH_HMONG_MARK_CIM_TUB = "\u{16B30}";
 
-    #[Info(id: 92977, name: 'PAHAWH HMONG MARK CIM SO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x16B31, name: 'PAHAWH HMONG MARK CIM SO', category: Cat::Nonspacing_Mark)]
     case PAHAWH_HMONG_MARK_CIM_SO = "\u{16B31}";
 
-    #[Info(id: 92978, name: 'PAHAWH HMONG MARK CIM KES', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x16B32, name: 'PAHAWH HMONG MARK CIM KES', category: Cat::Nonspacing_Mark)]
     case PAHAWH_HMONG_MARK_CIM_KES = "\u{16B32}";
 
-    #[Info(id: 92979, name: 'PAHAWH HMONG MARK CIM KHAV', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x16B33, name: 'PAHAWH HMONG MARK CIM KHAV', category: Cat::Nonspacing_Mark)]
     case PAHAWH_HMONG_MARK_CIM_KHAV = "\u{16B33}";
 
-    #[Info(id: 92980, name: 'PAHAWH HMONG MARK CIM SUAM', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x16B34, name: 'PAHAWH HMONG MARK CIM SUAM', category: Cat::Nonspacing_Mark)]
     case PAHAWH_HMONG_MARK_CIM_SUAM = "\u{16B34}";
 
-    #[Info(id: 92981, name: 'PAHAWH HMONG MARK CIM HOM', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x16B35, name: 'PAHAWH HMONG MARK CIM HOM', category: Cat::Nonspacing_Mark)]
     case PAHAWH_HMONG_MARK_CIM_HOM = "\u{16B35}";
 
-    #[Info(id: 92982, name: 'PAHAWH HMONG MARK CIM TAUM', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x16B36, name: 'PAHAWH HMONG MARK CIM TAUM', category: Cat::Nonspacing_Mark)]
     case PAHAWH_HMONG_MARK_CIM_TAUM = "\u{16B36}";
 
-    #[Info(id: 92983, name: 'PAHAWH HMONG SIGN VOS THOM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x16B37, name: 'PAHAWH HMONG SIGN VOS THOM', category: Cat::Other_Punctuation)]
     case PAHAWH_HMONG_SIGN_VOS_THOM = "\u{16B37}";
 
-    #[Info(id: 92984, name: 'PAHAWH HMONG SIGN VOS TSHAB CEEB', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x16B38, name: 'PAHAWH HMONG SIGN VOS TSHAB CEEB', category: Cat::Other_Punctuation)]
     case PAHAWH_HMONG_SIGN_VOS_TSHAB_CEEB = "\u{16B38}";
 
-    #[Info(id: 92985, name: 'PAHAWH HMONG SIGN CIM CHEEM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x16B39, name: 'PAHAWH HMONG SIGN CIM CHEEM', category: Cat::Other_Punctuation)]
     case PAHAWH_HMONG_SIGN_CIM_CHEEM = "\u{16B39}";
 
-    #[Info(id: 92986, name: 'PAHAWH HMONG SIGN VOS THIAB', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x16B3A, name: 'PAHAWH HMONG SIGN VOS THIAB', category: Cat::Other_Punctuation)]
     case PAHAWH_HMONG_SIGN_VOS_THIAB = "\u{16B3A}";
 
-    #[Info(id: 92987, name: 'PAHAWH HMONG SIGN VOS FEEM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x16B3B, name: 'PAHAWH HMONG SIGN VOS FEEM', category: Cat::Other_Punctuation)]
     case PAHAWH_HMONG_SIGN_VOS_FEEM = "\u{16B3B}";
 
-    #[Info(id: 92988, name: 'PAHAWH HMONG SIGN XYEEM NTXIV', category: Cat::Other_Symbol)]
+    #[Info(id: 0x16B3C, name: 'PAHAWH HMONG SIGN XYEEM NTXIV', category: Cat::Other_Symbol)]
     case PAHAWH_HMONG_SIGN_XYEEM_NTXIV = "\u{16B3C}";
 
-    #[Info(id: 92989, name: 'PAHAWH HMONG SIGN XYEEM RHO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x16B3D, name: 'PAHAWH HMONG SIGN XYEEM RHO', category: Cat::Other_Symbol)]
     case PAHAWH_HMONG_SIGN_XYEEM_RHO = "\u{16B3D}";
 
-    #[Info(id: 92990, name: 'PAHAWH HMONG SIGN XYEEM TOV', category: Cat::Other_Symbol)]
+    #[Info(id: 0x16B3E, name: 'PAHAWH HMONG SIGN XYEEM TOV', category: Cat::Other_Symbol)]
     case PAHAWH_HMONG_SIGN_XYEEM_TOV = "\u{16B3E}";
 
-    #[Info(id: 92991, name: 'PAHAWH HMONG SIGN XYEEM FAIB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x16B3F, name: 'PAHAWH HMONG SIGN XYEEM FAIB', category: Cat::Other_Symbol)]
     case PAHAWH_HMONG_SIGN_XYEEM_FAIB = "\u{16B3F}";
 
-    #[Info(id: 92992, name: 'PAHAWH HMONG SIGN VOS SEEV', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x16B40, name: 'PAHAWH HMONG SIGN VOS SEEV', category: Cat::Modifier_Letter)]
     case PAHAWH_HMONG_SIGN_VOS_SEEV = "\u{16B40}";
 
-    #[Info(id: 92993, name: 'PAHAWH HMONG SIGN MEEJ SUAB', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x16B41, name: 'PAHAWH HMONG SIGN MEEJ SUAB', category: Cat::Modifier_Letter)]
     case PAHAWH_HMONG_SIGN_MEEJ_SUAB = "\u{16B41}";
 
-    #[Info(id: 92994, name: 'PAHAWH HMONG SIGN VOS NRUA', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x16B42, name: 'PAHAWH HMONG SIGN VOS NRUA', category: Cat::Modifier_Letter)]
     case PAHAWH_HMONG_SIGN_VOS_NRUA = "\u{16B42}";
 
-    #[Info(id: 92995, name: 'PAHAWH HMONG SIGN IB YAM', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x16B43, name: 'PAHAWH HMONG SIGN IB YAM', category: Cat::Modifier_Letter)]
     case PAHAWH_HMONG_SIGN_IB_YAM = "\u{16B43}";
 
-    #[Info(id: 92996, name: 'PAHAWH HMONG SIGN XAUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x16B44, name: 'PAHAWH HMONG SIGN XAUS', category: Cat::Other_Punctuation)]
     case PAHAWH_HMONG_SIGN_XAUS = "\u{16B44}";
 
-    #[Info(id: 92997, name: 'PAHAWH HMONG SIGN CIM TSOV ROG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x16B45, name: 'PAHAWH HMONG SIGN CIM TSOV ROG', category: Cat::Other_Symbol)]
     case PAHAWH_HMONG_SIGN_CIM_TSOV_ROG = "\u{16B45}";
 
-    #[Info(id: 93008, name: 'PAHAWH HMONG DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16B50, name: 'PAHAWH HMONG DIGIT ZERO', category: Cat::Decimal_Number)]
     case PAHAWH_HMONG_DIGIT_ZERO = "\u{16B50}";
 
-    #[Info(id: 93009, name: 'PAHAWH HMONG DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16B51, name: 'PAHAWH HMONG DIGIT ONE', category: Cat::Decimal_Number)]
     case PAHAWH_HMONG_DIGIT_ONE = "\u{16B51}";
 
-    #[Info(id: 93010, name: 'PAHAWH HMONG DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16B52, name: 'PAHAWH HMONG DIGIT TWO', category: Cat::Decimal_Number)]
     case PAHAWH_HMONG_DIGIT_TWO = "\u{16B52}";
 
-    #[Info(id: 93011, name: 'PAHAWH HMONG DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16B53, name: 'PAHAWH HMONG DIGIT THREE', category: Cat::Decimal_Number)]
     case PAHAWH_HMONG_DIGIT_THREE = "\u{16B53}";
 
-    #[Info(id: 93012, name: 'PAHAWH HMONG DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16B54, name: 'PAHAWH HMONG DIGIT FOUR', category: Cat::Decimal_Number)]
     case PAHAWH_HMONG_DIGIT_FOUR = "\u{16B54}";
 
-    #[Info(id: 93013, name: 'PAHAWH HMONG DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16B55, name: 'PAHAWH HMONG DIGIT FIVE', category: Cat::Decimal_Number)]
     case PAHAWH_HMONG_DIGIT_FIVE = "\u{16B55}";
 
-    #[Info(id: 93014, name: 'PAHAWH HMONG DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16B56, name: 'PAHAWH HMONG DIGIT SIX', category: Cat::Decimal_Number)]
     case PAHAWH_HMONG_DIGIT_SIX = "\u{16B56}";
 
-    #[Info(id: 93015, name: 'PAHAWH HMONG DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16B57, name: 'PAHAWH HMONG DIGIT SEVEN', category: Cat::Decimal_Number)]
     case PAHAWH_HMONG_DIGIT_SEVEN = "\u{16B57}";
 
-    #[Info(id: 93016, name: 'PAHAWH HMONG DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16B58, name: 'PAHAWH HMONG DIGIT EIGHT', category: Cat::Decimal_Number)]
     case PAHAWH_HMONG_DIGIT_EIGHT = "\u{16B58}";
 
-    #[Info(id: 93017, name: 'PAHAWH HMONG DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16B59, name: 'PAHAWH HMONG DIGIT NINE', category: Cat::Decimal_Number)]
     case PAHAWH_HMONG_DIGIT_NINE = "\u{16B59}";
 
-    #[Info(id: 93019, name: 'PAHAWH HMONG NUMBER TENS', category: Cat::Other_Number)]
+    #[Info(id: 0x16B5B, name: 'PAHAWH HMONG NUMBER TENS', category: Cat::Other_Number)]
     case PAHAWH_HMONG_NUMBER_TENS = "\u{16B5B}";
 
-    #[Info(id: 93020, name: 'PAHAWH HMONG NUMBER HUNDREDS', category: Cat::Other_Number)]
+    #[Info(id: 0x16B5C, name: 'PAHAWH HMONG NUMBER HUNDREDS', category: Cat::Other_Number)]
     case PAHAWH_HMONG_NUMBER_HUNDREDS = "\u{16B5C}";
 
-    #[Info(id: 93021, name: 'PAHAWH HMONG NUMBER TEN THOUSANDS', category: Cat::Other_Number)]
+    #[Info(id: 0x16B5D, name: 'PAHAWH HMONG NUMBER TEN THOUSANDS', category: Cat::Other_Number)]
     case PAHAWH_HMONG_NUMBER_TEN_THOUSANDS = "\u{16B5D}";
 
-    #[Info(id: 93022, name: 'PAHAWH HMONG NUMBER MILLIONS', category: Cat::Other_Number)]
+    #[Info(id: 0x16B5E, name: 'PAHAWH HMONG NUMBER MILLIONS', category: Cat::Other_Number)]
     case PAHAWH_HMONG_NUMBER_MILLIONS = "\u{16B5E}";
 
-    #[Info(id: 93023, name: 'PAHAWH HMONG NUMBER HUNDRED MILLIONS', category: Cat::Other_Number)]
+    #[Info(id: 0x16B5F, name: 'PAHAWH HMONG NUMBER HUNDRED MILLIONS', category: Cat::Other_Number)]
     case PAHAWH_HMONG_NUMBER_HUNDRED_MILLIONS = "\u{16B5F}";
 
-    #[Info(id: 93024, name: 'PAHAWH HMONG NUMBER TEN BILLIONS', category: Cat::Other_Number)]
+    #[Info(id: 0x16B60, name: 'PAHAWH HMONG NUMBER TEN BILLIONS', category: Cat::Other_Number)]
     case PAHAWH_HMONG_NUMBER_TEN_BILLIONS = "\u{16B60}";
 
-    #[Info(id: 93025, name: 'PAHAWH HMONG NUMBER TRILLIONS', category: Cat::Other_Number)]
+    #[Info(id: 0x16B61, name: 'PAHAWH HMONG NUMBER TRILLIONS', category: Cat::Other_Number)]
     case PAHAWH_HMONG_NUMBER_TRILLIONS = "\u{16B61}";
 
-    #[Info(id: 93027, name: 'PAHAWH HMONG SIGN VOS LUB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B63, name: 'PAHAWH HMONG SIGN VOS LUB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_VOS_LUB = "\u{16B63}";
 
-    #[Info(id: 93028, name: 'PAHAWH HMONG SIGN XYOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B64, name: 'PAHAWH HMONG SIGN XYOO', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_XYOO = "\u{16B64}";
 
-    #[Info(id: 93029, name: 'PAHAWH HMONG SIGN HLI', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B65, name: 'PAHAWH HMONG SIGN HLI', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_HLI = "\u{16B65}";
 
-    #[Info(id: 93030, name: 'PAHAWH HMONG SIGN THIRD-STAGE HLI', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B66, name: 'PAHAWH HMONG SIGN THIRD-STAGE HLI', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_THIRD_STAGE_HLI = "\u{16B66}";
 
-    #[Info(id: 93031, name: 'PAHAWH HMONG SIGN ZWJ THAJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B67, name: 'PAHAWH HMONG SIGN ZWJ THAJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_ZWJ_THAJ = "\u{16B67}";
 
-    #[Info(id: 93032, name: 'PAHAWH HMONG SIGN HNUB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B68, name: 'PAHAWH HMONG SIGN HNUB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_HNUB = "\u{16B68}";
 
-    #[Info(id: 93033, name: 'PAHAWH HMONG SIGN NQIG', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B69, name: 'PAHAWH HMONG SIGN NQIG', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_NQIG = "\u{16B69}";
 
-    #[Info(id: 93034, name: 'PAHAWH HMONG SIGN XIAB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B6A, name: 'PAHAWH HMONG SIGN XIAB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_XIAB = "\u{16B6A}";
 
-    #[Info(id: 93035, name: 'PAHAWH HMONG SIGN NTUJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B6B, name: 'PAHAWH HMONG SIGN NTUJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_NTUJ = "\u{16B6B}";
 
-    #[Info(id: 93036, name: 'PAHAWH HMONG SIGN AV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B6C, name: 'PAHAWH HMONG SIGN AV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_AV = "\u{16B6C}";
 
-    #[Info(id: 93037, name: 'PAHAWH HMONG SIGN TXHEEJ CEEV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B6D, name: 'PAHAWH HMONG SIGN TXHEEJ CEEV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_TXHEEJ_CEEV = "\u{16B6D}";
 
-    #[Info(id: 93038, name: 'PAHAWH HMONG SIGN MEEJ TSEEB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B6E, name: 'PAHAWH HMONG SIGN MEEJ TSEEB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_MEEJ_TSEEB = "\u{16B6E}";
 
-    #[Info(id: 93039, name: 'PAHAWH HMONG SIGN TAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B6F, name: 'PAHAWH HMONG SIGN TAU', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_TAU = "\u{16B6F}";
 
-    #[Info(id: 93040, name: 'PAHAWH HMONG SIGN LOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B70, name: 'PAHAWH HMONG SIGN LOS', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_LOS = "\u{16B70}";
 
-    #[Info(id: 93041, name: 'PAHAWH HMONG SIGN MUS', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B71, name: 'PAHAWH HMONG SIGN MUS', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_MUS = "\u{16B71}";
 
-    #[Info(id: 93042, name: 'PAHAWH HMONG SIGN CIM HAIS LUS NTOG NTOG', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B72, name: 'PAHAWH HMONG SIGN CIM HAIS LUS NTOG NTOG', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_CIM_HAIS_LUS_NTOG_NTOG = "\u{16B72}";
 
-    #[Info(id: 93043, name: 'PAHAWH HMONG SIGN CIM CUAM TSHOOJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B73, name: 'PAHAWH HMONG SIGN CIM CUAM TSHOOJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_CIM_CUAM_TSHOOJ = "\u{16B73}";
 
-    #[Info(id: 93044, name: 'PAHAWH HMONG SIGN CIM TXWV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B74, name: 'PAHAWH HMONG SIGN CIM TXWV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_CIM_TXWV = "\u{16B74}";
 
-    #[Info(id: 93045, name: 'PAHAWH HMONG SIGN CIM TXWV CHWV', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B75, name: 'PAHAWH HMONG SIGN CIM TXWV CHWV', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_CIM_TXWV_CHWV = "\u{16B75}";
 
-    #[Info(id: 93046, name: 'PAHAWH HMONG SIGN CIM PUB DAWB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B76, name: 'PAHAWH HMONG SIGN CIM PUB DAWB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_CIM_PUB_DAWB = "\u{16B76}";
 
-    #[Info(id: 93047, name: 'PAHAWH HMONG SIGN CIM NRES TOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B77, name: 'PAHAWH HMONG SIGN CIM NRES TOS', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_SIGN_CIM_NRES_TOS = "\u{16B77}";
 
-    #[Info(id: 93053, name: 'PAHAWH HMONG CLAN SIGN TSHEEJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B7D, name: 'PAHAWH HMONG CLAN SIGN TSHEEJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_TSHEEJ = "\u{16B7D}";
 
-    #[Info(id: 93054, name: 'PAHAWH HMONG CLAN SIGN YEEG', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B7E, name: 'PAHAWH HMONG CLAN SIGN YEEG', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_YEEG = "\u{16B7E}";
 
-    #[Info(id: 93055, name: 'PAHAWH HMONG CLAN SIGN LIS', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B7F, name: 'PAHAWH HMONG CLAN SIGN LIS', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_LIS = "\u{16B7F}";
 
-    #[Info(id: 93056, name: 'PAHAWH HMONG CLAN SIGN LAUJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B80, name: 'PAHAWH HMONG CLAN SIGN LAUJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_LAUJ = "\u{16B80}";
 
-    #[Info(id: 93057, name: 'PAHAWH HMONG CLAN SIGN XYOOJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B81, name: 'PAHAWH HMONG CLAN SIGN XYOOJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_XYOOJ = "\u{16B81}";
 
-    #[Info(id: 93058, name: 'PAHAWH HMONG CLAN SIGN KOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B82, name: 'PAHAWH HMONG CLAN SIGN KOO', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_KOO = "\u{16B82}";
 
-    #[Info(id: 93059, name: 'PAHAWH HMONG CLAN SIGN HAWJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B83, name: 'PAHAWH HMONG CLAN SIGN HAWJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_HAWJ = "\u{16B83}";
 
-    #[Info(id: 93060, name: 'PAHAWH HMONG CLAN SIGN MUAS', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B84, name: 'PAHAWH HMONG CLAN SIGN MUAS', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_MUAS = "\u{16B84}";
 
-    #[Info(id: 93061, name: 'PAHAWH HMONG CLAN SIGN THOJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B85, name: 'PAHAWH HMONG CLAN SIGN THOJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_THOJ = "\u{16B85}";
 
-    #[Info(id: 93062, name: 'PAHAWH HMONG CLAN SIGN TSAB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B86, name: 'PAHAWH HMONG CLAN SIGN TSAB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_TSAB = "\u{16B86}";
 
-    #[Info(id: 93063, name: 'PAHAWH HMONG CLAN SIGN PHAB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B87, name: 'PAHAWH HMONG CLAN SIGN PHAB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_PHAB = "\u{16B87}";
 
-    #[Info(id: 93064, name: 'PAHAWH HMONG CLAN SIGN KHAB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B88, name: 'PAHAWH HMONG CLAN SIGN KHAB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_KHAB = "\u{16B88}";
 
-    #[Info(id: 93065, name: 'PAHAWH HMONG CLAN SIGN HAM', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B89, name: 'PAHAWH HMONG CLAN SIGN HAM', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_HAM = "\u{16B89}";
 
-    #[Info(id: 93066, name: 'PAHAWH HMONG CLAN SIGN VAJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B8A, name: 'PAHAWH HMONG CLAN SIGN VAJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_VAJ = "\u{16B8A}";
 
-    #[Info(id: 93067, name: 'PAHAWH HMONG CLAN SIGN FAJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B8B, name: 'PAHAWH HMONG CLAN SIGN FAJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_FAJ = "\u{16B8B}";
 
-    #[Info(id: 93068, name: 'PAHAWH HMONG CLAN SIGN YAJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B8C, name: 'PAHAWH HMONG CLAN SIGN YAJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_YAJ = "\u{16B8C}";
 
-    #[Info(id: 93069, name: 'PAHAWH HMONG CLAN SIGN TSWB', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B8D, name: 'PAHAWH HMONG CLAN SIGN TSWB', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_TSWB = "\u{16B8D}";
 
-    #[Info(id: 93070, name: 'PAHAWH HMONG CLAN SIGN KWM', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B8E, name: 'PAHAWH HMONG CLAN SIGN KWM', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_KWM = "\u{16B8E}";
 
-    #[Info(id: 93071, name: 'PAHAWH HMONG CLAN SIGN VWJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16B8F, name: 'PAHAWH HMONG CLAN SIGN VWJ', category: Cat::Other_Letter)]
     case PAHAWH_HMONG_CLAN_SIGN_VWJ = "\u{16B8F}";
 }

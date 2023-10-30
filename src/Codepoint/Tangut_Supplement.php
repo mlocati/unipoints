@@ -16,9 +16,9 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Tangut_Supplement: string
 {
-    #[Info(id: 101632, name: 'Tangut Ideograph Supplement, First', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D00, name: 'Tangut Ideograph Supplement, First', category: Cat::Other_Letter)]
     case Tangut_Ideograph_Supplement__First = "\u{18D00}";
 
-    #[Info(id: 101640, name: 'Tangut Ideograph Supplement, Last', category: Cat::Other_Letter)]
+    #[Info(id: 0x18D08, name: 'Tangut Ideograph Supplement, Last', category: Cat::Other_Letter)]
     case Tangut_Ideograph_Supplement__Last = "\u{18D08}";
 }

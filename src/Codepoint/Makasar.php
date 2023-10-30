@@ -16,78 +16,78 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Makasar: string
 {
-    #[Info(id: 73440, name: 'MAKASAR LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EE0, name: 'MAKASAR LETTER KA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_KA = "\u{11EE0}";
 
-    #[Info(id: 73441, name: 'MAKASAR LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EE1, name: 'MAKASAR LETTER GA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_GA = "\u{11EE1}";
 
-    #[Info(id: 73442, name: 'MAKASAR LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EE2, name: 'MAKASAR LETTER NGA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_NGA = "\u{11EE2}";
 
-    #[Info(id: 73443, name: 'MAKASAR LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EE3, name: 'MAKASAR LETTER PA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_PA = "\u{11EE3}";
 
-    #[Info(id: 73444, name: 'MAKASAR LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EE4, name: 'MAKASAR LETTER BA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_BA = "\u{11EE4}";
 
-    #[Info(id: 73445, name: 'MAKASAR LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EE5, name: 'MAKASAR LETTER MA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_MA = "\u{11EE5}";
 
-    #[Info(id: 73446, name: 'MAKASAR LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EE6, name: 'MAKASAR LETTER TA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_TA = "\u{11EE6}";
 
-    #[Info(id: 73447, name: 'MAKASAR LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EE7, name: 'MAKASAR LETTER DA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_DA = "\u{11EE7}";
 
-    #[Info(id: 73448, name: 'MAKASAR LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EE8, name: 'MAKASAR LETTER NA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_NA = "\u{11EE8}";
 
-    #[Info(id: 73449, name: 'MAKASAR LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EE9, name: 'MAKASAR LETTER CA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_CA = "\u{11EE9}";
 
-    #[Info(id: 73450, name: 'MAKASAR LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EEA, name: 'MAKASAR LETTER JA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_JA = "\u{11EEA}";
 
-    #[Info(id: 73451, name: 'MAKASAR LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EEB, name: 'MAKASAR LETTER NYA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_NYA = "\u{11EEB}";
 
-    #[Info(id: 73452, name: 'MAKASAR LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EEC, name: 'MAKASAR LETTER YA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_YA = "\u{11EEC}";
 
-    #[Info(id: 73453, name: 'MAKASAR LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EED, name: 'MAKASAR LETTER RA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_RA = "\u{11EED}";
 
-    #[Info(id: 73454, name: 'MAKASAR LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EEE, name: 'MAKASAR LETTER LA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_LA = "\u{11EEE}";
 
-    #[Info(id: 73455, name: 'MAKASAR LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EEF, name: 'MAKASAR LETTER VA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_VA = "\u{11EEF}";
 
-    #[Info(id: 73456, name: 'MAKASAR LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EF0, name: 'MAKASAR LETTER SA', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_SA = "\u{11EF0}";
 
-    #[Info(id: 73457, name: 'MAKASAR LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EF1, name: 'MAKASAR LETTER A', category: Cat::Other_Letter)]
     case MAKASAR_LETTER_A = "\u{11EF1}";
 
-    #[Info(id: 73458, name: 'MAKASAR ANGKA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EF2, name: 'MAKASAR ANGKA', category: Cat::Other_Letter)]
     case MAKASAR_ANGKA = "\u{11EF2}";
 
-    #[Info(id: 73459, name: 'MAKASAR VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11EF3, name: 'MAKASAR VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case MAKASAR_VOWEL_SIGN_I = "\u{11EF3}";
 
-    #[Info(id: 73460, name: 'MAKASAR VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11EF4, name: 'MAKASAR VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case MAKASAR_VOWEL_SIGN_U = "\u{11EF4}";
 
-    #[Info(id: 73461, name: 'MAKASAR VOWEL SIGN E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11EF5, name: 'MAKASAR VOWEL SIGN E', category: Cat::Spacing_Mark)]
     case MAKASAR_VOWEL_SIGN_E = "\u{11EF5}";
 
-    #[Info(id: 73462, name: 'MAKASAR VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11EF6, name: 'MAKASAR VOWEL SIGN O', category: Cat::Spacing_Mark)]
     case MAKASAR_VOWEL_SIGN_O = "\u{11EF6}";
 
-    #[Info(id: 73463, name: 'MAKASAR PASSIMBANG', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11EF7, name: 'MAKASAR PASSIMBANG', category: Cat::Other_Punctuation)]
     case MAKASAR_PASSIMBANG = "\u{11EF7}";
 
-    #[Info(id: 73464, name: 'MAKASAR END OF SECTION', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11EF8, name: 'MAKASAR END OF SECTION', category: Cat::Other_Punctuation)]
     case MAKASAR_END_OF_SECTION = "\u{11EF8}";
 }

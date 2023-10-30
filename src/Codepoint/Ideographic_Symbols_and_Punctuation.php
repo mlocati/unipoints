@@ -16,24 +16,24 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Ideographic_Symbols_and_Punctuation: string
 {
-    #[Info(id: 94176, name: 'TANGUT ITERATION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x16FE0, name: 'TANGUT ITERATION MARK', category: Cat::Modifier_Letter)]
     case TANGUT_ITERATION_MARK = "\u{16FE0}";
 
-    #[Info(id: 94177, name: 'NUSHU ITERATION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x16FE1, name: 'NUSHU ITERATION MARK', category: Cat::Modifier_Letter)]
     case NUSHU_ITERATION_MARK = "\u{16FE1}";
 
-    #[Info(id: 94178, name: 'OLD CHINESE HOOK MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x16FE2, name: 'OLD CHINESE HOOK MARK', category: Cat::Other_Punctuation)]
     case OLD_CHINESE_HOOK_MARK = "\u{16FE2}";
 
-    #[Info(id: 94179, name: 'OLD CHINESE ITERATION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x16FE3, name: 'OLD CHINESE ITERATION MARK', category: Cat::Modifier_Letter)]
     case OLD_CHINESE_ITERATION_MARK = "\u{16FE3}";
 
-    #[Info(id: 94180, name: 'KHITAN SMALL SCRIPT FILLER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x16FE4, name: 'KHITAN SMALL SCRIPT FILLER', category: Cat::Nonspacing_Mark)]
     case KHITAN_SMALL_SCRIPT_FILLER = "\u{16FE4}";
 
-    #[Info(id: 94192, name: 'VIETNAMESE ALTERNATE READING MARK CA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x16FF0, name: 'VIETNAMESE ALTERNATE READING MARK CA', category: Cat::Spacing_Mark)]
     case VIETNAMESE_ALTERNATE_READING_MARK_CA = "\u{16FF0}";
 
-    #[Info(id: 94193, name: 'VIETNAMESE ALTERNATE READING MARK NHAY', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x16FF1, name: 'VIETNAMESE ALTERNATE READING MARK NHAY', category: Cat::Spacing_Mark)]
     case VIETNAMESE_ALTERNATE_READING_MARK_NHAY = "\u{16FF1}";
 }

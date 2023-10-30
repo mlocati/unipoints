@@ -16,234 +16,234 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Syriac: string
 {
-    #[Info(id: 1792, name: 'SYRIAC END OF PARAGRAPH', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x700, name: 'SYRIAC END OF PARAGRAPH', category: Cat::Other_Punctuation)]
     case SYRIAC_END_OF_PARAGRAPH = "\u{700}";
 
-    #[Info(id: 1793, name: 'SYRIAC SUPRALINEAR FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x701, name: 'SYRIAC SUPRALINEAR FULL STOP', category: Cat::Other_Punctuation)]
     case SYRIAC_SUPRALINEAR_FULL_STOP = "\u{701}";
 
-    #[Info(id: 1794, name: 'SYRIAC SUBLINEAR FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x702, name: 'SYRIAC SUBLINEAR FULL STOP', category: Cat::Other_Punctuation)]
     case SYRIAC_SUBLINEAR_FULL_STOP = "\u{702}";
 
-    #[Info(id: 1795, name: 'SYRIAC SUPRALINEAR COLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x703, name: 'SYRIAC SUPRALINEAR COLON', category: Cat::Other_Punctuation)]
     case SYRIAC_SUPRALINEAR_COLON = "\u{703}";
 
-    #[Info(id: 1796, name: 'SYRIAC SUBLINEAR COLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x704, name: 'SYRIAC SUBLINEAR COLON', category: Cat::Other_Punctuation)]
     case SYRIAC_SUBLINEAR_COLON = "\u{704}";
 
-    #[Info(id: 1797, name: 'SYRIAC HORIZONTAL COLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x705, name: 'SYRIAC HORIZONTAL COLON', category: Cat::Other_Punctuation)]
     case SYRIAC_HORIZONTAL_COLON = "\u{705}";
 
-    #[Info(id: 1798, name: 'SYRIAC COLON SKEWED LEFT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x706, name: 'SYRIAC COLON SKEWED LEFT', category: Cat::Other_Punctuation)]
     case SYRIAC_COLON_SKEWED_LEFT = "\u{706}";
 
-    #[Info(id: 1799, name: 'SYRIAC COLON SKEWED RIGHT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x707, name: 'SYRIAC COLON SKEWED RIGHT', category: Cat::Other_Punctuation)]
     case SYRIAC_COLON_SKEWED_RIGHT = "\u{707}";
 
-    #[Info(id: 1800, name: 'SYRIAC SUPRALINEAR COLON SKEWED LEFT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x708, name: 'SYRIAC SUPRALINEAR COLON SKEWED LEFT', category: Cat::Other_Punctuation)]
     case SYRIAC_SUPRALINEAR_COLON_SKEWED_LEFT = "\u{708}";
 
-    #[Info(id: 1801, name: 'SYRIAC SUBLINEAR COLON SKEWED RIGHT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x709, name: 'SYRIAC SUBLINEAR COLON SKEWED RIGHT', category: Cat::Other_Punctuation)]
     case SYRIAC_SUBLINEAR_COLON_SKEWED_RIGHT = "\u{709}";
 
-    #[Info(id: 1802, name: 'SYRIAC CONTRACTION', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x70A, name: 'SYRIAC CONTRACTION', category: Cat::Other_Punctuation)]
     case SYRIAC_CONTRACTION = "\u{70A}";
 
-    #[Info(id: 1803, name: 'SYRIAC HARKLEAN OBELUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x70B, name: 'SYRIAC HARKLEAN OBELUS', category: Cat::Other_Punctuation)]
     case SYRIAC_HARKLEAN_OBELUS = "\u{70B}";
 
-    #[Info(id: 1804, name: 'SYRIAC HARKLEAN METOBELUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x70C, name: 'SYRIAC HARKLEAN METOBELUS', category: Cat::Other_Punctuation)]
     case SYRIAC_HARKLEAN_METOBELUS = "\u{70C}";
 
-    #[Info(id: 1805, name: 'SYRIAC HARKLEAN ASTERISCUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x70D, name: 'SYRIAC HARKLEAN ASTERISCUS', category: Cat::Other_Punctuation)]
     case SYRIAC_HARKLEAN_ASTERISCUS = "\u{70D}";
 
-    #[Info(id: 1807, name: 'SYRIAC ABBREVIATION MARK', category: Cat::Format)]
+    #[Info(id: 0x70F, name: 'SYRIAC ABBREVIATION MARK', category: Cat::Format)]
     case SYRIAC_ABBREVIATION_MARK = "\u{70F}";
 
-    #[Info(id: 1808, name: 'SYRIAC LETTER ALAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x710, name: 'SYRIAC LETTER ALAPH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_ALAPH = "\u{710}";
 
-    #[Info(id: 1809, name: 'SYRIAC LETTER SUPERSCRIPT ALAPH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x711, name: 'SYRIAC LETTER SUPERSCRIPT ALAPH', category: Cat::Nonspacing_Mark)]
     case SYRIAC_LETTER_SUPERSCRIPT_ALAPH = "\u{711}";
 
-    #[Info(id: 1810, name: 'SYRIAC LETTER BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x712, name: 'SYRIAC LETTER BETH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_BETH = "\u{712}";
 
-    #[Info(id: 1811, name: 'SYRIAC LETTER GAMAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x713, name: 'SYRIAC LETTER GAMAL', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_GAMAL = "\u{713}";
 
-    #[Info(id: 1812, name: 'SYRIAC LETTER GAMAL GARSHUNI', category: Cat::Other_Letter)]
+    #[Info(id: 0x714, name: 'SYRIAC LETTER GAMAL GARSHUNI', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_GAMAL_GARSHUNI = "\u{714}";
 
-    #[Info(id: 1813, name: 'SYRIAC LETTER DALATH', category: Cat::Other_Letter)]
+    #[Info(id: 0x715, name: 'SYRIAC LETTER DALATH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_DALATH = "\u{715}";
 
-    #[Info(id: 1814, name: 'SYRIAC LETTER DOTLESS DALATH RISH', category: Cat::Other_Letter)]
+    #[Info(id: 0x716, name: 'SYRIAC LETTER DOTLESS DALATH RISH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_DOTLESS_DALATH_RISH = "\u{716}";
 
-    #[Info(id: 1815, name: 'SYRIAC LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x717, name: 'SYRIAC LETTER HE', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_HE = "\u{717}";
 
-    #[Info(id: 1816, name: 'SYRIAC LETTER WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x718, name: 'SYRIAC LETTER WAW', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_WAW = "\u{718}";
 
-    #[Info(id: 1817, name: 'SYRIAC LETTER ZAIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x719, name: 'SYRIAC LETTER ZAIN', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_ZAIN = "\u{719}";
 
-    #[Info(id: 1818, name: 'SYRIAC LETTER HETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x71A, name: 'SYRIAC LETTER HETH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_HETH = "\u{71A}";
 
-    #[Info(id: 1819, name: 'SYRIAC LETTER TETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x71B, name: 'SYRIAC LETTER TETH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_TETH = "\u{71B}";
 
-    #[Info(id: 1820, name: 'SYRIAC LETTER TETH GARSHUNI', category: Cat::Other_Letter)]
+    #[Info(id: 0x71C, name: 'SYRIAC LETTER TETH GARSHUNI', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_TETH_GARSHUNI = "\u{71C}";
 
-    #[Info(id: 1821, name: 'SYRIAC LETTER YUDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x71D, name: 'SYRIAC LETTER YUDH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_YUDH = "\u{71D}";
 
-    #[Info(id: 1822, name: 'SYRIAC LETTER YUDH HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x71E, name: 'SYRIAC LETTER YUDH HE', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_YUDH_HE = "\u{71E}";
 
-    #[Info(id: 1823, name: 'SYRIAC LETTER KAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x71F, name: 'SYRIAC LETTER KAPH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_KAPH = "\u{71F}";
 
-    #[Info(id: 1824, name: 'SYRIAC LETTER LAMADH', category: Cat::Other_Letter)]
+    #[Info(id: 0x720, name: 'SYRIAC LETTER LAMADH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_LAMADH = "\u{720}";
 
-    #[Info(id: 1825, name: 'SYRIAC LETTER MIM', category: Cat::Other_Letter)]
+    #[Info(id: 0x721, name: 'SYRIAC LETTER MIM', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_MIM = "\u{721}";
 
-    #[Info(id: 1826, name: 'SYRIAC LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x722, name: 'SYRIAC LETTER NUN', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_NUN = "\u{722}";
 
-    #[Info(id: 1827, name: 'SYRIAC LETTER SEMKATH', category: Cat::Other_Letter)]
+    #[Info(id: 0x723, name: 'SYRIAC LETTER SEMKATH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_SEMKATH = "\u{723}";
 
-    #[Info(id: 1828, name: 'SYRIAC LETTER FINAL SEMKATH', category: Cat::Other_Letter)]
+    #[Info(id: 0x724, name: 'SYRIAC LETTER FINAL SEMKATH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_FINAL_SEMKATH = "\u{724}";
 
-    #[Info(id: 1829, name: 'SYRIAC LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x725, name: 'SYRIAC LETTER E', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_E = "\u{725}";
 
-    #[Info(id: 1830, name: 'SYRIAC LETTER PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x726, name: 'SYRIAC LETTER PE', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_PE = "\u{726}";
 
-    #[Info(id: 1831, name: 'SYRIAC LETTER REVERSED PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x727, name: 'SYRIAC LETTER REVERSED PE', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_REVERSED_PE = "\u{727}";
 
-    #[Info(id: 1832, name: 'SYRIAC LETTER SADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x728, name: 'SYRIAC LETTER SADHE', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_SADHE = "\u{728}";
 
-    #[Info(id: 1833, name: 'SYRIAC LETTER QAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x729, name: 'SYRIAC LETTER QAPH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_QAPH = "\u{729}";
 
-    #[Info(id: 1834, name: 'SYRIAC LETTER RISH', category: Cat::Other_Letter)]
+    #[Info(id: 0x72A, name: 'SYRIAC LETTER RISH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_RISH = "\u{72A}";
 
-    #[Info(id: 1835, name: 'SYRIAC LETTER SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x72B, name: 'SYRIAC LETTER SHIN', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_SHIN = "\u{72B}";
 
-    #[Info(id: 1836, name: 'SYRIAC LETTER TAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x72C, name: 'SYRIAC LETTER TAW', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_TAW = "\u{72C}";
 
-    #[Info(id: 1837, name: 'SYRIAC LETTER PERSIAN BHETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x72D, name: 'SYRIAC LETTER PERSIAN BHETH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_PERSIAN_BHETH = "\u{72D}";
 
-    #[Info(id: 1838, name: 'SYRIAC LETTER PERSIAN GHAMAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x72E, name: 'SYRIAC LETTER PERSIAN GHAMAL', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_PERSIAN_GHAMAL = "\u{72E}";
 
-    #[Info(id: 1839, name: 'SYRIAC LETTER PERSIAN DHALATH', category: Cat::Other_Letter)]
+    #[Info(id: 0x72F, name: 'SYRIAC LETTER PERSIAN DHALATH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_PERSIAN_DHALATH = "\u{72F}";
 
-    #[Info(id: 1840, name: 'SYRIAC PTHAHA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x730, name: 'SYRIAC PTHAHA ABOVE', category: Cat::Nonspacing_Mark)]
     case SYRIAC_PTHAHA_ABOVE = "\u{730}";
 
-    #[Info(id: 1841, name: 'SYRIAC PTHAHA BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x731, name: 'SYRIAC PTHAHA BELOW', category: Cat::Nonspacing_Mark)]
     case SYRIAC_PTHAHA_BELOW = "\u{731}";
 
-    #[Info(id: 1842, name: 'SYRIAC PTHAHA DOTTED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x732, name: 'SYRIAC PTHAHA DOTTED', category: Cat::Nonspacing_Mark)]
     case SYRIAC_PTHAHA_DOTTED = "\u{732}";
 
-    #[Info(id: 1843, name: 'SYRIAC ZQAPHA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x733, name: 'SYRIAC ZQAPHA ABOVE', category: Cat::Nonspacing_Mark)]
     case SYRIAC_ZQAPHA_ABOVE = "\u{733}";
 
-    #[Info(id: 1844, name: 'SYRIAC ZQAPHA BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x734, name: 'SYRIAC ZQAPHA BELOW', category: Cat::Nonspacing_Mark)]
     case SYRIAC_ZQAPHA_BELOW = "\u{734}";
 
-    #[Info(id: 1845, name: 'SYRIAC ZQAPHA DOTTED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x735, name: 'SYRIAC ZQAPHA DOTTED', category: Cat::Nonspacing_Mark)]
     case SYRIAC_ZQAPHA_DOTTED = "\u{735}";
 
-    #[Info(id: 1846, name: 'SYRIAC RBASA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x736, name: 'SYRIAC RBASA ABOVE', category: Cat::Nonspacing_Mark)]
     case SYRIAC_RBASA_ABOVE = "\u{736}";
 
-    #[Info(id: 1847, name: 'SYRIAC RBASA BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x737, name: 'SYRIAC RBASA BELOW', category: Cat::Nonspacing_Mark)]
     case SYRIAC_RBASA_BELOW = "\u{737}";
 
-    #[Info(id: 1848, name: 'SYRIAC DOTTED ZLAMA HORIZONTAL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x738, name: 'SYRIAC DOTTED ZLAMA HORIZONTAL', category: Cat::Nonspacing_Mark)]
     case SYRIAC_DOTTED_ZLAMA_HORIZONTAL = "\u{738}";
 
-    #[Info(id: 1849, name: 'SYRIAC DOTTED ZLAMA ANGULAR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x739, name: 'SYRIAC DOTTED ZLAMA ANGULAR', category: Cat::Nonspacing_Mark)]
     case SYRIAC_DOTTED_ZLAMA_ANGULAR = "\u{739}";
 
-    #[Info(id: 1850, name: 'SYRIAC HBASA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x73A, name: 'SYRIAC HBASA ABOVE', category: Cat::Nonspacing_Mark)]
     case SYRIAC_HBASA_ABOVE = "\u{73A}";
 
-    #[Info(id: 1851, name: 'SYRIAC HBASA BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x73B, name: 'SYRIAC HBASA BELOW', category: Cat::Nonspacing_Mark)]
     case SYRIAC_HBASA_BELOW = "\u{73B}";
 
-    #[Info(id: 1852, name: 'SYRIAC HBASA-ESASA DOTTED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x73C, name: 'SYRIAC HBASA-ESASA DOTTED', category: Cat::Nonspacing_Mark)]
     case SYRIAC_HBASA_ESASA_DOTTED = "\u{73C}";
 
-    #[Info(id: 1853, name: 'SYRIAC ESASA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x73D, name: 'SYRIAC ESASA ABOVE', category: Cat::Nonspacing_Mark)]
     case SYRIAC_ESASA_ABOVE = "\u{73D}";
 
-    #[Info(id: 1854, name: 'SYRIAC ESASA BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x73E, name: 'SYRIAC ESASA BELOW', category: Cat::Nonspacing_Mark)]
     case SYRIAC_ESASA_BELOW = "\u{73E}";
 
-    #[Info(id: 1855, name: 'SYRIAC RWAHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x73F, name: 'SYRIAC RWAHA', category: Cat::Nonspacing_Mark)]
     case SYRIAC_RWAHA = "\u{73F}";
 
-    #[Info(id: 1856, name: 'SYRIAC FEMININE DOT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x740, name: 'SYRIAC FEMININE DOT', category: Cat::Nonspacing_Mark)]
     case SYRIAC_FEMININE_DOT = "\u{740}";
 
-    #[Info(id: 1857, name: 'SYRIAC QUSHSHAYA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x741, name: 'SYRIAC QUSHSHAYA', category: Cat::Nonspacing_Mark)]
     case SYRIAC_QUSHSHAYA = "\u{741}";
 
-    #[Info(id: 1858, name: 'SYRIAC RUKKAKHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x742, name: 'SYRIAC RUKKAKHA', category: Cat::Nonspacing_Mark)]
     case SYRIAC_RUKKAKHA = "\u{742}";
 
-    #[Info(id: 1859, name: 'SYRIAC TWO VERTICAL DOTS ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x743, name: 'SYRIAC TWO VERTICAL DOTS ABOVE', category: Cat::Nonspacing_Mark)]
     case SYRIAC_TWO_VERTICAL_DOTS_ABOVE = "\u{743}";
 
-    #[Info(id: 1860, name: 'SYRIAC TWO VERTICAL DOTS BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x744, name: 'SYRIAC TWO VERTICAL DOTS BELOW', category: Cat::Nonspacing_Mark)]
     case SYRIAC_TWO_VERTICAL_DOTS_BELOW = "\u{744}";
 
-    #[Info(id: 1861, name: 'SYRIAC THREE DOTS ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x745, name: 'SYRIAC THREE DOTS ABOVE', category: Cat::Nonspacing_Mark)]
     case SYRIAC_THREE_DOTS_ABOVE = "\u{745}";
 
-    #[Info(id: 1862, name: 'SYRIAC THREE DOTS BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x746, name: 'SYRIAC THREE DOTS BELOW', category: Cat::Nonspacing_Mark)]
     case SYRIAC_THREE_DOTS_BELOW = "\u{746}";
 
-    #[Info(id: 1863, name: 'SYRIAC OBLIQUE LINE ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x747, name: 'SYRIAC OBLIQUE LINE ABOVE', category: Cat::Nonspacing_Mark)]
     case SYRIAC_OBLIQUE_LINE_ABOVE = "\u{747}";
 
-    #[Info(id: 1864, name: 'SYRIAC OBLIQUE LINE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x748, name: 'SYRIAC OBLIQUE LINE BELOW', category: Cat::Nonspacing_Mark)]
     case SYRIAC_OBLIQUE_LINE_BELOW = "\u{748}";
 
-    #[Info(id: 1865, name: 'SYRIAC MUSIC', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x749, name: 'SYRIAC MUSIC', category: Cat::Nonspacing_Mark)]
     case SYRIAC_MUSIC = "\u{749}";
 
-    #[Info(id: 1866, name: 'SYRIAC BARREKH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x74A, name: 'SYRIAC BARREKH', category: Cat::Nonspacing_Mark)]
     case SYRIAC_BARREKH = "\u{74A}";
 
-    #[Info(id: 1869, name: 'SYRIAC LETTER SOGDIAN ZHAIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x74D, name: 'SYRIAC LETTER SOGDIAN ZHAIN', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_SOGDIAN_ZHAIN = "\u{74D}";
 
-    #[Info(id: 1870, name: 'SYRIAC LETTER SOGDIAN KHAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x74E, name: 'SYRIAC LETTER SOGDIAN KHAPH', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_SOGDIAN_KHAPH = "\u{74E}";
 
-    #[Info(id: 1871, name: 'SYRIAC LETTER SOGDIAN FE', category: Cat::Other_Letter)]
+    #[Info(id: 0x74F, name: 'SYRIAC LETTER SOGDIAN FE', category: Cat::Other_Letter)]
     case SYRIAC_LETTER_SOGDIAN_FE = "\u{74F}";
 }

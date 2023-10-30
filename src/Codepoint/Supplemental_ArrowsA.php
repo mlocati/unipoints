@@ -16,51 +16,51 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Supplemental_ArrowsA: string
 {
-    #[Info(id: 10224, name: 'UPWARDS QUADRUPLE ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27F0, name: 'UPWARDS QUADRUPLE ARROW', category: Cat::Math_Symbol)]
     case UPWARDS_QUADRUPLE_ARROW = "\u{27F0}";
 
-    #[Info(id: 10225, name: 'DOWNWARDS QUADRUPLE ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27F1, name: 'DOWNWARDS QUADRUPLE ARROW', category: Cat::Math_Symbol)]
     case DOWNWARDS_QUADRUPLE_ARROW = "\u{27F1}";
 
-    #[Info(id: 10226, name: 'ANTICLOCKWISE GAPPED CIRCLE ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27F2, name: 'ANTICLOCKWISE GAPPED CIRCLE ARROW', category: Cat::Math_Symbol)]
     case ANTICLOCKWISE_GAPPED_CIRCLE_ARROW = "\u{27F2}";
 
-    #[Info(id: 10227, name: 'CLOCKWISE GAPPED CIRCLE ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27F3, name: 'CLOCKWISE GAPPED CIRCLE ARROW', category: Cat::Math_Symbol)]
     case CLOCKWISE_GAPPED_CIRCLE_ARROW = "\u{27F3}";
 
-    #[Info(id: 10228, name: 'RIGHT ARROW WITH CIRCLED PLUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27F4, name: 'RIGHT ARROW WITH CIRCLED PLUS', category: Cat::Math_Symbol)]
     case RIGHT_ARROW_WITH_CIRCLED_PLUS = "\u{27F4}";
 
-    #[Info(id: 10229, name: 'LONG LEFTWARDS ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27F5, name: 'LONG LEFTWARDS ARROW', category: Cat::Math_Symbol)]
     case LONG_LEFTWARDS_ARROW = "\u{27F5}";
 
-    #[Info(id: 10230, name: 'LONG RIGHTWARDS ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27F6, name: 'LONG RIGHTWARDS ARROW', category: Cat::Math_Symbol)]
     case LONG_RIGHTWARDS_ARROW = "\u{27F6}";
 
-    #[Info(id: 10231, name: 'LONG LEFT RIGHT ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27F7, name: 'LONG LEFT RIGHT ARROW', category: Cat::Math_Symbol)]
     case LONG_LEFT_RIGHT_ARROW = "\u{27F7}";
 
-    #[Info(id: 10232, name: 'LONG LEFTWARDS DOUBLE ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27F8, name: 'LONG LEFTWARDS DOUBLE ARROW', category: Cat::Math_Symbol)]
     case LONG_LEFTWARDS_DOUBLE_ARROW = "\u{27F8}";
 
-    #[Info(id: 10233, name: 'LONG RIGHTWARDS DOUBLE ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27F9, name: 'LONG RIGHTWARDS DOUBLE ARROW', category: Cat::Math_Symbol)]
     case LONG_RIGHTWARDS_DOUBLE_ARROW = "\u{27F9}";
 
-    #[Info(id: 10234, name: 'LONG LEFT RIGHT DOUBLE ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27FA, name: 'LONG LEFT RIGHT DOUBLE ARROW', category: Cat::Math_Symbol)]
     case LONG_LEFT_RIGHT_DOUBLE_ARROW = "\u{27FA}";
 
-    #[Info(id: 10235, name: 'LONG LEFTWARDS ARROW FROM BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27FB, name: 'LONG LEFTWARDS ARROW FROM BAR', category: Cat::Math_Symbol)]
     case LONG_LEFTWARDS_ARROW_FROM_BAR = "\u{27FB}";
 
-    #[Info(id: 10236, name: 'LONG RIGHTWARDS ARROW FROM BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27FC, name: 'LONG RIGHTWARDS ARROW FROM BAR', category: Cat::Math_Symbol)]
     case LONG_RIGHTWARDS_ARROW_FROM_BAR = "\u{27FC}";
 
-    #[Info(id: 10237, name: 'LONG LEFTWARDS DOUBLE ARROW FROM BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27FD, name: 'LONG LEFTWARDS DOUBLE ARROW FROM BAR', category: Cat::Math_Symbol)]
     case LONG_LEFTWARDS_DOUBLE_ARROW_FROM_BAR = "\u{27FD}";
 
-    #[Info(id: 10238, name: 'LONG RIGHTWARDS DOUBLE ARROW FROM BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27FE, name: 'LONG RIGHTWARDS DOUBLE ARROW FROM BAR', category: Cat::Math_Symbol)]
     case LONG_RIGHTWARDS_DOUBLE_ARROW_FROM_BAR = "\u{27FE}";
 
-    #[Info(id: 10239, name: 'LONG RIGHTWARDS SQUIGGLE ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27FF, name: 'LONG RIGHTWARDS SQUIGGLE ARROW', category: Cat::Math_Symbol)]
     case LONG_RIGHTWARDS_SQUIGGLE_ARROW = "\u{27FF}";
 }

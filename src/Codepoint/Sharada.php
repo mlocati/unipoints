@@ -16,291 +16,291 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Sharada: string
 {
-    #[Info(id: 70016, name: 'SHARADA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11180, name: 'SHARADA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case SHARADA_SIGN_CANDRABINDU = "\u{11180}";
 
-    #[Info(id: 70017, name: 'SHARADA SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11181, name: 'SHARADA SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case SHARADA_SIGN_ANUSVARA = "\u{11181}";
 
-    #[Info(id: 70018, name: 'SHARADA SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11182, name: 'SHARADA SIGN VISARGA', category: Cat::Spacing_Mark)]
     case SHARADA_SIGN_VISARGA = "\u{11182}";
 
-    #[Info(id: 70019, name: 'SHARADA LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11183, name: 'SHARADA LETTER A', category: Cat::Other_Letter)]
     case SHARADA_LETTER_A = "\u{11183}";
 
-    #[Info(id: 70020, name: 'SHARADA LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11184, name: 'SHARADA LETTER AA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_AA = "\u{11184}";
 
-    #[Info(id: 70021, name: 'SHARADA LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11185, name: 'SHARADA LETTER I', category: Cat::Other_Letter)]
     case SHARADA_LETTER_I = "\u{11185}";
 
-    #[Info(id: 70022, name: 'SHARADA LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x11186, name: 'SHARADA LETTER II', category: Cat::Other_Letter)]
     case SHARADA_LETTER_II = "\u{11186}";
 
-    #[Info(id: 70023, name: 'SHARADA LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11187, name: 'SHARADA LETTER U', category: Cat::Other_Letter)]
     case SHARADA_LETTER_U = "\u{11187}";
 
-    #[Info(id: 70024, name: 'SHARADA LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11188, name: 'SHARADA LETTER UU', category: Cat::Other_Letter)]
     case SHARADA_LETTER_UU = "\u{11188}";
 
-    #[Info(id: 70025, name: 'SHARADA LETTER VOCALIC R', category: Cat::Other_Letter)]
+    #[Info(id: 0x11189, name: 'SHARADA LETTER VOCALIC R', category: Cat::Other_Letter)]
     case SHARADA_LETTER_VOCALIC_R = "\u{11189}";
 
-    #[Info(id: 70026, name: 'SHARADA LETTER VOCALIC RR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1118A, name: 'SHARADA LETTER VOCALIC RR', category: Cat::Other_Letter)]
     case SHARADA_LETTER_VOCALIC_RR = "\u{1118A}";
 
-    #[Info(id: 70027, name: 'SHARADA LETTER VOCALIC L', category: Cat::Other_Letter)]
+    #[Info(id: 0x1118B, name: 'SHARADA LETTER VOCALIC L', category: Cat::Other_Letter)]
     case SHARADA_LETTER_VOCALIC_L = "\u{1118B}";
 
-    #[Info(id: 70028, name: 'SHARADA LETTER VOCALIC LL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1118C, name: 'SHARADA LETTER VOCALIC LL', category: Cat::Other_Letter)]
     case SHARADA_LETTER_VOCALIC_LL = "\u{1118C}";
 
-    #[Info(id: 70029, name: 'SHARADA LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1118D, name: 'SHARADA LETTER E', category: Cat::Other_Letter)]
     case SHARADA_LETTER_E = "\u{1118D}";
 
-    #[Info(id: 70030, name: 'SHARADA LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1118E, name: 'SHARADA LETTER AI', category: Cat::Other_Letter)]
     case SHARADA_LETTER_AI = "\u{1118E}";
 
-    #[Info(id: 70031, name: 'SHARADA LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1118F, name: 'SHARADA LETTER O', category: Cat::Other_Letter)]
     case SHARADA_LETTER_O = "\u{1118F}";
 
-    #[Info(id: 70032, name: 'SHARADA LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11190, name: 'SHARADA LETTER AU', category: Cat::Other_Letter)]
     case SHARADA_LETTER_AU = "\u{11190}";
 
-    #[Info(id: 70033, name: 'SHARADA LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11191, name: 'SHARADA LETTER KA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_KA = "\u{11191}";
 
-    #[Info(id: 70034, name: 'SHARADA LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11192, name: 'SHARADA LETTER KHA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_KHA = "\u{11192}";
 
-    #[Info(id: 70035, name: 'SHARADA LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11193, name: 'SHARADA LETTER GA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_GA = "\u{11193}";
 
-    #[Info(id: 70036, name: 'SHARADA LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11194, name: 'SHARADA LETTER GHA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_GHA = "\u{11194}";
 
-    #[Info(id: 70037, name: 'SHARADA LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11195, name: 'SHARADA LETTER NGA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_NGA = "\u{11195}";
 
-    #[Info(id: 70038, name: 'SHARADA LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11196, name: 'SHARADA LETTER CA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_CA = "\u{11196}";
 
-    #[Info(id: 70039, name: 'SHARADA LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11197, name: 'SHARADA LETTER CHA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_CHA = "\u{11197}";
 
-    #[Info(id: 70040, name: 'SHARADA LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11198, name: 'SHARADA LETTER JA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_JA = "\u{11198}";
 
-    #[Info(id: 70041, name: 'SHARADA LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11199, name: 'SHARADA LETTER JHA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_JHA = "\u{11199}";
 
-    #[Info(id: 70042, name: 'SHARADA LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1119A, name: 'SHARADA LETTER NYA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_NYA = "\u{1119A}";
 
-    #[Info(id: 70043, name: 'SHARADA LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1119B, name: 'SHARADA LETTER TTA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_TTA = "\u{1119B}";
 
-    #[Info(id: 70044, name: 'SHARADA LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1119C, name: 'SHARADA LETTER TTHA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_TTHA = "\u{1119C}";
 
-    #[Info(id: 70045, name: 'SHARADA LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1119D, name: 'SHARADA LETTER DDA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_DDA = "\u{1119D}";
 
-    #[Info(id: 70046, name: 'SHARADA LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1119E, name: 'SHARADA LETTER DDHA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_DDHA = "\u{1119E}";
 
-    #[Info(id: 70047, name: 'SHARADA LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1119F, name: 'SHARADA LETTER NNA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_NNA = "\u{1119F}";
 
-    #[Info(id: 70048, name: 'SHARADA LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111A0, name: 'SHARADA LETTER TA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_TA = "\u{111A0}";
 
-    #[Info(id: 70049, name: 'SHARADA LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111A1, name: 'SHARADA LETTER THA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_THA = "\u{111A1}";
 
-    #[Info(id: 70050, name: 'SHARADA LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111A2, name: 'SHARADA LETTER DA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_DA = "\u{111A2}";
 
-    #[Info(id: 70051, name: 'SHARADA LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111A3, name: 'SHARADA LETTER DHA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_DHA = "\u{111A3}";
 
-    #[Info(id: 70052, name: 'SHARADA LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111A4, name: 'SHARADA LETTER NA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_NA = "\u{111A4}";
 
-    #[Info(id: 70053, name: 'SHARADA LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111A5, name: 'SHARADA LETTER PA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_PA = "\u{111A5}";
 
-    #[Info(id: 70054, name: 'SHARADA LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111A6, name: 'SHARADA LETTER PHA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_PHA = "\u{111A6}";
 
-    #[Info(id: 70055, name: 'SHARADA LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111A7, name: 'SHARADA LETTER BA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_BA = "\u{111A7}";
 
-    #[Info(id: 70056, name: 'SHARADA LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111A8, name: 'SHARADA LETTER BHA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_BHA = "\u{111A8}";
 
-    #[Info(id: 70057, name: 'SHARADA LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111A9, name: 'SHARADA LETTER MA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_MA = "\u{111A9}";
 
-    #[Info(id: 70058, name: 'SHARADA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111AA, name: 'SHARADA LETTER YA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_YA = "\u{111AA}";
 
-    #[Info(id: 70059, name: 'SHARADA LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111AB, name: 'SHARADA LETTER RA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_RA = "\u{111AB}";
 
-    #[Info(id: 70060, name: 'SHARADA LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111AC, name: 'SHARADA LETTER LA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_LA = "\u{111AC}";
 
-    #[Info(id: 70061, name: 'SHARADA LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111AD, name: 'SHARADA LETTER LLA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_LLA = "\u{111AD}";
 
-    #[Info(id: 70062, name: 'SHARADA LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111AE, name: 'SHARADA LETTER VA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_VA = "\u{111AE}";
 
-    #[Info(id: 70063, name: 'SHARADA LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111AF, name: 'SHARADA LETTER SHA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_SHA = "\u{111AF}";
 
-    #[Info(id: 70064, name: 'SHARADA LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111B0, name: 'SHARADA LETTER SSA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_SSA = "\u{111B0}";
 
-    #[Info(id: 70065, name: 'SHARADA LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111B1, name: 'SHARADA LETTER SA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_SA = "\u{111B1}";
 
-    #[Info(id: 70066, name: 'SHARADA LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111B2, name: 'SHARADA LETTER HA', category: Cat::Other_Letter)]
     case SHARADA_LETTER_HA = "\u{111B2}";
 
-    #[Info(id: 70067, name: 'SHARADA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x111B3, name: 'SHARADA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case SHARADA_VOWEL_SIGN_AA = "\u{111B3}";
 
-    #[Info(id: 70068, name: 'SHARADA VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x111B4, name: 'SHARADA VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case SHARADA_VOWEL_SIGN_I = "\u{111B4}";
 
-    #[Info(id: 70069, name: 'SHARADA VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x111B5, name: 'SHARADA VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case SHARADA_VOWEL_SIGN_II = "\u{111B5}";
 
-    #[Info(id: 70070, name: 'SHARADA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111B6, name: 'SHARADA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case SHARADA_VOWEL_SIGN_U = "\u{111B6}";
 
-    #[Info(id: 70071, name: 'SHARADA VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111B7, name: 'SHARADA VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case SHARADA_VOWEL_SIGN_UU = "\u{111B7}";
 
-    #[Info(id: 70072, name: 'SHARADA VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111B8, name: 'SHARADA VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case SHARADA_VOWEL_SIGN_VOCALIC_R = "\u{111B8}";
 
-    #[Info(id: 70073, name: 'SHARADA VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111B9, name: 'SHARADA VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
     case SHARADA_VOWEL_SIGN_VOCALIC_RR = "\u{111B9}";
 
-    #[Info(id: 70074, name: 'SHARADA VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111BA, name: 'SHARADA VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
     case SHARADA_VOWEL_SIGN_VOCALIC_L = "\u{111BA}";
 
-    #[Info(id: 70075, name: 'SHARADA VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111BB, name: 'SHARADA VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case SHARADA_VOWEL_SIGN_VOCALIC_LL = "\u{111BB}";
 
-    #[Info(id: 70076, name: 'SHARADA VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111BC, name: 'SHARADA VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case SHARADA_VOWEL_SIGN_E = "\u{111BC}";
 
-    #[Info(id: 70077, name: 'SHARADA VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111BD, name: 'SHARADA VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case SHARADA_VOWEL_SIGN_AI = "\u{111BD}";
 
-    #[Info(id: 70078, name: 'SHARADA VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111BE, name: 'SHARADA VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case SHARADA_VOWEL_SIGN_O = "\u{111BE}";
 
-    #[Info(id: 70079, name: 'SHARADA VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x111BF, name: 'SHARADA VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case SHARADA_VOWEL_SIGN_AU = "\u{111BF}";
 
-    #[Info(id: 70080, name: 'SHARADA SIGN VIRAMA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x111C0, name: 'SHARADA SIGN VIRAMA', category: Cat::Spacing_Mark)]
     case SHARADA_SIGN_VIRAMA = "\u{111C0}";
 
-    #[Info(id: 70081, name: 'SHARADA SIGN AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111C1, name: 'SHARADA SIGN AVAGRAHA', category: Cat::Other_Letter)]
     case SHARADA_SIGN_AVAGRAHA = "\u{111C1}";
 
-    #[Info(id: 70082, name: 'SHARADA SIGN JIHVAMULIYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111C2, name: 'SHARADA SIGN JIHVAMULIYA', category: Cat::Other_Letter)]
     case SHARADA_SIGN_JIHVAMULIYA = "\u{111C2}";
 
-    #[Info(id: 70083, name: 'SHARADA SIGN UPADHMANIYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x111C3, name: 'SHARADA SIGN UPADHMANIYA', category: Cat::Other_Letter)]
     case SHARADA_SIGN_UPADHMANIYA = "\u{111C3}";
 
-    #[Info(id: 70084, name: 'SHARADA OM', category: Cat::Other_Letter)]
+    #[Info(id: 0x111C4, name: 'SHARADA OM', category: Cat::Other_Letter)]
     case SHARADA_OM = "\u{111C4}";
 
-    #[Info(id: 70085, name: 'SHARADA DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x111C5, name: 'SHARADA DANDA', category: Cat::Other_Punctuation)]
     case SHARADA_DANDA = "\u{111C5}";
 
-    #[Info(id: 70086, name: 'SHARADA DOUBLE DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x111C6, name: 'SHARADA DOUBLE DANDA', category: Cat::Other_Punctuation)]
     case SHARADA_DOUBLE_DANDA = "\u{111C6}";
 
-    #[Info(id: 70087, name: 'SHARADA ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x111C7, name: 'SHARADA ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
     case SHARADA_ABBREVIATION_SIGN = "\u{111C7}";
 
-    #[Info(id: 70088, name: 'SHARADA SEPARATOR', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x111C8, name: 'SHARADA SEPARATOR', category: Cat::Other_Punctuation)]
     case SHARADA_SEPARATOR = "\u{111C8}";
 
-    #[Info(id: 70089, name: 'SHARADA SANDHI MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111C9, name: 'SHARADA SANDHI MARK', category: Cat::Nonspacing_Mark)]
     case SHARADA_SANDHI_MARK = "\u{111C9}";
 
-    #[Info(id: 70090, name: 'SHARADA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111CA, name: 'SHARADA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case SHARADA_SIGN_NUKTA = "\u{111CA}";
 
-    #[Info(id: 70091, name: 'SHARADA VOWEL MODIFIER MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111CB, name: 'SHARADA VOWEL MODIFIER MARK', category: Cat::Nonspacing_Mark)]
     case SHARADA_VOWEL_MODIFIER_MARK = "\u{111CB}";
 
-    #[Info(id: 70092, name: 'SHARADA EXTRA SHORT VOWEL MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111CC, name: 'SHARADA EXTRA SHORT VOWEL MARK', category: Cat::Nonspacing_Mark)]
     case SHARADA_EXTRA_SHORT_VOWEL_MARK = "\u{111CC}";
 
-    #[Info(id: 70093, name: 'SHARADA SUTRA MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x111CD, name: 'SHARADA SUTRA MARK', category: Cat::Other_Punctuation)]
     case SHARADA_SUTRA_MARK = "\u{111CD}";
 
-    #[Info(id: 70094, name: 'SHARADA VOWEL SIGN PRISHTHAMATRA E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x111CE, name: 'SHARADA VOWEL SIGN PRISHTHAMATRA E', category: Cat::Spacing_Mark)]
     case SHARADA_VOWEL_SIGN_PRISHTHAMATRA_E = "\u{111CE}";
 
-    #[Info(id: 70095, name: 'SHARADA SIGN INVERTED CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x111CF, name: 'SHARADA SIGN INVERTED CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case SHARADA_SIGN_INVERTED_CANDRABINDU = "\u{111CF}";
 
-    #[Info(id: 70096, name: 'SHARADA DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x111D0, name: 'SHARADA DIGIT ZERO', category: Cat::Decimal_Number)]
     case SHARADA_DIGIT_ZERO = "\u{111D0}";
 
-    #[Info(id: 70097, name: 'SHARADA DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x111D1, name: 'SHARADA DIGIT ONE', category: Cat::Decimal_Number)]
     case SHARADA_DIGIT_ONE = "\u{111D1}";
 
-    #[Info(id: 70098, name: 'SHARADA DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x111D2, name: 'SHARADA DIGIT TWO', category: Cat::Decimal_Number)]
     case SHARADA_DIGIT_TWO = "\u{111D2}";
 
-    #[Info(id: 70099, name: 'SHARADA DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x111D3, name: 'SHARADA DIGIT THREE', category: Cat::Decimal_Number)]
     case SHARADA_DIGIT_THREE = "\u{111D3}";
 
-    #[Info(id: 70100, name: 'SHARADA DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x111D4, name: 'SHARADA DIGIT FOUR', category: Cat::Decimal_Number)]
     case SHARADA_DIGIT_FOUR = "\u{111D4}";
 
-    #[Info(id: 70101, name: 'SHARADA DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x111D5, name: 'SHARADA DIGIT FIVE', category: Cat::Decimal_Number)]
     case SHARADA_DIGIT_FIVE = "\u{111D5}";
 
-    #[Info(id: 70102, name: 'SHARADA DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x111D6, name: 'SHARADA DIGIT SIX', category: Cat::Decimal_Number)]
     case SHARADA_DIGIT_SIX = "\u{111D6}";
 
-    #[Info(id: 70103, name: 'SHARADA DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x111D7, name: 'SHARADA DIGIT SEVEN', category: Cat::Decimal_Number)]
     case SHARADA_DIGIT_SEVEN = "\u{111D7}";
 
-    #[Info(id: 70104, name: 'SHARADA DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x111D8, name: 'SHARADA DIGIT EIGHT', category: Cat::Decimal_Number)]
     case SHARADA_DIGIT_EIGHT = "\u{111D8}";
 
-    #[Info(id: 70105, name: 'SHARADA DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x111D9, name: 'SHARADA DIGIT NINE', category: Cat::Decimal_Number)]
     case SHARADA_DIGIT_NINE = "\u{111D9}";
 
-    #[Info(id: 70106, name: 'SHARADA EKAM', category: Cat::Other_Letter)]
+    #[Info(id: 0x111DA, name: 'SHARADA EKAM', category: Cat::Other_Letter)]
     case SHARADA_EKAM = "\u{111DA}";
 
-    #[Info(id: 70107, name: 'SHARADA SIGN SIDDHAM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x111DB, name: 'SHARADA SIGN SIDDHAM', category: Cat::Other_Punctuation)]
     case SHARADA_SIGN_SIDDHAM = "\u{111DB}";
 
-    #[Info(id: 70108, name: 'SHARADA HEADSTROKE', category: Cat::Other_Letter)]
+    #[Info(id: 0x111DC, name: 'SHARADA HEADSTROKE', category: Cat::Other_Letter)]
     case SHARADA_HEADSTROKE = "\u{111DC}";
 
-    #[Info(id: 70109, name: 'SHARADA CONTINUATION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x111DD, name: 'SHARADA CONTINUATION SIGN', category: Cat::Other_Punctuation)]
     case SHARADA_CONTINUATION_SIGN = "\u{111DD}";
 
-    #[Info(id: 70110, name: 'SHARADA SECTION MARK-1', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x111DE, name: 'SHARADA SECTION MARK-1', category: Cat::Other_Punctuation)]
     case SHARADA_SECTION_MARK_1 = "\u{111DE}";
 
-    #[Info(id: 70111, name: 'SHARADA SECTION MARK-2', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x111DF, name: 'SHARADA SECTION MARK-2', category: Cat::Other_Punctuation)]
     case SHARADA_SECTION_MARK_2 = "\u{111DF}";
 }

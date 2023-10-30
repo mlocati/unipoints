@@ -16,81 +16,81 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Ethiopic_Supplement: string
 {
-    #[Info(id: 4992, name: 'ETHIOPIC SYLLABLE SEBATBEIT MWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1380, name: 'ETHIOPIC SYLLABLE SEBATBEIT MWA', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_SEBATBEIT_MWA = "\u{1380}";
 
-    #[Info(id: 4993, name: 'ETHIOPIC SYLLABLE MWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1381, name: 'ETHIOPIC SYLLABLE MWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_MWI = "\u{1381}";
 
-    #[Info(id: 4994, name: 'ETHIOPIC SYLLABLE MWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1382, name: 'ETHIOPIC SYLLABLE MWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_MWEE = "\u{1382}";
 
-    #[Info(id: 4995, name: 'ETHIOPIC SYLLABLE MWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1383, name: 'ETHIOPIC SYLLABLE MWE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_MWE = "\u{1383}";
 
-    #[Info(id: 4996, name: 'ETHIOPIC SYLLABLE SEBATBEIT BWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1384, name: 'ETHIOPIC SYLLABLE SEBATBEIT BWA', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_SEBATBEIT_BWA = "\u{1384}";
 
-    #[Info(id: 4997, name: 'ETHIOPIC SYLLABLE BWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1385, name: 'ETHIOPIC SYLLABLE BWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_BWI = "\u{1385}";
 
-    #[Info(id: 4998, name: 'ETHIOPIC SYLLABLE BWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1386, name: 'ETHIOPIC SYLLABLE BWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_BWEE = "\u{1386}";
 
-    #[Info(id: 4999, name: 'ETHIOPIC SYLLABLE BWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1387, name: 'ETHIOPIC SYLLABLE BWE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_BWE = "\u{1387}";
 
-    #[Info(id: 5000, name: 'ETHIOPIC SYLLABLE SEBATBEIT FWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1388, name: 'ETHIOPIC SYLLABLE SEBATBEIT FWA', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_SEBATBEIT_FWA = "\u{1388}";
 
-    #[Info(id: 5001, name: 'ETHIOPIC SYLLABLE FWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1389, name: 'ETHIOPIC SYLLABLE FWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_FWI = "\u{1389}";
 
-    #[Info(id: 5002, name: 'ETHIOPIC SYLLABLE FWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x138A, name: 'ETHIOPIC SYLLABLE FWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_FWEE = "\u{138A}";
 
-    #[Info(id: 5003, name: 'ETHIOPIC SYLLABLE FWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x138B, name: 'ETHIOPIC SYLLABLE FWE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_FWE = "\u{138B}";
 
-    #[Info(id: 5004, name: 'ETHIOPIC SYLLABLE SEBATBEIT PWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x138C, name: 'ETHIOPIC SYLLABLE SEBATBEIT PWA', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_SEBATBEIT_PWA = "\u{138C}";
 
-    #[Info(id: 5005, name: 'ETHIOPIC SYLLABLE PWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x138D, name: 'ETHIOPIC SYLLABLE PWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_PWI = "\u{138D}";
 
-    #[Info(id: 5006, name: 'ETHIOPIC SYLLABLE PWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x138E, name: 'ETHIOPIC SYLLABLE PWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_PWEE = "\u{138E}";
 
-    #[Info(id: 5007, name: 'ETHIOPIC SYLLABLE PWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x138F, name: 'ETHIOPIC SYLLABLE PWE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_PWE = "\u{138F}";
 
-    #[Info(id: 5008, name: 'ETHIOPIC TONAL MARK YIZET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1390, name: 'ETHIOPIC TONAL MARK YIZET', category: Cat::Other_Symbol)]
     case ETHIOPIC_TONAL_MARK_YIZET = "\u{1390}";
 
-    #[Info(id: 5009, name: 'ETHIOPIC TONAL MARK DERET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1391, name: 'ETHIOPIC TONAL MARK DERET', category: Cat::Other_Symbol)]
     case ETHIOPIC_TONAL_MARK_DERET = "\u{1391}";
 
-    #[Info(id: 5010, name: 'ETHIOPIC TONAL MARK RIKRIK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1392, name: 'ETHIOPIC TONAL MARK RIKRIK', category: Cat::Other_Symbol)]
     case ETHIOPIC_TONAL_MARK_RIKRIK = "\u{1392}";
 
-    #[Info(id: 5011, name: 'ETHIOPIC TONAL MARK SHORT RIKRIK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1393, name: 'ETHIOPIC TONAL MARK SHORT RIKRIK', category: Cat::Other_Symbol)]
     case ETHIOPIC_TONAL_MARK_SHORT_RIKRIK = "\u{1393}";
 
-    #[Info(id: 5012, name: 'ETHIOPIC TONAL MARK DIFAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1394, name: 'ETHIOPIC TONAL MARK DIFAT', category: Cat::Other_Symbol)]
     case ETHIOPIC_TONAL_MARK_DIFAT = "\u{1394}";
 
-    #[Info(id: 5013, name: 'ETHIOPIC TONAL MARK KENAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1395, name: 'ETHIOPIC TONAL MARK KENAT', category: Cat::Other_Symbol)]
     case ETHIOPIC_TONAL_MARK_KENAT = "\u{1395}";
 
-    #[Info(id: 5014, name: 'ETHIOPIC TONAL MARK CHIRET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1396, name: 'ETHIOPIC TONAL MARK CHIRET', category: Cat::Other_Symbol)]
     case ETHIOPIC_TONAL_MARK_CHIRET = "\u{1396}";
 
-    #[Info(id: 5015, name: 'ETHIOPIC TONAL MARK HIDET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1397, name: 'ETHIOPIC TONAL MARK HIDET', category: Cat::Other_Symbol)]
     case ETHIOPIC_TONAL_MARK_HIDET = "\u{1397}";
 
-    #[Info(id: 5016, name: 'ETHIOPIC TONAL MARK DERET-HIDET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1398, name: 'ETHIOPIC TONAL MARK DERET-HIDET', category: Cat::Other_Symbol)]
     case ETHIOPIC_TONAL_MARK_DERET_HIDET = "\u{1398}";
 
-    #[Info(id: 5017, name: 'ETHIOPIC TONAL MARK KURT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1399, name: 'ETHIOPIC TONAL MARK KURT', category: Cat::Other_Symbol)]
     case ETHIOPIC_TONAL_MARK_KURT = "\u{1399}";
 }

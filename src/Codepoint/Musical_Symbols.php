@@ -16,702 +16,702 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Musical_Symbols: string
 {
-    #[Info(id: 119040, name: 'MUSICAL SYMBOL SINGLE BARLINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D100, name: 'MUSICAL SYMBOL SINGLE BARLINE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SINGLE_BARLINE = "\u{1D100}";
 
-    #[Info(id: 119041, name: 'MUSICAL SYMBOL DOUBLE BARLINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D101, name: 'MUSICAL SYMBOL DOUBLE BARLINE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DOUBLE_BARLINE = "\u{1D101}";
 
-    #[Info(id: 119042, name: 'MUSICAL SYMBOL FINAL BARLINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D102, name: 'MUSICAL SYMBOL FINAL BARLINE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FINAL_BARLINE = "\u{1D102}";
 
-    #[Info(id: 119043, name: 'MUSICAL SYMBOL REVERSE FINAL BARLINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D103, name: 'MUSICAL SYMBOL REVERSE FINAL BARLINE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_REVERSE_FINAL_BARLINE = "\u{1D103}";
 
-    #[Info(id: 119044, name: 'MUSICAL SYMBOL DASHED BARLINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D104, name: 'MUSICAL SYMBOL DASHED BARLINE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DASHED_BARLINE = "\u{1D104}";
 
-    #[Info(id: 119045, name: 'MUSICAL SYMBOL SHORT BARLINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D105, name: 'MUSICAL SYMBOL SHORT BARLINE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SHORT_BARLINE = "\u{1D105}";
 
-    #[Info(id: 119046, name: 'MUSICAL SYMBOL LEFT REPEAT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D106, name: 'MUSICAL SYMBOL LEFT REPEAT SIGN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_LEFT_REPEAT_SIGN = "\u{1D106}";
 
-    #[Info(id: 119047, name: 'MUSICAL SYMBOL RIGHT REPEAT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D107, name: 'MUSICAL SYMBOL RIGHT REPEAT SIGN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_RIGHT_REPEAT_SIGN = "\u{1D107}";
 
-    #[Info(id: 119048, name: 'MUSICAL SYMBOL REPEAT DOTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D108, name: 'MUSICAL SYMBOL REPEAT DOTS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_REPEAT_DOTS = "\u{1D108}";
 
-    #[Info(id: 119049, name: 'MUSICAL SYMBOL DAL SEGNO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D109, name: 'MUSICAL SYMBOL DAL SEGNO', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DAL_SEGNO = "\u{1D109}";
 
-    #[Info(id: 119050, name: 'MUSICAL SYMBOL DA CAPO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D10A, name: 'MUSICAL SYMBOL DA CAPO', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DA_CAPO = "\u{1D10A}";
 
-    #[Info(id: 119051, name: 'MUSICAL SYMBOL SEGNO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D10B, name: 'MUSICAL SYMBOL SEGNO', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SEGNO = "\u{1D10B}";
 
-    #[Info(id: 119052, name: 'MUSICAL SYMBOL CODA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D10C, name: 'MUSICAL SYMBOL CODA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_CODA = "\u{1D10C}";
 
-    #[Info(id: 119053, name: 'MUSICAL SYMBOL REPEATED FIGURE-1', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D10D, name: 'MUSICAL SYMBOL REPEATED FIGURE-1', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_REPEATED_FIGURE_1 = "\u{1D10D}";
 
-    #[Info(id: 119054, name: 'MUSICAL SYMBOL REPEATED FIGURE-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D10E, name: 'MUSICAL SYMBOL REPEATED FIGURE-2', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_REPEATED_FIGURE_2 = "\u{1D10E}";
 
-    #[Info(id: 119055, name: 'MUSICAL SYMBOL REPEATED FIGURE-3', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D10F, name: 'MUSICAL SYMBOL REPEATED FIGURE-3', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_REPEATED_FIGURE_3 = "\u{1D10F}";
 
-    #[Info(id: 119056, name: 'MUSICAL SYMBOL FERMATA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D110, name: 'MUSICAL SYMBOL FERMATA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FERMATA = "\u{1D110}";
 
-    #[Info(id: 119057, name: 'MUSICAL SYMBOL FERMATA BELOW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D111, name: 'MUSICAL SYMBOL FERMATA BELOW', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FERMATA_BELOW = "\u{1D111}";
 
-    #[Info(id: 119058, name: 'MUSICAL SYMBOL BREATH MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D112, name: 'MUSICAL SYMBOL BREATH MARK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_BREATH_MARK = "\u{1D112}";
 
-    #[Info(id: 119059, name: 'MUSICAL SYMBOL CAESURA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D113, name: 'MUSICAL SYMBOL CAESURA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_CAESURA = "\u{1D113}";
 
-    #[Info(id: 119060, name: 'MUSICAL SYMBOL BRACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D114, name: 'MUSICAL SYMBOL BRACE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_BRACE = "\u{1D114}";
 
-    #[Info(id: 119061, name: 'MUSICAL SYMBOL BRACKET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D115, name: 'MUSICAL SYMBOL BRACKET', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_BRACKET = "\u{1D115}";
 
-    #[Info(id: 119062, name: 'MUSICAL SYMBOL ONE-LINE STAFF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D116, name: 'MUSICAL SYMBOL ONE-LINE STAFF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ONE_LINE_STAFF = "\u{1D116}";
 
-    #[Info(id: 119063, name: 'MUSICAL SYMBOL TWO-LINE STAFF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D117, name: 'MUSICAL SYMBOL TWO-LINE STAFF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TWO_LINE_STAFF = "\u{1D117}";
 
-    #[Info(id: 119064, name: 'MUSICAL SYMBOL THREE-LINE STAFF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D118, name: 'MUSICAL SYMBOL THREE-LINE STAFF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_THREE_LINE_STAFF = "\u{1D118}";
 
-    #[Info(id: 119065, name: 'MUSICAL SYMBOL FOUR-LINE STAFF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D119, name: 'MUSICAL SYMBOL FOUR-LINE STAFF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FOUR_LINE_STAFF = "\u{1D119}";
 
-    #[Info(id: 119066, name: 'MUSICAL SYMBOL FIVE-LINE STAFF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D11A, name: 'MUSICAL SYMBOL FIVE-LINE STAFF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FIVE_LINE_STAFF = "\u{1D11A}";
 
-    #[Info(id: 119067, name: 'MUSICAL SYMBOL SIX-LINE STAFF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D11B, name: 'MUSICAL SYMBOL SIX-LINE STAFF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SIX_LINE_STAFF = "\u{1D11B}";
 
-    #[Info(id: 119068, name: 'MUSICAL SYMBOL SIX-STRING FRETBOARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D11C, name: 'MUSICAL SYMBOL SIX-STRING FRETBOARD', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SIX_STRING_FRETBOARD = "\u{1D11C}";
 
-    #[Info(id: 119069, name: 'MUSICAL SYMBOL FOUR-STRING FRETBOARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D11D, name: 'MUSICAL SYMBOL FOUR-STRING FRETBOARD', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FOUR_STRING_FRETBOARD = "\u{1D11D}";
 
-    #[Info(id: 119070, name: 'MUSICAL SYMBOL G CLEF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D11E, name: 'MUSICAL SYMBOL G CLEF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_G_CLEF = "\u{1D11E}";
 
-    #[Info(id: 119071, name: 'MUSICAL SYMBOL G CLEF OTTAVA ALTA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D11F, name: 'MUSICAL SYMBOL G CLEF OTTAVA ALTA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_G_CLEF_OTTAVA_ALTA = "\u{1D11F}";
 
-    #[Info(id: 119072, name: 'MUSICAL SYMBOL G CLEF OTTAVA BASSA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D120, name: 'MUSICAL SYMBOL G CLEF OTTAVA BASSA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_G_CLEF_OTTAVA_BASSA = "\u{1D120}";
 
-    #[Info(id: 119073, name: 'MUSICAL SYMBOL C CLEF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D121, name: 'MUSICAL SYMBOL C CLEF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_C_CLEF = "\u{1D121}";
 
-    #[Info(id: 119074, name: 'MUSICAL SYMBOL F CLEF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D122, name: 'MUSICAL SYMBOL F CLEF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_F_CLEF = "\u{1D122}";
 
-    #[Info(id: 119075, name: 'MUSICAL SYMBOL F CLEF OTTAVA ALTA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D123, name: 'MUSICAL SYMBOL F CLEF OTTAVA ALTA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_F_CLEF_OTTAVA_ALTA = "\u{1D123}";
 
-    #[Info(id: 119076, name: 'MUSICAL SYMBOL F CLEF OTTAVA BASSA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D124, name: 'MUSICAL SYMBOL F CLEF OTTAVA BASSA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_F_CLEF_OTTAVA_BASSA = "\u{1D124}";
 
-    #[Info(id: 119077, name: 'MUSICAL SYMBOL DRUM CLEF-1', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D125, name: 'MUSICAL SYMBOL DRUM CLEF-1', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DRUM_CLEF_1 = "\u{1D125}";
 
-    #[Info(id: 119078, name: 'MUSICAL SYMBOL DRUM CLEF-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D126, name: 'MUSICAL SYMBOL DRUM CLEF-2', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DRUM_CLEF_2 = "\u{1D126}";
 
-    #[Info(id: 119081, name: 'MUSICAL SYMBOL MULTIPLE MEASURE REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D129, name: 'MUSICAL SYMBOL MULTIPLE MEASURE REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_MULTIPLE_MEASURE_REST = "\u{1D129}";
 
-    #[Info(id: 119082, name: 'MUSICAL SYMBOL DOUBLE SHARP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D12A, name: 'MUSICAL SYMBOL DOUBLE SHARP', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DOUBLE_SHARP = "\u{1D12A}";
 
-    #[Info(id: 119083, name: 'MUSICAL SYMBOL DOUBLE FLAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D12B, name: 'MUSICAL SYMBOL DOUBLE FLAT', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DOUBLE_FLAT = "\u{1D12B}";
 
-    #[Info(id: 119084, name: 'MUSICAL SYMBOL FLAT UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D12C, name: 'MUSICAL SYMBOL FLAT UP', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FLAT_UP = "\u{1D12C}";
 
-    #[Info(id: 119085, name: 'MUSICAL SYMBOL FLAT DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D12D, name: 'MUSICAL SYMBOL FLAT DOWN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FLAT_DOWN = "\u{1D12D}";
 
-    #[Info(id: 119086, name: 'MUSICAL SYMBOL NATURAL UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D12E, name: 'MUSICAL SYMBOL NATURAL UP', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_NATURAL_UP = "\u{1D12E}";
 
-    #[Info(id: 119087, name: 'MUSICAL SYMBOL NATURAL DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D12F, name: 'MUSICAL SYMBOL NATURAL DOWN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_NATURAL_DOWN = "\u{1D12F}";
 
-    #[Info(id: 119088, name: 'MUSICAL SYMBOL SHARP UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D130, name: 'MUSICAL SYMBOL SHARP UP', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SHARP_UP = "\u{1D130}";
 
-    #[Info(id: 119089, name: 'MUSICAL SYMBOL SHARP DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D131, name: 'MUSICAL SYMBOL SHARP DOWN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SHARP_DOWN = "\u{1D131}";
 
-    #[Info(id: 119090, name: 'MUSICAL SYMBOL QUARTER TONE SHARP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D132, name: 'MUSICAL SYMBOL QUARTER TONE SHARP', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_QUARTER_TONE_SHARP = "\u{1D132}";
 
-    #[Info(id: 119091, name: 'MUSICAL SYMBOL QUARTER TONE FLAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D133, name: 'MUSICAL SYMBOL QUARTER TONE FLAT', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_QUARTER_TONE_FLAT = "\u{1D133}";
 
-    #[Info(id: 119092, name: 'MUSICAL SYMBOL COMMON TIME', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D134, name: 'MUSICAL SYMBOL COMMON TIME', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_COMMON_TIME = "\u{1D134}";
 
-    #[Info(id: 119093, name: 'MUSICAL SYMBOL CUT TIME', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D135, name: 'MUSICAL SYMBOL CUT TIME', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_CUT_TIME = "\u{1D135}";
 
-    #[Info(id: 119094, name: 'MUSICAL SYMBOL OTTAVA ALTA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D136, name: 'MUSICAL SYMBOL OTTAVA ALTA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_OTTAVA_ALTA = "\u{1D136}";
 
-    #[Info(id: 119095, name: 'MUSICAL SYMBOL OTTAVA BASSA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D137, name: 'MUSICAL SYMBOL OTTAVA BASSA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_OTTAVA_BASSA = "\u{1D137}";
 
-    #[Info(id: 119096, name: 'MUSICAL SYMBOL QUINDICESIMA ALTA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D138, name: 'MUSICAL SYMBOL QUINDICESIMA ALTA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_QUINDICESIMA_ALTA = "\u{1D138}";
 
-    #[Info(id: 119097, name: 'MUSICAL SYMBOL QUINDICESIMA BASSA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D139, name: 'MUSICAL SYMBOL QUINDICESIMA BASSA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_QUINDICESIMA_BASSA = "\u{1D139}";
 
-    #[Info(id: 119098, name: 'MUSICAL SYMBOL MULTI REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13A, name: 'MUSICAL SYMBOL MULTI REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_MULTI_REST = "\u{1D13A}";
 
-    #[Info(id: 119099, name: 'MUSICAL SYMBOL WHOLE REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13B, name: 'MUSICAL SYMBOL WHOLE REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_WHOLE_REST = "\u{1D13B}";
 
-    #[Info(id: 119100, name: 'MUSICAL SYMBOL HALF REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13C, name: 'MUSICAL SYMBOL HALF REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_HALF_REST = "\u{1D13C}";
 
-    #[Info(id: 119101, name: 'MUSICAL SYMBOL QUARTER REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13D, name: 'MUSICAL SYMBOL QUARTER REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_QUARTER_REST = "\u{1D13D}";
 
-    #[Info(id: 119102, name: 'MUSICAL SYMBOL EIGHTH REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13E, name: 'MUSICAL SYMBOL EIGHTH REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_EIGHTH_REST = "\u{1D13E}";
 
-    #[Info(id: 119103, name: 'MUSICAL SYMBOL SIXTEENTH REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13F, name: 'MUSICAL SYMBOL SIXTEENTH REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SIXTEENTH_REST = "\u{1D13F}";
 
-    #[Info(id: 119104, name: 'MUSICAL SYMBOL THIRTY-SECOND REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D140, name: 'MUSICAL SYMBOL THIRTY-SECOND REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_THIRTY_SECOND_REST = "\u{1D140}";
 
-    #[Info(id: 119105, name: 'MUSICAL SYMBOL SIXTY-FOURTH REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D141, name: 'MUSICAL SYMBOL SIXTY-FOURTH REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SIXTY_FOURTH_REST = "\u{1D141}";
 
-    #[Info(id: 119106, name: 'MUSICAL SYMBOL ONE HUNDRED TWENTY-EIGHTH REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D142, name: 'MUSICAL SYMBOL ONE HUNDRED TWENTY-EIGHTH REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ONE_HUNDRED_TWENTY_EIGHTH_REST = "\u{1D142}";
 
-    #[Info(id: 119107, name: 'MUSICAL SYMBOL X NOTEHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D143, name: 'MUSICAL SYMBOL X NOTEHEAD', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_X_NOTEHEAD = "\u{1D143}";
 
-    #[Info(id: 119108, name: 'MUSICAL SYMBOL PLUS NOTEHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D144, name: 'MUSICAL SYMBOL PLUS NOTEHEAD', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_PLUS_NOTEHEAD = "\u{1D144}";
 
-    #[Info(id: 119109, name: 'MUSICAL SYMBOL CIRCLE X NOTEHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D145, name: 'MUSICAL SYMBOL CIRCLE X NOTEHEAD', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_CIRCLE_X_NOTEHEAD = "\u{1D145}";
 
-    #[Info(id: 119110, name: 'MUSICAL SYMBOL SQUARE NOTEHEAD WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D146, name: 'MUSICAL SYMBOL SQUARE NOTEHEAD WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SQUARE_NOTEHEAD_WHITE = "\u{1D146}";
 
-    #[Info(id: 119111, name: 'MUSICAL SYMBOL SQUARE NOTEHEAD BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D147, name: 'MUSICAL SYMBOL SQUARE NOTEHEAD BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SQUARE_NOTEHEAD_BLACK = "\u{1D147}";
 
-    #[Info(id: 119112, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD UP WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D148, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD UP WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_NOTEHEAD_UP_WHITE = "\u{1D148}";
 
-    #[Info(id: 119113, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD UP BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D149, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD UP BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_NOTEHEAD_UP_BLACK = "\u{1D149}";
 
-    #[Info(id: 119114, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD LEFT WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D14A, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD LEFT WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_NOTEHEAD_LEFT_WHITE = "\u{1D14A}";
 
-    #[Info(id: 119115, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD LEFT BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D14B, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD LEFT BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_NOTEHEAD_LEFT_BLACK = "\u{1D14B}";
 
-    #[Info(id: 119116, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD RIGHT WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D14C, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD RIGHT WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_NOTEHEAD_RIGHT_WHITE = "\u{1D14C}";
 
-    #[Info(id: 119117, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD RIGHT BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D14D, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD RIGHT BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_NOTEHEAD_RIGHT_BLACK = "\u{1D14D}";
 
-    #[Info(id: 119118, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD DOWN WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D14E, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD DOWN WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_NOTEHEAD_DOWN_WHITE = "\u{1D14E}";
 
-    #[Info(id: 119119, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD DOWN BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D14F, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD DOWN BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_NOTEHEAD_DOWN_BLACK = "\u{1D14F}";
 
-    #[Info(id: 119120, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD UP RIGHT WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D150, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD UP RIGHT WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_NOTEHEAD_UP_RIGHT_WHITE = "\u{1D150}";
 
-    #[Info(id: 119121, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD UP RIGHT BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D151, name: 'MUSICAL SYMBOL TRIANGLE NOTEHEAD UP RIGHT BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_NOTEHEAD_UP_RIGHT_BLACK = "\u{1D151}";
 
-    #[Info(id: 119122, name: 'MUSICAL SYMBOL MOON NOTEHEAD WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D152, name: 'MUSICAL SYMBOL MOON NOTEHEAD WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_MOON_NOTEHEAD_WHITE = "\u{1D152}";
 
-    #[Info(id: 119123, name: 'MUSICAL SYMBOL MOON NOTEHEAD BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D153, name: 'MUSICAL SYMBOL MOON NOTEHEAD BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_MOON_NOTEHEAD_BLACK = "\u{1D153}";
 
-    #[Info(id: 119124, name: 'MUSICAL SYMBOL TRIANGLE-ROUND NOTEHEAD DOWN WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D154, name: 'MUSICAL SYMBOL TRIANGLE-ROUND NOTEHEAD DOWN WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_ROUND_NOTEHEAD_DOWN_WHITE = "\u{1D154}";
 
-    #[Info(id: 119125, name: 'MUSICAL SYMBOL TRIANGLE-ROUND NOTEHEAD DOWN BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D155, name: 'MUSICAL SYMBOL TRIANGLE-ROUND NOTEHEAD DOWN BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TRIANGLE_ROUND_NOTEHEAD_DOWN_BLACK = "\u{1D155}";
 
-    #[Info(id: 119126, name: 'MUSICAL SYMBOL PARENTHESIS NOTEHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D156, name: 'MUSICAL SYMBOL PARENTHESIS NOTEHEAD', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_PARENTHESIS_NOTEHEAD = "\u{1D156}";
 
-    #[Info(id: 119127, name: 'MUSICAL SYMBOL VOID NOTEHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D157, name: 'MUSICAL SYMBOL VOID NOTEHEAD', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_VOID_NOTEHEAD = "\u{1D157}";
 
-    #[Info(id: 119128, name: 'MUSICAL SYMBOL NOTEHEAD BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D158, name: 'MUSICAL SYMBOL NOTEHEAD BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_NOTEHEAD_BLACK = "\u{1D158}";
 
-    #[Info(id: 119129, name: 'MUSICAL SYMBOL NULL NOTEHEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D159, name: 'MUSICAL SYMBOL NULL NOTEHEAD', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_NULL_NOTEHEAD = "\u{1D159}";
 
-    #[Info(id: 119130, name: 'MUSICAL SYMBOL CLUSTER NOTEHEAD WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D15A, name: 'MUSICAL SYMBOL CLUSTER NOTEHEAD WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_CLUSTER_NOTEHEAD_WHITE = "\u{1D15A}";
 
-    #[Info(id: 119131, name: 'MUSICAL SYMBOL CLUSTER NOTEHEAD BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D15B, name: 'MUSICAL SYMBOL CLUSTER NOTEHEAD BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_CLUSTER_NOTEHEAD_BLACK = "\u{1D15B}";
 
-    #[Info(id: 119132, name: 'MUSICAL SYMBOL BREVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D15C, name: 'MUSICAL SYMBOL BREVE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_BREVE = "\u{1D15C}";
 
-    #[Info(id: 119133, name: 'MUSICAL SYMBOL WHOLE NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D15D, name: 'MUSICAL SYMBOL WHOLE NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_WHOLE_NOTE = "\u{1D15D}";
 
-    #[Info(id: 119134, name: 'MUSICAL SYMBOL HALF NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D15E, name: 'MUSICAL SYMBOL HALF NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_HALF_NOTE = "\u{1D15E}";
 
-    #[Info(id: 119135, name: 'MUSICAL SYMBOL QUARTER NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D15F, name: 'MUSICAL SYMBOL QUARTER NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_QUARTER_NOTE = "\u{1D15F}";
 
-    #[Info(id: 119136, name: 'MUSICAL SYMBOL EIGHTH NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D160, name: 'MUSICAL SYMBOL EIGHTH NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_EIGHTH_NOTE = "\u{1D160}";
 
-    #[Info(id: 119137, name: 'MUSICAL SYMBOL SIXTEENTH NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D161, name: 'MUSICAL SYMBOL SIXTEENTH NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SIXTEENTH_NOTE = "\u{1D161}";
 
-    #[Info(id: 119138, name: 'MUSICAL SYMBOL THIRTY-SECOND NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D162, name: 'MUSICAL SYMBOL THIRTY-SECOND NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_THIRTY_SECOND_NOTE = "\u{1D162}";
 
-    #[Info(id: 119139, name: 'MUSICAL SYMBOL SIXTY-FOURTH NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D163, name: 'MUSICAL SYMBOL SIXTY-FOURTH NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SIXTY_FOURTH_NOTE = "\u{1D163}";
 
-    #[Info(id: 119140, name: 'MUSICAL SYMBOL ONE HUNDRED TWENTY-EIGHTH NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D164, name: 'MUSICAL SYMBOL ONE HUNDRED TWENTY-EIGHTH NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ONE_HUNDRED_TWENTY_EIGHTH_NOTE = "\u{1D164}";
 
-    #[Info(id: 119141, name: 'MUSICAL SYMBOL COMBINING STEM', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1D165, name: 'MUSICAL SYMBOL COMBINING STEM', category: Cat::Spacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_STEM = "\u{1D165}";
 
-    #[Info(id: 119142, name: 'MUSICAL SYMBOL COMBINING SPRECHGESANG STEM', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1D166, name: 'MUSICAL SYMBOL COMBINING SPRECHGESANG STEM', category: Cat::Spacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_SPRECHGESANG_STEM = "\u{1D166}";
 
-    #[Info(id: 119143, name: 'MUSICAL SYMBOL COMBINING TREMOLO-1', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D167, name: 'MUSICAL SYMBOL COMBINING TREMOLO-1', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_TREMOLO_1 = "\u{1D167}";
 
-    #[Info(id: 119144, name: 'MUSICAL SYMBOL COMBINING TREMOLO-2', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D168, name: 'MUSICAL SYMBOL COMBINING TREMOLO-2', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_TREMOLO_2 = "\u{1D168}";
 
-    #[Info(id: 119145, name: 'MUSICAL SYMBOL COMBINING TREMOLO-3', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D169, name: 'MUSICAL SYMBOL COMBINING TREMOLO-3', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_TREMOLO_3 = "\u{1D169}";
 
-    #[Info(id: 119146, name: 'MUSICAL SYMBOL FINGERED TREMOLO-1', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D16A, name: 'MUSICAL SYMBOL FINGERED TREMOLO-1', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FINGERED_TREMOLO_1 = "\u{1D16A}";
 
-    #[Info(id: 119147, name: 'MUSICAL SYMBOL FINGERED TREMOLO-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D16B, name: 'MUSICAL SYMBOL FINGERED TREMOLO-2', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FINGERED_TREMOLO_2 = "\u{1D16B}";
 
-    #[Info(id: 119148, name: 'MUSICAL SYMBOL FINGERED TREMOLO-3', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D16C, name: 'MUSICAL SYMBOL FINGERED TREMOLO-3', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FINGERED_TREMOLO_3 = "\u{1D16C}";
 
-    #[Info(id: 119149, name: 'MUSICAL SYMBOL COMBINING AUGMENTATION DOT', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1D16D, name: 'MUSICAL SYMBOL COMBINING AUGMENTATION DOT', category: Cat::Spacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_AUGMENTATION_DOT = "\u{1D16D}";
 
-    #[Info(id: 119150, name: 'MUSICAL SYMBOL COMBINING FLAG-1', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1D16E, name: 'MUSICAL SYMBOL COMBINING FLAG-1', category: Cat::Spacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_FLAG_1 = "\u{1D16E}";
 
-    #[Info(id: 119151, name: 'MUSICAL SYMBOL COMBINING FLAG-2', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1D16F, name: 'MUSICAL SYMBOL COMBINING FLAG-2', category: Cat::Spacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_FLAG_2 = "\u{1D16F}";
 
-    #[Info(id: 119152, name: 'MUSICAL SYMBOL COMBINING FLAG-3', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1D170, name: 'MUSICAL SYMBOL COMBINING FLAG-3', category: Cat::Spacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_FLAG_3 = "\u{1D170}";
 
-    #[Info(id: 119153, name: 'MUSICAL SYMBOL COMBINING FLAG-4', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1D171, name: 'MUSICAL SYMBOL COMBINING FLAG-4', category: Cat::Spacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_FLAG_4 = "\u{1D171}";
 
-    #[Info(id: 119154, name: 'MUSICAL SYMBOL COMBINING FLAG-5', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1D172, name: 'MUSICAL SYMBOL COMBINING FLAG-5', category: Cat::Spacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_FLAG_5 = "\u{1D172}";
 
-    #[Info(id: 119155, name: 'MUSICAL SYMBOL BEGIN BEAM', category: Cat::Format)]
+    #[Info(id: 0x1D173, name: 'MUSICAL SYMBOL BEGIN BEAM', category: Cat::Format)]
     case MUSICAL_SYMBOL_BEGIN_BEAM = "\u{1D173}";
 
-    #[Info(id: 119156, name: 'MUSICAL SYMBOL END BEAM', category: Cat::Format)]
+    #[Info(id: 0x1D174, name: 'MUSICAL SYMBOL END BEAM', category: Cat::Format)]
     case MUSICAL_SYMBOL_END_BEAM = "\u{1D174}";
 
-    #[Info(id: 119157, name: 'MUSICAL SYMBOL BEGIN TIE', category: Cat::Format)]
+    #[Info(id: 0x1D175, name: 'MUSICAL SYMBOL BEGIN TIE', category: Cat::Format)]
     case MUSICAL_SYMBOL_BEGIN_TIE = "\u{1D175}";
 
-    #[Info(id: 119158, name: 'MUSICAL SYMBOL END TIE', category: Cat::Format)]
+    #[Info(id: 0x1D176, name: 'MUSICAL SYMBOL END TIE', category: Cat::Format)]
     case MUSICAL_SYMBOL_END_TIE = "\u{1D176}";
 
-    #[Info(id: 119159, name: 'MUSICAL SYMBOL BEGIN SLUR', category: Cat::Format)]
+    #[Info(id: 0x1D177, name: 'MUSICAL SYMBOL BEGIN SLUR', category: Cat::Format)]
     case MUSICAL_SYMBOL_BEGIN_SLUR = "\u{1D177}";
 
-    #[Info(id: 119160, name: 'MUSICAL SYMBOL END SLUR', category: Cat::Format)]
+    #[Info(id: 0x1D178, name: 'MUSICAL SYMBOL END SLUR', category: Cat::Format)]
     case MUSICAL_SYMBOL_END_SLUR = "\u{1D178}";
 
-    #[Info(id: 119161, name: 'MUSICAL SYMBOL BEGIN PHRASE', category: Cat::Format)]
+    #[Info(id: 0x1D179, name: 'MUSICAL SYMBOL BEGIN PHRASE', category: Cat::Format)]
     case MUSICAL_SYMBOL_BEGIN_PHRASE = "\u{1D179}";
 
-    #[Info(id: 119162, name: 'MUSICAL SYMBOL END PHRASE', category: Cat::Format)]
+    #[Info(id: 0x1D17A, name: 'MUSICAL SYMBOL END PHRASE', category: Cat::Format)]
     case MUSICAL_SYMBOL_END_PHRASE = "\u{1D17A}";
 
-    #[Info(id: 119163, name: 'MUSICAL SYMBOL COMBINING ACCENT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D17B, name: 'MUSICAL SYMBOL COMBINING ACCENT', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_ACCENT = "\u{1D17B}";
 
-    #[Info(id: 119164, name: 'MUSICAL SYMBOL COMBINING STACCATO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D17C, name: 'MUSICAL SYMBOL COMBINING STACCATO', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_STACCATO = "\u{1D17C}";
 
-    #[Info(id: 119165, name: 'MUSICAL SYMBOL COMBINING TENUTO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D17D, name: 'MUSICAL SYMBOL COMBINING TENUTO', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_TENUTO = "\u{1D17D}";
 
-    #[Info(id: 119166, name: 'MUSICAL SYMBOL COMBINING STACCATISSIMO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D17E, name: 'MUSICAL SYMBOL COMBINING STACCATISSIMO', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_STACCATISSIMO = "\u{1D17E}";
 
-    #[Info(id: 119167, name: 'MUSICAL SYMBOL COMBINING MARCATO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D17F, name: 'MUSICAL SYMBOL COMBINING MARCATO', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_MARCATO = "\u{1D17F}";
 
-    #[Info(id: 119168, name: 'MUSICAL SYMBOL COMBINING MARCATO-STACCATO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D180, name: 'MUSICAL SYMBOL COMBINING MARCATO-STACCATO', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_MARCATO_STACCATO = "\u{1D180}";
 
-    #[Info(id: 119169, name: 'MUSICAL SYMBOL COMBINING ACCENT-STACCATO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D181, name: 'MUSICAL SYMBOL COMBINING ACCENT-STACCATO', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_ACCENT_STACCATO = "\u{1D181}";
 
-    #[Info(id: 119170, name: 'MUSICAL SYMBOL COMBINING LOURE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D182, name: 'MUSICAL SYMBOL COMBINING LOURE', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_LOURE = "\u{1D182}";
 
-    #[Info(id: 119171, name: 'MUSICAL SYMBOL ARPEGGIATO UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D183, name: 'MUSICAL SYMBOL ARPEGGIATO UP', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ARPEGGIATO_UP = "\u{1D183}";
 
-    #[Info(id: 119172, name: 'MUSICAL SYMBOL ARPEGGIATO DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D184, name: 'MUSICAL SYMBOL ARPEGGIATO DOWN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ARPEGGIATO_DOWN = "\u{1D184}";
 
-    #[Info(id: 119173, name: 'MUSICAL SYMBOL COMBINING DOIT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D185, name: 'MUSICAL SYMBOL COMBINING DOIT', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_DOIT = "\u{1D185}";
 
-    #[Info(id: 119174, name: 'MUSICAL SYMBOL COMBINING RIP', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D186, name: 'MUSICAL SYMBOL COMBINING RIP', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_RIP = "\u{1D186}";
 
-    #[Info(id: 119175, name: 'MUSICAL SYMBOL COMBINING FLIP', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D187, name: 'MUSICAL SYMBOL COMBINING FLIP', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_FLIP = "\u{1D187}";
 
-    #[Info(id: 119176, name: 'MUSICAL SYMBOL COMBINING SMEAR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D188, name: 'MUSICAL SYMBOL COMBINING SMEAR', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_SMEAR = "\u{1D188}";
 
-    #[Info(id: 119177, name: 'MUSICAL SYMBOL COMBINING BEND', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D189, name: 'MUSICAL SYMBOL COMBINING BEND', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_BEND = "\u{1D189}";
 
-    #[Info(id: 119178, name: 'MUSICAL SYMBOL COMBINING DOUBLE TONGUE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D18A, name: 'MUSICAL SYMBOL COMBINING DOUBLE TONGUE', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_DOUBLE_TONGUE = "\u{1D18A}";
 
-    #[Info(id: 119179, name: 'MUSICAL SYMBOL COMBINING TRIPLE TONGUE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D18B, name: 'MUSICAL SYMBOL COMBINING TRIPLE TONGUE', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_TRIPLE_TONGUE = "\u{1D18B}";
 
-    #[Info(id: 119180, name: 'MUSICAL SYMBOL RINFORZANDO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D18C, name: 'MUSICAL SYMBOL RINFORZANDO', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_RINFORZANDO = "\u{1D18C}";
 
-    #[Info(id: 119181, name: 'MUSICAL SYMBOL SUBITO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D18D, name: 'MUSICAL SYMBOL SUBITO', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SUBITO = "\u{1D18D}";
 
-    #[Info(id: 119182, name: 'MUSICAL SYMBOL Z', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D18E, name: 'MUSICAL SYMBOL Z', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_Z = "\u{1D18E}";
 
-    #[Info(id: 119183, name: 'MUSICAL SYMBOL PIANO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D18F, name: 'MUSICAL SYMBOL PIANO', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_PIANO = "\u{1D18F}";
 
-    #[Info(id: 119184, name: 'MUSICAL SYMBOL MEZZO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D190, name: 'MUSICAL SYMBOL MEZZO', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_MEZZO = "\u{1D190}";
 
-    #[Info(id: 119185, name: 'MUSICAL SYMBOL FORTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D191, name: 'MUSICAL SYMBOL FORTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FORTE = "\u{1D191}";
 
-    #[Info(id: 119186, name: 'MUSICAL SYMBOL CRESCENDO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D192, name: 'MUSICAL SYMBOL CRESCENDO', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_CRESCENDO = "\u{1D192}";
 
-    #[Info(id: 119187, name: 'MUSICAL SYMBOL DECRESCENDO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D193, name: 'MUSICAL SYMBOL DECRESCENDO', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DECRESCENDO = "\u{1D193}";
 
-    #[Info(id: 119188, name: 'MUSICAL SYMBOL GRACE NOTE SLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D194, name: 'MUSICAL SYMBOL GRACE NOTE SLASH', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_GRACE_NOTE_SLASH = "\u{1D194}";
 
-    #[Info(id: 119189, name: 'MUSICAL SYMBOL GRACE NOTE NO SLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D195, name: 'MUSICAL SYMBOL GRACE NOTE NO SLASH', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_GRACE_NOTE_NO_SLASH = "\u{1D195}";
 
-    #[Info(id: 119190, name: 'MUSICAL SYMBOL TR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D196, name: 'MUSICAL SYMBOL TR', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TR = "\u{1D196}";
 
-    #[Info(id: 119191, name: 'MUSICAL SYMBOL TURN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D197, name: 'MUSICAL SYMBOL TURN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TURN = "\u{1D197}";
 
-    #[Info(id: 119192, name: 'MUSICAL SYMBOL INVERTED TURN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D198, name: 'MUSICAL SYMBOL INVERTED TURN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_INVERTED_TURN = "\u{1D198}";
 
-    #[Info(id: 119193, name: 'MUSICAL SYMBOL TURN SLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D199, name: 'MUSICAL SYMBOL TURN SLASH', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TURN_SLASH = "\u{1D199}";
 
-    #[Info(id: 119194, name: 'MUSICAL SYMBOL TURN UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D19A, name: 'MUSICAL SYMBOL TURN UP', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TURN_UP = "\u{1D19A}";
 
-    #[Info(id: 119195, name: 'MUSICAL SYMBOL ORNAMENT STROKE-1', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D19B, name: 'MUSICAL SYMBOL ORNAMENT STROKE-1', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ORNAMENT_STROKE_1 = "\u{1D19B}";
 
-    #[Info(id: 119196, name: 'MUSICAL SYMBOL ORNAMENT STROKE-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D19C, name: 'MUSICAL SYMBOL ORNAMENT STROKE-2', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ORNAMENT_STROKE_2 = "\u{1D19C}";
 
-    #[Info(id: 119197, name: 'MUSICAL SYMBOL ORNAMENT STROKE-3', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D19D, name: 'MUSICAL SYMBOL ORNAMENT STROKE-3', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ORNAMENT_STROKE_3 = "\u{1D19D}";
 
-    #[Info(id: 119198, name: 'MUSICAL SYMBOL ORNAMENT STROKE-4', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D19E, name: 'MUSICAL SYMBOL ORNAMENT STROKE-4', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ORNAMENT_STROKE_4 = "\u{1D19E}";
 
-    #[Info(id: 119199, name: 'MUSICAL SYMBOL ORNAMENT STROKE-5', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D19F, name: 'MUSICAL SYMBOL ORNAMENT STROKE-5', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ORNAMENT_STROKE_5 = "\u{1D19F}";
 
-    #[Info(id: 119200, name: 'MUSICAL SYMBOL ORNAMENT STROKE-6', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1A0, name: 'MUSICAL SYMBOL ORNAMENT STROKE-6', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ORNAMENT_STROKE_6 = "\u{1D1A0}";
 
-    #[Info(id: 119201, name: 'MUSICAL SYMBOL ORNAMENT STROKE-7', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1A1, name: 'MUSICAL SYMBOL ORNAMENT STROKE-7', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ORNAMENT_STROKE_7 = "\u{1D1A1}";
 
-    #[Info(id: 119202, name: 'MUSICAL SYMBOL ORNAMENT STROKE-8', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1A2, name: 'MUSICAL SYMBOL ORNAMENT STROKE-8', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ORNAMENT_STROKE_8 = "\u{1D1A2}";
 
-    #[Info(id: 119203, name: 'MUSICAL SYMBOL ORNAMENT STROKE-9', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1A3, name: 'MUSICAL SYMBOL ORNAMENT STROKE-9', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ORNAMENT_STROKE_9 = "\u{1D1A3}";
 
-    #[Info(id: 119204, name: 'MUSICAL SYMBOL ORNAMENT STROKE-10', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1A4, name: 'MUSICAL SYMBOL ORNAMENT STROKE-10', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ORNAMENT_STROKE_10 = "\u{1D1A4}";
 
-    #[Info(id: 119205, name: 'MUSICAL SYMBOL ORNAMENT STROKE-11', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1A5, name: 'MUSICAL SYMBOL ORNAMENT STROKE-11', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_ORNAMENT_STROKE_11 = "\u{1D1A5}";
 
-    #[Info(id: 119206, name: 'MUSICAL SYMBOL HAUPTSTIMME', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1A6, name: 'MUSICAL SYMBOL HAUPTSTIMME', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_HAUPTSTIMME = "\u{1D1A6}";
 
-    #[Info(id: 119207, name: 'MUSICAL SYMBOL NEBENSTIMME', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1A7, name: 'MUSICAL SYMBOL NEBENSTIMME', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_NEBENSTIMME = "\u{1D1A7}";
 
-    #[Info(id: 119208, name: 'MUSICAL SYMBOL END OF STIMME', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1A8, name: 'MUSICAL SYMBOL END OF STIMME', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_END_OF_STIMME = "\u{1D1A8}";
 
-    #[Info(id: 119209, name: 'MUSICAL SYMBOL DEGREE SLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1A9, name: 'MUSICAL SYMBOL DEGREE SLASH', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DEGREE_SLASH = "\u{1D1A9}";
 
-    #[Info(id: 119210, name: 'MUSICAL SYMBOL COMBINING DOWN BOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D1AA, name: 'MUSICAL SYMBOL COMBINING DOWN BOW', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_DOWN_BOW = "\u{1D1AA}";
 
-    #[Info(id: 119211, name: 'MUSICAL SYMBOL COMBINING UP BOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D1AB, name: 'MUSICAL SYMBOL COMBINING UP BOW', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_UP_BOW = "\u{1D1AB}";
 
-    #[Info(id: 119212, name: 'MUSICAL SYMBOL COMBINING HARMONIC', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D1AC, name: 'MUSICAL SYMBOL COMBINING HARMONIC', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_HARMONIC = "\u{1D1AC}";
 
-    #[Info(id: 119213, name: 'MUSICAL SYMBOL COMBINING SNAP PIZZICATO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1D1AD, name: 'MUSICAL SYMBOL COMBINING SNAP PIZZICATO', category: Cat::Nonspacing_Mark)]
     case MUSICAL_SYMBOL_COMBINING_SNAP_PIZZICATO = "\u{1D1AD}";
 
-    #[Info(id: 119214, name: 'MUSICAL SYMBOL PEDAL MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1AE, name: 'MUSICAL SYMBOL PEDAL MARK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_PEDAL_MARK = "\u{1D1AE}";
 
-    #[Info(id: 119215, name: 'MUSICAL SYMBOL PEDAL UP MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1AF, name: 'MUSICAL SYMBOL PEDAL UP MARK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_PEDAL_UP_MARK = "\u{1D1AF}";
 
-    #[Info(id: 119216, name: 'MUSICAL SYMBOL HALF PEDAL MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1B0, name: 'MUSICAL SYMBOL HALF PEDAL MARK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_HALF_PEDAL_MARK = "\u{1D1B0}";
 
-    #[Info(id: 119217, name: 'MUSICAL SYMBOL GLISSANDO UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1B1, name: 'MUSICAL SYMBOL GLISSANDO UP', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_GLISSANDO_UP = "\u{1D1B1}";
 
-    #[Info(id: 119218, name: 'MUSICAL SYMBOL GLISSANDO DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1B2, name: 'MUSICAL SYMBOL GLISSANDO DOWN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_GLISSANDO_DOWN = "\u{1D1B2}";
 
-    #[Info(id: 119219, name: 'MUSICAL SYMBOL WITH FINGERNAILS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1B3, name: 'MUSICAL SYMBOL WITH FINGERNAILS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_WITH_FINGERNAILS = "\u{1D1B3}";
 
-    #[Info(id: 119220, name: 'MUSICAL SYMBOL DAMP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1B4, name: 'MUSICAL SYMBOL DAMP', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DAMP = "\u{1D1B4}";
 
-    #[Info(id: 119221, name: 'MUSICAL SYMBOL DAMP ALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1B5, name: 'MUSICAL SYMBOL DAMP ALL', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DAMP_ALL = "\u{1D1B5}";
 
-    #[Info(id: 119222, name: 'MUSICAL SYMBOL MAXIMA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1B6, name: 'MUSICAL SYMBOL MAXIMA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_MAXIMA = "\u{1D1B6}";
 
-    #[Info(id: 119223, name: 'MUSICAL SYMBOL LONGA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1B7, name: 'MUSICAL SYMBOL LONGA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_LONGA = "\u{1D1B7}";
 
-    #[Info(id: 119224, name: 'MUSICAL SYMBOL BREVIS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1B8, name: 'MUSICAL SYMBOL BREVIS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_BREVIS = "\u{1D1B8}";
 
-    #[Info(id: 119225, name: 'MUSICAL SYMBOL SEMIBREVIS WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1B9, name: 'MUSICAL SYMBOL SEMIBREVIS WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SEMIBREVIS_WHITE = "\u{1D1B9}";
 
-    #[Info(id: 119226, name: 'MUSICAL SYMBOL SEMIBREVIS BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1BA, name: 'MUSICAL SYMBOL SEMIBREVIS BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SEMIBREVIS_BLACK = "\u{1D1BA}";
 
-    #[Info(id: 119227, name: 'MUSICAL SYMBOL MINIMA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1BB, name: 'MUSICAL SYMBOL MINIMA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_MINIMA = "\u{1D1BB}";
 
-    #[Info(id: 119228, name: 'MUSICAL SYMBOL MINIMA BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1BC, name: 'MUSICAL SYMBOL MINIMA BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_MINIMA_BLACK = "\u{1D1BC}";
 
-    #[Info(id: 119229, name: 'MUSICAL SYMBOL SEMIMINIMA WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1BD, name: 'MUSICAL SYMBOL SEMIMINIMA WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SEMIMINIMA_WHITE = "\u{1D1BD}";
 
-    #[Info(id: 119230, name: 'MUSICAL SYMBOL SEMIMINIMA BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1BE, name: 'MUSICAL SYMBOL SEMIMINIMA BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SEMIMINIMA_BLACK = "\u{1D1BE}";
 
-    #[Info(id: 119231, name: 'MUSICAL SYMBOL FUSA WHITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1BF, name: 'MUSICAL SYMBOL FUSA WHITE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FUSA_WHITE = "\u{1D1BF}";
 
-    #[Info(id: 119232, name: 'MUSICAL SYMBOL FUSA BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1C0, name: 'MUSICAL SYMBOL FUSA BLACK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_FUSA_BLACK = "\u{1D1C0}";
 
-    #[Info(id: 119233, name: 'MUSICAL SYMBOL LONGA PERFECTA REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1C1, name: 'MUSICAL SYMBOL LONGA PERFECTA REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_LONGA_PERFECTA_REST = "\u{1D1C1}";
 
-    #[Info(id: 119234, name: 'MUSICAL SYMBOL LONGA IMPERFECTA REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1C2, name: 'MUSICAL SYMBOL LONGA IMPERFECTA REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_LONGA_IMPERFECTA_REST = "\u{1D1C2}";
 
-    #[Info(id: 119235, name: 'MUSICAL SYMBOL BREVIS REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1C3, name: 'MUSICAL SYMBOL BREVIS REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_BREVIS_REST = "\u{1D1C3}";
 
-    #[Info(id: 119236, name: 'MUSICAL SYMBOL SEMIBREVIS REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1C4, name: 'MUSICAL SYMBOL SEMIBREVIS REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SEMIBREVIS_REST = "\u{1D1C4}";
 
-    #[Info(id: 119237, name: 'MUSICAL SYMBOL MINIMA REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1C5, name: 'MUSICAL SYMBOL MINIMA REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_MINIMA_REST = "\u{1D1C5}";
 
-    #[Info(id: 119238, name: 'MUSICAL SYMBOL SEMIMINIMA REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1C6, name: 'MUSICAL SYMBOL SEMIMINIMA REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SEMIMINIMA_REST = "\u{1D1C6}";
 
-    #[Info(id: 119239, name: 'MUSICAL SYMBOL TEMPUS PERFECTUM CUM PROLATIONE PERFECTA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1C7, name: 'MUSICAL SYMBOL TEMPUS PERFECTUM CUM PROLATIONE PERFECTA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TEMPUS_PERFECTUM_CUM_PROLATIONE_PERFECTA = "\u{1D1C7}";
 
-    #[Info(id: 119240, name: 'MUSICAL SYMBOL TEMPUS PERFECTUM CUM PROLATIONE IMPERFECTA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1C8, name: 'MUSICAL SYMBOL TEMPUS PERFECTUM CUM PROLATIONE IMPERFECTA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TEMPUS_PERFECTUM_CUM_PROLATIONE_IMPERFECTA = "\u{1D1C8}";
 
-    #[Info(id: 119241, name: 'MUSICAL SYMBOL TEMPUS PERFECTUM CUM PROLATIONE PERFECTA DIMINUTION-1', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1C9, name: 'MUSICAL SYMBOL TEMPUS PERFECTUM CUM PROLATIONE PERFECTA DIMINUTION-1', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TEMPUS_PERFECTUM_CUM_PROLATIONE_PERFECTA_DIMINUTION_1 = "\u{1D1C9}";
 
-    #[Info(id: 119242, name: 'MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE PERFECTA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1CA, name: 'MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE PERFECTA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TEMPUS_IMPERFECTUM_CUM_PROLATIONE_PERFECTA = "\u{1D1CA}";
 
-    #[Info(id: 119243, name: 'MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1CB, name: 'MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TEMPUS_IMPERFECTUM_CUM_PROLATIONE_IMPERFECTA = "\u{1D1CB}";
 
-    #[Info(id: 119244, name: 'MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA DIMINUTION-1', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1CC, name: 'MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA DIMINUTION-1', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TEMPUS_IMPERFECTUM_CUM_PROLATIONE_IMPERFECTA_DIMINUTION_1 = "\u{1D1CC}";
 
-    #[Info(id: 119245, name: 'MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA DIMINUTION-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1CD, name: 'MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA DIMINUTION-2', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TEMPUS_IMPERFECTUM_CUM_PROLATIONE_IMPERFECTA_DIMINUTION_2 = "\u{1D1CD}";
 
-    #[Info(id: 119246, name: 'MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA DIMINUTION-3', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1CE, name: 'MUSICAL SYMBOL TEMPUS IMPERFECTUM CUM PROLATIONE IMPERFECTA DIMINUTION-3', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TEMPUS_IMPERFECTUM_CUM_PROLATIONE_IMPERFECTA_DIMINUTION_3 = "\u{1D1CE}";
 
-    #[Info(id: 119247, name: 'MUSICAL SYMBOL CROIX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1CF, name: 'MUSICAL SYMBOL CROIX', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_CROIX = "\u{1D1CF}";
 
-    #[Info(id: 119248, name: 'MUSICAL SYMBOL GREGORIAN C CLEF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D0, name: 'MUSICAL SYMBOL GREGORIAN C CLEF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_GREGORIAN_C_CLEF = "\u{1D1D0}";
 
-    #[Info(id: 119249, name: 'MUSICAL SYMBOL GREGORIAN F CLEF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D1, name: 'MUSICAL SYMBOL GREGORIAN F CLEF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_GREGORIAN_F_CLEF = "\u{1D1D1}";
 
-    #[Info(id: 119250, name: 'MUSICAL SYMBOL SQUARE B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D2, name: 'MUSICAL SYMBOL SQUARE B', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SQUARE_B = "\u{1D1D2}";
 
-    #[Info(id: 119251, name: 'MUSICAL SYMBOL VIRGA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D3, name: 'MUSICAL SYMBOL VIRGA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_VIRGA = "\u{1D1D3}";
 
-    #[Info(id: 119252, name: 'MUSICAL SYMBOL PODATUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D4, name: 'MUSICAL SYMBOL PODATUS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_PODATUS = "\u{1D1D4}";
 
-    #[Info(id: 119253, name: 'MUSICAL SYMBOL CLIVIS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D5, name: 'MUSICAL SYMBOL CLIVIS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_CLIVIS = "\u{1D1D5}";
 
-    #[Info(id: 119254, name: 'MUSICAL SYMBOL SCANDICUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D6, name: 'MUSICAL SYMBOL SCANDICUS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SCANDICUS = "\u{1D1D6}";
 
-    #[Info(id: 119255, name: 'MUSICAL SYMBOL CLIMACUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D7, name: 'MUSICAL SYMBOL CLIMACUS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_CLIMACUS = "\u{1D1D7}";
 
-    #[Info(id: 119256, name: 'MUSICAL SYMBOL TORCULUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D8, name: 'MUSICAL SYMBOL TORCULUS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TORCULUS = "\u{1D1D8}";
 
-    #[Info(id: 119257, name: 'MUSICAL SYMBOL PORRECTUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D9, name: 'MUSICAL SYMBOL PORRECTUS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_PORRECTUS = "\u{1D1D9}";
 
-    #[Info(id: 119258, name: 'MUSICAL SYMBOL PORRECTUS FLEXUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1DA, name: 'MUSICAL SYMBOL PORRECTUS FLEXUS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_PORRECTUS_FLEXUS = "\u{1D1DA}";
 
-    #[Info(id: 119259, name: 'MUSICAL SYMBOL SCANDICUS FLEXUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1DB, name: 'MUSICAL SYMBOL SCANDICUS FLEXUS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SCANDICUS_FLEXUS = "\u{1D1DB}";
 
-    #[Info(id: 119260, name: 'MUSICAL SYMBOL TORCULUS RESUPINUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1DC, name: 'MUSICAL SYMBOL TORCULUS RESUPINUS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_TORCULUS_RESUPINUS = "\u{1D1DC}";
 
-    #[Info(id: 119261, name: 'MUSICAL SYMBOL PES SUBPUNCTIS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1DD, name: 'MUSICAL SYMBOL PES SUBPUNCTIS', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_PES_SUBPUNCTIS = "\u{1D1DD}";
 
-    #[Info(id: 119262, name: 'MUSICAL SYMBOL KIEVAN C CLEF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1DE, name: 'MUSICAL SYMBOL KIEVAN C CLEF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KIEVAN_C_CLEF = "\u{1D1DE}";
 
-    #[Info(id: 119263, name: 'MUSICAL SYMBOL KIEVAN END OF PIECE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1DF, name: 'MUSICAL SYMBOL KIEVAN END OF PIECE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KIEVAN_END_OF_PIECE = "\u{1D1DF}";
 
-    #[Info(id: 119264, name: 'MUSICAL SYMBOL KIEVAN FINAL NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1E0, name: 'MUSICAL SYMBOL KIEVAN FINAL NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KIEVAN_FINAL_NOTE = "\u{1D1E0}";
 
-    #[Info(id: 119265, name: 'MUSICAL SYMBOL KIEVAN RECITATIVE MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1E1, name: 'MUSICAL SYMBOL KIEVAN RECITATIVE MARK', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KIEVAN_RECITATIVE_MARK = "\u{1D1E1}";
 
-    #[Info(id: 119266, name: 'MUSICAL SYMBOL KIEVAN WHOLE NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1E2, name: 'MUSICAL SYMBOL KIEVAN WHOLE NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KIEVAN_WHOLE_NOTE = "\u{1D1E2}";
 
-    #[Info(id: 119267, name: 'MUSICAL SYMBOL KIEVAN HALF NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1E3, name: 'MUSICAL SYMBOL KIEVAN HALF NOTE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KIEVAN_HALF_NOTE = "\u{1D1E3}";
 
-    #[Info(id: 119268, name: 'MUSICAL SYMBOL KIEVAN QUARTER NOTE STEM DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1E4, name: 'MUSICAL SYMBOL KIEVAN QUARTER NOTE STEM DOWN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KIEVAN_QUARTER_NOTE_STEM_DOWN = "\u{1D1E4}";
 
-    #[Info(id: 119269, name: 'MUSICAL SYMBOL KIEVAN QUARTER NOTE STEM UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1E5, name: 'MUSICAL SYMBOL KIEVAN QUARTER NOTE STEM UP', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KIEVAN_QUARTER_NOTE_STEM_UP = "\u{1D1E5}";
 
-    #[Info(id: 119270, name: 'MUSICAL SYMBOL KIEVAN EIGHTH NOTE STEM DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1E6, name: 'MUSICAL SYMBOL KIEVAN EIGHTH NOTE STEM DOWN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KIEVAN_EIGHTH_NOTE_STEM_DOWN = "\u{1D1E6}";
 
-    #[Info(id: 119271, name: 'MUSICAL SYMBOL KIEVAN EIGHTH NOTE STEM UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1E7, name: 'MUSICAL SYMBOL KIEVAN EIGHTH NOTE STEM UP', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KIEVAN_EIGHTH_NOTE_STEM_UP = "\u{1D1E7}";
 
-    #[Info(id: 119272, name: 'MUSICAL SYMBOL KIEVAN FLAT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1E8, name: 'MUSICAL SYMBOL KIEVAN FLAT SIGN', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KIEVAN_FLAT_SIGN = "\u{1D1E8}";
 
-    #[Info(id: 119273, name: 'MUSICAL SYMBOL SORI', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1E9, name: 'MUSICAL SYMBOL SORI', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_SORI = "\u{1D1E9}";
 
-    #[Info(id: 119274, name: 'MUSICAL SYMBOL KORON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1EA, name: 'MUSICAL SYMBOL KORON', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KORON = "\u{1D1EA}";
 }

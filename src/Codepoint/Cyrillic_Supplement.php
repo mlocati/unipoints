@@ -16,147 +16,147 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Cyrillic_Supplement: string
 {
-    #[Info(id: 1280, name: 'CYRILLIC CAPITAL LETTER KOMI DE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x500, name: 'CYRILLIC CAPITAL LETTER KOMI DE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_KOMI_DE = "\u{500}";
 
-    #[Info(id: 1281, name: 'CYRILLIC SMALL LETTER KOMI DE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x501, name: 'CYRILLIC SMALL LETTER KOMI DE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_KOMI_DE = "\u{501}";
 
-    #[Info(id: 1282, name: 'CYRILLIC CAPITAL LETTER KOMI DJE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x502, name: 'CYRILLIC CAPITAL LETTER KOMI DJE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_KOMI_DJE = "\u{502}";
 
-    #[Info(id: 1283, name: 'CYRILLIC SMALL LETTER KOMI DJE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x503, name: 'CYRILLIC SMALL LETTER KOMI DJE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_KOMI_DJE = "\u{503}";
 
-    #[Info(id: 1284, name: 'CYRILLIC CAPITAL LETTER KOMI ZJE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x504, name: 'CYRILLIC CAPITAL LETTER KOMI ZJE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_KOMI_ZJE = "\u{504}";
 
-    #[Info(id: 1285, name: 'CYRILLIC SMALL LETTER KOMI ZJE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x505, name: 'CYRILLIC SMALL LETTER KOMI ZJE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_KOMI_ZJE = "\u{505}";
 
-    #[Info(id: 1286, name: 'CYRILLIC CAPITAL LETTER KOMI DZJE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x506, name: 'CYRILLIC CAPITAL LETTER KOMI DZJE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_KOMI_DZJE = "\u{506}";
 
-    #[Info(id: 1287, name: 'CYRILLIC SMALL LETTER KOMI DZJE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x507, name: 'CYRILLIC SMALL LETTER KOMI DZJE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_KOMI_DZJE = "\u{507}";
 
-    #[Info(id: 1288, name: 'CYRILLIC CAPITAL LETTER KOMI LJE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x508, name: 'CYRILLIC CAPITAL LETTER KOMI LJE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_KOMI_LJE = "\u{508}";
 
-    #[Info(id: 1289, name: 'CYRILLIC SMALL LETTER KOMI LJE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x509, name: 'CYRILLIC SMALL LETTER KOMI LJE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_KOMI_LJE = "\u{509}";
 
-    #[Info(id: 1290, name: 'CYRILLIC CAPITAL LETTER KOMI NJE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x50A, name: 'CYRILLIC CAPITAL LETTER KOMI NJE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_KOMI_NJE = "\u{50A}";
 
-    #[Info(id: 1291, name: 'CYRILLIC SMALL LETTER KOMI NJE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x50B, name: 'CYRILLIC SMALL LETTER KOMI NJE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_KOMI_NJE = "\u{50B}";
 
-    #[Info(id: 1292, name: 'CYRILLIC CAPITAL LETTER KOMI SJE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x50C, name: 'CYRILLIC CAPITAL LETTER KOMI SJE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_KOMI_SJE = "\u{50C}";
 
-    #[Info(id: 1293, name: 'CYRILLIC SMALL LETTER KOMI SJE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x50D, name: 'CYRILLIC SMALL LETTER KOMI SJE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_KOMI_SJE = "\u{50D}";
 
-    #[Info(id: 1294, name: 'CYRILLIC CAPITAL LETTER KOMI TJE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x50E, name: 'CYRILLIC CAPITAL LETTER KOMI TJE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_KOMI_TJE = "\u{50E}";
 
-    #[Info(id: 1295, name: 'CYRILLIC SMALL LETTER KOMI TJE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x50F, name: 'CYRILLIC SMALL LETTER KOMI TJE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_KOMI_TJE = "\u{50F}";
 
-    #[Info(id: 1296, name: 'CYRILLIC CAPITAL LETTER REVERSED ZE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x510, name: 'CYRILLIC CAPITAL LETTER REVERSED ZE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_REVERSED_ZE = "\u{510}";
 
-    #[Info(id: 1297, name: 'CYRILLIC SMALL LETTER REVERSED ZE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x511, name: 'CYRILLIC SMALL LETTER REVERSED ZE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_REVERSED_ZE = "\u{511}";
 
-    #[Info(id: 1298, name: 'CYRILLIC CAPITAL LETTER EL WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x512, name: 'CYRILLIC CAPITAL LETTER EL WITH HOOK', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_EL_WITH_HOOK = "\u{512}";
 
-    #[Info(id: 1299, name: 'CYRILLIC SMALL LETTER EL WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x513, name: 'CYRILLIC SMALL LETTER EL WITH HOOK', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_EL_WITH_HOOK = "\u{513}";
 
-    #[Info(id: 1300, name: 'CYRILLIC CAPITAL LETTER LHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x514, name: 'CYRILLIC CAPITAL LETTER LHA', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_LHA = "\u{514}";
 
-    #[Info(id: 1301, name: 'CYRILLIC SMALL LETTER LHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x515, name: 'CYRILLIC SMALL LETTER LHA', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_LHA = "\u{515}";
 
-    #[Info(id: 1302, name: 'CYRILLIC CAPITAL LETTER RHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x516, name: 'CYRILLIC CAPITAL LETTER RHA', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_RHA = "\u{516}";
 
-    #[Info(id: 1303, name: 'CYRILLIC SMALL LETTER RHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x517, name: 'CYRILLIC SMALL LETTER RHA', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_RHA = "\u{517}";
 
-    #[Info(id: 1304, name: 'CYRILLIC CAPITAL LETTER YAE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x518, name: 'CYRILLIC CAPITAL LETTER YAE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_YAE = "\u{518}";
 
-    #[Info(id: 1305, name: 'CYRILLIC SMALL LETTER YAE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x519, name: 'CYRILLIC SMALL LETTER YAE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_YAE = "\u{519}";
 
-    #[Info(id: 1306, name: 'CYRILLIC CAPITAL LETTER QA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x51A, name: 'CYRILLIC CAPITAL LETTER QA', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_QA = "\u{51A}";
 
-    #[Info(id: 1307, name: 'CYRILLIC SMALL LETTER QA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x51B, name: 'CYRILLIC SMALL LETTER QA', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_QA = "\u{51B}";
 
-    #[Info(id: 1308, name: 'CYRILLIC CAPITAL LETTER WE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x51C, name: 'CYRILLIC CAPITAL LETTER WE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_WE = "\u{51C}";
 
-    #[Info(id: 1309, name: 'CYRILLIC SMALL LETTER WE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x51D, name: 'CYRILLIC SMALL LETTER WE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_WE = "\u{51D}";
 
-    #[Info(id: 1310, name: 'CYRILLIC CAPITAL LETTER ALEUT KA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x51E, name: 'CYRILLIC CAPITAL LETTER ALEUT KA', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_ALEUT_KA = "\u{51E}";
 
-    #[Info(id: 1311, name: 'CYRILLIC SMALL LETTER ALEUT KA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x51F, name: 'CYRILLIC SMALL LETTER ALEUT KA', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_ALEUT_KA = "\u{51F}";
 
-    #[Info(id: 1312, name: 'CYRILLIC CAPITAL LETTER EL WITH MIDDLE HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x520, name: 'CYRILLIC CAPITAL LETTER EL WITH MIDDLE HOOK', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_EL_WITH_MIDDLE_HOOK = "\u{520}";
 
-    #[Info(id: 1313, name: 'CYRILLIC SMALL LETTER EL WITH MIDDLE HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x521, name: 'CYRILLIC SMALL LETTER EL WITH MIDDLE HOOK', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_EL_WITH_MIDDLE_HOOK = "\u{521}";
 
-    #[Info(id: 1314, name: 'CYRILLIC CAPITAL LETTER EN WITH MIDDLE HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x522, name: 'CYRILLIC CAPITAL LETTER EN WITH MIDDLE HOOK', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_EN_WITH_MIDDLE_HOOK = "\u{522}";
 
-    #[Info(id: 1315, name: 'CYRILLIC SMALL LETTER EN WITH MIDDLE HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x523, name: 'CYRILLIC SMALL LETTER EN WITH MIDDLE HOOK', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_EN_WITH_MIDDLE_HOOK = "\u{523}";
 
-    #[Info(id: 1316, name: 'CYRILLIC CAPITAL LETTER PE WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x524, name: 'CYRILLIC CAPITAL LETTER PE WITH DESCENDER', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_PE_WITH_DESCENDER = "\u{524}";
 
-    #[Info(id: 1317, name: 'CYRILLIC SMALL LETTER PE WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x525, name: 'CYRILLIC SMALL LETTER PE WITH DESCENDER', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_PE_WITH_DESCENDER = "\u{525}";
 
-    #[Info(id: 1318, name: 'CYRILLIC CAPITAL LETTER SHHA WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x526, name: 'CYRILLIC CAPITAL LETTER SHHA WITH DESCENDER', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_SHHA_WITH_DESCENDER = "\u{526}";
 
-    #[Info(id: 1319, name: 'CYRILLIC SMALL LETTER SHHA WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x527, name: 'CYRILLIC SMALL LETTER SHHA WITH DESCENDER', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_SHHA_WITH_DESCENDER = "\u{527}";
 
-    #[Info(id: 1320, name: 'CYRILLIC CAPITAL LETTER EN WITH LEFT HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x528, name: 'CYRILLIC CAPITAL LETTER EN WITH LEFT HOOK', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_EN_WITH_LEFT_HOOK = "\u{528}";
 
-    #[Info(id: 1321, name: 'CYRILLIC SMALL LETTER EN WITH LEFT HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x529, name: 'CYRILLIC SMALL LETTER EN WITH LEFT HOOK', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_EN_WITH_LEFT_HOOK = "\u{529}";
 
-    #[Info(id: 1322, name: 'CYRILLIC CAPITAL LETTER DZZHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x52A, name: 'CYRILLIC CAPITAL LETTER DZZHE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_DZZHE = "\u{52A}";
 
-    #[Info(id: 1323, name: 'CYRILLIC SMALL LETTER DZZHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x52B, name: 'CYRILLIC SMALL LETTER DZZHE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_DZZHE = "\u{52B}";
 
-    #[Info(id: 1324, name: 'CYRILLIC CAPITAL LETTER DCHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x52C, name: 'CYRILLIC CAPITAL LETTER DCHE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_DCHE = "\u{52C}";
 
-    #[Info(id: 1325, name: 'CYRILLIC SMALL LETTER DCHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x52D, name: 'CYRILLIC SMALL LETTER DCHE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_DCHE = "\u{52D}";
 
-    #[Info(id: 1326, name: 'CYRILLIC CAPITAL LETTER EL WITH DESCENDER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x52E, name: 'CYRILLIC CAPITAL LETTER EL WITH DESCENDER', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_EL_WITH_DESCENDER = "\u{52E}";
 
-    #[Info(id: 1327, name: 'CYRILLIC SMALL LETTER EL WITH DESCENDER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x52F, name: 'CYRILLIC SMALL LETTER EL WITH DESCENDER', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_EL_WITH_DESCENDER = "\u{52F}";
 }

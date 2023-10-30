@@ -16,291 +16,291 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Arabic_ExtendedA: string
 {
-    #[Info(id: 2208, name: 'ARABIC LETTER BEH WITH SMALL V BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x8A0, name: 'ARABIC LETTER BEH WITH SMALL V BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEH_WITH_SMALL_V_BELOW = "\u{8A0}";
 
-    #[Info(id: 2209, name: 'ARABIC LETTER BEH WITH HAMZA ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8A1, name: 'ARABIC LETTER BEH WITH HAMZA ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEH_WITH_HAMZA_ABOVE = "\u{8A1}";
 
-    #[Info(id: 2210, name: 'ARABIC LETTER JEEM WITH TWO DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8A2, name: 'ARABIC LETTER JEEM WITH TWO DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_JEEM_WITH_TWO_DOTS_ABOVE = "\u{8A2}";
 
-    #[Info(id: 2211, name: 'ARABIC LETTER TAH WITH TWO DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8A3, name: 'ARABIC LETTER TAH WITH TWO DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TAH_WITH_TWO_DOTS_ABOVE = "\u{8A3}";
 
-    #[Info(id: 2212, name: 'ARABIC LETTER FEH WITH DOT BELOW AND THREE DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8A4, name: 'ARABIC LETTER FEH WITH DOT BELOW AND THREE DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_FEH_WITH_DOT_BELOW_AND_THREE_DOTS_ABOVE = "\u{8A4}";
 
-    #[Info(id: 2213, name: 'ARABIC LETTER QAF WITH DOT BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x8A5, name: 'ARABIC LETTER QAF WITH DOT BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_QAF_WITH_DOT_BELOW = "\u{8A5}";
 
-    #[Info(id: 2214, name: 'ARABIC LETTER LAM WITH DOUBLE BAR', category: Cat::Other_Letter)]
+    #[Info(id: 0x8A6, name: 'ARABIC LETTER LAM WITH DOUBLE BAR', category: Cat::Other_Letter)]
     case ARABIC_LETTER_LAM_WITH_DOUBLE_BAR = "\u{8A6}";
 
-    #[Info(id: 2215, name: 'ARABIC LETTER MEEM WITH THREE DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8A7, name: 'ARABIC LETTER MEEM WITH THREE DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_MEEM_WITH_THREE_DOTS_ABOVE = "\u{8A7}";
 
-    #[Info(id: 2216, name: 'ARABIC LETTER YEH WITH TWO DOTS BELOW AND HAMZA ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8A8, name: 'ARABIC LETTER YEH WITH TWO DOTS BELOW AND HAMZA ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_WITH_TWO_DOTS_BELOW_AND_HAMZA_ABOVE = "\u{8A8}";
 
-    #[Info(id: 2217, name: 'ARABIC LETTER YEH WITH TWO DOTS BELOW AND DOT ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8A9, name: 'ARABIC LETTER YEH WITH TWO DOTS BELOW AND DOT ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_WITH_TWO_DOTS_BELOW_AND_DOT_ABOVE = "\u{8A9}";
 
-    #[Info(id: 2218, name: 'ARABIC LETTER REH WITH LOOP', category: Cat::Other_Letter)]
+    #[Info(id: 0x8AA, name: 'ARABIC LETTER REH WITH LOOP', category: Cat::Other_Letter)]
     case ARABIC_LETTER_REH_WITH_LOOP = "\u{8AA}";
 
-    #[Info(id: 2219, name: 'ARABIC LETTER WAW WITH DOT WITHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x8AB, name: 'ARABIC LETTER WAW WITH DOT WITHIN', category: Cat::Other_Letter)]
     case ARABIC_LETTER_WAW_WITH_DOT_WITHIN = "\u{8AB}";
 
-    #[Info(id: 2220, name: 'ARABIC LETTER ROHINGYA YEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x8AC, name: 'ARABIC LETTER ROHINGYA YEH', category: Cat::Other_Letter)]
     case ARABIC_LETTER_ROHINGYA_YEH = "\u{8AC}";
 
-    #[Info(id: 2221, name: 'ARABIC LETTER LOW ALEF', category: Cat::Other_Letter)]
+    #[Info(id: 0x8AD, name: 'ARABIC LETTER LOW ALEF', category: Cat::Other_Letter)]
     case ARABIC_LETTER_LOW_ALEF = "\u{8AD}";
 
-    #[Info(id: 2222, name: 'ARABIC LETTER DAL WITH THREE DOTS BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x8AE, name: 'ARABIC LETTER DAL WITH THREE DOTS BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DAL_WITH_THREE_DOTS_BELOW = "\u{8AE}";
 
-    #[Info(id: 2223, name: 'ARABIC LETTER SAD WITH THREE DOTS BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x8AF, name: 'ARABIC LETTER SAD WITH THREE DOTS BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_SAD_WITH_THREE_DOTS_BELOW = "\u{8AF}";
 
-    #[Info(id: 2224, name: 'ARABIC LETTER GAF WITH INVERTED STROKE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8B0, name: 'ARABIC LETTER GAF WITH INVERTED STROKE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_GAF_WITH_INVERTED_STROKE = "\u{8B0}";
 
-    #[Info(id: 2225, name: 'ARABIC LETTER STRAIGHT WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x8B1, name: 'ARABIC LETTER STRAIGHT WAW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_STRAIGHT_WAW = "\u{8B1}";
 
-    #[Info(id: 2226, name: 'ARABIC LETTER ZAIN WITH INVERTED V ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8B2, name: 'ARABIC LETTER ZAIN WITH INVERTED V ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_ZAIN_WITH_INVERTED_V_ABOVE = "\u{8B2}";
 
-    #[Info(id: 2227, name: 'ARABIC LETTER AIN WITH THREE DOTS BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x8B3, name: 'ARABIC LETTER AIN WITH THREE DOTS BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_AIN_WITH_THREE_DOTS_BELOW = "\u{8B3}";
 
-    #[Info(id: 2228, name: 'ARABIC LETTER KAF WITH DOT BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x8B4, name: 'ARABIC LETTER KAF WITH DOT BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KAF_WITH_DOT_BELOW = "\u{8B4}";
 
-    #[Info(id: 2229, name: 'ARABIC LETTER QAF WITH DOT BELOW AND NO DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8B5, name: 'ARABIC LETTER QAF WITH DOT BELOW AND NO DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_QAF_WITH_DOT_BELOW_AND_NO_DOTS_ABOVE = "\u{8B5}";
 
-    #[Info(id: 2230, name: 'ARABIC LETTER BEH WITH SMALL MEEM ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8B6, name: 'ARABIC LETTER BEH WITH SMALL MEEM ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEH_WITH_SMALL_MEEM_ABOVE = "\u{8B6}";
 
-    #[Info(id: 2231, name: 'ARABIC LETTER PEH WITH SMALL MEEM ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8B7, name: 'ARABIC LETTER PEH WITH SMALL MEEM ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_PEH_WITH_SMALL_MEEM_ABOVE = "\u{8B7}";
 
-    #[Info(id: 2232, name: 'ARABIC LETTER TEH WITH SMALL TEH ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8B8, name: 'ARABIC LETTER TEH WITH SMALL TEH ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TEH_WITH_SMALL_TEH_ABOVE = "\u{8B8}";
 
-    #[Info(id: 2233, name: 'ARABIC LETTER REH WITH SMALL NOON ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8B9, name: 'ARABIC LETTER REH WITH SMALL NOON ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_REH_WITH_SMALL_NOON_ABOVE = "\u{8B9}";
 
-    #[Info(id: 2234, name: 'ARABIC LETTER YEH WITH TWO DOTS BELOW AND SMALL NOON ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8BA, name: 'ARABIC LETTER YEH WITH TWO DOTS BELOW AND SMALL NOON ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_WITH_TWO_DOTS_BELOW_AND_SMALL_NOON_ABOVE = "\u{8BA}";
 
-    #[Info(id: 2235, name: 'ARABIC LETTER AFRICAN FEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x8BB, name: 'ARABIC LETTER AFRICAN FEH', category: Cat::Other_Letter)]
     case ARABIC_LETTER_AFRICAN_FEH = "\u{8BB}";
 
-    #[Info(id: 2236, name: 'ARABIC LETTER AFRICAN QAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x8BC, name: 'ARABIC LETTER AFRICAN QAF', category: Cat::Other_Letter)]
     case ARABIC_LETTER_AFRICAN_QAF = "\u{8BC}";
 
-    #[Info(id: 2237, name: 'ARABIC LETTER AFRICAN NOON', category: Cat::Other_Letter)]
+    #[Info(id: 0x8BD, name: 'ARABIC LETTER AFRICAN NOON', category: Cat::Other_Letter)]
     case ARABIC_LETTER_AFRICAN_NOON = "\u{8BD}";
 
-    #[Info(id: 2238, name: 'ARABIC LETTER PEH WITH SMALL V', category: Cat::Other_Letter)]
+    #[Info(id: 0x8BE, name: 'ARABIC LETTER PEH WITH SMALL V', category: Cat::Other_Letter)]
     case ARABIC_LETTER_PEH_WITH_SMALL_V = "\u{8BE}";
 
-    #[Info(id: 2239, name: 'ARABIC LETTER TEH WITH SMALL V', category: Cat::Other_Letter)]
+    #[Info(id: 0x8BF, name: 'ARABIC LETTER TEH WITH SMALL V', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TEH_WITH_SMALL_V = "\u{8BF}";
 
-    #[Info(id: 2240, name: 'ARABIC LETTER TTEH WITH SMALL V', category: Cat::Other_Letter)]
+    #[Info(id: 0x8C0, name: 'ARABIC LETTER TTEH WITH SMALL V', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TTEH_WITH_SMALL_V = "\u{8C0}";
 
-    #[Info(id: 2241, name: 'ARABIC LETTER TCHEH WITH SMALL V', category: Cat::Other_Letter)]
+    #[Info(id: 0x8C1, name: 'ARABIC LETTER TCHEH WITH SMALL V', category: Cat::Other_Letter)]
     case ARABIC_LETTER_TCHEH_WITH_SMALL_V = "\u{8C1}";
 
-    #[Info(id: 2242, name: 'ARABIC LETTER KEHEH WITH SMALL V', category: Cat::Other_Letter)]
+    #[Info(id: 0x8C2, name: 'ARABIC LETTER KEHEH WITH SMALL V', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KEHEH_WITH_SMALL_V = "\u{8C2}";
 
-    #[Info(id: 2243, name: 'ARABIC LETTER GHAIN WITH THREE DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8C3, name: 'ARABIC LETTER GHAIN WITH THREE DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_GHAIN_WITH_THREE_DOTS_ABOVE = "\u{8C3}";
 
-    #[Info(id: 2244, name: 'ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8C4, name: 'ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_AFRICAN_QAF_WITH_THREE_DOTS_ABOVE = "\u{8C4}";
 
-    #[Info(id: 2245, name: 'ARABIC LETTER JEEM WITH THREE DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8C5, name: 'ARABIC LETTER JEEM WITH THREE DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_JEEM_WITH_THREE_DOTS_ABOVE = "\u{8C5}";
 
-    #[Info(id: 2246, name: 'ARABIC LETTER JEEM WITH THREE DOTS BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x8C6, name: 'ARABIC LETTER JEEM WITH THREE DOTS BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_JEEM_WITH_THREE_DOTS_BELOW = "\u{8C6}";
 
-    #[Info(id: 2247, name: 'ARABIC LETTER LAM WITH SMALL ARABIC LETTER TAH ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x8C7, name: 'ARABIC LETTER LAM WITH SMALL ARABIC LETTER TAH ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_LAM_WITH_SMALL_ARABIC_LETTER_TAH_ABOVE = "\u{8C7}";
 
-    #[Info(id: 2248, name: 'ARABIC LETTER GRAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x8C8, name: 'ARABIC LETTER GRAF', category: Cat::Other_Letter)]
     case ARABIC_LETTER_GRAF = "\u{8C8}";
 
-    #[Info(id: 2249, name: 'ARABIC SMALL FARSI YEH', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x8C9, name: 'ARABIC SMALL FARSI YEH', category: Cat::Modifier_Letter)]
     case ARABIC_SMALL_FARSI_YEH = "\u{8C9}";
 
-    #[Info(id: 2250, name: 'ARABIC SMALL HIGH FARSI YEH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8CA, name: 'ARABIC SMALL HIGH FARSI YEH', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_FARSI_YEH = "\u{8CA}";
 
-    #[Info(id: 2251, name: 'ARABIC SMALL HIGH YEH BARREE WITH TWO DOTS BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8CB, name: 'ARABIC SMALL HIGH YEH BARREE WITH TWO DOTS BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_YEH_BARREE_WITH_TWO_DOTS_BELOW = "\u{8CB}";
 
-    #[Info(id: 2252, name: 'ARABIC SMALL HIGH WORD SAH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8CC, name: 'ARABIC SMALL HIGH WORD SAH', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_WORD_SAH = "\u{8CC}";
 
-    #[Info(id: 2253, name: 'ARABIC SMALL HIGH ZAH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8CD, name: 'ARABIC SMALL HIGH ZAH', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_ZAH = "\u{8CD}";
 
-    #[Info(id: 2254, name: 'ARABIC LARGE ROUND DOT ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8CE, name: 'ARABIC LARGE ROUND DOT ABOVE', category: Cat::Nonspacing_Mark)]
     case ARABIC_LARGE_ROUND_DOT_ABOVE = "\u{8CE}";
 
-    #[Info(id: 2255, name: 'ARABIC LARGE ROUND DOT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8CF, name: 'ARABIC LARGE ROUND DOT BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_LARGE_ROUND_DOT_BELOW = "\u{8CF}";
 
-    #[Info(id: 2256, name: 'ARABIC SUKUN BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8D0, name: 'ARABIC SUKUN BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_SUKUN_BELOW = "\u{8D0}";
 
-    #[Info(id: 2257, name: 'ARABIC LARGE CIRCLE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8D1, name: 'ARABIC LARGE CIRCLE BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_LARGE_CIRCLE_BELOW = "\u{8D1}";
 
-    #[Info(id: 2258, name: 'ARABIC LARGE ROUND DOT INSIDE CIRCLE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8D2, name: 'ARABIC LARGE ROUND DOT INSIDE CIRCLE BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_LARGE_ROUND_DOT_INSIDE_CIRCLE_BELOW = "\u{8D2}";
 
-    #[Info(id: 2259, name: 'ARABIC SMALL LOW WAW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8D3, name: 'ARABIC SMALL LOW WAW', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_LOW_WAW = "\u{8D3}";
 
-    #[Info(id: 2260, name: 'ARABIC SMALL HIGH WORD AR-RUB', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8D4, name: 'ARABIC SMALL HIGH WORD AR-RUB', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_WORD_AR_RUB = "\u{8D4}";
 
-    #[Info(id: 2261, name: 'ARABIC SMALL HIGH SAD', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8D5, name: 'ARABIC SMALL HIGH SAD', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_SAD = "\u{8D5}";
 
-    #[Info(id: 2262, name: 'ARABIC SMALL HIGH AIN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8D6, name: 'ARABIC SMALL HIGH AIN', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_AIN = "\u{8D6}";
 
-    #[Info(id: 2263, name: 'ARABIC SMALL HIGH QAF', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8D7, name: 'ARABIC SMALL HIGH QAF', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_QAF = "\u{8D7}";
 
-    #[Info(id: 2264, name: 'ARABIC SMALL HIGH NOON WITH KASRA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8D8, name: 'ARABIC SMALL HIGH NOON WITH KASRA', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_NOON_WITH_KASRA = "\u{8D8}";
 
-    #[Info(id: 2265, name: 'ARABIC SMALL LOW NOON WITH KASRA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8D9, name: 'ARABIC SMALL LOW NOON WITH KASRA', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_LOW_NOON_WITH_KASRA = "\u{8D9}";
 
-    #[Info(id: 2266, name: 'ARABIC SMALL HIGH WORD ATH-THALATHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8DA, name: 'ARABIC SMALL HIGH WORD ATH-THALATHA', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_WORD_ATH_THALATHA = "\u{8DA}";
 
-    #[Info(id: 2267, name: 'ARABIC SMALL HIGH WORD AS-SAJDA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8DB, name: 'ARABIC SMALL HIGH WORD AS-SAJDA', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_WORD_AS_SAJDA = "\u{8DB}";
 
-    #[Info(id: 2268, name: 'ARABIC SMALL HIGH WORD AN-NISF', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8DC, name: 'ARABIC SMALL HIGH WORD AN-NISF', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_WORD_AN_NISF = "\u{8DC}";
 
-    #[Info(id: 2269, name: 'ARABIC SMALL HIGH WORD SAKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8DD, name: 'ARABIC SMALL HIGH WORD SAKTA', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_WORD_SAKTA = "\u{8DD}";
 
-    #[Info(id: 2270, name: 'ARABIC SMALL HIGH WORD QIF', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8DE, name: 'ARABIC SMALL HIGH WORD QIF', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_WORD_QIF = "\u{8DE}";
 
-    #[Info(id: 2271, name: 'ARABIC SMALL HIGH WORD WAQFA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8DF, name: 'ARABIC SMALL HIGH WORD WAQFA', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_WORD_WAQFA = "\u{8DF}";
 
-    #[Info(id: 2272, name: 'ARABIC SMALL HIGH FOOTNOTE MARKER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8E0, name: 'ARABIC SMALL HIGH FOOTNOTE MARKER', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_FOOTNOTE_MARKER = "\u{8E0}";
 
-    #[Info(id: 2273, name: 'ARABIC SMALL HIGH SIGN SAFHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8E1, name: 'ARABIC SMALL HIGH SIGN SAFHA', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_SIGN_SAFHA = "\u{8E1}";
 
-    #[Info(id: 2274, name: 'ARABIC DISPUTED END OF AYAH', category: Cat::Format)]
+    #[Info(id: 0x8E2, name: 'ARABIC DISPUTED END OF AYAH', category: Cat::Format)]
     case ARABIC_DISPUTED_END_OF_AYAH = "\u{8E2}";
 
-    #[Info(id: 2275, name: 'ARABIC TURNED DAMMA BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8E3, name: 'ARABIC TURNED DAMMA BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_TURNED_DAMMA_BELOW = "\u{8E3}";
 
-    #[Info(id: 2276, name: 'ARABIC CURLY FATHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8E4, name: 'ARABIC CURLY FATHA', category: Cat::Nonspacing_Mark)]
     case ARABIC_CURLY_FATHA = "\u{8E4}";
 
-    #[Info(id: 2277, name: 'ARABIC CURLY DAMMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8E5, name: 'ARABIC CURLY DAMMA', category: Cat::Nonspacing_Mark)]
     case ARABIC_CURLY_DAMMA = "\u{8E5}";
 
-    #[Info(id: 2278, name: 'ARABIC CURLY KASRA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8E6, name: 'ARABIC CURLY KASRA', category: Cat::Nonspacing_Mark)]
     case ARABIC_CURLY_KASRA = "\u{8E6}";
 
-    #[Info(id: 2279, name: 'ARABIC CURLY FATHATAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8E7, name: 'ARABIC CURLY FATHATAN', category: Cat::Nonspacing_Mark)]
     case ARABIC_CURLY_FATHATAN = "\u{8E7}";
 
-    #[Info(id: 2280, name: 'ARABIC CURLY DAMMATAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8E8, name: 'ARABIC CURLY DAMMATAN', category: Cat::Nonspacing_Mark)]
     case ARABIC_CURLY_DAMMATAN = "\u{8E8}";
 
-    #[Info(id: 2281, name: 'ARABIC CURLY KASRATAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8E9, name: 'ARABIC CURLY KASRATAN', category: Cat::Nonspacing_Mark)]
     case ARABIC_CURLY_KASRATAN = "\u{8E9}";
 
-    #[Info(id: 2282, name: 'ARABIC TONE ONE DOT ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8EA, name: 'ARABIC TONE ONE DOT ABOVE', category: Cat::Nonspacing_Mark)]
     case ARABIC_TONE_ONE_DOT_ABOVE = "\u{8EA}";
 
-    #[Info(id: 2283, name: 'ARABIC TONE TWO DOTS ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8EB, name: 'ARABIC TONE TWO DOTS ABOVE', category: Cat::Nonspacing_Mark)]
     case ARABIC_TONE_TWO_DOTS_ABOVE = "\u{8EB}";
 
-    #[Info(id: 2284, name: 'ARABIC TONE LOOP ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8EC, name: 'ARABIC TONE LOOP ABOVE', category: Cat::Nonspacing_Mark)]
     case ARABIC_TONE_LOOP_ABOVE = "\u{8EC}";
 
-    #[Info(id: 2285, name: 'ARABIC TONE ONE DOT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8ED, name: 'ARABIC TONE ONE DOT BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_TONE_ONE_DOT_BELOW = "\u{8ED}";
 
-    #[Info(id: 2286, name: 'ARABIC TONE TWO DOTS BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8EE, name: 'ARABIC TONE TWO DOTS BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_TONE_TWO_DOTS_BELOW = "\u{8EE}";
 
-    #[Info(id: 2287, name: 'ARABIC TONE LOOP BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8EF, name: 'ARABIC TONE LOOP BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_TONE_LOOP_BELOW = "\u{8EF}";
 
-    #[Info(id: 2288, name: 'ARABIC OPEN FATHATAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F0, name: 'ARABIC OPEN FATHATAN', category: Cat::Nonspacing_Mark)]
     case ARABIC_OPEN_FATHATAN = "\u{8F0}";
 
-    #[Info(id: 2289, name: 'ARABIC OPEN DAMMATAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F1, name: 'ARABIC OPEN DAMMATAN', category: Cat::Nonspacing_Mark)]
     case ARABIC_OPEN_DAMMATAN = "\u{8F1}";
 
-    #[Info(id: 2290, name: 'ARABIC OPEN KASRATAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F2, name: 'ARABIC OPEN KASRATAN', category: Cat::Nonspacing_Mark)]
     case ARABIC_OPEN_KASRATAN = "\u{8F2}";
 
-    #[Info(id: 2291, name: 'ARABIC SMALL HIGH WAW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F3, name: 'ARABIC SMALL HIGH WAW', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_WAW = "\u{8F3}";
 
-    #[Info(id: 2292, name: 'ARABIC FATHA WITH RING', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F4, name: 'ARABIC FATHA WITH RING', category: Cat::Nonspacing_Mark)]
     case ARABIC_FATHA_WITH_RING = "\u{8F4}";
 
-    #[Info(id: 2293, name: 'ARABIC FATHA WITH DOT ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F5, name: 'ARABIC FATHA WITH DOT ABOVE', category: Cat::Nonspacing_Mark)]
     case ARABIC_FATHA_WITH_DOT_ABOVE = "\u{8F5}";
 
-    #[Info(id: 2294, name: 'ARABIC KASRA WITH DOT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F6, name: 'ARABIC KASRA WITH DOT BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_KASRA_WITH_DOT_BELOW = "\u{8F6}";
 
-    #[Info(id: 2295, name: 'ARABIC LEFT ARROWHEAD ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F7, name: 'ARABIC LEFT ARROWHEAD ABOVE', category: Cat::Nonspacing_Mark)]
     case ARABIC_LEFT_ARROWHEAD_ABOVE = "\u{8F7}";
 
-    #[Info(id: 2296, name: 'ARABIC RIGHT ARROWHEAD ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F8, name: 'ARABIC RIGHT ARROWHEAD ABOVE', category: Cat::Nonspacing_Mark)]
     case ARABIC_RIGHT_ARROWHEAD_ABOVE = "\u{8F8}";
 
-    #[Info(id: 2297, name: 'ARABIC LEFT ARROWHEAD BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F9, name: 'ARABIC LEFT ARROWHEAD BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_LEFT_ARROWHEAD_BELOW = "\u{8F9}";
 
-    #[Info(id: 2298, name: 'ARABIC RIGHT ARROWHEAD BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8FA, name: 'ARABIC RIGHT ARROWHEAD BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_RIGHT_ARROWHEAD_BELOW = "\u{8FA}";
 
-    #[Info(id: 2299, name: 'ARABIC DOUBLE RIGHT ARROWHEAD ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8FB, name: 'ARABIC DOUBLE RIGHT ARROWHEAD ABOVE', category: Cat::Nonspacing_Mark)]
     case ARABIC_DOUBLE_RIGHT_ARROWHEAD_ABOVE = "\u{8FB}";
 
-    #[Info(id: 2300, name: 'ARABIC DOUBLE RIGHT ARROWHEAD ABOVE WITH DOT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8FC, name: 'ARABIC DOUBLE RIGHT ARROWHEAD ABOVE WITH DOT', category: Cat::Nonspacing_Mark)]
     case ARABIC_DOUBLE_RIGHT_ARROWHEAD_ABOVE_WITH_DOT = "\u{8FC}";
 
-    #[Info(id: 2301, name: 'ARABIC RIGHT ARROWHEAD ABOVE WITH DOT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8FD, name: 'ARABIC RIGHT ARROWHEAD ABOVE WITH DOT', category: Cat::Nonspacing_Mark)]
     case ARABIC_RIGHT_ARROWHEAD_ABOVE_WITH_DOT = "\u{8FD}";
 
-    #[Info(id: 2302, name: 'ARABIC DAMMA WITH DOT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8FE, name: 'ARABIC DAMMA WITH DOT', category: Cat::Nonspacing_Mark)]
     case ARABIC_DAMMA_WITH_DOT = "\u{8FE}";
 
-    #[Info(id: 2303, name: 'ARABIC MARK SIDEWAYS NOON GHUNNA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8FF, name: 'ARABIC MARK SIDEWAYS NOON GHUNNA', category: Cat::Nonspacing_Mark)]
     case ARABIC_MARK_SIDEWAYS_NOON_GHUNNA = "\u{8FF}";
 }

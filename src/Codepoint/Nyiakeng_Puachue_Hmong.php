@@ -16,216 +16,216 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Nyiakeng_Puachue_Hmong: string
 {
-    #[Info(id: 123136, name: 'NYIAKENG PUACHUE HMONG LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E100, name: 'NYIAKENG PUACHUE HMONG LETTER MA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_MA = "\u{1E100}";
 
-    #[Info(id: 123137, name: 'NYIAKENG PUACHUE HMONG LETTER TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E101, name: 'NYIAKENG PUACHUE HMONG LETTER TSA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_TSA = "\u{1E101}";
 
-    #[Info(id: 123138, name: 'NYIAKENG PUACHUE HMONG LETTER NTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E102, name: 'NYIAKENG PUACHUE HMONG LETTER NTA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_NTA = "\u{1E102}";
 
-    #[Info(id: 123139, name: 'NYIAKENG PUACHUE HMONG LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E103, name: 'NYIAKENG PUACHUE HMONG LETTER TA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_TA = "\u{1E103}";
 
-    #[Info(id: 123140, name: 'NYIAKENG PUACHUE HMONG LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E104, name: 'NYIAKENG PUACHUE HMONG LETTER HA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_HA = "\u{1E104}";
 
-    #[Info(id: 123141, name: 'NYIAKENG PUACHUE HMONG LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E105, name: 'NYIAKENG PUACHUE HMONG LETTER NA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_NA = "\u{1E105}";
 
-    #[Info(id: 123142, name: 'NYIAKENG PUACHUE HMONG LETTER XA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E106, name: 'NYIAKENG PUACHUE HMONG LETTER XA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_XA = "\u{1E106}";
 
-    #[Info(id: 123143, name: 'NYIAKENG PUACHUE HMONG LETTER NKA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E107, name: 'NYIAKENG PUACHUE HMONG LETTER NKA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_NKA = "\u{1E107}";
 
-    #[Info(id: 123144, name: 'NYIAKENG PUACHUE HMONG LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E108, name: 'NYIAKENG PUACHUE HMONG LETTER CA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_CA = "\u{1E108}";
 
-    #[Info(id: 123145, name: 'NYIAKENG PUACHUE HMONG LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E109, name: 'NYIAKENG PUACHUE HMONG LETTER LA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_LA = "\u{1E109}";
 
-    #[Info(id: 123146, name: 'NYIAKENG PUACHUE HMONG LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E10A, name: 'NYIAKENG PUACHUE HMONG LETTER SA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_SA = "\u{1E10A}";
 
-    #[Info(id: 123147, name: 'NYIAKENG PUACHUE HMONG LETTER ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E10B, name: 'NYIAKENG PUACHUE HMONG LETTER ZA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_ZA = "\u{1E10B}";
 
-    #[Info(id: 123148, name: 'NYIAKENG PUACHUE HMONG LETTER NCA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E10C, name: 'NYIAKENG PUACHUE HMONG LETTER NCA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_NCA = "\u{1E10C}";
 
-    #[Info(id: 123149, name: 'NYIAKENG PUACHUE HMONG LETTER NTSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E10D, name: 'NYIAKENG PUACHUE HMONG LETTER NTSA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_NTSA = "\u{1E10D}";
 
-    #[Info(id: 123150, name: 'NYIAKENG PUACHUE HMONG LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E10E, name: 'NYIAKENG PUACHUE HMONG LETTER KA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_KA = "\u{1E10E}";
 
-    #[Info(id: 123151, name: 'NYIAKENG PUACHUE HMONG LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E10F, name: 'NYIAKENG PUACHUE HMONG LETTER DA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_DA = "\u{1E10F}";
 
-    #[Info(id: 123152, name: 'NYIAKENG PUACHUE HMONG LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E110, name: 'NYIAKENG PUACHUE HMONG LETTER NYA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_NYA = "\u{1E110}";
 
-    #[Info(id: 123153, name: 'NYIAKENG PUACHUE HMONG LETTER NRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E111, name: 'NYIAKENG PUACHUE HMONG LETTER NRA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_NRA = "\u{1E111}";
 
-    #[Info(id: 123154, name: 'NYIAKENG PUACHUE HMONG LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E112, name: 'NYIAKENG PUACHUE HMONG LETTER VA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_VA = "\u{1E112}";
 
-    #[Info(id: 123155, name: 'NYIAKENG PUACHUE HMONG LETTER NTXA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E113, name: 'NYIAKENG PUACHUE HMONG LETTER NTXA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_NTXA = "\u{1E113}";
 
-    #[Info(id: 123156, name: 'NYIAKENG PUACHUE HMONG LETTER TXA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E114, name: 'NYIAKENG PUACHUE HMONG LETTER TXA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_TXA = "\u{1E114}";
 
-    #[Info(id: 123157, name: 'NYIAKENG PUACHUE HMONG LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E115, name: 'NYIAKENG PUACHUE HMONG LETTER FA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_FA = "\u{1E115}";
 
-    #[Info(id: 123158, name: 'NYIAKENG PUACHUE HMONG LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E116, name: 'NYIAKENG PUACHUE HMONG LETTER RA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_RA = "\u{1E116}";
 
-    #[Info(id: 123159, name: 'NYIAKENG PUACHUE HMONG LETTER QA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E117, name: 'NYIAKENG PUACHUE HMONG LETTER QA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_QA = "\u{1E117}";
 
-    #[Info(id: 123160, name: 'NYIAKENG PUACHUE HMONG LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E118, name: 'NYIAKENG PUACHUE HMONG LETTER YA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_YA = "\u{1E118}";
 
-    #[Info(id: 123161, name: 'NYIAKENG PUACHUE HMONG LETTER NQA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E119, name: 'NYIAKENG PUACHUE HMONG LETTER NQA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_NQA = "\u{1E119}";
 
-    #[Info(id: 123162, name: 'NYIAKENG PUACHUE HMONG LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E11A, name: 'NYIAKENG PUACHUE HMONG LETTER PA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_PA = "\u{1E11A}";
 
-    #[Info(id: 123163, name: 'NYIAKENG PUACHUE HMONG LETTER XYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E11B, name: 'NYIAKENG PUACHUE HMONG LETTER XYA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_XYA = "\u{1E11B}";
 
-    #[Info(id: 123164, name: 'NYIAKENG PUACHUE HMONG LETTER NPA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E11C, name: 'NYIAKENG PUACHUE HMONG LETTER NPA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_NPA = "\u{1E11C}";
 
-    #[Info(id: 123165, name: 'NYIAKENG PUACHUE HMONG LETTER DLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E11D, name: 'NYIAKENG PUACHUE HMONG LETTER DLA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_DLA = "\u{1E11D}";
 
-    #[Info(id: 123166, name: 'NYIAKENG PUACHUE HMONG LETTER NPLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E11E, name: 'NYIAKENG PUACHUE HMONG LETTER NPLA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_NPLA = "\u{1E11E}";
 
-    #[Info(id: 123167, name: 'NYIAKENG PUACHUE HMONG LETTER HAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E11F, name: 'NYIAKENG PUACHUE HMONG LETTER HAH', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_HAH = "\u{1E11F}";
 
-    #[Info(id: 123168, name: 'NYIAKENG PUACHUE HMONG LETTER MLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E120, name: 'NYIAKENG PUACHUE HMONG LETTER MLA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_MLA = "\u{1E120}";
 
-    #[Info(id: 123169, name: 'NYIAKENG PUACHUE HMONG LETTER PLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E121, name: 'NYIAKENG PUACHUE HMONG LETTER PLA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_PLA = "\u{1E121}";
 
-    #[Info(id: 123170, name: 'NYIAKENG PUACHUE HMONG LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E122, name: 'NYIAKENG PUACHUE HMONG LETTER GA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_GA = "\u{1E122}";
 
-    #[Info(id: 123171, name: 'NYIAKENG PUACHUE HMONG LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E123, name: 'NYIAKENG PUACHUE HMONG LETTER RRA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_RRA = "\u{1E123}";
 
-    #[Info(id: 123172, name: 'NYIAKENG PUACHUE HMONG LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E124, name: 'NYIAKENG PUACHUE HMONG LETTER A', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_A = "\u{1E124}";
 
-    #[Info(id: 123173, name: 'NYIAKENG PUACHUE HMONG LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E125, name: 'NYIAKENG PUACHUE HMONG LETTER AA', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_AA = "\u{1E125}";
 
-    #[Info(id: 123174, name: 'NYIAKENG PUACHUE HMONG LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E126, name: 'NYIAKENG PUACHUE HMONG LETTER I', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_I = "\u{1E126}";
 
-    #[Info(id: 123175, name: 'NYIAKENG PUACHUE HMONG LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E127, name: 'NYIAKENG PUACHUE HMONG LETTER U', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_U = "\u{1E127}";
 
-    #[Info(id: 123176, name: 'NYIAKENG PUACHUE HMONG LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E128, name: 'NYIAKENG PUACHUE HMONG LETTER O', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_O = "\u{1E128}";
 
-    #[Info(id: 123177, name: 'NYIAKENG PUACHUE HMONG LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E129, name: 'NYIAKENG PUACHUE HMONG LETTER OO', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_OO = "\u{1E129}";
 
-    #[Info(id: 123178, name: 'NYIAKENG PUACHUE HMONG LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E12A, name: 'NYIAKENG PUACHUE HMONG LETTER E', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_E = "\u{1E12A}";
 
-    #[Info(id: 123179, name: 'NYIAKENG PUACHUE HMONG LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E12B, name: 'NYIAKENG PUACHUE HMONG LETTER EE', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_EE = "\u{1E12B}";
 
-    #[Info(id: 123180, name: 'NYIAKENG PUACHUE HMONG LETTER W', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E12C, name: 'NYIAKENG PUACHUE HMONG LETTER W', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_W = "\u{1E12C}";
 
-    #[Info(id: 123184, name: 'NYIAKENG PUACHUE HMONG TONE-B', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E130, name: 'NYIAKENG PUACHUE HMONG TONE-B', category: Cat::Nonspacing_Mark)]
     case NYIAKENG_PUACHUE_HMONG_TONE_B = "\u{1E130}";
 
-    #[Info(id: 123185, name: 'NYIAKENG PUACHUE HMONG TONE-M', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E131, name: 'NYIAKENG PUACHUE HMONG TONE-M', category: Cat::Nonspacing_Mark)]
     case NYIAKENG_PUACHUE_HMONG_TONE_M = "\u{1E131}";
 
-    #[Info(id: 123186, name: 'NYIAKENG PUACHUE HMONG TONE-J', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E132, name: 'NYIAKENG PUACHUE HMONG TONE-J', category: Cat::Nonspacing_Mark)]
     case NYIAKENG_PUACHUE_HMONG_TONE_J = "\u{1E132}";
 
-    #[Info(id: 123187, name: 'NYIAKENG PUACHUE HMONG TONE-V', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E133, name: 'NYIAKENG PUACHUE HMONG TONE-V', category: Cat::Nonspacing_Mark)]
     case NYIAKENG_PUACHUE_HMONG_TONE_V = "\u{1E133}";
 
-    #[Info(id: 123188, name: 'NYIAKENG PUACHUE HMONG TONE-S', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E134, name: 'NYIAKENG PUACHUE HMONG TONE-S', category: Cat::Nonspacing_Mark)]
     case NYIAKENG_PUACHUE_HMONG_TONE_S = "\u{1E134}";
 
-    #[Info(id: 123189, name: 'NYIAKENG PUACHUE HMONG TONE-G', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E135, name: 'NYIAKENG PUACHUE HMONG TONE-G', category: Cat::Nonspacing_Mark)]
     case NYIAKENG_PUACHUE_HMONG_TONE_G = "\u{1E135}";
 
-    #[Info(id: 123190, name: 'NYIAKENG PUACHUE HMONG TONE-D', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E136, name: 'NYIAKENG PUACHUE HMONG TONE-D', category: Cat::Nonspacing_Mark)]
     case NYIAKENG_PUACHUE_HMONG_TONE_D = "\u{1E136}";
 
-    #[Info(id: 123191, name: 'NYIAKENG PUACHUE HMONG SIGN FOR PERSON', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E137, name: 'NYIAKENG PUACHUE HMONG SIGN FOR PERSON', category: Cat::Modifier_Letter)]
     case NYIAKENG_PUACHUE_HMONG_SIGN_FOR_PERSON = "\u{1E137}";
 
-    #[Info(id: 123192, name: 'NYIAKENG PUACHUE HMONG SIGN FOR THING', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E138, name: 'NYIAKENG PUACHUE HMONG SIGN FOR THING', category: Cat::Modifier_Letter)]
     case NYIAKENG_PUACHUE_HMONG_SIGN_FOR_THING = "\u{1E138}";
 
-    #[Info(id: 123193, name: 'NYIAKENG PUACHUE HMONG SIGN FOR LOCATION', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E139, name: 'NYIAKENG PUACHUE HMONG SIGN FOR LOCATION', category: Cat::Modifier_Letter)]
     case NYIAKENG_PUACHUE_HMONG_SIGN_FOR_LOCATION = "\u{1E139}";
 
-    #[Info(id: 123194, name: 'NYIAKENG PUACHUE HMONG SIGN FOR ANIMAL', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E13A, name: 'NYIAKENG PUACHUE HMONG SIGN FOR ANIMAL', category: Cat::Modifier_Letter)]
     case NYIAKENG_PUACHUE_HMONG_SIGN_FOR_ANIMAL = "\u{1E13A}";
 
-    #[Info(id: 123195, name: 'NYIAKENG PUACHUE HMONG SIGN FOR INVERTEBRATE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E13B, name: 'NYIAKENG PUACHUE HMONG SIGN FOR INVERTEBRATE', category: Cat::Modifier_Letter)]
     case NYIAKENG_PUACHUE_HMONG_SIGN_FOR_INVERTEBRATE = "\u{1E13B}";
 
-    #[Info(id: 123196, name: 'NYIAKENG PUACHUE HMONG SIGN XW XW', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E13C, name: 'NYIAKENG PUACHUE HMONG SIGN XW XW', category: Cat::Modifier_Letter)]
     case NYIAKENG_PUACHUE_HMONG_SIGN_XW_XW = "\u{1E13C}";
 
-    #[Info(id: 123197, name: 'NYIAKENG PUACHUE HMONG SYLLABLE LENGTHENER', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E13D, name: 'NYIAKENG PUACHUE HMONG SYLLABLE LENGTHENER', category: Cat::Modifier_Letter)]
     case NYIAKENG_PUACHUE_HMONG_SYLLABLE_LENGTHENER = "\u{1E13D}";
 
-    #[Info(id: 123200, name: 'NYIAKENG PUACHUE HMONG DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E140, name: 'NYIAKENG PUACHUE HMONG DIGIT ZERO', category: Cat::Decimal_Number)]
     case NYIAKENG_PUACHUE_HMONG_DIGIT_ZERO = "\u{1E140}";
 
-    #[Info(id: 123201, name: 'NYIAKENG PUACHUE HMONG DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E141, name: 'NYIAKENG PUACHUE HMONG DIGIT ONE', category: Cat::Decimal_Number)]
     case NYIAKENG_PUACHUE_HMONG_DIGIT_ONE = "\u{1E141}";
 
-    #[Info(id: 123202, name: 'NYIAKENG PUACHUE HMONG DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E142, name: 'NYIAKENG PUACHUE HMONG DIGIT TWO', category: Cat::Decimal_Number)]
     case NYIAKENG_PUACHUE_HMONG_DIGIT_TWO = "\u{1E142}";
 
-    #[Info(id: 123203, name: 'NYIAKENG PUACHUE HMONG DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E143, name: 'NYIAKENG PUACHUE HMONG DIGIT THREE', category: Cat::Decimal_Number)]
     case NYIAKENG_PUACHUE_HMONG_DIGIT_THREE = "\u{1E143}";
 
-    #[Info(id: 123204, name: 'NYIAKENG PUACHUE HMONG DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E144, name: 'NYIAKENG PUACHUE HMONG DIGIT FOUR', category: Cat::Decimal_Number)]
     case NYIAKENG_PUACHUE_HMONG_DIGIT_FOUR = "\u{1E144}";
 
-    #[Info(id: 123205, name: 'NYIAKENG PUACHUE HMONG DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E145, name: 'NYIAKENG PUACHUE HMONG DIGIT FIVE', category: Cat::Decimal_Number)]
     case NYIAKENG_PUACHUE_HMONG_DIGIT_FIVE = "\u{1E145}";
 
-    #[Info(id: 123206, name: 'NYIAKENG PUACHUE HMONG DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E146, name: 'NYIAKENG PUACHUE HMONG DIGIT SIX', category: Cat::Decimal_Number)]
     case NYIAKENG_PUACHUE_HMONG_DIGIT_SIX = "\u{1E146}";
 
-    #[Info(id: 123207, name: 'NYIAKENG PUACHUE HMONG DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E147, name: 'NYIAKENG PUACHUE HMONG DIGIT SEVEN', category: Cat::Decimal_Number)]
     case NYIAKENG_PUACHUE_HMONG_DIGIT_SEVEN = "\u{1E147}";
 
-    #[Info(id: 123208, name: 'NYIAKENG PUACHUE HMONG DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E148, name: 'NYIAKENG PUACHUE HMONG DIGIT EIGHT', category: Cat::Decimal_Number)]
     case NYIAKENG_PUACHUE_HMONG_DIGIT_EIGHT = "\u{1E148}";
 
-    #[Info(id: 123209, name: 'NYIAKENG PUACHUE HMONG DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E149, name: 'NYIAKENG PUACHUE HMONG DIGIT NINE', category: Cat::Decimal_Number)]
     case NYIAKENG_PUACHUE_HMONG_DIGIT_NINE = "\u{1E149}";
 
-    #[Info(id: 123214, name: 'NYIAKENG PUACHUE HMONG LOGOGRAM NYAJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E14E, name: 'NYIAKENG PUACHUE HMONG LOGOGRAM NYAJ', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LOGOGRAM_NYAJ = "\u{1E14E}";
 
-    #[Info(id: 123215, name: 'NYIAKENG PUACHUE HMONG CIRCLED CA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1E14F, name: 'NYIAKENG PUACHUE HMONG CIRCLED CA', category: Cat::Other_Symbol)]
     case NYIAKENG_PUACHUE_HMONG_CIRCLED_CA = "\u{1E14F}";
 }

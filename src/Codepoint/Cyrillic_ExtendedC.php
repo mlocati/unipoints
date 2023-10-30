@@ -16,30 +16,30 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Cyrillic_ExtendedC: string
 {
-    #[Info(id: 7296, name: 'CYRILLIC SMALL LETTER ROUNDED VE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1C80, name: 'CYRILLIC SMALL LETTER ROUNDED VE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_ROUNDED_VE = "\u{1C80}";
 
-    #[Info(id: 7297, name: 'CYRILLIC SMALL LETTER LONG-LEGGED DE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1C81, name: 'CYRILLIC SMALL LETTER LONG-LEGGED DE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_LONG_LEGGED_DE = "\u{1C81}";
 
-    #[Info(id: 7298, name: 'CYRILLIC SMALL LETTER NARROW O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1C82, name: 'CYRILLIC SMALL LETTER NARROW O', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_NARROW_O = "\u{1C82}";
 
-    #[Info(id: 7299, name: 'CYRILLIC SMALL LETTER WIDE ES', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1C83, name: 'CYRILLIC SMALL LETTER WIDE ES', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_WIDE_ES = "\u{1C83}";
 
-    #[Info(id: 7300, name: 'CYRILLIC SMALL LETTER TALL TE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1C84, name: 'CYRILLIC SMALL LETTER TALL TE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_TALL_TE = "\u{1C84}";
 
-    #[Info(id: 7301, name: 'CYRILLIC SMALL LETTER THREE-LEGGED TE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1C85, name: 'CYRILLIC SMALL LETTER THREE-LEGGED TE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_THREE_LEGGED_TE = "\u{1C85}";
 
-    #[Info(id: 7302, name: 'CYRILLIC SMALL LETTER TALL HARD SIGN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1C86, name: 'CYRILLIC SMALL LETTER TALL HARD SIGN', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_TALL_HARD_SIGN = "\u{1C86}";
 
-    #[Info(id: 7303, name: 'CYRILLIC SMALL LETTER TALL YAT', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1C87, name: 'CYRILLIC SMALL LETTER TALL YAT', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_TALL_YAT = "\u{1C87}";
 
-    #[Info(id: 7304, name: 'CYRILLIC SMALL LETTER UNBLENDED UK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1C88, name: 'CYRILLIC SMALL LETTER UNBLENDED UK', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_UNBLENDED_UK = "\u{1C88}";
 }

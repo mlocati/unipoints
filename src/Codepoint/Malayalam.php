@@ -16,357 +16,357 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Malayalam: string
 {
-    #[Info(id: 3328, name: 'MALAYALAM SIGN COMBINING ANUSVARA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD00, name: 'MALAYALAM SIGN COMBINING ANUSVARA ABOVE', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_SIGN_COMBINING_ANUSVARA_ABOVE = "\u{D00}";
 
-    #[Info(id: 3329, name: 'MALAYALAM SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD01, name: 'MALAYALAM SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_SIGN_CANDRABINDU = "\u{D01}";
 
-    #[Info(id: 3330, name: 'MALAYALAM SIGN ANUSVARA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD02, name: 'MALAYALAM SIGN ANUSVARA', category: Cat::Spacing_Mark)]
     case MALAYALAM_SIGN_ANUSVARA = "\u{D02}";
 
-    #[Info(id: 3331, name: 'MALAYALAM SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD03, name: 'MALAYALAM SIGN VISARGA', category: Cat::Spacing_Mark)]
     case MALAYALAM_SIGN_VISARGA = "\u{D03}";
 
-    #[Info(id: 3332, name: 'MALAYALAM LETTER VEDIC ANUSVARA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD04, name: 'MALAYALAM LETTER VEDIC ANUSVARA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_VEDIC_ANUSVARA = "\u{D04}";
 
-    #[Info(id: 3333, name: 'MALAYALAM LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xD05, name: 'MALAYALAM LETTER A', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_A = "\u{D05}";
 
-    #[Info(id: 3334, name: 'MALAYALAM LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD06, name: 'MALAYALAM LETTER AA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_AA = "\u{D06}";
 
-    #[Info(id: 3335, name: 'MALAYALAM LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xD07, name: 'MALAYALAM LETTER I', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_I = "\u{D07}";
 
-    #[Info(id: 3336, name: 'MALAYALAM LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0xD08, name: 'MALAYALAM LETTER II', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_II = "\u{D08}";
 
-    #[Info(id: 3337, name: 'MALAYALAM LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0xD09, name: 'MALAYALAM LETTER U', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_U = "\u{D09}";
 
-    #[Info(id: 3338, name: 'MALAYALAM LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0xD0A, name: 'MALAYALAM LETTER UU', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_UU = "\u{D0A}";
 
-    #[Info(id: 3339, name: 'MALAYALAM LETTER VOCALIC R', category: Cat::Other_Letter)]
+    #[Info(id: 0xD0B, name: 'MALAYALAM LETTER VOCALIC R', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_VOCALIC_R = "\u{D0B}";
 
-    #[Info(id: 3340, name: 'MALAYALAM LETTER VOCALIC L', category: Cat::Other_Letter)]
+    #[Info(id: 0xD0C, name: 'MALAYALAM LETTER VOCALIC L', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_VOCALIC_L = "\u{D0C}";
 
-    #[Info(id: 3342, name: 'MALAYALAM LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0xD0E, name: 'MALAYALAM LETTER E', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_E = "\u{D0E}";
 
-    #[Info(id: 3343, name: 'MALAYALAM LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0xD0F, name: 'MALAYALAM LETTER EE', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_EE = "\u{D0F}";
 
-    #[Info(id: 3344, name: 'MALAYALAM LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0xD10, name: 'MALAYALAM LETTER AI', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_AI = "\u{D10}";
 
-    #[Info(id: 3346, name: 'MALAYALAM LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xD12, name: 'MALAYALAM LETTER O', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_O = "\u{D12}";
 
-    #[Info(id: 3347, name: 'MALAYALAM LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0xD13, name: 'MALAYALAM LETTER OO', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_OO = "\u{D13}";
 
-    #[Info(id: 3348, name: 'MALAYALAM LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0xD14, name: 'MALAYALAM LETTER AU', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_AU = "\u{D14}";
 
-    #[Info(id: 3349, name: 'MALAYALAM LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD15, name: 'MALAYALAM LETTER KA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_KA = "\u{D15}";
 
-    #[Info(id: 3350, name: 'MALAYALAM LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD16, name: 'MALAYALAM LETTER KHA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_KHA = "\u{D16}";
 
-    #[Info(id: 3351, name: 'MALAYALAM LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD17, name: 'MALAYALAM LETTER GA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_GA = "\u{D17}";
 
-    #[Info(id: 3352, name: 'MALAYALAM LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD18, name: 'MALAYALAM LETTER GHA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_GHA = "\u{D18}";
 
-    #[Info(id: 3353, name: 'MALAYALAM LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD19, name: 'MALAYALAM LETTER NGA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_NGA = "\u{D19}";
 
-    #[Info(id: 3354, name: 'MALAYALAM LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD1A, name: 'MALAYALAM LETTER CA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_CA = "\u{D1A}";
 
-    #[Info(id: 3355, name: 'MALAYALAM LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD1B, name: 'MALAYALAM LETTER CHA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_CHA = "\u{D1B}";
 
-    #[Info(id: 3356, name: 'MALAYALAM LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD1C, name: 'MALAYALAM LETTER JA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_JA = "\u{D1C}";
 
-    #[Info(id: 3357, name: 'MALAYALAM LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD1D, name: 'MALAYALAM LETTER JHA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_JHA = "\u{D1D}";
 
-    #[Info(id: 3358, name: 'MALAYALAM LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD1E, name: 'MALAYALAM LETTER NYA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_NYA = "\u{D1E}";
 
-    #[Info(id: 3359, name: 'MALAYALAM LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD1F, name: 'MALAYALAM LETTER TTA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_TTA = "\u{D1F}";
 
-    #[Info(id: 3360, name: 'MALAYALAM LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD20, name: 'MALAYALAM LETTER TTHA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_TTHA = "\u{D20}";
 
-    #[Info(id: 3361, name: 'MALAYALAM LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD21, name: 'MALAYALAM LETTER DDA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_DDA = "\u{D21}";
 
-    #[Info(id: 3362, name: 'MALAYALAM LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD22, name: 'MALAYALAM LETTER DDHA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_DDHA = "\u{D22}";
 
-    #[Info(id: 3363, name: 'MALAYALAM LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD23, name: 'MALAYALAM LETTER NNA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_NNA = "\u{D23}";
 
-    #[Info(id: 3364, name: 'MALAYALAM LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD24, name: 'MALAYALAM LETTER TA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_TA = "\u{D24}";
 
-    #[Info(id: 3365, name: 'MALAYALAM LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD25, name: 'MALAYALAM LETTER THA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_THA = "\u{D25}";
 
-    #[Info(id: 3366, name: 'MALAYALAM LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD26, name: 'MALAYALAM LETTER DA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_DA = "\u{D26}";
 
-    #[Info(id: 3367, name: 'MALAYALAM LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD27, name: 'MALAYALAM LETTER DHA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_DHA = "\u{D27}";
 
-    #[Info(id: 3368, name: 'MALAYALAM LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD28, name: 'MALAYALAM LETTER NA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_NA = "\u{D28}";
 
-    #[Info(id: 3369, name: 'MALAYALAM LETTER NNNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD29, name: 'MALAYALAM LETTER NNNA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_NNNA = "\u{D29}";
 
-    #[Info(id: 3370, name: 'MALAYALAM LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD2A, name: 'MALAYALAM LETTER PA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_PA = "\u{D2A}";
 
-    #[Info(id: 3371, name: 'MALAYALAM LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD2B, name: 'MALAYALAM LETTER PHA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_PHA = "\u{D2B}";
 
-    #[Info(id: 3372, name: 'MALAYALAM LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD2C, name: 'MALAYALAM LETTER BA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_BA = "\u{D2C}";
 
-    #[Info(id: 3373, name: 'MALAYALAM LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD2D, name: 'MALAYALAM LETTER BHA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_BHA = "\u{D2D}";
 
-    #[Info(id: 3374, name: 'MALAYALAM LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD2E, name: 'MALAYALAM LETTER MA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_MA = "\u{D2E}";
 
-    #[Info(id: 3375, name: 'MALAYALAM LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD2F, name: 'MALAYALAM LETTER YA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_YA = "\u{D2F}";
 
-    #[Info(id: 3376, name: 'MALAYALAM LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD30, name: 'MALAYALAM LETTER RA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_RA = "\u{D30}";
 
-    #[Info(id: 3377, name: 'MALAYALAM LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD31, name: 'MALAYALAM LETTER RRA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_RRA = "\u{D31}";
 
-    #[Info(id: 3378, name: 'MALAYALAM LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD32, name: 'MALAYALAM LETTER LA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_LA = "\u{D32}";
 
-    #[Info(id: 3379, name: 'MALAYALAM LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD33, name: 'MALAYALAM LETTER LLA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_LLA = "\u{D33}";
 
-    #[Info(id: 3380, name: 'MALAYALAM LETTER LLLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD34, name: 'MALAYALAM LETTER LLLA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_LLLA = "\u{D34}";
 
-    #[Info(id: 3381, name: 'MALAYALAM LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD35, name: 'MALAYALAM LETTER VA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_VA = "\u{D35}";
 
-    #[Info(id: 3382, name: 'MALAYALAM LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD36, name: 'MALAYALAM LETTER SHA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_SHA = "\u{D36}";
 
-    #[Info(id: 3383, name: 'MALAYALAM LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD37, name: 'MALAYALAM LETTER SSA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_SSA = "\u{D37}";
 
-    #[Info(id: 3384, name: 'MALAYALAM LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD38, name: 'MALAYALAM LETTER SA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_SA = "\u{D38}";
 
-    #[Info(id: 3385, name: 'MALAYALAM LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD39, name: 'MALAYALAM LETTER HA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_HA = "\u{D39}";
 
-    #[Info(id: 3386, name: 'MALAYALAM LETTER TTTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD3A, name: 'MALAYALAM LETTER TTTA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_TTTA = "\u{D3A}";
 
-    #[Info(id: 3387, name: 'MALAYALAM SIGN VERTICAL BAR VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD3B, name: 'MALAYALAM SIGN VERTICAL BAR VIRAMA', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_SIGN_VERTICAL_BAR_VIRAMA = "\u{D3B}";
 
-    #[Info(id: 3388, name: 'MALAYALAM SIGN CIRCULAR VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD3C, name: 'MALAYALAM SIGN CIRCULAR VIRAMA', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_SIGN_CIRCULAR_VIRAMA = "\u{D3C}";
 
-    #[Info(id: 3389, name: 'MALAYALAM SIGN AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD3D, name: 'MALAYALAM SIGN AVAGRAHA', category: Cat::Other_Letter)]
     case MALAYALAM_SIGN_AVAGRAHA = "\u{D3D}";
 
-    #[Info(id: 3390, name: 'MALAYALAM VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD3E, name: 'MALAYALAM VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_AA = "\u{D3E}";
 
-    #[Info(id: 3391, name: 'MALAYALAM VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD3F, name: 'MALAYALAM VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_I = "\u{D3F}";
 
-    #[Info(id: 3392, name: 'MALAYALAM VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD40, name: 'MALAYALAM VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_II = "\u{D40}";
 
-    #[Info(id: 3393, name: 'MALAYALAM VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD41, name: 'MALAYALAM VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_U = "\u{D41}";
 
-    #[Info(id: 3394, name: 'MALAYALAM VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD42, name: 'MALAYALAM VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_UU = "\u{D42}";
 
-    #[Info(id: 3395, name: 'MALAYALAM VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD43, name: 'MALAYALAM VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_VOCALIC_R = "\u{D43}";
 
-    #[Info(id: 3396, name: 'MALAYALAM VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD44, name: 'MALAYALAM VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_VOCALIC_RR = "\u{D44}";
 
-    #[Info(id: 3398, name: 'MALAYALAM VOWEL SIGN E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD46, name: 'MALAYALAM VOWEL SIGN E', category: Cat::Spacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_E = "\u{D46}";
 
-    #[Info(id: 3399, name: 'MALAYALAM VOWEL SIGN EE', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD47, name: 'MALAYALAM VOWEL SIGN EE', category: Cat::Spacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_EE = "\u{D47}";
 
-    #[Info(id: 3400, name: 'MALAYALAM VOWEL SIGN AI', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD48, name: 'MALAYALAM VOWEL SIGN AI', category: Cat::Spacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_AI = "\u{D48}";
 
-    #[Info(id: 3402, name: 'MALAYALAM VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD4A, name: 'MALAYALAM VOWEL SIGN O', category: Cat::Spacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_O = "\u{D4A}";
 
-    #[Info(id: 3403, name: 'MALAYALAM VOWEL SIGN OO', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD4B, name: 'MALAYALAM VOWEL SIGN OO', category: Cat::Spacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_OO = "\u{D4B}";
 
-    #[Info(id: 3404, name: 'MALAYALAM VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD4C, name: 'MALAYALAM VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_AU = "\u{D4C}";
 
-    #[Info(id: 3405, name: 'MALAYALAM SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD4D, name: 'MALAYALAM SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_SIGN_VIRAMA = "\u{D4D}";
 
-    #[Info(id: 3406, name: 'MALAYALAM LETTER DOT REPH', category: Cat::Other_Letter)]
+    #[Info(id: 0xD4E, name: 'MALAYALAM LETTER DOT REPH', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_DOT_REPH = "\u{D4E}";
 
-    #[Info(id: 3407, name: 'MALAYALAM SIGN PARA', category: Cat::Other_Symbol)]
+    #[Info(id: 0xD4F, name: 'MALAYALAM SIGN PARA', category: Cat::Other_Symbol)]
     case MALAYALAM_SIGN_PARA = "\u{D4F}";
 
-    #[Info(id: 3412, name: 'MALAYALAM LETTER CHILLU M', category: Cat::Other_Letter)]
+    #[Info(id: 0xD54, name: 'MALAYALAM LETTER CHILLU M', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_CHILLU_M = "\u{D54}";
 
-    #[Info(id: 3413, name: 'MALAYALAM LETTER CHILLU Y', category: Cat::Other_Letter)]
+    #[Info(id: 0xD55, name: 'MALAYALAM LETTER CHILLU Y', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_CHILLU_Y = "\u{D55}";
 
-    #[Info(id: 3414, name: 'MALAYALAM LETTER CHILLU LLL', category: Cat::Other_Letter)]
+    #[Info(id: 0xD56, name: 'MALAYALAM LETTER CHILLU LLL', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_CHILLU_LLL = "\u{D56}";
 
-    #[Info(id: 3415, name: 'MALAYALAM AU LENGTH MARK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD57, name: 'MALAYALAM AU LENGTH MARK', category: Cat::Spacing_Mark)]
     case MALAYALAM_AU_LENGTH_MARK = "\u{D57}";
 
-    #[Info(id: 3416, name: 'MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH', category: Cat::Other_Number)]
+    #[Info(id: 0xD58, name: 'MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_ONE_ONE_HUNDRED_AND_SIXTIETH = "\u{D58}";
 
-    #[Info(id: 3417, name: 'MALAYALAM FRACTION ONE FORTIETH', category: Cat::Other_Number)]
+    #[Info(id: 0xD59, name: 'MALAYALAM FRACTION ONE FORTIETH', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_ONE_FORTIETH = "\u{D59}";
 
-    #[Info(id: 3418, name: 'MALAYALAM FRACTION THREE EIGHTIETHS', category: Cat::Other_Number)]
+    #[Info(id: 0xD5A, name: 'MALAYALAM FRACTION THREE EIGHTIETHS', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_THREE_EIGHTIETHS = "\u{D5A}";
 
-    #[Info(id: 3419, name: 'MALAYALAM FRACTION ONE TWENTIETH', category: Cat::Other_Number)]
+    #[Info(id: 0xD5B, name: 'MALAYALAM FRACTION ONE TWENTIETH', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_ONE_TWENTIETH = "\u{D5B}";
 
-    #[Info(id: 3420, name: 'MALAYALAM FRACTION ONE TENTH', category: Cat::Other_Number)]
+    #[Info(id: 0xD5C, name: 'MALAYALAM FRACTION ONE TENTH', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_ONE_TENTH = "\u{D5C}";
 
-    #[Info(id: 3421, name: 'MALAYALAM FRACTION THREE TWENTIETHS', category: Cat::Other_Number)]
+    #[Info(id: 0xD5D, name: 'MALAYALAM FRACTION THREE TWENTIETHS', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_THREE_TWENTIETHS = "\u{D5D}";
 
-    #[Info(id: 3422, name: 'MALAYALAM FRACTION ONE FIFTH', category: Cat::Other_Number)]
+    #[Info(id: 0xD5E, name: 'MALAYALAM FRACTION ONE FIFTH', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_ONE_FIFTH = "\u{D5E}";
 
-    #[Info(id: 3423, name: 'MALAYALAM LETTER ARCHAIC II', category: Cat::Other_Letter)]
+    #[Info(id: 0xD5F, name: 'MALAYALAM LETTER ARCHAIC II', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_ARCHAIC_II = "\u{D5F}";
 
-    #[Info(id: 3424, name: 'MALAYALAM LETTER VOCALIC RR', category: Cat::Other_Letter)]
+    #[Info(id: 0xD60, name: 'MALAYALAM LETTER VOCALIC RR', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_VOCALIC_RR = "\u{D60}";
 
-    #[Info(id: 3425, name: 'MALAYALAM LETTER VOCALIC LL', category: Cat::Other_Letter)]
+    #[Info(id: 0xD61, name: 'MALAYALAM LETTER VOCALIC LL', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_VOCALIC_LL = "\u{D61}";
 
-    #[Info(id: 3426, name: 'MALAYALAM VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD62, name: 'MALAYALAM VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_VOCALIC_L = "\u{D62}";
 
-    #[Info(id: 3427, name: 'MALAYALAM VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD63, name: 'MALAYALAM VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_VOCALIC_LL = "\u{D63}";
 
-    #[Info(id: 3430, name: 'MALAYALAM DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xD66, name: 'MALAYALAM DIGIT ZERO', category: Cat::Decimal_Number)]
     case MALAYALAM_DIGIT_ZERO = "\u{D66}";
 
-    #[Info(id: 3431, name: 'MALAYALAM DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xD67, name: 'MALAYALAM DIGIT ONE', category: Cat::Decimal_Number)]
     case MALAYALAM_DIGIT_ONE = "\u{D67}";
 
-    #[Info(id: 3432, name: 'MALAYALAM DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xD68, name: 'MALAYALAM DIGIT TWO', category: Cat::Decimal_Number)]
     case MALAYALAM_DIGIT_TWO = "\u{D68}";
 
-    #[Info(id: 3433, name: 'MALAYALAM DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xD69, name: 'MALAYALAM DIGIT THREE', category: Cat::Decimal_Number)]
     case MALAYALAM_DIGIT_THREE = "\u{D69}";
 
-    #[Info(id: 3434, name: 'MALAYALAM DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xD6A, name: 'MALAYALAM DIGIT FOUR', category: Cat::Decimal_Number)]
     case MALAYALAM_DIGIT_FOUR = "\u{D6A}";
 
-    #[Info(id: 3435, name: 'MALAYALAM DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xD6B, name: 'MALAYALAM DIGIT FIVE', category: Cat::Decimal_Number)]
     case MALAYALAM_DIGIT_FIVE = "\u{D6B}";
 
-    #[Info(id: 3436, name: 'MALAYALAM DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xD6C, name: 'MALAYALAM DIGIT SIX', category: Cat::Decimal_Number)]
     case MALAYALAM_DIGIT_SIX = "\u{D6C}";
 
-    #[Info(id: 3437, name: 'MALAYALAM DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xD6D, name: 'MALAYALAM DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MALAYALAM_DIGIT_SEVEN = "\u{D6D}";
 
-    #[Info(id: 3438, name: 'MALAYALAM DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xD6E, name: 'MALAYALAM DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MALAYALAM_DIGIT_EIGHT = "\u{D6E}";
 
-    #[Info(id: 3439, name: 'MALAYALAM DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xD6F, name: 'MALAYALAM DIGIT NINE', category: Cat::Decimal_Number)]
     case MALAYALAM_DIGIT_NINE = "\u{D6F}";
 
-    #[Info(id: 3440, name: 'MALAYALAM NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0xD70, name: 'MALAYALAM NUMBER TEN', category: Cat::Other_Number)]
     case MALAYALAM_NUMBER_TEN = "\u{D70}";
 
-    #[Info(id: 3441, name: 'MALAYALAM NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0xD71, name: 'MALAYALAM NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case MALAYALAM_NUMBER_ONE_HUNDRED = "\u{D71}";
 
-    #[Info(id: 3442, name: 'MALAYALAM NUMBER ONE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0xD72, name: 'MALAYALAM NUMBER ONE THOUSAND', category: Cat::Other_Number)]
     case MALAYALAM_NUMBER_ONE_THOUSAND = "\u{D72}";
 
-    #[Info(id: 3443, name: 'MALAYALAM FRACTION ONE QUARTER', category: Cat::Other_Number)]
+    #[Info(id: 0xD73, name: 'MALAYALAM FRACTION ONE QUARTER', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_ONE_QUARTER = "\u{D73}";
 
-    #[Info(id: 3444, name: 'MALAYALAM FRACTION ONE HALF', category: Cat::Other_Number)]
+    #[Info(id: 0xD74, name: 'MALAYALAM FRACTION ONE HALF', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_ONE_HALF = "\u{D74}";
 
-    #[Info(id: 3445, name: 'MALAYALAM FRACTION THREE QUARTERS', category: Cat::Other_Number)]
+    #[Info(id: 0xD75, name: 'MALAYALAM FRACTION THREE QUARTERS', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_THREE_QUARTERS = "\u{D75}";
 
-    #[Info(id: 3446, name: 'MALAYALAM FRACTION ONE SIXTEENTH', category: Cat::Other_Number)]
+    #[Info(id: 0xD76, name: 'MALAYALAM FRACTION ONE SIXTEENTH', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_ONE_SIXTEENTH = "\u{D76}";
 
-    #[Info(id: 3447, name: 'MALAYALAM FRACTION ONE EIGHTH', category: Cat::Other_Number)]
+    #[Info(id: 0xD77, name: 'MALAYALAM FRACTION ONE EIGHTH', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_ONE_EIGHTH = "\u{D77}";
 
-    #[Info(id: 3448, name: 'MALAYALAM FRACTION THREE SIXTEENTHS', category: Cat::Other_Number)]
+    #[Info(id: 0xD78, name: 'MALAYALAM FRACTION THREE SIXTEENTHS', category: Cat::Other_Number)]
     case MALAYALAM_FRACTION_THREE_SIXTEENTHS = "\u{D78}";
 
-    #[Info(id: 3449, name: 'MALAYALAM DATE MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0xD79, name: 'MALAYALAM DATE MARK', category: Cat::Other_Symbol)]
     case MALAYALAM_DATE_MARK = "\u{D79}";
 
-    #[Info(id: 3450, name: 'MALAYALAM LETTER CHILLU NN', category: Cat::Other_Letter)]
+    #[Info(id: 0xD7A, name: 'MALAYALAM LETTER CHILLU NN', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_CHILLU_NN = "\u{D7A}";
 
-    #[Info(id: 3451, name: 'MALAYALAM LETTER CHILLU N', category: Cat::Other_Letter)]
+    #[Info(id: 0xD7B, name: 'MALAYALAM LETTER CHILLU N', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_CHILLU_N = "\u{D7B}";
 
-    #[Info(id: 3452, name: 'MALAYALAM LETTER CHILLU RR', category: Cat::Other_Letter)]
+    #[Info(id: 0xD7C, name: 'MALAYALAM LETTER CHILLU RR', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_CHILLU_RR = "\u{D7C}";
 
-    #[Info(id: 3453, name: 'MALAYALAM LETTER CHILLU L', category: Cat::Other_Letter)]
+    #[Info(id: 0xD7D, name: 'MALAYALAM LETTER CHILLU L', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_CHILLU_L = "\u{D7D}";
 
-    #[Info(id: 3454, name: 'MALAYALAM LETTER CHILLU LL', category: Cat::Other_Letter)]
+    #[Info(id: 0xD7E, name: 'MALAYALAM LETTER CHILLU LL', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_CHILLU_LL = "\u{D7E}";
 
-    #[Info(id: 3455, name: 'MALAYALAM LETTER CHILLU K', category: Cat::Other_Letter)]
+    #[Info(id: 0xD7F, name: 'MALAYALAM LETTER CHILLU K', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_CHILLU_K = "\u{D7F}";
 }

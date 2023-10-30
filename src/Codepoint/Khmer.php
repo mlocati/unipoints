@@ -16,345 +16,345 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Khmer: string
 {
-    #[Info(id: 6016, name: 'KHMER LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1780, name: 'KHMER LETTER KA', category: Cat::Other_Letter)]
     case KHMER_LETTER_KA = "\u{1780}";
 
-    #[Info(id: 6017, name: 'KHMER LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1781, name: 'KHMER LETTER KHA', category: Cat::Other_Letter)]
     case KHMER_LETTER_KHA = "\u{1781}";
 
-    #[Info(id: 6018, name: 'KHMER LETTER KO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1782, name: 'KHMER LETTER KO', category: Cat::Other_Letter)]
     case KHMER_LETTER_KO = "\u{1782}";
 
-    #[Info(id: 6019, name: 'KHMER LETTER KHO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1783, name: 'KHMER LETTER KHO', category: Cat::Other_Letter)]
     case KHMER_LETTER_KHO = "\u{1783}";
 
-    #[Info(id: 6020, name: 'KHMER LETTER NGO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1784, name: 'KHMER LETTER NGO', category: Cat::Other_Letter)]
     case KHMER_LETTER_NGO = "\u{1784}";
 
-    #[Info(id: 6021, name: 'KHMER LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1785, name: 'KHMER LETTER CA', category: Cat::Other_Letter)]
     case KHMER_LETTER_CA = "\u{1785}";
 
-    #[Info(id: 6022, name: 'KHMER LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1786, name: 'KHMER LETTER CHA', category: Cat::Other_Letter)]
     case KHMER_LETTER_CHA = "\u{1786}";
 
-    #[Info(id: 6023, name: 'KHMER LETTER CO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1787, name: 'KHMER LETTER CO', category: Cat::Other_Letter)]
     case KHMER_LETTER_CO = "\u{1787}";
 
-    #[Info(id: 6024, name: 'KHMER LETTER CHO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1788, name: 'KHMER LETTER CHO', category: Cat::Other_Letter)]
     case KHMER_LETTER_CHO = "\u{1788}";
 
-    #[Info(id: 6025, name: 'KHMER LETTER NYO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1789, name: 'KHMER LETTER NYO', category: Cat::Other_Letter)]
     case KHMER_LETTER_NYO = "\u{1789}";
 
-    #[Info(id: 6026, name: 'KHMER LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x178A, name: 'KHMER LETTER DA', category: Cat::Other_Letter)]
     case KHMER_LETTER_DA = "\u{178A}";
 
-    #[Info(id: 6027, name: 'KHMER LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x178B, name: 'KHMER LETTER TTHA', category: Cat::Other_Letter)]
     case KHMER_LETTER_TTHA = "\u{178B}";
 
-    #[Info(id: 6028, name: 'KHMER LETTER DO', category: Cat::Other_Letter)]
+    #[Info(id: 0x178C, name: 'KHMER LETTER DO', category: Cat::Other_Letter)]
     case KHMER_LETTER_DO = "\u{178C}";
 
-    #[Info(id: 6029, name: 'KHMER LETTER TTHO', category: Cat::Other_Letter)]
+    #[Info(id: 0x178D, name: 'KHMER LETTER TTHO', category: Cat::Other_Letter)]
     case KHMER_LETTER_TTHO = "\u{178D}";
 
-    #[Info(id: 6030, name: 'KHMER LETTER NNO', category: Cat::Other_Letter)]
+    #[Info(id: 0x178E, name: 'KHMER LETTER NNO', category: Cat::Other_Letter)]
     case KHMER_LETTER_NNO = "\u{178E}";
 
-    #[Info(id: 6031, name: 'KHMER LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x178F, name: 'KHMER LETTER TA', category: Cat::Other_Letter)]
     case KHMER_LETTER_TA = "\u{178F}";
 
-    #[Info(id: 6032, name: 'KHMER LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1790, name: 'KHMER LETTER THA', category: Cat::Other_Letter)]
     case KHMER_LETTER_THA = "\u{1790}";
 
-    #[Info(id: 6033, name: 'KHMER LETTER TO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1791, name: 'KHMER LETTER TO', category: Cat::Other_Letter)]
     case KHMER_LETTER_TO = "\u{1791}";
 
-    #[Info(id: 6034, name: 'KHMER LETTER THO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1792, name: 'KHMER LETTER THO', category: Cat::Other_Letter)]
     case KHMER_LETTER_THO = "\u{1792}";
 
-    #[Info(id: 6035, name: 'KHMER LETTER NO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1793, name: 'KHMER LETTER NO', category: Cat::Other_Letter)]
     case KHMER_LETTER_NO = "\u{1793}";
 
-    #[Info(id: 6036, name: 'KHMER LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1794, name: 'KHMER LETTER BA', category: Cat::Other_Letter)]
     case KHMER_LETTER_BA = "\u{1794}";
 
-    #[Info(id: 6037, name: 'KHMER LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1795, name: 'KHMER LETTER PHA', category: Cat::Other_Letter)]
     case KHMER_LETTER_PHA = "\u{1795}";
 
-    #[Info(id: 6038, name: 'KHMER LETTER PO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1796, name: 'KHMER LETTER PO', category: Cat::Other_Letter)]
     case KHMER_LETTER_PO = "\u{1796}";
 
-    #[Info(id: 6039, name: 'KHMER LETTER PHO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1797, name: 'KHMER LETTER PHO', category: Cat::Other_Letter)]
     case KHMER_LETTER_PHO = "\u{1797}";
 
-    #[Info(id: 6040, name: 'KHMER LETTER MO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1798, name: 'KHMER LETTER MO', category: Cat::Other_Letter)]
     case KHMER_LETTER_MO = "\u{1798}";
 
-    #[Info(id: 6041, name: 'KHMER LETTER YO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1799, name: 'KHMER LETTER YO', category: Cat::Other_Letter)]
     case KHMER_LETTER_YO = "\u{1799}";
 
-    #[Info(id: 6042, name: 'KHMER LETTER RO', category: Cat::Other_Letter)]
+    #[Info(id: 0x179A, name: 'KHMER LETTER RO', category: Cat::Other_Letter)]
     case KHMER_LETTER_RO = "\u{179A}";
 
-    #[Info(id: 6043, name: 'KHMER LETTER LO', category: Cat::Other_Letter)]
+    #[Info(id: 0x179B, name: 'KHMER LETTER LO', category: Cat::Other_Letter)]
     case KHMER_LETTER_LO = "\u{179B}";
 
-    #[Info(id: 6044, name: 'KHMER LETTER VO', category: Cat::Other_Letter)]
+    #[Info(id: 0x179C, name: 'KHMER LETTER VO', category: Cat::Other_Letter)]
     case KHMER_LETTER_VO = "\u{179C}";
 
-    #[Info(id: 6045, name: 'KHMER LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x179D, name: 'KHMER LETTER SHA', category: Cat::Other_Letter)]
     case KHMER_LETTER_SHA = "\u{179D}";
 
-    #[Info(id: 6046, name: 'KHMER LETTER SSO', category: Cat::Other_Letter)]
+    #[Info(id: 0x179E, name: 'KHMER LETTER SSO', category: Cat::Other_Letter)]
     case KHMER_LETTER_SSO = "\u{179E}";
 
-    #[Info(id: 6047, name: 'KHMER LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x179F, name: 'KHMER LETTER SA', category: Cat::Other_Letter)]
     case KHMER_LETTER_SA = "\u{179F}";
 
-    #[Info(id: 6048, name: 'KHMER LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x17A0, name: 'KHMER LETTER HA', category: Cat::Other_Letter)]
     case KHMER_LETTER_HA = "\u{17A0}";
 
-    #[Info(id: 6049, name: 'KHMER LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x17A1, name: 'KHMER LETTER LA', category: Cat::Other_Letter)]
     case KHMER_LETTER_LA = "\u{17A1}";
 
-    #[Info(id: 6050, name: 'KHMER LETTER QA', category: Cat::Other_Letter)]
+    #[Info(id: 0x17A2, name: 'KHMER LETTER QA', category: Cat::Other_Letter)]
     case KHMER_LETTER_QA = "\u{17A2}";
 
-    #[Info(id: 6051, name: 'KHMER INDEPENDENT VOWEL QAQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x17A3, name: 'KHMER INDEPENDENT VOWEL QAQ', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QAQ = "\u{17A3}";
 
-    #[Info(id: 6052, name: 'KHMER INDEPENDENT VOWEL QAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x17A4, name: 'KHMER INDEPENDENT VOWEL QAA', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QAA = "\u{17A4}";
 
-    #[Info(id: 6053, name: 'KHMER INDEPENDENT VOWEL QI', category: Cat::Other_Letter)]
+    #[Info(id: 0x17A5, name: 'KHMER INDEPENDENT VOWEL QI', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QI = "\u{17A5}";
 
-    #[Info(id: 6054, name: 'KHMER INDEPENDENT VOWEL QII', category: Cat::Other_Letter)]
+    #[Info(id: 0x17A6, name: 'KHMER INDEPENDENT VOWEL QII', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QII = "\u{17A6}";
 
-    #[Info(id: 6055, name: 'KHMER INDEPENDENT VOWEL QU', category: Cat::Other_Letter)]
+    #[Info(id: 0x17A7, name: 'KHMER INDEPENDENT VOWEL QU', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QU = "\u{17A7}";
 
-    #[Info(id: 6056, name: 'KHMER INDEPENDENT VOWEL QUK', category: Cat::Other_Letter)]
+    #[Info(id: 0x17A8, name: 'KHMER INDEPENDENT VOWEL QUK', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QUK = "\u{17A8}";
 
-    #[Info(id: 6057, name: 'KHMER INDEPENDENT VOWEL QUU', category: Cat::Other_Letter)]
+    #[Info(id: 0x17A9, name: 'KHMER INDEPENDENT VOWEL QUU', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QUU = "\u{17A9}";
 
-    #[Info(id: 6058, name: 'KHMER INDEPENDENT VOWEL QUUV', category: Cat::Other_Letter)]
+    #[Info(id: 0x17AA, name: 'KHMER INDEPENDENT VOWEL QUUV', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QUUV = "\u{17AA}";
 
-    #[Info(id: 6059, name: 'KHMER INDEPENDENT VOWEL RY', category: Cat::Other_Letter)]
+    #[Info(id: 0x17AB, name: 'KHMER INDEPENDENT VOWEL RY', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_RY = "\u{17AB}";
 
-    #[Info(id: 6060, name: 'KHMER INDEPENDENT VOWEL RYY', category: Cat::Other_Letter)]
+    #[Info(id: 0x17AC, name: 'KHMER INDEPENDENT VOWEL RYY', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_RYY = "\u{17AC}";
 
-    #[Info(id: 6061, name: 'KHMER INDEPENDENT VOWEL LY', category: Cat::Other_Letter)]
+    #[Info(id: 0x17AD, name: 'KHMER INDEPENDENT VOWEL LY', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_LY = "\u{17AD}";
 
-    #[Info(id: 6062, name: 'KHMER INDEPENDENT VOWEL LYY', category: Cat::Other_Letter)]
+    #[Info(id: 0x17AE, name: 'KHMER INDEPENDENT VOWEL LYY', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_LYY = "\u{17AE}";
 
-    #[Info(id: 6063, name: 'KHMER INDEPENDENT VOWEL QE', category: Cat::Other_Letter)]
+    #[Info(id: 0x17AF, name: 'KHMER INDEPENDENT VOWEL QE', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QE = "\u{17AF}";
 
-    #[Info(id: 6064, name: 'KHMER INDEPENDENT VOWEL QAI', category: Cat::Other_Letter)]
+    #[Info(id: 0x17B0, name: 'KHMER INDEPENDENT VOWEL QAI', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QAI = "\u{17B0}";
 
-    #[Info(id: 6065, name: 'KHMER INDEPENDENT VOWEL QOO TYPE ONE', category: Cat::Other_Letter)]
+    #[Info(id: 0x17B1, name: 'KHMER INDEPENDENT VOWEL QOO TYPE ONE', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QOO_TYPE_ONE = "\u{17B1}";
 
-    #[Info(id: 6066, name: 'KHMER INDEPENDENT VOWEL QOO TYPE TWO', category: Cat::Other_Letter)]
+    #[Info(id: 0x17B2, name: 'KHMER INDEPENDENT VOWEL QOO TYPE TWO', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QOO_TYPE_TWO = "\u{17B2}";
 
-    #[Info(id: 6067, name: 'KHMER INDEPENDENT VOWEL QAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x17B3, name: 'KHMER INDEPENDENT VOWEL QAU', category: Cat::Other_Letter)]
     case KHMER_INDEPENDENT_VOWEL_QAU = "\u{17B3}";
 
-    #[Info(id: 6068, name: 'KHMER VOWEL INHERENT AQ', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17B4, name: 'KHMER VOWEL INHERENT AQ', category: Cat::Nonspacing_Mark)]
     case KHMER_VOWEL_INHERENT_AQ = "\u{17B4}";
 
-    #[Info(id: 6069, name: 'KHMER VOWEL INHERENT AA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17B5, name: 'KHMER VOWEL INHERENT AA', category: Cat::Nonspacing_Mark)]
     case KHMER_VOWEL_INHERENT_AA = "\u{17B5}";
 
-    #[Info(id: 6070, name: 'KHMER VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17B6, name: 'KHMER VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case KHMER_VOWEL_SIGN_AA = "\u{17B6}";
 
-    #[Info(id: 6071, name: 'KHMER VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17B7, name: 'KHMER VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case KHMER_VOWEL_SIGN_I = "\u{17B7}";
 
-    #[Info(id: 6072, name: 'KHMER VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17B8, name: 'KHMER VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
     case KHMER_VOWEL_SIGN_II = "\u{17B8}";
 
-    #[Info(id: 6073, name: 'KHMER VOWEL SIGN Y', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17B9, name: 'KHMER VOWEL SIGN Y', category: Cat::Nonspacing_Mark)]
     case KHMER_VOWEL_SIGN_Y = "\u{17B9}";
 
-    #[Info(id: 6074, name: 'KHMER VOWEL SIGN YY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17BA, name: 'KHMER VOWEL SIGN YY', category: Cat::Nonspacing_Mark)]
     case KHMER_VOWEL_SIGN_YY = "\u{17BA}";
 
-    #[Info(id: 6075, name: 'KHMER VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17BB, name: 'KHMER VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case KHMER_VOWEL_SIGN_U = "\u{17BB}";
 
-    #[Info(id: 6076, name: 'KHMER VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17BC, name: 'KHMER VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case KHMER_VOWEL_SIGN_UU = "\u{17BC}";
 
-    #[Info(id: 6077, name: 'KHMER VOWEL SIGN UA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17BD, name: 'KHMER VOWEL SIGN UA', category: Cat::Nonspacing_Mark)]
     case KHMER_VOWEL_SIGN_UA = "\u{17BD}";
 
-    #[Info(id: 6078, name: 'KHMER VOWEL SIGN OE', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17BE, name: 'KHMER VOWEL SIGN OE', category: Cat::Spacing_Mark)]
     case KHMER_VOWEL_SIGN_OE = "\u{17BE}";
 
-    #[Info(id: 6079, name: 'KHMER VOWEL SIGN YA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17BF, name: 'KHMER VOWEL SIGN YA', category: Cat::Spacing_Mark)]
     case KHMER_VOWEL_SIGN_YA = "\u{17BF}";
 
-    #[Info(id: 6080, name: 'KHMER VOWEL SIGN IE', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17C0, name: 'KHMER VOWEL SIGN IE', category: Cat::Spacing_Mark)]
     case KHMER_VOWEL_SIGN_IE = "\u{17C0}";
 
-    #[Info(id: 6081, name: 'KHMER VOWEL SIGN E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17C1, name: 'KHMER VOWEL SIGN E', category: Cat::Spacing_Mark)]
     case KHMER_VOWEL_SIGN_E = "\u{17C1}";
 
-    #[Info(id: 6082, name: 'KHMER VOWEL SIGN AE', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17C2, name: 'KHMER VOWEL SIGN AE', category: Cat::Spacing_Mark)]
     case KHMER_VOWEL_SIGN_AE = "\u{17C2}";
 
-    #[Info(id: 6083, name: 'KHMER VOWEL SIGN AI', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17C3, name: 'KHMER VOWEL SIGN AI', category: Cat::Spacing_Mark)]
     case KHMER_VOWEL_SIGN_AI = "\u{17C3}";
 
-    #[Info(id: 6084, name: 'KHMER VOWEL SIGN OO', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17C4, name: 'KHMER VOWEL SIGN OO', category: Cat::Spacing_Mark)]
     case KHMER_VOWEL_SIGN_OO = "\u{17C4}";
 
-    #[Info(id: 6085, name: 'KHMER VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17C5, name: 'KHMER VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case KHMER_VOWEL_SIGN_AU = "\u{17C5}";
 
-    #[Info(id: 6086, name: 'KHMER SIGN NIKAHIT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17C6, name: 'KHMER SIGN NIKAHIT', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_NIKAHIT = "\u{17C6}";
 
-    #[Info(id: 6087, name: 'KHMER SIGN REAHMUK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17C7, name: 'KHMER SIGN REAHMUK', category: Cat::Spacing_Mark)]
     case KHMER_SIGN_REAHMUK = "\u{17C7}";
 
-    #[Info(id: 6088, name: 'KHMER SIGN YUUKALEAPINTU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x17C8, name: 'KHMER SIGN YUUKALEAPINTU', category: Cat::Spacing_Mark)]
     case KHMER_SIGN_YUUKALEAPINTU = "\u{17C8}";
 
-    #[Info(id: 6089, name: 'KHMER SIGN MUUSIKATOAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17C9, name: 'KHMER SIGN MUUSIKATOAN', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_MUUSIKATOAN = "\u{17C9}";
 
-    #[Info(id: 6090, name: 'KHMER SIGN TRIISAP', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17CA, name: 'KHMER SIGN TRIISAP', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_TRIISAP = "\u{17CA}";
 
-    #[Info(id: 6091, name: 'KHMER SIGN BANTOC', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17CB, name: 'KHMER SIGN BANTOC', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_BANTOC = "\u{17CB}";
 
-    #[Info(id: 6092, name: 'KHMER SIGN ROBAT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17CC, name: 'KHMER SIGN ROBAT', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_ROBAT = "\u{17CC}";
 
-    #[Info(id: 6093, name: 'KHMER SIGN TOANDAKHIAT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17CD, name: 'KHMER SIGN TOANDAKHIAT', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_TOANDAKHIAT = "\u{17CD}";
 
-    #[Info(id: 6094, name: 'KHMER SIGN KAKABAT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17CE, name: 'KHMER SIGN KAKABAT', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_KAKABAT = "\u{17CE}";
 
-    #[Info(id: 6095, name: 'KHMER SIGN AHSDA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17CF, name: 'KHMER SIGN AHSDA', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_AHSDA = "\u{17CF}";
 
-    #[Info(id: 6096, name: 'KHMER SIGN SAMYOK SANNYA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17D0, name: 'KHMER SIGN SAMYOK SANNYA', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_SAMYOK_SANNYA = "\u{17D0}";
 
-    #[Info(id: 6097, name: 'KHMER SIGN VIRIAM', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17D1, name: 'KHMER SIGN VIRIAM', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_VIRIAM = "\u{17D1}";
 
-    #[Info(id: 6098, name: 'KHMER SIGN COENG', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17D2, name: 'KHMER SIGN COENG', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_COENG = "\u{17D2}";
 
-    #[Info(id: 6099, name: 'KHMER SIGN BATHAMASAT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17D3, name: 'KHMER SIGN BATHAMASAT', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_BATHAMASAT = "\u{17D3}";
 
-    #[Info(id: 6100, name: 'KHMER SIGN KHAN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x17D4, name: 'KHMER SIGN KHAN', category: Cat::Other_Punctuation)]
     case KHMER_SIGN_KHAN = "\u{17D4}";
 
-    #[Info(id: 6101, name: 'KHMER SIGN BARIYOOSAN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x17D5, name: 'KHMER SIGN BARIYOOSAN', category: Cat::Other_Punctuation)]
     case KHMER_SIGN_BARIYOOSAN = "\u{17D5}";
 
-    #[Info(id: 6102, name: 'KHMER SIGN CAMNUC PII KUUH', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x17D6, name: 'KHMER SIGN CAMNUC PII KUUH', category: Cat::Other_Punctuation)]
     case KHMER_SIGN_CAMNUC_PII_KUUH = "\u{17D6}";
 
-    #[Info(id: 6103, name: 'KHMER SIGN LEK TOO', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x17D7, name: 'KHMER SIGN LEK TOO', category: Cat::Modifier_Letter)]
     case KHMER_SIGN_LEK_TOO = "\u{17D7}";
 
-    #[Info(id: 6104, name: 'KHMER SIGN BEYYAL', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x17D8, name: 'KHMER SIGN BEYYAL', category: Cat::Other_Punctuation)]
     case KHMER_SIGN_BEYYAL = "\u{17D8}";
 
-    #[Info(id: 6105, name: 'KHMER SIGN PHNAEK MUAN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x17D9, name: 'KHMER SIGN PHNAEK MUAN', category: Cat::Other_Punctuation)]
     case KHMER_SIGN_PHNAEK_MUAN = "\u{17D9}";
 
-    #[Info(id: 6106, name: 'KHMER SIGN KOOMUUT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x17DA, name: 'KHMER SIGN KOOMUUT', category: Cat::Other_Punctuation)]
     case KHMER_SIGN_KOOMUUT = "\u{17DA}";
 
-    #[Info(id: 6107, name: 'KHMER CURRENCY SYMBOL RIEL', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x17DB, name: 'KHMER CURRENCY SYMBOL RIEL', category: Cat::Currency_Symbol)]
     case KHMER_CURRENCY_SYMBOL_RIEL = "\u{17DB}";
 
-    #[Info(id: 6108, name: 'KHMER SIGN AVAKRAHASANYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x17DC, name: 'KHMER SIGN AVAKRAHASANYA', category: Cat::Other_Letter)]
     case KHMER_SIGN_AVAKRAHASANYA = "\u{17DC}";
 
-    #[Info(id: 6109, name: 'KHMER SIGN ATTHACAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x17DD, name: 'KHMER SIGN ATTHACAN', category: Cat::Nonspacing_Mark)]
     case KHMER_SIGN_ATTHACAN = "\u{17DD}";
 
-    #[Info(id: 6112, name: 'KHMER DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x17E0, name: 'KHMER DIGIT ZERO', category: Cat::Decimal_Number)]
     case KHMER_DIGIT_ZERO = "\u{17E0}";
 
-    #[Info(id: 6113, name: 'KHMER DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x17E1, name: 'KHMER DIGIT ONE', category: Cat::Decimal_Number)]
     case KHMER_DIGIT_ONE = "\u{17E1}";
 
-    #[Info(id: 6114, name: 'KHMER DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x17E2, name: 'KHMER DIGIT TWO', category: Cat::Decimal_Number)]
     case KHMER_DIGIT_TWO = "\u{17E2}";
 
-    #[Info(id: 6115, name: 'KHMER DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x17E3, name: 'KHMER DIGIT THREE', category: Cat::Decimal_Number)]
     case KHMER_DIGIT_THREE = "\u{17E3}";
 
-    #[Info(id: 6116, name: 'KHMER DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x17E4, name: 'KHMER DIGIT FOUR', category: Cat::Decimal_Number)]
     case KHMER_DIGIT_FOUR = "\u{17E4}";
 
-    #[Info(id: 6117, name: 'KHMER DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x17E5, name: 'KHMER DIGIT FIVE', category: Cat::Decimal_Number)]
     case KHMER_DIGIT_FIVE = "\u{17E5}";
 
-    #[Info(id: 6118, name: 'KHMER DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x17E6, name: 'KHMER DIGIT SIX', category: Cat::Decimal_Number)]
     case KHMER_DIGIT_SIX = "\u{17E6}";
 
-    #[Info(id: 6119, name: 'KHMER DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x17E7, name: 'KHMER DIGIT SEVEN', category: Cat::Decimal_Number)]
     case KHMER_DIGIT_SEVEN = "\u{17E7}";
 
-    #[Info(id: 6120, name: 'KHMER DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x17E8, name: 'KHMER DIGIT EIGHT', category: Cat::Decimal_Number)]
     case KHMER_DIGIT_EIGHT = "\u{17E8}";
 
-    #[Info(id: 6121, name: 'KHMER DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x17E9, name: 'KHMER DIGIT NINE', category: Cat::Decimal_Number)]
     case KHMER_DIGIT_NINE = "\u{17E9}";
 
-    #[Info(id: 6128, name: 'KHMER SYMBOL LEK ATTAK SON', category: Cat::Other_Number)]
+    #[Info(id: 0x17F0, name: 'KHMER SYMBOL LEK ATTAK SON', category: Cat::Other_Number)]
     case KHMER_SYMBOL_LEK_ATTAK_SON = "\u{17F0}";
 
-    #[Info(id: 6129, name: 'KHMER SYMBOL LEK ATTAK MUOY', category: Cat::Other_Number)]
+    #[Info(id: 0x17F1, name: 'KHMER SYMBOL LEK ATTAK MUOY', category: Cat::Other_Number)]
     case KHMER_SYMBOL_LEK_ATTAK_MUOY = "\u{17F1}";
 
-    #[Info(id: 6130, name: 'KHMER SYMBOL LEK ATTAK PII', category: Cat::Other_Number)]
+    #[Info(id: 0x17F2, name: 'KHMER SYMBOL LEK ATTAK PII', category: Cat::Other_Number)]
     case KHMER_SYMBOL_LEK_ATTAK_PII = "\u{17F2}";
 
-    #[Info(id: 6131, name: 'KHMER SYMBOL LEK ATTAK BEI', category: Cat::Other_Number)]
+    #[Info(id: 0x17F3, name: 'KHMER SYMBOL LEK ATTAK BEI', category: Cat::Other_Number)]
     case KHMER_SYMBOL_LEK_ATTAK_BEI = "\u{17F3}";
 
-    #[Info(id: 6132, name: 'KHMER SYMBOL LEK ATTAK BUON', category: Cat::Other_Number)]
+    #[Info(id: 0x17F4, name: 'KHMER SYMBOL LEK ATTAK BUON', category: Cat::Other_Number)]
     case KHMER_SYMBOL_LEK_ATTAK_BUON = "\u{17F4}";
 
-    #[Info(id: 6133, name: 'KHMER SYMBOL LEK ATTAK PRAM', category: Cat::Other_Number)]
+    #[Info(id: 0x17F5, name: 'KHMER SYMBOL LEK ATTAK PRAM', category: Cat::Other_Number)]
     case KHMER_SYMBOL_LEK_ATTAK_PRAM = "\u{17F5}";
 
-    #[Info(id: 6134, name: 'KHMER SYMBOL LEK ATTAK PRAM-MUOY', category: Cat::Other_Number)]
+    #[Info(id: 0x17F6, name: 'KHMER SYMBOL LEK ATTAK PRAM-MUOY', category: Cat::Other_Number)]
     case KHMER_SYMBOL_LEK_ATTAK_PRAM_MUOY = "\u{17F6}";
 
-    #[Info(id: 6135, name: 'KHMER SYMBOL LEK ATTAK PRAM-PII', category: Cat::Other_Number)]
+    #[Info(id: 0x17F7, name: 'KHMER SYMBOL LEK ATTAK PRAM-PII', category: Cat::Other_Number)]
     case KHMER_SYMBOL_LEK_ATTAK_PRAM_PII = "\u{17F7}";
 
-    #[Info(id: 6136, name: 'KHMER SYMBOL LEK ATTAK PRAM-BEI', category: Cat::Other_Number)]
+    #[Info(id: 0x17F8, name: 'KHMER SYMBOL LEK ATTAK PRAM-BEI', category: Cat::Other_Number)]
     case KHMER_SYMBOL_LEK_ATTAK_PRAM_BEI = "\u{17F8}";
 
-    #[Info(id: 6137, name: 'KHMER SYMBOL LEK ATTAK PRAM-BUON', category: Cat::Other_Number)]
+    #[Info(id: 0x17F9, name: 'KHMER SYMBOL LEK ATTAK PRAM-BUON', category: Cat::Other_Number)]
     case KHMER_SYMBOL_LEK_ATTAK_PRAM_BUON = "\u{17F9}";
 }

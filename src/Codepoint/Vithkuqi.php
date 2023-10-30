@@ -16,213 +16,213 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Vithkuqi: string
 {
-    #[Info(id: 66928, name: 'VITHKUQI CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10570, name: 'VITHKUQI CAPITAL LETTER A', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_A = "\u{10570}";
 
-    #[Info(id: 66929, name: 'VITHKUQI CAPITAL LETTER BBE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10571, name: 'VITHKUQI CAPITAL LETTER BBE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_BBE = "\u{10571}";
 
-    #[Info(id: 66930, name: 'VITHKUQI CAPITAL LETTER BE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10572, name: 'VITHKUQI CAPITAL LETTER BE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_BE = "\u{10572}";
 
-    #[Info(id: 66931, name: 'VITHKUQI CAPITAL LETTER CE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10573, name: 'VITHKUQI CAPITAL LETTER CE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_CE = "\u{10573}";
 
-    #[Info(id: 66932, name: 'VITHKUQI CAPITAL LETTER CHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10574, name: 'VITHKUQI CAPITAL LETTER CHE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_CHE = "\u{10574}";
 
-    #[Info(id: 66933, name: 'VITHKUQI CAPITAL LETTER DE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10575, name: 'VITHKUQI CAPITAL LETTER DE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_DE = "\u{10575}";
 
-    #[Info(id: 66934, name: 'VITHKUQI CAPITAL LETTER DHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10576, name: 'VITHKUQI CAPITAL LETTER DHE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_DHE = "\u{10576}";
 
-    #[Info(id: 66935, name: 'VITHKUQI CAPITAL LETTER EI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10577, name: 'VITHKUQI CAPITAL LETTER EI', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_EI = "\u{10577}";
 
-    #[Info(id: 66936, name: 'VITHKUQI CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10578, name: 'VITHKUQI CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_E = "\u{10578}";
 
-    #[Info(id: 66937, name: 'VITHKUQI CAPITAL LETTER FE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10579, name: 'VITHKUQI CAPITAL LETTER FE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_FE = "\u{10579}";
 
-    #[Info(id: 66938, name: 'VITHKUQI CAPITAL LETTER GA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1057A, name: 'VITHKUQI CAPITAL LETTER GA', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_GA = "\u{1057A}";
 
-    #[Info(id: 66940, name: 'VITHKUQI CAPITAL LETTER HA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1057C, name: 'VITHKUQI CAPITAL LETTER HA', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_HA = "\u{1057C}";
 
-    #[Info(id: 66941, name: 'VITHKUQI CAPITAL LETTER HHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1057D, name: 'VITHKUQI CAPITAL LETTER HHA', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_HHA = "\u{1057D}";
 
-    #[Info(id: 66942, name: 'VITHKUQI CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1057E, name: 'VITHKUQI CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_I = "\u{1057E}";
 
-    #[Info(id: 66943, name: 'VITHKUQI CAPITAL LETTER IJE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1057F, name: 'VITHKUQI CAPITAL LETTER IJE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_IJE = "\u{1057F}";
 
-    #[Info(id: 66944, name: 'VITHKUQI CAPITAL LETTER JE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10580, name: 'VITHKUQI CAPITAL LETTER JE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_JE = "\u{10580}";
 
-    #[Info(id: 66945, name: 'VITHKUQI CAPITAL LETTER KA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10581, name: 'VITHKUQI CAPITAL LETTER KA', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_KA = "\u{10581}";
 
-    #[Info(id: 66946, name: 'VITHKUQI CAPITAL LETTER LA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10582, name: 'VITHKUQI CAPITAL LETTER LA', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_LA = "\u{10582}";
 
-    #[Info(id: 66947, name: 'VITHKUQI CAPITAL LETTER LLA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10583, name: 'VITHKUQI CAPITAL LETTER LLA', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_LLA = "\u{10583}";
 
-    #[Info(id: 66948, name: 'VITHKUQI CAPITAL LETTER ME', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10584, name: 'VITHKUQI CAPITAL LETTER ME', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_ME = "\u{10584}";
 
-    #[Info(id: 66949, name: 'VITHKUQI CAPITAL LETTER NE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10585, name: 'VITHKUQI CAPITAL LETTER NE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_NE = "\u{10585}";
 
-    #[Info(id: 66950, name: 'VITHKUQI CAPITAL LETTER NJE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10586, name: 'VITHKUQI CAPITAL LETTER NJE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_NJE = "\u{10586}";
 
-    #[Info(id: 66951, name: 'VITHKUQI CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10587, name: 'VITHKUQI CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_O = "\u{10587}";
 
-    #[Info(id: 66952, name: 'VITHKUQI CAPITAL LETTER PE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10588, name: 'VITHKUQI CAPITAL LETTER PE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_PE = "\u{10588}";
 
-    #[Info(id: 66953, name: 'VITHKUQI CAPITAL LETTER QA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10589, name: 'VITHKUQI CAPITAL LETTER QA', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_QA = "\u{10589}";
 
-    #[Info(id: 66954, name: 'VITHKUQI CAPITAL LETTER RE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1058A, name: 'VITHKUQI CAPITAL LETTER RE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_RE = "\u{1058A}";
 
-    #[Info(id: 66956, name: 'VITHKUQI CAPITAL LETTER SE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1058C, name: 'VITHKUQI CAPITAL LETTER SE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_SE = "\u{1058C}";
 
-    #[Info(id: 66957, name: 'VITHKUQI CAPITAL LETTER SHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1058D, name: 'VITHKUQI CAPITAL LETTER SHE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_SHE = "\u{1058D}";
 
-    #[Info(id: 66958, name: 'VITHKUQI CAPITAL LETTER TE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1058E, name: 'VITHKUQI CAPITAL LETTER TE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_TE = "\u{1058E}";
 
-    #[Info(id: 66959, name: 'VITHKUQI CAPITAL LETTER THE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1058F, name: 'VITHKUQI CAPITAL LETTER THE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_THE = "\u{1058F}";
 
-    #[Info(id: 66960, name: 'VITHKUQI CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10590, name: 'VITHKUQI CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_U = "\u{10590}";
 
-    #[Info(id: 66961, name: 'VITHKUQI CAPITAL LETTER VE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10591, name: 'VITHKUQI CAPITAL LETTER VE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_VE = "\u{10591}";
 
-    #[Info(id: 66962, name: 'VITHKUQI CAPITAL LETTER XE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10592, name: 'VITHKUQI CAPITAL LETTER XE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_XE = "\u{10592}";
 
-    #[Info(id: 66964, name: 'VITHKUQI CAPITAL LETTER Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10594, name: 'VITHKUQI CAPITAL LETTER Y', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_Y = "\u{10594}";
 
-    #[Info(id: 66965, name: 'VITHKUQI CAPITAL LETTER ZE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10595, name: 'VITHKUQI CAPITAL LETTER ZE', category: Cat::Uppercase_Letter)]
     case VITHKUQI_CAPITAL_LETTER_ZE = "\u{10595}";
 
-    #[Info(id: 66967, name: 'VITHKUQI SMALL LETTER A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10597, name: 'VITHKUQI SMALL LETTER A', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_A = "\u{10597}";
 
-    #[Info(id: 66968, name: 'VITHKUQI SMALL LETTER BBE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10598, name: 'VITHKUQI SMALL LETTER BBE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_BBE = "\u{10598}";
 
-    #[Info(id: 66969, name: 'VITHKUQI SMALL LETTER BE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10599, name: 'VITHKUQI SMALL LETTER BE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_BE = "\u{10599}";
 
-    #[Info(id: 66970, name: 'VITHKUQI SMALL LETTER CE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1059A, name: 'VITHKUQI SMALL LETTER CE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_CE = "\u{1059A}";
 
-    #[Info(id: 66971, name: 'VITHKUQI SMALL LETTER CHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1059B, name: 'VITHKUQI SMALL LETTER CHE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_CHE = "\u{1059B}";
 
-    #[Info(id: 66972, name: 'VITHKUQI SMALL LETTER DE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1059C, name: 'VITHKUQI SMALL LETTER DE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_DE = "\u{1059C}";
 
-    #[Info(id: 66973, name: 'VITHKUQI SMALL LETTER DHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1059D, name: 'VITHKUQI SMALL LETTER DHE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_DHE = "\u{1059D}";
 
-    #[Info(id: 66974, name: 'VITHKUQI SMALL LETTER EI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1059E, name: 'VITHKUQI SMALL LETTER EI', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_EI = "\u{1059E}";
 
-    #[Info(id: 66975, name: 'VITHKUQI SMALL LETTER E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1059F, name: 'VITHKUQI SMALL LETTER E', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_E = "\u{1059F}";
 
-    #[Info(id: 66976, name: 'VITHKUQI SMALL LETTER FE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105A0, name: 'VITHKUQI SMALL LETTER FE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_FE = "\u{105A0}";
 
-    #[Info(id: 66977, name: 'VITHKUQI SMALL LETTER GA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105A1, name: 'VITHKUQI SMALL LETTER GA', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_GA = "\u{105A1}";
 
-    #[Info(id: 66979, name: 'VITHKUQI SMALL LETTER HA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105A3, name: 'VITHKUQI SMALL LETTER HA', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_HA = "\u{105A3}";
 
-    #[Info(id: 66980, name: 'VITHKUQI SMALL LETTER HHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105A4, name: 'VITHKUQI SMALL LETTER HHA', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_HHA = "\u{105A4}";
 
-    #[Info(id: 66981, name: 'VITHKUQI SMALL LETTER I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105A5, name: 'VITHKUQI SMALL LETTER I', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_I = "\u{105A5}";
 
-    #[Info(id: 66982, name: 'VITHKUQI SMALL LETTER IJE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105A6, name: 'VITHKUQI SMALL LETTER IJE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_IJE = "\u{105A6}";
 
-    #[Info(id: 66983, name: 'VITHKUQI SMALL LETTER JE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105A7, name: 'VITHKUQI SMALL LETTER JE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_JE = "\u{105A7}";
 
-    #[Info(id: 66984, name: 'VITHKUQI SMALL LETTER KA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105A8, name: 'VITHKUQI SMALL LETTER KA', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_KA = "\u{105A8}";
 
-    #[Info(id: 66985, name: 'VITHKUQI SMALL LETTER LA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105A9, name: 'VITHKUQI SMALL LETTER LA', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_LA = "\u{105A9}";
 
-    #[Info(id: 66986, name: 'VITHKUQI SMALL LETTER LLA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105AA, name: 'VITHKUQI SMALL LETTER LLA', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_LLA = "\u{105AA}";
 
-    #[Info(id: 66987, name: 'VITHKUQI SMALL LETTER ME', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105AB, name: 'VITHKUQI SMALL LETTER ME', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_ME = "\u{105AB}";
 
-    #[Info(id: 66988, name: 'VITHKUQI SMALL LETTER NE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105AC, name: 'VITHKUQI SMALL LETTER NE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_NE = "\u{105AC}";
 
-    #[Info(id: 66989, name: 'VITHKUQI SMALL LETTER NJE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105AD, name: 'VITHKUQI SMALL LETTER NJE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_NJE = "\u{105AD}";
 
-    #[Info(id: 66990, name: 'VITHKUQI SMALL LETTER O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105AE, name: 'VITHKUQI SMALL LETTER O', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_O = "\u{105AE}";
 
-    #[Info(id: 66991, name: 'VITHKUQI SMALL LETTER PE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105AF, name: 'VITHKUQI SMALL LETTER PE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_PE = "\u{105AF}";
 
-    #[Info(id: 66992, name: 'VITHKUQI SMALL LETTER QA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105B0, name: 'VITHKUQI SMALL LETTER QA', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_QA = "\u{105B0}";
 
-    #[Info(id: 66993, name: 'VITHKUQI SMALL LETTER RE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105B1, name: 'VITHKUQI SMALL LETTER RE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_RE = "\u{105B1}";
 
-    #[Info(id: 66995, name: 'VITHKUQI SMALL LETTER SE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105B3, name: 'VITHKUQI SMALL LETTER SE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_SE = "\u{105B3}";
 
-    #[Info(id: 66996, name: 'VITHKUQI SMALL LETTER SHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105B4, name: 'VITHKUQI SMALL LETTER SHE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_SHE = "\u{105B4}";
 
-    #[Info(id: 66997, name: 'VITHKUQI SMALL LETTER TE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105B5, name: 'VITHKUQI SMALL LETTER TE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_TE = "\u{105B5}";
 
-    #[Info(id: 66998, name: 'VITHKUQI SMALL LETTER THE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105B6, name: 'VITHKUQI SMALL LETTER THE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_THE = "\u{105B6}";
 
-    #[Info(id: 66999, name: 'VITHKUQI SMALL LETTER U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105B7, name: 'VITHKUQI SMALL LETTER U', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_U = "\u{105B7}";
 
-    #[Info(id: 67000, name: 'VITHKUQI SMALL LETTER VE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105B8, name: 'VITHKUQI SMALL LETTER VE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_VE = "\u{105B8}";
 
-    #[Info(id: 67001, name: 'VITHKUQI SMALL LETTER XE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105B9, name: 'VITHKUQI SMALL LETTER XE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_XE = "\u{105B9}";
 
-    #[Info(id: 67003, name: 'VITHKUQI SMALL LETTER Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105BB, name: 'VITHKUQI SMALL LETTER Y', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_Y = "\u{105BB}";
 
-    #[Info(id: 67004, name: 'VITHKUQI SMALL LETTER ZE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x105BC, name: 'VITHKUQI SMALL LETTER ZE', category: Cat::Lowercase_Letter)]
     case VITHKUQI_SMALL_LETTER_ZE = "\u{105BC}";
 }

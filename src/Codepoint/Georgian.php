@@ -16,267 +16,267 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Georgian: string
 {
-    #[Info(id: 4256, name: 'GEORGIAN CAPITAL LETTER AN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10A0, name: 'GEORGIAN CAPITAL LETTER AN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_AN = "\u{10A0}";
 
-    #[Info(id: 4257, name: 'GEORGIAN CAPITAL LETTER BAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10A1, name: 'GEORGIAN CAPITAL LETTER BAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_BAN = "\u{10A1}";
 
-    #[Info(id: 4258, name: 'GEORGIAN CAPITAL LETTER GAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10A2, name: 'GEORGIAN CAPITAL LETTER GAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_GAN = "\u{10A2}";
 
-    #[Info(id: 4259, name: 'GEORGIAN CAPITAL LETTER DON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10A3, name: 'GEORGIAN CAPITAL LETTER DON', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_DON = "\u{10A3}";
 
-    #[Info(id: 4260, name: 'GEORGIAN CAPITAL LETTER EN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10A4, name: 'GEORGIAN CAPITAL LETTER EN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_EN = "\u{10A4}";
 
-    #[Info(id: 4261, name: 'GEORGIAN CAPITAL LETTER VIN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10A5, name: 'GEORGIAN CAPITAL LETTER VIN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_VIN = "\u{10A5}";
 
-    #[Info(id: 4262, name: 'GEORGIAN CAPITAL LETTER ZEN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10A6, name: 'GEORGIAN CAPITAL LETTER ZEN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_ZEN = "\u{10A6}";
 
-    #[Info(id: 4263, name: 'GEORGIAN CAPITAL LETTER TAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10A7, name: 'GEORGIAN CAPITAL LETTER TAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_TAN = "\u{10A7}";
 
-    #[Info(id: 4264, name: 'GEORGIAN CAPITAL LETTER IN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10A8, name: 'GEORGIAN CAPITAL LETTER IN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_IN = "\u{10A8}";
 
-    #[Info(id: 4265, name: 'GEORGIAN CAPITAL LETTER KAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10A9, name: 'GEORGIAN CAPITAL LETTER KAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_KAN = "\u{10A9}";
 
-    #[Info(id: 4266, name: 'GEORGIAN CAPITAL LETTER LAS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10AA, name: 'GEORGIAN CAPITAL LETTER LAS', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_LAS = "\u{10AA}";
 
-    #[Info(id: 4267, name: 'GEORGIAN CAPITAL LETTER MAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10AB, name: 'GEORGIAN CAPITAL LETTER MAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_MAN = "\u{10AB}";
 
-    #[Info(id: 4268, name: 'GEORGIAN CAPITAL LETTER NAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10AC, name: 'GEORGIAN CAPITAL LETTER NAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_NAR = "\u{10AC}";
 
-    #[Info(id: 4269, name: 'GEORGIAN CAPITAL LETTER ON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10AD, name: 'GEORGIAN CAPITAL LETTER ON', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_ON = "\u{10AD}";
 
-    #[Info(id: 4270, name: 'GEORGIAN CAPITAL LETTER PAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10AE, name: 'GEORGIAN CAPITAL LETTER PAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_PAR = "\u{10AE}";
 
-    #[Info(id: 4271, name: 'GEORGIAN CAPITAL LETTER ZHAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10AF, name: 'GEORGIAN CAPITAL LETTER ZHAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_ZHAR = "\u{10AF}";
 
-    #[Info(id: 4272, name: 'GEORGIAN CAPITAL LETTER RAE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10B0, name: 'GEORGIAN CAPITAL LETTER RAE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_RAE = "\u{10B0}";
 
-    #[Info(id: 4273, name: 'GEORGIAN CAPITAL LETTER SAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10B1, name: 'GEORGIAN CAPITAL LETTER SAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_SAN = "\u{10B1}";
 
-    #[Info(id: 4274, name: 'GEORGIAN CAPITAL LETTER TAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10B2, name: 'GEORGIAN CAPITAL LETTER TAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_TAR = "\u{10B2}";
 
-    #[Info(id: 4275, name: 'GEORGIAN CAPITAL LETTER UN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10B3, name: 'GEORGIAN CAPITAL LETTER UN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_UN = "\u{10B3}";
 
-    #[Info(id: 4276, name: 'GEORGIAN CAPITAL LETTER PHAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10B4, name: 'GEORGIAN CAPITAL LETTER PHAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_PHAR = "\u{10B4}";
 
-    #[Info(id: 4277, name: 'GEORGIAN CAPITAL LETTER KHAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10B5, name: 'GEORGIAN CAPITAL LETTER KHAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_KHAR = "\u{10B5}";
 
-    #[Info(id: 4278, name: 'GEORGIAN CAPITAL LETTER GHAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10B6, name: 'GEORGIAN CAPITAL LETTER GHAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_GHAN = "\u{10B6}";
 
-    #[Info(id: 4279, name: 'GEORGIAN CAPITAL LETTER QAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10B7, name: 'GEORGIAN CAPITAL LETTER QAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_QAR = "\u{10B7}";
 
-    #[Info(id: 4280, name: 'GEORGIAN CAPITAL LETTER SHIN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10B8, name: 'GEORGIAN CAPITAL LETTER SHIN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_SHIN = "\u{10B8}";
 
-    #[Info(id: 4281, name: 'GEORGIAN CAPITAL LETTER CHIN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10B9, name: 'GEORGIAN CAPITAL LETTER CHIN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_CHIN = "\u{10B9}";
 
-    #[Info(id: 4282, name: 'GEORGIAN CAPITAL LETTER CAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10BA, name: 'GEORGIAN CAPITAL LETTER CAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_CAN = "\u{10BA}";
 
-    #[Info(id: 4283, name: 'GEORGIAN CAPITAL LETTER JIL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10BB, name: 'GEORGIAN CAPITAL LETTER JIL', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_JIL = "\u{10BB}";
 
-    #[Info(id: 4284, name: 'GEORGIAN CAPITAL LETTER CIL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10BC, name: 'GEORGIAN CAPITAL LETTER CIL', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_CIL = "\u{10BC}";
 
-    #[Info(id: 4285, name: 'GEORGIAN CAPITAL LETTER CHAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10BD, name: 'GEORGIAN CAPITAL LETTER CHAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_CHAR = "\u{10BD}";
 
-    #[Info(id: 4286, name: 'GEORGIAN CAPITAL LETTER XAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10BE, name: 'GEORGIAN CAPITAL LETTER XAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_XAN = "\u{10BE}";
 
-    #[Info(id: 4287, name: 'GEORGIAN CAPITAL LETTER JHAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10BF, name: 'GEORGIAN CAPITAL LETTER JHAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_JHAN = "\u{10BF}";
 
-    #[Info(id: 4288, name: 'GEORGIAN CAPITAL LETTER HAE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C0, name: 'GEORGIAN CAPITAL LETTER HAE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_HAE = "\u{10C0}";
 
-    #[Info(id: 4289, name: 'GEORGIAN CAPITAL LETTER HE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C1, name: 'GEORGIAN CAPITAL LETTER HE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_HE = "\u{10C1}";
 
-    #[Info(id: 4290, name: 'GEORGIAN CAPITAL LETTER HIE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C2, name: 'GEORGIAN CAPITAL LETTER HIE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_HIE = "\u{10C2}";
 
-    #[Info(id: 4291, name: 'GEORGIAN CAPITAL LETTER WE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C3, name: 'GEORGIAN CAPITAL LETTER WE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_WE = "\u{10C3}";
 
-    #[Info(id: 4292, name: 'GEORGIAN CAPITAL LETTER HAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C4, name: 'GEORGIAN CAPITAL LETTER HAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_HAR = "\u{10C4}";
 
-    #[Info(id: 4293, name: 'GEORGIAN CAPITAL LETTER HOE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C5, name: 'GEORGIAN CAPITAL LETTER HOE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_HOE = "\u{10C5}";
 
-    #[Info(id: 4295, name: 'GEORGIAN CAPITAL LETTER YN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10C7, name: 'GEORGIAN CAPITAL LETTER YN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_YN = "\u{10C7}";
 
-    #[Info(id: 4301, name: 'GEORGIAN CAPITAL LETTER AEN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x10CD, name: 'GEORGIAN CAPITAL LETTER AEN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_CAPITAL_LETTER_AEN = "\u{10CD}";
 
-    #[Info(id: 4304, name: 'GEORGIAN LETTER AN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10D0, name: 'GEORGIAN LETTER AN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_AN = "\u{10D0}";
 
-    #[Info(id: 4305, name: 'GEORGIAN LETTER BAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10D1, name: 'GEORGIAN LETTER BAN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_BAN = "\u{10D1}";
 
-    #[Info(id: 4306, name: 'GEORGIAN LETTER GAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10D2, name: 'GEORGIAN LETTER GAN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_GAN = "\u{10D2}";
 
-    #[Info(id: 4307, name: 'GEORGIAN LETTER DON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10D3, name: 'GEORGIAN LETTER DON', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_DON = "\u{10D3}";
 
-    #[Info(id: 4308, name: 'GEORGIAN LETTER EN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10D4, name: 'GEORGIAN LETTER EN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_EN = "\u{10D4}";
 
-    #[Info(id: 4309, name: 'GEORGIAN LETTER VIN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10D5, name: 'GEORGIAN LETTER VIN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_VIN = "\u{10D5}";
 
-    #[Info(id: 4310, name: 'GEORGIAN LETTER ZEN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10D6, name: 'GEORGIAN LETTER ZEN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_ZEN = "\u{10D6}";
 
-    #[Info(id: 4311, name: 'GEORGIAN LETTER TAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10D7, name: 'GEORGIAN LETTER TAN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_TAN = "\u{10D7}";
 
-    #[Info(id: 4312, name: 'GEORGIAN LETTER IN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10D8, name: 'GEORGIAN LETTER IN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_IN = "\u{10D8}";
 
-    #[Info(id: 4313, name: 'GEORGIAN LETTER KAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10D9, name: 'GEORGIAN LETTER KAN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_KAN = "\u{10D9}";
 
-    #[Info(id: 4314, name: 'GEORGIAN LETTER LAS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10DA, name: 'GEORGIAN LETTER LAS', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_LAS = "\u{10DA}";
 
-    #[Info(id: 4315, name: 'GEORGIAN LETTER MAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10DB, name: 'GEORGIAN LETTER MAN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_MAN = "\u{10DB}";
 
-    #[Info(id: 4316, name: 'GEORGIAN LETTER NAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10DC, name: 'GEORGIAN LETTER NAR', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_NAR = "\u{10DC}";
 
-    #[Info(id: 4317, name: 'GEORGIAN LETTER ON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10DD, name: 'GEORGIAN LETTER ON', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_ON = "\u{10DD}";
 
-    #[Info(id: 4318, name: 'GEORGIAN LETTER PAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10DE, name: 'GEORGIAN LETTER PAR', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_PAR = "\u{10DE}";
 
-    #[Info(id: 4319, name: 'GEORGIAN LETTER ZHAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10DF, name: 'GEORGIAN LETTER ZHAR', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_ZHAR = "\u{10DF}";
 
-    #[Info(id: 4320, name: 'GEORGIAN LETTER RAE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10E0, name: 'GEORGIAN LETTER RAE', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_RAE = "\u{10E0}";
 
-    #[Info(id: 4321, name: 'GEORGIAN LETTER SAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10E1, name: 'GEORGIAN LETTER SAN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_SAN = "\u{10E1}";
 
-    #[Info(id: 4322, name: 'GEORGIAN LETTER TAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10E2, name: 'GEORGIAN LETTER TAR', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_TAR = "\u{10E2}";
 
-    #[Info(id: 4323, name: 'GEORGIAN LETTER UN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10E3, name: 'GEORGIAN LETTER UN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_UN = "\u{10E3}";
 
-    #[Info(id: 4324, name: 'GEORGIAN LETTER PHAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10E4, name: 'GEORGIAN LETTER PHAR', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_PHAR = "\u{10E4}";
 
-    #[Info(id: 4325, name: 'GEORGIAN LETTER KHAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10E5, name: 'GEORGIAN LETTER KHAR', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_KHAR = "\u{10E5}";
 
-    #[Info(id: 4326, name: 'GEORGIAN LETTER GHAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10E6, name: 'GEORGIAN LETTER GHAN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_GHAN = "\u{10E6}";
 
-    #[Info(id: 4327, name: 'GEORGIAN LETTER QAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10E7, name: 'GEORGIAN LETTER QAR', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_QAR = "\u{10E7}";
 
-    #[Info(id: 4328, name: 'GEORGIAN LETTER SHIN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10E8, name: 'GEORGIAN LETTER SHIN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_SHIN = "\u{10E8}";
 
-    #[Info(id: 4329, name: 'GEORGIAN LETTER CHIN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10E9, name: 'GEORGIAN LETTER CHIN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_CHIN = "\u{10E9}";
 
-    #[Info(id: 4330, name: 'GEORGIAN LETTER CAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10EA, name: 'GEORGIAN LETTER CAN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_CAN = "\u{10EA}";
 
-    #[Info(id: 4331, name: 'GEORGIAN LETTER JIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10EB, name: 'GEORGIAN LETTER JIL', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_JIL = "\u{10EB}";
 
-    #[Info(id: 4332, name: 'GEORGIAN LETTER CIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10EC, name: 'GEORGIAN LETTER CIL', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_CIL = "\u{10EC}";
 
-    #[Info(id: 4333, name: 'GEORGIAN LETTER CHAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10ED, name: 'GEORGIAN LETTER CHAR', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_CHAR = "\u{10ED}";
 
-    #[Info(id: 4334, name: 'GEORGIAN LETTER XAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10EE, name: 'GEORGIAN LETTER XAN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_XAN = "\u{10EE}";
 
-    #[Info(id: 4335, name: 'GEORGIAN LETTER JHAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10EF, name: 'GEORGIAN LETTER JHAN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_JHAN = "\u{10EF}";
 
-    #[Info(id: 4336, name: 'GEORGIAN LETTER HAE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10F0, name: 'GEORGIAN LETTER HAE', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_HAE = "\u{10F0}";
 
-    #[Info(id: 4337, name: 'GEORGIAN LETTER HE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10F1, name: 'GEORGIAN LETTER HE', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_HE = "\u{10F1}";
 
-    #[Info(id: 4338, name: 'GEORGIAN LETTER HIE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10F2, name: 'GEORGIAN LETTER HIE', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_HIE = "\u{10F2}";
 
-    #[Info(id: 4339, name: 'GEORGIAN LETTER WE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10F3, name: 'GEORGIAN LETTER WE', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_WE = "\u{10F3}";
 
-    #[Info(id: 4340, name: 'GEORGIAN LETTER HAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10F4, name: 'GEORGIAN LETTER HAR', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_HAR = "\u{10F4}";
 
-    #[Info(id: 4341, name: 'GEORGIAN LETTER HOE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10F5, name: 'GEORGIAN LETTER HOE', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_HOE = "\u{10F5}";
 
-    #[Info(id: 4342, name: 'GEORGIAN LETTER FI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10F6, name: 'GEORGIAN LETTER FI', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_FI = "\u{10F6}";
 
-    #[Info(id: 4343, name: 'GEORGIAN LETTER YN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10F7, name: 'GEORGIAN LETTER YN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_YN = "\u{10F7}";
 
-    #[Info(id: 4344, name: 'GEORGIAN LETTER ELIFI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10F8, name: 'GEORGIAN LETTER ELIFI', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_ELIFI = "\u{10F8}";
 
-    #[Info(id: 4345, name: 'GEORGIAN LETTER TURNED GAN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10F9, name: 'GEORGIAN LETTER TURNED GAN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_TURNED_GAN = "\u{10F9}";
 
-    #[Info(id: 4346, name: 'GEORGIAN LETTER AIN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10FA, name: 'GEORGIAN LETTER AIN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_AIN = "\u{10FA}";
 
-    #[Info(id: 4347, name: 'GEORGIAN PARAGRAPH SEPARATOR', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10FB, name: 'GEORGIAN PARAGRAPH SEPARATOR', category: Cat::Other_Punctuation)]
     case GEORGIAN_PARAGRAPH_SEPARATOR = "\u{10FB}";
 
-    #[Info(id: 4348, name: 'MODIFIER LETTER GEORGIAN NAR', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x10FC, name: 'MODIFIER LETTER GEORGIAN NAR', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_GEORGIAN_NAR = "\u{10FC}";
 
-    #[Info(id: 4349, name: 'GEORGIAN LETTER AEN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10FD, name: 'GEORGIAN LETTER AEN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_AEN = "\u{10FD}";
 
-    #[Info(id: 4350, name: 'GEORGIAN LETTER HARD SIGN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10FE, name: 'GEORGIAN LETTER HARD SIGN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_HARD_SIGN = "\u{10FE}";
 
-    #[Info(id: 4351, name: 'GEORGIAN LETTER LABIAL SIGN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x10FF, name: 'GEORGIAN LETTER LABIAL SIGN', category: Cat::Lowercase_Letter)]
     case GEORGIAN_LETTER_LABIAL_SIGN = "\u{10FF}";
 }

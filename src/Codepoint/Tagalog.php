@@ -16,72 +16,72 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Tagalog: string
 {
-    #[Info(id: 5888, name: 'TAGALOG LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1700, name: 'TAGALOG LETTER A', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_A = "\u{1700}";
 
-    #[Info(id: 5889, name: 'TAGALOG LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1701, name: 'TAGALOG LETTER I', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_I = "\u{1701}";
 
-    #[Info(id: 5890, name: 'TAGALOG LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1702, name: 'TAGALOG LETTER U', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_U = "\u{1702}";
 
-    #[Info(id: 5891, name: 'TAGALOG LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1703, name: 'TAGALOG LETTER KA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_KA = "\u{1703}";
 
-    #[Info(id: 5892, name: 'TAGALOG LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1704, name: 'TAGALOG LETTER GA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_GA = "\u{1704}";
 
-    #[Info(id: 5893, name: 'TAGALOG LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1705, name: 'TAGALOG LETTER NGA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_NGA = "\u{1705}";
 
-    #[Info(id: 5894, name: 'TAGALOG LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1706, name: 'TAGALOG LETTER TA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_TA = "\u{1706}";
 
-    #[Info(id: 5895, name: 'TAGALOG LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1707, name: 'TAGALOG LETTER DA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_DA = "\u{1707}";
 
-    #[Info(id: 5896, name: 'TAGALOG LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1708, name: 'TAGALOG LETTER NA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_NA = "\u{1708}";
 
-    #[Info(id: 5897, name: 'TAGALOG LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1709, name: 'TAGALOG LETTER PA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_PA = "\u{1709}";
 
-    #[Info(id: 5898, name: 'TAGALOG LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x170A, name: 'TAGALOG LETTER BA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_BA = "\u{170A}";
 
-    #[Info(id: 5899, name: 'TAGALOG LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x170B, name: 'TAGALOG LETTER MA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_MA = "\u{170B}";
 
-    #[Info(id: 5900, name: 'TAGALOG LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x170C, name: 'TAGALOG LETTER YA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_YA = "\u{170C}";
 
-    #[Info(id: 5901, name: 'TAGALOG LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x170D, name: 'TAGALOG LETTER RA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_RA = "\u{170D}";
 
-    #[Info(id: 5902, name: 'TAGALOG LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x170E, name: 'TAGALOG LETTER LA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_LA = "\u{170E}";
 
-    #[Info(id: 5903, name: 'TAGALOG LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x170F, name: 'TAGALOG LETTER WA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_WA = "\u{170F}";
 
-    #[Info(id: 5904, name: 'TAGALOG LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1710, name: 'TAGALOG LETTER SA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_SA = "\u{1710}";
 
-    #[Info(id: 5905, name: 'TAGALOG LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1711, name: 'TAGALOG LETTER HA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_HA = "\u{1711}";
 
-    #[Info(id: 5906, name: 'TAGALOG VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1712, name: 'TAGALOG VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case TAGALOG_VOWEL_SIGN_I = "\u{1712}";
 
-    #[Info(id: 5907, name: 'TAGALOG VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1713, name: 'TAGALOG VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case TAGALOG_VOWEL_SIGN_U = "\u{1713}";
 
-    #[Info(id: 5908, name: 'TAGALOG SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1714, name: 'TAGALOG SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case TAGALOG_SIGN_VIRAMA = "\u{1714}";
 
-    #[Info(id: 5909, name: 'TAGALOG SIGN PAMUDPOD', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1715, name: 'TAGALOG SIGN PAMUDPOD', category: Cat::Spacing_Mark)]
     case TAGALOG_SIGN_PAMUDPOD = "\u{1715}";
 
-    #[Info(id: 5919, name: 'TAGALOG LETTER ARCHAIC RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x171F, name: 'TAGALOG LETTER ARCHAIC RA', category: Cat::Other_Letter)]
     case TAGALOG_LETTER_ARCHAIC_RA = "\u{171F}";
 }

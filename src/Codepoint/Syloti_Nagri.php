@@ -16,138 +16,138 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Syloti_Nagri: string
 {
-    #[Info(id: 43008, name: 'SYLOTI NAGRI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xA800, name: 'SYLOTI NAGRI LETTER A', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_A = "\u{A800}";
 
-    #[Info(id: 43009, name: 'SYLOTI NAGRI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xA801, name: 'SYLOTI NAGRI LETTER I', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_I = "\u{A801}";
 
-    #[Info(id: 43010, name: 'SYLOTI NAGRI SIGN DVISVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA802, name: 'SYLOTI NAGRI SIGN DVISVARA', category: Cat::Nonspacing_Mark)]
     case SYLOTI_NAGRI_SIGN_DVISVARA = "\u{A802}";
 
-    #[Info(id: 43011, name: 'SYLOTI NAGRI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0xA803, name: 'SYLOTI NAGRI LETTER U', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_U = "\u{A803}";
 
-    #[Info(id: 43012, name: 'SYLOTI NAGRI LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0xA804, name: 'SYLOTI NAGRI LETTER E', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_E = "\u{A804}";
 
-    #[Info(id: 43013, name: 'SYLOTI NAGRI LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xA805, name: 'SYLOTI NAGRI LETTER O', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_O = "\u{A805}";
 
-    #[Info(id: 43014, name: 'SYLOTI NAGRI SIGN HASANTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA806, name: 'SYLOTI NAGRI SIGN HASANTA', category: Cat::Nonspacing_Mark)]
     case SYLOTI_NAGRI_SIGN_HASANTA = "\u{A806}";
 
-    #[Info(id: 43015, name: 'SYLOTI NAGRI LETTER KO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA807, name: 'SYLOTI NAGRI LETTER KO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_KO = "\u{A807}";
 
-    #[Info(id: 43016, name: 'SYLOTI NAGRI LETTER KHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA808, name: 'SYLOTI NAGRI LETTER KHO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_KHO = "\u{A808}";
 
-    #[Info(id: 43017, name: 'SYLOTI NAGRI LETTER GO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA809, name: 'SYLOTI NAGRI LETTER GO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_GO = "\u{A809}";
 
-    #[Info(id: 43018, name: 'SYLOTI NAGRI LETTER GHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA80A, name: 'SYLOTI NAGRI LETTER GHO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_GHO = "\u{A80A}";
 
-    #[Info(id: 43019, name: 'SYLOTI NAGRI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA80B, name: 'SYLOTI NAGRI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case SYLOTI_NAGRI_SIGN_ANUSVARA = "\u{A80B}";
 
-    #[Info(id: 43020, name: 'SYLOTI NAGRI LETTER CO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA80C, name: 'SYLOTI NAGRI LETTER CO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_CO = "\u{A80C}";
 
-    #[Info(id: 43021, name: 'SYLOTI NAGRI LETTER CHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA80D, name: 'SYLOTI NAGRI LETTER CHO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_CHO = "\u{A80D}";
 
-    #[Info(id: 43022, name: 'SYLOTI NAGRI LETTER JO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA80E, name: 'SYLOTI NAGRI LETTER JO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_JO = "\u{A80E}";
 
-    #[Info(id: 43023, name: 'SYLOTI NAGRI LETTER JHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA80F, name: 'SYLOTI NAGRI LETTER JHO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_JHO = "\u{A80F}";
 
-    #[Info(id: 43024, name: 'SYLOTI NAGRI LETTER TTO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA810, name: 'SYLOTI NAGRI LETTER TTO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_TTO = "\u{A810}";
 
-    #[Info(id: 43025, name: 'SYLOTI NAGRI LETTER TTHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA811, name: 'SYLOTI NAGRI LETTER TTHO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_TTHO = "\u{A811}";
 
-    #[Info(id: 43026, name: 'SYLOTI NAGRI LETTER DDO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA812, name: 'SYLOTI NAGRI LETTER DDO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_DDO = "\u{A812}";
 
-    #[Info(id: 43027, name: 'SYLOTI NAGRI LETTER DDHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA813, name: 'SYLOTI NAGRI LETTER DDHO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_DDHO = "\u{A813}";
 
-    #[Info(id: 43028, name: 'SYLOTI NAGRI LETTER TO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA814, name: 'SYLOTI NAGRI LETTER TO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_TO = "\u{A814}";
 
-    #[Info(id: 43029, name: 'SYLOTI NAGRI LETTER THO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA815, name: 'SYLOTI NAGRI LETTER THO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_THO = "\u{A815}";
 
-    #[Info(id: 43030, name: 'SYLOTI NAGRI LETTER DO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA816, name: 'SYLOTI NAGRI LETTER DO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_DO = "\u{A816}";
 
-    #[Info(id: 43031, name: 'SYLOTI NAGRI LETTER DHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA817, name: 'SYLOTI NAGRI LETTER DHO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_DHO = "\u{A817}";
 
-    #[Info(id: 43032, name: 'SYLOTI NAGRI LETTER NO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA818, name: 'SYLOTI NAGRI LETTER NO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_NO = "\u{A818}";
 
-    #[Info(id: 43033, name: 'SYLOTI NAGRI LETTER PO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA819, name: 'SYLOTI NAGRI LETTER PO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_PO = "\u{A819}";
 
-    #[Info(id: 43034, name: 'SYLOTI NAGRI LETTER PHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA81A, name: 'SYLOTI NAGRI LETTER PHO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_PHO = "\u{A81A}";
 
-    #[Info(id: 43035, name: 'SYLOTI NAGRI LETTER BO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA81B, name: 'SYLOTI NAGRI LETTER BO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_BO = "\u{A81B}";
 
-    #[Info(id: 43036, name: 'SYLOTI NAGRI LETTER BHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA81C, name: 'SYLOTI NAGRI LETTER BHO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_BHO = "\u{A81C}";
 
-    #[Info(id: 43037, name: 'SYLOTI NAGRI LETTER MO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA81D, name: 'SYLOTI NAGRI LETTER MO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_MO = "\u{A81D}";
 
-    #[Info(id: 43038, name: 'SYLOTI NAGRI LETTER RO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA81E, name: 'SYLOTI NAGRI LETTER RO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_RO = "\u{A81E}";
 
-    #[Info(id: 43039, name: 'SYLOTI NAGRI LETTER LO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA81F, name: 'SYLOTI NAGRI LETTER LO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_LO = "\u{A81F}";
 
-    #[Info(id: 43040, name: 'SYLOTI NAGRI LETTER RRO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA820, name: 'SYLOTI NAGRI LETTER RRO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_RRO = "\u{A820}";
 
-    #[Info(id: 43041, name: 'SYLOTI NAGRI LETTER SO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA821, name: 'SYLOTI NAGRI LETTER SO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_SO = "\u{A821}";
 
-    #[Info(id: 43042, name: 'SYLOTI NAGRI LETTER HO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA822, name: 'SYLOTI NAGRI LETTER HO', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_HO = "\u{A822}";
 
-    #[Info(id: 43043, name: 'SYLOTI NAGRI VOWEL SIGN A', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA823, name: 'SYLOTI NAGRI VOWEL SIGN A', category: Cat::Spacing_Mark)]
     case SYLOTI_NAGRI_VOWEL_SIGN_A = "\u{A823}";
 
-    #[Info(id: 43044, name: 'SYLOTI NAGRI VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA824, name: 'SYLOTI NAGRI VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case SYLOTI_NAGRI_VOWEL_SIGN_I = "\u{A824}";
 
-    #[Info(id: 43045, name: 'SYLOTI NAGRI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA825, name: 'SYLOTI NAGRI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case SYLOTI_NAGRI_VOWEL_SIGN_U = "\u{A825}";
 
-    #[Info(id: 43046, name: 'SYLOTI NAGRI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA826, name: 'SYLOTI NAGRI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case SYLOTI_NAGRI_VOWEL_SIGN_E = "\u{A826}";
 
-    #[Info(id: 43047, name: 'SYLOTI NAGRI VOWEL SIGN OO', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA827, name: 'SYLOTI NAGRI VOWEL SIGN OO', category: Cat::Spacing_Mark)]
     case SYLOTI_NAGRI_VOWEL_SIGN_OO = "\u{A827}";
 
-    #[Info(id: 43048, name: 'SYLOTI NAGRI POETRY MARK-1', category: Cat::Other_Symbol)]
+    #[Info(id: 0xA828, name: 'SYLOTI NAGRI POETRY MARK-1', category: Cat::Other_Symbol)]
     case SYLOTI_NAGRI_POETRY_MARK_1 = "\u{A828}";
 
-    #[Info(id: 43049, name: 'SYLOTI NAGRI POETRY MARK-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0xA829, name: 'SYLOTI NAGRI POETRY MARK-2', category: Cat::Other_Symbol)]
     case SYLOTI_NAGRI_POETRY_MARK_2 = "\u{A829}";
 
-    #[Info(id: 43050, name: 'SYLOTI NAGRI POETRY MARK-3', category: Cat::Other_Symbol)]
+    #[Info(id: 0xA82A, name: 'SYLOTI NAGRI POETRY MARK-3', category: Cat::Other_Symbol)]
     case SYLOTI_NAGRI_POETRY_MARK_3 = "\u{A82A}";
 
-    #[Info(id: 43051, name: 'SYLOTI NAGRI POETRY MARK-4', category: Cat::Other_Symbol)]
+    #[Info(id: 0xA82B, name: 'SYLOTI NAGRI POETRY MARK-4', category: Cat::Other_Symbol)]
     case SYLOTI_NAGRI_POETRY_MARK_4 = "\u{A82B}";
 
-    #[Info(id: 43052, name: 'SYLOTI NAGRI SIGN ALTERNATE HASANTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA82C, name: 'SYLOTI NAGRI SIGN ALTERNATE HASANTA', category: Cat::Nonspacing_Mark)]
     case SYLOTI_NAGRI_SIGN_ALTERNATE_HASANTA = "\u{A82C}";
 }

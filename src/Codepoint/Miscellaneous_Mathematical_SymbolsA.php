@@ -16,147 +16,147 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Miscellaneous_Mathematical_SymbolsA: string
 {
-    #[Info(id: 10176, name: 'THREE DIMENSIONAL ANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27C0, name: 'THREE DIMENSIONAL ANGLE', category: Cat::Math_Symbol)]
     case THREE_DIMENSIONAL_ANGLE = "\u{27C0}";
 
-    #[Info(id: 10177, name: 'WHITE TRIANGLE CONTAINING SMALL WHITE TRIANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27C1, name: 'WHITE TRIANGLE CONTAINING SMALL WHITE TRIANGLE', category: Cat::Math_Symbol)]
     case WHITE_TRIANGLE_CONTAINING_SMALL_WHITE_TRIANGLE = "\u{27C1}";
 
-    #[Info(id: 10178, name: 'PERPENDICULAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27C2, name: 'PERPENDICULAR', category: Cat::Math_Symbol)]
     case PERPENDICULAR = "\u{27C2}";
 
-    #[Info(id: 10179, name: 'OPEN SUBSET', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27C3, name: 'OPEN SUBSET', category: Cat::Math_Symbol)]
     case OPEN_SUBSET = "\u{27C3}";
 
-    #[Info(id: 10180, name: 'OPEN SUPERSET', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27C4, name: 'OPEN SUPERSET', category: Cat::Math_Symbol)]
     case OPEN_SUPERSET = "\u{27C4}";
 
-    #[Info(id: 10181, name: 'LEFT S-SHAPED BAG DELIMITER', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x27C5, name: 'LEFT S-SHAPED BAG DELIMITER', category: Cat::Open_Punctuation)]
     case LEFT_S_SHAPED_BAG_DELIMITER = "\u{27C5}";
 
-    #[Info(id: 10182, name: 'RIGHT S-SHAPED BAG DELIMITER', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x27C6, name: 'RIGHT S-SHAPED BAG DELIMITER', category: Cat::Close_Punctuation)]
     case RIGHT_S_SHAPED_BAG_DELIMITER = "\u{27C6}";
 
-    #[Info(id: 10183, name: 'OR WITH DOT INSIDE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27C7, name: 'OR WITH DOT INSIDE', category: Cat::Math_Symbol)]
     case OR_WITH_DOT_INSIDE = "\u{27C7}";
 
-    #[Info(id: 10184, name: 'REVERSE SOLIDUS PRECEDING SUBSET', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27C8, name: 'REVERSE SOLIDUS PRECEDING SUBSET', category: Cat::Math_Symbol)]
     case REVERSE_SOLIDUS_PRECEDING_SUBSET = "\u{27C8}";
 
-    #[Info(id: 10185, name: 'SUPERSET PRECEDING SOLIDUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27C9, name: 'SUPERSET PRECEDING SOLIDUS', category: Cat::Math_Symbol)]
     case SUPERSET_PRECEDING_SOLIDUS = "\u{27C9}";
 
-    #[Info(id: 10186, name: 'VERTICAL BAR WITH HORIZONTAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27CA, name: 'VERTICAL BAR WITH HORIZONTAL STROKE', category: Cat::Math_Symbol)]
     case VERTICAL_BAR_WITH_HORIZONTAL_STROKE = "\u{27CA}";
 
-    #[Info(id: 10187, name: 'MATHEMATICAL RISING DIAGONAL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27CB, name: 'MATHEMATICAL RISING DIAGONAL', category: Cat::Math_Symbol)]
     case MATHEMATICAL_RISING_DIAGONAL = "\u{27CB}";
 
-    #[Info(id: 10188, name: 'LONG DIVISION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27CC, name: 'LONG DIVISION', category: Cat::Math_Symbol)]
     case LONG_DIVISION = "\u{27CC}";
 
-    #[Info(id: 10189, name: 'MATHEMATICAL FALLING DIAGONAL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27CD, name: 'MATHEMATICAL FALLING DIAGONAL', category: Cat::Math_Symbol)]
     case MATHEMATICAL_FALLING_DIAGONAL = "\u{27CD}";
 
-    #[Info(id: 10190, name: 'SQUARED LOGICAL AND', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27CE, name: 'SQUARED LOGICAL AND', category: Cat::Math_Symbol)]
     case SQUARED_LOGICAL_AND = "\u{27CE}";
 
-    #[Info(id: 10191, name: 'SQUARED LOGICAL OR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27CF, name: 'SQUARED LOGICAL OR', category: Cat::Math_Symbol)]
     case SQUARED_LOGICAL_OR = "\u{27CF}";
 
-    #[Info(id: 10192, name: 'WHITE DIAMOND WITH CENTRED DOT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D0, name: 'WHITE DIAMOND WITH CENTRED DOT', category: Cat::Math_Symbol)]
     case WHITE_DIAMOND_WITH_CENTRED_DOT = "\u{27D0}";
 
-    #[Info(id: 10193, name: 'AND WITH DOT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D1, name: 'AND WITH DOT', category: Cat::Math_Symbol)]
     case AND_WITH_DOT = "\u{27D1}";
 
-    #[Info(id: 10194, name: 'ELEMENT OF OPENING UPWARDS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D2, name: 'ELEMENT OF OPENING UPWARDS', category: Cat::Math_Symbol)]
     case ELEMENT_OF_OPENING_UPWARDS = "\u{27D2}";
 
-    #[Info(id: 10195, name: 'LOWER RIGHT CORNER WITH DOT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D3, name: 'LOWER RIGHT CORNER WITH DOT', category: Cat::Math_Symbol)]
     case LOWER_RIGHT_CORNER_WITH_DOT = "\u{27D3}";
 
-    #[Info(id: 10196, name: 'UPPER LEFT CORNER WITH DOT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D4, name: 'UPPER LEFT CORNER WITH DOT', category: Cat::Math_Symbol)]
     case UPPER_LEFT_CORNER_WITH_DOT = "\u{27D4}";
 
-    #[Info(id: 10197, name: 'LEFT OUTER JOIN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D5, name: 'LEFT OUTER JOIN', category: Cat::Math_Symbol)]
     case LEFT_OUTER_JOIN = "\u{27D5}";
 
-    #[Info(id: 10198, name: 'RIGHT OUTER JOIN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D6, name: 'RIGHT OUTER JOIN', category: Cat::Math_Symbol)]
     case RIGHT_OUTER_JOIN = "\u{27D6}";
 
-    #[Info(id: 10199, name: 'FULL OUTER JOIN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D7, name: 'FULL OUTER JOIN', category: Cat::Math_Symbol)]
     case FULL_OUTER_JOIN = "\u{27D7}";
 
-    #[Info(id: 10200, name: 'LARGE UP TACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D8, name: 'LARGE UP TACK', category: Cat::Math_Symbol)]
     case LARGE_UP_TACK = "\u{27D8}";
 
-    #[Info(id: 10201, name: 'LARGE DOWN TACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27D9, name: 'LARGE DOWN TACK', category: Cat::Math_Symbol)]
     case LARGE_DOWN_TACK = "\u{27D9}";
 
-    #[Info(id: 10202, name: 'LEFT AND RIGHT DOUBLE TURNSTILE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27DA, name: 'LEFT AND RIGHT DOUBLE TURNSTILE', category: Cat::Math_Symbol)]
     case LEFT_AND_RIGHT_DOUBLE_TURNSTILE = "\u{27DA}";
 
-    #[Info(id: 10203, name: 'LEFT AND RIGHT TACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27DB, name: 'LEFT AND RIGHT TACK', category: Cat::Math_Symbol)]
     case LEFT_AND_RIGHT_TACK = "\u{27DB}";
 
-    #[Info(id: 10204, name: 'LEFT MULTIMAP', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27DC, name: 'LEFT MULTIMAP', category: Cat::Math_Symbol)]
     case LEFT_MULTIMAP = "\u{27DC}";
 
-    #[Info(id: 10205, name: 'LONG RIGHT TACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27DD, name: 'LONG RIGHT TACK', category: Cat::Math_Symbol)]
     case LONG_RIGHT_TACK = "\u{27DD}";
 
-    #[Info(id: 10206, name: 'LONG LEFT TACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27DE, name: 'LONG LEFT TACK', category: Cat::Math_Symbol)]
     case LONG_LEFT_TACK = "\u{27DE}";
 
-    #[Info(id: 10207, name: 'UP TACK WITH CIRCLE ABOVE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27DF, name: 'UP TACK WITH CIRCLE ABOVE', category: Cat::Math_Symbol)]
     case UP_TACK_WITH_CIRCLE_ABOVE = "\u{27DF}";
 
-    #[Info(id: 10208, name: 'LOZENGE DIVIDED BY HORIZONTAL RULE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27E0, name: 'LOZENGE DIVIDED BY HORIZONTAL RULE', category: Cat::Math_Symbol)]
     case LOZENGE_DIVIDED_BY_HORIZONTAL_RULE = "\u{27E0}";
 
-    #[Info(id: 10209, name: 'WHITE CONCAVE-SIDED DIAMOND', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27E1, name: 'WHITE CONCAVE-SIDED DIAMOND', category: Cat::Math_Symbol)]
     case WHITE_CONCAVE_SIDED_DIAMOND = "\u{27E1}";
 
-    #[Info(id: 10210, name: 'WHITE CONCAVE-SIDED DIAMOND WITH LEFTWARDS TICK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27E2, name: 'WHITE CONCAVE-SIDED DIAMOND WITH LEFTWARDS TICK', category: Cat::Math_Symbol)]
     case WHITE_CONCAVE_SIDED_DIAMOND_WITH_LEFTWARDS_TICK = "\u{27E2}";
 
-    #[Info(id: 10211, name: 'WHITE CONCAVE-SIDED DIAMOND WITH RIGHTWARDS TICK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27E3, name: 'WHITE CONCAVE-SIDED DIAMOND WITH RIGHTWARDS TICK', category: Cat::Math_Symbol)]
     case WHITE_CONCAVE_SIDED_DIAMOND_WITH_RIGHTWARDS_TICK = "\u{27E3}";
 
-    #[Info(id: 10212, name: 'WHITE SQUARE WITH LEFTWARDS TICK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27E4, name: 'WHITE SQUARE WITH LEFTWARDS TICK', category: Cat::Math_Symbol)]
     case WHITE_SQUARE_WITH_LEFTWARDS_TICK = "\u{27E4}";
 
-    #[Info(id: 10213, name: 'WHITE SQUARE WITH RIGHTWARDS TICK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27E5, name: 'WHITE SQUARE WITH RIGHTWARDS TICK', category: Cat::Math_Symbol)]
     case WHITE_SQUARE_WITH_RIGHTWARDS_TICK = "\u{27E5}";
 
-    #[Info(id: 10214, name: 'MATHEMATICAL LEFT WHITE SQUARE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x27E6, name: 'MATHEMATICAL LEFT WHITE SQUARE BRACKET', category: Cat::Open_Punctuation)]
     case MATHEMATICAL_LEFT_WHITE_SQUARE_BRACKET = "\u{27E6}";
 
-    #[Info(id: 10215, name: 'MATHEMATICAL RIGHT WHITE SQUARE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x27E7, name: 'MATHEMATICAL RIGHT WHITE SQUARE BRACKET', category: Cat::Close_Punctuation)]
     case MATHEMATICAL_RIGHT_WHITE_SQUARE_BRACKET = "\u{27E7}";
 
-    #[Info(id: 10216, name: 'MATHEMATICAL LEFT ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x27E8, name: 'MATHEMATICAL LEFT ANGLE BRACKET', category: Cat::Open_Punctuation)]
     case MATHEMATICAL_LEFT_ANGLE_BRACKET = "\u{27E8}";
 
-    #[Info(id: 10217, name: 'MATHEMATICAL RIGHT ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x27E9, name: 'MATHEMATICAL RIGHT ANGLE BRACKET', category: Cat::Close_Punctuation)]
     case MATHEMATICAL_RIGHT_ANGLE_BRACKET = "\u{27E9}";
 
-    #[Info(id: 10218, name: 'MATHEMATICAL LEFT DOUBLE ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x27EA, name: 'MATHEMATICAL LEFT DOUBLE ANGLE BRACKET', category: Cat::Open_Punctuation)]
     case MATHEMATICAL_LEFT_DOUBLE_ANGLE_BRACKET = "\u{27EA}";
 
-    #[Info(id: 10219, name: 'MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x27EB, name: 'MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET', category: Cat::Close_Punctuation)]
     case MATHEMATICAL_RIGHT_DOUBLE_ANGLE_BRACKET = "\u{27EB}";
 
-    #[Info(id: 10220, name: 'MATHEMATICAL LEFT WHITE TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x27EC, name: 'MATHEMATICAL LEFT WHITE TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
     case MATHEMATICAL_LEFT_WHITE_TORTOISE_SHELL_BRACKET = "\u{27EC}";
 
-    #[Info(id: 10221, name: 'MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x27ED, name: 'MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
     case MATHEMATICAL_RIGHT_WHITE_TORTOISE_SHELL_BRACKET = "\u{27ED}";
 
-    #[Info(id: 10222, name: 'MATHEMATICAL LEFT FLATTENED PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x27EE, name: 'MATHEMATICAL LEFT FLATTENED PARENTHESIS', category: Cat::Open_Punctuation)]
     case MATHEMATICAL_LEFT_FLATTENED_PARENTHESIS = "\u{27EE}";
 
-    #[Info(id: 10223, name: 'MATHEMATICAL RIGHT FLATTENED PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x27EF, name: 'MATHEMATICAL RIGHT FLATTENED PARENTHESIS', category: Cat::Close_Punctuation)]
     case MATHEMATICAL_RIGHT_FLATTENED_PARENTHESIS = "\u{27EF}";
 }

@@ -16,177 +16,177 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Alphabetic_Presentation_Forms: string
 {
-    #[Info(id: 64256, name: 'LATIN SMALL LIGATURE FF', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB00, name: 'LATIN SMALL LIGATURE FF', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LIGATURE_FF = "\u{FB00}";
 
-    #[Info(id: 64257, name: 'LATIN SMALL LIGATURE FI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB01, name: 'LATIN SMALL LIGATURE FI', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LIGATURE_FI = "\u{FB01}";
 
-    #[Info(id: 64258, name: 'LATIN SMALL LIGATURE FL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB02, name: 'LATIN SMALL LIGATURE FL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LIGATURE_FL = "\u{FB02}";
 
-    #[Info(id: 64259, name: 'LATIN SMALL LIGATURE FFI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB03, name: 'LATIN SMALL LIGATURE FFI', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LIGATURE_FFI = "\u{FB03}";
 
-    #[Info(id: 64260, name: 'LATIN SMALL LIGATURE FFL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB04, name: 'LATIN SMALL LIGATURE FFL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LIGATURE_FFL = "\u{FB04}";
 
-    #[Info(id: 64261, name: 'LATIN SMALL LIGATURE LONG S T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB05, name: 'LATIN SMALL LIGATURE LONG S T', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LIGATURE_LONG_S_T = "\u{FB05}";
 
-    #[Info(id: 64262, name: 'LATIN SMALL LIGATURE ST', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB06, name: 'LATIN SMALL LIGATURE ST', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LIGATURE_ST = "\u{FB06}";
 
-    #[Info(id: 64275, name: 'ARMENIAN SMALL LIGATURE MEN NOW', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB13, name: 'ARMENIAN SMALL LIGATURE MEN NOW', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LIGATURE_MEN_NOW = "\u{FB13}";
 
-    #[Info(id: 64276, name: 'ARMENIAN SMALL LIGATURE MEN ECH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB14, name: 'ARMENIAN SMALL LIGATURE MEN ECH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LIGATURE_MEN_ECH = "\u{FB14}";
 
-    #[Info(id: 64277, name: 'ARMENIAN SMALL LIGATURE MEN INI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB15, name: 'ARMENIAN SMALL LIGATURE MEN INI', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LIGATURE_MEN_INI = "\u{FB15}";
 
-    #[Info(id: 64278, name: 'ARMENIAN SMALL LIGATURE VEW NOW', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB16, name: 'ARMENIAN SMALL LIGATURE VEW NOW', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LIGATURE_VEW_NOW = "\u{FB16}";
 
-    #[Info(id: 64279, name: 'ARMENIAN SMALL LIGATURE MEN XEH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB17, name: 'ARMENIAN SMALL LIGATURE MEN XEH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LIGATURE_MEN_XEH = "\u{FB17}";
 
-    #[Info(id: 64285, name: 'HEBREW LETTER YOD WITH HIRIQ', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB1D, name: 'HEBREW LETTER YOD WITH HIRIQ', category: Cat::Other_Letter)]
     case HEBREW_LETTER_YOD_WITH_HIRIQ = "\u{FB1D}";
 
-    #[Info(id: 64286, name: 'HEBREW POINT JUDEO-SPANISH VARIKA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB1E, name: 'HEBREW POINT JUDEO-SPANISH VARIKA', category: Cat::Nonspacing_Mark)]
     case HEBREW_POINT_JUDEO_SPANISH_VARIKA = "\u{FB1E}";
 
-    #[Info(id: 64287, name: 'HEBREW LIGATURE YIDDISH YOD YOD PATAH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB1F, name: 'HEBREW LIGATURE YIDDISH YOD YOD PATAH', category: Cat::Other_Letter)]
     case HEBREW_LIGATURE_YIDDISH_YOD_YOD_PATAH = "\u{FB1F}";
 
-    #[Info(id: 64288, name: 'HEBREW LETTER ALTERNATIVE AYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB20, name: 'HEBREW LETTER ALTERNATIVE AYIN', category: Cat::Other_Letter)]
     case HEBREW_LETTER_ALTERNATIVE_AYIN = "\u{FB20}";
 
-    #[Info(id: 64289, name: 'HEBREW LETTER WIDE ALEF', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB21, name: 'HEBREW LETTER WIDE ALEF', category: Cat::Other_Letter)]
     case HEBREW_LETTER_WIDE_ALEF = "\u{FB21}";
 
-    #[Info(id: 64290, name: 'HEBREW LETTER WIDE DALET', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB22, name: 'HEBREW LETTER WIDE DALET', category: Cat::Other_Letter)]
     case HEBREW_LETTER_WIDE_DALET = "\u{FB22}";
 
-    #[Info(id: 64291, name: 'HEBREW LETTER WIDE HE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB23, name: 'HEBREW LETTER WIDE HE', category: Cat::Other_Letter)]
     case HEBREW_LETTER_WIDE_HE = "\u{FB23}";
 
-    #[Info(id: 64292, name: 'HEBREW LETTER WIDE KAF', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB24, name: 'HEBREW LETTER WIDE KAF', category: Cat::Other_Letter)]
     case HEBREW_LETTER_WIDE_KAF = "\u{FB24}";
 
-    #[Info(id: 64293, name: 'HEBREW LETTER WIDE LAMED', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB25, name: 'HEBREW LETTER WIDE LAMED', category: Cat::Other_Letter)]
     case HEBREW_LETTER_WIDE_LAMED = "\u{FB25}";
 
-    #[Info(id: 64294, name: 'HEBREW LETTER WIDE FINAL MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB26, name: 'HEBREW LETTER WIDE FINAL MEM', category: Cat::Other_Letter)]
     case HEBREW_LETTER_WIDE_FINAL_MEM = "\u{FB26}";
 
-    #[Info(id: 64295, name: 'HEBREW LETTER WIDE RESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB27, name: 'HEBREW LETTER WIDE RESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_WIDE_RESH = "\u{FB27}";
 
-    #[Info(id: 64296, name: 'HEBREW LETTER WIDE TAV', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB28, name: 'HEBREW LETTER WIDE TAV', category: Cat::Other_Letter)]
     case HEBREW_LETTER_WIDE_TAV = "\u{FB28}";
 
-    #[Info(id: 64297, name: 'HEBREW LETTER ALTERNATIVE PLUS SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFB29, name: 'HEBREW LETTER ALTERNATIVE PLUS SIGN', category: Cat::Math_Symbol)]
     case HEBREW_LETTER_ALTERNATIVE_PLUS_SIGN = "\u{FB29}";
 
-    #[Info(id: 64298, name: 'HEBREW LETTER SHIN WITH SHIN DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB2A, name: 'HEBREW LETTER SHIN WITH SHIN DOT', category: Cat::Other_Letter)]
     case HEBREW_LETTER_SHIN_WITH_SHIN_DOT = "\u{FB2A}";
 
-    #[Info(id: 64299, name: 'HEBREW LETTER SHIN WITH SIN DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB2B, name: 'HEBREW LETTER SHIN WITH SIN DOT', category: Cat::Other_Letter)]
     case HEBREW_LETTER_SHIN_WITH_SIN_DOT = "\u{FB2B}";
 
-    #[Info(id: 64300, name: 'HEBREW LETTER SHIN WITH DAGESH AND SHIN DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB2C, name: 'HEBREW LETTER SHIN WITH DAGESH AND SHIN DOT', category: Cat::Other_Letter)]
     case HEBREW_LETTER_SHIN_WITH_DAGESH_AND_SHIN_DOT = "\u{FB2C}";
 
-    #[Info(id: 64301, name: 'HEBREW LETTER SHIN WITH DAGESH AND SIN DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB2D, name: 'HEBREW LETTER SHIN WITH DAGESH AND SIN DOT', category: Cat::Other_Letter)]
     case HEBREW_LETTER_SHIN_WITH_DAGESH_AND_SIN_DOT = "\u{FB2D}";
 
-    #[Info(id: 64302, name: 'HEBREW LETTER ALEF WITH PATAH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB2E, name: 'HEBREW LETTER ALEF WITH PATAH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_ALEF_WITH_PATAH = "\u{FB2E}";
 
-    #[Info(id: 64303, name: 'HEBREW LETTER ALEF WITH QAMATS', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB2F, name: 'HEBREW LETTER ALEF WITH QAMATS', category: Cat::Other_Letter)]
     case HEBREW_LETTER_ALEF_WITH_QAMATS = "\u{FB2F}";
 
-    #[Info(id: 64304, name: 'HEBREW LETTER ALEF WITH MAPIQ', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB30, name: 'HEBREW LETTER ALEF WITH MAPIQ', category: Cat::Other_Letter)]
     case HEBREW_LETTER_ALEF_WITH_MAPIQ = "\u{FB30}";
 
-    #[Info(id: 64305, name: 'HEBREW LETTER BET WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB31, name: 'HEBREW LETTER BET WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_BET_WITH_DAGESH = "\u{FB31}";
 
-    #[Info(id: 64306, name: 'HEBREW LETTER GIMEL WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB32, name: 'HEBREW LETTER GIMEL WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_GIMEL_WITH_DAGESH = "\u{FB32}";
 
-    #[Info(id: 64307, name: 'HEBREW LETTER DALET WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB33, name: 'HEBREW LETTER DALET WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_DALET_WITH_DAGESH = "\u{FB33}";
 
-    #[Info(id: 64308, name: 'HEBREW LETTER HE WITH MAPIQ', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB34, name: 'HEBREW LETTER HE WITH MAPIQ', category: Cat::Other_Letter)]
     case HEBREW_LETTER_HE_WITH_MAPIQ = "\u{FB34}";
 
-    #[Info(id: 64309, name: 'HEBREW LETTER VAV WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB35, name: 'HEBREW LETTER VAV WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_VAV_WITH_DAGESH = "\u{FB35}";
 
-    #[Info(id: 64310, name: 'HEBREW LETTER ZAYIN WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB36, name: 'HEBREW LETTER ZAYIN WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_ZAYIN_WITH_DAGESH = "\u{FB36}";
 
-    #[Info(id: 64312, name: 'HEBREW LETTER TET WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB38, name: 'HEBREW LETTER TET WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_TET_WITH_DAGESH = "\u{FB38}";
 
-    #[Info(id: 64313, name: 'HEBREW LETTER YOD WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB39, name: 'HEBREW LETTER YOD WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_YOD_WITH_DAGESH = "\u{FB39}";
 
-    #[Info(id: 64314, name: 'HEBREW LETTER FINAL KAF WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB3A, name: 'HEBREW LETTER FINAL KAF WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_FINAL_KAF_WITH_DAGESH = "\u{FB3A}";
 
-    #[Info(id: 64315, name: 'HEBREW LETTER KAF WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB3B, name: 'HEBREW LETTER KAF WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_KAF_WITH_DAGESH = "\u{FB3B}";
 
-    #[Info(id: 64316, name: 'HEBREW LETTER LAMED WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB3C, name: 'HEBREW LETTER LAMED WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_LAMED_WITH_DAGESH = "\u{FB3C}";
 
-    #[Info(id: 64318, name: 'HEBREW LETTER MEM WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB3E, name: 'HEBREW LETTER MEM WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_MEM_WITH_DAGESH = "\u{FB3E}";
 
-    #[Info(id: 64320, name: 'HEBREW LETTER NUN WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB40, name: 'HEBREW LETTER NUN WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_NUN_WITH_DAGESH = "\u{FB40}";
 
-    #[Info(id: 64321, name: 'HEBREW LETTER SAMEKH WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB41, name: 'HEBREW LETTER SAMEKH WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_SAMEKH_WITH_DAGESH = "\u{FB41}";
 
-    #[Info(id: 64323, name: 'HEBREW LETTER FINAL PE WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB43, name: 'HEBREW LETTER FINAL PE WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_FINAL_PE_WITH_DAGESH = "\u{FB43}";
 
-    #[Info(id: 64324, name: 'HEBREW LETTER PE WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB44, name: 'HEBREW LETTER PE WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_PE_WITH_DAGESH = "\u{FB44}";
 
-    #[Info(id: 64326, name: 'HEBREW LETTER TSADI WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB46, name: 'HEBREW LETTER TSADI WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_TSADI_WITH_DAGESH = "\u{FB46}";
 
-    #[Info(id: 64327, name: 'HEBREW LETTER QOF WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB47, name: 'HEBREW LETTER QOF WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_QOF_WITH_DAGESH = "\u{FB47}";
 
-    #[Info(id: 64328, name: 'HEBREW LETTER RESH WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB48, name: 'HEBREW LETTER RESH WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_RESH_WITH_DAGESH = "\u{FB48}";
 
-    #[Info(id: 64329, name: 'HEBREW LETTER SHIN WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB49, name: 'HEBREW LETTER SHIN WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_SHIN_WITH_DAGESH = "\u{FB49}";
 
-    #[Info(id: 64330, name: 'HEBREW LETTER TAV WITH DAGESH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB4A, name: 'HEBREW LETTER TAV WITH DAGESH', category: Cat::Other_Letter)]
     case HEBREW_LETTER_TAV_WITH_DAGESH = "\u{FB4A}";
 
-    #[Info(id: 64331, name: 'HEBREW LETTER VAV WITH HOLAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB4B, name: 'HEBREW LETTER VAV WITH HOLAM', category: Cat::Other_Letter)]
     case HEBREW_LETTER_VAV_WITH_HOLAM = "\u{FB4B}";
 
-    #[Info(id: 64332, name: 'HEBREW LETTER BET WITH RAFE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB4C, name: 'HEBREW LETTER BET WITH RAFE', category: Cat::Other_Letter)]
     case HEBREW_LETTER_BET_WITH_RAFE = "\u{FB4C}";
 
-    #[Info(id: 64333, name: 'HEBREW LETTER KAF WITH RAFE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB4D, name: 'HEBREW LETTER KAF WITH RAFE', category: Cat::Other_Letter)]
     case HEBREW_LETTER_KAF_WITH_RAFE = "\u{FB4D}";
 
-    #[Info(id: 64334, name: 'HEBREW LETTER PE WITH RAFE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB4E, name: 'HEBREW LETTER PE WITH RAFE', category: Cat::Other_Letter)]
     case HEBREW_LETTER_PE_WITH_RAFE = "\u{FB4E}";
 
-    #[Info(id: 64335, name: 'HEBREW LIGATURE ALEF LAMED', category: Cat::Other_Letter)]
+    #[Info(id: 0xFB4F, name: 'HEBREW LIGATURE ALEF LAMED', category: Cat::Other_Letter)]
     case HEBREW_LIGATURE_ALEF_LAMED = "\u{FB4F}";
 }

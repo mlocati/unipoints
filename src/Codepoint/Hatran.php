@@ -16,81 +16,81 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Hatran: string
 {
-    #[Info(id: 67808, name: 'HATRAN LETTER ALEPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x108E0, name: 'HATRAN LETTER ALEPH', category: Cat::Other_Letter)]
     case HATRAN_LETTER_ALEPH = "\u{108E0}";
 
-    #[Info(id: 67809, name: 'HATRAN LETTER BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x108E1, name: 'HATRAN LETTER BETH', category: Cat::Other_Letter)]
     case HATRAN_LETTER_BETH = "\u{108E1}";
 
-    #[Info(id: 67810, name: 'HATRAN LETTER GIMEL', category: Cat::Other_Letter)]
+    #[Info(id: 0x108E2, name: 'HATRAN LETTER GIMEL', category: Cat::Other_Letter)]
     case HATRAN_LETTER_GIMEL = "\u{108E2}";
 
-    #[Info(id: 67811, name: 'HATRAN LETTER DALETH-RESH', category: Cat::Other_Letter)]
+    #[Info(id: 0x108E3, name: 'HATRAN LETTER DALETH-RESH', category: Cat::Other_Letter)]
     case HATRAN_LETTER_DALETH_RESH = "\u{108E3}";
 
-    #[Info(id: 67812, name: 'HATRAN LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x108E4, name: 'HATRAN LETTER HE', category: Cat::Other_Letter)]
     case HATRAN_LETTER_HE = "\u{108E4}";
 
-    #[Info(id: 67813, name: 'HATRAN LETTER WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x108E5, name: 'HATRAN LETTER WAW', category: Cat::Other_Letter)]
     case HATRAN_LETTER_WAW = "\u{108E5}";
 
-    #[Info(id: 67814, name: 'HATRAN LETTER ZAYN', category: Cat::Other_Letter)]
+    #[Info(id: 0x108E6, name: 'HATRAN LETTER ZAYN', category: Cat::Other_Letter)]
     case HATRAN_LETTER_ZAYN = "\u{108E6}";
 
-    #[Info(id: 67815, name: 'HATRAN LETTER HETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x108E7, name: 'HATRAN LETTER HETH', category: Cat::Other_Letter)]
     case HATRAN_LETTER_HETH = "\u{108E7}";
 
-    #[Info(id: 67816, name: 'HATRAN LETTER TETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x108E8, name: 'HATRAN LETTER TETH', category: Cat::Other_Letter)]
     case HATRAN_LETTER_TETH = "\u{108E8}";
 
-    #[Info(id: 67817, name: 'HATRAN LETTER YODH', category: Cat::Other_Letter)]
+    #[Info(id: 0x108E9, name: 'HATRAN LETTER YODH', category: Cat::Other_Letter)]
     case HATRAN_LETTER_YODH = "\u{108E9}";
 
-    #[Info(id: 67818, name: 'HATRAN LETTER KAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x108EA, name: 'HATRAN LETTER KAPH', category: Cat::Other_Letter)]
     case HATRAN_LETTER_KAPH = "\u{108EA}";
 
-    #[Info(id: 67819, name: 'HATRAN LETTER LAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x108EB, name: 'HATRAN LETTER LAMEDH', category: Cat::Other_Letter)]
     case HATRAN_LETTER_LAMEDH = "\u{108EB}";
 
-    #[Info(id: 67820, name: 'HATRAN LETTER MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x108EC, name: 'HATRAN LETTER MEM', category: Cat::Other_Letter)]
     case HATRAN_LETTER_MEM = "\u{108EC}";
 
-    #[Info(id: 67821, name: 'HATRAN LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x108ED, name: 'HATRAN LETTER NUN', category: Cat::Other_Letter)]
     case HATRAN_LETTER_NUN = "\u{108ED}";
 
-    #[Info(id: 67822, name: 'HATRAN LETTER SAMEKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x108EE, name: 'HATRAN LETTER SAMEKH', category: Cat::Other_Letter)]
     case HATRAN_LETTER_SAMEKH = "\u{108EE}";
 
-    #[Info(id: 67823, name: 'HATRAN LETTER AYN', category: Cat::Other_Letter)]
+    #[Info(id: 0x108EF, name: 'HATRAN LETTER AYN', category: Cat::Other_Letter)]
     case HATRAN_LETTER_AYN = "\u{108EF}";
 
-    #[Info(id: 67824, name: 'HATRAN LETTER PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x108F0, name: 'HATRAN LETTER PE', category: Cat::Other_Letter)]
     case HATRAN_LETTER_PE = "\u{108F0}";
 
-    #[Info(id: 67825, name: 'HATRAN LETTER SADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x108F1, name: 'HATRAN LETTER SADHE', category: Cat::Other_Letter)]
     case HATRAN_LETTER_SADHE = "\u{108F1}";
 
-    #[Info(id: 67826, name: 'HATRAN LETTER QOPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x108F2, name: 'HATRAN LETTER QOPH', category: Cat::Other_Letter)]
     case HATRAN_LETTER_QOPH = "\u{108F2}";
 
-    #[Info(id: 67828, name: 'HATRAN LETTER SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x108F4, name: 'HATRAN LETTER SHIN', category: Cat::Other_Letter)]
     case HATRAN_LETTER_SHIN = "\u{108F4}";
 
-    #[Info(id: 67829, name: 'HATRAN LETTER TAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x108F5, name: 'HATRAN LETTER TAW', category: Cat::Other_Letter)]
     case HATRAN_LETTER_TAW = "\u{108F5}";
 
-    #[Info(id: 67835, name: 'HATRAN NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x108FB, name: 'HATRAN NUMBER ONE', category: Cat::Other_Number)]
     case HATRAN_NUMBER_ONE = "\u{108FB}";
 
-    #[Info(id: 67836, name: 'HATRAN NUMBER FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x108FC, name: 'HATRAN NUMBER FIVE', category: Cat::Other_Number)]
     case HATRAN_NUMBER_FIVE = "\u{108FC}";
 
-    #[Info(id: 67837, name: 'HATRAN NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x108FD, name: 'HATRAN NUMBER TEN', category: Cat::Other_Number)]
     case HATRAN_NUMBER_TEN = "\u{108FD}";
 
-    #[Info(id: 67838, name: 'HATRAN NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x108FE, name: 'HATRAN NUMBER TWENTY', category: Cat::Other_Number)]
     case HATRAN_NUMBER_TWENTY = "\u{108FE}";
 
-    #[Info(id: 67839, name: 'HATRAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x108FF, name: 'HATRAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case HATRAN_NUMBER_ONE_HUNDRED = "\u{108FF}";
 }

@@ -16,90 +16,90 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Lycian: string
 {
-    #[Info(id: 66176, name: 'LYCIAN LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x10280, name: 'LYCIAN LETTER A', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_A = "\u{10280}";
 
-    #[Info(id: 66177, name: 'LYCIAN LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x10281, name: 'LYCIAN LETTER E', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_E = "\u{10281}";
 
-    #[Info(id: 66178, name: 'LYCIAN LETTER B', category: Cat::Other_Letter)]
+    #[Info(id: 0x10282, name: 'LYCIAN LETTER B', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_B = "\u{10282}";
 
-    #[Info(id: 66179, name: 'LYCIAN LETTER BH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10283, name: 'LYCIAN LETTER BH', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_BH = "\u{10283}";
 
-    #[Info(id: 66180, name: 'LYCIAN LETTER G', category: Cat::Other_Letter)]
+    #[Info(id: 0x10284, name: 'LYCIAN LETTER G', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_G = "\u{10284}";
 
-    #[Info(id: 66181, name: 'LYCIAN LETTER D', category: Cat::Other_Letter)]
+    #[Info(id: 0x10285, name: 'LYCIAN LETTER D', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_D = "\u{10285}";
 
-    #[Info(id: 66182, name: 'LYCIAN LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x10286, name: 'LYCIAN LETTER I', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_I = "\u{10286}";
 
-    #[Info(id: 66183, name: 'LYCIAN LETTER W', category: Cat::Other_Letter)]
+    #[Info(id: 0x10287, name: 'LYCIAN LETTER W', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_W = "\u{10287}";
 
-    #[Info(id: 66184, name: 'LYCIAN LETTER Z', category: Cat::Other_Letter)]
+    #[Info(id: 0x10288, name: 'LYCIAN LETTER Z', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_Z = "\u{10288}";
 
-    #[Info(id: 66185, name: 'LYCIAN LETTER TH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10289, name: 'LYCIAN LETTER TH', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_TH = "\u{10289}";
 
-    #[Info(id: 66186, name: 'LYCIAN LETTER J', category: Cat::Other_Letter)]
+    #[Info(id: 0x1028A, name: 'LYCIAN LETTER J', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_J = "\u{1028A}";
 
-    #[Info(id: 66187, name: 'LYCIAN LETTER K', category: Cat::Other_Letter)]
+    #[Info(id: 0x1028B, name: 'LYCIAN LETTER K', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_K = "\u{1028B}";
 
-    #[Info(id: 66188, name: 'LYCIAN LETTER Q', category: Cat::Other_Letter)]
+    #[Info(id: 0x1028C, name: 'LYCIAN LETTER Q', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_Q = "\u{1028C}";
 
-    #[Info(id: 66189, name: 'LYCIAN LETTER L', category: Cat::Other_Letter)]
+    #[Info(id: 0x1028D, name: 'LYCIAN LETTER L', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_L = "\u{1028D}";
 
-    #[Info(id: 66190, name: 'LYCIAN LETTER M', category: Cat::Other_Letter)]
+    #[Info(id: 0x1028E, name: 'LYCIAN LETTER M', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_M = "\u{1028E}";
 
-    #[Info(id: 66191, name: 'LYCIAN LETTER N', category: Cat::Other_Letter)]
+    #[Info(id: 0x1028F, name: 'LYCIAN LETTER N', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_N = "\u{1028F}";
 
-    #[Info(id: 66192, name: 'LYCIAN LETTER MM', category: Cat::Other_Letter)]
+    #[Info(id: 0x10290, name: 'LYCIAN LETTER MM', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_MM = "\u{10290}";
 
-    #[Info(id: 66193, name: 'LYCIAN LETTER NN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10291, name: 'LYCIAN LETTER NN', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_NN = "\u{10291}";
 
-    #[Info(id: 66194, name: 'LYCIAN LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x10292, name: 'LYCIAN LETTER U', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_U = "\u{10292}";
 
-    #[Info(id: 66195, name: 'LYCIAN LETTER P', category: Cat::Other_Letter)]
+    #[Info(id: 0x10293, name: 'LYCIAN LETTER P', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_P = "\u{10293}";
 
-    #[Info(id: 66196, name: 'LYCIAN LETTER KK', category: Cat::Other_Letter)]
+    #[Info(id: 0x10294, name: 'LYCIAN LETTER KK', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_KK = "\u{10294}";
 
-    #[Info(id: 66197, name: 'LYCIAN LETTER R', category: Cat::Other_Letter)]
+    #[Info(id: 0x10295, name: 'LYCIAN LETTER R', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_R = "\u{10295}";
 
-    #[Info(id: 66198, name: 'LYCIAN LETTER S', category: Cat::Other_Letter)]
+    #[Info(id: 0x10296, name: 'LYCIAN LETTER S', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_S = "\u{10296}";
 
-    #[Info(id: 66199, name: 'LYCIAN LETTER T', category: Cat::Other_Letter)]
+    #[Info(id: 0x10297, name: 'LYCIAN LETTER T', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_T = "\u{10297}";
 
-    #[Info(id: 66200, name: 'LYCIAN LETTER TT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10298, name: 'LYCIAN LETTER TT', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_TT = "\u{10298}";
 
-    #[Info(id: 66201, name: 'LYCIAN LETTER AN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10299, name: 'LYCIAN LETTER AN', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_AN = "\u{10299}";
 
-    #[Info(id: 66202, name: 'LYCIAN LETTER EN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1029A, name: 'LYCIAN LETTER EN', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_EN = "\u{1029A}";
 
-    #[Info(id: 66203, name: 'LYCIAN LETTER H', category: Cat::Other_Letter)]
+    #[Info(id: 0x1029B, name: 'LYCIAN LETTER H', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_H = "\u{1029B}";
 
-    #[Info(id: 66204, name: 'LYCIAN LETTER X', category: Cat::Other_Letter)]
+    #[Info(id: 0x1029C, name: 'LYCIAN LETTER X', category: Cat::Other_Letter)]
     case LYCIAN_LETTER_X = "\u{1029C}";
 }

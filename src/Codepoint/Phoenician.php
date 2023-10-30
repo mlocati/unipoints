@@ -16,90 +16,90 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Phoenician: string
 {
-    #[Info(id: 67840, name: 'PHOENICIAN LETTER ALF', category: Cat::Other_Letter)]
+    #[Info(id: 0x10900, name: 'PHOENICIAN LETTER ALF', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_ALF = "\u{10900}";
 
-    #[Info(id: 67841, name: 'PHOENICIAN LETTER BET', category: Cat::Other_Letter)]
+    #[Info(id: 0x10901, name: 'PHOENICIAN LETTER BET', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_BET = "\u{10901}";
 
-    #[Info(id: 67842, name: 'PHOENICIAN LETTER GAML', category: Cat::Other_Letter)]
+    #[Info(id: 0x10902, name: 'PHOENICIAN LETTER GAML', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_GAML = "\u{10902}";
 
-    #[Info(id: 67843, name: 'PHOENICIAN LETTER DELT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10903, name: 'PHOENICIAN LETTER DELT', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_DELT = "\u{10903}";
 
-    #[Info(id: 67844, name: 'PHOENICIAN LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10904, name: 'PHOENICIAN LETTER HE', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_HE = "\u{10904}";
 
-    #[Info(id: 67845, name: 'PHOENICIAN LETTER WAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10905, name: 'PHOENICIAN LETTER WAU', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_WAU = "\u{10905}";
 
-    #[Info(id: 67846, name: 'PHOENICIAN LETTER ZAI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10906, name: 'PHOENICIAN LETTER ZAI', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_ZAI = "\u{10906}";
 
-    #[Info(id: 67847, name: 'PHOENICIAN LETTER HET', category: Cat::Other_Letter)]
+    #[Info(id: 0x10907, name: 'PHOENICIAN LETTER HET', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_HET = "\u{10907}";
 
-    #[Info(id: 67848, name: 'PHOENICIAN LETTER TET', category: Cat::Other_Letter)]
+    #[Info(id: 0x10908, name: 'PHOENICIAN LETTER TET', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_TET = "\u{10908}";
 
-    #[Info(id: 67849, name: 'PHOENICIAN LETTER YOD', category: Cat::Other_Letter)]
+    #[Info(id: 0x10909, name: 'PHOENICIAN LETTER YOD', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_YOD = "\u{10909}";
 
-    #[Info(id: 67850, name: 'PHOENICIAN LETTER KAF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1090A, name: 'PHOENICIAN LETTER KAF', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_KAF = "\u{1090A}";
 
-    #[Info(id: 67851, name: 'PHOENICIAN LETTER LAMD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1090B, name: 'PHOENICIAN LETTER LAMD', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_LAMD = "\u{1090B}";
 
-    #[Info(id: 67852, name: 'PHOENICIAN LETTER MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1090C, name: 'PHOENICIAN LETTER MEM', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_MEM = "\u{1090C}";
 
-    #[Info(id: 67853, name: 'PHOENICIAN LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1090D, name: 'PHOENICIAN LETTER NUN', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_NUN = "\u{1090D}";
 
-    #[Info(id: 67854, name: 'PHOENICIAN LETTER SEMK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1090E, name: 'PHOENICIAN LETTER SEMK', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_SEMK = "\u{1090E}";
 
-    #[Info(id: 67855, name: 'PHOENICIAN LETTER AIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1090F, name: 'PHOENICIAN LETTER AIN', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_AIN = "\u{1090F}";
 
-    #[Info(id: 67856, name: 'PHOENICIAN LETTER PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10910, name: 'PHOENICIAN LETTER PE', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_PE = "\u{10910}";
 
-    #[Info(id: 67857, name: 'PHOENICIAN LETTER SADE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10911, name: 'PHOENICIAN LETTER SADE', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_SADE = "\u{10911}";
 
-    #[Info(id: 67858, name: 'PHOENICIAN LETTER QOF', category: Cat::Other_Letter)]
+    #[Info(id: 0x10912, name: 'PHOENICIAN LETTER QOF', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_QOF = "\u{10912}";
 
-    #[Info(id: 67859, name: 'PHOENICIAN LETTER ROSH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10913, name: 'PHOENICIAN LETTER ROSH', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_ROSH = "\u{10913}";
 
-    #[Info(id: 67860, name: 'PHOENICIAN LETTER SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10914, name: 'PHOENICIAN LETTER SHIN', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_SHIN = "\u{10914}";
 
-    #[Info(id: 67861, name: 'PHOENICIAN LETTER TAU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10915, name: 'PHOENICIAN LETTER TAU', category: Cat::Other_Letter)]
     case PHOENICIAN_LETTER_TAU = "\u{10915}";
 
-    #[Info(id: 67862, name: 'PHOENICIAN NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x10916, name: 'PHOENICIAN NUMBER ONE', category: Cat::Other_Number)]
     case PHOENICIAN_NUMBER_ONE = "\u{10916}";
 
-    #[Info(id: 67863, name: 'PHOENICIAN NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x10917, name: 'PHOENICIAN NUMBER TEN', category: Cat::Other_Number)]
     case PHOENICIAN_NUMBER_TEN = "\u{10917}";
 
-    #[Info(id: 67864, name: 'PHOENICIAN NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10918, name: 'PHOENICIAN NUMBER TWENTY', category: Cat::Other_Number)]
     case PHOENICIAN_NUMBER_TWENTY = "\u{10918}";
 
-    #[Info(id: 67865, name: 'PHOENICIAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10919, name: 'PHOENICIAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case PHOENICIAN_NUMBER_ONE_HUNDRED = "\u{10919}";
 
-    #[Info(id: 67866, name: 'PHOENICIAN NUMBER TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x1091A, name: 'PHOENICIAN NUMBER TWO', category: Cat::Other_Number)]
     case PHOENICIAN_NUMBER_TWO = "\u{1091A}";
 
-    #[Info(id: 67867, name: 'PHOENICIAN NUMBER THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x1091B, name: 'PHOENICIAN NUMBER THREE', category: Cat::Other_Number)]
     case PHOENICIAN_NUMBER_THREE = "\u{1091B}";
 
-    #[Info(id: 67871, name: 'PHOENICIAN WORD SEPARATOR', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1091F, name: 'PHOENICIAN WORD SEPARATOR', category: Cat::Other_Punctuation)]
     case PHOENICIAN_WORD_SEPARATOR = "\u{1091F}";
 }

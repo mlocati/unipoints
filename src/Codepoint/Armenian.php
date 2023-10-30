@@ -16,276 +16,276 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Armenian: string
 {
-    #[Info(id: 1329, name: 'ARMENIAN CAPITAL LETTER AYB', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x531, name: 'ARMENIAN CAPITAL LETTER AYB', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_AYB = "\u{531}";
 
-    #[Info(id: 1330, name: 'ARMENIAN CAPITAL LETTER BEN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x532, name: 'ARMENIAN CAPITAL LETTER BEN', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_BEN = "\u{532}";
 
-    #[Info(id: 1331, name: 'ARMENIAN CAPITAL LETTER GIM', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x533, name: 'ARMENIAN CAPITAL LETTER GIM', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_GIM = "\u{533}";
 
-    #[Info(id: 1332, name: 'ARMENIAN CAPITAL LETTER DA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x534, name: 'ARMENIAN CAPITAL LETTER DA', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_DA = "\u{534}";
 
-    #[Info(id: 1333, name: 'ARMENIAN CAPITAL LETTER ECH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x535, name: 'ARMENIAN CAPITAL LETTER ECH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_ECH = "\u{535}";
 
-    #[Info(id: 1334, name: 'ARMENIAN CAPITAL LETTER ZA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x536, name: 'ARMENIAN CAPITAL LETTER ZA', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_ZA = "\u{536}";
 
-    #[Info(id: 1335, name: 'ARMENIAN CAPITAL LETTER EH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x537, name: 'ARMENIAN CAPITAL LETTER EH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_EH = "\u{537}";
 
-    #[Info(id: 1336, name: 'ARMENIAN CAPITAL LETTER ET', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x538, name: 'ARMENIAN CAPITAL LETTER ET', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_ET = "\u{538}";
 
-    #[Info(id: 1337, name: 'ARMENIAN CAPITAL LETTER TO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x539, name: 'ARMENIAN CAPITAL LETTER TO', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_TO = "\u{539}";
 
-    #[Info(id: 1338, name: 'ARMENIAN CAPITAL LETTER ZHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x53A, name: 'ARMENIAN CAPITAL LETTER ZHE', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_ZHE = "\u{53A}";
 
-    #[Info(id: 1339, name: 'ARMENIAN CAPITAL LETTER INI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x53B, name: 'ARMENIAN CAPITAL LETTER INI', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_INI = "\u{53B}";
 
-    #[Info(id: 1340, name: 'ARMENIAN CAPITAL LETTER LIWN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x53C, name: 'ARMENIAN CAPITAL LETTER LIWN', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_LIWN = "\u{53C}";
 
-    #[Info(id: 1341, name: 'ARMENIAN CAPITAL LETTER XEH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x53D, name: 'ARMENIAN CAPITAL LETTER XEH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_XEH = "\u{53D}";
 
-    #[Info(id: 1342, name: 'ARMENIAN CAPITAL LETTER CA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x53E, name: 'ARMENIAN CAPITAL LETTER CA', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_CA = "\u{53E}";
 
-    #[Info(id: 1343, name: 'ARMENIAN CAPITAL LETTER KEN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x53F, name: 'ARMENIAN CAPITAL LETTER KEN', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_KEN = "\u{53F}";
 
-    #[Info(id: 1344, name: 'ARMENIAN CAPITAL LETTER HO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x540, name: 'ARMENIAN CAPITAL LETTER HO', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_HO = "\u{540}";
 
-    #[Info(id: 1345, name: 'ARMENIAN CAPITAL LETTER JA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x541, name: 'ARMENIAN CAPITAL LETTER JA', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_JA = "\u{541}";
 
-    #[Info(id: 1346, name: 'ARMENIAN CAPITAL LETTER GHAD', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x542, name: 'ARMENIAN CAPITAL LETTER GHAD', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_GHAD = "\u{542}";
 
-    #[Info(id: 1347, name: 'ARMENIAN CAPITAL LETTER CHEH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x543, name: 'ARMENIAN CAPITAL LETTER CHEH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_CHEH = "\u{543}";
 
-    #[Info(id: 1348, name: 'ARMENIAN CAPITAL LETTER MEN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x544, name: 'ARMENIAN CAPITAL LETTER MEN', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_MEN = "\u{544}";
 
-    #[Info(id: 1349, name: 'ARMENIAN CAPITAL LETTER YI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x545, name: 'ARMENIAN CAPITAL LETTER YI', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_YI = "\u{545}";
 
-    #[Info(id: 1350, name: 'ARMENIAN CAPITAL LETTER NOW', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x546, name: 'ARMENIAN CAPITAL LETTER NOW', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_NOW = "\u{546}";
 
-    #[Info(id: 1351, name: 'ARMENIAN CAPITAL LETTER SHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x547, name: 'ARMENIAN CAPITAL LETTER SHA', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_SHA = "\u{547}";
 
-    #[Info(id: 1352, name: 'ARMENIAN CAPITAL LETTER VO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x548, name: 'ARMENIAN CAPITAL LETTER VO', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_VO = "\u{548}";
 
-    #[Info(id: 1353, name: 'ARMENIAN CAPITAL LETTER CHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x549, name: 'ARMENIAN CAPITAL LETTER CHA', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_CHA = "\u{549}";
 
-    #[Info(id: 1354, name: 'ARMENIAN CAPITAL LETTER PEH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x54A, name: 'ARMENIAN CAPITAL LETTER PEH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_PEH = "\u{54A}";
 
-    #[Info(id: 1355, name: 'ARMENIAN CAPITAL LETTER JHEH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x54B, name: 'ARMENIAN CAPITAL LETTER JHEH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_JHEH = "\u{54B}";
 
-    #[Info(id: 1356, name: 'ARMENIAN CAPITAL LETTER RA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x54C, name: 'ARMENIAN CAPITAL LETTER RA', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_RA = "\u{54C}";
 
-    #[Info(id: 1357, name: 'ARMENIAN CAPITAL LETTER SEH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x54D, name: 'ARMENIAN CAPITAL LETTER SEH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_SEH = "\u{54D}";
 
-    #[Info(id: 1358, name: 'ARMENIAN CAPITAL LETTER VEW', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x54E, name: 'ARMENIAN CAPITAL LETTER VEW', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_VEW = "\u{54E}";
 
-    #[Info(id: 1359, name: 'ARMENIAN CAPITAL LETTER TIWN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x54F, name: 'ARMENIAN CAPITAL LETTER TIWN', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_TIWN = "\u{54F}";
 
-    #[Info(id: 1360, name: 'ARMENIAN CAPITAL LETTER REH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x550, name: 'ARMENIAN CAPITAL LETTER REH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_REH = "\u{550}";
 
-    #[Info(id: 1361, name: 'ARMENIAN CAPITAL LETTER CO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x551, name: 'ARMENIAN CAPITAL LETTER CO', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_CO = "\u{551}";
 
-    #[Info(id: 1362, name: 'ARMENIAN CAPITAL LETTER YIWN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x552, name: 'ARMENIAN CAPITAL LETTER YIWN', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_YIWN = "\u{552}";
 
-    #[Info(id: 1363, name: 'ARMENIAN CAPITAL LETTER PIWR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x553, name: 'ARMENIAN CAPITAL LETTER PIWR', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_PIWR = "\u{553}";
 
-    #[Info(id: 1364, name: 'ARMENIAN CAPITAL LETTER KEH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x554, name: 'ARMENIAN CAPITAL LETTER KEH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_KEH = "\u{554}";
 
-    #[Info(id: 1365, name: 'ARMENIAN CAPITAL LETTER OH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x555, name: 'ARMENIAN CAPITAL LETTER OH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_OH = "\u{555}";
 
-    #[Info(id: 1366, name: 'ARMENIAN CAPITAL LETTER FEH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x556, name: 'ARMENIAN CAPITAL LETTER FEH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_FEH = "\u{556}";
 
-    #[Info(id: 1369, name: 'ARMENIAN MODIFIER LETTER LEFT HALF RING', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x559, name: 'ARMENIAN MODIFIER LETTER LEFT HALF RING', category: Cat::Modifier_Letter)]
     case ARMENIAN_MODIFIER_LETTER_LEFT_HALF_RING = "\u{559}";
 
-    #[Info(id: 1370, name: 'ARMENIAN APOSTROPHE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55A, name: 'ARMENIAN APOSTROPHE', category: Cat::Other_Punctuation)]
     case ARMENIAN_APOSTROPHE = "\u{55A}";
 
-    #[Info(id: 1371, name: 'ARMENIAN EMPHASIS MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55B, name: 'ARMENIAN EMPHASIS MARK', category: Cat::Other_Punctuation)]
     case ARMENIAN_EMPHASIS_MARK = "\u{55B}";
 
-    #[Info(id: 1372, name: 'ARMENIAN EXCLAMATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55C, name: 'ARMENIAN EXCLAMATION MARK', category: Cat::Other_Punctuation)]
     case ARMENIAN_EXCLAMATION_MARK = "\u{55C}";
 
-    #[Info(id: 1373, name: 'ARMENIAN COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55D, name: 'ARMENIAN COMMA', category: Cat::Other_Punctuation)]
     case ARMENIAN_COMMA = "\u{55D}";
 
-    #[Info(id: 1374, name: 'ARMENIAN QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55E, name: 'ARMENIAN QUESTION MARK', category: Cat::Other_Punctuation)]
     case ARMENIAN_QUESTION_MARK = "\u{55E}";
 
-    #[Info(id: 1375, name: 'ARMENIAN ABBREVIATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x55F, name: 'ARMENIAN ABBREVIATION MARK', category: Cat::Other_Punctuation)]
     case ARMENIAN_ABBREVIATION_MARK = "\u{55F}";
 
-    #[Info(id: 1376, name: 'ARMENIAN SMALL LETTER TURNED AYB', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x560, name: 'ARMENIAN SMALL LETTER TURNED AYB', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_TURNED_AYB = "\u{560}";
 
-    #[Info(id: 1377, name: 'ARMENIAN SMALL LETTER AYB', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x561, name: 'ARMENIAN SMALL LETTER AYB', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_AYB = "\u{561}";
 
-    #[Info(id: 1378, name: 'ARMENIAN SMALL LETTER BEN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x562, name: 'ARMENIAN SMALL LETTER BEN', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_BEN = "\u{562}";
 
-    #[Info(id: 1379, name: 'ARMENIAN SMALL LETTER GIM', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x563, name: 'ARMENIAN SMALL LETTER GIM', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_GIM = "\u{563}";
 
-    #[Info(id: 1380, name: 'ARMENIAN SMALL LETTER DA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x564, name: 'ARMENIAN SMALL LETTER DA', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_DA = "\u{564}";
 
-    #[Info(id: 1381, name: 'ARMENIAN SMALL LETTER ECH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x565, name: 'ARMENIAN SMALL LETTER ECH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_ECH = "\u{565}";
 
-    #[Info(id: 1382, name: 'ARMENIAN SMALL LETTER ZA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x566, name: 'ARMENIAN SMALL LETTER ZA', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_ZA = "\u{566}";
 
-    #[Info(id: 1383, name: 'ARMENIAN SMALL LETTER EH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x567, name: 'ARMENIAN SMALL LETTER EH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_EH = "\u{567}";
 
-    #[Info(id: 1384, name: 'ARMENIAN SMALL LETTER ET', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x568, name: 'ARMENIAN SMALL LETTER ET', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_ET = "\u{568}";
 
-    #[Info(id: 1385, name: 'ARMENIAN SMALL LETTER TO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x569, name: 'ARMENIAN SMALL LETTER TO', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_TO = "\u{569}";
 
-    #[Info(id: 1386, name: 'ARMENIAN SMALL LETTER ZHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x56A, name: 'ARMENIAN SMALL LETTER ZHE', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_ZHE = "\u{56A}";
 
-    #[Info(id: 1387, name: 'ARMENIAN SMALL LETTER INI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x56B, name: 'ARMENIAN SMALL LETTER INI', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_INI = "\u{56B}";
 
-    #[Info(id: 1388, name: 'ARMENIAN SMALL LETTER LIWN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x56C, name: 'ARMENIAN SMALL LETTER LIWN', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_LIWN = "\u{56C}";
 
-    #[Info(id: 1389, name: 'ARMENIAN SMALL LETTER XEH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x56D, name: 'ARMENIAN SMALL LETTER XEH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_XEH = "\u{56D}";
 
-    #[Info(id: 1390, name: 'ARMENIAN SMALL LETTER CA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x56E, name: 'ARMENIAN SMALL LETTER CA', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_CA = "\u{56E}";
 
-    #[Info(id: 1391, name: 'ARMENIAN SMALL LETTER KEN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x56F, name: 'ARMENIAN SMALL LETTER KEN', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_KEN = "\u{56F}";
 
-    #[Info(id: 1392, name: 'ARMENIAN SMALL LETTER HO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x570, name: 'ARMENIAN SMALL LETTER HO', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_HO = "\u{570}";
 
-    #[Info(id: 1393, name: 'ARMENIAN SMALL LETTER JA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x571, name: 'ARMENIAN SMALL LETTER JA', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_JA = "\u{571}";
 
-    #[Info(id: 1394, name: 'ARMENIAN SMALL LETTER GHAD', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x572, name: 'ARMENIAN SMALL LETTER GHAD', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_GHAD = "\u{572}";
 
-    #[Info(id: 1395, name: 'ARMENIAN SMALL LETTER CHEH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x573, name: 'ARMENIAN SMALL LETTER CHEH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_CHEH = "\u{573}";
 
-    #[Info(id: 1396, name: 'ARMENIAN SMALL LETTER MEN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x574, name: 'ARMENIAN SMALL LETTER MEN', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_MEN = "\u{574}";
 
-    #[Info(id: 1397, name: 'ARMENIAN SMALL LETTER YI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x575, name: 'ARMENIAN SMALL LETTER YI', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_YI = "\u{575}";
 
-    #[Info(id: 1398, name: 'ARMENIAN SMALL LETTER NOW', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x576, name: 'ARMENIAN SMALL LETTER NOW', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_NOW = "\u{576}";
 
-    #[Info(id: 1399, name: 'ARMENIAN SMALL LETTER SHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x577, name: 'ARMENIAN SMALL LETTER SHA', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_SHA = "\u{577}";
 
-    #[Info(id: 1400, name: 'ARMENIAN SMALL LETTER VO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x578, name: 'ARMENIAN SMALL LETTER VO', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_VO = "\u{578}";
 
-    #[Info(id: 1401, name: 'ARMENIAN SMALL LETTER CHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x579, name: 'ARMENIAN SMALL LETTER CHA', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_CHA = "\u{579}";
 
-    #[Info(id: 1402, name: 'ARMENIAN SMALL LETTER PEH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x57A, name: 'ARMENIAN SMALL LETTER PEH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_PEH = "\u{57A}";
 
-    #[Info(id: 1403, name: 'ARMENIAN SMALL LETTER JHEH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x57B, name: 'ARMENIAN SMALL LETTER JHEH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_JHEH = "\u{57B}";
 
-    #[Info(id: 1404, name: 'ARMENIAN SMALL LETTER RA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x57C, name: 'ARMENIAN SMALL LETTER RA', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_RA = "\u{57C}";
 
-    #[Info(id: 1405, name: 'ARMENIAN SMALL LETTER SEH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x57D, name: 'ARMENIAN SMALL LETTER SEH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_SEH = "\u{57D}";
 
-    #[Info(id: 1406, name: 'ARMENIAN SMALL LETTER VEW', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x57E, name: 'ARMENIAN SMALL LETTER VEW', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_VEW = "\u{57E}";
 
-    #[Info(id: 1407, name: 'ARMENIAN SMALL LETTER TIWN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x57F, name: 'ARMENIAN SMALL LETTER TIWN', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_TIWN = "\u{57F}";
 
-    #[Info(id: 1408, name: 'ARMENIAN SMALL LETTER REH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x580, name: 'ARMENIAN SMALL LETTER REH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_REH = "\u{580}";
 
-    #[Info(id: 1409, name: 'ARMENIAN SMALL LETTER CO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x581, name: 'ARMENIAN SMALL LETTER CO', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_CO = "\u{581}";
 
-    #[Info(id: 1410, name: 'ARMENIAN SMALL LETTER YIWN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x582, name: 'ARMENIAN SMALL LETTER YIWN', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_YIWN = "\u{582}";
 
-    #[Info(id: 1411, name: 'ARMENIAN SMALL LETTER PIWR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x583, name: 'ARMENIAN SMALL LETTER PIWR', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_PIWR = "\u{583}";
 
-    #[Info(id: 1412, name: 'ARMENIAN SMALL LETTER KEH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x584, name: 'ARMENIAN SMALL LETTER KEH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_KEH = "\u{584}";
 
-    #[Info(id: 1413, name: 'ARMENIAN SMALL LETTER OH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x585, name: 'ARMENIAN SMALL LETTER OH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_OH = "\u{585}";
 
-    #[Info(id: 1414, name: 'ARMENIAN SMALL LETTER FEH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x586, name: 'ARMENIAN SMALL LETTER FEH', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_FEH = "\u{586}";
 
-    #[Info(id: 1415, name: 'ARMENIAN SMALL LIGATURE ECH YIWN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x587, name: 'ARMENIAN SMALL LIGATURE ECH YIWN', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LIGATURE_ECH_YIWN = "\u{587}";
 
-    #[Info(id: 1416, name: 'ARMENIAN SMALL LETTER YI WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x588, name: 'ARMENIAN SMALL LETTER YI WITH STROKE', category: Cat::Lowercase_Letter)]
     case ARMENIAN_SMALL_LETTER_YI_WITH_STROKE = "\u{588}";
 
-    #[Info(id: 1417, name: 'ARMENIAN FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x589, name: 'ARMENIAN FULL STOP', category: Cat::Other_Punctuation)]
     case ARMENIAN_FULL_STOP = "\u{589}";
 
-    #[Info(id: 1418, name: 'ARMENIAN HYPHEN', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0x58A, name: 'ARMENIAN HYPHEN', category: Cat::Dash_Punctuation)]
     case ARMENIAN_HYPHEN = "\u{58A}";
 
-    #[Info(id: 1421, name: 'RIGHT-FACING ARMENIAN ETERNITY SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x58D, name: 'RIGHT-FACING ARMENIAN ETERNITY SIGN', category: Cat::Other_Symbol)]
     case RIGHT_FACING_ARMENIAN_ETERNITY_SIGN = "\u{58D}";
 
-    #[Info(id: 1422, name: 'LEFT-FACING ARMENIAN ETERNITY SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x58E, name: 'LEFT-FACING ARMENIAN ETERNITY SIGN', category: Cat::Other_Symbol)]
     case LEFT_FACING_ARMENIAN_ETERNITY_SIGN = "\u{58E}";
 
-    #[Info(id: 1423, name: 'ARMENIAN DRAM SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x58F, name: 'ARMENIAN DRAM SIGN', category: Cat::Currency_Symbol)]
     case ARMENIAN_DRAM_SIGN = "\u{58F}";
 }

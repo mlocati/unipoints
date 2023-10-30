@@ -16,108 +16,108 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Kana_ExtendedA: string
 {
-    #[Info(id: 110848, name: 'HENTAIGANA LETTER RE-3', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B100, name: 'HENTAIGANA LETTER RE-3', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_RE_3 = "\u{1B100}";
 
-    #[Info(id: 110849, name: 'HENTAIGANA LETTER RE-4', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B101, name: 'HENTAIGANA LETTER RE-4', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_RE_4 = "\u{1B101}";
 
-    #[Info(id: 110850, name: 'HENTAIGANA LETTER RO-1', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B102, name: 'HENTAIGANA LETTER RO-1', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_RO_1 = "\u{1B102}";
 
-    #[Info(id: 110851, name: 'HENTAIGANA LETTER RO-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B103, name: 'HENTAIGANA LETTER RO-2', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_RO_2 = "\u{1B103}";
 
-    #[Info(id: 110852, name: 'HENTAIGANA LETTER RO-3', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B104, name: 'HENTAIGANA LETTER RO-3', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_RO_3 = "\u{1B104}";
 
-    #[Info(id: 110853, name: 'HENTAIGANA LETTER RO-4', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B105, name: 'HENTAIGANA LETTER RO-4', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_RO_4 = "\u{1B105}";
 
-    #[Info(id: 110854, name: 'HENTAIGANA LETTER RO-5', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B106, name: 'HENTAIGANA LETTER RO-5', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_RO_5 = "\u{1B106}";
 
-    #[Info(id: 110855, name: 'HENTAIGANA LETTER RO-6', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B107, name: 'HENTAIGANA LETTER RO-6', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_RO_6 = "\u{1B107}";
 
-    #[Info(id: 110856, name: 'HENTAIGANA LETTER WA-1', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B108, name: 'HENTAIGANA LETTER WA-1', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WA_1 = "\u{1B108}";
 
-    #[Info(id: 110857, name: 'HENTAIGANA LETTER WA-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B109, name: 'HENTAIGANA LETTER WA-2', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WA_2 = "\u{1B109}";
 
-    #[Info(id: 110858, name: 'HENTAIGANA LETTER WA-3', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B10A, name: 'HENTAIGANA LETTER WA-3', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WA_3 = "\u{1B10A}";
 
-    #[Info(id: 110859, name: 'HENTAIGANA LETTER WA-4', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B10B, name: 'HENTAIGANA LETTER WA-4', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WA_4 = "\u{1B10B}";
 
-    #[Info(id: 110860, name: 'HENTAIGANA LETTER WA-5', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B10C, name: 'HENTAIGANA LETTER WA-5', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WA_5 = "\u{1B10C}";
 
-    #[Info(id: 110861, name: 'HENTAIGANA LETTER WI-1', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B10D, name: 'HENTAIGANA LETTER WI-1', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WI_1 = "\u{1B10D}";
 
-    #[Info(id: 110862, name: 'HENTAIGANA LETTER WI-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B10E, name: 'HENTAIGANA LETTER WI-2', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WI_2 = "\u{1B10E}";
 
-    #[Info(id: 110863, name: 'HENTAIGANA LETTER WI-3', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B10F, name: 'HENTAIGANA LETTER WI-3', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WI_3 = "\u{1B10F}";
 
-    #[Info(id: 110864, name: 'HENTAIGANA LETTER WI-4', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B110, name: 'HENTAIGANA LETTER WI-4', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WI_4 = "\u{1B110}";
 
-    #[Info(id: 110865, name: 'HENTAIGANA LETTER WI-5', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B111, name: 'HENTAIGANA LETTER WI-5', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WI_5 = "\u{1B111}";
 
-    #[Info(id: 110866, name: 'HENTAIGANA LETTER WE-1', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B112, name: 'HENTAIGANA LETTER WE-1', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WE_1 = "\u{1B112}";
 
-    #[Info(id: 110867, name: 'HENTAIGANA LETTER WE-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B113, name: 'HENTAIGANA LETTER WE-2', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WE_2 = "\u{1B113}";
 
-    #[Info(id: 110868, name: 'HENTAIGANA LETTER WE-3', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B114, name: 'HENTAIGANA LETTER WE-3', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WE_3 = "\u{1B114}";
 
-    #[Info(id: 110869, name: 'HENTAIGANA LETTER WE-4', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B115, name: 'HENTAIGANA LETTER WE-4', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WE_4 = "\u{1B115}";
 
-    #[Info(id: 110870, name: 'HENTAIGANA LETTER WO-1', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B116, name: 'HENTAIGANA LETTER WO-1', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WO_1 = "\u{1B116}";
 
-    #[Info(id: 110871, name: 'HENTAIGANA LETTER WO-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B117, name: 'HENTAIGANA LETTER WO-2', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WO_2 = "\u{1B117}";
 
-    #[Info(id: 110872, name: 'HENTAIGANA LETTER WO-3', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B118, name: 'HENTAIGANA LETTER WO-3', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WO_3 = "\u{1B118}";
 
-    #[Info(id: 110873, name: 'HENTAIGANA LETTER WO-4', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B119, name: 'HENTAIGANA LETTER WO-4', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WO_4 = "\u{1B119}";
 
-    #[Info(id: 110874, name: 'HENTAIGANA LETTER WO-5', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B11A, name: 'HENTAIGANA LETTER WO-5', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WO_5 = "\u{1B11A}";
 
-    #[Info(id: 110875, name: 'HENTAIGANA LETTER WO-6', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B11B, name: 'HENTAIGANA LETTER WO-6', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WO_6 = "\u{1B11B}";
 
-    #[Info(id: 110876, name: 'HENTAIGANA LETTER WO-7', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B11C, name: 'HENTAIGANA LETTER WO-7', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_WO_7 = "\u{1B11C}";
 
-    #[Info(id: 110877, name: 'HENTAIGANA LETTER N-MU-MO-1', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B11D, name: 'HENTAIGANA LETTER N-MU-MO-1', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_N_MU_MO_1 = "\u{1B11D}";
 
-    #[Info(id: 110878, name: 'HENTAIGANA LETTER N-MU-MO-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B11E, name: 'HENTAIGANA LETTER N-MU-MO-2', category: Cat::Other_Letter)]
     case HENTAIGANA_LETTER_N_MU_MO_2 = "\u{1B11E}";
 
-    #[Info(id: 110879, name: 'HIRAGANA LETTER ARCHAIC WU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B11F, name: 'HIRAGANA LETTER ARCHAIC WU', category: Cat::Other_Letter)]
     case HIRAGANA_LETTER_ARCHAIC_WU = "\u{1B11F}";
 
-    #[Info(id: 110880, name: 'KATAKANA LETTER ARCHAIC YI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B120, name: 'KATAKANA LETTER ARCHAIC YI', category: Cat::Other_Letter)]
     case KATAKANA_LETTER_ARCHAIC_YI = "\u{1B120}";
 
-    #[Info(id: 110881, name: 'KATAKANA LETTER ARCHAIC YE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B121, name: 'KATAKANA LETTER ARCHAIC YE', category: Cat::Other_Letter)]
     case KATAKANA_LETTER_ARCHAIC_YE = "\u{1B121}";
 
-    #[Info(id: 110882, name: 'KATAKANA LETTER ARCHAIC WU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1B122, name: 'KATAKANA LETTER ARCHAIC WU', category: Cat::Other_Letter)]
     case KATAKANA_LETTER_ARCHAIC_WU = "\u{1B122}";
 }
