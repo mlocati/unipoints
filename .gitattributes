@@ -1,8 +1,9 @@
 /bin/ export-ignore
 /build/ export-ignore
-/test/ export-ignore
-/.* export-ignore
-/phpunit.xml export-ignore
 /src/Block.php linguist-generated
 /src/Codepoint.php linguist-generated
 /src/Codepoint/*.php linguist-generated
+/src/SurrogateCodepoint.php linguist-generated
+/test/ export-ignore
+/.* export-ignore
+/phpunit.xml export-ignore
