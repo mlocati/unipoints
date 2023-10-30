@@ -16,51 +16,51 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Variation_Selectors: string
 {
-    #[Info(id: 0xFE00, name: 'VARIATION SELECTOR-1', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE00, name: 'VARIATION SELECTOR-1', category: Cat::Nonspacing_Mark, abbreviations: ['VS1'])]
     case VARIATION_SELECTOR_1 = "\u{FE00}";
 
-    #[Info(id: 0xFE01, name: 'VARIATION SELECTOR-2', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE01, name: 'VARIATION SELECTOR-2', category: Cat::Nonspacing_Mark, abbreviations: ['VS2'])]
     case VARIATION_SELECTOR_2 = "\u{FE01}";
 
-    #[Info(id: 0xFE02, name: 'VARIATION SELECTOR-3', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE02, name: 'VARIATION SELECTOR-3', category: Cat::Nonspacing_Mark, abbreviations: ['VS3'])]
     case VARIATION_SELECTOR_3 = "\u{FE02}";
 
-    #[Info(id: 0xFE03, name: 'VARIATION SELECTOR-4', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE03, name: 'VARIATION SELECTOR-4', category: Cat::Nonspacing_Mark, abbreviations: ['VS4'])]
     case VARIATION_SELECTOR_4 = "\u{FE03}";
 
-    #[Info(id: 0xFE04, name: 'VARIATION SELECTOR-5', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE04, name: 'VARIATION SELECTOR-5', category: Cat::Nonspacing_Mark, abbreviations: ['VS5'])]
     case VARIATION_SELECTOR_5 = "\u{FE04}";
 
-    #[Info(id: 0xFE05, name: 'VARIATION SELECTOR-6', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE05, name: 'VARIATION SELECTOR-6', category: Cat::Nonspacing_Mark, abbreviations: ['VS6'])]
     case VARIATION_SELECTOR_6 = "\u{FE05}";
 
-    #[Info(id: 0xFE06, name: 'VARIATION SELECTOR-7', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE06, name: 'VARIATION SELECTOR-7', category: Cat::Nonspacing_Mark, abbreviations: ['VS7'])]
     case VARIATION_SELECTOR_7 = "\u{FE06}";
 
-    #[Info(id: 0xFE07, name: 'VARIATION SELECTOR-8', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE07, name: 'VARIATION SELECTOR-8', category: Cat::Nonspacing_Mark, abbreviations: ['VS8'])]
     case VARIATION_SELECTOR_8 = "\u{FE07}";
 
-    #[Info(id: 0xFE08, name: 'VARIATION SELECTOR-9', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE08, name: 'VARIATION SELECTOR-9', category: Cat::Nonspacing_Mark, abbreviations: ['VS9'])]
     case VARIATION_SELECTOR_9 = "\u{FE08}";
 
-    #[Info(id: 0xFE09, name: 'VARIATION SELECTOR-10', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE09, name: 'VARIATION SELECTOR-10', category: Cat::Nonspacing_Mark, abbreviations: ['VS10'])]
     case VARIATION_SELECTOR_10 = "\u{FE09}";
 
-    #[Info(id: 0xFE0A, name: 'VARIATION SELECTOR-11', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE0A, name: 'VARIATION SELECTOR-11', category: Cat::Nonspacing_Mark, abbreviations: ['VS11'])]
     case VARIATION_SELECTOR_11 = "\u{FE0A}";
 
-    #[Info(id: 0xFE0B, name: 'VARIATION SELECTOR-12', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE0B, name: 'VARIATION SELECTOR-12', category: Cat::Nonspacing_Mark, abbreviations: ['VS12'])]
     case VARIATION_SELECTOR_12 = "\u{FE0B}";
 
-    #[Info(id: 0xFE0C, name: 'VARIATION SELECTOR-13', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE0C, name: 'VARIATION SELECTOR-13', category: Cat::Nonspacing_Mark, abbreviations: ['VS13'])]
     case VARIATION_SELECTOR_13 = "\u{FE0C}";
 
-    #[Info(id: 0xFE0D, name: 'VARIATION SELECTOR-14', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE0D, name: 'VARIATION SELECTOR-14', category: Cat::Nonspacing_Mark, abbreviations: ['VS14'])]
     case VARIATION_SELECTOR_14 = "\u{FE0D}";
 
-    #[Info(id: 0xFE0E, name: 'VARIATION SELECTOR-15', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE0E, name: 'VARIATION SELECTOR-15', category: Cat::Nonspacing_Mark, abbreviations: ['VS15'], informativeAliases: ['text variation selector'])]
     case VARIATION_SELECTOR_15 = "\u{FE0E}";
 
-    #[Info(id: 0xFE0F, name: 'VARIATION SELECTOR-16', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFE0F, name: 'VARIATION SELECTOR-16', category: Cat::Nonspacing_Mark, abbreviations: ['VS16'], informativeAliases: ['emoji variation selector'])]
     case VARIATION_SELECTOR_16 = "\u{FE0F}";
 }

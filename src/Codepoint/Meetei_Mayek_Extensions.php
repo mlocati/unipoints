@@ -64,10 +64,10 @@ enum Meetei_Mayek_Extensions: string
     #[Info(id: 0xAAEF, name: 'MEETEI MAYEK VOWEL SIGN AAU', category: Cat::Spacing_Mark)]
     case MEETEI_MAYEK_VOWEL_SIGN_AAU = "\u{AAEF}";
 
-    #[Info(id: 0xAAF0, name: 'MEETEI MAYEK CHEIKHAN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xAAF0, name: 'MEETEI MAYEK CHEIKHAN', category: Cat::Other_Punctuation, informativeAliases: ['danda'])]
     case MEETEI_MAYEK_CHEIKHAN = "\u{AAF0}";
 
-    #[Info(id: 0xAAF1, name: 'MEETEI MAYEK AHANG KHUDAM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xAAF1, name: 'MEETEI MAYEK AHANG KHUDAM', category: Cat::Other_Punctuation, informativeAliases: ['question mark'])]
     case MEETEI_MAYEK_AHANG_KHUDAM = "\u{AAF1}";
 
     #[Info(id: 0xAAF2, name: 'MEETEI MAYEK ANJI', category: Cat::Other_Letter)]

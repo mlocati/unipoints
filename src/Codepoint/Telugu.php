@@ -19,10 +19,10 @@ enum Telugu: string
     #[Info(id: 0xC00, name: 'TELUGU SIGN COMBINING CANDRABINDU ABOVE', category: Cat::Nonspacing_Mark)]
     case TELUGU_SIGN_COMBINING_CANDRABINDU_ABOVE = "\u{C00}";
 
-    #[Info(id: 0xC01, name: 'TELUGU SIGN CANDRABINDU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xC01, name: 'TELUGU SIGN CANDRABINDU', category: Cat::Spacing_Mark, informativeAliases: ['arasunna'])]
     case TELUGU_SIGN_CANDRABINDU = "\u{C01}";
 
-    #[Info(id: 0xC02, name: 'TELUGU SIGN ANUSVARA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xC02, name: 'TELUGU SIGN ANUSVARA', category: Cat::Spacing_Mark, informativeAliases: ['sunna'])]
     case TELUGU_SIGN_ANUSVARA = "\u{C02}";
 
     #[Info(id: 0xC03, name: 'TELUGU SIGN VISARGA', category: Cat::Spacing_Mark)]
@@ -226,7 +226,7 @@ enum Telugu: string
     #[Info(id: 0xC4C, name: 'TELUGU VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
     case TELUGU_VOWEL_SIGN_AU = "\u{C4C}";
 
-    #[Info(id: 0xC4D, name: 'TELUGU SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xC4D, name: 'TELUGU SIGN VIRAMA', category: Cat::Nonspacing_Mark, informativeAliases: ['halant (the preferred name)'])]
     case TELUGU_SIGN_VIRAMA = "\u{C4D}";
 
     #[Info(id: 0xC55, name: 'TELUGU LENGTH MARK', category: Cat::Nonspacing_Mark)]
@@ -289,7 +289,7 @@ enum Telugu: string
     #[Info(id: 0xC6F, name: 'TELUGU DIGIT NINE', category: Cat::Decimal_Number)]
     case TELUGU_DIGIT_NINE = "\u{C6F}";
 
-    #[Info(id: 0xC77, name: 'TELUGU SIGN SIDDHAM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xC77, name: 'TELUGU SIGN SIDDHAM', category: Cat::Other_Punctuation, informativeAliases: ['siddhirastu'])]
     case TELUGU_SIGN_SIDDHAM = "\u{C77}";
 
     #[Info(id: 0xC78, name: 'TELUGU FRACTION DIGIT ZERO FOR ODD POWERS OF FOUR', category: Cat::Other_Number)]

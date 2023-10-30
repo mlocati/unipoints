@@ -184,31 +184,31 @@ enum Musical_Symbols: string
     #[Info(id: 0x1D139, name: 'MUSICAL SYMBOL QUINDICESIMA BASSA', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_QUINDICESIMA_BASSA = "\u{1D139}";
 
-    #[Info(id: 0x1D13A, name: 'MUSICAL SYMBOL MULTI REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13A, name: 'MUSICAL SYMBOL MULTI REST', category: Cat::Other_Symbol, informativeAliases: ['double whole-rest, breve rest'])]
     case MUSICAL_SYMBOL_MULTI_REST = "\u{1D13A}";
 
-    #[Info(id: 0x1D13B, name: 'MUSICAL SYMBOL WHOLE REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13B, name: 'MUSICAL SYMBOL WHOLE REST', category: Cat::Other_Symbol, informativeAliases: ['semibreve rest'])]
     case MUSICAL_SYMBOL_WHOLE_REST = "\u{1D13B}";
 
-    #[Info(id: 0x1D13C, name: 'MUSICAL SYMBOL HALF REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13C, name: 'MUSICAL SYMBOL HALF REST', category: Cat::Other_Symbol, informativeAliases: ['minim rest'])]
     case MUSICAL_SYMBOL_HALF_REST = "\u{1D13C}";
 
-    #[Info(id: 0x1D13D, name: 'MUSICAL SYMBOL QUARTER REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13D, name: 'MUSICAL SYMBOL QUARTER REST', category: Cat::Other_Symbol, informativeAliases: ['crochet rest'])]
     case MUSICAL_SYMBOL_QUARTER_REST = "\u{1D13D}";
 
-    #[Info(id: 0x1D13E, name: 'MUSICAL SYMBOL EIGHTH REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13E, name: 'MUSICAL SYMBOL EIGHTH REST', category: Cat::Other_Symbol, informativeAliases: ['quaver rest'])]
     case MUSICAL_SYMBOL_EIGHTH_REST = "\u{1D13E}";
 
-    #[Info(id: 0x1D13F, name: 'MUSICAL SYMBOL SIXTEENTH REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D13F, name: 'MUSICAL SYMBOL SIXTEENTH REST', category: Cat::Other_Symbol, informativeAliases: ['semiquaver rest'])]
     case MUSICAL_SYMBOL_SIXTEENTH_REST = "\u{1D13F}";
 
-    #[Info(id: 0x1D140, name: 'MUSICAL SYMBOL THIRTY-SECOND REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D140, name: 'MUSICAL SYMBOL THIRTY-SECOND REST', category: Cat::Other_Symbol, informativeAliases: ['demisemiquaver rest'])]
     case MUSICAL_SYMBOL_THIRTY_SECOND_REST = "\u{1D140}";
 
-    #[Info(id: 0x1D141, name: 'MUSICAL SYMBOL SIXTY-FOURTH REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D141, name: 'MUSICAL SYMBOL SIXTY-FOURTH REST', category: Cat::Other_Symbol, informativeAliases: ['hemidemisemiquaver rest, semidemisemiquaver rest'])]
     case MUSICAL_SYMBOL_SIXTY_FOURTH_REST = "\u{1D141}";
 
-    #[Info(id: 0x1D142, name: 'MUSICAL SYMBOL ONE HUNDRED TWENTY-EIGHTH REST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D142, name: 'MUSICAL SYMBOL ONE HUNDRED TWENTY-EIGHTH REST', category: Cat::Other_Symbol, informativeAliases: ['semihemidemisemiquaver rest, quasihemidemisemiquaver rest'])]
     case MUSICAL_SYMBOL_ONE_HUNDRED_TWENTY_EIGHTH_REST = "\u{1D142}";
 
     #[Info(id: 0x1D143, name: 'MUSICAL SYMBOL X NOTEHEAD', category: Cat::Other_Symbol)]
@@ -289,28 +289,28 @@ enum Musical_Symbols: string
     #[Info(id: 0x1D15C, name: 'MUSICAL SYMBOL BREVE', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_BREVE = "\u{1D15C}";
 
-    #[Info(id: 0x1D15D, name: 'MUSICAL SYMBOL WHOLE NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D15D, name: 'MUSICAL SYMBOL WHOLE NOTE', category: Cat::Other_Symbol, informativeAliases: ['semibreve'])]
     case MUSICAL_SYMBOL_WHOLE_NOTE = "\u{1D15D}";
 
-    #[Info(id: 0x1D15E, name: 'MUSICAL SYMBOL HALF NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D15E, name: 'MUSICAL SYMBOL HALF NOTE', category: Cat::Other_Symbol, informativeAliases: ['minim'])]
     case MUSICAL_SYMBOL_HALF_NOTE = "\u{1D15E}";
 
-    #[Info(id: 0x1D15F, name: 'MUSICAL SYMBOL QUARTER NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D15F, name: 'MUSICAL SYMBOL QUARTER NOTE', category: Cat::Other_Symbol, informativeAliases: ['crotchet'])]
     case MUSICAL_SYMBOL_QUARTER_NOTE = "\u{1D15F}";
 
-    #[Info(id: 0x1D160, name: 'MUSICAL SYMBOL EIGHTH NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D160, name: 'MUSICAL SYMBOL EIGHTH NOTE', category: Cat::Other_Symbol, informativeAliases: ['quaver'])]
     case MUSICAL_SYMBOL_EIGHTH_NOTE = "\u{1D160}";
 
-    #[Info(id: 0x1D161, name: 'MUSICAL SYMBOL SIXTEENTH NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D161, name: 'MUSICAL SYMBOL SIXTEENTH NOTE', category: Cat::Other_Symbol, informativeAliases: ['semiquaver'])]
     case MUSICAL_SYMBOL_SIXTEENTH_NOTE = "\u{1D161}";
 
-    #[Info(id: 0x1D162, name: 'MUSICAL SYMBOL THIRTY-SECOND NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D162, name: 'MUSICAL SYMBOL THIRTY-SECOND NOTE', category: Cat::Other_Symbol, informativeAliases: ['demisemiquaver'])]
     case MUSICAL_SYMBOL_THIRTY_SECOND_NOTE = "\u{1D162}";
 
-    #[Info(id: 0x1D163, name: 'MUSICAL SYMBOL SIXTY-FOURTH NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D163, name: 'MUSICAL SYMBOL SIXTY-FOURTH NOTE', category: Cat::Other_Symbol, informativeAliases: ['hemidemisemiquaver, semidemisemiquaver'])]
     case MUSICAL_SYMBOL_SIXTY_FOURTH_NOTE = "\u{1D163}";
 
-    #[Info(id: 0x1D164, name: 'MUSICAL SYMBOL ONE HUNDRED TWENTY-EIGHTH NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D164, name: 'MUSICAL SYMBOL ONE HUNDRED TWENTY-EIGHTH NOTE', category: Cat::Other_Symbol, informativeAliases: ['semihemidemisemiquaver, quasihemidemisemiquaver'])]
     case MUSICAL_SYMBOL_ONE_HUNDRED_TWENTY_EIGHTH_NOTE = "\u{1D164}";
 
     #[Info(id: 0x1D165, name: 'MUSICAL SYMBOL COMBINING STEM', category: Cat::Spacing_Mark)]

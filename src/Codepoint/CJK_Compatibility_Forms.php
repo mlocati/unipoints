@@ -16,67 +16,67 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum CJK_Compatibility_Forms: string
 {
-    #[Info(id: 0xFE30, name: 'PRESENTATION FORM FOR VERTICAL TWO DOT LEADER', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE30, name: 'PRESENTATION FORM FOR VERTICAL TWO DOT LEADER', category: Cat::Other_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL TWO DOT LEADER')]
     case PRESENTATION_FORM_FOR_VERTICAL_TWO_DOT_LEADER = "\u{FE30}";
 
-    #[Info(id: 0xFE31, name: 'PRESENTATION FORM FOR VERTICAL EM DASH', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0xFE31, name: 'PRESENTATION FORM FOR VERTICAL EM DASH', category: Cat::Dash_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL EM DASH')]
     case PRESENTATION_FORM_FOR_VERTICAL_EM_DASH = "\u{FE31}";
 
-    #[Info(id: 0xFE32, name: 'PRESENTATION FORM FOR VERTICAL EN DASH', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0xFE32, name: 'PRESENTATION FORM FOR VERTICAL EN DASH', category: Cat::Dash_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL EN DASH')]
     case PRESENTATION_FORM_FOR_VERTICAL_EN_DASH = "\u{FE32}";
 
-    #[Info(id: 0xFE33, name: 'PRESENTATION FORM FOR VERTICAL LOW LINE', category: Cat::Connector_Punctuation)]
+    #[Info(id: 0xFE33, name: 'PRESENTATION FORM FOR VERTICAL LOW LINE', category: Cat::Connector_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL SPACING UNDERSCORE')]
     case PRESENTATION_FORM_FOR_VERTICAL_LOW_LINE = "\u{FE33}";
 
-    #[Info(id: 0xFE34, name: 'PRESENTATION FORM FOR VERTICAL WAVY LOW LINE', category: Cat::Connector_Punctuation)]
+    #[Info(id: 0xFE34, name: 'PRESENTATION FORM FOR VERTICAL WAVY LOW LINE', category: Cat::Connector_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL SPACING WAVY UNDERSCORE')]
     case PRESENTATION_FORM_FOR_VERTICAL_WAVY_LOW_LINE = "\u{FE34}";
 
-    #[Info(id: 0xFE35, name: 'PRESENTATION FORM FOR VERTICAL LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE35, name: 'PRESENTATION FORM FOR VERTICAL LEFT PARENTHESIS', category: Cat::Open_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL OPENING PARENTHESIS')]
     case PRESENTATION_FORM_FOR_VERTICAL_LEFT_PARENTHESIS = "\u{FE35}";
 
-    #[Info(id: 0xFE36, name: 'PRESENTATION FORM FOR VERTICAL RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE36, name: 'PRESENTATION FORM FOR VERTICAL RIGHT PARENTHESIS', category: Cat::Close_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL CLOSING PARENTHESIS')]
     case PRESENTATION_FORM_FOR_VERTICAL_RIGHT_PARENTHESIS = "\u{FE36}";
 
-    #[Info(id: 0xFE37, name: 'PRESENTATION FORM FOR VERTICAL LEFT CURLY BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE37, name: 'PRESENTATION FORM FOR VERTICAL LEFT CURLY BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL OPENING CURLY BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_LEFT_CURLY_BRACKET = "\u{FE37}";
 
-    #[Info(id: 0xFE38, name: 'PRESENTATION FORM FOR VERTICAL RIGHT CURLY BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE38, name: 'PRESENTATION FORM FOR VERTICAL RIGHT CURLY BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL CLOSING CURLY BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_RIGHT_CURLY_BRACKET = "\u{FE38}";
 
-    #[Info(id: 0xFE39, name: 'PRESENTATION FORM FOR VERTICAL LEFT TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE39, name: 'PRESENTATION FORM FOR VERTICAL LEFT TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL OPENING TORTOISE SHELL BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_LEFT_TORTOISE_SHELL_BRACKET = "\u{FE39}";
 
-    #[Info(id: 0xFE3A, name: 'PRESENTATION FORM FOR VERTICAL RIGHT TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE3A, name: 'PRESENTATION FORM FOR VERTICAL RIGHT TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL CLOSING TORTOISE SHELL BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_RIGHT_TORTOISE_SHELL_BRACKET = "\u{FE3A}";
 
-    #[Info(id: 0xFE3B, name: 'PRESENTATION FORM FOR VERTICAL LEFT BLACK LENTICULAR BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE3B, name: 'PRESENTATION FORM FOR VERTICAL LEFT BLACK LENTICULAR BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL OPENING BLACK LENTICULAR BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_LEFT_BLACK_LENTICULAR_BRACKET = "\u{FE3B}";
 
-    #[Info(id: 0xFE3C, name: 'PRESENTATION FORM FOR VERTICAL RIGHT BLACK LENTICULAR BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE3C, name: 'PRESENTATION FORM FOR VERTICAL RIGHT BLACK LENTICULAR BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL CLOSING BLACK LENTICULAR BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_RIGHT_BLACK_LENTICULAR_BRACKET = "\u{FE3C}";
 
-    #[Info(id: 0xFE3D, name: 'PRESENTATION FORM FOR VERTICAL LEFT DOUBLE ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE3D, name: 'PRESENTATION FORM FOR VERTICAL LEFT DOUBLE ANGLE BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL OPENING DOUBLE ANGLE BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_LEFT_DOUBLE_ANGLE_BRACKET = "\u{FE3D}";
 
-    #[Info(id: 0xFE3E, name: 'PRESENTATION FORM FOR VERTICAL RIGHT DOUBLE ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE3E, name: 'PRESENTATION FORM FOR VERTICAL RIGHT DOUBLE ANGLE BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL CLOSING DOUBLE ANGLE BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_RIGHT_DOUBLE_ANGLE_BRACKET = "\u{FE3E}";
 
-    #[Info(id: 0xFE3F, name: 'PRESENTATION FORM FOR VERTICAL LEFT ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE3F, name: 'PRESENTATION FORM FOR VERTICAL LEFT ANGLE BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL OPENING ANGLE BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_LEFT_ANGLE_BRACKET = "\u{FE3F}";
 
-    #[Info(id: 0xFE40, name: 'PRESENTATION FORM FOR VERTICAL RIGHT ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE40, name: 'PRESENTATION FORM FOR VERTICAL RIGHT ANGLE BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL CLOSING ANGLE BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_RIGHT_ANGLE_BRACKET = "\u{FE40}";
 
-    #[Info(id: 0xFE41, name: 'PRESENTATION FORM FOR VERTICAL LEFT CORNER BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE41, name: 'PRESENTATION FORM FOR VERTICAL LEFT CORNER BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL OPENING CORNER BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_LEFT_CORNER_BRACKET = "\u{FE41}";
 
-    #[Info(id: 0xFE42, name: 'PRESENTATION FORM FOR VERTICAL RIGHT CORNER BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE42, name: 'PRESENTATION FORM FOR VERTICAL RIGHT CORNER BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL CLOSING CORNER BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_RIGHT_CORNER_BRACKET = "\u{FE42}";
 
-    #[Info(id: 0xFE43, name: 'PRESENTATION FORM FOR VERTICAL LEFT WHITE CORNER BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE43, name: 'PRESENTATION FORM FOR VERTICAL LEFT WHITE CORNER BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL OPENING WHITE CORNER BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_LEFT_WHITE_CORNER_BRACKET = "\u{FE43}";
 
-    #[Info(id: 0xFE44, name: 'PRESENTATION FORM FOR VERTICAL RIGHT WHITE CORNER BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE44, name: 'PRESENTATION FORM FOR VERTICAL RIGHT WHITE CORNER BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL CLOSING WHITE CORNER BRACKET')]
     case PRESENTATION_FORM_FOR_VERTICAL_RIGHT_WHITE_CORNER_BRACKET = "\u{FE44}";
 
     #[Info(id: 0xFE45, name: 'SESAME DOT', category: Cat::Other_Punctuation)]
@@ -91,24 +91,24 @@ enum CJK_Compatibility_Forms: string
     #[Info(id: 0xFE48, name: 'PRESENTATION FORM FOR VERTICAL RIGHT SQUARE BRACKET', category: Cat::Close_Punctuation)]
     case PRESENTATION_FORM_FOR_VERTICAL_RIGHT_SQUARE_BRACKET = "\u{FE48}";
 
-    #[Info(id: 0xFE49, name: 'DASHED OVERLINE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE49, name: 'DASHED OVERLINE', category: Cat::Other_Punctuation, unicode1Name: 'SPACING DASHED OVERSCORE')]
     case DASHED_OVERLINE = "\u{FE49}";
 
-    #[Info(id: 0xFE4A, name: 'CENTRELINE OVERLINE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE4A, name: 'CENTRELINE OVERLINE', category: Cat::Other_Punctuation, unicode1Name: 'SPACING CENTERLINE OVERSCORE')]
     case CENTRELINE_OVERLINE = "\u{FE4A}";
 
-    #[Info(id: 0xFE4B, name: 'WAVY OVERLINE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE4B, name: 'WAVY OVERLINE', category: Cat::Other_Punctuation, unicode1Name: 'SPACING WAVY OVERSCORE')]
     case WAVY_OVERLINE = "\u{FE4B}";
 
-    #[Info(id: 0xFE4C, name: 'DOUBLE WAVY OVERLINE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE4C, name: 'DOUBLE WAVY OVERLINE', category: Cat::Other_Punctuation, unicode1Name: 'SPACING DOUBLE WAVY OVERSCORE')]
     case DOUBLE_WAVY_OVERLINE = "\u{FE4C}";
 
-    #[Info(id: 0xFE4D, name: 'DASHED LOW LINE', category: Cat::Connector_Punctuation)]
+    #[Info(id: 0xFE4D, name: 'DASHED LOW LINE', category: Cat::Connector_Punctuation, unicode1Name: 'SPACING DASHED UNDERSCORE')]
     case DASHED_LOW_LINE = "\u{FE4D}";
 
-    #[Info(id: 0xFE4E, name: 'CENTRELINE LOW LINE', category: Cat::Connector_Punctuation)]
+    #[Info(id: 0xFE4E, name: 'CENTRELINE LOW LINE', category: Cat::Connector_Punctuation, unicode1Name: 'SPACING CENTERLINE UNDERSCORE')]
     case CENTRELINE_LOW_LINE = "\u{FE4E}";
 
-    #[Info(id: 0xFE4F, name: 'WAVY LOW LINE', category: Cat::Connector_Punctuation)]
+    #[Info(id: 0xFE4F, name: 'WAVY LOW LINE', category: Cat::Connector_Punctuation, unicode1Name: 'SPACING WAVY UNDERSCORE')]
     case WAVY_LOW_LINE = "\u{FE4F}";
 }

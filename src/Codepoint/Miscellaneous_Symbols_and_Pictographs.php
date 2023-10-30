@@ -16,7 +16,7 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Miscellaneous_Symbols_and_Pictographs: string
 {
-    #[Info(id: 0x1F300, name: 'CYCLONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F300, name: 'CYCLONE', category: Cat::Other_Symbol, informativeAliases: ['typhoon, hurricane'])]
     case CYCLONE = "\u{1F300}";
 
     #[Info(id: 0x1F301, name: 'FOGGY', category: Cat::Other_Symbol)]
@@ -46,7 +46,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F309, name: 'BRIDGE AT NIGHT', category: Cat::Other_Symbol)]
     case BRIDGE_AT_NIGHT = "\u{1F309}";
 
-    #[Info(id: 0x1F30A, name: 'WATER WAVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F30A, name: 'WATER WAVE', category: Cat::Other_Symbol, informativeAliases: ['tsunami, tidal wave'])]
     case WATER_WAVE = "\u{1F30A}";
 
     #[Info(id: 0x1F30B, name: 'VOLCANO', category: Cat::Other_Symbol)]
@@ -73,10 +73,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F312, name: 'WAXING CRESCENT MOON SYMBOL', category: Cat::Other_Symbol)]
     case WAXING_CRESCENT_MOON_SYMBOL = "\u{1F312}";
 
-    #[Info(id: 0x1F313, name: 'FIRST QUARTER MOON SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F313, name: 'FIRST QUARTER MOON SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['half moon'])]
     case FIRST_QUARTER_MOON_SYMBOL = "\u{1F313}";
 
-    #[Info(id: 0x1F314, name: 'WAXING GIBBOUS MOON SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F314, name: 'WAXING GIBBOUS MOON SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['waxing moon'])]
     case WAXING_GIBBOUS_MOON_SYMBOL = "\u{1F314}";
 
     #[Info(id: 0x1F315, name: 'FULL MOON SYMBOL', category: Cat::Other_Symbol)]
@@ -115,40 +115,40 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F320, name: 'SHOOTING STAR', category: Cat::Other_Symbol)]
     case SHOOTING_STAR = "\u{1F320}";
 
-    #[Info(id: 0x1F321, name: 'THERMOMETER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F321, name: 'THERMOMETER', category: Cat::Other_Symbol, informativeAliases: ['temperature, warm'])]
     case THERMOMETER = "\u{1F321}";
 
-    #[Info(id: 0x1F322, name: 'BLACK DROPLET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F322, name: 'BLACK DROPLET', category: Cat::Other_Symbol, informativeAliases: ['droplet'])]
     case BLACK_DROPLET = "\u{1F322}";
 
-    #[Info(id: 0x1F323, name: 'WHITE SUN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F323, name: 'WHITE SUN', category: Cat::Other_Symbol, informativeAliases: ['sunny'])]
     case WHITE_SUN = "\u{1F323}";
 
-    #[Info(id: 0x1F324, name: 'WHITE SUN WITH SMALL CLOUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F324, name: 'WHITE SUN WITH SMALL CLOUD', category: Cat::Other_Symbol, informativeAliases: ['mostly sunny'])]
     case WHITE_SUN_WITH_SMALL_CLOUD = "\u{1F324}";
 
-    #[Info(id: 0x1F325, name: 'WHITE SUN BEHIND CLOUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F325, name: 'WHITE SUN BEHIND CLOUD', category: Cat::Other_Symbol, informativeAliases: ['mostly cloudy'])]
     case WHITE_SUN_BEHIND_CLOUD = "\u{1F325}";
 
-    #[Info(id: 0x1F326, name: 'WHITE SUN BEHIND CLOUD WITH RAIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F326, name: 'WHITE SUN BEHIND CLOUD WITH RAIN', category: Cat::Other_Symbol, informativeAliases: ['showers'])]
     case WHITE_SUN_BEHIND_CLOUD_WITH_RAIN = "\u{1F326}";
 
-    #[Info(id: 0x1F327, name: 'CLOUD WITH RAIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F327, name: 'CLOUD WITH RAIN', category: Cat::Other_Symbol, informativeAliases: ['rain'])]
     case CLOUD_WITH_RAIN = "\u{1F327}";
 
-    #[Info(id: 0x1F328, name: 'CLOUD WITH SNOW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F328, name: 'CLOUD WITH SNOW', category: Cat::Other_Symbol, informativeAliases: ['snow, snow showers'])]
     case CLOUD_WITH_SNOW = "\u{1F328}";
 
-    #[Info(id: 0x1F329, name: 'CLOUD WITH LIGHTNING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F329, name: 'CLOUD WITH LIGHTNING', category: Cat::Other_Symbol, informativeAliases: ['lightning, thunderstorm'])]
     case CLOUD_WITH_LIGHTNING = "\u{1F329}";
 
-    #[Info(id: 0x1F32A, name: 'CLOUD WITH TORNADO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F32A, name: 'CLOUD WITH TORNADO', category: Cat::Other_Symbol, informativeAliases: ['tornado, twister'])]
     case CLOUD_WITH_TORNADO = "\u{1F32A}";
 
     #[Info(id: 0x1F32B, name: 'FOG', category: Cat::Other_Symbol)]
     case FOG = "\u{1F32B}";
 
-    #[Info(id: 0x1F32C, name: 'WIND BLOWING FACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F32C, name: 'WIND BLOWING FACE', category: Cat::Other_Symbol, informativeAliases: ['wind'])]
     case WIND_BLOWING_FACE = "\u{1F32C}";
 
     #[Info(id: 0x1F32D, name: 'HOT DOG', category: Cat::Other_Symbol)]
@@ -178,7 +178,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F335, name: 'CACTUS', category: Cat::Other_Symbol)]
     case CACTUS = "\u{1F335}";
 
-    #[Info(id: 0x1F336, name: 'HOT PEPPER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F336, name: 'HOT PEPPER', category: Cat::Other_Symbol, informativeAliases: ['hot, spicy'])]
     case HOT_PEPPER = "\u{1F336}";
 
     #[Info(id: 0x1F337, name: 'TULIP', category: Cat::Other_Symbol)]
@@ -196,7 +196,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F33B, name: 'SUNFLOWER', category: Cat::Other_Symbol)]
     case SUNFLOWER = "\u{1F33B}";
 
-    #[Info(id: 0x1F33C, name: 'BLOSSOM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F33C, name: 'BLOSSOM', category: Cat::Other_Symbol, informativeAliases: ['daisy'])]
     case BLOSSOM = "\u{1F33C}";
 
     #[Info(id: 0x1F33D, name: 'EAR OF MAIZE', category: Cat::Other_Symbol)]
@@ -226,7 +226,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F345, name: 'TOMATO', category: Cat::Other_Symbol)]
     case TOMATO = "\u{1F345}";
 
-    #[Info(id: 0x1F346, name: 'AUBERGINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F346, name: 'AUBERGINE', category: Cat::Other_Symbol, informativeAliases: ['eggplant'])]
     case AUBERGINE = "\u{1F346}";
 
     #[Info(id: 0x1F347, name: 'GRAPES', category: Cat::Other_Symbol)]
@@ -268,7 +268,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F353, name: 'STRAWBERRY', category: Cat::Other_Symbol)]
     case STRAWBERRY = "\u{1F353}";
 
-    #[Info(id: 0x1F354, name: 'HAMBURGER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F354, name: 'HAMBURGER', category: Cat::Other_Symbol, informativeAliases: ['fast food place'])]
     case HAMBURGER = "\u{1F354}";
 
     #[Info(id: 0x1F355, name: 'SLICE OF PIZZA', category: Cat::Other_Symbol)]
@@ -286,13 +286,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F359, name: 'RICE BALL', category: Cat::Other_Symbol)]
     case RICE_BALL = "\u{1F359}";
 
-    #[Info(id: 0x1F35A, name: 'COOKED RICE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F35A, name: 'COOKED RICE', category: Cat::Other_Symbol, informativeAliases: ['bowl of rice'])]
     case COOKED_RICE = "\u{1F35A}";
 
-    #[Info(id: 0x1F35B, name: 'CURRY AND RICE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F35B, name: 'CURRY AND RICE', category: Cat::Other_Symbol, informativeAliases: ['Japanese style curry'])]
     case CURRY_AND_RICE = "\u{1F35B}";
 
-    #[Info(id: 0x1F35C, name: 'STEAMING BOWL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F35C, name: 'STEAMING BOWL', category: Cat::Other_Symbol, informativeAliases: ['ramen noodles'])]
     case STEAMING_BOWL = "\u{1F35C}";
 
     #[Info(id: 0x1F35D, name: 'SPAGHETTI', category: Cat::Other_Symbol)]
@@ -307,10 +307,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F360, name: 'ROASTED SWEET POTATO', category: Cat::Other_Symbol)]
     case ROASTED_SWEET_POTATO = "\u{1F360}";
 
-    #[Info(id: 0x1F361, name: 'DANGO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F361, name: 'DANGO', category: Cat::Other_Symbol, informativeAliases: ['mochi balls on skewer'])]
     case DANGO = "\u{1F361}";
 
-    #[Info(id: 0x1F362, name: 'ODEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F362, name: 'ODEN', category: Cat::Other_Symbol, informativeAliases: ['seafood on skewer'])]
     case ODEN = "\u{1F362}";
 
     #[Info(id: 0x1F363, name: 'SUSHI', category: Cat::Other_Symbol)]
@@ -334,7 +334,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F369, name: 'DOUGHNUT', category: Cat::Other_Symbol)]
     case DOUGHNUT = "\u{1F369}";
 
-    #[Info(id: 0x1F36A, name: 'COOKIE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F36A, name: 'COOKIE', category: Cat::Other_Symbol, informativeAliases: ['biscuit'])]
     case COOKIE = "\u{1F36A}";
 
     #[Info(id: 0x1F36B, name: 'CHOCOLATE BAR', category: Cat::Other_Symbol)]
@@ -361,10 +361,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F372, name: 'POT OF FOOD', category: Cat::Other_Symbol)]
     case POT_OF_FOOD = "\u{1F372}";
 
-    #[Info(id: 0x1F373, name: 'COOKING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F373, name: 'COOKING', category: Cat::Other_Symbol, informativeAliases: ['frying pan, cooking utensil'])]
     case COOKING = "\u{1F373}";
 
-    #[Info(id: 0x1F374, name: 'FORK AND KNIFE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F374, name: 'FORK AND KNIFE', category: Cat::Other_Symbol, informativeAliases: ['restaurant, meal'])]
     case FORK_AND_KNIFE = "\u{1F374}";
 
     #[Info(id: 0x1F375, name: 'TEACUP WITHOUT HANDLE', category: Cat::Other_Symbol)]
@@ -376,7 +376,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F377, name: 'WINE GLASS', category: Cat::Other_Symbol)]
     case WINE_GLASS = "\u{1F377}";
 
-    #[Info(id: 0x1F378, name: 'COCKTAIL GLASS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F378, name: 'COCKTAIL GLASS', category: Cat::Other_Symbol, informativeAliases: ['lounge'])]
     case COCKTAIL_GLASS = "\u{1F378}";
 
     #[Info(id: 0x1F379, name: 'TROPICAL DRINK', category: Cat::Other_Symbol)]
@@ -385,13 +385,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F37A, name: 'BEER MUG', category: Cat::Other_Symbol)]
     case BEER_MUG = "\u{1F37A}";
 
-    #[Info(id: 0x1F37B, name: 'CLINKING BEER MUGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F37B, name: 'CLINKING BEER MUGS', category: Cat::Other_Symbol, informativeAliases: ['cheers'])]
     case CLINKING_BEER_MUGS = "\u{1F37B}";
 
     #[Info(id: 0x1F37C, name: 'BABY BOTTLE', category: Cat::Other_Symbol)]
     case BABY_BOTTLE = "\u{1F37C}";
 
-    #[Info(id: 0x1F37D, name: 'FORK AND KNIFE WITH PLATE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F37D, name: 'FORK AND KNIFE WITH PLATE', category: Cat::Other_Symbol, informativeAliases: ['dining'])]
     case FORK_AND_KNIFE_WITH_PLATE = "\u{1F37D}";
 
     #[Info(id: 0x1F37E, name: 'BOTTLE WITH POPPING CORK', category: Cat::Other_Symbol)]
@@ -409,13 +409,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F382, name: 'BIRTHDAY CAKE', category: Cat::Other_Symbol)]
     case BIRTHDAY_CAKE = "\u{1F382}";
 
-    #[Info(id: 0x1F383, name: 'JACK-O-LANTERN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F383, name: 'JACK-O-LANTERN', category: Cat::Other_Symbol, informativeAliases: ['Hallowe\'en'])]
     case JACK_O_LANTERN = "\u{1F383}";
 
     #[Info(id: 0x1F384, name: 'CHRISTMAS TREE', category: Cat::Other_Symbol)]
     case CHRISTMAS_TREE = "\u{1F384}";
 
-    #[Info(id: 0x1F385, name: 'FATHER CHRISTMAS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F385, name: 'FATHER CHRISTMAS', category: Cat::Other_Symbol, informativeAliases: ['Santa Claus'])]
     case FATHER_CHRISTMAS = "\u{1F385}";
 
     #[Info(id: 0x1F386, name: 'FIREWORKS', category: Cat::Other_Symbol)]
@@ -430,10 +430,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F389, name: 'PARTY POPPER', category: Cat::Other_Symbol)]
     case PARTY_POPPER = "\u{1F389}";
 
-    #[Info(id: 0x1F38A, name: 'CONFETTI BALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F38A, name: 'CONFETTI BALL', category: Cat::Other_Symbol, informativeAliases: ['congratulations'])]
     case CONFETTI_BALL = "\u{1F38A}";
 
-    #[Info(id: 0x1F38B, name: 'TANABATA TREE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F38B, name: 'TANABATA TREE', category: Cat::Other_Symbol, informativeAliases: ['tanabata tree with wishing papers'])]
     case TANABATA_TREE = "\u{1F38B}";
 
     #[Info(id: 0x1F38C, name: 'CROSSED FLAGS', category: Cat::Other_Symbol)]
@@ -457,13 +457,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F392, name: 'SCHOOL SATCHEL', category: Cat::Other_Symbol)]
     case SCHOOL_SATCHEL = "\u{1F392}";
 
-    #[Info(id: 0x1F393, name: 'GRADUATION CAP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F393, name: 'GRADUATION CAP', category: Cat::Other_Symbol, informativeAliases: ['mortarboard, education'])]
     case GRADUATION_CAP = "\u{1F393}";
 
-    #[Info(id: 0x1F394, name: 'HEART WITH TIP ON THE LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F394, name: 'HEART WITH TIP ON THE LEFT', category: Cat::Other_Symbol, informativeAliases: ['favorite'])]
     case HEART_WITH_TIP_ON_THE_LEFT = "\u{1F394}";
 
-    #[Info(id: 0x1F395, name: 'BOUQUET OF FLOWERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F395, name: 'BOUQUET OF FLOWERS', category: Cat::Other_Symbol, informativeAliases: ['occasion'])]
     case BOUQUET_OF_FLOWERS = "\u{1F395}";
 
     #[Info(id: 0x1F396, name: 'MILITARY MEDAL', category: Cat::Other_Symbol)]
@@ -472,82 +472,82 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F397, name: 'REMINDER RIBBON', category: Cat::Other_Symbol)]
     case REMINDER_RIBBON = "\u{1F397}";
 
-    #[Info(id: 0x1F398, name: 'MUSICAL KEYBOARD WITH JACKS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F398, name: 'MUSICAL KEYBOARD WITH JACKS', category: Cat::Other_Symbol, informativeAliases: ['midi, midi keyboard, master keyboard with plugs'])]
     case MUSICAL_KEYBOARD_WITH_JACKS = "\u{1F398}";
 
-    #[Info(id: 0x1F399, name: 'STUDIO MICROPHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F399, name: 'STUDIO MICROPHONE', category: Cat::Other_Symbol, informativeAliases: ['microphone'])]
     case STUDIO_MICROPHONE = "\u{1F399}";
 
-    #[Info(id: 0x1F39A, name: 'LEVEL SLIDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F39A, name: 'LEVEL SLIDER', category: Cat::Other_Symbol, informativeAliases: ['level control'])]
     case LEVEL_SLIDER = "\u{1F39A}";
 
-    #[Info(id: 0x1F39B, name: 'CONTROL KNOBS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F39B, name: 'CONTROL KNOBS', category: Cat::Other_Symbol, informativeAliases: ['audio control'])]
     case CONTROL_KNOBS = "\u{1F39B}";
 
-    #[Info(id: 0x1F39C, name: 'BEAMED ASCENDING MUSICAL NOTES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F39C, name: 'BEAMED ASCENDING MUSICAL NOTES', category: Cat::Other_Symbol, informativeAliases: ['musical performance', 'music, musical background'])]
     case BEAMED_ASCENDING_MUSICAL_NOTES = "\u{1F39C}";
 
     #[Info(id: 0x1F39D, name: 'BEAMED DESCENDING MUSICAL NOTES', category: Cat::Other_Symbol)]
     case BEAMED_DESCENDING_MUSICAL_NOTES = "\u{1F39D}";
 
-    #[Info(id: 0x1F39E, name: 'FILM FRAMES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F39E, name: 'FILM FRAMES', category: Cat::Other_Symbol, informativeAliases: ['film clip'])]
     case FILM_FRAMES = "\u{1F39E}";
 
-    #[Info(id: 0x1F39F, name: 'ADMISSION TICKETS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F39F, name: 'ADMISSION TICKETS', category: Cat::Other_Symbol, informativeAliases: ['ticket'])]
     case ADMISSION_TICKETS = "\u{1F39F}";
 
-    #[Info(id: 0x1F3A0, name: 'CAROUSEL HORSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A0, name: 'CAROUSEL HORSE', category: Cat::Other_Symbol, informativeAliases: ['amusement park'])]
     case CAROUSEL_HORSE = "\u{1F3A0}";
 
-    #[Info(id: 0x1F3A1, name: 'FERRIS WHEEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A1, name: 'FERRIS WHEEL', category: Cat::Other_Symbol, informativeAliases: ['amusement park'])]
     case FERRIS_WHEEL = "\u{1F3A1}";
 
     #[Info(id: 0x1F3A2, name: 'ROLLER COASTER', category: Cat::Other_Symbol)]
     case ROLLER_COASTER = "\u{1F3A2}";
 
-    #[Info(id: 0x1F3A3, name: 'FISHING POLE AND FISH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A3, name: 'FISHING POLE AND FISH', category: Cat::Other_Symbol, informativeAliases: ['fishing'])]
     case FISHING_POLE_AND_FISH = "\u{1F3A3}";
 
-    #[Info(id: 0x1F3A4, name: 'MICROPHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A4, name: 'MICROPHONE', category: Cat::Other_Symbol, informativeAliases: ['karaoke'])]
     case MICROPHONE = "\u{1F3A4}";
 
-    #[Info(id: 0x1F3A5, name: 'MOVIE CAMERA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A5, name: 'MOVIE CAMERA', category: Cat::Other_Symbol, informativeAliases: ['film, movies'])]
     case MOVIE_CAMERA = "\u{1F3A5}";
 
-    #[Info(id: 0x1F3A6, name: 'CINEMA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A6, name: 'CINEMA', category: Cat::Other_Symbol, informativeAliases: ['movie theater, movie projector'])]
     case CINEMA = "\u{1F3A6}";
 
-    #[Info(id: 0x1F3A7, name: 'HEADPHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A7, name: 'HEADPHONE', category: Cat::Other_Symbol, informativeAliases: ['music'])]
     case HEADPHONE = "\u{1F3A7}";
 
-    #[Info(id: 0x1F3A8, name: 'ARTIST PALETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A8, name: 'ARTIST PALETTE', category: Cat::Other_Symbol, informativeAliases: ['art'])]
     case ARTIST_PALETTE = "\u{1F3A8}";
 
-    #[Info(id: 0x1F3A9, name: 'TOP HAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3A9, name: 'TOP HAT', category: Cat::Other_Symbol, informativeAliases: ['drama, performing arts, theater'])]
     case TOP_HAT = "\u{1F3A9}";
 
-    #[Info(id: 0x1F3AA, name: 'CIRCUS TENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3AA, name: 'CIRCUS TENT', category: Cat::Other_Symbol, informativeAliases: ['event'])]
     case CIRCUS_TENT = "\u{1F3AA}";
 
     #[Info(id: 0x1F3AB, name: 'TICKET', category: Cat::Other_Symbol)]
     case TICKET = "\u{1F3AB}";
 
-    #[Info(id: 0x1F3AC, name: 'CLAPPER BOARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3AC, name: 'CLAPPER BOARD', category: Cat::Other_Symbol, informativeAliases: ['film'])]
     case CLAPPER_BOARD = "\u{1F3AC}";
 
-    #[Info(id: 0x1F3AD, name: 'PERFORMING ARTS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3AD, name: 'PERFORMING ARTS', category: Cat::Other_Symbol, informativeAliases: ['theater masks, theater'])]
     case PERFORMING_ARTS = "\u{1F3AD}";
 
-    #[Info(id: 0x1F3AE, name: 'VIDEO GAME', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3AE, name: 'VIDEO GAME', category: Cat::Other_Symbol, informativeAliases: ['video game controller'])]
     case VIDEO_GAME = "\u{1F3AE}";
 
-    #[Info(id: 0x1F3AF, name: 'DIRECT HIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3AF, name: 'DIRECT HIT', category: Cat::Other_Symbol, informativeAliases: ['archery target, hitting the target'])]
     case DIRECT_HIT = "\u{1F3AF}";
 
     #[Info(id: 0x1F3B0, name: 'SLOT MACHINE', category: Cat::Other_Symbol)]
     case SLOT_MACHINE = "\u{1F3B0}";
 
-    #[Info(id: 0x1F3B1, name: 'BILLIARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B1, name: 'BILLIARDS', category: Cat::Other_Symbol, informativeAliases: ['magic 8-ball'])]
     case BILLIARDS = "\u{1F3B1}";
 
     #[Info(id: 0x1F3B2, name: 'GAME DIE', category: Cat::Other_Symbol)]
@@ -556,13 +556,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F3B3, name: 'BOWLING', category: Cat::Other_Symbol)]
     case BOWLING = "\u{1F3B3}";
 
-    #[Info(id: 0x1F3B4, name: 'FLOWER PLAYING CARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B4, name: 'FLOWER PLAYING CARDS', category: Cat::Other_Symbol, informativeAliases: ['flower cards'])]
     case FLOWER_PLAYING_CARDS = "\u{1F3B4}";
 
-    #[Info(id: 0x1F3B5, name: 'MUSICAL NOTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B5, name: 'MUSICAL NOTE', category: Cat::Other_Symbol, informativeAliases: ['music, being in good mood'])]
     case MUSICAL_NOTE = "\u{1F3B5}";
 
-    #[Info(id: 0x1F3B6, name: 'MULTIPLE MUSICAL NOTES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3B6, name: 'MULTIPLE MUSICAL NOTES', category: Cat::Other_Symbol, informativeAliases: ['dancing notes, mood, melody'])]
     case MULTIPLE_MUSICAL_NOTES = "\u{1F3B6}";
 
     #[Info(id: 0x1F3B7, name: 'SAXOPHONE', category: Cat::Other_Symbol)]
@@ -583,28 +583,28 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F3BC, name: 'MUSICAL SCORE', category: Cat::Other_Symbol)]
     case MUSICAL_SCORE = "\u{1F3BC}";
 
-    #[Info(id: 0x1F3BD, name: 'RUNNING SHIRT WITH SASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3BD, name: 'RUNNING SHIRT WITH SASH', category: Cat::Other_Symbol, informativeAliases: ['ekiden (Japanese)'])]
     case RUNNING_SHIRT_WITH_SASH = "\u{1F3BD}";
 
-    #[Info(id: 0x1F3BE, name: 'TENNIS RACQUET AND BALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3BE, name: 'TENNIS RACQUET AND BALL', category: Cat::Other_Symbol, informativeAliases: ['tennis'])]
     case TENNIS_RACQUET_AND_BALL = "\u{1F3BE}";
 
-    #[Info(id: 0x1F3BF, name: 'SKI AND SKI BOOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3BF, name: 'SKI AND SKI BOOT', category: Cat::Other_Symbol, informativeAliases: ['skiing'])]
     case SKI_AND_SKI_BOOT = "\u{1F3BF}";
 
-    #[Info(id: 0x1F3C0, name: 'BASKETBALL AND HOOP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C0, name: 'BASKETBALL AND HOOP', category: Cat::Other_Symbol, informativeAliases: ['basketball'])]
     case BASKETBALL_AND_HOOP = "\u{1F3C0}";
 
-    #[Info(id: 0x1F3C1, name: 'CHEQUERED FLAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C1, name: 'CHEQUERED FLAG', category: Cat::Other_Symbol, informativeAliases: ['motor sports'])]
     case CHEQUERED_FLAG = "\u{1F3C1}";
 
     #[Info(id: 0x1F3C2, name: 'SNOWBOARDER', category: Cat::Other_Symbol)]
     case SNOWBOARDER = "\u{1F3C2}";
 
-    #[Info(id: 0x1F3C3, name: 'RUNNER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C3, name: 'RUNNER', category: Cat::Other_Symbol, informativeAliases: ['running, marathon, track and fields'])]
     case RUNNER = "\u{1F3C3}";
 
-    #[Info(id: 0x1F3C4, name: 'SURFER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3C4, name: 'SURFER', category: Cat::Other_Symbol, informativeAliases: ['surfing'])]
     case SURFER = "\u{1F3C4}";
 
     #[Info(id: 0x1F3C5, name: 'SPORTS MEDAL', category: Cat::Other_Symbol)]
@@ -625,16 +625,16 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F3CA, name: 'SWIMMER', category: Cat::Other_Symbol)]
     case SWIMMER = "\u{1F3CA}";
 
-    #[Info(id: 0x1F3CB, name: 'WEIGHT LIFTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3CB, name: 'WEIGHT LIFTER', category: Cat::Other_Symbol, informativeAliases: ['health'])]
     case WEIGHT_LIFTER = "\u{1F3CB}";
 
     #[Info(id: 0x1F3CC, name: 'GOLFER', category: Cat::Other_Symbol)]
     case GOLFER = "\u{1F3CC}";
 
-    #[Info(id: 0x1F3CD, name: 'RACING MOTORCYCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3CD, name: 'RACING MOTORCYCLE', category: Cat::Other_Symbol, informativeAliases: ['motorcycle'])]
     case RACING_MOTORCYCLE = "\u{1F3CD}";
 
-    #[Info(id: 0x1F3CE, name: 'RACING CAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3CE, name: 'RACING CAR', category: Cat::Other_Symbol, informativeAliases: ['race car'])]
     case RACING_CAR = "\u{1F3CE}";
 
     #[Info(id: 0x1F3CF, name: 'CRICKET BAT AND BALL', category: Cat::Other_Symbol)]
@@ -655,31 +655,31 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F3D4, name: 'SNOW CAPPED MOUNTAIN', category: Cat::Other_Symbol)]
     case SNOW_CAPPED_MOUNTAIN = "\u{1F3D4}";
 
-    #[Info(id: 0x1F3D5, name: 'CAMPING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D5, name: 'CAMPING', category: Cat::Other_Symbol, informativeAliases: ['camping site'])]
     case CAMPING = "\u{1F3D5}";
 
     #[Info(id: 0x1F3D6, name: 'BEACH WITH UMBRELLA', category: Cat::Other_Symbol)]
     case BEACH_WITH_UMBRELLA = "\u{1F3D6}";
 
-    #[Info(id: 0x1F3D7, name: 'BUILDING CONSTRUCTION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D7, name: 'BUILDING CONSTRUCTION', category: Cat::Other_Symbol, informativeAliases: ['under construction'])]
     case BUILDING_CONSTRUCTION = "\u{1F3D7}";
 
-    #[Info(id: 0x1F3D8, name: 'HOUSE BUILDINGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D8, name: 'HOUSE BUILDINGS', category: Cat::Other_Symbol, informativeAliases: ['town'])]
     case HOUSE_BUILDINGS = "\u{1F3D8}";
 
-    #[Info(id: 0x1F3D9, name: 'CITYSCAPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3D9, name: 'CITYSCAPE', category: Cat::Other_Symbol, informativeAliases: ['skyline, city'])]
     case CITYSCAPE = "\u{1F3D9}";
 
-    #[Info(id: 0x1F3DA, name: 'DERELICT HOUSE BUILDING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3DA, name: 'DERELICT HOUSE BUILDING', category: Cat::Other_Symbol, informativeAliases: ['derelict site'])]
     case DERELICT_HOUSE_BUILDING = "\u{1F3DA}";
 
-    #[Info(id: 0x1F3DB, name: 'CLASSICAL BUILDING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3DB, name: 'CLASSICAL BUILDING', category: Cat::Other_Symbol, informativeAliases: ['public building'])]
     case CLASSICAL_BUILDING = "\u{1F3DB}";
 
     #[Info(id: 0x1F3DC, name: 'DESERT', category: Cat::Other_Symbol)]
     case DESERT = "\u{1F3DC}";
 
-    #[Info(id: 0x1F3DD, name: 'DESERT ISLAND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3DD, name: 'DESERT ISLAND', category: Cat::Other_Symbol, informativeAliases: ['island'])]
     case DESERT_ISLAND = "\u{1F3DD}";
 
     #[Info(id: 0x1F3DE, name: 'NATIONAL PARK', category: Cat::Other_Symbol)]
@@ -691,7 +691,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F3E0, name: 'HOUSE BUILDING', category: Cat::Other_Symbol)]
     case HOUSE_BUILDING = "\u{1F3E0}";
 
-    #[Info(id: 0x1F3E1, name: 'HOUSE WITH GARDEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E1, name: 'HOUSE WITH GARDEN', category: Cat::Other_Symbol, informativeAliases: ['home, house with yard'])]
     case HOUSE_WITH_GARDEN = "\u{1F3E1}";
 
     #[Info(id: 0x1F3E2, name: 'OFFICE BUILDING', category: Cat::Other_Symbol)]
@@ -709,7 +709,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F3E6, name: 'BANK', category: Cat::Other_Symbol)]
     case BANK = "\u{1F3E6}";
 
-    #[Info(id: 0x1F3E7, name: 'AUTOMATED TELLER MACHINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3E7, name: 'AUTOMATED TELLER MACHINE', category: Cat::Other_Symbol, informativeAliases: ['ATM'])]
     case AUTOMATED_TELLER_MACHINE = "\u{1F3E7}";
 
     #[Info(id: 0x1F3E8, name: 'HOTEL', category: Cat::Other_Symbol)]
@@ -727,10 +727,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F3EC, name: 'DEPARTMENT STORE', category: Cat::Other_Symbol)]
     case DEPARTMENT_STORE = "\u{1F3EC}";
 
-    #[Info(id: 0x1F3ED, name: 'FACTORY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3ED, name: 'FACTORY', category: Cat::Other_Symbol, informativeAliases: ['industrial production site', 'date of production'])]
     case FACTORY = "\u{1F3ED}";
 
-    #[Info(id: 0x1F3EE, name: 'IZAKAYA LANTERN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3EE, name: 'IZAKAYA LANTERN', category: Cat::Other_Symbol, informativeAliases: ['japanese izakaya restaurant'])]
     case IZAKAYA_LANTERN = "\u{1F3EE}";
 
     #[Info(id: 0x1F3EF, name: 'JAPANESE CASTLE', category: Cat::Other_Symbol)]
@@ -745,7 +745,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F3F2, name: 'BLACK PENNANT', category: Cat::Other_Symbol)]
     case BLACK_PENNANT = "\u{1F3F2}";
 
-    #[Info(id: 0x1F3F3, name: 'WAVING WHITE FLAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F3, name: 'WAVING WHITE FLAG', category: Cat::Other_Symbol, informativeAliases: ['flag'])]
     case WAVING_WHITE_FLAG = "\u{1F3F3}";
 
     #[Info(id: 0x1F3F4, name: 'WAVING BLACK FLAG', category: Cat::Other_Symbol)]
@@ -757,13 +757,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F3F6, name: 'BLACK ROSETTE', category: Cat::Other_Symbol)]
     case BLACK_ROSETTE = "\u{1F3F6}";
 
-    #[Info(id: 0x1F3F7, name: 'LABEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F7, name: 'LABEL', category: Cat::Other_Symbol, informativeAliases: ['price, price tag'])]
     case LABEL = "\u{1F3F7}";
 
     #[Info(id: 0x1F3F8, name: 'BADMINTON RACQUET AND SHUTTLECOCK', category: Cat::Other_Symbol)]
     case BADMINTON_RACQUET_AND_SHUTTLECOCK = "\u{1F3F8}";
 
-    #[Info(id: 0x1F3F9, name: 'BOW AND ARROW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F3F9, name: 'BOW AND ARROW', category: Cat::Other_Symbol, informativeAliases: ['archery'])]
     case BOW_AND_ARROW = "\u{1F3F9}";
 
     #[Info(id: 0x1F3FA, name: 'AMPHORA', category: Cat::Other_Symbol)]
@@ -796,7 +796,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F403, name: 'WATER BUFFALO', category: Cat::Other_Symbol)]
     case WATER_BUFFALO = "\u{1F403}";
 
-    #[Info(id: 0x1F404, name: 'COW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F404, name: 'COW', category: Cat::Other_Symbol, informativeAliases: ['beef (on menus)'])]
     case COW = "\u{1F404}";
 
     #[Info(id: 0x1F405, name: 'TIGER', category: Cat::Other_Symbol)]
@@ -826,7 +826,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F40D, name: 'SNAKE', category: Cat::Other_Symbol)]
     case SNAKE = "\u{1F40D}";
 
-    #[Info(id: 0x1F40E, name: 'HORSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F40E, name: 'HORSE', category: Cat::Other_Symbol, informativeAliases: ['equestrian sports'])]
     case HORSE = "\u{1F40E}";
 
     #[Info(id: 0x1F40F, name: 'RAM', category: Cat::Other_Symbol)]
@@ -841,16 +841,16 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F412, name: 'MONKEY', category: Cat::Other_Symbol)]
     case MONKEY = "\u{1F412}";
 
-    #[Info(id: 0x1F413, name: 'ROOSTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F413, name: 'ROOSTER', category: Cat::Other_Symbol, informativeAliases: ['cock'])]
     case ROOSTER = "\u{1F413}";
 
-    #[Info(id: 0x1F414, name: 'CHICKEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F414, name: 'CHICKEN', category: Cat::Other_Symbol, informativeAliases: ['hen', 'poultry (on menus)'])]
     case CHICKEN = "\u{1F414}";
 
     #[Info(id: 0x1F415, name: 'DOG', category: Cat::Other_Symbol)]
     case DOG = "\u{1F415}";
 
-    #[Info(id: 0x1F416, name: 'PIG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F416, name: 'PIG', category: Cat::Other_Symbol, informativeAliases: ['pork (on menus)'])]
     case PIG = "\u{1F416}";
 
     #[Info(id: 0x1F417, name: 'BOAR', category: Cat::Other_Symbol)]
@@ -874,7 +874,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F41D, name: 'HONEYBEE', category: Cat::Other_Symbol)]
     case HONEYBEE = "\u{1F41D}";
 
-    #[Info(id: 0x1F41E, name: 'LADY BEETLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F41E, name: 'LADY BEETLE', category: Cat::Other_Symbol, informativeAliases: ['ladybird, ladybug, coccinellids'])]
     case LADY_BEETLE = "\u{1F41E}";
 
     #[Info(id: 0x1F41F, name: 'FISH', category: Cat::Other_Symbol)]
@@ -886,7 +886,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F421, name: 'BLOWFISH', category: Cat::Other_Symbol)]
     case BLOWFISH = "\u{1F421}";
 
-    #[Info(id: 0x1F422, name: 'TURTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F422, name: 'TURTLE', category: Cat::Other_Symbol, informativeAliases: ['tortoise, terrapin'])]
     case TURTLE = "\u{1F422}";
 
     #[Info(id: 0x1F423, name: 'HATCHING CHICK', category: Cat::Other_Symbol)]
@@ -973,13 +973,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F43E, name: 'PAW PRINTS', category: Cat::Other_Symbol)]
     case PAW_PRINTS = "\u{1F43E}";
 
-    #[Info(id: 0x1F43F, name: 'CHIPMUNK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F43F, name: 'CHIPMUNK', category: Cat::Other_Symbol, informativeAliases: ['animal, critter'])]
     case CHIPMUNK = "\u{1F43F}";
 
     #[Info(id: 0x1F440, name: 'EYES', category: Cat::Other_Symbol)]
     case EYES = "\u{1F440}";
 
-    #[Info(id: 0x1F441, name: 'EYE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F441, name: 'EYE', category: Cat::Other_Symbol, informativeAliases: ['sight'])]
     case EYE = "\u{1F441}";
 
     #[Info(id: 0x1F442, name: 'EAR', category: Cat::Other_Symbol)]
@@ -1006,7 +1006,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F449, name: 'WHITE RIGHT POINTING BACKHAND INDEX', category: Cat::Other_Symbol)]
     case WHITE_RIGHT_POINTING_BACKHAND_INDEX = "\u{1F449}";
 
-    #[Info(id: 0x1F44A, name: 'FISTED HAND SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F44A, name: 'FISTED HAND SIGN', category: Cat::Other_Symbol, informativeAliases: ['punch'])]
     case FISTED_HAND_SIGN = "\u{1F44A}";
 
     #[Info(id: 0x1F44B, name: 'WAVING HAND SIGN', category: Cat::Other_Symbol)]
@@ -1069,7 +1069,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F45E, name: 'MANS SHOE', category: Cat::Other_Symbol)]
     case MANS_SHOE = "\u{1F45E}";
 
-    #[Info(id: 0x1F45F, name: 'ATHLETIC SHOE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F45F, name: 'ATHLETIC SHOE', category: Cat::Other_Symbol, informativeAliases: ['runner, sneaker, tennis shoe'])]
     case ATHLETIC_SHOE = "\u{1F45F}";
 
     #[Info(id: 0x1F460, name: 'HIGH-HEELED SHOE', category: Cat::Other_Symbol)]
@@ -1084,10 +1084,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F463, name: 'FOOTPRINTS', category: Cat::Other_Symbol)]
     case FOOTPRINTS = "\u{1F463}";
 
-    #[Info(id: 0x1F464, name: 'BUST IN SILHOUETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F464, name: 'BUST IN SILHOUETTE', category: Cat::Other_Symbol, informativeAliases: ['guest account'])]
     case BUST_IN_SILHOUETTE = "\u{1F464}";
 
-    #[Info(id: 0x1F465, name: 'BUSTS IN SILHOUETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F465, name: 'BUSTS IN SILHOUETTE', category: Cat::Other_Symbol, informativeAliases: ['accounts'])]
     case BUSTS_IN_SILHOUETTE = "\u{1F465}";
 
     #[Info(id: 0x1F466, name: 'BOY', category: Cat::Other_Symbol)]
@@ -1102,7 +1102,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F469, name: 'WOMAN', category: Cat::Other_Symbol)]
     case WOMAN = "\u{1F469}";
 
-    #[Info(id: 0x1F46A, name: 'FAMILY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F46A, name: 'FAMILY', category: Cat::Other_Symbol, informativeAliases: ['rated for family'])]
     case FAMILY = "\u{1F46A}";
 
     #[Info(id: 0x1F46B, name: 'MAN AND WOMAN HOLDING HANDS', category: Cat::Other_Symbol)]
@@ -1183,7 +1183,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F484, name: 'LIPSTICK', category: Cat::Other_Symbol)]
     case LIPSTICK = "\u{1F484}";
 
-    #[Info(id: 0x1F485, name: 'NAIL POLISH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F485, name: 'NAIL POLISH', category: Cat::Other_Symbol, informativeAliases: ['manicure, nail care'])]
     case NAIL_POLISH = "\u{1F485}";
 
     #[Info(id: 0x1F486, name: 'FACE MASSAGE', category: Cat::Other_Symbol)]
@@ -1201,19 +1201,19 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F48A, name: 'PILL', category: Cat::Other_Symbol)]
     case PILL = "\u{1F48A}";
 
-    #[Info(id: 0x1F48B, name: 'KISS MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F48B, name: 'KISS MARK', category: Cat::Other_Symbol, informativeAliases: ['lips'])]
     case KISS_MARK = "\u{1F48B}";
 
     #[Info(id: 0x1F48C, name: 'LOVE LETTER', category: Cat::Other_Symbol)]
     case LOVE_LETTER = "\u{1F48C}";
 
-    #[Info(id: 0x1F48D, name: 'RING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F48D, name: 'RING', category: Cat::Other_Symbol, informativeAliases: ['jewelry'])]
     case RING = "\u{1F48D}";
 
     #[Info(id: 0x1F48E, name: 'GEM STONE', category: Cat::Other_Symbol)]
     case GEM_STONE = "\u{1F48E}";
 
-    #[Info(id: 0x1F48F, name: 'KISS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F48F, name: 'KISS', category: Cat::Other_Symbol, informativeAliases: ['two people kissing'])]
     case KISS = "\u{1F48F}";
 
     #[Info(id: 0x1F490, name: 'BOUQUET', category: Cat::Other_Symbol)]
@@ -1222,7 +1222,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F491, name: 'COUPLE WITH HEART', category: Cat::Other_Symbol)]
     case COUPLE_WITH_HEART = "\u{1F491}";
 
-    #[Info(id: 0x1F492, name: 'WEDDING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F492, name: 'WEDDING', category: Cat::Other_Symbol, informativeAliases: ['wedding chapel'])]
     case WEDDING = "\u{1F492}";
 
     #[Info(id: 0x1F493, name: 'BEATING HEART', category: Cat::Other_Symbol)]
@@ -1264,10 +1264,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F49F, name: 'HEART DECORATION', category: Cat::Other_Symbol)]
     case HEART_DECORATION = "\u{1F49F}";
 
-    #[Info(id: 0x1F4A0, name: 'DIAMOND SHAPE WITH A DOT INSIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A0, name: 'DIAMOND SHAPE WITH A DOT INSIDE', category: Cat::Other_Symbol, informativeAliases: ['kawaii, cute'])]
     case DIAMOND_SHAPE_WITH_A_DOT_INSIDE = "\u{1F4A0}";
 
-    #[Info(id: 0x1F4A1, name: 'ELECTRIC LIGHT BULB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A1, name: 'ELECTRIC LIGHT BULB', category: Cat::Other_Symbol, informativeAliases: ['idea'])]
     case ELECTRIC_LIGHT_BULB = "\u{1F4A1}";
 
     #[Info(id: 0x1F4A2, name: 'ANGER SYMBOL', category: Cat::Other_Symbol)]
@@ -1282,34 +1282,34 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F4A5, name: 'COLLISION SYMBOL', category: Cat::Other_Symbol)]
     case COLLISION_SYMBOL = "\u{1F4A5}";
 
-    #[Info(id: 0x1F4A6, name: 'SPLASHING SWEAT SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A6, name: 'SPLASHING SWEAT SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['plewds'])]
     case SPLASHING_SWEAT_SYMBOL = "\u{1F4A6}";
 
     #[Info(id: 0x1F4A7, name: 'DROPLET', category: Cat::Other_Symbol)]
     case DROPLET = "\u{1F4A7}";
 
-    #[Info(id: 0x1F4A8, name: 'DASH SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A8, name: 'DASH SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['running dash, briffits'])]
     case DASH_SYMBOL = "\u{1F4A8}";
 
-    #[Info(id: 0x1F4A9, name: 'PILE OF POO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4A9, name: 'PILE OF POO', category: Cat::Other_Symbol, informativeAliases: ['dog dirt'])]
     case PILE_OF_POO = "\u{1F4A9}";
 
-    #[Info(id: 0x1F4AA, name: 'FLEXED BICEPS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4AA, name: 'FLEXED BICEPS', category: Cat::Other_Symbol, informativeAliases: ['strong, muscled'])]
     case FLEXED_BICEPS = "\u{1F4AA}";
 
-    #[Info(id: 0x1F4AB, name: 'DIZZY SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4AB, name: 'DIZZY SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['circling stars, squeans'])]
     case DIZZY_SYMBOL = "\u{1F4AB}";
 
-    #[Info(id: 0x1F4AC, name: 'SPEECH BALLOON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4AC, name: 'SPEECH BALLOON', category: Cat::Other_Symbol, informativeAliases: ['comic book conversation bubble'])]
     case SPEECH_BALLOON = "\u{1F4AC}";
 
     #[Info(id: 0x1F4AD, name: 'THOUGHT BALLOON', category: Cat::Other_Symbol)]
     case THOUGHT_BALLOON = "\u{1F4AD}";
 
-    #[Info(id: 0x1F4AE, name: 'WHITE FLOWER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4AE, name: 'WHITE FLOWER', category: Cat::Other_Symbol, informativeAliases: ['brilliant homework'])]
     case WHITE_FLOWER = "\u{1F4AE}";
 
-    #[Info(id: 0x1F4AF, name: 'HUNDRED POINTS SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4AF, name: 'HUNDRED POINTS SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['perfect score'])]
     case HUNDRED_POINTS_SYMBOL = "\u{1F4AF}";
 
     #[Info(id: 0x1F4B0, name: 'MONEY BAG', category: Cat::Other_Symbol)]
@@ -1354,13 +1354,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F4BD, name: 'MINIDISC', category: Cat::Other_Symbol)]
     case MINIDISC = "\u{1F4BD}";
 
-    #[Info(id: 0x1F4BE, name: 'FLOPPY DISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4BE, name: 'FLOPPY DISK', category: Cat::Other_Symbol, informativeAliases: ['flexible disk cartridge, floppy disc, floppy, diskette'])]
     case FLOPPY_DISK = "\u{1F4BE}";
 
     #[Info(id: 0x1F4BF, name: 'OPTICAL DISC', category: Cat::Other_Symbol)]
     case OPTICAL_DISC = "\u{1F4BF}";
 
-    #[Info(id: 0x1F4C0, name: 'DVD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4C0, name: 'DVD', category: Cat::Other_Symbol, informativeAliases: ['digital video/versatile disc'])]
     case DVD = "\u{1F4C0}";
 
     #[Info(id: 0x1F4C1, name: 'FILE FOLDER', category: Cat::Other_Symbol)]
@@ -1426,7 +1426,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F4D5, name: 'CLOSED BOOK', category: Cat::Other_Symbol)]
     case CLOSED_BOOK = "\u{1F4D5}";
 
-    #[Info(id: 0x1F4D6, name: 'OPEN BOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4D6, name: 'OPEN BOOK', category: Cat::Other_Symbol, informativeAliases: ['read operator\'s manual'])]
     case OPEN_BOOK = "\u{1F4D6}";
 
     #[Info(id: 0x1F4D7, name: 'GREEN BOOK', category: Cat::Other_Symbol)]
@@ -1459,7 +1459,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F4E0, name: 'FAX MACHINE', category: Cat::Other_Symbol)]
     case FAX_MACHINE = "\u{1F4E0}";
 
-    #[Info(id: 0x1F4E1, name: 'SATELLITE ANTENNA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4E1, name: 'SATELLITE ANTENNA', category: Cat::Other_Symbol, informativeAliases: ['position indicator, news'])]
     case SATELLITE_ANTENNA = "\u{1F4E1}";
 
     #[Info(id: 0x1F4E2, name: 'PUBLIC ADDRESS LOUDSPEAKER', category: Cat::Other_Symbol)]
@@ -1486,10 +1486,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F4E9, name: 'ENVELOPE WITH DOWNWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
     case ENVELOPE_WITH_DOWNWARDS_ARROW_ABOVE = "\u{1F4E9}";
 
-    #[Info(id: 0x1F4EA, name: 'CLOSED MAILBOX WITH LOWERED FLAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4EA, name: 'CLOSED MAILBOX WITH LOWERED FLAG', category: Cat::Other_Symbol, informativeAliases: ['letter box, mail reception', 'empty mailbox'])]
     case CLOSED_MAILBOX_WITH_LOWERED_FLAG = "\u{1F4EA}";
 
-    #[Info(id: 0x1F4EB, name: 'CLOSED MAILBOX WITH RAISED FLAG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4EB, name: 'CLOSED MAILBOX WITH RAISED FLAG', category: Cat::Other_Symbol, informativeAliases: ['mailbox containing mail'])]
     case CLOSED_MAILBOX_WITH_RAISED_FLAG = "\u{1F4EB}";
 
     #[Info(id: 0x1F4EC, name: 'OPEN MAILBOX WITH RAISED FLAG', category: Cat::Other_Symbol)]
@@ -1498,7 +1498,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F4ED, name: 'OPEN MAILBOX WITH LOWERED FLAG', category: Cat::Other_Symbol)]
     case OPEN_MAILBOX_WITH_LOWERED_FLAG = "\u{1F4ED}";
 
-    #[Info(id: 0x1F4EE, name: 'POSTBOX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4EE, name: 'POSTBOX', category: Cat::Other_Symbol, informativeAliases: ['mailbox for sending mail'])]
     case POSTBOX = "\u{1F4EE}";
 
     #[Info(id: 0x1F4EF, name: 'POSTAL HORN', category: Cat::Other_Symbol)]
@@ -1522,7 +1522,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F4F5, name: 'NO MOBILE PHONES', category: Cat::Other_Symbol)]
     case NO_MOBILE_PHONES = "\u{1F4F5}";
 
-    #[Info(id: 0x1F4F6, name: 'ANTENNA WITH BARS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F6, name: 'ANTENNA WITH BARS', category: Cat::Other_Symbol, informativeAliases: ['cellular reception'])]
     case ANTENNA_WITH_BARS = "\u{1F4F6}";
 
     #[Info(id: 0x1F4F7, name: 'CAMERA', category: Cat::Other_Symbol)]
@@ -1531,7 +1531,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F4F8, name: 'CAMERA WITH FLASH', category: Cat::Other_Symbol)]
     case CAMERA_WITH_FLASH = "\u{1F4F8}";
 
-    #[Info(id: 0x1F4F9, name: 'VIDEO CAMERA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4F9, name: 'VIDEO CAMERA', category: Cat::Other_Symbol, informativeAliases: ['video'])]
     case VIDEO_CAMERA = "\u{1F4F9}";
 
     #[Info(id: 0x1F4FA, name: 'TELEVISION', category: Cat::Other_Symbol)]
@@ -1543,28 +1543,28 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F4FC, name: 'VIDEOCASSETTE', category: Cat::Other_Symbol)]
     case VIDEOCASSETTE = "\u{1F4FC}";
 
-    #[Info(id: 0x1F4FD, name: 'FILM PROJECTOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4FD, name: 'FILM PROJECTOR', category: Cat::Other_Symbol, informativeAliases: ['movies'])]
     case FILM_PROJECTOR = "\u{1F4FD}";
 
-    #[Info(id: 0x1F4FE, name: 'PORTABLE STEREO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F4FE, name: 'PORTABLE STEREO', category: Cat::Other_Symbol, informativeAliases: ['stereo'])]
     case PORTABLE_STEREO = "\u{1F4FE}";
 
     #[Info(id: 0x1F4FF, name: 'PRAYER BEADS', category: Cat::Other_Symbol)]
     case PRAYER_BEADS = "\u{1F4FF}";
 
-    #[Info(id: 0x1F500, name: 'TWISTED RIGHTWARDS ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F500, name: 'TWISTED RIGHTWARDS ARROWS', category: Cat::Other_Symbol, informativeAliases: ['shuffle'])]
     case TWISTED_RIGHTWARDS_ARROWS = "\u{1F500}";
 
-    #[Info(id: 0x1F501, name: 'CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F501, name: 'CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol, informativeAliases: ['repeat'])]
     case CLOCKWISE_RIGHTWARDS_AND_LEFTWARDS_OPEN_CIRCLE_ARROWS = "\u{1F501}";
 
-    #[Info(id: 0x1F502, name: 'CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F502, name: 'CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY', category: Cat::Other_Symbol, informativeAliases: ['repeat one item over'])]
     case CLOCKWISE_RIGHTWARDS_AND_LEFTWARDS_OPEN_CIRCLE_ARROWS_WITH_CIRCLED_ONE_OVERLAY = "\u{1F502}";
 
-    #[Info(id: 0x1F503, name: 'CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F503, name: 'CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol, informativeAliases: ['reload'])]
     case CLOCKWISE_DOWNWARDS_AND_UPWARDS_OPEN_CIRCLE_ARROWS = "\u{1F503}";
 
-    #[Info(id: 0x1F504, name: 'ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F504, name: 'ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS', category: Cat::Other_Symbol, informativeAliases: ['reload'])]
     case ANTICLOCKWISE_DOWNWARDS_AND_UPWARDS_OPEN_CIRCLE_ARROWS = "\u{1F504}";
 
     #[Info(id: 0x1F505, name: 'LOW BRIGHTNESS SYMBOL', category: Cat::Other_Symbol)]
@@ -1576,13 +1576,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F507, name: 'SPEAKER WITH CANCELLATION STROKE', category: Cat::Other_Symbol)]
     case SPEAKER_WITH_CANCELLATION_STROKE = "\u{1F507}";
 
-    #[Info(id: 0x1F508, name: 'SPEAKER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F508, name: 'SPEAKER', category: Cat::Other_Symbol, informativeAliases: ['left speaker'])]
     case SPEAKER = "\u{1F508}";
 
     #[Info(id: 0x1F509, name: 'SPEAKER WITH ONE SOUND WAVE', category: Cat::Other_Symbol)]
     case SPEAKER_WITH_ONE_SOUND_WAVE = "\u{1F509}";
 
-    #[Info(id: 0x1F50A, name: 'SPEAKER WITH THREE SOUND WAVES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F50A, name: 'SPEAKER WITH THREE SOUND WAVES', category: Cat::Other_Symbol, informativeAliases: ['sound'])]
     case SPEAKER_WITH_THREE_SOUND_WAVES = "\u{1F50A}";
 
     #[Info(id: 0x1F50B, name: 'BATTERY', category: Cat::Other_Symbol)]
@@ -1591,22 +1591,22 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F50C, name: 'ELECTRIC PLUG', category: Cat::Other_Symbol)]
     case ELECTRIC_PLUG = "\u{1F50C}";
 
-    #[Info(id: 0x1F50D, name: 'LEFT-POINTING MAGNIFYING GLASS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F50D, name: 'LEFT-POINTING MAGNIFYING GLASS', category: Cat::Other_Symbol, informativeAliases: ['search'])]
     case LEFT_POINTING_MAGNIFYING_GLASS = "\u{1F50D}";
 
-    #[Info(id: 0x1F50E, name: 'RIGHT-POINTING MAGNIFYING GLASS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F50E, name: 'RIGHT-POINTING MAGNIFYING GLASS', category: Cat::Other_Symbol, informativeAliases: ['get more details'])]
     case RIGHT_POINTING_MAGNIFYING_GLASS = "\u{1F50E}";
 
-    #[Info(id: 0x1F50F, name: 'LOCK WITH INK PEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F50F, name: 'LOCK WITH INK PEN', category: Cat::Other_Symbol, informativeAliases: ['privacy'])]
     case LOCK_WITH_INK_PEN = "\u{1F50F}";
 
-    #[Info(id: 0x1F510, name: 'CLOSED LOCK WITH KEY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F510, name: 'CLOSED LOCK WITH KEY', category: Cat::Other_Symbol, informativeAliases: ['secure'])]
     case CLOSED_LOCK_WITH_KEY = "\u{1F510}";
 
     #[Info(id: 0x1F511, name: 'KEY', category: Cat::Other_Symbol)]
     case KEY = "\u{1F511}";
 
-    #[Info(id: 0x1F512, name: 'LOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F512, name: 'LOCK', category: Cat::Other_Symbol, informativeAliases: ['padlock in locked position'])]
     case LOCK = "\u{1F512}";
 
     #[Info(id: 0x1F513, name: 'OPEN LOCK', category: Cat::Other_Symbol)]
@@ -1639,7 +1639,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F51C, name: 'SOON WITH RIGHTWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
     case SOON_WITH_RIGHTWARDS_ARROW_ABOVE = "\u{1F51C}";
 
-    #[Info(id: 0x1F51D, name: 'TOP WITH UPWARDS ARROW ABOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F51D, name: 'TOP WITH UPWARDS ARROW ABOVE', category: Cat::Other_Symbol, informativeAliases: ['top of page'])]
     case TOP_WITH_UPWARDS_ARROW_ABOVE = "\u{1F51D}";
 
     #[Info(id: 0x1F51E, name: 'NO ONE UNDER EIGHTEEN SYMBOL', category: Cat::Other_Symbol)]
@@ -1660,13 +1660,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F523, name: 'INPUT SYMBOL FOR SYMBOLS', category: Cat::Other_Symbol)]
     case INPUT_SYMBOL_FOR_SYMBOLS = "\u{1F523}";
 
-    #[Info(id: 0x1F524, name: 'INPUT SYMBOL FOR LATIN LETTERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F524, name: 'INPUT SYMBOL FOR LATIN LETTERS', category: Cat::Other_Symbol, informativeAliases: ['English input (ABC)'])]
     case INPUT_SYMBOL_FOR_LATIN_LETTERS = "\u{1F524}";
 
     #[Info(id: 0x1F525, name: 'FIRE', category: Cat::Other_Symbol)]
     case FIRE = "\u{1F525}";
 
-    #[Info(id: 0x1F526, name: 'ELECTRIC TORCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F526, name: 'ELECTRIC TORCH', category: Cat::Other_Symbol, informativeAliases: ['flashlight'])]
     case ELECTRIC_TORCH = "\u{1F526}";
 
     #[Info(id: 0x1F527, name: 'WRENCH', category: Cat::Other_Symbol)]
@@ -1678,10 +1678,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F529, name: 'NUT AND BOLT', category: Cat::Other_Symbol)]
     case NUT_AND_BOLT = "\u{1F529}";
 
-    #[Info(id: 0x1F52A, name: 'HOCHO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F52A, name: 'HOCHO', category: Cat::Other_Symbol, informativeAliases: ['Japanese kitchen knife'])]
     case HOCHO = "\u{1F52A}";
 
-    #[Info(id: 0x1F52B, name: 'PISTOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F52B, name: 'PISTOL', category: Cat::Other_Symbol, informativeAliases: ['handgun, revolver'])]
     case PISTOL = "\u{1F52B}";
 
     #[Info(id: 0x1F52C, name: 'MICROSCOPE', category: Cat::Other_Symbol)]
@@ -1732,13 +1732,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F53B, name: 'DOWN-POINTING RED TRIANGLE', category: Cat::Other_Symbol)]
     case DOWN_POINTING_RED_TRIANGLE = "\u{1F53B}";
 
-    #[Info(id: 0x1F53C, name: 'UP-POINTING SMALL RED TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F53C, name: 'UP-POINTING SMALL RED TRIANGLE', category: Cat::Other_Symbol, informativeAliases: ['play arrow up'])]
     case UP_POINTING_SMALL_RED_TRIANGLE = "\u{1F53C}";
 
-    #[Info(id: 0x1F53D, name: 'DOWN-POINTING SMALL RED TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F53D, name: 'DOWN-POINTING SMALL RED TRIANGLE', category: Cat::Other_Symbol, informativeAliases: ['play arrow down'])]
     case DOWN_POINTING_SMALL_RED_TRIANGLE = "\u{1F53D}";
 
-    #[Info(id: 0x1F53E, name: 'LOWER RIGHT SHADOWED WHITE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F53E, name: 'LOWER RIGHT SHADOWED WHITE CIRCLE', category: Cat::Other_Symbol, informativeAliases: ['circle shadow down'])]
     case LOWER_RIGHT_SHADOWED_WHITE_CIRCLE = "\u{1F53E}";
 
     #[Info(id: 0x1F53F, name: 'UPPER RIGHT SHADOWED WHITE CIRCLE', category: Cat::Other_Symbol)]
@@ -1762,7 +1762,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F545, name: 'SYMBOL FOR MARKS CHAPTER', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_MARKS_CHAPTER = "\u{1F545}";
 
-    #[Info(id: 0x1F546, name: 'WHITE LATIN CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F546, name: 'WHITE LATIN CROSS', category: Cat::Other_Symbol, informativeAliases: ['cross outline'])]
     case WHITE_LATIN_CROSS = "\u{1F546}";
 
     #[Info(id: 0x1F547, name: 'HEAVY LATIN CROSS', category: Cat::Other_Symbol)]
@@ -1774,7 +1774,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F549, name: 'OM SYMBOL', category: Cat::Other_Symbol)]
     case OM_SYMBOL = "\u{1F549}";
 
-    #[Info(id: 0x1F54A, name: 'DOVE OF PEACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F54A, name: 'DOVE OF PEACE', category: Cat::Other_Symbol, informativeAliases: ['peace'])]
     case DOVE_OF_PEACE = "\u{1F54A}";
 
     #[Info(id: 0x1F54B, name: 'KAABA', category: Cat::Other_Symbol)]
@@ -1786,7 +1786,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F54D, name: 'SYNAGOGUE', category: Cat::Other_Symbol)]
     case SYNAGOGUE = "\u{1F54D}";
 
-    #[Info(id: 0x1F54E, name: 'MENORAH WITH NINE BRANCHES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F54E, name: 'MENORAH WITH NINE BRANCHES', category: Cat::Other_Symbol, informativeAliases: ['hanukiah'])]
     case MENORAH_WITH_NINE_BRANCHES = "\u{1F54E}";
 
     #[Info(id: 0x1F54F, name: 'BOWL OF HYGIEIA', category: Cat::Other_Symbol)]
@@ -1873,10 +1873,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F56A, name: 'RIGHT SPEAKER WITH THREE SOUND WAVES', category: Cat::Other_Symbol)]
     case RIGHT_SPEAKER_WITH_THREE_SOUND_WAVES = "\u{1F56A}";
 
-    #[Info(id: 0x1F56B, name: 'BULLHORN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F56B, name: 'BULLHORN', category: Cat::Other_Symbol, informativeAliases: ['sound off'])]
     case BULLHORN = "\u{1F56B}";
 
-    #[Info(id: 0x1F56C, name: 'BULLHORN WITH SOUND WAVES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F56C, name: 'BULLHORN WITH SOUND WAVES', category: Cat::Other_Symbol, informativeAliases: ['sound on'])]
     case BULLHORN_WITH_SOUND_WAVES = "\u{1F56C}";
 
     #[Info(id: 0x1F56D, name: 'RINGING BELL', category: Cat::Other_Symbol)]
@@ -1888,7 +1888,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F56F, name: 'CANDLE', category: Cat::Other_Symbol)]
     case CANDLE = "\u{1F56F}";
 
-    #[Info(id: 0x1F570, name: 'MANTELPIECE CLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F570, name: 'MANTELPIECE CLOCK', category: Cat::Other_Symbol, informativeAliases: ['clock'])]
     case MANTELPIECE_CLOCK = "\u{1F570}";
 
     #[Info(id: 0x1F571, name: 'BLACK SKULL AND CROSSBONES', category: Cat::Other_Symbol)]
@@ -1897,16 +1897,16 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F572, name: 'NO PIRACY', category: Cat::Other_Symbol)]
     case NO_PIRACY = "\u{1F572}";
 
-    #[Info(id: 0x1F573, name: 'HOLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F573, name: 'HOLE', category: Cat::Other_Symbol, informativeAliases: ['portable hole'])]
     case HOLE = "\u{1F573}";
 
-    #[Info(id: 0x1F574, name: 'MAN IN BUSINESS SUIT LEVITATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F574, name: 'MAN IN BUSINESS SUIT LEVITATING', category: Cat::Other_Symbol, informativeAliases: ['jump'])]
     case MAN_IN_BUSINESS_SUIT_LEVITATING = "\u{1F574}";
 
-    #[Info(id: 0x1F575, name: 'SLEUTH OR SPY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F575, name: 'SLEUTH OR SPY', category: Cat::Other_Symbol, informativeAliases: ['investigate'])]
     case SLEUTH_OR_SPY = "\u{1F575}";
 
-    #[Info(id: 0x1F576, name: 'DARK SUNGLASSES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F576, name: 'DARK SUNGLASSES', category: Cat::Other_Symbol, informativeAliases: ['cool'])]
     case DARK_SUNGLASSES = "\u{1F576}";
 
     #[Info(id: 0x1F577, name: 'SPIDER', category: Cat::Other_Symbol)]
@@ -1924,10 +1924,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F57B, name: 'LEFT HAND TELEPHONE RECEIVER', category: Cat::Other_Symbol)]
     case LEFT_HAND_TELEPHONE_RECEIVER = "\u{1F57B}";
 
-    #[Info(id: 0x1F57C, name: 'TELEPHONE RECEIVER WITH PAGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F57C, name: 'TELEPHONE RECEIVER WITH PAGE', category: Cat::Other_Symbol, informativeAliases: ['fax'])]
     case TELEPHONE_RECEIVER_WITH_PAGE = "\u{1F57C}";
 
-    #[Info(id: 0x1F57D, name: 'RIGHT HAND TELEPHONE RECEIVER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F57D, name: 'RIGHT HAND TELEPHONE RECEIVER', category: Cat::Other_Symbol, informativeAliases: ['telephone handset'])]
     case RIGHT_HAND_TELEPHONE_RECEIVER = "\u{1F57D}";
 
     #[Info(id: 0x1F57E, name: 'WHITE TOUCHTONE TELEPHONE', category: Cat::Other_Symbol)]
@@ -1936,46 +1936,46 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F57F, name: 'BLACK TOUCHTONE TELEPHONE', category: Cat::Other_Symbol)]
     case BLACK_TOUCHTONE_TELEPHONE = "\u{1F57F}";
 
-    #[Info(id: 0x1F580, name: 'TELEPHONE ON TOP OF MODEM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F580, name: 'TELEPHONE ON TOP OF MODEM', category: Cat::Other_Symbol, informativeAliases: ['modem'])]
     case TELEPHONE_ON_TOP_OF_MODEM = "\u{1F580}";
 
-    #[Info(id: 0x1F581, name: 'CLAMSHELL MOBILE PHONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F581, name: 'CLAMSHELL MOBILE PHONE', category: Cat::Other_Symbol, informativeAliases: ['cellular phone'])]
     case CLAMSHELL_MOBILE_PHONE = "\u{1F581}";
 
     #[Info(id: 0x1F582, name: 'BACK OF ENVELOPE', category: Cat::Other_Symbol)]
     case BACK_OF_ENVELOPE = "\u{1F582}";
 
-    #[Info(id: 0x1F583, name: 'STAMPED ENVELOPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F583, name: 'STAMPED ENVELOPE', category: Cat::Other_Symbol, informativeAliases: ['mail'])]
     case STAMPED_ENVELOPE = "\u{1F583}";
 
-    #[Info(id: 0x1F584, name: 'ENVELOPE WITH LIGHTNING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F584, name: 'ENVELOPE WITH LIGHTNING', category: Cat::Other_Symbol, informativeAliases: ['e-mail'])]
     case ENVELOPE_WITH_LIGHTNING = "\u{1F584}";
 
-    #[Info(id: 0x1F585, name: 'FLYING ENVELOPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F585, name: 'FLYING ENVELOPE', category: Cat::Other_Symbol, informativeAliases: ['send message'])]
     case FLYING_ENVELOPE = "\u{1F585}";
 
     #[Info(id: 0x1F586, name: 'PEN OVER STAMPED ENVELOPE', category: Cat::Other_Symbol)]
     case PEN_OVER_STAMPED_ENVELOPE = "\u{1F586}";
 
-    #[Info(id: 0x1F587, name: 'LINKED PAPERCLIPS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F587, name: 'LINKED PAPERCLIPS', category: Cat::Other_Symbol, informativeAliases: ['links'])]
     case LINKED_PAPERCLIPS = "\u{1F587}";
 
-    #[Info(id: 0x1F588, name: 'BLACK PUSHPIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F588, name: 'BLACK PUSHPIN', category: Cat::Other_Symbol, informativeAliases: ['marker'])]
     case BLACK_PUSHPIN = "\u{1F588}";
 
-    #[Info(id: 0x1F589, name: 'LOWER LEFT PENCIL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F589, name: 'LOWER LEFT PENCIL', category: Cat::Other_Symbol, informativeAliases: ['pencil'])]
     case LOWER_LEFT_PENCIL = "\u{1F589}";
 
-    #[Info(id: 0x1F58A, name: 'LOWER LEFT BALLPOINT PEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F58A, name: 'LOWER LEFT BALLPOINT PEN', category: Cat::Other_Symbol, informativeAliases: ['ballpoint pen'])]
     case LOWER_LEFT_BALLPOINT_PEN = "\u{1F58A}";
 
-    #[Info(id: 0x1F58B, name: 'LOWER LEFT FOUNTAIN PEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F58B, name: 'LOWER LEFT FOUNTAIN PEN', category: Cat::Other_Symbol, informativeAliases: ['fountain pen'])]
     case LOWER_LEFT_FOUNTAIN_PEN = "\u{1F58B}";
 
-    #[Info(id: 0x1F58C, name: 'LOWER LEFT PAINTBRUSH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F58C, name: 'LOWER LEFT PAINTBRUSH', category: Cat::Other_Symbol, informativeAliases: ['brush'])]
     case LOWER_LEFT_PAINTBRUSH = "\u{1F58C}";
 
-    #[Info(id: 0x1F58D, name: 'LOWER LEFT CRAYON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F58D, name: 'LOWER LEFT CRAYON', category: Cat::Other_Symbol, informativeAliases: ['crayon'])]
     case LOWER_LEFT_CRAYON = "\u{1F58D}";
 
     #[Info(id: 0x1F58E, name: 'LEFT WRITING HAND', category: Cat::Other_Symbol)]
@@ -1984,7 +1984,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F58F, name: 'TURNED OK HAND SIGN', category: Cat::Other_Symbol)]
     case TURNED_OK_HAND_SIGN = "\u{1F58F}";
 
-    #[Info(id: 0x1F590, name: 'RAISED HAND WITH FINGERS SPLAYED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F590, name: 'RAISED HAND WITH FINGERS SPLAYED', category: Cat::Other_Symbol, informativeAliases: ['halt'])]
     case RAISED_HAND_WITH_FINGERS_SPLAYED = "\u{1F590}";
 
     #[Info(id: 0x1F591, name: 'REVERSED RAISED HAND WITH FINGERS SPLAYED', category: Cat::Other_Symbol)]
@@ -2002,7 +2002,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F595, name: 'REVERSED HAND WITH MIDDLE FINGER EXTENDED', category: Cat::Other_Symbol)]
     case REVERSED_HAND_WITH_MIDDLE_FINGER_EXTENDED = "\u{1F595}";
 
-    #[Info(id: 0x1F596, name: 'RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F596, name: 'RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS', category: Cat::Other_Symbol, informativeAliases: ['Vulcan salute'])]
     case RAISED_HAND_WITH_PART_BETWEEN_MIDDLE_AND_RING_FINGERS = "\u{1F596}";
 
     #[Info(id: 0x1F597, name: 'WHITE DOWN POINTING LEFT HAND INDEX', category: Cat::Other_Symbol)]
@@ -2047,22 +2047,22 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F5A4, name: 'BLACK HEART', category: Cat::Other_Symbol)]
     case BLACK_HEART = "\u{1F5A4}";
 
-    #[Info(id: 0x1F5A5, name: 'DESKTOP COMPUTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A5, name: 'DESKTOP COMPUTER', category: Cat::Other_Symbol, informativeAliases: ['tower computer'])]
     case DESKTOP_COMPUTER = "\u{1F5A5}";
 
     #[Info(id: 0x1F5A6, name: 'KEYBOARD AND MOUSE', category: Cat::Other_Symbol)]
     case KEYBOARD_AND_MOUSE = "\u{1F5A6}";
 
-    #[Info(id: 0x1F5A7, name: 'THREE NETWORKED COMPUTERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A7, name: 'THREE NETWORKED COMPUTERS', category: Cat::Other_Symbol, informativeAliases: ['computer network'])]
     case THREE_NETWORKED_COMPUTERS = "\u{1F5A7}";
 
     #[Info(id: 0x1F5A8, name: 'PRINTER', category: Cat::Other_Symbol)]
     case PRINTER = "\u{1F5A8}";
 
-    #[Info(id: 0x1F5A9, name: 'POCKET CALCULATOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5A9, name: 'POCKET CALCULATOR', category: Cat::Other_Symbol, informativeAliases: ['calculator'])]
     case POCKET_CALCULATOR = "\u{1F5A9}";
 
-    #[Info(id: 0x1F5AA, name: 'BLACK HARD SHELL FLOPPY DISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5AA, name: 'BLACK HARD SHELL FLOPPY DISK', category: Cat::Other_Symbol, informativeAliases: ['disk'])]
     case BLACK_HARD_SHELL_FLOPPY_DISK = "\u{1F5AA}";
 
     #[Info(id: 0x1F5AB, name: 'WHITE HARD SHELL FLOPPY DISK', category: Cat::Other_Symbol)]
@@ -2074,7 +2074,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F5AD, name: 'TAPE CARTRIDGE', category: Cat::Other_Symbol)]
     case TAPE_CARTRIDGE = "\u{1F5AD}";
 
-    #[Info(id: 0x1F5AE, name: 'WIRED KEYBOARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5AE, name: 'WIRED KEYBOARD', category: Cat::Other_Symbol, informativeAliases: ['keyboard'])]
     case WIRED_KEYBOARD = "\u{1F5AE}";
 
     #[Info(id: 0x1F5AF, name: 'ONE BUTTON MOUSE', category: Cat::Other_Symbol)]
@@ -2086,16 +2086,16 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F5B1, name: 'THREE BUTTON MOUSE', category: Cat::Other_Symbol)]
     case THREE_BUTTON_MOUSE = "\u{1F5B1}";
 
-    #[Info(id: 0x1F5B2, name: 'TRACKBALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B2, name: 'TRACKBALL', category: Cat::Other_Symbol, informativeAliases: ['ballpoint'])]
     case TRACKBALL = "\u{1F5B2}";
 
-    #[Info(id: 0x1F5B3, name: 'OLD PERSONAL COMPUTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B3, name: 'OLD PERSONAL COMPUTER', category: Cat::Other_Symbol, informativeAliases: ['personal computer'])]
     case OLD_PERSONAL_COMPUTER = "\u{1F5B3}";
 
     #[Info(id: 0x1F5B4, name: 'HARD DISK', category: Cat::Other_Symbol)]
     case HARD_DISK = "\u{1F5B4}";
 
-    #[Info(id: 0x1F5B5, name: 'SCREEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B5, name: 'SCREEN', category: Cat::Other_Symbol, informativeAliases: ['monitor'])]
     case SCREEN = "\u{1F5B5}";
 
     #[Info(id: 0x1F5B6, name: 'PRINTER ICON', category: Cat::Other_Symbol)]
@@ -2104,7 +2104,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F5B7, name: 'FAX ICON', category: Cat::Other_Symbol)]
     case FAX_ICON = "\u{1F5B7}";
 
-    #[Info(id: 0x1F5B8, name: 'OPTICAL DISC ICON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5B8, name: 'OPTICAL DISC ICON', category: Cat::Other_Symbol, informativeAliases: ['compact disc'])]
     case OPTICAL_DISC_ICON = "\u{1F5B8}";
 
     #[Info(id: 0x1F5B9, name: 'DOCUMENT WITH TEXT', category: Cat::Other_Symbol)]
@@ -2113,31 +2113,31 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F5BA, name: 'DOCUMENT WITH TEXT AND PICTURE', category: Cat::Other_Symbol)]
     case DOCUMENT_WITH_TEXT_AND_PICTURE = "\u{1F5BA}";
 
-    #[Info(id: 0x1F5BB, name: 'DOCUMENT WITH PICTURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5BB, name: 'DOCUMENT WITH PICTURE', category: Cat::Other_Symbol, informativeAliases: ['graphic document'])]
     case DOCUMENT_WITH_PICTURE = "\u{1F5BB}";
 
-    #[Info(id: 0x1F5BC, name: 'FRAME WITH PICTURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5BC, name: 'FRAME WITH PICTURE', category: Cat::Other_Symbol, informativeAliases: ['art'])]
     case FRAME_WITH_PICTURE = "\u{1F5BC}";
 
-    #[Info(id: 0x1F5BD, name: 'FRAME WITH TILES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5BD, name: 'FRAME WITH TILES', category: Cat::Other_Symbol, informativeAliases: ['frames'])]
     case FRAME_WITH_TILES = "\u{1F5BD}";
 
-    #[Info(id: 0x1F5BE, name: 'FRAME WITH AN X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5BE, name: 'FRAME WITH AN X', category: Cat::Other_Symbol, informativeAliases: ['no frames, no picture'])]
     case FRAME_WITH_AN_X = "\u{1F5BE}";
 
     #[Info(id: 0x1F5BF, name: 'BLACK FOLDER', category: Cat::Other_Symbol)]
     case BLACK_FOLDER = "\u{1F5BF}";
 
-    #[Info(id: 0x1F5C0, name: 'FOLDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C0, name: 'FOLDER', category: Cat::Other_Symbol, informativeAliases: ['directory'])]
     case FOLDER = "\u{1F5C0}";
 
     #[Info(id: 0x1F5C1, name: 'OPEN FOLDER', category: Cat::Other_Symbol)]
     case OPEN_FOLDER = "\u{1F5C1}";
 
-    #[Info(id: 0x1F5C2, name: 'CARD INDEX DIVIDERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C2, name: 'CARD INDEX DIVIDERS', category: Cat::Other_Symbol, informativeAliases: ['index'])]
     case CARD_INDEX_DIVIDERS = "\u{1F5C2}";
 
-    #[Info(id: 0x1F5C3, name: 'CARD FILE BOX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5C3, name: 'CARD FILE BOX', category: Cat::Other_Symbol, informativeAliases: ['archive'])]
     case CARD_FILE_BOX = "\u{1F5C3}";
 
     #[Info(id: 0x1F5C4, name: 'FILE CABINET', category: Cat::Other_Symbol)]
@@ -2179,13 +2179,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F5D0, name: 'PAGES', category: Cat::Other_Symbol)]
     case PAGES = "\u{1F5D0}";
 
-    #[Info(id: 0x1F5D1, name: 'WASTEBASKET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D1, name: 'WASTEBASKET', category: Cat::Other_Symbol, informativeAliases: ['trashcan'])]
     case WASTEBASKET = "\u{1F5D1}";
 
-    #[Info(id: 0x1F5D2, name: 'SPIRAL NOTE PAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D2, name: 'SPIRAL NOTE PAD', category: Cat::Other_Symbol, informativeAliases: ['note, empty calendar'])]
     case SPIRAL_NOTE_PAD = "\u{1F5D2}";
 
-    #[Info(id: 0x1F5D3, name: 'SPIRAL CALENDAR PAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D3, name: 'SPIRAL CALENDAR PAD', category: Cat::Other_Symbol, informativeAliases: ['calendar, day 1'])]
     case SPIRAL_CALENDAR_PAD = "\u{1F5D3}";
 
     #[Info(id: 0x1F5D4, name: 'DESKTOP WINDOW', category: Cat::Other_Symbol)]
@@ -2197,13 +2197,13 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F5D6, name: 'MAXIMIZE', category: Cat::Other_Symbol)]
     case MAXIMIZE = "\u{1F5D6}";
 
-    #[Info(id: 0x1F5D7, name: 'OVERLAP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D7, name: 'OVERLAP', category: Cat::Other_Symbol, informativeAliases: ['overlapping offset windows'])]
     case OVERLAP = "\u{1F5D7}";
 
-    #[Info(id: 0x1F5D8, name: 'CLOCKWISE RIGHT AND LEFT SEMICIRCLE ARROWS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D8, name: 'CLOCKWISE RIGHT AND LEFT SEMICIRCLE ARROWS', category: Cat::Other_Symbol, informativeAliases: ['refresh'])]
     case CLOCKWISE_RIGHT_AND_LEFT_SEMICIRCLE_ARROWS = "\u{1F5D8}";
 
-    #[Info(id: 0x1F5D9, name: 'CANCELLATION X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5D9, name: 'CANCELLATION X', category: Cat::Other_Symbol, informativeAliases: ['close'])]
     case CANCELLATION_X = "\u{1F5D9}";
 
     #[Info(id: 0x1F5DA, name: 'INCREASE FONT SIZE SYMBOL', category: Cat::Other_Symbol)]
@@ -2215,25 +2215,25 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F5DC, name: 'COMPRESSION', category: Cat::Other_Symbol)]
     case COMPRESSION = "\u{1F5DC}";
 
-    #[Info(id: 0x1F5DD, name: 'OLD KEY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5DD, name: 'OLD KEY', category: Cat::Other_Symbol, informativeAliases: ['encryption'])]
     case OLD_KEY = "\u{1F5DD}";
 
-    #[Info(id: 0x1F5DE, name: 'ROLLED-UP NEWSPAPER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5DE, name: 'ROLLED-UP NEWSPAPER', category: Cat::Other_Symbol, informativeAliases: ['news'])]
     case ROLLED_UP_NEWSPAPER = "\u{1F5DE}";
 
-    #[Info(id: 0x1F5DF, name: 'PAGE WITH CIRCLED TEXT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5DF, name: 'PAGE WITH CIRCLED TEXT', category: Cat::Other_Symbol, informativeAliases: ['classified'])]
     case PAGE_WITH_CIRCLED_TEXT = "\u{1F5DF}";
 
-    #[Info(id: 0x1F5E0, name: 'STOCK CHART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E0, name: 'STOCK CHART', category: Cat::Other_Symbol, informativeAliases: ['finance'])]
     case STOCK_CHART = "\u{1F5E0}";
 
-    #[Info(id: 0x1F5E1, name: 'DAGGER KNIFE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E1, name: 'DAGGER KNIFE', category: Cat::Other_Symbol, informativeAliases: ['rated for violence', 'hate'])]
     case DAGGER_KNIFE = "\u{1F5E1}";
 
-    #[Info(id: 0x1F5E2, name: 'LIPS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E2, name: 'LIPS', category: Cat::Other_Symbol, informativeAliases: ['rated for sex', 'kiss'])]
     case LIPS = "\u{1F5E2}";
 
-    #[Info(id: 0x1F5E3, name: 'SPEAKING HEAD IN SILHOUETTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5E3, name: 'SPEAKING HEAD IN SILHOUETTE', category: Cat::Other_Symbol, informativeAliases: ['rated for strong language'])]
     case SPEAKING_HEAD_IN_SILHOUETTE = "\u{1F5E3}";
 
     #[Info(id: 0x1F5E4, name: 'THREE RAYS ABOVE', category: Cat::Other_Symbol)]
@@ -2254,10 +2254,10 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F5E9, name: 'RIGHT SPEECH BUBBLE', category: Cat::Other_Symbol)]
     case RIGHT_SPEECH_BUBBLE = "\u{1F5E9}";
 
-    #[Info(id: 0x1F5EA, name: 'TWO SPEECH BUBBLES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5EA, name: 'TWO SPEECH BUBBLES', category: Cat::Other_Symbol, informativeAliases: ['chat'])]
     case TWO_SPEECH_BUBBLES = "\u{1F5EA}";
 
-    #[Info(id: 0x1F5EB, name: 'THREE SPEECH BUBBLES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5EB, name: 'THREE SPEECH BUBBLES', category: Cat::Other_Symbol, informativeAliases: ['conference'])]
     case THREE_SPEECH_BUBBLES = "\u{1F5EB}";
 
     #[Info(id: 0x1F5EC, name: 'LEFT THOUGHT BUBBLE', category: Cat::Other_Symbol)]
@@ -2266,25 +2266,25 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F5ED, name: 'RIGHT THOUGHT BUBBLE', category: Cat::Other_Symbol)]
     case RIGHT_THOUGHT_BUBBLE = "\u{1F5ED}";
 
-    #[Info(id: 0x1F5EE, name: 'LEFT ANGER BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5EE, name: 'LEFT ANGER BUBBLE', category: Cat::Other_Symbol, informativeAliases: ['shout left'])]
     case LEFT_ANGER_BUBBLE = "\u{1F5EE}";
 
-    #[Info(id: 0x1F5EF, name: 'RIGHT ANGER BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5EF, name: 'RIGHT ANGER BUBBLE', category: Cat::Other_Symbol, informativeAliases: ['shout right'])]
     case RIGHT_ANGER_BUBBLE = "\u{1F5EF}";
 
-    #[Info(id: 0x1F5F0, name: 'MOOD BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F0, name: 'MOOD BUBBLE', category: Cat::Other_Symbol, informativeAliases: ['new'])]
     case MOOD_BUBBLE = "\u{1F5F0}";
 
-    #[Info(id: 0x1F5F1, name: 'LIGHTNING MOOD BUBBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F1, name: 'LIGHTNING MOOD BUBBLE', category: Cat::Other_Symbol, informativeAliases: ['updated'])]
     case LIGHTNING_MOOD_BUBBLE = "\u{1F5F1}";
 
-    #[Info(id: 0x1F5F2, name: 'LIGHTNING MOOD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F2, name: 'LIGHTNING MOOD', category: Cat::Other_Symbol, informativeAliases: ['lightning bolt'])]
     case LIGHTNING_MOOD = "\u{1F5F2}";
 
-    #[Info(id: 0x1F5F3, name: 'BALLOT BOX WITH BALLOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F3, name: 'BALLOT BOX WITH BALLOT', category: Cat::Other_Symbol, informativeAliases: ['vote'])]
     case BALLOT_BOX_WITH_BALLOT = "\u{1F5F3}";
 
-    #[Info(id: 0x1F5F4, name: 'BALLOT SCRIPT X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F4, name: 'BALLOT SCRIPT X', category: Cat::Other_Symbol, informativeAliases: ['x mark'])]
     case BALLOT_SCRIPT_X = "\u{1F5F4}";
 
     #[Info(id: 0x1F5F5, name: 'BALLOT BOX WITH SCRIPT X', category: Cat::Other_Symbol)]
@@ -2296,7 +2296,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F5F7, name: 'BALLOT BOX WITH BOLD SCRIPT X', category: Cat::Other_Symbol)]
     case BALLOT_BOX_WITH_BOLD_SCRIPT_X = "\u{1F5F7}";
 
-    #[Info(id: 0x1F5F8, name: 'LIGHT CHECK MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F5F8, name: 'LIGHT CHECK MARK', category: Cat::Other_Symbol, informativeAliases: ['check'])]
     case LIGHT_CHECK_MARK = "\u{1F5F8}";
 
     #[Info(id: 0x1F5F9, name: 'BALLOT BOX WITH BOLD CHECK', category: Cat::Other_Symbol)]

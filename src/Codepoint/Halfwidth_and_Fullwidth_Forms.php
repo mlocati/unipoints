@@ -37,10 +37,10 @@ enum Halfwidth_and_Fullwidth_Forms: string
     #[Info(id: 0xFF07, name: 'FULLWIDTH APOSTROPHE', category: Cat::Other_Punctuation)]
     case FULLWIDTH_APOSTROPHE = "\u{FF07}";
 
-    #[Info(id: 0xFF08, name: 'FULLWIDTH LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFF08, name: 'FULLWIDTH LEFT PARENTHESIS', category: Cat::Open_Punctuation, unicode1Name: 'FULLWIDTH OPENING PARENTHESIS')]
     case FULLWIDTH_LEFT_PARENTHESIS = "\u{FF08}";
 
-    #[Info(id: 0xFF09, name: 'FULLWIDTH RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFF09, name: 'FULLWIDTH RIGHT PARENTHESIS', category: Cat::Close_Punctuation, unicode1Name: 'FULLWIDTH CLOSING PARENTHESIS')]
     case FULLWIDTH_RIGHT_PARENTHESIS = "\u{FF09}";
 
     #[Info(id: 0xFF0A, name: 'FULLWIDTH ASTERISK', category: Cat::Other_Punctuation)]
@@ -55,10 +55,10 @@ enum Halfwidth_and_Fullwidth_Forms: string
     #[Info(id: 0xFF0D, name: 'FULLWIDTH HYPHEN-MINUS', category: Cat::Dash_Punctuation)]
     case FULLWIDTH_HYPHEN_MINUS = "\u{FF0D}";
 
-    #[Info(id: 0xFF0E, name: 'FULLWIDTH FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF0E, name: 'FULLWIDTH FULL STOP', category: Cat::Other_Punctuation, unicode1Name: 'FULLWIDTH PERIOD')]
     case FULLWIDTH_FULL_STOP = "\u{FF0E}";
 
-    #[Info(id: 0xFF0F, name: 'FULLWIDTH SOLIDUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF0F, name: 'FULLWIDTH SOLIDUS', category: Cat::Other_Punctuation, unicode1Name: 'FULLWIDTH SLASH')]
     case FULLWIDTH_SOLIDUS = "\u{FF0F}";
 
     #[Info(id: 0xFF10, name: 'FULLWIDTH DIGIT ZERO', category: Cat::Decimal_Number)]
@@ -190,22 +190,22 @@ enum Halfwidth_and_Fullwidth_Forms: string
     #[Info(id: 0xFF3A, name: 'FULLWIDTH LATIN CAPITAL LETTER Z', category: Cat::Uppercase_Letter)]
     case FULLWIDTH_LATIN_CAPITAL_LETTER_Z = "\u{FF3A}";
 
-    #[Info(id: 0xFF3B, name: 'FULLWIDTH LEFT SQUARE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFF3B, name: 'FULLWIDTH LEFT SQUARE BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'FULLWIDTH OPENING SQUARE BRACKET')]
     case FULLWIDTH_LEFT_SQUARE_BRACKET = "\u{FF3B}";
 
-    #[Info(id: 0xFF3C, name: 'FULLWIDTH REVERSE SOLIDUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF3C, name: 'FULLWIDTH REVERSE SOLIDUS', category: Cat::Other_Punctuation, unicode1Name: 'FULLWIDTH BACKSLASH')]
     case FULLWIDTH_REVERSE_SOLIDUS = "\u{FF3C}";
 
-    #[Info(id: 0xFF3D, name: 'FULLWIDTH RIGHT SQUARE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFF3D, name: 'FULLWIDTH RIGHT SQUARE BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'FULLWIDTH CLOSING SQUARE BRACKET')]
     case FULLWIDTH_RIGHT_SQUARE_BRACKET = "\u{FF3D}";
 
-    #[Info(id: 0xFF3E, name: 'FULLWIDTH CIRCUMFLEX ACCENT', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFF3E, name: 'FULLWIDTH CIRCUMFLEX ACCENT', category: Cat::Modifier_Symbol, unicode1Name: 'FULLWIDTH SPACING CIRCUMFLEX')]
     case FULLWIDTH_CIRCUMFLEX_ACCENT = "\u{FF3E}";
 
-    #[Info(id: 0xFF3F, name: 'FULLWIDTH LOW LINE', category: Cat::Connector_Punctuation)]
+    #[Info(id: 0xFF3F, name: 'FULLWIDTH LOW LINE', category: Cat::Connector_Punctuation, unicode1Name: 'FULLWIDTH SPACING UNDERSCORE')]
     case FULLWIDTH_LOW_LINE = "\u{FF3F}";
 
-    #[Info(id: 0xFF40, name: 'FULLWIDTH GRAVE ACCENT', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFF40, name: 'FULLWIDTH GRAVE ACCENT', category: Cat::Modifier_Symbol, unicode1Name: 'FULLWIDTH SPACING GRAVE')]
     case FULLWIDTH_GRAVE_ACCENT = "\u{FF40}";
 
     #[Info(id: 0xFF41, name: 'FULLWIDTH LATIN SMALL LETTER A', category: Cat::Lowercase_Letter)]
@@ -286,16 +286,16 @@ enum Halfwidth_and_Fullwidth_Forms: string
     #[Info(id: 0xFF5A, name: 'FULLWIDTH LATIN SMALL LETTER Z', category: Cat::Lowercase_Letter)]
     case FULLWIDTH_LATIN_SMALL_LETTER_Z = "\u{FF5A}";
 
-    #[Info(id: 0xFF5B, name: 'FULLWIDTH LEFT CURLY BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFF5B, name: 'FULLWIDTH LEFT CURLY BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'FULLWIDTH OPENING CURLY BRACKET')]
     case FULLWIDTH_LEFT_CURLY_BRACKET = "\u{FF5B}";
 
-    #[Info(id: 0xFF5C, name: 'FULLWIDTH VERTICAL LINE', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFF5C, name: 'FULLWIDTH VERTICAL LINE', category: Cat::Math_Symbol, unicode1Name: 'FULLWIDTH VERTICAL BAR')]
     case FULLWIDTH_VERTICAL_LINE = "\u{FF5C}";
 
-    #[Info(id: 0xFF5D, name: 'FULLWIDTH RIGHT CURLY BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFF5D, name: 'FULLWIDTH RIGHT CURLY BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'FULLWIDTH CLOSING CURLY BRACKET')]
     case FULLWIDTH_RIGHT_CURLY_BRACKET = "\u{FF5D}";
 
-    #[Info(id: 0xFF5E, name: 'FULLWIDTH TILDE', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFF5E, name: 'FULLWIDTH TILDE', category: Cat::Math_Symbol, unicode1Name: 'FULLWIDTH SPACING TILDE')]
     case FULLWIDTH_TILDE = "\u{FF5E}";
 
     #[Info(id: 0xFF5F, name: 'FULLWIDTH LEFT WHITE PARENTHESIS', category: Cat::Open_Punctuation)]
@@ -304,13 +304,13 @@ enum Halfwidth_and_Fullwidth_Forms: string
     #[Info(id: 0xFF60, name: 'FULLWIDTH RIGHT WHITE PARENTHESIS', category: Cat::Close_Punctuation)]
     case FULLWIDTH_RIGHT_WHITE_PARENTHESIS = "\u{FF60}";
 
-    #[Info(id: 0xFF61, name: 'HALFWIDTH IDEOGRAPHIC FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFF61, name: 'HALFWIDTH IDEOGRAPHIC FULL STOP', category: Cat::Other_Punctuation, unicode1Name: 'HALFWIDTH IDEOGRAPHIC PERIOD')]
     case HALFWIDTH_IDEOGRAPHIC_FULL_STOP = "\u{FF61}";
 
-    #[Info(id: 0xFF62, name: 'HALFWIDTH LEFT CORNER BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFF62, name: 'HALFWIDTH LEFT CORNER BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'HALFWIDTH OPENING CORNER BRACKET')]
     case HALFWIDTH_LEFT_CORNER_BRACKET = "\u{FF62}";
 
-    #[Info(id: 0xFF63, name: 'HALFWIDTH RIGHT CORNER BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFF63, name: 'HALFWIDTH RIGHT CORNER BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'HALFWIDTH CLOSING CORNER BRACKET')]
     case HALFWIDTH_RIGHT_CORNER_BRACKET = "\u{FF63}";
 
     #[Info(id: 0xFF64, name: 'HALFWIDTH IDEOGRAPHIC COMMA', category: Cat::Other_Punctuation)]
@@ -493,94 +493,94 @@ enum Halfwidth_and_Fullwidth_Forms: string
     #[Info(id: 0xFF9F, name: 'HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK', category: Cat::Modifier_Letter)]
     case HALFWIDTH_KATAKANA_SEMI_VOICED_SOUND_MARK = "\u{FF9F}";
 
-    #[Info(id: 0xFFA0, name: 'HALFWIDTH HANGUL FILLER', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA0, name: 'HALFWIDTH HANGUL FILLER', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL CAE OM')]
     case HALFWIDTH_HANGUL_FILLER = "\u{FFA0}";
 
-    #[Info(id: 0xFFA1, name: 'HALFWIDTH HANGUL LETTER KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA1, name: 'HALFWIDTH HANGUL LETTER KIYEOK', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER GIYEOG')]
     case HALFWIDTH_HANGUL_LETTER_KIYEOK = "\u{FFA1}";
 
-    #[Info(id: 0xFFA2, name: 'HALFWIDTH HANGUL LETTER SSANGKIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA2, name: 'HALFWIDTH HANGUL LETTER SSANGKIYEOK', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER SSANG GIYEOG')]
     case HALFWIDTH_HANGUL_LETTER_SSANGKIYEOK = "\u{FFA2}";
 
-    #[Info(id: 0xFFA3, name: 'HALFWIDTH HANGUL LETTER KIYEOK-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA3, name: 'HALFWIDTH HANGUL LETTER KIYEOK-SIOS', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER GIYEOG SIOS')]
     case HALFWIDTH_HANGUL_LETTER_KIYEOK_SIOS = "\u{FFA3}";
 
     #[Info(id: 0xFFA4, name: 'HALFWIDTH HANGUL LETTER NIEUN', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_NIEUN = "\u{FFA4}";
 
-    #[Info(id: 0xFFA5, name: 'HALFWIDTH HANGUL LETTER NIEUN-CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA5, name: 'HALFWIDTH HANGUL LETTER NIEUN-CIEUC', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER NIEUN JIEUJ')]
     case HALFWIDTH_HANGUL_LETTER_NIEUN_CIEUC = "\u{FFA5}";
 
-    #[Info(id: 0xFFA6, name: 'HALFWIDTH HANGUL LETTER NIEUN-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA6, name: 'HALFWIDTH HANGUL LETTER NIEUN-HIEUH', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER NIEUN HIEUH')]
     case HALFWIDTH_HANGUL_LETTER_NIEUN_HIEUH = "\u{FFA6}";
 
-    #[Info(id: 0xFFA7, name: 'HALFWIDTH HANGUL LETTER TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA7, name: 'HALFWIDTH HANGUL LETTER TIKEUT', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER DIGEUD')]
     case HALFWIDTH_HANGUL_LETTER_TIKEUT = "\u{FFA7}";
 
-    #[Info(id: 0xFFA8, name: 'HALFWIDTH HANGUL LETTER SSANGTIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA8, name: 'HALFWIDTH HANGUL LETTER SSANGTIKEUT', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER SSANG DIGEUD')]
     case HALFWIDTH_HANGUL_LETTER_SSANGTIKEUT = "\u{FFA8}";
 
-    #[Info(id: 0xFFA9, name: 'HALFWIDTH HANGUL LETTER RIEUL', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFA9, name: 'HALFWIDTH HANGUL LETTER RIEUL', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER LIEUL')]
     case HALFWIDTH_HANGUL_LETTER_RIEUL = "\u{FFA9}";
 
-    #[Info(id: 0xFFAA, name: 'HALFWIDTH HANGUL LETTER RIEUL-KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAA, name: 'HALFWIDTH HANGUL LETTER RIEUL-KIYEOK', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER LIEUL GIYEOG')]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_KIYEOK = "\u{FFAA}";
 
-    #[Info(id: 0xFFAB, name: 'HALFWIDTH HANGUL LETTER RIEUL-MIEUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAB, name: 'HALFWIDTH HANGUL LETTER RIEUL-MIEUM', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER LIEUL MIEUM')]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_MIEUM = "\u{FFAB}";
 
-    #[Info(id: 0xFFAC, name: 'HALFWIDTH HANGUL LETTER RIEUL-PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAC, name: 'HALFWIDTH HANGUL LETTER RIEUL-PIEUP', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER LIEUL BIEUB')]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_PIEUP = "\u{FFAC}";
 
-    #[Info(id: 0xFFAD, name: 'HALFWIDTH HANGUL LETTER RIEUL-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAD, name: 'HALFWIDTH HANGUL LETTER RIEUL-SIOS', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER LIEUL SIOS')]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_SIOS = "\u{FFAD}";
 
-    #[Info(id: 0xFFAE, name: 'HALFWIDTH HANGUL LETTER RIEUL-THIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAE, name: 'HALFWIDTH HANGUL LETTER RIEUL-THIEUTH', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER LIEUL TIEUT')]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_THIEUTH = "\u{FFAE}";
 
-    #[Info(id: 0xFFAF, name: 'HALFWIDTH HANGUL LETTER RIEUL-PHIEUPH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFAF, name: 'HALFWIDTH HANGUL LETTER RIEUL-PHIEUPH', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER LIEUL PIEUP')]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_PHIEUPH = "\u{FFAF}";
 
-    #[Info(id: 0xFFB0, name: 'HALFWIDTH HANGUL LETTER RIEUL-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB0, name: 'HALFWIDTH HANGUL LETTER RIEUL-HIEUH', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER LIEUL HIEUH')]
     case HALFWIDTH_HANGUL_LETTER_RIEUL_HIEUH = "\u{FFB0}";
 
     #[Info(id: 0xFFB1, name: 'HALFWIDTH HANGUL LETTER MIEUM', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_MIEUM = "\u{FFB1}";
 
-    #[Info(id: 0xFFB2, name: 'HALFWIDTH HANGUL LETTER PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB2, name: 'HALFWIDTH HANGUL LETTER PIEUP', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER BIEUB')]
     case HALFWIDTH_HANGUL_LETTER_PIEUP = "\u{FFB2}";
 
-    #[Info(id: 0xFFB3, name: 'HALFWIDTH HANGUL LETTER SSANGPIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB3, name: 'HALFWIDTH HANGUL LETTER SSANGPIEUP', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER SSANG BIEUB')]
     case HALFWIDTH_HANGUL_LETTER_SSANGPIEUP = "\u{FFB3}";
 
-    #[Info(id: 0xFFB4, name: 'HALFWIDTH HANGUL LETTER PIEUP-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB4, name: 'HALFWIDTH HANGUL LETTER PIEUP-SIOS', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER BIEUB SIOS')]
     case HALFWIDTH_HANGUL_LETTER_PIEUP_SIOS = "\u{FFB4}";
 
     #[Info(id: 0xFFB5, name: 'HALFWIDTH HANGUL LETTER SIOS', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_SIOS = "\u{FFB5}";
 
-    #[Info(id: 0xFFB6, name: 'HALFWIDTH HANGUL LETTER SSANGSIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB6, name: 'HALFWIDTH HANGUL LETTER SSANGSIOS', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER SSANG SIOS')]
     case HALFWIDTH_HANGUL_LETTER_SSANGSIOS = "\u{FFB6}";
 
     #[Info(id: 0xFFB7, name: 'HALFWIDTH HANGUL LETTER IEUNG', category: Cat::Other_Letter)]
     case HALFWIDTH_HANGUL_LETTER_IEUNG = "\u{FFB7}";
 
-    #[Info(id: 0xFFB8, name: 'HALFWIDTH HANGUL LETTER CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB8, name: 'HALFWIDTH HANGUL LETTER CIEUC', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER JIEUJ')]
     case HALFWIDTH_HANGUL_LETTER_CIEUC = "\u{FFB8}";
 
-    #[Info(id: 0xFFB9, name: 'HALFWIDTH HANGUL LETTER SSANGCIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFB9, name: 'HALFWIDTH HANGUL LETTER SSANGCIEUC', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER SSANG JIEUJ')]
     case HALFWIDTH_HANGUL_LETTER_SSANGCIEUC = "\u{FFB9}";
 
-    #[Info(id: 0xFFBA, name: 'HALFWIDTH HANGUL LETTER CHIEUCH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFBA, name: 'HALFWIDTH HANGUL LETTER CHIEUCH', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER CIEUC')]
     case HALFWIDTH_HANGUL_LETTER_CHIEUCH = "\u{FFBA}";
 
-    #[Info(id: 0xFFBB, name: 'HALFWIDTH HANGUL LETTER KHIEUKH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFBB, name: 'HALFWIDTH HANGUL LETTER KHIEUKH', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER KIYEOK')]
     case HALFWIDTH_HANGUL_LETTER_KHIEUKH = "\u{FFBB}";
 
-    #[Info(id: 0xFFBC, name: 'HALFWIDTH HANGUL LETTER THIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFBC, name: 'HALFWIDTH HANGUL LETTER THIEUTH', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER TIEUT')]
     case HALFWIDTH_HANGUL_LETTER_THIEUTH = "\u{FFBC}";
 
-    #[Info(id: 0xFFBD, name: 'HALFWIDTH HANGUL LETTER PHIEUPH', category: Cat::Other_Letter)]
+    #[Info(id: 0xFFBD, name: 'HALFWIDTH HANGUL LETTER PHIEUPH', category: Cat::Other_Letter, unicode1Name: 'HALFWIDTH HANGUL LETTER PIEUP')]
     case HALFWIDTH_HANGUL_LETTER_PHIEUPH = "\u{FFBD}";
 
     #[Info(id: 0xFFBE, name: 'HALFWIDTH HANGUL LETTER HIEUH', category: Cat::Other_Letter)]
@@ -658,10 +658,10 @@ enum Halfwidth_and_Fullwidth_Forms: string
     #[Info(id: 0xFFE2, name: 'FULLWIDTH NOT SIGN', category: Cat::Math_Symbol)]
     case FULLWIDTH_NOT_SIGN = "\u{FFE2}";
 
-    #[Info(id: 0xFFE3, name: 'FULLWIDTH MACRON', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xFFE3, name: 'FULLWIDTH MACRON', category: Cat::Modifier_Symbol, unicode1Name: 'FULLWIDTH SPACING MACRON')]
     case FULLWIDTH_MACRON = "\u{FFE3}";
 
-    #[Info(id: 0xFFE4, name: 'FULLWIDTH BROKEN BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFFE4, name: 'FULLWIDTH BROKEN BAR', category: Cat::Other_Symbol, unicode1Name: 'FULLWIDTH BROKEN VERTICAL BAR')]
     case FULLWIDTH_BROKEN_BAR = "\u{FFE4}";
 
     #[Info(id: 0xFFE5, name: 'FULLWIDTH YEN SIGN', category: Cat::Currency_Symbol)]

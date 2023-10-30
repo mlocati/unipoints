@@ -64,7 +64,7 @@ enum Multani: string
     #[Info(id: 0x11292, name: 'MULTANI LETTER DDA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_DDA = "\u{11292}";
 
-    #[Info(id: 0x11293, name: 'MULTANI LETTER DDDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11293, name: 'MULTANI LETTER DDDA', category: Cat::Other_Letter, informativeAliases: ['tra'])]
     case MULTANI_LETTER_DDDA = "\u{11293}";
 
     #[Info(id: 0x11294, name: 'MULTANI LETTER DDHA', category: Cat::Other_Letter)]

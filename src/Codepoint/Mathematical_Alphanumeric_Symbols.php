@@ -505,7 +505,7 @@ enum Mathematical_Alphanumeric_Symbols: string
     #[Info(id: 0x1D4AA, name: 'MATHEMATICAL SCRIPT CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_O = "\u{1D4AA}";
 
-    #[Info(id: 0x1D4AB, name: 'MATHEMATICAL SCRIPT CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4AB, name: 'MATHEMATICAL SCRIPT CAPITAL P', category: Cat::Uppercase_Letter, informativeAliases: ['power set'])]
     case MATHEMATICAL_SCRIPT_CAPITAL_P = "\u{1D4AB}";
 
     #[Info(id: 0x1D4AC, name: 'MATHEMATICAL SCRIPT CAPITAL Q', category: Cat::Uppercase_Letter)]
@@ -787,7 +787,7 @@ enum Mathematical_Alphanumeric_Symbols: string
     #[Info(id: 0x1D50F, name: 'MATHEMATICAL FRAKTUR CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_L = "\u{1D50F}";
 
-    #[Info(id: 0x1D510, name: 'MATHEMATICAL FRAKTUR CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D510, name: 'MATHEMATICAL FRAKTUR CAPITAL M', category: Cat::Uppercase_Letter, informativeAliases: ['New Testament majority text'])]
     case MATHEMATICAL_FRAKTUR_CAPITAL_M = "\u{1D510}";
 
     #[Info(id: 0x1D511, name: 'MATHEMATICAL FRAKTUR CAPITAL N', category: Cat::Uppercase_Letter)]
@@ -802,7 +802,7 @@ enum Mathematical_Alphanumeric_Symbols: string
     #[Info(id: 0x1D514, name: 'MATHEMATICAL FRAKTUR CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_Q = "\u{1D514}";
 
-    #[Info(id: 0x1D516, name: 'MATHEMATICAL FRAKTUR CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D516, name: 'MATHEMATICAL FRAKTUR CAPITAL S', category: Cat::Uppercase_Letter, informativeAliases: ['Septuagint, Greek Old Testament'])]
     case MATHEMATICAL_FRAKTUR_CAPITAL_S = "\u{1D516}";
 
     #[Info(id: 0x1D517, name: 'MATHEMATICAL FRAKTUR CAPITAL T', category: Cat::Uppercase_Letter)]
@@ -1972,10 +1972,10 @@ enum Mathematical_Alphanumeric_Symbols: string
     #[Info(id: 0x1D6A3, name: 'MATHEMATICAL MONOSPACE SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_Z = "\u{1D6A3}";
 
-    #[Info(id: 0x1D6A4, name: 'MATHEMATICAL ITALIC SMALL DOTLESS I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6A4, name: 'MATHEMATICAL ITALIC SMALL DOTLESS I', category: Cat::Lowercase_Letter, informativeAliases: ['\\imath'])]
     case MATHEMATICAL_ITALIC_SMALL_DOTLESS_I = "\u{1D6A4}";
 
-    #[Info(id: 0x1D6A5, name: 'MATHEMATICAL ITALIC SMALL DOTLESS J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6A5, name: 'MATHEMATICAL ITALIC SMALL DOTLESS J', category: Cat::Lowercase_Letter, informativeAliases: ['\\jmath'])]
     case MATHEMATICAL_ITALIC_SMALL_DOTLESS_J = "\u{1D6A5}";
 
     #[Info(id: 0x1D6A8, name: 'MATHEMATICAL BOLD CAPITAL ALPHA', category: Cat::Uppercase_Letter)]

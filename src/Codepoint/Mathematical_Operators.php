@@ -16,7 +16,7 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Mathematical_Operators: string
 {
-    #[Info(id: 0x2200, name: 'FOR ALL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2200, name: 'FOR ALL', category: Cat::Math_Symbol, informativeAliases: ['universal quantifier'])]
     case FOR_ALL = "\u{2200}";
 
     #[Info(id: 0x2201, name: 'COMPLEMENT', category: Cat::Math_Symbol)]
@@ -25,19 +25,19 @@ enum Mathematical_Operators: string
     #[Info(id: 0x2202, name: 'PARTIAL DIFFERENTIAL', category: Cat::Math_Symbol)]
     case PARTIAL_DIFFERENTIAL = "\u{2202}";
 
-    #[Info(id: 0x2203, name: 'THERE EXISTS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2203, name: 'THERE EXISTS', category: Cat::Math_Symbol, informativeAliases: ['existential quantifier'])]
     case THERE_EXISTS = "\u{2203}";
 
     #[Info(id: 0x2204, name: 'THERE DOES NOT EXIST', category: Cat::Math_Symbol)]
     case THERE_DOES_NOT_EXIST = "\u{2204}";
 
-    #[Info(id: 0x2205, name: 'EMPTY SET', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2205, name: 'EMPTY SET', category: Cat::Math_Symbol, informativeAliases: ['null set'])]
     case EMPTY_SET = "\u{2205}";
 
-    #[Info(id: 0x2206, name: 'INCREMENT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2206, name: 'INCREMENT', category: Cat::Math_Symbol, informativeAliases: ['Laplace operator', 'forward difference', 'symmetric difference (in set theory)'])]
     case INCREMENT = "\u{2206}";
 
-    #[Info(id: 0x2207, name: 'NABLA', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2207, name: 'NABLA', category: Cat::Math_Symbol, informativeAliases: ['backward difference', 'gradient, del'])]
     case NABLA = "\u{2207}";
 
     #[Info(id: 0x2208, name: 'ELEMENT OF', category: Cat::Math_Symbol)]
@@ -49,7 +49,7 @@ enum Mathematical_Operators: string
     #[Info(id: 0x220A, name: 'SMALL ELEMENT OF', category: Cat::Math_Symbol)]
     case SMALL_ELEMENT_OF = "\u{220A}";
 
-    #[Info(id: 0x220B, name: 'CONTAINS AS MEMBER', category: Cat::Math_Symbol)]
+    #[Info(id: 0x220B, name: 'CONTAINS AS MEMBER', category: Cat::Math_Symbol, informativeAliases: ['such that'])]
     case CONTAINS_AS_MEMBER = "\u{220B}";
 
     #[Info(id: 0x220C, name: 'DOES NOT CONTAIN AS MEMBER', category: Cat::Math_Symbol)]
@@ -58,16 +58,16 @@ enum Mathematical_Operators: string
     #[Info(id: 0x220D, name: 'SMALL CONTAINS AS MEMBER', category: Cat::Math_Symbol)]
     case SMALL_CONTAINS_AS_MEMBER = "\u{220D}";
 
-    #[Info(id: 0x220E, name: 'END OF PROOF', category: Cat::Math_Symbol)]
+    #[Info(id: 0x220E, name: 'END OF PROOF', category: Cat::Math_Symbol, informativeAliases: ['q.e.d.'])]
     case END_OF_PROOF = "\u{220E}";
 
-    #[Info(id: 0x220F, name: 'N-ARY PRODUCT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x220F, name: 'N-ARY PRODUCT', category: Cat::Math_Symbol, informativeAliases: ['product sign'])]
     case N_ARY_PRODUCT = "\u{220F}";
 
-    #[Info(id: 0x2210, name: 'N-ARY COPRODUCT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2210, name: 'N-ARY COPRODUCT', category: Cat::Math_Symbol, informativeAliases: ['coproduct sign'])]
     case N_ARY_COPRODUCT = "\u{2210}";
 
-    #[Info(id: 0x2211, name: 'N-ARY SUMMATION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2211, name: 'N-ARY SUMMATION', category: Cat::Math_Symbol, informativeAliases: ['summation sign'])]
     case N_ARY_SUMMATION = "\u{2211}";
 
     #[Info(id: 0x2212, name: 'MINUS SIGN', category: Cat::Math_Symbol)]
@@ -88,13 +88,13 @@ enum Mathematical_Operators: string
     #[Info(id: 0x2217, name: 'ASTERISK OPERATOR', category: Cat::Math_Symbol)]
     case ASTERISK_OPERATOR = "\u{2217}";
 
-    #[Info(id: 0x2218, name: 'RING OPERATOR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2218, name: 'RING OPERATOR', category: Cat::Math_Symbol, informativeAliases: ['composite function', 'APL jot'])]
     case RING_OPERATOR = "\u{2218}";
 
     #[Info(id: 0x2219, name: 'BULLET OPERATOR', category: Cat::Math_Symbol)]
     case BULLET_OPERATOR = "\u{2219}";
 
-    #[Info(id: 0x221A, name: 'SQUARE ROOT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x221A, name: 'SQUARE ROOT', category: Cat::Math_Symbol, informativeAliases: ['radical sign'])]
     case SQUARE_ROOT = "\u{221A}";
 
     #[Info(id: 0x221B, name: 'CUBE ROOT', category: Cat::Math_Symbol)]
@@ -109,7 +109,7 @@ enum Mathematical_Operators: string
     #[Info(id: 0x221E, name: 'INFINITY', category: Cat::Math_Symbol)]
     case INFINITY = "\u{221E}";
 
-    #[Info(id: 0x221F, name: 'RIGHT ANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x221F, name: 'RIGHT ANGLE', category: Cat::Math_Symbol, informativeAliases: ['with (in chess notation)'])]
     case RIGHT_ANGLE = "\u{221F}";
 
     #[Info(id: 0x2220, name: 'ANGLE', category: Cat::Math_Symbol)]
@@ -118,10 +118,10 @@ enum Mathematical_Operators: string
     #[Info(id: 0x2221, name: 'MEASURED ANGLE', category: Cat::Math_Symbol)]
     case MEASURED_ANGLE = "\u{2221}";
 
-    #[Info(id: 0x2222, name: 'SPHERICAL ANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2222, name: 'SPHERICAL ANGLE', category: Cat::Math_Symbol, informativeAliases: ['angle arc'])]
     case SPHERICAL_ANGLE = "\u{2222}";
 
-    #[Info(id: 0x2223, name: 'DIVIDES', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2223, name: 'DIVIDES', category: Cat::Math_Symbol, informativeAliases: ['such that', 'APL stile'])]
     case DIVIDES = "\u{2223}";
 
     #[Info(id: 0x2224, name: 'DOES NOT DIVIDE', category: Cat::Math_Symbol)]
@@ -133,16 +133,16 @@ enum Mathematical_Operators: string
     #[Info(id: 0x2226, name: 'NOT PARALLEL TO', category: Cat::Math_Symbol)]
     case NOT_PARALLEL_TO = "\u{2226}";
 
-    #[Info(id: 0x2227, name: 'LOGICAL AND', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2227, name: 'LOGICAL AND', category: Cat::Math_Symbol, informativeAliases: ['wedge, conjunction'])]
     case LOGICAL_AND = "\u{2227}";
 
-    #[Info(id: 0x2228, name: 'LOGICAL OR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2228, name: 'LOGICAL OR', category: Cat::Math_Symbol, informativeAliases: ['vee, disjunction'])]
     case LOGICAL_OR = "\u{2228}";
 
-    #[Info(id: 0x2229, name: 'INTERSECTION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2229, name: 'INTERSECTION', category: Cat::Math_Symbol, informativeAliases: ['cap, hat'])]
     case INTERSECTION = "\u{2229}";
 
-    #[Info(id: 0x222A, name: 'UNION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x222A, name: 'UNION', category: Cat::Math_Symbol, informativeAliases: ['cup'])]
     case UNION = "\u{222A}";
 
     #[Info(id: 0x222B, name: 'INTEGRAL', category: Cat::Math_Symbol)]
@@ -184,7 +184,7 @@ enum Mathematical_Operators: string
     #[Info(id: 0x2237, name: 'PROPORTION', category: Cat::Math_Symbol)]
     case PROPORTION = "\u{2237}";
 
-    #[Info(id: 0x2238, name: 'DOT MINUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2238, name: 'DOT MINUS', category: Cat::Math_Symbol, informativeAliases: ['saturating subtraction'])]
     case DOT_MINUS = "\u{2238}";
 
     #[Info(id: 0x2239, name: 'EXCESS', category: Cat::Math_Symbol)]
@@ -196,16 +196,16 @@ enum Mathematical_Operators: string
     #[Info(id: 0x223B, name: 'HOMOTHETIC', category: Cat::Math_Symbol)]
     case HOMOTHETIC = "\u{223B}";
 
-    #[Info(id: 0x223C, name: 'TILDE OPERATOR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x223C, name: 'TILDE OPERATOR', category: Cat::Math_Symbol, informativeAliases: ['varies with (proportional to)', 'difference between', 'similar to', 'not', 'cycle', 'APL tilde'])]
     case TILDE_OPERATOR = "\u{223C}";
 
-    #[Info(id: 0x223D, name: 'REVERSED TILDE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x223D, name: 'REVERSED TILDE', category: Cat::Math_Symbol, informativeAliases: ['lazy S'])]
     case REVERSED_TILDE = "\u{223D}";
 
-    #[Info(id: 0x223E, name: 'INVERTED LAZY S', category: Cat::Math_Symbol)]
+    #[Info(id: 0x223E, name: 'INVERTED LAZY S', category: Cat::Math_Symbol, informativeAliases: ['most positive'])]
     case INVERTED_LAZY_S = "\u{223E}";
 
-    #[Info(id: 0x223F, name: 'SINE WAVE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x223F, name: 'SINE WAVE', category: Cat::Math_Symbol, informativeAliases: ['alternating current'])]
     case SINE_WAVE = "\u{223F}";
 
     #[Info(id: 0x2240, name: 'WREATH PRODUCT', category: Cat::Math_Symbol)]
@@ -232,7 +232,7 @@ enum Mathematical_Operators: string
     #[Info(id: 0x2247, name: 'NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO', category: Cat::Math_Symbol)]
     case NEITHER_APPROXIMATELY_NOR_ACTUALLY_EQUAL_TO = "\u{2247}";
 
-    #[Info(id: 0x2248, name: 'ALMOST EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2248, name: 'ALMOST EQUAL TO', category: Cat::Math_Symbol, informativeAliases: ['asymptotic to'])]
     case ALMOST_EQUAL_TO = "\u{2248}";
 
     #[Info(id: 0x2249, name: 'NOT ALMOST EQUAL TO', category: Cat::Math_Symbol)]
@@ -262,28 +262,28 @@ enum Mathematical_Operators: string
     #[Info(id: 0x2251, name: 'GEOMETRICALLY EQUAL TO', category: Cat::Math_Symbol)]
     case GEOMETRICALLY_EQUAL_TO = "\u{2251}";
 
-    #[Info(id: 0x2252, name: 'APPROXIMATELY EQUAL TO OR THE IMAGE OF', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2252, name: 'APPROXIMATELY EQUAL TO OR THE IMAGE OF', category: Cat::Math_Symbol, informativeAliases: ['nearly equals'])]
     case APPROXIMATELY_EQUAL_TO_OR_THE_IMAGE_OF = "\u{2252}";
 
     #[Info(id: 0x2253, name: 'IMAGE OF OR APPROXIMATELY EQUAL TO', category: Cat::Math_Symbol)]
     case IMAGE_OF_OR_APPROXIMATELY_EQUAL_TO = "\u{2253}";
 
-    #[Info(id: 0x2254, name: 'COLON EQUALS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2254, name: 'COLON EQUALS', category: Cat::Math_Symbol, unicode1Name: 'COLON EQUAL')]
     case COLON_EQUALS = "\u{2254}";
 
-    #[Info(id: 0x2255, name: 'EQUALS COLON', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2255, name: 'EQUALS COLON', category: Cat::Math_Symbol, unicode1Name: 'EQUAL COLON')]
     case EQUALS_COLON = "\u{2255}";
 
     #[Info(id: 0x2256, name: 'RING IN EQUAL TO', category: Cat::Math_Symbol)]
     case RING_IN_EQUAL_TO = "\u{2256}";
 
-    #[Info(id: 0x2257, name: 'RING EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2257, name: 'RING EQUAL TO', category: Cat::Math_Symbol, informativeAliases: ['approximately equal to'])]
     case RING_EQUAL_TO = "\u{2257}";
 
     #[Info(id: 0x2258, name: 'CORRESPONDS TO', category: Cat::Math_Symbol)]
     case CORRESPONDS_TO = "\u{2258}";
 
-    #[Info(id: 0x2259, name: 'ESTIMATES', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2259, name: 'ESTIMATES', category: Cat::Math_Symbol, informativeAliases: ['corresponds to'])]
     case ESTIMATES = "\u{2259}";
 
     #[Info(id: 0x225A, name: 'EQUIANGULAR TO', category: Cat::Math_Symbol)]
@@ -292,7 +292,7 @@ enum Mathematical_Operators: string
     #[Info(id: 0x225B, name: 'STAR EQUALS', category: Cat::Math_Symbol)]
     case STAR_EQUALS = "\u{225B}";
 
-    #[Info(id: 0x225C, name: 'DELTA EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x225C, name: 'DELTA EQUAL TO', category: Cat::Math_Symbol, informativeAliases: ['equiangular', 'equal to by definition'])]
     case DELTA_EQUAL_TO = "\u{225C}";
 
     #[Info(id: 0x225D, name: 'EQUAL TO BY DEFINITION', category: Cat::Math_Symbol)]
@@ -316,76 +316,76 @@ enum Mathematical_Operators: string
     #[Info(id: 0x2263, name: 'STRICTLY EQUIVALENT TO', category: Cat::Math_Symbol)]
     case STRICTLY_EQUIVALENT_TO = "\u{2263}";
 
-    #[Info(id: 0x2264, name: 'LESS-THAN OR EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2264, name: 'LESS-THAN OR EQUAL TO', category: Cat::Math_Symbol, unicode1Name: 'LESS THAN OR EQUAL TO')]
     case LESS_THAN_OR_EQUAL_TO = "\u{2264}";
 
-    #[Info(id: 0x2265, name: 'GREATER-THAN OR EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2265, name: 'GREATER-THAN OR EQUAL TO', category: Cat::Math_Symbol, unicode1Name: 'GREATER THAN OR EQUAL TO')]
     case GREATER_THAN_OR_EQUAL_TO = "\u{2265}";
 
-    #[Info(id: 0x2266, name: 'LESS-THAN OVER EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2266, name: 'LESS-THAN OVER EQUAL TO', category: Cat::Math_Symbol, unicode1Name: 'LESS THAN OVER EQUAL TO')]
     case LESS_THAN_OVER_EQUAL_TO = "\u{2266}";
 
-    #[Info(id: 0x2267, name: 'GREATER-THAN OVER EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2267, name: 'GREATER-THAN OVER EQUAL TO', category: Cat::Math_Symbol, unicode1Name: 'GREATER THAN OVER EQUAL TO')]
     case GREATER_THAN_OVER_EQUAL_TO = "\u{2267}";
 
-    #[Info(id: 0x2268, name: 'LESS-THAN BUT NOT EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2268, name: 'LESS-THAN BUT NOT EQUAL TO', category: Cat::Math_Symbol, unicode1Name: 'LESS THAN BUT NOT EQUAL TO')]
     case LESS_THAN_BUT_NOT_EQUAL_TO = "\u{2268}";
 
-    #[Info(id: 0x2269, name: 'GREATER-THAN BUT NOT EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2269, name: 'GREATER-THAN BUT NOT EQUAL TO', category: Cat::Math_Symbol, unicode1Name: 'GREATER THAN BUT NOT EQUAL TO')]
     case GREATER_THAN_BUT_NOT_EQUAL_TO = "\u{2269}";
 
-    #[Info(id: 0x226A, name: 'MUCH LESS-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x226A, name: 'MUCH LESS-THAN', category: Cat::Math_Symbol, unicode1Name: 'MUCH LESS THAN')]
     case MUCH_LESS_THAN = "\u{226A}";
 
-    #[Info(id: 0x226B, name: 'MUCH GREATER-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x226B, name: 'MUCH GREATER-THAN', category: Cat::Math_Symbol, unicode1Name: 'MUCH GREATER THAN')]
     case MUCH_GREATER_THAN = "\u{226B}";
 
-    #[Info(id: 0x226C, name: 'BETWEEN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x226C, name: 'BETWEEN', category: Cat::Math_Symbol, informativeAliases: ['plaintiff, quantic'])]
     case BETWEEN = "\u{226C}";
 
     #[Info(id: 0x226D, name: 'NOT EQUIVALENT TO', category: Cat::Math_Symbol)]
     case NOT_EQUIVALENT_TO = "\u{226D}";
 
-    #[Info(id: 0x226E, name: 'NOT LESS-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x226E, name: 'NOT LESS-THAN', category: Cat::Math_Symbol, unicode1Name: 'NOT LESS THAN')]
     case NOT_LESS_THAN = "\u{226E}";
 
-    #[Info(id: 0x226F, name: 'NOT GREATER-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x226F, name: 'NOT GREATER-THAN', category: Cat::Math_Symbol, unicode1Name: 'NOT GREATER THAN')]
     case NOT_GREATER_THAN = "\u{226F}";
 
-    #[Info(id: 0x2270, name: 'NEITHER LESS-THAN NOR EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2270, name: 'NEITHER LESS-THAN NOR EQUAL TO', category: Cat::Math_Symbol, unicode1Name: 'NEITHER LESS THAN NOR EQUAL TO')]
     case NEITHER_LESS_THAN_NOR_EQUAL_TO = "\u{2270}";
 
-    #[Info(id: 0x2271, name: 'NEITHER GREATER-THAN NOR EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2271, name: 'NEITHER GREATER-THAN NOR EQUAL TO', category: Cat::Math_Symbol, unicode1Name: 'NEITHER GREATER THAN NOR EQUAL TO')]
     case NEITHER_GREATER_THAN_NOR_EQUAL_TO = "\u{2271}";
 
-    #[Info(id: 0x2272, name: 'LESS-THAN OR EQUIVALENT TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2272, name: 'LESS-THAN OR EQUIVALENT TO', category: Cat::Math_Symbol, unicode1Name: 'LESS THAN OR EQUIVALENT TO')]
     case LESS_THAN_OR_EQUIVALENT_TO = "\u{2272}";
 
-    #[Info(id: 0x2273, name: 'GREATER-THAN OR EQUIVALENT TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2273, name: 'GREATER-THAN OR EQUIVALENT TO', category: Cat::Math_Symbol, unicode1Name: 'GREATER THAN OR EQUIVALENT TO')]
     case GREATER_THAN_OR_EQUIVALENT_TO = "\u{2273}";
 
-    #[Info(id: 0x2274, name: 'NEITHER LESS-THAN NOR EQUIVALENT TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2274, name: 'NEITHER LESS-THAN NOR EQUIVALENT TO', category: Cat::Math_Symbol, unicode1Name: 'NEITHER LESS THAN NOR EQUIVALENT TO')]
     case NEITHER_LESS_THAN_NOR_EQUIVALENT_TO = "\u{2274}";
 
-    #[Info(id: 0x2275, name: 'NEITHER GREATER-THAN NOR EQUIVALENT TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2275, name: 'NEITHER GREATER-THAN NOR EQUIVALENT TO', category: Cat::Math_Symbol, unicode1Name: 'NEITHER GREATER THAN NOR EQUIVALENT TO')]
     case NEITHER_GREATER_THAN_NOR_EQUIVALENT_TO = "\u{2275}";
 
-    #[Info(id: 0x2276, name: 'LESS-THAN OR GREATER-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2276, name: 'LESS-THAN OR GREATER-THAN', category: Cat::Math_Symbol, unicode1Name: 'LESS THAN OR GREATER THAN')]
     case LESS_THAN_OR_GREATER_THAN = "\u{2276}";
 
-    #[Info(id: 0x2277, name: 'GREATER-THAN OR LESS-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2277, name: 'GREATER-THAN OR LESS-THAN', category: Cat::Math_Symbol, unicode1Name: 'GREATER THAN OR LESS THAN')]
     case GREATER_THAN_OR_LESS_THAN = "\u{2277}";
 
-    #[Info(id: 0x2278, name: 'NEITHER LESS-THAN NOR GREATER-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2278, name: 'NEITHER LESS-THAN NOR GREATER-THAN', category: Cat::Math_Symbol, unicode1Name: 'NEITHER LESS THAN NOR GREATER THAN')]
     case NEITHER_LESS_THAN_NOR_GREATER_THAN = "\u{2278}";
 
-    #[Info(id: 0x2279, name: 'NEITHER GREATER-THAN NOR LESS-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2279, name: 'NEITHER GREATER-THAN NOR LESS-THAN', category: Cat::Math_Symbol, unicode1Name: 'NEITHER GREATER THAN NOR LESS THAN')]
     case NEITHER_GREATER_THAN_NOR_LESS_THAN = "\u{2279}";
 
-    #[Info(id: 0x227A, name: 'PRECEDES', category: Cat::Math_Symbol)]
+    #[Info(id: 0x227A, name: 'PRECEDES', category: Cat::Math_Symbol, informativeAliases: ['lower rank than'])]
     case PRECEDES = "\u{227A}";
 
-    #[Info(id: 0x227B, name: 'SUCCEEDS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x227B, name: 'SUCCEEDS', category: Cat::Math_Symbol, informativeAliases: ['higher rank than'])]
     case SUCCEEDS = "\u{227B}";
 
     #[Info(id: 0x227C, name: 'PRECEDES OR EQUAL TO', category: Cat::Math_Symbol)]
@@ -406,10 +406,10 @@ enum Mathematical_Operators: string
     #[Info(id: 0x2281, name: 'DOES NOT SUCCEED', category: Cat::Math_Symbol)]
     case DOES_NOT_SUCCEED = "\u{2281}";
 
-    #[Info(id: 0x2282, name: 'SUBSET OF', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2282, name: 'SUBSET OF', category: Cat::Math_Symbol, informativeAliases: ['included in set'])]
     case SUBSET_OF = "\u{2282}";
 
-    #[Info(id: 0x2283, name: 'SUPERSET OF', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2283, name: 'SUPERSET OF', category: Cat::Math_Symbol, informativeAliases: ['includes in set'])]
     case SUPERSET_OF = "\u{2283}";
 
     #[Info(id: 0x2284, name: 'NOT A SUBSET OF', category: Cat::Math_Symbol)]
@@ -430,10 +430,10 @@ enum Mathematical_Operators: string
     #[Info(id: 0x2289, name: 'NEITHER A SUPERSET OF NOR EQUAL TO', category: Cat::Math_Symbol)]
     case NEITHER_A_SUPERSET_OF_NOR_EQUAL_TO = "\u{2289}";
 
-    #[Info(id: 0x228A, name: 'SUBSET OF WITH NOT EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x228A, name: 'SUBSET OF WITH NOT EQUAL TO', category: Cat::Math_Symbol, unicode1Name: 'SUBSET OF OR NOT EQUAL TO')]
     case SUBSET_OF_WITH_NOT_EQUAL_TO = "\u{228A}";
 
-    #[Info(id: 0x228B, name: 'SUPERSET OF WITH NOT EQUAL TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x228B, name: 'SUPERSET OF WITH NOT EQUAL TO', category: Cat::Math_Symbol, unicode1Name: 'SUPERSET OF OR NOT EQUAL TO')]
     case SUPERSET_OF_WITH_NOT_EQUAL_TO = "\u{228B}";
 
     #[Info(id: 0x228C, name: 'MULTISET', category: Cat::Math_Symbol)]
@@ -442,7 +442,7 @@ enum Mathematical_Operators: string
     #[Info(id: 0x228D, name: 'MULTISET MULTIPLICATION', category: Cat::Math_Symbol)]
     case MULTISET_MULTIPLICATION = "\u{228D}";
 
-    #[Info(id: 0x228E, name: 'MULTISET UNION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x228E, name: 'MULTISET UNION', category: Cat::Math_Symbol, informativeAliases: ['z notation bag addition'])]
     case MULTISET_UNION = "\u{228E}";
 
     #[Info(id: 0x228F, name: 'SQUARE IMAGE OF', category: Cat::Math_Symbol)]
@@ -463,19 +463,19 @@ enum Mathematical_Operators: string
     #[Info(id: 0x2294, name: 'SQUARE CUP', category: Cat::Math_Symbol)]
     case SQUARE_CUP = "\u{2294}";
 
-    #[Info(id: 0x2295, name: 'CIRCLED PLUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2295, name: 'CIRCLED PLUS', category: Cat::Math_Symbol, informativeAliases: ['direct sum', 'vector pointing into page'])]
     case CIRCLED_PLUS = "\u{2295}";
 
-    #[Info(id: 0x2296, name: 'CIRCLED MINUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2296, name: 'CIRCLED MINUS', category: Cat::Math_Symbol, informativeAliases: ['symmetric difference'])]
     case CIRCLED_MINUS = "\u{2296}";
 
-    #[Info(id: 0x2297, name: 'CIRCLED TIMES', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2297, name: 'CIRCLED TIMES', category: Cat::Math_Symbol, informativeAliases: ['tensor product', 'vector pointing into page'])]
     case CIRCLED_TIMES = "\u{2297}";
 
     #[Info(id: 0x2298, name: 'CIRCLED DIVISION SLASH', category: Cat::Math_Symbol)]
     case CIRCLED_DIVISION_SLASH = "\u{2298}";
 
-    #[Info(id: 0x2299, name: 'CIRCLED DOT OPERATOR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2299, name: 'CIRCLED DOT OPERATOR', category: Cat::Math_Symbol, informativeAliases: ['direct product', 'vector pointing out of page'])]
     case CIRCLED_DOT_OPERATOR = "\u{2299}";
 
     #[Info(id: 0x229A, name: 'CIRCLED RING OPERATOR', category: Cat::Math_Symbol)]
@@ -484,7 +484,7 @@ enum Mathematical_Operators: string
     #[Info(id: 0x229B, name: 'CIRCLED ASTERISK OPERATOR', category: Cat::Math_Symbol)]
     case CIRCLED_ASTERISK_OPERATOR = "\u{229B}";
 
-    #[Info(id: 0x229C, name: 'CIRCLED EQUALS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x229C, name: 'CIRCLED EQUALS', category: Cat::Math_Symbol, informativeAliases: ['NoDerivatives (symbol used for Creative Commons licenses)'])]
     case CIRCLED_EQUALS = "\u{229C}";
 
     #[Info(id: 0x229D, name: 'CIRCLED DASH', category: Cat::Math_Symbol)]
@@ -502,25 +502,25 @@ enum Mathematical_Operators: string
     #[Info(id: 0x22A1, name: 'SQUARED DOT OPERATOR', category: Cat::Math_Symbol)]
     case SQUARED_DOT_OPERATOR = "\u{22A1}";
 
-    #[Info(id: 0x22A2, name: 'RIGHT TACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22A2, name: 'RIGHT TACK', category: Cat::Math_Symbol, informativeAliases: ['turnstile', 'proves, implies, yields', 'reducible'])]
     case RIGHT_TACK = "\u{22A2}";
 
-    #[Info(id: 0x22A3, name: 'LEFT TACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22A3, name: 'LEFT TACK', category: Cat::Math_Symbol, informativeAliases: ['reverse turnstile', 'non-theorem, does not yield'])]
     case LEFT_TACK = "\u{22A3}";
 
-    #[Info(id: 0x22A4, name: 'DOWN TACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22A4, name: 'DOWN TACK', category: Cat::Math_Symbol, informativeAliases: ['top'])]
     case DOWN_TACK = "\u{22A4}";
 
-    #[Info(id: 0x22A5, name: 'UP TACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22A5, name: 'UP TACK', category: Cat::Math_Symbol, informativeAliases: ['base, bottom'])]
     case UP_TACK = "\u{22A5}";
 
-    #[Info(id: 0x22A6, name: 'ASSERTION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22A6, name: 'ASSERTION', category: Cat::Math_Symbol, informativeAliases: ['reduces to'])]
     case ASSERTION = "\u{22A6}";
 
     #[Info(id: 0x22A7, name: 'MODELS', category: Cat::Math_Symbol)]
     case MODELS = "\u{22A7}";
 
-    #[Info(id: 0x22A8, name: 'TRUE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22A8, name: 'TRUE', category: Cat::Math_Symbol, informativeAliases: ['statement is true, valid', 'is a tautology', 'satisfies', 'results in'])]
     case TRUE = "\u{22A8}";
 
     #[Info(id: 0x22A9, name: 'FORCES', category: Cat::Math_Symbol)]
@@ -598,10 +598,10 @@ enum Mathematical_Operators: string
     #[Info(id: 0x22C1, name: 'N-ARY LOGICAL OR', category: Cat::Math_Symbol)]
     case N_ARY_LOGICAL_OR = "\u{22C1}";
 
-    #[Info(id: 0x22C2, name: 'N-ARY INTERSECTION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22C2, name: 'N-ARY INTERSECTION', category: Cat::Math_Symbol, informativeAliases: ['z notation generalised intersection'])]
     case N_ARY_INTERSECTION = "\u{22C2}";
 
-    #[Info(id: 0x22C3, name: 'N-ARY UNION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22C3, name: 'N-ARY UNION', category: Cat::Math_Symbol, informativeAliases: ['z notation generalised union'])]
     case N_ARY_UNION = "\u{22C3}";
 
     #[Info(id: 0x22C4, name: 'DIAMOND OPERATOR', category: Cat::Math_Symbol)]
@@ -652,34 +652,34 @@ enum Mathematical_Operators: string
     #[Info(id: 0x22D3, name: 'DOUBLE UNION', category: Cat::Math_Symbol)]
     case DOUBLE_UNION = "\u{22D3}";
 
-    #[Info(id: 0x22D4, name: 'PITCHFORK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22D4, name: 'PITCHFORK', category: Cat::Math_Symbol, informativeAliases: ['proper intersection'])]
     case PITCHFORK = "\u{22D4}";
 
     #[Info(id: 0x22D5, name: 'EQUAL AND PARALLEL TO', category: Cat::Math_Symbol)]
     case EQUAL_AND_PARALLEL_TO = "\u{22D5}";
 
-    #[Info(id: 0x22D6, name: 'LESS-THAN WITH DOT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22D6, name: 'LESS-THAN WITH DOT', category: Cat::Math_Symbol, unicode1Name: 'LESS THAN WITH DOT')]
     case LESS_THAN_WITH_DOT = "\u{22D6}";
 
-    #[Info(id: 0x22D7, name: 'GREATER-THAN WITH DOT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22D7, name: 'GREATER-THAN WITH DOT', category: Cat::Math_Symbol, unicode1Name: 'GREATER THAN WITH DOT')]
     case GREATER_THAN_WITH_DOT = "\u{22D7}";
 
-    #[Info(id: 0x22D8, name: 'VERY MUCH LESS-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22D8, name: 'VERY MUCH LESS-THAN', category: Cat::Math_Symbol, unicode1Name: 'VERY MUCH LESS THAN')]
     case VERY_MUCH_LESS_THAN = "\u{22D8}";
 
-    #[Info(id: 0x22D9, name: 'VERY MUCH GREATER-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22D9, name: 'VERY MUCH GREATER-THAN', category: Cat::Math_Symbol, unicode1Name: 'VERY MUCH GREATER THAN')]
     case VERY_MUCH_GREATER_THAN = "\u{22D9}";
 
-    #[Info(id: 0x22DA, name: 'LESS-THAN EQUAL TO OR GREATER-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22DA, name: 'LESS-THAN EQUAL TO OR GREATER-THAN', category: Cat::Math_Symbol, unicode1Name: 'LESS THAN EQUAL TO OR GREATER THAN')]
     case LESS_THAN_EQUAL_TO_OR_GREATER_THAN = "\u{22DA}";
 
-    #[Info(id: 0x22DB, name: 'GREATER-THAN EQUAL TO OR LESS-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22DB, name: 'GREATER-THAN EQUAL TO OR LESS-THAN', category: Cat::Math_Symbol, unicode1Name: 'GREATER THAN EQUAL TO OR LESS THAN')]
     case GREATER_THAN_EQUAL_TO_OR_LESS_THAN = "\u{22DB}";
 
-    #[Info(id: 0x22DC, name: 'EQUAL TO OR LESS-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22DC, name: 'EQUAL TO OR LESS-THAN', category: Cat::Math_Symbol, unicode1Name: 'EQUAL TO OR LESS THAN')]
     case EQUAL_TO_OR_LESS_THAN = "\u{22DC}";
 
-    #[Info(id: 0x22DD, name: 'EQUAL TO OR GREATER-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22DD, name: 'EQUAL TO OR GREATER-THAN', category: Cat::Math_Symbol, unicode1Name: 'EQUAL TO OR GREATER THAN')]
     case EQUAL_TO_OR_GREATER_THAN = "\u{22DD}";
 
     #[Info(id: 0x22DE, name: 'EQUAL TO OR PRECEDES', category: Cat::Math_Symbol)]
@@ -706,10 +706,10 @@ enum Mathematical_Operators: string
     #[Info(id: 0x22E5, name: 'SQUARE ORIGINAL OF OR NOT EQUAL TO', category: Cat::Math_Symbol)]
     case SQUARE_ORIGINAL_OF_OR_NOT_EQUAL_TO = "\u{22E5}";
 
-    #[Info(id: 0x22E6, name: 'LESS-THAN BUT NOT EQUIVALENT TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22E6, name: 'LESS-THAN BUT NOT EQUIVALENT TO', category: Cat::Math_Symbol, unicode1Name: 'LESS THAN BUT NOT EQUIVALENT TO')]
     case LESS_THAN_BUT_NOT_EQUIVALENT_TO = "\u{22E6}";
 
-    #[Info(id: 0x22E7, name: 'GREATER-THAN BUT NOT EQUIVALENT TO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x22E7, name: 'GREATER-THAN BUT NOT EQUIVALENT TO', category: Cat::Math_Symbol, unicode1Name: 'GREATER THAN BUT NOT EQUIVALENT TO')]
     case GREATER_THAN_BUT_NOT_EQUIVALENT_TO = "\u{22E7}";
 
     #[Info(id: 0x22E8, name: 'PRECEDES BUT NOT EQUIVALENT TO', category: Cat::Math_Symbol)]

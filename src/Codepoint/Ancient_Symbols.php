@@ -55,6 +55,6 @@ enum Ancient_Symbols: string
     #[Info(id: 0x1019C, name: 'ASCIA SYMBOL', category: Cat::Other_Symbol)]
     case ASCIA_SYMBOL = "\u{1019C}";
 
-    #[Info(id: 0x101A0, name: 'GREEK SYMBOL TAU RHO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x101A0, name: 'GREEK SYMBOL TAU RHO', category: Cat::Other_Symbol, informativeAliases: ['rho-cross, staurogram'])]
     case GREEK_SYMBOL_TAU_RHO = "\u{101A0}";
 }

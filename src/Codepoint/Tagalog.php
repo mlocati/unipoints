@@ -82,6 +82,6 @@ enum Tagalog: string
     #[Info(id: 0x1715, name: 'TAGALOG SIGN PAMUDPOD', category: Cat::Spacing_Mark)]
     case TAGALOG_SIGN_PAMUDPOD = "\u{1715}";
 
-    #[Info(id: 0x171F, name: 'TAGALOG LETTER ARCHAIC RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x171F, name: 'TAGALOG LETTER ARCHAIC RA', category: Cat::Other_Letter, informativeAliases: ['Zambales ra'])]
     case TAGALOG_LETTER_ARCHAIC_RA = "\u{171F}";
 }

@@ -214,7 +214,7 @@ enum Tirhuta: string
     #[Info(id: 0x114C1, name: 'TIRHUTA SIGN VISARGA', category: Cat::Spacing_Mark)]
     case TIRHUTA_SIGN_VISARGA = "\u{114C1}";
 
-    #[Info(id: 0x114C2, name: 'TIRHUTA SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114C2, name: 'TIRHUTA SIGN VIRAMA', category: Cat::Nonspacing_Mark, informativeAliases: ['halant'])]
     case TIRHUTA_SIGN_VIRAMA = "\u{114C2}";
 
     #[Info(id: 0x114C3, name: 'TIRHUTA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
@@ -223,7 +223,7 @@ enum Tirhuta: string
     #[Info(id: 0x114C4, name: 'TIRHUTA SIGN AVAGRAHA', category: Cat::Other_Letter)]
     case TIRHUTA_SIGN_AVAGRAHA = "\u{114C4}";
 
-    #[Info(id: 0x114C5, name: 'TIRHUTA GVANG', category: Cat::Other_Letter)]
+    #[Info(id: 0x114C5, name: 'TIRHUTA GVANG', category: Cat::Other_Letter, informativeAliases: ['vedic anusvara'])]
     case TIRHUTA_GVANG = "\u{114C5}";
 
     #[Info(id: 0x114C6, name: 'TIRHUTA ABBREVIATION SIGN', category: Cat::Other_Punctuation)]

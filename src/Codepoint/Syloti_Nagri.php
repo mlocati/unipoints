@@ -34,7 +34,7 @@ enum Syloti_Nagri: string
     #[Info(id: 0xA805, name: 'SYLOTI NAGRI LETTER O', category: Cat::Other_Letter)]
     case SYLOTI_NAGRI_LETTER_O = "\u{A805}";
 
-    #[Info(id: 0xA806, name: 'SYLOTI NAGRI SIGN HASANTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA806, name: 'SYLOTI NAGRI SIGN HASANTA', category: Cat::Nonspacing_Mark, informativeAliases: ['halant, virama'])]
     case SYLOTI_NAGRI_SIGN_HASANTA = "\u{A806}";
 
     #[Info(id: 0xA807, name: 'SYLOTI NAGRI LETTER KO', category: Cat::Other_Letter)]
@@ -148,6 +148,6 @@ enum Syloti_Nagri: string
     #[Info(id: 0xA82B, name: 'SYLOTI NAGRI POETRY MARK-4', category: Cat::Other_Symbol)]
     case SYLOTI_NAGRI_POETRY_MARK_4 = "\u{A82B}";
 
-    #[Info(id: 0xA82C, name: 'SYLOTI NAGRI SIGN ALTERNATE HASANTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA82C, name: 'SYLOTI NAGRI SIGN ALTERNATE HASANTA', category: Cat::Nonspacing_Mark, informativeAliases: ['killer'])]
     case SYLOTI_NAGRI_SIGN_ALTERNATE_HASANTA = "\u{A82C}";
 }

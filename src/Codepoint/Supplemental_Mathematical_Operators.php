@@ -37,7 +37,7 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2A06, name: 'N-ARY SQUARE UNION OPERATOR', category: Cat::Math_Symbol)]
     case N_ARY_SQUARE_UNION_OPERATOR = "\u{2A06}";
 
-    #[Info(id: 0x2A07, name: 'TWO LOGICAL AND OPERATOR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2A07, name: 'TWO LOGICAL AND OPERATOR', category: Cat::Math_Symbol, informativeAliases: ['merge'])]
     case TWO_LOGICAL_AND_OPERATOR = "\u{2A07}";
 
     #[Info(id: 0x2A08, name: 'TWO LOGICAL OR OPERATOR', category: Cat::Math_Symbol)]
@@ -97,13 +97,13 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2A1A, name: 'INTEGRAL WITH UNION', category: Cat::Math_Symbol)]
     case INTEGRAL_WITH_UNION = "\u{2A1A}";
 
-    #[Info(id: 0x2A1B, name: 'INTEGRAL WITH OVERBAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2A1B, name: 'INTEGRAL WITH OVERBAR', category: Cat::Math_Symbol, informativeAliases: ['upper integral'])]
     case INTEGRAL_WITH_OVERBAR = "\u{2A1B}";
 
-    #[Info(id: 0x2A1C, name: 'INTEGRAL WITH UNDERBAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2A1C, name: 'INTEGRAL WITH UNDERBAR', category: Cat::Math_Symbol, informativeAliases: ['lower integral'])]
     case INTEGRAL_WITH_UNDERBAR = "\u{2A1C}";
 
-    #[Info(id: 0x2A1D, name: 'JOIN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2A1D, name: 'JOIN', category: Cat::Math_Symbol, informativeAliases: ['large bowtie'])]
     case JOIN = "\u{2A1D}";
 
     #[Info(id: 0x2A1E, name: 'LARGE LEFT TRIANGLE OPERATOR', category: Cat::Math_Symbol)]
@@ -124,16 +124,16 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2A23, name: 'PLUS SIGN WITH CIRCUMFLEX ACCENT ABOVE', category: Cat::Math_Symbol)]
     case PLUS_SIGN_WITH_CIRCUMFLEX_ACCENT_ABOVE = "\u{2A23}";
 
-    #[Info(id: 0x2A24, name: 'PLUS SIGN WITH TILDE ABOVE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2A24, name: 'PLUS SIGN WITH TILDE ABOVE', category: Cat::Math_Symbol, informativeAliases: ['positive difference or sum'])]
     case PLUS_SIGN_WITH_TILDE_ABOVE = "\u{2A24}";
 
     #[Info(id: 0x2A25, name: 'PLUS SIGN WITH DOT BELOW', category: Cat::Math_Symbol)]
     case PLUS_SIGN_WITH_DOT_BELOW = "\u{2A25}";
 
-    #[Info(id: 0x2A26, name: 'PLUS SIGN WITH TILDE BELOW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2A26, name: 'PLUS SIGN WITH TILDE BELOW', category: Cat::Math_Symbol, informativeAliases: ['sum or positive difference'])]
     case PLUS_SIGN_WITH_TILDE_BELOW = "\u{2A26}";
 
-    #[Info(id: 0x2A27, name: 'PLUS SIGN WITH SUBSCRIPT TWO', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2A27, name: 'PLUS SIGN WITH SUBSCRIPT TWO', category: Cat::Math_Symbol, informativeAliases: ['nim-addition'])]
     case PLUS_SIGN_WITH_SUBSCRIPT_TWO = "\u{2A27}";
 
     #[Info(id: 0x2A28, name: 'PLUS SIGN WITH BLACK TRIANGLE', category: Cat::Math_Symbol)]
@@ -211,7 +211,7 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2A40, name: 'INTERSECTION WITH DOT', category: Cat::Math_Symbol)]
     case INTERSECTION_WITH_DOT = "\u{2A40}";
 
-    #[Info(id: 0x2A41, name: 'UNION WITH MINUS SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2A41, name: 'UNION WITH MINUS SIGN', category: Cat::Math_Symbol, informativeAliases: ['z notation bag subtraction'])]
     case UNION_WITH_MINUS_SIGN = "\u{2A41}";
 
     #[Info(id: 0x2A42, name: 'UNION WITH OVERBAR', category: Cat::Math_Symbol)]
@@ -328,7 +328,7 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2A67, name: 'IDENTICAL WITH DOT ABOVE', category: Cat::Math_Symbol)]
     case IDENTICAL_WITH_DOT_ABOVE = "\u{2A67}";
 
-    #[Info(id: 0x2A68, name: 'TRIPLE HORIZONTAL BAR WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2A68, name: 'TRIPLE HORIZONTAL BAR WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['identical and parallel to'])]
     case TRIPLE_HORIZONTAL_BAR_WITH_DOUBLE_VERTICAL_STROKE = "\u{2A68}";
 
     #[Info(id: 0x2A69, name: 'TRIPLE HORIZONTAL BAR WITH TRIPLE VERTICAL STROKE', category: Cat::Math_Symbol)]
@@ -499,7 +499,7 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2AA0, name: 'SIMILAR ABOVE GREATER-THAN ABOVE EQUALS SIGN', category: Cat::Math_Symbol)]
     case SIMILAR_ABOVE_GREATER_THAN_ABOVE_EQUALS_SIGN = "\u{2AA0}";
 
-    #[Info(id: 0x2AA1, name: 'DOUBLE NESTED LESS-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2AA1, name: 'DOUBLE NESTED LESS-THAN', category: Cat::Math_Symbol, informativeAliases: ['absolute continuity'])]
     case DOUBLE_NESTED_LESS_THAN = "\u{2AA1}";
 
     #[Info(id: 0x2AA2, name: 'DOUBLE NESTED GREATER-THAN', category: Cat::Math_Symbol)]
@@ -676,10 +676,10 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2ADB, name: 'TRANSVERSAL INTERSECTION', category: Cat::Math_Symbol)]
     case TRANSVERSAL_INTERSECTION = "\u{2ADB}";
 
-    #[Info(id: 0x2ADC, name: 'FORKING', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2ADC, name: 'FORKING', category: Cat::Math_Symbol, informativeAliases: ['not independent'])]
     case FORKING = "\u{2ADC}";
 
-    #[Info(id: 0x2ADD, name: 'NONFORKING', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2ADD, name: 'NONFORKING', category: Cat::Math_Symbol, informativeAliases: ['independent'])]
     case NONFORKING = "\u{2ADD}";
 
     #[Info(id: 0x2ADE, name: 'SHORT LEFT TACK', category: Cat::Math_Symbol)]
@@ -694,7 +694,7 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2AE1, name: 'PERPENDICULAR WITH S', category: Cat::Math_Symbol)]
     case PERPENDICULAR_WITH_S = "\u{2AE1}";
 
-    #[Info(id: 0x2AE2, name: 'VERTICAL BAR TRIPLE RIGHT TURNSTILE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2AE2, name: 'VERTICAL BAR TRIPLE RIGHT TURNSTILE', category: Cat::Math_Symbol, informativeAliases: ['ordinarily satisfies'])]
     case VERTICAL_BAR_TRIPLE_RIGHT_TURNSTILE = "\u{2AE2}";
 
     #[Info(id: 0x2AE3, name: 'DOUBLE VERTICAL BAR LEFT TURNSTILE', category: Cat::Math_Symbol)]
@@ -721,7 +721,7 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2AEA, name: 'DOUBLE DOWN TACK', category: Cat::Math_Symbol)]
     case DOUBLE_DOWN_TACK = "\u{2AEA}";
 
-    #[Info(id: 0x2AEB, name: 'DOUBLE UP TACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2AEB, name: 'DOUBLE UP TACK', category: Cat::Math_Symbol, informativeAliases: ['independence'])]
     case DOUBLE_UP_TACK = "\u{2AEB}";
 
     #[Info(id: 0x2AEC, name: 'DOUBLE STROKE NOT SIGN', category: Cat::Math_Symbol)]
@@ -739,7 +739,7 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2AF0, name: 'VERTICAL LINE WITH CIRCLE BELOW', category: Cat::Math_Symbol)]
     case VERTICAL_LINE_WITH_CIRCLE_BELOW = "\u{2AF0}";
 
-    #[Info(id: 0x2AF1, name: 'DOWN TACK WITH CIRCLE BELOW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2AF1, name: 'DOWN TACK WITH CIRCLE BELOW', category: Cat::Math_Symbol, informativeAliases: ['necessarily satisfies'])]
     case DOWN_TACK_WITH_CIRCLE_BELOW = "\u{2AF1}";
 
     #[Info(id: 0x2AF2, name: 'PARALLEL WITH HORIZONTAL STROKE', category: Cat::Math_Symbol)]
@@ -748,7 +748,7 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2AF3, name: 'PARALLEL WITH TILDE OPERATOR', category: Cat::Math_Symbol)]
     case PARALLEL_WITH_TILDE_OPERATOR = "\u{2AF3}";
 
-    #[Info(id: 0x2AF4, name: 'TRIPLE VERTICAL BAR BINARY RELATION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2AF4, name: 'TRIPLE VERTICAL BAR BINARY RELATION', category: Cat::Math_Symbol, informativeAliases: ['interleave'])]
     case TRIPLE_VERTICAL_BAR_BINARY_RELATION = "\u{2AF4}";
 
     #[Info(id: 0x2AF5, name: 'TRIPLE VERTICAL BAR WITH HORIZONTAL STROKE', category: Cat::Math_Symbol)]
@@ -778,9 +778,9 @@ enum Supplemental_Mathematical_Operators: string
     #[Info(id: 0x2AFD, name: 'DOUBLE SOLIDUS OPERATOR', category: Cat::Math_Symbol)]
     case DOUBLE_SOLIDUS_OPERATOR = "\u{2AFD}";
 
-    #[Info(id: 0x2AFE, name: 'WHITE VERTICAL BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2AFE, name: 'WHITE VERTICAL BAR', category: Cat::Math_Symbol, informativeAliases: ['Dijkstra choice'])]
     case WHITE_VERTICAL_BAR = "\u{2AFE}";
 
-    #[Info(id: 0x2AFF, name: 'N-ARY WHITE VERTICAL BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2AFF, name: 'N-ARY WHITE VERTICAL BAR', category: Cat::Math_Symbol, informativeAliases: ['n-ary Dijkstra choice'])]
     case N_ARY_WHITE_VERTICAL_BAR = "\u{2AFF}";
 }

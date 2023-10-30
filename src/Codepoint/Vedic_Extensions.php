@@ -16,109 +16,109 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Vedic_Extensions: string
 {
-    #[Info(id: 0x1CD0, name: 'VEDIC TONE KARSHANA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CD0, name: 'VEDIC TONE KARSHANA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika saamasvara karshanna'])]
     case VEDIC_TONE_KARSHANA = "\u{1CD0}";
 
-    #[Info(id: 0x1CD1, name: 'VEDIC TONE SHARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CD1, name: 'VEDIC TONE SHARA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita uurdhva shara'])]
     case VEDIC_TONE_SHARA = "\u{1CD1}";
 
-    #[Info(id: 0x1CD2, name: 'VEDIC TONE PRENKHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CD2, name: 'VEDIC TONE PRENKHA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika saamasvara prenkha'])]
     case VEDIC_TONE_PRENKHA = "\u{1CD2}";
 
-    #[Info(id: 0x1CD3, name: 'VEDIC SIGN NIHSHVASA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1CD3, name: 'VEDIC SIGN NIHSHVASA', category: Cat::Other_Punctuation, informativeAliases: ['vaidika saamagaana yogakaala'])]
     case VEDIC_SIGN_NIHSHVASA = "\u{1CD3}";
 
     #[Info(id: 0x1CD4, name: 'VEDIC SIGN YAJURVEDIC MIDLINE SVARITA', category: Cat::Nonspacing_Mark)]
     case VEDIC_SIGN_YAJURVEDIC_MIDLINE_SVARITA = "\u{1CD4}";
 
-    #[Info(id: 0x1CD5, name: 'VEDIC TONE YAJURVEDIC AGGRAVATED INDEPENDENT SVARITA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CD5, name: 'VEDIC TONE YAJURVEDIC AGGRAVATED INDEPENDENT SVARITA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita adho nyubja'])]
     case VEDIC_TONE_YAJURVEDIC_AGGRAVATED_INDEPENDENT_SVARITA = "\u{1CD5}";
 
-    #[Info(id: 0x1CD6, name: 'VEDIC TONE YAJURVEDIC INDEPENDENT SVARITA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CD6, name: 'VEDIC TONE YAJURVEDIC INDEPENDENT SVARITA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita adhah konna'])]
     case VEDIC_TONE_YAJURVEDIC_INDEPENDENT_SVARITA = "\u{1CD6}";
 
-    #[Info(id: 0x1CD7, name: 'VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CD7, name: 'VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita adho vakra rekhaa'])]
     case VEDIC_TONE_YAJURVEDIC_KATHAKA_INDEPENDENT_SVARITA = "\u{1CD7}";
 
-    #[Info(id: 0x1CD8, name: 'VEDIC TONE CANDRA BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CD8, name: 'VEDIC TONE CANDRA BELOW', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita adho\'rdha vakra'])]
     case VEDIC_TONE_CANDRA_BELOW = "\u{1CD8}";
 
-    #[Info(id: 0x1CD9, name: 'VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CD9, name: 'VEDIC TONE YAJURVEDIC KATHAKA INDEPENDENT SVARITA SCHROEDER', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita adhah samyukta rekhaa'])]
     case VEDIC_TONE_YAJURVEDIC_KATHAKA_INDEPENDENT_SVARITA_SCHROEDER = "\u{1CD9}";
 
-    #[Info(id: 0x1CDA, name: 'VEDIC TONE DOUBLE SVARITA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CDA, name: 'VEDIC TONE DOUBLE SVARITA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita uurdhva dvi rekhaa'])]
     case VEDIC_TONE_DOUBLE_SVARITA = "\u{1CDA}";
 
-    #[Info(id: 0x1CDB, name: 'VEDIC TONE TRIPLE SVARITA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CDB, name: 'VEDIC TONE TRIPLE SVARITA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita uurdhva tri rekhaa'])]
     case VEDIC_TONE_TRIPLE_SVARITA = "\u{1CDB}";
 
-    #[Info(id: 0x1CDC, name: 'VEDIC TONE KATHAKA ANUDATTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CDC, name: 'VEDIC TONE KATHAKA ANUDATTA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita adho rekhaa'])]
     case VEDIC_TONE_KATHAKA_ANUDATTA = "\u{1CDC}";
 
-    #[Info(id: 0x1CDD, name: 'VEDIC TONE DOT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CDD, name: 'VEDIC TONE DOT BELOW', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita adho bindu'])]
     case VEDIC_TONE_DOT_BELOW = "\u{1CDD}";
 
-    #[Info(id: 0x1CDE, name: 'VEDIC TONE TWO DOTS BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CDE, name: 'VEDIC TONE TWO DOTS BELOW', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita adho dvi bindu'])]
     case VEDIC_TONE_TWO_DOTS_BELOW = "\u{1CDE}";
 
-    #[Info(id: 0x1CDF, name: 'VEDIC TONE THREE DOTS BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CDF, name: 'VEDIC TONE THREE DOTS BELOW', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika svarita adhas tri bindu'])]
     case VEDIC_TONE_THREE_DOTS_BELOW = "\u{1CDF}";
 
-    #[Info(id: 0x1CE0, name: 'VEDIC TONE RIGVEDIC KASHMIRI INDEPENDENT SVARITA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CE0, name: 'VEDIC TONE RIGVEDIC KASHMIRI INDEPENDENT SVARITA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika uurdhva vakra rekhaa'])]
     case VEDIC_TONE_RIGVEDIC_KASHMIRI_INDEPENDENT_SVARITA = "\u{1CE0}";
 
-    #[Info(id: 0x1CE1, name: 'VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1CE1, name: 'VEDIC TONE ATHARVAVEDIC INDEPENDENT SVARITA', category: Cat::Spacing_Mark, informativeAliases: ['vaidika svarita dvi vakra khannda'])]
     case VEDIC_TONE_ATHARVAVEDIC_INDEPENDENT_SVARITA = "\u{1CE1}";
 
-    #[Info(id: 0x1CE2, name: 'VEDIC SIGN VISARGA SVARITA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CE2, name: 'VEDIC SIGN VISARGA SVARITA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika madhyarekhaa'])]
     case VEDIC_SIGN_VISARGA_SVARITA = "\u{1CE2}";
 
-    #[Info(id: 0x1CE3, name: 'VEDIC SIGN VISARGA UDATTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CE3, name: 'VEDIC SIGN VISARGA UDATTA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika visarga dakshinnatah uurdhvaga'])]
     case VEDIC_SIGN_VISARGA_UDATTA = "\u{1CE3}";
 
-    #[Info(id: 0x1CE4, name: 'VEDIC SIGN REVERSED VISARGA UDATTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CE4, name: 'VEDIC SIGN REVERSED VISARGA UDATTA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika visarga vaamatah uurdhvaga'])]
     case VEDIC_SIGN_REVERSED_VISARGA_UDATTA = "\u{1CE4}";
 
-    #[Info(id: 0x1CE5, name: 'VEDIC SIGN VISARGA ANUDATTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CE5, name: 'VEDIC SIGN VISARGA ANUDATTA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika visarga vaamatah adhoga'])]
     case VEDIC_SIGN_VISARGA_ANUDATTA = "\u{1CE5}";
 
-    #[Info(id: 0x1CE6, name: 'VEDIC SIGN REVERSED VISARGA ANUDATTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CE6, name: 'VEDIC SIGN REVERSED VISARGA ANUDATTA', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika visarga dakshinnatah adhoga'])]
     case VEDIC_SIGN_REVERSED_VISARGA_ANUDATTA = "\u{1CE6}";
 
-    #[Info(id: 0x1CE7, name: 'VEDIC SIGN VISARGA UDATTA WITH TAIL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CE7, name: 'VEDIC SIGN VISARGA UDATTA WITH TAIL', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika visarga dakshinnatah uurdhva vakra'])]
     case VEDIC_SIGN_VISARGA_UDATTA_WITH_TAIL = "\u{1CE7}";
 
-    #[Info(id: 0x1CE8, name: 'VEDIC SIGN VISARGA ANUDATTA WITH TAIL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CE8, name: 'VEDIC SIGN VISARGA ANUDATTA WITH TAIL', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika visarga vaamatah adho vakra'])]
     case VEDIC_SIGN_VISARGA_ANUDATTA_WITH_TAIL = "\u{1CE8}";
 
-    #[Info(id: 0x1CE9, name: 'VEDIC SIGN ANUSVARA ANTARGOMUKHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1CE9, name: 'VEDIC SIGN ANUSVARA ANTARGOMUKHA', category: Cat::Other_Letter, informativeAliases: ['vaidika anusvaara antarmukha'])]
     case VEDIC_SIGN_ANUSVARA_ANTARGOMUKHA = "\u{1CE9}";
 
-    #[Info(id: 0x1CEA, name: 'VEDIC SIGN ANUSVARA BAHIRGOMUKHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1CEA, name: 'VEDIC SIGN ANUSVARA BAHIRGOMUKHA', category: Cat::Other_Letter, informativeAliases: ['vaidika anusvaara naagaphanna'])]
     case VEDIC_SIGN_ANUSVARA_BAHIRGOMUKHA = "\u{1CEA}";
 
-    #[Info(id: 0x1CEB, name: 'VEDIC SIGN ANUSVARA VAMAGOMUKHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1CEB, name: 'VEDIC SIGN ANUSVARA VAMAGOMUKHA', category: Cat::Other_Letter, informativeAliases: ['vaidika anusvaara vaamagomukha'])]
     case VEDIC_SIGN_ANUSVARA_VAMAGOMUKHA = "\u{1CEB}";
 
-    #[Info(id: 0x1CEC, name: 'VEDIC SIGN ANUSVARA VAMAGOMUKHA WITH TAIL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1CEC, name: 'VEDIC SIGN ANUSVARA VAMAGOMUKHA WITH TAIL', category: Cat::Other_Letter, informativeAliases: ['vaidika anusvaara vaamagomukha sa-vakra'])]
     case VEDIC_SIGN_ANUSVARA_VAMAGOMUKHA_WITH_TAIL = "\u{1CEC}";
 
-    #[Info(id: 0x1CED, name: 'VEDIC SIGN TIRYAK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CED, name: 'VEDIC SIGN TIRYAK', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika tiryak'])]
     case VEDIC_SIGN_TIRYAK = "\u{1CED}";
 
-    #[Info(id: 0x1CEE, name: 'VEDIC SIGN HEXIFORM LONG ANUSVARA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1CEE, name: 'VEDIC SIGN HEXIFORM LONG ANUSVARA', category: Cat::Other_Letter, informativeAliases: ['vaidika anusvaara anugaamii'])]
     case VEDIC_SIGN_HEXIFORM_LONG_ANUSVARA = "\u{1CEE}";
 
-    #[Info(id: 0x1CEF, name: 'VEDIC SIGN LONG ANUSVARA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1CEF, name: 'VEDIC SIGN LONG ANUSVARA', category: Cat::Other_Letter, informativeAliases: ['vaidika anusvaara dakshinnamukha'])]
     case VEDIC_SIGN_LONG_ANUSVARA = "\u{1CEF}";
 
-    #[Info(id: 0x1CF0, name: 'VEDIC SIGN RTHANG LONG ANUSVARA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1CF0, name: 'VEDIC SIGN RTHANG LONG ANUSVARA', category: Cat::Other_Letter, informativeAliases: ['vaidika anusvaara ttha-sadrisha'])]
     case VEDIC_SIGN_RTHANG_LONG_ANUSVARA = "\u{1CF0}";
 
-    #[Info(id: 0x1CF1, name: 'VEDIC SIGN ANUSVARA UBHAYATO MUKHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1CF1, name: 'VEDIC SIGN ANUSVARA UBHAYATO MUKHA', category: Cat::Other_Letter, informativeAliases: ['vaidika anusvaara ubhayato mukha'])]
     case VEDIC_SIGN_ANUSVARA_UBHAYATO_MUKHA = "\u{1CF1}";
 
-    #[Info(id: 0x1CF2, name: 'VEDIC SIGN ARDHAVISARGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1CF2, name: 'VEDIC SIGN ARDHAVISARGA', category: Cat::Other_Letter, informativeAliases: ['vaidika jihvaamuuliiya upadhmaaniiya'])]
     case VEDIC_SIGN_ARDHAVISARGA = "\u{1CF2}";
 
     #[Info(id: 0x1CF3, name: 'VEDIC SIGN ROTATED ARDHAVISARGA', category: Cat::Other_Letter)]
@@ -133,7 +133,7 @@ enum Vedic_Extensions: string
     #[Info(id: 0x1CF6, name: 'VEDIC SIGN UPADHMANIYA', category: Cat::Other_Letter)]
     case VEDIC_SIGN_UPADHMANIYA = "\u{1CF6}";
 
-    #[Info(id: 0x1CF7, name: 'VEDIC SIGN ATIKRAMA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1CF7, name: 'VEDIC SIGN ATIKRAMA', category: Cat::Spacing_Mark, informativeAliases: ['vaidika saamagaana atikrama'])]
     case VEDIC_SIGN_ATIKRAMA = "\u{1CF7}";
 
     #[Info(id: 0x1CF8, name: 'VEDIC TONE RING ABOVE', category: Cat::Nonspacing_Mark)]

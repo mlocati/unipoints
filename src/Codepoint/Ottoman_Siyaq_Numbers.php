@@ -97,7 +97,7 @@ enum Ottoman_Siyaq_Numbers: string
     #[Info(id: 0x1ED1B, name: 'OTTOMAN SIYAQ NUMBER NINE HUNDRED', category: Cat::Other_Number)]
     case OTTOMAN_SIYAQ_NUMBER_NINE_HUNDRED = "\u{1ED1B}";
 
-    #[Info(id: 0x1ED1C, name: 'OTTOMAN SIYAQ NUMBER ONE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x1ED1C, name: 'OTTOMAN SIYAQ NUMBER ONE THOUSAND', category: Cat::Other_Number, informativeAliases: ['thousands multiplier'])]
     case OTTOMAN_SIYAQ_NUMBER_ONE_THOUSAND = "\u{1ED1C}";
 
     #[Info(id: 0x1ED1D, name: 'OTTOMAN SIYAQ NUMBER TWO THOUSAND', category: Cat::Other_Number)]
@@ -151,7 +151,7 @@ enum Ottoman_Siyaq_Numbers: string
     #[Info(id: 0x1ED2D, name: 'OTTOMAN SIYAQ NUMBER NINETY THOUSAND', category: Cat::Other_Number)]
     case OTTOMAN_SIYAQ_NUMBER_NINETY_THOUSAND = "\u{1ED2D}";
 
-    #[Info(id: 0x1ED2E, name: 'OTTOMAN SIYAQ MARRATAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1ED2E, name: 'OTTOMAN SIYAQ MARRATAN', category: Cat::Other_Symbol, informativeAliases: ['meretten, merre'])]
     case OTTOMAN_SIYAQ_MARRATAN = "\u{1ED2E}";
 
     #[Info(id: 0x1ED2F, name: 'OTTOMAN SIYAQ ALTERNATE NUMBER TWO', category: Cat::Other_Number)]

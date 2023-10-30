@@ -55,7 +55,7 @@ enum Linear_B_Syllabary: string
     #[Info(id: 0x1000D, name: 'LINEAR B SYLLABLE B036 JO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B036_JO = "\u{1000D}";
 
-    #[Info(id: 0x1000E, name: 'LINEAR B SYLLABLE B065 JU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1000E, name: 'LINEAR B SYLLABLE B065 JU', category: Cat::Other_Letter, informativeAliases: ['ideogram B129 flour'])]
     case LINEAR_B_SYLLABLE_B065_JU = "\u{1000E}";
 
     #[Info(id: 0x1000F, name: 'LINEAR B SYLLABLE B077 KA', category: Cat::Other_Letter)]
@@ -85,7 +85,7 @@ enum Linear_B_Syllabary: string
     #[Info(id: 0x10017, name: 'LINEAR B SYLLABLE B015 MO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B015_MO = "\u{10017}";
 
-    #[Info(id: 0x10018, name: 'LINEAR B SYLLABLE B023 MU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10018, name: 'LINEAR B SYLLABLE B023 MU', category: Cat::Other_Letter, informativeAliases: ['ideogram B109 ox'])]
     case LINEAR_B_SYLLABLE_B023_MU = "\u{10018}";
 
     #[Info(id: 0x10019, name: 'LINEAR B SYLLABLE B006 NA', category: Cat::Other_Letter)]
@@ -94,7 +94,7 @@ enum Linear_B_Syllabary: string
     #[Info(id: 0x1001A, name: 'LINEAR B SYLLABLE B024 NE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B024_NE = "\u{1001A}";
 
-    #[Info(id: 0x1001B, name: 'LINEAR B SYLLABLE B030 NI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1001B, name: 'LINEAR B SYLLABLE B030 NI', category: Cat::Other_Letter, informativeAliases: ['ideogram B030 figs'])]
     case LINEAR_B_SYLLABLE_B030_NI = "\u{1001B}";
 
     #[Info(id: 0x1001C, name: 'LINEAR B SYLLABLE B052 NO', category: Cat::Other_Letter)]
@@ -124,7 +124,7 @@ enum Linear_B_Syllabary: string
     #[Info(id: 0x10024, name: 'LINEAR B SYLLABLE B078 QE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B078_QE = "\u{10024}";
 
-    #[Info(id: 0x10025, name: 'LINEAR B SYLLABLE B021 QI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10025, name: 'LINEAR B SYLLABLE B021 QI', category: Cat::Other_Letter, informativeAliases: ['ideogram B106 sheep'])]
     case LINEAR_B_SYLLABLE_B021_QI = "\u{10025}";
 
     #[Info(id: 0x10026, name: 'LINEAR B SYLLABLE B032 QO', category: Cat::Other_Letter)]
@@ -145,7 +145,7 @@ enum Linear_B_Syllabary: string
     #[Info(id: 0x1002C, name: 'LINEAR B SYLLABLE B026 RU', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B026_RU = "\u{1002C}";
 
-    #[Info(id: 0x1002D, name: 'LINEAR B SYLLABLE B031 SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1002D, name: 'LINEAR B SYLLABLE B031 SA', category: Cat::Other_Letter, informativeAliases: ['ideogram B031 flax'])]
     case LINEAR_B_SYLLABLE_B031_SA = "\u{1002D}";
 
     #[Info(id: 0x1002E, name: 'LINEAR B SYLLABLE B009 SE', category: Cat::Other_Letter)]
@@ -202,7 +202,7 @@ enum Linear_B_Syllabary: string
     #[Info(id: 0x10041, name: 'LINEAR B SYLLABLE B043 A3', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B043_A3 = "\u{10041}";
 
-    #[Info(id: 0x10042, name: 'LINEAR B SYLLABLE B085 AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10042, name: 'LINEAR B SYLLABLE B085 AU', category: Cat::Other_Letter, informativeAliases: ['ideogram B108 pig'])]
     case LINEAR_B_SYLLABLE_B085_AU = "\u{10042}";
 
     #[Info(id: 0x10043, name: 'LINEAR B SYLLABLE B071 DWE', category: Cat::Other_Letter)]
@@ -223,7 +223,7 @@ enum Linear_B_Syllabary: string
     #[Info(id: 0x10048, name: 'LINEAR B SYLLABLE B076 RA2', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B076_RA2 = "\u{10048}";
 
-    #[Info(id: 0x10049, name: 'LINEAR B SYLLABLE B033 RA3', category: Cat::Other_Letter)]
+    #[Info(id: 0x10049, name: 'LINEAR B SYLLABLE B033 RA3', category: Cat::Other_Letter, informativeAliases: ['ideogram B144 saffron'])]
     case LINEAR_B_SYLLABLE_B033_RA3 = "\u{10049}";
 
     #[Info(id: 0x1004A, name: 'LINEAR B SYLLABLE B068 RO2', category: Cat::Other_Letter)]
@@ -244,7 +244,7 @@ enum Linear_B_Syllabary: string
     #[Info(id: 0x10051, name: 'LINEAR B SYMBOL B019', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B019 = "\u{10051}";
 
-    #[Info(id: 0x10052, name: 'LINEAR B SYMBOL B022', category: Cat::Other_Letter)]
+    #[Info(id: 0x10052, name: 'LINEAR B SYMBOL B022', category: Cat::Other_Letter, informativeAliases: ['ideogram B107 goat'])]
     case LINEAR_B_SYMBOL_B022 = "\u{10052}";
 
     #[Info(id: 0x10053, name: 'LINEAR B SYMBOL B034', category: Cat::Other_Letter)]

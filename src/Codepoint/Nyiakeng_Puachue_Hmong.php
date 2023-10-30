@@ -151,46 +151,46 @@ enum Nyiakeng_Puachue_Hmong: string
     #[Info(id: 0x1E12C, name: 'NYIAKENG PUACHUE HMONG LETTER W', category: Cat::Other_Letter)]
     case NYIAKENG_PUACHUE_HMONG_LETTER_W = "\u{1E12C}";
 
-    #[Info(id: 0x1E130, name: 'NYIAKENG PUACHUE HMONG TONE-B', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E130, name: 'NYIAKENG PUACHUE HMONG TONE-B', category: Cat::Nonspacing_Mark, informativeAliases: ['som thwb'])]
     case NYIAKENG_PUACHUE_HMONG_TONE_B = "\u{1E130}";
 
-    #[Info(id: 0x1E131, name: 'NYIAKENG PUACHUE HMONG TONE-M', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E131, name: 'NYIAKENG PUACHUE HMONG TONE-M', category: Cat::Nonspacing_Mark, informativeAliases: ['som thwm'])]
     case NYIAKENG_PUACHUE_HMONG_TONE_M = "\u{1E131}";
 
-    #[Info(id: 0x1E132, name: 'NYIAKENG PUACHUE HMONG TONE-J', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E132, name: 'NYIAKENG PUACHUE HMONG TONE-J', category: Cat::Nonspacing_Mark, informativeAliases: ['som thwj'])]
     case NYIAKENG_PUACHUE_HMONG_TONE_J = "\u{1E132}";
 
-    #[Info(id: 0x1E133, name: 'NYIAKENG PUACHUE HMONG TONE-V', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E133, name: 'NYIAKENG PUACHUE HMONG TONE-V', category: Cat::Nonspacing_Mark, informativeAliases: ['som thwv'])]
     case NYIAKENG_PUACHUE_HMONG_TONE_V = "\u{1E133}";
 
-    #[Info(id: 0x1E134, name: 'NYIAKENG PUACHUE HMONG TONE-S', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E134, name: 'NYIAKENG PUACHUE HMONG TONE-S', category: Cat::Nonspacing_Mark, informativeAliases: ['som thws'])]
     case NYIAKENG_PUACHUE_HMONG_TONE_S = "\u{1E134}";
 
-    #[Info(id: 0x1E135, name: 'NYIAKENG PUACHUE HMONG TONE-G', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E135, name: 'NYIAKENG PUACHUE HMONG TONE-G', category: Cat::Nonspacing_Mark, informativeAliases: ['som thwg'])]
     case NYIAKENG_PUACHUE_HMONG_TONE_G = "\u{1E135}";
 
-    #[Info(id: 0x1E136, name: 'NYIAKENG PUACHUE HMONG TONE-D', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E136, name: 'NYIAKENG PUACHUE HMONG TONE-D', category: Cat::Nonspacing_Mark, informativeAliases: ['som thwd'])]
     case NYIAKENG_PUACHUE_HMONG_TONE_D = "\u{1E136}";
 
-    #[Info(id: 0x1E137, name: 'NYIAKENG PUACHUE HMONG SIGN FOR PERSON', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E137, name: 'NYIAKENG PUACHUE HMONG SIGN FOR PERSON', category: Cat::Modifier_Letter, informativeAliases: ['oov'])]
     case NYIAKENG_PUACHUE_HMONG_SIGN_FOR_PERSON = "\u{1E137}";
 
-    #[Info(id: 0x1E138, name: 'NYIAKENG PUACHUE HMONG SIGN FOR THING', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E138, name: 'NYIAKENG PUACHUE HMONG SIGN FOR THING', category: Cat::Modifier_Letter, informativeAliases: ['pes'])]
     case NYIAKENG_PUACHUE_HMONG_SIGN_FOR_THING = "\u{1E138}";
 
-    #[Info(id: 0x1E139, name: 'NYIAKENG PUACHUE HMONG SIGN FOR LOCATION', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E139, name: 'NYIAKENG PUACHUE HMONG SIGN FOR LOCATION', category: Cat::Modifier_Letter, informativeAliases: ['khab theeb'])]
     case NYIAKENG_PUACHUE_HMONG_SIGN_FOR_LOCATION = "\u{1E139}";
 
-    #[Info(id: 0x1E13A, name: 'NYIAKENG PUACHUE HMONG SIGN FOR ANIMAL', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E13A, name: 'NYIAKENG PUACHUE HMONG SIGN FOR ANIMAL', category: Cat::Modifier_Letter, informativeAliases: ['khuam luas'])]
     case NYIAKENG_PUACHUE_HMONG_SIGN_FOR_ANIMAL = "\u{1E13A}";
 
-    #[Info(id: 0x1E13B, name: 'NYIAKENG PUACHUE HMONG SIGN FOR INVERTEBRATE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E13B, name: 'NYIAKENG PUACHUE HMONG SIGN FOR INVERTEBRATE', category: Cat::Modifier_Letter, informativeAliases: ['poos'])]
     case NYIAKENG_PUACHUE_HMONG_SIGN_FOR_INVERTEBRATE = "\u{1E13B}";
 
     #[Info(id: 0x1E13C, name: 'NYIAKENG PUACHUE HMONG SIGN XW XW', category: Cat::Modifier_Letter)]
     case NYIAKENG_PUACHUE_HMONG_SIGN_XW_XW = "\u{1E13C}";
 
-    #[Info(id: 0x1E13D, name: 'NYIAKENG PUACHUE HMONG SYLLABLE LENGTHENER', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E13D, name: 'NYIAKENG PUACHUE HMONG SYLLABLE LENGTHENER', category: Cat::Modifier_Letter, informativeAliases: ['khu saim'])]
     case NYIAKENG_PUACHUE_HMONG_SYLLABLE_LENGTHENER = "\u{1E13D}";
 
     #[Info(id: 0x1E140, name: 'NYIAKENG PUACHUE HMONG DIGIT ZERO', category: Cat::Decimal_Number)]

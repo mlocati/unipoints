@@ -85,10 +85,10 @@ enum Katakana: string
     #[Info(id: 0x30B6, name: 'KATAKANA LETTER ZA', category: Cat::Other_Letter)]
     case KATAKANA_LETTER_ZA = "\u{30B6}";
 
-    #[Info(id: 0x30B7, name: 'KATAKANA LETTER SI', category: Cat::Other_Letter)]
+    #[Info(id: 0x30B7, name: 'KATAKANA LETTER SI', category: Cat::Other_Letter, informativeAliases: ['SHI'])]
     case KATAKANA_LETTER_SI = "\u{30B7}";
 
-    #[Info(id: 0x30B8, name: 'KATAKANA LETTER ZI', category: Cat::Other_Letter)]
+    #[Info(id: 0x30B8, name: 'KATAKANA LETTER ZI', category: Cat::Other_Letter, informativeAliases: ['JI (not unique)'])]
     case KATAKANA_LETTER_ZI = "\u{30B8}";
 
     #[Info(id: 0x30B9, name: 'KATAKANA LETTER SU', category: Cat::Other_Letter)]
@@ -115,19 +115,19 @@ enum Katakana: string
     #[Info(id: 0x30C0, name: 'KATAKANA LETTER DA', category: Cat::Other_Letter)]
     case KATAKANA_LETTER_DA = "\u{30C0}";
 
-    #[Info(id: 0x30C1, name: 'KATAKANA LETTER TI', category: Cat::Other_Letter)]
+    #[Info(id: 0x30C1, name: 'KATAKANA LETTER TI', category: Cat::Other_Letter, informativeAliases: ['CHI'])]
     case KATAKANA_LETTER_TI = "\u{30C1}";
 
-    #[Info(id: 0x30C2, name: 'KATAKANA LETTER DI', category: Cat::Other_Letter)]
+    #[Info(id: 0x30C2, name: 'KATAKANA LETTER DI', category: Cat::Other_Letter, informativeAliases: ['JI (not unique)'])]
     case KATAKANA_LETTER_DI = "\u{30C2}";
 
-    #[Info(id: 0x30C3, name: 'KATAKANA LETTER SMALL TU', category: Cat::Other_Letter)]
+    #[Info(id: 0x30C3, name: 'KATAKANA LETTER SMALL TU', category: Cat::Other_Letter, informativeAliases: ['SMALL TSU'])]
     case KATAKANA_LETTER_SMALL_TU = "\u{30C3}";
 
-    #[Info(id: 0x30C4, name: 'KATAKANA LETTER TU', category: Cat::Other_Letter)]
+    #[Info(id: 0x30C4, name: 'KATAKANA LETTER TU', category: Cat::Other_Letter, informativeAliases: ['TSU'])]
     case KATAKANA_LETTER_TU = "\u{30C4}";
 
-    #[Info(id: 0x30C5, name: 'KATAKANA LETTER DU', category: Cat::Other_Letter)]
+    #[Info(id: 0x30C5, name: 'KATAKANA LETTER DU', category: Cat::Other_Letter, informativeAliases: ['ZU (not unique)'])]
     case KATAKANA_LETTER_DU = "\u{30C5}";
 
     #[Info(id: 0x30C6, name: 'KATAKANA LETTER TE', category: Cat::Other_Letter)]
@@ -175,7 +175,7 @@ enum Katakana: string
     #[Info(id: 0x30D4, name: 'KATAKANA LETTER PI', category: Cat::Other_Letter)]
     case KATAKANA_LETTER_PI = "\u{30D4}";
 
-    #[Info(id: 0x30D5, name: 'KATAKANA LETTER HU', category: Cat::Other_Letter)]
+    #[Info(id: 0x30D5, name: 'KATAKANA LETTER HU', category: Cat::Other_Letter, informativeAliases: ['FU'])]
     case KATAKANA_LETTER_HU = "\u{30D5}";
 
     #[Info(id: 0x30D6, name: 'KATAKANA LETTER BU', category: Cat::Other_Letter)]

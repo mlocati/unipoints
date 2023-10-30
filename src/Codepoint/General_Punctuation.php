@@ -19,19 +19,19 @@ enum General_Punctuation: string
     #[Info(id: 0x2000, name: 'EN QUAD', category: Cat::Space_Separator)]
     case EN_QUAD = "\u{2000}";
 
-    #[Info(id: 0x2001, name: 'EM QUAD', category: Cat::Space_Separator)]
+    #[Info(id: 0x2001, name: 'EM QUAD', category: Cat::Space_Separator, informativeAliases: ['mutton quad'])]
     case EM_QUAD = "\u{2001}";
 
-    #[Info(id: 0x2002, name: 'EN SPACE', category: Cat::Space_Separator)]
+    #[Info(id: 0x2002, name: 'EN SPACE', category: Cat::Space_Separator, informativeAliases: ['nut'])]
     case EN_SPACE = "\u{2002}";
 
-    #[Info(id: 0x2003, name: 'EM SPACE', category: Cat::Space_Separator)]
+    #[Info(id: 0x2003, name: 'EM SPACE', category: Cat::Space_Separator, informativeAliases: ['mutton'])]
     case EM_SPACE = "\u{2003}";
 
-    #[Info(id: 0x2004, name: 'THREE-PER-EM SPACE', category: Cat::Space_Separator)]
+    #[Info(id: 0x2004, name: 'THREE-PER-EM SPACE', category: Cat::Space_Separator, informativeAliases: ['thick space'])]
     case THREE_PER_EM_SPACE = "\u{2004}";
 
-    #[Info(id: 0x2005, name: 'FOUR-PER-EM SPACE', category: Cat::Space_Separator)]
+    #[Info(id: 0x2005, name: 'FOUR-PER-EM SPACE', category: Cat::Space_Separator, informativeAliases: ['mid space'])]
     case FOUR_PER_EM_SPACE = "\u{2005}";
 
     #[Info(id: 0x2006, name: 'SIX-PER-EM SPACE', category: Cat::Space_Separator)]
@@ -49,19 +49,19 @@ enum General_Punctuation: string
     #[Info(id: 0x200A, name: 'HAIR SPACE', category: Cat::Space_Separator)]
     case HAIR_SPACE = "\u{200A}";
 
-    #[Info(id: 0x200B, name: 'ZERO WIDTH SPACE', category: Cat::Format)]
+    #[Info(id: 0x200B, name: 'ZERO WIDTH SPACE', category: Cat::Format, abbreviations: ['ZWSP'])]
     case ZERO_WIDTH_SPACE = "\u{200B}";
 
-    #[Info(id: 0x200C, name: 'ZERO WIDTH NON-JOINER', category: Cat::Format)]
+    #[Info(id: 0x200C, name: 'ZERO WIDTH NON-JOINER', category: Cat::Format, abbreviations: ['ZWNJ'])]
     case ZERO_WIDTH_NON_JOINER = "\u{200C}";
 
-    #[Info(id: 0x200D, name: 'ZERO WIDTH JOINER', category: Cat::Format)]
+    #[Info(id: 0x200D, name: 'ZERO WIDTH JOINER', category: Cat::Format, abbreviations: ['ZWJ'])]
     case ZERO_WIDTH_JOINER = "\u{200D}";
 
-    #[Info(id: 0x200E, name: 'LEFT-TO-RIGHT MARK', category: Cat::Format)]
+    #[Info(id: 0x200E, name: 'LEFT-TO-RIGHT MARK', category: Cat::Format, abbreviations: ['LRM'])]
     case LEFT_TO_RIGHT_MARK = "\u{200E}";
 
-    #[Info(id: 0x200F, name: 'RIGHT-TO-LEFT MARK', category: Cat::Format)]
+    #[Info(id: 0x200F, name: 'RIGHT-TO-LEFT MARK', category: Cat::Format, abbreviations: ['RLM'])]
     case RIGHT_TO_LEFT_MARK = "\u{200F}";
 
     #[Info(id: 0x2010, name: 'HYPHEN', category: Cat::Dash_Punctuation)]
@@ -79,46 +79,46 @@ enum General_Punctuation: string
     #[Info(id: 0x2014, name: 'EM DASH', category: Cat::Dash_Punctuation)]
     case EM_DASH = "\u{2014}";
 
-    #[Info(id: 0x2015, name: 'HORIZONTAL BAR', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0x2015, name: 'HORIZONTAL BAR', category: Cat::Dash_Punctuation, unicode1Name: 'QUOTATION DASH')]
     case HORIZONTAL_BAR = "\u{2015}";
 
-    #[Info(id: 0x2016, name: 'DOUBLE VERTICAL LINE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2016, name: 'DOUBLE VERTICAL LINE', category: Cat::Other_Punctuation, unicode1Name: 'DOUBLE VERTICAL BAR')]
     case DOUBLE_VERTICAL_LINE = "\u{2016}";
 
-    #[Info(id: 0x2017, name: 'DOUBLE LOW LINE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2017, name: 'DOUBLE LOW LINE', category: Cat::Other_Punctuation, unicode1Name: 'SPACING DOUBLE UNDERSCORE')]
     case DOUBLE_LOW_LINE = "\u{2017}";
 
-    #[Info(id: 0x2018, name: 'LEFT SINGLE QUOTATION MARK', category: Cat::Initial_Punctuation)]
+    #[Info(id: 0x2018, name: 'LEFT SINGLE QUOTATION MARK', category: Cat::Initial_Punctuation, unicode1Name: 'SINGLE TURNED COMMA QUOTATION MARK')]
     case LEFT_SINGLE_QUOTATION_MARK = "\u{2018}";
 
-    #[Info(id: 0x2019, name: 'RIGHT SINGLE QUOTATION MARK', category: Cat::Final_Punctuation)]
+    #[Info(id: 0x2019, name: 'RIGHT SINGLE QUOTATION MARK', category: Cat::Final_Punctuation, unicode1Name: 'SINGLE COMMA QUOTATION MARK')]
     case RIGHT_SINGLE_QUOTATION_MARK = "\u{2019}";
 
-    #[Info(id: 0x201A, name: 'SINGLE LOW-9 QUOTATION MARK', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x201A, name: 'SINGLE LOW-9 QUOTATION MARK', category: Cat::Open_Punctuation, unicode1Name: 'LOW SINGLE COMMA QUOTATION MARK')]
     case SINGLE_LOW_9_QUOTATION_MARK = "\u{201A}";
 
-    #[Info(id: 0x201B, name: 'SINGLE HIGH-REVERSED-9 QUOTATION MARK', category: Cat::Initial_Punctuation)]
+    #[Info(id: 0x201B, name: 'SINGLE HIGH-REVERSED-9 QUOTATION MARK', category: Cat::Initial_Punctuation, unicode1Name: 'SINGLE REVERSED COMMA QUOTATION MARK')]
     case SINGLE_HIGH_REVERSED_9_QUOTATION_MARK = "\u{201B}";
 
-    #[Info(id: 0x201C, name: 'LEFT DOUBLE QUOTATION MARK', category: Cat::Initial_Punctuation)]
+    #[Info(id: 0x201C, name: 'LEFT DOUBLE QUOTATION MARK', category: Cat::Initial_Punctuation, unicode1Name: 'DOUBLE TURNED COMMA QUOTATION MARK')]
     case LEFT_DOUBLE_QUOTATION_MARK = "\u{201C}";
 
-    #[Info(id: 0x201D, name: 'RIGHT DOUBLE QUOTATION MARK', category: Cat::Final_Punctuation)]
+    #[Info(id: 0x201D, name: 'RIGHT DOUBLE QUOTATION MARK', category: Cat::Final_Punctuation, unicode1Name: 'DOUBLE COMMA QUOTATION MARK')]
     case RIGHT_DOUBLE_QUOTATION_MARK = "\u{201D}";
 
-    #[Info(id: 0x201E, name: 'DOUBLE LOW-9 QUOTATION MARK', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x201E, name: 'DOUBLE LOW-9 QUOTATION MARK', category: Cat::Open_Punctuation, unicode1Name: 'LOW DOUBLE COMMA QUOTATION MARK')]
     case DOUBLE_LOW_9_QUOTATION_MARK = "\u{201E}";
 
-    #[Info(id: 0x201F, name: 'DOUBLE HIGH-REVERSED-9 QUOTATION MARK', category: Cat::Initial_Punctuation)]
+    #[Info(id: 0x201F, name: 'DOUBLE HIGH-REVERSED-9 QUOTATION MARK', category: Cat::Initial_Punctuation, unicode1Name: 'DOUBLE REVERSED COMMA QUOTATION MARK')]
     case DOUBLE_HIGH_REVERSED_9_QUOTATION_MARK = "\u{201F}";
 
-    #[Info(id: 0x2020, name: 'DAGGER', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2020, name: 'DAGGER', category: Cat::Other_Punctuation, informativeAliases: ['obelisk, long cross, oblong cross'])]
     case DAGGER = "\u{2020}";
 
-    #[Info(id: 0x2021, name: 'DOUBLE DAGGER', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2021, name: 'DOUBLE DAGGER', category: Cat::Other_Punctuation, informativeAliases: ['diesis, double obelisk'])]
     case DOUBLE_DAGGER = "\u{2021}";
 
-    #[Info(id: 0x2022, name: 'BULLET', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2022, name: 'BULLET', category: Cat::Other_Punctuation, informativeAliases: ['black small circle'])]
     case BULLET = "\u{2022}";
 
     #[Info(id: 0x2023, name: 'TRIANGULAR BULLET', category: Cat::Other_Punctuation)]
@@ -130,7 +130,7 @@ enum General_Punctuation: string
     #[Info(id: 0x2025, name: 'TWO DOT LEADER', category: Cat::Other_Punctuation)]
     case TWO_DOT_LEADER = "\u{2025}";
 
-    #[Info(id: 0x2026, name: 'HORIZONTAL ELLIPSIS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2026, name: 'HORIZONTAL ELLIPSIS', category: Cat::Other_Punctuation, informativeAliases: ['three dot leader'])]
     case HORIZONTAL_ELLIPSIS = "\u{2026}";
 
     #[Info(id: 0x2027, name: 'HYPHENATION POINT', category: Cat::Other_Punctuation)]
@@ -142,37 +142,37 @@ enum General_Punctuation: string
     #[Info(id: 0x2029, name: 'PARAGRAPH SEPARATOR', category: Cat::Paragraph_Separator)]
     case PARAGRAPH_SEPARATOR = "\u{2029}";
 
-    #[Info(id: 0x202A, name: 'LEFT-TO-RIGHT EMBEDDING', category: Cat::Format)]
+    #[Info(id: 0x202A, name: 'LEFT-TO-RIGHT EMBEDDING', category: Cat::Format, abbreviations: ['LRE'])]
     case LEFT_TO_RIGHT_EMBEDDING = "\u{202A}";
 
-    #[Info(id: 0x202B, name: 'RIGHT-TO-LEFT EMBEDDING', category: Cat::Format)]
+    #[Info(id: 0x202B, name: 'RIGHT-TO-LEFT EMBEDDING', category: Cat::Format, abbreviations: ['RLE'])]
     case RIGHT_TO_LEFT_EMBEDDING = "\u{202B}";
 
-    #[Info(id: 0x202C, name: 'POP DIRECTIONAL FORMATTING', category: Cat::Format)]
+    #[Info(id: 0x202C, name: 'POP DIRECTIONAL FORMATTING', category: Cat::Format, abbreviations: ['PDF'])]
     case POP_DIRECTIONAL_FORMATTING = "\u{202C}";
 
-    #[Info(id: 0x202D, name: 'LEFT-TO-RIGHT OVERRIDE', category: Cat::Format)]
+    #[Info(id: 0x202D, name: 'LEFT-TO-RIGHT OVERRIDE', category: Cat::Format, abbreviations: ['LRO'])]
     case LEFT_TO_RIGHT_OVERRIDE = "\u{202D}";
 
-    #[Info(id: 0x202E, name: 'RIGHT-TO-LEFT OVERRIDE', category: Cat::Format)]
+    #[Info(id: 0x202E, name: 'RIGHT-TO-LEFT OVERRIDE', category: Cat::Format, abbreviations: ['RLO'])]
     case RIGHT_TO_LEFT_OVERRIDE = "\u{202E}";
 
-    #[Info(id: 0x202F, name: 'NARROW NO-BREAK SPACE', category: Cat::Space_Separator)]
+    #[Info(id: 0x202F, name: 'NARROW NO-BREAK SPACE', category: Cat::Space_Separator, abbreviations: ['NNBSP'])]
     case NARROW_NO_BREAK_SPACE = "\u{202F}";
 
-    #[Info(id: 0x2030, name: 'PER MILLE SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2030, name: 'PER MILLE SIGN', category: Cat::Other_Punctuation, informativeAliases: ['permille, per thousand'])]
     case PER_MILLE_SIGN = "\u{2030}";
 
-    #[Info(id: 0x2031, name: 'PER TEN THOUSAND SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2031, name: 'PER TEN THOUSAND SIGN', category: Cat::Other_Punctuation, informativeAliases: ['permyriad'])]
     case PER_TEN_THOUSAND_SIGN = "\u{2031}";
 
-    #[Info(id: 0x2032, name: 'PRIME', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2032, name: 'PRIME', category: Cat::Other_Punctuation, informativeAliases: ['minutes, feet'])]
     case PRIME = "\u{2032}";
 
-    #[Info(id: 0x2033, name: 'DOUBLE PRIME', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2033, name: 'DOUBLE PRIME', category: Cat::Other_Punctuation, informativeAliases: ['seconds, inches'])]
     case DOUBLE_PRIME = "\u{2033}";
 
-    #[Info(id: 0x2034, name: 'TRIPLE PRIME', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2034, name: 'TRIPLE PRIME', category: Cat::Other_Punctuation, informativeAliases: ['lines (old measure, 1/12 of an inch)'])]
     case TRIPLE_PRIME = "\u{2034}";
 
     #[Info(id: 0x2035, name: 'REVERSED PRIME', category: Cat::Other_Punctuation)]
@@ -187,13 +187,13 @@ enum General_Punctuation: string
     #[Info(id: 0x2038, name: 'CARET', category: Cat::Other_Punctuation)]
     case CARET = "\u{2038}";
 
-    #[Info(id: 0x2039, name: 'SINGLE LEFT-POINTING ANGLE QUOTATION MARK', category: Cat::Initial_Punctuation)]
+    #[Info(id: 0x2039, name: 'SINGLE LEFT-POINTING ANGLE QUOTATION MARK', category: Cat::Initial_Punctuation, unicode1Name: 'LEFT POINTING SINGLE GUILLEMET')]
     case SINGLE_LEFT_POINTING_ANGLE_QUOTATION_MARK = "\u{2039}";
 
-    #[Info(id: 0x203A, name: 'SINGLE RIGHT-POINTING ANGLE QUOTATION MARK', category: Cat::Final_Punctuation)]
+    #[Info(id: 0x203A, name: 'SINGLE RIGHT-POINTING ANGLE QUOTATION MARK', category: Cat::Final_Punctuation, unicode1Name: 'RIGHT POINTING SINGLE GUILLEMET')]
     case SINGLE_RIGHT_POINTING_ANGLE_QUOTATION_MARK = "\u{203A}";
 
-    #[Info(id: 0x203B, name: 'REFERENCE MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x203B, name: 'REFERENCE MARK', category: Cat::Other_Punctuation, informativeAliases: ['Japanese kome', 'Urdu paragraph separator'])]
     case REFERENCE_MARK = "\u{203B}";
 
     #[Info(id: 0x203C, name: 'DOUBLE EXCLAMATION MARK', category: Cat::Other_Punctuation)]
@@ -202,13 +202,13 @@ enum General_Punctuation: string
     #[Info(id: 0x203D, name: 'INTERROBANG', category: Cat::Other_Punctuation)]
     case INTERROBANG = "\u{203D}";
 
-    #[Info(id: 0x203E, name: 'OVERLINE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x203E, name: 'OVERLINE', category: Cat::Other_Punctuation, unicode1Name: 'SPACING OVERSCORE')]
     case OVERLINE = "\u{203E}";
 
-    #[Info(id: 0x203F, name: 'UNDERTIE', category: Cat::Connector_Punctuation)]
+    #[Info(id: 0x203F, name: 'UNDERTIE', category: Cat::Connector_Punctuation, informativeAliases: ['Greek enotikon'])]
     case UNDERTIE = "\u{203F}";
 
-    #[Info(id: 0x2040, name: 'CHARACTER TIE', category: Cat::Connector_Punctuation)]
+    #[Info(id: 0x2040, name: 'CHARACTER TIE', category: Cat::Connector_Punctuation, informativeAliases: ['z notation sequence concatenation'])]
     case CHARACTER_TIE = "\u{2040}";
 
     #[Info(id: 0x2041, name: 'CARET INSERTION POINT', category: Cat::Other_Punctuation)]
@@ -220,7 +220,7 @@ enum General_Punctuation: string
     #[Info(id: 0x2043, name: 'HYPHEN BULLET', category: Cat::Other_Punctuation)]
     case HYPHEN_BULLET = "\u{2043}";
 
-    #[Info(id: 0x2044, name: 'FRACTION SLASH', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2044, name: 'FRACTION SLASH', category: Cat::Math_Symbol, informativeAliases: ['solidus (in typography)'])]
     case FRACTION_SLASH = "\u{2044}";
 
     #[Info(id: 0x2045, name: 'LEFT SQUARE BRACKET WITH QUILL', category: Cat::Open_Punctuation)]
@@ -262,7 +262,7 @@ enum General_Punctuation: string
     #[Info(id: 0x2051, name: 'TWO ASTERISKS ALIGNED VERTICALLY', category: Cat::Other_Punctuation)]
     case TWO_ASTERISKS_ALIGNED_VERTICALLY = "\u{2051}";
 
-    #[Info(id: 0x2052, name: 'COMMERCIAL MINUS SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2052, name: 'COMMERCIAL MINUS SIGN', category: Cat::Math_Symbol, informativeAliases: ['abzüglich (German), med avdrag av (Swedish), piska (Swedish, "whip")'])]
     case COMMERCIAL_MINUS_SIGN = "\u{2052}";
 
     #[Info(id: 0x2053, name: 'SWUNG DASH', category: Cat::Other_Punctuation)]
@@ -271,7 +271,7 @@ enum General_Punctuation: string
     #[Info(id: 0x2054, name: 'INVERTED UNDERTIE', category: Cat::Connector_Punctuation)]
     case INVERTED_UNDERTIE = "\u{2054}";
 
-    #[Info(id: 0x2055, name: 'FLOWER PUNCTUATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2055, name: 'FLOWER PUNCTUATION MARK', category: Cat::Other_Punctuation, informativeAliases: ['phul, puspika'])]
     case FLOWER_PUNCTUATION_MARK = "\u{2055}";
 
     #[Info(id: 0x2056, name: 'THREE DOT PUNCTUATION', category: Cat::Other_Punctuation)]
@@ -283,7 +283,7 @@ enum General_Punctuation: string
     #[Info(id: 0x2058, name: 'FOUR DOT PUNCTUATION', category: Cat::Other_Punctuation)]
     case FOUR_DOT_PUNCTUATION = "\u{2058}";
 
-    #[Info(id: 0x2059, name: 'FIVE DOT PUNCTUATION', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2059, name: 'FIVE DOT PUNCTUATION', category: Cat::Other_Punctuation, informativeAliases: ['Greek pentonkion', 'quincunx'])]
     case FIVE_DOT_PUNCTUATION = "\u{2059}";
 
     #[Info(id: 0x205A, name: 'TWO DOT PUNCTUATION', category: Cat::Other_Punctuation)]
@@ -295,16 +295,16 @@ enum General_Punctuation: string
     #[Info(id: 0x205C, name: 'DOTTED CROSS', category: Cat::Other_Punctuation)]
     case DOTTED_CROSS = "\u{205C}";
 
-    #[Info(id: 0x205D, name: 'TRICOLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x205D, name: 'TRICOLON', category: Cat::Other_Punctuation, informativeAliases: ['Epidaurean acrophonic symbol three'])]
     case TRICOLON = "\u{205D}";
 
     #[Info(id: 0x205E, name: 'VERTICAL FOUR DOTS', category: Cat::Other_Punctuation)]
     case VERTICAL_FOUR_DOTS = "\u{205E}";
 
-    #[Info(id: 0x205F, name: 'MEDIUM MATHEMATICAL SPACE', category: Cat::Space_Separator)]
+    #[Info(id: 0x205F, name: 'MEDIUM MATHEMATICAL SPACE', category: Cat::Space_Separator, abbreviations: ['MMSP'])]
     case MEDIUM_MATHEMATICAL_SPACE = "\u{205F}";
 
-    #[Info(id: 0x2060, name: 'WORD JOINER', category: Cat::Format)]
+    #[Info(id: 0x2060, name: 'WORD JOINER', category: Cat::Format, abbreviations: ['WJ'])]
     case WORD_JOINER = "\u{2060}";
 
     #[Info(id: 0x2061, name: 'FUNCTION APPLICATION', category: Cat::Format)]
@@ -313,22 +313,22 @@ enum General_Punctuation: string
     #[Info(id: 0x2062, name: 'INVISIBLE TIMES', category: Cat::Format)]
     case INVISIBLE_TIMES = "\u{2062}";
 
-    #[Info(id: 0x2063, name: 'INVISIBLE SEPARATOR', category: Cat::Format)]
+    #[Info(id: 0x2063, name: 'INVISIBLE SEPARATOR', category: Cat::Format, informativeAliases: ['invisible comma'])]
     case INVISIBLE_SEPARATOR = "\u{2063}";
 
     #[Info(id: 0x2064, name: 'INVISIBLE PLUS', category: Cat::Format)]
     case INVISIBLE_PLUS = "\u{2064}";
 
-    #[Info(id: 0x2066, name: 'LEFT-TO-RIGHT ISOLATE', category: Cat::Format)]
+    #[Info(id: 0x2066, name: 'LEFT-TO-RIGHT ISOLATE', category: Cat::Format, abbreviations: ['LRI'])]
     case LEFT_TO_RIGHT_ISOLATE = "\u{2066}";
 
-    #[Info(id: 0x2067, name: 'RIGHT-TO-LEFT ISOLATE', category: Cat::Format)]
+    #[Info(id: 0x2067, name: 'RIGHT-TO-LEFT ISOLATE', category: Cat::Format, abbreviations: ['RLI'])]
     case RIGHT_TO_LEFT_ISOLATE = "\u{2067}";
 
-    #[Info(id: 0x2068, name: 'FIRST STRONG ISOLATE', category: Cat::Format)]
+    #[Info(id: 0x2068, name: 'FIRST STRONG ISOLATE', category: Cat::Format, abbreviations: ['FSI'])]
     case FIRST_STRONG_ISOLATE = "\u{2068}";
 
-    #[Info(id: 0x2069, name: 'POP DIRECTIONAL ISOLATE', category: Cat::Format)]
+    #[Info(id: 0x2069, name: 'POP DIRECTIONAL ISOLATE', category: Cat::Format, abbreviations: ['PDI'])]
     case POP_DIRECTIONAL_ISOLATE = "\u{2069}";
 
     #[Info(id: 0x206A, name: 'INHIBIT SYMMETRIC SWAPPING', category: Cat::Format)]

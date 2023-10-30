@@ -46,7 +46,7 @@ enum Mro: string
     #[Info(id: 0x16A49, name: 'MRO LETTER HAO', category: Cat::Other_Letter)]
     case MRO_LETTER_HAO = "\u{16A49}";
 
-    #[Info(id: 0x16A4A, name: 'MRO LETTER DAI', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A4A, name: 'MRO LETTER DAI', category: Cat::Other_Letter, informativeAliases: ['i'])]
     case MRO_LETTER_DAI = "\u{16A4A}";
 
     #[Info(id: 0x16A4B, name: 'MRO LETTER CHU', category: Cat::Other_Letter)]
@@ -103,7 +103,7 @@ enum Mro: string
     #[Info(id: 0x16A5C, name: 'MRO LETTER HAI', category: Cat::Other_Letter)]
     case MRO_LETTER_HAI = "\u{16A5C}";
 
-    #[Info(id: 0x16A5D, name: 'MRO LETTER RI', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A5D, name: 'MRO LETTER RI', category: Cat::Other_Letter, informativeAliases: ['o'])]
     case MRO_LETTER_RI = "\u{16A5D}";
 
     #[Info(id: 0x16A5E, name: 'MRO LETTER TEK', category: Cat::Other_Letter)]

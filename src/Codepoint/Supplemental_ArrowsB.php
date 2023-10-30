@@ -16,10 +16,10 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Supplemental_ArrowsB: string
 {
-    #[Info(id: 0x2900, name: 'RIGHTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2900, name: 'RIGHTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['z notation partial surjection'])]
     case RIGHTWARDS_TWO_HEADED_ARROW_WITH_VERTICAL_STROKE = "\u{2900}";
 
-    #[Info(id: 0x2901, name: 'RIGHTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2901, name: 'RIGHTWARDS TWO-HEADED ARROW WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['z notation finite surjection'])]
     case RIGHTWARDS_TWO_HEADED_ARROW_WITH_DOUBLE_VERTICAL_STROKE = "\u{2901}";
 
     #[Info(id: 0x2902, name: 'LEFTWARDS DOUBLE ARROW WITH VERTICAL STROKE', category: Cat::Math_Symbol)]
@@ -31,13 +31,13 @@ enum Supplemental_ArrowsB: string
     #[Info(id: 0x2904, name: 'LEFT RIGHT DOUBLE ARROW WITH VERTICAL STROKE', category: Cat::Math_Symbol)]
     case LEFT_RIGHT_DOUBLE_ARROW_WITH_VERTICAL_STROKE = "\u{2904}";
 
-    #[Info(id: 0x2905, name: 'RIGHTWARDS TWO-HEADED ARROW FROM BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2905, name: 'RIGHTWARDS TWO-HEADED ARROW FROM BAR', category: Cat::Math_Symbol, informativeAliases: ['maps to'])]
     case RIGHTWARDS_TWO_HEADED_ARROW_FROM_BAR = "\u{2905}";
 
-    #[Info(id: 0x2906, name: 'LEFTWARDS DOUBLE ARROW FROM BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2906, name: 'LEFTWARDS DOUBLE ARROW FROM BAR', category: Cat::Math_Symbol, informativeAliases: ['maps from'])]
     case LEFTWARDS_DOUBLE_ARROW_FROM_BAR = "\u{2906}";
 
-    #[Info(id: 0x2907, name: 'RIGHTWARDS DOUBLE ARROW FROM BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2907, name: 'RIGHTWARDS DOUBLE ARROW FROM BAR', category: Cat::Math_Symbol, informativeAliases: ['maps to'])]
     case RIGHTWARDS_DOUBLE_ARROW_FROM_BAR = "\u{2907}";
 
     #[Info(id: 0x2908, name: 'DOWNWARDS ARROW WITH HORIZONTAL STROKE', category: Cat::Math_Symbol)]
@@ -76,19 +76,19 @@ enum Supplemental_ArrowsB: string
     #[Info(id: 0x2913, name: 'DOWNWARDS ARROW TO BAR', category: Cat::Math_Symbol)]
     case DOWNWARDS_ARROW_TO_BAR = "\u{2913}";
 
-    #[Info(id: 0x2914, name: 'RIGHTWARDS ARROW WITH TAIL WITH VERTICAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2914, name: 'RIGHTWARDS ARROW WITH TAIL WITH VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['z notation partial injection'])]
     case RIGHTWARDS_ARROW_WITH_TAIL_WITH_VERTICAL_STROKE = "\u{2914}";
 
-    #[Info(id: 0x2915, name: 'RIGHTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2915, name: 'RIGHTWARDS ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['z notation finite injection'])]
     case RIGHTWARDS_ARROW_WITH_TAIL_WITH_DOUBLE_VERTICAL_STROKE = "\u{2915}";
 
-    #[Info(id: 0x2916, name: 'RIGHTWARDS TWO-HEADED ARROW WITH TAIL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2916, name: 'RIGHTWARDS TWO-HEADED ARROW WITH TAIL', category: Cat::Math_Symbol, informativeAliases: ['bijective mapping', 'z notation bijection'])]
     case RIGHTWARDS_TWO_HEADED_ARROW_WITH_TAIL = "\u{2916}";
 
-    #[Info(id: 0x2917, name: 'RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2917, name: 'RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['z notation surjective injection'])]
     case RIGHTWARDS_TWO_HEADED_ARROW_WITH_TAIL_WITH_VERTICAL_STROKE = "\u{2917}";
 
-    #[Info(id: 0x2918, name: 'RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2918, name: 'RIGHTWARDS TWO-HEADED ARROW WITH TAIL WITH DOUBLE VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['z notation finite surjective injection'])]
     case RIGHTWARDS_TWO_HEADED_ARROW_WITH_TAIL_WITH_DOUBLE_VERTICAL_STROKE = "\u{2918}";
 
     #[Info(id: 0x2919, name: 'LEFTWARDS ARROW-TAIL', category: Cat::Math_Symbol)]

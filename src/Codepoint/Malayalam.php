@@ -88,10 +88,10 @@ enum Malayalam: string
     #[Info(id: 0xD19, name: 'MALAYALAM LETTER NGA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_NGA = "\u{D19}";
 
-    #[Info(id: 0xD1A, name: 'MALAYALAM LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD1A, name: 'MALAYALAM LETTER CA', category: Cat::Other_Letter, informativeAliases: ['cha'])]
     case MALAYALAM_LETTER_CA = "\u{D1A}";
 
-    #[Info(id: 0xD1B, name: 'MALAYALAM LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD1B, name: 'MALAYALAM LETTER CHA', category: Cat::Other_Letter, informativeAliases: ['chha'])]
     case MALAYALAM_LETTER_CHA = "\u{D1B}";
 
     #[Info(id: 0xD1C, name: 'MALAYALAM LETTER JA', category: Cat::Other_Letter)]
@@ -100,34 +100,34 @@ enum Malayalam: string
     #[Info(id: 0xD1D, name: 'MALAYALAM LETTER JHA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_JHA = "\u{D1D}";
 
-    #[Info(id: 0xD1E, name: 'MALAYALAM LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD1E, name: 'MALAYALAM LETTER NYA', category: Cat::Other_Letter, informativeAliases: ['nha'])]
     case MALAYALAM_LETTER_NYA = "\u{D1E}";
 
-    #[Info(id: 0xD1F, name: 'MALAYALAM LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD1F, name: 'MALAYALAM LETTER TTA', category: Cat::Other_Letter, informativeAliases: ['ta'])]
     case MALAYALAM_LETTER_TTA = "\u{D1F}";
 
-    #[Info(id: 0xD20, name: 'MALAYALAM LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD20, name: 'MALAYALAM LETTER TTHA', category: Cat::Other_Letter, informativeAliases: ['tta'])]
     case MALAYALAM_LETTER_TTHA = "\u{D20}";
 
-    #[Info(id: 0xD21, name: 'MALAYALAM LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD21, name: 'MALAYALAM LETTER DDA', category: Cat::Other_Letter, informativeAliases: ['hard da'])]
     case MALAYALAM_LETTER_DDA = "\u{D21}";
 
-    #[Info(id: 0xD22, name: 'MALAYALAM LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD22, name: 'MALAYALAM LETTER DDHA', category: Cat::Other_Letter, informativeAliases: ['hard dda'])]
     case MALAYALAM_LETTER_DDHA = "\u{D22}";
 
-    #[Info(id: 0xD23, name: 'MALAYALAM LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD23, name: 'MALAYALAM LETTER NNA', category: Cat::Other_Letter, informativeAliases: ['hard na'])]
     case MALAYALAM_LETTER_NNA = "\u{D23}";
 
-    #[Info(id: 0xD24, name: 'MALAYALAM LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD24, name: 'MALAYALAM LETTER TA', category: Cat::Other_Letter, informativeAliases: ['tha'])]
     case MALAYALAM_LETTER_TA = "\u{D24}";
 
-    #[Info(id: 0xD25, name: 'MALAYALAM LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD25, name: 'MALAYALAM LETTER THA', category: Cat::Other_Letter, informativeAliases: ['ttha'])]
     case MALAYALAM_LETTER_THA = "\u{D25}";
 
-    #[Info(id: 0xD26, name: 'MALAYALAM LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD26, name: 'MALAYALAM LETTER DA', category: Cat::Other_Letter, informativeAliases: ['soft da'])]
     case MALAYALAM_LETTER_DA = "\u{D26}";
 
-    #[Info(id: 0xD27, name: 'MALAYALAM LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD27, name: 'MALAYALAM LETTER DHA', category: Cat::Other_Letter, informativeAliases: ['soft dda'])]
     case MALAYALAM_LETTER_DHA = "\u{D27}";
 
     #[Info(id: 0xD28, name: 'MALAYALAM LETTER NA', category: Cat::Other_Letter)]
@@ -166,16 +166,16 @@ enum Malayalam: string
     #[Info(id: 0xD33, name: 'MALAYALAM LETTER LLA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_LLA = "\u{D33}";
 
-    #[Info(id: 0xD34, name: 'MALAYALAM LETTER LLLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD34, name: 'MALAYALAM LETTER LLLA', category: Cat::Other_Letter, informativeAliases: ['zha'])]
     case MALAYALAM_LETTER_LLLA = "\u{D34}";
 
     #[Info(id: 0xD35, name: 'MALAYALAM LETTER VA', category: Cat::Other_Letter)]
     case MALAYALAM_LETTER_VA = "\u{D35}";
 
-    #[Info(id: 0xD36, name: 'MALAYALAM LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD36, name: 'MALAYALAM LETTER SHA', category: Cat::Other_Letter, informativeAliases: ['soft sha'])]
     case MALAYALAM_LETTER_SHA = "\u{D36}";
 
-    #[Info(id: 0xD37, name: 'MALAYALAM LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD37, name: 'MALAYALAM LETTER SSA', category: Cat::Other_Letter, informativeAliases: ['sha'])]
     case MALAYALAM_LETTER_SSA = "\u{D37}";
 
     #[Info(id: 0xD38, name: 'MALAYALAM LETTER SA', category: Cat::Other_Letter)]
@@ -193,7 +193,7 @@ enum Malayalam: string
     #[Info(id: 0xD3C, name: 'MALAYALAM SIGN CIRCULAR VIRAMA', category: Cat::Nonspacing_Mark)]
     case MALAYALAM_SIGN_CIRCULAR_VIRAMA = "\u{D3C}";
 
-    #[Info(id: 0xD3D, name: 'MALAYALAM SIGN AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD3D, name: 'MALAYALAM SIGN AVAGRAHA', category: Cat::Other_Letter, informativeAliases: ['praslesham'])]
     case MALAYALAM_SIGN_AVAGRAHA = "\u{D3D}";
 
     #[Info(id: 0xD3E, name: 'MALAYALAM VOWEL SIGN AA', category: Cat::Spacing_Mark)]
@@ -235,7 +235,7 @@ enum Malayalam: string
     #[Info(id: 0xD4C, name: 'MALAYALAM VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case MALAYALAM_VOWEL_SIGN_AU = "\u{D4C}";
 
-    #[Info(id: 0xD4D, name: 'MALAYALAM SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xD4D, name: 'MALAYALAM SIGN VIRAMA', category: Cat::Nonspacing_Mark, informativeAliases: ['candrakkala (the preferred name)', 'vowel half-u'])]
     case MALAYALAM_SIGN_VIRAMA = "\u{D4D}";
 
     #[Info(id: 0xD4E, name: 'MALAYALAM LETTER DOT REPH', category: Cat::Other_Letter)]
@@ -256,25 +256,25 @@ enum Malayalam: string
     #[Info(id: 0xD57, name: 'MALAYALAM AU LENGTH MARK', category: Cat::Spacing_Mark)]
     case MALAYALAM_AU_LENGTH_MARK = "\u{D57}";
 
-    #[Info(id: 0xD58, name: 'MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH', category: Cat::Other_Number)]
+    #[Info(id: 0xD58, name: 'MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH', category: Cat::Other_Number, informativeAliases: ['arakaani'])]
     case MALAYALAM_FRACTION_ONE_ONE_HUNDRED_AND_SIXTIETH = "\u{D58}";
 
-    #[Info(id: 0xD59, name: 'MALAYALAM FRACTION ONE FORTIETH', category: Cat::Other_Number)]
+    #[Info(id: 0xD59, name: 'MALAYALAM FRACTION ONE FORTIETH', category: Cat::Other_Number, informativeAliases: ['aramaa'])]
     case MALAYALAM_FRACTION_ONE_FORTIETH = "\u{D59}";
 
-    #[Info(id: 0xD5A, name: 'MALAYALAM FRACTION THREE EIGHTIETHS', category: Cat::Other_Number)]
+    #[Info(id: 0xD5A, name: 'MALAYALAM FRACTION THREE EIGHTIETHS', category: Cat::Other_Number, informativeAliases: ['muunnukaani'])]
     case MALAYALAM_FRACTION_THREE_EIGHTIETHS = "\u{D5A}";
 
-    #[Info(id: 0xD5B, name: 'MALAYALAM FRACTION ONE TWENTIETH', category: Cat::Other_Number)]
+    #[Info(id: 0xD5B, name: 'MALAYALAM FRACTION ONE TWENTIETH', category: Cat::Other_Number, informativeAliases: ['orumaa'])]
     case MALAYALAM_FRACTION_ONE_TWENTIETH = "\u{D5B}";
 
-    #[Info(id: 0xD5C, name: 'MALAYALAM FRACTION ONE TENTH', category: Cat::Other_Number)]
+    #[Info(id: 0xD5C, name: 'MALAYALAM FRACTION ONE TENTH', category: Cat::Other_Number, informativeAliases: ['rantumaa'])]
     case MALAYALAM_FRACTION_ONE_TENTH = "\u{D5C}";
 
-    #[Info(id: 0xD5D, name: 'MALAYALAM FRACTION THREE TWENTIETHS', category: Cat::Other_Number)]
+    #[Info(id: 0xD5D, name: 'MALAYALAM FRACTION THREE TWENTIETHS', category: Cat::Other_Number, informativeAliases: ['muunnumaa'])]
     case MALAYALAM_FRACTION_THREE_TWENTIETHS = "\u{D5D}";
 
-    #[Info(id: 0xD5E, name: 'MALAYALAM FRACTION ONE FIFTH', category: Cat::Other_Number)]
+    #[Info(id: 0xD5E, name: 'MALAYALAM FRACTION ONE FIFTH', category: Cat::Other_Number, informativeAliases: ['naalumaa'])]
     case MALAYALAM_FRACTION_ONE_FIFTH = "\u{D5E}";
 
     #[Info(id: 0xD5F, name: 'MALAYALAM LETTER ARCHAIC II', category: Cat::Other_Letter)]
@@ -331,22 +331,22 @@ enum Malayalam: string
     #[Info(id: 0xD72, name: 'MALAYALAM NUMBER ONE THOUSAND', category: Cat::Other_Number)]
     case MALAYALAM_NUMBER_ONE_THOUSAND = "\u{D72}";
 
-    #[Info(id: 0xD73, name: 'MALAYALAM FRACTION ONE QUARTER', category: Cat::Other_Number)]
+    #[Info(id: 0xD73, name: 'MALAYALAM FRACTION ONE QUARTER', category: Cat::Other_Number, informativeAliases: ['kaal'])]
     case MALAYALAM_FRACTION_ONE_QUARTER = "\u{D73}";
 
-    #[Info(id: 0xD74, name: 'MALAYALAM FRACTION ONE HALF', category: Cat::Other_Number)]
+    #[Info(id: 0xD74, name: 'MALAYALAM FRACTION ONE HALF', category: Cat::Other_Number, informativeAliases: ['ara'])]
     case MALAYALAM_FRACTION_ONE_HALF = "\u{D74}";
 
-    #[Info(id: 0xD75, name: 'MALAYALAM FRACTION THREE QUARTERS', category: Cat::Other_Number)]
+    #[Info(id: 0xD75, name: 'MALAYALAM FRACTION THREE QUARTERS', category: Cat::Other_Number, informativeAliases: ['mukkaal'])]
     case MALAYALAM_FRACTION_THREE_QUARTERS = "\u{D75}";
 
-    #[Info(id: 0xD76, name: 'MALAYALAM FRACTION ONE SIXTEENTH', category: Cat::Other_Number)]
+    #[Info(id: 0xD76, name: 'MALAYALAM FRACTION ONE SIXTEENTH', category: Cat::Other_Number, informativeAliases: ['maakaani'])]
     case MALAYALAM_FRACTION_ONE_SIXTEENTH = "\u{D76}";
 
-    #[Info(id: 0xD77, name: 'MALAYALAM FRACTION ONE EIGHTH', category: Cat::Other_Number)]
+    #[Info(id: 0xD77, name: 'MALAYALAM FRACTION ONE EIGHTH', category: Cat::Other_Number, informativeAliases: ['arakkaal'])]
     case MALAYALAM_FRACTION_ONE_EIGHTH = "\u{D77}";
 
-    #[Info(id: 0xD78, name: 'MALAYALAM FRACTION THREE SIXTEENTHS', category: Cat::Other_Number)]
+    #[Info(id: 0xD78, name: 'MALAYALAM FRACTION THREE SIXTEENTHS', category: Cat::Other_Number, informativeAliases: ['muntaani'])]
     case MALAYALAM_FRACTION_THREE_SIXTEENTHS = "\u{D78}";
 
     #[Info(id: 0xD79, name: 'MALAYALAM DATE MARK', category: Cat::Other_Symbol)]

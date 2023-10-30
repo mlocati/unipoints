@@ -271,19 +271,19 @@ enum Miscellaneous_Symbols_and_Arrows: string
     #[Info(id: 0x2B54, name: 'WHITE RIGHT-POINTING PENTAGON', category: Cat::Other_Symbol)]
     case WHITE_RIGHT_POINTING_PENTAGON = "\u{2B54}";
 
-    #[Info(id: 0x2B55, name: 'HEAVY LARGE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B55, name: 'HEAVY LARGE CIRCLE', category: Cat::Other_Symbol, informativeAliases: ['basic symbol for speed limit'])]
     case HEAVY_LARGE_CIRCLE = "\u{2B55}";
 
-    #[Info(id: 0x2B56, name: 'HEAVY OVAL WITH OVAL INSIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B56, name: 'HEAVY OVAL WITH OVAL INSIDE', category: Cat::Other_Symbol, informativeAliases: ['prefectural office'])]
     case HEAVY_OVAL_WITH_OVAL_INSIDE = "\u{2B56}";
 
-    #[Info(id: 0x2B57, name: 'HEAVY CIRCLE WITH CIRCLE INSIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B57, name: 'HEAVY CIRCLE WITH CIRCLE INSIDE', category: Cat::Other_Symbol, informativeAliases: ['municipal office'])]
     case HEAVY_CIRCLE_WITH_CIRCLE_INSIDE = "\u{2B57}";
 
-    #[Info(id: 0x2B58, name: 'HEAVY CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B58, name: 'HEAVY CIRCLE', category: Cat::Other_Symbol, informativeAliases: ['town or village office', 'power off symbol'])]
     case HEAVY_CIRCLE = "\u{2B58}";
 
-    #[Info(id: 0x2B59, name: 'HEAVY CIRCLED SALTIRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B59, name: 'HEAVY CIRCLED SALTIRE', category: Cat::Other_Symbol, informativeAliases: ['police station'])]
     case HEAVY_CIRCLED_SALTIRE = "\u{2B59}";
 
     #[Info(id: 0x2B5A, name: 'SLANTED NORTH ARROW WITH HOOKED HEAD', category: Cat::Other_Symbol)]
@@ -352,40 +352,40 @@ enum Miscellaneous_Symbols_and_Arrows: string
     #[Info(id: 0x2B6F, name: 'ANTICLOCKWISE TRIANGLE-HEADED OPEN CIRCLE ARROW', category: Cat::Other_Symbol)]
     case ANTICLOCKWISE_TRIANGLE_HEADED_OPEN_CIRCLE_ARROW = "\u{2B6F}";
 
-    #[Info(id: 0x2B70, name: 'LEFTWARDS TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B70, name: 'LEFTWARDS TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol, informativeAliases: ['left tab'])]
     case LEFTWARDS_TRIANGLE_HEADED_ARROW_TO_BAR = "\u{2B70}";
 
-    #[Info(id: 0x2B71, name: 'UPWARDS TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B71, name: 'UPWARDS TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol, informativeAliases: ['up tab'])]
     case UPWARDS_TRIANGLE_HEADED_ARROW_TO_BAR = "\u{2B71}";
 
-    #[Info(id: 0x2B72, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B72, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol, informativeAliases: ['right tab'])]
     case RIGHTWARDS_TRIANGLE_HEADED_ARROW_TO_BAR = "\u{2B72}";
 
-    #[Info(id: 0x2B73, name: 'DOWNWARDS TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B73, name: 'DOWNWARDS TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol, informativeAliases: ['down tab'])]
     case DOWNWARDS_TRIANGLE_HEADED_ARROW_TO_BAR = "\u{2B73}";
 
-    #[Info(id: 0x2B76, name: 'NORTH WEST TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B76, name: 'NORTH WEST TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol, informativeAliases: ['home'])]
     case NORTH_WEST_TRIANGLE_HEADED_ARROW_TO_BAR = "\u{2B76}";
 
     #[Info(id: 0x2B77, name: 'NORTH EAST TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol)]
     case NORTH_EAST_TRIANGLE_HEADED_ARROW_TO_BAR = "\u{2B77}";
 
-    #[Info(id: 0x2B78, name: 'SOUTH EAST TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B78, name: 'SOUTH EAST TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol, informativeAliases: ['end'])]
     case SOUTH_EAST_TRIANGLE_HEADED_ARROW_TO_BAR = "\u{2B78}";
 
     #[Info(id: 0x2B79, name: 'SOUTH WEST TRIANGLE-HEADED ARROW TO BAR', category: Cat::Other_Symbol)]
     case SOUTH_WEST_TRIANGLE_HEADED_ARROW_TO_BAR = "\u{2B79}";
 
-    #[Info(id: 0x2B7A, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B7A, name: 'LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE', category: Cat::Other_Symbol, correctedNames: ['LEFTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE VERTICAL STROKE'])]
     case LEFTWARDS_TRIANGLE_HEADED_ARROW_WITH_DOUBLE_HORIZONTAL_STROKE = "\u{2B7A}";
 
-    #[Info(id: 0x2B7B, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B7B, name: 'UPWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE', category: Cat::Other_Symbol, informativeAliases: ['page up'])]
     case UPWARDS_TRIANGLE_HEADED_ARROW_WITH_DOUBLE_HORIZONTAL_STROKE = "\u{2B7B}";
 
-    #[Info(id: 0x2B7C, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B7C, name: 'RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE', category: Cat::Other_Symbol, correctedNames: ['RIGHTWARDS TRIANGLE-HEADED ARROW WITH DOUBLE VERTICAL STROKE'])]
     case RIGHTWARDS_TRIANGLE_HEADED_ARROW_WITH_DOUBLE_HORIZONTAL_STROKE = "\u{2B7C}";
 
-    #[Info(id: 0x2B7D, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B7D, name: 'DOWNWARDS TRIANGLE-HEADED ARROW WITH DOUBLE HORIZONTAL STROKE', category: Cat::Other_Symbol, informativeAliases: ['page down'])]
     case DOWNWARDS_TRIANGLE_HEADED_ARROW_WITH_DOUBLE_HORIZONTAL_STROKE = "\u{2B7D}";
 
     #[Info(id: 0x2B7E, name: 'HORIZONTAL TAB KEY', category: Cat::Other_Symbol)]
@@ -454,7 +454,7 @@ enum Miscellaneous_Symbols_and_Arrows: string
     #[Info(id: 0x2B93, name: 'NEWLINE RIGHT', category: Cat::Other_Symbol)]
     case NEWLINE_RIGHT = "\u{2B93}";
 
-    #[Info(id: 0x2B94, name: 'FOUR CORNER ARROWS CIRCLING ANTICLOCKWISE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2B94, name: 'FOUR CORNER ARROWS CIRCLING ANTICLOCKWISE', category: Cat::Other_Symbol, informativeAliases: ['loop'])]
     case FOUR_CORNER_ARROWS_CIRCLING_ANTICLOCKWISE = "\u{2B94}";
 
     #[Info(id: 0x2B95, name: 'RIGHTWARDS BLACK ARROW', category: Cat::Other_Symbol)]
@@ -559,19 +559,19 @@ enum Miscellaneous_Symbols_and_Arrows: string
     #[Info(id: 0x2BB7, name: 'RIBBON ARROW RIGHT DOWN', category: Cat::Other_Symbol)]
     case RIBBON_ARROW_RIGHT_DOWN = "\u{2BB7}";
 
-    #[Info(id: 0x2BB8, name: 'UPWARDS WHITE ARROW FROM BAR WITH HORIZONTAL BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BB8, name: 'UPWARDS WHITE ARROW FROM BAR WITH HORIZONTAL BAR', category: Cat::Other_Symbol, informativeAliases: ['caps lock'])]
     case UPWARDS_WHITE_ARROW_FROM_BAR_WITH_HORIZONTAL_BAR = "\u{2BB8}";
 
-    #[Info(id: 0x2BB9, name: 'UP ARROWHEAD IN A RECTANGLE BOX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BB9, name: 'UP ARROWHEAD IN A RECTANGLE BOX', category: Cat::Other_Symbol, informativeAliases: ['escape'])]
     case UP_ARROWHEAD_IN_A_RECTANGLE_BOX = "\u{2BB9}";
 
-    #[Info(id: 0x2BBA, name: 'OVERLAPPING WHITE SQUARES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BBA, name: 'OVERLAPPING WHITE SQUARES', category: Cat::Other_Symbol, informativeAliases: ['pair of bishops'])]
     case OVERLAPPING_WHITE_SQUARES = "\u{2BBA}";
 
-    #[Info(id: 0x2BBB, name: 'OVERLAPPING WHITE AND BLACK SQUARES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BBB, name: 'OVERLAPPING WHITE AND BLACK SQUARES', category: Cat::Other_Symbol, informativeAliases: ['bishops of opposite colour'])]
     case OVERLAPPING_WHITE_AND_BLACK_SQUARES = "\u{2BBB}";
 
-    #[Info(id: 0x2BBC, name: 'OVERLAPPING BLACK SQUARES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BBC, name: 'OVERLAPPING BLACK SQUARES', category: Cat::Other_Symbol, informativeAliases: ['bishops of the same colour'])]
     case OVERLAPPING_BLACK_SQUARES = "\u{2BBC}";
 
     #[Info(id: 0x2BBD, name: 'BALLOT BOX WITH LIGHT X', category: Cat::Other_Symbol)]
@@ -634,7 +634,7 @@ enum Miscellaneous_Symbols_and_Arrows: string
     #[Info(id: 0x2BD0, name: 'SQUARE POSITION INDICATOR', category: Cat::Other_Symbol)]
     case SQUARE_POSITION_INDICATOR = "\u{2BD0}";
 
-    #[Info(id: 0x2BD1, name: 'UNCERTAINTY SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BD1, name: 'UNCERTAINTY SIGN', category: Cat::Other_Symbol, informativeAliases: ['query'])]
     case UNCERTAINTY_SIGN = "\u{2BD1}";
 
     #[Info(id: 0x2BD2, name: 'GROUP MARK', category: Cat::Other_Symbol)]
@@ -673,7 +673,7 @@ enum Miscellaneous_Symbols_and_Arrows: string
     #[Info(id: 0x2BDD, name: 'WHITE MOON SELENA', category: Cat::Other_Symbol)]
     case WHITE_MOON_SELENA = "\u{2BDD}";
 
-    #[Info(id: 0x2BDE, name: 'BLACK DIAMOND ON CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BDE, name: 'BLACK DIAMOND ON CROSS', category: Cat::Other_Symbol, informativeAliases: ['true black moon Lilith'])]
     case BLACK_DIAMOND_ON_CROSS = "\u{2BDE}";
 
     #[Info(id: 0x2BDF, name: 'TRUE LIGHT MOON ARTA', category: Cat::Other_Symbol)]
@@ -715,16 +715,16 @@ enum Miscellaneous_Symbols_and_Arrows: string
     #[Info(id: 0x2BEB, name: 'STAR WITH RIGHT HALF BLACK', category: Cat::Other_Symbol)]
     case STAR_WITH_RIGHT_HALF_BLACK = "\u{2BEB}";
 
-    #[Info(id: 0x2BEC, name: 'LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BEC, name: 'LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS', category: Cat::Other_Symbol, informativeAliases: ['fast cursor left'])]
     case LEFTWARDS_TWO_HEADED_ARROW_WITH_TRIANGLE_ARROWHEADS = "\u{2BEC}";
 
-    #[Info(id: 0x2BED, name: 'UPWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BED, name: 'UPWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS', category: Cat::Other_Symbol, informativeAliases: ['fast cursor up'])]
     case UPWARDS_TWO_HEADED_ARROW_WITH_TRIANGLE_ARROWHEADS = "\u{2BED}";
 
-    #[Info(id: 0x2BEE, name: 'RIGHTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BEE, name: 'RIGHTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS', category: Cat::Other_Symbol, informativeAliases: ['fast cursor right'])]
     case RIGHTWARDS_TWO_HEADED_ARROW_WITH_TRIANGLE_ARROWHEADS = "\u{2BEE}";
 
-    #[Info(id: 0x2BEF, name: 'DOWNWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BEF, name: 'DOWNWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS', category: Cat::Other_Symbol, informativeAliases: ['fast cursor down'])]
     case DOWNWARDS_TWO_HEADED_ARROW_WITH_TRIANGLE_ARROWHEADS = "\u{2BEF}";
 
     #[Info(id: 0x2BF0, name: 'ERIS FORM ONE', category: Cat::Other_Symbol)]
@@ -754,22 +754,22 @@ enum Miscellaneous_Symbols_and_Arrows: string
     #[Info(id: 0x2BF8, name: 'RUSSIAN ASTROLOGICAL SYMBOL TREDECILE', category: Cat::Other_Symbol)]
     case RUSSIAN_ASTROLOGICAL_SYMBOL_TREDECILE = "\u{2BF8}";
 
-    #[Info(id: 0x2BF9, name: 'EQUALS SIGN WITH INFINITY BELOW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BF9, name: 'EQUALS SIGN WITH INFINITY BELOW', category: Cat::Other_Symbol, informativeAliases: ['with compensation for the material'])]
     case EQUALS_SIGN_WITH_INFINITY_BELOW = "\u{2BF9}";
 
-    #[Info(id: 0x2BFA, name: 'UNITED SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BFA, name: 'UNITED SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['united pawns'])]
     case UNITED_SYMBOL = "\u{2BFA}";
 
-    #[Info(id: 0x2BFB, name: 'SEPARATED SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BFB, name: 'SEPARATED SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['separated pawns'])]
     case SEPARATED_SYMBOL = "\u{2BFB}";
 
-    #[Info(id: 0x2BFC, name: 'DOUBLED SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BFC, name: 'DOUBLED SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['doubled pawns'])]
     case DOUBLED_SYMBOL = "\u{2BFC}";
 
-    #[Info(id: 0x2BFD, name: 'PASSED SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BFD, name: 'PASSED SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['passed pawn'])]
     case PASSED_SYMBOL = "\u{2BFD}";
 
-    #[Info(id: 0x2BFE, name: 'REVERSED RIGHT ANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2BFE, name: 'REVERSED RIGHT ANGLE', category: Cat::Other_Symbol, informativeAliases: ['without'])]
     case REVERSED_RIGHT_ANGLE = "\u{2BFE}";
 
     #[Info(id: 0x2BFF, name: 'HELLSCHREIBER PAUSE SYMBOL', category: Cat::Other_Symbol)]

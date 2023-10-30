@@ -19,25 +19,25 @@ enum IPA_Extensions: string
     #[Info(id: 0x250, name: 'LATIN SMALL LETTER TURNED A', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_A = "\u{250}";
 
-    #[Info(id: 0x251, name: 'LATIN SMALL LETTER ALPHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x251, name: 'LATIN SMALL LETTER ALPHA', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER SCRIPT A', informativeAliases: ['latin small letter script a (1.0)'])]
     case LATIN_SMALL_LETTER_ALPHA = "\u{251}";
 
-    #[Info(id: 0x252, name: 'LATIN SMALL LETTER TURNED ALPHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x252, name: 'LATIN SMALL LETTER TURNED ALPHA', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER TURNED SCRIPT A')]
     case LATIN_SMALL_LETTER_TURNED_ALPHA = "\u{252}";
 
-    #[Info(id: 0x253, name: 'LATIN SMALL LETTER B WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x253, name: 'LATIN SMALL LETTER B WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER B HOOK')]
     case LATIN_SMALL_LETTER_B_WITH_HOOK = "\u{253}";
 
     #[Info(id: 0x254, name: 'LATIN SMALL LETTER OPEN O', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_OPEN_O = "\u{254}";
 
-    #[Info(id: 0x255, name: 'LATIN SMALL LETTER C WITH CURL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x255, name: 'LATIN SMALL LETTER C WITH CURL', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER C CURL')]
     case LATIN_SMALL_LETTER_C_WITH_CURL = "\u{255}";
 
-    #[Info(id: 0x256, name: 'LATIN SMALL LETTER D WITH TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x256, name: 'LATIN SMALL LETTER D WITH TAIL', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER D RETROFLEX HOOK', informativeAliases: ['d retroflex hook'])]
     case LATIN_SMALL_LETTER_D_WITH_TAIL = "\u{256}";
 
-    #[Info(id: 0x257, name: 'LATIN SMALL LETTER D WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x257, name: 'LATIN SMALL LETTER D WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER D HOOK')]
     case LATIN_SMALL_LETTER_D_WITH_HOOK = "\u{257}";
 
     #[Info(id: 0x258, name: 'LATIN SMALL LETTER REVERSED E', category: Cat::Lowercase_Letter)]
@@ -46,25 +46,25 @@ enum IPA_Extensions: string
     #[Info(id: 0x259, name: 'LATIN SMALL LETTER SCHWA', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_SCHWA = "\u{259}";
 
-    #[Info(id: 0x25A, name: 'LATIN SMALL LETTER SCHWA WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x25A, name: 'LATIN SMALL LETTER SCHWA WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER SCHWA HOOK')]
     case LATIN_SMALL_LETTER_SCHWA_WITH_HOOK = "\u{25A}";
 
-    #[Info(id: 0x25B, name: 'LATIN SMALL LETTER OPEN E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x25B, name: 'LATIN SMALL LETTER OPEN E', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER EPSILON', informativeAliases: ['epsilon'])]
     case LATIN_SMALL_LETTER_OPEN_E = "\u{25B}";
 
-    #[Info(id: 0x25C, name: 'LATIN SMALL LETTER REVERSED OPEN E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x25C, name: 'LATIN SMALL LETTER REVERSED OPEN E', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER REVERSED EPSILON', informativeAliases: ['reversed epsilon'])]
     case LATIN_SMALL_LETTER_REVERSED_OPEN_E = "\u{25C}";
 
-    #[Info(id: 0x25D, name: 'LATIN SMALL LETTER REVERSED OPEN E WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x25D, name: 'LATIN SMALL LETTER REVERSED OPEN E WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER REVERSED EPSILON HOOK')]
     case LATIN_SMALL_LETTER_REVERSED_OPEN_E_WITH_HOOK = "\u{25D}";
 
-    #[Info(id: 0x25E, name: 'LATIN SMALL LETTER CLOSED REVERSED OPEN E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x25E, name: 'LATIN SMALL LETTER CLOSED REVERSED OPEN E', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER CLOSED REVERSED EPSILON', informativeAliases: ['closed reversed epsilon'])]
     case LATIN_SMALL_LETTER_CLOSED_REVERSED_OPEN_E = "\u{25E}";
 
-    #[Info(id: 0x25F, name: 'LATIN SMALL LETTER DOTLESS J WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x25F, name: 'LATIN SMALL LETTER DOTLESS J WITH STROKE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER DOTLESS J BAR')]
     case LATIN_SMALL_LETTER_DOTLESS_J_WITH_STROKE = "\u{25F}";
 
-    #[Info(id: 0x260, name: 'LATIN SMALL LETTER G WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x260, name: 'LATIN SMALL LETTER G WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER G HOOK')]
     case LATIN_SMALL_LETTER_G_WITH_HOOK = "\u{260}";
 
     #[Info(id: 0x261, name: 'LATIN SMALL LETTER SCRIPT G', category: Cat::Lowercase_Letter)]
@@ -76,19 +76,19 @@ enum IPA_Extensions: string
     #[Info(id: 0x263, name: 'LATIN SMALL LETTER GAMMA', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_GAMMA = "\u{263}";
 
-    #[Info(id: 0x264, name: 'LATIN SMALL LETTER RAMS HORN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x264, name: 'LATIN SMALL LETTER RAMS HORN', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER BABY GAMMA', informativeAliases: ['latin small letter baby gamma (1.0)'])]
     case LATIN_SMALL_LETTER_RAMS_HORN = "\u{264}";
 
     #[Info(id: 0x265, name: 'LATIN SMALL LETTER TURNED H', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_H = "\u{265}";
 
-    #[Info(id: 0x266, name: 'LATIN SMALL LETTER H WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x266, name: 'LATIN SMALL LETTER H WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER H HOOK')]
     case LATIN_SMALL_LETTER_H_WITH_HOOK = "\u{266}";
 
-    #[Info(id: 0x267, name: 'LATIN SMALL LETTER HENG WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x267, name: 'LATIN SMALL LETTER HENG WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER HENG HOOK')]
     case LATIN_SMALL_LETTER_HENG_WITH_HOOK = "\u{267}";
 
-    #[Info(id: 0x268, name: 'LATIN SMALL LETTER I WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x268, name: 'LATIN SMALL LETTER I WITH STROKE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER BARRED I', informativeAliases: ['barred i, i bar'])]
     case LATIN_SMALL_LETTER_I_WITH_STROKE = "\u{268}";
 
     #[Info(id: 0x269, name: 'LATIN SMALL LETTER IOTA', category: Cat::Lowercase_Letter)]
@@ -100,13 +100,13 @@ enum IPA_Extensions: string
     #[Info(id: 0x26B, name: 'LATIN SMALL LETTER L WITH MIDDLE TILDE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_L_WITH_MIDDLE_TILDE = "\u{26B}";
 
-    #[Info(id: 0x26C, name: 'LATIN SMALL LETTER L WITH BELT', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x26C, name: 'LATIN SMALL LETTER L WITH BELT', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER L BELT')]
     case LATIN_SMALL_LETTER_L_WITH_BELT = "\u{26C}";
 
-    #[Info(id: 0x26D, name: 'LATIN SMALL LETTER L WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x26D, name: 'LATIN SMALL LETTER L WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER L RETROFLEX HOOK')]
     case LATIN_SMALL_LETTER_L_WITH_RETROFLEX_HOOK = "\u{26D}";
 
-    #[Info(id: 0x26E, name: 'LATIN SMALL LETTER LEZH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x26E, name: 'LATIN SMALL LETTER LEZH', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER L YOGH')]
     case LATIN_SMALL_LETTER_LEZH = "\u{26E}";
 
     #[Info(id: 0x26F, name: 'LATIN SMALL LETTER TURNED M', category: Cat::Lowercase_Letter)]
@@ -115,22 +115,22 @@ enum IPA_Extensions: string
     #[Info(id: 0x270, name: 'LATIN SMALL LETTER TURNED M WITH LONG LEG', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_M_WITH_LONG_LEG = "\u{270}";
 
-    #[Info(id: 0x271, name: 'LATIN SMALL LETTER M WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x271, name: 'LATIN SMALL LETTER M WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER M HOOK')]
     case LATIN_SMALL_LETTER_M_WITH_HOOK = "\u{271}";
 
-    #[Info(id: 0x272, name: 'LATIN SMALL LETTER N WITH LEFT HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x272, name: 'LATIN SMALL LETTER N WITH LEFT HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER N HOOK')]
     case LATIN_SMALL_LETTER_N_WITH_LEFT_HOOK = "\u{272}";
 
-    #[Info(id: 0x273, name: 'LATIN SMALL LETTER N WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x273, name: 'LATIN SMALL LETTER N WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER N RETROFLEX HOOK')]
     case LATIN_SMALL_LETTER_N_WITH_RETROFLEX_HOOK = "\u{273}";
 
     #[Info(id: 0x274, name: 'LATIN LETTER SMALL CAPITAL N', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_SMALL_CAPITAL_N = "\u{274}";
 
-    #[Info(id: 0x275, name: 'LATIN SMALL LETTER BARRED O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x275, name: 'LATIN SMALL LETTER BARRED O', category: Cat::Lowercase_Letter, informativeAliases: ['o bar'])]
     case LATIN_SMALL_LETTER_BARRED_O = "\u{275}";
 
-    #[Info(id: 0x276, name: 'LATIN LETTER SMALL CAPITAL OE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x276, name: 'LATIN LETTER SMALL CAPITAL OE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN LETTER SMALL CAPITAL O E')]
     case LATIN_LETTER_SMALL_CAPITAL_OE = "\u{276}";
 
     #[Info(id: 0x277, name: 'LATIN SMALL LETTER CLOSED OMEGA', category: Cat::Lowercase_Letter)]
@@ -145,19 +145,19 @@ enum IPA_Extensions: string
     #[Info(id: 0x27A, name: 'LATIN SMALL LETTER TURNED R WITH LONG LEG', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_R_WITH_LONG_LEG = "\u{27A}";
 
-    #[Info(id: 0x27B, name: 'LATIN SMALL LETTER TURNED R WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x27B, name: 'LATIN SMALL LETTER TURNED R WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER TURNED R HOOK')]
     case LATIN_SMALL_LETTER_TURNED_R_WITH_HOOK = "\u{27B}";
 
     #[Info(id: 0x27C, name: 'LATIN SMALL LETTER R WITH LONG LEG', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_R_WITH_LONG_LEG = "\u{27C}";
 
-    #[Info(id: 0x27D, name: 'LATIN SMALL LETTER R WITH TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x27D, name: 'LATIN SMALL LETTER R WITH TAIL', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER R HOOK')]
     case LATIN_SMALL_LETTER_R_WITH_TAIL = "\u{27D}";
 
-    #[Info(id: 0x27E, name: 'LATIN SMALL LETTER R WITH FISHHOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x27E, name: 'LATIN SMALL LETTER R WITH FISHHOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER FISHHOOK R')]
     case LATIN_SMALL_LETTER_R_WITH_FISHHOOK = "\u{27E}";
 
-    #[Info(id: 0x27F, name: 'LATIN SMALL LETTER REVERSED R WITH FISHHOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x27F, name: 'LATIN SMALL LETTER REVERSED R WITH FISHHOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER REVERSED FISHHOOK R', informativeAliases: ['long leg turned iota (a misnomer)'])]
     case LATIN_SMALL_LETTER_REVERSED_R_WITH_FISHHOOK = "\u{27F}";
 
     #[Info(id: 0x280, name: 'LATIN LETTER SMALL CAPITAL R', category: Cat::Lowercase_Letter)]
@@ -166,25 +166,25 @@ enum IPA_Extensions: string
     #[Info(id: 0x281, name: 'LATIN LETTER SMALL CAPITAL INVERTED R', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_SMALL_CAPITAL_INVERTED_R = "\u{281}";
 
-    #[Info(id: 0x282, name: 'LATIN SMALL LETTER S WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x282, name: 'LATIN SMALL LETTER S WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER S HOOK')]
     case LATIN_SMALL_LETTER_S_WITH_HOOK = "\u{282}";
 
     #[Info(id: 0x283, name: 'LATIN SMALL LETTER ESH', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_ESH = "\u{283}";
 
-    #[Info(id: 0x284, name: 'LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x284, name: 'LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER DOTLESS J BAR HOOK')]
     case LATIN_SMALL_LETTER_DOTLESS_J_WITH_STROKE_AND_HOOK = "\u{284}";
 
     #[Info(id: 0x285, name: 'LATIN SMALL LETTER SQUAT REVERSED ESH', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_SQUAT_REVERSED_ESH = "\u{285}";
 
-    #[Info(id: 0x286, name: 'LATIN SMALL LETTER ESH WITH CURL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x286, name: 'LATIN SMALL LETTER ESH WITH CURL', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER ESH CURL')]
     case LATIN_SMALL_LETTER_ESH_WITH_CURL = "\u{286}";
 
     #[Info(id: 0x287, name: 'LATIN SMALL LETTER TURNED T', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_T = "\u{287}";
 
-    #[Info(id: 0x288, name: 'LATIN SMALL LETTER T WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x288, name: 'LATIN SMALL LETTER T WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER T RETROFLEX HOOK')]
     case LATIN_SMALL_LETTER_T_WITH_RETROFLEX_HOOK = "\u{288}";
 
     #[Info(id: 0x289, name: 'LATIN SMALL LETTER U BAR', category: Cat::Lowercase_Letter)]
@@ -193,10 +193,10 @@ enum IPA_Extensions: string
     #[Info(id: 0x28A, name: 'LATIN SMALL LETTER UPSILON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_UPSILON = "\u{28A}";
 
-    #[Info(id: 0x28B, name: 'LATIN SMALL LETTER V WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x28B, name: 'LATIN SMALL LETTER V WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER SCRIPT V', informativeAliases: ['latin small letter script v (1.0)'])]
     case LATIN_SMALL_LETTER_V_WITH_HOOK = "\u{28B}";
 
-    #[Info(id: 0x28C, name: 'LATIN SMALL LETTER TURNED V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x28C, name: 'LATIN SMALL LETTER TURNED V', category: Cat::Lowercase_Letter, informativeAliases: ['caret, wedge'])]
     case LATIN_SMALL_LETTER_TURNED_V = "\u{28C}";
 
     #[Info(id: 0x28D, name: 'LATIN SMALL LETTER TURNED W', category: Cat::Lowercase_Letter)]
@@ -208,22 +208,22 @@ enum IPA_Extensions: string
     #[Info(id: 0x28F, name: 'LATIN LETTER SMALL CAPITAL Y', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_SMALL_CAPITAL_Y = "\u{28F}";
 
-    #[Info(id: 0x290, name: 'LATIN SMALL LETTER Z WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x290, name: 'LATIN SMALL LETTER Z WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER Z RETROFLEX HOOK')]
     case LATIN_SMALL_LETTER_Z_WITH_RETROFLEX_HOOK = "\u{290}";
 
-    #[Info(id: 0x291, name: 'LATIN SMALL LETTER Z WITH CURL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x291, name: 'LATIN SMALL LETTER Z WITH CURL', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER Z CURL')]
     case LATIN_SMALL_LETTER_Z_WITH_CURL = "\u{291}";
 
-    #[Info(id: 0x292, name: 'LATIN SMALL LETTER EZH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x292, name: 'LATIN SMALL LETTER EZH', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER YOGH', informativeAliases: ['dram sign'])]
     case LATIN_SMALL_LETTER_EZH = "\u{292}";
 
-    #[Info(id: 0x293, name: 'LATIN SMALL LETTER EZH WITH CURL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x293, name: 'LATIN SMALL LETTER EZH WITH CURL', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER YOGH CURL')]
     case LATIN_SMALL_LETTER_EZH_WITH_CURL = "\u{293}";
 
     #[Info(id: 0x294, name: 'LATIN LETTER GLOTTAL STOP', category: Cat::Other_Letter)]
     case LATIN_LETTER_GLOTTAL_STOP = "\u{294}";
 
-    #[Info(id: 0x295, name: 'LATIN LETTER PHARYNGEAL VOICED FRICATIVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x295, name: 'LATIN LETTER PHARYNGEAL VOICED FRICATIVE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN LETTER REVERSED GLOTTAL STOP', informativeAliases: ['reversed glottal stop'])]
     case LATIN_LETTER_PHARYNGEAL_VOICED_FRICATIVE = "\u{295}";
 
     #[Info(id: 0x296, name: 'LATIN LETTER INVERTED GLOTTAL STOP', category: Cat::Lowercase_Letter)]
@@ -232,22 +232,22 @@ enum IPA_Extensions: string
     #[Info(id: 0x297, name: 'LATIN LETTER STRETCHED C', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_STRETCHED_C = "\u{297}";
 
-    #[Info(id: 0x298, name: 'LATIN LETTER BILABIAL CLICK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x298, name: 'LATIN LETTER BILABIAL CLICK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN LETTER BULLSEYE', informativeAliases: ['bullseye'])]
     case LATIN_LETTER_BILABIAL_CLICK = "\u{298}";
 
     #[Info(id: 0x299, name: 'LATIN LETTER SMALL CAPITAL B', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_SMALL_CAPITAL_B = "\u{299}";
 
-    #[Info(id: 0x29A, name: 'LATIN SMALL LETTER CLOSED OPEN E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x29A, name: 'LATIN SMALL LETTER CLOSED OPEN E', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER CLOSED EPSILON', informativeAliases: ['closed epsilon'])]
     case LATIN_SMALL_LETTER_CLOSED_OPEN_E = "\u{29A}";
 
-    #[Info(id: 0x29B, name: 'LATIN LETTER SMALL CAPITAL G WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x29B, name: 'LATIN LETTER SMALL CAPITAL G WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN LETTER SMALL CAPITAL G HOOK')]
     case LATIN_LETTER_SMALL_CAPITAL_G_WITH_HOOK = "\u{29B}";
 
     #[Info(id: 0x29C, name: 'LATIN LETTER SMALL CAPITAL H', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_SMALL_CAPITAL_H = "\u{29C}";
 
-    #[Info(id: 0x29D, name: 'LATIN SMALL LETTER J WITH CROSSED-TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x29D, name: 'LATIN SMALL LETTER J WITH CROSSED-TAIL', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER CROSSED-TAIL J')]
     case LATIN_SMALL_LETTER_J_WITH_CROSSED_TAIL = "\u{29D}";
 
     #[Info(id: 0x29E, name: 'LATIN SMALL LETTER TURNED K', category: Cat::Lowercase_Letter)]
@@ -256,31 +256,31 @@ enum IPA_Extensions: string
     #[Info(id: 0x29F, name: 'LATIN LETTER SMALL CAPITAL L', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_SMALL_CAPITAL_L = "\u{29F}";
 
-    #[Info(id: 0x2A0, name: 'LATIN SMALL LETTER Q WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2A0, name: 'LATIN SMALL LETTER Q WITH HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER Q HOOK')]
     case LATIN_SMALL_LETTER_Q_WITH_HOOK = "\u{2A0}";
 
-    #[Info(id: 0x2A1, name: 'LATIN LETTER GLOTTAL STOP WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2A1, name: 'LATIN LETTER GLOTTAL STOP WITH STROKE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN LETTER GLOTTAL STOP BAR')]
     case LATIN_LETTER_GLOTTAL_STOP_WITH_STROKE = "\u{2A1}";
 
-    #[Info(id: 0x2A2, name: 'LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2A2, name: 'LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN LETTER REVERSED GLOTTAL STOP BAR')]
     case LATIN_LETTER_REVERSED_GLOTTAL_STOP_WITH_STROKE = "\u{2A2}";
 
-    #[Info(id: 0x2A3, name: 'LATIN SMALL LETTER DZ DIGRAPH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2A3, name: 'LATIN SMALL LETTER DZ DIGRAPH', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER D Z')]
     case LATIN_SMALL_LETTER_DZ_DIGRAPH = "\u{2A3}";
 
-    #[Info(id: 0x2A4, name: 'LATIN SMALL LETTER DEZH DIGRAPH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2A4, name: 'LATIN SMALL LETTER DEZH DIGRAPH', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER D YOGH')]
     case LATIN_SMALL_LETTER_DEZH_DIGRAPH = "\u{2A4}";
 
-    #[Info(id: 0x2A5, name: 'LATIN SMALL LETTER DZ DIGRAPH WITH CURL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2A5, name: 'LATIN SMALL LETTER DZ DIGRAPH WITH CURL', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER D Z CURL')]
     case LATIN_SMALL_LETTER_DZ_DIGRAPH_WITH_CURL = "\u{2A5}";
 
-    #[Info(id: 0x2A6, name: 'LATIN SMALL LETTER TS DIGRAPH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2A6, name: 'LATIN SMALL LETTER TS DIGRAPH', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER T S')]
     case LATIN_SMALL_LETTER_TS_DIGRAPH = "\u{2A6}";
 
-    #[Info(id: 0x2A7, name: 'LATIN SMALL LETTER TESH DIGRAPH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2A7, name: 'LATIN SMALL LETTER TESH DIGRAPH', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER T ESH')]
     case LATIN_SMALL_LETTER_TESH_DIGRAPH = "\u{2A7}";
 
-    #[Info(id: 0x2A8, name: 'LATIN SMALL LETTER TC DIGRAPH WITH CURL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2A8, name: 'LATIN SMALL LETTER TC DIGRAPH WITH CURL', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER T C CURL')]
     case LATIN_SMALL_LETTER_TC_DIGRAPH_WITH_CURL = "\u{2A8}";
 
     #[Info(id: 0x2A9, name: 'LATIN SMALL LETTER FENG DIGRAPH', category: Cat::Lowercase_Letter)]

@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace MLUnipoints\Build;
 
+use Generator;
+use MLUnipoints\Build\CodepointsBuilder\NameCollection\OtherNameType;
+use MLUnipoints\Build\CodepointsBuilder\NameCollection\OtherNameTypeInfo;
 use MLUnipoints\Category;
 use MLUnipoints\Info\PlaneInfo;
 use RuntimeException;
@@ -130,31 +133,16 @@ class CodepointsBuilder
             throw new RuntimeException("Missing codepoint {$codepoint} in UnicodeData");
         }
 
-        if ($name === null) {
-            if ($nameAlias === null && $unicodeData->nameIsPseudo && $unicodeData->unicode1Name === '') {
-                $codepointName = $unicodeData->name;
-            } else {
-                throw new RuntimeException("Missing codepoint {$codepoint} in NamesList");
-            }
-        } elseif ($name->nameIsPseudo) {
-            if (($controlNames = $nameAlias?->getAliases(CodepointsBuilder\NameAlias\Type::Control) ?? []) !== []) {
-                $codepointName = $controlNames[0];
-            } elseif (($figmentNames = $nameAlias?->getAliases(CodepointsBuilder\NameAlias\Type::Figment) ?? []) !== []) {
-                $codepointName = $figmentNames[0];
-            } else {
-                throw new RuntimeException("Unable to determine the name of the codepoint {$codepoint}");
-            }
-        } else {
-            $codepointName = $unicodeData->name;
-        }
         $block = $this->blocksBuilder->getBlockForCodepoint($codepoint);
         if ($block === null) {
             throw new RuntimeException("Block not found for codepoint {$codepoint}");
         }
+        $nameCollection = new CodepointsBuilder\NameCollection($unicodeData, $name, $nameAlias);
 
         return new CodepointsBuilder\Codepoint(
             codepoint: $codepoint,
-            name: $codepointName,
+            name: $nameCollection->name,
+            otherNames: $nameCollection->otherNames,
             category: $unicodeData->category,
             block: $block,
         );
@@ -430,14 +418,44 @@ EOT
                 $lines[] = '';
             }
         }
-        $name = var_export($codepoint->name, true);
-        $block = $isBlockFile ? '' : ", block: Block::{$codepoint->block->codename}";
+        $lines[] = "{$indent}#[Info(" . implode(', ', iterator_to_array($this->generateInfoProperties($codepoint, $isBlockFile))) . ')]';
         $hexCodepoint = strtoupper(dechex($codepoint->codepoint));
-        $lines[] = "{$indent}#[Info(id: 0x{$hexCodepoint}, name: {$name}{$block}, category: Cat::{$codepoint->category->name})]";
         $value = $codepoint->category === Category::Surrogate ? "0x{$hexCodepoint}" : '"\\u{' . $hexCodepoint . '}"';
         $lines[] = "{$indent}case {$codepoint->codename} = {$value};";
 
         return implode("\n", $lines) . "\n";
+    }
+
+    /**
+     * @return \Generator<string>
+     */
+    protected function generateInfoProperties(CodepointsBuilder\Codepoint $codepoint, bool $isBlockFile): Generator
+    {
+        yield 'id: 0x' . strtoupper(dechex($codepoint->codepoint));
+        yield 'name: ' . var_export($codepoint->name, true);
+        if (!$isBlockFile) {
+            yield 'block: Block::' . $codepoint->block->codename;
+        }
+        yield 'category: Cat::' . $codepoint->category->name;
+        foreach ($codepoint->otherNames as $typeValue => $names) {
+            if ($names === []) {
+                continue;
+            }
+            $typeInfo = OtherNameTypeInfo::from(OtherNameType::from($typeValue));
+            $entry = $typeInfo->exportHandle . ': ';
+            if ($typeInfo->plural) {
+                $entry .= '[';
+                foreach ($names as $index => $name) {
+                    $entry .= ($index === 0 ? '' : ', ') . var_export($name, true);
+                }
+                $entry .= ']';
+            } elseif (count($names) !== 1) {
+                throw new RuntimeException("More than one name found for {$typeInfo->exportHandle}");
+            } else {
+                $entry .= var_export($names[0], true);
+            }
+            yield $entry;
+        }
     }
 
     /**

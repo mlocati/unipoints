@@ -16,103 +16,103 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Latin1_Supplement: string
 {
-    #[Info(id: 0x80, name: 'PADDING CHARACTER', category: Cat::Control)]
+    #[Info(id: 0x80, name: 'PADDING CHARACTER', category: Cat::Control, abbreviations: ['PAD'])]
     case PADDING_CHARACTER = "\u{80}";
 
-    #[Info(id: 0x81, name: 'HIGH OCTET PRESET', category: Cat::Control)]
+    #[Info(id: 0x81, name: 'HIGH OCTET PRESET', category: Cat::Control, abbreviations: ['HOP'])]
     case HIGH_OCTET_PRESET = "\u{81}";
 
-    #[Info(id: 0x82, name: 'BREAK PERMITTED HERE', category: Cat::Control)]
+    #[Info(id: 0x82, name: 'BREAK PERMITTED HERE', category: Cat::Control, abbreviations: ['BPH'])]
     case BREAK_PERMITTED_HERE = "\u{82}";
 
-    #[Info(id: 0x83, name: 'NO BREAK HERE', category: Cat::Control)]
+    #[Info(id: 0x83, name: 'NO BREAK HERE', category: Cat::Control, abbreviations: ['NBH'])]
     case NO_BREAK_HERE = "\u{83}";
 
-    #[Info(id: 0x84, name: 'INDEX', category: Cat::Control)]
+    #[Info(id: 0x84, name: 'INDEX', category: Cat::Control, abbreviations: ['IND'])]
     case INDEX = "\u{84}";
 
-    #[Info(id: 0x85, name: 'NEXT LINE', category: Cat::Control)]
+    #[Info(id: 0x85, name: 'NEXT LINE', category: Cat::Control, unicode1Name: 'NEXT LINE (NEL)', abbreviations: ['NEL'])]
     case NEXT_LINE = "\u{85}";
 
-    #[Info(id: 0x86, name: 'START OF SELECTED AREA', category: Cat::Control)]
+    #[Info(id: 0x86, name: 'START OF SELECTED AREA', category: Cat::Control, abbreviations: ['SSA'])]
     case START_OF_SELECTED_AREA = "\u{86}";
 
-    #[Info(id: 0x87, name: 'END OF SELECTED AREA', category: Cat::Control)]
+    #[Info(id: 0x87, name: 'END OF SELECTED AREA', category: Cat::Control, abbreviations: ['ESA'])]
     case END_OF_SELECTED_AREA = "\u{87}";
 
-    #[Info(id: 0x88, name: 'CHARACTER TABULATION SET', category: Cat::Control)]
+    #[Info(id: 0x88, name: 'CHARACTER TABULATION SET', category: Cat::Control, controlNames: ['HORIZONTAL TABULATION SET'], abbreviations: ['HTS'])]
     case CHARACTER_TABULATION_SET = "\u{88}";
 
-    #[Info(id: 0x89, name: 'CHARACTER TABULATION WITH JUSTIFICATION', category: Cat::Control)]
+    #[Info(id: 0x89, name: 'CHARACTER TABULATION WITH JUSTIFICATION', category: Cat::Control, controlNames: ['HORIZONTAL TABULATION WITH JUSTIFICATION'], abbreviations: ['HTJ'])]
     case CHARACTER_TABULATION_WITH_JUSTIFICATION = "\u{89}";
 
-    #[Info(id: 0x8A, name: 'LINE TABULATION SET', category: Cat::Control)]
+    #[Info(id: 0x8A, name: 'LINE TABULATION SET', category: Cat::Control, controlNames: ['VERTICAL TABULATION SET'], abbreviations: ['VTS'])]
     case LINE_TABULATION_SET = "\u{8A}";
 
-    #[Info(id: 0x8B, name: 'PARTIAL LINE FORWARD', category: Cat::Control)]
+    #[Info(id: 0x8B, name: 'PARTIAL LINE FORWARD', category: Cat::Control, controlNames: ['PARTIAL LINE DOWN'], abbreviations: ['PLD'])]
     case PARTIAL_LINE_FORWARD = "\u{8B}";
 
-    #[Info(id: 0x8C, name: 'PARTIAL LINE BACKWARD', category: Cat::Control)]
+    #[Info(id: 0x8C, name: 'PARTIAL LINE BACKWARD', category: Cat::Control, controlNames: ['PARTIAL LINE UP'], abbreviations: ['PLU'])]
     case PARTIAL_LINE_BACKWARD = "\u{8C}";
 
-    #[Info(id: 0x8D, name: 'REVERSE LINE FEED', category: Cat::Control)]
+    #[Info(id: 0x8D, name: 'REVERSE LINE FEED', category: Cat::Control, controlNames: ['REVERSE INDEX'], abbreviations: ['RI'])]
     case REVERSE_LINE_FEED = "\u{8D}";
 
-    #[Info(id: 0x8E, name: 'SINGLE SHIFT TWO', category: Cat::Control)]
+    #[Info(id: 0x8E, name: 'SINGLE SHIFT TWO', category: Cat::Control, controlNames: ['SINGLE-SHIFT-2'], abbreviations: ['SS2'])]
     case SINGLE_SHIFT_TWO = "\u{8E}";
 
-    #[Info(id: 0x8F, name: 'SINGLE SHIFT THREE', category: Cat::Control)]
+    #[Info(id: 0x8F, name: 'SINGLE SHIFT THREE', category: Cat::Control, controlNames: ['SINGLE-SHIFT-3'], abbreviations: ['SS3'])]
     case SINGLE_SHIFT_THREE = "\u{8F}";
 
-    #[Info(id: 0x90, name: 'DEVICE CONTROL STRING', category: Cat::Control)]
+    #[Info(id: 0x90, name: 'DEVICE CONTROL STRING', category: Cat::Control, abbreviations: ['DCS'])]
     case DEVICE_CONTROL_STRING = "\u{90}";
 
-    #[Info(id: 0x91, name: 'PRIVATE USE ONE', category: Cat::Control)]
+    #[Info(id: 0x91, name: 'PRIVATE USE ONE', category: Cat::Control, controlNames: ['PRIVATE USE-1'], abbreviations: ['PU1'])]
     case PRIVATE_USE_ONE = "\u{91}";
 
-    #[Info(id: 0x92, name: 'PRIVATE USE TWO', category: Cat::Control)]
+    #[Info(id: 0x92, name: 'PRIVATE USE TWO', category: Cat::Control, controlNames: ['PRIVATE USE-2'], abbreviations: ['PU2'])]
     case PRIVATE_USE_TWO = "\u{92}";
 
-    #[Info(id: 0x93, name: 'SET TRANSMIT STATE', category: Cat::Control)]
+    #[Info(id: 0x93, name: 'SET TRANSMIT STATE', category: Cat::Control, abbreviations: ['STS'])]
     case SET_TRANSMIT_STATE = "\u{93}";
 
-    #[Info(id: 0x94, name: 'CANCEL CHARACTER', category: Cat::Control)]
+    #[Info(id: 0x94, name: 'CANCEL CHARACTER', category: Cat::Control, abbreviations: ['CCH'])]
     case CANCEL_CHARACTER = "\u{94}";
 
-    #[Info(id: 0x95, name: 'MESSAGE WAITING', category: Cat::Control)]
+    #[Info(id: 0x95, name: 'MESSAGE WAITING', category: Cat::Control, abbreviations: ['MW'])]
     case MESSAGE_WAITING = "\u{95}";
 
-    #[Info(id: 0x96, name: 'START OF GUARDED AREA', category: Cat::Control)]
+    #[Info(id: 0x96, name: 'START OF GUARDED AREA', category: Cat::Control, controlNames: ['START OF PROTECTED AREA'], abbreviations: ['SPA'])]
     case START_OF_GUARDED_AREA = "\u{96}";
 
-    #[Info(id: 0x97, name: 'END OF GUARDED AREA', category: Cat::Control)]
+    #[Info(id: 0x97, name: 'END OF GUARDED AREA', category: Cat::Control, controlNames: ['END OF PROTECTED AREA'], abbreviations: ['EPA'])]
     case END_OF_GUARDED_AREA = "\u{97}";
 
-    #[Info(id: 0x98, name: 'START OF STRING', category: Cat::Control)]
+    #[Info(id: 0x98, name: 'START OF STRING', category: Cat::Control, abbreviations: ['SOS'])]
     case START_OF_STRING = "\u{98}";
 
-    #[Info(id: 0x99, name: 'SINGLE GRAPHIC CHARACTER INTRODUCER', category: Cat::Control)]
+    #[Info(id: 0x99, name: 'SINGLE GRAPHIC CHARACTER INTRODUCER', category: Cat::Control, abbreviations: ['SGC'])]
     case SINGLE_GRAPHIC_CHARACTER_INTRODUCER = "\u{99}";
 
-    #[Info(id: 0x9A, name: 'SINGLE CHARACTER INTRODUCER', category: Cat::Control)]
+    #[Info(id: 0x9A, name: 'SINGLE CHARACTER INTRODUCER', category: Cat::Control, abbreviations: ['SCI'])]
     case SINGLE_CHARACTER_INTRODUCER = "\u{9A}";
 
-    #[Info(id: 0x9B, name: 'CONTROL SEQUENCE INTRODUCER', category: Cat::Control)]
+    #[Info(id: 0x9B, name: 'CONTROL SEQUENCE INTRODUCER', category: Cat::Control, abbreviations: ['CSI'])]
     case CONTROL_SEQUENCE_INTRODUCER = "\u{9B}";
 
-    #[Info(id: 0x9C, name: 'STRING TERMINATOR', category: Cat::Control)]
+    #[Info(id: 0x9C, name: 'STRING TERMINATOR', category: Cat::Control, abbreviations: ['ST'])]
     case STRING_TERMINATOR = "\u{9C}";
 
-    #[Info(id: 0x9D, name: 'OPERATING SYSTEM COMMAND', category: Cat::Control)]
+    #[Info(id: 0x9D, name: 'OPERATING SYSTEM COMMAND', category: Cat::Control, abbreviations: ['OSC'])]
     case OPERATING_SYSTEM_COMMAND = "\u{9D}";
 
-    #[Info(id: 0x9E, name: 'PRIVACY MESSAGE', category: Cat::Control)]
+    #[Info(id: 0x9E, name: 'PRIVACY MESSAGE', category: Cat::Control, abbreviations: ['PM'])]
     case PRIVACY_MESSAGE = "\u{9E}";
 
-    #[Info(id: 0x9F, name: 'APPLICATION PROGRAM COMMAND', category: Cat::Control)]
+    #[Info(id: 0x9F, name: 'APPLICATION PROGRAM COMMAND', category: Cat::Control, abbreviations: ['APC'])]
     case APPLICATION_PROGRAM_COMMAND = "\u{9F}";
 
-    #[Info(id: 0xA0, name: 'NO-BREAK SPACE', category: Cat::Space_Separator)]
+    #[Info(id: 0xA0, name: 'NO-BREAK SPACE', category: Cat::Space_Separator, unicode1Name: 'NON-BREAKING SPACE', abbreviations: ['NBSP'])]
     case NO_BREAK_SPACE = "\u{A0}";
 
     #[Info(id: 0xA1, name: 'INVERTED EXCLAMATION MARK', category: Cat::Other_Punctuation)]
@@ -121,22 +121,22 @@ enum Latin1_Supplement: string
     #[Info(id: 0xA2, name: 'CENT SIGN', category: Cat::Currency_Symbol)]
     case CENT_SIGN = "\u{A2}";
 
-    #[Info(id: 0xA3, name: 'POUND SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xA3, name: 'POUND SIGN', category: Cat::Currency_Symbol, informativeAliases: ['pound sterling, Irish punt, lira, etc.'])]
     case POUND_SIGN = "\u{A3}";
 
     #[Info(id: 0xA4, name: 'CURRENCY SIGN', category: Cat::Currency_Symbol)]
     case CURRENCY_SIGN = "\u{A4}";
 
-    #[Info(id: 0xA5, name: 'YEN SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xA5, name: 'YEN SIGN', category: Cat::Currency_Symbol, informativeAliases: ['yuan sign (renminbi)'])]
     case YEN_SIGN = "\u{A5}";
 
-    #[Info(id: 0xA6, name: 'BROKEN BAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0xA6, name: 'BROKEN BAR', category: Cat::Other_Symbol, unicode1Name: 'BROKEN VERTICAL BAR', informativeAliases: ['broken vertical bar (1.0)', 'parted rule (in typography)'])]
     case BROKEN_BAR = "\u{A6}";
 
     #[Info(id: 0xA7, name: 'SECTION SIGN', category: Cat::Other_Punctuation)]
     case SECTION_SIGN = "\u{A7}";
 
-    #[Info(id: 0xA8, name: 'DIAERESIS', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA8, name: 'DIAERESIS', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING DIAERESIS')]
     case DIAERESIS = "\u{A8}";
 
     #[Info(id: 0xA9, name: 'COPYRIGHT SIGN', category: Cat::Other_Symbol)]
@@ -145,258 +145,258 @@ enum Latin1_Supplement: string
     #[Info(id: 0xAA, name: 'FEMININE ORDINAL INDICATOR', category: Cat::Other_Letter)]
     case FEMININE_ORDINAL_INDICATOR = "\u{AA}";
 
-    #[Info(id: 0xAB, name: 'LEFT-POINTING DOUBLE ANGLE QUOTATION MARK', category: Cat::Initial_Punctuation)]
+    #[Info(id: 0xAB, name: 'LEFT-POINTING DOUBLE ANGLE QUOTATION MARK', category: Cat::Initial_Punctuation, unicode1Name: 'LEFT POINTING GUILLEMET', informativeAliases: ['left guillemet', 'chevrons (in typography)'])]
     case LEFT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK = "\u{AB}";
 
-    #[Info(id: 0xAC, name: 'NOT SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xAC, name: 'NOT SIGN', category: Cat::Math_Symbol, informativeAliases: ['angled dash (in typography)'])]
     case NOT_SIGN = "\u{AC}";
 
-    #[Info(id: 0xAD, name: 'SOFT HYPHEN', category: Cat::Format)]
+    #[Info(id: 0xAD, name: 'SOFT HYPHEN', category: Cat::Format, abbreviations: ['SHY'], informativeAliases: ['discretionary hyphen'])]
     case SOFT_HYPHEN = "\u{AD}";
 
-    #[Info(id: 0xAE, name: 'REGISTERED SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xAE, name: 'REGISTERED SIGN', category: Cat::Other_Symbol, unicode1Name: 'REGISTERED TRADE MARK SIGN', informativeAliases: ['registered trade mark sign (1.0)'])]
     case REGISTERED_SIGN = "\u{AE}";
 
-    #[Info(id: 0xAF, name: 'MACRON', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xAF, name: 'MACRON', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING MACRON', informativeAliases: ['overline, APL overbar'])]
     case MACRON = "\u{AF}";
 
     #[Info(id: 0xB0, name: 'DEGREE SIGN', category: Cat::Other_Symbol)]
     case DEGREE_SIGN = "\u{B0}";
 
-    #[Info(id: 0xB1, name: 'PLUS-MINUS SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xB1, name: 'PLUS-MINUS SIGN', category: Cat::Math_Symbol, unicode1Name: 'PLUS-OR-MINUS SIGN', informativeAliases: ['biquintile (astrological aspect: 144°)'])]
     case PLUS_MINUS_SIGN = "\u{B1}";
 
-    #[Info(id: 0xB2, name: 'SUPERSCRIPT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0xB2, name: 'SUPERSCRIPT TWO', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT TWO', informativeAliases: ['squared'])]
     case SUPERSCRIPT_TWO = "\u{B2}";
 
-    #[Info(id: 0xB3, name: 'SUPERSCRIPT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0xB3, name: 'SUPERSCRIPT THREE', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT THREE', informativeAliases: ['cubed'])]
     case SUPERSCRIPT_THREE = "\u{B3}";
 
-    #[Info(id: 0xB4, name: 'ACUTE ACCENT', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xB4, name: 'ACUTE ACCENT', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING ACUTE')]
     case ACUTE_ACCENT = "\u{B4}";
 
     #[Info(id: 0xB5, name: 'MICRO SIGN', category: Cat::Lowercase_Letter)]
     case MICRO_SIGN = "\u{B5}";
 
-    #[Info(id: 0xB6, name: 'PILCROW SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xB6, name: 'PILCROW SIGN', category: Cat::Other_Punctuation, unicode1Name: 'PARAGRAPH SIGN')]
     case PILCROW_SIGN = "\u{B6}";
 
-    #[Info(id: 0xB7, name: 'MIDDLE DOT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xB7, name: 'MIDDLE DOT', category: Cat::Other_Punctuation, informativeAliases: ['midpoint (in typography)', 'Georgian comma', 'Greek middle dot (ano teleia)'])]
     case MIDDLE_DOT = "\u{B7}";
 
-    #[Info(id: 0xB8, name: 'CEDILLA', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xB8, name: 'CEDILLA', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING CEDILLA')]
     case CEDILLA = "\u{B8}";
 
-    #[Info(id: 0xB9, name: 'SUPERSCRIPT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0xB9, name: 'SUPERSCRIPT ONE', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT ONE')]
     case SUPERSCRIPT_ONE = "\u{B9}";
 
     #[Info(id: 0xBA, name: 'MASCULINE ORDINAL INDICATOR', category: Cat::Other_Letter)]
     case MASCULINE_ORDINAL_INDICATOR = "\u{BA}";
 
-    #[Info(id: 0xBB, name: 'RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK', category: Cat::Final_Punctuation)]
+    #[Info(id: 0xBB, name: 'RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK', category: Cat::Final_Punctuation, unicode1Name: 'RIGHT POINTING GUILLEMET', informativeAliases: ['right guillemet'])]
     case RIGHT_POINTING_DOUBLE_ANGLE_QUOTATION_MARK = "\u{BB}";
 
-    #[Info(id: 0xBC, name: 'VULGAR FRACTION ONE QUARTER', category: Cat::Other_Number)]
+    #[Info(id: 0xBC, name: 'VULGAR FRACTION ONE QUARTER', category: Cat::Other_Number, unicode1Name: 'FRACTION ONE QUARTER')]
     case VULGAR_FRACTION_ONE_QUARTER = "\u{BC}";
 
-    #[Info(id: 0xBD, name: 'VULGAR FRACTION ONE HALF', category: Cat::Other_Number)]
+    #[Info(id: 0xBD, name: 'VULGAR FRACTION ONE HALF', category: Cat::Other_Number, unicode1Name: 'FRACTION ONE HALF')]
     case VULGAR_FRACTION_ONE_HALF = "\u{BD}";
 
-    #[Info(id: 0xBE, name: 'VULGAR FRACTION THREE QUARTERS', category: Cat::Other_Number)]
+    #[Info(id: 0xBE, name: 'VULGAR FRACTION THREE QUARTERS', category: Cat::Other_Number, unicode1Name: 'FRACTION THREE QUARTERS')]
     case VULGAR_FRACTION_THREE_QUARTERS = "\u{BE}";
 
-    #[Info(id: 0xBF, name: 'INVERTED QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xBF, name: 'INVERTED QUESTION MARK', category: Cat::Other_Punctuation, informativeAliases: ['turned question mark'])]
     case INVERTED_QUESTION_MARK = "\u{BF}";
 
-    #[Info(id: 0xC0, name: 'LATIN CAPITAL LETTER A WITH GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xC0, name: 'LATIN CAPITAL LETTER A WITH GRAVE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER A GRAVE')]
     case LATIN_CAPITAL_LETTER_A_WITH_GRAVE = "\u{C0}";
 
-    #[Info(id: 0xC1, name: 'LATIN CAPITAL LETTER A WITH ACUTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xC1, name: 'LATIN CAPITAL LETTER A WITH ACUTE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER A ACUTE')]
     case LATIN_CAPITAL_LETTER_A_WITH_ACUTE = "\u{C1}";
 
-    #[Info(id: 0xC2, name: 'LATIN CAPITAL LETTER A WITH CIRCUMFLEX', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xC2, name: 'LATIN CAPITAL LETTER A WITH CIRCUMFLEX', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER A CIRCUMFLEX')]
     case LATIN_CAPITAL_LETTER_A_WITH_CIRCUMFLEX = "\u{C2}";
 
-    #[Info(id: 0xC3, name: 'LATIN CAPITAL LETTER A WITH TILDE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xC3, name: 'LATIN CAPITAL LETTER A WITH TILDE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER A TILDE')]
     case LATIN_CAPITAL_LETTER_A_WITH_TILDE = "\u{C3}";
 
-    #[Info(id: 0xC4, name: 'LATIN CAPITAL LETTER A WITH DIAERESIS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xC4, name: 'LATIN CAPITAL LETTER A WITH DIAERESIS', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER A DIAERESIS')]
     case LATIN_CAPITAL_LETTER_A_WITH_DIAERESIS = "\u{C4}";
 
-    #[Info(id: 0xC5, name: 'LATIN CAPITAL LETTER A WITH RING ABOVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xC5, name: 'LATIN CAPITAL LETTER A WITH RING ABOVE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER A RING')]
     case LATIN_CAPITAL_LETTER_A_WITH_RING_ABOVE = "\u{C5}";
 
-    #[Info(id: 0xC6, name: 'LATIN CAPITAL LETTER AE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xC6, name: 'LATIN CAPITAL LETTER AE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER A E', informativeAliases: ['latin capital ligature ae (1.1)'])]
     case LATIN_CAPITAL_LETTER_AE = "\u{C6}";
 
-    #[Info(id: 0xC7, name: 'LATIN CAPITAL LETTER C WITH CEDILLA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xC7, name: 'LATIN CAPITAL LETTER C WITH CEDILLA', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER C CEDILLA')]
     case LATIN_CAPITAL_LETTER_C_WITH_CEDILLA = "\u{C7}";
 
-    #[Info(id: 0xC8, name: 'LATIN CAPITAL LETTER E WITH GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xC8, name: 'LATIN CAPITAL LETTER E WITH GRAVE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER E GRAVE')]
     case LATIN_CAPITAL_LETTER_E_WITH_GRAVE = "\u{C8}";
 
-    #[Info(id: 0xC9, name: 'LATIN CAPITAL LETTER E WITH ACUTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xC9, name: 'LATIN CAPITAL LETTER E WITH ACUTE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER E ACUTE')]
     case LATIN_CAPITAL_LETTER_E_WITH_ACUTE = "\u{C9}";
 
-    #[Info(id: 0xCA, name: 'LATIN CAPITAL LETTER E WITH CIRCUMFLEX', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xCA, name: 'LATIN CAPITAL LETTER E WITH CIRCUMFLEX', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER E CIRCUMFLEX')]
     case LATIN_CAPITAL_LETTER_E_WITH_CIRCUMFLEX = "\u{CA}";
 
-    #[Info(id: 0xCB, name: 'LATIN CAPITAL LETTER E WITH DIAERESIS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xCB, name: 'LATIN CAPITAL LETTER E WITH DIAERESIS', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER E DIAERESIS')]
     case LATIN_CAPITAL_LETTER_E_WITH_DIAERESIS = "\u{CB}";
 
-    #[Info(id: 0xCC, name: 'LATIN CAPITAL LETTER I WITH GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xCC, name: 'LATIN CAPITAL LETTER I WITH GRAVE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER I GRAVE')]
     case LATIN_CAPITAL_LETTER_I_WITH_GRAVE = "\u{CC}";
 
-    #[Info(id: 0xCD, name: 'LATIN CAPITAL LETTER I WITH ACUTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xCD, name: 'LATIN CAPITAL LETTER I WITH ACUTE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER I ACUTE')]
     case LATIN_CAPITAL_LETTER_I_WITH_ACUTE = "\u{CD}";
 
-    #[Info(id: 0xCE, name: 'LATIN CAPITAL LETTER I WITH CIRCUMFLEX', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xCE, name: 'LATIN CAPITAL LETTER I WITH CIRCUMFLEX', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER I CIRCUMFLEX')]
     case LATIN_CAPITAL_LETTER_I_WITH_CIRCUMFLEX = "\u{CE}";
 
-    #[Info(id: 0xCF, name: 'LATIN CAPITAL LETTER I WITH DIAERESIS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xCF, name: 'LATIN CAPITAL LETTER I WITH DIAERESIS', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER I DIAERESIS')]
     case LATIN_CAPITAL_LETTER_I_WITH_DIAERESIS = "\u{CF}";
 
     #[Info(id: 0xD0, name: 'LATIN CAPITAL LETTER ETH', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_ETH = "\u{D0}";
 
-    #[Info(id: 0xD1, name: 'LATIN CAPITAL LETTER N WITH TILDE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xD1, name: 'LATIN CAPITAL LETTER N WITH TILDE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER N TILDE')]
     case LATIN_CAPITAL_LETTER_N_WITH_TILDE = "\u{D1}";
 
-    #[Info(id: 0xD2, name: 'LATIN CAPITAL LETTER O WITH GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xD2, name: 'LATIN CAPITAL LETTER O WITH GRAVE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER O GRAVE')]
     case LATIN_CAPITAL_LETTER_O_WITH_GRAVE = "\u{D2}";
 
-    #[Info(id: 0xD3, name: 'LATIN CAPITAL LETTER O WITH ACUTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xD3, name: 'LATIN CAPITAL LETTER O WITH ACUTE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER O ACUTE')]
     case LATIN_CAPITAL_LETTER_O_WITH_ACUTE = "\u{D3}";
 
-    #[Info(id: 0xD4, name: 'LATIN CAPITAL LETTER O WITH CIRCUMFLEX', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xD4, name: 'LATIN CAPITAL LETTER O WITH CIRCUMFLEX', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER O CIRCUMFLEX')]
     case LATIN_CAPITAL_LETTER_O_WITH_CIRCUMFLEX = "\u{D4}";
 
-    #[Info(id: 0xD5, name: 'LATIN CAPITAL LETTER O WITH TILDE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xD5, name: 'LATIN CAPITAL LETTER O WITH TILDE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER O TILDE')]
     case LATIN_CAPITAL_LETTER_O_WITH_TILDE = "\u{D5}";
 
-    #[Info(id: 0xD6, name: 'LATIN CAPITAL LETTER O WITH DIAERESIS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xD6, name: 'LATIN CAPITAL LETTER O WITH DIAERESIS', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER O DIAERESIS')]
     case LATIN_CAPITAL_LETTER_O_WITH_DIAERESIS = "\u{D6}";
 
-    #[Info(id: 0xD7, name: 'MULTIPLICATION SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xD7, name: 'MULTIPLICATION SIGN', category: Cat::Math_Symbol, informativeAliases: ['z notation Cartesian product'])]
     case MULTIPLICATION_SIGN = "\u{D7}";
 
-    #[Info(id: 0xD8, name: 'LATIN CAPITAL LETTER O WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xD8, name: 'LATIN CAPITAL LETTER O WITH STROKE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER O SLASH', informativeAliases: ['o slash'])]
     case LATIN_CAPITAL_LETTER_O_WITH_STROKE = "\u{D8}";
 
-    #[Info(id: 0xD9, name: 'LATIN CAPITAL LETTER U WITH GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xD9, name: 'LATIN CAPITAL LETTER U WITH GRAVE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER U GRAVE')]
     case LATIN_CAPITAL_LETTER_U_WITH_GRAVE = "\u{D9}";
 
-    #[Info(id: 0xDA, name: 'LATIN CAPITAL LETTER U WITH ACUTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xDA, name: 'LATIN CAPITAL LETTER U WITH ACUTE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER U ACUTE')]
     case LATIN_CAPITAL_LETTER_U_WITH_ACUTE = "\u{DA}";
 
-    #[Info(id: 0xDB, name: 'LATIN CAPITAL LETTER U WITH CIRCUMFLEX', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xDB, name: 'LATIN CAPITAL LETTER U WITH CIRCUMFLEX', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER U CIRCUMFLEX')]
     case LATIN_CAPITAL_LETTER_U_WITH_CIRCUMFLEX = "\u{DB}";
 
-    #[Info(id: 0xDC, name: 'LATIN CAPITAL LETTER U WITH DIAERESIS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xDC, name: 'LATIN CAPITAL LETTER U WITH DIAERESIS', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER U DIAERESIS')]
     case LATIN_CAPITAL_LETTER_U_WITH_DIAERESIS = "\u{DC}";
 
-    #[Info(id: 0xDD, name: 'LATIN CAPITAL LETTER Y WITH ACUTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xDD, name: 'LATIN CAPITAL LETTER Y WITH ACUTE', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER Y ACUTE')]
     case LATIN_CAPITAL_LETTER_Y_WITH_ACUTE = "\u{DD}";
 
     #[Info(id: 0xDE, name: 'LATIN CAPITAL LETTER THORN', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_THORN = "\u{DE}";
 
-    #[Info(id: 0xDF, name: 'LATIN SMALL LETTER SHARP S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xDF, name: 'LATIN SMALL LETTER SHARP S', category: Cat::Lowercase_Letter, informativeAliases: ['Eszett'])]
     case LATIN_SMALL_LETTER_SHARP_S = "\u{DF}";
 
-    #[Info(id: 0xE0, name: 'LATIN SMALL LETTER A WITH GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xE0, name: 'LATIN SMALL LETTER A WITH GRAVE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER A GRAVE')]
     case LATIN_SMALL_LETTER_A_WITH_GRAVE = "\u{E0}";
 
-    #[Info(id: 0xE1, name: 'LATIN SMALL LETTER A WITH ACUTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xE1, name: 'LATIN SMALL LETTER A WITH ACUTE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER A ACUTE')]
     case LATIN_SMALL_LETTER_A_WITH_ACUTE = "\u{E1}";
 
-    #[Info(id: 0xE2, name: 'LATIN SMALL LETTER A WITH CIRCUMFLEX', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xE2, name: 'LATIN SMALL LETTER A WITH CIRCUMFLEX', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER A CIRCUMFLEX')]
     case LATIN_SMALL_LETTER_A_WITH_CIRCUMFLEX = "\u{E2}";
 
-    #[Info(id: 0xE3, name: 'LATIN SMALL LETTER A WITH TILDE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xE3, name: 'LATIN SMALL LETTER A WITH TILDE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER A TILDE')]
     case LATIN_SMALL_LETTER_A_WITH_TILDE = "\u{E3}";
 
-    #[Info(id: 0xE4, name: 'LATIN SMALL LETTER A WITH DIAERESIS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xE4, name: 'LATIN SMALL LETTER A WITH DIAERESIS', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER A DIAERESIS')]
     case LATIN_SMALL_LETTER_A_WITH_DIAERESIS = "\u{E4}";
 
-    #[Info(id: 0xE5, name: 'LATIN SMALL LETTER A WITH RING ABOVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xE5, name: 'LATIN SMALL LETTER A WITH RING ABOVE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER A RING')]
     case LATIN_SMALL_LETTER_A_WITH_RING_ABOVE = "\u{E5}";
 
-    #[Info(id: 0xE6, name: 'LATIN SMALL LETTER AE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xE6, name: 'LATIN SMALL LETTER AE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER A E', informativeAliases: ['latin small ligature ae (1.1)', 'ash (from Old English æsc)'])]
     case LATIN_SMALL_LETTER_AE = "\u{E6}";
 
-    #[Info(id: 0xE7, name: 'LATIN SMALL LETTER C WITH CEDILLA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xE7, name: 'LATIN SMALL LETTER C WITH CEDILLA', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER C CEDILLA')]
     case LATIN_SMALL_LETTER_C_WITH_CEDILLA = "\u{E7}";
 
-    #[Info(id: 0xE8, name: 'LATIN SMALL LETTER E WITH GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xE8, name: 'LATIN SMALL LETTER E WITH GRAVE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER E GRAVE')]
     case LATIN_SMALL_LETTER_E_WITH_GRAVE = "\u{E8}";
 
-    #[Info(id: 0xE9, name: 'LATIN SMALL LETTER E WITH ACUTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xE9, name: 'LATIN SMALL LETTER E WITH ACUTE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER E ACUTE')]
     case LATIN_SMALL_LETTER_E_WITH_ACUTE = "\u{E9}";
 
-    #[Info(id: 0xEA, name: 'LATIN SMALL LETTER E WITH CIRCUMFLEX', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xEA, name: 'LATIN SMALL LETTER E WITH CIRCUMFLEX', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER E CIRCUMFLEX')]
     case LATIN_SMALL_LETTER_E_WITH_CIRCUMFLEX = "\u{EA}";
 
-    #[Info(id: 0xEB, name: 'LATIN SMALL LETTER E WITH DIAERESIS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xEB, name: 'LATIN SMALL LETTER E WITH DIAERESIS', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER E DIAERESIS')]
     case LATIN_SMALL_LETTER_E_WITH_DIAERESIS = "\u{EB}";
 
-    #[Info(id: 0xEC, name: 'LATIN SMALL LETTER I WITH GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xEC, name: 'LATIN SMALL LETTER I WITH GRAVE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER I GRAVE')]
     case LATIN_SMALL_LETTER_I_WITH_GRAVE = "\u{EC}";
 
-    #[Info(id: 0xED, name: 'LATIN SMALL LETTER I WITH ACUTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xED, name: 'LATIN SMALL LETTER I WITH ACUTE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER I ACUTE')]
     case LATIN_SMALL_LETTER_I_WITH_ACUTE = "\u{ED}";
 
-    #[Info(id: 0xEE, name: 'LATIN SMALL LETTER I WITH CIRCUMFLEX', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xEE, name: 'LATIN SMALL LETTER I WITH CIRCUMFLEX', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER I CIRCUMFLEX')]
     case LATIN_SMALL_LETTER_I_WITH_CIRCUMFLEX = "\u{EE}";
 
-    #[Info(id: 0xEF, name: 'LATIN SMALL LETTER I WITH DIAERESIS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xEF, name: 'LATIN SMALL LETTER I WITH DIAERESIS', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER I DIAERESIS')]
     case LATIN_SMALL_LETTER_I_WITH_DIAERESIS = "\u{EF}";
 
     #[Info(id: 0xF0, name: 'LATIN SMALL LETTER ETH', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_ETH = "\u{F0}";
 
-    #[Info(id: 0xF1, name: 'LATIN SMALL LETTER N WITH TILDE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xF1, name: 'LATIN SMALL LETTER N WITH TILDE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER N TILDE')]
     case LATIN_SMALL_LETTER_N_WITH_TILDE = "\u{F1}";
 
-    #[Info(id: 0xF2, name: 'LATIN SMALL LETTER O WITH GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xF2, name: 'LATIN SMALL LETTER O WITH GRAVE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER O GRAVE')]
     case LATIN_SMALL_LETTER_O_WITH_GRAVE = "\u{F2}";
 
-    #[Info(id: 0xF3, name: 'LATIN SMALL LETTER O WITH ACUTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xF3, name: 'LATIN SMALL LETTER O WITH ACUTE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER O ACUTE')]
     case LATIN_SMALL_LETTER_O_WITH_ACUTE = "\u{F3}";
 
-    #[Info(id: 0xF4, name: 'LATIN SMALL LETTER O WITH CIRCUMFLEX', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xF4, name: 'LATIN SMALL LETTER O WITH CIRCUMFLEX', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER O CIRCUMFLEX')]
     case LATIN_SMALL_LETTER_O_WITH_CIRCUMFLEX = "\u{F4}";
 
-    #[Info(id: 0xF5, name: 'LATIN SMALL LETTER O WITH TILDE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xF5, name: 'LATIN SMALL LETTER O WITH TILDE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER O TILDE')]
     case LATIN_SMALL_LETTER_O_WITH_TILDE = "\u{F5}";
 
-    #[Info(id: 0xF6, name: 'LATIN SMALL LETTER O WITH DIAERESIS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xF6, name: 'LATIN SMALL LETTER O WITH DIAERESIS', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER O DIAERESIS')]
     case LATIN_SMALL_LETTER_O_WITH_DIAERESIS = "\u{F6}";
 
-    #[Info(id: 0xF7, name: 'DIVISION SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xF7, name: 'DIVISION SIGN', category: Cat::Math_Symbol, informativeAliases: ['obelus'])]
     case DIVISION_SIGN = "\u{F7}";
 
-    #[Info(id: 0xF8, name: 'LATIN SMALL LETTER O WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xF8, name: 'LATIN SMALL LETTER O WITH STROKE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER O SLASH', informativeAliases: ['o slash'])]
     case LATIN_SMALL_LETTER_O_WITH_STROKE = "\u{F8}";
 
-    #[Info(id: 0xF9, name: 'LATIN SMALL LETTER U WITH GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xF9, name: 'LATIN SMALL LETTER U WITH GRAVE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER U GRAVE')]
     case LATIN_SMALL_LETTER_U_WITH_GRAVE = "\u{F9}";
 
-    #[Info(id: 0xFA, name: 'LATIN SMALL LETTER U WITH ACUTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFA, name: 'LATIN SMALL LETTER U WITH ACUTE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER U ACUTE')]
     case LATIN_SMALL_LETTER_U_WITH_ACUTE = "\u{FA}";
 
-    #[Info(id: 0xFB, name: 'LATIN SMALL LETTER U WITH CIRCUMFLEX', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFB, name: 'LATIN SMALL LETTER U WITH CIRCUMFLEX', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER U CIRCUMFLEX')]
     case LATIN_SMALL_LETTER_U_WITH_CIRCUMFLEX = "\u{FB}";
 
-    #[Info(id: 0xFC, name: 'LATIN SMALL LETTER U WITH DIAERESIS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFC, name: 'LATIN SMALL LETTER U WITH DIAERESIS', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER U DIAERESIS')]
     case LATIN_SMALL_LETTER_U_WITH_DIAERESIS = "\u{FC}";
 
-    #[Info(id: 0xFD, name: 'LATIN SMALL LETTER Y WITH ACUTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFD, name: 'LATIN SMALL LETTER Y WITH ACUTE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER Y ACUTE')]
     case LATIN_SMALL_LETTER_Y_WITH_ACUTE = "\u{FD}";
 
     #[Info(id: 0xFE, name: 'LATIN SMALL LETTER THORN', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_THORN = "\u{FE}";
 
-    #[Info(id: 0xFF, name: 'LATIN SMALL LETTER Y WITH DIAERESIS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xFF, name: 'LATIN SMALL LETTER Y WITH DIAERESIS', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER Y DIAERESIS')]
     case LATIN_SMALL_LETTER_Y_WITH_DIAERESIS = "\u{FF}";
 }

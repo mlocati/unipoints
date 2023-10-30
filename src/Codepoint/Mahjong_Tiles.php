@@ -28,16 +28,16 @@ enum Mahjong_Tiles: string
     #[Info(id: 0x1F003, name: 'MAHJONG TILE NORTH WIND', category: Cat::Other_Symbol)]
     case MAHJONG_TILE_NORTH_WIND = "\u{1F003}";
 
-    #[Info(id: 0x1F004, name: 'MAHJONG TILE RED DRAGON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F004, name: 'MAHJONG TILE RED DRAGON', category: Cat::Other_Symbol, informativeAliases: ['hongzhong'])]
     case MAHJONG_TILE_RED_DRAGON = "\u{1F004}";
 
-    #[Info(id: 0x1F005, name: 'MAHJONG TILE GREEN DRAGON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F005, name: 'MAHJONG TILE GREEN DRAGON', category: Cat::Other_Symbol, informativeAliases: ['qingfa'])]
     case MAHJONG_TILE_GREEN_DRAGON = "\u{1F005}";
 
-    #[Info(id: 0x1F006, name: 'MAHJONG TILE WHITE DRAGON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F006, name: 'MAHJONG TILE WHITE DRAGON', category: Cat::Other_Symbol, informativeAliases: ['baiban'])]
     case MAHJONG_TILE_WHITE_DRAGON = "\u{1F006}";
 
-    #[Info(id: 0x1F007, name: 'MAHJONG TILE ONE OF CHARACTERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F007, name: 'MAHJONG TILE ONE OF CHARACTERS', category: Cat::Other_Symbol, informativeAliases: ['wan'])]
     case MAHJONG_TILE_ONE_OF_CHARACTERS = "\u{1F007}";
 
     #[Info(id: 0x1F008, name: 'MAHJONG TILE TWO OF CHARACTERS', category: Cat::Other_Symbol)]
@@ -64,7 +64,7 @@ enum Mahjong_Tiles: string
     #[Info(id: 0x1F00F, name: 'MAHJONG TILE NINE OF CHARACTERS', category: Cat::Other_Symbol)]
     case MAHJONG_TILE_NINE_OF_CHARACTERS = "\u{1F00F}";
 
-    #[Info(id: 0x1F010, name: 'MAHJONG TILE ONE OF BAMBOOS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F010, name: 'MAHJONG TILE ONE OF BAMBOOS', category: Cat::Other_Symbol, informativeAliases: ['tiao'])]
     case MAHJONG_TILE_ONE_OF_BAMBOOS = "\u{1F010}";
 
     #[Info(id: 0x1F011, name: 'MAHJONG TILE TWO OF BAMBOOS', category: Cat::Other_Symbol)]
@@ -91,7 +91,7 @@ enum Mahjong_Tiles: string
     #[Info(id: 0x1F018, name: 'MAHJONG TILE NINE OF BAMBOOS', category: Cat::Other_Symbol)]
     case MAHJONG_TILE_NINE_OF_BAMBOOS = "\u{1F018}";
 
-    #[Info(id: 0x1F019, name: 'MAHJONG TILE ONE OF CIRCLES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F019, name: 'MAHJONG TILE ONE OF CIRCLES', category: Cat::Other_Symbol, informativeAliases: ['bing'])]
     case MAHJONG_TILE_ONE_OF_CIRCLES = "\u{1F019}";
 
     #[Info(id: 0x1F01A, name: 'MAHJONG TILE TWO OF CIRCLES', category: Cat::Other_Symbol)]
@@ -118,16 +118,16 @@ enum Mahjong_Tiles: string
     #[Info(id: 0x1F021, name: 'MAHJONG TILE NINE OF CIRCLES', category: Cat::Other_Symbol)]
     case MAHJONG_TILE_NINE_OF_CIRCLES = "\u{1F021}";
 
-    #[Info(id: 0x1F022, name: 'MAHJONG TILE PLUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F022, name: 'MAHJONG TILE PLUM', category: Cat::Other_Symbol, informativeAliases: ['mei'])]
     case MAHJONG_TILE_PLUM = "\u{1F022}";
 
-    #[Info(id: 0x1F023, name: 'MAHJONG TILE ORCHID', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F023, name: 'MAHJONG TILE ORCHID', category: Cat::Other_Symbol, informativeAliases: ['lan'])]
     case MAHJONG_TILE_ORCHID = "\u{1F023}";
 
-    #[Info(id: 0x1F024, name: 'MAHJONG TILE BAMBOO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F024, name: 'MAHJONG TILE BAMBOO', category: Cat::Other_Symbol, informativeAliases: ['zhu'])]
     case MAHJONG_TILE_BAMBOO = "\u{1F024}";
 
-    #[Info(id: 0x1F025, name: 'MAHJONG TILE CHRYSANTHEMUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F025, name: 'MAHJONG TILE CHRYSANTHEMUM', category: Cat::Other_Symbol, informativeAliases: ['ju'])]
     case MAHJONG_TILE_CHRYSANTHEMUM = "\u{1F025}";
 
     #[Info(id: 0x1F026, name: 'MAHJONG TILE SPRING', category: Cat::Other_Symbol)]
@@ -142,7 +142,7 @@ enum Mahjong_Tiles: string
     #[Info(id: 0x1F029, name: 'MAHJONG TILE WINTER', category: Cat::Other_Symbol)]
     case MAHJONG_TILE_WINTER = "\u{1F029}";
 
-    #[Info(id: 0x1F02A, name: 'MAHJONG TILE JOKER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F02A, name: 'MAHJONG TILE JOKER', category: Cat::Other_Symbol, informativeAliases: ['baida'])]
     case MAHJONG_TILE_JOKER = "\u{1F02A}";
 
     #[Info(id: 0x1F02B, name: 'MAHJONG TILE BACK', category: Cat::Other_Symbol)]

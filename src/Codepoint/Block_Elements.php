@@ -34,19 +34,19 @@ enum Block_Elements: string
     #[Info(id: 0x2585, name: 'LOWER FIVE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case LOWER_FIVE_EIGHTHS_BLOCK = "\u{2585}";
 
-    #[Info(id: 0x2586, name: 'LOWER THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2586, name: 'LOWER THREE QUARTERS BLOCK', category: Cat::Other_Symbol, unicode1Name: 'LOWER THREE QUARTER BLOCK')]
     case LOWER_THREE_QUARTERS_BLOCK = "\u{2586}";
 
     #[Info(id: 0x2587, name: 'LOWER SEVEN EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case LOWER_SEVEN_EIGHTHS_BLOCK = "\u{2587}";
 
-    #[Info(id: 0x2588, name: 'FULL BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2588, name: 'FULL BLOCK', category: Cat::Other_Symbol, informativeAliases: ['solid'])]
     case FULL_BLOCK = "\u{2588}";
 
     #[Info(id: 0x2589, name: 'LEFT SEVEN EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case LEFT_SEVEN_EIGHTHS_BLOCK = "\u{2589}";
 
-    #[Info(id: 0x258A, name: 'LEFT THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x258A, name: 'LEFT THREE QUARTERS BLOCK', category: Cat::Other_Symbol, unicode1Name: 'LEFT THREE QUARTER BLOCK')]
     case LEFT_THREE_QUARTERS_BLOCK = "\u{258A}";
 
     #[Info(id: 0x258B, name: 'LEFT FIVE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
@@ -70,7 +70,7 @@ enum Block_Elements: string
     #[Info(id: 0x2591, name: 'LIGHT SHADE', category: Cat::Other_Symbol)]
     case LIGHT_SHADE = "\u{2591}";
 
-    #[Info(id: 0x2592, name: 'MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2592, name: 'MEDIUM SHADE', category: Cat::Other_Symbol, informativeAliases: ['speckles fill, dotted fill'])]
     case MEDIUM_SHADE = "\u{2592}";
 
     #[Info(id: 0x2593, name: 'DARK SHADE', category: Cat::Other_Symbol)]

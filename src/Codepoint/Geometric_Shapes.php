@@ -16,10 +16,10 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Geometric_Shapes: string
 {
-    #[Info(id: 0x25A0, name: 'BLACK SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25A0, name: 'BLACK SQUARE', category: Cat::Other_Symbol, informativeAliases: ['moding mark (in ideographic text)'])]
     case BLACK_SQUARE = "\u{25A0}";
 
-    #[Info(id: 0x25A1, name: 'WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25A1, name: 'WHITE SQUARE', category: Cat::Other_Symbol, informativeAliases: ['quadrature', 'alchemical symbol for salt'])]
     case WHITE_SQUARE = "\u{25A1}";
 
     #[Info(id: 0x25A2, name: 'WHITE SQUARE WITH ROUNDED CORNERS', category: Cat::Other_Symbol)]
@@ -46,7 +46,7 @@ enum Geometric_Shapes: string
     #[Info(id: 0x25A9, name: 'SQUARE WITH DIAGONAL CROSSHATCH FILL', category: Cat::Other_Symbol)]
     case SQUARE_WITH_DIAGONAL_CROSSHATCH_FILL = "\u{25A9}";
 
-    #[Info(id: 0x25AA, name: 'BLACK SMALL SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25AA, name: 'BLACK SMALL SQUARE', category: Cat::Other_Symbol, informativeAliases: ['square bullet'])]
     case BLACK_SMALL_SQUARE = "\u{25AA}";
 
     #[Info(id: 0x25AB, name: 'WHITE SMALL SQUARE', category: Cat::Other_Symbol)]
@@ -58,7 +58,7 @@ enum Geometric_Shapes: string
     #[Info(id: 0x25AD, name: 'WHITE RECTANGLE', category: Cat::Other_Symbol)]
     case WHITE_RECTANGLE = "\u{25AD}";
 
-    #[Info(id: 0x25AE, name: 'BLACK VERTICAL RECTANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25AE, name: 'BLACK VERTICAL RECTANGLE', category: Cat::Other_Symbol, informativeAliases: ['histogram marker'])]
     case BLACK_VERTICAL_RECTANGLE = "\u{25AE}";
 
     #[Info(id: 0x25AF, name: 'WHITE VERTICAL RECTANGLE', category: Cat::Other_Symbol)]
@@ -70,64 +70,64 @@ enum Geometric_Shapes: string
     #[Info(id: 0x25B1, name: 'WHITE PARALLELOGRAM', category: Cat::Other_Symbol)]
     case WHITE_PARALLELOGRAM = "\u{25B1}";
 
-    #[Info(id: 0x25B2, name: 'BLACK UP-POINTING TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25B2, name: 'BLACK UP-POINTING TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'BLACK UP POINTING TRIANGLE')]
     case BLACK_UP_POINTING_TRIANGLE = "\u{25B2}";
 
-    #[Info(id: 0x25B3, name: 'WHITE UP-POINTING TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25B3, name: 'WHITE UP-POINTING TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'WHITE UP POINTING TRIANGLE', informativeAliases: ['trine'])]
     case WHITE_UP_POINTING_TRIANGLE = "\u{25B3}";
 
-    #[Info(id: 0x25B4, name: 'BLACK UP-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25B4, name: 'BLACK UP-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'BLACK UP POINTING SMALL TRIANGLE')]
     case BLACK_UP_POINTING_SMALL_TRIANGLE = "\u{25B4}";
 
-    #[Info(id: 0x25B5, name: 'WHITE UP-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25B5, name: 'WHITE UP-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'WHITE UP POINTING SMALL TRIANGLE')]
     case WHITE_UP_POINTING_SMALL_TRIANGLE = "\u{25B5}";
 
-    #[Info(id: 0x25B6, name: 'BLACK RIGHT-POINTING TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25B6, name: 'BLACK RIGHT-POINTING TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'BLACK RIGHT POINTING TRIANGLE')]
     case BLACK_RIGHT_POINTING_TRIANGLE = "\u{25B6}";
 
-    #[Info(id: 0x25B7, name: 'WHITE RIGHT-POINTING TRIANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x25B7, name: 'WHITE RIGHT-POINTING TRIANGLE', category: Cat::Math_Symbol, unicode1Name: 'WHITE RIGHT POINTING TRIANGLE', informativeAliases: ['z notation range restriction'])]
     case WHITE_RIGHT_POINTING_TRIANGLE = "\u{25B7}";
 
-    #[Info(id: 0x25B8, name: 'BLACK RIGHT-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25B8, name: 'BLACK RIGHT-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'BLACK RIGHT POINTING SMALL TRIANGLE')]
     case BLACK_RIGHT_POINTING_SMALL_TRIANGLE = "\u{25B8}";
 
-    #[Info(id: 0x25B9, name: 'WHITE RIGHT-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25B9, name: 'WHITE RIGHT-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'WHITE RIGHT POINTING SMALL TRIANGLE')]
     case WHITE_RIGHT_POINTING_SMALL_TRIANGLE = "\u{25B9}";
 
-    #[Info(id: 0x25BA, name: 'BLACK RIGHT-POINTING POINTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25BA, name: 'BLACK RIGHT-POINTING POINTER', category: Cat::Other_Symbol, unicode1Name: 'BLACK RIGHT POINTING POINTER')]
     case BLACK_RIGHT_POINTING_POINTER = "\u{25BA}";
 
-    #[Info(id: 0x25BB, name: 'WHITE RIGHT-POINTING POINTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25BB, name: 'WHITE RIGHT-POINTING POINTER', category: Cat::Other_Symbol, unicode1Name: 'WHITE RIGHT POINTING POINTER', informativeAliases: ['forward arrow indicator'])]
     case WHITE_RIGHT_POINTING_POINTER = "\u{25BB}";
 
-    #[Info(id: 0x25BC, name: 'BLACK DOWN-POINTING TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25BC, name: 'BLACK DOWN-POINTING TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'BLACK DOWN POINTING TRIANGLE')]
     case BLACK_DOWN_POINTING_TRIANGLE = "\u{25BC}";
 
-    #[Info(id: 0x25BD, name: 'WHITE DOWN-POINTING TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25BD, name: 'WHITE DOWN-POINTING TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'WHITE DOWN POINTING TRIANGLE', informativeAliases: ['Hamilton operator'])]
     case WHITE_DOWN_POINTING_TRIANGLE = "\u{25BD}";
 
-    #[Info(id: 0x25BE, name: 'BLACK DOWN-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25BE, name: 'BLACK DOWN-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'BLACK DOWN POINTING SMALL TRIANGLE')]
     case BLACK_DOWN_POINTING_SMALL_TRIANGLE = "\u{25BE}";
 
-    #[Info(id: 0x25BF, name: 'WHITE DOWN-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25BF, name: 'WHITE DOWN-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'WHITE DOWN POINTING SMALL TRIANGLE')]
     case WHITE_DOWN_POINTING_SMALL_TRIANGLE = "\u{25BF}";
 
-    #[Info(id: 0x25C0, name: 'BLACK LEFT-POINTING TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25C0, name: 'BLACK LEFT-POINTING TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'BLACK LEFT POINTING TRIANGLE')]
     case BLACK_LEFT_POINTING_TRIANGLE = "\u{25C0}";
 
-    #[Info(id: 0x25C1, name: 'WHITE LEFT-POINTING TRIANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x25C1, name: 'WHITE LEFT-POINTING TRIANGLE', category: Cat::Math_Symbol, unicode1Name: 'WHITE LEFT POINTING TRIANGLE', informativeAliases: ['z notation domain restriction'])]
     case WHITE_LEFT_POINTING_TRIANGLE = "\u{25C1}";
 
-    #[Info(id: 0x25C2, name: 'BLACK LEFT-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25C2, name: 'BLACK LEFT-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'BLACK LEFT POINTING SMALL TRIANGLE')]
     case BLACK_LEFT_POINTING_SMALL_TRIANGLE = "\u{25C2}";
 
-    #[Info(id: 0x25C3, name: 'WHITE LEFT-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25C3, name: 'WHITE LEFT-POINTING SMALL TRIANGLE', category: Cat::Other_Symbol, unicode1Name: 'WHITE LEFT POINTING SMALL TRIANGLE')]
     case WHITE_LEFT_POINTING_SMALL_TRIANGLE = "\u{25C3}";
 
-    #[Info(id: 0x25C4, name: 'BLACK LEFT-POINTING POINTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25C4, name: 'BLACK LEFT-POINTING POINTER', category: Cat::Other_Symbol, unicode1Name: 'BLACK LEFT POINTING POINTER')]
     case BLACK_LEFT_POINTING_POINTER = "\u{25C4}";
 
-    #[Info(id: 0x25C5, name: 'WHITE LEFT-POINTING POINTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25C5, name: 'WHITE LEFT-POINTING POINTER', category: Cat::Other_Symbol, unicode1Name: 'WHITE LEFT POINTING POINTER', informativeAliases: ['backward arrow indicator'])]
     case WHITE_LEFT_POINTING_POINTER = "\u{25C5}";
 
     #[Info(id: 0x25C6, name: 'BLACK DIAMOND', category: Cat::Other_Symbol)]
@@ -139,7 +139,7 @@ enum Geometric_Shapes: string
     #[Info(id: 0x25C8, name: 'WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND', category: Cat::Other_Symbol)]
     case WHITE_DIAMOND_CONTAINING_BLACK_SMALL_DIAMOND = "\u{25C8}";
 
-    #[Info(id: 0x25C9, name: 'FISHEYE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25C9, name: 'FISHEYE', category: Cat::Other_Symbol, informativeAliases: ['tainome (Japanese, a kind of bullet)'])]
     case FISHEYE = "\u{25C9}";
 
     #[Info(id: 0x25CA, name: 'LOZENGE', category: Cat::Other_Symbol)]
@@ -244,13 +244,13 @@ enum Geometric_Shapes: string
     #[Info(id: 0x25EB, name: 'WHITE SQUARE WITH VERTICAL BISECTING LINE', category: Cat::Other_Symbol)]
     case WHITE_SQUARE_WITH_VERTICAL_BISECTING_LINE = "\u{25EB}";
 
-    #[Info(id: 0x25EC, name: 'WHITE UP-POINTING TRIANGLE WITH DOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25EC, name: 'WHITE UP-POINTING TRIANGLE WITH DOT', category: Cat::Other_Symbol, unicode1Name: 'WHITE UP POINTING TRIANGLE WITH DOT')]
     case WHITE_UP_POINTING_TRIANGLE_WITH_DOT = "\u{25EC}";
 
-    #[Info(id: 0x25ED, name: 'UP-POINTING TRIANGLE WITH LEFT HALF BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25ED, name: 'UP-POINTING TRIANGLE WITH LEFT HALF BLACK', category: Cat::Other_Symbol, unicode1Name: 'UP POINTING TRIANGLE WITH LEFT HALF BLACK')]
     case UP_POINTING_TRIANGLE_WITH_LEFT_HALF_BLACK = "\u{25ED}";
 
-    #[Info(id: 0x25EE, name: 'UP-POINTING TRIANGLE WITH RIGHT HALF BLACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x25EE, name: 'UP-POINTING TRIANGLE WITH RIGHT HALF BLACK', category: Cat::Other_Symbol, unicode1Name: 'UP POINTING TRIANGLE WITH RIGHT HALF BLACK')]
     case UP_POINTING_TRIANGLE_WITH_RIGHT_HALF_BLACK = "\u{25EE}";
 
     #[Info(id: 0x25EF, name: 'LARGE CIRCLE', category: Cat::Other_Symbol)]
@@ -289,7 +289,7 @@ enum Geometric_Shapes: string
     #[Info(id: 0x25FA, name: 'LOWER LEFT TRIANGLE', category: Cat::Math_Symbol)]
     case LOWER_LEFT_TRIANGLE = "\u{25FA}";
 
-    #[Info(id: 0x25FB, name: 'WHITE MEDIUM SQUARE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x25FB, name: 'WHITE MEDIUM SQUARE', category: Cat::Math_Symbol, informativeAliases: ['always (modal operator)'])]
     case WHITE_MEDIUM_SQUARE = "\u{25FB}";
 
     #[Info(id: 0x25FC, name: 'BLACK MEDIUM SQUARE', category: Cat::Math_Symbol)]

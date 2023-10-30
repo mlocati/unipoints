@@ -16,202 +16,202 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Combining_Diacritical_Marks: string
 {
-    #[Info(id: 0x300, name: 'COMBINING GRAVE ACCENT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x300, name: 'COMBINING GRAVE ACCENT', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING GRAVE', informativeAliases: ['Greek varia'])]
     case COMBINING_GRAVE_ACCENT = "\u{300}";
 
-    #[Info(id: 0x301, name: 'COMBINING ACUTE ACCENT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x301, name: 'COMBINING ACUTE ACCENT', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING ACUTE', informativeAliases: ['stress mark', 'Greek oxia, tonos'])]
     case COMBINING_ACUTE_ACCENT = "\u{301}";
 
-    #[Info(id: 0x302, name: 'COMBINING CIRCUMFLEX ACCENT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x302, name: 'COMBINING CIRCUMFLEX ACCENT', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING CIRCUMFLEX', informativeAliases: ['hat'])]
     case COMBINING_CIRCUMFLEX_ACCENT = "\u{302}";
 
-    #[Info(id: 0x303, name: 'COMBINING TILDE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x303, name: 'COMBINING TILDE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING TILDE')]
     case COMBINING_TILDE = "\u{303}";
 
-    #[Info(id: 0x304, name: 'COMBINING MACRON', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x304, name: 'COMBINING MACRON', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING MACRON', informativeAliases: ['long'])]
     case COMBINING_MACRON = "\u{304}";
 
-    #[Info(id: 0x305, name: 'COMBINING OVERLINE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x305, name: 'COMBINING OVERLINE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING OVERSCORE', informativeAliases: ['overscore, vinculum'])]
     case COMBINING_OVERLINE = "\u{305}";
 
-    #[Info(id: 0x306, name: 'COMBINING BREVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x306, name: 'COMBINING BREVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING BREVE', informativeAliases: ['short', 'Greek vrachy'])]
     case COMBINING_BREVE = "\u{306}";
 
-    #[Info(id: 0x307, name: 'COMBINING DOT ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x307, name: 'COMBINING DOT ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING DOT ABOVE', informativeAliases: ['derivative (Newtonian notation)'])]
     case COMBINING_DOT_ABOVE = "\u{307}";
 
-    #[Info(id: 0x308, name: 'COMBINING DIAERESIS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x308, name: 'COMBINING DIAERESIS', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING DIAERESIS', informativeAliases: ['double dot above, umlaut', 'Greek dialytika', 'double derivative'])]
     case COMBINING_DIAERESIS = "\u{308}";
 
-    #[Info(id: 0x309, name: 'COMBINING HOOK ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x309, name: 'COMBINING HOOK ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING HOOK ABOVE', informativeAliases: ['hoi'])]
     case COMBINING_HOOK_ABOVE = "\u{309}";
 
-    #[Info(id: 0x30A, name: 'COMBINING RING ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x30A, name: 'COMBINING RING ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING RING ABOVE')]
     case COMBINING_RING_ABOVE = "\u{30A}";
 
-    #[Info(id: 0x30B, name: 'COMBINING DOUBLE ACUTE ACCENT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x30B, name: 'COMBINING DOUBLE ACUTE ACCENT', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING DOUBLE ACUTE')]
     case COMBINING_DOUBLE_ACUTE_ACCENT = "\u{30B}";
 
-    #[Info(id: 0x30C, name: 'COMBINING CARON', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x30C, name: 'COMBINING CARON', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING HACEK', informativeAliases: ['hacek, V above'])]
     case COMBINING_CARON = "\u{30C}";
 
-    #[Info(id: 0x30D, name: 'COMBINING VERTICAL LINE ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x30D, name: 'COMBINING VERTICAL LINE ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING VERTICAL LINE ABOVE')]
     case COMBINING_VERTICAL_LINE_ABOVE = "\u{30D}";
 
-    #[Info(id: 0x30E, name: 'COMBINING DOUBLE VERTICAL LINE ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x30E, name: 'COMBINING DOUBLE VERTICAL LINE ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING DOUBLE VERTICAL LINE ABOVE')]
     case COMBINING_DOUBLE_VERTICAL_LINE_ABOVE = "\u{30E}";
 
-    #[Info(id: 0x30F, name: 'COMBINING DOUBLE GRAVE ACCENT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x30F, name: 'COMBINING DOUBLE GRAVE ACCENT', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING DOUBLE GRAVE')]
     case COMBINING_DOUBLE_GRAVE_ACCENT = "\u{30F}";
 
-    #[Info(id: 0x310, name: 'COMBINING CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x310, name: 'COMBINING CANDRABINDU', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING CANDRABINDU')]
     case COMBINING_CANDRABINDU = "\u{310}";
 
-    #[Info(id: 0x311, name: 'COMBINING INVERTED BREVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x311, name: 'COMBINING INVERTED BREVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING INVERTED BREVE')]
     case COMBINING_INVERTED_BREVE = "\u{311}";
 
-    #[Info(id: 0x312, name: 'COMBINING TURNED COMMA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x312, name: 'COMBINING TURNED COMMA ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING TURNED COMMA ABOVE', informativeAliases: ['cedilla above'])]
     case COMBINING_TURNED_COMMA_ABOVE = "\u{312}";
 
-    #[Info(id: 0x313, name: 'COMBINING COMMA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x313, name: 'COMBINING COMMA ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING COMMA ABOVE', informativeAliases: ['Greek psili, smooth breathing mark'])]
     case COMBINING_COMMA_ABOVE = "\u{313}";
 
-    #[Info(id: 0x314, name: 'COMBINING REVERSED COMMA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x314, name: 'COMBINING REVERSED COMMA ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING REVERSED COMMA ABOVE', informativeAliases: ['Greek dasia, rough breathing mark'])]
     case COMBINING_REVERSED_COMMA_ABOVE = "\u{314}";
 
-    #[Info(id: 0x315, name: 'COMBINING COMMA ABOVE RIGHT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x315, name: 'COMBINING COMMA ABOVE RIGHT', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING COMMA ABOVE RIGHT')]
     case COMBINING_COMMA_ABOVE_RIGHT = "\u{315}";
 
-    #[Info(id: 0x316, name: 'COMBINING GRAVE ACCENT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x316, name: 'COMBINING GRAVE ACCENT BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING GRAVE BELOW')]
     case COMBINING_GRAVE_ACCENT_BELOW = "\u{316}";
 
-    #[Info(id: 0x317, name: 'COMBINING ACUTE ACCENT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x317, name: 'COMBINING ACUTE ACCENT BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING ACUTE BELOW')]
     case COMBINING_ACUTE_ACCENT_BELOW = "\u{317}";
 
-    #[Info(id: 0x318, name: 'COMBINING LEFT TACK BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x318, name: 'COMBINING LEFT TACK BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING LEFT TACK BELOW')]
     case COMBINING_LEFT_TACK_BELOW = "\u{318}";
 
-    #[Info(id: 0x319, name: 'COMBINING RIGHT TACK BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x319, name: 'COMBINING RIGHT TACK BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING RIGHT TACK BELOW')]
     case COMBINING_RIGHT_TACK_BELOW = "\u{319}";
 
-    #[Info(id: 0x31A, name: 'COMBINING LEFT ANGLE ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x31A, name: 'COMBINING LEFT ANGLE ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING LEFT ANGLE ABOVE')]
     case COMBINING_LEFT_ANGLE_ABOVE = "\u{31A}";
 
-    #[Info(id: 0x31B, name: 'COMBINING HORN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x31B, name: 'COMBINING HORN', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING HORN')]
     case COMBINING_HORN = "\u{31B}";
 
-    #[Info(id: 0x31C, name: 'COMBINING LEFT HALF RING BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x31C, name: 'COMBINING LEFT HALF RING BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING LEFT HALF RING BELOW')]
     case COMBINING_LEFT_HALF_RING_BELOW = "\u{31C}";
 
-    #[Info(id: 0x31D, name: 'COMBINING UP TACK BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x31D, name: 'COMBINING UP TACK BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING UP TACK BELOW')]
     case COMBINING_UP_TACK_BELOW = "\u{31D}";
 
-    #[Info(id: 0x31E, name: 'COMBINING DOWN TACK BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x31E, name: 'COMBINING DOWN TACK BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING DOWN TACK BELOW')]
     case COMBINING_DOWN_TACK_BELOW = "\u{31E}";
 
-    #[Info(id: 0x31F, name: 'COMBINING PLUS SIGN BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x31F, name: 'COMBINING PLUS SIGN BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING PLUS SIGN BELOW')]
     case COMBINING_PLUS_SIGN_BELOW = "\u{31F}";
 
-    #[Info(id: 0x320, name: 'COMBINING MINUS SIGN BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x320, name: 'COMBINING MINUS SIGN BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING MINUS SIGN BELOW')]
     case COMBINING_MINUS_SIGN_BELOW = "\u{320}";
 
-    #[Info(id: 0x321, name: 'COMBINING PALATALIZED HOOK BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x321, name: 'COMBINING PALATALIZED HOOK BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING PALATALIZED HOOK BELOW')]
     case COMBINING_PALATALIZED_HOOK_BELOW = "\u{321}";
 
-    #[Info(id: 0x322, name: 'COMBINING RETROFLEX HOOK BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x322, name: 'COMBINING RETROFLEX HOOK BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING RETROFLEX HOOK BELOW')]
     case COMBINING_RETROFLEX_HOOK_BELOW = "\u{322}";
 
-    #[Info(id: 0x323, name: 'COMBINING DOT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x323, name: 'COMBINING DOT BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING DOT BELOW', informativeAliases: ['nang'])]
     case COMBINING_DOT_BELOW = "\u{323}";
 
-    #[Info(id: 0x324, name: 'COMBINING DIAERESIS BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x324, name: 'COMBINING DIAERESIS BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING DOUBLE DOT BELOW')]
     case COMBINING_DIAERESIS_BELOW = "\u{324}";
 
-    #[Info(id: 0x325, name: 'COMBINING RING BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x325, name: 'COMBINING RING BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING RING BELOW')]
     case COMBINING_RING_BELOW = "\u{325}";
 
-    #[Info(id: 0x326, name: 'COMBINING COMMA BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x326, name: 'COMBINING COMMA BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING COMMA BELOW')]
     case COMBINING_COMMA_BELOW = "\u{326}";
 
-    #[Info(id: 0x327, name: 'COMBINING CEDILLA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x327, name: 'COMBINING CEDILLA', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING CEDILLA')]
     case COMBINING_CEDILLA = "\u{327}";
 
-    #[Info(id: 0x328, name: 'COMBINING OGONEK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x328, name: 'COMBINING OGONEK', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING OGONEK', informativeAliases: ['nasal hook'])]
     case COMBINING_OGONEK = "\u{328}";
 
-    #[Info(id: 0x329, name: 'COMBINING VERTICAL LINE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x329, name: 'COMBINING VERTICAL LINE BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING VERTICAL LINE BELOW')]
     case COMBINING_VERTICAL_LINE_BELOW = "\u{329}";
 
-    #[Info(id: 0x32A, name: 'COMBINING BRIDGE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x32A, name: 'COMBINING BRIDGE BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING BRIDGE BELOW')]
     case COMBINING_BRIDGE_BELOW = "\u{32A}";
 
-    #[Info(id: 0x32B, name: 'COMBINING INVERTED DOUBLE ARCH BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x32B, name: 'COMBINING INVERTED DOUBLE ARCH BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING INVERTED DOUBLE ARCH BELOW')]
     case COMBINING_INVERTED_DOUBLE_ARCH_BELOW = "\u{32B}";
 
-    #[Info(id: 0x32C, name: 'COMBINING CARON BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x32C, name: 'COMBINING CARON BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING HACEK BELOW')]
     case COMBINING_CARON_BELOW = "\u{32C}";
 
-    #[Info(id: 0x32D, name: 'COMBINING CIRCUMFLEX ACCENT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x32D, name: 'COMBINING CIRCUMFLEX ACCENT BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING CIRCUMFLEX BELOW')]
     case COMBINING_CIRCUMFLEX_ACCENT_BELOW = "\u{32D}";
 
-    #[Info(id: 0x32E, name: 'COMBINING BREVE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x32E, name: 'COMBINING BREVE BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING BREVE BELOW')]
     case COMBINING_BREVE_BELOW = "\u{32E}";
 
-    #[Info(id: 0x32F, name: 'COMBINING INVERTED BREVE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x32F, name: 'COMBINING INVERTED BREVE BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING INVERTED BREVE BELOW')]
     case COMBINING_INVERTED_BREVE_BELOW = "\u{32F}";
 
-    #[Info(id: 0x330, name: 'COMBINING TILDE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x330, name: 'COMBINING TILDE BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING TILDE BELOW')]
     case COMBINING_TILDE_BELOW = "\u{330}";
 
-    #[Info(id: 0x331, name: 'COMBINING MACRON BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x331, name: 'COMBINING MACRON BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING MACRON BELOW')]
     case COMBINING_MACRON_BELOW = "\u{331}";
 
-    #[Info(id: 0x332, name: 'COMBINING LOW LINE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x332, name: 'COMBINING LOW LINE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING UNDERSCORE', informativeAliases: ['underline, underscore'])]
     case COMBINING_LOW_LINE = "\u{332}";
 
-    #[Info(id: 0x333, name: 'COMBINING DOUBLE LOW LINE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x333, name: 'COMBINING DOUBLE LOW LINE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING DOUBLE UNDERSCORE', informativeAliases: ['double underline, double underscore'])]
     case COMBINING_DOUBLE_LOW_LINE = "\u{333}";
 
-    #[Info(id: 0x334, name: 'COMBINING TILDE OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x334, name: 'COMBINING TILDE OVERLAY', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING TILDE OVERLAY')]
     case COMBINING_TILDE_OVERLAY = "\u{334}";
 
-    #[Info(id: 0x335, name: 'COMBINING SHORT STROKE OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x335, name: 'COMBINING SHORT STROKE OVERLAY', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING SHORT BAR OVERLAY')]
     case COMBINING_SHORT_STROKE_OVERLAY = "\u{335}";
 
-    #[Info(id: 0x336, name: 'COMBINING LONG STROKE OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x336, name: 'COMBINING LONG STROKE OVERLAY', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING LONG BAR OVERLAY', informativeAliases: ['strikethrough'])]
     case COMBINING_LONG_STROKE_OVERLAY = "\u{336}";
 
-    #[Info(id: 0x337, name: 'COMBINING SHORT SOLIDUS OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x337, name: 'COMBINING SHORT SOLIDUS OVERLAY', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING SHORT SLASH OVERLAY', informativeAliases: ['short slash overlay'])]
     case COMBINING_SHORT_SOLIDUS_OVERLAY = "\u{337}";
 
-    #[Info(id: 0x338, name: 'COMBINING LONG SOLIDUS OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x338, name: 'COMBINING LONG SOLIDUS OVERLAY', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING LONG SLASH OVERLAY', informativeAliases: ['long slash overlay'])]
     case COMBINING_LONG_SOLIDUS_OVERLAY = "\u{338}";
 
-    #[Info(id: 0x339, name: 'COMBINING RIGHT HALF RING BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x339, name: 'COMBINING RIGHT HALF RING BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING RIGHT HALF RING BELOW')]
     case COMBINING_RIGHT_HALF_RING_BELOW = "\u{339}";
 
-    #[Info(id: 0x33A, name: 'COMBINING INVERTED BRIDGE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x33A, name: 'COMBINING INVERTED BRIDGE BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING INVERTED BRIDGE BELOW')]
     case COMBINING_INVERTED_BRIDGE_BELOW = "\u{33A}";
 
-    #[Info(id: 0x33B, name: 'COMBINING SQUARE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x33B, name: 'COMBINING SQUARE BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING SQUARE BELOW')]
     case COMBINING_SQUARE_BELOW = "\u{33B}";
 
-    #[Info(id: 0x33C, name: 'COMBINING SEAGULL BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x33C, name: 'COMBINING SEAGULL BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING SEAGULL BELOW')]
     case COMBINING_SEAGULL_BELOW = "\u{33C}";
 
-    #[Info(id: 0x33D, name: 'COMBINING X ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x33D, name: 'COMBINING X ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING X ABOVE')]
     case COMBINING_X_ABOVE = "\u{33D}";
 
-    #[Info(id: 0x33E, name: 'COMBINING VERTICAL TILDE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x33E, name: 'COMBINING VERTICAL TILDE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING VERTICAL TILDE', informativeAliases: ['yerik'])]
     case COMBINING_VERTICAL_TILDE = "\u{33E}";
 
-    #[Info(id: 0x33F, name: 'COMBINING DOUBLE OVERLINE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x33F, name: 'COMBINING DOUBLE OVERLINE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING DOUBLE OVERSCORE')]
     case COMBINING_DOUBLE_OVERLINE = "\u{33F}";
 
-    #[Info(id: 0x340, name: 'COMBINING GRAVE TONE MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x340, name: 'COMBINING GRAVE TONE MARK', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING GRAVE TONE MARK')]
     case COMBINING_GRAVE_TONE_MARK = "\u{340}";
 
-    #[Info(id: 0x341, name: 'COMBINING ACUTE TONE MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x341, name: 'COMBINING ACUTE TONE MARK', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING ACUTE TONE MARK')]
     case COMBINING_ACUTE_TONE_MARK = "\u{341}";
 
     #[Info(id: 0x342, name: 'COMBINING GREEK PERISPOMENI', category: Cat::Nonspacing_Mark)]
@@ -220,10 +220,10 @@ enum Combining_Diacritical_Marks: string
     #[Info(id: 0x343, name: 'COMBINING GREEK KORONIS', category: Cat::Nonspacing_Mark)]
     case COMBINING_GREEK_KORONIS = "\u{343}";
 
-    #[Info(id: 0x344, name: 'COMBINING GREEK DIALYTIKA TONOS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x344, name: 'COMBINING GREEK DIALYTIKA TONOS', category: Cat::Nonspacing_Mark, unicode1Name: 'GREEK NON-SPACING DIAERESIS TONOS')]
     case COMBINING_GREEK_DIALYTIKA_TONOS = "\u{344}";
 
-    #[Info(id: 0x345, name: 'COMBINING GREEK YPOGEGRAMMENI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x345, name: 'COMBINING GREEK YPOGEGRAMMENI', category: Cat::Nonspacing_Mark, unicode1Name: 'GREEK NON-SPACING IOTA BELOW', informativeAliases: ['greek non-spacing iota below (1.0)', 'iota subscript'])]
     case COMBINING_GREEK_YPOGEGRAMMENI = "\u{345}";
 
     #[Info(id: 0x346, name: 'COMBINING BRIDGE ABOVE', category: Cat::Nonspacing_Mark)]
@@ -253,7 +253,7 @@ enum Combining_Diacritical_Marks: string
     #[Info(id: 0x34E, name: 'COMBINING UPWARDS ARROW BELOW', category: Cat::Nonspacing_Mark)]
     case COMBINING_UPWARDS_ARROW_BELOW = "\u{34E}";
 
-    #[Info(id: 0x34F, name: 'COMBINING GRAPHEME JOINER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x34F, name: 'COMBINING GRAPHEME JOINER', category: Cat::Nonspacing_Mark, abbreviations: ['CGJ'])]
     case COMBINING_GRAPHEME_JOINER = "\u{34F}";
 
     #[Info(id: 0x350, name: 'COMBINING RIGHT ARROWHEAD ABOVE', category: Cat::Nonspacing_Mark)]
@@ -292,7 +292,7 @@ enum Combining_Diacritical_Marks: string
     #[Info(id: 0x35B, name: 'COMBINING ZIGZAG ABOVE', category: Cat::Nonspacing_Mark)]
     case COMBINING_ZIGZAG_ABOVE = "\u{35B}";
 
-    #[Info(id: 0x35C, name: 'COMBINING DOUBLE BREVE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x35C, name: 'COMBINING DOUBLE BREVE BELOW', category: Cat::Nonspacing_Mark, informativeAliases: ['ligature tie below, papyrological hyphen'])]
     case COMBINING_DOUBLE_BREVE_BELOW = "\u{35C}";
 
     #[Info(id: 0x35D, name: 'COMBINING DOUBLE BREVE', category: Cat::Nonspacing_Mark)]
@@ -307,7 +307,7 @@ enum Combining_Diacritical_Marks: string
     #[Info(id: 0x360, name: 'COMBINING DOUBLE TILDE', category: Cat::Nonspacing_Mark)]
     case COMBINING_DOUBLE_TILDE = "\u{360}";
 
-    #[Info(id: 0x361, name: 'COMBINING DOUBLE INVERTED BREVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x361, name: 'COMBINING DOUBLE INVERTED BREVE', category: Cat::Nonspacing_Mark, informativeAliases: ['ligature tie'])]
     case COMBINING_DOUBLE_INVERTED_BREVE = "\u{361}";
 
     #[Info(id: 0x362, name: 'COMBINING DOUBLE RIGHTWARDS ARROW BELOW', category: Cat::Nonspacing_Mark)]

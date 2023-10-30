@@ -19,7 +19,7 @@ enum Tamil: string
     #[Info(id: 0xB82, name: 'TAMIL SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case TAMIL_SIGN_ANUSVARA = "\u{B82}";
 
-    #[Info(id: 0xB83, name: 'TAMIL SIGN VISARGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xB83, name: 'TAMIL SIGN VISARGA', category: Cat::Other_Letter, informativeAliases: ['aytham'])]
     case TAMIL_SIGN_VISARGA = "\u{B83}";
 
     #[Info(id: 0xB85, name: 'TAMIL LETTER A', category: Cat::Other_Letter)]
@@ -88,7 +88,7 @@ enum Tamil: string
     #[Info(id: 0xBA9, name: 'TAMIL LETTER NNNA', category: Cat::Other_Letter)]
     case TAMIL_LETTER_NNNA = "\u{BA9}";
 
-    #[Info(id: 0xBAA, name: 'TAMIL LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xBAA, name: 'TAMIL LETTER PA', category: Cat::Other_Letter, informativeAliases: ['maa'])]
     case TAMIL_LETTER_PA = "\u{BAA}";
 
     #[Info(id: 0xBAE, name: 'TAMIL LETTER MA', category: Cat::Other_Letter)]
@@ -160,7 +160,7 @@ enum Tamil: string
     #[Info(id: 0xBCC, name: 'TAMIL VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case TAMIL_VOWEL_SIGN_AU = "\u{BCC}";
 
-    #[Info(id: 0xBCD, name: 'TAMIL SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xBCD, name: 'TAMIL SIGN VIRAMA', category: Cat::Nonspacing_Mark, informativeAliases: ['pulli'])]
     case TAMIL_SIGN_VIRAMA = "\u{BCD}";
 
     #[Info(id: 0xBD0, name: 'TAMIL OM', category: Cat::Other_Letter)]
@@ -208,27 +208,27 @@ enum Tamil: string
     #[Info(id: 0xBF2, name: 'TAMIL NUMBER ONE THOUSAND', category: Cat::Other_Number)]
     case TAMIL_NUMBER_ONE_THOUSAND = "\u{BF2}";
 
-    #[Info(id: 0xBF3, name: 'TAMIL DAY SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF3, name: 'TAMIL DAY SIGN', category: Cat::Other_Symbol, informativeAliases: ['naal, naali/padi', 'pillaiyaar suli'])]
     case TAMIL_DAY_SIGN = "\u{BF3}";
 
-    #[Info(id: 0xBF4, name: 'TAMIL MONTH SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF4, name: 'TAMIL MONTH SIGN', category: Cat::Other_Symbol, informativeAliases: ['maatham'])]
     case TAMIL_MONTH_SIGN = "\u{BF4}";
 
-    #[Info(id: 0xBF5, name: 'TAMIL YEAR SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF5, name: 'TAMIL YEAR SIGN', category: Cat::Other_Symbol, informativeAliases: ['varudam'])]
     case TAMIL_YEAR_SIGN = "\u{BF5}";
 
-    #[Info(id: 0xBF6, name: 'TAMIL DEBIT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF6, name: 'TAMIL DEBIT SIGN', category: Cat::Other_Symbol, informativeAliases: ['patru'])]
     case TAMIL_DEBIT_SIGN = "\u{BF6}";
 
-    #[Info(id: 0xBF7, name: 'TAMIL CREDIT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF7, name: 'TAMIL CREDIT SIGN', category: Cat::Other_Symbol, informativeAliases: ['eduppu'])]
     case TAMIL_CREDIT_SIGN = "\u{BF7}";
 
-    #[Info(id: 0xBF8, name: 'TAMIL AS ABOVE SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBF8, name: 'TAMIL AS ABOVE SIGN', category: Cat::Other_Symbol, informativeAliases: ['merpadi'])]
     case TAMIL_AS_ABOVE_SIGN = "\u{BF8}";
 
-    #[Info(id: 0xBF9, name: 'TAMIL RUPEE SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xBF9, name: 'TAMIL RUPEE SIGN', category: Cat::Currency_Symbol, informativeAliases: ['rupai'])]
     case TAMIL_RUPEE_SIGN = "\u{BF9}";
 
-    #[Info(id: 0xBFA, name: 'TAMIL NUMBER SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0xBFA, name: 'TAMIL NUMBER SIGN', category: Cat::Other_Symbol, informativeAliases: ['enn, niluvai'])]
     case TAMIL_NUMBER_SIGN = "\u{BFA}";
 }

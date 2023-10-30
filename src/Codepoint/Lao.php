@@ -16,34 +16,34 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Lao: string
 {
-    #[Info(id: 0xE81, name: 'LAO LETTER KO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE81, name: 'LAO LETTER KO', category: Cat::Other_Letter, informativeAliases: ['ko kay'])]
     case LAO_LETTER_KO = "\u{E81}";
 
-    #[Info(id: 0xE82, name: 'LAO LETTER KHO SUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0xE82, name: 'LAO LETTER KHO SUNG', category: Cat::Other_Letter, informativeAliases: ['kho khay'])]
     case LAO_LETTER_KHO_SUNG = "\u{E82}";
 
-    #[Info(id: 0xE84, name: 'LAO LETTER KHO TAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xE84, name: 'LAO LETTER KHO TAM', category: Cat::Other_Letter, informativeAliases: ['kho khuay'])]
     case LAO_LETTER_KHO_TAM = "\u{E84}";
 
     #[Info(id: 0xE86, name: 'LAO LETTER PALI GHA', category: Cat::Other_Letter)]
     case LAO_LETTER_PALI_GHA = "\u{E86}";
 
-    #[Info(id: 0xE87, name: 'LAO LETTER NGO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE87, name: 'LAO LETTER NGO', category: Cat::Other_Letter, informativeAliases: ['ngo ngu, ngo ngua'])]
     case LAO_LETTER_NGO = "\u{E87}";
 
-    #[Info(id: 0xE88, name: 'LAO LETTER CO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE88, name: 'LAO LETTER CO', category: Cat::Other_Letter, informativeAliases: ['co cok, co cua'])]
     case LAO_LETTER_CO = "\u{E88}";
 
     #[Info(id: 0xE89, name: 'LAO LETTER PALI CHA', category: Cat::Other_Letter)]
     case LAO_LETTER_PALI_CHA = "\u{E89}";
 
-    #[Info(id: 0xE8A, name: 'LAO LETTER SO TAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xE8A, name: 'LAO LETTER SO TAM', category: Cat::Other_Letter, informativeAliases: ['so sang'])]
     case LAO_LETTER_SO_TAM = "\u{E8A}";
 
     #[Info(id: 0xE8C, name: 'LAO LETTER PALI JHA', category: Cat::Other_Letter)]
     case LAO_LETTER_PALI_JHA = "\u{E8C}";
 
-    #[Info(id: 0xE8D, name: 'LAO LETTER NYO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE8D, name: 'LAO LETTER NYO', category: Cat::Other_Letter, informativeAliases: ['nyo nyung'])]
     case LAO_LETTER_NYO = "\u{E8D}";
 
     #[Info(id: 0xE8E, name: 'LAO LETTER PALI NYA', category: Cat::Other_Letter)]
@@ -64,58 +64,58 @@ enum Lao: string
     #[Info(id: 0xE93, name: 'LAO LETTER PALI NNA', category: Cat::Other_Letter)]
     case LAO_LETTER_PALI_NNA = "\u{E93}";
 
-    #[Info(id: 0xE94, name: 'LAO LETTER DO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE94, name: 'LAO LETTER DO', category: Cat::Other_Letter, informativeAliases: ['do dek'])]
     case LAO_LETTER_DO = "\u{E94}";
 
-    #[Info(id: 0xE95, name: 'LAO LETTER TO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE95, name: 'LAO LETTER TO', category: Cat::Other_Letter, informativeAliases: ['to ta'])]
     case LAO_LETTER_TO = "\u{E95}";
 
-    #[Info(id: 0xE96, name: 'LAO LETTER THO SUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0xE96, name: 'LAO LETTER THO SUNG', category: Cat::Other_Letter, informativeAliases: ['tho thong'])]
     case LAO_LETTER_THO_SUNG = "\u{E96}";
 
-    #[Info(id: 0xE97, name: 'LAO LETTER THO TAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xE97, name: 'LAO LETTER THO TAM', category: Cat::Other_Letter, informativeAliases: ['tho thung'])]
     case LAO_LETTER_THO_TAM = "\u{E97}";
 
     #[Info(id: 0xE98, name: 'LAO LETTER PALI DHA', category: Cat::Other_Letter)]
     case LAO_LETTER_PALI_DHA = "\u{E98}";
 
-    #[Info(id: 0xE99, name: 'LAO LETTER NO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE99, name: 'LAO LETTER NO', category: Cat::Other_Letter, informativeAliases: ['no nok'])]
     case LAO_LETTER_NO = "\u{E99}";
 
-    #[Info(id: 0xE9A, name: 'LAO LETTER BO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE9A, name: 'LAO LETTER BO', category: Cat::Other_Letter, informativeAliases: ['bo be, bo bet'])]
     case LAO_LETTER_BO = "\u{E9A}";
 
-    #[Info(id: 0xE9B, name: 'LAO LETTER PO', category: Cat::Other_Letter)]
+    #[Info(id: 0xE9B, name: 'LAO LETTER PO', category: Cat::Other_Letter, informativeAliases: ['po pa'])]
     case LAO_LETTER_PO = "\u{E9B}";
 
-    #[Info(id: 0xE9C, name: 'LAO LETTER PHO SUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0xE9C, name: 'LAO LETTER PHO SUNG', category: Cat::Other_Letter, informativeAliases: ['pho pheng'])]
     case LAO_LETTER_PHO_SUNG = "\u{E9C}";
 
-    #[Info(id: 0xE9D, name: 'LAO LETTER FO TAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xE9D, name: 'LAO LETTER FO TAM', category: Cat::Other_Letter, correctedNames: ['LAO LETTER FO FON'], informativeAliases: ['fo fa'])]
     case LAO_LETTER_FO_TAM = "\u{E9D}";
 
-    #[Info(id: 0xE9E, name: 'LAO LETTER PHO TAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xE9E, name: 'LAO LETTER PHO TAM', category: Cat::Other_Letter, informativeAliases: ['pho phu'])]
     case LAO_LETTER_PHO_TAM = "\u{E9E}";
 
-    #[Info(id: 0xE9F, name: 'LAO LETTER FO SUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0xE9F, name: 'LAO LETTER FO SUNG', category: Cat::Other_Letter, correctedNames: ['LAO LETTER FO FAY'])]
     case LAO_LETTER_FO_SUNG = "\u{E9F}";
 
     #[Info(id: 0xEA0, name: 'LAO LETTER PALI BHA', category: Cat::Other_Letter)]
     case LAO_LETTER_PALI_BHA = "\u{EA0}";
 
-    #[Info(id: 0xEA1, name: 'LAO LETTER MO', category: Cat::Other_Letter)]
+    #[Info(id: 0xEA1, name: 'LAO LETTER MO', category: Cat::Other_Letter, informativeAliases: ['mo mew, mo ma'])]
     case LAO_LETTER_MO = "\u{EA1}";
 
-    #[Info(id: 0xEA2, name: 'LAO LETTER YO', category: Cat::Other_Letter)]
+    #[Info(id: 0xEA2, name: 'LAO LETTER YO', category: Cat::Other_Letter, informativeAliases: ['yo ya'])]
     case LAO_LETTER_YO = "\u{EA2}";
 
-    #[Info(id: 0xEA3, name: 'LAO LETTER LO LING', category: Cat::Other_Letter)]
+    #[Info(id: 0xEA3, name: 'LAO LETTER LO LING', category: Cat::Other_Letter, correctedNames: ['LAO LETTER RO'], informativeAliases: ['ro rot'])]
     case LAO_LETTER_LO_LING = "\u{EA3}";
 
-    #[Info(id: 0xEA5, name: 'LAO LETTER LO LOOT', category: Cat::Other_Letter)]
+    #[Info(id: 0xEA5, name: 'LAO LETTER LO LOOT', category: Cat::Other_Letter, correctedNames: ['LAO LETTER LO'], informativeAliases: ['lo ling'])]
     case LAO_LETTER_LO_LOOT = "\u{EA5}";
 
-    #[Info(id: 0xEA7, name: 'LAO LETTER WO', category: Cat::Other_Letter)]
+    #[Info(id: 0xEA7, name: 'LAO LETTER WO', category: Cat::Other_Letter, informativeAliases: ['wo wi'])]
     case LAO_LETTER_WO = "\u{EA7}";
 
     #[Info(id: 0xEA8, name: 'LAO LETTER SANSKRIT SHA', category: Cat::Other_Letter)]
@@ -124,19 +124,19 @@ enum Lao: string
     #[Info(id: 0xEA9, name: 'LAO LETTER SANSKRIT SSA', category: Cat::Other_Letter)]
     case LAO_LETTER_SANSKRIT_SSA = "\u{EA9}";
 
-    #[Info(id: 0xEAA, name: 'LAO LETTER SO SUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0xEAA, name: 'LAO LETTER SO SUNG', category: Cat::Other_Letter, informativeAliases: ['so sya'])]
     case LAO_LETTER_SO_SUNG = "\u{EAA}";
 
-    #[Info(id: 0xEAB, name: 'LAO LETTER HO SUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0xEAB, name: 'LAO LETTER HO SUNG', category: Cat::Other_Letter, informativeAliases: ['ho hay, ho han'])]
     case LAO_LETTER_HO_SUNG = "\u{EAB}";
 
     #[Info(id: 0xEAC, name: 'LAO LETTER PALI LLA', category: Cat::Other_Letter)]
     case LAO_LETTER_PALI_LLA = "\u{EAC}";
 
-    #[Info(id: 0xEAD, name: 'LAO LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xEAD, name: 'LAO LETTER O', category: Cat::Other_Letter, informativeAliases: ['o o'])]
     case LAO_LETTER_O = "\u{EAD}";
 
-    #[Info(id: 0xEAE, name: 'LAO LETTER HO TAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xEAE, name: 'LAO LETTER HO TAM', category: Cat::Other_Letter, informativeAliases: ['ho hya, ho hyan'])]
     case LAO_LETTER_HO_TAM = "\u{EAE}";
 
     #[Info(id: 0xEAF, name: 'LAO ELLIPSIS', category: Cat::Other_Letter)]
@@ -175,13 +175,13 @@ enum Lao: string
     #[Info(id: 0xEBA, name: 'LAO SIGN PALI VIRAMA', category: Cat::Nonspacing_Mark)]
     case LAO_SIGN_PALI_VIRAMA = "\u{EBA}";
 
-    #[Info(id: 0xEBB, name: 'LAO VOWEL SIGN MAI KON', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xEBB, name: 'LAO VOWEL SIGN MAI KON', category: Cat::Nonspacing_Mark, informativeAliases: ['mai kong'])]
     case LAO_VOWEL_SIGN_MAI_KON = "\u{EBB}";
 
     #[Info(id: 0xEBC, name: 'LAO SEMIVOWEL SIGN LO', category: Cat::Nonspacing_Mark)]
     case LAO_SEMIVOWEL_SIGN_LO = "\u{EBC}";
 
-    #[Info(id: 0xEBD, name: 'LAO SEMIVOWEL SIGN NYO', category: Cat::Other_Letter)]
+    #[Info(id: 0xEBD, name: 'LAO SEMIVOWEL SIGN NYO', category: Cat::Other_Letter, informativeAliases: ['nyo fyang'])]
     case LAO_SEMIVOWEL_SIGN_NYO = "\u{EBD}";
 
     #[Info(id: 0xEC0, name: 'LAO VOWEL SIGN E', category: Cat::Other_Letter)]
@@ -193,10 +193,10 @@ enum Lao: string
     #[Info(id: 0xEC2, name: 'LAO VOWEL SIGN O', category: Cat::Other_Letter)]
     case LAO_VOWEL_SIGN_O = "\u{EC2}";
 
-    #[Info(id: 0xEC3, name: 'LAO VOWEL SIGN AY', category: Cat::Other_Letter)]
+    #[Info(id: 0xEC3, name: 'LAO VOWEL SIGN AY', category: Cat::Other_Letter, informativeAliases: ['mai muan'])]
     case LAO_VOWEL_SIGN_AY = "\u{EC3}";
 
-    #[Info(id: 0xEC4, name: 'LAO VOWEL SIGN AI', category: Cat::Other_Letter)]
+    #[Info(id: 0xEC4, name: 'LAO VOWEL SIGN AI', category: Cat::Other_Letter, informativeAliases: ['mai may'])]
     case LAO_VOWEL_SIGN_AI = "\u{EC4}";
 
     #[Info(id: 0xEC6, name: 'LAO KO LA', category: Cat::Modifier_Letter)]

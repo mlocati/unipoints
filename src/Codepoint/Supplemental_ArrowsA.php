@@ -49,10 +49,10 @@ enum Supplemental_ArrowsA: string
     #[Info(id: 0x27FA, name: 'LONG LEFT RIGHT DOUBLE ARROW', category: Cat::Math_Symbol)]
     case LONG_LEFT_RIGHT_DOUBLE_ARROW = "\u{27FA}";
 
-    #[Info(id: 0x27FB, name: 'LONG LEFTWARDS ARROW FROM BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27FB, name: 'LONG LEFTWARDS ARROW FROM BAR', category: Cat::Math_Symbol, informativeAliases: ['maps from'])]
     case LONG_LEFTWARDS_ARROW_FROM_BAR = "\u{27FB}";
 
-    #[Info(id: 0x27FC, name: 'LONG RIGHTWARDS ARROW FROM BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x27FC, name: 'LONG RIGHTWARDS ARROW FROM BAR', category: Cat::Math_Symbol, informativeAliases: ['maps to'])]
     case LONG_RIGHTWARDS_ARROW_FROM_BAR = "\u{27FC}";
 
     #[Info(id: 0x27FD, name: 'LONG LEFTWARDS DOUBLE ARROW FROM BAR', category: Cat::Math_Symbol)]

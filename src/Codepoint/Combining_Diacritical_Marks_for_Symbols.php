@@ -16,58 +16,58 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Combining_Diacritical_Marks_for_Symbols: string
 {
-    #[Info(id: 0x20D0, name: 'COMBINING LEFT HARPOON ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20D0, name: 'COMBINING LEFT HARPOON ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING LEFT HARPOON ABOVE')]
     case COMBINING_LEFT_HARPOON_ABOVE = "\u{20D0}";
 
-    #[Info(id: 0x20D1, name: 'COMBINING RIGHT HARPOON ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20D1, name: 'COMBINING RIGHT HARPOON ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING RIGHT HARPOON ABOVE')]
     case COMBINING_RIGHT_HARPOON_ABOVE = "\u{20D1}";
 
-    #[Info(id: 0x20D2, name: 'COMBINING LONG VERTICAL LINE OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20D2, name: 'COMBINING LONG VERTICAL LINE OVERLAY', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING LONG VERTICAL BAR OVERLAY')]
     case COMBINING_LONG_VERTICAL_LINE_OVERLAY = "\u{20D2}";
 
-    #[Info(id: 0x20D3, name: 'COMBINING SHORT VERTICAL LINE OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20D3, name: 'COMBINING SHORT VERTICAL LINE OVERLAY', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING SHORT VERTICAL BAR OVERLAY')]
     case COMBINING_SHORT_VERTICAL_LINE_OVERLAY = "\u{20D3}";
 
-    #[Info(id: 0x20D4, name: 'COMBINING ANTICLOCKWISE ARROW ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20D4, name: 'COMBINING ANTICLOCKWISE ARROW ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING ANTICLOCKWISE ARROW ABOVE')]
     case COMBINING_ANTICLOCKWISE_ARROW_ABOVE = "\u{20D4}";
 
-    #[Info(id: 0x20D5, name: 'COMBINING CLOCKWISE ARROW ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20D5, name: 'COMBINING CLOCKWISE ARROW ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING CLOCKWISE ARROW ABOVE')]
     case COMBINING_CLOCKWISE_ARROW_ABOVE = "\u{20D5}";
 
-    #[Info(id: 0x20D6, name: 'COMBINING LEFT ARROW ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20D6, name: 'COMBINING LEFT ARROW ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING LEFT ARROW ABOVE')]
     case COMBINING_LEFT_ARROW_ABOVE = "\u{20D6}";
 
-    #[Info(id: 0x20D7, name: 'COMBINING RIGHT ARROW ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20D7, name: 'COMBINING RIGHT ARROW ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING RIGHT ARROW ABOVE')]
     case COMBINING_RIGHT_ARROW_ABOVE = "\u{20D7}";
 
-    #[Info(id: 0x20D8, name: 'COMBINING RING OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20D8, name: 'COMBINING RING OVERLAY', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING RING OVERLAY')]
     case COMBINING_RING_OVERLAY = "\u{20D8}";
 
-    #[Info(id: 0x20D9, name: 'COMBINING CLOCKWISE RING OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20D9, name: 'COMBINING CLOCKWISE RING OVERLAY', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING CLOCKWISE RING OVERLAY')]
     case COMBINING_CLOCKWISE_RING_OVERLAY = "\u{20D9}";
 
-    #[Info(id: 0x20DA, name: 'COMBINING ANTICLOCKWISE RING OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20DA, name: 'COMBINING ANTICLOCKWISE RING OVERLAY', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING ANTICLOCKWISE RING OVERLAY')]
     case COMBINING_ANTICLOCKWISE_RING_OVERLAY = "\u{20DA}";
 
-    #[Info(id: 0x20DB, name: 'COMBINING THREE DOTS ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20DB, name: 'COMBINING THREE DOTS ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING THREE DOTS ABOVE', informativeAliases: ['third derivative'])]
     case COMBINING_THREE_DOTS_ABOVE = "\u{20DB}";
 
-    #[Info(id: 0x20DC, name: 'COMBINING FOUR DOTS ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20DC, name: 'COMBINING FOUR DOTS ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING FOUR DOTS ABOVE', informativeAliases: ['fourth derivative'])]
     case COMBINING_FOUR_DOTS_ABOVE = "\u{20DC}";
 
-    #[Info(id: 0x20DD, name: 'COMBINING ENCLOSING CIRCLE', category: Cat::Enclosing_Mark)]
+    #[Info(id: 0x20DD, name: 'COMBINING ENCLOSING CIRCLE', category: Cat::Enclosing_Mark, unicode1Name: 'ENCLOSING CIRCLE', informativeAliases: ['JIS composition circle', 'Cyrillic combining ten thousands sign'])]
     case COMBINING_ENCLOSING_CIRCLE = "\u{20DD}";
 
-    #[Info(id: 0x20DE, name: 'COMBINING ENCLOSING SQUARE', category: Cat::Enclosing_Mark)]
+    #[Info(id: 0x20DE, name: 'COMBINING ENCLOSING SQUARE', category: Cat::Enclosing_Mark, unicode1Name: 'ENCLOSING SQUARE')]
     case COMBINING_ENCLOSING_SQUARE = "\u{20DE}";
 
-    #[Info(id: 0x20DF, name: 'COMBINING ENCLOSING DIAMOND', category: Cat::Enclosing_Mark)]
+    #[Info(id: 0x20DF, name: 'COMBINING ENCLOSING DIAMOND', category: Cat::Enclosing_Mark, unicode1Name: 'ENCLOSING DIAMOND')]
     case COMBINING_ENCLOSING_DIAMOND = "\u{20DF}";
 
-    #[Info(id: 0x20E0, name: 'COMBINING ENCLOSING CIRCLE BACKSLASH', category: Cat::Enclosing_Mark)]
+    #[Info(id: 0x20E0, name: 'COMBINING ENCLOSING CIRCLE BACKSLASH', category: Cat::Enclosing_Mark, unicode1Name: 'ENCLOSING CIRCLE SLASH')]
     case COMBINING_ENCLOSING_CIRCLE_BACKSLASH = "\u{20E0}";
 
-    #[Info(id: 0x20E1, name: 'COMBINING LEFT RIGHT ARROW ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20E1, name: 'COMBINING LEFT RIGHT ARROW ABOVE', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING LEFT RIGHT ARROW ABOVE')]
     case COMBINING_LEFT_RIGHT_ARROW_ABOVE = "\u{20E1}";
 
     #[Info(id: 0x20E2, name: 'COMBINING ENCLOSING SCREEN', category: Cat::Enclosing_Mark)]
@@ -82,22 +82,22 @@ enum Combining_Diacritical_Marks_for_Symbols: string
     #[Info(id: 0x20E5, name: 'COMBINING REVERSE SOLIDUS OVERLAY', category: Cat::Nonspacing_Mark)]
     case COMBINING_REVERSE_SOLIDUS_OVERLAY = "\u{20E5}";
 
-    #[Info(id: 0x20E6, name: 'COMBINING DOUBLE VERTICAL STROKE OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20E6, name: 'COMBINING DOUBLE VERTICAL STROKE OVERLAY', category: Cat::Nonspacing_Mark, informativeAliases: ['z notation finite function diacritic'])]
     case COMBINING_DOUBLE_VERTICAL_STROKE_OVERLAY = "\u{20E6}";
 
-    #[Info(id: 0x20E7, name: 'COMBINING ANNUITY SYMBOL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20E7, name: 'COMBINING ANNUITY SYMBOL', category: Cat::Nonspacing_Mark, informativeAliases: ['actuarial bend'])]
     case COMBINING_ANNUITY_SYMBOL = "\u{20E7}";
 
     #[Info(id: 0x20E8, name: 'COMBINING TRIPLE UNDERDOT', category: Cat::Nonspacing_Mark)]
     case COMBINING_TRIPLE_UNDERDOT = "\u{20E8}";
 
-    #[Info(id: 0x20E9, name: 'COMBINING WIDE BRIDGE ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20E9, name: 'COMBINING WIDE BRIDGE ABOVE', category: Cat::Nonspacing_Mark, informativeAliases: ['contraction operator'])]
     case COMBINING_WIDE_BRIDGE_ABOVE = "\u{20E9}";
 
     #[Info(id: 0x20EA, name: 'COMBINING LEFTWARDS ARROW OVERLAY', category: Cat::Nonspacing_Mark)]
     case COMBINING_LEFTWARDS_ARROW_OVERLAY = "\u{20EA}";
 
-    #[Info(id: 0x20EB, name: 'COMBINING LONG DOUBLE SOLIDUS OVERLAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x20EB, name: 'COMBINING LONG DOUBLE SOLIDUS OVERLAY', category: Cat::Nonspacing_Mark, informativeAliases: ['long double slash overlay'])]
     case COMBINING_LONG_DOUBLE_SOLIDUS_OVERLAY = "\u{20EB}";
 
     #[Info(id: 0x20EC, name: 'COMBINING RIGHTWARDS HARPOON WITH BARB DOWNWARDS', category: Cat::Nonspacing_Mark)]

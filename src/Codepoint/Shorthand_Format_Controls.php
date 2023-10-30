@@ -22,9 +22,9 @@ enum Shorthand_Format_Controls: string
     #[Info(id: 0x1BCA1, name: 'SHORTHAND FORMAT CONTINUING OVERLAP', category: Cat::Format)]
     case SHORTHAND_FORMAT_CONTINUING_OVERLAP = "\u{1BCA1}";
 
-    #[Info(id: 0x1BCA2, name: 'SHORTHAND FORMAT DOWN STEP', category: Cat::Format)]
+    #[Info(id: 0x1BCA2, name: 'SHORTHAND FORMAT DOWN STEP', category: Cat::Format, informativeAliases: ['Romanian affix -tsion-', 'Sloan contracted ending oo/o + ZWSP'])]
     case SHORTHAND_FORMAT_DOWN_STEP = "\u{1BCA2}";
 
-    #[Info(id: 0x1BCA3, name: 'SHORTHAND FORMAT UP STEP', category: Cat::Format)]
+    #[Info(id: 0x1BCA3, name: 'SHORTHAND FORMAT UP STEP', category: Cat::Format, informativeAliases: ['Sloan contracted ending uh/au/aui + ZWSP'])]
     case SHORTHAND_FORMAT_UP_STEP = "\u{1BCA3}";
 }

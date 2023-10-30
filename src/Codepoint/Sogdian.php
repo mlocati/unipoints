@@ -76,7 +76,7 @@ enum Sogdian: string
     #[Info(id: 0x10F43, name: 'SOGDIAN LETTER FETH', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_FETH = "\u{10F43}";
 
-    #[Info(id: 0x10F44, name: 'SOGDIAN LETTER LESH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F44, name: 'SOGDIAN LETTER LESH', category: Cat::Other_Letter, informativeAliases: ['hooked resh'])]
     case SOGDIAN_LETTER_LESH = "\u{10F44}";
 
     #[Info(id: 0x10F45, name: 'SOGDIAN INDEPENDENT SHIN', category: Cat::Other_Letter)]

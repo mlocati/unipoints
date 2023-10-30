@@ -244,7 +244,7 @@ enum Emoticons: string
     #[Info(id: 0x1F64B, name: 'HAPPY PERSON RAISING ONE HAND', category: Cat::Other_Symbol)]
     case HAPPY_PERSON_RAISING_ONE_HAND = "\u{1F64B}";
 
-    #[Info(id: 0x1F64C, name: 'PERSON RAISING BOTH HANDS IN CELEBRATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F64C, name: 'PERSON RAISING BOTH HANDS IN CELEBRATION', category: Cat::Other_Symbol, informativeAliases: ['banzai!'])]
     case PERSON_RAISING_BOTH_HANDS_IN_CELEBRATION = "\u{1F64C}";
 
     #[Info(id: 0x1F64D, name: 'PERSON FROWNING', category: Cat::Other_Symbol)]

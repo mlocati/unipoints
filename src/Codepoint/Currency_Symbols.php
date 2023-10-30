@@ -46,7 +46,7 @@ enum Currency_Symbols: string
     #[Info(id: 0x20A9, name: 'WON SIGN', category: Cat::Currency_Symbol)]
     case WON_SIGN = "\u{20A9}";
 
-    #[Info(id: 0x20AA, name: 'NEW SHEQEL SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x20AA, name: 'NEW SHEQEL SIGN', category: Cat::Currency_Symbol, informativeAliases: ['shekel'])]
     case NEW_SHEQEL_SIGN = "\u{20AA}";
 
     #[Info(id: 0x20AB, name: 'DONG SIGN', category: Cat::Currency_Symbol)]
@@ -67,7 +67,7 @@ enum Currency_Symbols: string
     #[Info(id: 0x20B0, name: 'GERMAN PENNY SIGN', category: Cat::Currency_Symbol)]
     case GERMAN_PENNY_SIGN = "\u{20B0}";
 
-    #[Info(id: 0x20B1, name: 'PESO SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x20B1, name: 'PESO SIGN', category: Cat::Currency_Symbol, informativeAliases: ['Filipino peso sign'])]
     case PESO_SIGN = "\u{20B1}";
 
     #[Info(id: 0x20B2, name: 'GUARANI SIGN', category: Cat::Currency_Symbol)]

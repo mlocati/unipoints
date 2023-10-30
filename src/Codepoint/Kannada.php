@@ -28,7 +28,7 @@ enum Kannada: string
     #[Info(id: 0xC83, name: 'KANNADA SIGN VISARGA', category: Cat::Spacing_Mark)]
     case KANNADA_SIGN_VISARGA = "\u{C83}";
 
-    #[Info(id: 0xC84, name: 'KANNADA SIGN SIDDHAM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xC84, name: 'KANNADA SIGN SIDDHAM', category: Cat::Other_Punctuation, informativeAliases: ['siddhirastu'])]
     case KANNADA_SIGN_SIDDHAM = "\u{C84}";
 
     #[Info(id: 0xC85, name: 'KANNADA LETTER A', category: Cat::Other_Letter)]
@@ -235,7 +235,7 @@ enum Kannada: string
     #[Info(id: 0xCDD, name: 'KANNADA LETTER NAKAARA POLLU', category: Cat::Other_Letter)]
     case KANNADA_LETTER_NAKAARA_POLLU = "\u{CDD}";
 
-    #[Info(id: 0xCDE, name: 'KANNADA LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0xCDE, name: 'KANNADA LETTER FA', category: Cat::Other_Letter, correctedNames: ['KANNADA LETTER LLLA'])]
     case KANNADA_LETTER_FA = "\u{CDE}";
 
     #[Info(id: 0xCE0, name: 'KANNADA LETTER VOCALIC RR', category: Cat::Other_Letter)]

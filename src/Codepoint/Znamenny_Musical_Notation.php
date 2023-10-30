@@ -163,7 +163,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CF32, name: 'ZNAMENNY COMBINING TONAL RANGE MARK TRESVETLO', category: Cat::Nonspacing_Mark)]
     case ZNAMENNY_COMBINING_TONAL_RANGE_MARK_TRESVETLO = "\u{1CF32}";
 
-    #[Info(id: 0x1CF33, name: 'ZNAMENNY COMBINING MARK ZADERZHKA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CF33, name: 'ZNAMENNY COMBINING MARK ZADERZHKA', category: Cat::Nonspacing_Mark, informativeAliases: ['ottyazhka'])]
     case ZNAMENNY_COMBINING_MARK_ZADERZHKA = "\u{1CF33}";
 
     #[Info(id: 0x1CF34, name: 'ZNAMENNY COMBINING MARK DEMESTVENNY ZADERZHKA', category: Cat::Nonspacing_Mark)]
@@ -187,7 +187,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CF3A, name: 'ZNAMENNY COMBINING MARK OBLACHKO', category: Cat::Nonspacing_Mark)]
     case ZNAMENNY_COMBINING_MARK_OBLACHKO = "\u{1CF3A}";
 
-    #[Info(id: 0x1CF3B, name: 'ZNAMENNY COMBINING MARK SOROCHYA NOZHKA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1CF3B, name: 'ZNAMENNY COMBINING MARK SOROCHYA NOZHKA', category: Cat::Nonspacing_Mark, informativeAliases: ['sokolik'])]
     case ZNAMENNY_COMBINING_MARK_SOROCHYA_NOZHKA = "\u{1CF3B}";
 
     #[Info(id: 0x1CF3C, name: 'ZNAMENNY COMBINING MARK TOCHKA', category: Cat::Nonspacing_Mark)]
@@ -235,7 +235,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CF53, name: 'ZNAMENNY NEUME DVA V CHELNU', category: Cat::Other_Symbol)]
     case ZNAMENNY_NEUME_DVA_V_CHELNU = "\u{1CF53}";
 
-    #[Info(id: 0x1CF54, name: 'ZNAMENNY NEUME KLYUCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1CF54, name: 'ZNAMENNY NEUME KLYUCH', category: Cat::Other_Symbol, informativeAliases: ['kryuk klyuchevoy'])]
     case ZNAMENNY_NEUME_KLYUCH = "\u{1CF54}";
 
     #[Info(id: 0x1CF55, name: 'ZNAMENNY NEUME ZANOZHEK', category: Cat::Other_Symbol)]
@@ -277,7 +277,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CF61, name: 'ZNAMENNY NEUME GOLUBCHIK SVETLY', category: Cat::Other_Symbol)]
     case ZNAMENNY_NEUME_GOLUBCHIK_SVETLY = "\u{1CF61}";
 
-    #[Info(id: 0x1CF62, name: 'ZNAMENNY NEUME GOLUBCHIK TRESVETLY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1CF62, name: 'ZNAMENNY NEUME GOLUBCHIK TRESVETLY', category: Cat::Other_Symbol, informativeAliases: ['golubchik nepostoyanny'])]
     case ZNAMENNY_NEUME_GOLUBCHIK_TRESVETLY = "\u{1CF62}";
 
     #[Info(id: 0x1CF63, name: 'ZNAMENNY NEUME VRAKHIYA PROSTAYA', category: Cat::Other_Symbol)]
@@ -289,7 +289,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CF65, name: 'ZNAMENNY NEUME VRAKHIYA SVETLAYA', category: Cat::Other_Symbol)]
     case ZNAMENNY_NEUME_VRAKHIYA_SVETLAYA = "\u{1CF65}";
 
-    #[Info(id: 0x1CF66, name: 'ZNAMENNY NEUME VRAKHIYA TRESVETLAYA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1CF66, name: 'ZNAMENNY NEUME VRAKHIYA TRESVETLAYA', category: Cat::Other_Symbol, informativeAliases: ['vrakhia nepostoyannaya'])]
     case ZNAMENNY_NEUME_VRAKHIYA_TRESVETLAYA = "\u{1CF66}";
 
     #[Info(id: 0x1CF67, name: 'ZNAMENNY NEUME VRAKHIYA KLYUCHEVAYA PROSTAYA', category: Cat::Other_Symbol)]
@@ -301,7 +301,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CF69, name: 'ZNAMENNY NEUME VRAKHIYA KLYUCHEVAYA SVETLAYA', category: Cat::Other_Symbol)]
     case ZNAMENNY_NEUME_VRAKHIYA_KLYUCHEVAYA_SVETLAYA = "\u{1CF69}";
 
-    #[Info(id: 0x1CF6A, name: 'ZNAMENNY NEUME VRAKHIYA KLYUCHEVAYA TRESVETLAYA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1CF6A, name: 'ZNAMENNY NEUME VRAKHIYA KLYUCHEVAYA TRESVETLAYA', category: Cat::Other_Symbol, informativeAliases: ['vrakhia klyuchevaya nepostoyannaya'])]
     case ZNAMENNY_NEUME_VRAKHIYA_KLYUCHEVAYA_TRESVETLAYA = "\u{1CF6A}";
 
     #[Info(id: 0x1CF6B, name: 'ZNAMENNY NEUME DOUBLE ZAPYATAYA', category: Cat::Other_Symbol)]
@@ -334,7 +334,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CF74, name: 'ZNAMENNY NEUME SKAMEYTSA TIKHAYA', category: Cat::Other_Symbol)]
     case ZNAMENNY_NEUME_SKAMEYTSA_TIKHAYA = "\u{1CF74}";
 
-    #[Info(id: 0x1CF75, name: 'ZNAMENNY NEUME DEMESTVENNY KLYUCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1CF75, name: 'ZNAMENNY NEUME DEMESTVENNY KLYUCH', category: Cat::Other_Symbol, informativeAliases: ['skameytsa klyuchevaya'])]
     case ZNAMENNY_NEUME_DEMESTVENNY_KLYUCH = "\u{1CF75}";
 
     #[Info(id: 0x1CF76, name: 'ZNAMENNY NEUME SKAMEYTSA KLYUCHEVAYA SVETLAYA', category: Cat::Other_Symbol)]
@@ -382,7 +382,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CF84, name: 'ZNAMENNY NEUME KOBYLA', category: Cat::Other_Symbol)]
     case ZNAMENNY_NEUME_KOBYLA = "\u{1CF84}";
 
-    #[Info(id: 0x1CF85, name: 'ZNAMENNY NEUME ZMEYTSA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1CF85, name: 'ZNAMENNY NEUME ZMEYTSA', category: Cat::Other_Symbol, informativeAliases: ['litso'])]
     case ZNAMENNY_NEUME_ZMEYTSA = "\u{1CF85}";
 
     #[Info(id: 0x1CF86, name: 'ZNAMENNY NEUME STATYA', category: Cat::Other_Symbol)]
@@ -427,7 +427,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CF93, name: 'ZNAMENNY NEUME STRELA MRACHNOTIKHAYA', category: Cat::Other_Symbol)]
     case ZNAMENNY_NEUME_STRELA_MRACHNOTIKHAYA = "\u{1CF93}";
 
-    #[Info(id: 0x1CF94, name: 'ZNAMENNY NEUME STRELA KRYZHEVAYA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1CF94, name: 'ZNAMENNY NEUME STRELA KRYZHEVAYA', category: Cat::Other_Symbol, informativeAliases: ['strela polukryzhevaya'])]
     case ZNAMENNY_NEUME_STRELA_KRYZHEVAYA = "\u{1CF94}";
 
     #[Info(id: 0x1CF95, name: 'ZNAMENNY NEUME STRELA POLUPOVODNAYA', category: Cat::Other_Symbol)]
@@ -481,7 +481,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CFA5, name: 'ZNAMENNY NEUME STRELA GROMOKRYZHEVAYA', category: Cat::Other_Symbol)]
     case ZNAMENNY_NEUME_STRELA_GROMOKRYZHEVAYA = "\u{1CFA5}";
 
-    #[Info(id: 0x1CFA6, name: 'ZNAMENNY NEUME STRELA GROMOKRYZHEVAYA POVODNAYA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1CFA6, name: 'ZNAMENNY NEUME STRELA GROMOKRYZHEVAYA POVODNAYA', category: Cat::Other_Symbol, informativeAliases: ['strela gromomrachnaya s kryzhem'])]
     case ZNAMENNY_NEUME_STRELA_GROMOKRYZHEVAYA_POVODNAYA = "\u{1CFA6}";
 
     #[Info(id: 0x1CFA7, name: 'ZNAMENNY NEUME MECHIK', category: Cat::Other_Symbol)]
@@ -514,7 +514,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CFB0, name: 'ZNAMENNY NEUME OSOKA SVETLAYA', category: Cat::Other_Symbol)]
     case ZNAMENNY_NEUME_OSOKA_SVETLAYA = "\u{1CFB0}";
 
-    #[Info(id: 0x1CFB1, name: 'ZNAMENNY NEUME OSOKA TRESVETLAYA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1CFB1, name: 'ZNAMENNY NEUME OSOKA TRESVETLAYA', category: Cat::Other_Symbol, informativeAliases: ['osoka nepostoyannaya'])]
     case ZNAMENNY_NEUME_OSOKA_TRESVETLAYA = "\u{1CFB1}";
 
     #[Info(id: 0x1CFB2, name: 'ZNAMENNY NEUME OSOKA KRYUKOVAYA SVETLAYA', category: Cat::Other_Symbol)]
@@ -550,7 +550,7 @@ enum Znamenny_Musical_Notation: string
     #[Info(id: 0x1CFBC, name: 'ZNAMENNY NEUME STRELA KRYUKOVAYA GROMOKRYZHEVAYA', category: Cat::Other_Symbol)]
     case ZNAMENNY_NEUME_STRELA_KRYUKOVAYA_GROMOKRYZHEVAYA = "\u{1CFBC}";
 
-    #[Info(id: 0x1CFBD, name: 'ZNAMENNY NEUME STRELA KRYUKOVAYA GROMOKRYZHEVAYA POVODNAYA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1CFBD, name: 'ZNAMENNY NEUME STRELA KRYUKOVAYA GROMOKRYZHEVAYA POVODNAYA', category: Cat::Other_Symbol, informativeAliases: ['strela kryukovaya gromomrachnaya s kryzhem'])]
     case ZNAMENNY_NEUME_STRELA_KRYUKOVAYA_GROMOKRYZHEVAYA_POVODNAYA = "\u{1CFBD}";
 
     #[Info(id: 0x1CFBE, name: 'ZNAMENNY NEUME STRELA KRYUKOVAYA TRYASKA', category: Cat::Other_Symbol)]

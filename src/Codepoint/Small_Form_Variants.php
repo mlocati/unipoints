@@ -22,7 +22,7 @@ enum Small_Form_Variants: string
     #[Info(id: 0xFE51, name: 'SMALL IDEOGRAPHIC COMMA', category: Cat::Other_Punctuation)]
     case SMALL_IDEOGRAPHIC_COMMA = "\u{FE51}";
 
-    #[Info(id: 0xFE52, name: 'SMALL FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE52, name: 'SMALL FULL STOP', category: Cat::Other_Punctuation, unicode1Name: 'SMALL PERIOD')]
     case SMALL_FULL_STOP = "\u{FE52}";
 
     #[Info(id: 0xFE54, name: 'SMALL SEMICOLON', category: Cat::Other_Punctuation)]
@@ -40,22 +40,22 @@ enum Small_Form_Variants: string
     #[Info(id: 0xFE58, name: 'SMALL EM DASH', category: Cat::Dash_Punctuation)]
     case SMALL_EM_DASH = "\u{FE58}";
 
-    #[Info(id: 0xFE59, name: 'SMALL LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE59, name: 'SMALL LEFT PARENTHESIS', category: Cat::Open_Punctuation, unicode1Name: 'SMALL OPENING PARENTHESIS')]
     case SMALL_LEFT_PARENTHESIS = "\u{FE59}";
 
-    #[Info(id: 0xFE5A, name: 'SMALL RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE5A, name: 'SMALL RIGHT PARENTHESIS', category: Cat::Close_Punctuation, unicode1Name: 'SMALL CLOSING PARENTHESIS')]
     case SMALL_RIGHT_PARENTHESIS = "\u{FE5A}";
 
-    #[Info(id: 0xFE5B, name: 'SMALL LEFT CURLY BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE5B, name: 'SMALL LEFT CURLY BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'SMALL OPENING CURLY BRACKET')]
     case SMALL_LEFT_CURLY_BRACKET = "\u{FE5B}";
 
-    #[Info(id: 0xFE5C, name: 'SMALL RIGHT CURLY BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE5C, name: 'SMALL RIGHT CURLY BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'SMALL CLOSING CURLY BRACKET')]
     case SMALL_RIGHT_CURLY_BRACKET = "\u{FE5C}";
 
-    #[Info(id: 0xFE5D, name: 'SMALL LEFT TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE5D, name: 'SMALL LEFT TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'SMALL OPENING TORTOISE SHELL BRACKET')]
     case SMALL_LEFT_TORTOISE_SHELL_BRACKET = "\u{FE5D}";
 
-    #[Info(id: 0xFE5E, name: 'SMALL RIGHT TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE5E, name: 'SMALL RIGHT TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'SMALL CLOSING TORTOISE SHELL BRACKET')]
     case SMALL_RIGHT_TORTOISE_SHELL_BRACKET = "\u{FE5E}";
 
     #[Info(id: 0xFE5F, name: 'SMALL NUMBER SIGN', category: Cat::Other_Punctuation)]
@@ -82,7 +82,7 @@ enum Small_Form_Variants: string
     #[Info(id: 0xFE66, name: 'SMALL EQUALS SIGN', category: Cat::Math_Symbol)]
     case SMALL_EQUALS_SIGN = "\u{FE66}";
 
-    #[Info(id: 0xFE68, name: 'SMALL REVERSE SOLIDUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE68, name: 'SMALL REVERSE SOLIDUS', category: Cat::Other_Punctuation, unicode1Name: 'SMALL BACKSLASH')]
     case SMALL_REVERSE_SOLIDUS = "\u{FE68}";
 
     #[Info(id: 0xFE69, name: 'SMALL DOLLAR SIGN', category: Cat::Currency_Symbol)]

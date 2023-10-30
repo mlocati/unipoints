@@ -172,7 +172,7 @@ enum Dives_Akuru: string
     #[Info(id: 0x1193C, name: 'DIVES AKURU SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case DIVES_AKURU_SIGN_CANDRABINDU = "\u{1193C}";
 
-    #[Info(id: 0x1193D, name: 'DIVES AKURU SIGN HALANTA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1193D, name: 'DIVES AKURU SIGN HALANTA', category: Cat::Spacing_Mark, informativeAliases: ['sukun'])]
     case DIVES_AKURU_SIGN_HALANTA = "\u{1193D}";
 
     #[Info(id: 0x1193E, name: 'DIVES AKURU VIRAMA', category: Cat::Nonspacing_Mark)]
@@ -184,7 +184,7 @@ enum Dives_Akuru: string
     #[Info(id: 0x11940, name: 'DIVES AKURU MEDIAL YA', category: Cat::Spacing_Mark)]
     case DIVES_AKURU_MEDIAL_YA = "\u{11940}";
 
-    #[Info(id: 0x11941, name: 'DIVES AKURU INITIAL RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11941, name: 'DIVES AKURU INITIAL RA', category: Cat::Other_Letter, informativeAliases: ['repha'])]
     case DIVES_AKURU_INITIAL_RA = "\u{11941}";
 
     #[Info(id: 0x11942, name: 'DIVES AKURU MEDIAL RA', category: Cat::Spacing_Mark)]

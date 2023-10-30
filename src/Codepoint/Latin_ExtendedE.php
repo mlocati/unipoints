@@ -64,7 +64,7 @@ enum Latin_ExtendedE: string
     #[Info(id: 0xAB3F, name: 'LATIN SMALL LETTER OPEN O WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_OPEN_O_WITH_STROKE = "\u{AB3F}";
 
-    #[Info(id: 0xAB40, name: 'LATIN SMALL LETTER INVERTED OE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xAB40, name: 'LATIN SMALL LETTER INVERTED OE', category: Cat::Lowercase_Letter, informativeAliases: ['latin small letter o reversed-schwa'])]
     case LATIN_SMALL_LETTER_INVERTED_OE = "\u{AB40}";
 
     #[Info(id: 0xAB41, name: 'LATIN SMALL LETTER TURNED OE WITH STROKE', category: Cat::Lowercase_Letter)]

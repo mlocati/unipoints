@@ -64,7 +64,7 @@ enum Geometric_Shapes_Extended: string
     #[Info(id: 0x1F78F, name: 'MEDIUM WHITE SQUARE', category: Cat::Other_Symbol)]
     case MEDIUM_WHITE_SQUARE = "\u{1F78F}";
 
-    #[Info(id: 0x1F790, name: 'BOLD WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F790, name: 'BOLD WHITE SQUARE', category: Cat::Other_Symbol, informativeAliases: ['heavy white square'])]
     case BOLD_WHITE_SQUARE = "\u{1F790}";
 
     #[Info(id: 0x1F791, name: 'HEAVY WHITE SQUARE', category: Cat::Other_Symbol)]
@@ -232,7 +232,7 @@ enum Geometric_Shapes_Extended: string
     #[Info(id: 0x1F7C7, name: 'MEDIUM FOUR POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
     case MEDIUM_FOUR_POINTED_PINWHEEL_STAR = "\u{1F7C7}";
 
-    #[Info(id: 0x1F7C8, name: 'REVERSE LIGHT FOUR POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7C8, name: 'REVERSE LIGHT FOUR POINTED PINWHEEL STAR', category: Cat::Other_Symbol, informativeAliases: ['navigate'])]
     case REVERSE_LIGHT_FOUR_POINTED_PINWHEEL_STAR = "\u{1F7C8}";
 
     #[Info(id: 0x1F7C9, name: 'LIGHT FIVE POINTED BLACK STAR', category: Cat::Other_Symbol)]

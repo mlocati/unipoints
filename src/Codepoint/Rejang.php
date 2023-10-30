@@ -85,37 +85,37 @@ enum Rejang: string
     #[Info(id: 0xA946, name: 'REJANG LETTER A', category: Cat::Other_Letter)]
     case REJANG_LETTER_A = "\u{A946}";
 
-    #[Info(id: 0xA947, name: 'REJANG VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA947, name: 'REJANG VOWEL SIGN I', category: Cat::Nonspacing_Mark, informativeAliases: ['kaluan'])]
     case REJANG_VOWEL_SIGN_I = "\u{A947}";
 
-    #[Info(id: 0xA948, name: 'REJANG VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA948, name: 'REJANG VOWEL SIGN U', category: Cat::Nonspacing_Mark, informativeAliases: ['kamitan'])]
     case REJANG_VOWEL_SIGN_U = "\u{A948}";
 
-    #[Info(id: 0xA949, name: 'REJANG VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA949, name: 'REJANG VOWEL SIGN E', category: Cat::Nonspacing_Mark, informativeAliases: ['kamica'])]
     case REJANG_VOWEL_SIGN_E = "\u{A949}";
 
-    #[Info(id: 0xA94A, name: 'REJANG VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA94A, name: 'REJANG VOWEL SIGN AI', category: Cat::Nonspacing_Mark, informativeAliases: ['katiling'])]
     case REJANG_VOWEL_SIGN_AI = "\u{A94A}";
 
     #[Info(id: 0xA94B, name: 'REJANG VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case REJANG_VOWEL_SIGN_O = "\u{A94B}";
 
-    #[Info(id: 0xA94C, name: 'REJANG VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA94C, name: 'REJANG VOWEL SIGN AU', category: Cat::Nonspacing_Mark, informativeAliases: ['katulung'])]
     case REJANG_VOWEL_SIGN_AU = "\u{A94C}";
 
     #[Info(id: 0xA94D, name: 'REJANG VOWEL SIGN EU', category: Cat::Nonspacing_Mark)]
     case REJANG_VOWEL_SIGN_EU = "\u{A94D}";
 
-    #[Info(id: 0xA94E, name: 'REJANG VOWEL SIGN EA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA94E, name: 'REJANG VOWEL SIGN EA', category: Cat::Nonspacing_Mark, informativeAliases: ['kajina'])]
     case REJANG_VOWEL_SIGN_EA = "\u{A94E}";
 
-    #[Info(id: 0xA94F, name: 'REJANG CONSONANT SIGN NG', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA94F, name: 'REJANG CONSONANT SIGN NG', category: Cat::Nonspacing_Mark, informativeAliases: ['katulang'])]
     case REJANG_CONSONANT_SIGN_NG = "\u{A94F}";
 
-    #[Info(id: 0xA950, name: 'REJANG CONSONANT SIGN N', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA950, name: 'REJANG CONSONANT SIGN N', category: Cat::Nonspacing_Mark, informativeAliases: ['duo deatas'])]
     case REJANG_CONSONANT_SIGN_N = "\u{A950}";
 
-    #[Info(id: 0xA951, name: 'REJANG CONSONANT SIGN R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA951, name: 'REJANG CONSONANT SIGN R', category: Cat::Nonspacing_Mark, informativeAliases: ['kajunjung'])]
     case REJANG_CONSONANT_SIGN_R = "\u{A951}";
 
     #[Info(id: 0xA952, name: 'REJANG CONSONANT SIGN H', category: Cat::Spacing_Mark)]

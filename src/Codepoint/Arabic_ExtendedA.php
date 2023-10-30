@@ -46,13 +46,13 @@ enum Arabic_ExtendedA: string
     #[Info(id: 0x8A9, name: 'ARABIC LETTER YEH WITH TWO DOTS BELOW AND DOT ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_WITH_TWO_DOTS_BELOW_AND_DOT_ABOVE = "\u{8A9}";
 
-    #[Info(id: 0x8AA, name: 'ARABIC LETTER REH WITH LOOP', category: Cat::Other_Letter)]
+    #[Info(id: 0x8AA, name: 'ARABIC LETTER REH WITH LOOP', category: Cat::Other_Letter, informativeAliases: ['bottya-reh'])]
     case ARABIC_LETTER_REH_WITH_LOOP = "\u{8AA}";
 
-    #[Info(id: 0x8AB, name: 'ARABIC LETTER WAW WITH DOT WITHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x8AB, name: 'ARABIC LETTER WAW WITH DOT WITHIN', category: Cat::Other_Letter, informativeAliases: ['nota-wa'])]
     case ARABIC_LETTER_WAW_WITH_DOT_WITHIN = "\u{8AB}";
 
-    #[Info(id: 0x8AC, name: 'ARABIC LETTER ROHINGYA YEH', category: Cat::Other_Letter)]
+    #[Info(id: 0x8AC, name: 'ARABIC LETTER ROHINGYA YEH', category: Cat::Other_Letter, informativeAliases: ['bottya-yeh'])]
     case ARABIC_LETTER_ROHINGYA_YEH = "\u{8AC}";
 
     #[Info(id: 0x8AD, name: 'ARABIC LETTER LOW ALEF', category: Cat::Other_Letter)]
@@ -148,7 +148,7 @@ enum Arabic_ExtendedA: string
     #[Info(id: 0x8CB, name: 'ARABIC SMALL HIGH YEH BARREE WITH TWO DOTS BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_YEH_BARREE_WITH_TWO_DOTS_BELOW = "\u{8CB}";
 
-    #[Info(id: 0x8CC, name: 'ARABIC SMALL HIGH WORD SAH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8CC, name: 'ARABIC SMALL HIGH WORD SAH', category: Cat::Nonspacing_Mark, informativeAliases: ['sign of waqf'])]
     case ARABIC_SMALL_HIGH_WORD_SAH = "\u{8CC}";
 
     #[Info(id: 0x8CD, name: 'ARABIC SMALL HIGH ZAH', category: Cat::Nonspacing_Mark)]
@@ -256,13 +256,13 @@ enum Arabic_ExtendedA: string
     #[Info(id: 0x8EF, name: 'ARABIC TONE LOOP BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_TONE_LOOP_BELOW = "\u{8EF}";
 
-    #[Info(id: 0x8F0, name: 'ARABIC OPEN FATHATAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F0, name: 'ARABIC OPEN FATHATAN', category: Cat::Nonspacing_Mark, informativeAliases: ['successive fathatan'])]
     case ARABIC_OPEN_FATHATAN = "\u{8F0}";
 
-    #[Info(id: 0x8F1, name: 'ARABIC OPEN DAMMATAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F1, name: 'ARABIC OPEN DAMMATAN', category: Cat::Nonspacing_Mark, informativeAliases: ['successive dammatan'])]
     case ARABIC_OPEN_DAMMATAN = "\u{8F1}";
 
-    #[Info(id: 0x8F2, name: 'ARABIC OPEN KASRATAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x8F2, name: 'ARABIC OPEN KASRATAN', category: Cat::Nonspacing_Mark, informativeAliases: ['successive kasratan'])]
     case ARABIC_OPEN_KASRATAN = "\u{8F2}";
 
     #[Info(id: 0x8F3, name: 'ARABIC SMALL HIGH WAW', category: Cat::Nonspacing_Mark)]

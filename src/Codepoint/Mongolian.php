@@ -49,19 +49,19 @@ enum Mongolian: string
     #[Info(id: 0x180A, name: 'MONGOLIAN NIRUGU', category: Cat::Other_Punctuation)]
     case MONGOLIAN_NIRUGU = "\u{180A}";
 
-    #[Info(id: 0x180B, name: 'MONGOLIAN FREE VARIATION SELECTOR ONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x180B, name: 'MONGOLIAN FREE VARIATION SELECTOR ONE', category: Cat::Nonspacing_Mark, abbreviations: ['FVS1'])]
     case MONGOLIAN_FREE_VARIATION_SELECTOR_ONE = "\u{180B}";
 
-    #[Info(id: 0x180C, name: 'MONGOLIAN FREE VARIATION SELECTOR TWO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x180C, name: 'MONGOLIAN FREE VARIATION SELECTOR TWO', category: Cat::Nonspacing_Mark, abbreviations: ['FVS2'])]
     case MONGOLIAN_FREE_VARIATION_SELECTOR_TWO = "\u{180C}";
 
-    #[Info(id: 0x180D, name: 'MONGOLIAN FREE VARIATION SELECTOR THREE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x180D, name: 'MONGOLIAN FREE VARIATION SELECTOR THREE', category: Cat::Nonspacing_Mark, abbreviations: ['FVS3'])]
     case MONGOLIAN_FREE_VARIATION_SELECTOR_THREE = "\u{180D}";
 
-    #[Info(id: 0x180E, name: 'MONGOLIAN VOWEL SEPARATOR', category: Cat::Format)]
+    #[Info(id: 0x180E, name: 'MONGOLIAN VOWEL SEPARATOR', category: Cat::Format, abbreviations: ['MVS'])]
     case MONGOLIAN_VOWEL_SEPARATOR = "\u{180E}";
 
-    #[Info(id: 0x180F, name: 'MONGOLIAN FREE VARIATION SELECTOR FOUR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x180F, name: 'MONGOLIAN FREE VARIATION SELECTOR FOUR', category: Cat::Nonspacing_Mark, abbreviations: ['FVS4'])]
     case MONGOLIAN_FREE_VARIATION_SELECTOR_FOUR = "\u{180F}";
 
     #[Info(id: 0x1810, name: 'MONGOLIAN DIGIT ZERO', category: Cat::Decimal_Number)]

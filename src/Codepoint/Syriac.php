@@ -43,7 +43,7 @@ enum Syriac: string
     #[Info(id: 0x708, name: 'SYRIAC SUPRALINEAR COLON SKEWED LEFT', category: Cat::Other_Punctuation)]
     case SYRIAC_SUPRALINEAR_COLON_SKEWED_LEFT = "\u{708}";
 
-    #[Info(id: 0x709, name: 'SYRIAC SUBLINEAR COLON SKEWED RIGHT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x709, name: 'SYRIAC SUBLINEAR COLON SKEWED RIGHT', category: Cat::Other_Punctuation, correctedNames: ['SYRIAC SUBLINEAR COLON SKEWED LEFT'])]
     case SYRIAC_SUBLINEAR_COLON_SKEWED_RIGHT = "\u{709}";
 
     #[Info(id: 0x70A, name: 'SYRIAC CONTRACTION', category: Cat::Other_Punctuation)]
@@ -58,7 +58,7 @@ enum Syriac: string
     #[Info(id: 0x70D, name: 'SYRIAC HARKLEAN ASTERISCUS', category: Cat::Other_Punctuation)]
     case SYRIAC_HARKLEAN_ASTERISCUS = "\u{70D}";
 
-    #[Info(id: 0x70F, name: 'SYRIAC ABBREVIATION MARK', category: Cat::Format)]
+    #[Info(id: 0x70F, name: 'SYRIAC ABBREVIATION MARK', category: Cat::Format, informativeAliases: ['SAM'])]
     case SYRIAC_ABBREVIATION_MARK = "\u{70F}";
 
     #[Info(id: 0x710, name: 'SYRIAC LETTER ALAPH', category: Cat::Other_Letter)]

@@ -214,25 +214,25 @@ enum Newa: string
     #[Info(id: 0x11441, name: 'NEWA VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case NEWA_VOWEL_SIGN_AU = "\u{11441}";
 
-    #[Info(id: 0x11442, name: 'NEWA SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11442, name: 'NEWA SIGN VIRAMA', category: Cat::Nonspacing_Mark, informativeAliases: ['tutisaalaa'])]
     case NEWA_SIGN_VIRAMA = "\u{11442}";
 
-    #[Info(id: 0x11443, name: 'NEWA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11443, name: 'NEWA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark, informativeAliases: ['milaaphuti'])]
     case NEWA_SIGN_CANDRABINDU = "\u{11443}";
 
-    #[Info(id: 0x11444, name: 'NEWA SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11444, name: 'NEWA SIGN ANUSVARA', category: Cat::Nonspacing_Mark, informativeAliases: ['sinhaphuti'])]
     case NEWA_SIGN_ANUSVARA = "\u{11444}";
 
-    #[Info(id: 0x11445, name: 'NEWA SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11445, name: 'NEWA SIGN VISARGA', category: Cat::Spacing_Mark, informativeAliases: ['liphuti'])]
     case NEWA_SIGN_VISARGA = "\u{11445}";
 
     #[Info(id: 0x11446, name: 'NEWA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case NEWA_SIGN_NUKTA = "\u{11446}";
 
-    #[Info(id: 0x11447, name: 'NEWA SIGN AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11447, name: 'NEWA SIGN AVAGRAHA', category: Cat::Other_Letter, informativeAliases: ['sulaa'])]
     case NEWA_SIGN_AVAGRAHA = "\u{11447}";
 
-    #[Info(id: 0x11448, name: 'NEWA SIGN FINAL ANUSVARA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11448, name: 'NEWA SIGN FINAL ANUSVARA', category: Cat::Other_Letter, informativeAliases: ['baadipu'])]
     case NEWA_SIGN_FINAL_ANUSVARA = "\u{11448}";
 
     #[Info(id: 0x11449, name: 'NEWA OM', category: Cat::Other_Letter)]
@@ -241,58 +241,58 @@ enum Newa: string
     #[Info(id: 0x1144A, name: 'NEWA SIDDHI', category: Cat::Other_Letter)]
     case NEWA_SIDDHI = "\u{1144A}";
 
-    #[Info(id: 0x1144B, name: 'NEWA DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1144B, name: 'NEWA DANDA', category: Cat::Other_Punctuation, informativeAliases: ['dipu'])]
     case NEWA_DANDA = "\u{1144B}";
 
     #[Info(id: 0x1144C, name: 'NEWA DOUBLE DANDA', category: Cat::Other_Punctuation)]
     case NEWA_DOUBLE_DANDA = "\u{1144C}";
 
-    #[Info(id: 0x1144D, name: 'NEWA COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1144D, name: 'NEWA COMMA', category: Cat::Other_Punctuation, informativeAliases: ['jhaasu'])]
     case NEWA_COMMA = "\u{1144D}";
 
-    #[Info(id: 0x1144E, name: 'NEWA GAP FILLER', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1144E, name: 'NEWA GAP FILLER', category: Cat::Other_Punctuation, informativeAliases: ['thaayjaayekaa'])]
     case NEWA_GAP_FILLER = "\u{1144E}";
 
     #[Info(id: 0x1144F, name: 'NEWA ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
     case NEWA_ABBREVIATION_SIGN = "\u{1144F}";
 
-    #[Info(id: 0x11450, name: 'NEWA DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11450, name: 'NEWA DIGIT ZERO', category: Cat::Decimal_Number, informativeAliases: ['guli'])]
     case NEWA_DIGIT_ZERO = "\u{11450}";
 
-    #[Info(id: 0x11451, name: 'NEWA DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11451, name: 'NEWA DIGIT ONE', category: Cat::Decimal_Number, informativeAliases: ['chi'])]
     case NEWA_DIGIT_ONE = "\u{11451}";
 
-    #[Info(id: 0x11452, name: 'NEWA DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11452, name: 'NEWA DIGIT TWO', category: Cat::Decimal_Number, informativeAliases: ['nasi'])]
     case NEWA_DIGIT_TWO = "\u{11452}";
 
-    #[Info(id: 0x11453, name: 'NEWA DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11453, name: 'NEWA DIGIT THREE', category: Cat::Decimal_Number, informativeAliases: ['swa'])]
     case NEWA_DIGIT_THREE = "\u{11453}";
 
-    #[Info(id: 0x11454, name: 'NEWA DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11454, name: 'NEWA DIGIT FOUR', category: Cat::Decimal_Number, informativeAliases: ['pi'])]
     case NEWA_DIGIT_FOUR = "\u{11454}";
 
-    #[Info(id: 0x11455, name: 'NEWA DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11455, name: 'NEWA DIGIT FIVE', category: Cat::Decimal_Number, informativeAliases: ['njaa'])]
     case NEWA_DIGIT_FIVE = "\u{11455}";
 
-    #[Info(id: 0x11456, name: 'NEWA DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11456, name: 'NEWA DIGIT SIX', category: Cat::Decimal_Number, informativeAliases: ['khu'])]
     case NEWA_DIGIT_SIX = "\u{11456}";
 
-    #[Info(id: 0x11457, name: 'NEWA DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11457, name: 'NEWA DIGIT SEVEN', category: Cat::Decimal_Number, informativeAliases: ['nhasa'])]
     case NEWA_DIGIT_SEVEN = "\u{11457}";
 
-    #[Info(id: 0x11458, name: 'NEWA DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11458, name: 'NEWA DIGIT EIGHT', category: Cat::Decimal_Number, informativeAliases: ['cyaa'])]
     case NEWA_DIGIT_EIGHT = "\u{11458}";
 
-    #[Info(id: 0x11459, name: 'NEWA DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11459, name: 'NEWA DIGIT NINE', category: Cat::Decimal_Number, informativeAliases: ['gu'])]
     case NEWA_DIGIT_NINE = "\u{11459}";
 
     #[Info(id: 0x1145A, name: 'NEWA DOUBLE COMMA', category: Cat::Other_Punctuation)]
     case NEWA_DOUBLE_COMMA = "\u{1145A}";
 
-    #[Info(id: 0x1145B, name: 'NEWA PLACEHOLDER MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1145B, name: 'NEWA PLACEHOLDER MARK', category: Cat::Other_Punctuation, informativeAliases: ['jaayekaa'])]
     case NEWA_PLACEHOLDER_MARK = "\u{1145B}";
 
-    #[Info(id: 0x1145D, name: 'NEWA INSERTION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1145D, name: 'NEWA INSERTION SIGN', category: Cat::Other_Punctuation, informativeAliases: ['tansaa'])]
     case NEWA_INSERTION_SIGN = "\u{1145D}";
 
     #[Info(id: 0x1145E, name: 'NEWA SANDHI MARK', category: Cat::Nonspacing_Mark)]

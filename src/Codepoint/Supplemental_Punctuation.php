@@ -70,7 +70,7 @@ enum Supplemental_Punctuation: string
     #[Info(id: 0x2E11, name: 'REVERSED FORKED PARAGRAPHOS', category: Cat::Other_Punctuation)]
     case REVERSED_FORKED_PARAGRAPHOS = "\u{2E11}";
 
-    #[Info(id: 0x2E12, name: 'HYPODIASTOLE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2E12, name: 'HYPODIASTOLE', category: Cat::Other_Punctuation, informativeAliases: ['ypodiastoli'])]
     case HYPODIASTOLE = "\u{2E12}";
 
     #[Info(id: 0x2E13, name: 'DOTTED OBELOS', category: Cat::Other_Punctuation)]
@@ -82,13 +82,13 @@ enum Supplemental_Punctuation: string
     #[Info(id: 0x2E15, name: 'UPWARDS ANCORA', category: Cat::Other_Punctuation)]
     case UPWARDS_ANCORA = "\u{2E15}";
 
-    #[Info(id: 0x2E16, name: 'DOTTED RIGHT-POINTING ANGLE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2E16, name: 'DOTTED RIGHT-POINTING ANGLE', category: Cat::Other_Punctuation, informativeAliases: ['diple periestigmene'])]
     case DOTTED_RIGHT_POINTING_ANGLE = "\u{2E16}";
 
     #[Info(id: 0x2E17, name: 'DOUBLE OBLIQUE HYPHEN', category: Cat::Dash_Punctuation)]
     case DOUBLE_OBLIQUE_HYPHEN = "\u{2E17}";
 
-    #[Info(id: 0x2E18, name: 'INVERTED INTERROBANG', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2E18, name: 'INVERTED INTERROBANG', category: Cat::Other_Punctuation, informativeAliases: ['gnaborretni'])]
     case INVERTED_INTERROBANG = "\u{2E18}";
 
     #[Info(id: 0x2E19, name: 'PALM BRANCH', category: Cat::Other_Punctuation)]
@@ -154,7 +154,7 @@ enum Supplemental_Punctuation: string
     #[Info(id: 0x2E2D, name: 'FIVE DOT MARK', category: Cat::Other_Punctuation)]
     case FIVE_DOT_MARK = "\u{2E2D}";
 
-    #[Info(id: 0x2E2E, name: 'REVERSED QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2E2E, name: 'REVERSED QUESTION MARK', category: Cat::Other_Punctuation, informativeAliases: ['punctus percontativus'])]
     case REVERSED_QUESTION_MARK = "\u{2E2E}";
 
     #[Info(id: 0x2E2F, name: 'VERTICAL TILDE', category: Cat::Modifier_Letter)]
@@ -190,7 +190,7 @@ enum Supplemental_Punctuation: string
     #[Info(id: 0x2E39, name: 'TOP HALF SECTION SIGN', category: Cat::Other_Punctuation)]
     case TOP_HALF_SECTION_SIGN = "\u{2E39}";
 
-    #[Info(id: 0x2E3A, name: 'TWO-EM DASH', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0x2E3A, name: 'TWO-EM DASH', category: Cat::Dash_Punctuation, informativeAliases: ['omission dash'])]
     case TWO_EM_DASH = "\u{2E3A}";
 
     #[Info(id: 0x2E3B, name: 'THREE-EM DASH', category: Cat::Dash_Punctuation)]
@@ -238,7 +238,7 @@ enum Supplemental_Punctuation: string
     #[Info(id: 0x2E49, name: 'DOUBLE STACKED COMMA', category: Cat::Other_Punctuation)]
     case DOUBLE_STACKED_COMMA = "\u{2E49}";
 
-    #[Info(id: 0x2E4A, name: 'DOTTED SOLIDUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x2E4A, name: 'DOTTED SOLIDUS', category: Cat::Other_Punctuation, informativeAliases: ['virgula suspensiva'])]
     case DOTTED_SOLIDUS = "\u{2E4A}";
 
     #[Info(id: 0x2E4B, name: 'TRIPLE DAGGER', category: Cat::Other_Punctuation)]

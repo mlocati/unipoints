@@ -22,7 +22,7 @@ enum CJK_Symbols_and_Punctuation: string
     #[Info(id: 0x3001, name: 'IDEOGRAPHIC COMMA', category: Cat::Other_Punctuation)]
     case IDEOGRAPHIC_COMMA = "\u{3001}";
 
-    #[Info(id: 0x3002, name: 'IDEOGRAPHIC FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x3002, name: 'IDEOGRAPHIC FULL STOP', category: Cat::Other_Punctuation, unicode1Name: 'IDEOGRAPHIC PERIOD')]
     case IDEOGRAPHIC_FULL_STOP = "\u{3002}";
 
     #[Info(id: 0x3003, name: 'DITTO MARK', category: Cat::Other_Punctuation)]
@@ -40,34 +40,34 @@ enum CJK_Symbols_and_Punctuation: string
     #[Info(id: 0x3007, name: 'IDEOGRAPHIC NUMBER ZERO', category: Cat::Letter_Number)]
     case IDEOGRAPHIC_NUMBER_ZERO = "\u{3007}";
 
-    #[Info(id: 0x3008, name: 'LEFT ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x3008, name: 'LEFT ANGLE BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'OPENING ANGLE BRACKET')]
     case LEFT_ANGLE_BRACKET = "\u{3008}";
 
-    #[Info(id: 0x3009, name: 'RIGHT ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x3009, name: 'RIGHT ANGLE BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING ANGLE BRACKET')]
     case RIGHT_ANGLE_BRACKET = "\u{3009}";
 
-    #[Info(id: 0x300A, name: 'LEFT DOUBLE ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x300A, name: 'LEFT DOUBLE ANGLE BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'OPENING DOUBLE ANGLE BRACKET')]
     case LEFT_DOUBLE_ANGLE_BRACKET = "\u{300A}";
 
-    #[Info(id: 0x300B, name: 'RIGHT DOUBLE ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x300B, name: 'RIGHT DOUBLE ANGLE BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING DOUBLE ANGLE BRACKET')]
     case RIGHT_DOUBLE_ANGLE_BRACKET = "\u{300B}";
 
-    #[Info(id: 0x300C, name: 'LEFT CORNER BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x300C, name: 'LEFT CORNER BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'OPENING CORNER BRACKET')]
     case LEFT_CORNER_BRACKET = "\u{300C}";
 
-    #[Info(id: 0x300D, name: 'RIGHT CORNER BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x300D, name: 'RIGHT CORNER BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING CORNER BRACKET')]
     case RIGHT_CORNER_BRACKET = "\u{300D}";
 
-    #[Info(id: 0x300E, name: 'LEFT WHITE CORNER BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x300E, name: 'LEFT WHITE CORNER BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'OPENING WHITE CORNER BRACKET')]
     case LEFT_WHITE_CORNER_BRACKET = "\u{300E}";
 
-    #[Info(id: 0x300F, name: 'RIGHT WHITE CORNER BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x300F, name: 'RIGHT WHITE CORNER BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING WHITE CORNER BRACKET')]
     case RIGHT_WHITE_CORNER_BRACKET = "\u{300F}";
 
-    #[Info(id: 0x3010, name: 'LEFT BLACK LENTICULAR BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x3010, name: 'LEFT BLACK LENTICULAR BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'OPENING BLACK LENTICULAR BRACKET')]
     case LEFT_BLACK_LENTICULAR_BRACKET = "\u{3010}";
 
-    #[Info(id: 0x3011, name: 'RIGHT BLACK LENTICULAR BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x3011, name: 'RIGHT BLACK LENTICULAR BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING BLACK LENTICULAR BRACKET')]
     case RIGHT_BLACK_LENTICULAR_BRACKET = "\u{3011}";
 
     #[Info(id: 0x3012, name: 'POSTAL MARK', category: Cat::Other_Symbol)]
@@ -76,28 +76,28 @@ enum CJK_Symbols_and_Punctuation: string
     #[Info(id: 0x3013, name: 'GETA MARK', category: Cat::Other_Symbol)]
     case GETA_MARK = "\u{3013}";
 
-    #[Info(id: 0x3014, name: 'LEFT TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x3014, name: 'LEFT TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'OPENING TORTOISE SHELL BRACKET')]
     case LEFT_TORTOISE_SHELL_BRACKET = "\u{3014}";
 
-    #[Info(id: 0x3015, name: 'RIGHT TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x3015, name: 'RIGHT TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING TORTOISE SHELL BRACKET')]
     case RIGHT_TORTOISE_SHELL_BRACKET = "\u{3015}";
 
-    #[Info(id: 0x3016, name: 'LEFT WHITE LENTICULAR BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x3016, name: 'LEFT WHITE LENTICULAR BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'OPENING WHITE LENTICULAR BRACKET')]
     case LEFT_WHITE_LENTICULAR_BRACKET = "\u{3016}";
 
-    #[Info(id: 0x3017, name: 'RIGHT WHITE LENTICULAR BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x3017, name: 'RIGHT WHITE LENTICULAR BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING WHITE LENTICULAR BRACKET')]
     case RIGHT_WHITE_LENTICULAR_BRACKET = "\u{3017}";
 
-    #[Info(id: 0x3018, name: 'LEFT WHITE TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x3018, name: 'LEFT WHITE TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'OPENING WHITE TORTOISE SHELL BRACKET')]
     case LEFT_WHITE_TORTOISE_SHELL_BRACKET = "\u{3018}";
 
-    #[Info(id: 0x3019, name: 'RIGHT WHITE TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x3019, name: 'RIGHT WHITE TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING WHITE TORTOISE SHELL BRACKET')]
     case RIGHT_WHITE_TORTOISE_SHELL_BRACKET = "\u{3019}";
 
-    #[Info(id: 0x301A, name: 'LEFT WHITE SQUARE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x301A, name: 'LEFT WHITE SQUARE BRACKET', category: Cat::Open_Punctuation, unicode1Name: 'OPENING WHITE SQUARE BRACKET', informativeAliases: ['left abstract syntax bracket'])]
     case LEFT_WHITE_SQUARE_BRACKET = "\u{301A}";
 
-    #[Info(id: 0x301B, name: 'RIGHT WHITE SQUARE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x301B, name: 'RIGHT WHITE SQUARE BRACKET', category: Cat::Close_Punctuation, unicode1Name: 'CLOSING WHITE SQUARE BRACKET', informativeAliases: ['right abstract syntax bracket'])]
     case RIGHT_WHITE_SQUARE_BRACKET = "\u{301B}";
 
     #[Info(id: 0x301C, name: 'WAVE DASH', category: Cat::Dash_Punctuation)]
@@ -154,10 +154,10 @@ enum CJK_Symbols_and_Punctuation: string
     #[Info(id: 0x302D, name: 'IDEOGRAPHIC ENTERING TONE MARK', category: Cat::Nonspacing_Mark)]
     case IDEOGRAPHIC_ENTERING_TONE_MARK = "\u{302D}";
 
-    #[Info(id: 0x302E, name: 'HANGUL SINGLE DOT TONE MARK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x302E, name: 'HANGUL SINGLE DOT TONE MARK', category: Cat::Spacing_Mark, informativeAliases: ['single dot Bangjeom'])]
     case HANGUL_SINGLE_DOT_TONE_MARK = "\u{302E}";
 
-    #[Info(id: 0x302F, name: 'HANGUL DOUBLE DOT TONE MARK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x302F, name: 'HANGUL DOUBLE DOT TONE MARK', category: Cat::Spacing_Mark, informativeAliases: ['double dot Bangjeom'])]
     case HANGUL_DOUBLE_DOT_TONE_MARK = "\u{302F}";
 
     #[Info(id: 0x3030, name: 'WAVY DASH', category: Cat::Dash_Punctuation)]
@@ -178,7 +178,7 @@ enum CJK_Symbols_and_Punctuation: string
     #[Info(id: 0x3035, name: 'VERTICAL KANA REPEAT MARK LOWER HALF', category: Cat::Modifier_Letter)]
     case VERTICAL_KANA_REPEAT_MARK_LOWER_HALF = "\u{3035}";
 
-    #[Info(id: 0x3036, name: 'CIRCLED POSTAL MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x3036, name: 'CIRCLED POSTAL MARK', category: Cat::Other_Symbol, informativeAliases: ['symbol for type B electronics'])]
     case CIRCLED_POSTAL_MARK = "\u{3036}";
 
     #[Info(id: 0x3037, name: 'IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL', category: Cat::Other_Symbol)]

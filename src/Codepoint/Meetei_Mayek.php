@@ -16,16 +16,16 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Meetei_Mayek: string
 {
-    #[Info(id: 0xABC0, name: 'MEETEI MAYEK LETTER KOK', category: Cat::Other_Letter)]
+    #[Info(id: 0xABC0, name: 'MEETEI MAYEK LETTER KOK', category: Cat::Other_Letter, informativeAliases: ['ka'])]
     case MEETEI_MAYEK_LETTER_KOK = "\u{ABC0}";
 
-    #[Info(id: 0xABC1, name: 'MEETEI MAYEK LETTER SAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABC1, name: 'MEETEI MAYEK LETTER SAM', category: Cat::Other_Letter, informativeAliases: ['sa'])]
     case MEETEI_MAYEK_LETTER_SAM = "\u{ABC1}";
 
-    #[Info(id: 0xABC2, name: 'MEETEI MAYEK LETTER LAI', category: Cat::Other_Letter)]
+    #[Info(id: 0xABC2, name: 'MEETEI MAYEK LETTER LAI', category: Cat::Other_Letter, informativeAliases: ['la'])]
     case MEETEI_MAYEK_LETTER_LAI = "\u{ABC2}";
 
-    #[Info(id: 0xABC3, name: 'MEETEI MAYEK LETTER MIT', category: Cat::Other_Letter)]
+    #[Info(id: 0xABC3, name: 'MEETEI MAYEK LETTER MIT', category: Cat::Other_Letter, informativeAliases: ['ma'])]
     case MEETEI_MAYEK_LETTER_MIT = "\u{ABC3}";
 
     #[Info(id: 0xABC4, name: 'MEETEI MAYEK LETTER PA', category: Cat::Other_Letter)]
@@ -34,153 +34,153 @@ enum Meetei_Mayek: string
     #[Info(id: 0xABC5, name: 'MEETEI MAYEK LETTER NA', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_NA = "\u{ABC5}";
 
-    #[Info(id: 0xABC6, name: 'MEETEI MAYEK LETTER CHIL', category: Cat::Other_Letter)]
+    #[Info(id: 0xABC6, name: 'MEETEI MAYEK LETTER CHIL', category: Cat::Other_Letter, informativeAliases: ['ca'])]
     case MEETEI_MAYEK_LETTER_CHIL = "\u{ABC6}";
 
-    #[Info(id: 0xABC7, name: 'MEETEI MAYEK LETTER TIL', category: Cat::Other_Letter)]
+    #[Info(id: 0xABC7, name: 'MEETEI MAYEK LETTER TIL', category: Cat::Other_Letter, informativeAliases: ['ta'])]
     case MEETEI_MAYEK_LETTER_TIL = "\u{ABC7}";
 
-    #[Info(id: 0xABC8, name: 'MEETEI MAYEK LETTER KHOU', category: Cat::Other_Letter)]
+    #[Info(id: 0xABC8, name: 'MEETEI MAYEK LETTER KHOU', category: Cat::Other_Letter, informativeAliases: ['kha'])]
     case MEETEI_MAYEK_LETTER_KHOU = "\u{ABC8}";
 
-    #[Info(id: 0xABC9, name: 'MEETEI MAYEK LETTER NGOU', category: Cat::Other_Letter)]
+    #[Info(id: 0xABC9, name: 'MEETEI MAYEK LETTER NGOU', category: Cat::Other_Letter, informativeAliases: ['nga'])]
     case MEETEI_MAYEK_LETTER_NGOU = "\u{ABC9}";
 
-    #[Info(id: 0xABCA, name: 'MEETEI MAYEK LETTER THOU', category: Cat::Other_Letter)]
+    #[Info(id: 0xABCA, name: 'MEETEI MAYEK LETTER THOU', category: Cat::Other_Letter, informativeAliases: ['tha'])]
     case MEETEI_MAYEK_LETTER_THOU = "\u{ABCA}";
 
-    #[Info(id: 0xABCB, name: 'MEETEI MAYEK LETTER WAI', category: Cat::Other_Letter)]
+    #[Info(id: 0xABCB, name: 'MEETEI MAYEK LETTER WAI', category: Cat::Other_Letter, informativeAliases: ['wa'])]
     case MEETEI_MAYEK_LETTER_WAI = "\u{ABCB}";
 
-    #[Info(id: 0xABCC, name: 'MEETEI MAYEK LETTER YANG', category: Cat::Other_Letter)]
+    #[Info(id: 0xABCC, name: 'MEETEI MAYEK LETTER YANG', category: Cat::Other_Letter, informativeAliases: ['ya'])]
     case MEETEI_MAYEK_LETTER_YANG = "\u{ABCC}";
 
-    #[Info(id: 0xABCD, name: 'MEETEI MAYEK LETTER HUK', category: Cat::Other_Letter)]
+    #[Info(id: 0xABCD, name: 'MEETEI MAYEK LETTER HUK', category: Cat::Other_Letter, informativeAliases: ['ha'])]
     case MEETEI_MAYEK_LETTER_HUK = "\u{ABCD}";
 
-    #[Info(id: 0xABCE, name: 'MEETEI MAYEK LETTER UN', category: Cat::Other_Letter)]
+    #[Info(id: 0xABCE, name: 'MEETEI MAYEK LETTER UN', category: Cat::Other_Letter, informativeAliases: ['u'])]
     case MEETEI_MAYEK_LETTER_UN = "\u{ABCE}";
 
     #[Info(id: 0xABCF, name: 'MEETEI MAYEK LETTER I', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_I = "\u{ABCF}";
 
-    #[Info(id: 0xABD0, name: 'MEETEI MAYEK LETTER PHAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABD0, name: 'MEETEI MAYEK LETTER PHAM', category: Cat::Other_Letter, informativeAliases: ['pha'])]
     case MEETEI_MAYEK_LETTER_PHAM = "\u{ABD0}";
 
-    #[Info(id: 0xABD1, name: 'MEETEI MAYEK LETTER ATIYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xABD1, name: 'MEETEI MAYEK LETTER ATIYA', category: Cat::Other_Letter, informativeAliases: ['a'])]
     case MEETEI_MAYEK_LETTER_ATIYA = "\u{ABD1}";
 
-    #[Info(id: 0xABD2, name: 'MEETEI MAYEK LETTER GOK', category: Cat::Other_Letter)]
+    #[Info(id: 0xABD2, name: 'MEETEI MAYEK LETTER GOK', category: Cat::Other_Letter, informativeAliases: ['ga'])]
     case MEETEI_MAYEK_LETTER_GOK = "\u{ABD2}";
 
-    #[Info(id: 0xABD3, name: 'MEETEI MAYEK LETTER JHAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABD3, name: 'MEETEI MAYEK LETTER JHAM', category: Cat::Other_Letter, informativeAliases: ['jha'])]
     case MEETEI_MAYEK_LETTER_JHAM = "\u{ABD3}";
 
-    #[Info(id: 0xABD4, name: 'MEETEI MAYEK LETTER RAI', category: Cat::Other_Letter)]
+    #[Info(id: 0xABD4, name: 'MEETEI MAYEK LETTER RAI', category: Cat::Other_Letter, informativeAliases: ['ra'])]
     case MEETEI_MAYEK_LETTER_RAI = "\u{ABD4}";
 
     #[Info(id: 0xABD5, name: 'MEETEI MAYEK LETTER BA', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_BA = "\u{ABD5}";
 
-    #[Info(id: 0xABD6, name: 'MEETEI MAYEK LETTER JIL', category: Cat::Other_Letter)]
+    #[Info(id: 0xABD6, name: 'MEETEI MAYEK LETTER JIL', category: Cat::Other_Letter, informativeAliases: ['ja'])]
     case MEETEI_MAYEK_LETTER_JIL = "\u{ABD6}";
 
-    #[Info(id: 0xABD7, name: 'MEETEI MAYEK LETTER DIL', category: Cat::Other_Letter)]
+    #[Info(id: 0xABD7, name: 'MEETEI MAYEK LETTER DIL', category: Cat::Other_Letter, informativeAliases: ['da'])]
     case MEETEI_MAYEK_LETTER_DIL = "\u{ABD7}";
 
-    #[Info(id: 0xABD8, name: 'MEETEI MAYEK LETTER GHOU', category: Cat::Other_Letter)]
+    #[Info(id: 0xABD8, name: 'MEETEI MAYEK LETTER GHOU', category: Cat::Other_Letter, informativeAliases: ['gha'])]
     case MEETEI_MAYEK_LETTER_GHOU = "\u{ABD8}";
 
-    #[Info(id: 0xABD9, name: 'MEETEI MAYEK LETTER DHOU', category: Cat::Other_Letter)]
+    #[Info(id: 0xABD9, name: 'MEETEI MAYEK LETTER DHOU', category: Cat::Other_Letter, informativeAliases: ['dha'])]
     case MEETEI_MAYEK_LETTER_DHOU = "\u{ABD9}";
 
-    #[Info(id: 0xABDA, name: 'MEETEI MAYEK LETTER BHAM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABDA, name: 'MEETEI MAYEK LETTER BHAM', category: Cat::Other_Letter, informativeAliases: ['bha'])]
     case MEETEI_MAYEK_LETTER_BHAM = "\u{ABDA}";
 
-    #[Info(id: 0xABDB, name: 'MEETEI MAYEK LETTER KOK LONSUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABDB, name: 'MEETEI MAYEK LETTER KOK LONSUM', category: Cat::Other_Letter, informativeAliases: ['k'])]
     case MEETEI_MAYEK_LETTER_KOK_LONSUM = "\u{ABDB}";
 
-    #[Info(id: 0xABDC, name: 'MEETEI MAYEK LETTER LAI LONSUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABDC, name: 'MEETEI MAYEK LETTER LAI LONSUM', category: Cat::Other_Letter, informativeAliases: ['l'])]
     case MEETEI_MAYEK_LETTER_LAI_LONSUM = "\u{ABDC}";
 
-    #[Info(id: 0xABDD, name: 'MEETEI MAYEK LETTER MIT LONSUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABDD, name: 'MEETEI MAYEK LETTER MIT LONSUM', category: Cat::Other_Letter, informativeAliases: ['m'])]
     case MEETEI_MAYEK_LETTER_MIT_LONSUM = "\u{ABDD}";
 
-    #[Info(id: 0xABDE, name: 'MEETEI MAYEK LETTER PA LONSUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABDE, name: 'MEETEI MAYEK LETTER PA LONSUM', category: Cat::Other_Letter, informativeAliases: ['p'])]
     case MEETEI_MAYEK_LETTER_PA_LONSUM = "\u{ABDE}";
 
-    #[Info(id: 0xABDF, name: 'MEETEI MAYEK LETTER NA LONSUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABDF, name: 'MEETEI MAYEK LETTER NA LONSUM', category: Cat::Other_Letter, informativeAliases: ['n'])]
     case MEETEI_MAYEK_LETTER_NA_LONSUM = "\u{ABDF}";
 
-    #[Info(id: 0xABE0, name: 'MEETEI MAYEK LETTER TIL LONSUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABE0, name: 'MEETEI MAYEK LETTER TIL LONSUM', category: Cat::Other_Letter, informativeAliases: ['t'])]
     case MEETEI_MAYEK_LETTER_TIL_LONSUM = "\u{ABE0}";
 
-    #[Info(id: 0xABE1, name: 'MEETEI MAYEK LETTER NGOU LONSUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABE1, name: 'MEETEI MAYEK LETTER NGOU LONSUM', category: Cat::Other_Letter, informativeAliases: ['ng'])]
     case MEETEI_MAYEK_LETTER_NGOU_LONSUM = "\u{ABE1}";
 
-    #[Info(id: 0xABE2, name: 'MEETEI MAYEK LETTER I LONSUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xABE2, name: 'MEETEI MAYEK LETTER I LONSUM', category: Cat::Other_Letter, informativeAliases: ['i'])]
     case MEETEI_MAYEK_LETTER_I_LONSUM = "\u{ABE2}";
 
-    #[Info(id: 0xABE3, name: 'MEETEI MAYEK VOWEL SIGN ONAP', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xABE3, name: 'MEETEI MAYEK VOWEL SIGN ONAP', category: Cat::Spacing_Mark, informativeAliases: ['o'])]
     case MEETEI_MAYEK_VOWEL_SIGN_ONAP = "\u{ABE3}";
 
-    #[Info(id: 0xABE4, name: 'MEETEI MAYEK VOWEL SIGN INAP', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xABE4, name: 'MEETEI MAYEK VOWEL SIGN INAP', category: Cat::Spacing_Mark, informativeAliases: ['i'])]
     case MEETEI_MAYEK_VOWEL_SIGN_INAP = "\u{ABE4}";
 
-    #[Info(id: 0xABE5, name: 'MEETEI MAYEK VOWEL SIGN ANAP', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xABE5, name: 'MEETEI MAYEK VOWEL SIGN ANAP', category: Cat::Nonspacing_Mark, informativeAliases: ['aa'])]
     case MEETEI_MAYEK_VOWEL_SIGN_ANAP = "\u{ABE5}";
 
-    #[Info(id: 0xABE6, name: 'MEETEI MAYEK VOWEL SIGN YENAP', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xABE6, name: 'MEETEI MAYEK VOWEL SIGN YENAP', category: Cat::Spacing_Mark, informativeAliases: ['e'])]
     case MEETEI_MAYEK_VOWEL_SIGN_YENAP = "\u{ABE6}";
 
-    #[Info(id: 0xABE7, name: 'MEETEI MAYEK VOWEL SIGN SOUNAP', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xABE7, name: 'MEETEI MAYEK VOWEL SIGN SOUNAP', category: Cat::Spacing_Mark, informativeAliases: ['ou'])]
     case MEETEI_MAYEK_VOWEL_SIGN_SOUNAP = "\u{ABE7}";
 
-    #[Info(id: 0xABE8, name: 'MEETEI MAYEK VOWEL SIGN UNAP', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xABE8, name: 'MEETEI MAYEK VOWEL SIGN UNAP', category: Cat::Nonspacing_Mark, informativeAliases: ['u'])]
     case MEETEI_MAYEK_VOWEL_SIGN_UNAP = "\u{ABE8}";
 
-    #[Info(id: 0xABE9, name: 'MEETEI MAYEK VOWEL SIGN CHEINAP', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xABE9, name: 'MEETEI MAYEK VOWEL SIGN CHEINAP', category: Cat::Spacing_Mark, informativeAliases: ['ei'])]
     case MEETEI_MAYEK_VOWEL_SIGN_CHEINAP = "\u{ABE9}";
 
-    #[Info(id: 0xABEA, name: 'MEETEI MAYEK VOWEL SIGN NUNG', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xABEA, name: 'MEETEI MAYEK VOWEL SIGN NUNG', category: Cat::Spacing_Mark, informativeAliases: ['anusvara'])]
     case MEETEI_MAYEK_VOWEL_SIGN_NUNG = "\u{ABEA}";
 
-    #[Info(id: 0xABEB, name: 'MEETEI MAYEK CHEIKHEI', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xABEB, name: 'MEETEI MAYEK CHEIKHEI', category: Cat::Other_Punctuation, informativeAliases: ['double danda'])]
     case MEETEI_MAYEK_CHEIKHEI = "\u{ABEB}";
 
-    #[Info(id: 0xABEC, name: 'MEETEI MAYEK LUM IYEK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xABEC, name: 'MEETEI MAYEK LUM IYEK', category: Cat::Spacing_Mark, informativeAliases: ['heavy tone'])]
     case MEETEI_MAYEK_LUM_IYEK = "\u{ABEC}";
 
-    #[Info(id: 0xABED, name: 'MEETEI MAYEK APUN IYEK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xABED, name: 'MEETEI MAYEK APUN IYEK', category: Cat::Nonspacing_Mark, informativeAliases: ['killer'])]
     case MEETEI_MAYEK_APUN_IYEK = "\u{ABED}";
 
-    #[Info(id: 0xABF0, name: 'MEETEI MAYEK DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xABF0, name: 'MEETEI MAYEK DIGIT ZERO', category: Cat::Decimal_Number, informativeAliases: ['phun'])]
     case MEETEI_MAYEK_DIGIT_ZERO = "\u{ABF0}";
 
-    #[Info(id: 0xABF1, name: 'MEETEI MAYEK DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xABF1, name: 'MEETEI MAYEK DIGIT ONE', category: Cat::Decimal_Number, informativeAliases: ['ama'])]
     case MEETEI_MAYEK_DIGIT_ONE = "\u{ABF1}";
 
-    #[Info(id: 0xABF2, name: 'MEETEI MAYEK DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xABF2, name: 'MEETEI MAYEK DIGIT TWO', category: Cat::Decimal_Number, informativeAliases: ['ani'])]
     case MEETEI_MAYEK_DIGIT_TWO = "\u{ABF2}";
 
-    #[Info(id: 0xABF3, name: 'MEETEI MAYEK DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xABF3, name: 'MEETEI MAYEK DIGIT THREE', category: Cat::Decimal_Number, informativeAliases: ['ahum'])]
     case MEETEI_MAYEK_DIGIT_THREE = "\u{ABF3}";
 
-    #[Info(id: 0xABF4, name: 'MEETEI MAYEK DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xABF4, name: 'MEETEI MAYEK DIGIT FOUR', category: Cat::Decimal_Number, informativeAliases: ['mari'])]
     case MEETEI_MAYEK_DIGIT_FOUR = "\u{ABF4}";
 
-    #[Info(id: 0xABF5, name: 'MEETEI MAYEK DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xABF5, name: 'MEETEI MAYEK DIGIT FIVE', category: Cat::Decimal_Number, informativeAliases: ['manga'])]
     case MEETEI_MAYEK_DIGIT_FIVE = "\u{ABF5}";
 
-    #[Info(id: 0xABF6, name: 'MEETEI MAYEK DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xABF6, name: 'MEETEI MAYEK DIGIT SIX', category: Cat::Decimal_Number, informativeAliases: ['taruk'])]
     case MEETEI_MAYEK_DIGIT_SIX = "\u{ABF6}";
 
-    #[Info(id: 0xABF7, name: 'MEETEI MAYEK DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xABF7, name: 'MEETEI MAYEK DIGIT SEVEN', category: Cat::Decimal_Number, informativeAliases: ['taret'])]
     case MEETEI_MAYEK_DIGIT_SEVEN = "\u{ABF7}";
 
-    #[Info(id: 0xABF8, name: 'MEETEI MAYEK DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xABF8, name: 'MEETEI MAYEK DIGIT EIGHT', category: Cat::Decimal_Number, informativeAliases: ['nipal'])]
     case MEETEI_MAYEK_DIGIT_EIGHT = "\u{ABF8}";
 
-    #[Info(id: 0xABF9, name: 'MEETEI MAYEK DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xABF9, name: 'MEETEI MAYEK DIGIT NINE', category: Cat::Decimal_Number, informativeAliases: ['mapal'])]
     case MEETEI_MAYEK_DIGIT_NINE = "\u{ABF9}";
 }

@@ -151,19 +151,19 @@ enum Indic_Siyaq_Numbers: string
     #[Info(id: 0x1EC9D, name: 'INDIC SIYAQ NUMBER NINETY THOUSAND', category: Cat::Other_Number)]
     case INDIC_SIYAQ_NUMBER_NINETY_THOUSAND = "\u{1EC9D}";
 
-    #[Info(id: 0x1EC9E, name: 'INDIC SIYAQ NUMBER LAKH', category: Cat::Other_Number)]
+    #[Info(id: 0x1EC9E, name: 'INDIC SIYAQ NUMBER LAKH', category: Cat::Other_Number, informativeAliases: ['1 lakh', '100,000'])]
     case INDIC_SIYAQ_NUMBER_LAKH = "\u{1EC9E}";
 
-    #[Info(id: 0x1EC9F, name: 'INDIC SIYAQ NUMBER LAKHAN', category: Cat::Other_Number)]
+    #[Info(id: 0x1EC9F, name: 'INDIC SIYAQ NUMBER LAKHAN', category: Cat::Other_Number, informativeAliases: ['2 lakh', '200,000'])]
     case INDIC_SIYAQ_NUMBER_LAKHAN = "\u{1EC9F}";
 
     #[Info(id: 0x1ECA0, name: 'INDIC SIYAQ LAKH MARK', category: Cat::Other_Number)]
     case INDIC_SIYAQ_LAKH_MARK = "\u{1ECA0}";
 
-    #[Info(id: 0x1ECA1, name: 'INDIC SIYAQ NUMBER KAROR', category: Cat::Other_Number)]
+    #[Info(id: 0x1ECA1, name: 'INDIC SIYAQ NUMBER KAROR', category: Cat::Other_Number, informativeAliases: ['1 crore', '10 million', '100 lakh'])]
     case INDIC_SIYAQ_NUMBER_KAROR = "\u{1ECA1}";
 
-    #[Info(id: 0x1ECA2, name: 'INDIC SIYAQ NUMBER KARORAN', category: Cat::Other_Number)]
+    #[Info(id: 0x1ECA2, name: 'INDIC SIYAQ NUMBER KARORAN', category: Cat::Other_Number, informativeAliases: ['2 crore', '20 million', '200 lakh'])]
     case INDIC_SIYAQ_NUMBER_KARORAN = "\u{1ECA2}";
 
     #[Info(id: 0x1ECA3, name: 'INDIC SIYAQ NUMBER PREFIXED ONE', category: Cat::Other_Number)]

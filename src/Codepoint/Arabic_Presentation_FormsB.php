@@ -16,426 +16,426 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Arabic_Presentation_FormsB: string
 {
-    #[Info(id: 0xFE70, name: 'ARABIC FATHATAN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE70, name: 'ARABIC FATHATAN ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC SPACING FATHATAN')]
     case ARABIC_FATHATAN_ISOLATED_FORM = "\u{FE70}";
 
-    #[Info(id: 0xFE71, name: 'ARABIC TATWEEL WITH FATHATAN ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE71, name: 'ARABIC TATWEEL WITH FATHATAN ABOVE', category: Cat::Other_Letter, unicode1Name: 'ARABIC FATHATAN ON TATWEEL')]
     case ARABIC_TATWEEL_WITH_FATHATAN_ABOVE = "\u{FE71}";
 
-    #[Info(id: 0xFE72, name: 'ARABIC DAMMATAN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE72, name: 'ARABIC DAMMATAN ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC SPACING DAMMATAN')]
     case ARABIC_DAMMATAN_ISOLATED_FORM = "\u{FE72}";
 
     #[Info(id: 0xFE73, name: 'ARABIC TAIL FRAGMENT', category: Cat::Other_Letter)]
     case ARABIC_TAIL_FRAGMENT = "\u{FE73}";
 
-    #[Info(id: 0xFE74, name: 'ARABIC KASRATAN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE74, name: 'ARABIC KASRATAN ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC SPACING KASRATAN')]
     case ARABIC_KASRATAN_ISOLATED_FORM = "\u{FE74}";
 
-    #[Info(id: 0xFE76, name: 'ARABIC FATHA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE76, name: 'ARABIC FATHA ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC SPACING FATHAH')]
     case ARABIC_FATHA_ISOLATED_FORM = "\u{FE76}";
 
-    #[Info(id: 0xFE77, name: 'ARABIC FATHA MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE77, name: 'ARABIC FATHA MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC FATHAH ON TATWEEL')]
     case ARABIC_FATHA_MEDIAL_FORM = "\u{FE77}";
 
-    #[Info(id: 0xFE78, name: 'ARABIC DAMMA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE78, name: 'ARABIC DAMMA ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC SPACING DAMMAH')]
     case ARABIC_DAMMA_ISOLATED_FORM = "\u{FE78}";
 
-    #[Info(id: 0xFE79, name: 'ARABIC DAMMA MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE79, name: 'ARABIC DAMMA MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC DAMMAH ON TATWEEL')]
     case ARABIC_DAMMA_MEDIAL_FORM = "\u{FE79}";
 
-    #[Info(id: 0xFE7A, name: 'ARABIC KASRA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE7A, name: 'ARABIC KASRA ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC SPACING KASRAH')]
     case ARABIC_KASRA_ISOLATED_FORM = "\u{FE7A}";
 
-    #[Info(id: 0xFE7B, name: 'ARABIC KASRA MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE7B, name: 'ARABIC KASRA MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC KASRAH ON TATWEEL')]
     case ARABIC_KASRA_MEDIAL_FORM = "\u{FE7B}";
 
-    #[Info(id: 0xFE7C, name: 'ARABIC SHADDA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE7C, name: 'ARABIC SHADDA ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC SPACING SHADDAH')]
     case ARABIC_SHADDA_ISOLATED_FORM = "\u{FE7C}";
 
-    #[Info(id: 0xFE7D, name: 'ARABIC SHADDA MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE7D, name: 'ARABIC SHADDA MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC SHADDAH ON TATWEEL')]
     case ARABIC_SHADDA_MEDIAL_FORM = "\u{FE7D}";
 
-    #[Info(id: 0xFE7E, name: 'ARABIC SUKUN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE7E, name: 'ARABIC SUKUN ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC SPACING SUKUN')]
     case ARABIC_SUKUN_ISOLATED_FORM = "\u{FE7E}";
 
-    #[Info(id: 0xFE7F, name: 'ARABIC SUKUN MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE7F, name: 'ARABIC SUKUN MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'ARABIC SUKUN ON TATWEEL')]
     case ARABIC_SUKUN_MEDIAL_FORM = "\u{FE7F}";
 
-    #[Info(id: 0xFE80, name: 'ARABIC LETTER HAMZA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE80, name: 'ARABIC LETTER HAMZA ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC HAMZAH')]
     case ARABIC_LETTER_HAMZA_ISOLATED_FORM = "\u{FE80}";
 
-    #[Info(id: 0xFE81, name: 'ARABIC LETTER ALEF WITH MADDA ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE81, name: 'ARABIC LETTER ALEF WITH MADDA ABOVE ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC MADDAH ON ALEF')]
     case ARABIC_LETTER_ALEF_WITH_MADDA_ABOVE_ISOLATED_FORM = "\u{FE81}";
 
-    #[Info(id: 0xFE82, name: 'ARABIC LETTER ALEF WITH MADDA ABOVE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE82, name: 'ARABIC LETTER ALEF WITH MADDA ABOVE FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC MADDAH ON ALEF')]
     case ARABIC_LETTER_ALEF_WITH_MADDA_ABOVE_FINAL_FORM = "\u{FE82}";
 
-    #[Info(id: 0xFE83, name: 'ARABIC LETTER ALEF WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE83, name: 'ARABIC LETTER ALEF WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC HAMZAH ON ALEF')]
     case ARABIC_LETTER_ALEF_WITH_HAMZA_ABOVE_ISOLATED_FORM = "\u{FE83}";
 
-    #[Info(id: 0xFE84, name: 'ARABIC LETTER ALEF WITH HAMZA ABOVE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE84, name: 'ARABIC LETTER ALEF WITH HAMZA ABOVE FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC HAMZAH ON ALEF')]
     case ARABIC_LETTER_ALEF_WITH_HAMZA_ABOVE_FINAL_FORM = "\u{FE84}";
 
-    #[Info(id: 0xFE85, name: 'ARABIC LETTER WAW WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE85, name: 'ARABIC LETTER WAW WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC HAMZAH ON WAW')]
     case ARABIC_LETTER_WAW_WITH_HAMZA_ABOVE_ISOLATED_FORM = "\u{FE85}";
 
-    #[Info(id: 0xFE86, name: 'ARABIC LETTER WAW WITH HAMZA ABOVE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE86, name: 'ARABIC LETTER WAW WITH HAMZA ABOVE FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC HAMZAH ON WAW')]
     case ARABIC_LETTER_WAW_WITH_HAMZA_ABOVE_FINAL_FORM = "\u{FE86}";
 
-    #[Info(id: 0xFE87, name: 'ARABIC LETTER ALEF WITH HAMZA BELOW ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE87, name: 'ARABIC LETTER ALEF WITH HAMZA BELOW ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC HAMZAH UNDER ALEF')]
     case ARABIC_LETTER_ALEF_WITH_HAMZA_BELOW_ISOLATED_FORM = "\u{FE87}";
 
-    #[Info(id: 0xFE88, name: 'ARABIC LETTER ALEF WITH HAMZA BELOW FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE88, name: 'ARABIC LETTER ALEF WITH HAMZA BELOW FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC HAMZAH UNDER ALEF')]
     case ARABIC_LETTER_ALEF_WITH_HAMZA_BELOW_FINAL_FORM = "\u{FE88}";
 
-    #[Info(id: 0xFE89, name: 'ARABIC LETTER YEH WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE89, name: 'ARABIC LETTER YEH WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC HAMZAH ON YA')]
     case ARABIC_LETTER_YEH_WITH_HAMZA_ABOVE_ISOLATED_FORM = "\u{FE89}";
 
-    #[Info(id: 0xFE8A, name: 'ARABIC LETTER YEH WITH HAMZA ABOVE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE8A, name: 'ARABIC LETTER YEH WITH HAMZA ABOVE FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC HAMZAH ON YA')]
     case ARABIC_LETTER_YEH_WITH_HAMZA_ABOVE_FINAL_FORM = "\u{FE8A}";
 
-    #[Info(id: 0xFE8B, name: 'ARABIC LETTER YEH WITH HAMZA ABOVE INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE8B, name: 'ARABIC LETTER YEH WITH HAMZA ABOVE INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC HAMZAH ON YA')]
     case ARABIC_LETTER_YEH_WITH_HAMZA_ABOVE_INITIAL_FORM = "\u{FE8B}";
 
-    #[Info(id: 0xFE8C, name: 'ARABIC LETTER YEH WITH HAMZA ABOVE MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE8C, name: 'ARABIC LETTER YEH WITH HAMZA ABOVE MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC HAMZAH ON YA')]
     case ARABIC_LETTER_YEH_WITH_HAMZA_ABOVE_MEDIAL_FORM = "\u{FE8C}";
 
-    #[Info(id: 0xFE8D, name: 'ARABIC LETTER ALEF ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE8D, name: 'ARABIC LETTER ALEF ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC ALEF')]
     case ARABIC_LETTER_ALEF_ISOLATED_FORM = "\u{FE8D}";
 
-    #[Info(id: 0xFE8E, name: 'ARABIC LETTER ALEF FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE8E, name: 'ARABIC LETTER ALEF FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC ALEF')]
     case ARABIC_LETTER_ALEF_FINAL_FORM = "\u{FE8E}";
 
-    #[Info(id: 0xFE8F, name: 'ARABIC LETTER BEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE8F, name: 'ARABIC LETTER BEH ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC BAA')]
     case ARABIC_LETTER_BEH_ISOLATED_FORM = "\u{FE8F}";
 
-    #[Info(id: 0xFE90, name: 'ARABIC LETTER BEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE90, name: 'ARABIC LETTER BEH FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC BAA')]
     case ARABIC_LETTER_BEH_FINAL_FORM = "\u{FE90}";
 
-    #[Info(id: 0xFE91, name: 'ARABIC LETTER BEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE91, name: 'ARABIC LETTER BEH INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC BAA')]
     case ARABIC_LETTER_BEH_INITIAL_FORM = "\u{FE91}";
 
-    #[Info(id: 0xFE92, name: 'ARABIC LETTER BEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE92, name: 'ARABIC LETTER BEH MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC BAA')]
     case ARABIC_LETTER_BEH_MEDIAL_FORM = "\u{FE92}";
 
-    #[Info(id: 0xFE93, name: 'ARABIC LETTER TEH MARBUTA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE93, name: 'ARABIC LETTER TEH MARBUTA ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC TAA MARBUTAH')]
     case ARABIC_LETTER_TEH_MARBUTA_ISOLATED_FORM = "\u{FE93}";
 
-    #[Info(id: 0xFE94, name: 'ARABIC LETTER TEH MARBUTA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE94, name: 'ARABIC LETTER TEH MARBUTA FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC TAA MARBUTAH')]
     case ARABIC_LETTER_TEH_MARBUTA_FINAL_FORM = "\u{FE94}";
 
-    #[Info(id: 0xFE95, name: 'ARABIC LETTER TEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE95, name: 'ARABIC LETTER TEH ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC TAA')]
     case ARABIC_LETTER_TEH_ISOLATED_FORM = "\u{FE95}";
 
-    #[Info(id: 0xFE96, name: 'ARABIC LETTER TEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE96, name: 'ARABIC LETTER TEH FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC TAA')]
     case ARABIC_LETTER_TEH_FINAL_FORM = "\u{FE96}";
 
-    #[Info(id: 0xFE97, name: 'ARABIC LETTER TEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE97, name: 'ARABIC LETTER TEH INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC TAA')]
     case ARABIC_LETTER_TEH_INITIAL_FORM = "\u{FE97}";
 
-    #[Info(id: 0xFE98, name: 'ARABIC LETTER TEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE98, name: 'ARABIC LETTER TEH MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC TAA')]
     case ARABIC_LETTER_TEH_MEDIAL_FORM = "\u{FE98}";
 
-    #[Info(id: 0xFE99, name: 'ARABIC LETTER THEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE99, name: 'ARABIC LETTER THEH ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC THAA')]
     case ARABIC_LETTER_THEH_ISOLATED_FORM = "\u{FE99}";
 
-    #[Info(id: 0xFE9A, name: 'ARABIC LETTER THEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE9A, name: 'ARABIC LETTER THEH FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC THAA')]
     case ARABIC_LETTER_THEH_FINAL_FORM = "\u{FE9A}";
 
-    #[Info(id: 0xFE9B, name: 'ARABIC LETTER THEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE9B, name: 'ARABIC LETTER THEH INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC THAA')]
     case ARABIC_LETTER_THEH_INITIAL_FORM = "\u{FE9B}";
 
-    #[Info(id: 0xFE9C, name: 'ARABIC LETTER THEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE9C, name: 'ARABIC LETTER THEH MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC THAA')]
     case ARABIC_LETTER_THEH_MEDIAL_FORM = "\u{FE9C}";
 
-    #[Info(id: 0xFE9D, name: 'ARABIC LETTER JEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE9D, name: 'ARABIC LETTER JEEM ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC JEEM')]
     case ARABIC_LETTER_JEEM_ISOLATED_FORM = "\u{FE9D}";
 
-    #[Info(id: 0xFE9E, name: 'ARABIC LETTER JEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE9E, name: 'ARABIC LETTER JEEM FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC JEEM')]
     case ARABIC_LETTER_JEEM_FINAL_FORM = "\u{FE9E}";
 
-    #[Info(id: 0xFE9F, name: 'ARABIC LETTER JEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFE9F, name: 'ARABIC LETTER JEEM INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC JEEM')]
     case ARABIC_LETTER_JEEM_INITIAL_FORM = "\u{FE9F}";
 
-    #[Info(id: 0xFEA0, name: 'ARABIC LETTER JEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEA0, name: 'ARABIC LETTER JEEM MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC JEEM')]
     case ARABIC_LETTER_JEEM_MEDIAL_FORM = "\u{FEA0}";
 
-    #[Info(id: 0xFEA1, name: 'ARABIC LETTER HAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEA1, name: 'ARABIC LETTER HAH ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC HAA')]
     case ARABIC_LETTER_HAH_ISOLATED_FORM = "\u{FEA1}";
 
-    #[Info(id: 0xFEA2, name: 'ARABIC LETTER HAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEA2, name: 'ARABIC LETTER HAH FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC HAA')]
     case ARABIC_LETTER_HAH_FINAL_FORM = "\u{FEA2}";
 
-    #[Info(id: 0xFEA3, name: 'ARABIC LETTER HAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEA3, name: 'ARABIC LETTER HAH INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC HAA')]
     case ARABIC_LETTER_HAH_INITIAL_FORM = "\u{FEA3}";
 
-    #[Info(id: 0xFEA4, name: 'ARABIC LETTER HAH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEA4, name: 'ARABIC LETTER HAH MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC HAA')]
     case ARABIC_LETTER_HAH_MEDIAL_FORM = "\u{FEA4}";
 
-    #[Info(id: 0xFEA5, name: 'ARABIC LETTER KHAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEA5, name: 'ARABIC LETTER KHAH ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC KHAA')]
     case ARABIC_LETTER_KHAH_ISOLATED_FORM = "\u{FEA5}";
 
-    #[Info(id: 0xFEA6, name: 'ARABIC LETTER KHAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEA6, name: 'ARABIC LETTER KHAH FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC KHAA')]
     case ARABIC_LETTER_KHAH_FINAL_FORM = "\u{FEA6}";
 
-    #[Info(id: 0xFEA7, name: 'ARABIC LETTER KHAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEA7, name: 'ARABIC LETTER KHAH INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC KHAA')]
     case ARABIC_LETTER_KHAH_INITIAL_FORM = "\u{FEA7}";
 
-    #[Info(id: 0xFEA8, name: 'ARABIC LETTER KHAH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEA8, name: 'ARABIC LETTER KHAH MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC KHAA')]
     case ARABIC_LETTER_KHAH_MEDIAL_FORM = "\u{FEA8}";
 
-    #[Info(id: 0xFEA9, name: 'ARABIC LETTER DAL ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEA9, name: 'ARABIC LETTER DAL ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC DAL')]
     case ARABIC_LETTER_DAL_ISOLATED_FORM = "\u{FEA9}";
 
-    #[Info(id: 0xFEAA, name: 'ARABIC LETTER DAL FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEAA, name: 'ARABIC LETTER DAL FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC DAL')]
     case ARABIC_LETTER_DAL_FINAL_FORM = "\u{FEAA}";
 
-    #[Info(id: 0xFEAB, name: 'ARABIC LETTER THAL ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEAB, name: 'ARABIC LETTER THAL ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC THAL')]
     case ARABIC_LETTER_THAL_ISOLATED_FORM = "\u{FEAB}";
 
-    #[Info(id: 0xFEAC, name: 'ARABIC LETTER THAL FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEAC, name: 'ARABIC LETTER THAL FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC THAL')]
     case ARABIC_LETTER_THAL_FINAL_FORM = "\u{FEAC}";
 
-    #[Info(id: 0xFEAD, name: 'ARABIC LETTER REH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEAD, name: 'ARABIC LETTER REH ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC RA')]
     case ARABIC_LETTER_REH_ISOLATED_FORM = "\u{FEAD}";
 
-    #[Info(id: 0xFEAE, name: 'ARABIC LETTER REH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEAE, name: 'ARABIC LETTER REH FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC RA')]
     case ARABIC_LETTER_REH_FINAL_FORM = "\u{FEAE}";
 
-    #[Info(id: 0xFEAF, name: 'ARABIC LETTER ZAIN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEAF, name: 'ARABIC LETTER ZAIN ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC ZAIN')]
     case ARABIC_LETTER_ZAIN_ISOLATED_FORM = "\u{FEAF}";
 
-    #[Info(id: 0xFEB0, name: 'ARABIC LETTER ZAIN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEB0, name: 'ARABIC LETTER ZAIN FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC ZAIN')]
     case ARABIC_LETTER_ZAIN_FINAL_FORM = "\u{FEB0}";
 
-    #[Info(id: 0xFEB1, name: 'ARABIC LETTER SEEN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEB1, name: 'ARABIC LETTER SEEN ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC SEEN')]
     case ARABIC_LETTER_SEEN_ISOLATED_FORM = "\u{FEB1}";
 
-    #[Info(id: 0xFEB2, name: 'ARABIC LETTER SEEN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEB2, name: 'ARABIC LETTER SEEN FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC SEEN')]
     case ARABIC_LETTER_SEEN_FINAL_FORM = "\u{FEB2}";
 
-    #[Info(id: 0xFEB3, name: 'ARABIC LETTER SEEN INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEB3, name: 'ARABIC LETTER SEEN INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC SEEN')]
     case ARABIC_LETTER_SEEN_INITIAL_FORM = "\u{FEB3}";
 
-    #[Info(id: 0xFEB4, name: 'ARABIC LETTER SEEN MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEB4, name: 'ARABIC LETTER SEEN MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC SEEN')]
     case ARABIC_LETTER_SEEN_MEDIAL_FORM = "\u{FEB4}";
 
-    #[Info(id: 0xFEB5, name: 'ARABIC LETTER SHEEN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEB5, name: 'ARABIC LETTER SHEEN ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC SHEEN')]
     case ARABIC_LETTER_SHEEN_ISOLATED_FORM = "\u{FEB5}";
 
-    #[Info(id: 0xFEB6, name: 'ARABIC LETTER SHEEN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEB6, name: 'ARABIC LETTER SHEEN FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC SHEEN')]
     case ARABIC_LETTER_SHEEN_FINAL_FORM = "\u{FEB6}";
 
-    #[Info(id: 0xFEB7, name: 'ARABIC LETTER SHEEN INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEB7, name: 'ARABIC LETTER SHEEN INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC SHEEN')]
     case ARABIC_LETTER_SHEEN_INITIAL_FORM = "\u{FEB7}";
 
-    #[Info(id: 0xFEB8, name: 'ARABIC LETTER SHEEN MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEB8, name: 'ARABIC LETTER SHEEN MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC SHEEN')]
     case ARABIC_LETTER_SHEEN_MEDIAL_FORM = "\u{FEB8}";
 
-    #[Info(id: 0xFEB9, name: 'ARABIC LETTER SAD ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEB9, name: 'ARABIC LETTER SAD ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC SAD')]
     case ARABIC_LETTER_SAD_ISOLATED_FORM = "\u{FEB9}";
 
-    #[Info(id: 0xFEBA, name: 'ARABIC LETTER SAD FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEBA, name: 'ARABIC LETTER SAD FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC SAD')]
     case ARABIC_LETTER_SAD_FINAL_FORM = "\u{FEBA}";
 
-    #[Info(id: 0xFEBB, name: 'ARABIC LETTER SAD INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEBB, name: 'ARABIC LETTER SAD INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC SAD')]
     case ARABIC_LETTER_SAD_INITIAL_FORM = "\u{FEBB}";
 
-    #[Info(id: 0xFEBC, name: 'ARABIC LETTER SAD MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEBC, name: 'ARABIC LETTER SAD MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC SAD')]
     case ARABIC_LETTER_SAD_MEDIAL_FORM = "\u{FEBC}";
 
-    #[Info(id: 0xFEBD, name: 'ARABIC LETTER DAD ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEBD, name: 'ARABIC LETTER DAD ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC DAD')]
     case ARABIC_LETTER_DAD_ISOLATED_FORM = "\u{FEBD}";
 
-    #[Info(id: 0xFEBE, name: 'ARABIC LETTER DAD FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEBE, name: 'ARABIC LETTER DAD FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC DAD')]
     case ARABIC_LETTER_DAD_FINAL_FORM = "\u{FEBE}";
 
-    #[Info(id: 0xFEBF, name: 'ARABIC LETTER DAD INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEBF, name: 'ARABIC LETTER DAD INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC DAD')]
     case ARABIC_LETTER_DAD_INITIAL_FORM = "\u{FEBF}";
 
-    #[Info(id: 0xFEC0, name: 'ARABIC LETTER DAD MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEC0, name: 'ARABIC LETTER DAD MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC DAD')]
     case ARABIC_LETTER_DAD_MEDIAL_FORM = "\u{FEC0}";
 
-    #[Info(id: 0xFEC1, name: 'ARABIC LETTER TAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEC1, name: 'ARABIC LETTER TAH ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC TAH')]
     case ARABIC_LETTER_TAH_ISOLATED_FORM = "\u{FEC1}";
 
-    #[Info(id: 0xFEC2, name: 'ARABIC LETTER TAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEC2, name: 'ARABIC LETTER TAH FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC TAH')]
     case ARABIC_LETTER_TAH_FINAL_FORM = "\u{FEC2}";
 
-    #[Info(id: 0xFEC3, name: 'ARABIC LETTER TAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEC3, name: 'ARABIC LETTER TAH INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC TAH')]
     case ARABIC_LETTER_TAH_INITIAL_FORM = "\u{FEC3}";
 
-    #[Info(id: 0xFEC4, name: 'ARABIC LETTER TAH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEC4, name: 'ARABIC LETTER TAH MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC TAH')]
     case ARABIC_LETTER_TAH_MEDIAL_FORM = "\u{FEC4}";
 
-    #[Info(id: 0xFEC5, name: 'ARABIC LETTER ZAH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEC5, name: 'ARABIC LETTER ZAH ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC DHAH')]
     case ARABIC_LETTER_ZAH_ISOLATED_FORM = "\u{FEC5}";
 
-    #[Info(id: 0xFEC6, name: 'ARABIC LETTER ZAH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEC6, name: 'ARABIC LETTER ZAH FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC DHAH')]
     case ARABIC_LETTER_ZAH_FINAL_FORM = "\u{FEC6}";
 
-    #[Info(id: 0xFEC7, name: 'ARABIC LETTER ZAH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEC7, name: 'ARABIC LETTER ZAH INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC DHAH')]
     case ARABIC_LETTER_ZAH_INITIAL_FORM = "\u{FEC7}";
 
-    #[Info(id: 0xFEC8, name: 'ARABIC LETTER ZAH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEC8, name: 'ARABIC LETTER ZAH MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC DHAH')]
     case ARABIC_LETTER_ZAH_MEDIAL_FORM = "\u{FEC8}";
 
-    #[Info(id: 0xFEC9, name: 'ARABIC LETTER AIN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEC9, name: 'ARABIC LETTER AIN ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC AIN')]
     case ARABIC_LETTER_AIN_ISOLATED_FORM = "\u{FEC9}";
 
-    #[Info(id: 0xFECA, name: 'ARABIC LETTER AIN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFECA, name: 'ARABIC LETTER AIN FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC AIN')]
     case ARABIC_LETTER_AIN_FINAL_FORM = "\u{FECA}";
 
-    #[Info(id: 0xFECB, name: 'ARABIC LETTER AIN INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFECB, name: 'ARABIC LETTER AIN INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC AIN')]
     case ARABIC_LETTER_AIN_INITIAL_FORM = "\u{FECB}";
 
-    #[Info(id: 0xFECC, name: 'ARABIC LETTER AIN MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFECC, name: 'ARABIC LETTER AIN MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC AIN')]
     case ARABIC_LETTER_AIN_MEDIAL_FORM = "\u{FECC}";
 
-    #[Info(id: 0xFECD, name: 'ARABIC LETTER GHAIN ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFECD, name: 'ARABIC LETTER GHAIN ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC GHAIN')]
     case ARABIC_LETTER_GHAIN_ISOLATED_FORM = "\u{FECD}";
 
-    #[Info(id: 0xFECE, name: 'ARABIC LETTER GHAIN FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFECE, name: 'ARABIC LETTER GHAIN FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC GHAIN')]
     case ARABIC_LETTER_GHAIN_FINAL_FORM = "\u{FECE}";
 
-    #[Info(id: 0xFECF, name: 'ARABIC LETTER GHAIN INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFECF, name: 'ARABIC LETTER GHAIN INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC GHAIN')]
     case ARABIC_LETTER_GHAIN_INITIAL_FORM = "\u{FECF}";
 
-    #[Info(id: 0xFED0, name: 'ARABIC LETTER GHAIN MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFED0, name: 'ARABIC LETTER GHAIN MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC GHAIN')]
     case ARABIC_LETTER_GHAIN_MEDIAL_FORM = "\u{FED0}";
 
-    #[Info(id: 0xFED1, name: 'ARABIC LETTER FEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFED1, name: 'ARABIC LETTER FEH ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC FA')]
     case ARABIC_LETTER_FEH_ISOLATED_FORM = "\u{FED1}";
 
-    #[Info(id: 0xFED2, name: 'ARABIC LETTER FEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFED2, name: 'ARABIC LETTER FEH FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC FA')]
     case ARABIC_LETTER_FEH_FINAL_FORM = "\u{FED2}";
 
-    #[Info(id: 0xFED3, name: 'ARABIC LETTER FEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFED3, name: 'ARABIC LETTER FEH INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC FA')]
     case ARABIC_LETTER_FEH_INITIAL_FORM = "\u{FED3}";
 
-    #[Info(id: 0xFED4, name: 'ARABIC LETTER FEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFED4, name: 'ARABIC LETTER FEH MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC FA')]
     case ARABIC_LETTER_FEH_MEDIAL_FORM = "\u{FED4}";
 
-    #[Info(id: 0xFED5, name: 'ARABIC LETTER QAF ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFED5, name: 'ARABIC LETTER QAF ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC QAF')]
     case ARABIC_LETTER_QAF_ISOLATED_FORM = "\u{FED5}";
 
-    #[Info(id: 0xFED6, name: 'ARABIC LETTER QAF FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFED6, name: 'ARABIC LETTER QAF FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC QAF')]
     case ARABIC_LETTER_QAF_FINAL_FORM = "\u{FED6}";
 
-    #[Info(id: 0xFED7, name: 'ARABIC LETTER QAF INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFED7, name: 'ARABIC LETTER QAF INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC QAF')]
     case ARABIC_LETTER_QAF_INITIAL_FORM = "\u{FED7}";
 
-    #[Info(id: 0xFED8, name: 'ARABIC LETTER QAF MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFED8, name: 'ARABIC LETTER QAF MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC QAF')]
     case ARABIC_LETTER_QAF_MEDIAL_FORM = "\u{FED8}";
 
-    #[Info(id: 0xFED9, name: 'ARABIC LETTER KAF ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFED9, name: 'ARABIC LETTER KAF ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC CAF')]
     case ARABIC_LETTER_KAF_ISOLATED_FORM = "\u{FED9}";
 
-    #[Info(id: 0xFEDA, name: 'ARABIC LETTER KAF FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEDA, name: 'ARABIC LETTER KAF FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC CAF')]
     case ARABIC_LETTER_KAF_FINAL_FORM = "\u{FEDA}";
 
-    #[Info(id: 0xFEDB, name: 'ARABIC LETTER KAF INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEDB, name: 'ARABIC LETTER KAF INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC CAF')]
     case ARABIC_LETTER_KAF_INITIAL_FORM = "\u{FEDB}";
 
-    #[Info(id: 0xFEDC, name: 'ARABIC LETTER KAF MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEDC, name: 'ARABIC LETTER KAF MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC CAF')]
     case ARABIC_LETTER_KAF_MEDIAL_FORM = "\u{FEDC}";
 
-    #[Info(id: 0xFEDD, name: 'ARABIC LETTER LAM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEDD, name: 'ARABIC LETTER LAM ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC LAM')]
     case ARABIC_LETTER_LAM_ISOLATED_FORM = "\u{FEDD}";
 
-    #[Info(id: 0xFEDE, name: 'ARABIC LETTER LAM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEDE, name: 'ARABIC LETTER LAM FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC LAM')]
     case ARABIC_LETTER_LAM_FINAL_FORM = "\u{FEDE}";
 
-    #[Info(id: 0xFEDF, name: 'ARABIC LETTER LAM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEDF, name: 'ARABIC LETTER LAM INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC LAM')]
     case ARABIC_LETTER_LAM_INITIAL_FORM = "\u{FEDF}";
 
-    #[Info(id: 0xFEE0, name: 'ARABIC LETTER LAM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEE0, name: 'ARABIC LETTER LAM MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC LAM')]
     case ARABIC_LETTER_LAM_MEDIAL_FORM = "\u{FEE0}";
 
-    #[Info(id: 0xFEE1, name: 'ARABIC LETTER MEEM ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEE1, name: 'ARABIC LETTER MEEM ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC MEEM')]
     case ARABIC_LETTER_MEEM_ISOLATED_FORM = "\u{FEE1}";
 
-    #[Info(id: 0xFEE2, name: 'ARABIC LETTER MEEM FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEE2, name: 'ARABIC LETTER MEEM FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC MEEM')]
     case ARABIC_LETTER_MEEM_FINAL_FORM = "\u{FEE2}";
 
-    #[Info(id: 0xFEE3, name: 'ARABIC LETTER MEEM INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEE3, name: 'ARABIC LETTER MEEM INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC MEEM')]
     case ARABIC_LETTER_MEEM_INITIAL_FORM = "\u{FEE3}";
 
-    #[Info(id: 0xFEE4, name: 'ARABIC LETTER MEEM MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEE4, name: 'ARABIC LETTER MEEM MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC MEEM')]
     case ARABIC_LETTER_MEEM_MEDIAL_FORM = "\u{FEE4}";
 
-    #[Info(id: 0xFEE5, name: 'ARABIC LETTER NOON ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEE5, name: 'ARABIC LETTER NOON ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC NOON')]
     case ARABIC_LETTER_NOON_ISOLATED_FORM = "\u{FEE5}";
 
-    #[Info(id: 0xFEE6, name: 'ARABIC LETTER NOON FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEE6, name: 'ARABIC LETTER NOON FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC NOON')]
     case ARABIC_LETTER_NOON_FINAL_FORM = "\u{FEE6}";
 
-    #[Info(id: 0xFEE7, name: 'ARABIC LETTER NOON INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEE7, name: 'ARABIC LETTER NOON INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC NOON')]
     case ARABIC_LETTER_NOON_INITIAL_FORM = "\u{FEE7}";
 
-    #[Info(id: 0xFEE8, name: 'ARABIC LETTER NOON MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEE8, name: 'ARABIC LETTER NOON MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC NOON')]
     case ARABIC_LETTER_NOON_MEDIAL_FORM = "\u{FEE8}";
 
-    #[Info(id: 0xFEE9, name: 'ARABIC LETTER HEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEE9, name: 'ARABIC LETTER HEH ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC HA')]
     case ARABIC_LETTER_HEH_ISOLATED_FORM = "\u{FEE9}";
 
-    #[Info(id: 0xFEEA, name: 'ARABIC LETTER HEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEEA, name: 'ARABIC LETTER HEH FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC HA')]
     case ARABIC_LETTER_HEH_FINAL_FORM = "\u{FEEA}";
 
-    #[Info(id: 0xFEEB, name: 'ARABIC LETTER HEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEEB, name: 'ARABIC LETTER HEH INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC HA')]
     case ARABIC_LETTER_HEH_INITIAL_FORM = "\u{FEEB}";
 
-    #[Info(id: 0xFEEC, name: 'ARABIC LETTER HEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEEC, name: 'ARABIC LETTER HEH MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC HA')]
     case ARABIC_LETTER_HEH_MEDIAL_FORM = "\u{FEEC}";
 
-    #[Info(id: 0xFEED, name: 'ARABIC LETTER WAW ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEED, name: 'ARABIC LETTER WAW ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC WAW')]
     case ARABIC_LETTER_WAW_ISOLATED_FORM = "\u{FEED}";
 
-    #[Info(id: 0xFEEE, name: 'ARABIC LETTER WAW FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEEE, name: 'ARABIC LETTER WAW FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC WAW')]
     case ARABIC_LETTER_WAW_FINAL_FORM = "\u{FEEE}";
 
-    #[Info(id: 0xFEEF, name: 'ARABIC LETTER ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEEF, name: 'ARABIC LETTER ALEF MAKSURA ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC ALEF MAQSURAH')]
     case ARABIC_LETTER_ALEF_MAKSURA_ISOLATED_FORM = "\u{FEEF}";
 
-    #[Info(id: 0xFEF0, name: 'ARABIC LETTER ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEF0, name: 'ARABIC LETTER ALEF MAKSURA FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC ALEF MAQSURAH')]
     case ARABIC_LETTER_ALEF_MAKSURA_FINAL_FORM = "\u{FEF0}";
 
-    #[Info(id: 0xFEF1, name: 'ARABIC LETTER YEH ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEF1, name: 'ARABIC LETTER YEH ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC YA')]
     case ARABIC_LETTER_YEH_ISOLATED_FORM = "\u{FEF1}";
 
-    #[Info(id: 0xFEF2, name: 'ARABIC LETTER YEH FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEF2, name: 'ARABIC LETTER YEH FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC YA')]
     case ARABIC_LETTER_YEH_FINAL_FORM = "\u{FEF2}";
 
-    #[Info(id: 0xFEF3, name: 'ARABIC LETTER YEH INITIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEF3, name: 'ARABIC LETTER YEH INITIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR INITIAL ARABIC YA')]
     case ARABIC_LETTER_YEH_INITIAL_FORM = "\u{FEF3}";
 
-    #[Info(id: 0xFEF4, name: 'ARABIC LETTER YEH MEDIAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEF4, name: 'ARABIC LETTER YEH MEDIAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR MEDIAL ARABIC YA')]
     case ARABIC_LETTER_YEH_MEDIAL_FORM = "\u{FEF4}";
 
-    #[Info(id: 0xFEF5, name: 'ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEF5, name: 'ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC MADDAH ON LIGATURE LAM ALEF')]
     case ARABIC_LIGATURE_LAM_WITH_ALEF_WITH_MADDA_ABOVE_ISOLATED_FORM = "\u{FEF5}";
 
-    #[Info(id: 0xFEF6, name: 'ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEF6, name: 'ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC MADDAH ON LIGATURE LAM ALEF')]
     case ARABIC_LIGATURE_LAM_WITH_ALEF_WITH_MADDA_ABOVE_FINAL_FORM = "\u{FEF6}";
 
-    #[Info(id: 0xFEF7, name: 'ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEF7, name: 'ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC HAMZAH ON LIGATURE LAM ALEF')]
     case ARABIC_LIGATURE_LAM_WITH_ALEF_WITH_HAMZA_ABOVE_ISOLATED_FORM = "\u{FEF7}";
 
-    #[Info(id: 0xFEF8, name: 'ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEF8, name: 'ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC HAMZAH ON LIGATURE LAM ALEF')]
     case ARABIC_LIGATURE_LAM_WITH_ALEF_WITH_HAMZA_ABOVE_FINAL_FORM = "\u{FEF8}";
 
-    #[Info(id: 0xFEF9, name: 'ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEF9, name: 'ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC HAMZAH UNDER LIGATURE LAM ALEF')]
     case ARABIC_LIGATURE_LAM_WITH_ALEF_WITH_HAMZA_BELOW_ISOLATED_FORM = "\u{FEF9}";
 
-    #[Info(id: 0xFEFA, name: 'ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEFA, name: 'ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC HAMZAH UNDER LIGATURE LAM ALEF')]
     case ARABIC_LIGATURE_LAM_WITH_ALEF_WITH_HAMZA_BELOW_FINAL_FORM = "\u{FEFA}";
 
-    #[Info(id: 0xFEFB, name: 'ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEFB, name: 'ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR ISOLATE ARABIC LIGATURE LAM ALEF')]
     case ARABIC_LIGATURE_LAM_WITH_ALEF_ISOLATED_FORM = "\u{FEFB}";
 
-    #[Info(id: 0xFEFC, name: 'ARABIC LIGATURE LAM WITH ALEF FINAL FORM', category: Cat::Other_Letter)]
+    #[Info(id: 0xFEFC, name: 'ARABIC LIGATURE LAM WITH ALEF FINAL FORM', category: Cat::Other_Letter, unicode1Name: 'GLYPH FOR FINAL ARABIC LIGATURE LAM ALEF')]
     case ARABIC_LIGATURE_LAM_WITH_ALEF_FINAL_FORM = "\u{FEFC}";
 
-    #[Info(id: 0xFEFF, name: 'ZERO WIDTH NO-BREAK SPACE', category: Cat::Format)]
+    #[Info(id: 0xFEFF, name: 'ZERO WIDTH NO-BREAK SPACE', category: Cat::Format, unicode1Name: 'BYTE ORDER MARK', abbreviations: ['BOM', 'ZWNBSP'], informativeAliases: ['BOM, ZWNBSP'])]
     case ZERO_WIDTH_NO_BREAK_SPACE = "\u{FEFF}";
 }

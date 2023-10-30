@@ -34,16 +34,16 @@ enum Transport_and_Map_Symbols: string
     #[Info(id: 0x1F685, name: 'HIGH-SPEED TRAIN WITH BULLET NOSE', category: Cat::Other_Symbol)]
     case HIGH_SPEED_TRAIN_WITH_BULLET_NOSE = "\u{1F685}";
 
-    #[Info(id: 0x1F686, name: 'TRAIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F686, name: 'TRAIN', category: Cat::Other_Symbol, informativeAliases: ['intercity train'])]
     case TRAIN = "\u{1F686}";
 
-    #[Info(id: 0x1F687, name: 'METRO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F687, name: 'METRO', category: Cat::Other_Symbol, informativeAliases: ['subway, underground train'])]
     case METRO = "\u{1F687}";
 
     #[Info(id: 0x1F688, name: 'LIGHT RAIL', category: Cat::Other_Symbol)]
     case LIGHT_RAIL = "\u{1F688}";
 
-    #[Info(id: 0x1F689, name: 'STATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F689, name: 'STATION', category: Cat::Other_Symbol, informativeAliases: ['train, subway station'])]
     case STATION = "\u{1F689}";
 
     #[Info(id: 0x1F68A, name: 'TRAM', category: Cat::Other_Symbol)]
@@ -118,7 +118,7 @@ enum Transport_and_Map_Symbols: string
     #[Info(id: 0x1F6A1, name: 'AERIAL TRAMWAY', category: Cat::Other_Symbol)]
     case AERIAL_TRAMWAY = "\u{1F6A1}";
 
-    #[Info(id: 0x1F6A2, name: 'SHIP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6A2, name: 'SHIP', category: Cat::Other_Symbol, informativeAliases: ['cruise line vacation'])]
     case SHIP = "\u{1F6A2}";
 
     #[Info(id: 0x1F6A3, name: 'ROWBOAT', category: Cat::Other_Symbol)]
@@ -136,10 +136,10 @@ enum Transport_and_Map_Symbols: string
     #[Info(id: 0x1F6A7, name: 'CONSTRUCTION SIGN', category: Cat::Other_Symbol)]
     case CONSTRUCTION_SIGN = "\u{1F6A7}";
 
-    #[Info(id: 0x1F6A8, name: 'POLICE CARS REVOLVING LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6A8, name: 'POLICE CARS REVOLVING LIGHT', category: Cat::Other_Symbol, informativeAliases: ['rotating beacon'])]
     case POLICE_CARS_REVOLVING_LIGHT = "\u{1F6A8}";
 
-    #[Info(id: 0x1F6A9, name: 'TRIANGULAR FLAG ON POST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6A9, name: 'TRIANGULAR FLAG ON POST', category: Cat::Other_Symbol, informativeAliases: ['location information'])]
     case TRIANGULAR_FLAG_ON_POST = "\u{1F6A9}";
 
     #[Info(id: 0x1F6AA, name: 'DOOR', category: Cat::Other_Symbol)]
@@ -178,7 +178,7 @@ enum Transport_and_Map_Symbols: string
     #[Info(id: 0x1F6B5, name: 'MOUNTAIN BICYCLIST', category: Cat::Other_Symbol)]
     case MOUNTAIN_BICYCLIST = "\u{1F6B5}";
 
-    #[Info(id: 0x1F6B6, name: 'PEDESTRIAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6B6, name: 'PEDESTRIAN', category: Cat::Other_Symbol, informativeAliases: ['walking'])]
     case PEDESTRIAN = "\u{1F6B6}";
 
     #[Info(id: 0x1F6B7, name: 'NO PEDESTRIANS', category: Cat::Other_Symbol)]
@@ -187,16 +187,16 @@ enum Transport_and_Map_Symbols: string
     #[Info(id: 0x1F6B8, name: 'CHILDREN CROSSING', category: Cat::Other_Symbol)]
     case CHILDREN_CROSSING = "\u{1F6B8}";
 
-    #[Info(id: 0x1F6B9, name: 'MENS SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6B9, name: 'MENS SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['man symbol', 'men\'s restroom'])]
     case MENS_SYMBOL = "\u{1F6B9}";
 
-    #[Info(id: 0x1F6BA, name: 'WOMENS SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6BA, name: 'WOMENS SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['woman symbol', 'women\'s restroom'])]
     case WOMENS_SYMBOL = "\u{1F6BA}";
 
-    #[Info(id: 0x1F6BB, name: 'RESTROOM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6BB, name: 'RESTROOM', category: Cat::Other_Symbol, informativeAliases: ['man and woman symbol with divider', 'unisex restroom'])]
     case RESTROOM = "\u{1F6BB}";
 
-    #[Info(id: 0x1F6BC, name: 'BABY SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6BC, name: 'BABY SYMBOL', category: Cat::Other_Symbol, informativeAliases: ['baby on board, baby changing station'])]
     case BABY_SYMBOL = "\u{1F6BC}";
 
     #[Info(id: 0x1F6BD, name: 'TOILET', category: Cat::Other_Symbol)]
@@ -226,13 +226,13 @@ enum Transport_and_Map_Symbols: string
     #[Info(id: 0x1F6C5, name: 'LEFT LUGGAGE', category: Cat::Other_Symbol)]
     case LEFT_LUGGAGE = "\u{1F6C5}";
 
-    #[Info(id: 0x1F6C6, name: 'TRIANGLE WITH ROUNDED CORNERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6C6, name: 'TRIANGLE WITH ROUNDED CORNERS', category: Cat::Other_Symbol, informativeAliases: ['caution'])]
     case TRIANGLE_WITH_ROUNDED_CORNERS = "\u{1F6C6}";
 
     #[Info(id: 0x1F6C7, name: 'PROHIBITED SIGN', category: Cat::Other_Symbol)]
     case PROHIBITED_SIGN = "\u{1F6C7}";
 
-    #[Info(id: 0x1F6C8, name: 'CIRCLED INFORMATION SOURCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6C8, name: 'CIRCLED INFORMATION SOURCE', category: Cat::Other_Symbol, informativeAliases: ['information'])]
     case CIRCLED_INFORMATION_SOURCE = "\u{1F6C8}";
 
     #[Info(id: 0x1F6C9, name: 'BOYS SYMBOL', category: Cat::Other_Symbol)]
@@ -241,16 +241,16 @@ enum Transport_and_Map_Symbols: string
     #[Info(id: 0x1F6CA, name: 'GIRLS SYMBOL', category: Cat::Other_Symbol)]
     case GIRLS_SYMBOL = "\u{1F6CA}";
 
-    #[Info(id: 0x1F6CB, name: 'COUCH AND LAMP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6CB, name: 'COUCH AND LAMP', category: Cat::Other_Symbol, informativeAliases: ['furniture, lifestyles'])]
     case COUCH_AND_LAMP = "\u{1F6CB}";
 
-    #[Info(id: 0x1F6CC, name: 'SLEEPING ACCOMMODATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6CC, name: 'SLEEPING ACCOMMODATION', category: Cat::Other_Symbol, informativeAliases: ['hotel, guestrooms'])]
     case SLEEPING_ACCOMMODATION = "\u{1F6CC}";
 
-    #[Info(id: 0x1F6CD, name: 'SHOPPING BAGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6CD, name: 'SHOPPING BAGS', category: Cat::Other_Symbol, informativeAliases: ['shopping'])]
     case SHOPPING_BAGS = "\u{1F6CD}";
 
-    #[Info(id: 0x1F6CE, name: 'BELLHOP BELL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6CE, name: 'BELLHOP BELL', category: Cat::Other_Symbol, informativeAliases: ['reception, services'])]
     case BELLHOP_BELL = "\u{1F6CE}";
 
     #[Info(id: 0x1F6CF, name: 'BED', category: Cat::Other_Symbol)]
@@ -259,10 +259,10 @@ enum Transport_and_Map_Symbols: string
     #[Info(id: 0x1F6D0, name: 'PLACE OF WORSHIP', category: Cat::Other_Symbol)]
     case PLACE_OF_WORSHIP = "\u{1F6D0}";
 
-    #[Info(id: 0x1F6D1, name: 'OCTAGONAL SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6D1, name: 'OCTAGONAL SIGN', category: Cat::Other_Symbol, informativeAliases: ['stop sign'])]
     case OCTAGONAL_SIGN = "\u{1F6D1}";
 
-    #[Info(id: 0x1F6D2, name: 'SHOPPING TROLLEY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6D2, name: 'SHOPPING TROLLEY', category: Cat::Other_Symbol, informativeAliases: ['shopping cart'])]
     case SHOPPING_TROLLEY = "\u{1F6D2}";
 
     #[Info(id: 0x1F6D3, name: 'STUPA', category: Cat::Other_Symbol)]
@@ -292,31 +292,31 @@ enum Transport_and_Map_Symbols: string
     #[Info(id: 0x1F6DF, name: 'RING BUOY', category: Cat::Other_Symbol)]
     case RING_BUOY = "\u{1F6DF}";
 
-    #[Info(id: 0x1F6E0, name: 'HAMMER AND WRENCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6E0, name: 'HAMMER AND WRENCH', category: Cat::Other_Symbol, informativeAliases: ['tools, repair facility'])]
     case HAMMER_AND_WRENCH = "\u{1F6E0}";
 
-    #[Info(id: 0x1F6E1, name: 'SHIELD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6E1, name: 'SHIELD', category: Cat::Other_Symbol, informativeAliases: ['US road interstate highway'])]
     case SHIELD = "\u{1F6E1}";
 
-    #[Info(id: 0x1F6E2, name: 'OIL DRUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6E2, name: 'OIL DRUM', category: Cat::Other_Symbol, informativeAliases: ['commodities'])]
     case OIL_DRUM = "\u{1F6E2}";
 
     #[Info(id: 0x1F6E3, name: 'MOTORWAY', category: Cat::Other_Symbol)]
     case MOTORWAY = "\u{1F6E3}";
 
-    #[Info(id: 0x1F6E4, name: 'RAILWAY TRACK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6E4, name: 'RAILWAY TRACK', category: Cat::Other_Symbol, informativeAliases: ['railroad'])]
     case RAILWAY_TRACK = "\u{1F6E4}";
 
-    #[Info(id: 0x1F6E5, name: 'MOTOR BOAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6E5, name: 'MOTOR BOAT', category: Cat::Other_Symbol, informativeAliases: ['boat'])]
     case MOTOR_BOAT = "\u{1F6E5}";
 
-    #[Info(id: 0x1F6E6, name: 'UP-POINTING MILITARY AIRPLANE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6E6, name: 'UP-POINTING MILITARY AIRPLANE', category: Cat::Other_Symbol, informativeAliases: ['military airport'])]
     case UP_POINTING_MILITARY_AIRPLANE = "\u{1F6E6}";
 
-    #[Info(id: 0x1F6E7, name: 'UP-POINTING AIRPLANE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6E7, name: 'UP-POINTING AIRPLANE', category: Cat::Other_Symbol, informativeAliases: ['commercial airport'])]
     case UP_POINTING_AIRPLANE = "\u{1F6E7}";
 
-    #[Info(id: 0x1F6E8, name: 'UP-POINTING SMALL AIRPLANE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6E8, name: 'UP-POINTING SMALL AIRPLANE', category: Cat::Other_Symbol, informativeAliases: ['airfield'])]
     case UP_POINTING_SMALL_AIRPLANE = "\u{1F6E8}";
 
     #[Info(id: 0x1F6E9, name: 'SMALL AIRPLANE', category: Cat::Other_Symbol)]
@@ -325,22 +325,22 @@ enum Transport_and_Map_Symbols: string
     #[Info(id: 0x1F6EA, name: 'NORTHEAST-POINTING AIRPLANE', category: Cat::Other_Symbol)]
     case NORTHEAST_POINTING_AIRPLANE = "\u{1F6EA}";
 
-    #[Info(id: 0x1F6EB, name: 'AIRPLANE DEPARTURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6EB, name: 'AIRPLANE DEPARTURE', category: Cat::Other_Symbol, informativeAliases: ['departures'])]
     case AIRPLANE_DEPARTURE = "\u{1F6EB}";
 
-    #[Info(id: 0x1F6EC, name: 'AIRPLANE ARRIVING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6EC, name: 'AIRPLANE ARRIVING', category: Cat::Other_Symbol, informativeAliases: ['arrivals'])]
     case AIRPLANE_ARRIVING = "\u{1F6EC}";
 
     #[Info(id: 0x1F6F0, name: 'SATELLITE', category: Cat::Other_Symbol)]
     case SATELLITE = "\u{1F6F0}";
 
-    #[Info(id: 0x1F6F1, name: 'ONCOMING FIRE ENGINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6F1, name: 'ONCOMING FIRE ENGINE', category: Cat::Other_Symbol, informativeAliases: ['fire'])]
     case ONCOMING_FIRE_ENGINE = "\u{1F6F1}";
 
-    #[Info(id: 0x1F6F2, name: 'DIESEL LOCOMOTIVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6F2, name: 'DIESEL LOCOMOTIVE', category: Cat::Other_Symbol, informativeAliases: ['train'])]
     case DIESEL_LOCOMOTIVE = "\u{1F6F2}";
 
-    #[Info(id: 0x1F6F3, name: 'PASSENGER SHIP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6F3, name: 'PASSENGER SHIP', category: Cat::Other_Symbol, informativeAliases: ['cruise line vacation'])]
     case PASSENGER_SHIP = "\u{1F6F3}";
 
     #[Info(id: 0x1F6F4, name: 'SCOOTER', category: Cat::Other_Symbol)]
@@ -352,16 +352,16 @@ enum Transport_and_Map_Symbols: string
     #[Info(id: 0x1F6F6, name: 'CANOE', category: Cat::Other_Symbol)]
     case CANOE = "\u{1F6F6}";
 
-    #[Info(id: 0x1F6F7, name: 'SLED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6F7, name: 'SLED', category: Cat::Other_Symbol, informativeAliases: ['sledge, toboggan'])]
     case SLED = "\u{1F6F7}";
 
-    #[Info(id: 0x1F6F8, name: 'FLYING SAUCER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6F8, name: 'FLYING SAUCER', category: Cat::Other_Symbol, informativeAliases: ['UFO'])]
     case FLYING_SAUCER = "\u{1F6F8}";
 
     #[Info(id: 0x1F6F9, name: 'SKATEBOARD', category: Cat::Other_Symbol)]
     case SKATEBOARD = "\u{1F6F9}";
 
-    #[Info(id: 0x1F6FA, name: 'AUTO RICKSHAW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F6FA, name: 'AUTO RICKSHAW', category: Cat::Other_Symbol, informativeAliases: ['tuk-tuk, remorque'])]
     case AUTO_RICKSHAW = "\u{1F6FA}";
 
     #[Info(id: 0x1F6FB, name: 'PICKUP TRUCK', category: Cat::Other_Symbol)]

@@ -163,7 +163,7 @@ enum Kharoshthi: string
     #[Info(id: 0x10A3A, name: 'KHAROSHTHI SIGN DOT BELOW', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_SIGN_DOT_BELOW = "\u{10A3A}";
 
-    #[Info(id: 0x10A3F, name: 'KHAROSHTHI VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A3F, name: 'KHAROSHTHI VIRAMA', category: Cat::Nonspacing_Mark, informativeAliases: ['halant'])]
     case KHAROSHTHI_VIRAMA = "\u{10A3F}";
 
     #[Info(id: 0x10A40, name: 'KHAROSHTHI DIGIT ONE', category: Cat::Other_Number)]

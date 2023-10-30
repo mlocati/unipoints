@@ -16,16 +16,16 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Javanese: string
 {
-    #[Info(id: 0xA980, name: 'JAVANESE SIGN PANYANGGA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA980, name: 'JAVANESE SIGN PANYANGGA', category: Cat::Nonspacing_Mark, informativeAliases: ['candrabindu'])]
     case JAVANESE_SIGN_PANYANGGA = "\u{A980}";
 
-    #[Info(id: 0xA981, name: 'JAVANESE SIGN CECAK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA981, name: 'JAVANESE SIGN CECAK', category: Cat::Nonspacing_Mark, informativeAliases: ['anusvara'])]
     case JAVANESE_SIGN_CECAK = "\u{A981}";
 
-    #[Info(id: 0xA982, name: 'JAVANESE SIGN LAYAR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA982, name: 'JAVANESE SIGN LAYAR', category: Cat::Nonspacing_Mark, informativeAliases: ['final r'])]
     case JAVANESE_SIGN_LAYAR = "\u{A982}";
 
-    #[Info(id: 0xA983, name: 'JAVANESE SIGN WIGNYAN', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA983, name: 'JAVANESE SIGN WIGNYAN', category: Cat::Spacing_Mark, informativeAliases: ['visarga'])]
     case JAVANESE_SIGN_WIGNYAN = "\u{A983}";
 
     #[Info(id: 0xA984, name: 'JAVANESE LETTER A', category: Cat::Other_Letter)]
@@ -43,13 +43,13 @@ enum Javanese: string
     #[Info(id: 0xA988, name: 'JAVANESE LETTER U', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_U = "\u{A988}";
 
-    #[Info(id: 0xA989, name: 'JAVANESE LETTER PA CEREK', category: Cat::Other_Letter)]
+    #[Info(id: 0xA989, name: 'JAVANESE LETTER PA CEREK', category: Cat::Other_Letter, informativeAliases: ['vocalic r'])]
     case JAVANESE_LETTER_PA_CEREK = "\u{A989}";
 
-    #[Info(id: 0xA98A, name: 'JAVANESE LETTER NGA LELET', category: Cat::Other_Letter)]
+    #[Info(id: 0xA98A, name: 'JAVANESE LETTER NGA LELET', category: Cat::Other_Letter, informativeAliases: ['vocalic l'])]
     case JAVANESE_LETTER_NGA_LELET = "\u{A98A}";
 
-    #[Info(id: 0xA98B, name: 'JAVANESE LETTER NGA LELET RASWADI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA98B, name: 'JAVANESE LETTER NGA LELET RASWADI', category: Cat::Other_Letter, informativeAliases: ['vocalic ll'])]
     case JAVANESE_LETTER_NGA_LELET_RASWADI = "\u{A98B}";
 
     #[Info(id: 0xA98C, name: 'JAVANESE LETTER E', category: Cat::Other_Letter)]
@@ -64,16 +64,16 @@ enum Javanese: string
     #[Info(id: 0xA98F, name: 'JAVANESE LETTER KA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_KA = "\u{A98F}";
 
-    #[Info(id: 0xA990, name: 'JAVANESE LETTER KA SASAK', category: Cat::Other_Letter)]
+    #[Info(id: 0xA990, name: 'JAVANESE LETTER KA SASAK', category: Cat::Other_Letter, informativeAliases: ['qa'])]
     case JAVANESE_LETTER_KA_SASAK = "\u{A990}";
 
-    #[Info(id: 0xA991, name: 'JAVANESE LETTER KA MURDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA991, name: 'JAVANESE LETTER KA MURDA', category: Cat::Other_Letter, informativeAliases: ['kha'])]
     case JAVANESE_LETTER_KA_MURDA = "\u{A991}";
 
     #[Info(id: 0xA992, name: 'JAVANESE LETTER GA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_GA = "\u{A992}";
 
-    #[Info(id: 0xA993, name: 'JAVANESE LETTER GA MURDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA993, name: 'JAVANESE LETTER GA MURDA', category: Cat::Other_Letter, informativeAliases: ['gha'])]
     case JAVANESE_LETTER_GA_MURDA = "\u{A993}";
 
     #[Info(id: 0xA994, name: 'JAVANESE LETTER NGA', category: Cat::Other_Letter)]
@@ -82,16 +82,16 @@ enum Javanese: string
     #[Info(id: 0xA995, name: 'JAVANESE LETTER CA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_CA = "\u{A995}";
 
-    #[Info(id: 0xA996, name: 'JAVANESE LETTER CA MURDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA996, name: 'JAVANESE LETTER CA MURDA', category: Cat::Other_Letter, informativeAliases: ['cha'])]
     case JAVANESE_LETTER_CA_MURDA = "\u{A996}";
 
     #[Info(id: 0xA997, name: 'JAVANESE LETTER JA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_JA = "\u{A997}";
 
-    #[Info(id: 0xA998, name: 'JAVANESE LETTER NYA MURDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA998, name: 'JAVANESE LETTER NYA MURDA', category: Cat::Other_Letter, informativeAliases: ['jnya'])]
     case JAVANESE_LETTER_NYA_MURDA = "\u{A998}";
 
-    #[Info(id: 0xA999, name: 'JAVANESE LETTER JA MAHAPRANA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA999, name: 'JAVANESE LETTER JA MAHAPRANA', category: Cat::Other_Letter, informativeAliases: ['jha'])]
     case JAVANESE_LETTER_JA_MAHAPRANA = "\u{A999}";
 
     #[Info(id: 0xA99A, name: 'JAVANESE LETTER NYA', category: Cat::Other_Letter)]
@@ -100,28 +100,28 @@ enum Javanese: string
     #[Info(id: 0xA99B, name: 'JAVANESE LETTER TTA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_TTA = "\u{A99B}";
 
-    #[Info(id: 0xA99C, name: 'JAVANESE LETTER TTA MAHAPRANA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA99C, name: 'JAVANESE LETTER TTA MAHAPRANA', category: Cat::Other_Letter, informativeAliases: ['ttha'])]
     case JAVANESE_LETTER_TTA_MAHAPRANA = "\u{A99C}";
 
     #[Info(id: 0xA99D, name: 'JAVANESE LETTER DDA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_DDA = "\u{A99D}";
 
-    #[Info(id: 0xA99E, name: 'JAVANESE LETTER DDA MAHAPRANA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA99E, name: 'JAVANESE LETTER DDA MAHAPRANA', category: Cat::Other_Letter, informativeAliases: ['ddha'])]
     case JAVANESE_LETTER_DDA_MAHAPRANA = "\u{A99E}";
 
-    #[Info(id: 0xA99F, name: 'JAVANESE LETTER NA MURDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA99F, name: 'JAVANESE LETTER NA MURDA', category: Cat::Other_Letter, informativeAliases: ['nna'])]
     case JAVANESE_LETTER_NA_MURDA = "\u{A99F}";
 
     #[Info(id: 0xA9A0, name: 'JAVANESE LETTER TA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_TA = "\u{A9A0}";
 
-    #[Info(id: 0xA9A1, name: 'JAVANESE LETTER TA MURDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9A1, name: 'JAVANESE LETTER TA MURDA', category: Cat::Other_Letter, informativeAliases: ['tha'])]
     case JAVANESE_LETTER_TA_MURDA = "\u{A9A1}";
 
     #[Info(id: 0xA9A2, name: 'JAVANESE LETTER DA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_DA = "\u{A9A2}";
 
-    #[Info(id: 0xA9A3, name: 'JAVANESE LETTER DA MAHAPRANA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9A3, name: 'JAVANESE LETTER DA MAHAPRANA', category: Cat::Other_Letter, informativeAliases: ['dha'])]
     case JAVANESE_LETTER_DA_MAHAPRANA = "\u{A9A3}";
 
     #[Info(id: 0xA9A4, name: 'JAVANESE LETTER NA', category: Cat::Other_Letter)]
@@ -130,13 +130,13 @@ enum Javanese: string
     #[Info(id: 0xA9A5, name: 'JAVANESE LETTER PA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_PA = "\u{A9A5}";
 
-    #[Info(id: 0xA9A6, name: 'JAVANESE LETTER PA MURDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9A6, name: 'JAVANESE LETTER PA MURDA', category: Cat::Other_Letter, informativeAliases: ['pha'])]
     case JAVANESE_LETTER_PA_MURDA = "\u{A9A6}";
 
     #[Info(id: 0xA9A7, name: 'JAVANESE LETTER BA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_BA = "\u{A9A7}";
 
-    #[Info(id: 0xA9A8, name: 'JAVANESE LETTER BA MURDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9A8, name: 'JAVANESE LETTER BA MURDA', category: Cat::Other_Letter, informativeAliases: ['bha'])]
     case JAVANESE_LETTER_BA_MURDA = "\u{A9A8}";
 
     #[Info(id: 0xA9A9, name: 'JAVANESE LETTER MA', category: Cat::Other_Letter)]
@@ -157,10 +157,10 @@ enum Javanese: string
     #[Info(id: 0xA9AE, name: 'JAVANESE LETTER WA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_WA = "\u{A9AE}";
 
-    #[Info(id: 0xA9AF, name: 'JAVANESE LETTER SA MURDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9AF, name: 'JAVANESE LETTER SA MURDA', category: Cat::Other_Letter, informativeAliases: ['sha'])]
     case JAVANESE_LETTER_SA_MURDA = "\u{A9AF}";
 
-    #[Info(id: 0xA9B0, name: 'JAVANESE LETTER SA MAHAPRANA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9B0, name: 'JAVANESE LETTER SA MAHAPRANA', category: Cat::Other_Letter, informativeAliases: ['ssa'])]
     case JAVANESE_LETTER_SA_MAHAPRANA = "\u{A9B0}";
 
     #[Info(id: 0xA9B1, name: 'JAVANESE LETTER SA', category: Cat::Other_Letter)]
@@ -169,46 +169,46 @@ enum Javanese: string
     #[Info(id: 0xA9B2, name: 'JAVANESE LETTER HA', category: Cat::Other_Letter)]
     case JAVANESE_LETTER_HA = "\u{A9B2}";
 
-    #[Info(id: 0xA9B3, name: 'JAVANESE SIGN CECAK TELU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA9B3, name: 'JAVANESE SIGN CECAK TELU', category: Cat::Nonspacing_Mark, informativeAliases: ['nukta'])]
     case JAVANESE_SIGN_CECAK_TELU = "\u{A9B3}";
 
-    #[Info(id: 0xA9B4, name: 'JAVANESE VOWEL SIGN TARUNG', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA9B4, name: 'JAVANESE VOWEL SIGN TARUNG', category: Cat::Spacing_Mark, informativeAliases: ['aa'])]
     case JAVANESE_VOWEL_SIGN_TARUNG = "\u{A9B4}";
 
     #[Info(id: 0xA9B5, name: 'JAVANESE VOWEL SIGN TOLONG', category: Cat::Spacing_Mark)]
     case JAVANESE_VOWEL_SIGN_TOLONG = "\u{A9B5}";
 
-    #[Info(id: 0xA9B6, name: 'JAVANESE VOWEL SIGN WULU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA9B6, name: 'JAVANESE VOWEL SIGN WULU', category: Cat::Nonspacing_Mark, informativeAliases: ['i'])]
     case JAVANESE_VOWEL_SIGN_WULU = "\u{A9B6}";
 
-    #[Info(id: 0xA9B7, name: 'JAVANESE VOWEL SIGN WULU MELIK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA9B7, name: 'JAVANESE VOWEL SIGN WULU MELIK', category: Cat::Nonspacing_Mark, informativeAliases: ['ii'])]
     case JAVANESE_VOWEL_SIGN_WULU_MELIK = "\u{A9B7}";
 
-    #[Info(id: 0xA9B8, name: 'JAVANESE VOWEL SIGN SUKU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA9B8, name: 'JAVANESE VOWEL SIGN SUKU', category: Cat::Nonspacing_Mark, informativeAliases: ['u'])]
     case JAVANESE_VOWEL_SIGN_SUKU = "\u{A9B8}";
 
-    #[Info(id: 0xA9B9, name: 'JAVANESE VOWEL SIGN SUKU MENDUT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA9B9, name: 'JAVANESE VOWEL SIGN SUKU MENDUT', category: Cat::Nonspacing_Mark, informativeAliases: ['uu'])]
     case JAVANESE_VOWEL_SIGN_SUKU_MENDUT = "\u{A9B9}";
 
-    #[Info(id: 0xA9BA, name: 'JAVANESE VOWEL SIGN TALING', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA9BA, name: 'JAVANESE VOWEL SIGN TALING', category: Cat::Spacing_Mark, informativeAliases: ['e'])]
     case JAVANESE_VOWEL_SIGN_TALING = "\u{A9BA}";
 
-    #[Info(id: 0xA9BB, name: 'JAVANESE VOWEL SIGN DIRGA MURE', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA9BB, name: 'JAVANESE VOWEL SIGN DIRGA MURE', category: Cat::Spacing_Mark, informativeAliases: ['ai'])]
     case JAVANESE_VOWEL_SIGN_DIRGA_MURE = "\u{A9BB}";
 
-    #[Info(id: 0xA9BC, name: 'JAVANESE VOWEL SIGN PEPET', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA9BC, name: 'JAVANESE VOWEL SIGN PEPET', category: Cat::Nonspacing_Mark, informativeAliases: ['ĕ'])]
     case JAVANESE_VOWEL_SIGN_PEPET = "\u{A9BC}";
 
-    #[Info(id: 0xA9BD, name: 'JAVANESE CONSONANT SIGN KERET', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA9BD, name: 'JAVANESE CONSONANT SIGN KERET', category: Cat::Nonspacing_Mark, informativeAliases: ['vocalic r'])]
     case JAVANESE_CONSONANT_SIGN_KERET = "\u{A9BD}";
 
-    #[Info(id: 0xA9BE, name: 'JAVANESE CONSONANT SIGN PENGKAL', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA9BE, name: 'JAVANESE CONSONANT SIGN PENGKAL', category: Cat::Spacing_Mark, informativeAliases: ['medial ya'])]
     case JAVANESE_CONSONANT_SIGN_PENGKAL = "\u{A9BE}";
 
-    #[Info(id: 0xA9BF, name: 'JAVANESE CONSONANT SIGN CAKRA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA9BF, name: 'JAVANESE CONSONANT SIGN CAKRA', category: Cat::Spacing_Mark, informativeAliases: ['medial ra'])]
     case JAVANESE_CONSONANT_SIGN_CAKRA = "\u{A9BF}";
 
-    #[Info(id: 0xA9C0, name: 'JAVANESE PANGKON', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA9C0, name: 'JAVANESE PANGKON', category: Cat::Spacing_Mark, informativeAliases: ['virama'])]
     case JAVANESE_PANGKON = "\u{A9C0}";
 
     #[Info(id: 0xA9C1, name: 'JAVANESE LEFT RERENGGAN', category: Cat::Other_Punctuation)]
@@ -232,10 +232,10 @@ enum Javanese: string
     #[Info(id: 0xA9C7, name: 'JAVANESE PADA PANGKAT', category: Cat::Other_Punctuation)]
     case JAVANESE_PADA_PANGKAT = "\u{A9C7}";
 
-    #[Info(id: 0xA9C8, name: 'JAVANESE PADA LINGSA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA9C8, name: 'JAVANESE PADA LINGSA', category: Cat::Other_Punctuation, informativeAliases: ['danda'])]
     case JAVANESE_PADA_LINGSA = "\u{A9C8}";
 
-    #[Info(id: 0xA9C9, name: 'JAVANESE PADA LUNGSI', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA9C9, name: 'JAVANESE PADA LUNGSI', category: Cat::Other_Punctuation, informativeAliases: ['double danda'])]
     case JAVANESE_PADA_LUNGSI = "\u{A9C9}";
 
     #[Info(id: 0xA9CA, name: 'JAVANESE PADA ADEG', category: Cat::Other_Punctuation)]

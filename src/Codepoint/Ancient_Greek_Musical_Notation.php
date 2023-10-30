@@ -22,7 +22,7 @@ enum Ancient_Greek_Musical_Notation: string
     #[Info(id: 0x1D201, name: 'GREEK VOCAL NOTATION SYMBOL-2', category: Cat::Other_Symbol)]
     case GREEK_VOCAL_NOTATION_SYMBOL_2 = "\u{1D201}";
 
-    #[Info(id: 0x1D202, name: 'GREEK VOCAL NOTATION SYMBOL-3', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D202, name: 'GREEK VOCAL NOTATION SYMBOL-3', category: Cat::Other_Symbol, informativeAliases: ['Greek instrumental notation symbol-3'])]
     case GREEK_VOCAL_NOTATION_SYMBOL_3 = "\u{1D202}";
 
     #[Info(id: 0x1D203, name: 'GREEK VOCAL NOTATION SYMBOL-4', category: Cat::Other_Symbol)]
@@ -31,16 +31,16 @@ enum Ancient_Greek_Musical_Notation: string
     #[Info(id: 0x1D204, name: 'GREEK VOCAL NOTATION SYMBOL-5', category: Cat::Other_Symbol)]
     case GREEK_VOCAL_NOTATION_SYMBOL_5 = "\u{1D204}";
 
-    #[Info(id: 0x1D205, name: 'GREEK VOCAL NOTATION SYMBOL-6', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D205, name: 'GREEK VOCAL NOTATION SYMBOL-6', category: Cat::Other_Symbol, informativeAliases: ['Greek instrumental notation symbol-21'])]
     case GREEK_VOCAL_NOTATION_SYMBOL_6 = "\u{1D205}";
 
-    #[Info(id: 0x1D206, name: 'GREEK VOCAL NOTATION SYMBOL-7', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D206, name: 'GREEK VOCAL NOTATION SYMBOL-7', category: Cat::Other_Symbol, informativeAliases: ['Greek instrumental notation symbol-9'])]
     case GREEK_VOCAL_NOTATION_SYMBOL_7 = "\u{1D206}";
 
     #[Info(id: 0x1D207, name: 'GREEK VOCAL NOTATION SYMBOL-8', category: Cat::Other_Symbol)]
     case GREEK_VOCAL_NOTATION_SYMBOL_8 = "\u{1D207}";
 
-    #[Info(id: 0x1D208, name: 'GREEK VOCAL NOTATION SYMBOL-9', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D208, name: 'GREEK VOCAL NOTATION SYMBOL-9', category: Cat::Other_Symbol, informativeAliases: ['Greek instrumental notation symbol-44'])]
     case GREEK_VOCAL_NOTATION_SYMBOL_9 = "\u{1D208}";
 
     #[Info(id: 0x1D209, name: 'GREEK VOCAL NOTATION SYMBOL-10', category: Cat::Other_Symbol)]
@@ -55,10 +55,10 @@ enum Ancient_Greek_Musical_Notation: string
     #[Info(id: 0x1D20C, name: 'GREEK VOCAL NOTATION SYMBOL-13', category: Cat::Other_Symbol)]
     case GREEK_VOCAL_NOTATION_SYMBOL_13 = "\u{1D20C}";
 
-    #[Info(id: 0x1D20D, name: 'GREEK VOCAL NOTATION SYMBOL-14', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D20D, name: 'GREEK VOCAL NOTATION SYMBOL-14', category: Cat::Other_Symbol, informativeAliases: ['Greek instrumental notation symbol-41'])]
     case GREEK_VOCAL_NOTATION_SYMBOL_14 = "\u{1D20D}";
 
-    #[Info(id: 0x1D20E, name: 'GREEK VOCAL NOTATION SYMBOL-15', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D20E, name: 'GREEK VOCAL NOTATION SYMBOL-15', category: Cat::Other_Symbol, informativeAliases: ['Greek instrumental notation symbol-35'])]
     case GREEK_VOCAL_NOTATION_SYMBOL_15 = "\u{1D20E}";
 
     #[Info(id: 0x1D20F, name: 'GREEK VOCAL NOTATION SYMBOL-16', category: Cat::Other_Symbol)]
@@ -67,13 +67,13 @@ enum Ancient_Greek_Musical_Notation: string
     #[Info(id: 0x1D210, name: 'GREEK VOCAL NOTATION SYMBOL-17', category: Cat::Other_Symbol)]
     case GREEK_VOCAL_NOTATION_SYMBOL_17 = "\u{1D210}";
 
-    #[Info(id: 0x1D211, name: 'GREEK VOCAL NOTATION SYMBOL-18', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D211, name: 'GREEK VOCAL NOTATION SYMBOL-18', category: Cat::Other_Symbol, informativeAliases: ['Greek instrumental notation symbol-15'])]
     case GREEK_VOCAL_NOTATION_SYMBOL_18 = "\u{1D211}";
 
     #[Info(id: 0x1D212, name: 'GREEK VOCAL NOTATION SYMBOL-19', category: Cat::Other_Symbol)]
     case GREEK_VOCAL_NOTATION_SYMBOL_19 = "\u{1D212}";
 
-    #[Info(id: 0x1D213, name: 'GREEK VOCAL NOTATION SYMBOL-20', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D213, name: 'GREEK VOCAL NOTATION SYMBOL-20', category: Cat::Other_Symbol, informativeAliases: ['Greek instrumental notation symbol-28'])]
     case GREEK_VOCAL_NOTATION_SYMBOL_20 = "\u{1D213}";
 
     #[Info(id: 0x1D214, name: 'GREEK VOCAL NOTATION SYMBOL-21', category: Cat::Other_Symbol)]
@@ -100,7 +100,7 @@ enum Ancient_Greek_Musical_Notation: string
     #[Info(id: 0x1D21B, name: 'GREEK VOCAL NOTATION SYMBOL-53', category: Cat::Other_Symbol)]
     case GREEK_VOCAL_NOTATION_SYMBOL_53 = "\u{1D21B}";
 
-    #[Info(id: 0x1D21C, name: 'GREEK VOCAL NOTATION SYMBOL-54', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D21C, name: 'GREEK VOCAL NOTATION SYMBOL-54', category: Cat::Other_Symbol, informativeAliases: ['Greek instrumental notation symbol-20'])]
     case GREEK_VOCAL_NOTATION_SYMBOL_54 = "\u{1D21C}";
 
     #[Info(id: 0x1D21D, name: 'GREEK INSTRUMENTAL NOTATION SYMBOL-1', category: Cat::Other_Symbol)]

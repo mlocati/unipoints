@@ -16,7 +16,7 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Bengali: string
 {
-    #[Info(id: 0x980, name: 'BENGALI ANJI', category: Cat::Other_Letter)]
+    #[Info(id: 0x980, name: 'BENGALI ANJI', category: Cat::Other_Letter, informativeAliases: ['siddham, siddhirastu'])]
     case BENGALI_ANJI = "\u{980}";
 
     #[Info(id: 0x981, name: 'BENGALI SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
@@ -130,7 +130,7 @@ enum Bengali: string
     #[Info(id: 0x9AB, name: 'BENGALI LETTER PHA', category: Cat::Other_Letter)]
     case BENGALI_LETTER_PHA = "\u{9AB}";
 
-    #[Info(id: 0x9AC, name: 'BENGALI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x9AC, name: 'BENGALI LETTER BA', category: Cat::Other_Letter, informativeAliases: ['Bengali va, wa'])]
     case BENGALI_LETTER_BA = "\u{9AC}";
 
     #[Info(id: 0x9AD, name: 'BENGALI LETTER BHA', category: Cat::Other_Letter)]
@@ -199,7 +199,7 @@ enum Bengali: string
     #[Info(id: 0x9CC, name: 'BENGALI VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case BENGALI_VOWEL_SIGN_AU = "\u{9CC}";
 
-    #[Info(id: 0x9CD, name: 'BENGALI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x9CD, name: 'BENGALI SIGN VIRAMA', category: Cat::Nonspacing_Mark, informativeAliases: ['hasant (Bengali term for halant)'])]
     case BENGALI_SIGN_VIRAMA = "\u{9CD}";
 
     #[Info(id: 0x9CE, name: 'BENGALI LETTER KHANDA TA', category: Cat::Other_Letter)]
@@ -259,16 +259,16 @@ enum Bengali: string
     #[Info(id: 0x9EF, name: 'BENGALI DIGIT NINE', category: Cat::Decimal_Number)]
     case BENGALI_DIGIT_NINE = "\u{9EF}";
 
-    #[Info(id: 0x9F0, name: 'BENGALI LETTER RA WITH MIDDLE DIAGONAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x9F0, name: 'BENGALI LETTER RA WITH MIDDLE DIAGONAL', category: Cat::Other_Letter, informativeAliases: ['Assamese letter ra'])]
     case BENGALI_LETTER_RA_WITH_MIDDLE_DIAGONAL = "\u{9F0}";
 
-    #[Info(id: 0x9F1, name: 'BENGALI LETTER RA WITH LOWER DIAGONAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x9F1, name: 'BENGALI LETTER RA WITH LOWER DIAGONAL', category: Cat::Other_Letter, unicode1Name: 'BENGALI LETTER VA WITH LOWER DIAGONAL', informativeAliases: ['Assamese letter wa', 'bengali letter va with lower diagonal (1.0)'])]
     case BENGALI_LETTER_RA_WITH_LOWER_DIAGONAL = "\u{9F1}";
 
-    #[Info(id: 0x9F2, name: 'BENGALI RUPEE MARK', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x9F2, name: 'BENGALI RUPEE MARK', category: Cat::Currency_Symbol, informativeAliases: ['taka'])]
     case BENGALI_RUPEE_MARK = "\u{9F2}";
 
-    #[Info(id: 0x9F3, name: 'BENGALI RUPEE SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x9F3, name: 'BENGALI RUPEE SIGN', category: Cat::Currency_Symbol, informativeAliases: ['Bangladeshi taka'])]
     case BENGALI_RUPEE_SIGN = "\u{9F3}";
 
     #[Info(id: 0x9F4, name: 'BENGALI CURRENCY NUMERATOR ONE', category: Cat::Other_Number)]
@@ -289,7 +289,7 @@ enum Bengali: string
     #[Info(id: 0x9F9, name: 'BENGALI CURRENCY DENOMINATOR SIXTEEN', category: Cat::Other_Number)]
     case BENGALI_CURRENCY_DENOMINATOR_SIXTEEN = "\u{9F9}";
 
-    #[Info(id: 0x9FA, name: 'BENGALI ISSHAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x9FA, name: 'BENGALI ISSHAR', category: Cat::Other_Symbol, informativeAliases: ['ishvar', 'svargiya'])]
     case BENGALI_ISSHAR = "\u{9FA}";
 
     #[Info(id: 0x9FB, name: 'BENGALI GANDA MARK', category: Cat::Currency_Symbol)]

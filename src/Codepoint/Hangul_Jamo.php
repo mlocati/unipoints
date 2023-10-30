@@ -16,61 +16,61 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Hangul_Jamo: string
 {
-    #[Info(id: 0x1100, name: 'HANGUL CHOSEONG KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1100, name: 'HANGUL CHOSEONG KIYEOK', category: Cat::Other_Letter, informativeAliases: ['G'])]
     case HANGUL_CHOSEONG_KIYEOK = "\u{1100}";
 
-    #[Info(id: 0x1101, name: 'HANGUL CHOSEONG SSANGKIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1101, name: 'HANGUL CHOSEONG SSANGKIYEOK', category: Cat::Other_Letter, informativeAliases: ['GG'])]
     case HANGUL_CHOSEONG_SSANGKIYEOK = "\u{1101}";
 
-    #[Info(id: 0x1102, name: 'HANGUL CHOSEONG NIEUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1102, name: 'HANGUL CHOSEONG NIEUN', category: Cat::Other_Letter, informativeAliases: ['N'])]
     case HANGUL_CHOSEONG_NIEUN = "\u{1102}";
 
-    #[Info(id: 0x1103, name: 'HANGUL CHOSEONG TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1103, name: 'HANGUL CHOSEONG TIKEUT', category: Cat::Other_Letter, informativeAliases: ['D'])]
     case HANGUL_CHOSEONG_TIKEUT = "\u{1103}";
 
-    #[Info(id: 0x1104, name: 'HANGUL CHOSEONG SSANGTIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1104, name: 'HANGUL CHOSEONG SSANGTIKEUT', category: Cat::Other_Letter, informativeAliases: ['DD'])]
     case HANGUL_CHOSEONG_SSANGTIKEUT = "\u{1104}";
 
-    #[Info(id: 0x1105, name: 'HANGUL CHOSEONG RIEUL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1105, name: 'HANGUL CHOSEONG RIEUL', category: Cat::Other_Letter, informativeAliases: ['R'])]
     case HANGUL_CHOSEONG_RIEUL = "\u{1105}";
 
-    #[Info(id: 0x1106, name: 'HANGUL CHOSEONG MIEUM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1106, name: 'HANGUL CHOSEONG MIEUM', category: Cat::Other_Letter, informativeAliases: ['M'])]
     case HANGUL_CHOSEONG_MIEUM = "\u{1106}";
 
-    #[Info(id: 0x1107, name: 'HANGUL CHOSEONG PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0x1107, name: 'HANGUL CHOSEONG PIEUP', category: Cat::Other_Letter, informativeAliases: ['B'])]
     case HANGUL_CHOSEONG_PIEUP = "\u{1107}";
 
-    #[Info(id: 0x1108, name: 'HANGUL CHOSEONG SSANGPIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0x1108, name: 'HANGUL CHOSEONG SSANGPIEUP', category: Cat::Other_Letter, informativeAliases: ['BB'])]
     case HANGUL_CHOSEONG_SSANGPIEUP = "\u{1108}";
 
-    #[Info(id: 0x1109, name: 'HANGUL CHOSEONG SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x1109, name: 'HANGUL CHOSEONG SIOS', category: Cat::Other_Letter, informativeAliases: ['S'])]
     case HANGUL_CHOSEONG_SIOS = "\u{1109}";
 
-    #[Info(id: 0x110A, name: 'HANGUL CHOSEONG SSANGSIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x110A, name: 'HANGUL CHOSEONG SSANGSIOS', category: Cat::Other_Letter, informativeAliases: ['SS'])]
     case HANGUL_CHOSEONG_SSANGSIOS = "\u{110A}";
 
     #[Info(id: 0x110B, name: 'HANGUL CHOSEONG IEUNG', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_IEUNG = "\u{110B}";
 
-    #[Info(id: 0x110C, name: 'HANGUL CHOSEONG CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0x110C, name: 'HANGUL CHOSEONG CIEUC', category: Cat::Other_Letter, informativeAliases: ['J'])]
     case HANGUL_CHOSEONG_CIEUC = "\u{110C}";
 
-    #[Info(id: 0x110D, name: 'HANGUL CHOSEONG SSANGCIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0x110D, name: 'HANGUL CHOSEONG SSANGCIEUC', category: Cat::Other_Letter, informativeAliases: ['JJ'])]
     case HANGUL_CHOSEONG_SSANGCIEUC = "\u{110D}";
 
-    #[Info(id: 0x110E, name: 'HANGUL CHOSEONG CHIEUCH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110E, name: 'HANGUL CHOSEONG CHIEUCH', category: Cat::Other_Letter, informativeAliases: ['C'])]
     case HANGUL_CHOSEONG_CHIEUCH = "\u{110E}";
 
-    #[Info(id: 0x110F, name: 'HANGUL CHOSEONG KHIEUKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x110F, name: 'HANGUL CHOSEONG KHIEUKH', category: Cat::Other_Letter, informativeAliases: ['K'])]
     case HANGUL_CHOSEONG_KHIEUKH = "\u{110F}";
 
-    #[Info(id: 0x1110, name: 'HANGUL CHOSEONG THIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1110, name: 'HANGUL CHOSEONG THIEUTH', category: Cat::Other_Letter, informativeAliases: ['T'])]
     case HANGUL_CHOSEONG_THIEUTH = "\u{1110}";
 
-    #[Info(id: 0x1111, name: 'HANGUL CHOSEONG PHIEUPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1111, name: 'HANGUL CHOSEONG PHIEUPH', category: Cat::Other_Letter, informativeAliases: ['P'])]
     case HANGUL_CHOSEONG_PHIEUPH = "\u{1111}";
 
-    #[Info(id: 0x1112, name: 'HANGUL CHOSEONG HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1112, name: 'HANGUL CHOSEONG HIEUH', category: Cat::Other_Letter, informativeAliases: ['H'])]
     case HANGUL_CHOSEONG_HIEUH = "\u{1112}";
 
     #[Info(id: 0x1113, name: 'HANGUL CHOSEONG NIEUN-KIYEOK', category: Cat::Other_Letter)]
@@ -307,67 +307,67 @@ enum Hangul_Jamo: string
     #[Info(id: 0x1160, name: 'HANGUL JUNGSEONG FILLER', category: Cat::Other_Letter)]
     case HANGUL_JUNGSEONG_FILLER = "\u{1160}";
 
-    #[Info(id: 0x1161, name: 'HANGUL JUNGSEONG A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1161, name: 'HANGUL JUNGSEONG A', category: Cat::Other_Letter, informativeAliases: ['A'])]
     case HANGUL_JUNGSEONG_A = "\u{1161}";
 
-    #[Info(id: 0x1162, name: 'HANGUL JUNGSEONG AE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1162, name: 'HANGUL JUNGSEONG AE', category: Cat::Other_Letter, informativeAliases: ['AE'])]
     case HANGUL_JUNGSEONG_AE = "\u{1162}";
 
-    #[Info(id: 0x1163, name: 'HANGUL JUNGSEONG YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1163, name: 'HANGUL JUNGSEONG YA', category: Cat::Other_Letter, informativeAliases: ['YA'])]
     case HANGUL_JUNGSEONG_YA = "\u{1163}";
 
-    #[Info(id: 0x1164, name: 'HANGUL JUNGSEONG YAE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1164, name: 'HANGUL JUNGSEONG YAE', category: Cat::Other_Letter, informativeAliases: ['YAE'])]
     case HANGUL_JUNGSEONG_YAE = "\u{1164}";
 
-    #[Info(id: 0x1165, name: 'HANGUL JUNGSEONG EO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1165, name: 'HANGUL JUNGSEONG EO', category: Cat::Other_Letter, informativeAliases: ['EO'])]
     case HANGUL_JUNGSEONG_EO = "\u{1165}";
 
-    #[Info(id: 0x1166, name: 'HANGUL JUNGSEONG E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1166, name: 'HANGUL JUNGSEONG E', category: Cat::Other_Letter, informativeAliases: ['E'])]
     case HANGUL_JUNGSEONG_E = "\u{1166}";
 
-    #[Info(id: 0x1167, name: 'HANGUL JUNGSEONG YEO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1167, name: 'HANGUL JUNGSEONG YEO', category: Cat::Other_Letter, informativeAliases: ['YEO'])]
     case HANGUL_JUNGSEONG_YEO = "\u{1167}";
 
-    #[Info(id: 0x1168, name: 'HANGUL JUNGSEONG YE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1168, name: 'HANGUL JUNGSEONG YE', category: Cat::Other_Letter, informativeAliases: ['YE'])]
     case HANGUL_JUNGSEONG_YE = "\u{1168}";
 
-    #[Info(id: 0x1169, name: 'HANGUL JUNGSEONG O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1169, name: 'HANGUL JUNGSEONG O', category: Cat::Other_Letter, informativeAliases: ['O'])]
     case HANGUL_JUNGSEONG_O = "\u{1169}";
 
-    #[Info(id: 0x116A, name: 'HANGUL JUNGSEONG WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x116A, name: 'HANGUL JUNGSEONG WA', category: Cat::Other_Letter, informativeAliases: ['WA'])]
     case HANGUL_JUNGSEONG_WA = "\u{116A}";
 
-    #[Info(id: 0x116B, name: 'HANGUL JUNGSEONG WAE', category: Cat::Other_Letter)]
+    #[Info(id: 0x116B, name: 'HANGUL JUNGSEONG WAE', category: Cat::Other_Letter, informativeAliases: ['WAE'])]
     case HANGUL_JUNGSEONG_WAE = "\u{116B}";
 
-    #[Info(id: 0x116C, name: 'HANGUL JUNGSEONG OE', category: Cat::Other_Letter)]
+    #[Info(id: 0x116C, name: 'HANGUL JUNGSEONG OE', category: Cat::Other_Letter, informativeAliases: ['OE'])]
     case HANGUL_JUNGSEONG_OE = "\u{116C}";
 
-    #[Info(id: 0x116D, name: 'HANGUL JUNGSEONG YO', category: Cat::Other_Letter)]
+    #[Info(id: 0x116D, name: 'HANGUL JUNGSEONG YO', category: Cat::Other_Letter, informativeAliases: ['YO'])]
     case HANGUL_JUNGSEONG_YO = "\u{116D}";
 
-    #[Info(id: 0x116E, name: 'HANGUL JUNGSEONG U', category: Cat::Other_Letter)]
+    #[Info(id: 0x116E, name: 'HANGUL JUNGSEONG U', category: Cat::Other_Letter, informativeAliases: ['U'])]
     case HANGUL_JUNGSEONG_U = "\u{116E}";
 
-    #[Info(id: 0x116F, name: 'HANGUL JUNGSEONG WEO', category: Cat::Other_Letter)]
+    #[Info(id: 0x116F, name: 'HANGUL JUNGSEONG WEO', category: Cat::Other_Letter, informativeAliases: ['WEO'])]
     case HANGUL_JUNGSEONG_WEO = "\u{116F}";
 
-    #[Info(id: 0x1170, name: 'HANGUL JUNGSEONG WE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1170, name: 'HANGUL JUNGSEONG WE', category: Cat::Other_Letter, informativeAliases: ['WE'])]
     case HANGUL_JUNGSEONG_WE = "\u{1170}";
 
-    #[Info(id: 0x1171, name: 'HANGUL JUNGSEONG WI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1171, name: 'HANGUL JUNGSEONG WI', category: Cat::Other_Letter, informativeAliases: ['WI'])]
     case HANGUL_JUNGSEONG_WI = "\u{1171}";
 
-    #[Info(id: 0x1172, name: 'HANGUL JUNGSEONG YU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1172, name: 'HANGUL JUNGSEONG YU', category: Cat::Other_Letter, informativeAliases: ['YU'])]
     case HANGUL_JUNGSEONG_YU = "\u{1172}";
 
-    #[Info(id: 0x1173, name: 'HANGUL JUNGSEONG EU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1173, name: 'HANGUL JUNGSEONG EU', category: Cat::Other_Letter, informativeAliases: ['EU'])]
     case HANGUL_JUNGSEONG_EU = "\u{1173}";
 
-    #[Info(id: 0x1174, name: 'HANGUL JUNGSEONG YI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1174, name: 'HANGUL JUNGSEONG YI', category: Cat::Other_Letter, informativeAliases: ['YI'])]
     case HANGUL_JUNGSEONG_YI = "\u{1174}";
 
-    #[Info(id: 0x1175, name: 'HANGUL JUNGSEONG I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1175, name: 'HANGUL JUNGSEONG I', category: Cat::Other_Letter, informativeAliases: ['I'])]
     case HANGUL_JUNGSEONG_I = "\u{1175}";
 
     #[Info(id: 0x1176, name: 'HANGUL JUNGSEONG A-O', category: Cat::Other_Letter)]
@@ -520,85 +520,85 @@ enum Hangul_Jamo: string
     #[Info(id: 0x11A7, name: 'HANGUL JUNGSEONG O-YAE', category: Cat::Other_Letter)]
     case HANGUL_JUNGSEONG_O_YAE = "\u{11A7}";
 
-    #[Info(id: 0x11A8, name: 'HANGUL JONGSEONG KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x11A8, name: 'HANGUL JONGSEONG KIYEOK', category: Cat::Other_Letter, informativeAliases: ['G'])]
     case HANGUL_JONGSEONG_KIYEOK = "\u{11A8}";
 
-    #[Info(id: 0x11A9, name: 'HANGUL JONGSEONG SSANGKIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x11A9, name: 'HANGUL JONGSEONG SSANGKIYEOK', category: Cat::Other_Letter, informativeAliases: ['GG'])]
     case HANGUL_JONGSEONG_SSANGKIYEOK = "\u{11A9}";
 
-    #[Info(id: 0x11AA, name: 'HANGUL JONGSEONG KIYEOK-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x11AA, name: 'HANGUL JONGSEONG KIYEOK-SIOS', category: Cat::Other_Letter, informativeAliases: ['GS'])]
     case HANGUL_JONGSEONG_KIYEOK_SIOS = "\u{11AA}";
 
-    #[Info(id: 0x11AB, name: 'HANGUL JONGSEONG NIEUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x11AB, name: 'HANGUL JONGSEONG NIEUN', category: Cat::Other_Letter, informativeAliases: ['N'])]
     case HANGUL_JONGSEONG_NIEUN = "\u{11AB}";
 
-    #[Info(id: 0x11AC, name: 'HANGUL JONGSEONG NIEUN-CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0x11AC, name: 'HANGUL JONGSEONG NIEUN-CIEUC', category: Cat::Other_Letter, informativeAliases: ['NJ'])]
     case HANGUL_JONGSEONG_NIEUN_CIEUC = "\u{11AC}";
 
-    #[Info(id: 0x11AD, name: 'HANGUL JONGSEONG NIEUN-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0x11AD, name: 'HANGUL JONGSEONG NIEUN-HIEUH', category: Cat::Other_Letter, informativeAliases: ['NH'])]
     case HANGUL_JONGSEONG_NIEUN_HIEUH = "\u{11AD}";
 
-    #[Info(id: 0x11AE, name: 'HANGUL JONGSEONG TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0x11AE, name: 'HANGUL JONGSEONG TIKEUT', category: Cat::Other_Letter, informativeAliases: ['D'])]
     case HANGUL_JONGSEONG_TIKEUT = "\u{11AE}";
 
-    #[Info(id: 0x11AF, name: 'HANGUL JONGSEONG RIEUL', category: Cat::Other_Letter)]
+    #[Info(id: 0x11AF, name: 'HANGUL JONGSEONG RIEUL', category: Cat::Other_Letter, informativeAliases: ['L'])]
     case HANGUL_JONGSEONG_RIEUL = "\u{11AF}";
 
-    #[Info(id: 0x11B0, name: 'HANGUL JONGSEONG RIEUL-KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x11B0, name: 'HANGUL JONGSEONG RIEUL-KIYEOK', category: Cat::Other_Letter, informativeAliases: ['LG'])]
     case HANGUL_JONGSEONG_RIEUL_KIYEOK = "\u{11B0}";
 
-    #[Info(id: 0x11B1, name: 'HANGUL JONGSEONG RIEUL-MIEUM', category: Cat::Other_Letter)]
+    #[Info(id: 0x11B1, name: 'HANGUL JONGSEONG RIEUL-MIEUM', category: Cat::Other_Letter, informativeAliases: ['LM'])]
     case HANGUL_JONGSEONG_RIEUL_MIEUM = "\u{11B1}";
 
-    #[Info(id: 0x11B2, name: 'HANGUL JONGSEONG RIEUL-PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0x11B2, name: 'HANGUL JONGSEONG RIEUL-PIEUP', category: Cat::Other_Letter, informativeAliases: ['LB'])]
     case HANGUL_JONGSEONG_RIEUL_PIEUP = "\u{11B2}";
 
-    #[Info(id: 0x11B3, name: 'HANGUL JONGSEONG RIEUL-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x11B3, name: 'HANGUL JONGSEONG RIEUL-SIOS', category: Cat::Other_Letter, informativeAliases: ['LS'])]
     case HANGUL_JONGSEONG_RIEUL_SIOS = "\u{11B3}";
 
-    #[Info(id: 0x11B4, name: 'HANGUL JONGSEONG RIEUL-THIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0x11B4, name: 'HANGUL JONGSEONG RIEUL-THIEUTH', category: Cat::Other_Letter, informativeAliases: ['LT'])]
     case HANGUL_JONGSEONG_RIEUL_THIEUTH = "\u{11B4}";
 
-    #[Info(id: 0x11B5, name: 'HANGUL JONGSEONG RIEUL-PHIEUPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x11B5, name: 'HANGUL JONGSEONG RIEUL-PHIEUPH', category: Cat::Other_Letter, informativeAliases: ['LP'])]
     case HANGUL_JONGSEONG_RIEUL_PHIEUPH = "\u{11B5}";
 
-    #[Info(id: 0x11B6, name: 'HANGUL JONGSEONG RIEUL-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0x11B6, name: 'HANGUL JONGSEONG RIEUL-HIEUH', category: Cat::Other_Letter, informativeAliases: ['LH'])]
     case HANGUL_JONGSEONG_RIEUL_HIEUH = "\u{11B6}";
 
-    #[Info(id: 0x11B7, name: 'HANGUL JONGSEONG MIEUM', category: Cat::Other_Letter)]
+    #[Info(id: 0x11B7, name: 'HANGUL JONGSEONG MIEUM', category: Cat::Other_Letter, informativeAliases: ['M'])]
     case HANGUL_JONGSEONG_MIEUM = "\u{11B7}";
 
-    #[Info(id: 0x11B8, name: 'HANGUL JONGSEONG PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0x11B8, name: 'HANGUL JONGSEONG PIEUP', category: Cat::Other_Letter, informativeAliases: ['B'])]
     case HANGUL_JONGSEONG_PIEUP = "\u{11B8}";
 
-    #[Info(id: 0x11B9, name: 'HANGUL JONGSEONG PIEUP-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x11B9, name: 'HANGUL JONGSEONG PIEUP-SIOS', category: Cat::Other_Letter, informativeAliases: ['BS'])]
     case HANGUL_JONGSEONG_PIEUP_SIOS = "\u{11B9}";
 
-    #[Info(id: 0x11BA, name: 'HANGUL JONGSEONG SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x11BA, name: 'HANGUL JONGSEONG SIOS', category: Cat::Other_Letter, informativeAliases: ['S'])]
     case HANGUL_JONGSEONG_SIOS = "\u{11BA}";
 
-    #[Info(id: 0x11BB, name: 'HANGUL JONGSEONG SSANGSIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x11BB, name: 'HANGUL JONGSEONG SSANGSIOS', category: Cat::Other_Letter, informativeAliases: ['SS'])]
     case HANGUL_JONGSEONG_SSANGSIOS = "\u{11BB}";
 
-    #[Info(id: 0x11BC, name: 'HANGUL JONGSEONG IEUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0x11BC, name: 'HANGUL JONGSEONG IEUNG', category: Cat::Other_Letter, informativeAliases: ['NG'])]
     case HANGUL_JONGSEONG_IEUNG = "\u{11BC}";
 
-    #[Info(id: 0x11BD, name: 'HANGUL JONGSEONG CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0x11BD, name: 'HANGUL JONGSEONG CIEUC', category: Cat::Other_Letter, informativeAliases: ['J'])]
     case HANGUL_JONGSEONG_CIEUC = "\u{11BD}";
 
-    #[Info(id: 0x11BE, name: 'HANGUL JONGSEONG CHIEUCH', category: Cat::Other_Letter)]
+    #[Info(id: 0x11BE, name: 'HANGUL JONGSEONG CHIEUCH', category: Cat::Other_Letter, informativeAliases: ['C'])]
     case HANGUL_JONGSEONG_CHIEUCH = "\u{11BE}";
 
-    #[Info(id: 0x11BF, name: 'HANGUL JONGSEONG KHIEUKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x11BF, name: 'HANGUL JONGSEONG KHIEUKH', category: Cat::Other_Letter, informativeAliases: ['K'])]
     case HANGUL_JONGSEONG_KHIEUKH = "\u{11BF}";
 
-    #[Info(id: 0x11C0, name: 'HANGUL JONGSEONG THIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0x11C0, name: 'HANGUL JONGSEONG THIEUTH', category: Cat::Other_Letter, informativeAliases: ['T'])]
     case HANGUL_JONGSEONG_THIEUTH = "\u{11C0}";
 
-    #[Info(id: 0x11C1, name: 'HANGUL JONGSEONG PHIEUPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x11C1, name: 'HANGUL JONGSEONG PHIEUPH', category: Cat::Other_Letter, informativeAliases: ['P'])]
     case HANGUL_JONGSEONG_PHIEUPH = "\u{11C1}";
 
-    #[Info(id: 0x11C2, name: 'HANGUL JONGSEONG HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0x11C2, name: 'HANGUL JONGSEONG HIEUH', category: Cat::Other_Letter, informativeAliases: ['H'])]
     case HANGUL_JONGSEONG_HIEUH = "\u{11C2}";
 
     #[Info(id: 0x11C3, name: 'HANGUL JONGSEONG KIYEOK-RIEUL', category: Cat::Other_Letter)]
@@ -724,16 +724,16 @@ enum Hangul_Jamo: string
     #[Info(id: 0x11EB, name: 'HANGUL JONGSEONG PANSIOS', category: Cat::Other_Letter)]
     case HANGUL_JONGSEONG_PANSIOS = "\u{11EB}";
 
-    #[Info(id: 0x11EC, name: 'HANGUL JONGSEONG IEUNG-KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EC, name: 'HANGUL JONGSEONG IEUNG-KIYEOK', category: Cat::Other_Letter, correctedNames: ['HANGUL JONGSEONG YESIEUNG-KIYEOK'])]
     case HANGUL_JONGSEONG_IEUNG_KIYEOK = "\u{11EC}";
 
-    #[Info(id: 0x11ED, name: 'HANGUL JONGSEONG IEUNG-SSANGKIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x11ED, name: 'HANGUL JONGSEONG IEUNG-SSANGKIYEOK', category: Cat::Other_Letter, correctedNames: ['HANGUL JONGSEONG YESIEUNG-SSANGKIYEOK'])]
     case HANGUL_JONGSEONG_IEUNG_SSANGKIYEOK = "\u{11ED}";
 
-    #[Info(id: 0x11EE, name: 'HANGUL JONGSEONG SSANGIEUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EE, name: 'HANGUL JONGSEONG SSANGIEUNG', category: Cat::Other_Letter, correctedNames: ['HANGUL JONGSEONG SSANGYESIEUNG'])]
     case HANGUL_JONGSEONG_SSANGIEUNG = "\u{11EE}";
 
-    #[Info(id: 0x11EF, name: 'HANGUL JONGSEONG IEUNG-KHIEUKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x11EF, name: 'HANGUL JONGSEONG IEUNG-KHIEUKH', category: Cat::Other_Letter, correctedNames: ['HANGUL JONGSEONG YESIEUNG-KHIEUKH'])]
     case HANGUL_JONGSEONG_IEUNG_KHIEUKH = "\u{11EF}";
 
     #[Info(id: 0x11F0, name: 'HANGUL JONGSEONG YESIEUNG', category: Cat::Other_Letter)]

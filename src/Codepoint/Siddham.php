@@ -205,7 +205,7 @@ enum Siddham: string
     #[Info(id: 0x115C0, name: 'SIDDHAM SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case SIDDHAM_SIGN_NUKTA = "\u{115C0}";
 
-    #[Info(id: 0x115C1, name: 'SIDDHAM SIGN SIDDHAM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x115C1, name: 'SIDDHAM SIGN SIDDHAM', category: Cat::Other_Punctuation, informativeAliases: ['siddhirastu'])]
     case SIDDHAM_SIGN_SIDDHAM = "\u{115C1}";
 
     #[Info(id: 0x115C2, name: 'SIDDHAM DANDA', category: Cat::Other_Punctuation)]

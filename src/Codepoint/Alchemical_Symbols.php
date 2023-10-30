@@ -37,31 +37,31 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F706, name: 'ALCHEMICAL SYMBOL FOR AQUA REGIA', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_AQUA_REGIA = "\u{1F706}";
 
-    #[Info(id: 0x1F707, name: 'ALCHEMICAL SYMBOL FOR AQUA REGIA-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F707, name: 'ALCHEMICAL SYMBOL FOR AQUA REGIA-2', category: Cat::Other_Symbol, informativeAliases: ['balneum arenae (sand bath), lapis armenus (Armenian stone)'])]
     case ALCHEMICAL_SYMBOL_FOR_AQUA_REGIA_2 = "\u{1F707}";
 
-    #[Info(id: 0x1F708, name: 'ALCHEMICAL SYMBOL FOR AQUA VITAE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F708, name: 'ALCHEMICAL SYMBOL FOR AQUA VITAE', category: Cat::Other_Symbol, informativeAliases: ['spiritus vini'])]
     case ALCHEMICAL_SYMBOL_FOR_AQUA_VITAE = "\u{1F708}";
 
     #[Info(id: 0x1F709, name: 'ALCHEMICAL SYMBOL FOR AQUA VITAE-2', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_AQUA_VITAE_2 = "\u{1F709}";
 
-    #[Info(id: 0x1F70A, name: 'ALCHEMICAL SYMBOL FOR VINEGAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F70A, name: 'ALCHEMICAL SYMBOL FOR VINEGAR', category: Cat::Other_Symbol, informativeAliases: ['crucible; acid; distill; atrament; vitriol; red sulfur; borax; wine; alkali salt; mercurius vivus, quick silver'])]
     case ALCHEMICAL_SYMBOL_FOR_VINEGAR = "\u{1F70A}";
 
-    #[Info(id: 0x1F70B, name: 'ALCHEMICAL SYMBOL FOR VINEGAR-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F70B, name: 'ALCHEMICAL SYMBOL FOR VINEGAR-2', category: Cat::Other_Symbol, informativeAliases: ['distilled vinegar'])]
     case ALCHEMICAL_SYMBOL_FOR_VINEGAR_2 = "\u{1F70B}";
 
     #[Info(id: 0x1F70C, name: 'ALCHEMICAL SYMBOL FOR VINEGAR-3', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_VINEGAR_3 = "\u{1F70C}";
 
-    #[Info(id: 0x1F70D, name: 'ALCHEMICAL SYMBOL FOR SULFUR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F70D, name: 'ALCHEMICAL SYMBOL FOR SULFUR', category: Cat::Other_Symbol, informativeAliases: ['brimstone'])]
     case ALCHEMICAL_SYMBOL_FOR_SULFUR = "\u{1F70D}";
 
     #[Info(id: 0x1F70E, name: 'ALCHEMICAL SYMBOL FOR PHILOSOPHERS SULFUR', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_PHILOSOPHERS_SULFUR = "\u{1F70E}";
 
-    #[Info(id: 0x1F70F, name: 'ALCHEMICAL SYMBOL FOR BLACK SULFUR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F70F, name: 'ALCHEMICAL SYMBOL FOR BLACK SULFUR', category: Cat::Other_Symbol, informativeAliases: ['sulfur nigra, dye'])]
     case ALCHEMICAL_SYMBOL_FOR_BLACK_SULFUR = "\u{1F70F}";
 
     #[Info(id: 0x1F710, name: 'ALCHEMICAL SYMBOL FOR MERCURY SUBLIMATE', category: Cat::Other_Symbol)]
@@ -88,7 +88,7 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F717, name: 'ALCHEMICAL SYMBOL FOR VITRIOL-2', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_VITRIOL_2 = "\u{1F717}";
 
-    #[Info(id: 0x1F718, name: 'ALCHEMICAL SYMBOL FOR ROCK SALT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F718, name: 'ALCHEMICAL SYMBOL FOR ROCK SALT', category: Cat::Other_Symbol, informativeAliases: ['sal gemmae'])]
     case ALCHEMICAL_SYMBOL_FOR_ROCK_SALT = "\u{1F718}";
 
     #[Info(id: 0x1F719, name: 'ALCHEMICAL SYMBOL FOR ROCK SALT-2', category: Cat::Other_Symbol)]
@@ -106,10 +106,10 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F71D, name: 'ALCHEMICAL SYMBOL FOR IRON ORE-2', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_IRON_ORE_2 = "\u{1F71D}";
 
-    #[Info(id: 0x1F71E, name: 'ALCHEMICAL SYMBOL FOR CROCUS OF IRON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F71E, name: 'ALCHEMICAL SYMBOL FOR CROCUS OF IRON', category: Cat::Other_Symbol, informativeAliases: ['crocus martis, red or yellow calcined powder of iron'])]
     case ALCHEMICAL_SYMBOL_FOR_CROCUS_OF_IRON = "\u{1F71E}";
 
-    #[Info(id: 0x1F71F, name: 'ALCHEMICAL SYMBOL FOR REGULUS OF IRON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F71F, name: 'ALCHEMICAL SYMBOL FOR REGULUS OF IRON', category: Cat::Other_Symbol, informativeAliases: ['regulus martis, scoria from refining stibnite/antimony with iron'])]
     case ALCHEMICAL_SYMBOL_FOR_REGULUS_OF_IRON = "\u{1F71F}";
 
     #[Info(id: 0x1F720, name: 'ALCHEMICAL SYMBOL FOR COPPER ORE', category: Cat::Other_Symbol)]
@@ -121,13 +121,13 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F722, name: 'ALCHEMICAL SYMBOL FOR SUBLIMATE OF COPPER', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_SUBLIMATE_OF_COPPER = "\u{1F722}";
 
-    #[Info(id: 0x1F723, name: 'ALCHEMICAL SYMBOL FOR CROCUS OF COPPER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F723, name: 'ALCHEMICAL SYMBOL FOR CROCUS OF COPPER', category: Cat::Other_Symbol, informativeAliases: ['crocus veneris, aes ustum'])]
     case ALCHEMICAL_SYMBOL_FOR_CROCUS_OF_COPPER = "\u{1F723}";
 
     #[Info(id: 0x1F724, name: 'ALCHEMICAL SYMBOL FOR CROCUS OF COPPER-2', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_CROCUS_OF_COPPER_2 = "\u{1F724}";
 
-    #[Info(id: 0x1F725, name: 'ALCHEMICAL SYMBOL FOR COPPER ANTIMONIATE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F725, name: 'ALCHEMICAL SYMBOL FOR COPPER ANTIMONIATE', category: Cat::Other_Symbol, informativeAliases: ['crocus of copper, crocus veneris, lapis haematites'])]
     case ALCHEMICAL_SYMBOL_FOR_COPPER_ANTIMONIATE = "\u{1F725}";
 
     #[Info(id: 0x1F726, name: 'ALCHEMICAL SYMBOL FOR SALT OF COPPER ANTIMONIATE', category: Cat::Other_Symbol)]
@@ -136,7 +136,7 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F727, name: 'ALCHEMICAL SYMBOL FOR SUBLIMATE OF SALT OF COPPER', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_SUBLIMATE_OF_SALT_OF_COPPER = "\u{1F727}";
 
-    #[Info(id: 0x1F728, name: 'ALCHEMICAL SYMBOL FOR VERDIGRIS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F728, name: 'ALCHEMICAL SYMBOL FOR VERDIGRIS', category: Cat::Other_Symbol, informativeAliases: ['aes viride, copper subacetate', 'astronomical symbol for earth'])]
     case ALCHEMICAL_SYMBOL_FOR_VERDIGRIS = "\u{1F728}";
 
     #[Info(id: 0x1F729, name: 'ALCHEMICAL SYMBOL FOR TIN ORE', category: Cat::Other_Symbol)]
@@ -145,13 +145,13 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F72A, name: 'ALCHEMICAL SYMBOL FOR LEAD ORE', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_LEAD_ORE = "\u{1F72A}";
 
-    #[Info(id: 0x1F72B, name: 'ALCHEMICAL SYMBOL FOR ANTIMONY ORE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F72B, name: 'ALCHEMICAL SYMBOL FOR ANTIMONY ORE', category: Cat::Other_Symbol, informativeAliases: ['stibnite'])]
     case ALCHEMICAL_SYMBOL_FOR_ANTIMONY_ORE = "\u{1F72B}";
 
     #[Info(id: 0x1F72C, name: 'ALCHEMICAL SYMBOL FOR SUBLIMATE OF ANTIMONY', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_SUBLIMATE_OF_ANTIMONY = "\u{1F72C}";
 
-    #[Info(id: 0x1F72D, name: 'ALCHEMICAL SYMBOL FOR SALT OF ANTIMONY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F72D, name: 'ALCHEMICAL SYMBOL FOR SALT OF ANTIMONY', category: Cat::Other_Symbol, informativeAliases: ['cinnabar'])]
     case ALCHEMICAL_SYMBOL_FOR_SALT_OF_ANTIMONY = "\u{1F72D}";
 
     #[Info(id: 0x1F72E, name: 'ALCHEMICAL SYMBOL FOR SUBLIMATE OF SALT OF ANTIMONY', category: Cat::Other_Symbol)]
@@ -160,7 +160,7 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F72F, name: 'ALCHEMICAL SYMBOL FOR VINEGAR OF ANTIMONY', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_VINEGAR_OF_ANTIMONY = "\u{1F72F}";
 
-    #[Info(id: 0x1F730, name: 'ALCHEMICAL SYMBOL FOR REGULUS OF ANTIMONY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F730, name: 'ALCHEMICAL SYMBOL FOR REGULUS OF ANTIMONY', category: Cat::Other_Symbol, informativeAliases: ['antimony metal'])]
     case ALCHEMICAL_SYMBOL_FOR_REGULUS_OF_ANTIMONY = "\u{1F730}";
 
     #[Info(id: 0x1F731, name: 'ALCHEMICAL SYMBOL FOR REGULUS OF ANTIMONY-2', category: Cat::Other_Symbol)]
@@ -178,40 +178,40 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F735, name: 'ALCHEMICAL SYMBOL FOR REGULUS-4', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_REGULUS_4 = "\u{1F735}";
 
-    #[Info(id: 0x1F736, name: 'ALCHEMICAL SYMBOL FOR ALKALI', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F736, name: 'ALCHEMICAL SYMBOL FOR ALKALI', category: Cat::Other_Symbol, informativeAliases: ['sal alkali'])]
     case ALCHEMICAL_SYMBOL_FOR_ALKALI = "\u{1F736}";
 
     #[Info(id: 0x1F737, name: 'ALCHEMICAL SYMBOL FOR ALKALI-2', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_ALKALI_2 = "\u{1F737}";
 
-    #[Info(id: 0x1F738, name: 'ALCHEMICAL SYMBOL FOR MARCASITE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F738, name: 'ALCHEMICAL SYMBOL FOR MARCASITE', category: Cat::Other_Symbol, informativeAliases: ['iron pyrite, iron sulfide'])]
     case ALCHEMICAL_SYMBOL_FOR_MARCASITE = "\u{1F738}";
 
-    #[Info(id: 0x1F739, name: 'ALCHEMICAL SYMBOL FOR SAL-AMMONIAC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F739, name: 'ALCHEMICAL SYMBOL FOR SAL-AMMONIAC', category: Cat::Other_Symbol, informativeAliases: ['ammonium chloride'])]
     case ALCHEMICAL_SYMBOL_FOR_SAL_AMMONIAC = "\u{1F739}";
 
     #[Info(id: 0x1F73A, name: 'ALCHEMICAL SYMBOL FOR ARSENIC', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_ARSENIC = "\u{1F73A}";
 
-    #[Info(id: 0x1F73B, name: 'ALCHEMICAL SYMBOL FOR REALGAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F73B, name: 'ALCHEMICAL SYMBOL FOR REALGAR', category: Cat::Other_Symbol, informativeAliases: ['arsenic sulfide'])]
     case ALCHEMICAL_SYMBOL_FOR_REALGAR = "\u{1F73B}";
 
-    #[Info(id: 0x1F73C, name: 'ALCHEMICAL SYMBOL FOR REALGAR-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F73C, name: 'ALCHEMICAL SYMBOL FOR REALGAR-2', category: Cat::Other_Symbol, informativeAliases: ['arsenic sulfide'])]
     case ALCHEMICAL_SYMBOL_FOR_REALGAR_2 = "\u{1F73C}";
 
-    #[Info(id: 0x1F73D, name: 'ALCHEMICAL SYMBOL FOR AURIPIGMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F73D, name: 'ALCHEMICAL SYMBOL FOR AURIPIGMENT', category: Cat::Other_Symbol, informativeAliases: ['orpiment', 'arsenic trisulfide'])]
     case ALCHEMICAL_SYMBOL_FOR_AURIPIGMENT = "\u{1F73D}";
 
-    #[Info(id: 0x1F73E, name: 'ALCHEMICAL SYMBOL FOR BISMUTH ORE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F73E, name: 'ALCHEMICAL SYMBOL FOR BISMUTH ORE', category: Cat::Other_Symbol, informativeAliases: ['tinglass'])]
     case ALCHEMICAL_SYMBOL_FOR_BISMUTH_ORE = "\u{1F73E}";
 
-    #[Info(id: 0x1F73F, name: 'ALCHEMICAL SYMBOL FOR TARTAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F73F, name: 'ALCHEMICAL SYMBOL FOR TARTAR', category: Cat::Other_Symbol, informativeAliases: ['impure potassium tartrate'])]
     case ALCHEMICAL_SYMBOL_FOR_TARTAR = "\u{1F73F}";
 
-    #[Info(id: 0x1F740, name: 'ALCHEMICAL SYMBOL FOR TARTAR-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F740, name: 'ALCHEMICAL SYMBOL FOR TARTAR-2', category: Cat::Other_Symbol, informativeAliases: ['impure potassium tartrate'])]
     case ALCHEMICAL_SYMBOL_FOR_TARTAR_2 = "\u{1F740}";
 
-    #[Info(id: 0x1F741, name: 'ALCHEMICAL SYMBOL FOR QUICK LIME', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F741, name: 'ALCHEMICAL SYMBOL FOR QUICK LIME', category: Cat::Other_Symbol, informativeAliases: ['calx viva', 'calcium oxide'])]
     case ALCHEMICAL_SYMBOL_FOR_QUICK_LIME = "\u{1F741}";
 
     #[Info(id: 0x1F742, name: 'ALCHEMICAL SYMBOL FOR BORAX', category: Cat::Other_Symbol)]
@@ -238,19 +238,19 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F749, name: 'ALCHEMICAL SYMBOL FOR GUM', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_GUM = "\u{1F749}";
 
-    #[Info(id: 0x1F74A, name: 'ALCHEMICAL SYMBOL FOR WAX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F74A, name: 'ALCHEMICAL SYMBOL FOR WAX', category: Cat::Other_Symbol, informativeAliases: ['cera'])]
     case ALCHEMICAL_SYMBOL_FOR_WAX = "\u{1F74A}";
 
-    #[Info(id: 0x1F74B, name: 'ALCHEMICAL SYMBOL FOR POWDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F74B, name: 'ALCHEMICAL SYMBOL FOR POWDER', category: Cat::Other_Symbol, informativeAliases: ['pulvis'])]
     case ALCHEMICAL_SYMBOL_FOR_POWDER = "\u{1F74B}";
 
-    #[Info(id: 0x1F74C, name: 'ALCHEMICAL SYMBOL FOR CALX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F74C, name: 'ALCHEMICAL SYMBOL FOR CALX', category: Cat::Other_Symbol, informativeAliases: ['calcinare', 'oxide residue, calcium oxide'])]
     case ALCHEMICAL_SYMBOL_FOR_CALX = "\u{1F74C}";
 
-    #[Info(id: 0x1F74D, name: 'ALCHEMICAL SYMBOL FOR TUTTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F74D, name: 'ALCHEMICAL SYMBOL FOR TUTTY', category: Cat::Other_Symbol, informativeAliases: ['tutia, crude zinc oxide sublimate', 'aes viride'])]
     case ALCHEMICAL_SYMBOL_FOR_TUTTY = "\u{1F74D}";
 
-    #[Info(id: 0x1F74E, name: 'ALCHEMICAL SYMBOL FOR CAPUT MORTUUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F74E, name: 'ALCHEMICAL SYMBOL FOR CAPUT MORTUUM', category: Cat::Other_Symbol, informativeAliases: ['worthless residue of sublimation or distillation'])]
     case ALCHEMICAL_SYMBOL_FOR_CAPUT_MORTUUM = "\u{1F74E}";
 
     #[Info(id: 0x1F74F, name: 'ALCHEMICAL SYMBOL FOR SCEPTER OF JOVE', category: Cat::Other_Symbol)]
@@ -265,7 +265,7 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F752, name: 'ALCHEMICAL SYMBOL FOR STARRED TRIDENT', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_STARRED_TRIDENT = "\u{1F752}";
 
-    #[Info(id: 0x1F753, name: 'ALCHEMICAL SYMBOL FOR LODESTONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F753, name: 'ALCHEMICAL SYMBOL FOR LODESTONE', category: Cat::Other_Symbol, informativeAliases: ['magnes'])]
     case ALCHEMICAL_SYMBOL_FOR_LODESTONE = "\u{1F753}";
 
     #[Info(id: 0x1F754, name: 'ALCHEMICAL SYMBOL FOR SOAP', category: Cat::Other_Symbol)]
@@ -274,19 +274,19 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F755, name: 'ALCHEMICAL SYMBOL FOR URINE', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_URINE = "\u{1F755}";
 
-    #[Info(id: 0x1F756, name: 'ALCHEMICAL SYMBOL FOR HORSE DUNG', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F756, name: 'ALCHEMICAL SYMBOL FOR HORSE DUNG', category: Cat::Other_Symbol, informativeAliases: ['fimus equinus'])]
     case ALCHEMICAL_SYMBOL_FOR_HORSE_DUNG = "\u{1F756}";
 
-    #[Info(id: 0x1F757, name: 'ALCHEMICAL SYMBOL FOR ASHES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F757, name: 'ALCHEMICAL SYMBOL FOR ASHES', category: Cat::Other_Symbol, informativeAliases: ['cineres'])]
     case ALCHEMICAL_SYMBOL_FOR_ASHES = "\u{1F757}";
 
-    #[Info(id: 0x1F758, name: 'ALCHEMICAL SYMBOL FOR POT ASHES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F758, name: 'ALCHEMICAL SYMBOL FOR POT ASHES', category: Cat::Other_Symbol, informativeAliases: ['cineres clavellati, alumen'])]
     case ALCHEMICAL_SYMBOL_FOR_POT_ASHES = "\u{1F758}";
 
     #[Info(id: 0x1F759, name: 'ALCHEMICAL SYMBOL FOR BRICK', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_BRICK = "\u{1F759}";
 
-    #[Info(id: 0x1F75A, name: 'ALCHEMICAL SYMBOL FOR POWDERED BRICK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F75A, name: 'ALCHEMICAL SYMBOL FOR POWDERED BRICK', category: Cat::Other_Symbol, informativeAliases: ['later cibratus, farina laterum'])]
     case ALCHEMICAL_SYMBOL_FOR_POWDERED_BRICK = "\u{1F75A}";
 
     #[Info(id: 0x1F75B, name: 'ALCHEMICAL SYMBOL FOR AMALGAM', category: Cat::Other_Symbol)]
@@ -304,13 +304,13 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F75F, name: 'ALCHEMICAL SYMBOL FOR PRECIPITATE', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_PRECIPITATE = "\u{1F75F}";
 
-    #[Info(id: 0x1F760, name: 'ALCHEMICAL SYMBOL FOR DISTILL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F760, name: 'ALCHEMICAL SYMBOL FOR DISTILL', category: Cat::Other_Symbol, informativeAliases: ['sublimate'])]
     case ALCHEMICAL_SYMBOL_FOR_DISTILL = "\u{1F760}";
 
     #[Info(id: 0x1F761, name: 'ALCHEMICAL SYMBOL FOR DISSOLVE', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_DISSOLVE = "\u{1F761}";
 
-    #[Info(id: 0x1F762, name: 'ALCHEMICAL SYMBOL FOR DISSOLVE-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F762, name: 'ALCHEMICAL SYMBOL FOR DISSOLVE-2', category: Cat::Other_Symbol, informativeAliases: ['water, aqua'])]
     case ALCHEMICAL_SYMBOL_FOR_DISSOLVE_2 = "\u{1F762}";
 
     #[Info(id: 0x1F763, name: 'ALCHEMICAL SYMBOL FOR PURIFY', category: Cat::Other_Symbol)]
@@ -319,7 +319,7 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F764, name: 'ALCHEMICAL SYMBOL FOR PUTREFACTION', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_PUTREFACTION = "\u{1F764}";
 
-    #[Info(id: 0x1F765, name: 'ALCHEMICAL SYMBOL FOR CRUCIBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F765, name: 'ALCHEMICAL SYMBOL FOR CRUCIBLE', category: Cat::Other_Symbol, informativeAliases: ['tigellum'])]
     case ALCHEMICAL_SYMBOL_FOR_CRUCIBLE = "\u{1F765}";
 
     #[Info(id: 0x1F766, name: 'ALCHEMICAL SYMBOL FOR CRUCIBLE-2', category: Cat::Other_Symbol)]
@@ -337,10 +337,10 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F76A, name: 'ALCHEMICAL SYMBOL FOR ALEMBIC', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_ALEMBIC = "\u{1F76A}";
 
-    #[Info(id: 0x1F76B, name: 'ALCHEMICAL SYMBOL FOR BATH OF MARY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F76B, name: 'ALCHEMICAL SYMBOL FOR BATH OF MARY', category: Cat::Other_Symbol, informativeAliases: ['balneum mariae'])]
     case ALCHEMICAL_SYMBOL_FOR_BATH_OF_MARY = "\u{1F76B}";
 
-    #[Info(id: 0x1F76C, name: 'ALCHEMICAL SYMBOL FOR BATH OF VAPOURS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F76C, name: 'ALCHEMICAL SYMBOL FOR BATH OF VAPOURS', category: Cat::Other_Symbol, informativeAliases: ['balneum vaporis'])]
     case ALCHEMICAL_SYMBOL_FOR_BATH_OF_VAPOURS = "\u{1F76C}";
 
     #[Info(id: 0x1F76D, name: 'ALCHEMICAL SYMBOL FOR RETORT', category: Cat::Other_Symbol)]
@@ -355,16 +355,16 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F770, name: 'ALCHEMICAL SYMBOL FOR DAY-NIGHT', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_DAY_NIGHT = "\u{1F770}";
 
-    #[Info(id: 0x1F771, name: 'ALCHEMICAL SYMBOL FOR MONTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F771, name: 'ALCHEMICAL SYMBOL FOR MONTH', category: Cat::Other_Symbol, informativeAliases: ['mensis'])]
     case ALCHEMICAL_SYMBOL_FOR_MONTH = "\u{1F771}";
 
-    #[Info(id: 0x1F772, name: 'ALCHEMICAL SYMBOL FOR HALF DRAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F772, name: 'ALCHEMICAL SYMBOL FOR HALF DRAM', category: Cat::Other_Symbol, informativeAliases: ['drachma semis'])]
     case ALCHEMICAL_SYMBOL_FOR_HALF_DRAM = "\u{1F772}";
 
-    #[Info(id: 0x1F773, name: 'ALCHEMICAL SYMBOL FOR HALF OUNCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F773, name: 'ALCHEMICAL SYMBOL FOR HALF OUNCE', category: Cat::Other_Symbol, informativeAliases: ['uncia semis'])]
     case ALCHEMICAL_SYMBOL_FOR_HALF_OUNCE = "\u{1F773}";
 
-    #[Info(id: 0x1F774, name: 'LOT OF FORTUNE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F774, name: 'LOT OF FORTUNE', category: Cat::Other_Symbol, informativeAliases: ['pars fortunae'])]
     case LOT_OF_FORTUNE = "\u{1F774}";
 
     #[Info(id: 0x1F775, name: 'OCCULTATION', category: Cat::Other_Symbol)]

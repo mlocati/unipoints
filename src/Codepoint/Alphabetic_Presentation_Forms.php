@@ -55,7 +55,7 @@ enum Alphabetic_Presentation_Forms: string
     #[Info(id: 0xFB1D, name: 'HEBREW LETTER YOD WITH HIRIQ', category: Cat::Other_Letter)]
     case HEBREW_LETTER_YOD_WITH_HIRIQ = "\u{FB1D}";
 
-    #[Info(id: 0xFB1E, name: 'HEBREW POINT JUDEO-SPANISH VARIKA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xFB1E, name: 'HEBREW POINT JUDEO-SPANISH VARIKA', category: Cat::Nonspacing_Mark, unicode1Name: 'HEBREW POINT VARIKA')]
     case HEBREW_POINT_JUDEO_SPANISH_VARIKA = "\u{FB1E}";
 
     #[Info(id: 0xFB1F, name: 'HEBREW LIGATURE YIDDISH YOD YOD PATAH', category: Cat::Other_Letter)]

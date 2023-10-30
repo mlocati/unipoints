@@ -19,7 +19,7 @@ enum Spacing_Modifier_Letters: string
     #[Info(id: 0x2B0, name: 'MODIFIER LETTER SMALL H', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_H = "\u{2B0}";
 
-    #[Info(id: 0x2B1, name: 'MODIFIER LETTER SMALL H WITH HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x2B1, name: 'MODIFIER LETTER SMALL H WITH HOOK', category: Cat::Modifier_Letter, unicode1Name: 'MODIFIER LETTER SMALL H HOOK')]
     case MODIFIER_LETTER_SMALL_H_WITH_HOOK = "\u{2B1}";
 
     #[Info(id: 0x2B2, name: 'MODIFIER LETTER SMALL J', category: Cat::Modifier_Letter)]
@@ -31,7 +31,7 @@ enum Spacing_Modifier_Letters: string
     #[Info(id: 0x2B4, name: 'MODIFIER LETTER SMALL TURNED R', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_TURNED_R = "\u{2B4}";
 
-    #[Info(id: 0x2B5, name: 'MODIFIER LETTER SMALL TURNED R WITH HOOK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x2B5, name: 'MODIFIER LETTER SMALL TURNED R WITH HOOK', category: Cat::Modifier_Letter, unicode1Name: 'MODIFIER LETTER SMALL TURNED R HOOK')]
     case MODIFIER_LETTER_SMALL_TURNED_R_WITH_HOOK = "\u{2B5}";
 
     #[Info(id: 0x2B6, name: 'MODIFIER LETTER SMALL CAPITAL INVERTED R', category: Cat::Modifier_Letter)]
@@ -52,7 +52,7 @@ enum Spacing_Modifier_Letters: string
     #[Info(id: 0x2BB, name: 'MODIFIER LETTER TURNED COMMA', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_TURNED_COMMA = "\u{2BB}";
 
-    #[Info(id: 0x2BC, name: 'MODIFIER LETTER APOSTROPHE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x2BC, name: 'MODIFIER LETTER APOSTROPHE', category: Cat::Modifier_Letter, informativeAliases: ['apostrophe'])]
     case MODIFIER_LETTER_APOSTROPHE = "\u{2BC}";
 
     #[Info(id: 0x2BD, name: 'MODIFIER LETTER REVERSED COMMA', category: Cat::Modifier_Letter)]
@@ -82,10 +82,10 @@ enum Spacing_Modifier_Letters: string
     #[Info(id: 0x2C5, name: 'MODIFIER LETTER DOWN ARROWHEAD', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_DOWN_ARROWHEAD = "\u{2C5}";
 
-    #[Info(id: 0x2C6, name: 'MODIFIER LETTER CIRCUMFLEX ACCENT', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x2C6, name: 'MODIFIER LETTER CIRCUMFLEX ACCENT', category: Cat::Modifier_Letter, unicode1Name: 'MODIFIER LETTER CIRCUMFLEX')]
     case MODIFIER_LETTER_CIRCUMFLEX_ACCENT = "\u{2C6}";
 
-    #[Info(id: 0x2C7, name: 'CARON', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x2C7, name: 'CARON', category: Cat::Modifier_Letter, unicode1Name: 'MODIFIER LETTER HACEK', informativeAliases: ['hacek'])]
     case CARON = "\u{2C7}";
 
     #[Info(id: 0x2C8, name: 'MODIFIER LETTER VERTICAL LINE', category: Cat::Modifier_Letter)]
@@ -94,10 +94,10 @@ enum Spacing_Modifier_Letters: string
     #[Info(id: 0x2C9, name: 'MODIFIER LETTER MACRON', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_MACRON = "\u{2C9}";
 
-    #[Info(id: 0x2CA, name: 'MODIFIER LETTER ACUTE ACCENT', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x2CA, name: 'MODIFIER LETTER ACUTE ACCENT', category: Cat::Modifier_Letter, unicode1Name: 'MODIFIER LETTER ACUTE')]
     case MODIFIER_LETTER_ACUTE_ACCENT = "\u{2CA}";
 
-    #[Info(id: 0x2CB, name: 'MODIFIER LETTER GRAVE ACCENT', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x2CB, name: 'MODIFIER LETTER GRAVE ACCENT', category: Cat::Modifier_Letter, unicode1Name: 'MODIFIER LETTER GRAVE')]
     case MODIFIER_LETTER_GRAVE_ACCENT = "\u{2CB}";
 
     #[Info(id: 0x2CC, name: 'MODIFIER LETTER LOW VERTICAL LINE', category: Cat::Modifier_Letter)]
@@ -106,10 +106,10 @@ enum Spacing_Modifier_Letters: string
     #[Info(id: 0x2CD, name: 'MODIFIER LETTER LOW MACRON', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_LOW_MACRON = "\u{2CD}";
 
-    #[Info(id: 0x2CE, name: 'MODIFIER LETTER LOW GRAVE ACCENT', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x2CE, name: 'MODIFIER LETTER LOW GRAVE ACCENT', category: Cat::Modifier_Letter, unicode1Name: 'MODIFIER LETTER LOW GRAVE')]
     case MODIFIER_LETTER_LOW_GRAVE_ACCENT = "\u{2CE}";
 
-    #[Info(id: 0x2CF, name: 'MODIFIER LETTER LOW ACUTE ACCENT', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x2CF, name: 'MODIFIER LETTER LOW ACUTE ACCENT', category: Cat::Modifier_Letter, unicode1Name: 'MODIFIER LETTER LOW ACUTE')]
     case MODIFIER_LETTER_LOW_ACUTE_ACCENT = "\u{2CF}";
 
     #[Info(id: 0x2D0, name: 'MODIFIER LETTER TRIANGULAR COLON', category: Cat::Modifier_Letter)]
@@ -118,10 +118,10 @@ enum Spacing_Modifier_Letters: string
     #[Info(id: 0x2D1, name: 'MODIFIER LETTER HALF TRIANGULAR COLON', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_HALF_TRIANGULAR_COLON = "\u{2D1}";
 
-    #[Info(id: 0x2D2, name: 'MODIFIER LETTER CENTRED RIGHT HALF RING', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x2D2, name: 'MODIFIER LETTER CENTRED RIGHT HALF RING', category: Cat::Modifier_Symbol, unicode1Name: 'MODIFIER LETTER CENTERED RIGHT HALF RING')]
     case MODIFIER_LETTER_CENTRED_RIGHT_HALF_RING = "\u{2D2}";
 
-    #[Info(id: 0x2D3, name: 'MODIFIER LETTER CENTRED LEFT HALF RING', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x2D3, name: 'MODIFIER LETTER CENTRED LEFT HALF RING', category: Cat::Modifier_Symbol, unicode1Name: 'MODIFIER LETTER CENTERED LEFT HALF RING')]
     case MODIFIER_LETTER_CENTRED_LEFT_HALF_RING = "\u{2D3}";
 
     #[Info(id: 0x2D4, name: 'MODIFIER LETTER UP TACK', category: Cat::Modifier_Symbol)]
@@ -136,22 +136,22 @@ enum Spacing_Modifier_Letters: string
     #[Info(id: 0x2D7, name: 'MODIFIER LETTER MINUS SIGN', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_MINUS_SIGN = "\u{2D7}";
 
-    #[Info(id: 0x2D8, name: 'BREVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x2D8, name: 'BREVE', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING BREVE')]
     case BREVE = "\u{2D8}";
 
-    #[Info(id: 0x2D9, name: 'DOT ABOVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x2D9, name: 'DOT ABOVE', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING DOT ABOVE')]
     case DOT_ABOVE = "\u{2D9}";
 
-    #[Info(id: 0x2DA, name: 'RING ABOVE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x2DA, name: 'RING ABOVE', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING RING ABOVE')]
     case RING_ABOVE = "\u{2DA}";
 
-    #[Info(id: 0x2DB, name: 'OGONEK', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x2DB, name: 'OGONEK', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING OGONEK')]
     case OGONEK = "\u{2DB}";
 
-    #[Info(id: 0x2DC, name: 'SMALL TILDE', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x2DC, name: 'SMALL TILDE', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING TILDE')]
     case SMALL_TILDE = "\u{2DC}";
 
-    #[Info(id: 0x2DD, name: 'DOUBLE ACUTE ACCENT', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0x2DD, name: 'DOUBLE ACUTE ACCENT', category: Cat::Modifier_Symbol, unicode1Name: 'SPACING DOUBLE ACUTE')]
     case DOUBLE_ACUTE_ACCENT = "\u{2DD}";
 
     #[Info(id: 0x2DE, name: 'MODIFIER LETTER RHOTIC HOOK', category: Cat::Modifier_Symbol)]

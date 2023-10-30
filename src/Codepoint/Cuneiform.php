@@ -2188,10 +2188,10 @@ enum Cuneiform: string
     #[Info(id: 0x122D3, name: 'CUNEIFORM SIGN SHIR', category: Cat::Other_Letter)]
     case CUNEIFORM_SIGN_SHIR = "\u{122D3}";
 
-    #[Info(id: 0x122D4, name: 'CUNEIFORM SIGN SHIR TENU', category: Cat::Other_Letter)]
+    #[Info(id: 0x122D4, name: 'CUNEIFORM SIGN SHIR TENU', category: Cat::Other_Letter, correctedNames: ['CUNEIFORM SIGN NU11 TENU'])]
     case CUNEIFORM_SIGN_SHIR_TENU = "\u{122D4}";
 
-    #[Info(id: 0x122D5, name: 'CUNEIFORM SIGN SHIR OVER SHIR BUR OVER BUR', category: Cat::Other_Letter)]
+    #[Info(id: 0x122D5, name: 'CUNEIFORM SIGN SHIR OVER SHIR BUR OVER BUR', category: Cat::Other_Letter, correctedNames: ['CUNEIFORM SIGN NU11 OVER NU11 BUR OVER BUR'])]
     case CUNEIFORM_SIGN_SHIR_OVER_SHIR_BUR_OVER_BUR = "\u{122D5}";
 
     #[Info(id: 0x122D6, name: 'CUNEIFORM SIGN SHITA', category: Cat::Other_Letter)]

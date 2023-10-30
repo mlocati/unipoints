@@ -19,235 +19,235 @@ enum Sinhala: string
     #[Info(id: 0xD81, name: 'SINHALA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case SINHALA_SIGN_CANDRABINDU = "\u{D81}";
 
-    #[Info(id: 0xD82, name: 'SINHALA SIGN ANUSVARAYA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD82, name: 'SINHALA SIGN ANUSVARAYA', category: Cat::Spacing_Mark, informativeAliases: ['anusvara'])]
     case SINHALA_SIGN_ANUSVARAYA = "\u{D82}";
 
-    #[Info(id: 0xD83, name: 'SINHALA SIGN VISARGAYA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xD83, name: 'SINHALA SIGN VISARGAYA', category: Cat::Spacing_Mark, informativeAliases: ['visarga'])]
     case SINHALA_SIGN_VISARGAYA = "\u{D83}";
 
-    #[Info(id: 0xD85, name: 'SINHALA LETTER AYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD85, name: 'SINHALA LETTER AYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter a'])]
     case SINHALA_LETTER_AYANNA = "\u{D85}";
 
-    #[Info(id: 0xD86, name: 'SINHALA LETTER AAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD86, name: 'SINHALA LETTER AAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter aa'])]
     case SINHALA_LETTER_AAYANNA = "\u{D86}";
 
-    #[Info(id: 0xD87, name: 'SINHALA LETTER AEYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD87, name: 'SINHALA LETTER AEYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ae'])]
     case SINHALA_LETTER_AEYANNA = "\u{D87}";
 
-    #[Info(id: 0xD88, name: 'SINHALA LETTER AEEYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD88, name: 'SINHALA LETTER AEEYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter aae'])]
     case SINHALA_LETTER_AEEYANNA = "\u{D88}";
 
-    #[Info(id: 0xD89, name: 'SINHALA LETTER IYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD89, name: 'SINHALA LETTER IYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter i'])]
     case SINHALA_LETTER_IYANNA = "\u{D89}";
 
-    #[Info(id: 0xD8A, name: 'SINHALA LETTER IIYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD8A, name: 'SINHALA LETTER IIYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ii'])]
     case SINHALA_LETTER_IIYANNA = "\u{D8A}";
 
-    #[Info(id: 0xD8B, name: 'SINHALA LETTER UYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD8B, name: 'SINHALA LETTER UYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter u'])]
     case SINHALA_LETTER_UYANNA = "\u{D8B}";
 
-    #[Info(id: 0xD8C, name: 'SINHALA LETTER UUYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD8C, name: 'SINHALA LETTER UUYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter uu'])]
     case SINHALA_LETTER_UUYANNA = "\u{D8C}";
 
-    #[Info(id: 0xD8D, name: 'SINHALA LETTER IRUYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD8D, name: 'SINHALA LETTER IRUYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter vocalic r'])]
     case SINHALA_LETTER_IRUYANNA = "\u{D8D}";
 
-    #[Info(id: 0xD8E, name: 'SINHALA LETTER IRUUYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD8E, name: 'SINHALA LETTER IRUUYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter vocalic rr'])]
     case SINHALA_LETTER_IRUUYANNA = "\u{D8E}";
 
-    #[Info(id: 0xD8F, name: 'SINHALA LETTER ILUYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD8F, name: 'SINHALA LETTER ILUYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter vocalic l'])]
     case SINHALA_LETTER_ILUYANNA = "\u{D8F}";
 
-    #[Info(id: 0xD90, name: 'SINHALA LETTER ILUUYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD90, name: 'SINHALA LETTER ILUUYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter vocalic ll'])]
     case SINHALA_LETTER_ILUUYANNA = "\u{D90}";
 
-    #[Info(id: 0xD91, name: 'SINHALA LETTER EYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD91, name: 'SINHALA LETTER EYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter e'])]
     case SINHALA_LETTER_EYANNA = "\u{D91}";
 
-    #[Info(id: 0xD92, name: 'SINHALA LETTER EEYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD92, name: 'SINHALA LETTER EEYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ee'])]
     case SINHALA_LETTER_EEYANNA = "\u{D92}";
 
-    #[Info(id: 0xD93, name: 'SINHALA LETTER AIYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD93, name: 'SINHALA LETTER AIYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ai'])]
     case SINHALA_LETTER_AIYANNA = "\u{D93}";
 
-    #[Info(id: 0xD94, name: 'SINHALA LETTER OYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD94, name: 'SINHALA LETTER OYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter o'])]
     case SINHALA_LETTER_OYANNA = "\u{D94}";
 
-    #[Info(id: 0xD95, name: 'SINHALA LETTER OOYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD95, name: 'SINHALA LETTER OOYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter oo'])]
     case SINHALA_LETTER_OOYANNA = "\u{D95}";
 
-    #[Info(id: 0xD96, name: 'SINHALA LETTER AUYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD96, name: 'SINHALA LETTER AUYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter au'])]
     case SINHALA_LETTER_AUYANNA = "\u{D96}";
 
-    #[Info(id: 0xD9A, name: 'SINHALA LETTER ALPAPRAANA KAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD9A, name: 'SINHALA LETTER ALPAPRAANA KAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ka'])]
     case SINHALA_LETTER_ALPAPRAANA_KAYANNA = "\u{D9A}";
 
-    #[Info(id: 0xD9B, name: 'SINHALA LETTER MAHAAPRAANA KAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD9B, name: 'SINHALA LETTER MAHAAPRAANA KAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter kha'])]
     case SINHALA_LETTER_MAHAAPRAANA_KAYANNA = "\u{D9B}";
 
-    #[Info(id: 0xD9C, name: 'SINHALA LETTER ALPAPRAANA GAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD9C, name: 'SINHALA LETTER ALPAPRAANA GAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ga'])]
     case SINHALA_LETTER_ALPAPRAANA_GAYANNA = "\u{D9C}";
 
-    #[Info(id: 0xD9D, name: 'SINHALA LETTER MAHAAPRAANA GAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD9D, name: 'SINHALA LETTER MAHAAPRAANA GAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter gha'])]
     case SINHALA_LETTER_MAHAAPRAANA_GAYANNA = "\u{D9D}";
 
-    #[Info(id: 0xD9E, name: 'SINHALA LETTER KANTAJA NAASIKYAYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD9E, name: 'SINHALA LETTER KANTAJA NAASIKYAYA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter nga'])]
     case SINHALA_LETTER_KANTAJA_NAASIKYAYA = "\u{D9E}";
 
-    #[Info(id: 0xD9F, name: 'SINHALA LETTER SANYAKA GAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xD9F, name: 'SINHALA LETTER SANYAKA GAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter nnga'])]
     case SINHALA_LETTER_SANYAKA_GAYANNA = "\u{D9F}";
 
-    #[Info(id: 0xDA0, name: 'SINHALA LETTER ALPAPRAANA CAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDA0, name: 'SINHALA LETTER ALPAPRAANA CAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ca'])]
     case SINHALA_LETTER_ALPAPRAANA_CAYANNA = "\u{DA0}";
 
-    #[Info(id: 0xDA1, name: 'SINHALA LETTER MAHAAPRAANA CAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDA1, name: 'SINHALA LETTER MAHAAPRAANA CAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter cha'])]
     case SINHALA_LETTER_MAHAAPRAANA_CAYANNA = "\u{DA1}";
 
-    #[Info(id: 0xDA2, name: 'SINHALA LETTER ALPAPRAANA JAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDA2, name: 'SINHALA LETTER ALPAPRAANA JAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ja'])]
     case SINHALA_LETTER_ALPAPRAANA_JAYANNA = "\u{DA2}";
 
-    #[Info(id: 0xDA3, name: 'SINHALA LETTER MAHAAPRAANA JAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDA3, name: 'SINHALA LETTER MAHAAPRAANA JAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter jha'])]
     case SINHALA_LETTER_MAHAAPRAANA_JAYANNA = "\u{DA3}";
 
-    #[Info(id: 0xDA4, name: 'SINHALA LETTER TAALUJA NAASIKYAYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDA4, name: 'SINHALA LETTER TAALUJA NAASIKYAYA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter nya'])]
     case SINHALA_LETTER_TAALUJA_NAASIKYAYA = "\u{DA4}";
 
-    #[Info(id: 0xDA5, name: 'SINHALA LETTER TAALUJA SANYOOGA NAAKSIKYAYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDA5, name: 'SINHALA LETTER TAALUJA SANYOOGA NAAKSIKYAYA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter jnya'])]
     case SINHALA_LETTER_TAALUJA_SANYOOGA_NAAKSIKYAYA = "\u{DA5}";
 
-    #[Info(id: 0xDA6, name: 'SINHALA LETTER SANYAKA JAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDA6, name: 'SINHALA LETTER SANYAKA JAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter nyja'])]
     case SINHALA_LETTER_SANYAKA_JAYANNA = "\u{DA6}";
 
-    #[Info(id: 0xDA7, name: 'SINHALA LETTER ALPAPRAANA TTAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDA7, name: 'SINHALA LETTER ALPAPRAANA TTAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter tta'])]
     case SINHALA_LETTER_ALPAPRAANA_TTAYANNA = "\u{DA7}";
 
-    #[Info(id: 0xDA8, name: 'SINHALA LETTER MAHAAPRAANA TTAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDA8, name: 'SINHALA LETTER MAHAAPRAANA TTAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ttha'])]
     case SINHALA_LETTER_MAHAAPRAANA_TTAYANNA = "\u{DA8}";
 
-    #[Info(id: 0xDA9, name: 'SINHALA LETTER ALPAPRAANA DDAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDA9, name: 'SINHALA LETTER ALPAPRAANA DDAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter dda'])]
     case SINHALA_LETTER_ALPAPRAANA_DDAYANNA = "\u{DA9}";
 
-    #[Info(id: 0xDAA, name: 'SINHALA LETTER MAHAAPRAANA DDAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDAA, name: 'SINHALA LETTER MAHAAPRAANA DDAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ddha'])]
     case SINHALA_LETTER_MAHAAPRAANA_DDAYANNA = "\u{DAA}";
 
-    #[Info(id: 0xDAB, name: 'SINHALA LETTER MUURDHAJA NAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDAB, name: 'SINHALA LETTER MUURDHAJA NAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter nna'])]
     case SINHALA_LETTER_MUURDHAJA_NAYANNA = "\u{DAB}";
 
-    #[Info(id: 0xDAC, name: 'SINHALA LETTER SANYAKA DDAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDAC, name: 'SINHALA LETTER SANYAKA DDAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter nndda'])]
     case SINHALA_LETTER_SANYAKA_DDAYANNA = "\u{DAC}";
 
-    #[Info(id: 0xDAD, name: 'SINHALA LETTER ALPAPRAANA TAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDAD, name: 'SINHALA LETTER ALPAPRAANA TAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ta'])]
     case SINHALA_LETTER_ALPAPRAANA_TAYANNA = "\u{DAD}";
 
-    #[Info(id: 0xDAE, name: 'SINHALA LETTER MAHAAPRAANA TAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDAE, name: 'SINHALA LETTER MAHAAPRAANA TAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter tha'])]
     case SINHALA_LETTER_MAHAAPRAANA_TAYANNA = "\u{DAE}";
 
-    #[Info(id: 0xDAF, name: 'SINHALA LETTER ALPAPRAANA DAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDAF, name: 'SINHALA LETTER ALPAPRAANA DAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter da'])]
     case SINHALA_LETTER_ALPAPRAANA_DAYANNA = "\u{DAF}";
 
-    #[Info(id: 0xDB0, name: 'SINHALA LETTER MAHAAPRAANA DAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDB0, name: 'SINHALA LETTER MAHAAPRAANA DAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter dha'])]
     case SINHALA_LETTER_MAHAAPRAANA_DAYANNA = "\u{DB0}";
 
-    #[Info(id: 0xDB1, name: 'SINHALA LETTER DANTAJA NAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDB1, name: 'SINHALA LETTER DANTAJA NAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter na'])]
     case SINHALA_LETTER_DANTAJA_NAYANNA = "\u{DB1}";
 
-    #[Info(id: 0xDB3, name: 'SINHALA LETTER SANYAKA DAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDB3, name: 'SINHALA LETTER SANYAKA DAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter nda'])]
     case SINHALA_LETTER_SANYAKA_DAYANNA = "\u{DB3}";
 
-    #[Info(id: 0xDB4, name: 'SINHALA LETTER ALPAPRAANA PAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDB4, name: 'SINHALA LETTER ALPAPRAANA PAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter pa'])]
     case SINHALA_LETTER_ALPAPRAANA_PAYANNA = "\u{DB4}";
 
-    #[Info(id: 0xDB5, name: 'SINHALA LETTER MAHAAPRAANA PAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDB5, name: 'SINHALA LETTER MAHAAPRAANA PAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter pha'])]
     case SINHALA_LETTER_MAHAAPRAANA_PAYANNA = "\u{DB5}";
 
-    #[Info(id: 0xDB6, name: 'SINHALA LETTER ALPAPRAANA BAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDB6, name: 'SINHALA LETTER ALPAPRAANA BAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ba'])]
     case SINHALA_LETTER_ALPAPRAANA_BAYANNA = "\u{DB6}";
 
-    #[Info(id: 0xDB7, name: 'SINHALA LETTER MAHAAPRAANA BAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDB7, name: 'SINHALA LETTER MAHAAPRAANA BAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter bha'])]
     case SINHALA_LETTER_MAHAAPRAANA_BAYANNA = "\u{DB7}";
 
-    #[Info(id: 0xDB8, name: 'SINHALA LETTER MAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDB8, name: 'SINHALA LETTER MAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ma'])]
     case SINHALA_LETTER_MAYANNA = "\u{DB8}";
 
-    #[Info(id: 0xDB9, name: 'SINHALA LETTER AMBA BAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDB9, name: 'SINHALA LETTER AMBA BAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter mba'])]
     case SINHALA_LETTER_AMBA_BAYANNA = "\u{DB9}";
 
-    #[Info(id: 0xDBA, name: 'SINHALA LETTER YAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDBA, name: 'SINHALA LETTER YAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ya'])]
     case SINHALA_LETTER_YAYANNA = "\u{DBA}";
 
-    #[Info(id: 0xDBB, name: 'SINHALA LETTER RAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDBB, name: 'SINHALA LETTER RAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ra'])]
     case SINHALA_LETTER_RAYANNA = "\u{DBB}";
 
-    #[Info(id: 0xDBD, name: 'SINHALA LETTER DANTAJA LAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDBD, name: 'SINHALA LETTER DANTAJA LAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter la'])]
     case SINHALA_LETTER_DANTAJA_LAYANNA = "\u{DBD}";
 
-    #[Info(id: 0xDC0, name: 'SINHALA LETTER VAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDC0, name: 'SINHALA LETTER VAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter va'])]
     case SINHALA_LETTER_VAYANNA = "\u{DC0}";
 
-    #[Info(id: 0xDC1, name: 'SINHALA LETTER TAALUJA SAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDC1, name: 'SINHALA LETTER TAALUJA SAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter sha'])]
     case SINHALA_LETTER_TAALUJA_SAYANNA = "\u{DC1}";
 
-    #[Info(id: 0xDC2, name: 'SINHALA LETTER MUURDHAJA SAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDC2, name: 'SINHALA LETTER MUURDHAJA SAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ssa'])]
     case SINHALA_LETTER_MUURDHAJA_SAYANNA = "\u{DC2}";
 
-    #[Info(id: 0xDC3, name: 'SINHALA LETTER DANTAJA SAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDC3, name: 'SINHALA LETTER DANTAJA SAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter sa'])]
     case SINHALA_LETTER_DANTAJA_SAYANNA = "\u{DC3}";
 
-    #[Info(id: 0xDC4, name: 'SINHALA LETTER HAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDC4, name: 'SINHALA LETTER HAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter ha'])]
     case SINHALA_LETTER_HAYANNA = "\u{DC4}";
 
-    #[Info(id: 0xDC5, name: 'SINHALA LETTER MUURDHAJA LAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDC5, name: 'SINHALA LETTER MUURDHAJA LAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter lla'])]
     case SINHALA_LETTER_MUURDHAJA_LAYANNA = "\u{DC5}";
 
-    #[Info(id: 0xDC6, name: 'SINHALA LETTER FAYANNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xDC6, name: 'SINHALA LETTER FAYANNA', category: Cat::Other_Letter, informativeAliases: ['sinhala letter fa'])]
     case SINHALA_LETTER_FAYANNA = "\u{DC6}";
 
-    #[Info(id: 0xDCA, name: 'SINHALA SIGN AL-LAKUNA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xDCA, name: 'SINHALA SIGN AL-LAKUNA', category: Cat::Nonspacing_Mark, informativeAliases: ['virama'])]
     case SINHALA_SIGN_AL_LAKUNA = "\u{DCA}";
 
-    #[Info(id: 0xDCF, name: 'SINHALA VOWEL SIGN AELA-PILLA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDCF, name: 'SINHALA VOWEL SIGN AELA-PILLA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign aa'])]
     case SINHALA_VOWEL_SIGN_AELA_PILLA = "\u{DCF}";
 
-    #[Info(id: 0xDD0, name: 'SINHALA VOWEL SIGN KETTI AEDA-PILLA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDD0, name: 'SINHALA VOWEL SIGN KETTI AEDA-PILLA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign ae'])]
     case SINHALA_VOWEL_SIGN_KETTI_AEDA_PILLA = "\u{DD0}";
 
-    #[Info(id: 0xDD1, name: 'SINHALA VOWEL SIGN DIGA AEDA-PILLA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDD1, name: 'SINHALA VOWEL SIGN DIGA AEDA-PILLA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign aae'])]
     case SINHALA_VOWEL_SIGN_DIGA_AEDA_PILLA = "\u{DD1}";
 
-    #[Info(id: 0xDD2, name: 'SINHALA VOWEL SIGN KETTI IS-PILLA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xDD2, name: 'SINHALA VOWEL SIGN KETTI IS-PILLA', category: Cat::Nonspacing_Mark, informativeAliases: ['sinhala vowel sign i'])]
     case SINHALA_VOWEL_SIGN_KETTI_IS_PILLA = "\u{DD2}";
 
-    #[Info(id: 0xDD3, name: 'SINHALA VOWEL SIGN DIGA IS-PILLA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xDD3, name: 'SINHALA VOWEL SIGN DIGA IS-PILLA', category: Cat::Nonspacing_Mark, informativeAliases: ['sinhala vowel sign ii'])]
     case SINHALA_VOWEL_SIGN_DIGA_IS_PILLA = "\u{DD3}";
 
-    #[Info(id: 0xDD4, name: 'SINHALA VOWEL SIGN KETTI PAA-PILLA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xDD4, name: 'SINHALA VOWEL SIGN KETTI PAA-PILLA', category: Cat::Nonspacing_Mark, informativeAliases: ['sinhala vowel sign u'])]
     case SINHALA_VOWEL_SIGN_KETTI_PAA_PILLA = "\u{DD4}";
 
-    #[Info(id: 0xDD6, name: 'SINHALA VOWEL SIGN DIGA PAA-PILLA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xDD6, name: 'SINHALA VOWEL SIGN DIGA PAA-PILLA', category: Cat::Nonspacing_Mark, informativeAliases: ['sinhala vowel sign uu'])]
     case SINHALA_VOWEL_SIGN_DIGA_PAA_PILLA = "\u{DD6}";
 
-    #[Info(id: 0xDD8, name: 'SINHALA VOWEL SIGN GAETTA-PILLA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDD8, name: 'SINHALA VOWEL SIGN GAETTA-PILLA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign vocalic r'])]
     case SINHALA_VOWEL_SIGN_GAETTA_PILLA = "\u{DD8}";
 
-    #[Info(id: 0xDD9, name: 'SINHALA VOWEL SIGN KOMBUVA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDD9, name: 'SINHALA VOWEL SIGN KOMBUVA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign e'])]
     case SINHALA_VOWEL_SIGN_KOMBUVA = "\u{DD9}";
 
-    #[Info(id: 0xDDA, name: 'SINHALA VOWEL SIGN DIGA KOMBUVA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDDA, name: 'SINHALA VOWEL SIGN DIGA KOMBUVA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign ee'])]
     case SINHALA_VOWEL_SIGN_DIGA_KOMBUVA = "\u{DDA}";
 
-    #[Info(id: 0xDDB, name: 'SINHALA VOWEL SIGN KOMBU DEKA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDDB, name: 'SINHALA VOWEL SIGN KOMBU DEKA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign ai'])]
     case SINHALA_VOWEL_SIGN_KOMBU_DEKA = "\u{DDB}";
 
-    #[Info(id: 0xDDC, name: 'SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDDC, name: 'SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign o'])]
     case SINHALA_VOWEL_SIGN_KOMBUVA_HAA_AELA_PILLA = "\u{DDC}";
 
-    #[Info(id: 0xDDD, name: 'SINHALA VOWEL SIGN KOMBUVA HAA DIGA AELA-PILLA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDDD, name: 'SINHALA VOWEL SIGN KOMBUVA HAA DIGA AELA-PILLA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign oo'])]
     case SINHALA_VOWEL_SIGN_KOMBUVA_HAA_DIGA_AELA_PILLA = "\u{DDD}";
 
-    #[Info(id: 0xDDE, name: 'SINHALA VOWEL SIGN KOMBUVA HAA GAYANUKITTA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDDE, name: 'SINHALA VOWEL SIGN KOMBUVA HAA GAYANUKITTA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign au'])]
     case SINHALA_VOWEL_SIGN_KOMBUVA_HAA_GAYANUKITTA = "\u{DDE}";
 
-    #[Info(id: 0xDDF, name: 'SINHALA VOWEL SIGN GAYANUKITTA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDDF, name: 'SINHALA VOWEL SIGN GAYANUKITTA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign vocalic l'])]
     case SINHALA_VOWEL_SIGN_GAYANUKITTA = "\u{DDF}";
 
     #[Info(id: 0xDE6, name: 'SINHALA LITH DIGIT ZERO', category: Cat::Decimal_Number)]
@@ -280,10 +280,10 @@ enum Sinhala: string
     #[Info(id: 0xDEF, name: 'SINHALA LITH DIGIT NINE', category: Cat::Decimal_Number)]
     case SINHALA_LITH_DIGIT_NINE = "\u{DEF}";
 
-    #[Info(id: 0xDF2, name: 'SINHALA VOWEL SIGN DIGA GAETTA-PILLA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDF2, name: 'SINHALA VOWEL SIGN DIGA GAETTA-PILLA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign vocalic rr'])]
     case SINHALA_VOWEL_SIGN_DIGA_GAETTA_PILLA = "\u{DF2}";
 
-    #[Info(id: 0xDF3, name: 'SINHALA VOWEL SIGN DIGA GAYANUKITTA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xDF3, name: 'SINHALA VOWEL SIGN DIGA GAYANUKITTA', category: Cat::Spacing_Mark, informativeAliases: ['sinhala vowel sign vocalic ll'])]
     case SINHALA_VOWEL_SIGN_DIGA_GAYANUKITTA = "\u{DF3}";
 
     #[Info(id: 0xDF4, name: 'SINHALA PUNCTUATION KUNDDALIYA', category: Cat::Other_Punctuation)]
