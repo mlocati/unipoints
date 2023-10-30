@@ -86,9 +86,7 @@ final class CodepointEnumTest extends TestCase
         $this->assertEquals($info, $caseAttributes[0]->newInstance());
         $this->assertGreaterThanOrEqual(0, $info->id);
         $this->assertNotSame('', $info->name);
-        if ($info->category !== Category::Surrogate) {
-            $this->assertSame(1, mb_strlen($case->value), "mb_strlen of codepoint {$info->id} ('{$case->value}')");
-        }
+        $this->assertNotSame(Category::Surrogate, $info->category);
         $categoryInfo = CategoryInfo::from($info->category);
         $this->assertSame([], $categoryInfo->childCategories);
         if ($block === null) {

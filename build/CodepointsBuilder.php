@@ -50,25 +50,23 @@ class CodepointsBuilder
         if ($namespace !== null) {
             $namespace = trim($namespace, '\\');
         }
-        $this->saveCodepoints($directory === '' ? '' : "{$directory}Codepoint.php", $namespace);
+        $this->saveCodepoints($directory === '' ? '' : "{$directory}Codepoint.php", $namespace, null, false);
         foreach ($this->blocksBuilder->getBlocks() as $block) {
-            $this->saveCodepoints($directory === '' ? '' : "{$directory}Codepoint/{$block->codename}.php", $namespace === null ? null : "{$namespace}\\Codepoint", $block);
+            $this->saveCodepoints($directory === '' ? '' : "{$directory}Codepoint/{$block->codename}.php", $namespace === null ? null : "{$namespace}\\Codepoint", $block, false);
         }
+        $this->saveCodepoints($directory === '' ? '' : "{$directory}SurrogateCodepoint.php", $namespace, null, true);
     }
 
-    public function saveCodepoints(string $filename = '', ?string $namespace = null, ?BlocksBuilder\Block $onlyForBlock = null): bool
+    public function saveCodepoints(string $filename = '', ?string $namespace = null, ?BlocksBuilder\Block $onlyForBlock = null, bool $surrogates = false): bool
     {
-        $code = $this->createPHPCode($namespace, $onlyForBlock);
+        $code = $this->createPHPCode($namespace, $onlyForBlock, $surrogates);
         if ($code === '') {
             return false;
         }
         if ($filename === '') {
             $filename = str_replace(DIRECTORY_SEPARATOR, '/', realpath(__DIR__ . '/../src'));
-            if ($onlyForBlock === null) {
-                $filename .= '/Codepoint.php';
-            } else {
-                $filename .= "/Codepoint/{$onlyForBlock->codename}.php";
-            }
+            $baseName = $surrogates ? 'SurrogateCodepoint' : 'Codepoint';
+            $filename .= $onlyForBlock === null ? "/{$baseName}.php" : "/{$baseName}/{$onlyForBlock->codename}.php";
         }
         $dirname = dirname($filename);
         if ($dirname && !is_dir($dirname) && !@mkdir($dirname)) {
@@ -349,12 +347,12 @@ class CodepointsBuilder
         ];
     }
 
-    protected function createPHPCode(?string $namespace = null, ?BlocksBuilder\Block $onlyForBlock = null, bool $withOpeningTag = true): string
+    protected function createPHPCode(?string $namespace = null, ?BlocksBuilder\Block $onlyForBlock = null, bool $surrogates = false, bool $withOpeningTag = true): string
     {
         if ($namespace === null) {
             $namespace = 'MLUnipoints';
             if ($onlyForBlock !== null) {
-                $namespace .= '\\Codepoint';
+                $namespace .= $surrogates ? '\\SurrogateCodepoint' : '\\Codepoint';
             }
         } else {
             $namespace = trim($namespace, '\\');
@@ -379,14 +377,19 @@ EOT
             $result .= "\nnamespace {$namespace};\n\n";
         }
         $unicodeVersion = var_export($this->unicodeVersion, true);
-        $enumName = $onlyForBlock === null ? 'Codepoint' : $onlyForBlock->codename;
+        if ($onlyForBlock === null) {
+            $enumName = $surrogates ? 'SurrogateCodepoint' : 'Codepoint';
+        } else {
+            $enumName = $onlyForBlock->codename;
+        }
+        $nativeType = $surrogates ? 'int' : 'string';
         $result .= <<<EOT
 use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
 #[UnicodeInfo(unicodeVersion: {$unicodeVersion})]
-enum {$enumName}: string
+enum {$enumName}: {$nativeType}
 {
 
 EOT
@@ -394,11 +397,15 @@ EOT
         $previousCodepoint = null;
         $someFound = false;
         foreach ($this->getCodepoints() as $codepoint) {
-            if ($onlyForBlock === null || $codepoint->block === $onlyForBlock) {
-                $someFound = true;
-                $result .= $this->createPHPCodeForCodepoint($codepoint, $previousCodepoint, $onlyForBlock !== null);
-                $previousCodepoint = $codepoint;
+            if ($onlyForBlock !== null && $codepoint->block !== $onlyForBlock) {
+                continue;
             }
+            if ($surrogates !== ($codepoint->category === Category::Surrogate)) {
+                continue;
+            }
+            $someFound = true;
+            $result .= $this->createPHPCodeForCodepoint($codepoint, $previousCodepoint, $onlyForBlock !== null);
+            $previousCodepoint = $codepoint;
         }
         $result .= "}\n";
 
@@ -425,10 +432,10 @@ EOT
         }
         $name = var_export($codepoint->name, true);
         $block = $isBlockFile ? '' : ", block: Block::{$codepoint->block->codename}";
-        $lines[] = "{$indent}#[Info(id: {$codepoint->codepoint}, name: {$name}{$block}, category: Cat::{$codepoint->category->name})]";
         $hexCodepoint = strtoupper(dechex($codepoint->codepoint));
-        $char = '"\\u{' . $hexCodepoint . '}"';
-        $lines[] = "{$indent}case {$codepoint->codename} = {$char};";
+        $lines[] = "{$indent}#[Info(id: {$codepoint->codepoint}, name: {$name}{$block}, category: Cat::{$codepoint->category->name})]";
+        $value = $codepoint->category === Category::Surrogate ? "0x{$hexCodepoint}" : '"\\u{' . $hexCodepoint . '}"';
+        $lines[] = "{$indent}case {$codepoint->codename} = {$value};";
 
         return implode("\n", $lines) . "\n";
     }

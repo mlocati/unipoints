@@ -29,6 +29,13 @@ Planes are blocks of 65,536 contiguous codepoints and may contain zero, one or m
 
 This library also provides the <dfn>general category<dfn> of every codepoint, that is, you can know if a codepoint is a lowercase letter, a symbol, a punctuation, and so on.
 
+### Surrogate Codepoints
+
+In order to extend the number of codepoints that can be represented with 16 bits, Unicode introduced "Surrogates".
+A single character (or punctuation, ...) can be represented by combining two consecutive surrogates (called "high surrogate" and "low surrogate").
+That means that such codepoints have a meaning only in pair.
+
+
 ## Sample Usage
 
 Codepoints are listed in the string-backed [`MLUnipoints\Codepoint`](https://github.com/mlocati/unipoints/blob/main/src/Codepoint.php) enum.
