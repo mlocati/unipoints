@@ -16,2991 +16,2991 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Mathematical_Alphanumeric_Symbols: string
 {
-    #[Info(id: 119808, name: 'MATHEMATICAL BOLD CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D400, name: 'MATHEMATICAL BOLD CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_A = "\u{1D400}";
 
-    #[Info(id: 119809, name: 'MATHEMATICAL BOLD CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D401, name: 'MATHEMATICAL BOLD CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_B = "\u{1D401}";
 
-    #[Info(id: 119810, name: 'MATHEMATICAL BOLD CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D402, name: 'MATHEMATICAL BOLD CAPITAL C', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_C = "\u{1D402}";
 
-    #[Info(id: 119811, name: 'MATHEMATICAL BOLD CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D403, name: 'MATHEMATICAL BOLD CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_D = "\u{1D403}";
 
-    #[Info(id: 119812, name: 'MATHEMATICAL BOLD CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D404, name: 'MATHEMATICAL BOLD CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_E = "\u{1D404}";
 
-    #[Info(id: 119813, name: 'MATHEMATICAL BOLD CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D405, name: 'MATHEMATICAL BOLD CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_F = "\u{1D405}";
 
-    #[Info(id: 119814, name: 'MATHEMATICAL BOLD CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D406, name: 'MATHEMATICAL BOLD CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_G = "\u{1D406}";
 
-    #[Info(id: 119815, name: 'MATHEMATICAL BOLD CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D407, name: 'MATHEMATICAL BOLD CAPITAL H', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_H = "\u{1D407}";
 
-    #[Info(id: 119816, name: 'MATHEMATICAL BOLD CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D408, name: 'MATHEMATICAL BOLD CAPITAL I', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_I = "\u{1D408}";
 
-    #[Info(id: 119817, name: 'MATHEMATICAL BOLD CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D409, name: 'MATHEMATICAL BOLD CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_J = "\u{1D409}";
 
-    #[Info(id: 119818, name: 'MATHEMATICAL BOLD CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D40A, name: 'MATHEMATICAL BOLD CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_K = "\u{1D40A}";
 
-    #[Info(id: 119819, name: 'MATHEMATICAL BOLD CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D40B, name: 'MATHEMATICAL BOLD CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_L = "\u{1D40B}";
 
-    #[Info(id: 119820, name: 'MATHEMATICAL BOLD CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D40C, name: 'MATHEMATICAL BOLD CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_M = "\u{1D40C}";
 
-    #[Info(id: 119821, name: 'MATHEMATICAL BOLD CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D40D, name: 'MATHEMATICAL BOLD CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_N = "\u{1D40D}";
 
-    #[Info(id: 119822, name: 'MATHEMATICAL BOLD CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D40E, name: 'MATHEMATICAL BOLD CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_O = "\u{1D40E}";
 
-    #[Info(id: 119823, name: 'MATHEMATICAL BOLD CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D40F, name: 'MATHEMATICAL BOLD CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_P = "\u{1D40F}";
 
-    #[Info(id: 119824, name: 'MATHEMATICAL BOLD CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D410, name: 'MATHEMATICAL BOLD CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_Q = "\u{1D410}";
 
-    #[Info(id: 119825, name: 'MATHEMATICAL BOLD CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D411, name: 'MATHEMATICAL BOLD CAPITAL R', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_R = "\u{1D411}";
 
-    #[Info(id: 119826, name: 'MATHEMATICAL BOLD CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D412, name: 'MATHEMATICAL BOLD CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_S = "\u{1D412}";
 
-    #[Info(id: 119827, name: 'MATHEMATICAL BOLD CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D413, name: 'MATHEMATICAL BOLD CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_T = "\u{1D413}";
 
-    #[Info(id: 119828, name: 'MATHEMATICAL BOLD CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D414, name: 'MATHEMATICAL BOLD CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_U = "\u{1D414}";
 
-    #[Info(id: 119829, name: 'MATHEMATICAL BOLD CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D415, name: 'MATHEMATICAL BOLD CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_V = "\u{1D415}";
 
-    #[Info(id: 119830, name: 'MATHEMATICAL BOLD CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D416, name: 'MATHEMATICAL BOLD CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_W = "\u{1D416}";
 
-    #[Info(id: 119831, name: 'MATHEMATICAL BOLD CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D417, name: 'MATHEMATICAL BOLD CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_X = "\u{1D417}";
 
-    #[Info(id: 119832, name: 'MATHEMATICAL BOLD CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D418, name: 'MATHEMATICAL BOLD CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_Y = "\u{1D418}";
 
-    #[Info(id: 119833, name: 'MATHEMATICAL BOLD CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D419, name: 'MATHEMATICAL BOLD CAPITAL Z', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_Z = "\u{1D419}";
 
-    #[Info(id: 119834, name: 'MATHEMATICAL BOLD SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D41A, name: 'MATHEMATICAL BOLD SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_A = "\u{1D41A}";
 
-    #[Info(id: 119835, name: 'MATHEMATICAL BOLD SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D41B, name: 'MATHEMATICAL BOLD SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_B = "\u{1D41B}";
 
-    #[Info(id: 119836, name: 'MATHEMATICAL BOLD SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D41C, name: 'MATHEMATICAL BOLD SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_C = "\u{1D41C}";
 
-    #[Info(id: 119837, name: 'MATHEMATICAL BOLD SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D41D, name: 'MATHEMATICAL BOLD SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_D = "\u{1D41D}";
 
-    #[Info(id: 119838, name: 'MATHEMATICAL BOLD SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D41E, name: 'MATHEMATICAL BOLD SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_E = "\u{1D41E}";
 
-    #[Info(id: 119839, name: 'MATHEMATICAL BOLD SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D41F, name: 'MATHEMATICAL BOLD SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_F = "\u{1D41F}";
 
-    #[Info(id: 119840, name: 'MATHEMATICAL BOLD SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D420, name: 'MATHEMATICAL BOLD SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_G = "\u{1D420}";
 
-    #[Info(id: 119841, name: 'MATHEMATICAL BOLD SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D421, name: 'MATHEMATICAL BOLD SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_H = "\u{1D421}";
 
-    #[Info(id: 119842, name: 'MATHEMATICAL BOLD SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D422, name: 'MATHEMATICAL BOLD SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_I = "\u{1D422}";
 
-    #[Info(id: 119843, name: 'MATHEMATICAL BOLD SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D423, name: 'MATHEMATICAL BOLD SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_J = "\u{1D423}";
 
-    #[Info(id: 119844, name: 'MATHEMATICAL BOLD SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D424, name: 'MATHEMATICAL BOLD SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_K = "\u{1D424}";
 
-    #[Info(id: 119845, name: 'MATHEMATICAL BOLD SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D425, name: 'MATHEMATICAL BOLD SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_L = "\u{1D425}";
 
-    #[Info(id: 119846, name: 'MATHEMATICAL BOLD SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D426, name: 'MATHEMATICAL BOLD SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_M = "\u{1D426}";
 
-    #[Info(id: 119847, name: 'MATHEMATICAL BOLD SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D427, name: 'MATHEMATICAL BOLD SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_N = "\u{1D427}";
 
-    #[Info(id: 119848, name: 'MATHEMATICAL BOLD SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D428, name: 'MATHEMATICAL BOLD SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_O = "\u{1D428}";
 
-    #[Info(id: 119849, name: 'MATHEMATICAL BOLD SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D429, name: 'MATHEMATICAL BOLD SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_P = "\u{1D429}";
 
-    #[Info(id: 119850, name: 'MATHEMATICAL BOLD SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D42A, name: 'MATHEMATICAL BOLD SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_Q = "\u{1D42A}";
 
-    #[Info(id: 119851, name: 'MATHEMATICAL BOLD SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D42B, name: 'MATHEMATICAL BOLD SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_R = "\u{1D42B}";
 
-    #[Info(id: 119852, name: 'MATHEMATICAL BOLD SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D42C, name: 'MATHEMATICAL BOLD SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_S = "\u{1D42C}";
 
-    #[Info(id: 119853, name: 'MATHEMATICAL BOLD SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D42D, name: 'MATHEMATICAL BOLD SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_T = "\u{1D42D}";
 
-    #[Info(id: 119854, name: 'MATHEMATICAL BOLD SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D42E, name: 'MATHEMATICAL BOLD SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_U = "\u{1D42E}";
 
-    #[Info(id: 119855, name: 'MATHEMATICAL BOLD SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D42F, name: 'MATHEMATICAL BOLD SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_V = "\u{1D42F}";
 
-    #[Info(id: 119856, name: 'MATHEMATICAL BOLD SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D430, name: 'MATHEMATICAL BOLD SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_W = "\u{1D430}";
 
-    #[Info(id: 119857, name: 'MATHEMATICAL BOLD SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D431, name: 'MATHEMATICAL BOLD SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_X = "\u{1D431}";
 
-    #[Info(id: 119858, name: 'MATHEMATICAL BOLD SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D432, name: 'MATHEMATICAL BOLD SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_Y = "\u{1D432}";
 
-    #[Info(id: 119859, name: 'MATHEMATICAL BOLD SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D433, name: 'MATHEMATICAL BOLD SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_Z = "\u{1D433}";
 
-    #[Info(id: 119860, name: 'MATHEMATICAL ITALIC CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D434, name: 'MATHEMATICAL ITALIC CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_A = "\u{1D434}";
 
-    #[Info(id: 119861, name: 'MATHEMATICAL ITALIC CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D435, name: 'MATHEMATICAL ITALIC CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_B = "\u{1D435}";
 
-    #[Info(id: 119862, name: 'MATHEMATICAL ITALIC CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D436, name: 'MATHEMATICAL ITALIC CAPITAL C', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_C = "\u{1D436}";
 
-    #[Info(id: 119863, name: 'MATHEMATICAL ITALIC CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D437, name: 'MATHEMATICAL ITALIC CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_D = "\u{1D437}";
 
-    #[Info(id: 119864, name: 'MATHEMATICAL ITALIC CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D438, name: 'MATHEMATICAL ITALIC CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_E = "\u{1D438}";
 
-    #[Info(id: 119865, name: 'MATHEMATICAL ITALIC CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D439, name: 'MATHEMATICAL ITALIC CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_F = "\u{1D439}";
 
-    #[Info(id: 119866, name: 'MATHEMATICAL ITALIC CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D43A, name: 'MATHEMATICAL ITALIC CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_G = "\u{1D43A}";
 
-    #[Info(id: 119867, name: 'MATHEMATICAL ITALIC CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D43B, name: 'MATHEMATICAL ITALIC CAPITAL H', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_H = "\u{1D43B}";
 
-    #[Info(id: 119868, name: 'MATHEMATICAL ITALIC CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D43C, name: 'MATHEMATICAL ITALIC CAPITAL I', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_I = "\u{1D43C}";
 
-    #[Info(id: 119869, name: 'MATHEMATICAL ITALIC CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D43D, name: 'MATHEMATICAL ITALIC CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_J = "\u{1D43D}";
 
-    #[Info(id: 119870, name: 'MATHEMATICAL ITALIC CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D43E, name: 'MATHEMATICAL ITALIC CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_K = "\u{1D43E}";
 
-    #[Info(id: 119871, name: 'MATHEMATICAL ITALIC CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D43F, name: 'MATHEMATICAL ITALIC CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_L = "\u{1D43F}";
 
-    #[Info(id: 119872, name: 'MATHEMATICAL ITALIC CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D440, name: 'MATHEMATICAL ITALIC CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_M = "\u{1D440}";
 
-    #[Info(id: 119873, name: 'MATHEMATICAL ITALIC CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D441, name: 'MATHEMATICAL ITALIC CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_N = "\u{1D441}";
 
-    #[Info(id: 119874, name: 'MATHEMATICAL ITALIC CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D442, name: 'MATHEMATICAL ITALIC CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_O = "\u{1D442}";
 
-    #[Info(id: 119875, name: 'MATHEMATICAL ITALIC CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D443, name: 'MATHEMATICAL ITALIC CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_P = "\u{1D443}";
 
-    #[Info(id: 119876, name: 'MATHEMATICAL ITALIC CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D444, name: 'MATHEMATICAL ITALIC CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_Q = "\u{1D444}";
 
-    #[Info(id: 119877, name: 'MATHEMATICAL ITALIC CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D445, name: 'MATHEMATICAL ITALIC CAPITAL R', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_R = "\u{1D445}";
 
-    #[Info(id: 119878, name: 'MATHEMATICAL ITALIC CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D446, name: 'MATHEMATICAL ITALIC CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_S = "\u{1D446}";
 
-    #[Info(id: 119879, name: 'MATHEMATICAL ITALIC CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D447, name: 'MATHEMATICAL ITALIC CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_T = "\u{1D447}";
 
-    #[Info(id: 119880, name: 'MATHEMATICAL ITALIC CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D448, name: 'MATHEMATICAL ITALIC CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_U = "\u{1D448}";
 
-    #[Info(id: 119881, name: 'MATHEMATICAL ITALIC CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D449, name: 'MATHEMATICAL ITALIC CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_V = "\u{1D449}";
 
-    #[Info(id: 119882, name: 'MATHEMATICAL ITALIC CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D44A, name: 'MATHEMATICAL ITALIC CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_W = "\u{1D44A}";
 
-    #[Info(id: 119883, name: 'MATHEMATICAL ITALIC CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D44B, name: 'MATHEMATICAL ITALIC CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_X = "\u{1D44B}";
 
-    #[Info(id: 119884, name: 'MATHEMATICAL ITALIC CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D44C, name: 'MATHEMATICAL ITALIC CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_Y = "\u{1D44C}";
 
-    #[Info(id: 119885, name: 'MATHEMATICAL ITALIC CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D44D, name: 'MATHEMATICAL ITALIC CAPITAL Z', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_Z = "\u{1D44D}";
 
-    #[Info(id: 119886, name: 'MATHEMATICAL ITALIC SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D44E, name: 'MATHEMATICAL ITALIC SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_A = "\u{1D44E}";
 
-    #[Info(id: 119887, name: 'MATHEMATICAL ITALIC SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D44F, name: 'MATHEMATICAL ITALIC SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_B = "\u{1D44F}";
 
-    #[Info(id: 119888, name: 'MATHEMATICAL ITALIC SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D450, name: 'MATHEMATICAL ITALIC SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_C = "\u{1D450}";
 
-    #[Info(id: 119889, name: 'MATHEMATICAL ITALIC SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D451, name: 'MATHEMATICAL ITALIC SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_D = "\u{1D451}";
 
-    #[Info(id: 119890, name: 'MATHEMATICAL ITALIC SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D452, name: 'MATHEMATICAL ITALIC SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_E = "\u{1D452}";
 
-    #[Info(id: 119891, name: 'MATHEMATICAL ITALIC SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D453, name: 'MATHEMATICAL ITALIC SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_F = "\u{1D453}";
 
-    #[Info(id: 119892, name: 'MATHEMATICAL ITALIC SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D454, name: 'MATHEMATICAL ITALIC SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_G = "\u{1D454}";
 
-    #[Info(id: 119894, name: 'MATHEMATICAL ITALIC SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D456, name: 'MATHEMATICAL ITALIC SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_I = "\u{1D456}";
 
-    #[Info(id: 119895, name: 'MATHEMATICAL ITALIC SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D457, name: 'MATHEMATICAL ITALIC SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_J = "\u{1D457}";
 
-    #[Info(id: 119896, name: 'MATHEMATICAL ITALIC SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D458, name: 'MATHEMATICAL ITALIC SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_K = "\u{1D458}";
 
-    #[Info(id: 119897, name: 'MATHEMATICAL ITALIC SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D459, name: 'MATHEMATICAL ITALIC SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_L = "\u{1D459}";
 
-    #[Info(id: 119898, name: 'MATHEMATICAL ITALIC SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D45A, name: 'MATHEMATICAL ITALIC SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_M = "\u{1D45A}";
 
-    #[Info(id: 119899, name: 'MATHEMATICAL ITALIC SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D45B, name: 'MATHEMATICAL ITALIC SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_N = "\u{1D45B}";
 
-    #[Info(id: 119900, name: 'MATHEMATICAL ITALIC SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D45C, name: 'MATHEMATICAL ITALIC SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_O = "\u{1D45C}";
 
-    #[Info(id: 119901, name: 'MATHEMATICAL ITALIC SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D45D, name: 'MATHEMATICAL ITALIC SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_P = "\u{1D45D}";
 
-    #[Info(id: 119902, name: 'MATHEMATICAL ITALIC SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D45E, name: 'MATHEMATICAL ITALIC SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_Q = "\u{1D45E}";
 
-    #[Info(id: 119903, name: 'MATHEMATICAL ITALIC SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D45F, name: 'MATHEMATICAL ITALIC SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_R = "\u{1D45F}";
 
-    #[Info(id: 119904, name: 'MATHEMATICAL ITALIC SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D460, name: 'MATHEMATICAL ITALIC SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_S = "\u{1D460}";
 
-    #[Info(id: 119905, name: 'MATHEMATICAL ITALIC SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D461, name: 'MATHEMATICAL ITALIC SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_T = "\u{1D461}";
 
-    #[Info(id: 119906, name: 'MATHEMATICAL ITALIC SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D462, name: 'MATHEMATICAL ITALIC SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_U = "\u{1D462}";
 
-    #[Info(id: 119907, name: 'MATHEMATICAL ITALIC SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D463, name: 'MATHEMATICAL ITALIC SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_V = "\u{1D463}";
 
-    #[Info(id: 119908, name: 'MATHEMATICAL ITALIC SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D464, name: 'MATHEMATICAL ITALIC SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_W = "\u{1D464}";
 
-    #[Info(id: 119909, name: 'MATHEMATICAL ITALIC SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D465, name: 'MATHEMATICAL ITALIC SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_X = "\u{1D465}";
 
-    #[Info(id: 119910, name: 'MATHEMATICAL ITALIC SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D466, name: 'MATHEMATICAL ITALIC SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_Y = "\u{1D466}";
 
-    #[Info(id: 119911, name: 'MATHEMATICAL ITALIC SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D467, name: 'MATHEMATICAL ITALIC SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_Z = "\u{1D467}";
 
-    #[Info(id: 119912, name: 'MATHEMATICAL BOLD ITALIC CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D468, name: 'MATHEMATICAL BOLD ITALIC CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_A = "\u{1D468}";
 
-    #[Info(id: 119913, name: 'MATHEMATICAL BOLD ITALIC CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D469, name: 'MATHEMATICAL BOLD ITALIC CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_B = "\u{1D469}";
 
-    #[Info(id: 119914, name: 'MATHEMATICAL BOLD ITALIC CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D46A, name: 'MATHEMATICAL BOLD ITALIC CAPITAL C', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_C = "\u{1D46A}";
 
-    #[Info(id: 119915, name: 'MATHEMATICAL BOLD ITALIC CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D46B, name: 'MATHEMATICAL BOLD ITALIC CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_D = "\u{1D46B}";
 
-    #[Info(id: 119916, name: 'MATHEMATICAL BOLD ITALIC CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D46C, name: 'MATHEMATICAL BOLD ITALIC CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_E = "\u{1D46C}";
 
-    #[Info(id: 119917, name: 'MATHEMATICAL BOLD ITALIC CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D46D, name: 'MATHEMATICAL BOLD ITALIC CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_F = "\u{1D46D}";
 
-    #[Info(id: 119918, name: 'MATHEMATICAL BOLD ITALIC CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D46E, name: 'MATHEMATICAL BOLD ITALIC CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_G = "\u{1D46E}";
 
-    #[Info(id: 119919, name: 'MATHEMATICAL BOLD ITALIC CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D46F, name: 'MATHEMATICAL BOLD ITALIC CAPITAL H', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_H = "\u{1D46F}";
 
-    #[Info(id: 119920, name: 'MATHEMATICAL BOLD ITALIC CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D470, name: 'MATHEMATICAL BOLD ITALIC CAPITAL I', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_I = "\u{1D470}";
 
-    #[Info(id: 119921, name: 'MATHEMATICAL BOLD ITALIC CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D471, name: 'MATHEMATICAL BOLD ITALIC CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_J = "\u{1D471}";
 
-    #[Info(id: 119922, name: 'MATHEMATICAL BOLD ITALIC CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D472, name: 'MATHEMATICAL BOLD ITALIC CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_K = "\u{1D472}";
 
-    #[Info(id: 119923, name: 'MATHEMATICAL BOLD ITALIC CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D473, name: 'MATHEMATICAL BOLD ITALIC CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_L = "\u{1D473}";
 
-    #[Info(id: 119924, name: 'MATHEMATICAL BOLD ITALIC CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D474, name: 'MATHEMATICAL BOLD ITALIC CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_M = "\u{1D474}";
 
-    #[Info(id: 119925, name: 'MATHEMATICAL BOLD ITALIC CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D475, name: 'MATHEMATICAL BOLD ITALIC CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_N = "\u{1D475}";
 
-    #[Info(id: 119926, name: 'MATHEMATICAL BOLD ITALIC CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D476, name: 'MATHEMATICAL BOLD ITALIC CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_O = "\u{1D476}";
 
-    #[Info(id: 119927, name: 'MATHEMATICAL BOLD ITALIC CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D477, name: 'MATHEMATICAL BOLD ITALIC CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_P = "\u{1D477}";
 
-    #[Info(id: 119928, name: 'MATHEMATICAL BOLD ITALIC CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D478, name: 'MATHEMATICAL BOLD ITALIC CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_Q = "\u{1D478}";
 
-    #[Info(id: 119929, name: 'MATHEMATICAL BOLD ITALIC CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D479, name: 'MATHEMATICAL BOLD ITALIC CAPITAL R', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_R = "\u{1D479}";
 
-    #[Info(id: 119930, name: 'MATHEMATICAL BOLD ITALIC CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D47A, name: 'MATHEMATICAL BOLD ITALIC CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_S = "\u{1D47A}";
 
-    #[Info(id: 119931, name: 'MATHEMATICAL BOLD ITALIC CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D47B, name: 'MATHEMATICAL BOLD ITALIC CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_T = "\u{1D47B}";
 
-    #[Info(id: 119932, name: 'MATHEMATICAL BOLD ITALIC CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D47C, name: 'MATHEMATICAL BOLD ITALIC CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_U = "\u{1D47C}";
 
-    #[Info(id: 119933, name: 'MATHEMATICAL BOLD ITALIC CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D47D, name: 'MATHEMATICAL BOLD ITALIC CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_V = "\u{1D47D}";
 
-    #[Info(id: 119934, name: 'MATHEMATICAL BOLD ITALIC CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D47E, name: 'MATHEMATICAL BOLD ITALIC CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_W = "\u{1D47E}";
 
-    #[Info(id: 119935, name: 'MATHEMATICAL BOLD ITALIC CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D47F, name: 'MATHEMATICAL BOLD ITALIC CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_X = "\u{1D47F}";
 
-    #[Info(id: 119936, name: 'MATHEMATICAL BOLD ITALIC CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D480, name: 'MATHEMATICAL BOLD ITALIC CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_Y = "\u{1D480}";
 
-    #[Info(id: 119937, name: 'MATHEMATICAL BOLD ITALIC CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D481, name: 'MATHEMATICAL BOLD ITALIC CAPITAL Z', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_Z = "\u{1D481}";
 
-    #[Info(id: 119938, name: 'MATHEMATICAL BOLD ITALIC SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D482, name: 'MATHEMATICAL BOLD ITALIC SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_A = "\u{1D482}";
 
-    #[Info(id: 119939, name: 'MATHEMATICAL BOLD ITALIC SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D483, name: 'MATHEMATICAL BOLD ITALIC SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_B = "\u{1D483}";
 
-    #[Info(id: 119940, name: 'MATHEMATICAL BOLD ITALIC SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D484, name: 'MATHEMATICAL BOLD ITALIC SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_C = "\u{1D484}";
 
-    #[Info(id: 119941, name: 'MATHEMATICAL BOLD ITALIC SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D485, name: 'MATHEMATICAL BOLD ITALIC SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_D = "\u{1D485}";
 
-    #[Info(id: 119942, name: 'MATHEMATICAL BOLD ITALIC SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D486, name: 'MATHEMATICAL BOLD ITALIC SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_E = "\u{1D486}";
 
-    #[Info(id: 119943, name: 'MATHEMATICAL BOLD ITALIC SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D487, name: 'MATHEMATICAL BOLD ITALIC SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_F = "\u{1D487}";
 
-    #[Info(id: 119944, name: 'MATHEMATICAL BOLD ITALIC SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D488, name: 'MATHEMATICAL BOLD ITALIC SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_G = "\u{1D488}";
 
-    #[Info(id: 119945, name: 'MATHEMATICAL BOLD ITALIC SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D489, name: 'MATHEMATICAL BOLD ITALIC SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_H = "\u{1D489}";
 
-    #[Info(id: 119946, name: 'MATHEMATICAL BOLD ITALIC SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D48A, name: 'MATHEMATICAL BOLD ITALIC SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_I = "\u{1D48A}";
 
-    #[Info(id: 119947, name: 'MATHEMATICAL BOLD ITALIC SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D48B, name: 'MATHEMATICAL BOLD ITALIC SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_J = "\u{1D48B}";
 
-    #[Info(id: 119948, name: 'MATHEMATICAL BOLD ITALIC SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D48C, name: 'MATHEMATICAL BOLD ITALIC SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_K = "\u{1D48C}";
 
-    #[Info(id: 119949, name: 'MATHEMATICAL BOLD ITALIC SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D48D, name: 'MATHEMATICAL BOLD ITALIC SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_L = "\u{1D48D}";
 
-    #[Info(id: 119950, name: 'MATHEMATICAL BOLD ITALIC SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D48E, name: 'MATHEMATICAL BOLD ITALIC SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_M = "\u{1D48E}";
 
-    #[Info(id: 119951, name: 'MATHEMATICAL BOLD ITALIC SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D48F, name: 'MATHEMATICAL BOLD ITALIC SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_N = "\u{1D48F}";
 
-    #[Info(id: 119952, name: 'MATHEMATICAL BOLD ITALIC SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D490, name: 'MATHEMATICAL BOLD ITALIC SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_O = "\u{1D490}";
 
-    #[Info(id: 119953, name: 'MATHEMATICAL BOLD ITALIC SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D491, name: 'MATHEMATICAL BOLD ITALIC SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_P = "\u{1D491}";
 
-    #[Info(id: 119954, name: 'MATHEMATICAL BOLD ITALIC SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D492, name: 'MATHEMATICAL BOLD ITALIC SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_Q = "\u{1D492}";
 
-    #[Info(id: 119955, name: 'MATHEMATICAL BOLD ITALIC SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D493, name: 'MATHEMATICAL BOLD ITALIC SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_R = "\u{1D493}";
 
-    #[Info(id: 119956, name: 'MATHEMATICAL BOLD ITALIC SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D494, name: 'MATHEMATICAL BOLD ITALIC SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_S = "\u{1D494}";
 
-    #[Info(id: 119957, name: 'MATHEMATICAL BOLD ITALIC SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D495, name: 'MATHEMATICAL BOLD ITALIC SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_T = "\u{1D495}";
 
-    #[Info(id: 119958, name: 'MATHEMATICAL BOLD ITALIC SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D496, name: 'MATHEMATICAL BOLD ITALIC SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_U = "\u{1D496}";
 
-    #[Info(id: 119959, name: 'MATHEMATICAL BOLD ITALIC SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D497, name: 'MATHEMATICAL BOLD ITALIC SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_V = "\u{1D497}";
 
-    #[Info(id: 119960, name: 'MATHEMATICAL BOLD ITALIC SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D498, name: 'MATHEMATICAL BOLD ITALIC SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_W = "\u{1D498}";
 
-    #[Info(id: 119961, name: 'MATHEMATICAL BOLD ITALIC SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D499, name: 'MATHEMATICAL BOLD ITALIC SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_X = "\u{1D499}";
 
-    #[Info(id: 119962, name: 'MATHEMATICAL BOLD ITALIC SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D49A, name: 'MATHEMATICAL BOLD ITALIC SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_Y = "\u{1D49A}";
 
-    #[Info(id: 119963, name: 'MATHEMATICAL BOLD ITALIC SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D49B, name: 'MATHEMATICAL BOLD ITALIC SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_Z = "\u{1D49B}";
 
-    #[Info(id: 119964, name: 'MATHEMATICAL SCRIPT CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D49C, name: 'MATHEMATICAL SCRIPT CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_A = "\u{1D49C}";
 
-    #[Info(id: 119966, name: 'MATHEMATICAL SCRIPT CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D49E, name: 'MATHEMATICAL SCRIPT CAPITAL C', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_C = "\u{1D49E}";
 
-    #[Info(id: 119967, name: 'MATHEMATICAL SCRIPT CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D49F, name: 'MATHEMATICAL SCRIPT CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_D = "\u{1D49F}";
 
-    #[Info(id: 119970, name: 'MATHEMATICAL SCRIPT CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4A2, name: 'MATHEMATICAL SCRIPT CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_G = "\u{1D4A2}";
 
-    #[Info(id: 119973, name: 'MATHEMATICAL SCRIPT CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4A5, name: 'MATHEMATICAL SCRIPT CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_J = "\u{1D4A5}";
 
-    #[Info(id: 119974, name: 'MATHEMATICAL SCRIPT CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4A6, name: 'MATHEMATICAL SCRIPT CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_K = "\u{1D4A6}";
 
-    #[Info(id: 119977, name: 'MATHEMATICAL SCRIPT CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4A9, name: 'MATHEMATICAL SCRIPT CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_N = "\u{1D4A9}";
 
-    #[Info(id: 119978, name: 'MATHEMATICAL SCRIPT CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4AA, name: 'MATHEMATICAL SCRIPT CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_O = "\u{1D4AA}";
 
-    #[Info(id: 119979, name: 'MATHEMATICAL SCRIPT CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4AB, name: 'MATHEMATICAL SCRIPT CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_P = "\u{1D4AB}";
 
-    #[Info(id: 119980, name: 'MATHEMATICAL SCRIPT CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4AC, name: 'MATHEMATICAL SCRIPT CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_Q = "\u{1D4AC}";
 
-    #[Info(id: 119982, name: 'MATHEMATICAL SCRIPT CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4AE, name: 'MATHEMATICAL SCRIPT CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_S = "\u{1D4AE}";
 
-    #[Info(id: 119983, name: 'MATHEMATICAL SCRIPT CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4AF, name: 'MATHEMATICAL SCRIPT CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_T = "\u{1D4AF}";
 
-    #[Info(id: 119984, name: 'MATHEMATICAL SCRIPT CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4B0, name: 'MATHEMATICAL SCRIPT CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_U = "\u{1D4B0}";
 
-    #[Info(id: 119985, name: 'MATHEMATICAL SCRIPT CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4B1, name: 'MATHEMATICAL SCRIPT CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_V = "\u{1D4B1}";
 
-    #[Info(id: 119986, name: 'MATHEMATICAL SCRIPT CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4B2, name: 'MATHEMATICAL SCRIPT CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_W = "\u{1D4B2}";
 
-    #[Info(id: 119987, name: 'MATHEMATICAL SCRIPT CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4B3, name: 'MATHEMATICAL SCRIPT CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_X = "\u{1D4B3}";
 
-    #[Info(id: 119988, name: 'MATHEMATICAL SCRIPT CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4B4, name: 'MATHEMATICAL SCRIPT CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_Y = "\u{1D4B4}";
 
-    #[Info(id: 119989, name: 'MATHEMATICAL SCRIPT CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4B5, name: 'MATHEMATICAL SCRIPT CAPITAL Z', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SCRIPT_CAPITAL_Z = "\u{1D4B5}";
 
-    #[Info(id: 119990, name: 'MATHEMATICAL SCRIPT SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4B6, name: 'MATHEMATICAL SCRIPT SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_A = "\u{1D4B6}";
 
-    #[Info(id: 119991, name: 'MATHEMATICAL SCRIPT SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4B7, name: 'MATHEMATICAL SCRIPT SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_B = "\u{1D4B7}";
 
-    #[Info(id: 119992, name: 'MATHEMATICAL SCRIPT SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4B8, name: 'MATHEMATICAL SCRIPT SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_C = "\u{1D4B8}";
 
-    #[Info(id: 119993, name: 'MATHEMATICAL SCRIPT SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4B9, name: 'MATHEMATICAL SCRIPT SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_D = "\u{1D4B9}";
 
-    #[Info(id: 119995, name: 'MATHEMATICAL SCRIPT SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4BB, name: 'MATHEMATICAL SCRIPT SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_F = "\u{1D4BB}";
 
-    #[Info(id: 119997, name: 'MATHEMATICAL SCRIPT SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4BD, name: 'MATHEMATICAL SCRIPT SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_H = "\u{1D4BD}";
 
-    #[Info(id: 119998, name: 'MATHEMATICAL SCRIPT SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4BE, name: 'MATHEMATICAL SCRIPT SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_I = "\u{1D4BE}";
 
-    #[Info(id: 119999, name: 'MATHEMATICAL SCRIPT SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4BF, name: 'MATHEMATICAL SCRIPT SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_J = "\u{1D4BF}";
 
-    #[Info(id: 120000, name: 'MATHEMATICAL SCRIPT SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4C0, name: 'MATHEMATICAL SCRIPT SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_K = "\u{1D4C0}";
 
-    #[Info(id: 120001, name: 'MATHEMATICAL SCRIPT SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4C1, name: 'MATHEMATICAL SCRIPT SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_L = "\u{1D4C1}";
 
-    #[Info(id: 120002, name: 'MATHEMATICAL SCRIPT SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4C2, name: 'MATHEMATICAL SCRIPT SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_M = "\u{1D4C2}";
 
-    #[Info(id: 120003, name: 'MATHEMATICAL SCRIPT SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4C3, name: 'MATHEMATICAL SCRIPT SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_N = "\u{1D4C3}";
 
-    #[Info(id: 120005, name: 'MATHEMATICAL SCRIPT SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4C5, name: 'MATHEMATICAL SCRIPT SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_P = "\u{1D4C5}";
 
-    #[Info(id: 120006, name: 'MATHEMATICAL SCRIPT SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4C6, name: 'MATHEMATICAL SCRIPT SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_Q = "\u{1D4C6}";
 
-    #[Info(id: 120007, name: 'MATHEMATICAL SCRIPT SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4C7, name: 'MATHEMATICAL SCRIPT SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_R = "\u{1D4C7}";
 
-    #[Info(id: 120008, name: 'MATHEMATICAL SCRIPT SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4C8, name: 'MATHEMATICAL SCRIPT SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_S = "\u{1D4C8}";
 
-    #[Info(id: 120009, name: 'MATHEMATICAL SCRIPT SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4C9, name: 'MATHEMATICAL SCRIPT SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_T = "\u{1D4C9}";
 
-    #[Info(id: 120010, name: 'MATHEMATICAL SCRIPT SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4CA, name: 'MATHEMATICAL SCRIPT SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_U = "\u{1D4CA}";
 
-    #[Info(id: 120011, name: 'MATHEMATICAL SCRIPT SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4CB, name: 'MATHEMATICAL SCRIPT SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_V = "\u{1D4CB}";
 
-    #[Info(id: 120012, name: 'MATHEMATICAL SCRIPT SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4CC, name: 'MATHEMATICAL SCRIPT SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_W = "\u{1D4CC}";
 
-    #[Info(id: 120013, name: 'MATHEMATICAL SCRIPT SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4CD, name: 'MATHEMATICAL SCRIPT SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_X = "\u{1D4CD}";
 
-    #[Info(id: 120014, name: 'MATHEMATICAL SCRIPT SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4CE, name: 'MATHEMATICAL SCRIPT SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_Y = "\u{1D4CE}";
 
-    #[Info(id: 120015, name: 'MATHEMATICAL SCRIPT SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4CF, name: 'MATHEMATICAL SCRIPT SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SCRIPT_SMALL_Z = "\u{1D4CF}";
 
-    #[Info(id: 120016, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4D0, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_A = "\u{1D4D0}";
 
-    #[Info(id: 120017, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4D1, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_B = "\u{1D4D1}";
 
-    #[Info(id: 120018, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4D2, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL C', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_C = "\u{1D4D2}";
 
-    #[Info(id: 120019, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4D3, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_D = "\u{1D4D3}";
 
-    #[Info(id: 120020, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4D4, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_E = "\u{1D4D4}";
 
-    #[Info(id: 120021, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4D5, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_F = "\u{1D4D5}";
 
-    #[Info(id: 120022, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4D6, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_G = "\u{1D4D6}";
 
-    #[Info(id: 120023, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4D7, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL H', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_H = "\u{1D4D7}";
 
-    #[Info(id: 120024, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4D8, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL I', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_I = "\u{1D4D8}";
 
-    #[Info(id: 120025, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4D9, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_J = "\u{1D4D9}";
 
-    #[Info(id: 120026, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4DA, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_K = "\u{1D4DA}";
 
-    #[Info(id: 120027, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4DB, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_L = "\u{1D4DB}";
 
-    #[Info(id: 120028, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4DC, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_M = "\u{1D4DC}";
 
-    #[Info(id: 120029, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4DD, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_N = "\u{1D4DD}";
 
-    #[Info(id: 120030, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4DE, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_O = "\u{1D4DE}";
 
-    #[Info(id: 120031, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4DF, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_P = "\u{1D4DF}";
 
-    #[Info(id: 120032, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4E0, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_Q = "\u{1D4E0}";
 
-    #[Info(id: 120033, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4E1, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL R', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_R = "\u{1D4E1}";
 
-    #[Info(id: 120034, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4E2, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_S = "\u{1D4E2}";
 
-    #[Info(id: 120035, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4E3, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_T = "\u{1D4E3}";
 
-    #[Info(id: 120036, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4E4, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_U = "\u{1D4E4}";
 
-    #[Info(id: 120037, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4E5, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_V = "\u{1D4E5}";
 
-    #[Info(id: 120038, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4E6, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_W = "\u{1D4E6}";
 
-    #[Info(id: 120039, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4E7, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_X = "\u{1D4E7}";
 
-    #[Info(id: 120040, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4E8, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_Y = "\u{1D4E8}";
 
-    #[Info(id: 120041, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D4E9, name: 'MATHEMATICAL BOLD SCRIPT CAPITAL Z', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_CAPITAL_Z = "\u{1D4E9}";
 
-    #[Info(id: 120042, name: 'MATHEMATICAL BOLD SCRIPT SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4EA, name: 'MATHEMATICAL BOLD SCRIPT SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_A = "\u{1D4EA}";
 
-    #[Info(id: 120043, name: 'MATHEMATICAL BOLD SCRIPT SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4EB, name: 'MATHEMATICAL BOLD SCRIPT SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_B = "\u{1D4EB}";
 
-    #[Info(id: 120044, name: 'MATHEMATICAL BOLD SCRIPT SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4EC, name: 'MATHEMATICAL BOLD SCRIPT SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_C = "\u{1D4EC}";
 
-    #[Info(id: 120045, name: 'MATHEMATICAL BOLD SCRIPT SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4ED, name: 'MATHEMATICAL BOLD SCRIPT SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_D = "\u{1D4ED}";
 
-    #[Info(id: 120046, name: 'MATHEMATICAL BOLD SCRIPT SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4EE, name: 'MATHEMATICAL BOLD SCRIPT SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_E = "\u{1D4EE}";
 
-    #[Info(id: 120047, name: 'MATHEMATICAL BOLD SCRIPT SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4EF, name: 'MATHEMATICAL BOLD SCRIPT SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_F = "\u{1D4EF}";
 
-    #[Info(id: 120048, name: 'MATHEMATICAL BOLD SCRIPT SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4F0, name: 'MATHEMATICAL BOLD SCRIPT SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_G = "\u{1D4F0}";
 
-    #[Info(id: 120049, name: 'MATHEMATICAL BOLD SCRIPT SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4F1, name: 'MATHEMATICAL BOLD SCRIPT SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_H = "\u{1D4F1}";
 
-    #[Info(id: 120050, name: 'MATHEMATICAL BOLD SCRIPT SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4F2, name: 'MATHEMATICAL BOLD SCRIPT SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_I = "\u{1D4F2}";
 
-    #[Info(id: 120051, name: 'MATHEMATICAL BOLD SCRIPT SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4F3, name: 'MATHEMATICAL BOLD SCRIPT SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_J = "\u{1D4F3}";
 
-    #[Info(id: 120052, name: 'MATHEMATICAL BOLD SCRIPT SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4F4, name: 'MATHEMATICAL BOLD SCRIPT SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_K = "\u{1D4F4}";
 
-    #[Info(id: 120053, name: 'MATHEMATICAL BOLD SCRIPT SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4F5, name: 'MATHEMATICAL BOLD SCRIPT SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_L = "\u{1D4F5}";
 
-    #[Info(id: 120054, name: 'MATHEMATICAL BOLD SCRIPT SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4F6, name: 'MATHEMATICAL BOLD SCRIPT SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_M = "\u{1D4F6}";
 
-    #[Info(id: 120055, name: 'MATHEMATICAL BOLD SCRIPT SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4F7, name: 'MATHEMATICAL BOLD SCRIPT SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_N = "\u{1D4F7}";
 
-    #[Info(id: 120056, name: 'MATHEMATICAL BOLD SCRIPT SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4F8, name: 'MATHEMATICAL BOLD SCRIPT SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_O = "\u{1D4F8}";
 
-    #[Info(id: 120057, name: 'MATHEMATICAL BOLD SCRIPT SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4F9, name: 'MATHEMATICAL BOLD SCRIPT SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_P = "\u{1D4F9}";
 
-    #[Info(id: 120058, name: 'MATHEMATICAL BOLD SCRIPT SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4FA, name: 'MATHEMATICAL BOLD SCRIPT SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_Q = "\u{1D4FA}";
 
-    #[Info(id: 120059, name: 'MATHEMATICAL BOLD SCRIPT SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4FB, name: 'MATHEMATICAL BOLD SCRIPT SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_R = "\u{1D4FB}";
 
-    #[Info(id: 120060, name: 'MATHEMATICAL BOLD SCRIPT SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4FC, name: 'MATHEMATICAL BOLD SCRIPT SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_S = "\u{1D4FC}";
 
-    #[Info(id: 120061, name: 'MATHEMATICAL BOLD SCRIPT SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4FD, name: 'MATHEMATICAL BOLD SCRIPT SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_T = "\u{1D4FD}";
 
-    #[Info(id: 120062, name: 'MATHEMATICAL BOLD SCRIPT SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4FE, name: 'MATHEMATICAL BOLD SCRIPT SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_U = "\u{1D4FE}";
 
-    #[Info(id: 120063, name: 'MATHEMATICAL BOLD SCRIPT SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4FF, name: 'MATHEMATICAL BOLD SCRIPT SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_V = "\u{1D4FF}";
 
-    #[Info(id: 120064, name: 'MATHEMATICAL BOLD SCRIPT SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D500, name: 'MATHEMATICAL BOLD SCRIPT SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_W = "\u{1D500}";
 
-    #[Info(id: 120065, name: 'MATHEMATICAL BOLD SCRIPT SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D501, name: 'MATHEMATICAL BOLD SCRIPT SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_X = "\u{1D501}";
 
-    #[Info(id: 120066, name: 'MATHEMATICAL BOLD SCRIPT SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D502, name: 'MATHEMATICAL BOLD SCRIPT SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_Y = "\u{1D502}";
 
-    #[Info(id: 120067, name: 'MATHEMATICAL BOLD SCRIPT SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D503, name: 'MATHEMATICAL BOLD SCRIPT SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SCRIPT_SMALL_Z = "\u{1D503}";
 
-    #[Info(id: 120068, name: 'MATHEMATICAL FRAKTUR CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D504, name: 'MATHEMATICAL FRAKTUR CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_A = "\u{1D504}";
 
-    #[Info(id: 120069, name: 'MATHEMATICAL FRAKTUR CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D505, name: 'MATHEMATICAL FRAKTUR CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_B = "\u{1D505}";
 
-    #[Info(id: 120071, name: 'MATHEMATICAL FRAKTUR CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D507, name: 'MATHEMATICAL FRAKTUR CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_D = "\u{1D507}";
 
-    #[Info(id: 120072, name: 'MATHEMATICAL FRAKTUR CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D508, name: 'MATHEMATICAL FRAKTUR CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_E = "\u{1D508}";
 
-    #[Info(id: 120073, name: 'MATHEMATICAL FRAKTUR CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D509, name: 'MATHEMATICAL FRAKTUR CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_F = "\u{1D509}";
 
-    #[Info(id: 120074, name: 'MATHEMATICAL FRAKTUR CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D50A, name: 'MATHEMATICAL FRAKTUR CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_G = "\u{1D50A}";
 
-    #[Info(id: 120077, name: 'MATHEMATICAL FRAKTUR CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D50D, name: 'MATHEMATICAL FRAKTUR CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_J = "\u{1D50D}";
 
-    #[Info(id: 120078, name: 'MATHEMATICAL FRAKTUR CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D50E, name: 'MATHEMATICAL FRAKTUR CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_K = "\u{1D50E}";
 
-    #[Info(id: 120079, name: 'MATHEMATICAL FRAKTUR CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D50F, name: 'MATHEMATICAL FRAKTUR CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_L = "\u{1D50F}";
 
-    #[Info(id: 120080, name: 'MATHEMATICAL FRAKTUR CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D510, name: 'MATHEMATICAL FRAKTUR CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_M = "\u{1D510}";
 
-    #[Info(id: 120081, name: 'MATHEMATICAL FRAKTUR CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D511, name: 'MATHEMATICAL FRAKTUR CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_N = "\u{1D511}";
 
-    #[Info(id: 120082, name: 'MATHEMATICAL FRAKTUR CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D512, name: 'MATHEMATICAL FRAKTUR CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_O = "\u{1D512}";
 
-    #[Info(id: 120083, name: 'MATHEMATICAL FRAKTUR CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D513, name: 'MATHEMATICAL FRAKTUR CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_P = "\u{1D513}";
 
-    #[Info(id: 120084, name: 'MATHEMATICAL FRAKTUR CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D514, name: 'MATHEMATICAL FRAKTUR CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_Q = "\u{1D514}";
 
-    #[Info(id: 120086, name: 'MATHEMATICAL FRAKTUR CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D516, name: 'MATHEMATICAL FRAKTUR CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_S = "\u{1D516}";
 
-    #[Info(id: 120087, name: 'MATHEMATICAL FRAKTUR CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D517, name: 'MATHEMATICAL FRAKTUR CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_T = "\u{1D517}";
 
-    #[Info(id: 120088, name: 'MATHEMATICAL FRAKTUR CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D518, name: 'MATHEMATICAL FRAKTUR CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_U = "\u{1D518}";
 
-    #[Info(id: 120089, name: 'MATHEMATICAL FRAKTUR CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D519, name: 'MATHEMATICAL FRAKTUR CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_V = "\u{1D519}";
 
-    #[Info(id: 120090, name: 'MATHEMATICAL FRAKTUR CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D51A, name: 'MATHEMATICAL FRAKTUR CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_W = "\u{1D51A}";
 
-    #[Info(id: 120091, name: 'MATHEMATICAL FRAKTUR CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D51B, name: 'MATHEMATICAL FRAKTUR CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_X = "\u{1D51B}";
 
-    #[Info(id: 120092, name: 'MATHEMATICAL FRAKTUR CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D51C, name: 'MATHEMATICAL FRAKTUR CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_FRAKTUR_CAPITAL_Y = "\u{1D51C}";
 
-    #[Info(id: 120094, name: 'MATHEMATICAL FRAKTUR SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D51E, name: 'MATHEMATICAL FRAKTUR SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_A = "\u{1D51E}";
 
-    #[Info(id: 120095, name: 'MATHEMATICAL FRAKTUR SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D51F, name: 'MATHEMATICAL FRAKTUR SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_B = "\u{1D51F}";
 
-    #[Info(id: 120096, name: 'MATHEMATICAL FRAKTUR SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D520, name: 'MATHEMATICAL FRAKTUR SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_C = "\u{1D520}";
 
-    #[Info(id: 120097, name: 'MATHEMATICAL FRAKTUR SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D521, name: 'MATHEMATICAL FRAKTUR SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_D = "\u{1D521}";
 
-    #[Info(id: 120098, name: 'MATHEMATICAL FRAKTUR SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D522, name: 'MATHEMATICAL FRAKTUR SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_E = "\u{1D522}";
 
-    #[Info(id: 120099, name: 'MATHEMATICAL FRAKTUR SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D523, name: 'MATHEMATICAL FRAKTUR SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_F = "\u{1D523}";
 
-    #[Info(id: 120100, name: 'MATHEMATICAL FRAKTUR SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D524, name: 'MATHEMATICAL FRAKTUR SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_G = "\u{1D524}";
 
-    #[Info(id: 120101, name: 'MATHEMATICAL FRAKTUR SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D525, name: 'MATHEMATICAL FRAKTUR SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_H = "\u{1D525}";
 
-    #[Info(id: 120102, name: 'MATHEMATICAL FRAKTUR SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D526, name: 'MATHEMATICAL FRAKTUR SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_I = "\u{1D526}";
 
-    #[Info(id: 120103, name: 'MATHEMATICAL FRAKTUR SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D527, name: 'MATHEMATICAL FRAKTUR SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_J = "\u{1D527}";
 
-    #[Info(id: 120104, name: 'MATHEMATICAL FRAKTUR SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D528, name: 'MATHEMATICAL FRAKTUR SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_K = "\u{1D528}";
 
-    #[Info(id: 120105, name: 'MATHEMATICAL FRAKTUR SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D529, name: 'MATHEMATICAL FRAKTUR SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_L = "\u{1D529}";
 
-    #[Info(id: 120106, name: 'MATHEMATICAL FRAKTUR SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D52A, name: 'MATHEMATICAL FRAKTUR SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_M = "\u{1D52A}";
 
-    #[Info(id: 120107, name: 'MATHEMATICAL FRAKTUR SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D52B, name: 'MATHEMATICAL FRAKTUR SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_N = "\u{1D52B}";
 
-    #[Info(id: 120108, name: 'MATHEMATICAL FRAKTUR SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D52C, name: 'MATHEMATICAL FRAKTUR SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_O = "\u{1D52C}";
 
-    #[Info(id: 120109, name: 'MATHEMATICAL FRAKTUR SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D52D, name: 'MATHEMATICAL FRAKTUR SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_P = "\u{1D52D}";
 
-    #[Info(id: 120110, name: 'MATHEMATICAL FRAKTUR SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D52E, name: 'MATHEMATICAL FRAKTUR SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_Q = "\u{1D52E}";
 
-    #[Info(id: 120111, name: 'MATHEMATICAL FRAKTUR SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D52F, name: 'MATHEMATICAL FRAKTUR SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_R = "\u{1D52F}";
 
-    #[Info(id: 120112, name: 'MATHEMATICAL FRAKTUR SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D530, name: 'MATHEMATICAL FRAKTUR SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_S = "\u{1D530}";
 
-    #[Info(id: 120113, name: 'MATHEMATICAL FRAKTUR SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D531, name: 'MATHEMATICAL FRAKTUR SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_T = "\u{1D531}";
 
-    #[Info(id: 120114, name: 'MATHEMATICAL FRAKTUR SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D532, name: 'MATHEMATICAL FRAKTUR SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_U = "\u{1D532}";
 
-    #[Info(id: 120115, name: 'MATHEMATICAL FRAKTUR SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D533, name: 'MATHEMATICAL FRAKTUR SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_V = "\u{1D533}";
 
-    #[Info(id: 120116, name: 'MATHEMATICAL FRAKTUR SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D534, name: 'MATHEMATICAL FRAKTUR SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_W = "\u{1D534}";
 
-    #[Info(id: 120117, name: 'MATHEMATICAL FRAKTUR SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D535, name: 'MATHEMATICAL FRAKTUR SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_X = "\u{1D535}";
 
-    #[Info(id: 120118, name: 'MATHEMATICAL FRAKTUR SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D536, name: 'MATHEMATICAL FRAKTUR SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_Y = "\u{1D536}";
 
-    #[Info(id: 120119, name: 'MATHEMATICAL FRAKTUR SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D537, name: 'MATHEMATICAL FRAKTUR SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_FRAKTUR_SMALL_Z = "\u{1D537}";
 
-    #[Info(id: 120120, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D538, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_A = "\u{1D538}";
 
-    #[Info(id: 120121, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D539, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_B = "\u{1D539}";
 
-    #[Info(id: 120123, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D53B, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_D = "\u{1D53B}";
 
-    #[Info(id: 120124, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D53C, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_E = "\u{1D53C}";
 
-    #[Info(id: 120125, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D53D, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_F = "\u{1D53D}";
 
-    #[Info(id: 120126, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D53E, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_G = "\u{1D53E}";
 
-    #[Info(id: 120128, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D540, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL I', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_I = "\u{1D540}";
 
-    #[Info(id: 120129, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D541, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_J = "\u{1D541}";
 
-    #[Info(id: 120130, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D542, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_K = "\u{1D542}";
 
-    #[Info(id: 120131, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D543, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_L = "\u{1D543}";
 
-    #[Info(id: 120132, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D544, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_M = "\u{1D544}";
 
-    #[Info(id: 120134, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D546, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_O = "\u{1D546}";
 
-    #[Info(id: 120138, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D54A, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_S = "\u{1D54A}";
 
-    #[Info(id: 120139, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D54B, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_T = "\u{1D54B}";
 
-    #[Info(id: 120140, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D54C, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_U = "\u{1D54C}";
 
-    #[Info(id: 120141, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D54D, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_V = "\u{1D54D}";
 
-    #[Info(id: 120142, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D54E, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_W = "\u{1D54E}";
 
-    #[Info(id: 120143, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D54F, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_X = "\u{1D54F}";
 
-    #[Info(id: 120144, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D550, name: 'MATHEMATICAL DOUBLE-STRUCK CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_CAPITAL_Y = "\u{1D550}";
 
-    #[Info(id: 120146, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D552, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_A = "\u{1D552}";
 
-    #[Info(id: 120147, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D553, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_B = "\u{1D553}";
 
-    #[Info(id: 120148, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D554, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_C = "\u{1D554}";
 
-    #[Info(id: 120149, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D555, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_D = "\u{1D555}";
 
-    #[Info(id: 120150, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D556, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_E = "\u{1D556}";
 
-    #[Info(id: 120151, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D557, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_F = "\u{1D557}";
 
-    #[Info(id: 120152, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D558, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_G = "\u{1D558}";
 
-    #[Info(id: 120153, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D559, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_H = "\u{1D559}";
 
-    #[Info(id: 120154, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D55A, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_I = "\u{1D55A}";
 
-    #[Info(id: 120155, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D55B, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_J = "\u{1D55B}";
 
-    #[Info(id: 120156, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D55C, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_K = "\u{1D55C}";
 
-    #[Info(id: 120157, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D55D, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_L = "\u{1D55D}";
 
-    #[Info(id: 120158, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D55E, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_M = "\u{1D55E}";
 
-    #[Info(id: 120159, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D55F, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_N = "\u{1D55F}";
 
-    #[Info(id: 120160, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D560, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_O = "\u{1D560}";
 
-    #[Info(id: 120161, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D561, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_P = "\u{1D561}";
 
-    #[Info(id: 120162, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D562, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_Q = "\u{1D562}";
 
-    #[Info(id: 120163, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D563, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_R = "\u{1D563}";
 
-    #[Info(id: 120164, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D564, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_S = "\u{1D564}";
 
-    #[Info(id: 120165, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D565, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_T = "\u{1D565}";
 
-    #[Info(id: 120166, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D566, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_U = "\u{1D566}";
 
-    #[Info(id: 120167, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D567, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_V = "\u{1D567}";
 
-    #[Info(id: 120168, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D568, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_W = "\u{1D568}";
 
-    #[Info(id: 120169, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D569, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_X = "\u{1D569}";
 
-    #[Info(id: 120170, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D56A, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_Y = "\u{1D56A}";
 
-    #[Info(id: 120171, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D56B, name: 'MATHEMATICAL DOUBLE-STRUCK SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_DOUBLE_STRUCK_SMALL_Z = "\u{1D56B}";
 
-    #[Info(id: 120172, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D56C, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_A = "\u{1D56C}";
 
-    #[Info(id: 120173, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D56D, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_B = "\u{1D56D}";
 
-    #[Info(id: 120174, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D56E, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL C', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_C = "\u{1D56E}";
 
-    #[Info(id: 120175, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D56F, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_D = "\u{1D56F}";
 
-    #[Info(id: 120176, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D570, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_E = "\u{1D570}";
 
-    #[Info(id: 120177, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D571, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_F = "\u{1D571}";
 
-    #[Info(id: 120178, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D572, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_G = "\u{1D572}";
 
-    #[Info(id: 120179, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D573, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL H', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_H = "\u{1D573}";
 
-    #[Info(id: 120180, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D574, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL I', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_I = "\u{1D574}";
 
-    #[Info(id: 120181, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D575, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_J = "\u{1D575}";
 
-    #[Info(id: 120182, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D576, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_K = "\u{1D576}";
 
-    #[Info(id: 120183, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D577, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_L = "\u{1D577}";
 
-    #[Info(id: 120184, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D578, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_M = "\u{1D578}";
 
-    #[Info(id: 120185, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D579, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_N = "\u{1D579}";
 
-    #[Info(id: 120186, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D57A, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_O = "\u{1D57A}";
 
-    #[Info(id: 120187, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D57B, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_P = "\u{1D57B}";
 
-    #[Info(id: 120188, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D57C, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_Q = "\u{1D57C}";
 
-    #[Info(id: 120189, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D57D, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL R', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_R = "\u{1D57D}";
 
-    #[Info(id: 120190, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D57E, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_S = "\u{1D57E}";
 
-    #[Info(id: 120191, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D57F, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_T = "\u{1D57F}";
 
-    #[Info(id: 120192, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D580, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_U = "\u{1D580}";
 
-    #[Info(id: 120193, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D581, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_V = "\u{1D581}";
 
-    #[Info(id: 120194, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D582, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_W = "\u{1D582}";
 
-    #[Info(id: 120195, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D583, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_X = "\u{1D583}";
 
-    #[Info(id: 120196, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D584, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_Y = "\u{1D584}";
 
-    #[Info(id: 120197, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D585, name: 'MATHEMATICAL BOLD FRAKTUR CAPITAL Z', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_CAPITAL_Z = "\u{1D585}";
 
-    #[Info(id: 120198, name: 'MATHEMATICAL BOLD FRAKTUR SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D586, name: 'MATHEMATICAL BOLD FRAKTUR SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_A = "\u{1D586}";
 
-    #[Info(id: 120199, name: 'MATHEMATICAL BOLD FRAKTUR SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D587, name: 'MATHEMATICAL BOLD FRAKTUR SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_B = "\u{1D587}";
 
-    #[Info(id: 120200, name: 'MATHEMATICAL BOLD FRAKTUR SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D588, name: 'MATHEMATICAL BOLD FRAKTUR SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_C = "\u{1D588}";
 
-    #[Info(id: 120201, name: 'MATHEMATICAL BOLD FRAKTUR SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D589, name: 'MATHEMATICAL BOLD FRAKTUR SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_D = "\u{1D589}";
 
-    #[Info(id: 120202, name: 'MATHEMATICAL BOLD FRAKTUR SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D58A, name: 'MATHEMATICAL BOLD FRAKTUR SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_E = "\u{1D58A}";
 
-    #[Info(id: 120203, name: 'MATHEMATICAL BOLD FRAKTUR SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D58B, name: 'MATHEMATICAL BOLD FRAKTUR SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_F = "\u{1D58B}";
 
-    #[Info(id: 120204, name: 'MATHEMATICAL BOLD FRAKTUR SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D58C, name: 'MATHEMATICAL BOLD FRAKTUR SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_G = "\u{1D58C}";
 
-    #[Info(id: 120205, name: 'MATHEMATICAL BOLD FRAKTUR SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D58D, name: 'MATHEMATICAL BOLD FRAKTUR SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_H = "\u{1D58D}";
 
-    #[Info(id: 120206, name: 'MATHEMATICAL BOLD FRAKTUR SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D58E, name: 'MATHEMATICAL BOLD FRAKTUR SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_I = "\u{1D58E}";
 
-    #[Info(id: 120207, name: 'MATHEMATICAL BOLD FRAKTUR SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D58F, name: 'MATHEMATICAL BOLD FRAKTUR SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_J = "\u{1D58F}";
 
-    #[Info(id: 120208, name: 'MATHEMATICAL BOLD FRAKTUR SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D590, name: 'MATHEMATICAL BOLD FRAKTUR SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_K = "\u{1D590}";
 
-    #[Info(id: 120209, name: 'MATHEMATICAL BOLD FRAKTUR SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D591, name: 'MATHEMATICAL BOLD FRAKTUR SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_L = "\u{1D591}";
 
-    #[Info(id: 120210, name: 'MATHEMATICAL BOLD FRAKTUR SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D592, name: 'MATHEMATICAL BOLD FRAKTUR SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_M = "\u{1D592}";
 
-    #[Info(id: 120211, name: 'MATHEMATICAL BOLD FRAKTUR SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D593, name: 'MATHEMATICAL BOLD FRAKTUR SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_N = "\u{1D593}";
 
-    #[Info(id: 120212, name: 'MATHEMATICAL BOLD FRAKTUR SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D594, name: 'MATHEMATICAL BOLD FRAKTUR SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_O = "\u{1D594}";
 
-    #[Info(id: 120213, name: 'MATHEMATICAL BOLD FRAKTUR SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D595, name: 'MATHEMATICAL BOLD FRAKTUR SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_P = "\u{1D595}";
 
-    #[Info(id: 120214, name: 'MATHEMATICAL BOLD FRAKTUR SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D596, name: 'MATHEMATICAL BOLD FRAKTUR SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_Q = "\u{1D596}";
 
-    #[Info(id: 120215, name: 'MATHEMATICAL BOLD FRAKTUR SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D597, name: 'MATHEMATICAL BOLD FRAKTUR SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_R = "\u{1D597}";
 
-    #[Info(id: 120216, name: 'MATHEMATICAL BOLD FRAKTUR SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D598, name: 'MATHEMATICAL BOLD FRAKTUR SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_S = "\u{1D598}";
 
-    #[Info(id: 120217, name: 'MATHEMATICAL BOLD FRAKTUR SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D599, name: 'MATHEMATICAL BOLD FRAKTUR SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_T = "\u{1D599}";
 
-    #[Info(id: 120218, name: 'MATHEMATICAL BOLD FRAKTUR SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D59A, name: 'MATHEMATICAL BOLD FRAKTUR SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_U = "\u{1D59A}";
 
-    #[Info(id: 120219, name: 'MATHEMATICAL BOLD FRAKTUR SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D59B, name: 'MATHEMATICAL BOLD FRAKTUR SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_V = "\u{1D59B}";
 
-    #[Info(id: 120220, name: 'MATHEMATICAL BOLD FRAKTUR SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D59C, name: 'MATHEMATICAL BOLD FRAKTUR SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_W = "\u{1D59C}";
 
-    #[Info(id: 120221, name: 'MATHEMATICAL BOLD FRAKTUR SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D59D, name: 'MATHEMATICAL BOLD FRAKTUR SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_X = "\u{1D59D}";
 
-    #[Info(id: 120222, name: 'MATHEMATICAL BOLD FRAKTUR SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D59E, name: 'MATHEMATICAL BOLD FRAKTUR SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_Y = "\u{1D59E}";
 
-    #[Info(id: 120223, name: 'MATHEMATICAL BOLD FRAKTUR SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D59F, name: 'MATHEMATICAL BOLD FRAKTUR SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_FRAKTUR_SMALL_Z = "\u{1D59F}";
 
-    #[Info(id: 120224, name: 'MATHEMATICAL SANS-SERIF CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5A0, name: 'MATHEMATICAL SANS-SERIF CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_A = "\u{1D5A0}";
 
-    #[Info(id: 120225, name: 'MATHEMATICAL SANS-SERIF CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5A1, name: 'MATHEMATICAL SANS-SERIF CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_B = "\u{1D5A1}";
 
-    #[Info(id: 120226, name: 'MATHEMATICAL SANS-SERIF CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5A2, name: 'MATHEMATICAL SANS-SERIF CAPITAL C', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_C = "\u{1D5A2}";
 
-    #[Info(id: 120227, name: 'MATHEMATICAL SANS-SERIF CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5A3, name: 'MATHEMATICAL SANS-SERIF CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_D = "\u{1D5A3}";
 
-    #[Info(id: 120228, name: 'MATHEMATICAL SANS-SERIF CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5A4, name: 'MATHEMATICAL SANS-SERIF CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_E = "\u{1D5A4}";
 
-    #[Info(id: 120229, name: 'MATHEMATICAL SANS-SERIF CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5A5, name: 'MATHEMATICAL SANS-SERIF CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_F = "\u{1D5A5}";
 
-    #[Info(id: 120230, name: 'MATHEMATICAL SANS-SERIF CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5A6, name: 'MATHEMATICAL SANS-SERIF CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_G = "\u{1D5A6}";
 
-    #[Info(id: 120231, name: 'MATHEMATICAL SANS-SERIF CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5A7, name: 'MATHEMATICAL SANS-SERIF CAPITAL H', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_H = "\u{1D5A7}";
 
-    #[Info(id: 120232, name: 'MATHEMATICAL SANS-SERIF CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5A8, name: 'MATHEMATICAL SANS-SERIF CAPITAL I', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_I = "\u{1D5A8}";
 
-    #[Info(id: 120233, name: 'MATHEMATICAL SANS-SERIF CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5A9, name: 'MATHEMATICAL SANS-SERIF CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_J = "\u{1D5A9}";
 
-    #[Info(id: 120234, name: 'MATHEMATICAL SANS-SERIF CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5AA, name: 'MATHEMATICAL SANS-SERIF CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_K = "\u{1D5AA}";
 
-    #[Info(id: 120235, name: 'MATHEMATICAL SANS-SERIF CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5AB, name: 'MATHEMATICAL SANS-SERIF CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_L = "\u{1D5AB}";
 
-    #[Info(id: 120236, name: 'MATHEMATICAL SANS-SERIF CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5AC, name: 'MATHEMATICAL SANS-SERIF CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_M = "\u{1D5AC}";
 
-    #[Info(id: 120237, name: 'MATHEMATICAL SANS-SERIF CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5AD, name: 'MATHEMATICAL SANS-SERIF CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_N = "\u{1D5AD}";
 
-    #[Info(id: 120238, name: 'MATHEMATICAL SANS-SERIF CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5AE, name: 'MATHEMATICAL SANS-SERIF CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_O = "\u{1D5AE}";
 
-    #[Info(id: 120239, name: 'MATHEMATICAL SANS-SERIF CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5AF, name: 'MATHEMATICAL SANS-SERIF CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_P = "\u{1D5AF}";
 
-    #[Info(id: 120240, name: 'MATHEMATICAL SANS-SERIF CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5B0, name: 'MATHEMATICAL SANS-SERIF CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_Q = "\u{1D5B0}";
 
-    #[Info(id: 120241, name: 'MATHEMATICAL SANS-SERIF CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5B1, name: 'MATHEMATICAL SANS-SERIF CAPITAL R', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_R = "\u{1D5B1}";
 
-    #[Info(id: 120242, name: 'MATHEMATICAL SANS-SERIF CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5B2, name: 'MATHEMATICAL SANS-SERIF CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_S = "\u{1D5B2}";
 
-    #[Info(id: 120243, name: 'MATHEMATICAL SANS-SERIF CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5B3, name: 'MATHEMATICAL SANS-SERIF CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_T = "\u{1D5B3}";
 
-    #[Info(id: 120244, name: 'MATHEMATICAL SANS-SERIF CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5B4, name: 'MATHEMATICAL SANS-SERIF CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_U = "\u{1D5B4}";
 
-    #[Info(id: 120245, name: 'MATHEMATICAL SANS-SERIF CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5B5, name: 'MATHEMATICAL SANS-SERIF CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_V = "\u{1D5B5}";
 
-    #[Info(id: 120246, name: 'MATHEMATICAL SANS-SERIF CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5B6, name: 'MATHEMATICAL SANS-SERIF CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_W = "\u{1D5B6}";
 
-    #[Info(id: 120247, name: 'MATHEMATICAL SANS-SERIF CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5B7, name: 'MATHEMATICAL SANS-SERIF CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_X = "\u{1D5B7}";
 
-    #[Info(id: 120248, name: 'MATHEMATICAL SANS-SERIF CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5B8, name: 'MATHEMATICAL SANS-SERIF CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_Y = "\u{1D5B8}";
 
-    #[Info(id: 120249, name: 'MATHEMATICAL SANS-SERIF CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5B9, name: 'MATHEMATICAL SANS-SERIF CAPITAL Z', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_CAPITAL_Z = "\u{1D5B9}";
 
-    #[Info(id: 120250, name: 'MATHEMATICAL SANS-SERIF SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5BA, name: 'MATHEMATICAL SANS-SERIF SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_A = "\u{1D5BA}";
 
-    #[Info(id: 120251, name: 'MATHEMATICAL SANS-SERIF SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5BB, name: 'MATHEMATICAL SANS-SERIF SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_B = "\u{1D5BB}";
 
-    #[Info(id: 120252, name: 'MATHEMATICAL SANS-SERIF SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5BC, name: 'MATHEMATICAL SANS-SERIF SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_C = "\u{1D5BC}";
 
-    #[Info(id: 120253, name: 'MATHEMATICAL SANS-SERIF SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5BD, name: 'MATHEMATICAL SANS-SERIF SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_D = "\u{1D5BD}";
 
-    #[Info(id: 120254, name: 'MATHEMATICAL SANS-SERIF SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5BE, name: 'MATHEMATICAL SANS-SERIF SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_E = "\u{1D5BE}";
 
-    #[Info(id: 120255, name: 'MATHEMATICAL SANS-SERIF SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5BF, name: 'MATHEMATICAL SANS-SERIF SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_F = "\u{1D5BF}";
 
-    #[Info(id: 120256, name: 'MATHEMATICAL SANS-SERIF SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5C0, name: 'MATHEMATICAL SANS-SERIF SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_G = "\u{1D5C0}";
 
-    #[Info(id: 120257, name: 'MATHEMATICAL SANS-SERIF SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5C1, name: 'MATHEMATICAL SANS-SERIF SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_H = "\u{1D5C1}";
 
-    #[Info(id: 120258, name: 'MATHEMATICAL SANS-SERIF SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5C2, name: 'MATHEMATICAL SANS-SERIF SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_I = "\u{1D5C2}";
 
-    #[Info(id: 120259, name: 'MATHEMATICAL SANS-SERIF SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5C3, name: 'MATHEMATICAL SANS-SERIF SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_J = "\u{1D5C3}";
 
-    #[Info(id: 120260, name: 'MATHEMATICAL SANS-SERIF SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5C4, name: 'MATHEMATICAL SANS-SERIF SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_K = "\u{1D5C4}";
 
-    #[Info(id: 120261, name: 'MATHEMATICAL SANS-SERIF SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5C5, name: 'MATHEMATICAL SANS-SERIF SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_L = "\u{1D5C5}";
 
-    #[Info(id: 120262, name: 'MATHEMATICAL SANS-SERIF SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5C6, name: 'MATHEMATICAL SANS-SERIF SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_M = "\u{1D5C6}";
 
-    #[Info(id: 120263, name: 'MATHEMATICAL SANS-SERIF SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5C7, name: 'MATHEMATICAL SANS-SERIF SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_N = "\u{1D5C7}";
 
-    #[Info(id: 120264, name: 'MATHEMATICAL SANS-SERIF SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5C8, name: 'MATHEMATICAL SANS-SERIF SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_O = "\u{1D5C8}";
 
-    #[Info(id: 120265, name: 'MATHEMATICAL SANS-SERIF SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5C9, name: 'MATHEMATICAL SANS-SERIF SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_P = "\u{1D5C9}";
 
-    #[Info(id: 120266, name: 'MATHEMATICAL SANS-SERIF SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5CA, name: 'MATHEMATICAL SANS-SERIF SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_Q = "\u{1D5CA}";
 
-    #[Info(id: 120267, name: 'MATHEMATICAL SANS-SERIF SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5CB, name: 'MATHEMATICAL SANS-SERIF SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_R = "\u{1D5CB}";
 
-    #[Info(id: 120268, name: 'MATHEMATICAL SANS-SERIF SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5CC, name: 'MATHEMATICAL SANS-SERIF SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_S = "\u{1D5CC}";
 
-    #[Info(id: 120269, name: 'MATHEMATICAL SANS-SERIF SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5CD, name: 'MATHEMATICAL SANS-SERIF SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_T = "\u{1D5CD}";
 
-    #[Info(id: 120270, name: 'MATHEMATICAL SANS-SERIF SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5CE, name: 'MATHEMATICAL SANS-SERIF SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_U = "\u{1D5CE}";
 
-    #[Info(id: 120271, name: 'MATHEMATICAL SANS-SERIF SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5CF, name: 'MATHEMATICAL SANS-SERIF SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_V = "\u{1D5CF}";
 
-    #[Info(id: 120272, name: 'MATHEMATICAL SANS-SERIF SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5D0, name: 'MATHEMATICAL SANS-SERIF SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_W = "\u{1D5D0}";
 
-    #[Info(id: 120273, name: 'MATHEMATICAL SANS-SERIF SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5D1, name: 'MATHEMATICAL SANS-SERIF SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_X = "\u{1D5D1}";
 
-    #[Info(id: 120274, name: 'MATHEMATICAL SANS-SERIF SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5D2, name: 'MATHEMATICAL SANS-SERIF SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_Y = "\u{1D5D2}";
 
-    #[Info(id: 120275, name: 'MATHEMATICAL SANS-SERIF SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5D3, name: 'MATHEMATICAL SANS-SERIF SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_SMALL_Z = "\u{1D5D3}";
 
-    #[Info(id: 120276, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5D4, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_A = "\u{1D5D4}";
 
-    #[Info(id: 120277, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5D5, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_B = "\u{1D5D5}";
 
-    #[Info(id: 120278, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5D6, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL C', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_C = "\u{1D5D6}";
 
-    #[Info(id: 120279, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5D7, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_D = "\u{1D5D7}";
 
-    #[Info(id: 120280, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5D8, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_E = "\u{1D5D8}";
 
-    #[Info(id: 120281, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5D9, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_F = "\u{1D5D9}";
 
-    #[Info(id: 120282, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5DA, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_G = "\u{1D5DA}";
 
-    #[Info(id: 120283, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5DB, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL H', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_H = "\u{1D5DB}";
 
-    #[Info(id: 120284, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5DC, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL I', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_I = "\u{1D5DC}";
 
-    #[Info(id: 120285, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5DD, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_J = "\u{1D5DD}";
 
-    #[Info(id: 120286, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5DE, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_K = "\u{1D5DE}";
 
-    #[Info(id: 120287, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5DF, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_L = "\u{1D5DF}";
 
-    #[Info(id: 120288, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5E0, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_M = "\u{1D5E0}";
 
-    #[Info(id: 120289, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5E1, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_N = "\u{1D5E1}";
 
-    #[Info(id: 120290, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5E2, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_O = "\u{1D5E2}";
 
-    #[Info(id: 120291, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5E3, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_P = "\u{1D5E3}";
 
-    #[Info(id: 120292, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5E4, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_Q = "\u{1D5E4}";
 
-    #[Info(id: 120293, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5E5, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL R', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_R = "\u{1D5E5}";
 
-    #[Info(id: 120294, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5E6, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_S = "\u{1D5E6}";
 
-    #[Info(id: 120295, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5E7, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_T = "\u{1D5E7}";
 
-    #[Info(id: 120296, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5E8, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_U = "\u{1D5E8}";
 
-    #[Info(id: 120297, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5E9, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_V = "\u{1D5E9}";
 
-    #[Info(id: 120298, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5EA, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_W = "\u{1D5EA}";
 
-    #[Info(id: 120299, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5EB, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_X = "\u{1D5EB}";
 
-    #[Info(id: 120300, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5EC, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_Y = "\u{1D5EC}";
 
-    #[Info(id: 120301, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5ED, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL Z', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_Z = "\u{1D5ED}";
 
-    #[Info(id: 120302, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5EE, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_A = "\u{1D5EE}";
 
-    #[Info(id: 120303, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5EF, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_B = "\u{1D5EF}";
 
-    #[Info(id: 120304, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5F0, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_C = "\u{1D5F0}";
 
-    #[Info(id: 120305, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5F1, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_D = "\u{1D5F1}";
 
-    #[Info(id: 120306, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5F2, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_E = "\u{1D5F2}";
 
-    #[Info(id: 120307, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5F3, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_F = "\u{1D5F3}";
 
-    #[Info(id: 120308, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5F4, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_G = "\u{1D5F4}";
 
-    #[Info(id: 120309, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5F5, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_H = "\u{1D5F5}";
 
-    #[Info(id: 120310, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5F6, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_I = "\u{1D5F6}";
 
-    #[Info(id: 120311, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5F7, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_J = "\u{1D5F7}";
 
-    #[Info(id: 120312, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5F8, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_K = "\u{1D5F8}";
 
-    #[Info(id: 120313, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5F9, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_L = "\u{1D5F9}";
 
-    #[Info(id: 120314, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5FA, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_M = "\u{1D5FA}";
 
-    #[Info(id: 120315, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5FB, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_N = "\u{1D5FB}";
 
-    #[Info(id: 120316, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5FC, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_O = "\u{1D5FC}";
 
-    #[Info(id: 120317, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5FD, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_P = "\u{1D5FD}";
 
-    #[Info(id: 120318, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5FE, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_Q = "\u{1D5FE}";
 
-    #[Info(id: 120319, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D5FF, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_R = "\u{1D5FF}";
 
-    #[Info(id: 120320, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D600, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_S = "\u{1D600}";
 
-    #[Info(id: 120321, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D601, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_T = "\u{1D601}";
 
-    #[Info(id: 120322, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D602, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_U = "\u{1D602}";
 
-    #[Info(id: 120323, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D603, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_V = "\u{1D603}";
 
-    #[Info(id: 120324, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D604, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_W = "\u{1D604}";
 
-    #[Info(id: 120325, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D605, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_X = "\u{1D605}";
 
-    #[Info(id: 120326, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D606, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_Y = "\u{1D606}";
 
-    #[Info(id: 120327, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D607, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_Z = "\u{1D607}";
 
-    #[Info(id: 120328, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D608, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_A = "\u{1D608}";
 
-    #[Info(id: 120329, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D609, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_B = "\u{1D609}";
 
-    #[Info(id: 120330, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D60A, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL C', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_C = "\u{1D60A}";
 
-    #[Info(id: 120331, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D60B, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_D = "\u{1D60B}";
 
-    #[Info(id: 120332, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D60C, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_E = "\u{1D60C}";
 
-    #[Info(id: 120333, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D60D, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_F = "\u{1D60D}";
 
-    #[Info(id: 120334, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D60E, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_G = "\u{1D60E}";
 
-    #[Info(id: 120335, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D60F, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL H', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_H = "\u{1D60F}";
 
-    #[Info(id: 120336, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D610, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL I', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_I = "\u{1D610}";
 
-    #[Info(id: 120337, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D611, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_J = "\u{1D611}";
 
-    #[Info(id: 120338, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D612, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_K = "\u{1D612}";
 
-    #[Info(id: 120339, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D613, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_L = "\u{1D613}";
 
-    #[Info(id: 120340, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D614, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_M = "\u{1D614}";
 
-    #[Info(id: 120341, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D615, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_N = "\u{1D615}";
 
-    #[Info(id: 120342, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D616, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_O = "\u{1D616}";
 
-    #[Info(id: 120343, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D617, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_P = "\u{1D617}";
 
-    #[Info(id: 120344, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D618, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_Q = "\u{1D618}";
 
-    #[Info(id: 120345, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D619, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL R', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_R = "\u{1D619}";
 
-    #[Info(id: 120346, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D61A, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_S = "\u{1D61A}";
 
-    #[Info(id: 120347, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D61B, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_T = "\u{1D61B}";
 
-    #[Info(id: 120348, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D61C, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_U = "\u{1D61C}";
 
-    #[Info(id: 120349, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D61D, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_V = "\u{1D61D}";
 
-    #[Info(id: 120350, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D61E, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_W = "\u{1D61E}";
 
-    #[Info(id: 120351, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D61F, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_X = "\u{1D61F}";
 
-    #[Info(id: 120352, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D620, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_Y = "\u{1D620}";
 
-    #[Info(id: 120353, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D621, name: 'MATHEMATICAL SANS-SERIF ITALIC CAPITAL Z', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_CAPITAL_Z = "\u{1D621}";
 
-    #[Info(id: 120354, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D622, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_A = "\u{1D622}";
 
-    #[Info(id: 120355, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D623, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_B = "\u{1D623}";
 
-    #[Info(id: 120356, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D624, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_C = "\u{1D624}";
 
-    #[Info(id: 120357, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D625, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_D = "\u{1D625}";
 
-    #[Info(id: 120358, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D626, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_E = "\u{1D626}";
 
-    #[Info(id: 120359, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D627, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_F = "\u{1D627}";
 
-    #[Info(id: 120360, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D628, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_G = "\u{1D628}";
 
-    #[Info(id: 120361, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D629, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_H = "\u{1D629}";
 
-    #[Info(id: 120362, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D62A, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_I = "\u{1D62A}";
 
-    #[Info(id: 120363, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D62B, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_J = "\u{1D62B}";
 
-    #[Info(id: 120364, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D62C, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_K = "\u{1D62C}";
 
-    #[Info(id: 120365, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D62D, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_L = "\u{1D62D}";
 
-    #[Info(id: 120366, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D62E, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_M = "\u{1D62E}";
 
-    #[Info(id: 120367, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D62F, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_N = "\u{1D62F}";
 
-    #[Info(id: 120368, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D630, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_O = "\u{1D630}";
 
-    #[Info(id: 120369, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D631, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_P = "\u{1D631}";
 
-    #[Info(id: 120370, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D632, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_Q = "\u{1D632}";
 
-    #[Info(id: 120371, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D633, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_R = "\u{1D633}";
 
-    #[Info(id: 120372, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D634, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_S = "\u{1D634}";
 
-    #[Info(id: 120373, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D635, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_T = "\u{1D635}";
 
-    #[Info(id: 120374, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D636, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_U = "\u{1D636}";
 
-    #[Info(id: 120375, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D637, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_V = "\u{1D637}";
 
-    #[Info(id: 120376, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D638, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_W = "\u{1D638}";
 
-    #[Info(id: 120377, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D639, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_X = "\u{1D639}";
 
-    #[Info(id: 120378, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D63A, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_Y = "\u{1D63A}";
 
-    #[Info(id: 120379, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D63B, name: 'MATHEMATICAL SANS-SERIF ITALIC SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_ITALIC_SMALL_Z = "\u{1D63B}";
 
-    #[Info(id: 120380, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D63C, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_A = "\u{1D63C}";
 
-    #[Info(id: 120381, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D63D, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_B = "\u{1D63D}";
 
-    #[Info(id: 120382, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D63E, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL C', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_C = "\u{1D63E}";
 
-    #[Info(id: 120383, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D63F, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_D = "\u{1D63F}";
 
-    #[Info(id: 120384, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D640, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_E = "\u{1D640}";
 
-    #[Info(id: 120385, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D641, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_F = "\u{1D641}";
 
-    #[Info(id: 120386, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D642, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_G = "\u{1D642}";
 
-    #[Info(id: 120387, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D643, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL H', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_H = "\u{1D643}";
 
-    #[Info(id: 120388, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D644, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL I', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_I = "\u{1D644}";
 
-    #[Info(id: 120389, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D645, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_J = "\u{1D645}";
 
-    #[Info(id: 120390, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D646, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_K = "\u{1D646}";
 
-    #[Info(id: 120391, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D647, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_L = "\u{1D647}";
 
-    #[Info(id: 120392, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D648, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_M = "\u{1D648}";
 
-    #[Info(id: 120393, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D649, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_N = "\u{1D649}";
 
-    #[Info(id: 120394, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D64A, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_O = "\u{1D64A}";
 
-    #[Info(id: 120395, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D64B, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_P = "\u{1D64B}";
 
-    #[Info(id: 120396, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D64C, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_Q = "\u{1D64C}";
 
-    #[Info(id: 120397, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D64D, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL R', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_R = "\u{1D64D}";
 
-    #[Info(id: 120398, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D64E, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_S = "\u{1D64E}";
 
-    #[Info(id: 120399, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D64F, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_T = "\u{1D64F}";
 
-    #[Info(id: 120400, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D650, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_U = "\u{1D650}";
 
-    #[Info(id: 120401, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D651, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_V = "\u{1D651}";
 
-    #[Info(id: 120402, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D652, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_W = "\u{1D652}";
 
-    #[Info(id: 120403, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D653, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_X = "\u{1D653}";
 
-    #[Info(id: 120404, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D654, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_Y = "\u{1D654}";
 
-    #[Info(id: 120405, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D655, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Z', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_Z = "\u{1D655}";
 
-    #[Info(id: 120406, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D656, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_A = "\u{1D656}";
 
-    #[Info(id: 120407, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D657, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_B = "\u{1D657}";
 
-    #[Info(id: 120408, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D658, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_C = "\u{1D658}";
 
-    #[Info(id: 120409, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D659, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_D = "\u{1D659}";
 
-    #[Info(id: 120410, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D65A, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_E = "\u{1D65A}";
 
-    #[Info(id: 120411, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D65B, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_F = "\u{1D65B}";
 
-    #[Info(id: 120412, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D65C, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_G = "\u{1D65C}";
 
-    #[Info(id: 120413, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D65D, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_H = "\u{1D65D}";
 
-    #[Info(id: 120414, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D65E, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_I = "\u{1D65E}";
 
-    #[Info(id: 120415, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D65F, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_J = "\u{1D65F}";
 
-    #[Info(id: 120416, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D660, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_K = "\u{1D660}";
 
-    #[Info(id: 120417, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D661, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_L = "\u{1D661}";
 
-    #[Info(id: 120418, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D662, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_M = "\u{1D662}";
 
-    #[Info(id: 120419, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D663, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_N = "\u{1D663}";
 
-    #[Info(id: 120420, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D664, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_O = "\u{1D664}";
 
-    #[Info(id: 120421, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D665, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_P = "\u{1D665}";
 
-    #[Info(id: 120422, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D666, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_Q = "\u{1D666}";
 
-    #[Info(id: 120423, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D667, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_R = "\u{1D667}";
 
-    #[Info(id: 120424, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D668, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_S = "\u{1D668}";
 
-    #[Info(id: 120425, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D669, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_T = "\u{1D669}";
 
-    #[Info(id: 120426, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D66A, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_U = "\u{1D66A}";
 
-    #[Info(id: 120427, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D66B, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_V = "\u{1D66B}";
 
-    #[Info(id: 120428, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D66C, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_W = "\u{1D66C}";
 
-    #[Info(id: 120429, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D66D, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_X = "\u{1D66D}";
 
-    #[Info(id: 120430, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D66E, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_Y = "\u{1D66E}";
 
-    #[Info(id: 120431, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D66F, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_Z = "\u{1D66F}";
 
-    #[Info(id: 120432, name: 'MATHEMATICAL MONOSPACE CAPITAL A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D670, name: 'MATHEMATICAL MONOSPACE CAPITAL A', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_A = "\u{1D670}";
 
-    #[Info(id: 120433, name: 'MATHEMATICAL MONOSPACE CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D671, name: 'MATHEMATICAL MONOSPACE CAPITAL B', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_B = "\u{1D671}";
 
-    #[Info(id: 120434, name: 'MATHEMATICAL MONOSPACE CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D672, name: 'MATHEMATICAL MONOSPACE CAPITAL C', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_C = "\u{1D672}";
 
-    #[Info(id: 120435, name: 'MATHEMATICAL MONOSPACE CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D673, name: 'MATHEMATICAL MONOSPACE CAPITAL D', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_D = "\u{1D673}";
 
-    #[Info(id: 120436, name: 'MATHEMATICAL MONOSPACE CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D674, name: 'MATHEMATICAL MONOSPACE CAPITAL E', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_E = "\u{1D674}";
 
-    #[Info(id: 120437, name: 'MATHEMATICAL MONOSPACE CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D675, name: 'MATHEMATICAL MONOSPACE CAPITAL F', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_F = "\u{1D675}";
 
-    #[Info(id: 120438, name: 'MATHEMATICAL MONOSPACE CAPITAL G', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D676, name: 'MATHEMATICAL MONOSPACE CAPITAL G', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_G = "\u{1D676}";
 
-    #[Info(id: 120439, name: 'MATHEMATICAL MONOSPACE CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D677, name: 'MATHEMATICAL MONOSPACE CAPITAL H', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_H = "\u{1D677}";
 
-    #[Info(id: 120440, name: 'MATHEMATICAL MONOSPACE CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D678, name: 'MATHEMATICAL MONOSPACE CAPITAL I', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_I = "\u{1D678}";
 
-    #[Info(id: 120441, name: 'MATHEMATICAL MONOSPACE CAPITAL J', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D679, name: 'MATHEMATICAL MONOSPACE CAPITAL J', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_J = "\u{1D679}";
 
-    #[Info(id: 120442, name: 'MATHEMATICAL MONOSPACE CAPITAL K', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D67A, name: 'MATHEMATICAL MONOSPACE CAPITAL K', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_K = "\u{1D67A}";
 
-    #[Info(id: 120443, name: 'MATHEMATICAL MONOSPACE CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D67B, name: 'MATHEMATICAL MONOSPACE CAPITAL L', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_L = "\u{1D67B}";
 
-    #[Info(id: 120444, name: 'MATHEMATICAL MONOSPACE CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D67C, name: 'MATHEMATICAL MONOSPACE CAPITAL M', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_M = "\u{1D67C}";
 
-    #[Info(id: 120445, name: 'MATHEMATICAL MONOSPACE CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D67D, name: 'MATHEMATICAL MONOSPACE CAPITAL N', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_N = "\u{1D67D}";
 
-    #[Info(id: 120446, name: 'MATHEMATICAL MONOSPACE CAPITAL O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D67E, name: 'MATHEMATICAL MONOSPACE CAPITAL O', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_O = "\u{1D67E}";
 
-    #[Info(id: 120447, name: 'MATHEMATICAL MONOSPACE CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D67F, name: 'MATHEMATICAL MONOSPACE CAPITAL P', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_P = "\u{1D67F}";
 
-    #[Info(id: 120448, name: 'MATHEMATICAL MONOSPACE CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D680, name: 'MATHEMATICAL MONOSPACE CAPITAL Q', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_Q = "\u{1D680}";
 
-    #[Info(id: 120449, name: 'MATHEMATICAL MONOSPACE CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D681, name: 'MATHEMATICAL MONOSPACE CAPITAL R', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_R = "\u{1D681}";
 
-    #[Info(id: 120450, name: 'MATHEMATICAL MONOSPACE CAPITAL S', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D682, name: 'MATHEMATICAL MONOSPACE CAPITAL S', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_S = "\u{1D682}";
 
-    #[Info(id: 120451, name: 'MATHEMATICAL MONOSPACE CAPITAL T', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D683, name: 'MATHEMATICAL MONOSPACE CAPITAL T', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_T = "\u{1D683}";
 
-    #[Info(id: 120452, name: 'MATHEMATICAL MONOSPACE CAPITAL U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D684, name: 'MATHEMATICAL MONOSPACE CAPITAL U', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_U = "\u{1D684}";
 
-    #[Info(id: 120453, name: 'MATHEMATICAL MONOSPACE CAPITAL V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D685, name: 'MATHEMATICAL MONOSPACE CAPITAL V', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_V = "\u{1D685}";
 
-    #[Info(id: 120454, name: 'MATHEMATICAL MONOSPACE CAPITAL W', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D686, name: 'MATHEMATICAL MONOSPACE CAPITAL W', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_W = "\u{1D686}";
 
-    #[Info(id: 120455, name: 'MATHEMATICAL MONOSPACE CAPITAL X', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D687, name: 'MATHEMATICAL MONOSPACE CAPITAL X', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_X = "\u{1D687}";
 
-    #[Info(id: 120456, name: 'MATHEMATICAL MONOSPACE CAPITAL Y', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D688, name: 'MATHEMATICAL MONOSPACE CAPITAL Y', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_Y = "\u{1D688}";
 
-    #[Info(id: 120457, name: 'MATHEMATICAL MONOSPACE CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D689, name: 'MATHEMATICAL MONOSPACE CAPITAL Z', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_MONOSPACE_CAPITAL_Z = "\u{1D689}";
 
-    #[Info(id: 120458, name: 'MATHEMATICAL MONOSPACE SMALL A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D68A, name: 'MATHEMATICAL MONOSPACE SMALL A', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_A = "\u{1D68A}";
 
-    #[Info(id: 120459, name: 'MATHEMATICAL MONOSPACE SMALL B', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D68B, name: 'MATHEMATICAL MONOSPACE SMALL B', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_B = "\u{1D68B}";
 
-    #[Info(id: 120460, name: 'MATHEMATICAL MONOSPACE SMALL C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D68C, name: 'MATHEMATICAL MONOSPACE SMALL C', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_C = "\u{1D68C}";
 
-    #[Info(id: 120461, name: 'MATHEMATICAL MONOSPACE SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D68D, name: 'MATHEMATICAL MONOSPACE SMALL D', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_D = "\u{1D68D}";
 
-    #[Info(id: 120462, name: 'MATHEMATICAL MONOSPACE SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D68E, name: 'MATHEMATICAL MONOSPACE SMALL E', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_E = "\u{1D68E}";
 
-    #[Info(id: 120463, name: 'MATHEMATICAL MONOSPACE SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D68F, name: 'MATHEMATICAL MONOSPACE SMALL F', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_F = "\u{1D68F}";
 
-    #[Info(id: 120464, name: 'MATHEMATICAL MONOSPACE SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D690, name: 'MATHEMATICAL MONOSPACE SMALL G', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_G = "\u{1D690}";
 
-    #[Info(id: 120465, name: 'MATHEMATICAL MONOSPACE SMALL H', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D691, name: 'MATHEMATICAL MONOSPACE SMALL H', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_H = "\u{1D691}";
 
-    #[Info(id: 120466, name: 'MATHEMATICAL MONOSPACE SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D692, name: 'MATHEMATICAL MONOSPACE SMALL I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_I = "\u{1D692}";
 
-    #[Info(id: 120467, name: 'MATHEMATICAL MONOSPACE SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D693, name: 'MATHEMATICAL MONOSPACE SMALL J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_J = "\u{1D693}";
 
-    #[Info(id: 120468, name: 'MATHEMATICAL MONOSPACE SMALL K', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D694, name: 'MATHEMATICAL MONOSPACE SMALL K', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_K = "\u{1D694}";
 
-    #[Info(id: 120469, name: 'MATHEMATICAL MONOSPACE SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D695, name: 'MATHEMATICAL MONOSPACE SMALL L', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_L = "\u{1D695}";
 
-    #[Info(id: 120470, name: 'MATHEMATICAL MONOSPACE SMALL M', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D696, name: 'MATHEMATICAL MONOSPACE SMALL M', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_M = "\u{1D696}";
 
-    #[Info(id: 120471, name: 'MATHEMATICAL MONOSPACE SMALL N', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D697, name: 'MATHEMATICAL MONOSPACE SMALL N', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_N = "\u{1D697}";
 
-    #[Info(id: 120472, name: 'MATHEMATICAL MONOSPACE SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D698, name: 'MATHEMATICAL MONOSPACE SMALL O', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_O = "\u{1D698}";
 
-    #[Info(id: 120473, name: 'MATHEMATICAL MONOSPACE SMALL P', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D699, name: 'MATHEMATICAL MONOSPACE SMALL P', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_P = "\u{1D699}";
 
-    #[Info(id: 120474, name: 'MATHEMATICAL MONOSPACE SMALL Q', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D69A, name: 'MATHEMATICAL MONOSPACE SMALL Q', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_Q = "\u{1D69A}";
 
-    #[Info(id: 120475, name: 'MATHEMATICAL MONOSPACE SMALL R', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D69B, name: 'MATHEMATICAL MONOSPACE SMALL R', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_R = "\u{1D69B}";
 
-    #[Info(id: 120476, name: 'MATHEMATICAL MONOSPACE SMALL S', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D69C, name: 'MATHEMATICAL MONOSPACE SMALL S', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_S = "\u{1D69C}";
 
-    #[Info(id: 120477, name: 'MATHEMATICAL MONOSPACE SMALL T', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D69D, name: 'MATHEMATICAL MONOSPACE SMALL T', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_T = "\u{1D69D}";
 
-    #[Info(id: 120478, name: 'MATHEMATICAL MONOSPACE SMALL U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D69E, name: 'MATHEMATICAL MONOSPACE SMALL U', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_U = "\u{1D69E}";
 
-    #[Info(id: 120479, name: 'MATHEMATICAL MONOSPACE SMALL V', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D69F, name: 'MATHEMATICAL MONOSPACE SMALL V', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_V = "\u{1D69F}";
 
-    #[Info(id: 120480, name: 'MATHEMATICAL MONOSPACE SMALL W', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6A0, name: 'MATHEMATICAL MONOSPACE SMALL W', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_W = "\u{1D6A0}";
 
-    #[Info(id: 120481, name: 'MATHEMATICAL MONOSPACE SMALL X', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6A1, name: 'MATHEMATICAL MONOSPACE SMALL X', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_X = "\u{1D6A1}";
 
-    #[Info(id: 120482, name: 'MATHEMATICAL MONOSPACE SMALL Y', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6A2, name: 'MATHEMATICAL MONOSPACE SMALL Y', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_Y = "\u{1D6A2}";
 
-    #[Info(id: 120483, name: 'MATHEMATICAL MONOSPACE SMALL Z', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6A3, name: 'MATHEMATICAL MONOSPACE SMALL Z', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_MONOSPACE_SMALL_Z = "\u{1D6A3}";
 
-    #[Info(id: 120484, name: 'MATHEMATICAL ITALIC SMALL DOTLESS I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6A4, name: 'MATHEMATICAL ITALIC SMALL DOTLESS I', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_DOTLESS_I = "\u{1D6A4}";
 
-    #[Info(id: 120485, name: 'MATHEMATICAL ITALIC SMALL DOTLESS J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6A5, name: 'MATHEMATICAL ITALIC SMALL DOTLESS J', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_DOTLESS_J = "\u{1D6A5}";
 
-    #[Info(id: 120488, name: 'MATHEMATICAL BOLD CAPITAL ALPHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6A8, name: 'MATHEMATICAL BOLD CAPITAL ALPHA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_ALPHA = "\u{1D6A8}";
 
-    #[Info(id: 120489, name: 'MATHEMATICAL BOLD CAPITAL BETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6A9, name: 'MATHEMATICAL BOLD CAPITAL BETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_BETA = "\u{1D6A9}";
 
-    #[Info(id: 120490, name: 'MATHEMATICAL BOLD CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6AA, name: 'MATHEMATICAL BOLD CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_GAMMA = "\u{1D6AA}";
 
-    #[Info(id: 120491, name: 'MATHEMATICAL BOLD CAPITAL DELTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6AB, name: 'MATHEMATICAL BOLD CAPITAL DELTA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_DELTA = "\u{1D6AB}";
 
-    #[Info(id: 120492, name: 'MATHEMATICAL BOLD CAPITAL EPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6AC, name: 'MATHEMATICAL BOLD CAPITAL EPSILON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_EPSILON = "\u{1D6AC}";
 
-    #[Info(id: 120493, name: 'MATHEMATICAL BOLD CAPITAL ZETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6AD, name: 'MATHEMATICAL BOLD CAPITAL ZETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_ZETA = "\u{1D6AD}";
 
-    #[Info(id: 120494, name: 'MATHEMATICAL BOLD CAPITAL ETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6AE, name: 'MATHEMATICAL BOLD CAPITAL ETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_ETA = "\u{1D6AE}";
 
-    #[Info(id: 120495, name: 'MATHEMATICAL BOLD CAPITAL THETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6AF, name: 'MATHEMATICAL BOLD CAPITAL THETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_THETA = "\u{1D6AF}";
 
-    #[Info(id: 120496, name: 'MATHEMATICAL BOLD CAPITAL IOTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6B0, name: 'MATHEMATICAL BOLD CAPITAL IOTA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_IOTA = "\u{1D6B0}";
 
-    #[Info(id: 120497, name: 'MATHEMATICAL BOLD CAPITAL KAPPA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6B1, name: 'MATHEMATICAL BOLD CAPITAL KAPPA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_KAPPA = "\u{1D6B1}";
 
-    #[Info(id: 120498, name: 'MATHEMATICAL BOLD CAPITAL LAMDA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6B2, name: 'MATHEMATICAL BOLD CAPITAL LAMDA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_LAMDA = "\u{1D6B2}";
 
-    #[Info(id: 120499, name: 'MATHEMATICAL BOLD CAPITAL MU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6B3, name: 'MATHEMATICAL BOLD CAPITAL MU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_MU = "\u{1D6B3}";
 
-    #[Info(id: 120500, name: 'MATHEMATICAL BOLD CAPITAL NU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6B4, name: 'MATHEMATICAL BOLD CAPITAL NU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_NU = "\u{1D6B4}";
 
-    #[Info(id: 120501, name: 'MATHEMATICAL BOLD CAPITAL XI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6B5, name: 'MATHEMATICAL BOLD CAPITAL XI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_XI = "\u{1D6B5}";
 
-    #[Info(id: 120502, name: 'MATHEMATICAL BOLD CAPITAL OMICRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6B6, name: 'MATHEMATICAL BOLD CAPITAL OMICRON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_OMICRON = "\u{1D6B6}";
 
-    #[Info(id: 120503, name: 'MATHEMATICAL BOLD CAPITAL PI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6B7, name: 'MATHEMATICAL BOLD CAPITAL PI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_PI = "\u{1D6B7}";
 
-    #[Info(id: 120504, name: 'MATHEMATICAL BOLD CAPITAL RHO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6B8, name: 'MATHEMATICAL BOLD CAPITAL RHO', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_RHO = "\u{1D6B8}";
 
-    #[Info(id: 120505, name: 'MATHEMATICAL BOLD CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6B9, name: 'MATHEMATICAL BOLD CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_THETA_SYMBOL = "\u{1D6B9}";
 
-    #[Info(id: 120506, name: 'MATHEMATICAL BOLD CAPITAL SIGMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6BA, name: 'MATHEMATICAL BOLD CAPITAL SIGMA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_SIGMA = "\u{1D6BA}";
 
-    #[Info(id: 120507, name: 'MATHEMATICAL BOLD CAPITAL TAU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6BB, name: 'MATHEMATICAL BOLD CAPITAL TAU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_TAU = "\u{1D6BB}";
 
-    #[Info(id: 120508, name: 'MATHEMATICAL BOLD CAPITAL UPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6BC, name: 'MATHEMATICAL BOLD CAPITAL UPSILON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_UPSILON = "\u{1D6BC}";
 
-    #[Info(id: 120509, name: 'MATHEMATICAL BOLD CAPITAL PHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6BD, name: 'MATHEMATICAL BOLD CAPITAL PHI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_PHI = "\u{1D6BD}";
 
-    #[Info(id: 120510, name: 'MATHEMATICAL BOLD CAPITAL CHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6BE, name: 'MATHEMATICAL BOLD CAPITAL CHI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_CHI = "\u{1D6BE}";
 
-    #[Info(id: 120511, name: 'MATHEMATICAL BOLD CAPITAL PSI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6BF, name: 'MATHEMATICAL BOLD CAPITAL PSI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_PSI = "\u{1D6BF}";
 
-    #[Info(id: 120512, name: 'MATHEMATICAL BOLD CAPITAL OMEGA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6C0, name: 'MATHEMATICAL BOLD CAPITAL OMEGA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_OMEGA = "\u{1D6C0}";
 
-    #[Info(id: 120513, name: 'MATHEMATICAL BOLD NABLA', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1D6C1, name: 'MATHEMATICAL BOLD NABLA', category: Cat::Math_Symbol)]
     case MATHEMATICAL_BOLD_NABLA = "\u{1D6C1}";
 
-    #[Info(id: 120514, name: 'MATHEMATICAL BOLD SMALL ALPHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6C2, name: 'MATHEMATICAL BOLD SMALL ALPHA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_ALPHA = "\u{1D6C2}";
 
-    #[Info(id: 120515, name: 'MATHEMATICAL BOLD SMALL BETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6C3, name: 'MATHEMATICAL BOLD SMALL BETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_BETA = "\u{1D6C3}";
 
-    #[Info(id: 120516, name: 'MATHEMATICAL BOLD SMALL GAMMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6C4, name: 'MATHEMATICAL BOLD SMALL GAMMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_GAMMA = "\u{1D6C4}";
 
-    #[Info(id: 120517, name: 'MATHEMATICAL BOLD SMALL DELTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6C5, name: 'MATHEMATICAL BOLD SMALL DELTA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_DELTA = "\u{1D6C5}";
 
-    #[Info(id: 120518, name: 'MATHEMATICAL BOLD SMALL EPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6C6, name: 'MATHEMATICAL BOLD SMALL EPSILON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_EPSILON = "\u{1D6C6}";
 
-    #[Info(id: 120519, name: 'MATHEMATICAL BOLD SMALL ZETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6C7, name: 'MATHEMATICAL BOLD SMALL ZETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_ZETA = "\u{1D6C7}";
 
-    #[Info(id: 120520, name: 'MATHEMATICAL BOLD SMALL ETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6C8, name: 'MATHEMATICAL BOLD SMALL ETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_ETA = "\u{1D6C8}";
 
-    #[Info(id: 120521, name: 'MATHEMATICAL BOLD SMALL THETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6C9, name: 'MATHEMATICAL BOLD SMALL THETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_THETA = "\u{1D6C9}";
 
-    #[Info(id: 120522, name: 'MATHEMATICAL BOLD SMALL IOTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6CA, name: 'MATHEMATICAL BOLD SMALL IOTA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_IOTA = "\u{1D6CA}";
 
-    #[Info(id: 120523, name: 'MATHEMATICAL BOLD SMALL KAPPA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6CB, name: 'MATHEMATICAL BOLD SMALL KAPPA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_KAPPA = "\u{1D6CB}";
 
-    #[Info(id: 120524, name: 'MATHEMATICAL BOLD SMALL LAMDA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6CC, name: 'MATHEMATICAL BOLD SMALL LAMDA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_LAMDA = "\u{1D6CC}";
 
-    #[Info(id: 120525, name: 'MATHEMATICAL BOLD SMALL MU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6CD, name: 'MATHEMATICAL BOLD SMALL MU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_MU = "\u{1D6CD}";
 
-    #[Info(id: 120526, name: 'MATHEMATICAL BOLD SMALL NU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6CE, name: 'MATHEMATICAL BOLD SMALL NU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_NU = "\u{1D6CE}";
 
-    #[Info(id: 120527, name: 'MATHEMATICAL BOLD SMALL XI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6CF, name: 'MATHEMATICAL BOLD SMALL XI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_XI = "\u{1D6CF}";
 
-    #[Info(id: 120528, name: 'MATHEMATICAL BOLD SMALL OMICRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6D0, name: 'MATHEMATICAL BOLD SMALL OMICRON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_OMICRON = "\u{1D6D0}";
 
-    #[Info(id: 120529, name: 'MATHEMATICAL BOLD SMALL PI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6D1, name: 'MATHEMATICAL BOLD SMALL PI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_PI = "\u{1D6D1}";
 
-    #[Info(id: 120530, name: 'MATHEMATICAL BOLD SMALL RHO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6D2, name: 'MATHEMATICAL BOLD SMALL RHO', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_RHO = "\u{1D6D2}";
 
-    #[Info(id: 120531, name: 'MATHEMATICAL BOLD SMALL FINAL SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6D3, name: 'MATHEMATICAL BOLD SMALL FINAL SIGMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_FINAL_SIGMA = "\u{1D6D3}";
 
-    #[Info(id: 120532, name: 'MATHEMATICAL BOLD SMALL SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6D4, name: 'MATHEMATICAL BOLD SMALL SIGMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_SIGMA = "\u{1D6D4}";
 
-    #[Info(id: 120533, name: 'MATHEMATICAL BOLD SMALL TAU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6D5, name: 'MATHEMATICAL BOLD SMALL TAU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_TAU = "\u{1D6D5}";
 
-    #[Info(id: 120534, name: 'MATHEMATICAL BOLD SMALL UPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6D6, name: 'MATHEMATICAL BOLD SMALL UPSILON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_UPSILON = "\u{1D6D6}";
 
-    #[Info(id: 120535, name: 'MATHEMATICAL BOLD SMALL PHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6D7, name: 'MATHEMATICAL BOLD SMALL PHI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_PHI = "\u{1D6D7}";
 
-    #[Info(id: 120536, name: 'MATHEMATICAL BOLD SMALL CHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6D8, name: 'MATHEMATICAL BOLD SMALL CHI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_CHI = "\u{1D6D8}";
 
-    #[Info(id: 120537, name: 'MATHEMATICAL BOLD SMALL PSI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6D9, name: 'MATHEMATICAL BOLD SMALL PSI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_PSI = "\u{1D6D9}";
 
-    #[Info(id: 120538, name: 'MATHEMATICAL BOLD SMALL OMEGA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6DA, name: 'MATHEMATICAL BOLD SMALL OMEGA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_OMEGA = "\u{1D6DA}";
 
-    #[Info(id: 120539, name: 'MATHEMATICAL BOLD PARTIAL DIFFERENTIAL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1D6DB, name: 'MATHEMATICAL BOLD PARTIAL DIFFERENTIAL', category: Cat::Math_Symbol)]
     case MATHEMATICAL_BOLD_PARTIAL_DIFFERENTIAL = "\u{1D6DB}";
 
-    #[Info(id: 120540, name: 'MATHEMATICAL BOLD EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6DC, name: 'MATHEMATICAL BOLD EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_EPSILON_SYMBOL = "\u{1D6DC}";
 
-    #[Info(id: 120541, name: 'MATHEMATICAL BOLD THETA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6DD, name: 'MATHEMATICAL BOLD THETA SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_THETA_SYMBOL = "\u{1D6DD}";
 
-    #[Info(id: 120542, name: 'MATHEMATICAL BOLD KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6DE, name: 'MATHEMATICAL BOLD KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_KAPPA_SYMBOL = "\u{1D6DE}";
 
-    #[Info(id: 120543, name: 'MATHEMATICAL BOLD PHI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6DF, name: 'MATHEMATICAL BOLD PHI SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_PHI_SYMBOL = "\u{1D6DF}";
 
-    #[Info(id: 120544, name: 'MATHEMATICAL BOLD RHO SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6E0, name: 'MATHEMATICAL BOLD RHO SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_RHO_SYMBOL = "\u{1D6E0}";
 
-    #[Info(id: 120545, name: 'MATHEMATICAL BOLD PI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6E1, name: 'MATHEMATICAL BOLD PI SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_PI_SYMBOL = "\u{1D6E1}";
 
-    #[Info(id: 120546, name: 'MATHEMATICAL ITALIC CAPITAL ALPHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6E2, name: 'MATHEMATICAL ITALIC CAPITAL ALPHA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_ALPHA = "\u{1D6E2}";
 
-    #[Info(id: 120547, name: 'MATHEMATICAL ITALIC CAPITAL BETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6E3, name: 'MATHEMATICAL ITALIC CAPITAL BETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_BETA = "\u{1D6E3}";
 
-    #[Info(id: 120548, name: 'MATHEMATICAL ITALIC CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6E4, name: 'MATHEMATICAL ITALIC CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_GAMMA = "\u{1D6E4}";
 
-    #[Info(id: 120549, name: 'MATHEMATICAL ITALIC CAPITAL DELTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6E5, name: 'MATHEMATICAL ITALIC CAPITAL DELTA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_DELTA = "\u{1D6E5}";
 
-    #[Info(id: 120550, name: 'MATHEMATICAL ITALIC CAPITAL EPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6E6, name: 'MATHEMATICAL ITALIC CAPITAL EPSILON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_EPSILON = "\u{1D6E6}";
 
-    #[Info(id: 120551, name: 'MATHEMATICAL ITALIC CAPITAL ZETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6E7, name: 'MATHEMATICAL ITALIC CAPITAL ZETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_ZETA = "\u{1D6E7}";
 
-    #[Info(id: 120552, name: 'MATHEMATICAL ITALIC CAPITAL ETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6E8, name: 'MATHEMATICAL ITALIC CAPITAL ETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_ETA = "\u{1D6E8}";
 
-    #[Info(id: 120553, name: 'MATHEMATICAL ITALIC CAPITAL THETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6E9, name: 'MATHEMATICAL ITALIC CAPITAL THETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_THETA = "\u{1D6E9}";
 
-    #[Info(id: 120554, name: 'MATHEMATICAL ITALIC CAPITAL IOTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6EA, name: 'MATHEMATICAL ITALIC CAPITAL IOTA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_IOTA = "\u{1D6EA}";
 
-    #[Info(id: 120555, name: 'MATHEMATICAL ITALIC CAPITAL KAPPA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6EB, name: 'MATHEMATICAL ITALIC CAPITAL KAPPA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_KAPPA = "\u{1D6EB}";
 
-    #[Info(id: 120556, name: 'MATHEMATICAL ITALIC CAPITAL LAMDA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6EC, name: 'MATHEMATICAL ITALIC CAPITAL LAMDA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_LAMDA = "\u{1D6EC}";
 
-    #[Info(id: 120557, name: 'MATHEMATICAL ITALIC CAPITAL MU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6ED, name: 'MATHEMATICAL ITALIC CAPITAL MU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_MU = "\u{1D6ED}";
 
-    #[Info(id: 120558, name: 'MATHEMATICAL ITALIC CAPITAL NU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6EE, name: 'MATHEMATICAL ITALIC CAPITAL NU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_NU = "\u{1D6EE}";
 
-    #[Info(id: 120559, name: 'MATHEMATICAL ITALIC CAPITAL XI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6EF, name: 'MATHEMATICAL ITALIC CAPITAL XI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_XI = "\u{1D6EF}";
 
-    #[Info(id: 120560, name: 'MATHEMATICAL ITALIC CAPITAL OMICRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6F0, name: 'MATHEMATICAL ITALIC CAPITAL OMICRON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_OMICRON = "\u{1D6F0}";
 
-    #[Info(id: 120561, name: 'MATHEMATICAL ITALIC CAPITAL PI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6F1, name: 'MATHEMATICAL ITALIC CAPITAL PI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_PI = "\u{1D6F1}";
 
-    #[Info(id: 120562, name: 'MATHEMATICAL ITALIC CAPITAL RHO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6F2, name: 'MATHEMATICAL ITALIC CAPITAL RHO', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_RHO = "\u{1D6F2}";
 
-    #[Info(id: 120563, name: 'MATHEMATICAL ITALIC CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6F3, name: 'MATHEMATICAL ITALIC CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_THETA_SYMBOL = "\u{1D6F3}";
 
-    #[Info(id: 120564, name: 'MATHEMATICAL ITALIC CAPITAL SIGMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6F4, name: 'MATHEMATICAL ITALIC CAPITAL SIGMA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_SIGMA = "\u{1D6F4}";
 
-    #[Info(id: 120565, name: 'MATHEMATICAL ITALIC CAPITAL TAU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6F5, name: 'MATHEMATICAL ITALIC CAPITAL TAU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_TAU = "\u{1D6F5}";
 
-    #[Info(id: 120566, name: 'MATHEMATICAL ITALIC CAPITAL UPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6F6, name: 'MATHEMATICAL ITALIC CAPITAL UPSILON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_UPSILON = "\u{1D6F6}";
 
-    #[Info(id: 120567, name: 'MATHEMATICAL ITALIC CAPITAL PHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6F7, name: 'MATHEMATICAL ITALIC CAPITAL PHI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_PHI = "\u{1D6F7}";
 
-    #[Info(id: 120568, name: 'MATHEMATICAL ITALIC CAPITAL CHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6F8, name: 'MATHEMATICAL ITALIC CAPITAL CHI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_CHI = "\u{1D6F8}";
 
-    #[Info(id: 120569, name: 'MATHEMATICAL ITALIC CAPITAL PSI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6F9, name: 'MATHEMATICAL ITALIC CAPITAL PSI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_PSI = "\u{1D6F9}";
 
-    #[Info(id: 120570, name: 'MATHEMATICAL ITALIC CAPITAL OMEGA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D6FA, name: 'MATHEMATICAL ITALIC CAPITAL OMEGA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_ITALIC_CAPITAL_OMEGA = "\u{1D6FA}";
 
-    #[Info(id: 120571, name: 'MATHEMATICAL ITALIC NABLA', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1D6FB, name: 'MATHEMATICAL ITALIC NABLA', category: Cat::Math_Symbol)]
     case MATHEMATICAL_ITALIC_NABLA = "\u{1D6FB}";
 
-    #[Info(id: 120572, name: 'MATHEMATICAL ITALIC SMALL ALPHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6FC, name: 'MATHEMATICAL ITALIC SMALL ALPHA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_ALPHA = "\u{1D6FC}";
 
-    #[Info(id: 120573, name: 'MATHEMATICAL ITALIC SMALL BETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6FD, name: 'MATHEMATICAL ITALIC SMALL BETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_BETA = "\u{1D6FD}";
 
-    #[Info(id: 120574, name: 'MATHEMATICAL ITALIC SMALL GAMMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6FE, name: 'MATHEMATICAL ITALIC SMALL GAMMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_GAMMA = "\u{1D6FE}";
 
-    #[Info(id: 120575, name: 'MATHEMATICAL ITALIC SMALL DELTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6FF, name: 'MATHEMATICAL ITALIC SMALL DELTA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_DELTA = "\u{1D6FF}";
 
-    #[Info(id: 120576, name: 'MATHEMATICAL ITALIC SMALL EPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D700, name: 'MATHEMATICAL ITALIC SMALL EPSILON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_EPSILON = "\u{1D700}";
 
-    #[Info(id: 120577, name: 'MATHEMATICAL ITALIC SMALL ZETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D701, name: 'MATHEMATICAL ITALIC SMALL ZETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_ZETA = "\u{1D701}";
 
-    #[Info(id: 120578, name: 'MATHEMATICAL ITALIC SMALL ETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D702, name: 'MATHEMATICAL ITALIC SMALL ETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_ETA = "\u{1D702}";
 
-    #[Info(id: 120579, name: 'MATHEMATICAL ITALIC SMALL THETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D703, name: 'MATHEMATICAL ITALIC SMALL THETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_THETA = "\u{1D703}";
 
-    #[Info(id: 120580, name: 'MATHEMATICAL ITALIC SMALL IOTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D704, name: 'MATHEMATICAL ITALIC SMALL IOTA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_IOTA = "\u{1D704}";
 
-    #[Info(id: 120581, name: 'MATHEMATICAL ITALIC SMALL KAPPA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D705, name: 'MATHEMATICAL ITALIC SMALL KAPPA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_KAPPA = "\u{1D705}";
 
-    #[Info(id: 120582, name: 'MATHEMATICAL ITALIC SMALL LAMDA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D706, name: 'MATHEMATICAL ITALIC SMALL LAMDA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_LAMDA = "\u{1D706}";
 
-    #[Info(id: 120583, name: 'MATHEMATICAL ITALIC SMALL MU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D707, name: 'MATHEMATICAL ITALIC SMALL MU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_MU = "\u{1D707}";
 
-    #[Info(id: 120584, name: 'MATHEMATICAL ITALIC SMALL NU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D708, name: 'MATHEMATICAL ITALIC SMALL NU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_NU = "\u{1D708}";
 
-    #[Info(id: 120585, name: 'MATHEMATICAL ITALIC SMALL XI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D709, name: 'MATHEMATICAL ITALIC SMALL XI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_XI = "\u{1D709}";
 
-    #[Info(id: 120586, name: 'MATHEMATICAL ITALIC SMALL OMICRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D70A, name: 'MATHEMATICAL ITALIC SMALL OMICRON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_OMICRON = "\u{1D70A}";
 
-    #[Info(id: 120587, name: 'MATHEMATICAL ITALIC SMALL PI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D70B, name: 'MATHEMATICAL ITALIC SMALL PI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_PI = "\u{1D70B}";
 
-    #[Info(id: 120588, name: 'MATHEMATICAL ITALIC SMALL RHO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D70C, name: 'MATHEMATICAL ITALIC SMALL RHO', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_RHO = "\u{1D70C}";
 
-    #[Info(id: 120589, name: 'MATHEMATICAL ITALIC SMALL FINAL SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D70D, name: 'MATHEMATICAL ITALIC SMALL FINAL SIGMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_FINAL_SIGMA = "\u{1D70D}";
 
-    #[Info(id: 120590, name: 'MATHEMATICAL ITALIC SMALL SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D70E, name: 'MATHEMATICAL ITALIC SMALL SIGMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_SIGMA = "\u{1D70E}";
 
-    #[Info(id: 120591, name: 'MATHEMATICAL ITALIC SMALL TAU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D70F, name: 'MATHEMATICAL ITALIC SMALL TAU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_TAU = "\u{1D70F}";
 
-    #[Info(id: 120592, name: 'MATHEMATICAL ITALIC SMALL UPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D710, name: 'MATHEMATICAL ITALIC SMALL UPSILON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_UPSILON = "\u{1D710}";
 
-    #[Info(id: 120593, name: 'MATHEMATICAL ITALIC SMALL PHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D711, name: 'MATHEMATICAL ITALIC SMALL PHI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_PHI = "\u{1D711}";
 
-    #[Info(id: 120594, name: 'MATHEMATICAL ITALIC SMALL CHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D712, name: 'MATHEMATICAL ITALIC SMALL CHI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_CHI = "\u{1D712}";
 
-    #[Info(id: 120595, name: 'MATHEMATICAL ITALIC SMALL PSI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D713, name: 'MATHEMATICAL ITALIC SMALL PSI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_PSI = "\u{1D713}";
 
-    #[Info(id: 120596, name: 'MATHEMATICAL ITALIC SMALL OMEGA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D714, name: 'MATHEMATICAL ITALIC SMALL OMEGA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_SMALL_OMEGA = "\u{1D714}";
 
-    #[Info(id: 120597, name: 'MATHEMATICAL ITALIC PARTIAL DIFFERENTIAL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1D715, name: 'MATHEMATICAL ITALIC PARTIAL DIFFERENTIAL', category: Cat::Math_Symbol)]
     case MATHEMATICAL_ITALIC_PARTIAL_DIFFERENTIAL = "\u{1D715}";
 
-    #[Info(id: 120598, name: 'MATHEMATICAL ITALIC EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D716, name: 'MATHEMATICAL ITALIC EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_EPSILON_SYMBOL = "\u{1D716}";
 
-    #[Info(id: 120599, name: 'MATHEMATICAL ITALIC THETA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D717, name: 'MATHEMATICAL ITALIC THETA SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_THETA_SYMBOL = "\u{1D717}";
 
-    #[Info(id: 120600, name: 'MATHEMATICAL ITALIC KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D718, name: 'MATHEMATICAL ITALIC KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_KAPPA_SYMBOL = "\u{1D718}";
 
-    #[Info(id: 120601, name: 'MATHEMATICAL ITALIC PHI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D719, name: 'MATHEMATICAL ITALIC PHI SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_PHI_SYMBOL = "\u{1D719}";
 
-    #[Info(id: 120602, name: 'MATHEMATICAL ITALIC RHO SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D71A, name: 'MATHEMATICAL ITALIC RHO SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_RHO_SYMBOL = "\u{1D71A}";
 
-    #[Info(id: 120603, name: 'MATHEMATICAL ITALIC PI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D71B, name: 'MATHEMATICAL ITALIC PI SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_ITALIC_PI_SYMBOL = "\u{1D71B}";
 
-    #[Info(id: 120604, name: 'MATHEMATICAL BOLD ITALIC CAPITAL ALPHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D71C, name: 'MATHEMATICAL BOLD ITALIC CAPITAL ALPHA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_ALPHA = "\u{1D71C}";
 
-    #[Info(id: 120605, name: 'MATHEMATICAL BOLD ITALIC CAPITAL BETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D71D, name: 'MATHEMATICAL BOLD ITALIC CAPITAL BETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_BETA = "\u{1D71D}";
 
-    #[Info(id: 120606, name: 'MATHEMATICAL BOLD ITALIC CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D71E, name: 'MATHEMATICAL BOLD ITALIC CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_GAMMA = "\u{1D71E}";
 
-    #[Info(id: 120607, name: 'MATHEMATICAL BOLD ITALIC CAPITAL DELTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D71F, name: 'MATHEMATICAL BOLD ITALIC CAPITAL DELTA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_DELTA = "\u{1D71F}";
 
-    #[Info(id: 120608, name: 'MATHEMATICAL BOLD ITALIC CAPITAL EPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D720, name: 'MATHEMATICAL BOLD ITALIC CAPITAL EPSILON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_EPSILON = "\u{1D720}";
 
-    #[Info(id: 120609, name: 'MATHEMATICAL BOLD ITALIC CAPITAL ZETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D721, name: 'MATHEMATICAL BOLD ITALIC CAPITAL ZETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_ZETA = "\u{1D721}";
 
-    #[Info(id: 120610, name: 'MATHEMATICAL BOLD ITALIC CAPITAL ETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D722, name: 'MATHEMATICAL BOLD ITALIC CAPITAL ETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_ETA = "\u{1D722}";
 
-    #[Info(id: 120611, name: 'MATHEMATICAL BOLD ITALIC CAPITAL THETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D723, name: 'MATHEMATICAL BOLD ITALIC CAPITAL THETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_THETA = "\u{1D723}";
 
-    #[Info(id: 120612, name: 'MATHEMATICAL BOLD ITALIC CAPITAL IOTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D724, name: 'MATHEMATICAL BOLD ITALIC CAPITAL IOTA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_IOTA = "\u{1D724}";
 
-    #[Info(id: 120613, name: 'MATHEMATICAL BOLD ITALIC CAPITAL KAPPA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D725, name: 'MATHEMATICAL BOLD ITALIC CAPITAL KAPPA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_KAPPA = "\u{1D725}";
 
-    #[Info(id: 120614, name: 'MATHEMATICAL BOLD ITALIC CAPITAL LAMDA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D726, name: 'MATHEMATICAL BOLD ITALIC CAPITAL LAMDA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_LAMDA = "\u{1D726}";
 
-    #[Info(id: 120615, name: 'MATHEMATICAL BOLD ITALIC CAPITAL MU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D727, name: 'MATHEMATICAL BOLD ITALIC CAPITAL MU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_MU = "\u{1D727}";
 
-    #[Info(id: 120616, name: 'MATHEMATICAL BOLD ITALIC CAPITAL NU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D728, name: 'MATHEMATICAL BOLD ITALIC CAPITAL NU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_NU = "\u{1D728}";
 
-    #[Info(id: 120617, name: 'MATHEMATICAL BOLD ITALIC CAPITAL XI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D729, name: 'MATHEMATICAL BOLD ITALIC CAPITAL XI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_XI = "\u{1D729}";
 
-    #[Info(id: 120618, name: 'MATHEMATICAL BOLD ITALIC CAPITAL OMICRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D72A, name: 'MATHEMATICAL BOLD ITALIC CAPITAL OMICRON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_OMICRON = "\u{1D72A}";
 
-    #[Info(id: 120619, name: 'MATHEMATICAL BOLD ITALIC CAPITAL PI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D72B, name: 'MATHEMATICAL BOLD ITALIC CAPITAL PI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_PI = "\u{1D72B}";
 
-    #[Info(id: 120620, name: 'MATHEMATICAL BOLD ITALIC CAPITAL RHO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D72C, name: 'MATHEMATICAL BOLD ITALIC CAPITAL RHO', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_RHO = "\u{1D72C}";
 
-    #[Info(id: 120621, name: 'MATHEMATICAL BOLD ITALIC CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D72D, name: 'MATHEMATICAL BOLD ITALIC CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_THETA_SYMBOL = "\u{1D72D}";
 
-    #[Info(id: 120622, name: 'MATHEMATICAL BOLD ITALIC CAPITAL SIGMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D72E, name: 'MATHEMATICAL BOLD ITALIC CAPITAL SIGMA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_SIGMA = "\u{1D72E}";
 
-    #[Info(id: 120623, name: 'MATHEMATICAL BOLD ITALIC CAPITAL TAU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D72F, name: 'MATHEMATICAL BOLD ITALIC CAPITAL TAU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_TAU = "\u{1D72F}";
 
-    #[Info(id: 120624, name: 'MATHEMATICAL BOLD ITALIC CAPITAL UPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D730, name: 'MATHEMATICAL BOLD ITALIC CAPITAL UPSILON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_UPSILON = "\u{1D730}";
 
-    #[Info(id: 120625, name: 'MATHEMATICAL BOLD ITALIC CAPITAL PHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D731, name: 'MATHEMATICAL BOLD ITALIC CAPITAL PHI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_PHI = "\u{1D731}";
 
-    #[Info(id: 120626, name: 'MATHEMATICAL BOLD ITALIC CAPITAL CHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D732, name: 'MATHEMATICAL BOLD ITALIC CAPITAL CHI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_CHI = "\u{1D732}";
 
-    #[Info(id: 120627, name: 'MATHEMATICAL BOLD ITALIC CAPITAL PSI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D733, name: 'MATHEMATICAL BOLD ITALIC CAPITAL PSI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_PSI = "\u{1D733}";
 
-    #[Info(id: 120628, name: 'MATHEMATICAL BOLD ITALIC CAPITAL OMEGA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D734, name: 'MATHEMATICAL BOLD ITALIC CAPITAL OMEGA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_CAPITAL_OMEGA = "\u{1D734}";
 
-    #[Info(id: 120629, name: 'MATHEMATICAL BOLD ITALIC NABLA', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1D735, name: 'MATHEMATICAL BOLD ITALIC NABLA', category: Cat::Math_Symbol)]
     case MATHEMATICAL_BOLD_ITALIC_NABLA = "\u{1D735}";
 
-    #[Info(id: 120630, name: 'MATHEMATICAL BOLD ITALIC SMALL ALPHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D736, name: 'MATHEMATICAL BOLD ITALIC SMALL ALPHA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_ALPHA = "\u{1D736}";
 
-    #[Info(id: 120631, name: 'MATHEMATICAL BOLD ITALIC SMALL BETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D737, name: 'MATHEMATICAL BOLD ITALIC SMALL BETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_BETA = "\u{1D737}";
 
-    #[Info(id: 120632, name: 'MATHEMATICAL BOLD ITALIC SMALL GAMMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D738, name: 'MATHEMATICAL BOLD ITALIC SMALL GAMMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_GAMMA = "\u{1D738}";
 
-    #[Info(id: 120633, name: 'MATHEMATICAL BOLD ITALIC SMALL DELTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D739, name: 'MATHEMATICAL BOLD ITALIC SMALL DELTA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_DELTA = "\u{1D739}";
 
-    #[Info(id: 120634, name: 'MATHEMATICAL BOLD ITALIC SMALL EPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D73A, name: 'MATHEMATICAL BOLD ITALIC SMALL EPSILON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_EPSILON = "\u{1D73A}";
 
-    #[Info(id: 120635, name: 'MATHEMATICAL BOLD ITALIC SMALL ZETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D73B, name: 'MATHEMATICAL BOLD ITALIC SMALL ZETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_ZETA = "\u{1D73B}";
 
-    #[Info(id: 120636, name: 'MATHEMATICAL BOLD ITALIC SMALL ETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D73C, name: 'MATHEMATICAL BOLD ITALIC SMALL ETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_ETA = "\u{1D73C}";
 
-    #[Info(id: 120637, name: 'MATHEMATICAL BOLD ITALIC SMALL THETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D73D, name: 'MATHEMATICAL BOLD ITALIC SMALL THETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_THETA = "\u{1D73D}";
 
-    #[Info(id: 120638, name: 'MATHEMATICAL BOLD ITALIC SMALL IOTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D73E, name: 'MATHEMATICAL BOLD ITALIC SMALL IOTA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_IOTA = "\u{1D73E}";
 
-    #[Info(id: 120639, name: 'MATHEMATICAL BOLD ITALIC SMALL KAPPA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D73F, name: 'MATHEMATICAL BOLD ITALIC SMALL KAPPA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_KAPPA = "\u{1D73F}";
 
-    #[Info(id: 120640, name: 'MATHEMATICAL BOLD ITALIC SMALL LAMDA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D740, name: 'MATHEMATICAL BOLD ITALIC SMALL LAMDA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_LAMDA = "\u{1D740}";
 
-    #[Info(id: 120641, name: 'MATHEMATICAL BOLD ITALIC SMALL MU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D741, name: 'MATHEMATICAL BOLD ITALIC SMALL MU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_MU = "\u{1D741}";
 
-    #[Info(id: 120642, name: 'MATHEMATICAL BOLD ITALIC SMALL NU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D742, name: 'MATHEMATICAL BOLD ITALIC SMALL NU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_NU = "\u{1D742}";
 
-    #[Info(id: 120643, name: 'MATHEMATICAL BOLD ITALIC SMALL XI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D743, name: 'MATHEMATICAL BOLD ITALIC SMALL XI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_XI = "\u{1D743}";
 
-    #[Info(id: 120644, name: 'MATHEMATICAL BOLD ITALIC SMALL OMICRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D744, name: 'MATHEMATICAL BOLD ITALIC SMALL OMICRON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_OMICRON = "\u{1D744}";
 
-    #[Info(id: 120645, name: 'MATHEMATICAL BOLD ITALIC SMALL PI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D745, name: 'MATHEMATICAL BOLD ITALIC SMALL PI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_PI = "\u{1D745}";
 
-    #[Info(id: 120646, name: 'MATHEMATICAL BOLD ITALIC SMALL RHO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D746, name: 'MATHEMATICAL BOLD ITALIC SMALL RHO', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_RHO = "\u{1D746}";
 
-    #[Info(id: 120647, name: 'MATHEMATICAL BOLD ITALIC SMALL FINAL SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D747, name: 'MATHEMATICAL BOLD ITALIC SMALL FINAL SIGMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_FINAL_SIGMA = "\u{1D747}";
 
-    #[Info(id: 120648, name: 'MATHEMATICAL BOLD ITALIC SMALL SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D748, name: 'MATHEMATICAL BOLD ITALIC SMALL SIGMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_SIGMA = "\u{1D748}";
 
-    #[Info(id: 120649, name: 'MATHEMATICAL BOLD ITALIC SMALL TAU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D749, name: 'MATHEMATICAL BOLD ITALIC SMALL TAU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_TAU = "\u{1D749}";
 
-    #[Info(id: 120650, name: 'MATHEMATICAL BOLD ITALIC SMALL UPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D74A, name: 'MATHEMATICAL BOLD ITALIC SMALL UPSILON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_UPSILON = "\u{1D74A}";
 
-    #[Info(id: 120651, name: 'MATHEMATICAL BOLD ITALIC SMALL PHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D74B, name: 'MATHEMATICAL BOLD ITALIC SMALL PHI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_PHI = "\u{1D74B}";
 
-    #[Info(id: 120652, name: 'MATHEMATICAL BOLD ITALIC SMALL CHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D74C, name: 'MATHEMATICAL BOLD ITALIC SMALL CHI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_CHI = "\u{1D74C}";
 
-    #[Info(id: 120653, name: 'MATHEMATICAL BOLD ITALIC SMALL PSI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D74D, name: 'MATHEMATICAL BOLD ITALIC SMALL PSI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_PSI = "\u{1D74D}";
 
-    #[Info(id: 120654, name: 'MATHEMATICAL BOLD ITALIC SMALL OMEGA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D74E, name: 'MATHEMATICAL BOLD ITALIC SMALL OMEGA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_SMALL_OMEGA = "\u{1D74E}";
 
-    #[Info(id: 120655, name: 'MATHEMATICAL BOLD ITALIC PARTIAL DIFFERENTIAL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1D74F, name: 'MATHEMATICAL BOLD ITALIC PARTIAL DIFFERENTIAL', category: Cat::Math_Symbol)]
     case MATHEMATICAL_BOLD_ITALIC_PARTIAL_DIFFERENTIAL = "\u{1D74F}";
 
-    #[Info(id: 120656, name: 'MATHEMATICAL BOLD ITALIC EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D750, name: 'MATHEMATICAL BOLD ITALIC EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_EPSILON_SYMBOL = "\u{1D750}";
 
-    #[Info(id: 120657, name: 'MATHEMATICAL BOLD ITALIC THETA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D751, name: 'MATHEMATICAL BOLD ITALIC THETA SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_THETA_SYMBOL = "\u{1D751}";
 
-    #[Info(id: 120658, name: 'MATHEMATICAL BOLD ITALIC KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D752, name: 'MATHEMATICAL BOLD ITALIC KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_KAPPA_SYMBOL = "\u{1D752}";
 
-    #[Info(id: 120659, name: 'MATHEMATICAL BOLD ITALIC PHI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D753, name: 'MATHEMATICAL BOLD ITALIC PHI SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_PHI_SYMBOL = "\u{1D753}";
 
-    #[Info(id: 120660, name: 'MATHEMATICAL BOLD ITALIC RHO SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D754, name: 'MATHEMATICAL BOLD ITALIC RHO SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_RHO_SYMBOL = "\u{1D754}";
 
-    #[Info(id: 120661, name: 'MATHEMATICAL BOLD ITALIC PI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D755, name: 'MATHEMATICAL BOLD ITALIC PI SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_ITALIC_PI_SYMBOL = "\u{1D755}";
 
-    #[Info(id: 120662, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL ALPHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D756, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL ALPHA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_ALPHA = "\u{1D756}";
 
-    #[Info(id: 120663, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL BETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D757, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL BETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_BETA = "\u{1D757}";
 
-    #[Info(id: 120664, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D758, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_GAMMA = "\u{1D758}";
 
-    #[Info(id: 120665, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL DELTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D759, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL DELTA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_DELTA = "\u{1D759}";
 
-    #[Info(id: 120666, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL EPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D75A, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL EPSILON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_EPSILON = "\u{1D75A}";
 
-    #[Info(id: 120667, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL ZETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D75B, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL ZETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_ZETA = "\u{1D75B}";
 
-    #[Info(id: 120668, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL ETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D75C, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL ETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_ETA = "\u{1D75C}";
 
-    #[Info(id: 120669, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL THETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D75D, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL THETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_THETA = "\u{1D75D}";
 
-    #[Info(id: 120670, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL IOTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D75E, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL IOTA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_IOTA = "\u{1D75E}";
 
-    #[Info(id: 120671, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL KAPPA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D75F, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL KAPPA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_KAPPA = "\u{1D75F}";
 
-    #[Info(id: 120672, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL LAMDA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D760, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL LAMDA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_LAMDA = "\u{1D760}";
 
-    #[Info(id: 120673, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL MU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D761, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL MU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_MU = "\u{1D761}";
 
-    #[Info(id: 120674, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL NU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D762, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL NU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_NU = "\u{1D762}";
 
-    #[Info(id: 120675, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL XI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D763, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL XI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_XI = "\u{1D763}";
 
-    #[Info(id: 120676, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL OMICRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D764, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL OMICRON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_OMICRON = "\u{1D764}";
 
-    #[Info(id: 120677, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL PI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D765, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL PI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_PI = "\u{1D765}";
 
-    #[Info(id: 120678, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL RHO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D766, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL RHO', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_RHO = "\u{1D766}";
 
-    #[Info(id: 120679, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D767, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_THETA_SYMBOL = "\u{1D767}";
 
-    #[Info(id: 120680, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL SIGMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D768, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL SIGMA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_SIGMA = "\u{1D768}";
 
-    #[Info(id: 120681, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL TAU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D769, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL TAU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_TAU = "\u{1D769}";
 
-    #[Info(id: 120682, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL UPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D76A, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL UPSILON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_UPSILON = "\u{1D76A}";
 
-    #[Info(id: 120683, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL PHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D76B, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL PHI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_PHI = "\u{1D76B}";
 
-    #[Info(id: 120684, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL CHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D76C, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL CHI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_CHI = "\u{1D76C}";
 
-    #[Info(id: 120685, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL PSI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D76D, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL PSI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_PSI = "\u{1D76D}";
 
-    #[Info(id: 120686, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL OMEGA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D76E, name: 'MATHEMATICAL SANS-SERIF BOLD CAPITAL OMEGA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_CAPITAL_OMEGA = "\u{1D76E}";
 
-    #[Info(id: 120687, name: 'MATHEMATICAL SANS-SERIF BOLD NABLA', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1D76F, name: 'MATHEMATICAL SANS-SERIF BOLD NABLA', category: Cat::Math_Symbol)]
     case MATHEMATICAL_SANS_SERIF_BOLD_NABLA = "\u{1D76F}";
 
-    #[Info(id: 120688, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL ALPHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D770, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL ALPHA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_ALPHA = "\u{1D770}";
 
-    #[Info(id: 120689, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL BETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D771, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL BETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_BETA = "\u{1D771}";
 
-    #[Info(id: 120690, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL GAMMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D772, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL GAMMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_GAMMA = "\u{1D772}";
 
-    #[Info(id: 120691, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL DELTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D773, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL DELTA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_DELTA = "\u{1D773}";
 
-    #[Info(id: 120692, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL EPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D774, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL EPSILON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_EPSILON = "\u{1D774}";
 
-    #[Info(id: 120693, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL ZETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D775, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL ZETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_ZETA = "\u{1D775}";
 
-    #[Info(id: 120694, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL ETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D776, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL ETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_ETA = "\u{1D776}";
 
-    #[Info(id: 120695, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL THETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D777, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL THETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_THETA = "\u{1D777}";
 
-    #[Info(id: 120696, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL IOTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D778, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL IOTA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_IOTA = "\u{1D778}";
 
-    #[Info(id: 120697, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL KAPPA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D779, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL KAPPA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_KAPPA = "\u{1D779}";
 
-    #[Info(id: 120698, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL LAMDA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D77A, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL LAMDA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_LAMDA = "\u{1D77A}";
 
-    #[Info(id: 120699, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL MU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D77B, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL MU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_MU = "\u{1D77B}";
 
-    #[Info(id: 120700, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL NU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D77C, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL NU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_NU = "\u{1D77C}";
 
-    #[Info(id: 120701, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL XI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D77D, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL XI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_XI = "\u{1D77D}";
 
-    #[Info(id: 120702, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL OMICRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D77E, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL OMICRON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_OMICRON = "\u{1D77E}";
 
-    #[Info(id: 120703, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL PI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D77F, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL PI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_PI = "\u{1D77F}";
 
-    #[Info(id: 120704, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL RHO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D780, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL RHO', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_RHO = "\u{1D780}";
 
-    #[Info(id: 120705, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL FINAL SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D781, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL FINAL SIGMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_FINAL_SIGMA = "\u{1D781}";
 
-    #[Info(id: 120706, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D782, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL SIGMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_SIGMA = "\u{1D782}";
 
-    #[Info(id: 120707, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL TAU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D783, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL TAU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_TAU = "\u{1D783}";
 
-    #[Info(id: 120708, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL UPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D784, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL UPSILON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_UPSILON = "\u{1D784}";
 
-    #[Info(id: 120709, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL PHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D785, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL PHI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_PHI = "\u{1D785}";
 
-    #[Info(id: 120710, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL CHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D786, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL CHI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_CHI = "\u{1D786}";
 
-    #[Info(id: 120711, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL PSI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D787, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL PSI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_PSI = "\u{1D787}";
 
-    #[Info(id: 120712, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL OMEGA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D788, name: 'MATHEMATICAL SANS-SERIF BOLD SMALL OMEGA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_SMALL_OMEGA = "\u{1D788}";
 
-    #[Info(id: 120713, name: 'MATHEMATICAL SANS-SERIF BOLD PARTIAL DIFFERENTIAL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1D789, name: 'MATHEMATICAL SANS-SERIF BOLD PARTIAL DIFFERENTIAL', category: Cat::Math_Symbol)]
     case MATHEMATICAL_SANS_SERIF_BOLD_PARTIAL_DIFFERENTIAL = "\u{1D789}";
 
-    #[Info(id: 120714, name: 'MATHEMATICAL SANS-SERIF BOLD EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D78A, name: 'MATHEMATICAL SANS-SERIF BOLD EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_EPSILON_SYMBOL = "\u{1D78A}";
 
-    #[Info(id: 120715, name: 'MATHEMATICAL SANS-SERIF BOLD THETA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D78B, name: 'MATHEMATICAL SANS-SERIF BOLD THETA SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_THETA_SYMBOL = "\u{1D78B}";
 
-    #[Info(id: 120716, name: 'MATHEMATICAL SANS-SERIF BOLD KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D78C, name: 'MATHEMATICAL SANS-SERIF BOLD KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_KAPPA_SYMBOL = "\u{1D78C}";
 
-    #[Info(id: 120717, name: 'MATHEMATICAL SANS-SERIF BOLD PHI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D78D, name: 'MATHEMATICAL SANS-SERIF BOLD PHI SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_PHI_SYMBOL = "\u{1D78D}";
 
-    #[Info(id: 120718, name: 'MATHEMATICAL SANS-SERIF BOLD RHO SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D78E, name: 'MATHEMATICAL SANS-SERIF BOLD RHO SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_RHO_SYMBOL = "\u{1D78E}";
 
-    #[Info(id: 120719, name: 'MATHEMATICAL SANS-SERIF BOLD PI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D78F, name: 'MATHEMATICAL SANS-SERIF BOLD PI SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_PI_SYMBOL = "\u{1D78F}";
 
-    #[Info(id: 120720, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ALPHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D790, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ALPHA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_ALPHA = "\u{1D790}";
 
-    #[Info(id: 120721, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL BETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D791, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL BETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_BETA = "\u{1D791}";
 
-    #[Info(id: 120722, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D792, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_GAMMA = "\u{1D792}";
 
-    #[Info(id: 120723, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL DELTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D793, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL DELTA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_DELTA = "\u{1D793}";
 
-    #[Info(id: 120724, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL EPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D794, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL EPSILON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_EPSILON = "\u{1D794}";
 
-    #[Info(id: 120725, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ZETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D795, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ZETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_ZETA = "\u{1D795}";
 
-    #[Info(id: 120726, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D796, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_ETA = "\u{1D796}";
 
-    #[Info(id: 120727, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL THETA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D797, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL THETA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_THETA = "\u{1D797}";
 
-    #[Info(id: 120728, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL IOTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D798, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL IOTA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_IOTA = "\u{1D798}";
 
-    #[Info(id: 120729, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL KAPPA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D799, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL KAPPA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_KAPPA = "\u{1D799}";
 
-    #[Info(id: 120730, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL LAMDA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D79A, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL LAMDA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_LAMDA = "\u{1D79A}";
 
-    #[Info(id: 120731, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL MU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D79B, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL MU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_MU = "\u{1D79B}";
 
-    #[Info(id: 120732, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL NU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D79C, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL NU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_NU = "\u{1D79C}";
 
-    #[Info(id: 120733, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL XI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D79D, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL XI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_XI = "\u{1D79D}";
 
-    #[Info(id: 120734, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL OMICRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D79E, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL OMICRON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_OMICRON = "\u{1D79E}";
 
-    #[Info(id: 120735, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D79F, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_PI = "\u{1D79F}";
 
-    #[Info(id: 120736, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL RHO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D7A0, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL RHO', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_RHO = "\u{1D7A0}";
 
-    #[Info(id: 120737, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D7A1, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL THETA SYMBOL', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_THETA_SYMBOL = "\u{1D7A1}";
 
-    #[Info(id: 120738, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL SIGMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D7A2, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL SIGMA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_SIGMA = "\u{1D7A2}";
 
-    #[Info(id: 120739, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL TAU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D7A3, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL TAU', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_TAU = "\u{1D7A3}";
 
-    #[Info(id: 120740, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL UPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D7A4, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL UPSILON', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_UPSILON = "\u{1D7A4}";
 
-    #[Info(id: 120741, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D7A5, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PHI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_PHI = "\u{1D7A5}";
 
-    #[Info(id: 120742, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL CHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D7A6, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL CHI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_CHI = "\u{1D7A6}";
 
-    #[Info(id: 120743, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PSI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D7A7, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PSI', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_PSI = "\u{1D7A7}";
 
-    #[Info(id: 120744, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL OMEGA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D7A8, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL OMEGA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_CAPITAL_OMEGA = "\u{1D7A8}";
 
-    #[Info(id: 120745, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC NABLA', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1D7A9, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC NABLA', category: Cat::Math_Symbol)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_NABLA = "\u{1D7A9}";
 
-    #[Info(id: 120746, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ALPHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7AA, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ALPHA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_ALPHA = "\u{1D7AA}";
 
-    #[Info(id: 120747, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL BETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7AB, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL BETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_BETA = "\u{1D7AB}";
 
-    #[Info(id: 120748, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL GAMMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7AC, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL GAMMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_GAMMA = "\u{1D7AC}";
 
-    #[Info(id: 120749, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL DELTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7AD, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL DELTA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_DELTA = "\u{1D7AD}";
 
-    #[Info(id: 120750, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL EPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7AE, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL EPSILON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_EPSILON = "\u{1D7AE}";
 
-    #[Info(id: 120751, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ZETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7AF, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ZETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_ZETA = "\u{1D7AF}";
 
-    #[Info(id: 120752, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7B0, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_ETA = "\u{1D7B0}";
 
-    #[Info(id: 120753, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL THETA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7B1, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL THETA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_THETA = "\u{1D7B1}";
 
-    #[Info(id: 120754, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL IOTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7B2, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL IOTA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_IOTA = "\u{1D7B2}";
 
-    #[Info(id: 120755, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL KAPPA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7B3, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL KAPPA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_KAPPA = "\u{1D7B3}";
 
-    #[Info(id: 120756, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL LAMDA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7B4, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL LAMDA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_LAMDA = "\u{1D7B4}";
 
-    #[Info(id: 120757, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL MU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7B5, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL MU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_MU = "\u{1D7B5}";
 
-    #[Info(id: 120758, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL NU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7B6, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL NU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_NU = "\u{1D7B6}";
 
-    #[Info(id: 120759, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL XI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7B7, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL XI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_XI = "\u{1D7B7}";
 
-    #[Info(id: 120760, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL OMICRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7B8, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL OMICRON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_OMICRON = "\u{1D7B8}";
 
-    #[Info(id: 120761, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7B9, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_PI = "\u{1D7B9}";
 
-    #[Info(id: 120762, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL RHO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7BA, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL RHO', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_RHO = "\u{1D7BA}";
 
-    #[Info(id: 120763, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL FINAL SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7BB, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL FINAL SIGMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_FINAL_SIGMA = "\u{1D7BB}";
 
-    #[Info(id: 120764, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL SIGMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7BC, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL SIGMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_SIGMA = "\u{1D7BC}";
 
-    #[Info(id: 120765, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL TAU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7BD, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL TAU', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_TAU = "\u{1D7BD}";
 
-    #[Info(id: 120766, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL UPSILON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7BE, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL UPSILON', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_UPSILON = "\u{1D7BE}";
 
-    #[Info(id: 120767, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7BF, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PHI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_PHI = "\u{1D7BF}";
 
-    #[Info(id: 120768, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL CHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7C0, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL CHI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_CHI = "\u{1D7C0}";
 
-    #[Info(id: 120769, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PSI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7C1, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PSI', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_PSI = "\u{1D7C1}";
 
-    #[Info(id: 120770, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL OMEGA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7C2, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL OMEGA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_SMALL_OMEGA = "\u{1D7C2}";
 
-    #[Info(id: 120771, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC PARTIAL DIFFERENTIAL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x1D7C3, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC PARTIAL DIFFERENTIAL', category: Cat::Math_Symbol)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_PARTIAL_DIFFERENTIAL = "\u{1D7C3}";
 
-    #[Info(id: 120772, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7C4, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC EPSILON SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_EPSILON_SYMBOL = "\u{1D7C4}";
 
-    #[Info(id: 120773, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC THETA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7C5, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC THETA SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_THETA_SYMBOL = "\u{1D7C5}";
 
-    #[Info(id: 120774, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7C6, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC KAPPA SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_KAPPA_SYMBOL = "\u{1D7C6}";
 
-    #[Info(id: 120775, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC PHI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7C7, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC PHI SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_PHI_SYMBOL = "\u{1D7C7}";
 
-    #[Info(id: 120776, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC RHO SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7C8, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC RHO SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_RHO_SYMBOL = "\u{1D7C8}";
 
-    #[Info(id: 120777, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC PI SYMBOL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7C9, name: 'MATHEMATICAL SANS-SERIF BOLD ITALIC PI SYMBOL', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_SANS_SERIF_BOLD_ITALIC_PI_SYMBOL = "\u{1D7C9}";
 
-    #[Info(id: 120778, name: 'MATHEMATICAL BOLD CAPITAL DIGAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D7CA, name: 'MATHEMATICAL BOLD CAPITAL DIGAMMA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_DIGAMMA = "\u{1D7CA}";
 
-    #[Info(id: 120779, name: 'MATHEMATICAL BOLD SMALL DIGAMMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D7CB, name: 'MATHEMATICAL BOLD SMALL DIGAMMA', category: Cat::Lowercase_Letter)]
     case MATHEMATICAL_BOLD_SMALL_DIGAMMA = "\u{1D7CB}";
 
-    #[Info(id: 120782, name: 'MATHEMATICAL BOLD DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7CE, name: 'MATHEMATICAL BOLD DIGIT ZERO', category: Cat::Decimal_Number)]
     case MATHEMATICAL_BOLD_DIGIT_ZERO = "\u{1D7CE}";
 
-    #[Info(id: 120783, name: 'MATHEMATICAL BOLD DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7CF, name: 'MATHEMATICAL BOLD DIGIT ONE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_BOLD_DIGIT_ONE = "\u{1D7CF}";
 
-    #[Info(id: 120784, name: 'MATHEMATICAL BOLD DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7D0, name: 'MATHEMATICAL BOLD DIGIT TWO', category: Cat::Decimal_Number)]
     case MATHEMATICAL_BOLD_DIGIT_TWO = "\u{1D7D0}";
 
-    #[Info(id: 120785, name: 'MATHEMATICAL BOLD DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7D1, name: 'MATHEMATICAL BOLD DIGIT THREE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_BOLD_DIGIT_THREE = "\u{1D7D1}";
 
-    #[Info(id: 120786, name: 'MATHEMATICAL BOLD DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7D2, name: 'MATHEMATICAL BOLD DIGIT FOUR', category: Cat::Decimal_Number)]
     case MATHEMATICAL_BOLD_DIGIT_FOUR = "\u{1D7D2}";
 
-    #[Info(id: 120787, name: 'MATHEMATICAL BOLD DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7D3, name: 'MATHEMATICAL BOLD DIGIT FIVE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_BOLD_DIGIT_FIVE = "\u{1D7D3}";
 
-    #[Info(id: 120788, name: 'MATHEMATICAL BOLD DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7D4, name: 'MATHEMATICAL BOLD DIGIT SIX', category: Cat::Decimal_Number)]
     case MATHEMATICAL_BOLD_DIGIT_SIX = "\u{1D7D4}";
 
-    #[Info(id: 120789, name: 'MATHEMATICAL BOLD DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7D5, name: 'MATHEMATICAL BOLD DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MATHEMATICAL_BOLD_DIGIT_SEVEN = "\u{1D7D5}";
 
-    #[Info(id: 120790, name: 'MATHEMATICAL BOLD DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7D6, name: 'MATHEMATICAL BOLD DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MATHEMATICAL_BOLD_DIGIT_EIGHT = "\u{1D7D6}";
 
-    #[Info(id: 120791, name: 'MATHEMATICAL BOLD DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7D7, name: 'MATHEMATICAL BOLD DIGIT NINE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_BOLD_DIGIT_NINE = "\u{1D7D7}";
 
-    #[Info(id: 120792, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7D8, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT ZERO', category: Cat::Decimal_Number)]
     case MATHEMATICAL_DOUBLE_STRUCK_DIGIT_ZERO = "\u{1D7D8}";
 
-    #[Info(id: 120793, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7D9, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT ONE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_DOUBLE_STRUCK_DIGIT_ONE = "\u{1D7D9}";
 
-    #[Info(id: 120794, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7DA, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT TWO', category: Cat::Decimal_Number)]
     case MATHEMATICAL_DOUBLE_STRUCK_DIGIT_TWO = "\u{1D7DA}";
 
-    #[Info(id: 120795, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7DB, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT THREE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_DOUBLE_STRUCK_DIGIT_THREE = "\u{1D7DB}";
 
-    #[Info(id: 120796, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7DC, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT FOUR', category: Cat::Decimal_Number)]
     case MATHEMATICAL_DOUBLE_STRUCK_DIGIT_FOUR = "\u{1D7DC}";
 
-    #[Info(id: 120797, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7DD, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT FIVE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_DOUBLE_STRUCK_DIGIT_FIVE = "\u{1D7DD}";
 
-    #[Info(id: 120798, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7DE, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT SIX', category: Cat::Decimal_Number)]
     case MATHEMATICAL_DOUBLE_STRUCK_DIGIT_SIX = "\u{1D7DE}";
 
-    #[Info(id: 120799, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7DF, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MATHEMATICAL_DOUBLE_STRUCK_DIGIT_SEVEN = "\u{1D7DF}";
 
-    #[Info(id: 120800, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7E0, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MATHEMATICAL_DOUBLE_STRUCK_DIGIT_EIGHT = "\u{1D7E0}";
 
-    #[Info(id: 120801, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7E1, name: 'MATHEMATICAL DOUBLE-STRUCK DIGIT NINE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_DOUBLE_STRUCK_DIGIT_NINE = "\u{1D7E1}";
 
-    #[Info(id: 120802, name: 'MATHEMATICAL SANS-SERIF DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7E2, name: 'MATHEMATICAL SANS-SERIF DIGIT ZERO', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_DIGIT_ZERO = "\u{1D7E2}";
 
-    #[Info(id: 120803, name: 'MATHEMATICAL SANS-SERIF DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7E3, name: 'MATHEMATICAL SANS-SERIF DIGIT ONE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_DIGIT_ONE = "\u{1D7E3}";
 
-    #[Info(id: 120804, name: 'MATHEMATICAL SANS-SERIF DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7E4, name: 'MATHEMATICAL SANS-SERIF DIGIT TWO', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_DIGIT_TWO = "\u{1D7E4}";
 
-    #[Info(id: 120805, name: 'MATHEMATICAL SANS-SERIF DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7E5, name: 'MATHEMATICAL SANS-SERIF DIGIT THREE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_DIGIT_THREE = "\u{1D7E5}";
 
-    #[Info(id: 120806, name: 'MATHEMATICAL SANS-SERIF DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7E6, name: 'MATHEMATICAL SANS-SERIF DIGIT FOUR', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_DIGIT_FOUR = "\u{1D7E6}";
 
-    #[Info(id: 120807, name: 'MATHEMATICAL SANS-SERIF DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7E7, name: 'MATHEMATICAL SANS-SERIF DIGIT FIVE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_DIGIT_FIVE = "\u{1D7E7}";
 
-    #[Info(id: 120808, name: 'MATHEMATICAL SANS-SERIF DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7E8, name: 'MATHEMATICAL SANS-SERIF DIGIT SIX', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_DIGIT_SIX = "\u{1D7E8}";
 
-    #[Info(id: 120809, name: 'MATHEMATICAL SANS-SERIF DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7E9, name: 'MATHEMATICAL SANS-SERIF DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_DIGIT_SEVEN = "\u{1D7E9}";
 
-    #[Info(id: 120810, name: 'MATHEMATICAL SANS-SERIF DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7EA, name: 'MATHEMATICAL SANS-SERIF DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_DIGIT_EIGHT = "\u{1D7EA}";
 
-    #[Info(id: 120811, name: 'MATHEMATICAL SANS-SERIF DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7EB, name: 'MATHEMATICAL SANS-SERIF DIGIT NINE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_DIGIT_NINE = "\u{1D7EB}";
 
-    #[Info(id: 120812, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7EC, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT ZERO', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_BOLD_DIGIT_ZERO = "\u{1D7EC}";
 
-    #[Info(id: 120813, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7ED, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT ONE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_BOLD_DIGIT_ONE = "\u{1D7ED}";
 
-    #[Info(id: 120814, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7EE, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT TWO', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_BOLD_DIGIT_TWO = "\u{1D7EE}";
 
-    #[Info(id: 120815, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7EF, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT THREE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_BOLD_DIGIT_THREE = "\u{1D7EF}";
 
-    #[Info(id: 120816, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7F0, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT FOUR', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_BOLD_DIGIT_FOUR = "\u{1D7F0}";
 
-    #[Info(id: 120817, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7F1, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT FIVE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_BOLD_DIGIT_FIVE = "\u{1D7F1}";
 
-    #[Info(id: 120818, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7F2, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT SIX', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_BOLD_DIGIT_SIX = "\u{1D7F2}";
 
-    #[Info(id: 120819, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7F3, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_BOLD_DIGIT_SEVEN = "\u{1D7F3}";
 
-    #[Info(id: 120820, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7F4, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_BOLD_DIGIT_EIGHT = "\u{1D7F4}";
 
-    #[Info(id: 120821, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7F5, name: 'MATHEMATICAL SANS-SERIF BOLD DIGIT NINE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_SANS_SERIF_BOLD_DIGIT_NINE = "\u{1D7F5}";
 
-    #[Info(id: 120822, name: 'MATHEMATICAL MONOSPACE DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7F6, name: 'MATHEMATICAL MONOSPACE DIGIT ZERO', category: Cat::Decimal_Number)]
     case MATHEMATICAL_MONOSPACE_DIGIT_ZERO = "\u{1D7F6}";
 
-    #[Info(id: 120823, name: 'MATHEMATICAL MONOSPACE DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7F7, name: 'MATHEMATICAL MONOSPACE DIGIT ONE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_MONOSPACE_DIGIT_ONE = "\u{1D7F7}";
 
-    #[Info(id: 120824, name: 'MATHEMATICAL MONOSPACE DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7F8, name: 'MATHEMATICAL MONOSPACE DIGIT TWO', category: Cat::Decimal_Number)]
     case MATHEMATICAL_MONOSPACE_DIGIT_TWO = "\u{1D7F8}";
 
-    #[Info(id: 120825, name: 'MATHEMATICAL MONOSPACE DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7F9, name: 'MATHEMATICAL MONOSPACE DIGIT THREE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_MONOSPACE_DIGIT_THREE = "\u{1D7F9}";
 
-    #[Info(id: 120826, name: 'MATHEMATICAL MONOSPACE DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7FA, name: 'MATHEMATICAL MONOSPACE DIGIT FOUR', category: Cat::Decimal_Number)]
     case MATHEMATICAL_MONOSPACE_DIGIT_FOUR = "\u{1D7FA}";
 
-    #[Info(id: 120827, name: 'MATHEMATICAL MONOSPACE DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7FB, name: 'MATHEMATICAL MONOSPACE DIGIT FIVE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_MONOSPACE_DIGIT_FIVE = "\u{1D7FB}";
 
-    #[Info(id: 120828, name: 'MATHEMATICAL MONOSPACE DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7FC, name: 'MATHEMATICAL MONOSPACE DIGIT SIX', category: Cat::Decimal_Number)]
     case MATHEMATICAL_MONOSPACE_DIGIT_SIX = "\u{1D7FC}";
 
-    #[Info(id: 120829, name: 'MATHEMATICAL MONOSPACE DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7FD, name: 'MATHEMATICAL MONOSPACE DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MATHEMATICAL_MONOSPACE_DIGIT_SEVEN = "\u{1D7FD}";
 
-    #[Info(id: 120830, name: 'MATHEMATICAL MONOSPACE DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7FE, name: 'MATHEMATICAL MONOSPACE DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MATHEMATICAL_MONOSPACE_DIGIT_EIGHT = "\u{1D7FE}";
 
-    #[Info(id: 120831, name: 'MATHEMATICAL MONOSPACE DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1D7FF, name: 'MATHEMATICAL MONOSPACE DIGIT NINE', category: Cat::Decimal_Number)]
     case MATHEMATICAL_MONOSPACE_DIGIT_NINE = "\u{1D7FF}";
 }

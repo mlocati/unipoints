@@ -16,117 +16,117 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Multani: string
 {
-    #[Info(id: 70272, name: 'MULTANI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11280, name: 'MULTANI LETTER A', category: Cat::Other_Letter)]
     case MULTANI_LETTER_A = "\u{11280}";
 
-    #[Info(id: 70273, name: 'MULTANI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11281, name: 'MULTANI LETTER I', category: Cat::Other_Letter)]
     case MULTANI_LETTER_I = "\u{11281}";
 
-    #[Info(id: 70274, name: 'MULTANI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11282, name: 'MULTANI LETTER U', category: Cat::Other_Letter)]
     case MULTANI_LETTER_U = "\u{11282}";
 
-    #[Info(id: 70275, name: 'MULTANI LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x11283, name: 'MULTANI LETTER E', category: Cat::Other_Letter)]
     case MULTANI_LETTER_E = "\u{11283}";
 
-    #[Info(id: 70276, name: 'MULTANI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11284, name: 'MULTANI LETTER KA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_KA = "\u{11284}";
 
-    #[Info(id: 70277, name: 'MULTANI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11285, name: 'MULTANI LETTER KHA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_KHA = "\u{11285}";
 
-    #[Info(id: 70278, name: 'MULTANI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11286, name: 'MULTANI LETTER GA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_GA = "\u{11286}";
 
-    #[Info(id: 70280, name: 'MULTANI LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11288, name: 'MULTANI LETTER GHA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_GHA = "\u{11288}";
 
-    #[Info(id: 70282, name: 'MULTANI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1128A, name: 'MULTANI LETTER CA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_CA = "\u{1128A}";
 
-    #[Info(id: 70283, name: 'MULTANI LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1128B, name: 'MULTANI LETTER CHA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_CHA = "\u{1128B}";
 
-    #[Info(id: 70284, name: 'MULTANI LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1128C, name: 'MULTANI LETTER JA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_JA = "\u{1128C}";
 
-    #[Info(id: 70285, name: 'MULTANI LETTER JJA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1128D, name: 'MULTANI LETTER JJA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_JJA = "\u{1128D}";
 
-    #[Info(id: 70287, name: 'MULTANI LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1128F, name: 'MULTANI LETTER NYA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_NYA = "\u{1128F}";
 
-    #[Info(id: 70288, name: 'MULTANI LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11290, name: 'MULTANI LETTER TTA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_TTA = "\u{11290}";
 
-    #[Info(id: 70289, name: 'MULTANI LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11291, name: 'MULTANI LETTER TTHA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_TTHA = "\u{11291}";
 
-    #[Info(id: 70290, name: 'MULTANI LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11292, name: 'MULTANI LETTER DDA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_DDA = "\u{11292}";
 
-    #[Info(id: 70291, name: 'MULTANI LETTER DDDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11293, name: 'MULTANI LETTER DDDA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_DDDA = "\u{11293}";
 
-    #[Info(id: 70292, name: 'MULTANI LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11294, name: 'MULTANI LETTER DDHA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_DDHA = "\u{11294}";
 
-    #[Info(id: 70293, name: 'MULTANI LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11295, name: 'MULTANI LETTER NNA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_NNA = "\u{11295}";
 
-    #[Info(id: 70294, name: 'MULTANI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11296, name: 'MULTANI LETTER TA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_TA = "\u{11296}";
 
-    #[Info(id: 70295, name: 'MULTANI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11297, name: 'MULTANI LETTER THA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_THA = "\u{11297}";
 
-    #[Info(id: 70296, name: 'MULTANI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11298, name: 'MULTANI LETTER DA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_DA = "\u{11298}";
 
-    #[Info(id: 70297, name: 'MULTANI LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11299, name: 'MULTANI LETTER DHA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_DHA = "\u{11299}";
 
-    #[Info(id: 70298, name: 'MULTANI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1129A, name: 'MULTANI LETTER NA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_NA = "\u{1129A}";
 
-    #[Info(id: 70299, name: 'MULTANI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1129B, name: 'MULTANI LETTER PA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_PA = "\u{1129B}";
 
-    #[Info(id: 70300, name: 'MULTANI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1129C, name: 'MULTANI LETTER PHA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_PHA = "\u{1129C}";
 
-    #[Info(id: 70301, name: 'MULTANI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1129D, name: 'MULTANI LETTER BA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_BA = "\u{1129D}";
 
-    #[Info(id: 70303, name: 'MULTANI LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1129F, name: 'MULTANI LETTER BHA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_BHA = "\u{1129F}";
 
-    #[Info(id: 70304, name: 'MULTANI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112A0, name: 'MULTANI LETTER MA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_MA = "\u{112A0}";
 
-    #[Info(id: 70305, name: 'MULTANI LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112A1, name: 'MULTANI LETTER YA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_YA = "\u{112A1}";
 
-    #[Info(id: 70306, name: 'MULTANI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112A2, name: 'MULTANI LETTER RA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_RA = "\u{112A2}";
 
-    #[Info(id: 70307, name: 'MULTANI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112A3, name: 'MULTANI LETTER LA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_LA = "\u{112A3}";
 
-    #[Info(id: 70308, name: 'MULTANI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112A4, name: 'MULTANI LETTER VA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_VA = "\u{112A4}";
 
-    #[Info(id: 70309, name: 'MULTANI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112A5, name: 'MULTANI LETTER SA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_SA = "\u{112A5}";
 
-    #[Info(id: 70310, name: 'MULTANI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112A6, name: 'MULTANI LETTER HA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_HA = "\u{112A6}";
 
-    #[Info(id: 70311, name: 'MULTANI LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112A7, name: 'MULTANI LETTER RRA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_RRA = "\u{112A7}";
 
-    #[Info(id: 70312, name: 'MULTANI LETTER RHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112A8, name: 'MULTANI LETTER RHA', category: Cat::Other_Letter)]
     case MULTANI_LETTER_RHA = "\u{112A8}";
 
-    #[Info(id: 70313, name: 'MULTANI SECTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x112A9, name: 'MULTANI SECTION MARK', category: Cat::Other_Punctuation)]
     case MULTANI_SECTION_MARK = "\u{112A9}";
 }

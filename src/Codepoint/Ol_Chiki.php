@@ -16,147 +16,147 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Ol_Chiki: string
 {
-    #[Info(id: 7248, name: 'OL CHIKI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C50, name: 'OL CHIKI DIGIT ZERO', category: Cat::Decimal_Number)]
     case OL_CHIKI_DIGIT_ZERO = "\u{1C50}";
 
-    #[Info(id: 7249, name: 'OL CHIKI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C51, name: 'OL CHIKI DIGIT ONE', category: Cat::Decimal_Number)]
     case OL_CHIKI_DIGIT_ONE = "\u{1C51}";
 
-    #[Info(id: 7250, name: 'OL CHIKI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C52, name: 'OL CHIKI DIGIT TWO', category: Cat::Decimal_Number)]
     case OL_CHIKI_DIGIT_TWO = "\u{1C52}";
 
-    #[Info(id: 7251, name: 'OL CHIKI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C53, name: 'OL CHIKI DIGIT THREE', category: Cat::Decimal_Number)]
     case OL_CHIKI_DIGIT_THREE = "\u{1C53}";
 
-    #[Info(id: 7252, name: 'OL CHIKI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C54, name: 'OL CHIKI DIGIT FOUR', category: Cat::Decimal_Number)]
     case OL_CHIKI_DIGIT_FOUR = "\u{1C54}";
 
-    #[Info(id: 7253, name: 'OL CHIKI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C55, name: 'OL CHIKI DIGIT FIVE', category: Cat::Decimal_Number)]
     case OL_CHIKI_DIGIT_FIVE = "\u{1C55}";
 
-    #[Info(id: 7254, name: 'OL CHIKI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C56, name: 'OL CHIKI DIGIT SIX', category: Cat::Decimal_Number)]
     case OL_CHIKI_DIGIT_SIX = "\u{1C56}";
 
-    #[Info(id: 7255, name: 'OL CHIKI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C57, name: 'OL CHIKI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case OL_CHIKI_DIGIT_SEVEN = "\u{1C57}";
 
-    #[Info(id: 7256, name: 'OL CHIKI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C58, name: 'OL CHIKI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case OL_CHIKI_DIGIT_EIGHT = "\u{1C58}";
 
-    #[Info(id: 7257, name: 'OL CHIKI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C59, name: 'OL CHIKI DIGIT NINE', category: Cat::Decimal_Number)]
     case OL_CHIKI_DIGIT_NINE = "\u{1C59}";
 
-    #[Info(id: 7258, name: 'OL CHIKI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C5A, name: 'OL CHIKI LETTER LA', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_LA = "\u{1C5A}";
 
-    #[Info(id: 7259, name: 'OL CHIKI LETTER AT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C5B, name: 'OL CHIKI LETTER AT', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_AT = "\u{1C5B}";
 
-    #[Info(id: 7260, name: 'OL CHIKI LETTER AG', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C5C, name: 'OL CHIKI LETTER AG', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_AG = "\u{1C5C}";
 
-    #[Info(id: 7261, name: 'OL CHIKI LETTER ANG', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C5D, name: 'OL CHIKI LETTER ANG', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_ANG = "\u{1C5D}";
 
-    #[Info(id: 7262, name: 'OL CHIKI LETTER AL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C5E, name: 'OL CHIKI LETTER AL', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_AL = "\u{1C5E}";
 
-    #[Info(id: 7263, name: 'OL CHIKI LETTER LAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C5F, name: 'OL CHIKI LETTER LAA', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_LAA = "\u{1C5F}";
 
-    #[Info(id: 7264, name: 'OL CHIKI LETTER AAK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C60, name: 'OL CHIKI LETTER AAK', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_AAK = "\u{1C60}";
 
-    #[Info(id: 7265, name: 'OL CHIKI LETTER AAJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C61, name: 'OL CHIKI LETTER AAJ', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_AAJ = "\u{1C61}";
 
-    #[Info(id: 7266, name: 'OL CHIKI LETTER AAM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C62, name: 'OL CHIKI LETTER AAM', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_AAM = "\u{1C62}";
 
-    #[Info(id: 7267, name: 'OL CHIKI LETTER AAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C63, name: 'OL CHIKI LETTER AAW', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_AAW = "\u{1C63}";
 
-    #[Info(id: 7268, name: 'OL CHIKI LETTER LI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C64, name: 'OL CHIKI LETTER LI', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_LI = "\u{1C64}";
 
-    #[Info(id: 7269, name: 'OL CHIKI LETTER IS', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C65, name: 'OL CHIKI LETTER IS', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_IS = "\u{1C65}";
 
-    #[Info(id: 7270, name: 'OL CHIKI LETTER IH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C66, name: 'OL CHIKI LETTER IH', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_IH = "\u{1C66}";
 
-    #[Info(id: 7271, name: 'OL CHIKI LETTER INY', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C67, name: 'OL CHIKI LETTER INY', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_INY = "\u{1C67}";
 
-    #[Info(id: 7272, name: 'OL CHIKI LETTER IR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C68, name: 'OL CHIKI LETTER IR', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_IR = "\u{1C68}";
 
-    #[Info(id: 7273, name: 'OL CHIKI LETTER LU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C69, name: 'OL CHIKI LETTER LU', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_LU = "\u{1C69}";
 
-    #[Info(id: 7274, name: 'OL CHIKI LETTER UC', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C6A, name: 'OL CHIKI LETTER UC', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_UC = "\u{1C6A}";
 
-    #[Info(id: 7275, name: 'OL CHIKI LETTER UD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C6B, name: 'OL CHIKI LETTER UD', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_UD = "\u{1C6B}";
 
-    #[Info(id: 7276, name: 'OL CHIKI LETTER UNN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C6C, name: 'OL CHIKI LETTER UNN', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_UNN = "\u{1C6C}";
 
-    #[Info(id: 7277, name: 'OL CHIKI LETTER UY', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C6D, name: 'OL CHIKI LETTER UY', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_UY = "\u{1C6D}";
 
-    #[Info(id: 7278, name: 'OL CHIKI LETTER LE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C6E, name: 'OL CHIKI LETTER LE', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_LE = "\u{1C6E}";
 
-    #[Info(id: 7279, name: 'OL CHIKI LETTER EP', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C6F, name: 'OL CHIKI LETTER EP', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_EP = "\u{1C6F}";
 
-    #[Info(id: 7280, name: 'OL CHIKI LETTER EDD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C70, name: 'OL CHIKI LETTER EDD', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_EDD = "\u{1C70}";
 
-    #[Info(id: 7281, name: 'OL CHIKI LETTER EN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C71, name: 'OL CHIKI LETTER EN', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_EN = "\u{1C71}";
 
-    #[Info(id: 7282, name: 'OL CHIKI LETTER ERR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C72, name: 'OL CHIKI LETTER ERR', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_ERR = "\u{1C72}";
 
-    #[Info(id: 7283, name: 'OL CHIKI LETTER LO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C73, name: 'OL CHIKI LETTER LO', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_LO = "\u{1C73}";
 
-    #[Info(id: 7284, name: 'OL CHIKI LETTER OTT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C74, name: 'OL CHIKI LETTER OTT', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_OTT = "\u{1C74}";
 
-    #[Info(id: 7285, name: 'OL CHIKI LETTER OB', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C75, name: 'OL CHIKI LETTER OB', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_OB = "\u{1C75}";
 
-    #[Info(id: 7286, name: 'OL CHIKI LETTER OV', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C76, name: 'OL CHIKI LETTER OV', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_OV = "\u{1C76}";
 
-    #[Info(id: 7287, name: 'OL CHIKI LETTER OH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C77, name: 'OL CHIKI LETTER OH', category: Cat::Other_Letter)]
     case OL_CHIKI_LETTER_OH = "\u{1C77}";
 
-    #[Info(id: 7288, name: 'OL CHIKI MU TTUDDAG', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1C78, name: 'OL CHIKI MU TTUDDAG', category: Cat::Modifier_Letter)]
     case OL_CHIKI_MU_TTUDDAG = "\u{1C78}";
 
-    #[Info(id: 7289, name: 'OL CHIKI GAAHLAA TTUDDAAG', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1C79, name: 'OL CHIKI GAAHLAA TTUDDAAG', category: Cat::Modifier_Letter)]
     case OL_CHIKI_GAAHLAA_TTUDDAAG = "\u{1C79}";
 
-    #[Info(id: 7290, name: 'OL CHIKI MU-GAAHLAA TTUDDAAG', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1C7A, name: 'OL CHIKI MU-GAAHLAA TTUDDAAG', category: Cat::Modifier_Letter)]
     case OL_CHIKI_MU_GAAHLAA_TTUDDAAG = "\u{1C7A}";
 
-    #[Info(id: 7291, name: 'OL CHIKI RELAA', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1C7B, name: 'OL CHIKI RELAA', category: Cat::Modifier_Letter)]
     case OL_CHIKI_RELAA = "\u{1C7B}";
 
-    #[Info(id: 7292, name: 'OL CHIKI PHAARKAA', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1C7C, name: 'OL CHIKI PHAARKAA', category: Cat::Modifier_Letter)]
     case OL_CHIKI_PHAARKAA = "\u{1C7C}";
 
-    #[Info(id: 7293, name: 'OL CHIKI AHAD', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1C7D, name: 'OL CHIKI AHAD', category: Cat::Modifier_Letter)]
     case OL_CHIKI_AHAD = "\u{1C7D}";
 
-    #[Info(id: 7294, name: 'OL CHIKI PUNCTUATION MUCAAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1C7E, name: 'OL CHIKI PUNCTUATION MUCAAD', category: Cat::Other_Punctuation)]
     case OL_CHIKI_PUNCTUATION_MUCAAD = "\u{1C7E}";
 
-    #[Info(id: 7295, name: 'OL CHIKI PUNCTUATION DOUBLE MUCAAD', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1C7F, name: 'OL CHIKI PUNCTUATION DOUBLE MUCAAD', category: Cat::Other_Punctuation)]
     case OL_CHIKI_PUNCTUATION_DOUBLE_MUCAAD = "\u{1C7F}";
 }

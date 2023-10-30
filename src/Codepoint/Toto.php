@@ -16,96 +16,96 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Toto: string
 {
-    #[Info(id: 123536, name: 'TOTO LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E290, name: 'TOTO LETTER PA', category: Cat::Other_Letter)]
     case TOTO_LETTER_PA = "\u{1E290}";
 
-    #[Info(id: 123537, name: 'TOTO LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E291, name: 'TOTO LETTER BA', category: Cat::Other_Letter)]
     case TOTO_LETTER_BA = "\u{1E291}";
 
-    #[Info(id: 123538, name: 'TOTO LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E292, name: 'TOTO LETTER TA', category: Cat::Other_Letter)]
     case TOTO_LETTER_TA = "\u{1E292}";
 
-    #[Info(id: 123539, name: 'TOTO LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E293, name: 'TOTO LETTER DA', category: Cat::Other_Letter)]
     case TOTO_LETTER_DA = "\u{1E293}";
 
-    #[Info(id: 123540, name: 'TOTO LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E294, name: 'TOTO LETTER KA', category: Cat::Other_Letter)]
     case TOTO_LETTER_KA = "\u{1E294}";
 
-    #[Info(id: 123541, name: 'TOTO LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E295, name: 'TOTO LETTER GA', category: Cat::Other_Letter)]
     case TOTO_LETTER_GA = "\u{1E295}";
 
-    #[Info(id: 123542, name: 'TOTO LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E296, name: 'TOTO LETTER MA', category: Cat::Other_Letter)]
     case TOTO_LETTER_MA = "\u{1E296}";
 
-    #[Info(id: 123543, name: 'TOTO LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E297, name: 'TOTO LETTER NA', category: Cat::Other_Letter)]
     case TOTO_LETTER_NA = "\u{1E297}";
 
-    #[Info(id: 123544, name: 'TOTO LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E298, name: 'TOTO LETTER NGA', category: Cat::Other_Letter)]
     case TOTO_LETTER_NGA = "\u{1E298}";
 
-    #[Info(id: 123545, name: 'TOTO LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E299, name: 'TOTO LETTER SA', category: Cat::Other_Letter)]
     case TOTO_LETTER_SA = "\u{1E299}";
 
-    #[Info(id: 123546, name: 'TOTO LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E29A, name: 'TOTO LETTER CHA', category: Cat::Other_Letter)]
     case TOTO_LETTER_CHA = "\u{1E29A}";
 
-    #[Info(id: 123547, name: 'TOTO LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E29B, name: 'TOTO LETTER YA', category: Cat::Other_Letter)]
     case TOTO_LETTER_YA = "\u{1E29B}";
 
-    #[Info(id: 123548, name: 'TOTO LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E29C, name: 'TOTO LETTER WA', category: Cat::Other_Letter)]
     case TOTO_LETTER_WA = "\u{1E29C}";
 
-    #[Info(id: 123549, name: 'TOTO LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E29D, name: 'TOTO LETTER JA', category: Cat::Other_Letter)]
     case TOTO_LETTER_JA = "\u{1E29D}";
 
-    #[Info(id: 123550, name: 'TOTO LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E29E, name: 'TOTO LETTER HA', category: Cat::Other_Letter)]
     case TOTO_LETTER_HA = "\u{1E29E}";
 
-    #[Info(id: 123551, name: 'TOTO LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E29F, name: 'TOTO LETTER RA', category: Cat::Other_Letter)]
     case TOTO_LETTER_RA = "\u{1E29F}";
 
-    #[Info(id: 123552, name: 'TOTO LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2A0, name: 'TOTO LETTER LA', category: Cat::Other_Letter)]
     case TOTO_LETTER_LA = "\u{1E2A0}";
 
-    #[Info(id: 123553, name: 'TOTO LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2A1, name: 'TOTO LETTER I', category: Cat::Other_Letter)]
     case TOTO_LETTER_I = "\u{1E2A1}";
 
-    #[Info(id: 123554, name: 'TOTO LETTER BREATHY I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2A2, name: 'TOTO LETTER BREATHY I', category: Cat::Other_Letter)]
     case TOTO_LETTER_BREATHY_I = "\u{1E2A2}";
 
-    #[Info(id: 123555, name: 'TOTO LETTER IU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2A3, name: 'TOTO LETTER IU', category: Cat::Other_Letter)]
     case TOTO_LETTER_IU = "\u{1E2A3}";
 
-    #[Info(id: 123556, name: 'TOTO LETTER BREATHY IU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2A4, name: 'TOTO LETTER BREATHY IU', category: Cat::Other_Letter)]
     case TOTO_LETTER_BREATHY_IU = "\u{1E2A4}";
 
-    #[Info(id: 123557, name: 'TOTO LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2A5, name: 'TOTO LETTER U', category: Cat::Other_Letter)]
     case TOTO_LETTER_U = "\u{1E2A5}";
 
-    #[Info(id: 123558, name: 'TOTO LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2A6, name: 'TOTO LETTER E', category: Cat::Other_Letter)]
     case TOTO_LETTER_E = "\u{1E2A6}";
 
-    #[Info(id: 123559, name: 'TOTO LETTER BREATHY E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2A7, name: 'TOTO LETTER BREATHY E', category: Cat::Other_Letter)]
     case TOTO_LETTER_BREATHY_E = "\u{1E2A7}";
 
-    #[Info(id: 123560, name: 'TOTO LETTER EO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2A8, name: 'TOTO LETTER EO', category: Cat::Other_Letter)]
     case TOTO_LETTER_EO = "\u{1E2A8}";
 
-    #[Info(id: 123561, name: 'TOTO LETTER BREATHY EO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2A9, name: 'TOTO LETTER BREATHY EO', category: Cat::Other_Letter)]
     case TOTO_LETTER_BREATHY_EO = "\u{1E2A9}";
 
-    #[Info(id: 123562, name: 'TOTO LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2AA, name: 'TOTO LETTER O', category: Cat::Other_Letter)]
     case TOTO_LETTER_O = "\u{1E2AA}";
 
-    #[Info(id: 123563, name: 'TOTO LETTER AE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2AB, name: 'TOTO LETTER AE', category: Cat::Other_Letter)]
     case TOTO_LETTER_AE = "\u{1E2AB}";
 
-    #[Info(id: 123564, name: 'TOTO LETTER BREATHY AE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2AC, name: 'TOTO LETTER BREATHY AE', category: Cat::Other_Letter)]
     case TOTO_LETTER_BREATHY_AE = "\u{1E2AC}";
 
-    #[Info(id: 123565, name: 'TOTO LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2AD, name: 'TOTO LETTER A', category: Cat::Other_Letter)]
     case TOTO_LETTER_A = "\u{1E2AD}";
 
-    #[Info(id: 123566, name: 'TOTO SIGN RISING TONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E2AE, name: 'TOTO SIGN RISING TONE', category: Cat::Nonspacing_Mark)]
     case TOTO_SIGN_RISING_TONE = "\u{1E2AE}";
 }

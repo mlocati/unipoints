@@ -16,180 +16,180 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Wancho: string
 {
-    #[Info(id: 123584, name: 'WANCHO LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2C0, name: 'WANCHO LETTER AA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_AA = "\u{1E2C0}";
 
-    #[Info(id: 123585, name: 'WANCHO LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2C1, name: 'WANCHO LETTER A', category: Cat::Other_Letter)]
     case WANCHO_LETTER_A = "\u{1E2C1}";
 
-    #[Info(id: 123586, name: 'WANCHO LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2C2, name: 'WANCHO LETTER BA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_BA = "\u{1E2C2}";
 
-    #[Info(id: 123587, name: 'WANCHO LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2C3, name: 'WANCHO LETTER CA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_CA = "\u{1E2C3}";
 
-    #[Info(id: 123588, name: 'WANCHO LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2C4, name: 'WANCHO LETTER DA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_DA = "\u{1E2C4}";
 
-    #[Info(id: 123589, name: 'WANCHO LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2C5, name: 'WANCHO LETTER GA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_GA = "\u{1E2C5}";
 
-    #[Info(id: 123590, name: 'WANCHO LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2C6, name: 'WANCHO LETTER YA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_YA = "\u{1E2C6}";
 
-    #[Info(id: 123591, name: 'WANCHO LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2C7, name: 'WANCHO LETTER PHA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_PHA = "\u{1E2C7}";
 
-    #[Info(id: 123592, name: 'WANCHO LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2C8, name: 'WANCHO LETTER LA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_LA = "\u{1E2C8}";
 
-    #[Info(id: 123593, name: 'WANCHO LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2C9, name: 'WANCHO LETTER NA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_NA = "\u{1E2C9}";
 
-    #[Info(id: 123594, name: 'WANCHO LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2CA, name: 'WANCHO LETTER PA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_PA = "\u{1E2CA}";
 
-    #[Info(id: 123595, name: 'WANCHO LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2CB, name: 'WANCHO LETTER TA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_TA = "\u{1E2CB}";
 
-    #[Info(id: 123596, name: 'WANCHO LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2CC, name: 'WANCHO LETTER THA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_THA = "\u{1E2CC}";
 
-    #[Info(id: 123597, name: 'WANCHO LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2CD, name: 'WANCHO LETTER FA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_FA = "\u{1E2CD}";
 
-    #[Info(id: 123598, name: 'WANCHO LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2CE, name: 'WANCHO LETTER SA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_SA = "\u{1E2CE}";
 
-    #[Info(id: 123599, name: 'WANCHO LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2CF, name: 'WANCHO LETTER SHA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_SHA = "\u{1E2CF}";
 
-    #[Info(id: 123600, name: 'WANCHO LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2D0, name: 'WANCHO LETTER JA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_JA = "\u{1E2D0}";
 
-    #[Info(id: 123601, name: 'WANCHO LETTER ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2D1, name: 'WANCHO LETTER ZA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_ZA = "\u{1E2D1}";
 
-    #[Info(id: 123602, name: 'WANCHO LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2D2, name: 'WANCHO LETTER WA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_WA = "\u{1E2D2}";
 
-    #[Info(id: 123603, name: 'WANCHO LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2D3, name: 'WANCHO LETTER VA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_VA = "\u{1E2D3}";
 
-    #[Info(id: 123604, name: 'WANCHO LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2D4, name: 'WANCHO LETTER KA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_KA = "\u{1E2D4}";
 
-    #[Info(id: 123605, name: 'WANCHO LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2D5, name: 'WANCHO LETTER O', category: Cat::Other_Letter)]
     case WANCHO_LETTER_O = "\u{1E2D5}";
 
-    #[Info(id: 123606, name: 'WANCHO LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2D6, name: 'WANCHO LETTER AU', category: Cat::Other_Letter)]
     case WANCHO_LETTER_AU = "\u{1E2D6}";
 
-    #[Info(id: 123607, name: 'WANCHO LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2D7, name: 'WANCHO LETTER RA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_RA = "\u{1E2D7}";
 
-    #[Info(id: 123608, name: 'WANCHO LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2D8, name: 'WANCHO LETTER MA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_MA = "\u{1E2D8}";
 
-    #[Info(id: 123609, name: 'WANCHO LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2D9, name: 'WANCHO LETTER KHA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_KHA = "\u{1E2D9}";
 
-    #[Info(id: 123610, name: 'WANCHO LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2DA, name: 'WANCHO LETTER HA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_HA = "\u{1E2DA}";
 
-    #[Info(id: 123611, name: 'WANCHO LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2DB, name: 'WANCHO LETTER E', category: Cat::Other_Letter)]
     case WANCHO_LETTER_E = "\u{1E2DB}";
 
-    #[Info(id: 123612, name: 'WANCHO LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2DC, name: 'WANCHO LETTER I', category: Cat::Other_Letter)]
     case WANCHO_LETTER_I = "\u{1E2DC}";
 
-    #[Info(id: 123613, name: 'WANCHO LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2DD, name: 'WANCHO LETTER NGA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_NGA = "\u{1E2DD}";
 
-    #[Info(id: 123614, name: 'WANCHO LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2DE, name: 'WANCHO LETTER U', category: Cat::Other_Letter)]
     case WANCHO_LETTER_U = "\u{1E2DE}";
 
-    #[Info(id: 123615, name: 'WANCHO LETTER LLHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2DF, name: 'WANCHO LETTER LLHA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_LLHA = "\u{1E2DF}";
 
-    #[Info(id: 123616, name: 'WANCHO LETTER TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2E0, name: 'WANCHO LETTER TSA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_TSA = "\u{1E2E0}";
 
-    #[Info(id: 123617, name: 'WANCHO LETTER TRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2E1, name: 'WANCHO LETTER TRA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_TRA = "\u{1E2E1}";
 
-    #[Info(id: 123618, name: 'WANCHO LETTER ONG', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2E2, name: 'WANCHO LETTER ONG', category: Cat::Other_Letter)]
     case WANCHO_LETTER_ONG = "\u{1E2E2}";
 
-    #[Info(id: 123619, name: 'WANCHO LETTER AANG', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2E3, name: 'WANCHO LETTER AANG', category: Cat::Other_Letter)]
     case WANCHO_LETTER_AANG = "\u{1E2E3}";
 
-    #[Info(id: 123620, name: 'WANCHO LETTER ANG', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2E4, name: 'WANCHO LETTER ANG', category: Cat::Other_Letter)]
     case WANCHO_LETTER_ANG = "\u{1E2E4}";
 
-    #[Info(id: 123621, name: 'WANCHO LETTER ING', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2E5, name: 'WANCHO LETTER ING', category: Cat::Other_Letter)]
     case WANCHO_LETTER_ING = "\u{1E2E5}";
 
-    #[Info(id: 123622, name: 'WANCHO LETTER ON', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2E6, name: 'WANCHO LETTER ON', category: Cat::Other_Letter)]
     case WANCHO_LETTER_ON = "\u{1E2E6}";
 
-    #[Info(id: 123623, name: 'WANCHO LETTER EN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2E7, name: 'WANCHO LETTER EN', category: Cat::Other_Letter)]
     case WANCHO_LETTER_EN = "\u{1E2E7}";
 
-    #[Info(id: 123624, name: 'WANCHO LETTER AAN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2E8, name: 'WANCHO LETTER AAN', category: Cat::Other_Letter)]
     case WANCHO_LETTER_AAN = "\u{1E2E8}";
 
-    #[Info(id: 123625, name: 'WANCHO LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2E9, name: 'WANCHO LETTER NYA', category: Cat::Other_Letter)]
     case WANCHO_LETTER_NYA = "\u{1E2E9}";
 
-    #[Info(id: 123626, name: 'WANCHO LETTER UEN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2EA, name: 'WANCHO LETTER UEN', category: Cat::Other_Letter)]
     case WANCHO_LETTER_UEN = "\u{1E2EA}";
 
-    #[Info(id: 123627, name: 'WANCHO LETTER YIH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E2EB, name: 'WANCHO LETTER YIH', category: Cat::Other_Letter)]
     case WANCHO_LETTER_YIH = "\u{1E2EB}";
 
-    #[Info(id: 123628, name: 'WANCHO TONE TUP', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E2EC, name: 'WANCHO TONE TUP', category: Cat::Nonspacing_Mark)]
     case WANCHO_TONE_TUP = "\u{1E2EC}";
 
-    #[Info(id: 123629, name: 'WANCHO TONE TUPNI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E2ED, name: 'WANCHO TONE TUPNI', category: Cat::Nonspacing_Mark)]
     case WANCHO_TONE_TUPNI = "\u{1E2ED}";
 
-    #[Info(id: 123630, name: 'WANCHO TONE KOI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E2EE, name: 'WANCHO TONE KOI', category: Cat::Nonspacing_Mark)]
     case WANCHO_TONE_KOI = "\u{1E2EE}";
 
-    #[Info(id: 123631, name: 'WANCHO TONE KOINI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E2EF, name: 'WANCHO TONE KOINI', category: Cat::Nonspacing_Mark)]
     case WANCHO_TONE_KOINI = "\u{1E2EF}";
 
-    #[Info(id: 123632, name: 'WANCHO DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E2F0, name: 'WANCHO DIGIT ZERO', category: Cat::Decimal_Number)]
     case WANCHO_DIGIT_ZERO = "\u{1E2F0}";
 
-    #[Info(id: 123633, name: 'WANCHO DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E2F1, name: 'WANCHO DIGIT ONE', category: Cat::Decimal_Number)]
     case WANCHO_DIGIT_ONE = "\u{1E2F1}";
 
-    #[Info(id: 123634, name: 'WANCHO DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E2F2, name: 'WANCHO DIGIT TWO', category: Cat::Decimal_Number)]
     case WANCHO_DIGIT_TWO = "\u{1E2F2}";
 
-    #[Info(id: 123635, name: 'WANCHO DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E2F3, name: 'WANCHO DIGIT THREE', category: Cat::Decimal_Number)]
     case WANCHO_DIGIT_THREE = "\u{1E2F3}";
 
-    #[Info(id: 123636, name: 'WANCHO DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E2F4, name: 'WANCHO DIGIT FOUR', category: Cat::Decimal_Number)]
     case WANCHO_DIGIT_FOUR = "\u{1E2F4}";
 
-    #[Info(id: 123637, name: 'WANCHO DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E2F5, name: 'WANCHO DIGIT FIVE', category: Cat::Decimal_Number)]
     case WANCHO_DIGIT_FIVE = "\u{1E2F5}";
 
-    #[Info(id: 123638, name: 'WANCHO DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E2F6, name: 'WANCHO DIGIT SIX', category: Cat::Decimal_Number)]
     case WANCHO_DIGIT_SIX = "\u{1E2F6}";
 
-    #[Info(id: 123639, name: 'WANCHO DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E2F7, name: 'WANCHO DIGIT SEVEN', category: Cat::Decimal_Number)]
     case WANCHO_DIGIT_SEVEN = "\u{1E2F7}";
 
-    #[Info(id: 123640, name: 'WANCHO DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E2F8, name: 'WANCHO DIGIT EIGHT', category: Cat::Decimal_Number)]
     case WANCHO_DIGIT_EIGHT = "\u{1E2F8}";
 
-    #[Info(id: 123641, name: 'WANCHO DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E2F9, name: 'WANCHO DIGIT NINE', category: Cat::Decimal_Number)]
     case WANCHO_DIGIT_NINE = "\u{1E2F9}";
 
-    #[Info(id: 123647, name: 'WANCHO NGUN SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x1E2FF, name: 'WANCHO NGUN SIGN', category: Cat::Currency_Symbol)]
     case WANCHO_NGUN_SIGN = "\u{1E2FF}";
 }

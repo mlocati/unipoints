@@ -16,63 +16,63 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Buhid: string
 {
-    #[Info(id: 5952, name: 'BUHID LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1740, name: 'BUHID LETTER A', category: Cat::Other_Letter)]
     case BUHID_LETTER_A = "\u{1740}";
 
-    #[Info(id: 5953, name: 'BUHID LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1741, name: 'BUHID LETTER I', category: Cat::Other_Letter)]
     case BUHID_LETTER_I = "\u{1741}";
 
-    #[Info(id: 5954, name: 'BUHID LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1742, name: 'BUHID LETTER U', category: Cat::Other_Letter)]
     case BUHID_LETTER_U = "\u{1742}";
 
-    #[Info(id: 5955, name: 'BUHID LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1743, name: 'BUHID LETTER KA', category: Cat::Other_Letter)]
     case BUHID_LETTER_KA = "\u{1743}";
 
-    #[Info(id: 5956, name: 'BUHID LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1744, name: 'BUHID LETTER GA', category: Cat::Other_Letter)]
     case BUHID_LETTER_GA = "\u{1744}";
 
-    #[Info(id: 5957, name: 'BUHID LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1745, name: 'BUHID LETTER NGA', category: Cat::Other_Letter)]
     case BUHID_LETTER_NGA = "\u{1745}";
 
-    #[Info(id: 5958, name: 'BUHID LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1746, name: 'BUHID LETTER TA', category: Cat::Other_Letter)]
     case BUHID_LETTER_TA = "\u{1746}";
 
-    #[Info(id: 5959, name: 'BUHID LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1747, name: 'BUHID LETTER DA', category: Cat::Other_Letter)]
     case BUHID_LETTER_DA = "\u{1747}";
 
-    #[Info(id: 5960, name: 'BUHID LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1748, name: 'BUHID LETTER NA', category: Cat::Other_Letter)]
     case BUHID_LETTER_NA = "\u{1748}";
 
-    #[Info(id: 5961, name: 'BUHID LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1749, name: 'BUHID LETTER PA', category: Cat::Other_Letter)]
     case BUHID_LETTER_PA = "\u{1749}";
 
-    #[Info(id: 5962, name: 'BUHID LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x174A, name: 'BUHID LETTER BA', category: Cat::Other_Letter)]
     case BUHID_LETTER_BA = "\u{174A}";
 
-    #[Info(id: 5963, name: 'BUHID LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x174B, name: 'BUHID LETTER MA', category: Cat::Other_Letter)]
     case BUHID_LETTER_MA = "\u{174B}";
 
-    #[Info(id: 5964, name: 'BUHID LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x174C, name: 'BUHID LETTER YA', category: Cat::Other_Letter)]
     case BUHID_LETTER_YA = "\u{174C}";
 
-    #[Info(id: 5965, name: 'BUHID LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x174D, name: 'BUHID LETTER RA', category: Cat::Other_Letter)]
     case BUHID_LETTER_RA = "\u{174D}";
 
-    #[Info(id: 5966, name: 'BUHID LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x174E, name: 'BUHID LETTER LA', category: Cat::Other_Letter)]
     case BUHID_LETTER_LA = "\u{174E}";
 
-    #[Info(id: 5967, name: 'BUHID LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x174F, name: 'BUHID LETTER WA', category: Cat::Other_Letter)]
     case BUHID_LETTER_WA = "\u{174F}";
 
-    #[Info(id: 5968, name: 'BUHID LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1750, name: 'BUHID LETTER SA', category: Cat::Other_Letter)]
     case BUHID_LETTER_SA = "\u{1750}";
 
-    #[Info(id: 5969, name: 'BUHID LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1751, name: 'BUHID LETTER HA', category: Cat::Other_Letter)]
     case BUHID_LETTER_HA = "\u{1751}";
 
-    #[Info(id: 5970, name: 'BUHID VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1752, name: 'BUHID VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case BUHID_VOWEL_SIGN_I = "\u{1752}";
 
-    #[Info(id: 5971, name: 'BUHID VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1753, name: 'BUHID VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case BUHID_VOWEL_SIGN_U = "\u{1753}";
 }

@@ -16,18 +16,18 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Specials: string
 {
-    #[Info(id: 65529, name: 'INTERLINEAR ANNOTATION ANCHOR', category: Cat::Format)]
+    #[Info(id: 0xFFF9, name: 'INTERLINEAR ANNOTATION ANCHOR', category: Cat::Format)]
     case INTERLINEAR_ANNOTATION_ANCHOR = "\u{FFF9}";
 
-    #[Info(id: 65530, name: 'INTERLINEAR ANNOTATION SEPARATOR', category: Cat::Format)]
+    #[Info(id: 0xFFFA, name: 'INTERLINEAR ANNOTATION SEPARATOR', category: Cat::Format)]
     case INTERLINEAR_ANNOTATION_SEPARATOR = "\u{FFFA}";
 
-    #[Info(id: 65531, name: 'INTERLINEAR ANNOTATION TERMINATOR', category: Cat::Format)]
+    #[Info(id: 0xFFFB, name: 'INTERLINEAR ANNOTATION TERMINATOR', category: Cat::Format)]
     case INTERLINEAR_ANNOTATION_TERMINATOR = "\u{FFFB}";
 
-    #[Info(id: 65532, name: 'OBJECT REPLACEMENT CHARACTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFFFC, name: 'OBJECT REPLACEMENT CHARACTER', category: Cat::Other_Symbol)]
     case OBJECT_REPLACEMENT_CHARACTER = "\u{FFFC}";
 
-    #[Info(id: 65533, name: 'REPLACEMENT CHARACTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0xFFFD, name: 'REPLACEMENT CHARACTER', category: Cat::Other_Symbol)]
     case REPLACEMENT_CHARACTER = "\u{FFFD}";
 }

@@ -16,99 +16,99 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Khmer_Symbols: string
 {
-    #[Info(id: 6624, name: 'KHMER SYMBOL PATHAMASAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19E0, name: 'KHMER SYMBOL PATHAMASAT', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PATHAMASAT = "\u{19E0}";
 
-    #[Info(id: 6625, name: 'KHMER SYMBOL MUOY KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19E1, name: 'KHMER SYMBOL MUOY KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_MUOY_KOET = "\u{19E1}";
 
-    #[Info(id: 6626, name: 'KHMER SYMBOL PII KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19E2, name: 'KHMER SYMBOL PII KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PII_KOET = "\u{19E2}";
 
-    #[Info(id: 6627, name: 'KHMER SYMBOL BEI KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19E3, name: 'KHMER SYMBOL BEI KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_BEI_KOET = "\u{19E3}";
 
-    #[Info(id: 6628, name: 'KHMER SYMBOL BUON KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19E4, name: 'KHMER SYMBOL BUON KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_BUON_KOET = "\u{19E4}";
 
-    #[Info(id: 6629, name: 'KHMER SYMBOL PRAM KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19E5, name: 'KHMER SYMBOL PRAM KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PRAM_KOET = "\u{19E5}";
 
-    #[Info(id: 6630, name: 'KHMER SYMBOL PRAM-MUOY KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19E6, name: 'KHMER SYMBOL PRAM-MUOY KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PRAM_MUOY_KOET = "\u{19E6}";
 
-    #[Info(id: 6631, name: 'KHMER SYMBOL PRAM-PII KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19E7, name: 'KHMER SYMBOL PRAM-PII KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PRAM_PII_KOET = "\u{19E7}";
 
-    #[Info(id: 6632, name: 'KHMER SYMBOL PRAM-BEI KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19E8, name: 'KHMER SYMBOL PRAM-BEI KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PRAM_BEI_KOET = "\u{19E8}";
 
-    #[Info(id: 6633, name: 'KHMER SYMBOL PRAM-BUON KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19E9, name: 'KHMER SYMBOL PRAM-BUON KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PRAM_BUON_KOET = "\u{19E9}";
 
-    #[Info(id: 6634, name: 'KHMER SYMBOL DAP KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19EA, name: 'KHMER SYMBOL DAP KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_KOET = "\u{19EA}";
 
-    #[Info(id: 6635, name: 'KHMER SYMBOL DAP-MUOY KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19EB, name: 'KHMER SYMBOL DAP-MUOY KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_MUOY_KOET = "\u{19EB}";
 
-    #[Info(id: 6636, name: 'KHMER SYMBOL DAP-PII KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19EC, name: 'KHMER SYMBOL DAP-PII KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_PII_KOET = "\u{19EC}";
 
-    #[Info(id: 6637, name: 'KHMER SYMBOL DAP-BEI KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19ED, name: 'KHMER SYMBOL DAP-BEI KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_BEI_KOET = "\u{19ED}";
 
-    #[Info(id: 6638, name: 'KHMER SYMBOL DAP-BUON KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19EE, name: 'KHMER SYMBOL DAP-BUON KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_BUON_KOET = "\u{19EE}";
 
-    #[Info(id: 6639, name: 'KHMER SYMBOL DAP-PRAM KOET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19EF, name: 'KHMER SYMBOL DAP-PRAM KOET', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_PRAM_KOET = "\u{19EF}";
 
-    #[Info(id: 6640, name: 'KHMER SYMBOL TUTEYASAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19F0, name: 'KHMER SYMBOL TUTEYASAT', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_TUTEYASAT = "\u{19F0}";
 
-    #[Info(id: 6641, name: 'KHMER SYMBOL MUOY ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19F1, name: 'KHMER SYMBOL MUOY ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_MUOY_ROC = "\u{19F1}";
 
-    #[Info(id: 6642, name: 'KHMER SYMBOL PII ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19F2, name: 'KHMER SYMBOL PII ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PII_ROC = "\u{19F2}";
 
-    #[Info(id: 6643, name: 'KHMER SYMBOL BEI ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19F3, name: 'KHMER SYMBOL BEI ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_BEI_ROC = "\u{19F3}";
 
-    #[Info(id: 6644, name: 'KHMER SYMBOL BUON ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19F4, name: 'KHMER SYMBOL BUON ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_BUON_ROC = "\u{19F4}";
 
-    #[Info(id: 6645, name: 'KHMER SYMBOL PRAM ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19F5, name: 'KHMER SYMBOL PRAM ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PRAM_ROC = "\u{19F5}";
 
-    #[Info(id: 6646, name: 'KHMER SYMBOL PRAM-MUOY ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19F6, name: 'KHMER SYMBOL PRAM-MUOY ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PRAM_MUOY_ROC = "\u{19F6}";
 
-    #[Info(id: 6647, name: 'KHMER SYMBOL PRAM-PII ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19F7, name: 'KHMER SYMBOL PRAM-PII ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PRAM_PII_ROC = "\u{19F7}";
 
-    #[Info(id: 6648, name: 'KHMER SYMBOL PRAM-BEI ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19F8, name: 'KHMER SYMBOL PRAM-BEI ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PRAM_BEI_ROC = "\u{19F8}";
 
-    #[Info(id: 6649, name: 'KHMER SYMBOL PRAM-BUON ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19F9, name: 'KHMER SYMBOL PRAM-BUON ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_PRAM_BUON_ROC = "\u{19F9}";
 
-    #[Info(id: 6650, name: 'KHMER SYMBOL DAP ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19FA, name: 'KHMER SYMBOL DAP ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_ROC = "\u{19FA}";
 
-    #[Info(id: 6651, name: 'KHMER SYMBOL DAP-MUOY ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19FB, name: 'KHMER SYMBOL DAP-MUOY ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_MUOY_ROC = "\u{19FB}";
 
-    #[Info(id: 6652, name: 'KHMER SYMBOL DAP-PII ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19FC, name: 'KHMER SYMBOL DAP-PII ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_PII_ROC = "\u{19FC}";
 
-    #[Info(id: 6653, name: 'KHMER SYMBOL DAP-BEI ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19FD, name: 'KHMER SYMBOL DAP-BEI ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_BEI_ROC = "\u{19FD}";
 
-    #[Info(id: 6654, name: 'KHMER SYMBOL DAP-BUON ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19FE, name: 'KHMER SYMBOL DAP-BUON ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_BUON_ROC = "\u{19FE}";
 
-    #[Info(id: 6655, name: 'KHMER SYMBOL DAP-PRAM ROC', category: Cat::Other_Symbol)]
+    #[Info(id: 0x19FF, name: 'KHMER SYMBOL DAP-PRAM ROC', category: Cat::Other_Symbol)]
     case KHMER_SYMBOL_DAP_PRAM_ROC = "\u{19FF}";
 }

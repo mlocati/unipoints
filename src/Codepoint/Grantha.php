@@ -16,261 +16,261 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Grantha: string
 {
-    #[Info(id: 70400, name: 'GRANTHA SIGN COMBINING ANUSVARA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11300, name: 'GRANTHA SIGN COMBINING ANUSVARA ABOVE', category: Cat::Nonspacing_Mark)]
     case GRANTHA_SIGN_COMBINING_ANUSVARA_ABOVE = "\u{11300}";
 
-    #[Info(id: 70401, name: 'GRANTHA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11301, name: 'GRANTHA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case GRANTHA_SIGN_CANDRABINDU = "\u{11301}";
 
-    #[Info(id: 70402, name: 'GRANTHA SIGN ANUSVARA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11302, name: 'GRANTHA SIGN ANUSVARA', category: Cat::Spacing_Mark)]
     case GRANTHA_SIGN_ANUSVARA = "\u{11302}";
 
-    #[Info(id: 70403, name: 'GRANTHA SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11303, name: 'GRANTHA SIGN VISARGA', category: Cat::Spacing_Mark)]
     case GRANTHA_SIGN_VISARGA = "\u{11303}";
 
-    #[Info(id: 70405, name: 'GRANTHA LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11305, name: 'GRANTHA LETTER A', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_A = "\u{11305}";
 
-    #[Info(id: 70406, name: 'GRANTHA LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11306, name: 'GRANTHA LETTER AA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_AA = "\u{11306}";
 
-    #[Info(id: 70407, name: 'GRANTHA LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11307, name: 'GRANTHA LETTER I', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_I = "\u{11307}";
 
-    #[Info(id: 70408, name: 'GRANTHA LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x11308, name: 'GRANTHA LETTER II', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_II = "\u{11308}";
 
-    #[Info(id: 70409, name: 'GRANTHA LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11309, name: 'GRANTHA LETTER U', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_U = "\u{11309}";
 
-    #[Info(id: 70410, name: 'GRANTHA LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1130A, name: 'GRANTHA LETTER UU', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_UU = "\u{1130A}";
 
-    #[Info(id: 70411, name: 'GRANTHA LETTER VOCALIC R', category: Cat::Other_Letter)]
+    #[Info(id: 0x1130B, name: 'GRANTHA LETTER VOCALIC R', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_VOCALIC_R = "\u{1130B}";
 
-    #[Info(id: 70412, name: 'GRANTHA LETTER VOCALIC L', category: Cat::Other_Letter)]
+    #[Info(id: 0x1130C, name: 'GRANTHA LETTER VOCALIC L', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_VOCALIC_L = "\u{1130C}";
 
-    #[Info(id: 70415, name: 'GRANTHA LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1130F, name: 'GRANTHA LETTER EE', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_EE = "\u{1130F}";
 
-    #[Info(id: 70416, name: 'GRANTHA LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x11310, name: 'GRANTHA LETTER AI', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_AI = "\u{11310}";
 
-    #[Info(id: 70419, name: 'GRANTHA LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0x11313, name: 'GRANTHA LETTER OO', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_OO = "\u{11313}";
 
-    #[Info(id: 70420, name: 'GRANTHA LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11314, name: 'GRANTHA LETTER AU', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_AU = "\u{11314}";
 
-    #[Info(id: 70421, name: 'GRANTHA LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11315, name: 'GRANTHA LETTER KA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_KA = "\u{11315}";
 
-    #[Info(id: 70422, name: 'GRANTHA LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11316, name: 'GRANTHA LETTER KHA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_KHA = "\u{11316}";
 
-    #[Info(id: 70423, name: 'GRANTHA LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11317, name: 'GRANTHA LETTER GA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_GA = "\u{11317}";
 
-    #[Info(id: 70424, name: 'GRANTHA LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11318, name: 'GRANTHA LETTER GHA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_GHA = "\u{11318}";
 
-    #[Info(id: 70425, name: 'GRANTHA LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11319, name: 'GRANTHA LETTER NGA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_NGA = "\u{11319}";
 
-    #[Info(id: 70426, name: 'GRANTHA LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1131A, name: 'GRANTHA LETTER CA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_CA = "\u{1131A}";
 
-    #[Info(id: 70427, name: 'GRANTHA LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1131B, name: 'GRANTHA LETTER CHA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_CHA = "\u{1131B}";
 
-    #[Info(id: 70428, name: 'GRANTHA LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1131C, name: 'GRANTHA LETTER JA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_JA = "\u{1131C}";
 
-    #[Info(id: 70429, name: 'GRANTHA LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1131D, name: 'GRANTHA LETTER JHA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_JHA = "\u{1131D}";
 
-    #[Info(id: 70430, name: 'GRANTHA LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1131E, name: 'GRANTHA LETTER NYA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_NYA = "\u{1131E}";
 
-    #[Info(id: 70431, name: 'GRANTHA LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1131F, name: 'GRANTHA LETTER TTA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_TTA = "\u{1131F}";
 
-    #[Info(id: 70432, name: 'GRANTHA LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11320, name: 'GRANTHA LETTER TTHA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_TTHA = "\u{11320}";
 
-    #[Info(id: 70433, name: 'GRANTHA LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11321, name: 'GRANTHA LETTER DDA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_DDA = "\u{11321}";
 
-    #[Info(id: 70434, name: 'GRANTHA LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11322, name: 'GRANTHA LETTER DDHA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_DDHA = "\u{11322}";
 
-    #[Info(id: 70435, name: 'GRANTHA LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11323, name: 'GRANTHA LETTER NNA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_NNA = "\u{11323}";
 
-    #[Info(id: 70436, name: 'GRANTHA LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11324, name: 'GRANTHA LETTER TA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_TA = "\u{11324}";
 
-    #[Info(id: 70437, name: 'GRANTHA LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11325, name: 'GRANTHA LETTER THA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_THA = "\u{11325}";
 
-    #[Info(id: 70438, name: 'GRANTHA LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11326, name: 'GRANTHA LETTER DA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_DA = "\u{11326}";
 
-    #[Info(id: 70439, name: 'GRANTHA LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11327, name: 'GRANTHA LETTER DHA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_DHA = "\u{11327}";
 
-    #[Info(id: 70440, name: 'GRANTHA LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11328, name: 'GRANTHA LETTER NA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_NA = "\u{11328}";
 
-    #[Info(id: 70442, name: 'GRANTHA LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1132A, name: 'GRANTHA LETTER PA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_PA = "\u{1132A}";
 
-    #[Info(id: 70443, name: 'GRANTHA LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1132B, name: 'GRANTHA LETTER PHA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_PHA = "\u{1132B}";
 
-    #[Info(id: 70444, name: 'GRANTHA LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1132C, name: 'GRANTHA LETTER BA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_BA = "\u{1132C}";
 
-    #[Info(id: 70445, name: 'GRANTHA LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1132D, name: 'GRANTHA LETTER BHA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_BHA = "\u{1132D}";
 
-    #[Info(id: 70446, name: 'GRANTHA LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1132E, name: 'GRANTHA LETTER MA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_MA = "\u{1132E}";
 
-    #[Info(id: 70447, name: 'GRANTHA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1132F, name: 'GRANTHA LETTER YA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_YA = "\u{1132F}";
 
-    #[Info(id: 70448, name: 'GRANTHA LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11330, name: 'GRANTHA LETTER RA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_RA = "\u{11330}";
 
-    #[Info(id: 70450, name: 'GRANTHA LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11332, name: 'GRANTHA LETTER LA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_LA = "\u{11332}";
 
-    #[Info(id: 70451, name: 'GRANTHA LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11333, name: 'GRANTHA LETTER LLA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_LLA = "\u{11333}";
 
-    #[Info(id: 70453, name: 'GRANTHA LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11335, name: 'GRANTHA LETTER VA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_VA = "\u{11335}";
 
-    #[Info(id: 70454, name: 'GRANTHA LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11336, name: 'GRANTHA LETTER SHA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_SHA = "\u{11336}";
 
-    #[Info(id: 70455, name: 'GRANTHA LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11337, name: 'GRANTHA LETTER SSA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_SSA = "\u{11337}";
 
-    #[Info(id: 70456, name: 'GRANTHA LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11338, name: 'GRANTHA LETTER SA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_SA = "\u{11338}";
 
-    #[Info(id: 70457, name: 'GRANTHA LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11339, name: 'GRANTHA LETTER HA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_HA = "\u{11339}";
 
-    #[Info(id: 70459, name: 'COMBINING BINDU BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1133B, name: 'COMBINING BINDU BELOW', category: Cat::Nonspacing_Mark)]
     case COMBINING_BINDU_BELOW = "\u{1133B}";
 
-    #[Info(id: 70460, name: 'GRANTHA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1133C, name: 'GRANTHA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case GRANTHA_SIGN_NUKTA = "\u{1133C}";
 
-    #[Info(id: 70461, name: 'GRANTHA SIGN AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1133D, name: 'GRANTHA SIGN AVAGRAHA', category: Cat::Other_Letter)]
     case GRANTHA_SIGN_AVAGRAHA = "\u{1133D}";
 
-    #[Info(id: 70462, name: 'GRANTHA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1133E, name: 'GRANTHA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_AA = "\u{1133E}";
 
-    #[Info(id: 70463, name: 'GRANTHA VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1133F, name: 'GRANTHA VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_I = "\u{1133F}";
 
-    #[Info(id: 70464, name: 'GRANTHA VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11340, name: 'GRANTHA VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
     case GRANTHA_VOWEL_SIGN_II = "\u{11340}";
 
-    #[Info(id: 70465, name: 'GRANTHA VOWEL SIGN U', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11341, name: 'GRANTHA VOWEL SIGN U', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_U = "\u{11341}";
 
-    #[Info(id: 70466, name: 'GRANTHA VOWEL SIGN UU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11342, name: 'GRANTHA VOWEL SIGN UU', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_UU = "\u{11342}";
 
-    #[Info(id: 70467, name: 'GRANTHA VOWEL SIGN VOCALIC R', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11343, name: 'GRANTHA VOWEL SIGN VOCALIC R', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_VOCALIC_R = "\u{11343}";
 
-    #[Info(id: 70468, name: 'GRANTHA VOWEL SIGN VOCALIC RR', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11344, name: 'GRANTHA VOWEL SIGN VOCALIC RR', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_VOCALIC_RR = "\u{11344}";
 
-    #[Info(id: 70471, name: 'GRANTHA VOWEL SIGN EE', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11347, name: 'GRANTHA VOWEL SIGN EE', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_EE = "\u{11347}";
 
-    #[Info(id: 70472, name: 'GRANTHA VOWEL SIGN AI', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11348, name: 'GRANTHA VOWEL SIGN AI', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_AI = "\u{11348}";
 
-    #[Info(id: 70475, name: 'GRANTHA VOWEL SIGN OO', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1134B, name: 'GRANTHA VOWEL SIGN OO', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_OO = "\u{1134B}";
 
-    #[Info(id: 70476, name: 'GRANTHA VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1134C, name: 'GRANTHA VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_AU = "\u{1134C}";
 
-    #[Info(id: 70477, name: 'GRANTHA SIGN VIRAMA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1134D, name: 'GRANTHA SIGN VIRAMA', category: Cat::Spacing_Mark)]
     case GRANTHA_SIGN_VIRAMA = "\u{1134D}";
 
-    #[Info(id: 70480, name: 'GRANTHA OM', category: Cat::Other_Letter)]
+    #[Info(id: 0x11350, name: 'GRANTHA OM', category: Cat::Other_Letter)]
     case GRANTHA_OM = "\u{11350}";
 
-    #[Info(id: 70487, name: 'GRANTHA AU LENGTH MARK', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11357, name: 'GRANTHA AU LENGTH MARK', category: Cat::Spacing_Mark)]
     case GRANTHA_AU_LENGTH_MARK = "\u{11357}";
 
-    #[Info(id: 70493, name: 'GRANTHA SIGN PLUTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1135D, name: 'GRANTHA SIGN PLUTA', category: Cat::Other_Letter)]
     case GRANTHA_SIGN_PLUTA = "\u{1135D}";
 
-    #[Info(id: 70494, name: 'GRANTHA LETTER VEDIC ANUSVARA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1135E, name: 'GRANTHA LETTER VEDIC ANUSVARA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_VEDIC_ANUSVARA = "\u{1135E}";
 
-    #[Info(id: 70495, name: 'GRANTHA LETTER VEDIC DOUBLE ANUSVARA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1135F, name: 'GRANTHA LETTER VEDIC DOUBLE ANUSVARA', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_VEDIC_DOUBLE_ANUSVARA = "\u{1135F}";
 
-    #[Info(id: 70496, name: 'GRANTHA LETTER VOCALIC RR', category: Cat::Other_Letter)]
+    #[Info(id: 0x11360, name: 'GRANTHA LETTER VOCALIC RR', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_VOCALIC_RR = "\u{11360}";
 
-    #[Info(id: 70497, name: 'GRANTHA LETTER VOCALIC LL', category: Cat::Other_Letter)]
+    #[Info(id: 0x11361, name: 'GRANTHA LETTER VOCALIC LL', category: Cat::Other_Letter)]
     case GRANTHA_LETTER_VOCALIC_LL = "\u{11361}";
 
-    #[Info(id: 70498, name: 'GRANTHA VOWEL SIGN VOCALIC L', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11362, name: 'GRANTHA VOWEL SIGN VOCALIC L', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_VOCALIC_L = "\u{11362}";
 
-    #[Info(id: 70499, name: 'GRANTHA VOWEL SIGN VOCALIC LL', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11363, name: 'GRANTHA VOWEL SIGN VOCALIC LL', category: Cat::Spacing_Mark)]
     case GRANTHA_VOWEL_SIGN_VOCALIC_LL = "\u{11363}";
 
-    #[Info(id: 70502, name: 'COMBINING GRANTHA DIGIT ZERO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11366, name: 'COMBINING GRANTHA DIGIT ZERO', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_DIGIT_ZERO = "\u{11366}";
 
-    #[Info(id: 70503, name: 'COMBINING GRANTHA DIGIT ONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11367, name: 'COMBINING GRANTHA DIGIT ONE', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_DIGIT_ONE = "\u{11367}";
 
-    #[Info(id: 70504, name: 'COMBINING GRANTHA DIGIT TWO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11368, name: 'COMBINING GRANTHA DIGIT TWO', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_DIGIT_TWO = "\u{11368}";
 
-    #[Info(id: 70505, name: 'COMBINING GRANTHA DIGIT THREE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11369, name: 'COMBINING GRANTHA DIGIT THREE', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_DIGIT_THREE = "\u{11369}";
 
-    #[Info(id: 70506, name: 'COMBINING GRANTHA DIGIT FOUR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1136A, name: 'COMBINING GRANTHA DIGIT FOUR', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_DIGIT_FOUR = "\u{1136A}";
 
-    #[Info(id: 70507, name: 'COMBINING GRANTHA DIGIT FIVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1136B, name: 'COMBINING GRANTHA DIGIT FIVE', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_DIGIT_FIVE = "\u{1136B}";
 
-    #[Info(id: 70508, name: 'COMBINING GRANTHA DIGIT SIX', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1136C, name: 'COMBINING GRANTHA DIGIT SIX', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_DIGIT_SIX = "\u{1136C}";
 
-    #[Info(id: 70512, name: 'COMBINING GRANTHA LETTER A', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11370, name: 'COMBINING GRANTHA LETTER A', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_LETTER_A = "\u{11370}";
 
-    #[Info(id: 70513, name: 'COMBINING GRANTHA LETTER KA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11371, name: 'COMBINING GRANTHA LETTER KA', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_LETTER_KA = "\u{11371}";
 
-    #[Info(id: 70514, name: 'COMBINING GRANTHA LETTER NA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11372, name: 'COMBINING GRANTHA LETTER NA', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_LETTER_NA = "\u{11372}";
 
-    #[Info(id: 70515, name: 'COMBINING GRANTHA LETTER VI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11373, name: 'COMBINING GRANTHA LETTER VI', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_LETTER_VI = "\u{11373}";
 
-    #[Info(id: 70516, name: 'COMBINING GRANTHA LETTER PA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11374, name: 'COMBINING GRANTHA LETTER PA', category: Cat::Nonspacing_Mark)]
     case COMBINING_GRANTHA_LETTER_PA = "\u{11374}";
 }

@@ -16,99 +16,99 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Block_Elements: string
 {
-    #[Info(id: 9600, name: 'UPPER HALF BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2580, name: 'UPPER HALF BLOCK', category: Cat::Other_Symbol)]
     case UPPER_HALF_BLOCK = "\u{2580}";
 
-    #[Info(id: 9601, name: 'LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2581, name: 'LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case LOWER_ONE_EIGHTH_BLOCK = "\u{2581}";
 
-    #[Info(id: 9602, name: 'LOWER ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2582, name: 'LOWER ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
     case LOWER_ONE_QUARTER_BLOCK = "\u{2582}";
 
-    #[Info(id: 9603, name: 'LOWER THREE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2583, name: 'LOWER THREE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case LOWER_THREE_EIGHTHS_BLOCK = "\u{2583}";
 
-    #[Info(id: 9604, name: 'LOWER HALF BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2584, name: 'LOWER HALF BLOCK', category: Cat::Other_Symbol)]
     case LOWER_HALF_BLOCK = "\u{2584}";
 
-    #[Info(id: 9605, name: 'LOWER FIVE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2585, name: 'LOWER FIVE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case LOWER_FIVE_EIGHTHS_BLOCK = "\u{2585}";
 
-    #[Info(id: 9606, name: 'LOWER THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2586, name: 'LOWER THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
     case LOWER_THREE_QUARTERS_BLOCK = "\u{2586}";
 
-    #[Info(id: 9607, name: 'LOWER SEVEN EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2587, name: 'LOWER SEVEN EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case LOWER_SEVEN_EIGHTHS_BLOCK = "\u{2587}";
 
-    #[Info(id: 9608, name: 'FULL BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2588, name: 'FULL BLOCK', category: Cat::Other_Symbol)]
     case FULL_BLOCK = "\u{2588}";
 
-    #[Info(id: 9609, name: 'LEFT SEVEN EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2589, name: 'LEFT SEVEN EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case LEFT_SEVEN_EIGHTHS_BLOCK = "\u{2589}";
 
-    #[Info(id: 9610, name: 'LEFT THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x258A, name: 'LEFT THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
     case LEFT_THREE_QUARTERS_BLOCK = "\u{258A}";
 
-    #[Info(id: 9611, name: 'LEFT FIVE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x258B, name: 'LEFT FIVE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case LEFT_FIVE_EIGHTHS_BLOCK = "\u{258B}";
 
-    #[Info(id: 9612, name: 'LEFT HALF BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x258C, name: 'LEFT HALF BLOCK', category: Cat::Other_Symbol)]
     case LEFT_HALF_BLOCK = "\u{258C}";
 
-    #[Info(id: 9613, name: 'LEFT THREE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x258D, name: 'LEFT THREE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case LEFT_THREE_EIGHTHS_BLOCK = "\u{258D}";
 
-    #[Info(id: 9614, name: 'LEFT ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x258E, name: 'LEFT ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
     case LEFT_ONE_QUARTER_BLOCK = "\u{258E}";
 
-    #[Info(id: 9615, name: 'LEFT ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x258F, name: 'LEFT ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case LEFT_ONE_EIGHTH_BLOCK = "\u{258F}";
 
-    #[Info(id: 9616, name: 'RIGHT HALF BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2590, name: 'RIGHT HALF BLOCK', category: Cat::Other_Symbol)]
     case RIGHT_HALF_BLOCK = "\u{2590}";
 
-    #[Info(id: 9617, name: 'LIGHT SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2591, name: 'LIGHT SHADE', category: Cat::Other_Symbol)]
     case LIGHT_SHADE = "\u{2591}";
 
-    #[Info(id: 9618, name: 'MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2592, name: 'MEDIUM SHADE', category: Cat::Other_Symbol)]
     case MEDIUM_SHADE = "\u{2592}";
 
-    #[Info(id: 9619, name: 'DARK SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2593, name: 'DARK SHADE', category: Cat::Other_Symbol)]
     case DARK_SHADE = "\u{2593}";
 
-    #[Info(id: 9620, name: 'UPPER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2594, name: 'UPPER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case UPPER_ONE_EIGHTH_BLOCK = "\u{2594}";
 
-    #[Info(id: 9621, name: 'RIGHT ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2595, name: 'RIGHT ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case RIGHT_ONE_EIGHTH_BLOCK = "\u{2595}";
 
-    #[Info(id: 9622, name: 'QUADRANT LOWER LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2596, name: 'QUADRANT LOWER LEFT', category: Cat::Other_Symbol)]
     case QUADRANT_LOWER_LEFT = "\u{2596}";
 
-    #[Info(id: 9623, name: 'QUADRANT LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2597, name: 'QUADRANT LOWER RIGHT', category: Cat::Other_Symbol)]
     case QUADRANT_LOWER_RIGHT = "\u{2597}";
 
-    #[Info(id: 9624, name: 'QUADRANT UPPER LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2598, name: 'QUADRANT UPPER LEFT', category: Cat::Other_Symbol)]
     case QUADRANT_UPPER_LEFT = "\u{2598}";
 
-    #[Info(id: 9625, name: 'QUADRANT UPPER LEFT AND LOWER LEFT AND LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2599, name: 'QUADRANT UPPER LEFT AND LOWER LEFT AND LOWER RIGHT', category: Cat::Other_Symbol)]
     case QUADRANT_UPPER_LEFT_AND_LOWER_LEFT_AND_LOWER_RIGHT = "\u{2599}";
 
-    #[Info(id: 9626, name: 'QUADRANT UPPER LEFT AND LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x259A, name: 'QUADRANT UPPER LEFT AND LOWER RIGHT', category: Cat::Other_Symbol)]
     case QUADRANT_UPPER_LEFT_AND_LOWER_RIGHT = "\u{259A}";
 
-    #[Info(id: 9627, name: 'QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x259B, name: 'QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER LEFT', category: Cat::Other_Symbol)]
     case QUADRANT_UPPER_LEFT_AND_UPPER_RIGHT_AND_LOWER_LEFT = "\u{259B}";
 
-    #[Info(id: 9628, name: 'QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x259C, name: 'QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER RIGHT', category: Cat::Other_Symbol)]
     case QUADRANT_UPPER_LEFT_AND_UPPER_RIGHT_AND_LOWER_RIGHT = "\u{259C}";
 
-    #[Info(id: 9629, name: 'QUADRANT UPPER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x259D, name: 'QUADRANT UPPER RIGHT', category: Cat::Other_Symbol)]
     case QUADRANT_UPPER_RIGHT = "\u{259D}";
 
-    #[Info(id: 9630, name: 'QUADRANT UPPER RIGHT AND LOWER LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x259E, name: 'QUADRANT UPPER RIGHT AND LOWER LEFT', category: Cat::Other_Symbol)]
     case QUADRANT_UPPER_RIGHT_AND_LOWER_LEFT = "\u{259E}";
 
-    #[Info(id: 9631, name: 'QUADRANT UPPER RIGHT AND LOWER LEFT AND LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x259F, name: 'QUADRANT UPPER RIGHT AND LOWER LEFT AND LOWER RIGHT', category: Cat::Other_Symbol)]
     case QUADRANT_UPPER_RIGHT_AND_LOWER_LEFT_AND_LOWER_RIGHT = "\u{259F}";
 }

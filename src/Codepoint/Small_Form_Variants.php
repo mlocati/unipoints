@@ -16,81 +16,81 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Small_Form_Variants: string
 {
-    #[Info(id: 65104, name: 'SMALL COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE50, name: 'SMALL COMMA', category: Cat::Other_Punctuation)]
     case SMALL_COMMA = "\u{FE50}";
 
-    #[Info(id: 65105, name: 'SMALL IDEOGRAPHIC COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE51, name: 'SMALL IDEOGRAPHIC COMMA', category: Cat::Other_Punctuation)]
     case SMALL_IDEOGRAPHIC_COMMA = "\u{FE51}";
 
-    #[Info(id: 65106, name: 'SMALL FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE52, name: 'SMALL FULL STOP', category: Cat::Other_Punctuation)]
     case SMALL_FULL_STOP = "\u{FE52}";
 
-    #[Info(id: 65108, name: 'SMALL SEMICOLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE54, name: 'SMALL SEMICOLON', category: Cat::Other_Punctuation)]
     case SMALL_SEMICOLON = "\u{FE54}";
 
-    #[Info(id: 65109, name: 'SMALL COLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE55, name: 'SMALL COLON', category: Cat::Other_Punctuation)]
     case SMALL_COLON = "\u{FE55}";
 
-    #[Info(id: 65110, name: 'SMALL QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE56, name: 'SMALL QUESTION MARK', category: Cat::Other_Punctuation)]
     case SMALL_QUESTION_MARK = "\u{FE56}";
 
-    #[Info(id: 65111, name: 'SMALL EXCLAMATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE57, name: 'SMALL EXCLAMATION MARK', category: Cat::Other_Punctuation)]
     case SMALL_EXCLAMATION_MARK = "\u{FE57}";
 
-    #[Info(id: 65112, name: 'SMALL EM DASH', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0xFE58, name: 'SMALL EM DASH', category: Cat::Dash_Punctuation)]
     case SMALL_EM_DASH = "\u{FE58}";
 
-    #[Info(id: 65113, name: 'SMALL LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE59, name: 'SMALL LEFT PARENTHESIS', category: Cat::Open_Punctuation)]
     case SMALL_LEFT_PARENTHESIS = "\u{FE59}";
 
-    #[Info(id: 65114, name: 'SMALL RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE5A, name: 'SMALL RIGHT PARENTHESIS', category: Cat::Close_Punctuation)]
     case SMALL_RIGHT_PARENTHESIS = "\u{FE5A}";
 
-    #[Info(id: 65115, name: 'SMALL LEFT CURLY BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE5B, name: 'SMALL LEFT CURLY BRACKET', category: Cat::Open_Punctuation)]
     case SMALL_LEFT_CURLY_BRACKET = "\u{FE5B}";
 
-    #[Info(id: 65116, name: 'SMALL RIGHT CURLY BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE5C, name: 'SMALL RIGHT CURLY BRACKET', category: Cat::Close_Punctuation)]
     case SMALL_RIGHT_CURLY_BRACKET = "\u{FE5C}";
 
-    #[Info(id: 65117, name: 'SMALL LEFT TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0xFE5D, name: 'SMALL LEFT TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
     case SMALL_LEFT_TORTOISE_SHELL_BRACKET = "\u{FE5D}";
 
-    #[Info(id: 65118, name: 'SMALL RIGHT TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0xFE5E, name: 'SMALL RIGHT TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
     case SMALL_RIGHT_TORTOISE_SHELL_BRACKET = "\u{FE5E}";
 
-    #[Info(id: 65119, name: 'SMALL NUMBER SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE5F, name: 'SMALL NUMBER SIGN', category: Cat::Other_Punctuation)]
     case SMALL_NUMBER_SIGN = "\u{FE5F}";
 
-    #[Info(id: 65120, name: 'SMALL AMPERSAND', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE60, name: 'SMALL AMPERSAND', category: Cat::Other_Punctuation)]
     case SMALL_AMPERSAND = "\u{FE60}";
 
-    #[Info(id: 65121, name: 'SMALL ASTERISK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE61, name: 'SMALL ASTERISK', category: Cat::Other_Punctuation)]
     case SMALL_ASTERISK = "\u{FE61}";
 
-    #[Info(id: 65122, name: 'SMALL PLUS SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFE62, name: 'SMALL PLUS SIGN', category: Cat::Math_Symbol)]
     case SMALL_PLUS_SIGN = "\u{FE62}";
 
-    #[Info(id: 65123, name: 'SMALL HYPHEN-MINUS', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0xFE63, name: 'SMALL HYPHEN-MINUS', category: Cat::Dash_Punctuation)]
     case SMALL_HYPHEN_MINUS = "\u{FE63}";
 
-    #[Info(id: 65124, name: 'SMALL LESS-THAN SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFE64, name: 'SMALL LESS-THAN SIGN', category: Cat::Math_Symbol)]
     case SMALL_LESS_THAN_SIGN = "\u{FE64}";
 
-    #[Info(id: 65125, name: 'SMALL GREATER-THAN SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFE65, name: 'SMALL GREATER-THAN SIGN', category: Cat::Math_Symbol)]
     case SMALL_GREATER_THAN_SIGN = "\u{FE65}";
 
-    #[Info(id: 65126, name: 'SMALL EQUALS SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0xFE66, name: 'SMALL EQUALS SIGN', category: Cat::Math_Symbol)]
     case SMALL_EQUALS_SIGN = "\u{FE66}";
 
-    #[Info(id: 65128, name: 'SMALL REVERSE SOLIDUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE68, name: 'SMALL REVERSE SOLIDUS', category: Cat::Other_Punctuation)]
     case SMALL_REVERSE_SOLIDUS = "\u{FE68}";
 
-    #[Info(id: 65129, name: 'SMALL DOLLAR SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xFE69, name: 'SMALL DOLLAR SIGN', category: Cat::Currency_Symbol)]
     case SMALL_DOLLAR_SIGN = "\u{FE69}";
 
-    #[Info(id: 65130, name: 'SMALL PERCENT SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE6A, name: 'SMALL PERCENT SIGN', category: Cat::Other_Punctuation)]
     case SMALL_PERCENT_SIGN = "\u{FE6A}";
 
-    #[Info(id: 65131, name: 'SMALL COMMERCIAL AT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xFE6B, name: 'SMALL COMMERCIAL AT', category: Cat::Other_Punctuation)]
     case SMALL_COMMERCIAL_AT = "\u{FE6B}";
 }

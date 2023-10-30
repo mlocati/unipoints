@@ -16,348 +16,348 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Brahmi: string
 {
-    #[Info(id: 69632, name: 'BRAHMI SIGN CANDRABINDU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11000, name: 'BRAHMI SIGN CANDRABINDU', category: Cat::Spacing_Mark)]
     case BRAHMI_SIGN_CANDRABINDU = "\u{11000}";
 
-    #[Info(id: 69633, name: 'BRAHMI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11001, name: 'BRAHMI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case BRAHMI_SIGN_ANUSVARA = "\u{11001}";
 
-    #[Info(id: 69634, name: 'BRAHMI SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11002, name: 'BRAHMI SIGN VISARGA', category: Cat::Spacing_Mark)]
     case BRAHMI_SIGN_VISARGA = "\u{11002}";
 
-    #[Info(id: 69635, name: 'BRAHMI SIGN JIHVAMULIYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11003, name: 'BRAHMI SIGN JIHVAMULIYA', category: Cat::Other_Letter)]
     case BRAHMI_SIGN_JIHVAMULIYA = "\u{11003}";
 
-    #[Info(id: 69636, name: 'BRAHMI SIGN UPADHMANIYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11004, name: 'BRAHMI SIGN UPADHMANIYA', category: Cat::Other_Letter)]
     case BRAHMI_SIGN_UPADHMANIYA = "\u{11004}";
 
-    #[Info(id: 69637, name: 'BRAHMI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11005, name: 'BRAHMI LETTER A', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_A = "\u{11005}";
 
-    #[Info(id: 69638, name: 'BRAHMI LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11006, name: 'BRAHMI LETTER AA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_AA = "\u{11006}";
 
-    #[Info(id: 69639, name: 'BRAHMI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11007, name: 'BRAHMI LETTER I', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_I = "\u{11007}";
 
-    #[Info(id: 69640, name: 'BRAHMI LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x11008, name: 'BRAHMI LETTER II', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_II = "\u{11008}";
 
-    #[Info(id: 69641, name: 'BRAHMI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11009, name: 'BRAHMI LETTER U', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_U = "\u{11009}";
 
-    #[Info(id: 69642, name: 'BRAHMI LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1100A, name: 'BRAHMI LETTER UU', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_UU = "\u{1100A}";
 
-    #[Info(id: 69643, name: 'BRAHMI LETTER VOCALIC R', category: Cat::Other_Letter)]
+    #[Info(id: 0x1100B, name: 'BRAHMI LETTER VOCALIC R', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_VOCALIC_R = "\u{1100B}";
 
-    #[Info(id: 69644, name: 'BRAHMI LETTER VOCALIC RR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1100C, name: 'BRAHMI LETTER VOCALIC RR', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_VOCALIC_RR = "\u{1100C}";
 
-    #[Info(id: 69645, name: 'BRAHMI LETTER VOCALIC L', category: Cat::Other_Letter)]
+    #[Info(id: 0x1100D, name: 'BRAHMI LETTER VOCALIC L', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_VOCALIC_L = "\u{1100D}";
 
-    #[Info(id: 69646, name: 'BRAHMI LETTER VOCALIC LL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1100E, name: 'BRAHMI LETTER VOCALIC LL', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_VOCALIC_LL = "\u{1100E}";
 
-    #[Info(id: 69647, name: 'BRAHMI LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1100F, name: 'BRAHMI LETTER E', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_E = "\u{1100F}";
 
-    #[Info(id: 69648, name: 'BRAHMI LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x11010, name: 'BRAHMI LETTER AI', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_AI = "\u{11010}";
 
-    #[Info(id: 69649, name: 'BRAHMI LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x11011, name: 'BRAHMI LETTER O', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_O = "\u{11011}";
 
-    #[Info(id: 69650, name: 'BRAHMI LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11012, name: 'BRAHMI LETTER AU', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_AU = "\u{11012}";
 
-    #[Info(id: 69651, name: 'BRAHMI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11013, name: 'BRAHMI LETTER KA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_KA = "\u{11013}";
 
-    #[Info(id: 69652, name: 'BRAHMI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11014, name: 'BRAHMI LETTER KHA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_KHA = "\u{11014}";
 
-    #[Info(id: 69653, name: 'BRAHMI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11015, name: 'BRAHMI LETTER GA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_GA = "\u{11015}";
 
-    #[Info(id: 69654, name: 'BRAHMI LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11016, name: 'BRAHMI LETTER GHA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_GHA = "\u{11016}";
 
-    #[Info(id: 69655, name: 'BRAHMI LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11017, name: 'BRAHMI LETTER NGA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_NGA = "\u{11017}";
 
-    #[Info(id: 69656, name: 'BRAHMI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11018, name: 'BRAHMI LETTER CA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_CA = "\u{11018}";
 
-    #[Info(id: 69657, name: 'BRAHMI LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11019, name: 'BRAHMI LETTER CHA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_CHA = "\u{11019}";
 
-    #[Info(id: 69658, name: 'BRAHMI LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1101A, name: 'BRAHMI LETTER JA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_JA = "\u{1101A}";
 
-    #[Info(id: 69659, name: 'BRAHMI LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1101B, name: 'BRAHMI LETTER JHA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_JHA = "\u{1101B}";
 
-    #[Info(id: 69660, name: 'BRAHMI LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1101C, name: 'BRAHMI LETTER NYA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_NYA = "\u{1101C}";
 
-    #[Info(id: 69661, name: 'BRAHMI LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1101D, name: 'BRAHMI LETTER TTA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_TTA = "\u{1101D}";
 
-    #[Info(id: 69662, name: 'BRAHMI LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1101E, name: 'BRAHMI LETTER TTHA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_TTHA = "\u{1101E}";
 
-    #[Info(id: 69663, name: 'BRAHMI LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1101F, name: 'BRAHMI LETTER DDA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_DDA = "\u{1101F}";
 
-    #[Info(id: 69664, name: 'BRAHMI LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11020, name: 'BRAHMI LETTER DDHA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_DDHA = "\u{11020}";
 
-    #[Info(id: 69665, name: 'BRAHMI LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11021, name: 'BRAHMI LETTER NNA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_NNA = "\u{11021}";
 
-    #[Info(id: 69666, name: 'BRAHMI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11022, name: 'BRAHMI LETTER TA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_TA = "\u{11022}";
 
-    #[Info(id: 69667, name: 'BRAHMI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11023, name: 'BRAHMI LETTER THA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_THA = "\u{11023}";
 
-    #[Info(id: 69668, name: 'BRAHMI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11024, name: 'BRAHMI LETTER DA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_DA = "\u{11024}";
 
-    #[Info(id: 69669, name: 'BRAHMI LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11025, name: 'BRAHMI LETTER DHA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_DHA = "\u{11025}";
 
-    #[Info(id: 69670, name: 'BRAHMI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11026, name: 'BRAHMI LETTER NA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_NA = "\u{11026}";
 
-    #[Info(id: 69671, name: 'BRAHMI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11027, name: 'BRAHMI LETTER PA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_PA = "\u{11027}";
 
-    #[Info(id: 69672, name: 'BRAHMI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11028, name: 'BRAHMI LETTER PHA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_PHA = "\u{11028}";
 
-    #[Info(id: 69673, name: 'BRAHMI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11029, name: 'BRAHMI LETTER BA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_BA = "\u{11029}";
 
-    #[Info(id: 69674, name: 'BRAHMI LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1102A, name: 'BRAHMI LETTER BHA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_BHA = "\u{1102A}";
 
-    #[Info(id: 69675, name: 'BRAHMI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1102B, name: 'BRAHMI LETTER MA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_MA = "\u{1102B}";
 
-    #[Info(id: 69676, name: 'BRAHMI LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1102C, name: 'BRAHMI LETTER YA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_YA = "\u{1102C}";
 
-    #[Info(id: 69677, name: 'BRAHMI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1102D, name: 'BRAHMI LETTER RA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_RA = "\u{1102D}";
 
-    #[Info(id: 69678, name: 'BRAHMI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1102E, name: 'BRAHMI LETTER LA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_LA = "\u{1102E}";
 
-    #[Info(id: 69679, name: 'BRAHMI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1102F, name: 'BRAHMI LETTER VA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_VA = "\u{1102F}";
 
-    #[Info(id: 69680, name: 'BRAHMI LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11030, name: 'BRAHMI LETTER SHA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_SHA = "\u{11030}";
 
-    #[Info(id: 69681, name: 'BRAHMI LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11031, name: 'BRAHMI LETTER SSA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_SSA = "\u{11031}";
 
-    #[Info(id: 69682, name: 'BRAHMI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11032, name: 'BRAHMI LETTER SA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_SA = "\u{11032}";
 
-    #[Info(id: 69683, name: 'BRAHMI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11033, name: 'BRAHMI LETTER HA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_HA = "\u{11033}";
 
-    #[Info(id: 69684, name: 'BRAHMI LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11034, name: 'BRAHMI LETTER LLA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_LLA = "\u{11034}";
 
-    #[Info(id: 69685, name: 'BRAHMI LETTER OLD TAMIL LLLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11035, name: 'BRAHMI LETTER OLD TAMIL LLLA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_OLD_TAMIL_LLLA = "\u{11035}";
 
-    #[Info(id: 69686, name: 'BRAHMI LETTER OLD TAMIL RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11036, name: 'BRAHMI LETTER OLD TAMIL RRA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_OLD_TAMIL_RRA = "\u{11036}";
 
-    #[Info(id: 69687, name: 'BRAHMI LETTER OLD TAMIL NNNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11037, name: 'BRAHMI LETTER OLD TAMIL NNNA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_OLD_TAMIL_NNNA = "\u{11037}";
 
-    #[Info(id: 69688, name: 'BRAHMI VOWEL SIGN AA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11038, name: 'BRAHMI VOWEL SIGN AA', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_AA = "\u{11038}";
 
-    #[Info(id: 69689, name: 'BRAHMI VOWEL SIGN BHATTIPROLU AA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11039, name: 'BRAHMI VOWEL SIGN BHATTIPROLU AA', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_BHATTIPROLU_AA = "\u{11039}";
 
-    #[Info(id: 69690, name: 'BRAHMI VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1103A, name: 'BRAHMI VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_I = "\u{1103A}";
 
-    #[Info(id: 69691, name: 'BRAHMI VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1103B, name: 'BRAHMI VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_II = "\u{1103B}";
 
-    #[Info(id: 69692, name: 'BRAHMI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1103C, name: 'BRAHMI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_U = "\u{1103C}";
 
-    #[Info(id: 69693, name: 'BRAHMI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1103D, name: 'BRAHMI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_UU = "\u{1103D}";
 
-    #[Info(id: 69694, name: 'BRAHMI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1103E, name: 'BRAHMI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_VOCALIC_R = "\u{1103E}";
 
-    #[Info(id: 69695, name: 'BRAHMI VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1103F, name: 'BRAHMI VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_VOCALIC_RR = "\u{1103F}";
 
-    #[Info(id: 69696, name: 'BRAHMI VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11040, name: 'BRAHMI VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_VOCALIC_L = "\u{11040}";
 
-    #[Info(id: 69697, name: 'BRAHMI VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11041, name: 'BRAHMI VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_VOCALIC_LL = "\u{11041}";
 
-    #[Info(id: 69698, name: 'BRAHMI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11042, name: 'BRAHMI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_E = "\u{11042}";
 
-    #[Info(id: 69699, name: 'BRAHMI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11043, name: 'BRAHMI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_AI = "\u{11043}";
 
-    #[Info(id: 69700, name: 'BRAHMI VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11044, name: 'BRAHMI VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_O = "\u{11044}";
 
-    #[Info(id: 69701, name: 'BRAHMI VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11045, name: 'BRAHMI VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_AU = "\u{11045}";
 
-    #[Info(id: 69702, name: 'BRAHMI VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11046, name: 'BRAHMI VIRAMA', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VIRAMA = "\u{11046}";
 
-    #[Info(id: 69703, name: 'BRAHMI DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11047, name: 'BRAHMI DANDA', category: Cat::Other_Punctuation)]
     case BRAHMI_DANDA = "\u{11047}";
 
-    #[Info(id: 69704, name: 'BRAHMI DOUBLE DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11048, name: 'BRAHMI DOUBLE DANDA', category: Cat::Other_Punctuation)]
     case BRAHMI_DOUBLE_DANDA = "\u{11048}";
 
-    #[Info(id: 69705, name: 'BRAHMI PUNCTUATION DOT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11049, name: 'BRAHMI PUNCTUATION DOT', category: Cat::Other_Punctuation)]
     case BRAHMI_PUNCTUATION_DOT = "\u{11049}";
 
-    #[Info(id: 69706, name: 'BRAHMI PUNCTUATION DOUBLE DOT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1104A, name: 'BRAHMI PUNCTUATION DOUBLE DOT', category: Cat::Other_Punctuation)]
     case BRAHMI_PUNCTUATION_DOUBLE_DOT = "\u{1104A}";
 
-    #[Info(id: 69707, name: 'BRAHMI PUNCTUATION LINE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1104B, name: 'BRAHMI PUNCTUATION LINE', category: Cat::Other_Punctuation)]
     case BRAHMI_PUNCTUATION_LINE = "\u{1104B}";
 
-    #[Info(id: 69708, name: 'BRAHMI PUNCTUATION CRESCENT BAR', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1104C, name: 'BRAHMI PUNCTUATION CRESCENT BAR', category: Cat::Other_Punctuation)]
     case BRAHMI_PUNCTUATION_CRESCENT_BAR = "\u{1104C}";
 
-    #[Info(id: 69709, name: 'BRAHMI PUNCTUATION LOTUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1104D, name: 'BRAHMI PUNCTUATION LOTUS', category: Cat::Other_Punctuation)]
     case BRAHMI_PUNCTUATION_LOTUS = "\u{1104D}";
 
-    #[Info(id: 69714, name: 'BRAHMI NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x11052, name: 'BRAHMI NUMBER ONE', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_ONE = "\u{11052}";
 
-    #[Info(id: 69715, name: 'BRAHMI NUMBER TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x11053, name: 'BRAHMI NUMBER TWO', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_TWO = "\u{11053}";
 
-    #[Info(id: 69716, name: 'BRAHMI NUMBER THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x11054, name: 'BRAHMI NUMBER THREE', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_THREE = "\u{11054}";
 
-    #[Info(id: 69717, name: 'BRAHMI NUMBER FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x11055, name: 'BRAHMI NUMBER FOUR', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_FOUR = "\u{11055}";
 
-    #[Info(id: 69718, name: 'BRAHMI NUMBER FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x11056, name: 'BRAHMI NUMBER FIVE', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_FIVE = "\u{11056}";
 
-    #[Info(id: 69719, name: 'BRAHMI NUMBER SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x11057, name: 'BRAHMI NUMBER SIX', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_SIX = "\u{11057}";
 
-    #[Info(id: 69720, name: 'BRAHMI NUMBER SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x11058, name: 'BRAHMI NUMBER SEVEN', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_SEVEN = "\u{11058}";
 
-    #[Info(id: 69721, name: 'BRAHMI NUMBER EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x11059, name: 'BRAHMI NUMBER EIGHT', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_EIGHT = "\u{11059}";
 
-    #[Info(id: 69722, name: 'BRAHMI NUMBER NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x1105A, name: 'BRAHMI NUMBER NINE', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_NINE = "\u{1105A}";
 
-    #[Info(id: 69723, name: 'BRAHMI NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1105B, name: 'BRAHMI NUMBER TEN', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_TEN = "\u{1105B}";
 
-    #[Info(id: 69724, name: 'BRAHMI NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x1105C, name: 'BRAHMI NUMBER TWENTY', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_TWENTY = "\u{1105C}";
 
-    #[Info(id: 69725, name: 'BRAHMI NUMBER THIRTY', category: Cat::Other_Number)]
+    #[Info(id: 0x1105D, name: 'BRAHMI NUMBER THIRTY', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_THIRTY = "\u{1105D}";
 
-    #[Info(id: 69726, name: 'BRAHMI NUMBER FORTY', category: Cat::Other_Number)]
+    #[Info(id: 0x1105E, name: 'BRAHMI NUMBER FORTY', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_FORTY = "\u{1105E}";
 
-    #[Info(id: 69727, name: 'BRAHMI NUMBER FIFTY', category: Cat::Other_Number)]
+    #[Info(id: 0x1105F, name: 'BRAHMI NUMBER FIFTY', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_FIFTY = "\u{1105F}";
 
-    #[Info(id: 69728, name: 'BRAHMI NUMBER SIXTY', category: Cat::Other_Number)]
+    #[Info(id: 0x11060, name: 'BRAHMI NUMBER SIXTY', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_SIXTY = "\u{11060}";
 
-    #[Info(id: 69729, name: 'BRAHMI NUMBER SEVENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x11061, name: 'BRAHMI NUMBER SEVENTY', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_SEVENTY = "\u{11061}";
 
-    #[Info(id: 69730, name: 'BRAHMI NUMBER EIGHTY', category: Cat::Other_Number)]
+    #[Info(id: 0x11062, name: 'BRAHMI NUMBER EIGHTY', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_EIGHTY = "\u{11062}";
 
-    #[Info(id: 69731, name: 'BRAHMI NUMBER NINETY', category: Cat::Other_Number)]
+    #[Info(id: 0x11063, name: 'BRAHMI NUMBER NINETY', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_NINETY = "\u{11063}";
 
-    #[Info(id: 69732, name: 'BRAHMI NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x11064, name: 'BRAHMI NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_ONE_HUNDRED = "\u{11064}";
 
-    #[Info(id: 69733, name: 'BRAHMI NUMBER ONE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x11065, name: 'BRAHMI NUMBER ONE THOUSAND', category: Cat::Other_Number)]
     case BRAHMI_NUMBER_ONE_THOUSAND = "\u{11065}";
 
-    #[Info(id: 69734, name: 'BRAHMI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11066, name: 'BRAHMI DIGIT ZERO', category: Cat::Decimal_Number)]
     case BRAHMI_DIGIT_ZERO = "\u{11066}";
 
-    #[Info(id: 69735, name: 'BRAHMI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11067, name: 'BRAHMI DIGIT ONE', category: Cat::Decimal_Number)]
     case BRAHMI_DIGIT_ONE = "\u{11067}";
 
-    #[Info(id: 69736, name: 'BRAHMI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11068, name: 'BRAHMI DIGIT TWO', category: Cat::Decimal_Number)]
     case BRAHMI_DIGIT_TWO = "\u{11068}";
 
-    #[Info(id: 69737, name: 'BRAHMI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11069, name: 'BRAHMI DIGIT THREE', category: Cat::Decimal_Number)]
     case BRAHMI_DIGIT_THREE = "\u{11069}";
 
-    #[Info(id: 69738, name: 'BRAHMI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1106A, name: 'BRAHMI DIGIT FOUR', category: Cat::Decimal_Number)]
     case BRAHMI_DIGIT_FOUR = "\u{1106A}";
 
-    #[Info(id: 69739, name: 'BRAHMI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1106B, name: 'BRAHMI DIGIT FIVE', category: Cat::Decimal_Number)]
     case BRAHMI_DIGIT_FIVE = "\u{1106B}";
 
-    #[Info(id: 69740, name: 'BRAHMI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1106C, name: 'BRAHMI DIGIT SIX', category: Cat::Decimal_Number)]
     case BRAHMI_DIGIT_SIX = "\u{1106C}";
 
-    #[Info(id: 69741, name: 'BRAHMI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1106D, name: 'BRAHMI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case BRAHMI_DIGIT_SEVEN = "\u{1106D}";
 
-    #[Info(id: 69742, name: 'BRAHMI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1106E, name: 'BRAHMI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case BRAHMI_DIGIT_EIGHT = "\u{1106E}";
 
-    #[Info(id: 69743, name: 'BRAHMI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1106F, name: 'BRAHMI DIGIT NINE', category: Cat::Decimal_Number)]
     case BRAHMI_DIGIT_NINE = "\u{1106F}";
 
-    #[Info(id: 69744, name: 'BRAHMI SIGN OLD TAMIL VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11070, name: 'BRAHMI SIGN OLD TAMIL VIRAMA', category: Cat::Nonspacing_Mark)]
     case BRAHMI_SIGN_OLD_TAMIL_VIRAMA = "\u{11070}";
 
-    #[Info(id: 69745, name: 'BRAHMI LETTER OLD TAMIL SHORT E', category: Cat::Other_Letter)]
+    #[Info(id: 0x11071, name: 'BRAHMI LETTER OLD TAMIL SHORT E', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_OLD_TAMIL_SHORT_E = "\u{11071}";
 
-    #[Info(id: 69746, name: 'BRAHMI LETTER OLD TAMIL SHORT O', category: Cat::Other_Letter)]
+    #[Info(id: 0x11072, name: 'BRAHMI LETTER OLD TAMIL SHORT O', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_OLD_TAMIL_SHORT_O = "\u{11072}";
 
-    #[Info(id: 69747, name: 'BRAHMI VOWEL SIGN OLD TAMIL SHORT E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11073, name: 'BRAHMI VOWEL SIGN OLD TAMIL SHORT E', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_OLD_TAMIL_SHORT_E = "\u{11073}";
 
-    #[Info(id: 69748, name: 'BRAHMI VOWEL SIGN OLD TAMIL SHORT O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11074, name: 'BRAHMI VOWEL SIGN OLD TAMIL SHORT O', category: Cat::Nonspacing_Mark)]
     case BRAHMI_VOWEL_SIGN_OLD_TAMIL_SHORT_O = "\u{11074}";
 
-    #[Info(id: 69749, name: 'BRAHMI LETTER OLD TAMIL LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11075, name: 'BRAHMI LETTER OLD TAMIL LLA', category: Cat::Other_Letter)]
     case BRAHMI_LETTER_OLD_TAMIL_LLA = "\u{11075}";
 
-    #[Info(id: 69759, name: 'BRAHMI NUMBER JOINER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1107F, name: 'BRAHMI NUMBER JOINER', category: Cat::Nonspacing_Mark)]
     case BRAHMI_NUMBER_JOINER = "\u{1107F}";
 }

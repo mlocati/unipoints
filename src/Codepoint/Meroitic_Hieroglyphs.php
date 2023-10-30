@@ -16,99 +16,99 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Meroitic_Hieroglyphs: string
 {
-    #[Info(id: 67968, name: 'MEROITIC HIEROGLYPHIC LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x10980, name: 'MEROITIC HIEROGLYPHIC LETTER A', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_A = "\u{10980}";
 
-    #[Info(id: 67969, name: 'MEROITIC HIEROGLYPHIC LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x10981, name: 'MEROITIC HIEROGLYPHIC LETTER E', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_E = "\u{10981}";
 
-    #[Info(id: 67970, name: 'MEROITIC HIEROGLYPHIC LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x10982, name: 'MEROITIC HIEROGLYPHIC LETTER I', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_I = "\u{10982}";
 
-    #[Info(id: 67971, name: 'MEROITIC HIEROGLYPHIC LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x10983, name: 'MEROITIC HIEROGLYPHIC LETTER O', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_O = "\u{10983}";
 
-    #[Info(id: 67972, name: 'MEROITIC HIEROGLYPHIC LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10984, name: 'MEROITIC HIEROGLYPHIC LETTER YA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_YA = "\u{10984}";
 
-    #[Info(id: 67973, name: 'MEROITIC HIEROGLYPHIC LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10985, name: 'MEROITIC HIEROGLYPHIC LETTER WA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_WA = "\u{10985}";
 
-    #[Info(id: 67974, name: 'MEROITIC HIEROGLYPHIC LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10986, name: 'MEROITIC HIEROGLYPHIC LETTER BA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_BA = "\u{10986}";
 
-    #[Info(id: 67975, name: 'MEROITIC HIEROGLYPHIC LETTER BA-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x10987, name: 'MEROITIC HIEROGLYPHIC LETTER BA-2', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_BA_2 = "\u{10987}";
 
-    #[Info(id: 67976, name: 'MEROITIC HIEROGLYPHIC LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10988, name: 'MEROITIC HIEROGLYPHIC LETTER PA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_PA = "\u{10988}";
 
-    #[Info(id: 67977, name: 'MEROITIC HIEROGLYPHIC LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10989, name: 'MEROITIC HIEROGLYPHIC LETTER MA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_MA = "\u{10989}";
 
-    #[Info(id: 67978, name: 'MEROITIC HIEROGLYPHIC LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1098A, name: 'MEROITIC HIEROGLYPHIC LETTER NA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_NA = "\u{1098A}";
 
-    #[Info(id: 67979, name: 'MEROITIC HIEROGLYPHIC LETTER NA-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1098B, name: 'MEROITIC HIEROGLYPHIC LETTER NA-2', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_NA_2 = "\u{1098B}";
 
-    #[Info(id: 67980, name: 'MEROITIC HIEROGLYPHIC LETTER NE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1098C, name: 'MEROITIC HIEROGLYPHIC LETTER NE', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_NE = "\u{1098C}";
 
-    #[Info(id: 67981, name: 'MEROITIC HIEROGLYPHIC LETTER NE-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1098D, name: 'MEROITIC HIEROGLYPHIC LETTER NE-2', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_NE_2 = "\u{1098D}";
 
-    #[Info(id: 67982, name: 'MEROITIC HIEROGLYPHIC LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1098E, name: 'MEROITIC HIEROGLYPHIC LETTER RA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_RA = "\u{1098E}";
 
-    #[Info(id: 67983, name: 'MEROITIC HIEROGLYPHIC LETTER RA-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1098F, name: 'MEROITIC HIEROGLYPHIC LETTER RA-2', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_RA_2 = "\u{1098F}";
 
-    #[Info(id: 67984, name: 'MEROITIC HIEROGLYPHIC LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10990, name: 'MEROITIC HIEROGLYPHIC LETTER LA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_LA = "\u{10990}";
 
-    #[Info(id: 67985, name: 'MEROITIC HIEROGLYPHIC LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10991, name: 'MEROITIC HIEROGLYPHIC LETTER KHA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_KHA = "\u{10991}";
 
-    #[Info(id: 67986, name: 'MEROITIC HIEROGLYPHIC LETTER HHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10992, name: 'MEROITIC HIEROGLYPHIC LETTER HHA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_HHA = "\u{10992}";
 
-    #[Info(id: 67987, name: 'MEROITIC HIEROGLYPHIC LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10993, name: 'MEROITIC HIEROGLYPHIC LETTER SA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_SA = "\u{10993}";
 
-    #[Info(id: 67988, name: 'MEROITIC HIEROGLYPHIC LETTER SA-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x10994, name: 'MEROITIC HIEROGLYPHIC LETTER SA-2', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_SA_2 = "\u{10994}";
 
-    #[Info(id: 67989, name: 'MEROITIC HIEROGLYPHIC LETTER SE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10995, name: 'MEROITIC HIEROGLYPHIC LETTER SE', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_SE = "\u{10995}";
 
-    #[Info(id: 67990, name: 'MEROITIC HIEROGLYPHIC LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10996, name: 'MEROITIC HIEROGLYPHIC LETTER KA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_KA = "\u{10996}";
 
-    #[Info(id: 67991, name: 'MEROITIC HIEROGLYPHIC LETTER QA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10997, name: 'MEROITIC HIEROGLYPHIC LETTER QA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_QA = "\u{10997}";
 
-    #[Info(id: 67992, name: 'MEROITIC HIEROGLYPHIC LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10998, name: 'MEROITIC HIEROGLYPHIC LETTER TA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_TA = "\u{10998}";
 
-    #[Info(id: 67993, name: 'MEROITIC HIEROGLYPHIC LETTER TA-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x10999, name: 'MEROITIC HIEROGLYPHIC LETTER TA-2', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_TA_2 = "\u{10999}";
 
-    #[Info(id: 67994, name: 'MEROITIC HIEROGLYPHIC LETTER TE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1099A, name: 'MEROITIC HIEROGLYPHIC LETTER TE', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_TE = "\u{1099A}";
 
-    #[Info(id: 67995, name: 'MEROITIC HIEROGLYPHIC LETTER TE-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1099B, name: 'MEROITIC HIEROGLYPHIC LETTER TE-2', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_TE_2 = "\u{1099B}";
 
-    #[Info(id: 67996, name: 'MEROITIC HIEROGLYPHIC LETTER TO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1099C, name: 'MEROITIC HIEROGLYPHIC LETTER TO', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_TO = "\u{1099C}";
 
-    #[Info(id: 67997, name: 'MEROITIC HIEROGLYPHIC LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1099D, name: 'MEROITIC HIEROGLYPHIC LETTER DA', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_LETTER_DA = "\u{1099D}";
 
-    #[Info(id: 67998, name: 'MEROITIC HIEROGLYPHIC SYMBOL VIDJ', category: Cat::Other_Letter)]
+    #[Info(id: 0x1099E, name: 'MEROITIC HIEROGLYPHIC SYMBOL VIDJ', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_SYMBOL_VIDJ = "\u{1099E}";
 
-    #[Info(id: 67999, name: 'MEROITIC HIEROGLYPHIC SYMBOL VIDJ-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1099F, name: 'MEROITIC HIEROGLYPHIC SYMBOL VIDJ-2', category: Cat::Other_Letter)]
     case MEROITIC_HIEROGLYPHIC_SYMBOL_VIDJ_2 = "\u{1099F}";
 }

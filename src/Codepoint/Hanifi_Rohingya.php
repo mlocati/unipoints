@@ -16,153 +16,153 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Hanifi_Rohingya: string
 {
-    #[Info(id: 68864, name: 'HANIFI ROHINGYA LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D00, name: 'HANIFI ROHINGYA LETTER A', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_A = "\u{10D00}";
 
-    #[Info(id: 68865, name: 'HANIFI ROHINGYA LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D01, name: 'HANIFI ROHINGYA LETTER BA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_BA = "\u{10D01}";
 
-    #[Info(id: 68866, name: 'HANIFI ROHINGYA LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D02, name: 'HANIFI ROHINGYA LETTER PA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_PA = "\u{10D02}";
 
-    #[Info(id: 68867, name: 'HANIFI ROHINGYA LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D03, name: 'HANIFI ROHINGYA LETTER TA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_TA = "\u{10D03}";
 
-    #[Info(id: 68868, name: 'HANIFI ROHINGYA LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D04, name: 'HANIFI ROHINGYA LETTER TTA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_TTA = "\u{10D04}";
 
-    #[Info(id: 68869, name: 'HANIFI ROHINGYA LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D05, name: 'HANIFI ROHINGYA LETTER JA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_JA = "\u{10D05}";
 
-    #[Info(id: 68870, name: 'HANIFI ROHINGYA LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D06, name: 'HANIFI ROHINGYA LETTER CA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_CA = "\u{10D06}";
 
-    #[Info(id: 68871, name: 'HANIFI ROHINGYA LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D07, name: 'HANIFI ROHINGYA LETTER HA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_HA = "\u{10D07}";
 
-    #[Info(id: 68872, name: 'HANIFI ROHINGYA LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D08, name: 'HANIFI ROHINGYA LETTER KHA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_KHA = "\u{10D08}";
 
-    #[Info(id: 68873, name: 'HANIFI ROHINGYA LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D09, name: 'HANIFI ROHINGYA LETTER FA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_FA = "\u{10D09}";
 
-    #[Info(id: 68874, name: 'HANIFI ROHINGYA LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D0A, name: 'HANIFI ROHINGYA LETTER DA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_DA = "\u{10D0A}";
 
-    #[Info(id: 68875, name: 'HANIFI ROHINGYA LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D0B, name: 'HANIFI ROHINGYA LETTER DDA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_DDA = "\u{10D0B}";
 
-    #[Info(id: 68876, name: 'HANIFI ROHINGYA LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D0C, name: 'HANIFI ROHINGYA LETTER RA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_RA = "\u{10D0C}";
 
-    #[Info(id: 68877, name: 'HANIFI ROHINGYA LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D0D, name: 'HANIFI ROHINGYA LETTER RRA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_RRA = "\u{10D0D}";
 
-    #[Info(id: 68878, name: 'HANIFI ROHINGYA LETTER ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D0E, name: 'HANIFI ROHINGYA LETTER ZA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_ZA = "\u{10D0E}";
 
-    #[Info(id: 68879, name: 'HANIFI ROHINGYA LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D0F, name: 'HANIFI ROHINGYA LETTER SA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_SA = "\u{10D0F}";
 
-    #[Info(id: 68880, name: 'HANIFI ROHINGYA LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D10, name: 'HANIFI ROHINGYA LETTER SHA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_SHA = "\u{10D10}";
 
-    #[Info(id: 68881, name: 'HANIFI ROHINGYA LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D11, name: 'HANIFI ROHINGYA LETTER KA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_KA = "\u{10D11}";
 
-    #[Info(id: 68882, name: 'HANIFI ROHINGYA LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D12, name: 'HANIFI ROHINGYA LETTER GA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_GA = "\u{10D12}";
 
-    #[Info(id: 68883, name: 'HANIFI ROHINGYA LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D13, name: 'HANIFI ROHINGYA LETTER LA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_LA = "\u{10D13}";
 
-    #[Info(id: 68884, name: 'HANIFI ROHINGYA LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D14, name: 'HANIFI ROHINGYA LETTER MA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_MA = "\u{10D14}";
 
-    #[Info(id: 68885, name: 'HANIFI ROHINGYA LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D15, name: 'HANIFI ROHINGYA LETTER NA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_NA = "\u{10D15}";
 
-    #[Info(id: 68886, name: 'HANIFI ROHINGYA LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D16, name: 'HANIFI ROHINGYA LETTER WA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_WA = "\u{10D16}";
 
-    #[Info(id: 68887, name: 'HANIFI ROHINGYA LETTER KINNA WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D17, name: 'HANIFI ROHINGYA LETTER KINNA WA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_KINNA_WA = "\u{10D17}";
 
-    #[Info(id: 68888, name: 'HANIFI ROHINGYA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D18, name: 'HANIFI ROHINGYA LETTER YA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_YA = "\u{10D18}";
 
-    #[Info(id: 68889, name: 'HANIFI ROHINGYA LETTER KINNA YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D19, name: 'HANIFI ROHINGYA LETTER KINNA YA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_KINNA_YA = "\u{10D19}";
 
-    #[Info(id: 68890, name: 'HANIFI ROHINGYA LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D1A, name: 'HANIFI ROHINGYA LETTER NGA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_NGA = "\u{10D1A}";
 
-    #[Info(id: 68891, name: 'HANIFI ROHINGYA LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D1B, name: 'HANIFI ROHINGYA LETTER NYA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_NYA = "\u{10D1B}";
 
-    #[Info(id: 68892, name: 'HANIFI ROHINGYA LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D1C, name: 'HANIFI ROHINGYA LETTER VA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_LETTER_VA = "\u{10D1C}";
 
-    #[Info(id: 68893, name: 'HANIFI ROHINGYA VOWEL A', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D1D, name: 'HANIFI ROHINGYA VOWEL A', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_VOWEL_A = "\u{10D1D}";
 
-    #[Info(id: 68894, name: 'HANIFI ROHINGYA VOWEL I', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D1E, name: 'HANIFI ROHINGYA VOWEL I', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_VOWEL_I = "\u{10D1E}";
 
-    #[Info(id: 68895, name: 'HANIFI ROHINGYA VOWEL U', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D1F, name: 'HANIFI ROHINGYA VOWEL U', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_VOWEL_U = "\u{10D1F}";
 
-    #[Info(id: 68896, name: 'HANIFI ROHINGYA VOWEL E', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D20, name: 'HANIFI ROHINGYA VOWEL E', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_VOWEL_E = "\u{10D20}";
 
-    #[Info(id: 68897, name: 'HANIFI ROHINGYA VOWEL O', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D21, name: 'HANIFI ROHINGYA VOWEL O', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_VOWEL_O = "\u{10D21}";
 
-    #[Info(id: 68898, name: 'HANIFI ROHINGYA MARK SAKIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D22, name: 'HANIFI ROHINGYA MARK SAKIN', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_MARK_SAKIN = "\u{10D22}";
 
-    #[Info(id: 68899, name: 'HANIFI ROHINGYA MARK NA KHONNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10D23, name: 'HANIFI ROHINGYA MARK NA KHONNA', category: Cat::Other_Letter)]
     case HANIFI_ROHINGYA_MARK_NA_KHONNA = "\u{10D23}";
 
-    #[Info(id: 68900, name: 'HANIFI ROHINGYA SIGN HARBAHAY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10D24, name: 'HANIFI ROHINGYA SIGN HARBAHAY', category: Cat::Nonspacing_Mark)]
     case HANIFI_ROHINGYA_SIGN_HARBAHAY = "\u{10D24}";
 
-    #[Info(id: 68901, name: 'HANIFI ROHINGYA SIGN TAHALA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10D25, name: 'HANIFI ROHINGYA SIGN TAHALA', category: Cat::Nonspacing_Mark)]
     case HANIFI_ROHINGYA_SIGN_TAHALA = "\u{10D25}";
 
-    #[Info(id: 68902, name: 'HANIFI ROHINGYA SIGN TANA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10D26, name: 'HANIFI ROHINGYA SIGN TANA', category: Cat::Nonspacing_Mark)]
     case HANIFI_ROHINGYA_SIGN_TANA = "\u{10D26}";
 
-    #[Info(id: 68903, name: 'HANIFI ROHINGYA SIGN TASSI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10D27, name: 'HANIFI ROHINGYA SIGN TASSI', category: Cat::Nonspacing_Mark)]
     case HANIFI_ROHINGYA_SIGN_TASSI = "\u{10D27}";
 
-    #[Info(id: 68912, name: 'HANIFI ROHINGYA DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x10D30, name: 'HANIFI ROHINGYA DIGIT ZERO', category: Cat::Decimal_Number)]
     case HANIFI_ROHINGYA_DIGIT_ZERO = "\u{10D30}";
 
-    #[Info(id: 68913, name: 'HANIFI ROHINGYA DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x10D31, name: 'HANIFI ROHINGYA DIGIT ONE', category: Cat::Decimal_Number)]
     case HANIFI_ROHINGYA_DIGIT_ONE = "\u{10D31}";
 
-    #[Info(id: 68914, name: 'HANIFI ROHINGYA DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x10D32, name: 'HANIFI ROHINGYA DIGIT TWO', category: Cat::Decimal_Number)]
     case HANIFI_ROHINGYA_DIGIT_TWO = "\u{10D32}";
 
-    #[Info(id: 68915, name: 'HANIFI ROHINGYA DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x10D33, name: 'HANIFI ROHINGYA DIGIT THREE', category: Cat::Decimal_Number)]
     case HANIFI_ROHINGYA_DIGIT_THREE = "\u{10D33}";
 
-    #[Info(id: 68916, name: 'HANIFI ROHINGYA DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x10D34, name: 'HANIFI ROHINGYA DIGIT FOUR', category: Cat::Decimal_Number)]
     case HANIFI_ROHINGYA_DIGIT_FOUR = "\u{10D34}";
 
-    #[Info(id: 68917, name: 'HANIFI ROHINGYA DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x10D35, name: 'HANIFI ROHINGYA DIGIT FIVE', category: Cat::Decimal_Number)]
     case HANIFI_ROHINGYA_DIGIT_FIVE = "\u{10D35}";
 
-    #[Info(id: 68918, name: 'HANIFI ROHINGYA DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x10D36, name: 'HANIFI ROHINGYA DIGIT SIX', category: Cat::Decimal_Number)]
     case HANIFI_ROHINGYA_DIGIT_SIX = "\u{10D36}";
 
-    #[Info(id: 68919, name: 'HANIFI ROHINGYA DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x10D37, name: 'HANIFI ROHINGYA DIGIT SEVEN', category: Cat::Decimal_Number)]
     case HANIFI_ROHINGYA_DIGIT_SEVEN = "\u{10D37}";
 
-    #[Info(id: 68920, name: 'HANIFI ROHINGYA DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x10D38, name: 'HANIFI ROHINGYA DIGIT EIGHT', category: Cat::Decimal_Number)]
     case HANIFI_ROHINGYA_DIGIT_EIGHT = "\u{10D38}";
 
-    #[Info(id: 68921, name: 'HANIFI ROHINGYA DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x10D39, name: 'HANIFI ROHINGYA DIGIT NINE', category: Cat::Decimal_Number)]
     case HANIFI_ROHINGYA_DIGIT_NINE = "\u{10D39}";
 }

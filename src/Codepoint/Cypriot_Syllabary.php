@@ -16,168 +16,168 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Cypriot_Syllabary: string
 {
-    #[Info(id: 67584, name: 'CYPRIOT SYLLABLE A', category: Cat::Other_Letter)]
+    #[Info(id: 0x10800, name: 'CYPRIOT SYLLABLE A', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_A = "\u{10800}";
 
-    #[Info(id: 67585, name: 'CYPRIOT SYLLABLE E', category: Cat::Other_Letter)]
+    #[Info(id: 0x10801, name: 'CYPRIOT SYLLABLE E', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_E = "\u{10801}";
 
-    #[Info(id: 67586, name: 'CYPRIOT SYLLABLE I', category: Cat::Other_Letter)]
+    #[Info(id: 0x10802, name: 'CYPRIOT SYLLABLE I', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_I = "\u{10802}";
 
-    #[Info(id: 67587, name: 'CYPRIOT SYLLABLE O', category: Cat::Other_Letter)]
+    #[Info(id: 0x10803, name: 'CYPRIOT SYLLABLE O', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_O = "\u{10803}";
 
-    #[Info(id: 67588, name: 'CYPRIOT SYLLABLE U', category: Cat::Other_Letter)]
+    #[Info(id: 0x10804, name: 'CYPRIOT SYLLABLE U', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_U = "\u{10804}";
 
-    #[Info(id: 67589, name: 'CYPRIOT SYLLABLE JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10805, name: 'CYPRIOT SYLLABLE JA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_JA = "\u{10805}";
 
-    #[Info(id: 67592, name: 'CYPRIOT SYLLABLE JO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10808, name: 'CYPRIOT SYLLABLE JO', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_JO = "\u{10808}";
 
-    #[Info(id: 67594, name: 'CYPRIOT SYLLABLE KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1080A, name: 'CYPRIOT SYLLABLE KA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_KA = "\u{1080A}";
 
-    #[Info(id: 67595, name: 'CYPRIOT SYLLABLE KE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1080B, name: 'CYPRIOT SYLLABLE KE', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_KE = "\u{1080B}";
 
-    #[Info(id: 67596, name: 'CYPRIOT SYLLABLE KI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1080C, name: 'CYPRIOT SYLLABLE KI', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_KI = "\u{1080C}";
 
-    #[Info(id: 67597, name: 'CYPRIOT SYLLABLE KO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1080D, name: 'CYPRIOT SYLLABLE KO', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_KO = "\u{1080D}";
 
-    #[Info(id: 67598, name: 'CYPRIOT SYLLABLE KU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1080E, name: 'CYPRIOT SYLLABLE KU', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_KU = "\u{1080E}";
 
-    #[Info(id: 67599, name: 'CYPRIOT SYLLABLE LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1080F, name: 'CYPRIOT SYLLABLE LA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_LA = "\u{1080F}";
 
-    #[Info(id: 67600, name: 'CYPRIOT SYLLABLE LE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10810, name: 'CYPRIOT SYLLABLE LE', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_LE = "\u{10810}";
 
-    #[Info(id: 67601, name: 'CYPRIOT SYLLABLE LI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10811, name: 'CYPRIOT SYLLABLE LI', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_LI = "\u{10811}";
 
-    #[Info(id: 67602, name: 'CYPRIOT SYLLABLE LO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10812, name: 'CYPRIOT SYLLABLE LO', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_LO = "\u{10812}";
 
-    #[Info(id: 67603, name: 'CYPRIOT SYLLABLE LU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10813, name: 'CYPRIOT SYLLABLE LU', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_LU = "\u{10813}";
 
-    #[Info(id: 67604, name: 'CYPRIOT SYLLABLE MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10814, name: 'CYPRIOT SYLLABLE MA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_MA = "\u{10814}";
 
-    #[Info(id: 67605, name: 'CYPRIOT SYLLABLE ME', category: Cat::Other_Letter)]
+    #[Info(id: 0x10815, name: 'CYPRIOT SYLLABLE ME', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_ME = "\u{10815}";
 
-    #[Info(id: 67606, name: 'CYPRIOT SYLLABLE MI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10816, name: 'CYPRIOT SYLLABLE MI', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_MI = "\u{10816}";
 
-    #[Info(id: 67607, name: 'CYPRIOT SYLLABLE MO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10817, name: 'CYPRIOT SYLLABLE MO', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_MO = "\u{10817}";
 
-    #[Info(id: 67608, name: 'CYPRIOT SYLLABLE MU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10818, name: 'CYPRIOT SYLLABLE MU', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_MU = "\u{10818}";
 
-    #[Info(id: 67609, name: 'CYPRIOT SYLLABLE NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10819, name: 'CYPRIOT SYLLABLE NA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_NA = "\u{10819}";
 
-    #[Info(id: 67610, name: 'CYPRIOT SYLLABLE NE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1081A, name: 'CYPRIOT SYLLABLE NE', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_NE = "\u{1081A}";
 
-    #[Info(id: 67611, name: 'CYPRIOT SYLLABLE NI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1081B, name: 'CYPRIOT SYLLABLE NI', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_NI = "\u{1081B}";
 
-    #[Info(id: 67612, name: 'CYPRIOT SYLLABLE NO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1081C, name: 'CYPRIOT SYLLABLE NO', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_NO = "\u{1081C}";
 
-    #[Info(id: 67613, name: 'CYPRIOT SYLLABLE NU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1081D, name: 'CYPRIOT SYLLABLE NU', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_NU = "\u{1081D}";
 
-    #[Info(id: 67614, name: 'CYPRIOT SYLLABLE PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1081E, name: 'CYPRIOT SYLLABLE PA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_PA = "\u{1081E}";
 
-    #[Info(id: 67615, name: 'CYPRIOT SYLLABLE PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1081F, name: 'CYPRIOT SYLLABLE PE', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_PE = "\u{1081F}";
 
-    #[Info(id: 67616, name: 'CYPRIOT SYLLABLE PI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10820, name: 'CYPRIOT SYLLABLE PI', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_PI = "\u{10820}";
 
-    #[Info(id: 67617, name: 'CYPRIOT SYLLABLE PO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10821, name: 'CYPRIOT SYLLABLE PO', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_PO = "\u{10821}";
 
-    #[Info(id: 67618, name: 'CYPRIOT SYLLABLE PU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10822, name: 'CYPRIOT SYLLABLE PU', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_PU = "\u{10822}";
 
-    #[Info(id: 67619, name: 'CYPRIOT SYLLABLE RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10823, name: 'CYPRIOT SYLLABLE RA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_RA = "\u{10823}";
 
-    #[Info(id: 67620, name: 'CYPRIOT SYLLABLE RE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10824, name: 'CYPRIOT SYLLABLE RE', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_RE = "\u{10824}";
 
-    #[Info(id: 67621, name: 'CYPRIOT SYLLABLE RI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10825, name: 'CYPRIOT SYLLABLE RI', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_RI = "\u{10825}";
 
-    #[Info(id: 67622, name: 'CYPRIOT SYLLABLE RO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10826, name: 'CYPRIOT SYLLABLE RO', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_RO = "\u{10826}";
 
-    #[Info(id: 67623, name: 'CYPRIOT SYLLABLE RU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10827, name: 'CYPRIOT SYLLABLE RU', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_RU = "\u{10827}";
 
-    #[Info(id: 67624, name: 'CYPRIOT SYLLABLE SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10828, name: 'CYPRIOT SYLLABLE SA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_SA = "\u{10828}";
 
-    #[Info(id: 67625, name: 'CYPRIOT SYLLABLE SE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10829, name: 'CYPRIOT SYLLABLE SE', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_SE = "\u{10829}";
 
-    #[Info(id: 67626, name: 'CYPRIOT SYLLABLE SI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1082A, name: 'CYPRIOT SYLLABLE SI', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_SI = "\u{1082A}";
 
-    #[Info(id: 67627, name: 'CYPRIOT SYLLABLE SO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1082B, name: 'CYPRIOT SYLLABLE SO', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_SO = "\u{1082B}";
 
-    #[Info(id: 67628, name: 'CYPRIOT SYLLABLE SU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1082C, name: 'CYPRIOT SYLLABLE SU', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_SU = "\u{1082C}";
 
-    #[Info(id: 67629, name: 'CYPRIOT SYLLABLE TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1082D, name: 'CYPRIOT SYLLABLE TA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_TA = "\u{1082D}";
 
-    #[Info(id: 67630, name: 'CYPRIOT SYLLABLE TE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1082E, name: 'CYPRIOT SYLLABLE TE', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_TE = "\u{1082E}";
 
-    #[Info(id: 67631, name: 'CYPRIOT SYLLABLE TI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1082F, name: 'CYPRIOT SYLLABLE TI', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_TI = "\u{1082F}";
 
-    #[Info(id: 67632, name: 'CYPRIOT SYLLABLE TO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10830, name: 'CYPRIOT SYLLABLE TO', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_TO = "\u{10830}";
 
-    #[Info(id: 67633, name: 'CYPRIOT SYLLABLE TU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10831, name: 'CYPRIOT SYLLABLE TU', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_TU = "\u{10831}";
 
-    #[Info(id: 67634, name: 'CYPRIOT SYLLABLE WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10832, name: 'CYPRIOT SYLLABLE WA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_WA = "\u{10832}";
 
-    #[Info(id: 67635, name: 'CYPRIOT SYLLABLE WE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10833, name: 'CYPRIOT SYLLABLE WE', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_WE = "\u{10833}";
 
-    #[Info(id: 67636, name: 'CYPRIOT SYLLABLE WI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10834, name: 'CYPRIOT SYLLABLE WI', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_WI = "\u{10834}";
 
-    #[Info(id: 67637, name: 'CYPRIOT SYLLABLE WO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10835, name: 'CYPRIOT SYLLABLE WO', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_WO = "\u{10835}";
 
-    #[Info(id: 67639, name: 'CYPRIOT SYLLABLE XA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10837, name: 'CYPRIOT SYLLABLE XA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_XA = "\u{10837}";
 
-    #[Info(id: 67640, name: 'CYPRIOT SYLLABLE XE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10838, name: 'CYPRIOT SYLLABLE XE', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_XE = "\u{10838}";
 
-    #[Info(id: 67644, name: 'CYPRIOT SYLLABLE ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1083C, name: 'CYPRIOT SYLLABLE ZA', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_ZA = "\u{1083C}";
 
-    #[Info(id: 67647, name: 'CYPRIOT SYLLABLE ZO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1083F, name: 'CYPRIOT SYLLABLE ZO', category: Cat::Other_Letter)]
     case CYPRIOT_SYLLABLE_ZO = "\u{1083F}";
 }

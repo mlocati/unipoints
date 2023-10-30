@@ -16,267 +16,267 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Linear_B_Syllabary: string
 {
-    #[Info(id: 65536, name: 'LINEAR B SYLLABLE B008 A', category: Cat::Other_Letter)]
+    #[Info(id: 0x10000, name: 'LINEAR B SYLLABLE B008 A', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B008_A = "\u{10000}";
 
-    #[Info(id: 65537, name: 'LINEAR B SYLLABLE B038 E', category: Cat::Other_Letter)]
+    #[Info(id: 0x10001, name: 'LINEAR B SYLLABLE B038 E', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B038_E = "\u{10001}";
 
-    #[Info(id: 65538, name: 'LINEAR B SYLLABLE B028 I', category: Cat::Other_Letter)]
+    #[Info(id: 0x10002, name: 'LINEAR B SYLLABLE B028 I', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B028_I = "\u{10002}";
 
-    #[Info(id: 65539, name: 'LINEAR B SYLLABLE B061 O', category: Cat::Other_Letter)]
+    #[Info(id: 0x10003, name: 'LINEAR B SYLLABLE B061 O', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B061_O = "\u{10003}";
 
-    #[Info(id: 65540, name: 'LINEAR B SYLLABLE B010 U', category: Cat::Other_Letter)]
+    #[Info(id: 0x10004, name: 'LINEAR B SYLLABLE B010 U', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B010_U = "\u{10004}";
 
-    #[Info(id: 65541, name: 'LINEAR B SYLLABLE B001 DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10005, name: 'LINEAR B SYLLABLE B001 DA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B001_DA = "\u{10005}";
 
-    #[Info(id: 65542, name: 'LINEAR B SYLLABLE B045 DE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10006, name: 'LINEAR B SYLLABLE B045 DE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B045_DE = "\u{10006}";
 
-    #[Info(id: 65543, name: 'LINEAR B SYLLABLE B007 DI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10007, name: 'LINEAR B SYLLABLE B007 DI', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B007_DI = "\u{10007}";
 
-    #[Info(id: 65544, name: 'LINEAR B SYLLABLE B014 DO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10008, name: 'LINEAR B SYLLABLE B014 DO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B014_DO = "\u{10008}";
 
-    #[Info(id: 65545, name: 'LINEAR B SYLLABLE B051 DU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10009, name: 'LINEAR B SYLLABLE B051 DU', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B051_DU = "\u{10009}";
 
-    #[Info(id: 65546, name: 'LINEAR B SYLLABLE B057 JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1000A, name: 'LINEAR B SYLLABLE B057 JA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B057_JA = "\u{1000A}";
 
-    #[Info(id: 65547, name: 'LINEAR B SYLLABLE B046 JE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1000B, name: 'LINEAR B SYLLABLE B046 JE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B046_JE = "\u{1000B}";
 
-    #[Info(id: 65549, name: 'LINEAR B SYLLABLE B036 JO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1000D, name: 'LINEAR B SYLLABLE B036 JO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B036_JO = "\u{1000D}";
 
-    #[Info(id: 65550, name: 'LINEAR B SYLLABLE B065 JU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1000E, name: 'LINEAR B SYLLABLE B065 JU', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B065_JU = "\u{1000E}";
 
-    #[Info(id: 65551, name: 'LINEAR B SYLLABLE B077 KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1000F, name: 'LINEAR B SYLLABLE B077 KA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B077_KA = "\u{1000F}";
 
-    #[Info(id: 65552, name: 'LINEAR B SYLLABLE B044 KE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10010, name: 'LINEAR B SYLLABLE B044 KE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B044_KE = "\u{10010}";
 
-    #[Info(id: 65553, name: 'LINEAR B SYLLABLE B067 KI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10011, name: 'LINEAR B SYLLABLE B067 KI', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B067_KI = "\u{10011}";
 
-    #[Info(id: 65554, name: 'LINEAR B SYLLABLE B070 KO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10012, name: 'LINEAR B SYLLABLE B070 KO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B070_KO = "\u{10012}";
 
-    #[Info(id: 65555, name: 'LINEAR B SYLLABLE B081 KU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10013, name: 'LINEAR B SYLLABLE B081 KU', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B081_KU = "\u{10013}";
 
-    #[Info(id: 65556, name: 'LINEAR B SYLLABLE B080 MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10014, name: 'LINEAR B SYLLABLE B080 MA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B080_MA = "\u{10014}";
 
-    #[Info(id: 65557, name: 'LINEAR B SYLLABLE B013 ME', category: Cat::Other_Letter)]
+    #[Info(id: 0x10015, name: 'LINEAR B SYLLABLE B013 ME', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B013_ME = "\u{10015}";
 
-    #[Info(id: 65558, name: 'LINEAR B SYLLABLE B073 MI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10016, name: 'LINEAR B SYLLABLE B073 MI', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B073_MI = "\u{10016}";
 
-    #[Info(id: 65559, name: 'LINEAR B SYLLABLE B015 MO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10017, name: 'LINEAR B SYLLABLE B015 MO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B015_MO = "\u{10017}";
 
-    #[Info(id: 65560, name: 'LINEAR B SYLLABLE B023 MU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10018, name: 'LINEAR B SYLLABLE B023 MU', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B023_MU = "\u{10018}";
 
-    #[Info(id: 65561, name: 'LINEAR B SYLLABLE B006 NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10019, name: 'LINEAR B SYLLABLE B006 NA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B006_NA = "\u{10019}";
 
-    #[Info(id: 65562, name: 'LINEAR B SYLLABLE B024 NE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1001A, name: 'LINEAR B SYLLABLE B024 NE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B024_NE = "\u{1001A}";
 
-    #[Info(id: 65563, name: 'LINEAR B SYLLABLE B030 NI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1001B, name: 'LINEAR B SYLLABLE B030 NI', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B030_NI = "\u{1001B}";
 
-    #[Info(id: 65564, name: 'LINEAR B SYLLABLE B052 NO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1001C, name: 'LINEAR B SYLLABLE B052 NO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B052_NO = "\u{1001C}";
 
-    #[Info(id: 65565, name: 'LINEAR B SYLLABLE B055 NU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1001D, name: 'LINEAR B SYLLABLE B055 NU', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B055_NU = "\u{1001D}";
 
-    #[Info(id: 65566, name: 'LINEAR B SYLLABLE B003 PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1001E, name: 'LINEAR B SYLLABLE B003 PA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B003_PA = "\u{1001E}";
 
-    #[Info(id: 65567, name: 'LINEAR B SYLLABLE B072 PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1001F, name: 'LINEAR B SYLLABLE B072 PE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B072_PE = "\u{1001F}";
 
-    #[Info(id: 65568, name: 'LINEAR B SYLLABLE B039 PI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10020, name: 'LINEAR B SYLLABLE B039 PI', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B039_PI = "\u{10020}";
 
-    #[Info(id: 65569, name: 'LINEAR B SYLLABLE B011 PO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10021, name: 'LINEAR B SYLLABLE B011 PO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B011_PO = "\u{10021}";
 
-    #[Info(id: 65570, name: 'LINEAR B SYLLABLE B050 PU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10022, name: 'LINEAR B SYLLABLE B050 PU', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B050_PU = "\u{10022}";
 
-    #[Info(id: 65571, name: 'LINEAR B SYLLABLE B016 QA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10023, name: 'LINEAR B SYLLABLE B016 QA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B016_QA = "\u{10023}";
 
-    #[Info(id: 65572, name: 'LINEAR B SYLLABLE B078 QE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10024, name: 'LINEAR B SYLLABLE B078 QE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B078_QE = "\u{10024}";
 
-    #[Info(id: 65573, name: 'LINEAR B SYLLABLE B021 QI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10025, name: 'LINEAR B SYLLABLE B021 QI', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B021_QI = "\u{10025}";
 
-    #[Info(id: 65574, name: 'LINEAR B SYLLABLE B032 QO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10026, name: 'LINEAR B SYLLABLE B032 QO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B032_QO = "\u{10026}";
 
-    #[Info(id: 65576, name: 'LINEAR B SYLLABLE B060 RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10028, name: 'LINEAR B SYLLABLE B060 RA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B060_RA = "\u{10028}";
 
-    #[Info(id: 65577, name: 'LINEAR B SYLLABLE B027 RE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10029, name: 'LINEAR B SYLLABLE B027 RE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B027_RE = "\u{10029}";
 
-    #[Info(id: 65578, name: 'LINEAR B SYLLABLE B053 RI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1002A, name: 'LINEAR B SYLLABLE B053 RI', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B053_RI = "\u{1002A}";
 
-    #[Info(id: 65579, name: 'LINEAR B SYLLABLE B002 RO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1002B, name: 'LINEAR B SYLLABLE B002 RO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B002_RO = "\u{1002B}";
 
-    #[Info(id: 65580, name: 'LINEAR B SYLLABLE B026 RU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1002C, name: 'LINEAR B SYLLABLE B026 RU', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B026_RU = "\u{1002C}";
 
-    #[Info(id: 65581, name: 'LINEAR B SYLLABLE B031 SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1002D, name: 'LINEAR B SYLLABLE B031 SA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B031_SA = "\u{1002D}";
 
-    #[Info(id: 65582, name: 'LINEAR B SYLLABLE B009 SE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1002E, name: 'LINEAR B SYLLABLE B009 SE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B009_SE = "\u{1002E}";
 
-    #[Info(id: 65583, name: 'LINEAR B SYLLABLE B041 SI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1002F, name: 'LINEAR B SYLLABLE B041 SI', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B041_SI = "\u{1002F}";
 
-    #[Info(id: 65584, name: 'LINEAR B SYLLABLE B012 SO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10030, name: 'LINEAR B SYLLABLE B012 SO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B012_SO = "\u{10030}";
 
-    #[Info(id: 65585, name: 'LINEAR B SYLLABLE B058 SU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10031, name: 'LINEAR B SYLLABLE B058 SU', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B058_SU = "\u{10031}";
 
-    #[Info(id: 65586, name: 'LINEAR B SYLLABLE B059 TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10032, name: 'LINEAR B SYLLABLE B059 TA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B059_TA = "\u{10032}";
 
-    #[Info(id: 65587, name: 'LINEAR B SYLLABLE B004 TE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10033, name: 'LINEAR B SYLLABLE B004 TE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B004_TE = "\u{10033}";
 
-    #[Info(id: 65588, name: 'LINEAR B SYLLABLE B037 TI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10034, name: 'LINEAR B SYLLABLE B037 TI', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B037_TI = "\u{10034}";
 
-    #[Info(id: 65589, name: 'LINEAR B SYLLABLE B005 TO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10035, name: 'LINEAR B SYLLABLE B005 TO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B005_TO = "\u{10035}";
 
-    #[Info(id: 65590, name: 'LINEAR B SYLLABLE B069 TU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10036, name: 'LINEAR B SYLLABLE B069 TU', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B069_TU = "\u{10036}";
 
-    #[Info(id: 65591, name: 'LINEAR B SYLLABLE B054 WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10037, name: 'LINEAR B SYLLABLE B054 WA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B054_WA = "\u{10037}";
 
-    #[Info(id: 65592, name: 'LINEAR B SYLLABLE B075 WE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10038, name: 'LINEAR B SYLLABLE B075 WE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B075_WE = "\u{10038}";
 
-    #[Info(id: 65593, name: 'LINEAR B SYLLABLE B040 WI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10039, name: 'LINEAR B SYLLABLE B040 WI', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B040_WI = "\u{10039}";
 
-    #[Info(id: 65594, name: 'LINEAR B SYLLABLE B042 WO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1003A, name: 'LINEAR B SYLLABLE B042 WO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B042_WO = "\u{1003A}";
 
-    #[Info(id: 65596, name: 'LINEAR B SYLLABLE B017 ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1003C, name: 'LINEAR B SYLLABLE B017 ZA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B017_ZA = "\u{1003C}";
 
-    #[Info(id: 65597, name: 'LINEAR B SYLLABLE B074 ZE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1003D, name: 'LINEAR B SYLLABLE B074 ZE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B074_ZE = "\u{1003D}";
 
-    #[Info(id: 65599, name: 'LINEAR B SYLLABLE B020 ZO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1003F, name: 'LINEAR B SYLLABLE B020 ZO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B020_ZO = "\u{1003F}";
 
-    #[Info(id: 65600, name: 'LINEAR B SYLLABLE B025 A2', category: Cat::Other_Letter)]
+    #[Info(id: 0x10040, name: 'LINEAR B SYLLABLE B025 A2', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B025_A2 = "\u{10040}";
 
-    #[Info(id: 65601, name: 'LINEAR B SYLLABLE B043 A3', category: Cat::Other_Letter)]
+    #[Info(id: 0x10041, name: 'LINEAR B SYLLABLE B043 A3', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B043_A3 = "\u{10041}";
 
-    #[Info(id: 65602, name: 'LINEAR B SYLLABLE B085 AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10042, name: 'LINEAR B SYLLABLE B085 AU', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B085_AU = "\u{10042}";
 
-    #[Info(id: 65603, name: 'LINEAR B SYLLABLE B071 DWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10043, name: 'LINEAR B SYLLABLE B071 DWE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B071_DWE = "\u{10043}";
 
-    #[Info(id: 65604, name: 'LINEAR B SYLLABLE B090 DWO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10044, name: 'LINEAR B SYLLABLE B090 DWO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B090_DWO = "\u{10044}";
 
-    #[Info(id: 65605, name: 'LINEAR B SYLLABLE B048 NWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10045, name: 'LINEAR B SYLLABLE B048 NWA', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B048_NWA = "\u{10045}";
 
-    #[Info(id: 65606, name: 'LINEAR B SYLLABLE B029 PU2', category: Cat::Other_Letter)]
+    #[Info(id: 0x10046, name: 'LINEAR B SYLLABLE B029 PU2', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B029_PU2 = "\u{10046}";
 
-    #[Info(id: 65607, name: 'LINEAR B SYLLABLE B062 PTE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10047, name: 'LINEAR B SYLLABLE B062 PTE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B062_PTE = "\u{10047}";
 
-    #[Info(id: 65608, name: 'LINEAR B SYLLABLE B076 RA2', category: Cat::Other_Letter)]
+    #[Info(id: 0x10048, name: 'LINEAR B SYLLABLE B076 RA2', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B076_RA2 = "\u{10048}";
 
-    #[Info(id: 65609, name: 'LINEAR B SYLLABLE B033 RA3', category: Cat::Other_Letter)]
+    #[Info(id: 0x10049, name: 'LINEAR B SYLLABLE B033 RA3', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B033_RA3 = "\u{10049}";
 
-    #[Info(id: 65610, name: 'LINEAR B SYLLABLE B068 RO2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1004A, name: 'LINEAR B SYLLABLE B068 RO2', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B068_RO2 = "\u{1004A}";
 
-    #[Info(id: 65611, name: 'LINEAR B SYLLABLE B066 TA2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1004B, name: 'LINEAR B SYLLABLE B066 TA2', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B066_TA2 = "\u{1004B}";
 
-    #[Info(id: 65612, name: 'LINEAR B SYLLABLE B087 TWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1004C, name: 'LINEAR B SYLLABLE B087 TWE', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B087_TWE = "\u{1004C}";
 
-    #[Info(id: 65613, name: 'LINEAR B SYLLABLE B091 TWO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1004D, name: 'LINEAR B SYLLABLE B091 TWO', category: Cat::Other_Letter)]
     case LINEAR_B_SYLLABLE_B091_TWO = "\u{1004D}";
 
-    #[Info(id: 65616, name: 'LINEAR B SYMBOL B018', category: Cat::Other_Letter)]
+    #[Info(id: 0x10050, name: 'LINEAR B SYMBOL B018', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B018 = "\u{10050}";
 
-    #[Info(id: 65617, name: 'LINEAR B SYMBOL B019', category: Cat::Other_Letter)]
+    #[Info(id: 0x10051, name: 'LINEAR B SYMBOL B019', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B019 = "\u{10051}";
 
-    #[Info(id: 65618, name: 'LINEAR B SYMBOL B022', category: Cat::Other_Letter)]
+    #[Info(id: 0x10052, name: 'LINEAR B SYMBOL B022', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B022 = "\u{10052}";
 
-    #[Info(id: 65619, name: 'LINEAR B SYMBOL B034', category: Cat::Other_Letter)]
+    #[Info(id: 0x10053, name: 'LINEAR B SYMBOL B034', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B034 = "\u{10053}";
 
-    #[Info(id: 65620, name: 'LINEAR B SYMBOL B047', category: Cat::Other_Letter)]
+    #[Info(id: 0x10054, name: 'LINEAR B SYMBOL B047', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B047 = "\u{10054}";
 
-    #[Info(id: 65621, name: 'LINEAR B SYMBOL B049', category: Cat::Other_Letter)]
+    #[Info(id: 0x10055, name: 'LINEAR B SYMBOL B049', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B049 = "\u{10055}";
 
-    #[Info(id: 65622, name: 'LINEAR B SYMBOL B056', category: Cat::Other_Letter)]
+    #[Info(id: 0x10056, name: 'LINEAR B SYMBOL B056', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B056 = "\u{10056}";
 
-    #[Info(id: 65623, name: 'LINEAR B SYMBOL B063', category: Cat::Other_Letter)]
+    #[Info(id: 0x10057, name: 'LINEAR B SYMBOL B063', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B063 = "\u{10057}";
 
-    #[Info(id: 65624, name: 'LINEAR B SYMBOL B064', category: Cat::Other_Letter)]
+    #[Info(id: 0x10058, name: 'LINEAR B SYMBOL B064', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B064 = "\u{10058}";
 
-    #[Info(id: 65625, name: 'LINEAR B SYMBOL B079', category: Cat::Other_Letter)]
+    #[Info(id: 0x10059, name: 'LINEAR B SYMBOL B079', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B079 = "\u{10059}";
 
-    #[Info(id: 65626, name: 'LINEAR B SYMBOL B082', category: Cat::Other_Letter)]
+    #[Info(id: 0x1005A, name: 'LINEAR B SYMBOL B082', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B082 = "\u{1005A}";
 
-    #[Info(id: 65627, name: 'LINEAR B SYMBOL B083', category: Cat::Other_Letter)]
+    #[Info(id: 0x1005B, name: 'LINEAR B SYMBOL B083', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B083 = "\u{1005B}";
 
-    #[Info(id: 65628, name: 'LINEAR B SYMBOL B086', category: Cat::Other_Letter)]
+    #[Info(id: 0x1005C, name: 'LINEAR B SYMBOL B086', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B086 = "\u{1005C}";
 
-    #[Info(id: 65629, name: 'LINEAR B SYMBOL B089', category: Cat::Other_Letter)]
+    #[Info(id: 0x1005D, name: 'LINEAR B SYMBOL B089', category: Cat::Other_Letter)]
     case LINEAR_B_SYMBOL_B089 = "\u{1005D}";
 }

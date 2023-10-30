@@ -16,147 +16,147 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Kayah_Li: string
 {
-    #[Info(id: 43264, name: 'KAYAH LI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA900, name: 'KAYAH LI DIGIT ZERO', category: Cat::Decimal_Number)]
     case KAYAH_LI_DIGIT_ZERO = "\u{A900}";
 
-    #[Info(id: 43265, name: 'KAYAH LI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA901, name: 'KAYAH LI DIGIT ONE', category: Cat::Decimal_Number)]
     case KAYAH_LI_DIGIT_ONE = "\u{A901}";
 
-    #[Info(id: 43266, name: 'KAYAH LI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA902, name: 'KAYAH LI DIGIT TWO', category: Cat::Decimal_Number)]
     case KAYAH_LI_DIGIT_TWO = "\u{A902}";
 
-    #[Info(id: 43267, name: 'KAYAH LI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA903, name: 'KAYAH LI DIGIT THREE', category: Cat::Decimal_Number)]
     case KAYAH_LI_DIGIT_THREE = "\u{A903}";
 
-    #[Info(id: 43268, name: 'KAYAH LI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA904, name: 'KAYAH LI DIGIT FOUR', category: Cat::Decimal_Number)]
     case KAYAH_LI_DIGIT_FOUR = "\u{A904}";
 
-    #[Info(id: 43269, name: 'KAYAH LI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA905, name: 'KAYAH LI DIGIT FIVE', category: Cat::Decimal_Number)]
     case KAYAH_LI_DIGIT_FIVE = "\u{A905}";
 
-    #[Info(id: 43270, name: 'KAYAH LI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA906, name: 'KAYAH LI DIGIT SIX', category: Cat::Decimal_Number)]
     case KAYAH_LI_DIGIT_SIX = "\u{A906}";
 
-    #[Info(id: 43271, name: 'KAYAH LI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA907, name: 'KAYAH LI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case KAYAH_LI_DIGIT_SEVEN = "\u{A907}";
 
-    #[Info(id: 43272, name: 'KAYAH LI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA908, name: 'KAYAH LI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case KAYAH_LI_DIGIT_EIGHT = "\u{A908}";
 
-    #[Info(id: 43273, name: 'KAYAH LI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA909, name: 'KAYAH LI DIGIT NINE', category: Cat::Decimal_Number)]
     case KAYAH_LI_DIGIT_NINE = "\u{A909}";
 
-    #[Info(id: 43274, name: 'KAYAH LI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA90A, name: 'KAYAH LI LETTER KA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_KA = "\u{A90A}";
 
-    #[Info(id: 43275, name: 'KAYAH LI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA90B, name: 'KAYAH LI LETTER KHA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_KHA = "\u{A90B}";
 
-    #[Info(id: 43276, name: 'KAYAH LI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA90C, name: 'KAYAH LI LETTER GA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_GA = "\u{A90C}";
 
-    #[Info(id: 43277, name: 'KAYAH LI LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA90D, name: 'KAYAH LI LETTER NGA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_NGA = "\u{A90D}";
 
-    #[Info(id: 43278, name: 'KAYAH LI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA90E, name: 'KAYAH LI LETTER SA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_SA = "\u{A90E}";
 
-    #[Info(id: 43279, name: 'KAYAH LI LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA90F, name: 'KAYAH LI LETTER SHA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_SHA = "\u{A90F}";
 
-    #[Info(id: 43280, name: 'KAYAH LI LETTER ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA910, name: 'KAYAH LI LETTER ZA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_ZA = "\u{A910}";
 
-    #[Info(id: 43281, name: 'KAYAH LI LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA911, name: 'KAYAH LI LETTER NYA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_NYA = "\u{A911}";
 
-    #[Info(id: 43282, name: 'KAYAH LI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA912, name: 'KAYAH LI LETTER TA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_TA = "\u{A912}";
 
-    #[Info(id: 43283, name: 'KAYAH LI LETTER HTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA913, name: 'KAYAH LI LETTER HTA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_HTA = "\u{A913}";
 
-    #[Info(id: 43284, name: 'KAYAH LI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA914, name: 'KAYAH LI LETTER NA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_NA = "\u{A914}";
 
-    #[Info(id: 43285, name: 'KAYAH LI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA915, name: 'KAYAH LI LETTER PA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_PA = "\u{A915}";
 
-    #[Info(id: 43286, name: 'KAYAH LI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA916, name: 'KAYAH LI LETTER PHA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_PHA = "\u{A916}";
 
-    #[Info(id: 43287, name: 'KAYAH LI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA917, name: 'KAYAH LI LETTER MA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_MA = "\u{A917}";
 
-    #[Info(id: 43288, name: 'KAYAH LI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA918, name: 'KAYAH LI LETTER DA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_DA = "\u{A918}";
 
-    #[Info(id: 43289, name: 'KAYAH LI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA919, name: 'KAYAH LI LETTER BA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_BA = "\u{A919}";
 
-    #[Info(id: 43290, name: 'KAYAH LI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA91A, name: 'KAYAH LI LETTER RA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_RA = "\u{A91A}";
 
-    #[Info(id: 43291, name: 'KAYAH LI LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA91B, name: 'KAYAH LI LETTER YA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_YA = "\u{A91B}";
 
-    #[Info(id: 43292, name: 'KAYAH LI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA91C, name: 'KAYAH LI LETTER LA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_LA = "\u{A91C}";
 
-    #[Info(id: 43293, name: 'KAYAH LI LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA91D, name: 'KAYAH LI LETTER WA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_WA = "\u{A91D}";
 
-    #[Info(id: 43294, name: 'KAYAH LI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA91E, name: 'KAYAH LI LETTER THA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_THA = "\u{A91E}";
 
-    #[Info(id: 43295, name: 'KAYAH LI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA91F, name: 'KAYAH LI LETTER HA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_HA = "\u{A91F}";
 
-    #[Info(id: 43296, name: 'KAYAH LI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA920, name: 'KAYAH LI LETTER VA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_VA = "\u{A920}";
 
-    #[Info(id: 43297, name: 'KAYAH LI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA921, name: 'KAYAH LI LETTER CA', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_CA = "\u{A921}";
 
-    #[Info(id: 43298, name: 'KAYAH LI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xA922, name: 'KAYAH LI LETTER A', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_A = "\u{A922}";
 
-    #[Info(id: 43299, name: 'KAYAH LI LETTER OE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA923, name: 'KAYAH LI LETTER OE', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_OE = "\u{A923}";
 
-    #[Info(id: 43300, name: 'KAYAH LI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xA924, name: 'KAYAH LI LETTER I', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_I = "\u{A924}";
 
-    #[Info(id: 43301, name: 'KAYAH LI LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA925, name: 'KAYAH LI LETTER OO', category: Cat::Other_Letter)]
     case KAYAH_LI_LETTER_OO = "\u{A925}";
 
-    #[Info(id: 43302, name: 'KAYAH LI VOWEL UE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA926, name: 'KAYAH LI VOWEL UE', category: Cat::Nonspacing_Mark)]
     case KAYAH_LI_VOWEL_UE = "\u{A926}";
 
-    #[Info(id: 43303, name: 'KAYAH LI VOWEL E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA927, name: 'KAYAH LI VOWEL E', category: Cat::Nonspacing_Mark)]
     case KAYAH_LI_VOWEL_E = "\u{A927}";
 
-    #[Info(id: 43304, name: 'KAYAH LI VOWEL U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA928, name: 'KAYAH LI VOWEL U', category: Cat::Nonspacing_Mark)]
     case KAYAH_LI_VOWEL_U = "\u{A928}";
 
-    #[Info(id: 43305, name: 'KAYAH LI VOWEL EE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA929, name: 'KAYAH LI VOWEL EE', category: Cat::Nonspacing_Mark)]
     case KAYAH_LI_VOWEL_EE = "\u{A929}";
 
-    #[Info(id: 43306, name: 'KAYAH LI VOWEL O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA92A, name: 'KAYAH LI VOWEL O', category: Cat::Nonspacing_Mark)]
     case KAYAH_LI_VOWEL_O = "\u{A92A}";
 
-    #[Info(id: 43307, name: 'KAYAH LI TONE PLOPHU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA92B, name: 'KAYAH LI TONE PLOPHU', category: Cat::Nonspacing_Mark)]
     case KAYAH_LI_TONE_PLOPHU = "\u{A92B}";
 
-    #[Info(id: 43308, name: 'KAYAH LI TONE CALYA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA92C, name: 'KAYAH LI TONE CALYA', category: Cat::Nonspacing_Mark)]
     case KAYAH_LI_TONE_CALYA = "\u{A92C}";
 
-    #[Info(id: 43309, name: 'KAYAH LI TONE CALYA PLOPHU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA92D, name: 'KAYAH LI TONE CALYA PLOPHU', category: Cat::Nonspacing_Mark)]
     case KAYAH_LI_TONE_CALYA_PLOPHU = "\u{A92D}";
 
-    #[Info(id: 43310, name: 'KAYAH LI SIGN CWI', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA92E, name: 'KAYAH LI SIGN CWI', category: Cat::Other_Punctuation)]
     case KAYAH_LI_SIGN_CWI = "\u{A92E}";
 
-    #[Info(id: 43311, name: 'KAYAH LI SIGN SHYA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA92F, name: 'KAYAH LI SIGN SHYA', category: Cat::Other_Punctuation)]
     case KAYAH_LI_SIGN_SHYA = "\u{A92F}";
 }

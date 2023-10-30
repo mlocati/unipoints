@@ -16,210 +16,210 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Khudawadi: string
 {
-    #[Info(id: 70320, name: 'KHUDAWADI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x112B0, name: 'KHUDAWADI LETTER A', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_A = "\u{112B0}";
 
-    #[Info(id: 70321, name: 'KHUDAWADI LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112B1, name: 'KHUDAWADI LETTER AA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_AA = "\u{112B1}";
 
-    #[Info(id: 70322, name: 'KHUDAWADI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x112B2, name: 'KHUDAWADI LETTER I', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_I = "\u{112B2}";
 
-    #[Info(id: 70323, name: 'KHUDAWADI LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x112B3, name: 'KHUDAWADI LETTER II', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_II = "\u{112B3}";
 
-    #[Info(id: 70324, name: 'KHUDAWADI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x112B4, name: 'KHUDAWADI LETTER U', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_U = "\u{112B4}";
 
-    #[Info(id: 70325, name: 'KHUDAWADI LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x112B5, name: 'KHUDAWADI LETTER UU', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_UU = "\u{112B5}";
 
-    #[Info(id: 70326, name: 'KHUDAWADI LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x112B6, name: 'KHUDAWADI LETTER E', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_E = "\u{112B6}";
 
-    #[Info(id: 70327, name: 'KHUDAWADI LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x112B7, name: 'KHUDAWADI LETTER AI', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_AI = "\u{112B7}";
 
-    #[Info(id: 70328, name: 'KHUDAWADI LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x112B8, name: 'KHUDAWADI LETTER O', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_O = "\u{112B8}";
 
-    #[Info(id: 70329, name: 'KHUDAWADI LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x112B9, name: 'KHUDAWADI LETTER AU', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_AU = "\u{112B9}";
 
-    #[Info(id: 70330, name: 'KHUDAWADI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112BA, name: 'KHUDAWADI LETTER KA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_KA = "\u{112BA}";
 
-    #[Info(id: 70331, name: 'KHUDAWADI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112BB, name: 'KHUDAWADI LETTER KHA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_KHA = "\u{112BB}";
 
-    #[Info(id: 70332, name: 'KHUDAWADI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112BC, name: 'KHUDAWADI LETTER GA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_GA = "\u{112BC}";
 
-    #[Info(id: 70333, name: 'KHUDAWADI LETTER GGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112BD, name: 'KHUDAWADI LETTER GGA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_GGA = "\u{112BD}";
 
-    #[Info(id: 70334, name: 'KHUDAWADI LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112BE, name: 'KHUDAWADI LETTER GHA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_GHA = "\u{112BE}";
 
-    #[Info(id: 70335, name: 'KHUDAWADI LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112BF, name: 'KHUDAWADI LETTER NGA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_NGA = "\u{112BF}";
 
-    #[Info(id: 70336, name: 'KHUDAWADI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112C0, name: 'KHUDAWADI LETTER CA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_CA = "\u{112C0}";
 
-    #[Info(id: 70337, name: 'KHUDAWADI LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112C1, name: 'KHUDAWADI LETTER CHA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_CHA = "\u{112C1}";
 
-    #[Info(id: 70338, name: 'KHUDAWADI LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112C2, name: 'KHUDAWADI LETTER JA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_JA = "\u{112C2}";
 
-    #[Info(id: 70339, name: 'KHUDAWADI LETTER JJA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112C3, name: 'KHUDAWADI LETTER JJA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_JJA = "\u{112C3}";
 
-    #[Info(id: 70340, name: 'KHUDAWADI LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112C4, name: 'KHUDAWADI LETTER JHA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_JHA = "\u{112C4}";
 
-    #[Info(id: 70341, name: 'KHUDAWADI LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112C5, name: 'KHUDAWADI LETTER NYA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_NYA = "\u{112C5}";
 
-    #[Info(id: 70342, name: 'KHUDAWADI LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112C6, name: 'KHUDAWADI LETTER TTA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_TTA = "\u{112C6}";
 
-    #[Info(id: 70343, name: 'KHUDAWADI LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112C7, name: 'KHUDAWADI LETTER TTHA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_TTHA = "\u{112C7}";
 
-    #[Info(id: 70344, name: 'KHUDAWADI LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112C8, name: 'KHUDAWADI LETTER DDA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_DDA = "\u{112C8}";
 
-    #[Info(id: 70345, name: 'KHUDAWADI LETTER DDDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112C9, name: 'KHUDAWADI LETTER DDDA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_DDDA = "\u{112C9}";
 
-    #[Info(id: 70346, name: 'KHUDAWADI LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112CA, name: 'KHUDAWADI LETTER RRA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_RRA = "\u{112CA}";
 
-    #[Info(id: 70347, name: 'KHUDAWADI LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112CB, name: 'KHUDAWADI LETTER DDHA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_DDHA = "\u{112CB}";
 
-    #[Info(id: 70348, name: 'KHUDAWADI LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112CC, name: 'KHUDAWADI LETTER NNA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_NNA = "\u{112CC}";
 
-    #[Info(id: 70349, name: 'KHUDAWADI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112CD, name: 'KHUDAWADI LETTER TA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_TA = "\u{112CD}";
 
-    #[Info(id: 70350, name: 'KHUDAWADI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112CE, name: 'KHUDAWADI LETTER THA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_THA = "\u{112CE}";
 
-    #[Info(id: 70351, name: 'KHUDAWADI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112CF, name: 'KHUDAWADI LETTER DA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_DA = "\u{112CF}";
 
-    #[Info(id: 70352, name: 'KHUDAWADI LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112D0, name: 'KHUDAWADI LETTER DHA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_DHA = "\u{112D0}";
 
-    #[Info(id: 70353, name: 'KHUDAWADI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112D1, name: 'KHUDAWADI LETTER NA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_NA = "\u{112D1}";
 
-    #[Info(id: 70354, name: 'KHUDAWADI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112D2, name: 'KHUDAWADI LETTER PA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_PA = "\u{112D2}";
 
-    #[Info(id: 70355, name: 'KHUDAWADI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112D3, name: 'KHUDAWADI LETTER PHA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_PHA = "\u{112D3}";
 
-    #[Info(id: 70356, name: 'KHUDAWADI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112D4, name: 'KHUDAWADI LETTER BA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_BA = "\u{112D4}";
 
-    #[Info(id: 70357, name: 'KHUDAWADI LETTER BBA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112D5, name: 'KHUDAWADI LETTER BBA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_BBA = "\u{112D5}";
 
-    #[Info(id: 70358, name: 'KHUDAWADI LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112D6, name: 'KHUDAWADI LETTER BHA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_BHA = "\u{112D6}";
 
-    #[Info(id: 70359, name: 'KHUDAWADI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112D7, name: 'KHUDAWADI LETTER MA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_MA = "\u{112D7}";
 
-    #[Info(id: 70360, name: 'KHUDAWADI LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112D8, name: 'KHUDAWADI LETTER YA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_YA = "\u{112D8}";
 
-    #[Info(id: 70361, name: 'KHUDAWADI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112D9, name: 'KHUDAWADI LETTER RA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_RA = "\u{112D9}";
 
-    #[Info(id: 70362, name: 'KHUDAWADI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112DA, name: 'KHUDAWADI LETTER LA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_LA = "\u{112DA}";
 
-    #[Info(id: 70363, name: 'KHUDAWADI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112DB, name: 'KHUDAWADI LETTER VA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_VA = "\u{112DB}";
 
-    #[Info(id: 70364, name: 'KHUDAWADI LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112DC, name: 'KHUDAWADI LETTER SHA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_SHA = "\u{112DC}";
 
-    #[Info(id: 70365, name: 'KHUDAWADI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112DD, name: 'KHUDAWADI LETTER SA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_SA = "\u{112DD}";
 
-    #[Info(id: 70366, name: 'KHUDAWADI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x112DE, name: 'KHUDAWADI LETTER HA', category: Cat::Other_Letter)]
     case KHUDAWADI_LETTER_HA = "\u{112DE}";
 
-    #[Info(id: 70367, name: 'KHUDAWADI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x112DF, name: 'KHUDAWADI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case KHUDAWADI_SIGN_ANUSVARA = "\u{112DF}";
 
-    #[Info(id: 70368, name: 'KHUDAWADI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x112E0, name: 'KHUDAWADI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case KHUDAWADI_VOWEL_SIGN_AA = "\u{112E0}";
 
-    #[Info(id: 70369, name: 'KHUDAWADI VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x112E1, name: 'KHUDAWADI VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case KHUDAWADI_VOWEL_SIGN_I = "\u{112E1}";
 
-    #[Info(id: 70370, name: 'KHUDAWADI VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x112E2, name: 'KHUDAWADI VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case KHUDAWADI_VOWEL_SIGN_II = "\u{112E2}";
 
-    #[Info(id: 70371, name: 'KHUDAWADI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x112E3, name: 'KHUDAWADI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case KHUDAWADI_VOWEL_SIGN_U = "\u{112E3}";
 
-    #[Info(id: 70372, name: 'KHUDAWADI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x112E4, name: 'KHUDAWADI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case KHUDAWADI_VOWEL_SIGN_UU = "\u{112E4}";
 
-    #[Info(id: 70373, name: 'KHUDAWADI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x112E5, name: 'KHUDAWADI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case KHUDAWADI_VOWEL_SIGN_E = "\u{112E5}";
 
-    #[Info(id: 70374, name: 'KHUDAWADI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x112E6, name: 'KHUDAWADI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case KHUDAWADI_VOWEL_SIGN_AI = "\u{112E6}";
 
-    #[Info(id: 70375, name: 'KHUDAWADI VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x112E7, name: 'KHUDAWADI VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case KHUDAWADI_VOWEL_SIGN_O = "\u{112E7}";
 
-    #[Info(id: 70376, name: 'KHUDAWADI VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x112E8, name: 'KHUDAWADI VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
     case KHUDAWADI_VOWEL_SIGN_AU = "\u{112E8}";
 
-    #[Info(id: 70377, name: 'KHUDAWADI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x112E9, name: 'KHUDAWADI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case KHUDAWADI_SIGN_NUKTA = "\u{112E9}";
 
-    #[Info(id: 70378, name: 'KHUDAWADI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x112EA, name: 'KHUDAWADI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case KHUDAWADI_SIGN_VIRAMA = "\u{112EA}";
 
-    #[Info(id: 70384, name: 'KHUDAWADI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x112F0, name: 'KHUDAWADI DIGIT ZERO', category: Cat::Decimal_Number)]
     case KHUDAWADI_DIGIT_ZERO = "\u{112F0}";
 
-    #[Info(id: 70385, name: 'KHUDAWADI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x112F1, name: 'KHUDAWADI DIGIT ONE', category: Cat::Decimal_Number)]
     case KHUDAWADI_DIGIT_ONE = "\u{112F1}";
 
-    #[Info(id: 70386, name: 'KHUDAWADI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x112F2, name: 'KHUDAWADI DIGIT TWO', category: Cat::Decimal_Number)]
     case KHUDAWADI_DIGIT_TWO = "\u{112F2}";
 
-    #[Info(id: 70387, name: 'KHUDAWADI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x112F3, name: 'KHUDAWADI DIGIT THREE', category: Cat::Decimal_Number)]
     case KHUDAWADI_DIGIT_THREE = "\u{112F3}";
 
-    #[Info(id: 70388, name: 'KHUDAWADI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x112F4, name: 'KHUDAWADI DIGIT FOUR', category: Cat::Decimal_Number)]
     case KHUDAWADI_DIGIT_FOUR = "\u{112F4}";
 
-    #[Info(id: 70389, name: 'KHUDAWADI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x112F5, name: 'KHUDAWADI DIGIT FIVE', category: Cat::Decimal_Number)]
     case KHUDAWADI_DIGIT_FIVE = "\u{112F5}";
 
-    #[Info(id: 70390, name: 'KHUDAWADI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x112F6, name: 'KHUDAWADI DIGIT SIX', category: Cat::Decimal_Number)]
     case KHUDAWADI_DIGIT_SIX = "\u{112F6}";
 
-    #[Info(id: 70391, name: 'KHUDAWADI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x112F7, name: 'KHUDAWADI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case KHUDAWADI_DIGIT_SEVEN = "\u{112F7}";
 
-    #[Info(id: 70392, name: 'KHUDAWADI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x112F8, name: 'KHUDAWADI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case KHUDAWADI_DIGIT_EIGHT = "\u{112F8}";
 
-    #[Info(id: 70393, name: 'KHUDAWADI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x112F9, name: 'KHUDAWADI DIGIT NINE', category: Cat::Decimal_Number)]
     case KHUDAWADI_DIGIT_NINE = "\u{112F9}";
 }

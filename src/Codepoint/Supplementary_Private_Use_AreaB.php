@@ -16,9 +16,9 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Supplementary_Private_Use_AreaB: string
 {
-    #[Info(id: 1048576, name: 'Plane 16 Private Use, First', category: Cat::Private_Use)]
+    #[Info(id: 0x100000, name: 'Plane 16 Private Use, First', category: Cat::Private_Use)]
     case Plane_16_Private_Use__First = "\u{100000}";
 
-    #[Info(id: 1114109, name: 'Plane 16 Private Use, Last', category: Cat::Private_Use)]
+    #[Info(id: 0x10FFFD, name: 'Plane 16 Private Use, Last', category: Cat::Private_Use)]
     case Plane_16_Private_Use__Last = "\u{10FFFD}";
 }

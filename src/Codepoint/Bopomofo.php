@@ -16,132 +16,132 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Bopomofo: string
 {
-    #[Info(id: 12549, name: 'BOPOMOFO LETTER B', category: Cat::Other_Letter)]
+    #[Info(id: 0x3105, name: 'BOPOMOFO LETTER B', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_B = "\u{3105}";
 
-    #[Info(id: 12550, name: 'BOPOMOFO LETTER P', category: Cat::Other_Letter)]
+    #[Info(id: 0x3106, name: 'BOPOMOFO LETTER P', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_P = "\u{3106}";
 
-    #[Info(id: 12551, name: 'BOPOMOFO LETTER M', category: Cat::Other_Letter)]
+    #[Info(id: 0x3107, name: 'BOPOMOFO LETTER M', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_M = "\u{3107}";
 
-    #[Info(id: 12552, name: 'BOPOMOFO LETTER F', category: Cat::Other_Letter)]
+    #[Info(id: 0x3108, name: 'BOPOMOFO LETTER F', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_F = "\u{3108}";
 
-    #[Info(id: 12553, name: 'BOPOMOFO LETTER D', category: Cat::Other_Letter)]
+    #[Info(id: 0x3109, name: 'BOPOMOFO LETTER D', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_D = "\u{3109}";
 
-    #[Info(id: 12554, name: 'BOPOMOFO LETTER T', category: Cat::Other_Letter)]
+    #[Info(id: 0x310A, name: 'BOPOMOFO LETTER T', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_T = "\u{310A}";
 
-    #[Info(id: 12555, name: 'BOPOMOFO LETTER N', category: Cat::Other_Letter)]
+    #[Info(id: 0x310B, name: 'BOPOMOFO LETTER N', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_N = "\u{310B}";
 
-    #[Info(id: 12556, name: 'BOPOMOFO LETTER L', category: Cat::Other_Letter)]
+    #[Info(id: 0x310C, name: 'BOPOMOFO LETTER L', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_L = "\u{310C}";
 
-    #[Info(id: 12557, name: 'BOPOMOFO LETTER G', category: Cat::Other_Letter)]
+    #[Info(id: 0x310D, name: 'BOPOMOFO LETTER G', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_G = "\u{310D}";
 
-    #[Info(id: 12558, name: 'BOPOMOFO LETTER K', category: Cat::Other_Letter)]
+    #[Info(id: 0x310E, name: 'BOPOMOFO LETTER K', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_K = "\u{310E}";
 
-    #[Info(id: 12559, name: 'BOPOMOFO LETTER H', category: Cat::Other_Letter)]
+    #[Info(id: 0x310F, name: 'BOPOMOFO LETTER H', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_H = "\u{310F}";
 
-    #[Info(id: 12560, name: 'BOPOMOFO LETTER J', category: Cat::Other_Letter)]
+    #[Info(id: 0x3110, name: 'BOPOMOFO LETTER J', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_J = "\u{3110}";
 
-    #[Info(id: 12561, name: 'BOPOMOFO LETTER Q', category: Cat::Other_Letter)]
+    #[Info(id: 0x3111, name: 'BOPOMOFO LETTER Q', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_Q = "\u{3111}";
 
-    #[Info(id: 12562, name: 'BOPOMOFO LETTER X', category: Cat::Other_Letter)]
+    #[Info(id: 0x3112, name: 'BOPOMOFO LETTER X', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_X = "\u{3112}";
 
-    #[Info(id: 12563, name: 'BOPOMOFO LETTER ZH', category: Cat::Other_Letter)]
+    #[Info(id: 0x3113, name: 'BOPOMOFO LETTER ZH', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_ZH = "\u{3113}";
 
-    #[Info(id: 12564, name: 'BOPOMOFO LETTER CH', category: Cat::Other_Letter)]
+    #[Info(id: 0x3114, name: 'BOPOMOFO LETTER CH', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_CH = "\u{3114}";
 
-    #[Info(id: 12565, name: 'BOPOMOFO LETTER SH', category: Cat::Other_Letter)]
+    #[Info(id: 0x3115, name: 'BOPOMOFO LETTER SH', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_SH = "\u{3115}";
 
-    #[Info(id: 12566, name: 'BOPOMOFO LETTER R', category: Cat::Other_Letter)]
+    #[Info(id: 0x3116, name: 'BOPOMOFO LETTER R', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_R = "\u{3116}";
 
-    #[Info(id: 12567, name: 'BOPOMOFO LETTER Z', category: Cat::Other_Letter)]
+    #[Info(id: 0x3117, name: 'BOPOMOFO LETTER Z', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_Z = "\u{3117}";
 
-    #[Info(id: 12568, name: 'BOPOMOFO LETTER C', category: Cat::Other_Letter)]
+    #[Info(id: 0x3118, name: 'BOPOMOFO LETTER C', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_C = "\u{3118}";
 
-    #[Info(id: 12569, name: 'BOPOMOFO LETTER S', category: Cat::Other_Letter)]
+    #[Info(id: 0x3119, name: 'BOPOMOFO LETTER S', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_S = "\u{3119}";
 
-    #[Info(id: 12570, name: 'BOPOMOFO LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x311A, name: 'BOPOMOFO LETTER A', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_A = "\u{311A}";
 
-    #[Info(id: 12571, name: 'BOPOMOFO LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x311B, name: 'BOPOMOFO LETTER O', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_O = "\u{311B}";
 
-    #[Info(id: 12572, name: 'BOPOMOFO LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x311C, name: 'BOPOMOFO LETTER E', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_E = "\u{311C}";
 
-    #[Info(id: 12573, name: 'BOPOMOFO LETTER EH', category: Cat::Other_Letter)]
+    #[Info(id: 0x311D, name: 'BOPOMOFO LETTER EH', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_EH = "\u{311D}";
 
-    #[Info(id: 12574, name: 'BOPOMOFO LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x311E, name: 'BOPOMOFO LETTER AI', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_AI = "\u{311E}";
 
-    #[Info(id: 12575, name: 'BOPOMOFO LETTER EI', category: Cat::Other_Letter)]
+    #[Info(id: 0x311F, name: 'BOPOMOFO LETTER EI', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_EI = "\u{311F}";
 
-    #[Info(id: 12576, name: 'BOPOMOFO LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x3120, name: 'BOPOMOFO LETTER AU', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_AU = "\u{3120}";
 
-    #[Info(id: 12577, name: 'BOPOMOFO LETTER OU', category: Cat::Other_Letter)]
+    #[Info(id: 0x3121, name: 'BOPOMOFO LETTER OU', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_OU = "\u{3121}";
 
-    #[Info(id: 12578, name: 'BOPOMOFO LETTER AN', category: Cat::Other_Letter)]
+    #[Info(id: 0x3122, name: 'BOPOMOFO LETTER AN', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_AN = "\u{3122}";
 
-    #[Info(id: 12579, name: 'BOPOMOFO LETTER EN', category: Cat::Other_Letter)]
+    #[Info(id: 0x3123, name: 'BOPOMOFO LETTER EN', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_EN = "\u{3123}";
 
-    #[Info(id: 12580, name: 'BOPOMOFO LETTER ANG', category: Cat::Other_Letter)]
+    #[Info(id: 0x3124, name: 'BOPOMOFO LETTER ANG', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_ANG = "\u{3124}";
 
-    #[Info(id: 12581, name: 'BOPOMOFO LETTER ENG', category: Cat::Other_Letter)]
+    #[Info(id: 0x3125, name: 'BOPOMOFO LETTER ENG', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_ENG = "\u{3125}";
 
-    #[Info(id: 12582, name: 'BOPOMOFO LETTER ER', category: Cat::Other_Letter)]
+    #[Info(id: 0x3126, name: 'BOPOMOFO LETTER ER', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_ER = "\u{3126}";
 
-    #[Info(id: 12583, name: 'BOPOMOFO LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x3127, name: 'BOPOMOFO LETTER I', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_I = "\u{3127}";
 
-    #[Info(id: 12584, name: 'BOPOMOFO LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x3128, name: 'BOPOMOFO LETTER U', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_U = "\u{3128}";
 
-    #[Info(id: 12585, name: 'BOPOMOFO LETTER IU', category: Cat::Other_Letter)]
+    #[Info(id: 0x3129, name: 'BOPOMOFO LETTER IU', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_IU = "\u{3129}";
 
-    #[Info(id: 12586, name: 'BOPOMOFO LETTER V', category: Cat::Other_Letter)]
+    #[Info(id: 0x312A, name: 'BOPOMOFO LETTER V', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_V = "\u{312A}";
 
-    #[Info(id: 12587, name: 'BOPOMOFO LETTER NG', category: Cat::Other_Letter)]
+    #[Info(id: 0x312B, name: 'BOPOMOFO LETTER NG', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_NG = "\u{312B}";
 
-    #[Info(id: 12588, name: 'BOPOMOFO LETTER GN', category: Cat::Other_Letter)]
+    #[Info(id: 0x312C, name: 'BOPOMOFO LETTER GN', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_GN = "\u{312C}";
 
-    #[Info(id: 12589, name: 'BOPOMOFO LETTER IH', category: Cat::Other_Letter)]
+    #[Info(id: 0x312D, name: 'BOPOMOFO LETTER IH', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_IH = "\u{312D}";
 
-    #[Info(id: 12590, name: 'BOPOMOFO LETTER O WITH DOT ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x312E, name: 'BOPOMOFO LETTER O WITH DOT ABOVE', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_O_WITH_DOT_ABOVE = "\u{312E}";
 
-    #[Info(id: 12591, name: 'BOPOMOFO LETTER NN', category: Cat::Other_Letter)]
+    #[Info(id: 0x312F, name: 'BOPOMOFO LETTER NN', category: Cat::Other_Letter)]
     case BOPOMOFO_LETTER_NN = "\u{312F}";
 }

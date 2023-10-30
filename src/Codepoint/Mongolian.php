@@ -16,477 +16,477 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Mongolian: string
 {
-    #[Info(id: 6144, name: 'MONGOLIAN BIRGA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1800, name: 'MONGOLIAN BIRGA', category: Cat::Other_Punctuation)]
     case MONGOLIAN_BIRGA = "\u{1800}";
 
-    #[Info(id: 6145, name: 'MONGOLIAN ELLIPSIS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1801, name: 'MONGOLIAN ELLIPSIS', category: Cat::Other_Punctuation)]
     case MONGOLIAN_ELLIPSIS = "\u{1801}";
 
-    #[Info(id: 6146, name: 'MONGOLIAN COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1802, name: 'MONGOLIAN COMMA', category: Cat::Other_Punctuation)]
     case MONGOLIAN_COMMA = "\u{1802}";
 
-    #[Info(id: 6147, name: 'MONGOLIAN FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1803, name: 'MONGOLIAN FULL STOP', category: Cat::Other_Punctuation)]
     case MONGOLIAN_FULL_STOP = "\u{1803}";
 
-    #[Info(id: 6148, name: 'MONGOLIAN COLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1804, name: 'MONGOLIAN COLON', category: Cat::Other_Punctuation)]
     case MONGOLIAN_COLON = "\u{1804}";
 
-    #[Info(id: 6149, name: 'MONGOLIAN FOUR DOTS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1805, name: 'MONGOLIAN FOUR DOTS', category: Cat::Other_Punctuation)]
     case MONGOLIAN_FOUR_DOTS = "\u{1805}";
 
-    #[Info(id: 6150, name: 'MONGOLIAN TODO SOFT HYPHEN', category: Cat::Dash_Punctuation)]
+    #[Info(id: 0x1806, name: 'MONGOLIAN TODO SOFT HYPHEN', category: Cat::Dash_Punctuation)]
     case MONGOLIAN_TODO_SOFT_HYPHEN = "\u{1806}";
 
-    #[Info(id: 6151, name: 'MONGOLIAN SIBE SYLLABLE BOUNDARY MARKER', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1807, name: 'MONGOLIAN SIBE SYLLABLE BOUNDARY MARKER', category: Cat::Other_Punctuation)]
     case MONGOLIAN_SIBE_SYLLABLE_BOUNDARY_MARKER = "\u{1807}";
 
-    #[Info(id: 6152, name: 'MONGOLIAN MANCHU COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1808, name: 'MONGOLIAN MANCHU COMMA', category: Cat::Other_Punctuation)]
     case MONGOLIAN_MANCHU_COMMA = "\u{1808}";
 
-    #[Info(id: 6153, name: 'MONGOLIAN MANCHU FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1809, name: 'MONGOLIAN MANCHU FULL STOP', category: Cat::Other_Punctuation)]
     case MONGOLIAN_MANCHU_FULL_STOP = "\u{1809}";
 
-    #[Info(id: 6154, name: 'MONGOLIAN NIRUGU', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x180A, name: 'MONGOLIAN NIRUGU', category: Cat::Other_Punctuation)]
     case MONGOLIAN_NIRUGU = "\u{180A}";
 
-    #[Info(id: 6155, name: 'MONGOLIAN FREE VARIATION SELECTOR ONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x180B, name: 'MONGOLIAN FREE VARIATION SELECTOR ONE', category: Cat::Nonspacing_Mark)]
     case MONGOLIAN_FREE_VARIATION_SELECTOR_ONE = "\u{180B}";
 
-    #[Info(id: 6156, name: 'MONGOLIAN FREE VARIATION SELECTOR TWO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x180C, name: 'MONGOLIAN FREE VARIATION SELECTOR TWO', category: Cat::Nonspacing_Mark)]
     case MONGOLIAN_FREE_VARIATION_SELECTOR_TWO = "\u{180C}";
 
-    #[Info(id: 6157, name: 'MONGOLIAN FREE VARIATION SELECTOR THREE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x180D, name: 'MONGOLIAN FREE VARIATION SELECTOR THREE', category: Cat::Nonspacing_Mark)]
     case MONGOLIAN_FREE_VARIATION_SELECTOR_THREE = "\u{180D}";
 
-    #[Info(id: 6158, name: 'MONGOLIAN VOWEL SEPARATOR', category: Cat::Format)]
+    #[Info(id: 0x180E, name: 'MONGOLIAN VOWEL SEPARATOR', category: Cat::Format)]
     case MONGOLIAN_VOWEL_SEPARATOR = "\u{180E}";
 
-    #[Info(id: 6159, name: 'MONGOLIAN FREE VARIATION SELECTOR FOUR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x180F, name: 'MONGOLIAN FREE VARIATION SELECTOR FOUR', category: Cat::Nonspacing_Mark)]
     case MONGOLIAN_FREE_VARIATION_SELECTOR_FOUR = "\u{180F}";
 
-    #[Info(id: 6160, name: 'MONGOLIAN DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1810, name: 'MONGOLIAN DIGIT ZERO', category: Cat::Decimal_Number)]
     case MONGOLIAN_DIGIT_ZERO = "\u{1810}";
 
-    #[Info(id: 6161, name: 'MONGOLIAN DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1811, name: 'MONGOLIAN DIGIT ONE', category: Cat::Decimal_Number)]
     case MONGOLIAN_DIGIT_ONE = "\u{1811}";
 
-    #[Info(id: 6162, name: 'MONGOLIAN DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1812, name: 'MONGOLIAN DIGIT TWO', category: Cat::Decimal_Number)]
     case MONGOLIAN_DIGIT_TWO = "\u{1812}";
 
-    #[Info(id: 6163, name: 'MONGOLIAN DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1813, name: 'MONGOLIAN DIGIT THREE', category: Cat::Decimal_Number)]
     case MONGOLIAN_DIGIT_THREE = "\u{1813}";
 
-    #[Info(id: 6164, name: 'MONGOLIAN DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1814, name: 'MONGOLIAN DIGIT FOUR', category: Cat::Decimal_Number)]
     case MONGOLIAN_DIGIT_FOUR = "\u{1814}";
 
-    #[Info(id: 6165, name: 'MONGOLIAN DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1815, name: 'MONGOLIAN DIGIT FIVE', category: Cat::Decimal_Number)]
     case MONGOLIAN_DIGIT_FIVE = "\u{1815}";
 
-    #[Info(id: 6166, name: 'MONGOLIAN DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1816, name: 'MONGOLIAN DIGIT SIX', category: Cat::Decimal_Number)]
     case MONGOLIAN_DIGIT_SIX = "\u{1816}";
 
-    #[Info(id: 6167, name: 'MONGOLIAN DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1817, name: 'MONGOLIAN DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MONGOLIAN_DIGIT_SEVEN = "\u{1817}";
 
-    #[Info(id: 6168, name: 'MONGOLIAN DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1818, name: 'MONGOLIAN DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MONGOLIAN_DIGIT_EIGHT = "\u{1818}";
 
-    #[Info(id: 6169, name: 'MONGOLIAN DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1819, name: 'MONGOLIAN DIGIT NINE', category: Cat::Decimal_Number)]
     case MONGOLIAN_DIGIT_NINE = "\u{1819}";
 
-    #[Info(id: 6176, name: 'MONGOLIAN LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1820, name: 'MONGOLIAN LETTER A', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_A = "\u{1820}";
 
-    #[Info(id: 6177, name: 'MONGOLIAN LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1821, name: 'MONGOLIAN LETTER E', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_E = "\u{1821}";
 
-    #[Info(id: 6178, name: 'MONGOLIAN LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1822, name: 'MONGOLIAN LETTER I', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_I = "\u{1822}";
 
-    #[Info(id: 6179, name: 'MONGOLIAN LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1823, name: 'MONGOLIAN LETTER O', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_O = "\u{1823}";
 
-    #[Info(id: 6180, name: 'MONGOLIAN LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1824, name: 'MONGOLIAN LETTER U', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_U = "\u{1824}";
 
-    #[Info(id: 6181, name: 'MONGOLIAN LETTER OE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1825, name: 'MONGOLIAN LETTER OE', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_OE = "\u{1825}";
 
-    #[Info(id: 6182, name: 'MONGOLIAN LETTER UE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1826, name: 'MONGOLIAN LETTER UE', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_UE = "\u{1826}";
 
-    #[Info(id: 6183, name: 'MONGOLIAN LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1827, name: 'MONGOLIAN LETTER EE', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_EE = "\u{1827}";
 
-    #[Info(id: 6184, name: 'MONGOLIAN LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1828, name: 'MONGOLIAN LETTER NA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_NA = "\u{1828}";
 
-    #[Info(id: 6185, name: 'MONGOLIAN LETTER ANG', category: Cat::Other_Letter)]
+    #[Info(id: 0x1829, name: 'MONGOLIAN LETTER ANG', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ANG = "\u{1829}";
 
-    #[Info(id: 6186, name: 'MONGOLIAN LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x182A, name: 'MONGOLIAN LETTER BA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_BA = "\u{182A}";
 
-    #[Info(id: 6187, name: 'MONGOLIAN LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x182B, name: 'MONGOLIAN LETTER PA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_PA = "\u{182B}";
 
-    #[Info(id: 6188, name: 'MONGOLIAN LETTER QA', category: Cat::Other_Letter)]
+    #[Info(id: 0x182C, name: 'MONGOLIAN LETTER QA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_QA = "\u{182C}";
 
-    #[Info(id: 6189, name: 'MONGOLIAN LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x182D, name: 'MONGOLIAN LETTER GA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_GA = "\u{182D}";
 
-    #[Info(id: 6190, name: 'MONGOLIAN LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x182E, name: 'MONGOLIAN LETTER MA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MA = "\u{182E}";
 
-    #[Info(id: 6191, name: 'MONGOLIAN LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x182F, name: 'MONGOLIAN LETTER LA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_LA = "\u{182F}";
 
-    #[Info(id: 6192, name: 'MONGOLIAN LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1830, name: 'MONGOLIAN LETTER SA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SA = "\u{1830}";
 
-    #[Info(id: 6193, name: 'MONGOLIAN LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1831, name: 'MONGOLIAN LETTER SHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SHA = "\u{1831}";
 
-    #[Info(id: 6194, name: 'MONGOLIAN LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1832, name: 'MONGOLIAN LETTER TA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TA = "\u{1832}";
 
-    #[Info(id: 6195, name: 'MONGOLIAN LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1833, name: 'MONGOLIAN LETTER DA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_DA = "\u{1833}";
 
-    #[Info(id: 6196, name: 'MONGOLIAN LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1834, name: 'MONGOLIAN LETTER CHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_CHA = "\u{1834}";
 
-    #[Info(id: 6197, name: 'MONGOLIAN LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1835, name: 'MONGOLIAN LETTER JA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_JA = "\u{1835}";
 
-    #[Info(id: 6198, name: 'MONGOLIAN LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1836, name: 'MONGOLIAN LETTER YA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_YA = "\u{1836}";
 
-    #[Info(id: 6199, name: 'MONGOLIAN LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1837, name: 'MONGOLIAN LETTER RA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_RA = "\u{1837}";
 
-    #[Info(id: 6200, name: 'MONGOLIAN LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1838, name: 'MONGOLIAN LETTER WA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_WA = "\u{1838}";
 
-    #[Info(id: 6201, name: 'MONGOLIAN LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1839, name: 'MONGOLIAN LETTER FA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_FA = "\u{1839}";
 
-    #[Info(id: 6202, name: 'MONGOLIAN LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x183A, name: 'MONGOLIAN LETTER KA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_KA = "\u{183A}";
 
-    #[Info(id: 6203, name: 'MONGOLIAN LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x183B, name: 'MONGOLIAN LETTER KHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_KHA = "\u{183B}";
 
-    #[Info(id: 6204, name: 'MONGOLIAN LETTER TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x183C, name: 'MONGOLIAN LETTER TSA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TSA = "\u{183C}";
 
-    #[Info(id: 6205, name: 'MONGOLIAN LETTER ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x183D, name: 'MONGOLIAN LETTER ZA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ZA = "\u{183D}";
 
-    #[Info(id: 6206, name: 'MONGOLIAN LETTER HAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x183E, name: 'MONGOLIAN LETTER HAA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_HAA = "\u{183E}";
 
-    #[Info(id: 6207, name: 'MONGOLIAN LETTER ZRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x183F, name: 'MONGOLIAN LETTER ZRA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ZRA = "\u{183F}";
 
-    #[Info(id: 6208, name: 'MONGOLIAN LETTER LHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1840, name: 'MONGOLIAN LETTER LHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_LHA = "\u{1840}";
 
-    #[Info(id: 6209, name: 'MONGOLIAN LETTER ZHI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1841, name: 'MONGOLIAN LETTER ZHI', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ZHI = "\u{1841}";
 
-    #[Info(id: 6210, name: 'MONGOLIAN LETTER CHI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1842, name: 'MONGOLIAN LETTER CHI', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_CHI = "\u{1842}";
 
-    #[Info(id: 6211, name: 'MONGOLIAN LETTER TODO LONG VOWEL SIGN', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1843, name: 'MONGOLIAN LETTER TODO LONG VOWEL SIGN', category: Cat::Modifier_Letter)]
     case MONGOLIAN_LETTER_TODO_LONG_VOWEL_SIGN = "\u{1843}";
 
-    #[Info(id: 6212, name: 'MONGOLIAN LETTER TODO E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1844, name: 'MONGOLIAN LETTER TODO E', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_E = "\u{1844}";
 
-    #[Info(id: 6213, name: 'MONGOLIAN LETTER TODO I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1845, name: 'MONGOLIAN LETTER TODO I', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_I = "\u{1845}";
 
-    #[Info(id: 6214, name: 'MONGOLIAN LETTER TODO O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1846, name: 'MONGOLIAN LETTER TODO O', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_O = "\u{1846}";
 
-    #[Info(id: 6215, name: 'MONGOLIAN LETTER TODO U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1847, name: 'MONGOLIAN LETTER TODO U', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_U = "\u{1847}";
 
-    #[Info(id: 6216, name: 'MONGOLIAN LETTER TODO OE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1848, name: 'MONGOLIAN LETTER TODO OE', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_OE = "\u{1848}";
 
-    #[Info(id: 6217, name: 'MONGOLIAN LETTER TODO UE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1849, name: 'MONGOLIAN LETTER TODO UE', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_UE = "\u{1849}";
 
-    #[Info(id: 6218, name: 'MONGOLIAN LETTER TODO ANG', category: Cat::Other_Letter)]
+    #[Info(id: 0x184A, name: 'MONGOLIAN LETTER TODO ANG', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_ANG = "\u{184A}";
 
-    #[Info(id: 6219, name: 'MONGOLIAN LETTER TODO BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x184B, name: 'MONGOLIAN LETTER TODO BA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_BA = "\u{184B}";
 
-    #[Info(id: 6220, name: 'MONGOLIAN LETTER TODO PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x184C, name: 'MONGOLIAN LETTER TODO PA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_PA = "\u{184C}";
 
-    #[Info(id: 6221, name: 'MONGOLIAN LETTER TODO QA', category: Cat::Other_Letter)]
+    #[Info(id: 0x184D, name: 'MONGOLIAN LETTER TODO QA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_QA = "\u{184D}";
 
-    #[Info(id: 6222, name: 'MONGOLIAN LETTER TODO GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x184E, name: 'MONGOLIAN LETTER TODO GA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_GA = "\u{184E}";
 
-    #[Info(id: 6223, name: 'MONGOLIAN LETTER TODO MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x184F, name: 'MONGOLIAN LETTER TODO MA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_MA = "\u{184F}";
 
-    #[Info(id: 6224, name: 'MONGOLIAN LETTER TODO TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1850, name: 'MONGOLIAN LETTER TODO TA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_TA = "\u{1850}";
 
-    #[Info(id: 6225, name: 'MONGOLIAN LETTER TODO DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1851, name: 'MONGOLIAN LETTER TODO DA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_DA = "\u{1851}";
 
-    #[Info(id: 6226, name: 'MONGOLIAN LETTER TODO CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1852, name: 'MONGOLIAN LETTER TODO CHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_CHA = "\u{1852}";
 
-    #[Info(id: 6227, name: 'MONGOLIAN LETTER TODO JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1853, name: 'MONGOLIAN LETTER TODO JA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_JA = "\u{1853}";
 
-    #[Info(id: 6228, name: 'MONGOLIAN LETTER TODO TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1854, name: 'MONGOLIAN LETTER TODO TSA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_TSA = "\u{1854}";
 
-    #[Info(id: 6229, name: 'MONGOLIAN LETTER TODO YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1855, name: 'MONGOLIAN LETTER TODO YA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_YA = "\u{1855}";
 
-    #[Info(id: 6230, name: 'MONGOLIAN LETTER TODO WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1856, name: 'MONGOLIAN LETTER TODO WA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_WA = "\u{1856}";
 
-    #[Info(id: 6231, name: 'MONGOLIAN LETTER TODO KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1857, name: 'MONGOLIAN LETTER TODO KA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_KA = "\u{1857}";
 
-    #[Info(id: 6232, name: 'MONGOLIAN LETTER TODO GAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1858, name: 'MONGOLIAN LETTER TODO GAA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_GAA = "\u{1858}";
 
-    #[Info(id: 6233, name: 'MONGOLIAN LETTER TODO HAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1859, name: 'MONGOLIAN LETTER TODO HAA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_HAA = "\u{1859}";
 
-    #[Info(id: 6234, name: 'MONGOLIAN LETTER TODO JIA', category: Cat::Other_Letter)]
+    #[Info(id: 0x185A, name: 'MONGOLIAN LETTER TODO JIA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_JIA = "\u{185A}";
 
-    #[Info(id: 6235, name: 'MONGOLIAN LETTER TODO NIA', category: Cat::Other_Letter)]
+    #[Info(id: 0x185B, name: 'MONGOLIAN LETTER TODO NIA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_NIA = "\u{185B}";
 
-    #[Info(id: 6236, name: 'MONGOLIAN LETTER TODO DZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x185C, name: 'MONGOLIAN LETTER TODO DZA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_DZA = "\u{185C}";
 
-    #[Info(id: 6237, name: 'MONGOLIAN LETTER SIBE E', category: Cat::Other_Letter)]
+    #[Info(id: 0x185D, name: 'MONGOLIAN LETTER SIBE E', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_E = "\u{185D}";
 
-    #[Info(id: 6238, name: 'MONGOLIAN LETTER SIBE I', category: Cat::Other_Letter)]
+    #[Info(id: 0x185E, name: 'MONGOLIAN LETTER SIBE I', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_I = "\u{185E}";
 
-    #[Info(id: 6239, name: 'MONGOLIAN LETTER SIBE IY', category: Cat::Other_Letter)]
+    #[Info(id: 0x185F, name: 'MONGOLIAN LETTER SIBE IY', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_IY = "\u{185F}";
 
-    #[Info(id: 6240, name: 'MONGOLIAN LETTER SIBE UE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1860, name: 'MONGOLIAN LETTER SIBE UE', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_UE = "\u{1860}";
 
-    #[Info(id: 6241, name: 'MONGOLIAN LETTER SIBE U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1861, name: 'MONGOLIAN LETTER SIBE U', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_U = "\u{1861}";
 
-    #[Info(id: 6242, name: 'MONGOLIAN LETTER SIBE ANG', category: Cat::Other_Letter)]
+    #[Info(id: 0x1862, name: 'MONGOLIAN LETTER SIBE ANG', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_ANG = "\u{1862}";
 
-    #[Info(id: 6243, name: 'MONGOLIAN LETTER SIBE KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1863, name: 'MONGOLIAN LETTER SIBE KA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_KA = "\u{1863}";
 
-    #[Info(id: 6244, name: 'MONGOLIAN LETTER SIBE GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1864, name: 'MONGOLIAN LETTER SIBE GA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_GA = "\u{1864}";
 
-    #[Info(id: 6245, name: 'MONGOLIAN LETTER SIBE HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1865, name: 'MONGOLIAN LETTER SIBE HA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_HA = "\u{1865}";
 
-    #[Info(id: 6246, name: 'MONGOLIAN LETTER SIBE PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1866, name: 'MONGOLIAN LETTER SIBE PA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_PA = "\u{1866}";
 
-    #[Info(id: 6247, name: 'MONGOLIAN LETTER SIBE SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1867, name: 'MONGOLIAN LETTER SIBE SHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_SHA = "\u{1867}";
 
-    #[Info(id: 6248, name: 'MONGOLIAN LETTER SIBE TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1868, name: 'MONGOLIAN LETTER SIBE TA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_TA = "\u{1868}";
 
-    #[Info(id: 6249, name: 'MONGOLIAN LETTER SIBE DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1869, name: 'MONGOLIAN LETTER SIBE DA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_DA = "\u{1869}";
 
-    #[Info(id: 6250, name: 'MONGOLIAN LETTER SIBE JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x186A, name: 'MONGOLIAN LETTER SIBE JA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_JA = "\u{186A}";
 
-    #[Info(id: 6251, name: 'MONGOLIAN LETTER SIBE FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x186B, name: 'MONGOLIAN LETTER SIBE FA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_FA = "\u{186B}";
 
-    #[Info(id: 6252, name: 'MONGOLIAN LETTER SIBE GAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x186C, name: 'MONGOLIAN LETTER SIBE GAA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_GAA = "\u{186C}";
 
-    #[Info(id: 6253, name: 'MONGOLIAN LETTER SIBE HAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x186D, name: 'MONGOLIAN LETTER SIBE HAA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_HAA = "\u{186D}";
 
-    #[Info(id: 6254, name: 'MONGOLIAN LETTER SIBE TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x186E, name: 'MONGOLIAN LETTER SIBE TSA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_TSA = "\u{186E}";
 
-    #[Info(id: 6255, name: 'MONGOLIAN LETTER SIBE ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x186F, name: 'MONGOLIAN LETTER SIBE ZA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_ZA = "\u{186F}";
 
-    #[Info(id: 6256, name: 'MONGOLIAN LETTER SIBE RAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1870, name: 'MONGOLIAN LETTER SIBE RAA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_RAA = "\u{1870}";
 
-    #[Info(id: 6257, name: 'MONGOLIAN LETTER SIBE CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1871, name: 'MONGOLIAN LETTER SIBE CHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_CHA = "\u{1871}";
 
-    #[Info(id: 6258, name: 'MONGOLIAN LETTER SIBE ZHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1872, name: 'MONGOLIAN LETTER SIBE ZHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_SIBE_ZHA = "\u{1872}";
 
-    #[Info(id: 6259, name: 'MONGOLIAN LETTER MANCHU I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1873, name: 'MONGOLIAN LETTER MANCHU I', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_I = "\u{1873}";
 
-    #[Info(id: 6260, name: 'MONGOLIAN LETTER MANCHU KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1874, name: 'MONGOLIAN LETTER MANCHU KA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_KA = "\u{1874}";
 
-    #[Info(id: 6261, name: 'MONGOLIAN LETTER MANCHU RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1875, name: 'MONGOLIAN LETTER MANCHU RA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_RA = "\u{1875}";
 
-    #[Info(id: 6262, name: 'MONGOLIAN LETTER MANCHU FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1876, name: 'MONGOLIAN LETTER MANCHU FA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_FA = "\u{1876}";
 
-    #[Info(id: 6263, name: 'MONGOLIAN LETTER MANCHU ZHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1877, name: 'MONGOLIAN LETTER MANCHU ZHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ZHA = "\u{1877}";
 
-    #[Info(id: 6264, name: 'MONGOLIAN LETTER CHA WITH TWO DOTS', category: Cat::Other_Letter)]
+    #[Info(id: 0x1878, name: 'MONGOLIAN LETTER CHA WITH TWO DOTS', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_CHA_WITH_TWO_DOTS = "\u{1878}";
 
-    #[Info(id: 6272, name: 'MONGOLIAN LETTER ALI GALI ANUSVARA ONE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1880, name: 'MONGOLIAN LETTER ALI GALI ANUSVARA ONE', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_ANUSVARA_ONE = "\u{1880}";
 
-    #[Info(id: 6273, name: 'MONGOLIAN LETTER ALI GALI VISARGA ONE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1881, name: 'MONGOLIAN LETTER ALI GALI VISARGA ONE', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_VISARGA_ONE = "\u{1881}";
 
-    #[Info(id: 6274, name: 'MONGOLIAN LETTER ALI GALI DAMARU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1882, name: 'MONGOLIAN LETTER ALI GALI DAMARU', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_DAMARU = "\u{1882}";
 
-    #[Info(id: 6275, name: 'MONGOLIAN LETTER ALI GALI UBADAMA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1883, name: 'MONGOLIAN LETTER ALI GALI UBADAMA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_UBADAMA = "\u{1883}";
 
-    #[Info(id: 6276, name: 'MONGOLIAN LETTER ALI GALI INVERTED UBADAMA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1884, name: 'MONGOLIAN LETTER ALI GALI INVERTED UBADAMA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_INVERTED_UBADAMA = "\u{1884}";
 
-    #[Info(id: 6277, name: 'MONGOLIAN LETTER ALI GALI BALUDA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1885, name: 'MONGOLIAN LETTER ALI GALI BALUDA', category: Cat::Nonspacing_Mark)]
     case MONGOLIAN_LETTER_ALI_GALI_BALUDA = "\u{1885}";
 
-    #[Info(id: 6278, name: 'MONGOLIAN LETTER ALI GALI THREE BALUDA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1886, name: 'MONGOLIAN LETTER ALI GALI THREE BALUDA', category: Cat::Nonspacing_Mark)]
     case MONGOLIAN_LETTER_ALI_GALI_THREE_BALUDA = "\u{1886}";
 
-    #[Info(id: 6279, name: 'MONGOLIAN LETTER ALI GALI A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1887, name: 'MONGOLIAN LETTER ALI GALI A', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_A = "\u{1887}";
 
-    #[Info(id: 6280, name: 'MONGOLIAN LETTER ALI GALI I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1888, name: 'MONGOLIAN LETTER ALI GALI I', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_I = "\u{1888}";
 
-    #[Info(id: 6281, name: 'MONGOLIAN LETTER ALI GALI KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1889, name: 'MONGOLIAN LETTER ALI GALI KA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_KA = "\u{1889}";
 
-    #[Info(id: 6282, name: 'MONGOLIAN LETTER ALI GALI NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x188A, name: 'MONGOLIAN LETTER ALI GALI NGA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_NGA = "\u{188A}";
 
-    #[Info(id: 6283, name: 'MONGOLIAN LETTER ALI GALI CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x188B, name: 'MONGOLIAN LETTER ALI GALI CA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_CA = "\u{188B}";
 
-    #[Info(id: 6284, name: 'MONGOLIAN LETTER ALI GALI TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x188C, name: 'MONGOLIAN LETTER ALI GALI TTA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_TTA = "\u{188C}";
 
-    #[Info(id: 6285, name: 'MONGOLIAN LETTER ALI GALI TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x188D, name: 'MONGOLIAN LETTER ALI GALI TTHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_TTHA = "\u{188D}";
 
-    #[Info(id: 6286, name: 'MONGOLIAN LETTER ALI GALI DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x188E, name: 'MONGOLIAN LETTER ALI GALI DDA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_DDA = "\u{188E}";
 
-    #[Info(id: 6287, name: 'MONGOLIAN LETTER ALI GALI NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x188F, name: 'MONGOLIAN LETTER ALI GALI NNA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_NNA = "\u{188F}";
 
-    #[Info(id: 6288, name: 'MONGOLIAN LETTER ALI GALI TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1890, name: 'MONGOLIAN LETTER ALI GALI TA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_TA = "\u{1890}";
 
-    #[Info(id: 6289, name: 'MONGOLIAN LETTER ALI GALI DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1891, name: 'MONGOLIAN LETTER ALI GALI DA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_DA = "\u{1891}";
 
-    #[Info(id: 6290, name: 'MONGOLIAN LETTER ALI GALI PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1892, name: 'MONGOLIAN LETTER ALI GALI PA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_PA = "\u{1892}";
 
-    #[Info(id: 6291, name: 'MONGOLIAN LETTER ALI GALI PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1893, name: 'MONGOLIAN LETTER ALI GALI PHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_PHA = "\u{1893}";
 
-    #[Info(id: 6292, name: 'MONGOLIAN LETTER ALI GALI SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1894, name: 'MONGOLIAN LETTER ALI GALI SSA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_SSA = "\u{1894}";
 
-    #[Info(id: 6293, name: 'MONGOLIAN LETTER ALI GALI ZHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1895, name: 'MONGOLIAN LETTER ALI GALI ZHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_ZHA = "\u{1895}";
 
-    #[Info(id: 6294, name: 'MONGOLIAN LETTER ALI GALI ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1896, name: 'MONGOLIAN LETTER ALI GALI ZA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_ZA = "\u{1896}";
 
-    #[Info(id: 6295, name: 'MONGOLIAN LETTER ALI GALI AH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1897, name: 'MONGOLIAN LETTER ALI GALI AH', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_AH = "\u{1897}";
 
-    #[Info(id: 6296, name: 'MONGOLIAN LETTER TODO ALI GALI TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1898, name: 'MONGOLIAN LETTER TODO ALI GALI TA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_ALI_GALI_TA = "\u{1898}";
 
-    #[Info(id: 6297, name: 'MONGOLIAN LETTER TODO ALI GALI ZHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1899, name: 'MONGOLIAN LETTER TODO ALI GALI ZHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_TODO_ALI_GALI_ZHA = "\u{1899}";
 
-    #[Info(id: 6298, name: 'MONGOLIAN LETTER MANCHU ALI GALI GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x189A, name: 'MONGOLIAN LETTER MANCHU ALI GALI GHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_GHA = "\u{189A}";
 
-    #[Info(id: 6299, name: 'MONGOLIAN LETTER MANCHU ALI GALI NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x189B, name: 'MONGOLIAN LETTER MANCHU ALI GALI NGA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_NGA = "\u{189B}";
 
-    #[Info(id: 6300, name: 'MONGOLIAN LETTER MANCHU ALI GALI CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x189C, name: 'MONGOLIAN LETTER MANCHU ALI GALI CA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_CA = "\u{189C}";
 
-    #[Info(id: 6301, name: 'MONGOLIAN LETTER MANCHU ALI GALI JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x189D, name: 'MONGOLIAN LETTER MANCHU ALI GALI JHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_JHA = "\u{189D}";
 
-    #[Info(id: 6302, name: 'MONGOLIAN LETTER MANCHU ALI GALI TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x189E, name: 'MONGOLIAN LETTER MANCHU ALI GALI TTA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_TTA = "\u{189E}";
 
-    #[Info(id: 6303, name: 'MONGOLIAN LETTER MANCHU ALI GALI DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x189F, name: 'MONGOLIAN LETTER MANCHU ALI GALI DDHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_DDHA = "\u{189F}";
 
-    #[Info(id: 6304, name: 'MONGOLIAN LETTER MANCHU ALI GALI TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18A0, name: 'MONGOLIAN LETTER MANCHU ALI GALI TA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_TA = "\u{18A0}";
 
-    #[Info(id: 6305, name: 'MONGOLIAN LETTER MANCHU ALI GALI DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18A1, name: 'MONGOLIAN LETTER MANCHU ALI GALI DHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_DHA = "\u{18A1}";
 
-    #[Info(id: 6306, name: 'MONGOLIAN LETTER MANCHU ALI GALI SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18A2, name: 'MONGOLIAN LETTER MANCHU ALI GALI SSA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_SSA = "\u{18A2}";
 
-    #[Info(id: 6307, name: 'MONGOLIAN LETTER MANCHU ALI GALI CYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18A3, name: 'MONGOLIAN LETTER MANCHU ALI GALI CYA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_CYA = "\u{18A3}";
 
-    #[Info(id: 6308, name: 'MONGOLIAN LETTER MANCHU ALI GALI ZHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18A4, name: 'MONGOLIAN LETTER MANCHU ALI GALI ZHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_ZHA = "\u{18A4}";
 
-    #[Info(id: 6309, name: 'MONGOLIAN LETTER MANCHU ALI GALI ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18A5, name: 'MONGOLIAN LETTER MANCHU ALI GALI ZA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_ZA = "\u{18A5}";
 
-    #[Info(id: 6310, name: 'MONGOLIAN LETTER ALI GALI HALF U', category: Cat::Other_Letter)]
+    #[Info(id: 0x18A6, name: 'MONGOLIAN LETTER ALI GALI HALF U', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_HALF_U = "\u{18A6}";
 
-    #[Info(id: 6311, name: 'MONGOLIAN LETTER ALI GALI HALF YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18A7, name: 'MONGOLIAN LETTER ALI GALI HALF YA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_ALI_GALI_HALF_YA = "\u{18A7}";
 
-    #[Info(id: 6312, name: 'MONGOLIAN LETTER MANCHU ALI GALI BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18A8, name: 'MONGOLIAN LETTER MANCHU ALI GALI BHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_BHA = "\u{18A8}";
 
-    #[Info(id: 6313, name: 'MONGOLIAN LETTER ALI GALI DAGALGA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x18A9, name: 'MONGOLIAN LETTER ALI GALI DAGALGA', category: Cat::Nonspacing_Mark)]
     case MONGOLIAN_LETTER_ALI_GALI_DAGALGA = "\u{18A9}";
 
-    #[Info(id: 6314, name: 'MONGOLIAN LETTER MANCHU ALI GALI LHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x18AA, name: 'MONGOLIAN LETTER MANCHU ALI GALI LHA', category: Cat::Other_Letter)]
     case MONGOLIAN_LETTER_MANCHU_ALI_GALI_LHA = "\u{18AA}";
 }

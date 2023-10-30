@@ -16,42 +16,42 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Mongolian_Supplement: string
 {
-    #[Info(id: 71264, name: 'MONGOLIAN BIRGA WITH ORNAMENT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11660, name: 'MONGOLIAN BIRGA WITH ORNAMENT', category: Cat::Other_Punctuation)]
     case MONGOLIAN_BIRGA_WITH_ORNAMENT = "\u{11660}";
 
-    #[Info(id: 71265, name: 'MONGOLIAN ROTATED BIRGA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11661, name: 'MONGOLIAN ROTATED BIRGA', category: Cat::Other_Punctuation)]
     case MONGOLIAN_ROTATED_BIRGA = "\u{11661}";
 
-    #[Info(id: 71266, name: 'MONGOLIAN DOUBLE BIRGA WITH ORNAMENT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11662, name: 'MONGOLIAN DOUBLE BIRGA WITH ORNAMENT', category: Cat::Other_Punctuation)]
     case MONGOLIAN_DOUBLE_BIRGA_WITH_ORNAMENT = "\u{11662}";
 
-    #[Info(id: 71267, name: 'MONGOLIAN TRIPLE BIRGA WITH ORNAMENT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11663, name: 'MONGOLIAN TRIPLE BIRGA WITH ORNAMENT', category: Cat::Other_Punctuation)]
     case MONGOLIAN_TRIPLE_BIRGA_WITH_ORNAMENT = "\u{11663}";
 
-    #[Info(id: 71268, name: 'MONGOLIAN BIRGA WITH DOUBLE ORNAMENT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11664, name: 'MONGOLIAN BIRGA WITH DOUBLE ORNAMENT', category: Cat::Other_Punctuation)]
     case MONGOLIAN_BIRGA_WITH_DOUBLE_ORNAMENT = "\u{11664}";
 
-    #[Info(id: 71269, name: 'MONGOLIAN ROTATED BIRGA WITH ORNAMENT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11665, name: 'MONGOLIAN ROTATED BIRGA WITH ORNAMENT', category: Cat::Other_Punctuation)]
     case MONGOLIAN_ROTATED_BIRGA_WITH_ORNAMENT = "\u{11665}";
 
-    #[Info(id: 71270, name: 'MONGOLIAN ROTATED BIRGA WITH DOUBLE ORNAMENT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11666, name: 'MONGOLIAN ROTATED BIRGA WITH DOUBLE ORNAMENT', category: Cat::Other_Punctuation)]
     case MONGOLIAN_ROTATED_BIRGA_WITH_DOUBLE_ORNAMENT = "\u{11666}";
 
-    #[Info(id: 71271, name: 'MONGOLIAN INVERTED BIRGA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11667, name: 'MONGOLIAN INVERTED BIRGA', category: Cat::Other_Punctuation)]
     case MONGOLIAN_INVERTED_BIRGA = "\u{11667}";
 
-    #[Info(id: 71272, name: 'MONGOLIAN INVERTED BIRGA WITH DOUBLE ORNAMENT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11668, name: 'MONGOLIAN INVERTED BIRGA WITH DOUBLE ORNAMENT', category: Cat::Other_Punctuation)]
     case MONGOLIAN_INVERTED_BIRGA_WITH_DOUBLE_ORNAMENT = "\u{11668}";
 
-    #[Info(id: 71273, name: 'MONGOLIAN SWIRL BIRGA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11669, name: 'MONGOLIAN SWIRL BIRGA', category: Cat::Other_Punctuation)]
     case MONGOLIAN_SWIRL_BIRGA = "\u{11669}";
 
-    #[Info(id: 71274, name: 'MONGOLIAN SWIRL BIRGA WITH ORNAMENT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1166A, name: 'MONGOLIAN SWIRL BIRGA WITH ORNAMENT', category: Cat::Other_Punctuation)]
     case MONGOLIAN_SWIRL_BIRGA_WITH_ORNAMENT = "\u{1166A}";
 
-    #[Info(id: 71275, name: 'MONGOLIAN SWIRL BIRGA WITH DOUBLE ORNAMENT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1166B, name: 'MONGOLIAN SWIRL BIRGA WITH DOUBLE ORNAMENT', category: Cat::Other_Punctuation)]
     case MONGOLIAN_SWIRL_BIRGA_WITH_DOUBLE_ORNAMENT = "\u{1166B}";
 
-    #[Info(id: 71276, name: 'MONGOLIAN TURNED SWIRL BIRGA WITH DOUBLE ORNAMENT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1166C, name: 'MONGOLIAN TURNED SWIRL BIRGA WITH DOUBLE ORNAMENT', category: Cat::Other_Punctuation)]
     case MONGOLIAN_TURNED_SWIRL_BIRGA_WITH_DOUBLE_ORNAMENT = "\u{1166C}";
 }

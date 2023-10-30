@@ -16,249 +16,249 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Tirhuta: string
 {
-    #[Info(id: 70784, name: 'TIRHUTA ANJI', category: Cat::Other_Letter)]
+    #[Info(id: 0x11480, name: 'TIRHUTA ANJI', category: Cat::Other_Letter)]
     case TIRHUTA_ANJI = "\u{11480}";
 
-    #[Info(id: 70785, name: 'TIRHUTA LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11481, name: 'TIRHUTA LETTER A', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_A = "\u{11481}";
 
-    #[Info(id: 70786, name: 'TIRHUTA LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11482, name: 'TIRHUTA LETTER AA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_AA = "\u{11482}";
 
-    #[Info(id: 70787, name: 'TIRHUTA LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11483, name: 'TIRHUTA LETTER I', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_I = "\u{11483}";
 
-    #[Info(id: 70788, name: 'TIRHUTA LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x11484, name: 'TIRHUTA LETTER II', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_II = "\u{11484}";
 
-    #[Info(id: 70789, name: 'TIRHUTA LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11485, name: 'TIRHUTA LETTER U', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_U = "\u{11485}";
 
-    #[Info(id: 70790, name: 'TIRHUTA LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11486, name: 'TIRHUTA LETTER UU', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_UU = "\u{11486}";
 
-    #[Info(id: 70791, name: 'TIRHUTA LETTER VOCALIC R', category: Cat::Other_Letter)]
+    #[Info(id: 0x11487, name: 'TIRHUTA LETTER VOCALIC R', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_VOCALIC_R = "\u{11487}";
 
-    #[Info(id: 70792, name: 'TIRHUTA LETTER VOCALIC RR', category: Cat::Other_Letter)]
+    #[Info(id: 0x11488, name: 'TIRHUTA LETTER VOCALIC RR', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_VOCALIC_RR = "\u{11488}";
 
-    #[Info(id: 70793, name: 'TIRHUTA LETTER VOCALIC L', category: Cat::Other_Letter)]
+    #[Info(id: 0x11489, name: 'TIRHUTA LETTER VOCALIC L', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_VOCALIC_L = "\u{11489}";
 
-    #[Info(id: 70794, name: 'TIRHUTA LETTER VOCALIC LL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1148A, name: 'TIRHUTA LETTER VOCALIC LL', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_VOCALIC_LL = "\u{1148A}";
 
-    #[Info(id: 70795, name: 'TIRHUTA LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1148B, name: 'TIRHUTA LETTER E', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_E = "\u{1148B}";
 
-    #[Info(id: 70796, name: 'TIRHUTA LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1148C, name: 'TIRHUTA LETTER AI', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_AI = "\u{1148C}";
 
-    #[Info(id: 70797, name: 'TIRHUTA LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1148D, name: 'TIRHUTA LETTER O', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_O = "\u{1148D}";
 
-    #[Info(id: 70798, name: 'TIRHUTA LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1148E, name: 'TIRHUTA LETTER AU', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_AU = "\u{1148E}";
 
-    #[Info(id: 70799, name: 'TIRHUTA LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1148F, name: 'TIRHUTA LETTER KA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_KA = "\u{1148F}";
 
-    #[Info(id: 70800, name: 'TIRHUTA LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11490, name: 'TIRHUTA LETTER KHA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_KHA = "\u{11490}";
 
-    #[Info(id: 70801, name: 'TIRHUTA LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11491, name: 'TIRHUTA LETTER GA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_GA = "\u{11491}";
 
-    #[Info(id: 70802, name: 'TIRHUTA LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11492, name: 'TIRHUTA LETTER GHA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_GHA = "\u{11492}";
 
-    #[Info(id: 70803, name: 'TIRHUTA LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11493, name: 'TIRHUTA LETTER NGA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_NGA = "\u{11493}";
 
-    #[Info(id: 70804, name: 'TIRHUTA LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11494, name: 'TIRHUTA LETTER CA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_CA = "\u{11494}";
 
-    #[Info(id: 70805, name: 'TIRHUTA LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11495, name: 'TIRHUTA LETTER CHA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_CHA = "\u{11495}";
 
-    #[Info(id: 70806, name: 'TIRHUTA LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11496, name: 'TIRHUTA LETTER JA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_JA = "\u{11496}";
 
-    #[Info(id: 70807, name: 'TIRHUTA LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11497, name: 'TIRHUTA LETTER JHA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_JHA = "\u{11497}";
 
-    #[Info(id: 70808, name: 'TIRHUTA LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11498, name: 'TIRHUTA LETTER NYA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_NYA = "\u{11498}";
 
-    #[Info(id: 70809, name: 'TIRHUTA LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11499, name: 'TIRHUTA LETTER TTA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_TTA = "\u{11499}";
 
-    #[Info(id: 70810, name: 'TIRHUTA LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1149A, name: 'TIRHUTA LETTER TTHA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_TTHA = "\u{1149A}";
 
-    #[Info(id: 70811, name: 'TIRHUTA LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1149B, name: 'TIRHUTA LETTER DDA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_DDA = "\u{1149B}";
 
-    #[Info(id: 70812, name: 'TIRHUTA LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1149C, name: 'TIRHUTA LETTER DDHA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_DDHA = "\u{1149C}";
 
-    #[Info(id: 70813, name: 'TIRHUTA LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1149D, name: 'TIRHUTA LETTER NNA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_NNA = "\u{1149D}";
 
-    #[Info(id: 70814, name: 'TIRHUTA LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1149E, name: 'TIRHUTA LETTER TA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_TA = "\u{1149E}";
 
-    #[Info(id: 70815, name: 'TIRHUTA LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1149F, name: 'TIRHUTA LETTER THA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_THA = "\u{1149F}";
 
-    #[Info(id: 70816, name: 'TIRHUTA LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114A0, name: 'TIRHUTA LETTER DA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_DA = "\u{114A0}";
 
-    #[Info(id: 70817, name: 'TIRHUTA LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114A1, name: 'TIRHUTA LETTER DHA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_DHA = "\u{114A1}";
 
-    #[Info(id: 70818, name: 'TIRHUTA LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114A2, name: 'TIRHUTA LETTER NA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_NA = "\u{114A2}";
 
-    #[Info(id: 70819, name: 'TIRHUTA LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114A3, name: 'TIRHUTA LETTER PA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_PA = "\u{114A3}";
 
-    #[Info(id: 70820, name: 'TIRHUTA LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114A4, name: 'TIRHUTA LETTER PHA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_PHA = "\u{114A4}";
 
-    #[Info(id: 70821, name: 'TIRHUTA LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114A5, name: 'TIRHUTA LETTER BA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_BA = "\u{114A5}";
 
-    #[Info(id: 70822, name: 'TIRHUTA LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114A6, name: 'TIRHUTA LETTER BHA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_BHA = "\u{114A6}";
 
-    #[Info(id: 70823, name: 'TIRHUTA LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114A7, name: 'TIRHUTA LETTER MA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_MA = "\u{114A7}";
 
-    #[Info(id: 70824, name: 'TIRHUTA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114A8, name: 'TIRHUTA LETTER YA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_YA = "\u{114A8}";
 
-    #[Info(id: 70825, name: 'TIRHUTA LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114A9, name: 'TIRHUTA LETTER RA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_RA = "\u{114A9}";
 
-    #[Info(id: 70826, name: 'TIRHUTA LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114AA, name: 'TIRHUTA LETTER LA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_LA = "\u{114AA}";
 
-    #[Info(id: 70827, name: 'TIRHUTA LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114AB, name: 'TIRHUTA LETTER VA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_VA = "\u{114AB}";
 
-    #[Info(id: 70828, name: 'TIRHUTA LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114AC, name: 'TIRHUTA LETTER SHA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_SHA = "\u{114AC}";
 
-    #[Info(id: 70829, name: 'TIRHUTA LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114AD, name: 'TIRHUTA LETTER SSA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_SSA = "\u{114AD}";
 
-    #[Info(id: 70830, name: 'TIRHUTA LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114AE, name: 'TIRHUTA LETTER SA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_SA = "\u{114AE}";
 
-    #[Info(id: 70831, name: 'TIRHUTA LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114AF, name: 'TIRHUTA LETTER HA', category: Cat::Other_Letter)]
     case TIRHUTA_LETTER_HA = "\u{114AF}";
 
-    #[Info(id: 70832, name: 'TIRHUTA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x114B0, name: 'TIRHUTA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_AA = "\u{114B0}";
 
-    #[Info(id: 70833, name: 'TIRHUTA VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x114B1, name: 'TIRHUTA VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_I = "\u{114B1}";
 
-    #[Info(id: 70834, name: 'TIRHUTA VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x114B2, name: 'TIRHUTA VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_II = "\u{114B2}";
 
-    #[Info(id: 70835, name: 'TIRHUTA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114B3, name: 'TIRHUTA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_U = "\u{114B3}";
 
-    #[Info(id: 70836, name: 'TIRHUTA VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114B4, name: 'TIRHUTA VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_UU = "\u{114B4}";
 
-    #[Info(id: 70837, name: 'TIRHUTA VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114B5, name: 'TIRHUTA VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_VOCALIC_R = "\u{114B5}";
 
-    #[Info(id: 70838, name: 'TIRHUTA VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114B6, name: 'TIRHUTA VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_VOCALIC_RR = "\u{114B6}";
 
-    #[Info(id: 70839, name: 'TIRHUTA VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114B7, name: 'TIRHUTA VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_VOCALIC_L = "\u{114B7}";
 
-    #[Info(id: 70840, name: 'TIRHUTA VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114B8, name: 'TIRHUTA VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_VOCALIC_LL = "\u{114B8}";
 
-    #[Info(id: 70841, name: 'TIRHUTA VOWEL SIGN E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x114B9, name: 'TIRHUTA VOWEL SIGN E', category: Cat::Spacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_E = "\u{114B9}";
 
-    #[Info(id: 70842, name: 'TIRHUTA VOWEL SIGN SHORT E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114BA, name: 'TIRHUTA VOWEL SIGN SHORT E', category: Cat::Nonspacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_SHORT_E = "\u{114BA}";
 
-    #[Info(id: 70843, name: 'TIRHUTA VOWEL SIGN AI', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x114BB, name: 'TIRHUTA VOWEL SIGN AI', category: Cat::Spacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_AI = "\u{114BB}";
 
-    #[Info(id: 70844, name: 'TIRHUTA VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x114BC, name: 'TIRHUTA VOWEL SIGN O', category: Cat::Spacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_O = "\u{114BC}";
 
-    #[Info(id: 70845, name: 'TIRHUTA VOWEL SIGN SHORT O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x114BD, name: 'TIRHUTA VOWEL SIGN SHORT O', category: Cat::Spacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_SHORT_O = "\u{114BD}";
 
-    #[Info(id: 70846, name: 'TIRHUTA VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x114BE, name: 'TIRHUTA VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case TIRHUTA_VOWEL_SIGN_AU = "\u{114BE}";
 
-    #[Info(id: 70847, name: 'TIRHUTA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114BF, name: 'TIRHUTA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case TIRHUTA_SIGN_CANDRABINDU = "\u{114BF}";
 
-    #[Info(id: 70848, name: 'TIRHUTA SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114C0, name: 'TIRHUTA SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case TIRHUTA_SIGN_ANUSVARA = "\u{114C0}";
 
-    #[Info(id: 70849, name: 'TIRHUTA SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x114C1, name: 'TIRHUTA SIGN VISARGA', category: Cat::Spacing_Mark)]
     case TIRHUTA_SIGN_VISARGA = "\u{114C1}";
 
-    #[Info(id: 70850, name: 'TIRHUTA SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114C2, name: 'TIRHUTA SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case TIRHUTA_SIGN_VIRAMA = "\u{114C2}";
 
-    #[Info(id: 70851, name: 'TIRHUTA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x114C3, name: 'TIRHUTA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case TIRHUTA_SIGN_NUKTA = "\u{114C3}";
 
-    #[Info(id: 70852, name: 'TIRHUTA SIGN AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x114C4, name: 'TIRHUTA SIGN AVAGRAHA', category: Cat::Other_Letter)]
     case TIRHUTA_SIGN_AVAGRAHA = "\u{114C4}";
 
-    #[Info(id: 70853, name: 'TIRHUTA GVANG', category: Cat::Other_Letter)]
+    #[Info(id: 0x114C5, name: 'TIRHUTA GVANG', category: Cat::Other_Letter)]
     case TIRHUTA_GVANG = "\u{114C5}";
 
-    #[Info(id: 70854, name: 'TIRHUTA ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x114C6, name: 'TIRHUTA ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
     case TIRHUTA_ABBREVIATION_SIGN = "\u{114C6}";
 
-    #[Info(id: 70855, name: 'TIRHUTA OM', category: Cat::Other_Letter)]
+    #[Info(id: 0x114C7, name: 'TIRHUTA OM', category: Cat::Other_Letter)]
     case TIRHUTA_OM = "\u{114C7}";
 
-    #[Info(id: 70864, name: 'TIRHUTA DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x114D0, name: 'TIRHUTA DIGIT ZERO', category: Cat::Decimal_Number)]
     case TIRHUTA_DIGIT_ZERO = "\u{114D0}";
 
-    #[Info(id: 70865, name: 'TIRHUTA DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x114D1, name: 'TIRHUTA DIGIT ONE', category: Cat::Decimal_Number)]
     case TIRHUTA_DIGIT_ONE = "\u{114D1}";
 
-    #[Info(id: 70866, name: 'TIRHUTA DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x114D2, name: 'TIRHUTA DIGIT TWO', category: Cat::Decimal_Number)]
     case TIRHUTA_DIGIT_TWO = "\u{114D2}";
 
-    #[Info(id: 70867, name: 'TIRHUTA DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x114D3, name: 'TIRHUTA DIGIT THREE', category: Cat::Decimal_Number)]
     case TIRHUTA_DIGIT_THREE = "\u{114D3}";
 
-    #[Info(id: 70868, name: 'TIRHUTA DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x114D4, name: 'TIRHUTA DIGIT FOUR', category: Cat::Decimal_Number)]
     case TIRHUTA_DIGIT_FOUR = "\u{114D4}";
 
-    #[Info(id: 70869, name: 'TIRHUTA DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x114D5, name: 'TIRHUTA DIGIT FIVE', category: Cat::Decimal_Number)]
     case TIRHUTA_DIGIT_FIVE = "\u{114D5}";
 
-    #[Info(id: 70870, name: 'TIRHUTA DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x114D6, name: 'TIRHUTA DIGIT SIX', category: Cat::Decimal_Number)]
     case TIRHUTA_DIGIT_SIX = "\u{114D6}";
 
-    #[Info(id: 70871, name: 'TIRHUTA DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x114D7, name: 'TIRHUTA DIGIT SEVEN', category: Cat::Decimal_Number)]
     case TIRHUTA_DIGIT_SEVEN = "\u{114D7}";
 
-    #[Info(id: 70872, name: 'TIRHUTA DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x114D8, name: 'TIRHUTA DIGIT EIGHT', category: Cat::Decimal_Number)]
     case TIRHUTA_DIGIT_EIGHT = "\u{114D8}";
 
-    #[Info(id: 70873, name: 'TIRHUTA DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x114D9, name: 'TIRHUTA DIGIT NINE', category: Cat::Decimal_Number)]
     case TIRHUTA_DIGIT_NINE = "\u{114D9}";
 }

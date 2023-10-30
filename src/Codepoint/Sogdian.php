@@ -16,129 +16,129 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Sogdian: string
 {
-    #[Info(id: 69424, name: 'SOGDIAN LETTER ALEPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F30, name: 'SOGDIAN LETTER ALEPH', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_ALEPH = "\u{10F30}";
 
-    #[Info(id: 69425, name: 'SOGDIAN LETTER BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F31, name: 'SOGDIAN LETTER BETH', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_BETH = "\u{10F31}";
 
-    #[Info(id: 69426, name: 'SOGDIAN LETTER GIMEL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F32, name: 'SOGDIAN LETTER GIMEL', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_GIMEL = "\u{10F32}";
 
-    #[Info(id: 69427, name: 'SOGDIAN LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F33, name: 'SOGDIAN LETTER HE', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_HE = "\u{10F33}";
 
-    #[Info(id: 69428, name: 'SOGDIAN LETTER WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F34, name: 'SOGDIAN LETTER WAW', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_WAW = "\u{10F34}";
 
-    #[Info(id: 69429, name: 'SOGDIAN LETTER ZAYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F35, name: 'SOGDIAN LETTER ZAYIN', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_ZAYIN = "\u{10F35}";
 
-    #[Info(id: 69430, name: 'SOGDIAN LETTER HETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F36, name: 'SOGDIAN LETTER HETH', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_HETH = "\u{10F36}";
 
-    #[Info(id: 69431, name: 'SOGDIAN LETTER YODH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F37, name: 'SOGDIAN LETTER YODH', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_YODH = "\u{10F37}";
 
-    #[Info(id: 69432, name: 'SOGDIAN LETTER KAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F38, name: 'SOGDIAN LETTER KAPH', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_KAPH = "\u{10F38}";
 
-    #[Info(id: 69433, name: 'SOGDIAN LETTER LAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F39, name: 'SOGDIAN LETTER LAMEDH', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_LAMEDH = "\u{10F39}";
 
-    #[Info(id: 69434, name: 'SOGDIAN LETTER MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F3A, name: 'SOGDIAN LETTER MEM', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_MEM = "\u{10F3A}";
 
-    #[Info(id: 69435, name: 'SOGDIAN LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F3B, name: 'SOGDIAN LETTER NUN', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_NUN = "\u{10F3B}";
 
-    #[Info(id: 69436, name: 'SOGDIAN LETTER SAMEKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F3C, name: 'SOGDIAN LETTER SAMEKH', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_SAMEKH = "\u{10F3C}";
 
-    #[Info(id: 69437, name: 'SOGDIAN LETTER AYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F3D, name: 'SOGDIAN LETTER AYIN', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_AYIN = "\u{10F3D}";
 
-    #[Info(id: 69438, name: 'SOGDIAN LETTER PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F3E, name: 'SOGDIAN LETTER PE', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_PE = "\u{10F3E}";
 
-    #[Info(id: 69439, name: 'SOGDIAN LETTER SADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F3F, name: 'SOGDIAN LETTER SADHE', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_SADHE = "\u{10F3F}";
 
-    #[Info(id: 69440, name: 'SOGDIAN LETTER RESH-AYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F40, name: 'SOGDIAN LETTER RESH-AYIN', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_RESH_AYIN = "\u{10F40}";
 
-    #[Info(id: 69441, name: 'SOGDIAN LETTER SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F41, name: 'SOGDIAN LETTER SHIN', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_SHIN = "\u{10F41}";
 
-    #[Info(id: 69442, name: 'SOGDIAN LETTER TAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F42, name: 'SOGDIAN LETTER TAW', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_TAW = "\u{10F42}";
 
-    #[Info(id: 69443, name: 'SOGDIAN LETTER FETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F43, name: 'SOGDIAN LETTER FETH', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_FETH = "\u{10F43}";
 
-    #[Info(id: 69444, name: 'SOGDIAN LETTER LESH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F44, name: 'SOGDIAN LETTER LESH', category: Cat::Other_Letter)]
     case SOGDIAN_LETTER_LESH = "\u{10F44}";
 
-    #[Info(id: 69445, name: 'SOGDIAN INDEPENDENT SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F45, name: 'SOGDIAN INDEPENDENT SHIN', category: Cat::Other_Letter)]
     case SOGDIAN_INDEPENDENT_SHIN = "\u{10F45}";
 
-    #[Info(id: 69446, name: 'SOGDIAN COMBINING DOT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10F46, name: 'SOGDIAN COMBINING DOT BELOW', category: Cat::Nonspacing_Mark)]
     case SOGDIAN_COMBINING_DOT_BELOW = "\u{10F46}";
 
-    #[Info(id: 69447, name: 'SOGDIAN COMBINING TWO DOTS BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10F47, name: 'SOGDIAN COMBINING TWO DOTS BELOW', category: Cat::Nonspacing_Mark)]
     case SOGDIAN_COMBINING_TWO_DOTS_BELOW = "\u{10F47}";
 
-    #[Info(id: 69448, name: 'SOGDIAN COMBINING DOT ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10F48, name: 'SOGDIAN COMBINING DOT ABOVE', category: Cat::Nonspacing_Mark)]
     case SOGDIAN_COMBINING_DOT_ABOVE = "\u{10F48}";
 
-    #[Info(id: 69449, name: 'SOGDIAN COMBINING TWO DOTS ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10F49, name: 'SOGDIAN COMBINING TWO DOTS ABOVE', category: Cat::Nonspacing_Mark)]
     case SOGDIAN_COMBINING_TWO_DOTS_ABOVE = "\u{10F49}";
 
-    #[Info(id: 69450, name: 'SOGDIAN COMBINING CURVE ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10F4A, name: 'SOGDIAN COMBINING CURVE ABOVE', category: Cat::Nonspacing_Mark)]
     case SOGDIAN_COMBINING_CURVE_ABOVE = "\u{10F4A}";
 
-    #[Info(id: 69451, name: 'SOGDIAN COMBINING CURVE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10F4B, name: 'SOGDIAN COMBINING CURVE BELOW', category: Cat::Nonspacing_Mark)]
     case SOGDIAN_COMBINING_CURVE_BELOW = "\u{10F4B}";
 
-    #[Info(id: 69452, name: 'SOGDIAN COMBINING HOOK ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10F4C, name: 'SOGDIAN COMBINING HOOK ABOVE', category: Cat::Nonspacing_Mark)]
     case SOGDIAN_COMBINING_HOOK_ABOVE = "\u{10F4C}";
 
-    #[Info(id: 69453, name: 'SOGDIAN COMBINING HOOK BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10F4D, name: 'SOGDIAN COMBINING HOOK BELOW', category: Cat::Nonspacing_Mark)]
     case SOGDIAN_COMBINING_HOOK_BELOW = "\u{10F4D}";
 
-    #[Info(id: 69454, name: 'SOGDIAN COMBINING LONG HOOK BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10F4E, name: 'SOGDIAN COMBINING LONG HOOK BELOW', category: Cat::Nonspacing_Mark)]
     case SOGDIAN_COMBINING_LONG_HOOK_BELOW = "\u{10F4E}";
 
-    #[Info(id: 69455, name: 'SOGDIAN COMBINING RESH BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10F4F, name: 'SOGDIAN COMBINING RESH BELOW', category: Cat::Nonspacing_Mark)]
     case SOGDIAN_COMBINING_RESH_BELOW = "\u{10F4F}";
 
-    #[Info(id: 69456, name: 'SOGDIAN COMBINING STROKE BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10F50, name: 'SOGDIAN COMBINING STROKE BELOW', category: Cat::Nonspacing_Mark)]
     case SOGDIAN_COMBINING_STROKE_BELOW = "\u{10F50}";
 
-    #[Info(id: 69457, name: 'SOGDIAN NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x10F51, name: 'SOGDIAN NUMBER ONE', category: Cat::Other_Number)]
     case SOGDIAN_NUMBER_ONE = "\u{10F51}";
 
-    #[Info(id: 69458, name: 'SOGDIAN NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x10F52, name: 'SOGDIAN NUMBER TEN', category: Cat::Other_Number)]
     case SOGDIAN_NUMBER_TEN = "\u{10F52}";
 
-    #[Info(id: 69459, name: 'SOGDIAN NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10F53, name: 'SOGDIAN NUMBER TWENTY', category: Cat::Other_Number)]
     case SOGDIAN_NUMBER_TWENTY = "\u{10F53}";
 
-    #[Info(id: 69460, name: 'SOGDIAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10F54, name: 'SOGDIAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case SOGDIAN_NUMBER_ONE_HUNDRED = "\u{10F54}";
 
-    #[Info(id: 69461, name: 'SOGDIAN PUNCTUATION TWO VERTICAL BARS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10F55, name: 'SOGDIAN PUNCTUATION TWO VERTICAL BARS', category: Cat::Other_Punctuation)]
     case SOGDIAN_PUNCTUATION_TWO_VERTICAL_BARS = "\u{10F55}";
 
-    #[Info(id: 69462, name: 'SOGDIAN PUNCTUATION TWO VERTICAL BARS WITH DOTS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10F56, name: 'SOGDIAN PUNCTUATION TWO VERTICAL BARS WITH DOTS', category: Cat::Other_Punctuation)]
     case SOGDIAN_PUNCTUATION_TWO_VERTICAL_BARS_WITH_DOTS = "\u{10F56}";
 
-    #[Info(id: 69463, name: 'SOGDIAN PUNCTUATION CIRCLE WITH DOT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10F57, name: 'SOGDIAN PUNCTUATION CIRCLE WITH DOT', category: Cat::Other_Punctuation)]
     case SOGDIAN_PUNCTUATION_CIRCLE_WITH_DOT = "\u{10F57}";
 
-    #[Info(id: 69464, name: 'SOGDIAN PUNCTUATION TWO CIRCLES WITH DOTS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10F58, name: 'SOGDIAN PUNCTUATION TWO CIRCLES WITH DOTS', category: Cat::Other_Punctuation)]
     case SOGDIAN_PUNCTUATION_TWO_CIRCLES_WITH_DOTS = "\u{10F58}";
 
-    #[Info(id: 69465, name: 'SOGDIAN PUNCTUATION HALF CIRCLE WITH DOT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10F59, name: 'SOGDIAN PUNCTUATION HALF CIRCLE WITH DOT', category: Cat::Other_Punctuation)]
     case SOGDIAN_PUNCTUATION_HALF_CIRCLE_WITH_DOT = "\u{10F59}";
 }

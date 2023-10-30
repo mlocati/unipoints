@@ -16,87 +16,87 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Ethiopic_ExtendedB: string
 {
-    #[Info(id: 124896, name: 'ETHIOPIC SYLLABLE HHYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7E0, name: 'ETHIOPIC SYLLABLE HHYA', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_HHYA = "\u{1E7E0}";
 
-    #[Info(id: 124897, name: 'ETHIOPIC SYLLABLE HHYU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7E1, name: 'ETHIOPIC SYLLABLE HHYU', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_HHYU = "\u{1E7E1}";
 
-    #[Info(id: 124898, name: 'ETHIOPIC SYLLABLE HHYI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7E2, name: 'ETHIOPIC SYLLABLE HHYI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_HHYI = "\u{1E7E2}";
 
-    #[Info(id: 124899, name: 'ETHIOPIC SYLLABLE HHYAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7E3, name: 'ETHIOPIC SYLLABLE HHYAA', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_HHYAA = "\u{1E7E3}";
 
-    #[Info(id: 124900, name: 'ETHIOPIC SYLLABLE HHYEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7E4, name: 'ETHIOPIC SYLLABLE HHYEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_HHYEE = "\u{1E7E4}";
 
-    #[Info(id: 124901, name: 'ETHIOPIC SYLLABLE HHYE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7E5, name: 'ETHIOPIC SYLLABLE HHYE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_HHYE = "\u{1E7E5}";
 
-    #[Info(id: 124902, name: 'ETHIOPIC SYLLABLE HHYO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7E6, name: 'ETHIOPIC SYLLABLE HHYO', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_HHYO = "\u{1E7E6}";
 
-    #[Info(id: 124904, name: 'ETHIOPIC SYLLABLE GURAGE HHWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7E8, name: 'ETHIOPIC SYLLABLE GURAGE HHWA', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_HHWA = "\u{1E7E8}";
 
-    #[Info(id: 124905, name: 'ETHIOPIC SYLLABLE HHWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7E9, name: 'ETHIOPIC SYLLABLE HHWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_HHWI = "\u{1E7E9}";
 
-    #[Info(id: 124906, name: 'ETHIOPIC SYLLABLE HHWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7EA, name: 'ETHIOPIC SYLLABLE HHWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_HHWEE = "\u{1E7EA}";
 
-    #[Info(id: 124907, name: 'ETHIOPIC SYLLABLE HHWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7EB, name: 'ETHIOPIC SYLLABLE HHWE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_HHWE = "\u{1E7EB}";
 
-    #[Info(id: 124909, name: 'ETHIOPIC SYLLABLE GURAGE MWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7ED, name: 'ETHIOPIC SYLLABLE GURAGE MWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_MWI = "\u{1E7ED}";
 
-    #[Info(id: 124910, name: 'ETHIOPIC SYLLABLE GURAGE MWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7EE, name: 'ETHIOPIC SYLLABLE GURAGE MWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_MWEE = "\u{1E7EE}";
 
-    #[Info(id: 124912, name: 'ETHIOPIC SYLLABLE GURAGE QWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7F0, name: 'ETHIOPIC SYLLABLE GURAGE QWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_QWI = "\u{1E7F0}";
 
-    #[Info(id: 124913, name: 'ETHIOPIC SYLLABLE GURAGE QWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7F1, name: 'ETHIOPIC SYLLABLE GURAGE QWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_QWEE = "\u{1E7F1}";
 
-    #[Info(id: 124914, name: 'ETHIOPIC SYLLABLE GURAGE QWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7F2, name: 'ETHIOPIC SYLLABLE GURAGE QWE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_QWE = "\u{1E7F2}";
 
-    #[Info(id: 124915, name: 'ETHIOPIC SYLLABLE GURAGE BWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7F3, name: 'ETHIOPIC SYLLABLE GURAGE BWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_BWI = "\u{1E7F3}";
 
-    #[Info(id: 124916, name: 'ETHIOPIC SYLLABLE GURAGE BWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7F4, name: 'ETHIOPIC SYLLABLE GURAGE BWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_BWEE = "\u{1E7F4}";
 
-    #[Info(id: 124917, name: 'ETHIOPIC SYLLABLE GURAGE KWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7F5, name: 'ETHIOPIC SYLLABLE GURAGE KWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_KWI = "\u{1E7F5}";
 
-    #[Info(id: 124918, name: 'ETHIOPIC SYLLABLE GURAGE KWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7F6, name: 'ETHIOPIC SYLLABLE GURAGE KWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_KWEE = "\u{1E7F6}";
 
-    #[Info(id: 124919, name: 'ETHIOPIC SYLLABLE GURAGE KWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7F7, name: 'ETHIOPIC SYLLABLE GURAGE KWE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_KWE = "\u{1E7F7}";
 
-    #[Info(id: 124920, name: 'ETHIOPIC SYLLABLE GURAGE GWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7F8, name: 'ETHIOPIC SYLLABLE GURAGE GWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_GWI = "\u{1E7F8}";
 
-    #[Info(id: 124921, name: 'ETHIOPIC SYLLABLE GURAGE GWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7F9, name: 'ETHIOPIC SYLLABLE GURAGE GWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_GWEE = "\u{1E7F9}";
 
-    #[Info(id: 124922, name: 'ETHIOPIC SYLLABLE GURAGE GWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7FA, name: 'ETHIOPIC SYLLABLE GURAGE GWE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_GWE = "\u{1E7FA}";
 
-    #[Info(id: 124923, name: 'ETHIOPIC SYLLABLE GURAGE FWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7FB, name: 'ETHIOPIC SYLLABLE GURAGE FWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_FWI = "\u{1E7FB}";
 
-    #[Info(id: 124924, name: 'ETHIOPIC SYLLABLE GURAGE FWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7FC, name: 'ETHIOPIC SYLLABLE GURAGE FWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_FWEE = "\u{1E7FC}";
 
-    #[Info(id: 124925, name: 'ETHIOPIC SYLLABLE GURAGE PWI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7FD, name: 'ETHIOPIC SYLLABLE GURAGE PWI', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_PWI = "\u{1E7FD}";
 
-    #[Info(id: 124926, name: 'ETHIOPIC SYLLABLE GURAGE PWEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E7FE, name: 'ETHIOPIC SYLLABLE GURAGE PWEE', category: Cat::Other_Letter)]
     case ETHIOPIC_SYLLABLE_GURAGE_PWEE = "\u{1E7FE}";
 }

@@ -16,483 +16,483 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Enclosed_Alphanumerics: string
 {
-    #[Info(id: 9312, name: 'CIRCLED DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x2460, name: 'CIRCLED DIGIT ONE', category: Cat::Other_Number)]
     case CIRCLED_DIGIT_ONE = "\u{2460}";
 
-    #[Info(id: 9313, name: 'CIRCLED DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x2461, name: 'CIRCLED DIGIT TWO', category: Cat::Other_Number)]
     case CIRCLED_DIGIT_TWO = "\u{2461}";
 
-    #[Info(id: 9314, name: 'CIRCLED DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x2462, name: 'CIRCLED DIGIT THREE', category: Cat::Other_Number)]
     case CIRCLED_DIGIT_THREE = "\u{2462}";
 
-    #[Info(id: 9315, name: 'CIRCLED DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x2463, name: 'CIRCLED DIGIT FOUR', category: Cat::Other_Number)]
     case CIRCLED_DIGIT_FOUR = "\u{2463}";
 
-    #[Info(id: 9316, name: 'CIRCLED DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x2464, name: 'CIRCLED DIGIT FIVE', category: Cat::Other_Number)]
     case CIRCLED_DIGIT_FIVE = "\u{2464}";
 
-    #[Info(id: 9317, name: 'CIRCLED DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x2465, name: 'CIRCLED DIGIT SIX', category: Cat::Other_Number)]
     case CIRCLED_DIGIT_SIX = "\u{2465}";
 
-    #[Info(id: 9318, name: 'CIRCLED DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2466, name: 'CIRCLED DIGIT SEVEN', category: Cat::Other_Number)]
     case CIRCLED_DIGIT_SEVEN = "\u{2466}";
 
-    #[Info(id: 9319, name: 'CIRCLED DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x2467, name: 'CIRCLED DIGIT EIGHT', category: Cat::Other_Number)]
     case CIRCLED_DIGIT_EIGHT = "\u{2467}";
 
-    #[Info(id: 9320, name: 'CIRCLED DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x2468, name: 'CIRCLED DIGIT NINE', category: Cat::Other_Number)]
     case CIRCLED_DIGIT_NINE = "\u{2468}";
 
-    #[Info(id: 9321, name: 'CIRCLED NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2469, name: 'CIRCLED NUMBER TEN', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_TEN = "\u{2469}";
 
-    #[Info(id: 9322, name: 'CIRCLED NUMBER ELEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x246A, name: 'CIRCLED NUMBER ELEVEN', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_ELEVEN = "\u{246A}";
 
-    #[Info(id: 9323, name: 'CIRCLED NUMBER TWELVE', category: Cat::Other_Number)]
+    #[Info(id: 0x246B, name: 'CIRCLED NUMBER TWELVE', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_TWELVE = "\u{246B}";
 
-    #[Info(id: 9324, name: 'CIRCLED NUMBER THIRTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x246C, name: 'CIRCLED NUMBER THIRTEEN', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_THIRTEEN = "\u{246C}";
 
-    #[Info(id: 9325, name: 'CIRCLED NUMBER FOURTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x246D, name: 'CIRCLED NUMBER FOURTEEN', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_FOURTEEN = "\u{246D}";
 
-    #[Info(id: 9326, name: 'CIRCLED NUMBER FIFTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x246E, name: 'CIRCLED NUMBER FIFTEEN', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_FIFTEEN = "\u{246E}";
 
-    #[Info(id: 9327, name: 'CIRCLED NUMBER SIXTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x246F, name: 'CIRCLED NUMBER SIXTEEN', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_SIXTEEN = "\u{246F}";
 
-    #[Info(id: 9328, name: 'CIRCLED NUMBER SEVENTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2470, name: 'CIRCLED NUMBER SEVENTEEN', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_SEVENTEEN = "\u{2470}";
 
-    #[Info(id: 9329, name: 'CIRCLED NUMBER EIGHTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2471, name: 'CIRCLED NUMBER EIGHTEEN', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_EIGHTEEN = "\u{2471}";
 
-    #[Info(id: 9330, name: 'CIRCLED NUMBER NINETEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2472, name: 'CIRCLED NUMBER NINETEEN', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_NINETEEN = "\u{2472}";
 
-    #[Info(id: 9331, name: 'CIRCLED NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x2473, name: 'CIRCLED NUMBER TWENTY', category: Cat::Other_Number)]
     case CIRCLED_NUMBER_TWENTY = "\u{2473}";
 
-    #[Info(id: 9332, name: 'PARENTHESIZED DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x2474, name: 'PARENTHESIZED DIGIT ONE', category: Cat::Other_Number)]
     case PARENTHESIZED_DIGIT_ONE = "\u{2474}";
 
-    #[Info(id: 9333, name: 'PARENTHESIZED DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x2475, name: 'PARENTHESIZED DIGIT TWO', category: Cat::Other_Number)]
     case PARENTHESIZED_DIGIT_TWO = "\u{2475}";
 
-    #[Info(id: 9334, name: 'PARENTHESIZED DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x2476, name: 'PARENTHESIZED DIGIT THREE', category: Cat::Other_Number)]
     case PARENTHESIZED_DIGIT_THREE = "\u{2476}";
 
-    #[Info(id: 9335, name: 'PARENTHESIZED DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x2477, name: 'PARENTHESIZED DIGIT FOUR', category: Cat::Other_Number)]
     case PARENTHESIZED_DIGIT_FOUR = "\u{2477}";
 
-    #[Info(id: 9336, name: 'PARENTHESIZED DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x2478, name: 'PARENTHESIZED DIGIT FIVE', category: Cat::Other_Number)]
     case PARENTHESIZED_DIGIT_FIVE = "\u{2478}";
 
-    #[Info(id: 9337, name: 'PARENTHESIZED DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x2479, name: 'PARENTHESIZED DIGIT SIX', category: Cat::Other_Number)]
     case PARENTHESIZED_DIGIT_SIX = "\u{2479}";
 
-    #[Info(id: 9338, name: 'PARENTHESIZED DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x247A, name: 'PARENTHESIZED DIGIT SEVEN', category: Cat::Other_Number)]
     case PARENTHESIZED_DIGIT_SEVEN = "\u{247A}";
 
-    #[Info(id: 9339, name: 'PARENTHESIZED DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x247B, name: 'PARENTHESIZED DIGIT EIGHT', category: Cat::Other_Number)]
     case PARENTHESIZED_DIGIT_EIGHT = "\u{247B}";
 
-    #[Info(id: 9340, name: 'PARENTHESIZED DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x247C, name: 'PARENTHESIZED DIGIT NINE', category: Cat::Other_Number)]
     case PARENTHESIZED_DIGIT_NINE = "\u{247C}";
 
-    #[Info(id: 9341, name: 'PARENTHESIZED NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x247D, name: 'PARENTHESIZED NUMBER TEN', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_TEN = "\u{247D}";
 
-    #[Info(id: 9342, name: 'PARENTHESIZED NUMBER ELEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x247E, name: 'PARENTHESIZED NUMBER ELEVEN', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_ELEVEN = "\u{247E}";
 
-    #[Info(id: 9343, name: 'PARENTHESIZED NUMBER TWELVE', category: Cat::Other_Number)]
+    #[Info(id: 0x247F, name: 'PARENTHESIZED NUMBER TWELVE', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_TWELVE = "\u{247F}";
 
-    #[Info(id: 9344, name: 'PARENTHESIZED NUMBER THIRTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2480, name: 'PARENTHESIZED NUMBER THIRTEEN', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_THIRTEEN = "\u{2480}";
 
-    #[Info(id: 9345, name: 'PARENTHESIZED NUMBER FOURTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2481, name: 'PARENTHESIZED NUMBER FOURTEEN', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_FOURTEEN = "\u{2481}";
 
-    #[Info(id: 9346, name: 'PARENTHESIZED NUMBER FIFTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2482, name: 'PARENTHESIZED NUMBER FIFTEEN', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_FIFTEEN = "\u{2482}";
 
-    #[Info(id: 9347, name: 'PARENTHESIZED NUMBER SIXTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2483, name: 'PARENTHESIZED NUMBER SIXTEEN', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_SIXTEEN = "\u{2483}";
 
-    #[Info(id: 9348, name: 'PARENTHESIZED NUMBER SEVENTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2484, name: 'PARENTHESIZED NUMBER SEVENTEEN', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_SEVENTEEN = "\u{2484}";
 
-    #[Info(id: 9349, name: 'PARENTHESIZED NUMBER EIGHTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2485, name: 'PARENTHESIZED NUMBER EIGHTEEN', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_EIGHTEEN = "\u{2485}";
 
-    #[Info(id: 9350, name: 'PARENTHESIZED NUMBER NINETEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x2486, name: 'PARENTHESIZED NUMBER NINETEEN', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_NINETEEN = "\u{2486}";
 
-    #[Info(id: 9351, name: 'PARENTHESIZED NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x2487, name: 'PARENTHESIZED NUMBER TWENTY', category: Cat::Other_Number)]
     case PARENTHESIZED_NUMBER_TWENTY = "\u{2487}";
 
-    #[Info(id: 9352, name: 'DIGIT ONE FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2488, name: 'DIGIT ONE FULL STOP', category: Cat::Other_Number)]
     case DIGIT_ONE_FULL_STOP = "\u{2488}";
 
-    #[Info(id: 9353, name: 'DIGIT TWO FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2489, name: 'DIGIT TWO FULL STOP', category: Cat::Other_Number)]
     case DIGIT_TWO_FULL_STOP = "\u{2489}";
 
-    #[Info(id: 9354, name: 'DIGIT THREE FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248A, name: 'DIGIT THREE FULL STOP', category: Cat::Other_Number)]
     case DIGIT_THREE_FULL_STOP = "\u{248A}";
 
-    #[Info(id: 9355, name: 'DIGIT FOUR FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248B, name: 'DIGIT FOUR FULL STOP', category: Cat::Other_Number)]
     case DIGIT_FOUR_FULL_STOP = "\u{248B}";
 
-    #[Info(id: 9356, name: 'DIGIT FIVE FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248C, name: 'DIGIT FIVE FULL STOP', category: Cat::Other_Number)]
     case DIGIT_FIVE_FULL_STOP = "\u{248C}";
 
-    #[Info(id: 9357, name: 'DIGIT SIX FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248D, name: 'DIGIT SIX FULL STOP', category: Cat::Other_Number)]
     case DIGIT_SIX_FULL_STOP = "\u{248D}";
 
-    #[Info(id: 9358, name: 'DIGIT SEVEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248E, name: 'DIGIT SEVEN FULL STOP', category: Cat::Other_Number)]
     case DIGIT_SEVEN_FULL_STOP = "\u{248E}";
 
-    #[Info(id: 9359, name: 'DIGIT EIGHT FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x248F, name: 'DIGIT EIGHT FULL STOP', category: Cat::Other_Number)]
     case DIGIT_EIGHT_FULL_STOP = "\u{248F}";
 
-    #[Info(id: 9360, name: 'DIGIT NINE FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2490, name: 'DIGIT NINE FULL STOP', category: Cat::Other_Number)]
     case DIGIT_NINE_FULL_STOP = "\u{2490}";
 
-    #[Info(id: 9361, name: 'NUMBER TEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2491, name: 'NUMBER TEN FULL STOP', category: Cat::Other_Number)]
     case NUMBER_TEN_FULL_STOP = "\u{2491}";
 
-    #[Info(id: 9362, name: 'NUMBER ELEVEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2492, name: 'NUMBER ELEVEN FULL STOP', category: Cat::Other_Number)]
     case NUMBER_ELEVEN_FULL_STOP = "\u{2492}";
 
-    #[Info(id: 9363, name: 'NUMBER TWELVE FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2493, name: 'NUMBER TWELVE FULL STOP', category: Cat::Other_Number)]
     case NUMBER_TWELVE_FULL_STOP = "\u{2493}";
 
-    #[Info(id: 9364, name: 'NUMBER THIRTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2494, name: 'NUMBER THIRTEEN FULL STOP', category: Cat::Other_Number)]
     case NUMBER_THIRTEEN_FULL_STOP = "\u{2494}";
 
-    #[Info(id: 9365, name: 'NUMBER FOURTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2495, name: 'NUMBER FOURTEEN FULL STOP', category: Cat::Other_Number)]
     case NUMBER_FOURTEEN_FULL_STOP = "\u{2495}";
 
-    #[Info(id: 9366, name: 'NUMBER FIFTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2496, name: 'NUMBER FIFTEEN FULL STOP', category: Cat::Other_Number)]
     case NUMBER_FIFTEEN_FULL_STOP = "\u{2496}";
 
-    #[Info(id: 9367, name: 'NUMBER SIXTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2497, name: 'NUMBER SIXTEEN FULL STOP', category: Cat::Other_Number)]
     case NUMBER_SIXTEEN_FULL_STOP = "\u{2497}";
 
-    #[Info(id: 9368, name: 'NUMBER SEVENTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2498, name: 'NUMBER SEVENTEEN FULL STOP', category: Cat::Other_Number)]
     case NUMBER_SEVENTEEN_FULL_STOP = "\u{2498}";
 
-    #[Info(id: 9369, name: 'NUMBER EIGHTEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x2499, name: 'NUMBER EIGHTEEN FULL STOP', category: Cat::Other_Number)]
     case NUMBER_EIGHTEEN_FULL_STOP = "\u{2499}";
 
-    #[Info(id: 9370, name: 'NUMBER NINETEEN FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x249A, name: 'NUMBER NINETEEN FULL STOP', category: Cat::Other_Number)]
     case NUMBER_NINETEEN_FULL_STOP = "\u{249A}";
 
-    #[Info(id: 9371, name: 'NUMBER TWENTY FULL STOP', category: Cat::Other_Number)]
+    #[Info(id: 0x249B, name: 'NUMBER TWENTY FULL STOP', category: Cat::Other_Number)]
     case NUMBER_TWENTY_FULL_STOP = "\u{249B}";
 
-    #[Info(id: 9372, name: 'PARENTHESIZED LATIN SMALL LETTER A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x249C, name: 'PARENTHESIZED LATIN SMALL LETTER A', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_A = "\u{249C}";
 
-    #[Info(id: 9373, name: 'PARENTHESIZED LATIN SMALL LETTER B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x249D, name: 'PARENTHESIZED LATIN SMALL LETTER B', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_B = "\u{249D}";
 
-    #[Info(id: 9374, name: 'PARENTHESIZED LATIN SMALL LETTER C', category: Cat::Other_Symbol)]
+    #[Info(id: 0x249E, name: 'PARENTHESIZED LATIN SMALL LETTER C', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_C = "\u{249E}";
 
-    #[Info(id: 9375, name: 'PARENTHESIZED LATIN SMALL LETTER D', category: Cat::Other_Symbol)]
+    #[Info(id: 0x249F, name: 'PARENTHESIZED LATIN SMALL LETTER D', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_D = "\u{249F}";
 
-    #[Info(id: 9376, name: 'PARENTHESIZED LATIN SMALL LETTER E', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24A0, name: 'PARENTHESIZED LATIN SMALL LETTER E', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_E = "\u{24A0}";
 
-    #[Info(id: 9377, name: 'PARENTHESIZED LATIN SMALL LETTER F', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24A1, name: 'PARENTHESIZED LATIN SMALL LETTER F', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_F = "\u{24A1}";
 
-    #[Info(id: 9378, name: 'PARENTHESIZED LATIN SMALL LETTER G', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24A2, name: 'PARENTHESIZED LATIN SMALL LETTER G', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_G = "\u{24A2}";
 
-    #[Info(id: 9379, name: 'PARENTHESIZED LATIN SMALL LETTER H', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24A3, name: 'PARENTHESIZED LATIN SMALL LETTER H', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_H = "\u{24A3}";
 
-    #[Info(id: 9380, name: 'PARENTHESIZED LATIN SMALL LETTER I', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24A4, name: 'PARENTHESIZED LATIN SMALL LETTER I', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_I = "\u{24A4}";
 
-    #[Info(id: 9381, name: 'PARENTHESIZED LATIN SMALL LETTER J', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24A5, name: 'PARENTHESIZED LATIN SMALL LETTER J', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_J = "\u{24A5}";
 
-    #[Info(id: 9382, name: 'PARENTHESIZED LATIN SMALL LETTER K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24A6, name: 'PARENTHESIZED LATIN SMALL LETTER K', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_K = "\u{24A6}";
 
-    #[Info(id: 9383, name: 'PARENTHESIZED LATIN SMALL LETTER L', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24A7, name: 'PARENTHESIZED LATIN SMALL LETTER L', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_L = "\u{24A7}";
 
-    #[Info(id: 9384, name: 'PARENTHESIZED LATIN SMALL LETTER M', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24A8, name: 'PARENTHESIZED LATIN SMALL LETTER M', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_M = "\u{24A8}";
 
-    #[Info(id: 9385, name: 'PARENTHESIZED LATIN SMALL LETTER N', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24A9, name: 'PARENTHESIZED LATIN SMALL LETTER N', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_N = "\u{24A9}";
 
-    #[Info(id: 9386, name: 'PARENTHESIZED LATIN SMALL LETTER O', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24AA, name: 'PARENTHESIZED LATIN SMALL LETTER O', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_O = "\u{24AA}";
 
-    #[Info(id: 9387, name: 'PARENTHESIZED LATIN SMALL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24AB, name: 'PARENTHESIZED LATIN SMALL LETTER P', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_P = "\u{24AB}";
 
-    #[Info(id: 9388, name: 'PARENTHESIZED LATIN SMALL LETTER Q', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24AC, name: 'PARENTHESIZED LATIN SMALL LETTER Q', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_Q = "\u{24AC}";
 
-    #[Info(id: 9389, name: 'PARENTHESIZED LATIN SMALL LETTER R', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24AD, name: 'PARENTHESIZED LATIN SMALL LETTER R', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_R = "\u{24AD}";
 
-    #[Info(id: 9390, name: 'PARENTHESIZED LATIN SMALL LETTER S', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24AE, name: 'PARENTHESIZED LATIN SMALL LETTER S', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_S = "\u{24AE}";
 
-    #[Info(id: 9391, name: 'PARENTHESIZED LATIN SMALL LETTER T', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24AF, name: 'PARENTHESIZED LATIN SMALL LETTER T', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_T = "\u{24AF}";
 
-    #[Info(id: 9392, name: 'PARENTHESIZED LATIN SMALL LETTER U', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24B0, name: 'PARENTHESIZED LATIN SMALL LETTER U', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_U = "\u{24B0}";
 
-    #[Info(id: 9393, name: 'PARENTHESIZED LATIN SMALL LETTER V', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24B1, name: 'PARENTHESIZED LATIN SMALL LETTER V', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_V = "\u{24B1}";
 
-    #[Info(id: 9394, name: 'PARENTHESIZED LATIN SMALL LETTER W', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24B2, name: 'PARENTHESIZED LATIN SMALL LETTER W', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_W = "\u{24B2}";
 
-    #[Info(id: 9395, name: 'PARENTHESIZED LATIN SMALL LETTER X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24B3, name: 'PARENTHESIZED LATIN SMALL LETTER X', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_X = "\u{24B3}";
 
-    #[Info(id: 9396, name: 'PARENTHESIZED LATIN SMALL LETTER Y', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24B4, name: 'PARENTHESIZED LATIN SMALL LETTER Y', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_Y = "\u{24B4}";
 
-    #[Info(id: 9397, name: 'PARENTHESIZED LATIN SMALL LETTER Z', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24B5, name: 'PARENTHESIZED LATIN SMALL LETTER Z', category: Cat::Other_Symbol)]
     case PARENTHESIZED_LATIN_SMALL_LETTER_Z = "\u{24B5}";
 
-    #[Info(id: 9398, name: 'CIRCLED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24B6, name: 'CIRCLED LATIN CAPITAL LETTER A', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_A = "\u{24B6}";
 
-    #[Info(id: 9399, name: 'CIRCLED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24B7, name: 'CIRCLED LATIN CAPITAL LETTER B', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_B = "\u{24B7}";
 
-    #[Info(id: 9400, name: 'CIRCLED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24B8, name: 'CIRCLED LATIN CAPITAL LETTER C', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_C = "\u{24B8}";
 
-    #[Info(id: 9401, name: 'CIRCLED LATIN CAPITAL LETTER D', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24B9, name: 'CIRCLED LATIN CAPITAL LETTER D', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_D = "\u{24B9}";
 
-    #[Info(id: 9402, name: 'CIRCLED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24BA, name: 'CIRCLED LATIN CAPITAL LETTER E', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_E = "\u{24BA}";
 
-    #[Info(id: 9403, name: 'CIRCLED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24BB, name: 'CIRCLED LATIN CAPITAL LETTER F', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_F = "\u{24BB}";
 
-    #[Info(id: 9404, name: 'CIRCLED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24BC, name: 'CIRCLED LATIN CAPITAL LETTER G', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_G = "\u{24BC}";
 
-    #[Info(id: 9405, name: 'CIRCLED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24BD, name: 'CIRCLED LATIN CAPITAL LETTER H', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_H = "\u{24BD}";
 
-    #[Info(id: 9406, name: 'CIRCLED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24BE, name: 'CIRCLED LATIN CAPITAL LETTER I', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_I = "\u{24BE}";
 
-    #[Info(id: 9407, name: 'CIRCLED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24BF, name: 'CIRCLED LATIN CAPITAL LETTER J', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_J = "\u{24BF}";
 
-    #[Info(id: 9408, name: 'CIRCLED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24C0, name: 'CIRCLED LATIN CAPITAL LETTER K', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_K = "\u{24C0}";
 
-    #[Info(id: 9409, name: 'CIRCLED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24C1, name: 'CIRCLED LATIN CAPITAL LETTER L', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_L = "\u{24C1}";
 
-    #[Info(id: 9410, name: 'CIRCLED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24C2, name: 'CIRCLED LATIN CAPITAL LETTER M', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_M = "\u{24C2}";
 
-    #[Info(id: 9411, name: 'CIRCLED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24C3, name: 'CIRCLED LATIN CAPITAL LETTER N', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_N = "\u{24C3}";
 
-    #[Info(id: 9412, name: 'CIRCLED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24C4, name: 'CIRCLED LATIN CAPITAL LETTER O', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_O = "\u{24C4}";
 
-    #[Info(id: 9413, name: 'CIRCLED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24C5, name: 'CIRCLED LATIN CAPITAL LETTER P', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_P = "\u{24C5}";
 
-    #[Info(id: 9414, name: 'CIRCLED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24C6, name: 'CIRCLED LATIN CAPITAL LETTER Q', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_Q = "\u{24C6}";
 
-    #[Info(id: 9415, name: 'CIRCLED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24C7, name: 'CIRCLED LATIN CAPITAL LETTER R', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_R = "\u{24C7}";
 
-    #[Info(id: 9416, name: 'CIRCLED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24C8, name: 'CIRCLED LATIN CAPITAL LETTER S', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_S = "\u{24C8}";
 
-    #[Info(id: 9417, name: 'CIRCLED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24C9, name: 'CIRCLED LATIN CAPITAL LETTER T', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_T = "\u{24C9}";
 
-    #[Info(id: 9418, name: 'CIRCLED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24CA, name: 'CIRCLED LATIN CAPITAL LETTER U', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_U = "\u{24CA}";
 
-    #[Info(id: 9419, name: 'CIRCLED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24CB, name: 'CIRCLED LATIN CAPITAL LETTER V', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_V = "\u{24CB}";
 
-    #[Info(id: 9420, name: 'CIRCLED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24CC, name: 'CIRCLED LATIN CAPITAL LETTER W', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_W = "\u{24CC}";
 
-    #[Info(id: 9421, name: 'CIRCLED LATIN CAPITAL LETTER X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24CD, name: 'CIRCLED LATIN CAPITAL LETTER X', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_X = "\u{24CD}";
 
-    #[Info(id: 9422, name: 'CIRCLED LATIN CAPITAL LETTER Y', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24CE, name: 'CIRCLED LATIN CAPITAL LETTER Y', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_Y = "\u{24CE}";
 
-    #[Info(id: 9423, name: 'CIRCLED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24CF, name: 'CIRCLED LATIN CAPITAL LETTER Z', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_CAPITAL_LETTER_Z = "\u{24CF}";
 
-    #[Info(id: 9424, name: 'CIRCLED LATIN SMALL LETTER A', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24D0, name: 'CIRCLED LATIN SMALL LETTER A', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_A = "\u{24D0}";
 
-    #[Info(id: 9425, name: 'CIRCLED LATIN SMALL LETTER B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24D1, name: 'CIRCLED LATIN SMALL LETTER B', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_B = "\u{24D1}";
 
-    #[Info(id: 9426, name: 'CIRCLED LATIN SMALL LETTER C', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24D2, name: 'CIRCLED LATIN SMALL LETTER C', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_C = "\u{24D2}";
 
-    #[Info(id: 9427, name: 'CIRCLED LATIN SMALL LETTER D', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24D3, name: 'CIRCLED LATIN SMALL LETTER D', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_D = "\u{24D3}";
 
-    #[Info(id: 9428, name: 'CIRCLED LATIN SMALL LETTER E', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24D4, name: 'CIRCLED LATIN SMALL LETTER E', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_E = "\u{24D4}";
 
-    #[Info(id: 9429, name: 'CIRCLED LATIN SMALL LETTER F', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24D5, name: 'CIRCLED LATIN SMALL LETTER F', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_F = "\u{24D5}";
 
-    #[Info(id: 9430, name: 'CIRCLED LATIN SMALL LETTER G', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24D6, name: 'CIRCLED LATIN SMALL LETTER G', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_G = "\u{24D6}";
 
-    #[Info(id: 9431, name: 'CIRCLED LATIN SMALL LETTER H', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24D7, name: 'CIRCLED LATIN SMALL LETTER H', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_H = "\u{24D7}";
 
-    #[Info(id: 9432, name: 'CIRCLED LATIN SMALL LETTER I', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24D8, name: 'CIRCLED LATIN SMALL LETTER I', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_I = "\u{24D8}";
 
-    #[Info(id: 9433, name: 'CIRCLED LATIN SMALL LETTER J', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24D9, name: 'CIRCLED LATIN SMALL LETTER J', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_J = "\u{24D9}";
 
-    #[Info(id: 9434, name: 'CIRCLED LATIN SMALL LETTER K', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24DA, name: 'CIRCLED LATIN SMALL LETTER K', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_K = "\u{24DA}";
 
-    #[Info(id: 9435, name: 'CIRCLED LATIN SMALL LETTER L', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24DB, name: 'CIRCLED LATIN SMALL LETTER L', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_L = "\u{24DB}";
 
-    #[Info(id: 9436, name: 'CIRCLED LATIN SMALL LETTER M', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24DC, name: 'CIRCLED LATIN SMALL LETTER M', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_M = "\u{24DC}";
 
-    #[Info(id: 9437, name: 'CIRCLED LATIN SMALL LETTER N', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24DD, name: 'CIRCLED LATIN SMALL LETTER N', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_N = "\u{24DD}";
 
-    #[Info(id: 9438, name: 'CIRCLED LATIN SMALL LETTER O', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24DE, name: 'CIRCLED LATIN SMALL LETTER O', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_O = "\u{24DE}";
 
-    #[Info(id: 9439, name: 'CIRCLED LATIN SMALL LETTER P', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24DF, name: 'CIRCLED LATIN SMALL LETTER P', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_P = "\u{24DF}";
 
-    #[Info(id: 9440, name: 'CIRCLED LATIN SMALL LETTER Q', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24E0, name: 'CIRCLED LATIN SMALL LETTER Q', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_Q = "\u{24E0}";
 
-    #[Info(id: 9441, name: 'CIRCLED LATIN SMALL LETTER R', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24E1, name: 'CIRCLED LATIN SMALL LETTER R', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_R = "\u{24E1}";
 
-    #[Info(id: 9442, name: 'CIRCLED LATIN SMALL LETTER S', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24E2, name: 'CIRCLED LATIN SMALL LETTER S', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_S = "\u{24E2}";
 
-    #[Info(id: 9443, name: 'CIRCLED LATIN SMALL LETTER T', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24E3, name: 'CIRCLED LATIN SMALL LETTER T', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_T = "\u{24E3}";
 
-    #[Info(id: 9444, name: 'CIRCLED LATIN SMALL LETTER U', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24E4, name: 'CIRCLED LATIN SMALL LETTER U', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_U = "\u{24E4}";
 
-    #[Info(id: 9445, name: 'CIRCLED LATIN SMALL LETTER V', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24E5, name: 'CIRCLED LATIN SMALL LETTER V', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_V = "\u{24E5}";
 
-    #[Info(id: 9446, name: 'CIRCLED LATIN SMALL LETTER W', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24E6, name: 'CIRCLED LATIN SMALL LETTER W', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_W = "\u{24E6}";
 
-    #[Info(id: 9447, name: 'CIRCLED LATIN SMALL LETTER X', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24E7, name: 'CIRCLED LATIN SMALL LETTER X', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_X = "\u{24E7}";
 
-    #[Info(id: 9448, name: 'CIRCLED LATIN SMALL LETTER Y', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24E8, name: 'CIRCLED LATIN SMALL LETTER Y', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_Y = "\u{24E8}";
 
-    #[Info(id: 9449, name: 'CIRCLED LATIN SMALL LETTER Z', category: Cat::Other_Symbol)]
+    #[Info(id: 0x24E9, name: 'CIRCLED LATIN SMALL LETTER Z', category: Cat::Other_Symbol)]
     case CIRCLED_LATIN_SMALL_LETTER_Z = "\u{24E9}";
 
-    #[Info(id: 9450, name: 'CIRCLED DIGIT ZERO', category: Cat::Other_Number)]
+    #[Info(id: 0x24EA, name: 'CIRCLED DIGIT ZERO', category: Cat::Other_Number)]
     case CIRCLED_DIGIT_ZERO = "\u{24EA}";
 
-    #[Info(id: 9451, name: 'NEGATIVE CIRCLED NUMBER ELEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x24EB, name: 'NEGATIVE CIRCLED NUMBER ELEVEN', category: Cat::Other_Number)]
     case NEGATIVE_CIRCLED_NUMBER_ELEVEN = "\u{24EB}";
 
-    #[Info(id: 9452, name: 'NEGATIVE CIRCLED NUMBER TWELVE', category: Cat::Other_Number)]
+    #[Info(id: 0x24EC, name: 'NEGATIVE CIRCLED NUMBER TWELVE', category: Cat::Other_Number)]
     case NEGATIVE_CIRCLED_NUMBER_TWELVE = "\u{24EC}";
 
-    #[Info(id: 9453, name: 'NEGATIVE CIRCLED NUMBER THIRTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x24ED, name: 'NEGATIVE CIRCLED NUMBER THIRTEEN', category: Cat::Other_Number)]
     case NEGATIVE_CIRCLED_NUMBER_THIRTEEN = "\u{24ED}";
 
-    #[Info(id: 9454, name: 'NEGATIVE CIRCLED NUMBER FOURTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x24EE, name: 'NEGATIVE CIRCLED NUMBER FOURTEEN', category: Cat::Other_Number)]
     case NEGATIVE_CIRCLED_NUMBER_FOURTEEN = "\u{24EE}";
 
-    #[Info(id: 9455, name: 'NEGATIVE CIRCLED NUMBER FIFTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x24EF, name: 'NEGATIVE CIRCLED NUMBER FIFTEEN', category: Cat::Other_Number)]
     case NEGATIVE_CIRCLED_NUMBER_FIFTEEN = "\u{24EF}";
 
-    #[Info(id: 9456, name: 'NEGATIVE CIRCLED NUMBER SIXTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x24F0, name: 'NEGATIVE CIRCLED NUMBER SIXTEEN', category: Cat::Other_Number)]
     case NEGATIVE_CIRCLED_NUMBER_SIXTEEN = "\u{24F0}";
 
-    #[Info(id: 9457, name: 'NEGATIVE CIRCLED NUMBER SEVENTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x24F1, name: 'NEGATIVE CIRCLED NUMBER SEVENTEEN', category: Cat::Other_Number)]
     case NEGATIVE_CIRCLED_NUMBER_SEVENTEEN = "\u{24F1}";
 
-    #[Info(id: 9458, name: 'NEGATIVE CIRCLED NUMBER EIGHTEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x24F2, name: 'NEGATIVE CIRCLED NUMBER EIGHTEEN', category: Cat::Other_Number)]
     case NEGATIVE_CIRCLED_NUMBER_EIGHTEEN = "\u{24F2}";
 
-    #[Info(id: 9459, name: 'NEGATIVE CIRCLED NUMBER NINETEEN', category: Cat::Other_Number)]
+    #[Info(id: 0x24F3, name: 'NEGATIVE CIRCLED NUMBER NINETEEN', category: Cat::Other_Number)]
     case NEGATIVE_CIRCLED_NUMBER_NINETEEN = "\u{24F3}";
 
-    #[Info(id: 9460, name: 'NEGATIVE CIRCLED NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x24F4, name: 'NEGATIVE CIRCLED NUMBER TWENTY', category: Cat::Other_Number)]
     case NEGATIVE_CIRCLED_NUMBER_TWENTY = "\u{24F4}";
 
-    #[Info(id: 9461, name: 'DOUBLE CIRCLED DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x24F5, name: 'DOUBLE CIRCLED DIGIT ONE', category: Cat::Other_Number)]
     case DOUBLE_CIRCLED_DIGIT_ONE = "\u{24F5}";
 
-    #[Info(id: 9462, name: 'DOUBLE CIRCLED DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x24F6, name: 'DOUBLE CIRCLED DIGIT TWO', category: Cat::Other_Number)]
     case DOUBLE_CIRCLED_DIGIT_TWO = "\u{24F6}";
 
-    #[Info(id: 9463, name: 'DOUBLE CIRCLED DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x24F7, name: 'DOUBLE CIRCLED DIGIT THREE', category: Cat::Other_Number)]
     case DOUBLE_CIRCLED_DIGIT_THREE = "\u{24F7}";
 
-    #[Info(id: 9464, name: 'DOUBLE CIRCLED DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x24F8, name: 'DOUBLE CIRCLED DIGIT FOUR', category: Cat::Other_Number)]
     case DOUBLE_CIRCLED_DIGIT_FOUR = "\u{24F8}";
 
-    #[Info(id: 9465, name: 'DOUBLE CIRCLED DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x24F9, name: 'DOUBLE CIRCLED DIGIT FIVE', category: Cat::Other_Number)]
     case DOUBLE_CIRCLED_DIGIT_FIVE = "\u{24F9}";
 
-    #[Info(id: 9466, name: 'DOUBLE CIRCLED DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x24FA, name: 'DOUBLE CIRCLED DIGIT SIX', category: Cat::Other_Number)]
     case DOUBLE_CIRCLED_DIGIT_SIX = "\u{24FA}";
 
-    #[Info(id: 9467, name: 'DOUBLE CIRCLED DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x24FB, name: 'DOUBLE CIRCLED DIGIT SEVEN', category: Cat::Other_Number)]
     case DOUBLE_CIRCLED_DIGIT_SEVEN = "\u{24FB}";
 
-    #[Info(id: 9468, name: 'DOUBLE CIRCLED DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x24FC, name: 'DOUBLE CIRCLED DIGIT EIGHT', category: Cat::Other_Number)]
     case DOUBLE_CIRCLED_DIGIT_EIGHT = "\u{24FC}";
 
-    #[Info(id: 9469, name: 'DOUBLE CIRCLED DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x24FD, name: 'DOUBLE CIRCLED DIGIT NINE', category: Cat::Other_Number)]
     case DOUBLE_CIRCLED_DIGIT_NINE = "\u{24FD}";
 
-    #[Info(id: 9470, name: 'DOUBLE CIRCLED NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x24FE, name: 'DOUBLE CIRCLED NUMBER TEN', category: Cat::Other_Number)]
     case DOUBLE_CIRCLED_NUMBER_TEN = "\u{24FE}";
 
-    #[Info(id: 9471, name: 'NEGATIVE CIRCLED DIGIT ZERO', category: Cat::Other_Number)]
+    #[Info(id: 0x24FF, name: 'NEGATIVE CIRCLED DIGIT ZERO', category: Cat::Other_Number)]
     case NEGATIVE_CIRCLED_DIGIT_ZERO = "\u{24FF}";
 }

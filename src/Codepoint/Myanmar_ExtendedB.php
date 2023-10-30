@@ -16,96 +16,96 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Myanmar_ExtendedB: string
 {
-    #[Info(id: 43488, name: 'MYANMAR LETTER SHAN GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9E0, name: 'MYANMAR LETTER SHAN GHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_GHA = "\u{A9E0}";
 
-    #[Info(id: 43489, name: 'MYANMAR LETTER SHAN CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9E1, name: 'MYANMAR LETTER SHAN CHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_CHA = "\u{A9E1}";
 
-    #[Info(id: 43490, name: 'MYANMAR LETTER SHAN JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9E2, name: 'MYANMAR LETTER SHAN JHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_JHA = "\u{A9E2}";
 
-    #[Info(id: 43491, name: 'MYANMAR LETTER SHAN NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9E3, name: 'MYANMAR LETTER SHAN NNA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_NNA = "\u{A9E3}";
 
-    #[Info(id: 43492, name: 'MYANMAR LETTER SHAN BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9E4, name: 'MYANMAR LETTER SHAN BHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_BHA = "\u{A9E4}";
 
-    #[Info(id: 43493, name: 'MYANMAR SIGN SHAN SAW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA9E5, name: 'MYANMAR SIGN SHAN SAW', category: Cat::Nonspacing_Mark)]
     case MYANMAR_SIGN_SHAN_SAW = "\u{A9E5}";
 
-    #[Info(id: 43494, name: 'MYANMAR MODIFIER LETTER SHAN REDUPLICATION', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA9E6, name: 'MYANMAR MODIFIER LETTER SHAN REDUPLICATION', category: Cat::Modifier_Letter)]
     case MYANMAR_MODIFIER_LETTER_SHAN_REDUPLICATION = "\u{A9E6}";
 
-    #[Info(id: 43495, name: 'MYANMAR LETTER TAI LAING NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9E7, name: 'MYANMAR LETTER TAI LAING NYA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_NYA = "\u{A9E7}";
 
-    #[Info(id: 43496, name: 'MYANMAR LETTER TAI LAING FA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9E8, name: 'MYANMAR LETTER TAI LAING FA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_FA = "\u{A9E8}";
 
-    #[Info(id: 43497, name: 'MYANMAR LETTER TAI LAING GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9E9, name: 'MYANMAR LETTER TAI LAING GA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_GA = "\u{A9E9}";
 
-    #[Info(id: 43498, name: 'MYANMAR LETTER TAI LAING GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9EA, name: 'MYANMAR LETTER TAI LAING GHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_GHA = "\u{A9EA}";
 
-    #[Info(id: 43499, name: 'MYANMAR LETTER TAI LAING JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9EB, name: 'MYANMAR LETTER TAI LAING JA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_JA = "\u{A9EB}";
 
-    #[Info(id: 43500, name: 'MYANMAR LETTER TAI LAING JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9EC, name: 'MYANMAR LETTER TAI LAING JHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_JHA = "\u{A9EC}";
 
-    #[Info(id: 43501, name: 'MYANMAR LETTER TAI LAING DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9ED, name: 'MYANMAR LETTER TAI LAING DDA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_DDA = "\u{A9ED}";
 
-    #[Info(id: 43502, name: 'MYANMAR LETTER TAI LAING DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9EE, name: 'MYANMAR LETTER TAI LAING DDHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_DDHA = "\u{A9EE}";
 
-    #[Info(id: 43503, name: 'MYANMAR LETTER TAI LAING NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9EF, name: 'MYANMAR LETTER TAI LAING NNA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_NNA = "\u{A9EF}";
 
-    #[Info(id: 43504, name: 'MYANMAR TAI LAING DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA9F0, name: 'MYANMAR TAI LAING DIGIT ZERO', category: Cat::Decimal_Number)]
     case MYANMAR_TAI_LAING_DIGIT_ZERO = "\u{A9F0}";
 
-    #[Info(id: 43505, name: 'MYANMAR TAI LAING DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA9F1, name: 'MYANMAR TAI LAING DIGIT ONE', category: Cat::Decimal_Number)]
     case MYANMAR_TAI_LAING_DIGIT_ONE = "\u{A9F1}";
 
-    #[Info(id: 43506, name: 'MYANMAR TAI LAING DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA9F2, name: 'MYANMAR TAI LAING DIGIT TWO', category: Cat::Decimal_Number)]
     case MYANMAR_TAI_LAING_DIGIT_TWO = "\u{A9F2}";
 
-    #[Info(id: 43507, name: 'MYANMAR TAI LAING DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA9F3, name: 'MYANMAR TAI LAING DIGIT THREE', category: Cat::Decimal_Number)]
     case MYANMAR_TAI_LAING_DIGIT_THREE = "\u{A9F3}";
 
-    #[Info(id: 43508, name: 'MYANMAR TAI LAING DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA9F4, name: 'MYANMAR TAI LAING DIGIT FOUR', category: Cat::Decimal_Number)]
     case MYANMAR_TAI_LAING_DIGIT_FOUR = "\u{A9F4}";
 
-    #[Info(id: 43509, name: 'MYANMAR TAI LAING DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA9F5, name: 'MYANMAR TAI LAING DIGIT FIVE', category: Cat::Decimal_Number)]
     case MYANMAR_TAI_LAING_DIGIT_FIVE = "\u{A9F5}";
 
-    #[Info(id: 43510, name: 'MYANMAR TAI LAING DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA9F6, name: 'MYANMAR TAI LAING DIGIT SIX', category: Cat::Decimal_Number)]
     case MYANMAR_TAI_LAING_DIGIT_SIX = "\u{A9F6}";
 
-    #[Info(id: 43511, name: 'MYANMAR TAI LAING DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA9F7, name: 'MYANMAR TAI LAING DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MYANMAR_TAI_LAING_DIGIT_SEVEN = "\u{A9F7}";
 
-    #[Info(id: 43512, name: 'MYANMAR TAI LAING DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA9F8, name: 'MYANMAR TAI LAING DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MYANMAR_TAI_LAING_DIGIT_EIGHT = "\u{A9F8}";
 
-    #[Info(id: 43513, name: 'MYANMAR TAI LAING DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA9F9, name: 'MYANMAR TAI LAING DIGIT NINE', category: Cat::Decimal_Number)]
     case MYANMAR_TAI_LAING_DIGIT_NINE = "\u{A9F9}";
 
-    #[Info(id: 43514, name: 'MYANMAR LETTER TAI LAING LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9FA, name: 'MYANMAR LETTER TAI LAING LLA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_LLA = "\u{A9FA}";
 
-    #[Info(id: 43515, name: 'MYANMAR LETTER TAI LAING DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9FB, name: 'MYANMAR LETTER TAI LAING DA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_DA = "\u{A9FB}";
 
-    #[Info(id: 43516, name: 'MYANMAR LETTER TAI LAING DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9FC, name: 'MYANMAR LETTER TAI LAING DHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_DHA = "\u{A9FC}";
 
-    #[Info(id: 43517, name: 'MYANMAR LETTER TAI LAING BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9FD, name: 'MYANMAR LETTER TAI LAING BA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_BA = "\u{A9FD}";
 
-    #[Info(id: 43518, name: 'MYANMAR LETTER TAI LAING BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9FE, name: 'MYANMAR LETTER TAI LAING BHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TAI_LAING_BHA = "\u{A9FE}";
 }

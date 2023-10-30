@@ -16,99 +16,99 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Devanagari_Extended: string
 {
-    #[Info(id: 43232, name: 'COMBINING DEVANAGARI DIGIT ZERO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8E0, name: 'COMBINING DEVANAGARI DIGIT ZERO', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_DIGIT_ZERO = "\u{A8E0}";
 
-    #[Info(id: 43233, name: 'COMBINING DEVANAGARI DIGIT ONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8E1, name: 'COMBINING DEVANAGARI DIGIT ONE', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_DIGIT_ONE = "\u{A8E1}";
 
-    #[Info(id: 43234, name: 'COMBINING DEVANAGARI DIGIT TWO', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8E2, name: 'COMBINING DEVANAGARI DIGIT TWO', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_DIGIT_TWO = "\u{A8E2}";
 
-    #[Info(id: 43235, name: 'COMBINING DEVANAGARI DIGIT THREE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8E3, name: 'COMBINING DEVANAGARI DIGIT THREE', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_DIGIT_THREE = "\u{A8E3}";
 
-    #[Info(id: 43236, name: 'COMBINING DEVANAGARI DIGIT FOUR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8E4, name: 'COMBINING DEVANAGARI DIGIT FOUR', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_DIGIT_FOUR = "\u{A8E4}";
 
-    #[Info(id: 43237, name: 'COMBINING DEVANAGARI DIGIT FIVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8E5, name: 'COMBINING DEVANAGARI DIGIT FIVE', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_DIGIT_FIVE = "\u{A8E5}";
 
-    #[Info(id: 43238, name: 'COMBINING DEVANAGARI DIGIT SIX', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8E6, name: 'COMBINING DEVANAGARI DIGIT SIX', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_DIGIT_SIX = "\u{A8E6}";
 
-    #[Info(id: 43239, name: 'COMBINING DEVANAGARI DIGIT SEVEN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8E7, name: 'COMBINING DEVANAGARI DIGIT SEVEN', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_DIGIT_SEVEN = "\u{A8E7}";
 
-    #[Info(id: 43240, name: 'COMBINING DEVANAGARI DIGIT EIGHT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8E8, name: 'COMBINING DEVANAGARI DIGIT EIGHT', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_DIGIT_EIGHT = "\u{A8E8}";
 
-    #[Info(id: 43241, name: 'COMBINING DEVANAGARI DIGIT NINE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8E9, name: 'COMBINING DEVANAGARI DIGIT NINE', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_DIGIT_NINE = "\u{A8E9}";
 
-    #[Info(id: 43242, name: 'COMBINING DEVANAGARI LETTER A', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8EA, name: 'COMBINING DEVANAGARI LETTER A', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_LETTER_A = "\u{A8EA}";
 
-    #[Info(id: 43243, name: 'COMBINING DEVANAGARI LETTER U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8EB, name: 'COMBINING DEVANAGARI LETTER U', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_LETTER_U = "\u{A8EB}";
 
-    #[Info(id: 43244, name: 'COMBINING DEVANAGARI LETTER KA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8EC, name: 'COMBINING DEVANAGARI LETTER KA', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_LETTER_KA = "\u{A8EC}";
 
-    #[Info(id: 43245, name: 'COMBINING DEVANAGARI LETTER NA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8ED, name: 'COMBINING DEVANAGARI LETTER NA', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_LETTER_NA = "\u{A8ED}";
 
-    #[Info(id: 43246, name: 'COMBINING DEVANAGARI LETTER PA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8EE, name: 'COMBINING DEVANAGARI LETTER PA', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_LETTER_PA = "\u{A8EE}";
 
-    #[Info(id: 43247, name: 'COMBINING DEVANAGARI LETTER RA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8EF, name: 'COMBINING DEVANAGARI LETTER RA', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_LETTER_RA = "\u{A8EF}";
 
-    #[Info(id: 43248, name: 'COMBINING DEVANAGARI LETTER VI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8F0, name: 'COMBINING DEVANAGARI LETTER VI', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_LETTER_VI = "\u{A8F0}";
 
-    #[Info(id: 43249, name: 'COMBINING DEVANAGARI SIGN AVAGRAHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8F1, name: 'COMBINING DEVANAGARI SIGN AVAGRAHA', category: Cat::Nonspacing_Mark)]
     case COMBINING_DEVANAGARI_SIGN_AVAGRAHA = "\u{A8F1}";
 
-    #[Info(id: 43250, name: 'DEVANAGARI SIGN SPACING CANDRABINDU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8F2, name: 'DEVANAGARI SIGN SPACING CANDRABINDU', category: Cat::Other_Letter)]
     case DEVANAGARI_SIGN_SPACING_CANDRABINDU = "\u{A8F2}";
 
-    #[Info(id: 43251, name: 'DEVANAGARI SIGN CANDRABINDU VIRAMA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8F3, name: 'DEVANAGARI SIGN CANDRABINDU VIRAMA', category: Cat::Other_Letter)]
     case DEVANAGARI_SIGN_CANDRABINDU_VIRAMA = "\u{A8F3}";
 
-    #[Info(id: 43252, name: 'DEVANAGARI SIGN DOUBLE CANDRABINDU VIRAMA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8F4, name: 'DEVANAGARI SIGN DOUBLE CANDRABINDU VIRAMA', category: Cat::Other_Letter)]
     case DEVANAGARI_SIGN_DOUBLE_CANDRABINDU_VIRAMA = "\u{A8F4}";
 
-    #[Info(id: 43253, name: 'DEVANAGARI SIGN CANDRABINDU TWO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8F5, name: 'DEVANAGARI SIGN CANDRABINDU TWO', category: Cat::Other_Letter)]
     case DEVANAGARI_SIGN_CANDRABINDU_TWO = "\u{A8F5}";
 
-    #[Info(id: 43254, name: 'DEVANAGARI SIGN CANDRABINDU THREE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8F6, name: 'DEVANAGARI SIGN CANDRABINDU THREE', category: Cat::Other_Letter)]
     case DEVANAGARI_SIGN_CANDRABINDU_THREE = "\u{A8F6}";
 
-    #[Info(id: 43255, name: 'DEVANAGARI SIGN CANDRABINDU AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8F7, name: 'DEVANAGARI SIGN CANDRABINDU AVAGRAHA', category: Cat::Other_Letter)]
     case DEVANAGARI_SIGN_CANDRABINDU_AVAGRAHA = "\u{A8F7}";
 
-    #[Info(id: 43256, name: 'DEVANAGARI SIGN PUSHPIKA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA8F8, name: 'DEVANAGARI SIGN PUSHPIKA', category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_PUSHPIKA = "\u{A8F8}";
 
-    #[Info(id: 43257, name: 'DEVANAGARI GAP FILLER', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA8F9, name: 'DEVANAGARI GAP FILLER', category: Cat::Other_Punctuation)]
     case DEVANAGARI_GAP_FILLER = "\u{A8F9}";
 
-    #[Info(id: 43258, name: 'DEVANAGARI CARET', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA8FA, name: 'DEVANAGARI CARET', category: Cat::Other_Punctuation)]
     case DEVANAGARI_CARET = "\u{A8FA}";
 
-    #[Info(id: 43259, name: 'DEVANAGARI HEADSTROKE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8FB, name: 'DEVANAGARI HEADSTROKE', category: Cat::Other_Letter)]
     case DEVANAGARI_HEADSTROKE = "\u{A8FB}";
 
-    #[Info(id: 43260, name: 'DEVANAGARI SIGN SIDDHAM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA8FC, name: 'DEVANAGARI SIGN SIDDHAM', category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_SIDDHAM = "\u{A8FC}";
 
-    #[Info(id: 43261, name: 'DEVANAGARI JAIN OM', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8FD, name: 'DEVANAGARI JAIN OM', category: Cat::Other_Letter)]
     case DEVANAGARI_JAIN_OM = "\u{A8FD}";
 
-    #[Info(id: 43262, name: 'DEVANAGARI LETTER AY', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8FE, name: 'DEVANAGARI LETTER AY', category: Cat::Other_Letter)]
     case DEVANAGARI_LETTER_AY = "\u{A8FE}";
 
-    #[Info(id: 43263, name: 'DEVANAGARI VOWEL SIGN AY', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA8FF, name: 'DEVANAGARI VOWEL SIGN AY', category: Cat::Nonspacing_Mark)]
     case DEVANAGARI_VOWEL_SIGN_AY = "\u{A8FF}";
 }

@@ -16,99 +16,99 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Modifier_Tone_Letters: string
 {
-    #[Info(id: 42752, name: 'MODIFIER LETTER CHINESE TONE YIN PING', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA700, name: 'MODIFIER LETTER CHINESE TONE YIN PING', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_CHINESE_TONE_YIN_PING = "\u{A700}";
 
-    #[Info(id: 42753, name: 'MODIFIER LETTER CHINESE TONE YANG PING', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA701, name: 'MODIFIER LETTER CHINESE TONE YANG PING', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_CHINESE_TONE_YANG_PING = "\u{A701}";
 
-    #[Info(id: 42754, name: 'MODIFIER LETTER CHINESE TONE YIN SHANG', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA702, name: 'MODIFIER LETTER CHINESE TONE YIN SHANG', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_CHINESE_TONE_YIN_SHANG = "\u{A702}";
 
-    #[Info(id: 42755, name: 'MODIFIER LETTER CHINESE TONE YANG SHANG', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA703, name: 'MODIFIER LETTER CHINESE TONE YANG SHANG', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_CHINESE_TONE_YANG_SHANG = "\u{A703}";
 
-    #[Info(id: 42756, name: 'MODIFIER LETTER CHINESE TONE YIN QU', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA704, name: 'MODIFIER LETTER CHINESE TONE YIN QU', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_CHINESE_TONE_YIN_QU = "\u{A704}";
 
-    #[Info(id: 42757, name: 'MODIFIER LETTER CHINESE TONE YANG QU', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA705, name: 'MODIFIER LETTER CHINESE TONE YANG QU', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_CHINESE_TONE_YANG_QU = "\u{A705}";
 
-    #[Info(id: 42758, name: 'MODIFIER LETTER CHINESE TONE YIN RU', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA706, name: 'MODIFIER LETTER CHINESE TONE YIN RU', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_CHINESE_TONE_YIN_RU = "\u{A706}";
 
-    #[Info(id: 42759, name: 'MODIFIER LETTER CHINESE TONE YANG RU', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA707, name: 'MODIFIER LETTER CHINESE TONE YANG RU', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_CHINESE_TONE_YANG_RU = "\u{A707}";
 
-    #[Info(id: 42760, name: 'MODIFIER LETTER EXTRA-HIGH DOTTED TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA708, name: 'MODIFIER LETTER EXTRA-HIGH DOTTED TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_EXTRA_HIGH_DOTTED_TONE_BAR = "\u{A708}";
 
-    #[Info(id: 42761, name: 'MODIFIER LETTER HIGH DOTTED TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA709, name: 'MODIFIER LETTER HIGH DOTTED TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_HIGH_DOTTED_TONE_BAR = "\u{A709}";
 
-    #[Info(id: 42762, name: 'MODIFIER LETTER MID DOTTED TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA70A, name: 'MODIFIER LETTER MID DOTTED TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_MID_DOTTED_TONE_BAR = "\u{A70A}";
 
-    #[Info(id: 42763, name: 'MODIFIER LETTER LOW DOTTED TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA70B, name: 'MODIFIER LETTER LOW DOTTED TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_LOW_DOTTED_TONE_BAR = "\u{A70B}";
 
-    #[Info(id: 42764, name: 'MODIFIER LETTER EXTRA-LOW DOTTED TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA70C, name: 'MODIFIER LETTER EXTRA-LOW DOTTED TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_EXTRA_LOW_DOTTED_TONE_BAR = "\u{A70C}";
 
-    #[Info(id: 42765, name: 'MODIFIER LETTER EXTRA-HIGH DOTTED LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA70D, name: 'MODIFIER LETTER EXTRA-HIGH DOTTED LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_EXTRA_HIGH_DOTTED_LEFT_STEM_TONE_BAR = "\u{A70D}";
 
-    #[Info(id: 42766, name: 'MODIFIER LETTER HIGH DOTTED LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA70E, name: 'MODIFIER LETTER HIGH DOTTED LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_HIGH_DOTTED_LEFT_STEM_TONE_BAR = "\u{A70E}";
 
-    #[Info(id: 42767, name: 'MODIFIER LETTER MID DOTTED LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA70F, name: 'MODIFIER LETTER MID DOTTED LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_MID_DOTTED_LEFT_STEM_TONE_BAR = "\u{A70F}";
 
-    #[Info(id: 42768, name: 'MODIFIER LETTER LOW DOTTED LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA710, name: 'MODIFIER LETTER LOW DOTTED LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_LOW_DOTTED_LEFT_STEM_TONE_BAR = "\u{A710}";
 
-    #[Info(id: 42769, name: 'MODIFIER LETTER EXTRA-LOW DOTTED LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA711, name: 'MODIFIER LETTER EXTRA-LOW DOTTED LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_EXTRA_LOW_DOTTED_LEFT_STEM_TONE_BAR = "\u{A711}";
 
-    #[Info(id: 42770, name: 'MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA712, name: 'MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_EXTRA_HIGH_LEFT_STEM_TONE_BAR = "\u{A712}";
 
-    #[Info(id: 42771, name: 'MODIFIER LETTER HIGH LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA713, name: 'MODIFIER LETTER HIGH LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_HIGH_LEFT_STEM_TONE_BAR = "\u{A713}";
 
-    #[Info(id: 42772, name: 'MODIFIER LETTER MID LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA714, name: 'MODIFIER LETTER MID LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_MID_LEFT_STEM_TONE_BAR = "\u{A714}";
 
-    #[Info(id: 42773, name: 'MODIFIER LETTER LOW LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA715, name: 'MODIFIER LETTER LOW LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_LOW_LEFT_STEM_TONE_BAR = "\u{A715}";
 
-    #[Info(id: 42774, name: 'MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
+    #[Info(id: 0xA716, name: 'MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_EXTRA_LOW_LEFT_STEM_TONE_BAR = "\u{A716}";
 
-    #[Info(id: 42775, name: 'MODIFIER LETTER DOT VERTICAL BAR', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA717, name: 'MODIFIER LETTER DOT VERTICAL BAR', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_DOT_VERTICAL_BAR = "\u{A717}";
 
-    #[Info(id: 42776, name: 'MODIFIER LETTER DOT SLASH', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA718, name: 'MODIFIER LETTER DOT SLASH', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_DOT_SLASH = "\u{A718}";
 
-    #[Info(id: 42777, name: 'MODIFIER LETTER DOT HORIZONTAL BAR', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA719, name: 'MODIFIER LETTER DOT HORIZONTAL BAR', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_DOT_HORIZONTAL_BAR = "\u{A719}";
 
-    #[Info(id: 42778, name: 'MODIFIER LETTER LOWER RIGHT CORNER ANGLE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA71A, name: 'MODIFIER LETTER LOWER RIGHT CORNER ANGLE', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_LOWER_RIGHT_CORNER_ANGLE = "\u{A71A}";
 
-    #[Info(id: 42779, name: 'MODIFIER LETTER RAISED UP ARROW', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA71B, name: 'MODIFIER LETTER RAISED UP ARROW', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_RAISED_UP_ARROW = "\u{A71B}";
 
-    #[Info(id: 42780, name: 'MODIFIER LETTER RAISED DOWN ARROW', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA71C, name: 'MODIFIER LETTER RAISED DOWN ARROW', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_RAISED_DOWN_ARROW = "\u{A71C}";
 
-    #[Info(id: 42781, name: 'MODIFIER LETTER RAISED EXCLAMATION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA71D, name: 'MODIFIER LETTER RAISED EXCLAMATION MARK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_RAISED_EXCLAMATION_MARK = "\u{A71D}";
 
-    #[Info(id: 42782, name: 'MODIFIER LETTER RAISED INVERTED EXCLAMATION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA71E, name: 'MODIFIER LETTER RAISED INVERTED EXCLAMATION MARK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_RAISED_INVERTED_EXCLAMATION_MARK = "\u{A71E}";
 
-    #[Info(id: 42783, name: 'MODIFIER LETTER LOW INVERTED EXCLAMATION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA71F, name: 'MODIFIER LETTER LOW INVERTED EXCLAMATION MARK', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_LOW_INVERTED_EXCLAMATION_MARK = "\u{A71F}";
 }

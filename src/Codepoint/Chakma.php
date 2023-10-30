@@ -16,216 +16,216 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Chakma: string
 {
-    #[Info(id: 69888, name: 'CHAKMA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11100, name: 'CHAKMA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case CHAKMA_SIGN_CANDRABINDU = "\u{11100}";
 
-    #[Info(id: 69889, name: 'CHAKMA SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11101, name: 'CHAKMA SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case CHAKMA_SIGN_ANUSVARA = "\u{11101}";
 
-    #[Info(id: 69890, name: 'CHAKMA SIGN VISARGA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11102, name: 'CHAKMA SIGN VISARGA', category: Cat::Nonspacing_Mark)]
     case CHAKMA_SIGN_VISARGA = "\u{11102}";
 
-    #[Info(id: 69891, name: 'CHAKMA LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11103, name: 'CHAKMA LETTER AA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_AA = "\u{11103}";
 
-    #[Info(id: 69892, name: 'CHAKMA LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11104, name: 'CHAKMA LETTER I', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_I = "\u{11104}";
 
-    #[Info(id: 69893, name: 'CHAKMA LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11105, name: 'CHAKMA LETTER U', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_U = "\u{11105}";
 
-    #[Info(id: 69894, name: 'CHAKMA LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x11106, name: 'CHAKMA LETTER E', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_E = "\u{11106}";
 
-    #[Info(id: 69895, name: 'CHAKMA LETTER KAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11107, name: 'CHAKMA LETTER KAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_KAA = "\u{11107}";
 
-    #[Info(id: 69896, name: 'CHAKMA LETTER KHAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11108, name: 'CHAKMA LETTER KHAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_KHAA = "\u{11108}";
 
-    #[Info(id: 69897, name: 'CHAKMA LETTER GAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11109, name: 'CHAKMA LETTER GAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_GAA = "\u{11109}";
 
-    #[Info(id: 69898, name: 'CHAKMA LETTER GHAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1110A, name: 'CHAKMA LETTER GHAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_GHAA = "\u{1110A}";
 
-    #[Info(id: 69899, name: 'CHAKMA LETTER NGAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1110B, name: 'CHAKMA LETTER NGAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_NGAA = "\u{1110B}";
 
-    #[Info(id: 69900, name: 'CHAKMA LETTER CAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1110C, name: 'CHAKMA LETTER CAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_CAA = "\u{1110C}";
 
-    #[Info(id: 69901, name: 'CHAKMA LETTER CHAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1110D, name: 'CHAKMA LETTER CHAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_CHAA = "\u{1110D}";
 
-    #[Info(id: 69902, name: 'CHAKMA LETTER JAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1110E, name: 'CHAKMA LETTER JAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_JAA = "\u{1110E}";
 
-    #[Info(id: 69903, name: 'CHAKMA LETTER JHAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1110F, name: 'CHAKMA LETTER JHAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_JHAA = "\u{1110F}";
 
-    #[Info(id: 69904, name: 'CHAKMA LETTER NYAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11110, name: 'CHAKMA LETTER NYAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_NYAA = "\u{11110}";
 
-    #[Info(id: 69905, name: 'CHAKMA LETTER TTAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11111, name: 'CHAKMA LETTER TTAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_TTAA = "\u{11111}";
 
-    #[Info(id: 69906, name: 'CHAKMA LETTER TTHAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11112, name: 'CHAKMA LETTER TTHAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_TTHAA = "\u{11112}";
 
-    #[Info(id: 69907, name: 'CHAKMA LETTER DDAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11113, name: 'CHAKMA LETTER DDAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_DDAA = "\u{11113}";
 
-    #[Info(id: 69908, name: 'CHAKMA LETTER DDHAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11114, name: 'CHAKMA LETTER DDHAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_DDHAA = "\u{11114}";
 
-    #[Info(id: 69909, name: 'CHAKMA LETTER NNAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11115, name: 'CHAKMA LETTER NNAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_NNAA = "\u{11115}";
 
-    #[Info(id: 69910, name: 'CHAKMA LETTER TAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11116, name: 'CHAKMA LETTER TAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_TAA = "\u{11116}";
 
-    #[Info(id: 69911, name: 'CHAKMA LETTER THAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11117, name: 'CHAKMA LETTER THAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_THAA = "\u{11117}";
 
-    #[Info(id: 69912, name: 'CHAKMA LETTER DAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11118, name: 'CHAKMA LETTER DAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_DAA = "\u{11118}";
 
-    #[Info(id: 69913, name: 'CHAKMA LETTER DHAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11119, name: 'CHAKMA LETTER DHAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_DHAA = "\u{11119}";
 
-    #[Info(id: 69914, name: 'CHAKMA LETTER NAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1111A, name: 'CHAKMA LETTER NAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_NAA = "\u{1111A}";
 
-    #[Info(id: 69915, name: 'CHAKMA LETTER PAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1111B, name: 'CHAKMA LETTER PAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_PAA = "\u{1111B}";
 
-    #[Info(id: 69916, name: 'CHAKMA LETTER PHAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1111C, name: 'CHAKMA LETTER PHAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_PHAA = "\u{1111C}";
 
-    #[Info(id: 69917, name: 'CHAKMA LETTER BAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1111D, name: 'CHAKMA LETTER BAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_BAA = "\u{1111D}";
 
-    #[Info(id: 69918, name: 'CHAKMA LETTER BHAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1111E, name: 'CHAKMA LETTER BHAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_BHAA = "\u{1111E}";
 
-    #[Info(id: 69919, name: 'CHAKMA LETTER MAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1111F, name: 'CHAKMA LETTER MAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_MAA = "\u{1111F}";
 
-    #[Info(id: 69920, name: 'CHAKMA LETTER YYAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11120, name: 'CHAKMA LETTER YYAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_YYAA = "\u{11120}";
 
-    #[Info(id: 69921, name: 'CHAKMA LETTER YAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11121, name: 'CHAKMA LETTER YAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_YAA = "\u{11121}";
 
-    #[Info(id: 69922, name: 'CHAKMA LETTER RAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11122, name: 'CHAKMA LETTER RAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_RAA = "\u{11122}";
 
-    #[Info(id: 69923, name: 'CHAKMA LETTER LAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11123, name: 'CHAKMA LETTER LAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_LAA = "\u{11123}";
 
-    #[Info(id: 69924, name: 'CHAKMA LETTER WAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11124, name: 'CHAKMA LETTER WAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_WAA = "\u{11124}";
 
-    #[Info(id: 69925, name: 'CHAKMA LETTER SAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11125, name: 'CHAKMA LETTER SAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_SAA = "\u{11125}";
 
-    #[Info(id: 69926, name: 'CHAKMA LETTER HAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11126, name: 'CHAKMA LETTER HAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_HAA = "\u{11126}";
 
-    #[Info(id: 69927, name: 'CHAKMA VOWEL SIGN A', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11127, name: 'CHAKMA VOWEL SIGN A', category: Cat::Nonspacing_Mark)]
     case CHAKMA_VOWEL_SIGN_A = "\u{11127}";
 
-    #[Info(id: 69928, name: 'CHAKMA VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11128, name: 'CHAKMA VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case CHAKMA_VOWEL_SIGN_I = "\u{11128}";
 
-    #[Info(id: 69929, name: 'CHAKMA VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11129, name: 'CHAKMA VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
     case CHAKMA_VOWEL_SIGN_II = "\u{11129}";
 
-    #[Info(id: 69930, name: 'CHAKMA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1112A, name: 'CHAKMA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case CHAKMA_VOWEL_SIGN_U = "\u{1112A}";
 
-    #[Info(id: 69931, name: 'CHAKMA VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1112B, name: 'CHAKMA VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case CHAKMA_VOWEL_SIGN_UU = "\u{1112B}";
 
-    #[Info(id: 69932, name: 'CHAKMA VOWEL SIGN E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1112C, name: 'CHAKMA VOWEL SIGN E', category: Cat::Spacing_Mark)]
     case CHAKMA_VOWEL_SIGN_E = "\u{1112C}";
 
-    #[Info(id: 69933, name: 'CHAKMA VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1112D, name: 'CHAKMA VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case CHAKMA_VOWEL_SIGN_AI = "\u{1112D}";
 
-    #[Info(id: 69934, name: 'CHAKMA VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1112E, name: 'CHAKMA VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case CHAKMA_VOWEL_SIGN_O = "\u{1112E}";
 
-    #[Info(id: 69935, name: 'CHAKMA VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1112F, name: 'CHAKMA VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
     case CHAKMA_VOWEL_SIGN_AU = "\u{1112F}";
 
-    #[Info(id: 69936, name: 'CHAKMA VOWEL SIGN OI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11130, name: 'CHAKMA VOWEL SIGN OI', category: Cat::Nonspacing_Mark)]
     case CHAKMA_VOWEL_SIGN_OI = "\u{11130}";
 
-    #[Info(id: 69937, name: 'CHAKMA O MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11131, name: 'CHAKMA O MARK', category: Cat::Nonspacing_Mark)]
     case CHAKMA_O_MARK = "\u{11131}";
 
-    #[Info(id: 69938, name: 'CHAKMA AU MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11132, name: 'CHAKMA AU MARK', category: Cat::Nonspacing_Mark)]
     case CHAKMA_AU_MARK = "\u{11132}";
 
-    #[Info(id: 69939, name: 'CHAKMA VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11133, name: 'CHAKMA VIRAMA', category: Cat::Nonspacing_Mark)]
     case CHAKMA_VIRAMA = "\u{11133}";
 
-    #[Info(id: 69940, name: 'CHAKMA MAAYYAA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11134, name: 'CHAKMA MAAYYAA', category: Cat::Nonspacing_Mark)]
     case CHAKMA_MAAYYAA = "\u{11134}";
 
-    #[Info(id: 69942, name: 'CHAKMA DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11136, name: 'CHAKMA DIGIT ZERO', category: Cat::Decimal_Number)]
     case CHAKMA_DIGIT_ZERO = "\u{11136}";
 
-    #[Info(id: 69943, name: 'CHAKMA DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11137, name: 'CHAKMA DIGIT ONE', category: Cat::Decimal_Number)]
     case CHAKMA_DIGIT_ONE = "\u{11137}";
 
-    #[Info(id: 69944, name: 'CHAKMA DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11138, name: 'CHAKMA DIGIT TWO', category: Cat::Decimal_Number)]
     case CHAKMA_DIGIT_TWO = "\u{11138}";
 
-    #[Info(id: 69945, name: 'CHAKMA DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11139, name: 'CHAKMA DIGIT THREE', category: Cat::Decimal_Number)]
     case CHAKMA_DIGIT_THREE = "\u{11139}";
 
-    #[Info(id: 69946, name: 'CHAKMA DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1113A, name: 'CHAKMA DIGIT FOUR', category: Cat::Decimal_Number)]
     case CHAKMA_DIGIT_FOUR = "\u{1113A}";
 
-    #[Info(id: 69947, name: 'CHAKMA DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1113B, name: 'CHAKMA DIGIT FIVE', category: Cat::Decimal_Number)]
     case CHAKMA_DIGIT_FIVE = "\u{1113B}";
 
-    #[Info(id: 69948, name: 'CHAKMA DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1113C, name: 'CHAKMA DIGIT SIX', category: Cat::Decimal_Number)]
     case CHAKMA_DIGIT_SIX = "\u{1113C}";
 
-    #[Info(id: 69949, name: 'CHAKMA DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1113D, name: 'CHAKMA DIGIT SEVEN', category: Cat::Decimal_Number)]
     case CHAKMA_DIGIT_SEVEN = "\u{1113D}";
 
-    #[Info(id: 69950, name: 'CHAKMA DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1113E, name: 'CHAKMA DIGIT EIGHT', category: Cat::Decimal_Number)]
     case CHAKMA_DIGIT_EIGHT = "\u{1113E}";
 
-    #[Info(id: 69951, name: 'CHAKMA DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1113F, name: 'CHAKMA DIGIT NINE', category: Cat::Decimal_Number)]
     case CHAKMA_DIGIT_NINE = "\u{1113F}";
 
-    #[Info(id: 69952, name: 'CHAKMA SECTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11140, name: 'CHAKMA SECTION MARK', category: Cat::Other_Punctuation)]
     case CHAKMA_SECTION_MARK = "\u{11140}";
 
-    #[Info(id: 69953, name: 'CHAKMA DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11141, name: 'CHAKMA DANDA', category: Cat::Other_Punctuation)]
     case CHAKMA_DANDA = "\u{11141}";
 
-    #[Info(id: 69954, name: 'CHAKMA DOUBLE DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11142, name: 'CHAKMA DOUBLE DANDA', category: Cat::Other_Punctuation)]
     case CHAKMA_DOUBLE_DANDA = "\u{11142}";
 
-    #[Info(id: 69955, name: 'CHAKMA QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11143, name: 'CHAKMA QUESTION MARK', category: Cat::Other_Punctuation)]
     case CHAKMA_QUESTION_MARK = "\u{11143}";
 
-    #[Info(id: 69956, name: 'CHAKMA LETTER LHAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11144, name: 'CHAKMA LETTER LHAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_LHAA = "\u{11144}";
 
-    #[Info(id: 69957, name: 'CHAKMA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11145, name: 'CHAKMA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case CHAKMA_VOWEL_SIGN_AA = "\u{11145}";
 
-    #[Info(id: 69958, name: 'CHAKMA VOWEL SIGN EI', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11146, name: 'CHAKMA VOWEL SIGN EI', category: Cat::Spacing_Mark)]
     case CHAKMA_VOWEL_SIGN_EI = "\u{11146}";
 
-    #[Info(id: 69959, name: 'CHAKMA LETTER VAA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11147, name: 'CHAKMA LETTER VAA', category: Cat::Other_Letter)]
     case CHAKMA_LETTER_VAA = "\u{11147}";
 }

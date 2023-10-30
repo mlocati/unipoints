@@ -16,123 +16,123 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Old_Sogdian: string
 {
-    #[Info(id: 69376, name: 'OLD SOGDIAN LETTER ALEPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F00, name: 'OLD SOGDIAN LETTER ALEPH', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_ALEPH = "\u{10F00}";
 
-    #[Info(id: 69377, name: 'OLD SOGDIAN LETTER FINAL ALEPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F01, name: 'OLD SOGDIAN LETTER FINAL ALEPH', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_FINAL_ALEPH = "\u{10F01}";
 
-    #[Info(id: 69378, name: 'OLD SOGDIAN LETTER BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F02, name: 'OLD SOGDIAN LETTER BETH', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_BETH = "\u{10F02}";
 
-    #[Info(id: 69379, name: 'OLD SOGDIAN LETTER FINAL BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F03, name: 'OLD SOGDIAN LETTER FINAL BETH', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_FINAL_BETH = "\u{10F03}";
 
-    #[Info(id: 69380, name: 'OLD SOGDIAN LETTER GIMEL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F04, name: 'OLD SOGDIAN LETTER GIMEL', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_GIMEL = "\u{10F04}";
 
-    #[Info(id: 69381, name: 'OLD SOGDIAN LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F05, name: 'OLD SOGDIAN LETTER HE', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_HE = "\u{10F05}";
 
-    #[Info(id: 69382, name: 'OLD SOGDIAN LETTER FINAL HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F06, name: 'OLD SOGDIAN LETTER FINAL HE', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_FINAL_HE = "\u{10F06}";
 
-    #[Info(id: 69383, name: 'OLD SOGDIAN LETTER WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F07, name: 'OLD SOGDIAN LETTER WAW', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_WAW = "\u{10F07}";
 
-    #[Info(id: 69384, name: 'OLD SOGDIAN LETTER ZAYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F08, name: 'OLD SOGDIAN LETTER ZAYIN', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_ZAYIN = "\u{10F08}";
 
-    #[Info(id: 69385, name: 'OLD SOGDIAN LETTER HETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F09, name: 'OLD SOGDIAN LETTER HETH', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_HETH = "\u{10F09}";
 
-    #[Info(id: 69386, name: 'OLD SOGDIAN LETTER YODH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F0A, name: 'OLD SOGDIAN LETTER YODH', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_YODH = "\u{10F0A}";
 
-    #[Info(id: 69387, name: 'OLD SOGDIAN LETTER KAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F0B, name: 'OLD SOGDIAN LETTER KAPH', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_KAPH = "\u{10F0B}";
 
-    #[Info(id: 69388, name: 'OLD SOGDIAN LETTER LAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F0C, name: 'OLD SOGDIAN LETTER LAMEDH', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_LAMEDH = "\u{10F0C}";
 
-    #[Info(id: 69389, name: 'OLD SOGDIAN LETTER MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F0D, name: 'OLD SOGDIAN LETTER MEM', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_MEM = "\u{10F0D}";
 
-    #[Info(id: 69390, name: 'OLD SOGDIAN LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F0E, name: 'OLD SOGDIAN LETTER NUN', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_NUN = "\u{10F0E}";
 
-    #[Info(id: 69391, name: 'OLD SOGDIAN LETTER FINAL NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F0F, name: 'OLD SOGDIAN LETTER FINAL NUN', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_FINAL_NUN = "\u{10F0F}";
 
-    #[Info(id: 69392, name: 'OLD SOGDIAN LETTER FINAL NUN WITH VERTICAL TAIL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F10, name: 'OLD SOGDIAN LETTER FINAL NUN WITH VERTICAL TAIL', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_FINAL_NUN_WITH_VERTICAL_TAIL = "\u{10F10}";
 
-    #[Info(id: 69393, name: 'OLD SOGDIAN LETTER SAMEKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F11, name: 'OLD SOGDIAN LETTER SAMEKH', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_SAMEKH = "\u{10F11}";
 
-    #[Info(id: 69394, name: 'OLD SOGDIAN LETTER AYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F12, name: 'OLD SOGDIAN LETTER AYIN', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_AYIN = "\u{10F12}";
 
-    #[Info(id: 69395, name: 'OLD SOGDIAN LETTER ALTERNATE AYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F13, name: 'OLD SOGDIAN LETTER ALTERNATE AYIN', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_ALTERNATE_AYIN = "\u{10F13}";
 
-    #[Info(id: 69396, name: 'OLD SOGDIAN LETTER PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F14, name: 'OLD SOGDIAN LETTER PE', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_PE = "\u{10F14}";
 
-    #[Info(id: 69397, name: 'OLD SOGDIAN LETTER SADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F15, name: 'OLD SOGDIAN LETTER SADHE', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_SADHE = "\u{10F15}";
 
-    #[Info(id: 69398, name: 'OLD SOGDIAN LETTER FINAL SADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F16, name: 'OLD SOGDIAN LETTER FINAL SADHE', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_FINAL_SADHE = "\u{10F16}";
 
-    #[Info(id: 69399, name: 'OLD SOGDIAN LETTER FINAL SADHE WITH VERTICAL TAIL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F17, name: 'OLD SOGDIAN LETTER FINAL SADHE WITH VERTICAL TAIL', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_FINAL_SADHE_WITH_VERTICAL_TAIL = "\u{10F17}";
 
-    #[Info(id: 69400, name: 'OLD SOGDIAN LETTER RESH-AYIN-DALETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F18, name: 'OLD SOGDIAN LETTER RESH-AYIN-DALETH', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_RESH_AYIN_DALETH = "\u{10F18}";
 
-    #[Info(id: 69401, name: 'OLD SOGDIAN LETTER SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F19, name: 'OLD SOGDIAN LETTER SHIN', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_SHIN = "\u{10F19}";
 
-    #[Info(id: 69402, name: 'OLD SOGDIAN LETTER TAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F1A, name: 'OLD SOGDIAN LETTER TAW', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_TAW = "\u{10F1A}";
 
-    #[Info(id: 69403, name: 'OLD SOGDIAN LETTER FINAL TAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F1B, name: 'OLD SOGDIAN LETTER FINAL TAW', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_FINAL_TAW = "\u{10F1B}";
 
-    #[Info(id: 69404, name: 'OLD SOGDIAN LETTER FINAL TAW WITH VERTICAL TAIL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F1C, name: 'OLD SOGDIAN LETTER FINAL TAW WITH VERTICAL TAIL', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LETTER_FINAL_TAW_WITH_VERTICAL_TAIL = "\u{10F1C}";
 
-    #[Info(id: 69405, name: 'OLD SOGDIAN NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x10F1D, name: 'OLD SOGDIAN NUMBER ONE', category: Cat::Other_Number)]
     case OLD_SOGDIAN_NUMBER_ONE = "\u{10F1D}";
 
-    #[Info(id: 69406, name: 'OLD SOGDIAN NUMBER TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x10F1E, name: 'OLD SOGDIAN NUMBER TWO', category: Cat::Other_Number)]
     case OLD_SOGDIAN_NUMBER_TWO = "\u{10F1E}";
 
-    #[Info(id: 69407, name: 'OLD SOGDIAN NUMBER THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x10F1F, name: 'OLD SOGDIAN NUMBER THREE', category: Cat::Other_Number)]
     case OLD_SOGDIAN_NUMBER_THREE = "\u{10F1F}";
 
-    #[Info(id: 69408, name: 'OLD SOGDIAN NUMBER FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x10F20, name: 'OLD SOGDIAN NUMBER FOUR', category: Cat::Other_Number)]
     case OLD_SOGDIAN_NUMBER_FOUR = "\u{10F20}";
 
-    #[Info(id: 69409, name: 'OLD SOGDIAN NUMBER FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x10F21, name: 'OLD SOGDIAN NUMBER FIVE', category: Cat::Other_Number)]
     case OLD_SOGDIAN_NUMBER_FIVE = "\u{10F21}";
 
-    #[Info(id: 69410, name: 'OLD SOGDIAN NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x10F22, name: 'OLD SOGDIAN NUMBER TEN', category: Cat::Other_Number)]
     case OLD_SOGDIAN_NUMBER_TEN = "\u{10F22}";
 
-    #[Info(id: 69411, name: 'OLD SOGDIAN NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10F23, name: 'OLD SOGDIAN NUMBER TWENTY', category: Cat::Other_Number)]
     case OLD_SOGDIAN_NUMBER_TWENTY = "\u{10F23}";
 
-    #[Info(id: 69412, name: 'OLD SOGDIAN NUMBER THIRTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10F24, name: 'OLD SOGDIAN NUMBER THIRTY', category: Cat::Other_Number)]
     case OLD_SOGDIAN_NUMBER_THIRTY = "\u{10F24}";
 
-    #[Info(id: 69413, name: 'OLD SOGDIAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10F25, name: 'OLD SOGDIAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case OLD_SOGDIAN_NUMBER_ONE_HUNDRED = "\u{10F25}";
 
-    #[Info(id: 69414, name: 'OLD SOGDIAN FRACTION ONE HALF', category: Cat::Other_Number)]
+    #[Info(id: 0x10F26, name: 'OLD SOGDIAN FRACTION ONE HALF', category: Cat::Other_Number)]
     case OLD_SOGDIAN_FRACTION_ONE_HALF = "\u{10F26}";
 
-    #[Info(id: 69415, name: 'OLD SOGDIAN LIGATURE AYIN-DALETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10F27, name: 'OLD SOGDIAN LIGATURE AYIN-DALETH', category: Cat::Other_Letter)]
     case OLD_SOGDIAN_LIGATURE_AYIN_DALETH = "\u{10F27}";
 }

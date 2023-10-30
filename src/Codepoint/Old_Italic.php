@@ -16,120 +16,120 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Old_Italic: string
 {
-    #[Info(id: 66304, name: 'OLD ITALIC LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x10300, name: 'OLD ITALIC LETTER A', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_A = "\u{10300}";
 
-    #[Info(id: 66305, name: 'OLD ITALIC LETTER BE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10301, name: 'OLD ITALIC LETTER BE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_BE = "\u{10301}";
 
-    #[Info(id: 66306, name: 'OLD ITALIC LETTER KE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10302, name: 'OLD ITALIC LETTER KE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_KE = "\u{10302}";
 
-    #[Info(id: 66307, name: 'OLD ITALIC LETTER DE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10303, name: 'OLD ITALIC LETTER DE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_DE = "\u{10303}";
 
-    #[Info(id: 66308, name: 'OLD ITALIC LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x10304, name: 'OLD ITALIC LETTER E', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_E = "\u{10304}";
 
-    #[Info(id: 66309, name: 'OLD ITALIC LETTER VE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10305, name: 'OLD ITALIC LETTER VE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_VE = "\u{10305}";
 
-    #[Info(id: 66310, name: 'OLD ITALIC LETTER ZE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10306, name: 'OLD ITALIC LETTER ZE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_ZE = "\u{10306}";
 
-    #[Info(id: 66311, name: 'OLD ITALIC LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10307, name: 'OLD ITALIC LETTER HE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_HE = "\u{10307}";
 
-    #[Info(id: 66312, name: 'OLD ITALIC LETTER THE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10308, name: 'OLD ITALIC LETTER THE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_THE = "\u{10308}";
 
-    #[Info(id: 66313, name: 'OLD ITALIC LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x10309, name: 'OLD ITALIC LETTER I', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_I = "\u{10309}";
 
-    #[Info(id: 66314, name: 'OLD ITALIC LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1030A, name: 'OLD ITALIC LETTER KA', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_KA = "\u{1030A}";
 
-    #[Info(id: 66315, name: 'OLD ITALIC LETTER EL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1030B, name: 'OLD ITALIC LETTER EL', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_EL = "\u{1030B}";
 
-    #[Info(id: 66316, name: 'OLD ITALIC LETTER EM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1030C, name: 'OLD ITALIC LETTER EM', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_EM = "\u{1030C}";
 
-    #[Info(id: 66317, name: 'OLD ITALIC LETTER EN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1030D, name: 'OLD ITALIC LETTER EN', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_EN = "\u{1030D}";
 
-    #[Info(id: 66318, name: 'OLD ITALIC LETTER ESH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1030E, name: 'OLD ITALIC LETTER ESH', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_ESH = "\u{1030E}";
 
-    #[Info(id: 66319, name: 'OLD ITALIC LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1030F, name: 'OLD ITALIC LETTER O', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_O = "\u{1030F}";
 
-    #[Info(id: 66320, name: 'OLD ITALIC LETTER PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10310, name: 'OLD ITALIC LETTER PE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_PE = "\u{10310}";
 
-    #[Info(id: 66321, name: 'OLD ITALIC LETTER SHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10311, name: 'OLD ITALIC LETTER SHE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_SHE = "\u{10311}";
 
-    #[Info(id: 66322, name: 'OLD ITALIC LETTER KU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10312, name: 'OLD ITALIC LETTER KU', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_KU = "\u{10312}";
 
-    #[Info(id: 66323, name: 'OLD ITALIC LETTER ER', category: Cat::Other_Letter)]
+    #[Info(id: 0x10313, name: 'OLD ITALIC LETTER ER', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_ER = "\u{10313}";
 
-    #[Info(id: 66324, name: 'OLD ITALIC LETTER ES', category: Cat::Other_Letter)]
+    #[Info(id: 0x10314, name: 'OLD ITALIC LETTER ES', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_ES = "\u{10314}";
 
-    #[Info(id: 66325, name: 'OLD ITALIC LETTER TE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10315, name: 'OLD ITALIC LETTER TE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_TE = "\u{10315}";
 
-    #[Info(id: 66326, name: 'OLD ITALIC LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x10316, name: 'OLD ITALIC LETTER U', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_U = "\u{10316}";
 
-    #[Info(id: 66327, name: 'OLD ITALIC LETTER EKS', category: Cat::Other_Letter)]
+    #[Info(id: 0x10317, name: 'OLD ITALIC LETTER EKS', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_EKS = "\u{10317}";
 
-    #[Info(id: 66328, name: 'OLD ITALIC LETTER PHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10318, name: 'OLD ITALIC LETTER PHE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_PHE = "\u{10318}";
 
-    #[Info(id: 66329, name: 'OLD ITALIC LETTER KHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10319, name: 'OLD ITALIC LETTER KHE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_KHE = "\u{10319}";
 
-    #[Info(id: 66330, name: 'OLD ITALIC LETTER EF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1031A, name: 'OLD ITALIC LETTER EF', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_EF = "\u{1031A}";
 
-    #[Info(id: 66331, name: 'OLD ITALIC LETTER ERS', category: Cat::Other_Letter)]
+    #[Info(id: 0x1031B, name: 'OLD ITALIC LETTER ERS', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_ERS = "\u{1031B}";
 
-    #[Info(id: 66332, name: 'OLD ITALIC LETTER CHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1031C, name: 'OLD ITALIC LETTER CHE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_CHE = "\u{1031C}";
 
-    #[Info(id: 66333, name: 'OLD ITALIC LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x1031D, name: 'OLD ITALIC LETTER II', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_II = "\u{1031D}";
 
-    #[Info(id: 66334, name: 'OLD ITALIC LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1031E, name: 'OLD ITALIC LETTER UU', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_UU = "\u{1031E}";
 
-    #[Info(id: 66335, name: 'OLD ITALIC LETTER ESS', category: Cat::Other_Letter)]
+    #[Info(id: 0x1031F, name: 'OLD ITALIC LETTER ESS', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_ESS = "\u{1031F}";
 
-    #[Info(id: 66336, name: 'OLD ITALIC NUMERAL ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x10320, name: 'OLD ITALIC NUMERAL ONE', category: Cat::Other_Number)]
     case OLD_ITALIC_NUMERAL_ONE = "\u{10320}";
 
-    #[Info(id: 66337, name: 'OLD ITALIC NUMERAL FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x10321, name: 'OLD ITALIC NUMERAL FIVE', category: Cat::Other_Number)]
     case OLD_ITALIC_NUMERAL_FIVE = "\u{10321}";
 
-    #[Info(id: 66338, name: 'OLD ITALIC NUMERAL TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x10322, name: 'OLD ITALIC NUMERAL TEN', category: Cat::Other_Number)]
     case OLD_ITALIC_NUMERAL_TEN = "\u{10322}";
 
-    #[Info(id: 66339, name: 'OLD ITALIC NUMERAL FIFTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10323, name: 'OLD ITALIC NUMERAL FIFTY', category: Cat::Other_Number)]
     case OLD_ITALIC_NUMERAL_FIFTY = "\u{10323}";
 
-    #[Info(id: 66349, name: 'OLD ITALIC LETTER YE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1032D, name: 'OLD ITALIC LETTER YE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_YE = "\u{1032D}";
 
-    #[Info(id: 66350, name: 'OLD ITALIC LETTER NORTHERN TSE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1032E, name: 'OLD ITALIC LETTER NORTHERN TSE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_NORTHERN_TSE = "\u{1032E}";
 
-    #[Info(id: 66351, name: 'OLD ITALIC LETTER SOUTHERN TSE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1032F, name: 'OLD ITALIC LETTER SOUTHERN TSE', category: Cat::Other_Letter)]
     case OLD_ITALIC_LETTER_SOUTHERN_TSE = "\u{1032F}";
 }

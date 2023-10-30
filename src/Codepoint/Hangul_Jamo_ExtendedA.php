@@ -16,90 +16,90 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Hangul_Jamo_ExtendedA: string
 {
-    #[Info(id: 43360, name: 'HANGUL CHOSEONG TIKEUT-MIEUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xA960, name: 'HANGUL CHOSEONG TIKEUT-MIEUM', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_TIKEUT_MIEUM = "\u{A960}";
 
-    #[Info(id: 43361, name: 'HANGUL CHOSEONG TIKEUT-PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0xA961, name: 'HANGUL CHOSEONG TIKEUT-PIEUP', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_TIKEUT_PIEUP = "\u{A961}";
 
-    #[Info(id: 43362, name: 'HANGUL CHOSEONG TIKEUT-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xA962, name: 'HANGUL CHOSEONG TIKEUT-SIOS', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_TIKEUT_SIOS = "\u{A962}";
 
-    #[Info(id: 43363, name: 'HANGUL CHOSEONG TIKEUT-CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0xA963, name: 'HANGUL CHOSEONG TIKEUT-CIEUC', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_TIKEUT_CIEUC = "\u{A963}";
 
-    #[Info(id: 43364, name: 'HANGUL CHOSEONG RIEUL-KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0xA964, name: 'HANGUL CHOSEONG RIEUL-KIYEOK', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_RIEUL_KIYEOK = "\u{A964}";
 
-    #[Info(id: 43365, name: 'HANGUL CHOSEONG RIEUL-SSANGKIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0xA965, name: 'HANGUL CHOSEONG RIEUL-SSANGKIYEOK', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_RIEUL_SSANGKIYEOK = "\u{A965}";
 
-    #[Info(id: 43366, name: 'HANGUL CHOSEONG RIEUL-TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0xA966, name: 'HANGUL CHOSEONG RIEUL-TIKEUT', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_RIEUL_TIKEUT = "\u{A966}";
 
-    #[Info(id: 43367, name: 'HANGUL CHOSEONG RIEUL-SSANGTIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0xA967, name: 'HANGUL CHOSEONG RIEUL-SSANGTIKEUT', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_RIEUL_SSANGTIKEUT = "\u{A967}";
 
-    #[Info(id: 43368, name: 'HANGUL CHOSEONG RIEUL-MIEUM', category: Cat::Other_Letter)]
+    #[Info(id: 0xA968, name: 'HANGUL CHOSEONG RIEUL-MIEUM', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_RIEUL_MIEUM = "\u{A968}";
 
-    #[Info(id: 43369, name: 'HANGUL CHOSEONG RIEUL-PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0xA969, name: 'HANGUL CHOSEONG RIEUL-PIEUP', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_RIEUL_PIEUP = "\u{A969}";
 
-    #[Info(id: 43370, name: 'HANGUL CHOSEONG RIEUL-SSANGPIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0xA96A, name: 'HANGUL CHOSEONG RIEUL-SSANGPIEUP', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_RIEUL_SSANGPIEUP = "\u{A96A}";
 
-    #[Info(id: 43371, name: 'HANGUL CHOSEONG RIEUL-KAPYEOUNPIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0xA96B, name: 'HANGUL CHOSEONG RIEUL-KAPYEOUNPIEUP', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_RIEUL_KAPYEOUNPIEUP = "\u{A96B}";
 
-    #[Info(id: 43372, name: 'HANGUL CHOSEONG RIEUL-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xA96C, name: 'HANGUL CHOSEONG RIEUL-SIOS', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_RIEUL_SIOS = "\u{A96C}";
 
-    #[Info(id: 43373, name: 'HANGUL CHOSEONG RIEUL-CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0xA96D, name: 'HANGUL CHOSEONG RIEUL-CIEUC', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_RIEUL_CIEUC = "\u{A96D}";
 
-    #[Info(id: 43374, name: 'HANGUL CHOSEONG RIEUL-KHIEUKH', category: Cat::Other_Letter)]
+    #[Info(id: 0xA96E, name: 'HANGUL CHOSEONG RIEUL-KHIEUKH', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_RIEUL_KHIEUKH = "\u{A96E}";
 
-    #[Info(id: 43375, name: 'HANGUL CHOSEONG MIEUM-KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0xA96F, name: 'HANGUL CHOSEONG MIEUM-KIYEOK', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_MIEUM_KIYEOK = "\u{A96F}";
 
-    #[Info(id: 43376, name: 'HANGUL CHOSEONG MIEUM-TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0xA970, name: 'HANGUL CHOSEONG MIEUM-TIKEUT', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_MIEUM_TIKEUT = "\u{A970}";
 
-    #[Info(id: 43377, name: 'HANGUL CHOSEONG MIEUM-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xA971, name: 'HANGUL CHOSEONG MIEUM-SIOS', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_MIEUM_SIOS = "\u{A971}";
 
-    #[Info(id: 43378, name: 'HANGUL CHOSEONG PIEUP-SIOS-THIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0xA972, name: 'HANGUL CHOSEONG PIEUP-SIOS-THIEUTH', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_PIEUP_SIOS_THIEUTH = "\u{A972}";
 
-    #[Info(id: 43379, name: 'HANGUL CHOSEONG PIEUP-KHIEUKH', category: Cat::Other_Letter)]
+    #[Info(id: 0xA973, name: 'HANGUL CHOSEONG PIEUP-KHIEUKH', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_PIEUP_KHIEUKH = "\u{A973}";
 
-    #[Info(id: 43380, name: 'HANGUL CHOSEONG PIEUP-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0xA974, name: 'HANGUL CHOSEONG PIEUP-HIEUH', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_PIEUP_HIEUH = "\u{A974}";
 
-    #[Info(id: 43381, name: 'HANGUL CHOSEONG SSANGSIOS-PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0xA975, name: 'HANGUL CHOSEONG SSANGSIOS-PIEUP', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_SSANGSIOS_PIEUP = "\u{A975}";
 
-    #[Info(id: 43382, name: 'HANGUL CHOSEONG IEUNG-RIEUL', category: Cat::Other_Letter)]
+    #[Info(id: 0xA976, name: 'HANGUL CHOSEONG IEUNG-RIEUL', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_IEUNG_RIEUL = "\u{A976}";
 
-    #[Info(id: 43383, name: 'HANGUL CHOSEONG IEUNG-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0xA977, name: 'HANGUL CHOSEONG IEUNG-HIEUH', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_IEUNG_HIEUH = "\u{A977}";
 
-    #[Info(id: 43384, name: 'HANGUL CHOSEONG SSANGCIEUC-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0xA978, name: 'HANGUL CHOSEONG SSANGCIEUC-HIEUH', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_SSANGCIEUC_HIEUH = "\u{A978}";
 
-    #[Info(id: 43385, name: 'HANGUL CHOSEONG SSANGTHIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0xA979, name: 'HANGUL CHOSEONG SSANGTHIEUTH', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_SSANGTHIEUTH = "\u{A979}";
 
-    #[Info(id: 43386, name: 'HANGUL CHOSEONG PHIEUPH-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0xA97A, name: 'HANGUL CHOSEONG PHIEUPH-HIEUH', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_PHIEUPH_HIEUH = "\u{A97A}";
 
-    #[Info(id: 43387, name: 'HANGUL CHOSEONG HIEUH-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0xA97B, name: 'HANGUL CHOSEONG HIEUH-SIOS', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_HIEUH_SIOS = "\u{A97B}";
 
-    #[Info(id: 43388, name: 'HANGUL CHOSEONG SSANGYEORINHIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0xA97C, name: 'HANGUL CHOSEONG SSANGYEORINHIEUH', category: Cat::Other_Letter)]
     case HANGUL_CHOSEONG_SSANGYEORINHIEUH = "\u{A97C}";
 }

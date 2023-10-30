@@ -16,189 +16,189 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum NKo: string
 {
-    #[Info(id: 1984, name: 'NKO DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x7C0, name: 'NKO DIGIT ZERO', category: Cat::Decimal_Number)]
     case NKO_DIGIT_ZERO = "\u{7C0}";
 
-    #[Info(id: 1985, name: 'NKO DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x7C1, name: 'NKO DIGIT ONE', category: Cat::Decimal_Number)]
     case NKO_DIGIT_ONE = "\u{7C1}";
 
-    #[Info(id: 1986, name: 'NKO DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x7C2, name: 'NKO DIGIT TWO', category: Cat::Decimal_Number)]
     case NKO_DIGIT_TWO = "\u{7C2}";
 
-    #[Info(id: 1987, name: 'NKO DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x7C3, name: 'NKO DIGIT THREE', category: Cat::Decimal_Number)]
     case NKO_DIGIT_THREE = "\u{7C3}";
 
-    #[Info(id: 1988, name: 'NKO DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x7C4, name: 'NKO DIGIT FOUR', category: Cat::Decimal_Number)]
     case NKO_DIGIT_FOUR = "\u{7C4}";
 
-    #[Info(id: 1989, name: 'NKO DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x7C5, name: 'NKO DIGIT FIVE', category: Cat::Decimal_Number)]
     case NKO_DIGIT_FIVE = "\u{7C5}";
 
-    #[Info(id: 1990, name: 'NKO DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x7C6, name: 'NKO DIGIT SIX', category: Cat::Decimal_Number)]
     case NKO_DIGIT_SIX = "\u{7C6}";
 
-    #[Info(id: 1991, name: 'NKO DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x7C7, name: 'NKO DIGIT SEVEN', category: Cat::Decimal_Number)]
     case NKO_DIGIT_SEVEN = "\u{7C7}";
 
-    #[Info(id: 1992, name: 'NKO DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x7C8, name: 'NKO DIGIT EIGHT', category: Cat::Decimal_Number)]
     case NKO_DIGIT_EIGHT = "\u{7C8}";
 
-    #[Info(id: 1993, name: 'NKO DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x7C9, name: 'NKO DIGIT NINE', category: Cat::Decimal_Number)]
     case NKO_DIGIT_NINE = "\u{7C9}";
 
-    #[Info(id: 1994, name: 'NKO LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x7CA, name: 'NKO LETTER A', category: Cat::Other_Letter)]
     case NKO_LETTER_A = "\u{7CA}";
 
-    #[Info(id: 1995, name: 'NKO LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0x7CB, name: 'NKO LETTER EE', category: Cat::Other_Letter)]
     case NKO_LETTER_EE = "\u{7CB}";
 
-    #[Info(id: 1996, name: 'NKO LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x7CC, name: 'NKO LETTER I', category: Cat::Other_Letter)]
     case NKO_LETTER_I = "\u{7CC}";
 
-    #[Info(id: 1997, name: 'NKO LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x7CD, name: 'NKO LETTER E', category: Cat::Other_Letter)]
     case NKO_LETTER_E = "\u{7CD}";
 
-    #[Info(id: 1998, name: 'NKO LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x7CE, name: 'NKO LETTER U', category: Cat::Other_Letter)]
     case NKO_LETTER_U = "\u{7CE}";
 
-    #[Info(id: 1999, name: 'NKO LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0x7CF, name: 'NKO LETTER OO', category: Cat::Other_Letter)]
     case NKO_LETTER_OO = "\u{7CF}";
 
-    #[Info(id: 2000, name: 'NKO LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x7D0, name: 'NKO LETTER O', category: Cat::Other_Letter)]
     case NKO_LETTER_O = "\u{7D0}";
 
-    #[Info(id: 2001, name: 'NKO LETTER DAGBASINNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7D1, name: 'NKO LETTER DAGBASINNA', category: Cat::Other_Letter)]
     case NKO_LETTER_DAGBASINNA = "\u{7D1}";
 
-    #[Info(id: 2002, name: 'NKO LETTER N', category: Cat::Other_Letter)]
+    #[Info(id: 0x7D2, name: 'NKO LETTER N', category: Cat::Other_Letter)]
     case NKO_LETTER_N = "\u{7D2}";
 
-    #[Info(id: 2003, name: 'NKO LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7D3, name: 'NKO LETTER BA', category: Cat::Other_Letter)]
     case NKO_LETTER_BA = "\u{7D3}";
 
-    #[Info(id: 2004, name: 'NKO LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7D4, name: 'NKO LETTER PA', category: Cat::Other_Letter)]
     case NKO_LETTER_PA = "\u{7D4}";
 
-    #[Info(id: 2005, name: 'NKO LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7D5, name: 'NKO LETTER TA', category: Cat::Other_Letter)]
     case NKO_LETTER_TA = "\u{7D5}";
 
-    #[Info(id: 2006, name: 'NKO LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7D6, name: 'NKO LETTER JA', category: Cat::Other_Letter)]
     case NKO_LETTER_JA = "\u{7D6}";
 
-    #[Info(id: 2007, name: 'NKO LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7D7, name: 'NKO LETTER CHA', category: Cat::Other_Letter)]
     case NKO_LETTER_CHA = "\u{7D7}";
 
-    #[Info(id: 2008, name: 'NKO LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7D8, name: 'NKO LETTER DA', category: Cat::Other_Letter)]
     case NKO_LETTER_DA = "\u{7D8}";
 
-    #[Info(id: 2009, name: 'NKO LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7D9, name: 'NKO LETTER RA', category: Cat::Other_Letter)]
     case NKO_LETTER_RA = "\u{7D9}";
 
-    #[Info(id: 2010, name: 'NKO LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7DA, name: 'NKO LETTER RRA', category: Cat::Other_Letter)]
     case NKO_LETTER_RRA = "\u{7DA}";
 
-    #[Info(id: 2011, name: 'NKO LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7DB, name: 'NKO LETTER SA', category: Cat::Other_Letter)]
     case NKO_LETTER_SA = "\u{7DB}";
 
-    #[Info(id: 2012, name: 'NKO LETTER GBA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7DC, name: 'NKO LETTER GBA', category: Cat::Other_Letter)]
     case NKO_LETTER_GBA = "\u{7DC}";
 
-    #[Info(id: 2013, name: 'NKO LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7DD, name: 'NKO LETTER FA', category: Cat::Other_Letter)]
     case NKO_LETTER_FA = "\u{7DD}";
 
-    #[Info(id: 2014, name: 'NKO LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7DE, name: 'NKO LETTER KA', category: Cat::Other_Letter)]
     case NKO_LETTER_KA = "\u{7DE}";
 
-    #[Info(id: 2015, name: 'NKO LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7DF, name: 'NKO LETTER LA', category: Cat::Other_Letter)]
     case NKO_LETTER_LA = "\u{7DF}";
 
-    #[Info(id: 2016, name: 'NKO LETTER NA WOLOSO', category: Cat::Other_Letter)]
+    #[Info(id: 0x7E0, name: 'NKO LETTER NA WOLOSO', category: Cat::Other_Letter)]
     case NKO_LETTER_NA_WOLOSO = "\u{7E0}";
 
-    #[Info(id: 2017, name: 'NKO LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7E1, name: 'NKO LETTER MA', category: Cat::Other_Letter)]
     case NKO_LETTER_MA = "\u{7E1}";
 
-    #[Info(id: 2018, name: 'NKO LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7E2, name: 'NKO LETTER NYA', category: Cat::Other_Letter)]
     case NKO_LETTER_NYA = "\u{7E2}";
 
-    #[Info(id: 2019, name: 'NKO LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7E3, name: 'NKO LETTER NA', category: Cat::Other_Letter)]
     case NKO_LETTER_NA = "\u{7E3}";
 
-    #[Info(id: 2020, name: 'NKO LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7E4, name: 'NKO LETTER HA', category: Cat::Other_Letter)]
     case NKO_LETTER_HA = "\u{7E4}";
 
-    #[Info(id: 2021, name: 'NKO LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7E5, name: 'NKO LETTER WA', category: Cat::Other_Letter)]
     case NKO_LETTER_WA = "\u{7E5}";
 
-    #[Info(id: 2022, name: 'NKO LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7E6, name: 'NKO LETTER YA', category: Cat::Other_Letter)]
     case NKO_LETTER_YA = "\u{7E6}";
 
-    #[Info(id: 2023, name: 'NKO LETTER NYA WOLOSO', category: Cat::Other_Letter)]
+    #[Info(id: 0x7E7, name: 'NKO LETTER NYA WOLOSO', category: Cat::Other_Letter)]
     case NKO_LETTER_NYA_WOLOSO = "\u{7E7}";
 
-    #[Info(id: 2024, name: 'NKO LETTER JONA JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7E8, name: 'NKO LETTER JONA JA', category: Cat::Other_Letter)]
     case NKO_LETTER_JONA_JA = "\u{7E8}";
 
-    #[Info(id: 2025, name: 'NKO LETTER JONA CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7E9, name: 'NKO LETTER JONA CHA', category: Cat::Other_Letter)]
     case NKO_LETTER_JONA_CHA = "\u{7E9}";
 
-    #[Info(id: 2026, name: 'NKO LETTER JONA RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x7EA, name: 'NKO LETTER JONA RA', category: Cat::Other_Letter)]
     case NKO_LETTER_JONA_RA = "\u{7EA}";
 
-    #[Info(id: 2027, name: 'NKO COMBINING SHORT HIGH TONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x7EB, name: 'NKO COMBINING SHORT HIGH TONE', category: Cat::Nonspacing_Mark)]
     case NKO_COMBINING_SHORT_HIGH_TONE = "\u{7EB}";
 
-    #[Info(id: 2028, name: 'NKO COMBINING SHORT LOW TONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x7EC, name: 'NKO COMBINING SHORT LOW TONE', category: Cat::Nonspacing_Mark)]
     case NKO_COMBINING_SHORT_LOW_TONE = "\u{7EC}";
 
-    #[Info(id: 2029, name: 'NKO COMBINING SHORT RISING TONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x7ED, name: 'NKO COMBINING SHORT RISING TONE', category: Cat::Nonspacing_Mark)]
     case NKO_COMBINING_SHORT_RISING_TONE = "\u{7ED}";
 
-    #[Info(id: 2030, name: 'NKO COMBINING LONG DESCENDING TONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x7EE, name: 'NKO COMBINING LONG DESCENDING TONE', category: Cat::Nonspacing_Mark)]
     case NKO_COMBINING_LONG_DESCENDING_TONE = "\u{7EE}";
 
-    #[Info(id: 2031, name: 'NKO COMBINING LONG HIGH TONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x7EF, name: 'NKO COMBINING LONG HIGH TONE', category: Cat::Nonspacing_Mark)]
     case NKO_COMBINING_LONG_HIGH_TONE = "\u{7EF}";
 
-    #[Info(id: 2032, name: 'NKO COMBINING LONG LOW TONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x7F0, name: 'NKO COMBINING LONG LOW TONE', category: Cat::Nonspacing_Mark)]
     case NKO_COMBINING_LONG_LOW_TONE = "\u{7F0}";
 
-    #[Info(id: 2033, name: 'NKO COMBINING LONG RISING TONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x7F1, name: 'NKO COMBINING LONG RISING TONE', category: Cat::Nonspacing_Mark)]
     case NKO_COMBINING_LONG_RISING_TONE = "\u{7F1}";
 
-    #[Info(id: 2034, name: 'NKO COMBINING NASALIZATION MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x7F2, name: 'NKO COMBINING NASALIZATION MARK', category: Cat::Nonspacing_Mark)]
     case NKO_COMBINING_NASALIZATION_MARK = "\u{7F2}";
 
-    #[Info(id: 2035, name: 'NKO COMBINING DOUBLE DOT ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x7F3, name: 'NKO COMBINING DOUBLE DOT ABOVE', category: Cat::Nonspacing_Mark)]
     case NKO_COMBINING_DOUBLE_DOT_ABOVE = "\u{7F3}";
 
-    #[Info(id: 2036, name: 'NKO HIGH TONE APOSTROPHE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x7F4, name: 'NKO HIGH TONE APOSTROPHE', category: Cat::Modifier_Letter)]
     case NKO_HIGH_TONE_APOSTROPHE = "\u{7F4}";
 
-    #[Info(id: 2037, name: 'NKO LOW TONE APOSTROPHE', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x7F5, name: 'NKO LOW TONE APOSTROPHE', category: Cat::Modifier_Letter)]
     case NKO_LOW_TONE_APOSTROPHE = "\u{7F5}";
 
-    #[Info(id: 2038, name: 'NKO SYMBOL OO DENNEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x7F6, name: 'NKO SYMBOL OO DENNEN', category: Cat::Other_Symbol)]
     case NKO_SYMBOL_OO_DENNEN = "\u{7F6}";
 
-    #[Info(id: 2039, name: 'NKO SYMBOL GBAKURUNEN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x7F7, name: 'NKO SYMBOL GBAKURUNEN', category: Cat::Other_Punctuation)]
     case NKO_SYMBOL_GBAKURUNEN = "\u{7F7}";
 
-    #[Info(id: 2040, name: 'NKO COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x7F8, name: 'NKO COMMA', category: Cat::Other_Punctuation)]
     case NKO_COMMA = "\u{7F8}";
 
-    #[Info(id: 2041, name: 'NKO EXCLAMATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x7F9, name: 'NKO EXCLAMATION MARK', category: Cat::Other_Punctuation)]
     case NKO_EXCLAMATION_MARK = "\u{7F9}";
 
-    #[Info(id: 2042, name: 'NKO LAJANYALAN', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x7FA, name: 'NKO LAJANYALAN', category: Cat::Modifier_Letter)]
     case NKO_LAJANYALAN = "\u{7FA}";
 
-    #[Info(id: 2045, name: 'NKO DANTAYALAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x7FD, name: 'NKO DANTAYALAN', category: Cat::Nonspacing_Mark)]
     case NKO_DANTAYALAN = "\u{7FD}";
 
-    #[Info(id: 2046, name: 'NKO DOROME SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x7FE, name: 'NKO DOROME SIGN', category: Cat::Currency_Symbol)]
     case NKO_DOROME_SIGN = "\u{7FE}";
 
-    #[Info(id: 2047, name: 'NKO TAMAN SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x7FF, name: 'NKO TAMAN SIGN', category: Cat::Currency_Symbol)]
     case NKO_TAMAN_SIGN = "\u{7FF}";
 }

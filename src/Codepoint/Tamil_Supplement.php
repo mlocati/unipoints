@@ -16,156 +16,156 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Tamil_Supplement: string
 {
-    #[Info(id: 73664, name: 'TAMIL FRACTION ONE THREE-HUNDRED-AND-TWENTIETH', category: Cat::Other_Number)]
+    #[Info(id: 0x11FC0, name: 'TAMIL FRACTION ONE THREE-HUNDRED-AND-TWENTIETH', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_THREE_HUNDRED_AND_TWENTIETH = "\u{11FC0}";
 
-    #[Info(id: 73665, name: 'TAMIL FRACTION ONE ONE-HUNDRED-AND-SIXTIETH', category: Cat::Other_Number)]
+    #[Info(id: 0x11FC1, name: 'TAMIL FRACTION ONE ONE-HUNDRED-AND-SIXTIETH', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_ONE_HUNDRED_AND_SIXTIETH = "\u{11FC1}";
 
-    #[Info(id: 73666, name: 'TAMIL FRACTION ONE EIGHTIETH', category: Cat::Other_Number)]
+    #[Info(id: 0x11FC2, name: 'TAMIL FRACTION ONE EIGHTIETH', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_EIGHTIETH = "\u{11FC2}";
 
-    #[Info(id: 73667, name: 'TAMIL FRACTION ONE SIXTY-FOURTH', category: Cat::Other_Number)]
+    #[Info(id: 0x11FC3, name: 'TAMIL FRACTION ONE SIXTY-FOURTH', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_SIXTY_FOURTH = "\u{11FC3}";
 
-    #[Info(id: 73668, name: 'TAMIL FRACTION ONE FORTIETH', category: Cat::Other_Number)]
+    #[Info(id: 0x11FC4, name: 'TAMIL FRACTION ONE FORTIETH', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_FORTIETH = "\u{11FC4}";
 
-    #[Info(id: 73669, name: 'TAMIL FRACTION ONE THIRTY-SECOND', category: Cat::Other_Number)]
+    #[Info(id: 0x11FC5, name: 'TAMIL FRACTION ONE THIRTY-SECOND', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_THIRTY_SECOND = "\u{11FC5}";
 
-    #[Info(id: 73670, name: 'TAMIL FRACTION THREE EIGHTIETHS', category: Cat::Other_Number)]
+    #[Info(id: 0x11FC6, name: 'TAMIL FRACTION THREE EIGHTIETHS', category: Cat::Other_Number)]
     case TAMIL_FRACTION_THREE_EIGHTIETHS = "\u{11FC6}";
 
-    #[Info(id: 73671, name: 'TAMIL FRACTION THREE SIXTY-FOURTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x11FC7, name: 'TAMIL FRACTION THREE SIXTY-FOURTHS', category: Cat::Other_Number)]
     case TAMIL_FRACTION_THREE_SIXTY_FOURTHS = "\u{11FC7}";
 
-    #[Info(id: 73672, name: 'TAMIL FRACTION ONE TWENTIETH', category: Cat::Other_Number)]
+    #[Info(id: 0x11FC8, name: 'TAMIL FRACTION ONE TWENTIETH', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_TWENTIETH = "\u{11FC8}";
 
-    #[Info(id: 73673, name: 'TAMIL FRACTION ONE SIXTEENTH-1', category: Cat::Other_Number)]
+    #[Info(id: 0x11FC9, name: 'TAMIL FRACTION ONE SIXTEENTH-1', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_SIXTEENTH_1 = "\u{11FC9}";
 
-    #[Info(id: 73674, name: 'TAMIL FRACTION ONE SIXTEENTH-2', category: Cat::Other_Number)]
+    #[Info(id: 0x11FCA, name: 'TAMIL FRACTION ONE SIXTEENTH-2', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_SIXTEENTH_2 = "\u{11FCA}";
 
-    #[Info(id: 73675, name: 'TAMIL FRACTION ONE TENTH', category: Cat::Other_Number)]
+    #[Info(id: 0x11FCB, name: 'TAMIL FRACTION ONE TENTH', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_TENTH = "\u{11FCB}";
 
-    #[Info(id: 73676, name: 'TAMIL FRACTION ONE EIGHTH', category: Cat::Other_Number)]
+    #[Info(id: 0x11FCC, name: 'TAMIL FRACTION ONE EIGHTH', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_EIGHTH = "\u{11FCC}";
 
-    #[Info(id: 73677, name: 'TAMIL FRACTION THREE TWENTIETHS', category: Cat::Other_Number)]
+    #[Info(id: 0x11FCD, name: 'TAMIL FRACTION THREE TWENTIETHS', category: Cat::Other_Number)]
     case TAMIL_FRACTION_THREE_TWENTIETHS = "\u{11FCD}";
 
-    #[Info(id: 73678, name: 'TAMIL FRACTION THREE SIXTEENTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x11FCE, name: 'TAMIL FRACTION THREE SIXTEENTHS', category: Cat::Other_Number)]
     case TAMIL_FRACTION_THREE_SIXTEENTHS = "\u{11FCE}";
 
-    #[Info(id: 73679, name: 'TAMIL FRACTION ONE FIFTH', category: Cat::Other_Number)]
+    #[Info(id: 0x11FCF, name: 'TAMIL FRACTION ONE FIFTH', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_FIFTH = "\u{11FCF}";
 
-    #[Info(id: 73680, name: 'TAMIL FRACTION ONE QUARTER', category: Cat::Other_Number)]
+    #[Info(id: 0x11FD0, name: 'TAMIL FRACTION ONE QUARTER', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_QUARTER = "\u{11FD0}";
 
-    #[Info(id: 73681, name: 'TAMIL FRACTION ONE HALF-1', category: Cat::Other_Number)]
+    #[Info(id: 0x11FD1, name: 'TAMIL FRACTION ONE HALF-1', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_HALF_1 = "\u{11FD1}";
 
-    #[Info(id: 73682, name: 'TAMIL FRACTION ONE HALF-2', category: Cat::Other_Number)]
+    #[Info(id: 0x11FD2, name: 'TAMIL FRACTION ONE HALF-2', category: Cat::Other_Number)]
     case TAMIL_FRACTION_ONE_HALF_2 = "\u{11FD2}";
 
-    #[Info(id: 73683, name: 'TAMIL FRACTION THREE QUARTERS', category: Cat::Other_Number)]
+    #[Info(id: 0x11FD3, name: 'TAMIL FRACTION THREE QUARTERS', category: Cat::Other_Number)]
     case TAMIL_FRACTION_THREE_QUARTERS = "\u{11FD3}";
 
-    #[Info(id: 73684, name: 'TAMIL FRACTION DOWNSCALING FACTOR KIIZH', category: Cat::Other_Number)]
+    #[Info(id: 0x11FD4, name: 'TAMIL FRACTION DOWNSCALING FACTOR KIIZH', category: Cat::Other_Number)]
     case TAMIL_FRACTION_DOWNSCALING_FACTOR_KIIZH = "\u{11FD4}";
 
-    #[Info(id: 73685, name: 'TAMIL SIGN NEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FD5, name: 'TAMIL SIGN NEL', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_NEL = "\u{11FD5}";
 
-    #[Info(id: 73686, name: 'TAMIL SIGN CEVITU', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FD6, name: 'TAMIL SIGN CEVITU', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_CEVITU = "\u{11FD6}";
 
-    #[Info(id: 73687, name: 'TAMIL SIGN AAZHAAKKU', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FD7, name: 'TAMIL SIGN AAZHAAKKU', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_AAZHAAKKU = "\u{11FD7}";
 
-    #[Info(id: 73688, name: 'TAMIL SIGN UZHAKKU', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FD8, name: 'TAMIL SIGN UZHAKKU', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_UZHAKKU = "\u{11FD8}";
 
-    #[Info(id: 73689, name: 'TAMIL SIGN MUUVUZHAKKU', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FD9, name: 'TAMIL SIGN MUUVUZHAKKU', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_MUUVUZHAKKU = "\u{11FD9}";
 
-    #[Info(id: 73690, name: 'TAMIL SIGN KURUNI', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FDA, name: 'TAMIL SIGN KURUNI', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_KURUNI = "\u{11FDA}";
 
-    #[Info(id: 73691, name: 'TAMIL SIGN PATHAKKU', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FDB, name: 'TAMIL SIGN PATHAKKU', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_PATHAKKU = "\u{11FDB}";
 
-    #[Info(id: 73692, name: 'TAMIL SIGN MUKKURUNI', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FDC, name: 'TAMIL SIGN MUKKURUNI', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_MUKKURUNI = "\u{11FDC}";
 
-    #[Info(id: 73693, name: 'TAMIL SIGN KAACU', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x11FDD, name: 'TAMIL SIGN KAACU', category: Cat::Currency_Symbol)]
     case TAMIL_SIGN_KAACU = "\u{11FDD}";
 
-    #[Info(id: 73694, name: 'TAMIL SIGN PANAM', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x11FDE, name: 'TAMIL SIGN PANAM', category: Cat::Currency_Symbol)]
     case TAMIL_SIGN_PANAM = "\u{11FDE}";
 
-    #[Info(id: 73695, name: 'TAMIL SIGN PON', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x11FDF, name: 'TAMIL SIGN PON', category: Cat::Currency_Symbol)]
     case TAMIL_SIGN_PON = "\u{11FDF}";
 
-    #[Info(id: 73696, name: 'TAMIL SIGN VARAAKAN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0x11FE0, name: 'TAMIL SIGN VARAAKAN', category: Cat::Currency_Symbol)]
     case TAMIL_SIGN_VARAAKAN = "\u{11FE0}";
 
-    #[Info(id: 73697, name: 'TAMIL SIGN PAARAM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FE1, name: 'TAMIL SIGN PAARAM', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_PAARAM = "\u{11FE1}";
 
-    #[Info(id: 73698, name: 'TAMIL SIGN KUZHI', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FE2, name: 'TAMIL SIGN KUZHI', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_KUZHI = "\u{11FE2}";
 
-    #[Info(id: 73699, name: 'TAMIL SIGN VELI', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FE3, name: 'TAMIL SIGN VELI', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_VELI = "\u{11FE3}";
 
-    #[Info(id: 73700, name: 'TAMIL WET CULTIVATION SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FE4, name: 'TAMIL WET CULTIVATION SIGN', category: Cat::Other_Symbol)]
     case TAMIL_WET_CULTIVATION_SIGN = "\u{11FE4}";
 
-    #[Info(id: 73701, name: 'TAMIL DRY CULTIVATION SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FE5, name: 'TAMIL DRY CULTIVATION SIGN', category: Cat::Other_Symbol)]
     case TAMIL_DRY_CULTIVATION_SIGN = "\u{11FE5}";
 
-    #[Info(id: 73702, name: 'TAMIL LAND SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FE6, name: 'TAMIL LAND SIGN', category: Cat::Other_Symbol)]
     case TAMIL_LAND_SIGN = "\u{11FE6}";
 
-    #[Info(id: 73703, name: 'TAMIL SALT PAN SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FE7, name: 'TAMIL SALT PAN SIGN', category: Cat::Other_Symbol)]
     case TAMIL_SALT_PAN_SIGN = "\u{11FE7}";
 
-    #[Info(id: 73704, name: 'TAMIL TRADITIONAL CREDIT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FE8, name: 'TAMIL TRADITIONAL CREDIT SIGN', category: Cat::Other_Symbol)]
     case TAMIL_TRADITIONAL_CREDIT_SIGN = "\u{11FE8}";
 
-    #[Info(id: 73705, name: 'TAMIL TRADITIONAL NUMBER SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FE9, name: 'TAMIL TRADITIONAL NUMBER SIGN', category: Cat::Other_Symbol)]
     case TAMIL_TRADITIONAL_NUMBER_SIGN = "\u{11FE9}";
 
-    #[Info(id: 73706, name: 'TAMIL CURRENT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FEA, name: 'TAMIL CURRENT SIGN', category: Cat::Other_Symbol)]
     case TAMIL_CURRENT_SIGN = "\u{11FEA}";
 
-    #[Info(id: 73707, name: 'TAMIL AND ODD SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FEB, name: 'TAMIL AND ODD SIGN', category: Cat::Other_Symbol)]
     case TAMIL_AND_ODD_SIGN = "\u{11FEB}";
 
-    #[Info(id: 73708, name: 'TAMIL SPENT SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FEC, name: 'TAMIL SPENT SIGN', category: Cat::Other_Symbol)]
     case TAMIL_SPENT_SIGN = "\u{11FEC}";
 
-    #[Info(id: 73709, name: 'TAMIL TOTAL SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FED, name: 'TAMIL TOTAL SIGN', category: Cat::Other_Symbol)]
     case TAMIL_TOTAL_SIGN = "\u{11FED}";
 
-    #[Info(id: 73710, name: 'TAMIL IN POSSESSION SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FEE, name: 'TAMIL IN POSSESSION SIGN', category: Cat::Other_Symbol)]
     case TAMIL_IN_POSSESSION_SIGN = "\u{11FEE}";
 
-    #[Info(id: 73711, name: 'TAMIL STARTING FROM SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FEF, name: 'TAMIL STARTING FROM SIGN', category: Cat::Other_Symbol)]
     case TAMIL_STARTING_FROM_SIGN = "\u{11FEF}";
 
-    #[Info(id: 73712, name: 'TAMIL SIGN MUTHALIYA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FF0, name: 'TAMIL SIGN MUTHALIYA', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_MUTHALIYA = "\u{11FF0}";
 
-    #[Info(id: 73713, name: 'TAMIL SIGN VAKAIYARAA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x11FF1, name: 'TAMIL SIGN VAKAIYARAA', category: Cat::Other_Symbol)]
     case TAMIL_SIGN_VAKAIYARAA = "\u{11FF1}";
 
-    #[Info(id: 73727, name: 'TAMIL PUNCTUATION END OF TEXT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x11FFF, name: 'TAMIL PUNCTUATION END OF TEXT', category: Cat::Other_Punctuation)]
     case TAMIL_PUNCTUATION_END_OF_TEXT = "\u{11FFF}";
 }

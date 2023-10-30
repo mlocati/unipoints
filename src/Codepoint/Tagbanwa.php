@@ -16,57 +16,57 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Tagbanwa: string
 {
-    #[Info(id: 5984, name: 'TAGBANWA LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1760, name: 'TAGBANWA LETTER A', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_A = "\u{1760}";
 
-    #[Info(id: 5985, name: 'TAGBANWA LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1761, name: 'TAGBANWA LETTER I', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_I = "\u{1761}";
 
-    #[Info(id: 5986, name: 'TAGBANWA LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1762, name: 'TAGBANWA LETTER U', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_U = "\u{1762}";
 
-    #[Info(id: 5987, name: 'TAGBANWA LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1763, name: 'TAGBANWA LETTER KA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_KA = "\u{1763}";
 
-    #[Info(id: 5988, name: 'TAGBANWA LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1764, name: 'TAGBANWA LETTER GA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_GA = "\u{1764}";
 
-    #[Info(id: 5989, name: 'TAGBANWA LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1765, name: 'TAGBANWA LETTER NGA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_NGA = "\u{1765}";
 
-    #[Info(id: 5990, name: 'TAGBANWA LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1766, name: 'TAGBANWA LETTER TA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_TA = "\u{1766}";
 
-    #[Info(id: 5991, name: 'TAGBANWA LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1767, name: 'TAGBANWA LETTER DA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_DA = "\u{1767}";
 
-    #[Info(id: 5992, name: 'TAGBANWA LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1768, name: 'TAGBANWA LETTER NA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_NA = "\u{1768}";
 
-    #[Info(id: 5993, name: 'TAGBANWA LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1769, name: 'TAGBANWA LETTER PA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_PA = "\u{1769}";
 
-    #[Info(id: 5994, name: 'TAGBANWA LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x176A, name: 'TAGBANWA LETTER BA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_BA = "\u{176A}";
 
-    #[Info(id: 5995, name: 'TAGBANWA LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x176B, name: 'TAGBANWA LETTER MA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_MA = "\u{176B}";
 
-    #[Info(id: 5996, name: 'TAGBANWA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x176C, name: 'TAGBANWA LETTER YA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_YA = "\u{176C}";
 
-    #[Info(id: 5998, name: 'TAGBANWA LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x176E, name: 'TAGBANWA LETTER LA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_LA = "\u{176E}";
 
-    #[Info(id: 5999, name: 'TAGBANWA LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x176F, name: 'TAGBANWA LETTER WA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_WA = "\u{176F}";
 
-    #[Info(id: 6000, name: 'TAGBANWA LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1770, name: 'TAGBANWA LETTER SA', category: Cat::Other_Letter)]
     case TAGBANWA_LETTER_SA = "\u{1770}";
 
-    #[Info(id: 6002, name: 'TAGBANWA VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1772, name: 'TAGBANWA VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case TAGBANWA_VOWEL_SIGN_I = "\u{1772}";
 
-    #[Info(id: 6003, name: 'TAGBANWA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1773, name: 'TAGBANWA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case TAGBANWA_VOWEL_SIGN_U = "\u{1773}";
 }

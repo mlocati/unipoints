@@ -16,195 +16,195 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Yijing_Hexagram_Symbols: string
 {
-    #[Info(id: 19904, name: 'HEXAGRAM FOR THE CREATIVE HEAVEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DC0, name: 'HEXAGRAM FOR THE CREATIVE HEAVEN', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_CREATIVE_HEAVEN = "\u{4DC0}";
 
-    #[Info(id: 19905, name: 'HEXAGRAM FOR THE RECEPTIVE EARTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DC1, name: 'HEXAGRAM FOR THE RECEPTIVE EARTH', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_RECEPTIVE_EARTH = "\u{4DC1}";
 
-    #[Info(id: 19906, name: 'HEXAGRAM FOR DIFFICULTY AT THE BEGINNING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DC2, name: 'HEXAGRAM FOR DIFFICULTY AT THE BEGINNING', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_DIFFICULTY_AT_THE_BEGINNING = "\u{4DC2}";
 
-    #[Info(id: 19907, name: 'HEXAGRAM FOR YOUTHFUL FOLLY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DC3, name: 'HEXAGRAM FOR YOUTHFUL FOLLY', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_YOUTHFUL_FOLLY = "\u{4DC3}";
 
-    #[Info(id: 19908, name: 'HEXAGRAM FOR WAITING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DC4, name: 'HEXAGRAM FOR WAITING', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_WAITING = "\u{4DC4}";
 
-    #[Info(id: 19909, name: 'HEXAGRAM FOR CONFLICT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DC5, name: 'HEXAGRAM FOR CONFLICT', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_CONFLICT = "\u{4DC5}";
 
-    #[Info(id: 19910, name: 'HEXAGRAM FOR THE ARMY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DC6, name: 'HEXAGRAM FOR THE ARMY', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_ARMY = "\u{4DC6}";
 
-    #[Info(id: 19911, name: 'HEXAGRAM FOR HOLDING TOGETHER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DC7, name: 'HEXAGRAM FOR HOLDING TOGETHER', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_HOLDING_TOGETHER = "\u{4DC7}";
 
-    #[Info(id: 19912, name: 'HEXAGRAM FOR SMALL TAMING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DC8, name: 'HEXAGRAM FOR SMALL TAMING', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_SMALL_TAMING = "\u{4DC8}";
 
-    #[Info(id: 19913, name: 'HEXAGRAM FOR TREADING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DC9, name: 'HEXAGRAM FOR TREADING', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_TREADING = "\u{4DC9}";
 
-    #[Info(id: 19914, name: 'HEXAGRAM FOR PEACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DCA, name: 'HEXAGRAM FOR PEACE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_PEACE = "\u{4DCA}";
 
-    #[Info(id: 19915, name: 'HEXAGRAM FOR STANDSTILL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DCB, name: 'HEXAGRAM FOR STANDSTILL', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_STANDSTILL = "\u{4DCB}";
 
-    #[Info(id: 19916, name: 'HEXAGRAM FOR FELLOWSHIP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DCC, name: 'HEXAGRAM FOR FELLOWSHIP', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_FELLOWSHIP = "\u{4DCC}";
 
-    #[Info(id: 19917, name: 'HEXAGRAM FOR GREAT POSSESSION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DCD, name: 'HEXAGRAM FOR GREAT POSSESSION', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_GREAT_POSSESSION = "\u{4DCD}";
 
-    #[Info(id: 19918, name: 'HEXAGRAM FOR MODESTY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DCE, name: 'HEXAGRAM FOR MODESTY', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_MODESTY = "\u{4DCE}";
 
-    #[Info(id: 19919, name: 'HEXAGRAM FOR ENTHUSIASM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DCF, name: 'HEXAGRAM FOR ENTHUSIASM', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_ENTHUSIASM = "\u{4DCF}";
 
-    #[Info(id: 19920, name: 'HEXAGRAM FOR FOLLOWING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DD0, name: 'HEXAGRAM FOR FOLLOWING', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_FOLLOWING = "\u{4DD0}";
 
-    #[Info(id: 19921, name: 'HEXAGRAM FOR WORK ON THE DECAYED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DD1, name: 'HEXAGRAM FOR WORK ON THE DECAYED', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_WORK_ON_THE_DECAYED = "\u{4DD1}";
 
-    #[Info(id: 19922, name: 'HEXAGRAM FOR APPROACH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DD2, name: 'HEXAGRAM FOR APPROACH', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_APPROACH = "\u{4DD2}";
 
-    #[Info(id: 19923, name: 'HEXAGRAM FOR CONTEMPLATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DD3, name: 'HEXAGRAM FOR CONTEMPLATION', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_CONTEMPLATION = "\u{4DD3}";
 
-    #[Info(id: 19924, name: 'HEXAGRAM FOR BITING THROUGH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DD4, name: 'HEXAGRAM FOR BITING THROUGH', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_BITING_THROUGH = "\u{4DD4}";
 
-    #[Info(id: 19925, name: 'HEXAGRAM FOR GRACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DD5, name: 'HEXAGRAM FOR GRACE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_GRACE = "\u{4DD5}";
 
-    #[Info(id: 19926, name: 'HEXAGRAM FOR SPLITTING APART', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DD6, name: 'HEXAGRAM FOR SPLITTING APART', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_SPLITTING_APART = "\u{4DD6}";
 
-    #[Info(id: 19927, name: 'HEXAGRAM FOR RETURN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DD7, name: 'HEXAGRAM FOR RETURN', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_RETURN = "\u{4DD7}";
 
-    #[Info(id: 19928, name: 'HEXAGRAM FOR INNOCENCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DD8, name: 'HEXAGRAM FOR INNOCENCE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_INNOCENCE = "\u{4DD8}";
 
-    #[Info(id: 19929, name: 'HEXAGRAM FOR GREAT TAMING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DD9, name: 'HEXAGRAM FOR GREAT TAMING', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_GREAT_TAMING = "\u{4DD9}";
 
-    #[Info(id: 19930, name: 'HEXAGRAM FOR MOUTH CORNERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DDA, name: 'HEXAGRAM FOR MOUTH CORNERS', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_MOUTH_CORNERS = "\u{4DDA}";
 
-    #[Info(id: 19931, name: 'HEXAGRAM FOR GREAT PREPONDERANCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DDB, name: 'HEXAGRAM FOR GREAT PREPONDERANCE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_GREAT_PREPONDERANCE = "\u{4DDB}";
 
-    #[Info(id: 19932, name: 'HEXAGRAM FOR THE ABYSMAL WATER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DDC, name: 'HEXAGRAM FOR THE ABYSMAL WATER', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_ABYSMAL_WATER = "\u{4DDC}";
 
-    #[Info(id: 19933, name: 'HEXAGRAM FOR THE CLINGING FIRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DDD, name: 'HEXAGRAM FOR THE CLINGING FIRE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_CLINGING_FIRE = "\u{4DDD}";
 
-    #[Info(id: 19934, name: 'HEXAGRAM FOR INFLUENCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DDE, name: 'HEXAGRAM FOR INFLUENCE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_INFLUENCE = "\u{4DDE}";
 
-    #[Info(id: 19935, name: 'HEXAGRAM FOR DURATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DDF, name: 'HEXAGRAM FOR DURATION', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_DURATION = "\u{4DDF}";
 
-    #[Info(id: 19936, name: 'HEXAGRAM FOR RETREAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DE0, name: 'HEXAGRAM FOR RETREAT', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_RETREAT = "\u{4DE0}";
 
-    #[Info(id: 19937, name: 'HEXAGRAM FOR GREAT POWER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DE1, name: 'HEXAGRAM FOR GREAT POWER', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_GREAT_POWER = "\u{4DE1}";
 
-    #[Info(id: 19938, name: 'HEXAGRAM FOR PROGRESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DE2, name: 'HEXAGRAM FOR PROGRESS', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_PROGRESS = "\u{4DE2}";
 
-    #[Info(id: 19939, name: 'HEXAGRAM FOR DARKENING OF THE LIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DE3, name: 'HEXAGRAM FOR DARKENING OF THE LIGHT', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_DARKENING_OF_THE_LIGHT = "\u{4DE3}";
 
-    #[Info(id: 19940, name: 'HEXAGRAM FOR THE FAMILY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DE4, name: 'HEXAGRAM FOR THE FAMILY', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_FAMILY = "\u{4DE4}";
 
-    #[Info(id: 19941, name: 'HEXAGRAM FOR OPPOSITION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DE5, name: 'HEXAGRAM FOR OPPOSITION', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_OPPOSITION = "\u{4DE5}";
 
-    #[Info(id: 19942, name: 'HEXAGRAM FOR OBSTRUCTION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DE6, name: 'HEXAGRAM FOR OBSTRUCTION', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_OBSTRUCTION = "\u{4DE6}";
 
-    #[Info(id: 19943, name: 'HEXAGRAM FOR DELIVERANCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DE7, name: 'HEXAGRAM FOR DELIVERANCE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_DELIVERANCE = "\u{4DE7}";
 
-    #[Info(id: 19944, name: 'HEXAGRAM FOR DECREASE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DE8, name: 'HEXAGRAM FOR DECREASE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_DECREASE = "\u{4DE8}";
 
-    #[Info(id: 19945, name: 'HEXAGRAM FOR INCREASE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DE9, name: 'HEXAGRAM FOR INCREASE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_INCREASE = "\u{4DE9}";
 
-    #[Info(id: 19946, name: 'HEXAGRAM FOR BREAKTHROUGH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DEA, name: 'HEXAGRAM FOR BREAKTHROUGH', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_BREAKTHROUGH = "\u{4DEA}";
 
-    #[Info(id: 19947, name: 'HEXAGRAM FOR COMING TO MEET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DEB, name: 'HEXAGRAM FOR COMING TO MEET', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_COMING_TO_MEET = "\u{4DEB}";
 
-    #[Info(id: 19948, name: 'HEXAGRAM FOR GATHERING TOGETHER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DEC, name: 'HEXAGRAM FOR GATHERING TOGETHER', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_GATHERING_TOGETHER = "\u{4DEC}";
 
-    #[Info(id: 19949, name: 'HEXAGRAM FOR PUSHING UPWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DED, name: 'HEXAGRAM FOR PUSHING UPWARD', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_PUSHING_UPWARD = "\u{4DED}";
 
-    #[Info(id: 19950, name: 'HEXAGRAM FOR OPPRESSION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DEE, name: 'HEXAGRAM FOR OPPRESSION', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_OPPRESSION = "\u{4DEE}";
 
-    #[Info(id: 19951, name: 'HEXAGRAM FOR THE WELL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DEF, name: 'HEXAGRAM FOR THE WELL', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_WELL = "\u{4DEF}";
 
-    #[Info(id: 19952, name: 'HEXAGRAM FOR REVOLUTION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DF0, name: 'HEXAGRAM FOR REVOLUTION', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_REVOLUTION = "\u{4DF0}";
 
-    #[Info(id: 19953, name: 'HEXAGRAM FOR THE CAULDRON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DF1, name: 'HEXAGRAM FOR THE CAULDRON', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_CAULDRON = "\u{4DF1}";
 
-    #[Info(id: 19954, name: 'HEXAGRAM FOR THE AROUSING THUNDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DF2, name: 'HEXAGRAM FOR THE AROUSING THUNDER', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_AROUSING_THUNDER = "\u{4DF2}";
 
-    #[Info(id: 19955, name: 'HEXAGRAM FOR THE KEEPING STILL MOUNTAIN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DF3, name: 'HEXAGRAM FOR THE KEEPING STILL MOUNTAIN', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_KEEPING_STILL_MOUNTAIN = "\u{4DF3}";
 
-    #[Info(id: 19956, name: 'HEXAGRAM FOR DEVELOPMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DF4, name: 'HEXAGRAM FOR DEVELOPMENT', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_DEVELOPMENT = "\u{4DF4}";
 
-    #[Info(id: 19957, name: 'HEXAGRAM FOR THE MARRYING MAIDEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DF5, name: 'HEXAGRAM FOR THE MARRYING MAIDEN', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_MARRYING_MAIDEN = "\u{4DF5}";
 
-    #[Info(id: 19958, name: 'HEXAGRAM FOR ABUNDANCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DF6, name: 'HEXAGRAM FOR ABUNDANCE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_ABUNDANCE = "\u{4DF6}";
 
-    #[Info(id: 19959, name: 'HEXAGRAM FOR THE WANDERER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DF7, name: 'HEXAGRAM FOR THE WANDERER', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_WANDERER = "\u{4DF7}";
 
-    #[Info(id: 19960, name: 'HEXAGRAM FOR THE GENTLE WIND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DF8, name: 'HEXAGRAM FOR THE GENTLE WIND', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_GENTLE_WIND = "\u{4DF8}";
 
-    #[Info(id: 19961, name: 'HEXAGRAM FOR THE JOYOUS LAKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DF9, name: 'HEXAGRAM FOR THE JOYOUS LAKE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_THE_JOYOUS_LAKE = "\u{4DF9}";
 
-    #[Info(id: 19962, name: 'HEXAGRAM FOR DISPERSION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DFA, name: 'HEXAGRAM FOR DISPERSION', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_DISPERSION = "\u{4DFA}";
 
-    #[Info(id: 19963, name: 'HEXAGRAM FOR LIMITATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DFB, name: 'HEXAGRAM FOR LIMITATION', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_LIMITATION = "\u{4DFB}";
 
-    #[Info(id: 19964, name: 'HEXAGRAM FOR INNER TRUTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DFC, name: 'HEXAGRAM FOR INNER TRUTH', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_INNER_TRUTH = "\u{4DFC}";
 
-    #[Info(id: 19965, name: 'HEXAGRAM FOR SMALL PREPONDERANCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DFD, name: 'HEXAGRAM FOR SMALL PREPONDERANCE', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_SMALL_PREPONDERANCE = "\u{4DFD}";
 
-    #[Info(id: 19966, name: 'HEXAGRAM FOR AFTER COMPLETION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DFE, name: 'HEXAGRAM FOR AFTER COMPLETION', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_AFTER_COMPLETION = "\u{4DFE}";
 
-    #[Info(id: 19967, name: 'HEXAGRAM FOR BEFORE COMPLETION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x4DFF, name: 'HEXAGRAM FOR BEFORE COMPLETION', category: Cat::Other_Symbol)]
     case HEXAGRAM_FOR_BEFORE_COMPLETION = "\u{4DFF}";
 }

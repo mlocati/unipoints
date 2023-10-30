@@ -16,120 +16,120 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Control_Pictures: string
 {
-    #[Info(id: 9216, name: 'SYMBOL FOR NULL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2400, name: 'SYMBOL FOR NULL', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_NULL = "\u{2400}";
 
-    #[Info(id: 9217, name: 'SYMBOL FOR START OF HEADING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2401, name: 'SYMBOL FOR START OF HEADING', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_START_OF_HEADING = "\u{2401}";
 
-    #[Info(id: 9218, name: 'SYMBOL FOR START OF TEXT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2402, name: 'SYMBOL FOR START OF TEXT', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_START_OF_TEXT = "\u{2402}";
 
-    #[Info(id: 9219, name: 'SYMBOL FOR END OF TEXT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2403, name: 'SYMBOL FOR END OF TEXT', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_END_OF_TEXT = "\u{2403}";
 
-    #[Info(id: 9220, name: 'SYMBOL FOR END OF TRANSMISSION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2404, name: 'SYMBOL FOR END OF TRANSMISSION', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_END_OF_TRANSMISSION = "\u{2404}";
 
-    #[Info(id: 9221, name: 'SYMBOL FOR ENQUIRY', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2405, name: 'SYMBOL FOR ENQUIRY', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_ENQUIRY = "\u{2405}";
 
-    #[Info(id: 9222, name: 'SYMBOL FOR ACKNOWLEDGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2406, name: 'SYMBOL FOR ACKNOWLEDGE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_ACKNOWLEDGE = "\u{2406}";
 
-    #[Info(id: 9223, name: 'SYMBOL FOR BELL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2407, name: 'SYMBOL FOR BELL', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_BELL = "\u{2407}";
 
-    #[Info(id: 9224, name: 'SYMBOL FOR BACKSPACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2408, name: 'SYMBOL FOR BACKSPACE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_BACKSPACE = "\u{2408}";
 
-    #[Info(id: 9225, name: 'SYMBOL FOR HORIZONTAL TABULATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2409, name: 'SYMBOL FOR HORIZONTAL TABULATION', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_HORIZONTAL_TABULATION = "\u{2409}";
 
-    #[Info(id: 9226, name: 'SYMBOL FOR LINE FEED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x240A, name: 'SYMBOL FOR LINE FEED', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_LINE_FEED = "\u{240A}";
 
-    #[Info(id: 9227, name: 'SYMBOL FOR VERTICAL TABULATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x240B, name: 'SYMBOL FOR VERTICAL TABULATION', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_VERTICAL_TABULATION = "\u{240B}";
 
-    #[Info(id: 9228, name: 'SYMBOL FOR FORM FEED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x240C, name: 'SYMBOL FOR FORM FEED', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_FORM_FEED = "\u{240C}";
 
-    #[Info(id: 9229, name: 'SYMBOL FOR CARRIAGE RETURN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x240D, name: 'SYMBOL FOR CARRIAGE RETURN', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_CARRIAGE_RETURN = "\u{240D}";
 
-    #[Info(id: 9230, name: 'SYMBOL FOR SHIFT OUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x240E, name: 'SYMBOL FOR SHIFT OUT', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_SHIFT_OUT = "\u{240E}";
 
-    #[Info(id: 9231, name: 'SYMBOL FOR SHIFT IN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x240F, name: 'SYMBOL FOR SHIFT IN', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_SHIFT_IN = "\u{240F}";
 
-    #[Info(id: 9232, name: 'SYMBOL FOR DATA LINK ESCAPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2410, name: 'SYMBOL FOR DATA LINK ESCAPE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_DATA_LINK_ESCAPE = "\u{2410}";
 
-    #[Info(id: 9233, name: 'SYMBOL FOR DEVICE CONTROL ONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2411, name: 'SYMBOL FOR DEVICE CONTROL ONE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_DEVICE_CONTROL_ONE = "\u{2411}";
 
-    #[Info(id: 9234, name: 'SYMBOL FOR DEVICE CONTROL TWO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2412, name: 'SYMBOL FOR DEVICE CONTROL TWO', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_DEVICE_CONTROL_TWO = "\u{2412}";
 
-    #[Info(id: 9235, name: 'SYMBOL FOR DEVICE CONTROL THREE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2413, name: 'SYMBOL FOR DEVICE CONTROL THREE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_DEVICE_CONTROL_THREE = "\u{2413}";
 
-    #[Info(id: 9236, name: 'SYMBOL FOR DEVICE CONTROL FOUR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2414, name: 'SYMBOL FOR DEVICE CONTROL FOUR', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_DEVICE_CONTROL_FOUR = "\u{2414}";
 
-    #[Info(id: 9237, name: 'SYMBOL FOR NEGATIVE ACKNOWLEDGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2415, name: 'SYMBOL FOR NEGATIVE ACKNOWLEDGE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_NEGATIVE_ACKNOWLEDGE = "\u{2415}";
 
-    #[Info(id: 9238, name: 'SYMBOL FOR SYNCHRONOUS IDLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2416, name: 'SYMBOL FOR SYNCHRONOUS IDLE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_SYNCHRONOUS_IDLE = "\u{2416}";
 
-    #[Info(id: 9239, name: 'SYMBOL FOR END OF TRANSMISSION BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2417, name: 'SYMBOL FOR END OF TRANSMISSION BLOCK', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_END_OF_TRANSMISSION_BLOCK = "\u{2417}";
 
-    #[Info(id: 9240, name: 'SYMBOL FOR CANCEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2418, name: 'SYMBOL FOR CANCEL', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_CANCEL = "\u{2418}";
 
-    #[Info(id: 9241, name: 'SYMBOL FOR END OF MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2419, name: 'SYMBOL FOR END OF MEDIUM', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_END_OF_MEDIUM = "\u{2419}";
 
-    #[Info(id: 9242, name: 'SYMBOL FOR SUBSTITUTE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x241A, name: 'SYMBOL FOR SUBSTITUTE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_SUBSTITUTE = "\u{241A}";
 
-    #[Info(id: 9243, name: 'SYMBOL FOR ESCAPE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x241B, name: 'SYMBOL FOR ESCAPE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_ESCAPE = "\u{241B}";
 
-    #[Info(id: 9244, name: 'SYMBOL FOR FILE SEPARATOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x241C, name: 'SYMBOL FOR FILE SEPARATOR', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_FILE_SEPARATOR = "\u{241C}";
 
-    #[Info(id: 9245, name: 'SYMBOL FOR GROUP SEPARATOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x241D, name: 'SYMBOL FOR GROUP SEPARATOR', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_GROUP_SEPARATOR = "\u{241D}";
 
-    #[Info(id: 9246, name: 'SYMBOL FOR RECORD SEPARATOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x241E, name: 'SYMBOL FOR RECORD SEPARATOR', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_RECORD_SEPARATOR = "\u{241E}";
 
-    #[Info(id: 9247, name: 'SYMBOL FOR UNIT SEPARATOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x241F, name: 'SYMBOL FOR UNIT SEPARATOR', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_UNIT_SEPARATOR = "\u{241F}";
 
-    #[Info(id: 9248, name: 'SYMBOL FOR SPACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2420, name: 'SYMBOL FOR SPACE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_SPACE = "\u{2420}";
 
-    #[Info(id: 9249, name: 'SYMBOL FOR DELETE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2421, name: 'SYMBOL FOR DELETE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_DELETE = "\u{2421}";
 
-    #[Info(id: 9250, name: 'BLANK SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2422, name: 'BLANK SYMBOL', category: Cat::Other_Symbol)]
     case BLANK_SYMBOL = "\u{2422}";
 
-    #[Info(id: 9251, name: 'OPEN BOX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2423, name: 'OPEN BOX', category: Cat::Other_Symbol)]
     case OPEN_BOX = "\u{2423}";
 
-    #[Info(id: 9252, name: 'SYMBOL FOR NEWLINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2424, name: 'SYMBOL FOR NEWLINE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_NEWLINE = "\u{2424}";
 
-    #[Info(id: 9253, name: 'SYMBOL FOR DELETE FORM TWO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2425, name: 'SYMBOL FOR DELETE FORM TWO', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_DELETE_FORM_TWO = "\u{2425}";
 
-    #[Info(id: 9254, name: 'SYMBOL FOR SUBSTITUTE FORM TWO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2426, name: 'SYMBOL FOR SUBSTITUTE FORM TWO', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_SUBSTITUTE_FORM_TWO = "\u{2426}";
 }

@@ -16,72 +16,72 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Meetei_Mayek_Extensions: string
 {
-    #[Info(id: 43744, name: 'MEETEI MAYEK LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAE0, name: 'MEETEI MAYEK LETTER E', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_E = "\u{AAE0}";
 
-    #[Info(id: 43745, name: 'MEETEI MAYEK LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAE1, name: 'MEETEI MAYEK LETTER O', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_O = "\u{AAE1}";
 
-    #[Info(id: 43746, name: 'MEETEI MAYEK LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAE2, name: 'MEETEI MAYEK LETTER CHA', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_CHA = "\u{AAE2}";
 
-    #[Info(id: 43747, name: 'MEETEI MAYEK LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAE3, name: 'MEETEI MAYEK LETTER NYA', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_NYA = "\u{AAE3}";
 
-    #[Info(id: 43748, name: 'MEETEI MAYEK LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAE4, name: 'MEETEI MAYEK LETTER TTA', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_TTA = "\u{AAE4}";
 
-    #[Info(id: 43749, name: 'MEETEI MAYEK LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAE5, name: 'MEETEI MAYEK LETTER TTHA', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_TTHA = "\u{AAE5}";
 
-    #[Info(id: 43750, name: 'MEETEI MAYEK LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAE6, name: 'MEETEI MAYEK LETTER DDA', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_DDA = "\u{AAE6}";
 
-    #[Info(id: 43751, name: 'MEETEI MAYEK LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAE7, name: 'MEETEI MAYEK LETTER DDHA', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_DDHA = "\u{AAE7}";
 
-    #[Info(id: 43752, name: 'MEETEI MAYEK LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAE8, name: 'MEETEI MAYEK LETTER NNA', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_NNA = "\u{AAE8}";
 
-    #[Info(id: 43753, name: 'MEETEI MAYEK LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAE9, name: 'MEETEI MAYEK LETTER SHA', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_SHA = "\u{AAE9}";
 
-    #[Info(id: 43754, name: 'MEETEI MAYEK LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAEA, name: 'MEETEI MAYEK LETTER SSA', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_LETTER_SSA = "\u{AAEA}";
 
-    #[Info(id: 43755, name: 'MEETEI MAYEK VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xAAEB, name: 'MEETEI MAYEK VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case MEETEI_MAYEK_VOWEL_SIGN_II = "\u{AAEB}";
 
-    #[Info(id: 43756, name: 'MEETEI MAYEK VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAAEC, name: 'MEETEI MAYEK VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case MEETEI_MAYEK_VOWEL_SIGN_UU = "\u{AAEC}";
 
-    #[Info(id: 43757, name: 'MEETEI MAYEK VOWEL SIGN AAI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAAED, name: 'MEETEI MAYEK VOWEL SIGN AAI', category: Cat::Nonspacing_Mark)]
     case MEETEI_MAYEK_VOWEL_SIGN_AAI = "\u{AAED}";
 
-    #[Info(id: 43758, name: 'MEETEI MAYEK VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xAAEE, name: 'MEETEI MAYEK VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case MEETEI_MAYEK_VOWEL_SIGN_AU = "\u{AAEE}";
 
-    #[Info(id: 43759, name: 'MEETEI MAYEK VOWEL SIGN AAU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xAAEF, name: 'MEETEI MAYEK VOWEL SIGN AAU', category: Cat::Spacing_Mark)]
     case MEETEI_MAYEK_VOWEL_SIGN_AAU = "\u{AAEF}";
 
-    #[Info(id: 43760, name: 'MEETEI MAYEK CHEIKHAN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xAAF0, name: 'MEETEI MAYEK CHEIKHAN', category: Cat::Other_Punctuation)]
     case MEETEI_MAYEK_CHEIKHAN = "\u{AAF0}";
 
-    #[Info(id: 43761, name: 'MEETEI MAYEK AHANG KHUDAM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xAAF1, name: 'MEETEI MAYEK AHANG KHUDAM', category: Cat::Other_Punctuation)]
     case MEETEI_MAYEK_AHANG_KHUDAM = "\u{AAF1}";
 
-    #[Info(id: 43762, name: 'MEETEI MAYEK ANJI', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAF2, name: 'MEETEI MAYEK ANJI', category: Cat::Other_Letter)]
     case MEETEI_MAYEK_ANJI = "\u{AAF2}";
 
-    #[Info(id: 43763, name: 'MEETEI MAYEK SYLLABLE REPETITION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xAAF3, name: 'MEETEI MAYEK SYLLABLE REPETITION MARK', category: Cat::Modifier_Letter)]
     case MEETEI_MAYEK_SYLLABLE_REPETITION_MARK = "\u{AAF3}";
 
-    #[Info(id: 43764, name: 'MEETEI MAYEK WORD REPETITION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xAAF4, name: 'MEETEI MAYEK WORD REPETITION MARK', category: Cat::Modifier_Letter)]
     case MEETEI_MAYEK_WORD_REPETITION_MARK = "\u{AAF4}";
 
-    #[Info(id: 43765, name: 'MEETEI MAYEK VOWEL SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xAAF5, name: 'MEETEI MAYEK VOWEL SIGN VISARGA', category: Cat::Spacing_Mark)]
     case MEETEI_MAYEK_VOWEL_SIGN_VISARGA = "\u{AAF5}";
 
-    #[Info(id: 43766, name: 'MEETEI MAYEK VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAAF6, name: 'MEETEI MAYEK VIRAMA', category: Cat::Nonspacing_Mark)]
     case MEETEI_MAYEK_VIRAMA = "\u{AAF6}";
 }

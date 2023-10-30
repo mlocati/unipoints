@@ -16,291 +16,291 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Glagolitic: string
 {
-    #[Info(id: 11264, name: 'GLAGOLITIC CAPITAL LETTER AZU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C00, name: 'GLAGOLITIC CAPITAL LETTER AZU', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_AZU = "\u{2C00}";
 
-    #[Info(id: 11265, name: 'GLAGOLITIC CAPITAL LETTER BUKY', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C01, name: 'GLAGOLITIC CAPITAL LETTER BUKY', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_BUKY = "\u{2C01}";
 
-    #[Info(id: 11266, name: 'GLAGOLITIC CAPITAL LETTER VEDE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C02, name: 'GLAGOLITIC CAPITAL LETTER VEDE', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_VEDE = "\u{2C02}";
 
-    #[Info(id: 11267, name: 'GLAGOLITIC CAPITAL LETTER GLAGOLI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C03, name: 'GLAGOLITIC CAPITAL LETTER GLAGOLI', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_GLAGOLI = "\u{2C03}";
 
-    #[Info(id: 11268, name: 'GLAGOLITIC CAPITAL LETTER DOBRO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C04, name: 'GLAGOLITIC CAPITAL LETTER DOBRO', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_DOBRO = "\u{2C04}";
 
-    #[Info(id: 11269, name: 'GLAGOLITIC CAPITAL LETTER YESTU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C05, name: 'GLAGOLITIC CAPITAL LETTER YESTU', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_YESTU = "\u{2C05}";
 
-    #[Info(id: 11270, name: 'GLAGOLITIC CAPITAL LETTER ZHIVETE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C06, name: 'GLAGOLITIC CAPITAL LETTER ZHIVETE', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_ZHIVETE = "\u{2C06}";
 
-    #[Info(id: 11271, name: 'GLAGOLITIC CAPITAL LETTER DZELO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C07, name: 'GLAGOLITIC CAPITAL LETTER DZELO', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_DZELO = "\u{2C07}";
 
-    #[Info(id: 11272, name: 'GLAGOLITIC CAPITAL LETTER ZEMLJA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C08, name: 'GLAGOLITIC CAPITAL LETTER ZEMLJA', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_ZEMLJA = "\u{2C08}";
 
-    #[Info(id: 11273, name: 'GLAGOLITIC CAPITAL LETTER IZHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C09, name: 'GLAGOLITIC CAPITAL LETTER IZHE', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_IZHE = "\u{2C09}";
 
-    #[Info(id: 11274, name: 'GLAGOLITIC CAPITAL LETTER INITIAL IZHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C0A, name: 'GLAGOLITIC CAPITAL LETTER INITIAL IZHE', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_INITIAL_IZHE = "\u{2C0A}";
 
-    #[Info(id: 11275, name: 'GLAGOLITIC CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C0B, name: 'GLAGOLITIC CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_I = "\u{2C0B}";
 
-    #[Info(id: 11276, name: 'GLAGOLITIC CAPITAL LETTER DJERVI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C0C, name: 'GLAGOLITIC CAPITAL LETTER DJERVI', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_DJERVI = "\u{2C0C}";
 
-    #[Info(id: 11277, name: 'GLAGOLITIC CAPITAL LETTER KAKO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C0D, name: 'GLAGOLITIC CAPITAL LETTER KAKO', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_KAKO = "\u{2C0D}";
 
-    #[Info(id: 11278, name: 'GLAGOLITIC CAPITAL LETTER LJUDIJE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C0E, name: 'GLAGOLITIC CAPITAL LETTER LJUDIJE', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_LJUDIJE = "\u{2C0E}";
 
-    #[Info(id: 11279, name: 'GLAGOLITIC CAPITAL LETTER MYSLITE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C0F, name: 'GLAGOLITIC CAPITAL LETTER MYSLITE', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_MYSLITE = "\u{2C0F}";
 
-    #[Info(id: 11280, name: 'GLAGOLITIC CAPITAL LETTER NASHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C10, name: 'GLAGOLITIC CAPITAL LETTER NASHI', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_NASHI = "\u{2C10}";
 
-    #[Info(id: 11281, name: 'GLAGOLITIC CAPITAL LETTER ONU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C11, name: 'GLAGOLITIC CAPITAL LETTER ONU', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_ONU = "\u{2C11}";
 
-    #[Info(id: 11282, name: 'GLAGOLITIC CAPITAL LETTER POKOJI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C12, name: 'GLAGOLITIC CAPITAL LETTER POKOJI', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_POKOJI = "\u{2C12}";
 
-    #[Info(id: 11283, name: 'GLAGOLITIC CAPITAL LETTER RITSI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C13, name: 'GLAGOLITIC CAPITAL LETTER RITSI', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_RITSI = "\u{2C13}";
 
-    #[Info(id: 11284, name: 'GLAGOLITIC CAPITAL LETTER SLOVO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C14, name: 'GLAGOLITIC CAPITAL LETTER SLOVO', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_SLOVO = "\u{2C14}";
 
-    #[Info(id: 11285, name: 'GLAGOLITIC CAPITAL LETTER TVRIDO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C15, name: 'GLAGOLITIC CAPITAL LETTER TVRIDO', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_TVRIDO = "\u{2C15}";
 
-    #[Info(id: 11286, name: 'GLAGOLITIC CAPITAL LETTER UKU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C16, name: 'GLAGOLITIC CAPITAL LETTER UKU', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_UKU = "\u{2C16}";
 
-    #[Info(id: 11287, name: 'GLAGOLITIC CAPITAL LETTER FRITU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C17, name: 'GLAGOLITIC CAPITAL LETTER FRITU', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_FRITU = "\u{2C17}";
 
-    #[Info(id: 11288, name: 'GLAGOLITIC CAPITAL LETTER HERU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C18, name: 'GLAGOLITIC CAPITAL LETTER HERU', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_HERU = "\u{2C18}";
 
-    #[Info(id: 11289, name: 'GLAGOLITIC CAPITAL LETTER OTU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C19, name: 'GLAGOLITIC CAPITAL LETTER OTU', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_OTU = "\u{2C19}";
 
-    #[Info(id: 11290, name: 'GLAGOLITIC CAPITAL LETTER PE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C1A, name: 'GLAGOLITIC CAPITAL LETTER PE', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_PE = "\u{2C1A}";
 
-    #[Info(id: 11291, name: 'GLAGOLITIC CAPITAL LETTER SHTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C1B, name: 'GLAGOLITIC CAPITAL LETTER SHTA', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_SHTA = "\u{2C1B}";
 
-    #[Info(id: 11292, name: 'GLAGOLITIC CAPITAL LETTER TSI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C1C, name: 'GLAGOLITIC CAPITAL LETTER TSI', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_TSI = "\u{2C1C}";
 
-    #[Info(id: 11293, name: 'GLAGOLITIC CAPITAL LETTER CHRIVI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C1D, name: 'GLAGOLITIC CAPITAL LETTER CHRIVI', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_CHRIVI = "\u{2C1D}";
 
-    #[Info(id: 11294, name: 'GLAGOLITIC CAPITAL LETTER SHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C1E, name: 'GLAGOLITIC CAPITAL LETTER SHA', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_SHA = "\u{2C1E}";
 
-    #[Info(id: 11295, name: 'GLAGOLITIC CAPITAL LETTER YERU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C1F, name: 'GLAGOLITIC CAPITAL LETTER YERU', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_YERU = "\u{2C1F}";
 
-    #[Info(id: 11296, name: 'GLAGOLITIC CAPITAL LETTER YERI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C20, name: 'GLAGOLITIC CAPITAL LETTER YERI', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_YERI = "\u{2C20}";
 
-    #[Info(id: 11297, name: 'GLAGOLITIC CAPITAL LETTER YATI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C21, name: 'GLAGOLITIC CAPITAL LETTER YATI', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_YATI = "\u{2C21}";
 
-    #[Info(id: 11298, name: 'GLAGOLITIC CAPITAL LETTER SPIDERY HA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C22, name: 'GLAGOLITIC CAPITAL LETTER SPIDERY HA', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_SPIDERY_HA = "\u{2C22}";
 
-    #[Info(id: 11299, name: 'GLAGOLITIC CAPITAL LETTER YU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C23, name: 'GLAGOLITIC CAPITAL LETTER YU', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_YU = "\u{2C23}";
 
-    #[Info(id: 11300, name: 'GLAGOLITIC CAPITAL LETTER SMALL YUS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C24, name: 'GLAGOLITIC CAPITAL LETTER SMALL YUS', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_SMALL_YUS = "\u{2C24}";
 
-    #[Info(id: 11301, name: 'GLAGOLITIC CAPITAL LETTER SMALL YUS WITH TAIL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C25, name: 'GLAGOLITIC CAPITAL LETTER SMALL YUS WITH TAIL', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_SMALL_YUS_WITH_TAIL = "\u{2C25}";
 
-    #[Info(id: 11302, name: 'GLAGOLITIC CAPITAL LETTER YO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C26, name: 'GLAGOLITIC CAPITAL LETTER YO', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_YO = "\u{2C26}";
 
-    #[Info(id: 11303, name: 'GLAGOLITIC CAPITAL LETTER IOTATED SMALL YUS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C27, name: 'GLAGOLITIC CAPITAL LETTER IOTATED SMALL YUS', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_IOTATED_SMALL_YUS = "\u{2C27}";
 
-    #[Info(id: 11304, name: 'GLAGOLITIC CAPITAL LETTER BIG YUS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C28, name: 'GLAGOLITIC CAPITAL LETTER BIG YUS', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_BIG_YUS = "\u{2C28}";
 
-    #[Info(id: 11305, name: 'GLAGOLITIC CAPITAL LETTER IOTATED BIG YUS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C29, name: 'GLAGOLITIC CAPITAL LETTER IOTATED BIG YUS', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_IOTATED_BIG_YUS = "\u{2C29}";
 
-    #[Info(id: 11306, name: 'GLAGOLITIC CAPITAL LETTER FITA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C2A, name: 'GLAGOLITIC CAPITAL LETTER FITA', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_FITA = "\u{2C2A}";
 
-    #[Info(id: 11307, name: 'GLAGOLITIC CAPITAL LETTER IZHITSA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C2B, name: 'GLAGOLITIC CAPITAL LETTER IZHITSA', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_IZHITSA = "\u{2C2B}";
 
-    #[Info(id: 11308, name: 'GLAGOLITIC CAPITAL LETTER SHTAPIC', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C2C, name: 'GLAGOLITIC CAPITAL LETTER SHTAPIC', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_SHTAPIC = "\u{2C2C}";
 
-    #[Info(id: 11309, name: 'GLAGOLITIC CAPITAL LETTER TROKUTASTI A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C2D, name: 'GLAGOLITIC CAPITAL LETTER TROKUTASTI A', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_TROKUTASTI_A = "\u{2C2D}";
 
-    #[Info(id: 11310, name: 'GLAGOLITIC CAPITAL LETTER LATINATE MYSLITE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C2E, name: 'GLAGOLITIC CAPITAL LETTER LATINATE MYSLITE', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_LATINATE_MYSLITE = "\u{2C2E}";
 
-    #[Info(id: 11311, name: 'GLAGOLITIC CAPITAL LETTER CAUDATE CHRIVI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2C2F, name: 'GLAGOLITIC CAPITAL LETTER CAUDATE CHRIVI', category: Cat::Uppercase_Letter)]
     case GLAGOLITIC_CAPITAL_LETTER_CAUDATE_CHRIVI = "\u{2C2F}";
 
-    #[Info(id: 11312, name: 'GLAGOLITIC SMALL LETTER AZU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C30, name: 'GLAGOLITIC SMALL LETTER AZU', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_AZU = "\u{2C30}";
 
-    #[Info(id: 11313, name: 'GLAGOLITIC SMALL LETTER BUKY', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C31, name: 'GLAGOLITIC SMALL LETTER BUKY', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_BUKY = "\u{2C31}";
 
-    #[Info(id: 11314, name: 'GLAGOLITIC SMALL LETTER VEDE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C32, name: 'GLAGOLITIC SMALL LETTER VEDE', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_VEDE = "\u{2C32}";
 
-    #[Info(id: 11315, name: 'GLAGOLITIC SMALL LETTER GLAGOLI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C33, name: 'GLAGOLITIC SMALL LETTER GLAGOLI', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_GLAGOLI = "\u{2C33}";
 
-    #[Info(id: 11316, name: 'GLAGOLITIC SMALL LETTER DOBRO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C34, name: 'GLAGOLITIC SMALL LETTER DOBRO', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_DOBRO = "\u{2C34}";
 
-    #[Info(id: 11317, name: 'GLAGOLITIC SMALL LETTER YESTU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C35, name: 'GLAGOLITIC SMALL LETTER YESTU', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_YESTU = "\u{2C35}";
 
-    #[Info(id: 11318, name: 'GLAGOLITIC SMALL LETTER ZHIVETE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C36, name: 'GLAGOLITIC SMALL LETTER ZHIVETE', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_ZHIVETE = "\u{2C36}";
 
-    #[Info(id: 11319, name: 'GLAGOLITIC SMALL LETTER DZELO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C37, name: 'GLAGOLITIC SMALL LETTER DZELO', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_DZELO = "\u{2C37}";
 
-    #[Info(id: 11320, name: 'GLAGOLITIC SMALL LETTER ZEMLJA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C38, name: 'GLAGOLITIC SMALL LETTER ZEMLJA', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_ZEMLJA = "\u{2C38}";
 
-    #[Info(id: 11321, name: 'GLAGOLITIC SMALL LETTER IZHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C39, name: 'GLAGOLITIC SMALL LETTER IZHE', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_IZHE = "\u{2C39}";
 
-    #[Info(id: 11322, name: 'GLAGOLITIC SMALL LETTER INITIAL IZHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C3A, name: 'GLAGOLITIC SMALL LETTER INITIAL IZHE', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_INITIAL_IZHE = "\u{2C3A}";
 
-    #[Info(id: 11323, name: 'GLAGOLITIC SMALL LETTER I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C3B, name: 'GLAGOLITIC SMALL LETTER I', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_I = "\u{2C3B}";
 
-    #[Info(id: 11324, name: 'GLAGOLITIC SMALL LETTER DJERVI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C3C, name: 'GLAGOLITIC SMALL LETTER DJERVI', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_DJERVI = "\u{2C3C}";
 
-    #[Info(id: 11325, name: 'GLAGOLITIC SMALL LETTER KAKO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C3D, name: 'GLAGOLITIC SMALL LETTER KAKO', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_KAKO = "\u{2C3D}";
 
-    #[Info(id: 11326, name: 'GLAGOLITIC SMALL LETTER LJUDIJE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C3E, name: 'GLAGOLITIC SMALL LETTER LJUDIJE', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_LJUDIJE = "\u{2C3E}";
 
-    #[Info(id: 11327, name: 'GLAGOLITIC SMALL LETTER MYSLITE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C3F, name: 'GLAGOLITIC SMALL LETTER MYSLITE', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_MYSLITE = "\u{2C3F}";
 
-    #[Info(id: 11328, name: 'GLAGOLITIC SMALL LETTER NASHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C40, name: 'GLAGOLITIC SMALL LETTER NASHI', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_NASHI = "\u{2C40}";
 
-    #[Info(id: 11329, name: 'GLAGOLITIC SMALL LETTER ONU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C41, name: 'GLAGOLITIC SMALL LETTER ONU', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_ONU = "\u{2C41}";
 
-    #[Info(id: 11330, name: 'GLAGOLITIC SMALL LETTER POKOJI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C42, name: 'GLAGOLITIC SMALL LETTER POKOJI', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_POKOJI = "\u{2C42}";
 
-    #[Info(id: 11331, name: 'GLAGOLITIC SMALL LETTER RITSI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C43, name: 'GLAGOLITIC SMALL LETTER RITSI', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_RITSI = "\u{2C43}";
 
-    #[Info(id: 11332, name: 'GLAGOLITIC SMALL LETTER SLOVO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C44, name: 'GLAGOLITIC SMALL LETTER SLOVO', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_SLOVO = "\u{2C44}";
 
-    #[Info(id: 11333, name: 'GLAGOLITIC SMALL LETTER TVRIDO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C45, name: 'GLAGOLITIC SMALL LETTER TVRIDO', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_TVRIDO = "\u{2C45}";
 
-    #[Info(id: 11334, name: 'GLAGOLITIC SMALL LETTER UKU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C46, name: 'GLAGOLITIC SMALL LETTER UKU', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_UKU = "\u{2C46}";
 
-    #[Info(id: 11335, name: 'GLAGOLITIC SMALL LETTER FRITU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C47, name: 'GLAGOLITIC SMALL LETTER FRITU', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_FRITU = "\u{2C47}";
 
-    #[Info(id: 11336, name: 'GLAGOLITIC SMALL LETTER HERU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C48, name: 'GLAGOLITIC SMALL LETTER HERU', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_HERU = "\u{2C48}";
 
-    #[Info(id: 11337, name: 'GLAGOLITIC SMALL LETTER OTU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C49, name: 'GLAGOLITIC SMALL LETTER OTU', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_OTU = "\u{2C49}";
 
-    #[Info(id: 11338, name: 'GLAGOLITIC SMALL LETTER PE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C4A, name: 'GLAGOLITIC SMALL LETTER PE', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_PE = "\u{2C4A}";
 
-    #[Info(id: 11339, name: 'GLAGOLITIC SMALL LETTER SHTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C4B, name: 'GLAGOLITIC SMALL LETTER SHTA', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_SHTA = "\u{2C4B}";
 
-    #[Info(id: 11340, name: 'GLAGOLITIC SMALL LETTER TSI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C4C, name: 'GLAGOLITIC SMALL LETTER TSI', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_TSI = "\u{2C4C}";
 
-    #[Info(id: 11341, name: 'GLAGOLITIC SMALL LETTER CHRIVI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C4D, name: 'GLAGOLITIC SMALL LETTER CHRIVI', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_CHRIVI = "\u{2C4D}";
 
-    #[Info(id: 11342, name: 'GLAGOLITIC SMALL LETTER SHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C4E, name: 'GLAGOLITIC SMALL LETTER SHA', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_SHA = "\u{2C4E}";
 
-    #[Info(id: 11343, name: 'GLAGOLITIC SMALL LETTER YERU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C4F, name: 'GLAGOLITIC SMALL LETTER YERU', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_YERU = "\u{2C4F}";
 
-    #[Info(id: 11344, name: 'GLAGOLITIC SMALL LETTER YERI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C50, name: 'GLAGOLITIC SMALL LETTER YERI', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_YERI = "\u{2C50}";
 
-    #[Info(id: 11345, name: 'GLAGOLITIC SMALL LETTER YATI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C51, name: 'GLAGOLITIC SMALL LETTER YATI', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_YATI = "\u{2C51}";
 
-    #[Info(id: 11346, name: 'GLAGOLITIC SMALL LETTER SPIDERY HA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C52, name: 'GLAGOLITIC SMALL LETTER SPIDERY HA', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_SPIDERY_HA = "\u{2C52}";
 
-    #[Info(id: 11347, name: 'GLAGOLITIC SMALL LETTER YU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C53, name: 'GLAGOLITIC SMALL LETTER YU', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_YU = "\u{2C53}";
 
-    #[Info(id: 11348, name: 'GLAGOLITIC SMALL LETTER SMALL YUS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C54, name: 'GLAGOLITIC SMALL LETTER SMALL YUS', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_SMALL_YUS = "\u{2C54}";
 
-    #[Info(id: 11349, name: 'GLAGOLITIC SMALL LETTER SMALL YUS WITH TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C55, name: 'GLAGOLITIC SMALL LETTER SMALL YUS WITH TAIL', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_SMALL_YUS_WITH_TAIL = "\u{2C55}";
 
-    #[Info(id: 11350, name: 'GLAGOLITIC SMALL LETTER YO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C56, name: 'GLAGOLITIC SMALL LETTER YO', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_YO = "\u{2C56}";
 
-    #[Info(id: 11351, name: 'GLAGOLITIC SMALL LETTER IOTATED SMALL YUS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C57, name: 'GLAGOLITIC SMALL LETTER IOTATED SMALL YUS', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_IOTATED_SMALL_YUS = "\u{2C57}";
 
-    #[Info(id: 11352, name: 'GLAGOLITIC SMALL LETTER BIG YUS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C58, name: 'GLAGOLITIC SMALL LETTER BIG YUS', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_BIG_YUS = "\u{2C58}";
 
-    #[Info(id: 11353, name: 'GLAGOLITIC SMALL LETTER IOTATED BIG YUS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C59, name: 'GLAGOLITIC SMALL LETTER IOTATED BIG YUS', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_IOTATED_BIG_YUS = "\u{2C59}";
 
-    #[Info(id: 11354, name: 'GLAGOLITIC SMALL LETTER FITA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C5A, name: 'GLAGOLITIC SMALL LETTER FITA', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_FITA = "\u{2C5A}";
 
-    #[Info(id: 11355, name: 'GLAGOLITIC SMALL LETTER IZHITSA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C5B, name: 'GLAGOLITIC SMALL LETTER IZHITSA', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_IZHITSA = "\u{2C5B}";
 
-    #[Info(id: 11356, name: 'GLAGOLITIC SMALL LETTER SHTAPIC', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C5C, name: 'GLAGOLITIC SMALL LETTER SHTAPIC', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_SHTAPIC = "\u{2C5C}";
 
-    #[Info(id: 11357, name: 'GLAGOLITIC SMALL LETTER TROKUTASTI A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C5D, name: 'GLAGOLITIC SMALL LETTER TROKUTASTI A', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_TROKUTASTI_A = "\u{2C5D}";
 
-    #[Info(id: 11358, name: 'GLAGOLITIC SMALL LETTER LATINATE MYSLITE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C5E, name: 'GLAGOLITIC SMALL LETTER LATINATE MYSLITE', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_LATINATE_MYSLITE = "\u{2C5E}";
 
-    #[Info(id: 11359, name: 'GLAGOLITIC SMALL LETTER CAUDATE CHRIVI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2C5F, name: 'GLAGOLITIC SMALL LETTER CAUDATE CHRIVI', category: Cat::Lowercase_Letter)]
     case GLAGOLITIC_SMALL_LETTER_CAUDATE_CHRIVI = "\u{2C5F}";
 }

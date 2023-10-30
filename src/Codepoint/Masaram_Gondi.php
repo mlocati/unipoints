@@ -16,228 +16,228 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Masaram_Gondi: string
 {
-    #[Info(id: 72960, name: 'MASARAM GONDI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D00, name: 'MASARAM GONDI LETTER A', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_A = "\u{11D00}";
 
-    #[Info(id: 72961, name: 'MASARAM GONDI LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D01, name: 'MASARAM GONDI LETTER AA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_AA = "\u{11D01}";
 
-    #[Info(id: 72962, name: 'MASARAM GONDI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D02, name: 'MASARAM GONDI LETTER I', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_I = "\u{11D02}";
 
-    #[Info(id: 72963, name: 'MASARAM GONDI LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D03, name: 'MASARAM GONDI LETTER II', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_II = "\u{11D03}";
 
-    #[Info(id: 72964, name: 'MASARAM GONDI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D04, name: 'MASARAM GONDI LETTER U', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_U = "\u{11D04}";
 
-    #[Info(id: 72965, name: 'MASARAM GONDI LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D05, name: 'MASARAM GONDI LETTER UU', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_UU = "\u{11D05}";
 
-    #[Info(id: 72966, name: 'MASARAM GONDI LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D06, name: 'MASARAM GONDI LETTER E', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_E = "\u{11D06}";
 
-    #[Info(id: 72968, name: 'MASARAM GONDI LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D08, name: 'MASARAM GONDI LETTER AI', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_AI = "\u{11D08}";
 
-    #[Info(id: 72969, name: 'MASARAM GONDI LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D09, name: 'MASARAM GONDI LETTER O', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_O = "\u{11D09}";
 
-    #[Info(id: 72971, name: 'MASARAM GONDI LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D0B, name: 'MASARAM GONDI LETTER AU', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_AU = "\u{11D0B}";
 
-    #[Info(id: 72972, name: 'MASARAM GONDI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D0C, name: 'MASARAM GONDI LETTER KA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_KA = "\u{11D0C}";
 
-    #[Info(id: 72973, name: 'MASARAM GONDI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D0D, name: 'MASARAM GONDI LETTER KHA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_KHA = "\u{11D0D}";
 
-    #[Info(id: 72974, name: 'MASARAM GONDI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D0E, name: 'MASARAM GONDI LETTER GA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_GA = "\u{11D0E}";
 
-    #[Info(id: 72975, name: 'MASARAM GONDI LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D0F, name: 'MASARAM GONDI LETTER GHA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_GHA = "\u{11D0F}";
 
-    #[Info(id: 72976, name: 'MASARAM GONDI LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D10, name: 'MASARAM GONDI LETTER NGA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_NGA = "\u{11D10}";
 
-    #[Info(id: 72977, name: 'MASARAM GONDI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D11, name: 'MASARAM GONDI LETTER CA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_CA = "\u{11D11}";
 
-    #[Info(id: 72978, name: 'MASARAM GONDI LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D12, name: 'MASARAM GONDI LETTER CHA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_CHA = "\u{11D12}";
 
-    #[Info(id: 72979, name: 'MASARAM GONDI LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D13, name: 'MASARAM GONDI LETTER JA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_JA = "\u{11D13}";
 
-    #[Info(id: 72980, name: 'MASARAM GONDI LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D14, name: 'MASARAM GONDI LETTER JHA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_JHA = "\u{11D14}";
 
-    #[Info(id: 72981, name: 'MASARAM GONDI LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D15, name: 'MASARAM GONDI LETTER NYA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_NYA = "\u{11D15}";
 
-    #[Info(id: 72982, name: 'MASARAM GONDI LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D16, name: 'MASARAM GONDI LETTER TTA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_TTA = "\u{11D16}";
 
-    #[Info(id: 72983, name: 'MASARAM GONDI LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D17, name: 'MASARAM GONDI LETTER TTHA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_TTHA = "\u{11D17}";
 
-    #[Info(id: 72984, name: 'MASARAM GONDI LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D18, name: 'MASARAM GONDI LETTER DDA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_DDA = "\u{11D18}";
 
-    #[Info(id: 72985, name: 'MASARAM GONDI LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D19, name: 'MASARAM GONDI LETTER DDHA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_DDHA = "\u{11D19}";
 
-    #[Info(id: 72986, name: 'MASARAM GONDI LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D1A, name: 'MASARAM GONDI LETTER NNA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_NNA = "\u{11D1A}";
 
-    #[Info(id: 72987, name: 'MASARAM GONDI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D1B, name: 'MASARAM GONDI LETTER TA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_TA = "\u{11D1B}";
 
-    #[Info(id: 72988, name: 'MASARAM GONDI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D1C, name: 'MASARAM GONDI LETTER THA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_THA = "\u{11D1C}";
 
-    #[Info(id: 72989, name: 'MASARAM GONDI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D1D, name: 'MASARAM GONDI LETTER DA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_DA = "\u{11D1D}";
 
-    #[Info(id: 72990, name: 'MASARAM GONDI LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D1E, name: 'MASARAM GONDI LETTER DHA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_DHA = "\u{11D1E}";
 
-    #[Info(id: 72991, name: 'MASARAM GONDI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D1F, name: 'MASARAM GONDI LETTER NA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_NA = "\u{11D1F}";
 
-    #[Info(id: 72992, name: 'MASARAM GONDI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D20, name: 'MASARAM GONDI LETTER PA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_PA = "\u{11D20}";
 
-    #[Info(id: 72993, name: 'MASARAM GONDI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D21, name: 'MASARAM GONDI LETTER PHA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_PHA = "\u{11D21}";
 
-    #[Info(id: 72994, name: 'MASARAM GONDI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D22, name: 'MASARAM GONDI LETTER BA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_BA = "\u{11D22}";
 
-    #[Info(id: 72995, name: 'MASARAM GONDI LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D23, name: 'MASARAM GONDI LETTER BHA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_BHA = "\u{11D23}";
 
-    #[Info(id: 72996, name: 'MASARAM GONDI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D24, name: 'MASARAM GONDI LETTER MA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_MA = "\u{11D24}";
 
-    #[Info(id: 72997, name: 'MASARAM GONDI LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D25, name: 'MASARAM GONDI LETTER YA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_YA = "\u{11D25}";
 
-    #[Info(id: 72998, name: 'MASARAM GONDI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D26, name: 'MASARAM GONDI LETTER RA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_RA = "\u{11D26}";
 
-    #[Info(id: 72999, name: 'MASARAM GONDI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D27, name: 'MASARAM GONDI LETTER LA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_LA = "\u{11D27}";
 
-    #[Info(id: 73000, name: 'MASARAM GONDI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D28, name: 'MASARAM GONDI LETTER VA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_VA = "\u{11D28}";
 
-    #[Info(id: 73001, name: 'MASARAM GONDI LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D29, name: 'MASARAM GONDI LETTER SHA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_SHA = "\u{11D29}";
 
-    #[Info(id: 73002, name: 'MASARAM GONDI LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D2A, name: 'MASARAM GONDI LETTER SSA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_SSA = "\u{11D2A}";
 
-    #[Info(id: 73003, name: 'MASARAM GONDI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D2B, name: 'MASARAM GONDI LETTER SA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_SA = "\u{11D2B}";
 
-    #[Info(id: 73004, name: 'MASARAM GONDI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D2C, name: 'MASARAM GONDI LETTER HA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_HA = "\u{11D2C}";
 
-    #[Info(id: 73005, name: 'MASARAM GONDI LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D2D, name: 'MASARAM GONDI LETTER LLA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_LLA = "\u{11D2D}";
 
-    #[Info(id: 73006, name: 'MASARAM GONDI LETTER KSSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D2E, name: 'MASARAM GONDI LETTER KSSA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_KSSA = "\u{11D2E}";
 
-    #[Info(id: 73007, name: 'MASARAM GONDI LETTER JNYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D2F, name: 'MASARAM GONDI LETTER JNYA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_JNYA = "\u{11D2F}";
 
-    #[Info(id: 73008, name: 'MASARAM GONDI LETTER TRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D30, name: 'MASARAM GONDI LETTER TRA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_LETTER_TRA = "\u{11D30}";
 
-    #[Info(id: 73009, name: 'MASARAM GONDI VOWEL SIGN AA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D31, name: 'MASARAM GONDI VOWEL SIGN AA', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_VOWEL_SIGN_AA = "\u{11D31}";
 
-    #[Info(id: 73010, name: 'MASARAM GONDI VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D32, name: 'MASARAM GONDI VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_VOWEL_SIGN_I = "\u{11D32}";
 
-    #[Info(id: 73011, name: 'MASARAM GONDI VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D33, name: 'MASARAM GONDI VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_VOWEL_SIGN_II = "\u{11D33}";
 
-    #[Info(id: 73012, name: 'MASARAM GONDI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D34, name: 'MASARAM GONDI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_VOWEL_SIGN_U = "\u{11D34}";
 
-    #[Info(id: 73013, name: 'MASARAM GONDI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D35, name: 'MASARAM GONDI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_VOWEL_SIGN_UU = "\u{11D35}";
 
-    #[Info(id: 73014, name: 'MASARAM GONDI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D36, name: 'MASARAM GONDI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_VOWEL_SIGN_VOCALIC_R = "\u{11D36}";
 
-    #[Info(id: 73018, name: 'MASARAM GONDI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D3A, name: 'MASARAM GONDI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_VOWEL_SIGN_E = "\u{11D3A}";
 
-    #[Info(id: 73020, name: 'MASARAM GONDI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D3C, name: 'MASARAM GONDI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_VOWEL_SIGN_AI = "\u{11D3C}";
 
-    #[Info(id: 73021, name: 'MASARAM GONDI VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D3D, name: 'MASARAM GONDI VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_VOWEL_SIGN_O = "\u{11D3D}";
 
-    #[Info(id: 73023, name: 'MASARAM GONDI VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D3F, name: 'MASARAM GONDI VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_VOWEL_SIGN_AU = "\u{11D3F}";
 
-    #[Info(id: 73024, name: 'MASARAM GONDI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D40, name: 'MASARAM GONDI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_SIGN_ANUSVARA = "\u{11D40}";
 
-    #[Info(id: 73025, name: 'MASARAM GONDI SIGN VISARGA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D41, name: 'MASARAM GONDI SIGN VISARGA', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_SIGN_VISARGA = "\u{11D41}";
 
-    #[Info(id: 73026, name: 'MASARAM GONDI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D42, name: 'MASARAM GONDI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_SIGN_NUKTA = "\u{11D42}";
 
-    #[Info(id: 73027, name: 'MASARAM GONDI SIGN CANDRA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D43, name: 'MASARAM GONDI SIGN CANDRA', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_SIGN_CANDRA = "\u{11D43}";
 
-    #[Info(id: 73028, name: 'MASARAM GONDI SIGN HALANTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D44, name: 'MASARAM GONDI SIGN HALANTA', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_SIGN_HALANTA = "\u{11D44}";
 
-    #[Info(id: 73029, name: 'MASARAM GONDI VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D45, name: 'MASARAM GONDI VIRAMA', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_VIRAMA = "\u{11D45}";
 
-    #[Info(id: 73030, name: 'MASARAM GONDI REPHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11D46, name: 'MASARAM GONDI REPHA', category: Cat::Other_Letter)]
     case MASARAM_GONDI_REPHA = "\u{11D46}";
 
-    #[Info(id: 73031, name: 'MASARAM GONDI RA-KARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11D47, name: 'MASARAM GONDI RA-KARA', category: Cat::Nonspacing_Mark)]
     case MASARAM_GONDI_RA_KARA = "\u{11D47}";
 
-    #[Info(id: 73040, name: 'MASARAM GONDI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11D50, name: 'MASARAM GONDI DIGIT ZERO', category: Cat::Decimal_Number)]
     case MASARAM_GONDI_DIGIT_ZERO = "\u{11D50}";
 
-    #[Info(id: 73041, name: 'MASARAM GONDI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11D51, name: 'MASARAM GONDI DIGIT ONE', category: Cat::Decimal_Number)]
     case MASARAM_GONDI_DIGIT_ONE = "\u{11D51}";
 
-    #[Info(id: 73042, name: 'MASARAM GONDI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11D52, name: 'MASARAM GONDI DIGIT TWO', category: Cat::Decimal_Number)]
     case MASARAM_GONDI_DIGIT_TWO = "\u{11D52}";
 
-    #[Info(id: 73043, name: 'MASARAM GONDI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11D53, name: 'MASARAM GONDI DIGIT THREE', category: Cat::Decimal_Number)]
     case MASARAM_GONDI_DIGIT_THREE = "\u{11D53}";
 
-    #[Info(id: 73044, name: 'MASARAM GONDI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11D54, name: 'MASARAM GONDI DIGIT FOUR', category: Cat::Decimal_Number)]
     case MASARAM_GONDI_DIGIT_FOUR = "\u{11D54}";
 
-    #[Info(id: 73045, name: 'MASARAM GONDI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11D55, name: 'MASARAM GONDI DIGIT FIVE', category: Cat::Decimal_Number)]
     case MASARAM_GONDI_DIGIT_FIVE = "\u{11D55}";
 
-    #[Info(id: 73046, name: 'MASARAM GONDI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11D56, name: 'MASARAM GONDI DIGIT SIX', category: Cat::Decimal_Number)]
     case MASARAM_GONDI_DIGIT_SIX = "\u{11D56}";
 
-    #[Info(id: 73047, name: 'MASARAM GONDI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11D57, name: 'MASARAM GONDI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MASARAM_GONDI_DIGIT_SEVEN = "\u{11D57}";
 
-    #[Info(id: 73048, name: 'MASARAM GONDI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11D58, name: 'MASARAM GONDI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MASARAM_GONDI_DIGIT_EIGHT = "\u{11D58}";
 
-    #[Info(id: 73049, name: 'MASARAM GONDI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x11D59, name: 'MASARAM GONDI DIGIT NINE', category: Cat::Decimal_Number)]
     case MASARAM_GONDI_DIGIT_NINE = "\u{11D59}";
 }

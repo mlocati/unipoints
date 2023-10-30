@@ -16,147 +16,147 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Ornamental_Dingbats: string
 {
-    #[Info(id: 128592, name: 'NORTH WEST POINTING LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F650, name: 'NORTH WEST POINTING LEAF', category: Cat::Other_Symbol)]
     case NORTH_WEST_POINTING_LEAF = "\u{1F650}";
 
-    #[Info(id: 128593, name: 'SOUTH WEST POINTING LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F651, name: 'SOUTH WEST POINTING LEAF', category: Cat::Other_Symbol)]
     case SOUTH_WEST_POINTING_LEAF = "\u{1F651}";
 
-    #[Info(id: 128594, name: 'NORTH EAST POINTING LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F652, name: 'NORTH EAST POINTING LEAF', category: Cat::Other_Symbol)]
     case NORTH_EAST_POINTING_LEAF = "\u{1F652}";
 
-    #[Info(id: 128595, name: 'SOUTH EAST POINTING LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F653, name: 'SOUTH EAST POINTING LEAF', category: Cat::Other_Symbol)]
     case SOUTH_EAST_POINTING_LEAF = "\u{1F653}";
 
-    #[Info(id: 128596, name: 'TURNED NORTH WEST POINTING LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F654, name: 'TURNED NORTH WEST POINTING LEAF', category: Cat::Other_Symbol)]
     case TURNED_NORTH_WEST_POINTING_LEAF = "\u{1F654}";
 
-    #[Info(id: 128597, name: 'TURNED SOUTH WEST POINTING LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F655, name: 'TURNED SOUTH WEST POINTING LEAF', category: Cat::Other_Symbol)]
     case TURNED_SOUTH_WEST_POINTING_LEAF = "\u{1F655}";
 
-    #[Info(id: 128598, name: 'TURNED NORTH EAST POINTING LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F656, name: 'TURNED NORTH EAST POINTING LEAF', category: Cat::Other_Symbol)]
     case TURNED_NORTH_EAST_POINTING_LEAF = "\u{1F656}";
 
-    #[Info(id: 128599, name: 'TURNED SOUTH EAST POINTING LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F657, name: 'TURNED SOUTH EAST POINTING LEAF', category: Cat::Other_Symbol)]
     case TURNED_SOUTH_EAST_POINTING_LEAF = "\u{1F657}";
 
-    #[Info(id: 128600, name: 'NORTH WEST POINTING VINE LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F658, name: 'NORTH WEST POINTING VINE LEAF', category: Cat::Other_Symbol)]
     case NORTH_WEST_POINTING_VINE_LEAF = "\u{1F658}";
 
-    #[Info(id: 128601, name: 'SOUTH WEST POINTING VINE LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F659, name: 'SOUTH WEST POINTING VINE LEAF', category: Cat::Other_Symbol)]
     case SOUTH_WEST_POINTING_VINE_LEAF = "\u{1F659}";
 
-    #[Info(id: 128602, name: 'NORTH EAST POINTING VINE LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F65A, name: 'NORTH EAST POINTING VINE LEAF', category: Cat::Other_Symbol)]
     case NORTH_EAST_POINTING_VINE_LEAF = "\u{1F65A}";
 
-    #[Info(id: 128603, name: 'SOUTH EAST POINTING VINE LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F65B, name: 'SOUTH EAST POINTING VINE LEAF', category: Cat::Other_Symbol)]
     case SOUTH_EAST_POINTING_VINE_LEAF = "\u{1F65B}";
 
-    #[Info(id: 128604, name: 'HEAVY NORTH WEST POINTING VINE LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F65C, name: 'HEAVY NORTH WEST POINTING VINE LEAF', category: Cat::Other_Symbol)]
     case HEAVY_NORTH_WEST_POINTING_VINE_LEAF = "\u{1F65C}";
 
-    #[Info(id: 128605, name: 'HEAVY SOUTH WEST POINTING VINE LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F65D, name: 'HEAVY SOUTH WEST POINTING VINE LEAF', category: Cat::Other_Symbol)]
     case HEAVY_SOUTH_WEST_POINTING_VINE_LEAF = "\u{1F65D}";
 
-    #[Info(id: 128606, name: 'HEAVY NORTH EAST POINTING VINE LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F65E, name: 'HEAVY NORTH EAST POINTING VINE LEAF', category: Cat::Other_Symbol)]
     case HEAVY_NORTH_EAST_POINTING_VINE_LEAF = "\u{1F65E}";
 
-    #[Info(id: 128607, name: 'HEAVY SOUTH EAST POINTING VINE LEAF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F65F, name: 'HEAVY SOUTH EAST POINTING VINE LEAF', category: Cat::Other_Symbol)]
     case HEAVY_SOUTH_EAST_POINTING_VINE_LEAF = "\u{1F65F}";
 
-    #[Info(id: 128608, name: 'NORTH WEST POINTING BUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F660, name: 'NORTH WEST POINTING BUD', category: Cat::Other_Symbol)]
     case NORTH_WEST_POINTING_BUD = "\u{1F660}";
 
-    #[Info(id: 128609, name: 'SOUTH WEST POINTING BUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F661, name: 'SOUTH WEST POINTING BUD', category: Cat::Other_Symbol)]
     case SOUTH_WEST_POINTING_BUD = "\u{1F661}";
 
-    #[Info(id: 128610, name: 'NORTH EAST POINTING BUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F662, name: 'NORTH EAST POINTING BUD', category: Cat::Other_Symbol)]
     case NORTH_EAST_POINTING_BUD = "\u{1F662}";
 
-    #[Info(id: 128611, name: 'SOUTH EAST POINTING BUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F663, name: 'SOUTH EAST POINTING BUD', category: Cat::Other_Symbol)]
     case SOUTH_EAST_POINTING_BUD = "\u{1F663}";
 
-    #[Info(id: 128612, name: 'HEAVY NORTH WEST POINTING BUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F664, name: 'HEAVY NORTH WEST POINTING BUD', category: Cat::Other_Symbol)]
     case HEAVY_NORTH_WEST_POINTING_BUD = "\u{1F664}";
 
-    #[Info(id: 128613, name: 'HEAVY SOUTH WEST POINTING BUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F665, name: 'HEAVY SOUTH WEST POINTING BUD', category: Cat::Other_Symbol)]
     case HEAVY_SOUTH_WEST_POINTING_BUD = "\u{1F665}";
 
-    #[Info(id: 128614, name: 'HEAVY NORTH EAST POINTING BUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F666, name: 'HEAVY NORTH EAST POINTING BUD', category: Cat::Other_Symbol)]
     case HEAVY_NORTH_EAST_POINTING_BUD = "\u{1F666}";
 
-    #[Info(id: 128615, name: 'HEAVY SOUTH EAST POINTING BUD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F667, name: 'HEAVY SOUTH EAST POINTING BUD', category: Cat::Other_Symbol)]
     case HEAVY_SOUTH_EAST_POINTING_BUD = "\u{1F667}";
 
-    #[Info(id: 128616, name: 'HOLLOW QUILT SQUARE ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F668, name: 'HOLLOW QUILT SQUARE ORNAMENT', category: Cat::Other_Symbol)]
     case HOLLOW_QUILT_SQUARE_ORNAMENT = "\u{1F668}";
 
-    #[Info(id: 128617, name: 'HOLLOW QUILT SQUARE ORNAMENT IN BLACK SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F669, name: 'HOLLOW QUILT SQUARE ORNAMENT IN BLACK SQUARE', category: Cat::Other_Symbol)]
     case HOLLOW_QUILT_SQUARE_ORNAMENT_IN_BLACK_SQUARE = "\u{1F669}";
 
-    #[Info(id: 128618, name: 'SOLID QUILT SQUARE ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F66A, name: 'SOLID QUILT SQUARE ORNAMENT', category: Cat::Other_Symbol)]
     case SOLID_QUILT_SQUARE_ORNAMENT = "\u{1F66A}";
 
-    #[Info(id: 128619, name: 'SOLID QUILT SQUARE ORNAMENT IN BLACK SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F66B, name: 'SOLID QUILT SQUARE ORNAMENT IN BLACK SQUARE', category: Cat::Other_Symbol)]
     case SOLID_QUILT_SQUARE_ORNAMENT_IN_BLACK_SQUARE = "\u{1F66B}";
 
-    #[Info(id: 128620, name: 'LEFTWARDS ROCKET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F66C, name: 'LEFTWARDS ROCKET', category: Cat::Other_Symbol)]
     case LEFTWARDS_ROCKET = "\u{1F66C}";
 
-    #[Info(id: 128621, name: 'UPWARDS ROCKET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F66D, name: 'UPWARDS ROCKET', category: Cat::Other_Symbol)]
     case UPWARDS_ROCKET = "\u{1F66D}";
 
-    #[Info(id: 128622, name: 'RIGHTWARDS ROCKET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F66E, name: 'RIGHTWARDS ROCKET', category: Cat::Other_Symbol)]
     case RIGHTWARDS_ROCKET = "\u{1F66E}";
 
-    #[Info(id: 128623, name: 'DOWNWARDS ROCKET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F66F, name: 'DOWNWARDS ROCKET', category: Cat::Other_Symbol)]
     case DOWNWARDS_ROCKET = "\u{1F66F}";
 
-    #[Info(id: 128624, name: 'SCRIPT LIGATURE ET ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F670, name: 'SCRIPT LIGATURE ET ORNAMENT', category: Cat::Other_Symbol)]
     case SCRIPT_LIGATURE_ET_ORNAMENT = "\u{1F670}";
 
-    #[Info(id: 128625, name: 'HEAVY SCRIPT LIGATURE ET ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F671, name: 'HEAVY SCRIPT LIGATURE ET ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_SCRIPT_LIGATURE_ET_ORNAMENT = "\u{1F671}";
 
-    #[Info(id: 128626, name: 'LIGATURE OPEN ET ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F672, name: 'LIGATURE OPEN ET ORNAMENT', category: Cat::Other_Symbol)]
     case LIGATURE_OPEN_ET_ORNAMENT = "\u{1F672}";
 
-    #[Info(id: 128627, name: 'HEAVY LIGATURE OPEN ET ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F673, name: 'HEAVY LIGATURE OPEN ET ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_LIGATURE_OPEN_ET_ORNAMENT = "\u{1F673}";
 
-    #[Info(id: 128628, name: 'HEAVY AMPERSAND ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F674, name: 'HEAVY AMPERSAND ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_AMPERSAND_ORNAMENT = "\u{1F674}";
 
-    #[Info(id: 128629, name: 'SWASH AMPERSAND ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F675, name: 'SWASH AMPERSAND ORNAMENT', category: Cat::Other_Symbol)]
     case SWASH_AMPERSAND_ORNAMENT = "\u{1F675}";
 
-    #[Info(id: 128630, name: 'SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F676, name: 'SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case SANS_SERIF_HEAVY_DOUBLE_TURNED_COMMA_QUOTATION_MARK_ORNAMENT = "\u{1F676}";
 
-    #[Info(id: 128631, name: 'SANS-SERIF HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F677, name: 'SANS-SERIF HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case SANS_SERIF_HEAVY_DOUBLE_COMMA_QUOTATION_MARK_ORNAMENT = "\u{1F677}";
 
-    #[Info(id: 128632, name: 'SANS-SERIF HEAVY LOW DOUBLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F678, name: 'SANS-SERIF HEAVY LOW DOUBLE COMMA QUOTATION MARK ORNAMENT', category: Cat::Other_Symbol)]
     case SANS_SERIF_HEAVY_LOW_DOUBLE_COMMA_QUOTATION_MARK_ORNAMENT = "\u{1F678}";
 
-    #[Info(id: 128633, name: 'HEAVY INTERROBANG ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F679, name: 'HEAVY INTERROBANG ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_INTERROBANG_ORNAMENT = "\u{1F679}";
 
-    #[Info(id: 128634, name: 'SANS-SERIF INTERROBANG ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F67A, name: 'SANS-SERIF INTERROBANG ORNAMENT', category: Cat::Other_Symbol)]
     case SANS_SERIF_INTERROBANG_ORNAMENT = "\u{1F67A}";
 
-    #[Info(id: 128635, name: 'HEAVY SANS-SERIF INTERROBANG ORNAMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F67B, name: 'HEAVY SANS-SERIF INTERROBANG ORNAMENT', category: Cat::Other_Symbol)]
     case HEAVY_SANS_SERIF_INTERROBANG_ORNAMENT = "\u{1F67B}";
 
-    #[Info(id: 128636, name: 'VERY HEAVY SOLIDUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F67C, name: 'VERY HEAVY SOLIDUS', category: Cat::Other_Symbol)]
     case VERY_HEAVY_SOLIDUS = "\u{1F67C}";
 
-    #[Info(id: 128637, name: 'VERY HEAVY REVERSE SOLIDUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F67D, name: 'VERY HEAVY REVERSE SOLIDUS', category: Cat::Other_Symbol)]
     case VERY_HEAVY_REVERSE_SOLIDUS = "\u{1F67D}";
 
-    #[Info(id: 128638, name: 'CHECKER BOARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F67E, name: 'CHECKER BOARD', category: Cat::Other_Symbol)]
     case CHECKER_BOARD = "\u{1F67E}";
 
-    #[Info(id: 128639, name: 'REVERSE CHECKER BOARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F67F, name: 'REVERSE CHECKER BOARD', category: Cat::Other_Symbol)]
     case REVERSE_CHECKER_BOARD = "\u{1F67F}";
 }

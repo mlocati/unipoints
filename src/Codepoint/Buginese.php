@@ -16,93 +16,93 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Buginese: string
 {
-    #[Info(id: 6656, name: 'BUGINESE LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A00, name: 'BUGINESE LETTER KA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_KA = "\u{1A00}";
 
-    #[Info(id: 6657, name: 'BUGINESE LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A01, name: 'BUGINESE LETTER GA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_GA = "\u{1A01}";
 
-    #[Info(id: 6658, name: 'BUGINESE LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A02, name: 'BUGINESE LETTER NGA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_NGA = "\u{1A02}";
 
-    #[Info(id: 6659, name: 'BUGINESE LETTER NGKA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A03, name: 'BUGINESE LETTER NGKA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_NGKA = "\u{1A03}";
 
-    #[Info(id: 6660, name: 'BUGINESE LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A04, name: 'BUGINESE LETTER PA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_PA = "\u{1A04}";
 
-    #[Info(id: 6661, name: 'BUGINESE LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A05, name: 'BUGINESE LETTER BA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_BA = "\u{1A05}";
 
-    #[Info(id: 6662, name: 'BUGINESE LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A06, name: 'BUGINESE LETTER MA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_MA = "\u{1A06}";
 
-    #[Info(id: 6663, name: 'BUGINESE LETTER MPA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A07, name: 'BUGINESE LETTER MPA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_MPA = "\u{1A07}";
 
-    #[Info(id: 6664, name: 'BUGINESE LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A08, name: 'BUGINESE LETTER TA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_TA = "\u{1A08}";
 
-    #[Info(id: 6665, name: 'BUGINESE LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A09, name: 'BUGINESE LETTER DA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_DA = "\u{1A09}";
 
-    #[Info(id: 6666, name: 'BUGINESE LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A0A, name: 'BUGINESE LETTER NA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_NA = "\u{1A0A}";
 
-    #[Info(id: 6667, name: 'BUGINESE LETTER NRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A0B, name: 'BUGINESE LETTER NRA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_NRA = "\u{1A0B}";
 
-    #[Info(id: 6668, name: 'BUGINESE LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A0C, name: 'BUGINESE LETTER CA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_CA = "\u{1A0C}";
 
-    #[Info(id: 6669, name: 'BUGINESE LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A0D, name: 'BUGINESE LETTER JA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_JA = "\u{1A0D}";
 
-    #[Info(id: 6670, name: 'BUGINESE LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A0E, name: 'BUGINESE LETTER NYA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_NYA = "\u{1A0E}";
 
-    #[Info(id: 6671, name: 'BUGINESE LETTER NYCA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A0F, name: 'BUGINESE LETTER NYCA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_NYCA = "\u{1A0F}";
 
-    #[Info(id: 6672, name: 'BUGINESE LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A10, name: 'BUGINESE LETTER YA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_YA = "\u{1A10}";
 
-    #[Info(id: 6673, name: 'BUGINESE LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A11, name: 'BUGINESE LETTER RA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_RA = "\u{1A11}";
 
-    #[Info(id: 6674, name: 'BUGINESE LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A12, name: 'BUGINESE LETTER LA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_LA = "\u{1A12}";
 
-    #[Info(id: 6675, name: 'BUGINESE LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A13, name: 'BUGINESE LETTER VA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_VA = "\u{1A13}";
 
-    #[Info(id: 6676, name: 'BUGINESE LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A14, name: 'BUGINESE LETTER SA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_SA = "\u{1A14}";
 
-    #[Info(id: 6677, name: 'BUGINESE LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A15, name: 'BUGINESE LETTER A', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_A = "\u{1A15}";
 
-    #[Info(id: 6678, name: 'BUGINESE LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1A16, name: 'BUGINESE LETTER HA', category: Cat::Other_Letter)]
     case BUGINESE_LETTER_HA = "\u{1A16}";
 
-    #[Info(id: 6679, name: 'BUGINESE VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1A17, name: 'BUGINESE VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case BUGINESE_VOWEL_SIGN_I = "\u{1A17}";
 
-    #[Info(id: 6680, name: 'BUGINESE VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1A18, name: 'BUGINESE VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case BUGINESE_VOWEL_SIGN_U = "\u{1A18}";
 
-    #[Info(id: 6681, name: 'BUGINESE VOWEL SIGN E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1A19, name: 'BUGINESE VOWEL SIGN E', category: Cat::Spacing_Mark)]
     case BUGINESE_VOWEL_SIGN_E = "\u{1A19}";
 
-    #[Info(id: 6682, name: 'BUGINESE VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1A1A, name: 'BUGINESE VOWEL SIGN O', category: Cat::Spacing_Mark)]
     case BUGINESE_VOWEL_SIGN_O = "\u{1A1A}";
 
-    #[Info(id: 6683, name: 'BUGINESE VOWEL SIGN AE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1A1B, name: 'BUGINESE VOWEL SIGN AE', category: Cat::Nonspacing_Mark)]
     case BUGINESE_VOWEL_SIGN_AE = "\u{1A1B}";
 
-    #[Info(id: 6686, name: 'BUGINESE PALLAWA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1A1E, name: 'BUGINESE PALLAWA', category: Cat::Other_Punctuation)]
     case BUGINESE_PALLAWA = "\u{1A1E}";
 
-    #[Info(id: 6687, name: 'BUGINESE END OF SECTION', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1A1F, name: 'BUGINESE END OF SECTION', category: Cat::Other_Punctuation)]
     case BUGINESE_END_OF_SECTION = "\u{1A1F}";
 }

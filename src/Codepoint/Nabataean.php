@@ -16,123 +16,123 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Nabataean: string
 {
-    #[Info(id: 67712, name: 'NABATAEAN LETTER FINAL ALEPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10880, name: 'NABATAEAN LETTER FINAL ALEPH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_FINAL_ALEPH = "\u{10880}";
 
-    #[Info(id: 67713, name: 'NABATAEAN LETTER ALEPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10881, name: 'NABATAEAN LETTER ALEPH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_ALEPH = "\u{10881}";
 
-    #[Info(id: 67714, name: 'NABATAEAN LETTER FINAL BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10882, name: 'NABATAEAN LETTER FINAL BETH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_FINAL_BETH = "\u{10882}";
 
-    #[Info(id: 67715, name: 'NABATAEAN LETTER BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10883, name: 'NABATAEAN LETTER BETH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_BETH = "\u{10883}";
 
-    #[Info(id: 67716, name: 'NABATAEAN LETTER GIMEL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10884, name: 'NABATAEAN LETTER GIMEL', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_GIMEL = "\u{10884}";
 
-    #[Info(id: 67717, name: 'NABATAEAN LETTER DALETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10885, name: 'NABATAEAN LETTER DALETH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_DALETH = "\u{10885}";
 
-    #[Info(id: 67718, name: 'NABATAEAN LETTER FINAL HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10886, name: 'NABATAEAN LETTER FINAL HE', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_FINAL_HE = "\u{10886}";
 
-    #[Info(id: 67719, name: 'NABATAEAN LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10887, name: 'NABATAEAN LETTER HE', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_HE = "\u{10887}";
 
-    #[Info(id: 67720, name: 'NABATAEAN LETTER WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10888, name: 'NABATAEAN LETTER WAW', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_WAW = "\u{10888}";
 
-    #[Info(id: 67721, name: 'NABATAEAN LETTER ZAYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10889, name: 'NABATAEAN LETTER ZAYIN', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_ZAYIN = "\u{10889}";
 
-    #[Info(id: 67722, name: 'NABATAEAN LETTER HETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1088A, name: 'NABATAEAN LETTER HETH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_HETH = "\u{1088A}";
 
-    #[Info(id: 67723, name: 'NABATAEAN LETTER TETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1088B, name: 'NABATAEAN LETTER TETH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_TETH = "\u{1088B}";
 
-    #[Info(id: 67724, name: 'NABATAEAN LETTER FINAL YODH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1088C, name: 'NABATAEAN LETTER FINAL YODH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_FINAL_YODH = "\u{1088C}";
 
-    #[Info(id: 67725, name: 'NABATAEAN LETTER YODH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1088D, name: 'NABATAEAN LETTER YODH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_YODH = "\u{1088D}";
 
-    #[Info(id: 67726, name: 'NABATAEAN LETTER FINAL KAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1088E, name: 'NABATAEAN LETTER FINAL KAPH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_FINAL_KAPH = "\u{1088E}";
 
-    #[Info(id: 67727, name: 'NABATAEAN LETTER KAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1088F, name: 'NABATAEAN LETTER KAPH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_KAPH = "\u{1088F}";
 
-    #[Info(id: 67728, name: 'NABATAEAN LETTER FINAL LAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10890, name: 'NABATAEAN LETTER FINAL LAMEDH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_FINAL_LAMEDH = "\u{10890}";
 
-    #[Info(id: 67729, name: 'NABATAEAN LETTER LAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10891, name: 'NABATAEAN LETTER LAMEDH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_LAMEDH = "\u{10891}";
 
-    #[Info(id: 67730, name: 'NABATAEAN LETTER FINAL MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x10892, name: 'NABATAEAN LETTER FINAL MEM', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_FINAL_MEM = "\u{10892}";
 
-    #[Info(id: 67731, name: 'NABATAEAN LETTER MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x10893, name: 'NABATAEAN LETTER MEM', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_MEM = "\u{10893}";
 
-    #[Info(id: 67732, name: 'NABATAEAN LETTER FINAL NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10894, name: 'NABATAEAN LETTER FINAL NUN', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_FINAL_NUN = "\u{10894}";
 
-    #[Info(id: 67733, name: 'NABATAEAN LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10895, name: 'NABATAEAN LETTER NUN', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_NUN = "\u{10895}";
 
-    #[Info(id: 67734, name: 'NABATAEAN LETTER SAMEKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10896, name: 'NABATAEAN LETTER SAMEKH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_SAMEKH = "\u{10896}";
 
-    #[Info(id: 67735, name: 'NABATAEAN LETTER AYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10897, name: 'NABATAEAN LETTER AYIN', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_AYIN = "\u{10897}";
 
-    #[Info(id: 67736, name: 'NABATAEAN LETTER PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10898, name: 'NABATAEAN LETTER PE', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_PE = "\u{10898}";
 
-    #[Info(id: 67737, name: 'NABATAEAN LETTER SADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10899, name: 'NABATAEAN LETTER SADHE', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_SADHE = "\u{10899}";
 
-    #[Info(id: 67738, name: 'NABATAEAN LETTER QOPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1089A, name: 'NABATAEAN LETTER QOPH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_QOPH = "\u{1089A}";
 
-    #[Info(id: 67739, name: 'NABATAEAN LETTER RESH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1089B, name: 'NABATAEAN LETTER RESH', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_RESH = "\u{1089B}";
 
-    #[Info(id: 67740, name: 'NABATAEAN LETTER FINAL SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1089C, name: 'NABATAEAN LETTER FINAL SHIN', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_FINAL_SHIN = "\u{1089C}";
 
-    #[Info(id: 67741, name: 'NABATAEAN LETTER SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1089D, name: 'NABATAEAN LETTER SHIN', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_SHIN = "\u{1089D}";
 
-    #[Info(id: 67742, name: 'NABATAEAN LETTER TAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1089E, name: 'NABATAEAN LETTER TAW', category: Cat::Other_Letter)]
     case NABATAEAN_LETTER_TAW = "\u{1089E}";
 
-    #[Info(id: 67751, name: 'NABATAEAN NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x108A7, name: 'NABATAEAN NUMBER ONE', category: Cat::Other_Number)]
     case NABATAEAN_NUMBER_ONE = "\u{108A7}";
 
-    #[Info(id: 67752, name: 'NABATAEAN NUMBER TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x108A8, name: 'NABATAEAN NUMBER TWO', category: Cat::Other_Number)]
     case NABATAEAN_NUMBER_TWO = "\u{108A8}";
 
-    #[Info(id: 67753, name: 'NABATAEAN NUMBER THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x108A9, name: 'NABATAEAN NUMBER THREE', category: Cat::Other_Number)]
     case NABATAEAN_NUMBER_THREE = "\u{108A9}";
 
-    #[Info(id: 67754, name: 'NABATAEAN NUMBER FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x108AA, name: 'NABATAEAN NUMBER FOUR', category: Cat::Other_Number)]
     case NABATAEAN_NUMBER_FOUR = "\u{108AA}";
 
-    #[Info(id: 67755, name: 'NABATAEAN CRUCIFORM NUMBER FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x108AB, name: 'NABATAEAN CRUCIFORM NUMBER FOUR', category: Cat::Other_Number)]
     case NABATAEAN_CRUCIFORM_NUMBER_FOUR = "\u{108AB}";
 
-    #[Info(id: 67756, name: 'NABATAEAN NUMBER FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x108AC, name: 'NABATAEAN NUMBER FIVE', category: Cat::Other_Number)]
     case NABATAEAN_NUMBER_FIVE = "\u{108AC}";
 
-    #[Info(id: 67757, name: 'NABATAEAN NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x108AD, name: 'NABATAEAN NUMBER TEN', category: Cat::Other_Number)]
     case NABATAEAN_NUMBER_TEN = "\u{108AD}";
 
-    #[Info(id: 67758, name: 'NABATAEAN NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x108AE, name: 'NABATAEAN NUMBER TWENTY', category: Cat::Other_Number)]
     case NABATAEAN_NUMBER_TWENTY = "\u{108AE}";
 
-    #[Info(id: 67759, name: 'NABATAEAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x108AF, name: 'NABATAEAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case NABATAEAN_NUMBER_ONE_HUNDRED = "\u{108AF}";
 }

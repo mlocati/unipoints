@@ -16,483 +16,483 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Myanmar: string
 {
-    #[Info(id: 4096, name: 'MYANMAR LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1000, name: 'MYANMAR LETTER KA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KA = "\u{1000}";
 
-    #[Info(id: 4097, name: 'MYANMAR LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1001, name: 'MYANMAR LETTER KHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_KHA = "\u{1001}";
 
-    #[Info(id: 4098, name: 'MYANMAR LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1002, name: 'MYANMAR LETTER GA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_GA = "\u{1002}";
 
-    #[Info(id: 4099, name: 'MYANMAR LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1003, name: 'MYANMAR LETTER GHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_GHA = "\u{1003}";
 
-    #[Info(id: 4100, name: 'MYANMAR LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1004, name: 'MYANMAR LETTER NGA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_NGA = "\u{1004}";
 
-    #[Info(id: 4101, name: 'MYANMAR LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1005, name: 'MYANMAR LETTER CA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_CA = "\u{1005}";
 
-    #[Info(id: 4102, name: 'MYANMAR LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1006, name: 'MYANMAR LETTER CHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_CHA = "\u{1006}";
 
-    #[Info(id: 4103, name: 'MYANMAR LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1007, name: 'MYANMAR LETTER JA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_JA = "\u{1007}";
 
-    #[Info(id: 4104, name: 'MYANMAR LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1008, name: 'MYANMAR LETTER JHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_JHA = "\u{1008}";
 
-    #[Info(id: 4105, name: 'MYANMAR LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1009, name: 'MYANMAR LETTER NYA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_NYA = "\u{1009}";
 
-    #[Info(id: 4106, name: 'MYANMAR LETTER NNYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A, name: 'MYANMAR LETTER NNYA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_NNYA = "\u{100A}";
 
-    #[Info(id: 4107, name: 'MYANMAR LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x100B, name: 'MYANMAR LETTER TTA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TTA = "\u{100B}";
 
-    #[Info(id: 4108, name: 'MYANMAR LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C, name: 'MYANMAR LETTER TTHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TTHA = "\u{100C}";
 
-    #[Info(id: 4109, name: 'MYANMAR LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x100D, name: 'MYANMAR LETTER DDA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_DDA = "\u{100D}";
 
-    #[Info(id: 4110, name: 'MYANMAR LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x100E, name: 'MYANMAR LETTER DDHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_DDHA = "\u{100E}";
 
-    #[Info(id: 4111, name: 'MYANMAR LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x100F, name: 'MYANMAR LETTER NNA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_NNA = "\u{100F}";
 
-    #[Info(id: 4112, name: 'MYANMAR LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1010, name: 'MYANMAR LETTER TA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_TA = "\u{1010}";
 
-    #[Info(id: 4113, name: 'MYANMAR LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1011, name: 'MYANMAR LETTER THA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_THA = "\u{1011}";
 
-    #[Info(id: 4114, name: 'MYANMAR LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1012, name: 'MYANMAR LETTER DA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_DA = "\u{1012}";
 
-    #[Info(id: 4115, name: 'MYANMAR LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1013, name: 'MYANMAR LETTER DHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_DHA = "\u{1013}";
 
-    #[Info(id: 4116, name: 'MYANMAR LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1014, name: 'MYANMAR LETTER NA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_NA = "\u{1014}";
 
-    #[Info(id: 4117, name: 'MYANMAR LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1015, name: 'MYANMAR LETTER PA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_PA = "\u{1015}";
 
-    #[Info(id: 4118, name: 'MYANMAR LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1016, name: 'MYANMAR LETTER PHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_PHA = "\u{1016}";
 
-    #[Info(id: 4119, name: 'MYANMAR LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1017, name: 'MYANMAR LETTER BA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_BA = "\u{1017}";
 
-    #[Info(id: 4120, name: 'MYANMAR LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1018, name: 'MYANMAR LETTER BHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_BHA = "\u{1018}";
 
-    #[Info(id: 4121, name: 'MYANMAR LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1019, name: 'MYANMAR LETTER MA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_MA = "\u{1019}";
 
-    #[Info(id: 4122, name: 'MYANMAR LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x101A, name: 'MYANMAR LETTER YA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_YA = "\u{101A}";
 
-    #[Info(id: 4123, name: 'MYANMAR LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x101B, name: 'MYANMAR LETTER RA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_RA = "\u{101B}";
 
-    #[Info(id: 4124, name: 'MYANMAR LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x101C, name: 'MYANMAR LETTER LA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_LA = "\u{101C}";
 
-    #[Info(id: 4125, name: 'MYANMAR LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x101D, name: 'MYANMAR LETTER WA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_WA = "\u{101D}";
 
-    #[Info(id: 4126, name: 'MYANMAR LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x101E, name: 'MYANMAR LETTER SA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SA = "\u{101E}";
 
-    #[Info(id: 4127, name: 'MYANMAR LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x101F, name: 'MYANMAR LETTER HA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_HA = "\u{101F}";
 
-    #[Info(id: 4128, name: 'MYANMAR LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1020, name: 'MYANMAR LETTER LLA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_LLA = "\u{1020}";
 
-    #[Info(id: 4129, name: 'MYANMAR LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1021, name: 'MYANMAR LETTER A', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_A = "\u{1021}";
 
-    #[Info(id: 4130, name: 'MYANMAR LETTER SHAN A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1022, name: 'MYANMAR LETTER SHAN A', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_A = "\u{1022}";
 
-    #[Info(id: 4131, name: 'MYANMAR LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1023, name: 'MYANMAR LETTER I', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_I = "\u{1023}";
 
-    #[Info(id: 4132, name: 'MYANMAR LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x1024, name: 'MYANMAR LETTER II', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_II = "\u{1024}";
 
-    #[Info(id: 4133, name: 'MYANMAR LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1025, name: 'MYANMAR LETTER U', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_U = "\u{1025}";
 
-    #[Info(id: 4134, name: 'MYANMAR LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1026, name: 'MYANMAR LETTER UU', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_UU = "\u{1026}";
 
-    #[Info(id: 4135, name: 'MYANMAR LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1027, name: 'MYANMAR LETTER E', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_E = "\u{1027}";
 
-    #[Info(id: 4136, name: 'MYANMAR LETTER MON E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1028, name: 'MYANMAR LETTER MON E', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_MON_E = "\u{1028}";
 
-    #[Info(id: 4137, name: 'MYANMAR LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1029, name: 'MYANMAR LETTER O', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_O = "\u{1029}";
 
-    #[Info(id: 4138, name: 'MYANMAR LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x102A, name: 'MYANMAR LETTER AU', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_AU = "\u{102A}";
 
-    #[Info(id: 4139, name: 'MYANMAR VOWEL SIGN TALL AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x102B, name: 'MYANMAR VOWEL SIGN TALL AA', category: Cat::Spacing_Mark)]
     case MYANMAR_VOWEL_SIGN_TALL_AA = "\u{102B}";
 
-    #[Info(id: 4140, name: 'MYANMAR VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x102C, name: 'MYANMAR VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case MYANMAR_VOWEL_SIGN_AA = "\u{102C}";
 
-    #[Info(id: 4141, name: 'MYANMAR VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x102D, name: 'MYANMAR VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_I = "\u{102D}";
 
-    #[Info(id: 4142, name: 'MYANMAR VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x102E, name: 'MYANMAR VOWEL SIGN II', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_II = "\u{102E}";
 
-    #[Info(id: 4143, name: 'MYANMAR VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x102F, name: 'MYANMAR VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_U = "\u{102F}";
 
-    #[Info(id: 4144, name: 'MYANMAR VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1030, name: 'MYANMAR VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_UU = "\u{1030}";
 
-    #[Info(id: 4145, name: 'MYANMAR VOWEL SIGN E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1031, name: 'MYANMAR VOWEL SIGN E', category: Cat::Spacing_Mark)]
     case MYANMAR_VOWEL_SIGN_E = "\u{1031}";
 
-    #[Info(id: 4146, name: 'MYANMAR VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1032, name: 'MYANMAR VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_AI = "\u{1032}";
 
-    #[Info(id: 4147, name: 'MYANMAR VOWEL SIGN MON II', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1033, name: 'MYANMAR VOWEL SIGN MON II', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_MON_II = "\u{1033}";
 
-    #[Info(id: 4148, name: 'MYANMAR VOWEL SIGN MON O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1034, name: 'MYANMAR VOWEL SIGN MON O', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_MON_O = "\u{1034}";
 
-    #[Info(id: 4149, name: 'MYANMAR VOWEL SIGN E ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1035, name: 'MYANMAR VOWEL SIGN E ABOVE', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_E_ABOVE = "\u{1035}";
 
-    #[Info(id: 4150, name: 'MYANMAR SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1036, name: 'MYANMAR SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case MYANMAR_SIGN_ANUSVARA = "\u{1036}";
 
-    #[Info(id: 4151, name: 'MYANMAR SIGN DOT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1037, name: 'MYANMAR SIGN DOT BELOW', category: Cat::Nonspacing_Mark)]
     case MYANMAR_SIGN_DOT_BELOW = "\u{1037}";
 
-    #[Info(id: 4152, name: 'MYANMAR SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1038, name: 'MYANMAR SIGN VISARGA', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_VISARGA = "\u{1038}";
 
-    #[Info(id: 4153, name: 'MYANMAR SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1039, name: 'MYANMAR SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case MYANMAR_SIGN_VIRAMA = "\u{1039}";
 
-    #[Info(id: 4154, name: 'MYANMAR SIGN ASAT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x103A, name: 'MYANMAR SIGN ASAT', category: Cat::Nonspacing_Mark)]
     case MYANMAR_SIGN_ASAT = "\u{103A}";
 
-    #[Info(id: 4155, name: 'MYANMAR CONSONANT SIGN MEDIAL YA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x103B, name: 'MYANMAR CONSONANT SIGN MEDIAL YA', category: Cat::Spacing_Mark)]
     case MYANMAR_CONSONANT_SIGN_MEDIAL_YA = "\u{103B}";
 
-    #[Info(id: 4156, name: 'MYANMAR CONSONANT SIGN MEDIAL RA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x103C, name: 'MYANMAR CONSONANT SIGN MEDIAL RA', category: Cat::Spacing_Mark)]
     case MYANMAR_CONSONANT_SIGN_MEDIAL_RA = "\u{103C}";
 
-    #[Info(id: 4157, name: 'MYANMAR CONSONANT SIGN MEDIAL WA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x103D, name: 'MYANMAR CONSONANT SIGN MEDIAL WA', category: Cat::Nonspacing_Mark)]
     case MYANMAR_CONSONANT_SIGN_MEDIAL_WA = "\u{103D}";
 
-    #[Info(id: 4158, name: 'MYANMAR CONSONANT SIGN MEDIAL HA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x103E, name: 'MYANMAR CONSONANT SIGN MEDIAL HA', category: Cat::Nonspacing_Mark)]
     case MYANMAR_CONSONANT_SIGN_MEDIAL_HA = "\u{103E}";
 
-    #[Info(id: 4159, name: 'MYANMAR LETTER GREAT SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x103F, name: 'MYANMAR LETTER GREAT SA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_GREAT_SA = "\u{103F}";
 
-    #[Info(id: 4160, name: 'MYANMAR DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1040, name: 'MYANMAR DIGIT ZERO', category: Cat::Decimal_Number)]
     case MYANMAR_DIGIT_ZERO = "\u{1040}";
 
-    #[Info(id: 4161, name: 'MYANMAR DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1041, name: 'MYANMAR DIGIT ONE', category: Cat::Decimal_Number)]
     case MYANMAR_DIGIT_ONE = "\u{1041}";
 
-    #[Info(id: 4162, name: 'MYANMAR DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1042, name: 'MYANMAR DIGIT TWO', category: Cat::Decimal_Number)]
     case MYANMAR_DIGIT_TWO = "\u{1042}";
 
-    #[Info(id: 4163, name: 'MYANMAR DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1043, name: 'MYANMAR DIGIT THREE', category: Cat::Decimal_Number)]
     case MYANMAR_DIGIT_THREE = "\u{1043}";
 
-    #[Info(id: 4164, name: 'MYANMAR DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1044, name: 'MYANMAR DIGIT FOUR', category: Cat::Decimal_Number)]
     case MYANMAR_DIGIT_FOUR = "\u{1044}";
 
-    #[Info(id: 4165, name: 'MYANMAR DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1045, name: 'MYANMAR DIGIT FIVE', category: Cat::Decimal_Number)]
     case MYANMAR_DIGIT_FIVE = "\u{1045}";
 
-    #[Info(id: 4166, name: 'MYANMAR DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1046, name: 'MYANMAR DIGIT SIX', category: Cat::Decimal_Number)]
     case MYANMAR_DIGIT_SIX = "\u{1046}";
 
-    #[Info(id: 4167, name: 'MYANMAR DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1047, name: 'MYANMAR DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MYANMAR_DIGIT_SEVEN = "\u{1047}";
 
-    #[Info(id: 4168, name: 'MYANMAR DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1048, name: 'MYANMAR DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MYANMAR_DIGIT_EIGHT = "\u{1048}";
 
-    #[Info(id: 4169, name: 'MYANMAR DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1049, name: 'MYANMAR DIGIT NINE', category: Cat::Decimal_Number)]
     case MYANMAR_DIGIT_NINE = "\u{1049}";
 
-    #[Info(id: 4170, name: 'MYANMAR SIGN LITTLE SECTION', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x104A, name: 'MYANMAR SIGN LITTLE SECTION', category: Cat::Other_Punctuation)]
     case MYANMAR_SIGN_LITTLE_SECTION = "\u{104A}";
 
-    #[Info(id: 4171, name: 'MYANMAR SIGN SECTION', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x104B, name: 'MYANMAR SIGN SECTION', category: Cat::Other_Punctuation)]
     case MYANMAR_SIGN_SECTION = "\u{104B}";
 
-    #[Info(id: 4172, name: 'MYANMAR SYMBOL LOCATIVE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x104C, name: 'MYANMAR SYMBOL LOCATIVE', category: Cat::Other_Punctuation)]
     case MYANMAR_SYMBOL_LOCATIVE = "\u{104C}";
 
-    #[Info(id: 4173, name: 'MYANMAR SYMBOL COMPLETED', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x104D, name: 'MYANMAR SYMBOL COMPLETED', category: Cat::Other_Punctuation)]
     case MYANMAR_SYMBOL_COMPLETED = "\u{104D}";
 
-    #[Info(id: 4174, name: 'MYANMAR SYMBOL AFOREMENTIONED', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x104E, name: 'MYANMAR SYMBOL AFOREMENTIONED', category: Cat::Other_Punctuation)]
     case MYANMAR_SYMBOL_AFOREMENTIONED = "\u{104E}";
 
-    #[Info(id: 4175, name: 'MYANMAR SYMBOL GENITIVE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x104F, name: 'MYANMAR SYMBOL GENITIVE', category: Cat::Other_Punctuation)]
     case MYANMAR_SYMBOL_GENITIVE = "\u{104F}";
 
-    #[Info(id: 4176, name: 'MYANMAR LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1050, name: 'MYANMAR LETTER SHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHA = "\u{1050}";
 
-    #[Info(id: 4177, name: 'MYANMAR LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1051, name: 'MYANMAR LETTER SSA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SSA = "\u{1051}";
 
-    #[Info(id: 4178, name: 'MYANMAR LETTER VOCALIC R', category: Cat::Other_Letter)]
+    #[Info(id: 0x1052, name: 'MYANMAR LETTER VOCALIC R', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_VOCALIC_R = "\u{1052}";
 
-    #[Info(id: 4179, name: 'MYANMAR LETTER VOCALIC RR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1053, name: 'MYANMAR LETTER VOCALIC RR', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_VOCALIC_RR = "\u{1053}";
 
-    #[Info(id: 4180, name: 'MYANMAR LETTER VOCALIC L', category: Cat::Other_Letter)]
+    #[Info(id: 0x1054, name: 'MYANMAR LETTER VOCALIC L', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_VOCALIC_L = "\u{1054}";
 
-    #[Info(id: 4181, name: 'MYANMAR LETTER VOCALIC LL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1055, name: 'MYANMAR LETTER VOCALIC LL', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_VOCALIC_LL = "\u{1055}";
 
-    #[Info(id: 4182, name: 'MYANMAR VOWEL SIGN VOCALIC R', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1056, name: 'MYANMAR VOWEL SIGN VOCALIC R', category: Cat::Spacing_Mark)]
     case MYANMAR_VOWEL_SIGN_VOCALIC_R = "\u{1056}";
 
-    #[Info(id: 4183, name: 'MYANMAR VOWEL SIGN VOCALIC RR', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1057, name: 'MYANMAR VOWEL SIGN VOCALIC RR', category: Cat::Spacing_Mark)]
     case MYANMAR_VOWEL_SIGN_VOCALIC_RR = "\u{1057}";
 
-    #[Info(id: 4184, name: 'MYANMAR VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1058, name: 'MYANMAR VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_VOCALIC_L = "\u{1058}";
 
-    #[Info(id: 4185, name: 'MYANMAR VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1059, name: 'MYANMAR VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_VOCALIC_LL = "\u{1059}";
 
-    #[Info(id: 4186, name: 'MYANMAR LETTER MON NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x105A, name: 'MYANMAR LETTER MON NGA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_MON_NGA = "\u{105A}";
 
-    #[Info(id: 4187, name: 'MYANMAR LETTER MON JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x105B, name: 'MYANMAR LETTER MON JHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_MON_JHA = "\u{105B}";
 
-    #[Info(id: 4188, name: 'MYANMAR LETTER MON BBA', category: Cat::Other_Letter)]
+    #[Info(id: 0x105C, name: 'MYANMAR LETTER MON BBA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_MON_BBA = "\u{105C}";
 
-    #[Info(id: 4189, name: 'MYANMAR LETTER MON BBE', category: Cat::Other_Letter)]
+    #[Info(id: 0x105D, name: 'MYANMAR LETTER MON BBE', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_MON_BBE = "\u{105D}";
 
-    #[Info(id: 4190, name: 'MYANMAR CONSONANT SIGN MON MEDIAL NA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x105E, name: 'MYANMAR CONSONANT SIGN MON MEDIAL NA', category: Cat::Nonspacing_Mark)]
     case MYANMAR_CONSONANT_SIGN_MON_MEDIAL_NA = "\u{105E}";
 
-    #[Info(id: 4191, name: 'MYANMAR CONSONANT SIGN MON MEDIAL MA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x105F, name: 'MYANMAR CONSONANT SIGN MON MEDIAL MA', category: Cat::Nonspacing_Mark)]
     case MYANMAR_CONSONANT_SIGN_MON_MEDIAL_MA = "\u{105F}";
 
-    #[Info(id: 4192, name: 'MYANMAR CONSONANT SIGN MON MEDIAL LA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1060, name: 'MYANMAR CONSONANT SIGN MON MEDIAL LA', category: Cat::Nonspacing_Mark)]
     case MYANMAR_CONSONANT_SIGN_MON_MEDIAL_LA = "\u{1060}";
 
-    #[Info(id: 4193, name: 'MYANMAR LETTER SGAW KAREN SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1061, name: 'MYANMAR LETTER SGAW KAREN SHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SGAW_KAREN_SHA = "\u{1061}";
 
-    #[Info(id: 4194, name: 'MYANMAR VOWEL SIGN SGAW KAREN EU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1062, name: 'MYANMAR VOWEL SIGN SGAW KAREN EU', category: Cat::Spacing_Mark)]
     case MYANMAR_VOWEL_SIGN_SGAW_KAREN_EU = "\u{1062}";
 
-    #[Info(id: 4195, name: 'MYANMAR TONE MARK SGAW KAREN HATHI', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1063, name: 'MYANMAR TONE MARK SGAW KAREN HATHI', category: Cat::Spacing_Mark)]
     case MYANMAR_TONE_MARK_SGAW_KAREN_HATHI = "\u{1063}";
 
-    #[Info(id: 4196, name: 'MYANMAR TONE MARK SGAW KAREN KE PHO', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1064, name: 'MYANMAR TONE MARK SGAW KAREN KE PHO', category: Cat::Spacing_Mark)]
     case MYANMAR_TONE_MARK_SGAW_KAREN_KE_PHO = "\u{1064}";
 
-    #[Info(id: 4197, name: 'MYANMAR LETTER WESTERN PWO KAREN THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1065, name: 'MYANMAR LETTER WESTERN PWO KAREN THA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_WESTERN_PWO_KAREN_THA = "\u{1065}";
 
-    #[Info(id: 4198, name: 'MYANMAR LETTER WESTERN PWO KAREN PWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1066, name: 'MYANMAR LETTER WESTERN PWO KAREN PWA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_WESTERN_PWO_KAREN_PWA = "\u{1066}";
 
-    #[Info(id: 4199, name: 'MYANMAR VOWEL SIGN WESTERN PWO KAREN EU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1067, name: 'MYANMAR VOWEL SIGN WESTERN PWO KAREN EU', category: Cat::Spacing_Mark)]
     case MYANMAR_VOWEL_SIGN_WESTERN_PWO_KAREN_EU = "\u{1067}";
 
-    #[Info(id: 4200, name: 'MYANMAR VOWEL SIGN WESTERN PWO KAREN UE', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1068, name: 'MYANMAR VOWEL SIGN WESTERN PWO KAREN UE', category: Cat::Spacing_Mark)]
     case MYANMAR_VOWEL_SIGN_WESTERN_PWO_KAREN_UE = "\u{1068}";
 
-    #[Info(id: 4201, name: 'MYANMAR SIGN WESTERN PWO KAREN TONE-1', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1069, name: 'MYANMAR SIGN WESTERN PWO KAREN TONE-1', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_WESTERN_PWO_KAREN_TONE_1 = "\u{1069}";
 
-    #[Info(id: 4202, name: 'MYANMAR SIGN WESTERN PWO KAREN TONE-2', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x106A, name: 'MYANMAR SIGN WESTERN PWO KAREN TONE-2', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_WESTERN_PWO_KAREN_TONE_2 = "\u{106A}";
 
-    #[Info(id: 4203, name: 'MYANMAR SIGN WESTERN PWO KAREN TONE-3', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x106B, name: 'MYANMAR SIGN WESTERN PWO KAREN TONE-3', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_WESTERN_PWO_KAREN_TONE_3 = "\u{106B}";
 
-    #[Info(id: 4204, name: 'MYANMAR SIGN WESTERN PWO KAREN TONE-4', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x106C, name: 'MYANMAR SIGN WESTERN PWO KAREN TONE-4', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_WESTERN_PWO_KAREN_TONE_4 = "\u{106C}";
 
-    #[Info(id: 4205, name: 'MYANMAR SIGN WESTERN PWO KAREN TONE-5', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x106D, name: 'MYANMAR SIGN WESTERN PWO KAREN TONE-5', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_WESTERN_PWO_KAREN_TONE_5 = "\u{106D}";
 
-    #[Info(id: 4206, name: 'MYANMAR LETTER EASTERN PWO KAREN NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x106E, name: 'MYANMAR LETTER EASTERN PWO KAREN NNA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_EASTERN_PWO_KAREN_NNA = "\u{106E}";
 
-    #[Info(id: 4207, name: 'MYANMAR LETTER EASTERN PWO KAREN YWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x106F, name: 'MYANMAR LETTER EASTERN PWO KAREN YWA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_EASTERN_PWO_KAREN_YWA = "\u{106F}";
 
-    #[Info(id: 4208, name: 'MYANMAR LETTER EASTERN PWO KAREN GHWA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1070, name: 'MYANMAR LETTER EASTERN PWO KAREN GHWA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_EASTERN_PWO_KAREN_GHWA = "\u{1070}";
 
-    #[Info(id: 4209, name: 'MYANMAR VOWEL SIGN GEBA KAREN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1071, name: 'MYANMAR VOWEL SIGN GEBA KAREN I', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_GEBA_KAREN_I = "\u{1071}";
 
-    #[Info(id: 4210, name: 'MYANMAR VOWEL SIGN KAYAH OE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1072, name: 'MYANMAR VOWEL SIGN KAYAH OE', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_KAYAH_OE = "\u{1072}";
 
-    #[Info(id: 4211, name: 'MYANMAR VOWEL SIGN KAYAH U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1073, name: 'MYANMAR VOWEL SIGN KAYAH U', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_KAYAH_U = "\u{1073}";
 
-    #[Info(id: 4212, name: 'MYANMAR VOWEL SIGN KAYAH EE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1074, name: 'MYANMAR VOWEL SIGN KAYAH EE', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_KAYAH_EE = "\u{1074}";
 
-    #[Info(id: 4213, name: 'MYANMAR LETTER SHAN KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1075, name: 'MYANMAR LETTER SHAN KA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_KA = "\u{1075}";
 
-    #[Info(id: 4214, name: 'MYANMAR LETTER SHAN KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1076, name: 'MYANMAR LETTER SHAN KHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_KHA = "\u{1076}";
 
-    #[Info(id: 4215, name: 'MYANMAR LETTER SHAN GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1077, name: 'MYANMAR LETTER SHAN GA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_GA = "\u{1077}";
 
-    #[Info(id: 4216, name: 'MYANMAR LETTER SHAN CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1078, name: 'MYANMAR LETTER SHAN CA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_CA = "\u{1078}";
 
-    #[Info(id: 4217, name: 'MYANMAR LETTER SHAN ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1079, name: 'MYANMAR LETTER SHAN ZA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_ZA = "\u{1079}";
 
-    #[Info(id: 4218, name: 'MYANMAR LETTER SHAN NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x107A, name: 'MYANMAR LETTER SHAN NYA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_NYA = "\u{107A}";
 
-    #[Info(id: 4219, name: 'MYANMAR LETTER SHAN DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x107B, name: 'MYANMAR LETTER SHAN DA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_DA = "\u{107B}";
 
-    #[Info(id: 4220, name: 'MYANMAR LETTER SHAN NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x107C, name: 'MYANMAR LETTER SHAN NA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_NA = "\u{107C}";
 
-    #[Info(id: 4221, name: 'MYANMAR LETTER SHAN PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x107D, name: 'MYANMAR LETTER SHAN PHA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_PHA = "\u{107D}";
 
-    #[Info(id: 4222, name: 'MYANMAR LETTER SHAN FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x107E, name: 'MYANMAR LETTER SHAN FA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_FA = "\u{107E}";
 
-    #[Info(id: 4223, name: 'MYANMAR LETTER SHAN BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x107F, name: 'MYANMAR LETTER SHAN BA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_BA = "\u{107F}";
 
-    #[Info(id: 4224, name: 'MYANMAR LETTER SHAN THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1080, name: 'MYANMAR LETTER SHAN THA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_THA = "\u{1080}";
 
-    #[Info(id: 4225, name: 'MYANMAR LETTER SHAN HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1081, name: 'MYANMAR LETTER SHAN HA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_SHAN_HA = "\u{1081}";
 
-    #[Info(id: 4226, name: 'MYANMAR CONSONANT SIGN SHAN MEDIAL WA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1082, name: 'MYANMAR CONSONANT SIGN SHAN MEDIAL WA', category: Cat::Nonspacing_Mark)]
     case MYANMAR_CONSONANT_SIGN_SHAN_MEDIAL_WA = "\u{1082}";
 
-    #[Info(id: 4227, name: 'MYANMAR VOWEL SIGN SHAN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1083, name: 'MYANMAR VOWEL SIGN SHAN AA', category: Cat::Spacing_Mark)]
     case MYANMAR_VOWEL_SIGN_SHAN_AA = "\u{1083}";
 
-    #[Info(id: 4228, name: 'MYANMAR VOWEL SIGN SHAN E', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1084, name: 'MYANMAR VOWEL SIGN SHAN E', category: Cat::Spacing_Mark)]
     case MYANMAR_VOWEL_SIGN_SHAN_E = "\u{1084}";
 
-    #[Info(id: 4229, name: 'MYANMAR VOWEL SIGN SHAN E ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1085, name: 'MYANMAR VOWEL SIGN SHAN E ABOVE', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_SHAN_E_ABOVE = "\u{1085}";
 
-    #[Info(id: 4230, name: 'MYANMAR VOWEL SIGN SHAN FINAL Y', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1086, name: 'MYANMAR VOWEL SIGN SHAN FINAL Y', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_SHAN_FINAL_Y = "\u{1086}";
 
-    #[Info(id: 4231, name: 'MYANMAR SIGN SHAN TONE-2', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1087, name: 'MYANMAR SIGN SHAN TONE-2', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_SHAN_TONE_2 = "\u{1087}";
 
-    #[Info(id: 4232, name: 'MYANMAR SIGN SHAN TONE-3', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1088, name: 'MYANMAR SIGN SHAN TONE-3', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_SHAN_TONE_3 = "\u{1088}";
 
-    #[Info(id: 4233, name: 'MYANMAR SIGN SHAN TONE-5', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1089, name: 'MYANMAR SIGN SHAN TONE-5', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_SHAN_TONE_5 = "\u{1089}";
 
-    #[Info(id: 4234, name: 'MYANMAR SIGN SHAN TONE-6', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x108A, name: 'MYANMAR SIGN SHAN TONE-6', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_SHAN_TONE_6 = "\u{108A}";
 
-    #[Info(id: 4235, name: 'MYANMAR SIGN SHAN COUNCIL TONE-2', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x108B, name: 'MYANMAR SIGN SHAN COUNCIL TONE-2', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_SHAN_COUNCIL_TONE_2 = "\u{108B}";
 
-    #[Info(id: 4236, name: 'MYANMAR SIGN SHAN COUNCIL TONE-3', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x108C, name: 'MYANMAR SIGN SHAN COUNCIL TONE-3', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_SHAN_COUNCIL_TONE_3 = "\u{108C}";
 
-    #[Info(id: 4237, name: 'MYANMAR SIGN SHAN COUNCIL EMPHATIC TONE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x108D, name: 'MYANMAR SIGN SHAN COUNCIL EMPHATIC TONE', category: Cat::Nonspacing_Mark)]
     case MYANMAR_SIGN_SHAN_COUNCIL_EMPHATIC_TONE = "\u{108D}";
 
-    #[Info(id: 4238, name: 'MYANMAR LETTER RUMAI PALAUNG FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x108E, name: 'MYANMAR LETTER RUMAI PALAUNG FA', category: Cat::Other_Letter)]
     case MYANMAR_LETTER_RUMAI_PALAUNG_FA = "\u{108E}";
 
-    #[Info(id: 4239, name: 'MYANMAR SIGN RUMAI PALAUNG TONE-5', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x108F, name: 'MYANMAR SIGN RUMAI PALAUNG TONE-5', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_RUMAI_PALAUNG_TONE_5 = "\u{108F}";
 
-    #[Info(id: 4240, name: 'MYANMAR SHAN DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1090, name: 'MYANMAR SHAN DIGIT ZERO', category: Cat::Decimal_Number)]
     case MYANMAR_SHAN_DIGIT_ZERO = "\u{1090}";
 
-    #[Info(id: 4241, name: 'MYANMAR SHAN DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1091, name: 'MYANMAR SHAN DIGIT ONE', category: Cat::Decimal_Number)]
     case MYANMAR_SHAN_DIGIT_ONE = "\u{1091}";
 
-    #[Info(id: 4242, name: 'MYANMAR SHAN DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1092, name: 'MYANMAR SHAN DIGIT TWO', category: Cat::Decimal_Number)]
     case MYANMAR_SHAN_DIGIT_TWO = "\u{1092}";
 
-    #[Info(id: 4243, name: 'MYANMAR SHAN DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1093, name: 'MYANMAR SHAN DIGIT THREE', category: Cat::Decimal_Number)]
     case MYANMAR_SHAN_DIGIT_THREE = "\u{1093}";
 
-    #[Info(id: 4244, name: 'MYANMAR SHAN DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1094, name: 'MYANMAR SHAN DIGIT FOUR', category: Cat::Decimal_Number)]
     case MYANMAR_SHAN_DIGIT_FOUR = "\u{1094}";
 
-    #[Info(id: 4245, name: 'MYANMAR SHAN DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1095, name: 'MYANMAR SHAN DIGIT FIVE', category: Cat::Decimal_Number)]
     case MYANMAR_SHAN_DIGIT_FIVE = "\u{1095}";
 
-    #[Info(id: 4246, name: 'MYANMAR SHAN DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1096, name: 'MYANMAR SHAN DIGIT SIX', category: Cat::Decimal_Number)]
     case MYANMAR_SHAN_DIGIT_SIX = "\u{1096}";
 
-    #[Info(id: 4247, name: 'MYANMAR SHAN DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1097, name: 'MYANMAR SHAN DIGIT SEVEN', category: Cat::Decimal_Number)]
     case MYANMAR_SHAN_DIGIT_SEVEN = "\u{1097}";
 
-    #[Info(id: 4248, name: 'MYANMAR SHAN DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1098, name: 'MYANMAR SHAN DIGIT EIGHT', category: Cat::Decimal_Number)]
     case MYANMAR_SHAN_DIGIT_EIGHT = "\u{1098}";
 
-    #[Info(id: 4249, name: 'MYANMAR SHAN DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1099, name: 'MYANMAR SHAN DIGIT NINE', category: Cat::Decimal_Number)]
     case MYANMAR_SHAN_DIGIT_NINE = "\u{1099}";
 
-    #[Info(id: 4250, name: 'MYANMAR SIGN KHAMTI TONE-1', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x109A, name: 'MYANMAR SIGN KHAMTI TONE-1', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_KHAMTI_TONE_1 = "\u{109A}";
 
-    #[Info(id: 4251, name: 'MYANMAR SIGN KHAMTI TONE-3', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x109B, name: 'MYANMAR SIGN KHAMTI TONE-3', category: Cat::Spacing_Mark)]
     case MYANMAR_SIGN_KHAMTI_TONE_3 = "\u{109B}";
 
-    #[Info(id: 4252, name: 'MYANMAR VOWEL SIGN AITON A', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x109C, name: 'MYANMAR VOWEL SIGN AITON A', category: Cat::Spacing_Mark)]
     case MYANMAR_VOWEL_SIGN_AITON_A = "\u{109C}";
 
-    #[Info(id: 4253, name: 'MYANMAR VOWEL SIGN AITON AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x109D, name: 'MYANMAR VOWEL SIGN AITON AI', category: Cat::Nonspacing_Mark)]
     case MYANMAR_VOWEL_SIGN_AITON_AI = "\u{109D}";
 
-    #[Info(id: 4254, name: 'MYANMAR SYMBOL SHAN ONE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x109E, name: 'MYANMAR SYMBOL SHAN ONE', category: Cat::Other_Symbol)]
     case MYANMAR_SYMBOL_SHAN_ONE = "\u{109E}";
 
-    #[Info(id: 4255, name: 'MYANMAR SYMBOL SHAN EXCLAMATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x109F, name: 'MYANMAR SYMBOL SHAN EXCLAMATION', category: Cat::Other_Symbol)]
     case MYANMAR_SYMBOL_SHAN_EXCLAMATION = "\u{109F}";
 }

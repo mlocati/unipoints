@@ -16,99 +16,99 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Palmyrene: string
 {
-    #[Info(id: 67680, name: 'PALMYRENE LETTER ALEPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10860, name: 'PALMYRENE LETTER ALEPH', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_ALEPH = "\u{10860}";
 
-    #[Info(id: 67681, name: 'PALMYRENE LETTER BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10861, name: 'PALMYRENE LETTER BETH', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_BETH = "\u{10861}";
 
-    #[Info(id: 67682, name: 'PALMYRENE LETTER GIMEL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10862, name: 'PALMYRENE LETTER GIMEL', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_GIMEL = "\u{10862}";
 
-    #[Info(id: 67683, name: 'PALMYRENE LETTER DALETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10863, name: 'PALMYRENE LETTER DALETH', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_DALETH = "\u{10863}";
 
-    #[Info(id: 67684, name: 'PALMYRENE LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10864, name: 'PALMYRENE LETTER HE', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_HE = "\u{10864}";
 
-    #[Info(id: 67685, name: 'PALMYRENE LETTER WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10865, name: 'PALMYRENE LETTER WAW', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_WAW = "\u{10865}";
 
-    #[Info(id: 67686, name: 'PALMYRENE LETTER ZAYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10866, name: 'PALMYRENE LETTER ZAYIN', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_ZAYIN = "\u{10866}";
 
-    #[Info(id: 67687, name: 'PALMYRENE LETTER HETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10867, name: 'PALMYRENE LETTER HETH', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_HETH = "\u{10867}";
 
-    #[Info(id: 67688, name: 'PALMYRENE LETTER TETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10868, name: 'PALMYRENE LETTER TETH', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_TETH = "\u{10868}";
 
-    #[Info(id: 67689, name: 'PALMYRENE LETTER YODH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10869, name: 'PALMYRENE LETTER YODH', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_YODH = "\u{10869}";
 
-    #[Info(id: 67690, name: 'PALMYRENE LETTER KAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1086A, name: 'PALMYRENE LETTER KAPH', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_KAPH = "\u{1086A}";
 
-    #[Info(id: 67691, name: 'PALMYRENE LETTER LAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1086B, name: 'PALMYRENE LETTER LAMEDH', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_LAMEDH = "\u{1086B}";
 
-    #[Info(id: 67692, name: 'PALMYRENE LETTER MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1086C, name: 'PALMYRENE LETTER MEM', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_MEM = "\u{1086C}";
 
-    #[Info(id: 67693, name: 'PALMYRENE LETTER FINAL NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1086D, name: 'PALMYRENE LETTER FINAL NUN', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_FINAL_NUN = "\u{1086D}";
 
-    #[Info(id: 67694, name: 'PALMYRENE LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1086E, name: 'PALMYRENE LETTER NUN', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_NUN = "\u{1086E}";
 
-    #[Info(id: 67695, name: 'PALMYRENE LETTER SAMEKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1086F, name: 'PALMYRENE LETTER SAMEKH', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_SAMEKH = "\u{1086F}";
 
-    #[Info(id: 67696, name: 'PALMYRENE LETTER AYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10870, name: 'PALMYRENE LETTER AYIN', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_AYIN = "\u{10870}";
 
-    #[Info(id: 67697, name: 'PALMYRENE LETTER PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10871, name: 'PALMYRENE LETTER PE', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_PE = "\u{10871}";
 
-    #[Info(id: 67698, name: 'PALMYRENE LETTER SADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10872, name: 'PALMYRENE LETTER SADHE', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_SADHE = "\u{10872}";
 
-    #[Info(id: 67699, name: 'PALMYRENE LETTER QOPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10873, name: 'PALMYRENE LETTER QOPH', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_QOPH = "\u{10873}";
 
-    #[Info(id: 67700, name: 'PALMYRENE LETTER RESH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10874, name: 'PALMYRENE LETTER RESH', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_RESH = "\u{10874}";
 
-    #[Info(id: 67701, name: 'PALMYRENE LETTER SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10875, name: 'PALMYRENE LETTER SHIN', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_SHIN = "\u{10875}";
 
-    #[Info(id: 67702, name: 'PALMYRENE LETTER TAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10876, name: 'PALMYRENE LETTER TAW', category: Cat::Other_Letter)]
     case PALMYRENE_LETTER_TAW = "\u{10876}";
 
-    #[Info(id: 67703, name: 'PALMYRENE LEFT-POINTING FLEURON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x10877, name: 'PALMYRENE LEFT-POINTING FLEURON', category: Cat::Other_Symbol)]
     case PALMYRENE_LEFT_POINTING_FLEURON = "\u{10877}";
 
-    #[Info(id: 67704, name: 'PALMYRENE RIGHT-POINTING FLEURON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x10878, name: 'PALMYRENE RIGHT-POINTING FLEURON', category: Cat::Other_Symbol)]
     case PALMYRENE_RIGHT_POINTING_FLEURON = "\u{10878}";
 
-    #[Info(id: 67705, name: 'PALMYRENE NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x10879, name: 'PALMYRENE NUMBER ONE', category: Cat::Other_Number)]
     case PALMYRENE_NUMBER_ONE = "\u{10879}";
 
-    #[Info(id: 67706, name: 'PALMYRENE NUMBER TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x1087A, name: 'PALMYRENE NUMBER TWO', category: Cat::Other_Number)]
     case PALMYRENE_NUMBER_TWO = "\u{1087A}";
 
-    #[Info(id: 67707, name: 'PALMYRENE NUMBER THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x1087B, name: 'PALMYRENE NUMBER THREE', category: Cat::Other_Number)]
     case PALMYRENE_NUMBER_THREE = "\u{1087B}";
 
-    #[Info(id: 67708, name: 'PALMYRENE NUMBER FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x1087C, name: 'PALMYRENE NUMBER FOUR', category: Cat::Other_Number)]
     case PALMYRENE_NUMBER_FOUR = "\u{1087C}";
 
-    #[Info(id: 67709, name: 'PALMYRENE NUMBER FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x1087D, name: 'PALMYRENE NUMBER FIVE', category: Cat::Other_Number)]
     case PALMYRENE_NUMBER_FIVE = "\u{1087D}";
 
-    #[Info(id: 67710, name: 'PALMYRENE NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1087E, name: 'PALMYRENE NUMBER TEN', category: Cat::Other_Number)]
     case PALMYRENE_NUMBER_TEN = "\u{1087E}";
 
-    #[Info(id: 67711, name: 'PALMYRENE NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x1087F, name: 'PALMYRENE NUMBER TWENTY', category: Cat::Other_Number)]
     case PALMYRENE_NUMBER_TWENTY = "\u{1087F}";
 }

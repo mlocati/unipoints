@@ -16,147 +16,147 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Arabic_Supplement: string
 {
-    #[Info(id: 1872, name: 'ARABIC LETTER BEH WITH THREE DOTS HORIZONTALLY BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x750, name: 'ARABIC LETTER BEH WITH THREE DOTS HORIZONTALLY BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEH_WITH_THREE_DOTS_HORIZONTALLY_BELOW = "\u{750}";
 
-    #[Info(id: 1873, name: 'ARABIC LETTER BEH WITH DOT BELOW AND THREE DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x751, name: 'ARABIC LETTER BEH WITH DOT BELOW AND THREE DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEH_WITH_DOT_BELOW_AND_THREE_DOTS_ABOVE = "\u{751}";
 
-    #[Info(id: 1874, name: 'ARABIC LETTER BEH WITH THREE DOTS POINTING UPWARDS BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x752, name: 'ARABIC LETTER BEH WITH THREE DOTS POINTING UPWARDS BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEH_WITH_THREE_DOTS_POINTING_UPWARDS_BELOW = "\u{752}";
 
-    #[Info(id: 1875, name: 'ARABIC LETTER BEH WITH THREE DOTS POINTING UPWARDS BELOW AND TWO DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x753, name: 'ARABIC LETTER BEH WITH THREE DOTS POINTING UPWARDS BELOW AND TWO DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEH_WITH_THREE_DOTS_POINTING_UPWARDS_BELOW_AND_TWO_DOTS_ABOVE = "\u{753}";
 
-    #[Info(id: 1876, name: 'ARABIC LETTER BEH WITH TWO DOTS BELOW AND DOT ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x754, name: 'ARABIC LETTER BEH WITH TWO DOTS BELOW AND DOT ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEH_WITH_TWO_DOTS_BELOW_AND_DOT_ABOVE = "\u{754}";
 
-    #[Info(id: 1877, name: 'ARABIC LETTER BEH WITH INVERTED SMALL V BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x755, name: 'ARABIC LETTER BEH WITH INVERTED SMALL V BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEH_WITH_INVERTED_SMALL_V_BELOW = "\u{755}";
 
-    #[Info(id: 1878, name: 'ARABIC LETTER BEH WITH SMALL V', category: Cat::Other_Letter)]
+    #[Info(id: 0x756, name: 'ARABIC LETTER BEH WITH SMALL V', category: Cat::Other_Letter)]
     case ARABIC_LETTER_BEH_WITH_SMALL_V = "\u{756}";
 
-    #[Info(id: 1879, name: 'ARABIC LETTER HAH WITH TWO DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x757, name: 'ARABIC LETTER HAH WITH TWO DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HAH_WITH_TWO_DOTS_ABOVE = "\u{757}";
 
-    #[Info(id: 1880, name: 'ARABIC LETTER HAH WITH THREE DOTS POINTING UPWARDS BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x758, name: 'ARABIC LETTER HAH WITH THREE DOTS POINTING UPWARDS BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HAH_WITH_THREE_DOTS_POINTING_UPWARDS_BELOW = "\u{758}";
 
-    #[Info(id: 1881, name: 'ARABIC LETTER DAL WITH TWO DOTS VERTICALLY BELOW AND SMALL TAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x759, name: 'ARABIC LETTER DAL WITH TWO DOTS VERTICALLY BELOW AND SMALL TAH', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DAL_WITH_TWO_DOTS_VERTICALLY_BELOW_AND_SMALL_TAH = "\u{759}";
 
-    #[Info(id: 1882, name: 'ARABIC LETTER DAL WITH INVERTED SMALL V BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x75A, name: 'ARABIC LETTER DAL WITH INVERTED SMALL V BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_DAL_WITH_INVERTED_SMALL_V_BELOW = "\u{75A}";
 
-    #[Info(id: 1883, name: 'ARABIC LETTER REH WITH STROKE', category: Cat::Other_Letter)]
+    #[Info(id: 0x75B, name: 'ARABIC LETTER REH WITH STROKE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_REH_WITH_STROKE = "\u{75B}";
 
-    #[Info(id: 1884, name: 'ARABIC LETTER SEEN WITH FOUR DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x75C, name: 'ARABIC LETTER SEEN WITH FOUR DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_SEEN_WITH_FOUR_DOTS_ABOVE = "\u{75C}";
 
-    #[Info(id: 1885, name: 'ARABIC LETTER AIN WITH TWO DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x75D, name: 'ARABIC LETTER AIN WITH TWO DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_AIN_WITH_TWO_DOTS_ABOVE = "\u{75D}";
 
-    #[Info(id: 1886, name: 'ARABIC LETTER AIN WITH THREE DOTS POINTING DOWNWARDS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x75E, name: 'ARABIC LETTER AIN WITH THREE DOTS POINTING DOWNWARDS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_AIN_WITH_THREE_DOTS_POINTING_DOWNWARDS_ABOVE = "\u{75E}";
 
-    #[Info(id: 1887, name: 'ARABIC LETTER AIN WITH TWO DOTS VERTICALLY ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x75F, name: 'ARABIC LETTER AIN WITH TWO DOTS VERTICALLY ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_AIN_WITH_TWO_DOTS_VERTICALLY_ABOVE = "\u{75F}";
 
-    #[Info(id: 1888, name: 'ARABIC LETTER FEH WITH TWO DOTS BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x760, name: 'ARABIC LETTER FEH WITH TWO DOTS BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_FEH_WITH_TWO_DOTS_BELOW = "\u{760}";
 
-    #[Info(id: 1889, name: 'ARABIC LETTER FEH WITH THREE DOTS POINTING UPWARDS BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x761, name: 'ARABIC LETTER FEH WITH THREE DOTS POINTING UPWARDS BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_FEH_WITH_THREE_DOTS_POINTING_UPWARDS_BELOW = "\u{761}";
 
-    #[Info(id: 1890, name: 'ARABIC LETTER KEHEH WITH DOT ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x762, name: 'ARABIC LETTER KEHEH WITH DOT ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KEHEH_WITH_DOT_ABOVE = "\u{762}";
 
-    #[Info(id: 1891, name: 'ARABIC LETTER KEHEH WITH THREE DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x763, name: 'ARABIC LETTER KEHEH WITH THREE DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KEHEH_WITH_THREE_DOTS_ABOVE = "\u{763}";
 
-    #[Info(id: 1892, name: 'ARABIC LETTER KEHEH WITH THREE DOTS POINTING UPWARDS BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x764, name: 'ARABIC LETTER KEHEH WITH THREE DOTS POINTING UPWARDS BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KEHEH_WITH_THREE_DOTS_POINTING_UPWARDS_BELOW = "\u{764}";
 
-    #[Info(id: 1893, name: 'ARABIC LETTER MEEM WITH DOT ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x765, name: 'ARABIC LETTER MEEM WITH DOT ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_MEEM_WITH_DOT_ABOVE = "\u{765}";
 
-    #[Info(id: 1894, name: 'ARABIC LETTER MEEM WITH DOT BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x766, name: 'ARABIC LETTER MEEM WITH DOT BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_MEEM_WITH_DOT_BELOW = "\u{766}";
 
-    #[Info(id: 1895, name: 'ARABIC LETTER NOON WITH TWO DOTS BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x767, name: 'ARABIC LETTER NOON WITH TWO DOTS BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NOON_WITH_TWO_DOTS_BELOW = "\u{767}";
 
-    #[Info(id: 1896, name: 'ARABIC LETTER NOON WITH SMALL TAH', category: Cat::Other_Letter)]
+    #[Info(id: 0x768, name: 'ARABIC LETTER NOON WITH SMALL TAH', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NOON_WITH_SMALL_TAH = "\u{768}";
 
-    #[Info(id: 1897, name: 'ARABIC LETTER NOON WITH SMALL V', category: Cat::Other_Letter)]
+    #[Info(id: 0x769, name: 'ARABIC LETTER NOON WITH SMALL V', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NOON_WITH_SMALL_V = "\u{769}";
 
-    #[Info(id: 1898, name: 'ARABIC LETTER LAM WITH BAR', category: Cat::Other_Letter)]
+    #[Info(id: 0x76A, name: 'ARABIC LETTER LAM WITH BAR', category: Cat::Other_Letter)]
     case ARABIC_LETTER_LAM_WITH_BAR = "\u{76A}";
 
-    #[Info(id: 1899, name: 'ARABIC LETTER REH WITH TWO DOTS VERTICALLY ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x76B, name: 'ARABIC LETTER REH WITH TWO DOTS VERTICALLY ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_REH_WITH_TWO_DOTS_VERTICALLY_ABOVE = "\u{76B}";
 
-    #[Info(id: 1900, name: 'ARABIC LETTER REH WITH HAMZA ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x76C, name: 'ARABIC LETTER REH WITH HAMZA ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_REH_WITH_HAMZA_ABOVE = "\u{76C}";
 
-    #[Info(id: 1901, name: 'ARABIC LETTER SEEN WITH TWO DOTS VERTICALLY ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x76D, name: 'ARABIC LETTER SEEN WITH TWO DOTS VERTICALLY ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_SEEN_WITH_TWO_DOTS_VERTICALLY_ABOVE = "\u{76D}";
 
-    #[Info(id: 1902, name: 'ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x76E, name: 'ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HAH_WITH_SMALL_ARABIC_LETTER_TAH_BELOW = "\u{76E}";
 
-    #[Info(id: 1903, name: 'ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH AND TWO DOTS', category: Cat::Other_Letter)]
+    #[Info(id: 0x76F, name: 'ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH AND TWO DOTS', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HAH_WITH_SMALL_ARABIC_LETTER_TAH_AND_TWO_DOTS = "\u{76F}";
 
-    #[Info(id: 1904, name: 'ARABIC LETTER SEEN WITH SMALL ARABIC LETTER TAH AND TWO DOTS', category: Cat::Other_Letter)]
+    #[Info(id: 0x770, name: 'ARABIC LETTER SEEN WITH SMALL ARABIC LETTER TAH AND TWO DOTS', category: Cat::Other_Letter)]
     case ARABIC_LETTER_SEEN_WITH_SMALL_ARABIC_LETTER_TAH_AND_TWO_DOTS = "\u{770}";
 
-    #[Info(id: 1905, name: 'ARABIC LETTER REH WITH SMALL ARABIC LETTER TAH AND TWO DOTS', category: Cat::Other_Letter)]
+    #[Info(id: 0x771, name: 'ARABIC LETTER REH WITH SMALL ARABIC LETTER TAH AND TWO DOTS', category: Cat::Other_Letter)]
     case ARABIC_LETTER_REH_WITH_SMALL_ARABIC_LETTER_TAH_AND_TWO_DOTS = "\u{771}";
 
-    #[Info(id: 1906, name: 'ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x772, name: 'ARABIC LETTER HAH WITH SMALL ARABIC LETTER TAH ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HAH_WITH_SMALL_ARABIC_LETTER_TAH_ABOVE = "\u{772}";
 
-    #[Info(id: 1907, name: 'ARABIC LETTER ALEF WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x773, name: 'ARABIC LETTER ALEF WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_ALEF_WITH_EXTENDED_ARABIC_INDIC_DIGIT_TWO_ABOVE = "\u{773}";
 
-    #[Info(id: 1908, name: 'ARABIC LETTER ALEF WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x774, name: 'ARABIC LETTER ALEF WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_ALEF_WITH_EXTENDED_ARABIC_INDIC_DIGIT_THREE_ABOVE = "\u{774}";
 
-    #[Info(id: 1909, name: 'ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x775, name: 'ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_FARSI_YEH_WITH_EXTENDED_ARABIC_INDIC_DIGIT_TWO_ABOVE = "\u{775}";
 
-    #[Info(id: 1910, name: 'ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x776, name: 'ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_FARSI_YEH_WITH_EXTENDED_ARABIC_INDIC_DIGIT_THREE_ABOVE = "\u{776}";
 
-    #[Info(id: 1911, name: 'ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT FOUR BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x777, name: 'ARABIC LETTER FARSI YEH WITH EXTENDED ARABIC-INDIC DIGIT FOUR BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_FARSI_YEH_WITH_EXTENDED_ARABIC_INDIC_DIGIT_FOUR_BELOW = "\u{777}";
 
-    #[Info(id: 1912, name: 'ARABIC LETTER WAW WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x778, name: 'ARABIC LETTER WAW WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_WAW_WITH_EXTENDED_ARABIC_INDIC_DIGIT_TWO_ABOVE = "\u{778}";
 
-    #[Info(id: 1913, name: 'ARABIC LETTER WAW WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x779, name: 'ARABIC LETTER WAW WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_WAW_WITH_EXTENDED_ARABIC_INDIC_DIGIT_THREE_ABOVE = "\u{779}";
 
-    #[Info(id: 1914, name: 'ARABIC LETTER YEH BARREE WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x77A, name: 'ARABIC LETTER YEH BARREE WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_BARREE_WITH_EXTENDED_ARABIC_INDIC_DIGIT_TWO_ABOVE = "\u{77A}";
 
-    #[Info(id: 1915, name: 'ARABIC LETTER YEH BARREE WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x77B, name: 'ARABIC LETTER YEH BARREE WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_BARREE_WITH_EXTENDED_ARABIC_INDIC_DIGIT_THREE_ABOVE = "\u{77B}";
 
-    #[Info(id: 1916, name: 'ARABIC LETTER HAH WITH EXTENDED ARABIC-INDIC DIGIT FOUR BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x77C, name: 'ARABIC LETTER HAH WITH EXTENDED ARABIC-INDIC DIGIT FOUR BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_HAH_WITH_EXTENDED_ARABIC_INDIC_DIGIT_FOUR_BELOW = "\u{77C}";
 
-    #[Info(id: 1917, name: 'ARABIC LETTER SEEN WITH EXTENDED ARABIC-INDIC DIGIT FOUR ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x77D, name: 'ARABIC LETTER SEEN WITH EXTENDED ARABIC-INDIC DIGIT FOUR ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_SEEN_WITH_EXTENDED_ARABIC_INDIC_DIGIT_FOUR_ABOVE = "\u{77D}";
 
-    #[Info(id: 1918, name: 'ARABIC LETTER SEEN WITH INVERTED V', category: Cat::Other_Letter)]
+    #[Info(id: 0x77E, name: 'ARABIC LETTER SEEN WITH INVERTED V', category: Cat::Other_Letter)]
     case ARABIC_LETTER_SEEN_WITH_INVERTED_V = "\u{77E}";
 
-    #[Info(id: 1919, name: 'ARABIC LETTER KAF WITH TWO DOTS ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x77F, name: 'ARABIC LETTER KAF WITH TWO DOTS ABOVE', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KAF_WITH_TWO_DOTS_ABOVE = "\u{77F}";
 }

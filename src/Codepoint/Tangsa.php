@@ -16,270 +16,270 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Tangsa: string
 {
-    #[Info(id: 92784, name: 'TANGSA LETTER OZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A70, name: 'TANGSA LETTER OZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_OZ = "\u{16A70}";
 
-    #[Info(id: 92785, name: 'TANGSA LETTER OC', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A71, name: 'TANGSA LETTER OC', category: Cat::Other_Letter)]
     case TANGSA_LETTER_OC = "\u{16A71}";
 
-    #[Info(id: 92786, name: 'TANGSA LETTER OQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A72, name: 'TANGSA LETTER OQ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_OQ = "\u{16A72}";
 
-    #[Info(id: 92787, name: 'TANGSA LETTER OX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A73, name: 'TANGSA LETTER OX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_OX = "\u{16A73}";
 
-    #[Info(id: 92788, name: 'TANGSA LETTER AZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A74, name: 'TANGSA LETTER AZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_AZ = "\u{16A74}";
 
-    #[Info(id: 92789, name: 'TANGSA LETTER AC', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A75, name: 'TANGSA LETTER AC', category: Cat::Other_Letter)]
     case TANGSA_LETTER_AC = "\u{16A75}";
 
-    #[Info(id: 92790, name: 'TANGSA LETTER AQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A76, name: 'TANGSA LETTER AQ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_AQ = "\u{16A76}";
 
-    #[Info(id: 92791, name: 'TANGSA LETTER AX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A77, name: 'TANGSA LETTER AX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_AX = "\u{16A77}";
 
-    #[Info(id: 92792, name: 'TANGSA LETTER VZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A78, name: 'TANGSA LETTER VZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_VZ = "\u{16A78}";
 
-    #[Info(id: 92793, name: 'TANGSA LETTER VC', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A79, name: 'TANGSA LETTER VC', category: Cat::Other_Letter)]
     case TANGSA_LETTER_VC = "\u{16A79}";
 
-    #[Info(id: 92794, name: 'TANGSA LETTER VQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A7A, name: 'TANGSA LETTER VQ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_VQ = "\u{16A7A}";
 
-    #[Info(id: 92795, name: 'TANGSA LETTER VX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A7B, name: 'TANGSA LETTER VX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_VX = "\u{16A7B}";
 
-    #[Info(id: 92796, name: 'TANGSA LETTER EZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A7C, name: 'TANGSA LETTER EZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_EZ = "\u{16A7C}";
 
-    #[Info(id: 92797, name: 'TANGSA LETTER EC', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A7D, name: 'TANGSA LETTER EC', category: Cat::Other_Letter)]
     case TANGSA_LETTER_EC = "\u{16A7D}";
 
-    #[Info(id: 92798, name: 'TANGSA LETTER EQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A7E, name: 'TANGSA LETTER EQ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_EQ = "\u{16A7E}";
 
-    #[Info(id: 92799, name: 'TANGSA LETTER EX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A7F, name: 'TANGSA LETTER EX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_EX = "\u{16A7F}";
 
-    #[Info(id: 92800, name: 'TANGSA LETTER IZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A80, name: 'TANGSA LETTER IZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_IZ = "\u{16A80}";
 
-    #[Info(id: 92801, name: 'TANGSA LETTER IC', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A81, name: 'TANGSA LETTER IC', category: Cat::Other_Letter)]
     case TANGSA_LETTER_IC = "\u{16A81}";
 
-    #[Info(id: 92802, name: 'TANGSA LETTER IQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A82, name: 'TANGSA LETTER IQ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_IQ = "\u{16A82}";
 
-    #[Info(id: 92803, name: 'TANGSA LETTER IX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A83, name: 'TANGSA LETTER IX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_IX = "\u{16A83}";
 
-    #[Info(id: 92804, name: 'TANGSA LETTER UZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A84, name: 'TANGSA LETTER UZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UZ = "\u{16A84}";
 
-    #[Info(id: 92805, name: 'TANGSA LETTER UC', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A85, name: 'TANGSA LETTER UC', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UC = "\u{16A85}";
 
-    #[Info(id: 92806, name: 'TANGSA LETTER UQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A86, name: 'TANGSA LETTER UQ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UQ = "\u{16A86}";
 
-    #[Info(id: 92807, name: 'TANGSA LETTER UX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A87, name: 'TANGSA LETTER UX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UX = "\u{16A87}";
 
-    #[Info(id: 92808, name: 'TANGSA LETTER AWZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A88, name: 'TANGSA LETTER AWZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_AWZ = "\u{16A88}";
 
-    #[Info(id: 92809, name: 'TANGSA LETTER AWC', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A89, name: 'TANGSA LETTER AWC', category: Cat::Other_Letter)]
     case TANGSA_LETTER_AWC = "\u{16A89}";
 
-    #[Info(id: 92810, name: 'TANGSA LETTER AWQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A8A, name: 'TANGSA LETTER AWQ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_AWQ = "\u{16A8A}";
 
-    #[Info(id: 92811, name: 'TANGSA LETTER AWX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A8B, name: 'TANGSA LETTER AWX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_AWX = "\u{16A8B}";
 
-    #[Info(id: 92812, name: 'TANGSA LETTER UIZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A8C, name: 'TANGSA LETTER UIZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UIZ = "\u{16A8C}";
 
-    #[Info(id: 92813, name: 'TANGSA LETTER UIC', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A8D, name: 'TANGSA LETTER UIC', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UIC = "\u{16A8D}";
 
-    #[Info(id: 92814, name: 'TANGSA LETTER UIQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A8E, name: 'TANGSA LETTER UIQ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UIQ = "\u{16A8E}";
 
-    #[Info(id: 92815, name: 'TANGSA LETTER UIX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A8F, name: 'TANGSA LETTER UIX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UIX = "\u{16A8F}";
 
-    #[Info(id: 92816, name: 'TANGSA LETTER FINAL NG', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A90, name: 'TANGSA LETTER FINAL NG', category: Cat::Other_Letter)]
     case TANGSA_LETTER_FINAL_NG = "\u{16A90}";
 
-    #[Info(id: 92817, name: 'TANGSA LETTER LONG UEX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A91, name: 'TANGSA LETTER LONG UEX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_LONG_UEX = "\u{16A91}";
 
-    #[Info(id: 92818, name: 'TANGSA LETTER SHORT UEZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A92, name: 'TANGSA LETTER SHORT UEZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_SHORT_UEZ = "\u{16A92}";
 
-    #[Info(id: 92819, name: 'TANGSA LETTER SHORT AWX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A93, name: 'TANGSA LETTER SHORT AWX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_SHORT_AWX = "\u{16A93}";
 
-    #[Info(id: 92820, name: 'TANGSA LETTER UEC', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A94, name: 'TANGSA LETTER UEC', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UEC = "\u{16A94}";
 
-    #[Info(id: 92821, name: 'TANGSA LETTER UEZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A95, name: 'TANGSA LETTER UEZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UEZ = "\u{16A95}";
 
-    #[Info(id: 92822, name: 'TANGSA LETTER UEQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A96, name: 'TANGSA LETTER UEQ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UEQ = "\u{16A96}";
 
-    #[Info(id: 92823, name: 'TANGSA LETTER UEX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A97, name: 'TANGSA LETTER UEX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UEX = "\u{16A97}";
 
-    #[Info(id: 92824, name: 'TANGSA LETTER UIUZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A98, name: 'TANGSA LETTER UIUZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UIUZ = "\u{16A98}";
 
-    #[Info(id: 92825, name: 'TANGSA LETTER UIUC', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A99, name: 'TANGSA LETTER UIUC', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UIUC = "\u{16A99}";
 
-    #[Info(id: 92826, name: 'TANGSA LETTER UIUQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A9A, name: 'TANGSA LETTER UIUQ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UIUQ = "\u{16A9A}";
 
-    #[Info(id: 92827, name: 'TANGSA LETTER UIUX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A9B, name: 'TANGSA LETTER UIUX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_UIUX = "\u{16A9B}";
 
-    #[Info(id: 92828, name: 'TANGSA LETTER MZ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A9C, name: 'TANGSA LETTER MZ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_MZ = "\u{16A9C}";
 
-    #[Info(id: 92829, name: 'TANGSA LETTER MC', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A9D, name: 'TANGSA LETTER MC', category: Cat::Other_Letter)]
     case TANGSA_LETTER_MC = "\u{16A9D}";
 
-    #[Info(id: 92830, name: 'TANGSA LETTER MQ', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A9E, name: 'TANGSA LETTER MQ', category: Cat::Other_Letter)]
     case TANGSA_LETTER_MQ = "\u{16A9E}";
 
-    #[Info(id: 92831, name: 'TANGSA LETTER MX', category: Cat::Other_Letter)]
+    #[Info(id: 0x16A9F, name: 'TANGSA LETTER MX', category: Cat::Other_Letter)]
     case TANGSA_LETTER_MX = "\u{16A9F}";
 
-    #[Info(id: 92832, name: 'TANGSA LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AA0, name: 'TANGSA LETTER KA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_KA = "\u{16AA0}";
 
-    #[Info(id: 92833, name: 'TANGSA LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AA1, name: 'TANGSA LETTER KHA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_KHA = "\u{16AA1}";
 
-    #[Info(id: 92834, name: 'TANGSA LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AA2, name: 'TANGSA LETTER GA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_GA = "\u{16AA2}";
 
-    #[Info(id: 92835, name: 'TANGSA LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AA3, name: 'TANGSA LETTER NGA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_NGA = "\u{16AA3}";
 
-    #[Info(id: 92836, name: 'TANGSA LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AA4, name: 'TANGSA LETTER SA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_SA = "\u{16AA4}";
 
-    #[Info(id: 92837, name: 'TANGSA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AA5, name: 'TANGSA LETTER YA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_YA = "\u{16AA5}";
 
-    #[Info(id: 92838, name: 'TANGSA LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AA6, name: 'TANGSA LETTER WA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_WA = "\u{16AA6}";
 
-    #[Info(id: 92839, name: 'TANGSA LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AA7, name: 'TANGSA LETTER PA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_PA = "\u{16AA7}";
 
-    #[Info(id: 92840, name: 'TANGSA LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AA8, name: 'TANGSA LETTER NYA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_NYA = "\u{16AA8}";
 
-    #[Info(id: 92841, name: 'TANGSA LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AA9, name: 'TANGSA LETTER PHA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_PHA = "\u{16AA9}";
 
-    #[Info(id: 92842, name: 'TANGSA LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AAA, name: 'TANGSA LETTER BA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_BA = "\u{16AAA}";
 
-    #[Info(id: 92843, name: 'TANGSA LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AAB, name: 'TANGSA LETTER MA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_MA = "\u{16AAB}";
 
-    #[Info(id: 92844, name: 'TANGSA LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AAC, name: 'TANGSA LETTER NA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_NA = "\u{16AAC}";
 
-    #[Info(id: 92845, name: 'TANGSA LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AAD, name: 'TANGSA LETTER HA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_HA = "\u{16AAD}";
 
-    #[Info(id: 92846, name: 'TANGSA LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AAE, name: 'TANGSA LETTER LA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_LA = "\u{16AAE}";
 
-    #[Info(id: 92847, name: 'TANGSA LETTER HTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AAF, name: 'TANGSA LETTER HTA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_HTA = "\u{16AAF}";
 
-    #[Info(id: 92848, name: 'TANGSA LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AB0, name: 'TANGSA LETTER TA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_TA = "\u{16AB0}";
 
-    #[Info(id: 92849, name: 'TANGSA LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AB1, name: 'TANGSA LETTER DA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_DA = "\u{16AB1}";
 
-    #[Info(id: 92850, name: 'TANGSA LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AB2, name: 'TANGSA LETTER RA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_RA = "\u{16AB2}";
 
-    #[Info(id: 92851, name: 'TANGSA LETTER NHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AB3, name: 'TANGSA LETTER NHA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_NHA = "\u{16AB3}";
 
-    #[Info(id: 92852, name: 'TANGSA LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AB4, name: 'TANGSA LETTER SHA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_SHA = "\u{16AB4}";
 
-    #[Info(id: 92853, name: 'TANGSA LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AB5, name: 'TANGSA LETTER CA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_CA = "\u{16AB5}";
 
-    #[Info(id: 92854, name: 'TANGSA LETTER TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AB6, name: 'TANGSA LETTER TSA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_TSA = "\u{16AB6}";
 
-    #[Info(id: 92855, name: 'TANGSA LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AB7, name: 'TANGSA LETTER GHA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_GHA = "\u{16AB7}";
 
-    #[Info(id: 92856, name: 'TANGSA LETTER HTTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AB8, name: 'TANGSA LETTER HTTA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_HTTA = "\u{16AB8}";
 
-    #[Info(id: 92857, name: 'TANGSA LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16AB9, name: 'TANGSA LETTER THA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_THA = "\u{16AB9}";
 
-    #[Info(id: 92858, name: 'TANGSA LETTER XA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16ABA, name: 'TANGSA LETTER XA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_XA = "\u{16ABA}";
 
-    #[Info(id: 92859, name: 'TANGSA LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16ABB, name: 'TANGSA LETTER FA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_FA = "\u{16ABB}";
 
-    #[Info(id: 92860, name: 'TANGSA LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16ABC, name: 'TANGSA LETTER DHA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_DHA = "\u{16ABC}";
 
-    #[Info(id: 92861, name: 'TANGSA LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16ABD, name: 'TANGSA LETTER CHA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_CHA = "\u{16ABD}";
 
-    #[Info(id: 92862, name: 'TANGSA LETTER ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x16ABE, name: 'TANGSA LETTER ZA', category: Cat::Other_Letter)]
     case TANGSA_LETTER_ZA = "\u{16ABE}";
 
-    #[Info(id: 92864, name: 'TANGSA DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16AC0, name: 'TANGSA DIGIT ZERO', category: Cat::Decimal_Number)]
     case TANGSA_DIGIT_ZERO = "\u{16AC0}";
 
-    #[Info(id: 92865, name: 'TANGSA DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16AC1, name: 'TANGSA DIGIT ONE', category: Cat::Decimal_Number)]
     case TANGSA_DIGIT_ONE = "\u{16AC1}";
 
-    #[Info(id: 92866, name: 'TANGSA DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16AC2, name: 'TANGSA DIGIT TWO', category: Cat::Decimal_Number)]
     case TANGSA_DIGIT_TWO = "\u{16AC2}";
 
-    #[Info(id: 92867, name: 'TANGSA DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16AC3, name: 'TANGSA DIGIT THREE', category: Cat::Decimal_Number)]
     case TANGSA_DIGIT_THREE = "\u{16AC3}";
 
-    #[Info(id: 92868, name: 'TANGSA DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16AC4, name: 'TANGSA DIGIT FOUR', category: Cat::Decimal_Number)]
     case TANGSA_DIGIT_FOUR = "\u{16AC4}";
 
-    #[Info(id: 92869, name: 'TANGSA DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16AC5, name: 'TANGSA DIGIT FIVE', category: Cat::Decimal_Number)]
     case TANGSA_DIGIT_FIVE = "\u{16AC5}";
 
-    #[Info(id: 92870, name: 'TANGSA DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16AC6, name: 'TANGSA DIGIT SIX', category: Cat::Decimal_Number)]
     case TANGSA_DIGIT_SIX = "\u{16AC6}";
 
-    #[Info(id: 92871, name: 'TANGSA DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16AC7, name: 'TANGSA DIGIT SEVEN', category: Cat::Decimal_Number)]
     case TANGSA_DIGIT_SEVEN = "\u{16AC7}";
 
-    #[Info(id: 92872, name: 'TANGSA DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16AC8, name: 'TANGSA DIGIT EIGHT', category: Cat::Decimal_Number)]
     case TANGSA_DIGIT_EIGHT = "\u{16AC8}";
 
-    #[Info(id: 92873, name: 'TANGSA DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x16AC9, name: 'TANGSA DIGIT NINE', category: Cat::Decimal_Number)]
     case TANGSA_DIGIT_NINE = "\u{16AC9}";
 }

@@ -16,156 +16,156 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Manichaean: string
 {
-    #[Info(id: 68288, name: 'MANICHAEAN LETTER ALEPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AC0, name: 'MANICHAEAN LETTER ALEPH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_ALEPH = "\u{10AC0}";
 
-    #[Info(id: 68289, name: 'MANICHAEAN LETTER BETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AC1, name: 'MANICHAEAN LETTER BETH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_BETH = "\u{10AC1}";
 
-    #[Info(id: 68290, name: 'MANICHAEAN LETTER BHETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AC2, name: 'MANICHAEAN LETTER BHETH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_BHETH = "\u{10AC2}";
 
-    #[Info(id: 68291, name: 'MANICHAEAN LETTER GIMEL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AC3, name: 'MANICHAEAN LETTER GIMEL', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_GIMEL = "\u{10AC3}";
 
-    #[Info(id: 68292, name: 'MANICHAEAN LETTER GHIMEL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AC4, name: 'MANICHAEAN LETTER GHIMEL', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_GHIMEL = "\u{10AC4}";
 
-    #[Info(id: 68293, name: 'MANICHAEAN LETTER DALETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AC5, name: 'MANICHAEAN LETTER DALETH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_DALETH = "\u{10AC5}";
 
-    #[Info(id: 68294, name: 'MANICHAEAN LETTER HE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AC6, name: 'MANICHAEAN LETTER HE', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_HE = "\u{10AC6}";
 
-    #[Info(id: 68295, name: 'MANICHAEAN LETTER WAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AC7, name: 'MANICHAEAN LETTER WAW', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_WAW = "\u{10AC7}";
 
-    #[Info(id: 68296, name: 'MANICHAEAN SIGN UD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x10AC8, name: 'MANICHAEAN SIGN UD', category: Cat::Other_Symbol)]
     case MANICHAEAN_SIGN_UD = "\u{10AC8}";
 
-    #[Info(id: 68297, name: 'MANICHAEAN LETTER ZAYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AC9, name: 'MANICHAEAN LETTER ZAYIN', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_ZAYIN = "\u{10AC9}";
 
-    #[Info(id: 68298, name: 'MANICHAEAN LETTER ZHAYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ACA, name: 'MANICHAEAN LETTER ZHAYIN', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_ZHAYIN = "\u{10ACA}";
 
-    #[Info(id: 68299, name: 'MANICHAEAN LETTER JAYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ACB, name: 'MANICHAEAN LETTER JAYIN', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_JAYIN = "\u{10ACB}";
 
-    #[Info(id: 68300, name: 'MANICHAEAN LETTER JHAYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ACC, name: 'MANICHAEAN LETTER JHAYIN', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_JHAYIN = "\u{10ACC}";
 
-    #[Info(id: 68301, name: 'MANICHAEAN LETTER HETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ACD, name: 'MANICHAEAN LETTER HETH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_HETH = "\u{10ACD}";
 
-    #[Info(id: 68302, name: 'MANICHAEAN LETTER TETH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ACE, name: 'MANICHAEAN LETTER TETH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_TETH = "\u{10ACE}";
 
-    #[Info(id: 68303, name: 'MANICHAEAN LETTER YODH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ACF, name: 'MANICHAEAN LETTER YODH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_YODH = "\u{10ACF}";
 
-    #[Info(id: 68304, name: 'MANICHAEAN LETTER KAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AD0, name: 'MANICHAEAN LETTER KAPH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_KAPH = "\u{10AD0}";
 
-    #[Info(id: 68305, name: 'MANICHAEAN LETTER XAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AD1, name: 'MANICHAEAN LETTER XAPH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_XAPH = "\u{10AD1}";
 
-    #[Info(id: 68306, name: 'MANICHAEAN LETTER KHAPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AD2, name: 'MANICHAEAN LETTER KHAPH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_KHAPH = "\u{10AD2}";
 
-    #[Info(id: 68307, name: 'MANICHAEAN LETTER LAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AD3, name: 'MANICHAEAN LETTER LAMEDH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_LAMEDH = "\u{10AD3}";
 
-    #[Info(id: 68308, name: 'MANICHAEAN LETTER DHAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AD4, name: 'MANICHAEAN LETTER DHAMEDH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_DHAMEDH = "\u{10AD4}";
 
-    #[Info(id: 68309, name: 'MANICHAEAN LETTER THAMEDH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AD5, name: 'MANICHAEAN LETTER THAMEDH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_THAMEDH = "\u{10AD5}";
 
-    #[Info(id: 68310, name: 'MANICHAEAN LETTER MEM', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AD6, name: 'MANICHAEAN LETTER MEM', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_MEM = "\u{10AD6}";
 
-    #[Info(id: 68311, name: 'MANICHAEAN LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AD7, name: 'MANICHAEAN LETTER NUN', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_NUN = "\u{10AD7}";
 
-    #[Info(id: 68312, name: 'MANICHAEAN LETTER SAMEKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AD8, name: 'MANICHAEAN LETTER SAMEKH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_SAMEKH = "\u{10AD8}";
 
-    #[Info(id: 68313, name: 'MANICHAEAN LETTER AYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AD9, name: 'MANICHAEAN LETTER AYIN', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_AYIN = "\u{10AD9}";
 
-    #[Info(id: 68314, name: 'MANICHAEAN LETTER AAYIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ADA, name: 'MANICHAEAN LETTER AAYIN', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_AAYIN = "\u{10ADA}";
 
-    #[Info(id: 68315, name: 'MANICHAEAN LETTER PE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ADB, name: 'MANICHAEAN LETTER PE', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_PE = "\u{10ADB}";
 
-    #[Info(id: 68316, name: 'MANICHAEAN LETTER FE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ADC, name: 'MANICHAEAN LETTER FE', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_FE = "\u{10ADC}";
 
-    #[Info(id: 68317, name: 'MANICHAEAN LETTER SADHE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ADD, name: 'MANICHAEAN LETTER SADHE', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_SADHE = "\u{10ADD}";
 
-    #[Info(id: 68318, name: 'MANICHAEAN LETTER QOPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ADE, name: 'MANICHAEAN LETTER QOPH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_QOPH = "\u{10ADE}";
 
-    #[Info(id: 68319, name: 'MANICHAEAN LETTER XOPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10ADF, name: 'MANICHAEAN LETTER XOPH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_XOPH = "\u{10ADF}";
 
-    #[Info(id: 68320, name: 'MANICHAEAN LETTER QHOPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AE0, name: 'MANICHAEAN LETTER QHOPH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_QHOPH = "\u{10AE0}";
 
-    #[Info(id: 68321, name: 'MANICHAEAN LETTER RESH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AE1, name: 'MANICHAEAN LETTER RESH', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_RESH = "\u{10AE1}";
 
-    #[Info(id: 68322, name: 'MANICHAEAN LETTER SHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AE2, name: 'MANICHAEAN LETTER SHIN', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_SHIN = "\u{10AE2}";
 
-    #[Info(id: 68323, name: 'MANICHAEAN LETTER SSHIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AE3, name: 'MANICHAEAN LETTER SSHIN', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_SSHIN = "\u{10AE3}";
 
-    #[Info(id: 68324, name: 'MANICHAEAN LETTER TAW', category: Cat::Other_Letter)]
+    #[Info(id: 0x10AE4, name: 'MANICHAEAN LETTER TAW', category: Cat::Other_Letter)]
     case MANICHAEAN_LETTER_TAW = "\u{10AE4}";
 
-    #[Info(id: 68325, name: 'MANICHAEAN ABBREVIATION MARK ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10AE5, name: 'MANICHAEAN ABBREVIATION MARK ABOVE', category: Cat::Nonspacing_Mark)]
     case MANICHAEAN_ABBREVIATION_MARK_ABOVE = "\u{10AE5}";
 
-    #[Info(id: 68326, name: 'MANICHAEAN ABBREVIATION MARK BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10AE6, name: 'MANICHAEAN ABBREVIATION MARK BELOW', category: Cat::Nonspacing_Mark)]
     case MANICHAEAN_ABBREVIATION_MARK_BELOW = "\u{10AE6}";
 
-    #[Info(id: 68331, name: 'MANICHAEAN NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x10AEB, name: 'MANICHAEAN NUMBER ONE', category: Cat::Other_Number)]
     case MANICHAEAN_NUMBER_ONE = "\u{10AEB}";
 
-    #[Info(id: 68332, name: 'MANICHAEAN NUMBER FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x10AEC, name: 'MANICHAEAN NUMBER FIVE', category: Cat::Other_Number)]
     case MANICHAEAN_NUMBER_FIVE = "\u{10AEC}";
 
-    #[Info(id: 68333, name: 'MANICHAEAN NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x10AED, name: 'MANICHAEAN NUMBER TEN', category: Cat::Other_Number)]
     case MANICHAEAN_NUMBER_TEN = "\u{10AED}";
 
-    #[Info(id: 68334, name: 'MANICHAEAN NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10AEE, name: 'MANICHAEAN NUMBER TWENTY', category: Cat::Other_Number)]
     case MANICHAEAN_NUMBER_TWENTY = "\u{10AEE}";
 
-    #[Info(id: 68335, name: 'MANICHAEAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10AEF, name: 'MANICHAEAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case MANICHAEAN_NUMBER_ONE_HUNDRED = "\u{10AEF}";
 
-    #[Info(id: 68336, name: 'MANICHAEAN PUNCTUATION STAR', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10AF0, name: 'MANICHAEAN PUNCTUATION STAR', category: Cat::Other_Punctuation)]
     case MANICHAEAN_PUNCTUATION_STAR = "\u{10AF0}";
 
-    #[Info(id: 68337, name: 'MANICHAEAN PUNCTUATION FLEURON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10AF1, name: 'MANICHAEAN PUNCTUATION FLEURON', category: Cat::Other_Punctuation)]
     case MANICHAEAN_PUNCTUATION_FLEURON = "\u{10AF1}";
 
-    #[Info(id: 68338, name: 'MANICHAEAN PUNCTUATION DOUBLE DOT WITHIN DOT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10AF2, name: 'MANICHAEAN PUNCTUATION DOUBLE DOT WITHIN DOT', category: Cat::Other_Punctuation)]
     case MANICHAEAN_PUNCTUATION_DOUBLE_DOT_WITHIN_DOT = "\u{10AF2}";
 
-    #[Info(id: 68339, name: 'MANICHAEAN PUNCTUATION DOT WITHIN DOT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10AF3, name: 'MANICHAEAN PUNCTUATION DOT WITHIN DOT', category: Cat::Other_Punctuation)]
     case MANICHAEAN_PUNCTUATION_DOT_WITHIN_DOT = "\u{10AF3}";
 
-    #[Info(id: 68340, name: 'MANICHAEAN PUNCTUATION DOT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10AF4, name: 'MANICHAEAN PUNCTUATION DOT', category: Cat::Other_Punctuation)]
     case MANICHAEAN_PUNCTUATION_DOT = "\u{10AF4}";
 
-    #[Info(id: 68341, name: 'MANICHAEAN PUNCTUATION TWO DOTS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10AF5, name: 'MANICHAEAN PUNCTUATION TWO DOTS', category: Cat::Other_Punctuation)]
     case MANICHAEAN_PUNCTUATION_TWO_DOTS = "\u{10AF5}";
 
-    #[Info(id: 68342, name: 'MANICHAEAN PUNCTUATION LINE FILLER', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10AF6, name: 'MANICHAEAN PUNCTUATION LINE FILLER', category: Cat::Other_Punctuation)]
     case MANICHAEAN_PUNCTUATION_LINE_FILLER = "\u{10AF6}";
 }

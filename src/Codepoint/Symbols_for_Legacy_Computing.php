@@ -16,639 +16,639 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Symbols_for_Legacy_Computing: string
 {
-    #[Info(id: 129792, name: 'BLOCK SEXTANT-1', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB00, name: 'BLOCK SEXTANT-1', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_1 = "\u{1FB00}";
 
-    #[Info(id: 129793, name: 'BLOCK SEXTANT-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB01, name: 'BLOCK SEXTANT-2', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_2 = "\u{1FB01}";
 
-    #[Info(id: 129794, name: 'BLOCK SEXTANT-12', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB02, name: 'BLOCK SEXTANT-12', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_12 = "\u{1FB02}";
 
-    #[Info(id: 129795, name: 'BLOCK SEXTANT-3', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB03, name: 'BLOCK SEXTANT-3', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_3 = "\u{1FB03}";
 
-    #[Info(id: 129796, name: 'BLOCK SEXTANT-13', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB04, name: 'BLOCK SEXTANT-13', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_13 = "\u{1FB04}";
 
-    #[Info(id: 129797, name: 'BLOCK SEXTANT-23', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB05, name: 'BLOCK SEXTANT-23', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_23 = "\u{1FB05}";
 
-    #[Info(id: 129798, name: 'BLOCK SEXTANT-123', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB06, name: 'BLOCK SEXTANT-123', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_123 = "\u{1FB06}";
 
-    #[Info(id: 129799, name: 'BLOCK SEXTANT-4', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB07, name: 'BLOCK SEXTANT-4', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_4 = "\u{1FB07}";
 
-    #[Info(id: 129800, name: 'BLOCK SEXTANT-14', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB08, name: 'BLOCK SEXTANT-14', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_14 = "\u{1FB08}";
 
-    #[Info(id: 129801, name: 'BLOCK SEXTANT-24', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB09, name: 'BLOCK SEXTANT-24', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_24 = "\u{1FB09}";
 
-    #[Info(id: 129802, name: 'BLOCK SEXTANT-124', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB0A, name: 'BLOCK SEXTANT-124', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_124 = "\u{1FB0A}";
 
-    #[Info(id: 129803, name: 'BLOCK SEXTANT-34', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB0B, name: 'BLOCK SEXTANT-34', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_34 = "\u{1FB0B}";
 
-    #[Info(id: 129804, name: 'BLOCK SEXTANT-134', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB0C, name: 'BLOCK SEXTANT-134', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_134 = "\u{1FB0C}";
 
-    #[Info(id: 129805, name: 'BLOCK SEXTANT-234', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB0D, name: 'BLOCK SEXTANT-234', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_234 = "\u{1FB0D}";
 
-    #[Info(id: 129806, name: 'BLOCK SEXTANT-1234', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB0E, name: 'BLOCK SEXTANT-1234', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_1234 = "\u{1FB0E}";
 
-    #[Info(id: 129807, name: 'BLOCK SEXTANT-5', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB0F, name: 'BLOCK SEXTANT-5', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_5 = "\u{1FB0F}";
 
-    #[Info(id: 129808, name: 'BLOCK SEXTANT-15', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB10, name: 'BLOCK SEXTANT-15', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_15 = "\u{1FB10}";
 
-    #[Info(id: 129809, name: 'BLOCK SEXTANT-25', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB11, name: 'BLOCK SEXTANT-25', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_25 = "\u{1FB11}";
 
-    #[Info(id: 129810, name: 'BLOCK SEXTANT-125', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB12, name: 'BLOCK SEXTANT-125', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_125 = "\u{1FB12}";
 
-    #[Info(id: 129811, name: 'BLOCK SEXTANT-35', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB13, name: 'BLOCK SEXTANT-35', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_35 = "\u{1FB13}";
 
-    #[Info(id: 129812, name: 'BLOCK SEXTANT-235', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB14, name: 'BLOCK SEXTANT-235', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_235 = "\u{1FB14}";
 
-    #[Info(id: 129813, name: 'BLOCK SEXTANT-1235', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB15, name: 'BLOCK SEXTANT-1235', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_1235 = "\u{1FB15}";
 
-    #[Info(id: 129814, name: 'BLOCK SEXTANT-45', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB16, name: 'BLOCK SEXTANT-45', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_45 = "\u{1FB16}";
 
-    #[Info(id: 129815, name: 'BLOCK SEXTANT-145', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB17, name: 'BLOCK SEXTANT-145', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_145 = "\u{1FB17}";
 
-    #[Info(id: 129816, name: 'BLOCK SEXTANT-245', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB18, name: 'BLOCK SEXTANT-245', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_245 = "\u{1FB18}";
 
-    #[Info(id: 129817, name: 'BLOCK SEXTANT-1245', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB19, name: 'BLOCK SEXTANT-1245', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_1245 = "\u{1FB19}";
 
-    #[Info(id: 129818, name: 'BLOCK SEXTANT-345', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB1A, name: 'BLOCK SEXTANT-345', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_345 = "\u{1FB1A}";
 
-    #[Info(id: 129819, name: 'BLOCK SEXTANT-1345', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB1B, name: 'BLOCK SEXTANT-1345', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_1345 = "\u{1FB1B}";
 
-    #[Info(id: 129820, name: 'BLOCK SEXTANT-2345', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB1C, name: 'BLOCK SEXTANT-2345', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_2345 = "\u{1FB1C}";
 
-    #[Info(id: 129821, name: 'BLOCK SEXTANT-12345', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB1D, name: 'BLOCK SEXTANT-12345', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_12345 = "\u{1FB1D}";
 
-    #[Info(id: 129822, name: 'BLOCK SEXTANT-6', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB1E, name: 'BLOCK SEXTANT-6', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_6 = "\u{1FB1E}";
 
-    #[Info(id: 129823, name: 'BLOCK SEXTANT-16', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB1F, name: 'BLOCK SEXTANT-16', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_16 = "\u{1FB1F}";
 
-    #[Info(id: 129824, name: 'BLOCK SEXTANT-26', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB20, name: 'BLOCK SEXTANT-26', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_26 = "\u{1FB20}";
 
-    #[Info(id: 129825, name: 'BLOCK SEXTANT-126', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB21, name: 'BLOCK SEXTANT-126', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_126 = "\u{1FB21}";
 
-    #[Info(id: 129826, name: 'BLOCK SEXTANT-36', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB22, name: 'BLOCK SEXTANT-36', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_36 = "\u{1FB22}";
 
-    #[Info(id: 129827, name: 'BLOCK SEXTANT-136', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB23, name: 'BLOCK SEXTANT-136', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_136 = "\u{1FB23}";
 
-    #[Info(id: 129828, name: 'BLOCK SEXTANT-236', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB24, name: 'BLOCK SEXTANT-236', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_236 = "\u{1FB24}";
 
-    #[Info(id: 129829, name: 'BLOCK SEXTANT-1236', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB25, name: 'BLOCK SEXTANT-1236', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_1236 = "\u{1FB25}";
 
-    #[Info(id: 129830, name: 'BLOCK SEXTANT-46', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB26, name: 'BLOCK SEXTANT-46', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_46 = "\u{1FB26}";
 
-    #[Info(id: 129831, name: 'BLOCK SEXTANT-146', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB27, name: 'BLOCK SEXTANT-146', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_146 = "\u{1FB27}";
 
-    #[Info(id: 129832, name: 'BLOCK SEXTANT-1246', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB28, name: 'BLOCK SEXTANT-1246', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_1246 = "\u{1FB28}";
 
-    #[Info(id: 129833, name: 'BLOCK SEXTANT-346', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB29, name: 'BLOCK SEXTANT-346', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_346 = "\u{1FB29}";
 
-    #[Info(id: 129834, name: 'BLOCK SEXTANT-1346', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB2A, name: 'BLOCK SEXTANT-1346', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_1346 = "\u{1FB2A}";
 
-    #[Info(id: 129835, name: 'BLOCK SEXTANT-2346', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB2B, name: 'BLOCK SEXTANT-2346', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_2346 = "\u{1FB2B}";
 
-    #[Info(id: 129836, name: 'BLOCK SEXTANT-12346', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB2C, name: 'BLOCK SEXTANT-12346', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_12346 = "\u{1FB2C}";
 
-    #[Info(id: 129837, name: 'BLOCK SEXTANT-56', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB2D, name: 'BLOCK SEXTANT-56', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_56 = "\u{1FB2D}";
 
-    #[Info(id: 129838, name: 'BLOCK SEXTANT-156', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB2E, name: 'BLOCK SEXTANT-156', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_156 = "\u{1FB2E}";
 
-    #[Info(id: 129839, name: 'BLOCK SEXTANT-256', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB2F, name: 'BLOCK SEXTANT-256', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_256 = "\u{1FB2F}";
 
-    #[Info(id: 129840, name: 'BLOCK SEXTANT-1256', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB30, name: 'BLOCK SEXTANT-1256', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_1256 = "\u{1FB30}";
 
-    #[Info(id: 129841, name: 'BLOCK SEXTANT-356', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB31, name: 'BLOCK SEXTANT-356', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_356 = "\u{1FB31}";
 
-    #[Info(id: 129842, name: 'BLOCK SEXTANT-1356', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB32, name: 'BLOCK SEXTANT-1356', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_1356 = "\u{1FB32}";
 
-    #[Info(id: 129843, name: 'BLOCK SEXTANT-2356', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB33, name: 'BLOCK SEXTANT-2356', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_2356 = "\u{1FB33}";
 
-    #[Info(id: 129844, name: 'BLOCK SEXTANT-12356', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB34, name: 'BLOCK SEXTANT-12356', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_12356 = "\u{1FB34}";
 
-    #[Info(id: 129845, name: 'BLOCK SEXTANT-456', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB35, name: 'BLOCK SEXTANT-456', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_456 = "\u{1FB35}";
 
-    #[Info(id: 129846, name: 'BLOCK SEXTANT-1456', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB36, name: 'BLOCK SEXTANT-1456', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_1456 = "\u{1FB36}";
 
-    #[Info(id: 129847, name: 'BLOCK SEXTANT-2456', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB37, name: 'BLOCK SEXTANT-2456', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_2456 = "\u{1FB37}";
 
-    #[Info(id: 129848, name: 'BLOCK SEXTANT-12456', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB38, name: 'BLOCK SEXTANT-12456', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_12456 = "\u{1FB38}";
 
-    #[Info(id: 129849, name: 'BLOCK SEXTANT-3456', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB39, name: 'BLOCK SEXTANT-3456', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_3456 = "\u{1FB39}";
 
-    #[Info(id: 129850, name: 'BLOCK SEXTANT-13456', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB3A, name: 'BLOCK SEXTANT-13456', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_13456 = "\u{1FB3A}";
 
-    #[Info(id: 129851, name: 'BLOCK SEXTANT-23456', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB3B, name: 'BLOCK SEXTANT-23456', category: Cat::Other_Symbol)]
     case BLOCK_SEXTANT_23456 = "\u{1FB3B}";
 
-    #[Info(id: 129852, name: 'LOWER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB3C, name: 'LOWER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BLOCK_DIAGONAL_LOWER_MIDDLE_LEFT_TO_LOWER_CENTRE = "\u{1FB3C}";
 
-    #[Info(id: 129853, name: 'LOWER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB3D, name: 'LOWER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER RIGHT', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BLOCK_DIAGONAL_LOWER_MIDDLE_LEFT_TO_LOWER_RIGHT = "\u{1FB3D}";
 
-    #[Info(id: 129854, name: 'LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB3E, name: 'LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BLOCK_DIAGONAL_UPPER_MIDDLE_LEFT_TO_LOWER_CENTRE = "\u{1FB3E}";
 
-    #[Info(id: 129855, name: 'LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB3F, name: 'LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER RIGHT', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BLOCK_DIAGONAL_UPPER_MIDDLE_LEFT_TO_LOWER_RIGHT = "\u{1FB3F}";
 
-    #[Info(id: 129856, name: 'LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB40, name: 'LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BLOCK_DIAGONAL_UPPER_LEFT_TO_LOWER_CENTRE = "\u{1FB40}";
 
-    #[Info(id: 129857, name: 'LOWER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB41, name: 'LOWER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_BLOCK_DIAGONAL_UPPER_MIDDLE_LEFT_TO_UPPER_CENTRE = "\u{1FB41}";
 
-    #[Info(id: 129858, name: 'LOWER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB42, name: 'LOWER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER RIGHT', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_BLOCK_DIAGONAL_UPPER_MIDDLE_LEFT_TO_UPPER_RIGHT = "\u{1FB42}";
 
-    #[Info(id: 129859, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB43, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_BLOCK_DIAGONAL_LOWER_MIDDLE_LEFT_TO_UPPER_CENTRE = "\u{1FB43}";
 
-    #[Info(id: 129860, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB44, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER RIGHT', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_BLOCK_DIAGONAL_LOWER_MIDDLE_LEFT_TO_UPPER_RIGHT = "\u{1FB44}";
 
-    #[Info(id: 129861, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB45, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_BLOCK_DIAGONAL_LOWER_LEFT_TO_UPPER_CENTRE = "\u{1FB45}";
 
-    #[Info(id: 129862, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB46, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_BLOCK_DIAGONAL_LOWER_MIDDLE_LEFT_TO_UPPER_MIDDLE_RIGHT = "\u{1FB46}";
 
-    #[Info(id: 129863, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB47, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_BLOCK_DIAGONAL_LOWER_CENTRE_TO_LOWER_MIDDLE_RIGHT = "\u{1FB47}";
 
-    #[Info(id: 129864, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB48, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_BLOCK_DIAGONAL_LOWER_LEFT_TO_LOWER_MIDDLE_RIGHT = "\u{1FB48}";
 
-    #[Info(id: 129865, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB49, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_BLOCK_DIAGONAL_LOWER_CENTRE_TO_UPPER_MIDDLE_RIGHT = "\u{1FB49}";
 
-    #[Info(id: 129866, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB4A, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_BLOCK_DIAGONAL_LOWER_LEFT_TO_UPPER_MIDDLE_RIGHT = "\u{1FB4A}";
 
-    #[Info(id: 129867, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO UPPER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB4B, name: 'LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO UPPER RIGHT', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_BLOCK_DIAGONAL_LOWER_CENTRE_TO_UPPER_RIGHT = "\u{1FB4B}";
 
-    #[Info(id: 129868, name: 'LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB4C, name: 'LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BLOCK_DIAGONAL_UPPER_CENTRE_TO_UPPER_MIDDLE_RIGHT = "\u{1FB4C}";
 
-    #[Info(id: 129869, name: 'LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB4D, name: 'LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BLOCK_DIAGONAL_UPPER_LEFT_TO_UPPER_MIDDLE_RIGHT = "\u{1FB4D}";
 
-    #[Info(id: 129870, name: 'LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB4E, name: 'LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BLOCK_DIAGONAL_UPPER_CENTRE_TO_LOWER_MIDDLE_RIGHT = "\u{1FB4E}";
 
-    #[Info(id: 129871, name: 'LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB4F, name: 'LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BLOCK_DIAGONAL_UPPER_LEFT_TO_LOWER_MIDDLE_RIGHT = "\u{1FB4F}";
 
-    #[Info(id: 129872, name: 'LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB50, name: 'LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO LOWER RIGHT', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BLOCK_DIAGONAL_UPPER_CENTRE_TO_LOWER_RIGHT = "\u{1FB50}";
 
-    #[Info(id: 129873, name: 'LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB51, name: 'LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case LOWER_LEFT_BLOCK_DIAGONAL_UPPER_MIDDLE_LEFT_TO_LOWER_MIDDLE_RIGHT = "\u{1FB51}";
 
-    #[Info(id: 129874, name: 'UPPER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB52, name: 'UPPER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_BLOCK_DIAGONAL_LOWER_MIDDLE_LEFT_TO_LOWER_CENTRE = "\u{1FB52}";
 
-    #[Info(id: 129875, name: 'UPPER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB53, name: 'UPPER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER RIGHT', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_BLOCK_DIAGONAL_LOWER_MIDDLE_LEFT_TO_LOWER_RIGHT = "\u{1FB53}";
 
-    #[Info(id: 129876, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB54, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_BLOCK_DIAGONAL_UPPER_MIDDLE_LEFT_TO_LOWER_CENTRE = "\u{1FB54}";
 
-    #[Info(id: 129877, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB55, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER RIGHT', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_BLOCK_DIAGONAL_UPPER_MIDDLE_LEFT_TO_LOWER_RIGHT = "\u{1FB55}";
 
-    #[Info(id: 129878, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB56, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_BLOCK_DIAGONAL_UPPER_LEFT_TO_LOWER_CENTRE = "\u{1FB56}";
 
-    #[Info(id: 129879, name: 'UPPER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB57, name: 'UPPER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
     case UPPER_LEFT_BLOCK_DIAGONAL_UPPER_MIDDLE_LEFT_TO_UPPER_CENTRE = "\u{1FB57}";
 
-    #[Info(id: 129880, name: 'UPPER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB58, name: 'UPPER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER RIGHT', category: Cat::Other_Symbol)]
     case UPPER_LEFT_BLOCK_DIAGONAL_UPPER_MIDDLE_LEFT_TO_UPPER_RIGHT = "\u{1FB58}";
 
-    #[Info(id: 129881, name: 'UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB59, name: 'UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
     case UPPER_LEFT_BLOCK_DIAGONAL_LOWER_MIDDLE_LEFT_TO_UPPER_CENTRE = "\u{1FB59}";
 
-    #[Info(id: 129882, name: 'UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB5A, name: 'UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER RIGHT', category: Cat::Other_Symbol)]
     case UPPER_LEFT_BLOCK_DIAGONAL_LOWER_MIDDLE_LEFT_TO_UPPER_RIGHT = "\u{1FB5A}";
 
-    #[Info(id: 129883, name: 'UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB5B, name: 'UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO UPPER CENTRE', category: Cat::Other_Symbol)]
     case UPPER_LEFT_BLOCK_DIAGONAL_LOWER_LEFT_TO_UPPER_CENTRE = "\u{1FB5B}";
 
-    #[Info(id: 129884, name: 'UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB5C, name: 'UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case UPPER_LEFT_BLOCK_DIAGONAL_LOWER_MIDDLE_LEFT_TO_UPPER_MIDDLE_RIGHT = "\u{1FB5C}";
 
-    #[Info(id: 129885, name: 'UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB5D, name: 'UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case UPPER_LEFT_BLOCK_DIAGONAL_LOWER_CENTRE_TO_LOWER_MIDDLE_RIGHT = "\u{1FB5D}";
 
-    #[Info(id: 129886, name: 'UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB5E, name: 'UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case UPPER_LEFT_BLOCK_DIAGONAL_LOWER_LEFT_TO_LOWER_MIDDLE_RIGHT = "\u{1FB5E}";
 
-    #[Info(id: 129887, name: 'UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB5F, name: 'UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case UPPER_LEFT_BLOCK_DIAGONAL_LOWER_CENTRE_TO_UPPER_MIDDLE_RIGHT = "\u{1FB5F}";
 
-    #[Info(id: 129888, name: 'UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB60, name: 'UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case UPPER_LEFT_BLOCK_DIAGONAL_LOWER_LEFT_TO_UPPER_MIDDLE_RIGHT = "\u{1FB60}";
 
-    #[Info(id: 129889, name: 'UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO UPPER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB61, name: 'UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO UPPER RIGHT', category: Cat::Other_Symbol)]
     case UPPER_LEFT_BLOCK_DIAGONAL_LOWER_CENTRE_TO_UPPER_RIGHT = "\u{1FB61}";
 
-    #[Info(id: 129890, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB62, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_BLOCK_DIAGONAL_UPPER_CENTRE_TO_UPPER_MIDDLE_RIGHT = "\u{1FB62}";
 
-    #[Info(id: 129891, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB63, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO UPPER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_BLOCK_DIAGONAL_UPPER_LEFT_TO_UPPER_MIDDLE_RIGHT = "\u{1FB63}";
 
-    #[Info(id: 129892, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB64, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_BLOCK_DIAGONAL_UPPER_CENTRE_TO_LOWER_MIDDLE_RIGHT = "\u{1FB64}";
 
-    #[Info(id: 129893, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB65, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_BLOCK_DIAGONAL_UPPER_LEFT_TO_LOWER_MIDDLE_RIGHT = "\u{1FB65}";
 
-    #[Info(id: 129894, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB66, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO LOWER RIGHT', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_BLOCK_DIAGONAL_UPPER_CENTRE_TO_LOWER_RIGHT = "\u{1FB66}";
 
-    #[Info(id: 129895, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB67, name: 'UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_BLOCK_DIAGONAL_UPPER_MIDDLE_LEFT_TO_LOWER_MIDDLE_RIGHT = "\u{1FB67}";
 
-    #[Info(id: 129896, name: 'UPPER AND RIGHT AND LOWER TRIANGULAR THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB68, name: 'UPPER AND RIGHT AND LOWER TRIANGULAR THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
     case UPPER_AND_RIGHT_AND_LOWER_TRIANGULAR_THREE_QUARTERS_BLOCK = "\u{1FB68}";
 
-    #[Info(id: 129897, name: 'LEFT AND LOWER AND RIGHT TRIANGULAR THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB69, name: 'LEFT AND LOWER AND RIGHT TRIANGULAR THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
     case LEFT_AND_LOWER_AND_RIGHT_TRIANGULAR_THREE_QUARTERS_BLOCK = "\u{1FB69}";
 
-    #[Info(id: 129898, name: 'UPPER AND LEFT AND LOWER TRIANGULAR THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB6A, name: 'UPPER AND LEFT AND LOWER TRIANGULAR THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
     case UPPER_AND_LEFT_AND_LOWER_TRIANGULAR_THREE_QUARTERS_BLOCK = "\u{1FB6A}";
 
-    #[Info(id: 129899, name: 'LEFT AND UPPER AND RIGHT TRIANGULAR THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB6B, name: 'LEFT AND UPPER AND RIGHT TRIANGULAR THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
     case LEFT_AND_UPPER_AND_RIGHT_TRIANGULAR_THREE_QUARTERS_BLOCK = "\u{1FB6B}";
 
-    #[Info(id: 129900, name: 'LEFT TRIANGULAR ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB6C, name: 'LEFT TRIANGULAR ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
     case LEFT_TRIANGULAR_ONE_QUARTER_BLOCK = "\u{1FB6C}";
 
-    #[Info(id: 129901, name: 'UPPER TRIANGULAR ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB6D, name: 'UPPER TRIANGULAR ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
     case UPPER_TRIANGULAR_ONE_QUARTER_BLOCK = "\u{1FB6D}";
 
-    #[Info(id: 129902, name: 'RIGHT TRIANGULAR ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB6E, name: 'RIGHT TRIANGULAR ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
     case RIGHT_TRIANGULAR_ONE_QUARTER_BLOCK = "\u{1FB6E}";
 
-    #[Info(id: 129903, name: 'LOWER TRIANGULAR ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB6F, name: 'LOWER TRIANGULAR ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
     case LOWER_TRIANGULAR_ONE_QUARTER_BLOCK = "\u{1FB6F}";
 
-    #[Info(id: 129904, name: 'VERTICAL ONE EIGHTH BLOCK-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB70, name: 'VERTICAL ONE EIGHTH BLOCK-2', category: Cat::Other_Symbol)]
     case VERTICAL_ONE_EIGHTH_BLOCK_2 = "\u{1FB70}";
 
-    #[Info(id: 129905, name: 'VERTICAL ONE EIGHTH BLOCK-3', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB71, name: 'VERTICAL ONE EIGHTH BLOCK-3', category: Cat::Other_Symbol)]
     case VERTICAL_ONE_EIGHTH_BLOCK_3 = "\u{1FB71}";
 
-    #[Info(id: 129906, name: 'VERTICAL ONE EIGHTH BLOCK-4', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB72, name: 'VERTICAL ONE EIGHTH BLOCK-4', category: Cat::Other_Symbol)]
     case VERTICAL_ONE_EIGHTH_BLOCK_4 = "\u{1FB72}";
 
-    #[Info(id: 129907, name: 'VERTICAL ONE EIGHTH BLOCK-5', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB73, name: 'VERTICAL ONE EIGHTH BLOCK-5', category: Cat::Other_Symbol)]
     case VERTICAL_ONE_EIGHTH_BLOCK_5 = "\u{1FB73}";
 
-    #[Info(id: 129908, name: 'VERTICAL ONE EIGHTH BLOCK-6', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB74, name: 'VERTICAL ONE EIGHTH BLOCK-6', category: Cat::Other_Symbol)]
     case VERTICAL_ONE_EIGHTH_BLOCK_6 = "\u{1FB74}";
 
-    #[Info(id: 129909, name: 'VERTICAL ONE EIGHTH BLOCK-7', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB75, name: 'VERTICAL ONE EIGHTH BLOCK-7', category: Cat::Other_Symbol)]
     case VERTICAL_ONE_EIGHTH_BLOCK_7 = "\u{1FB75}";
 
-    #[Info(id: 129910, name: 'HORIZONTAL ONE EIGHTH BLOCK-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB76, name: 'HORIZONTAL ONE EIGHTH BLOCK-2', category: Cat::Other_Symbol)]
     case HORIZONTAL_ONE_EIGHTH_BLOCK_2 = "\u{1FB76}";
 
-    #[Info(id: 129911, name: 'HORIZONTAL ONE EIGHTH BLOCK-3', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB77, name: 'HORIZONTAL ONE EIGHTH BLOCK-3', category: Cat::Other_Symbol)]
     case HORIZONTAL_ONE_EIGHTH_BLOCK_3 = "\u{1FB77}";
 
-    #[Info(id: 129912, name: 'HORIZONTAL ONE EIGHTH BLOCK-4', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB78, name: 'HORIZONTAL ONE EIGHTH BLOCK-4', category: Cat::Other_Symbol)]
     case HORIZONTAL_ONE_EIGHTH_BLOCK_4 = "\u{1FB78}";
 
-    #[Info(id: 129913, name: 'HORIZONTAL ONE EIGHTH BLOCK-5', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB79, name: 'HORIZONTAL ONE EIGHTH BLOCK-5', category: Cat::Other_Symbol)]
     case HORIZONTAL_ONE_EIGHTH_BLOCK_5 = "\u{1FB79}";
 
-    #[Info(id: 129914, name: 'HORIZONTAL ONE EIGHTH BLOCK-6', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB7A, name: 'HORIZONTAL ONE EIGHTH BLOCK-6', category: Cat::Other_Symbol)]
     case HORIZONTAL_ONE_EIGHTH_BLOCK_6 = "\u{1FB7A}";
 
-    #[Info(id: 129915, name: 'HORIZONTAL ONE EIGHTH BLOCK-7', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB7B, name: 'HORIZONTAL ONE EIGHTH BLOCK-7', category: Cat::Other_Symbol)]
     case HORIZONTAL_ONE_EIGHTH_BLOCK_7 = "\u{1FB7B}";
 
-    #[Info(id: 129916, name: 'LEFT AND LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB7C, name: 'LEFT AND LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case LEFT_AND_LOWER_ONE_EIGHTH_BLOCK = "\u{1FB7C}";
 
-    #[Info(id: 129917, name: 'LEFT AND UPPER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB7D, name: 'LEFT AND UPPER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case LEFT_AND_UPPER_ONE_EIGHTH_BLOCK = "\u{1FB7D}";
 
-    #[Info(id: 129918, name: 'RIGHT AND UPPER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB7E, name: 'RIGHT AND UPPER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case RIGHT_AND_UPPER_ONE_EIGHTH_BLOCK = "\u{1FB7E}";
 
-    #[Info(id: 129919, name: 'RIGHT AND LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB7F, name: 'RIGHT AND LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case RIGHT_AND_LOWER_ONE_EIGHTH_BLOCK = "\u{1FB7F}";
 
-    #[Info(id: 129920, name: 'UPPER AND LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB80, name: 'UPPER AND LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case UPPER_AND_LOWER_ONE_EIGHTH_BLOCK = "\u{1FB80}";
 
-    #[Info(id: 129921, name: 'HORIZONTAL ONE EIGHTH BLOCK-1358', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB81, name: 'HORIZONTAL ONE EIGHTH BLOCK-1358', category: Cat::Other_Symbol)]
     case HORIZONTAL_ONE_EIGHTH_BLOCK_1358 = "\u{1FB81}";
 
-    #[Info(id: 129922, name: 'UPPER ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB82, name: 'UPPER ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
     case UPPER_ONE_QUARTER_BLOCK = "\u{1FB82}";
 
-    #[Info(id: 129923, name: 'UPPER THREE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB83, name: 'UPPER THREE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case UPPER_THREE_EIGHTHS_BLOCK = "\u{1FB83}";
 
-    #[Info(id: 129924, name: 'UPPER FIVE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB84, name: 'UPPER FIVE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case UPPER_FIVE_EIGHTHS_BLOCK = "\u{1FB84}";
 
-    #[Info(id: 129925, name: 'UPPER THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB85, name: 'UPPER THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
     case UPPER_THREE_QUARTERS_BLOCK = "\u{1FB85}";
 
-    #[Info(id: 129926, name: 'UPPER SEVEN EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB86, name: 'UPPER SEVEN EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case UPPER_SEVEN_EIGHTHS_BLOCK = "\u{1FB86}";
 
-    #[Info(id: 129927, name: 'RIGHT ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB87, name: 'RIGHT ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
     case RIGHT_ONE_QUARTER_BLOCK = "\u{1FB87}";
 
-    #[Info(id: 129928, name: 'RIGHT THREE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB88, name: 'RIGHT THREE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case RIGHT_THREE_EIGHTHS_BLOCK = "\u{1FB88}";
 
-    #[Info(id: 129929, name: 'RIGHT FIVE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB89, name: 'RIGHT FIVE EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case RIGHT_FIVE_EIGHTHS_BLOCK = "\u{1FB89}";
 
-    #[Info(id: 129930, name: 'RIGHT THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB8A, name: 'RIGHT THREE QUARTERS BLOCK', category: Cat::Other_Symbol)]
     case RIGHT_THREE_QUARTERS_BLOCK = "\u{1FB8A}";
 
-    #[Info(id: 129931, name: 'RIGHT SEVEN EIGHTHS BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB8B, name: 'RIGHT SEVEN EIGHTHS BLOCK', category: Cat::Other_Symbol)]
     case RIGHT_SEVEN_EIGHTHS_BLOCK = "\u{1FB8B}";
 
-    #[Info(id: 129932, name: 'LEFT HALF MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB8C, name: 'LEFT HALF MEDIUM SHADE', category: Cat::Other_Symbol)]
     case LEFT_HALF_MEDIUM_SHADE = "\u{1FB8C}";
 
-    #[Info(id: 129933, name: 'RIGHT HALF MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB8D, name: 'RIGHT HALF MEDIUM SHADE', category: Cat::Other_Symbol)]
     case RIGHT_HALF_MEDIUM_SHADE = "\u{1FB8D}";
 
-    #[Info(id: 129934, name: 'UPPER HALF MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB8E, name: 'UPPER HALF MEDIUM SHADE', category: Cat::Other_Symbol)]
     case UPPER_HALF_MEDIUM_SHADE = "\u{1FB8E}";
 
-    #[Info(id: 129935, name: 'LOWER HALF MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB8F, name: 'LOWER HALF MEDIUM SHADE', category: Cat::Other_Symbol)]
     case LOWER_HALF_MEDIUM_SHADE = "\u{1FB8F}";
 
-    #[Info(id: 129936, name: 'INVERSE MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB90, name: 'INVERSE MEDIUM SHADE', category: Cat::Other_Symbol)]
     case INVERSE_MEDIUM_SHADE = "\u{1FB90}";
 
-    #[Info(id: 129937, name: 'UPPER HALF BLOCK AND LOWER HALF INVERSE MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB91, name: 'UPPER HALF BLOCK AND LOWER HALF INVERSE MEDIUM SHADE', category: Cat::Other_Symbol)]
     case UPPER_HALF_BLOCK_AND_LOWER_HALF_INVERSE_MEDIUM_SHADE = "\u{1FB91}";
 
-    #[Info(id: 129938, name: 'UPPER HALF INVERSE MEDIUM SHADE AND LOWER HALF BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB92, name: 'UPPER HALF INVERSE MEDIUM SHADE AND LOWER HALF BLOCK', category: Cat::Other_Symbol)]
     case UPPER_HALF_INVERSE_MEDIUM_SHADE_AND_LOWER_HALF_BLOCK = "\u{1FB92}";
 
-    #[Info(id: 129940, name: 'LEFT HALF INVERSE MEDIUM SHADE AND RIGHT HALF BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB94, name: 'LEFT HALF INVERSE MEDIUM SHADE AND RIGHT HALF BLOCK', category: Cat::Other_Symbol)]
     case LEFT_HALF_INVERSE_MEDIUM_SHADE_AND_RIGHT_HALF_BLOCK = "\u{1FB94}";
 
-    #[Info(id: 129941, name: 'CHECKER BOARD FILL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB95, name: 'CHECKER BOARD FILL', category: Cat::Other_Symbol)]
     case CHECKER_BOARD_FILL = "\u{1FB95}";
 
-    #[Info(id: 129942, name: 'INVERSE CHECKER BOARD FILL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB96, name: 'INVERSE CHECKER BOARD FILL', category: Cat::Other_Symbol)]
     case INVERSE_CHECKER_BOARD_FILL = "\u{1FB96}";
 
-    #[Info(id: 129943, name: 'HEAVY HORIZONTAL FILL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB97, name: 'HEAVY HORIZONTAL FILL', category: Cat::Other_Symbol)]
     case HEAVY_HORIZONTAL_FILL = "\u{1FB97}";
 
-    #[Info(id: 129944, name: 'UPPER LEFT TO LOWER RIGHT FILL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB98, name: 'UPPER LEFT TO LOWER RIGHT FILL', category: Cat::Other_Symbol)]
     case UPPER_LEFT_TO_LOWER_RIGHT_FILL = "\u{1FB98}";
 
-    #[Info(id: 129945, name: 'UPPER RIGHT TO LOWER LEFT FILL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB99, name: 'UPPER RIGHT TO LOWER LEFT FILL', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_TO_LOWER_LEFT_FILL = "\u{1FB99}";
 
-    #[Info(id: 129946, name: 'UPPER AND LOWER TRIANGULAR HALF BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB9A, name: 'UPPER AND LOWER TRIANGULAR HALF BLOCK', category: Cat::Other_Symbol)]
     case UPPER_AND_LOWER_TRIANGULAR_HALF_BLOCK = "\u{1FB9A}";
 
-    #[Info(id: 129947, name: 'LEFT AND RIGHT TRIANGULAR HALF BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB9B, name: 'LEFT AND RIGHT TRIANGULAR HALF BLOCK', category: Cat::Other_Symbol)]
     case LEFT_AND_RIGHT_TRIANGULAR_HALF_BLOCK = "\u{1FB9B}";
 
-    #[Info(id: 129948, name: 'UPPER LEFT TRIANGULAR MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB9C, name: 'UPPER LEFT TRIANGULAR MEDIUM SHADE', category: Cat::Other_Symbol)]
     case UPPER_LEFT_TRIANGULAR_MEDIUM_SHADE = "\u{1FB9C}";
 
-    #[Info(id: 129949, name: 'UPPER RIGHT TRIANGULAR MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB9D, name: 'UPPER RIGHT TRIANGULAR MEDIUM SHADE', category: Cat::Other_Symbol)]
     case UPPER_RIGHT_TRIANGULAR_MEDIUM_SHADE = "\u{1FB9D}";
 
-    #[Info(id: 129950, name: 'LOWER RIGHT TRIANGULAR MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB9E, name: 'LOWER RIGHT TRIANGULAR MEDIUM SHADE', category: Cat::Other_Symbol)]
     case LOWER_RIGHT_TRIANGULAR_MEDIUM_SHADE = "\u{1FB9E}";
 
-    #[Info(id: 129951, name: 'LOWER LEFT TRIANGULAR MEDIUM SHADE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FB9F, name: 'LOWER LEFT TRIANGULAR MEDIUM SHADE', category: Cat::Other_Symbol)]
     case LOWER_LEFT_TRIANGULAR_MEDIUM_SHADE = "\u{1FB9F}";
 
-    #[Info(id: 129952, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBA0, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_CENTRE_TO_MIDDLE_LEFT = "\u{1FBA0}";
 
-    #[Info(id: 129953, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBA1, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_CENTRE_TO_MIDDLE_RIGHT = "\u{1FBA1}";
 
-    #[Info(id: 129954, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBA2, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_MIDDLE_LEFT_TO_LOWER_CENTRE = "\u{1FBA2}";
 
-    #[Info(id: 129955, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE RIGHT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBA3, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE RIGHT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_MIDDLE_RIGHT_TO_LOWER_CENTRE = "\u{1FBA3}";
 
-    #[Info(id: 129956, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBA4, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_CENTRE_TO_MIDDLE_LEFT_TO_LOWER_CENTRE = "\u{1FBA4}";
 
-    #[Info(id: 129957, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBA5, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_CENTRE_TO_MIDDLE_RIGHT_TO_LOWER_CENTRE = "\u{1FBA5}";
 
-    #[Info(id: 129958, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO LOWER CENTRE TO MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBA6, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO LOWER CENTRE TO MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_MIDDLE_LEFT_TO_LOWER_CENTRE_TO_MIDDLE_RIGHT = "\u{1FBA6}";
 
-    #[Info(id: 129959, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO UPPER CENTRE TO MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBA7, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO UPPER CENTRE TO MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_MIDDLE_LEFT_TO_UPPER_CENTRE_TO_MIDDLE_RIGHT = "\u{1FBA7}";
 
-    #[Info(id: 129960, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT AND MIDDLE RIGHT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBA8, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT AND MIDDLE RIGHT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_CENTRE_TO_MIDDLE_LEFT_AND_MIDDLE_RIGHT_TO_LOWER_CENTRE = "\u{1FBA8}";
 
-    #[Info(id: 129961, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT AND MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBA9, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT AND MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_CENTRE_TO_MIDDLE_RIGHT_AND_MIDDLE_LEFT_TO_LOWER_CENTRE = "\u{1FBA9}";
 
-    #[Info(id: 129962, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE TO MIDDLE LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBAA, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE TO MIDDLE LEFT', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_CENTRE_TO_MIDDLE_RIGHT_TO_LOWER_CENTRE_TO_MIDDLE_LEFT = "\u{1FBAA}";
 
-    #[Info(id: 129963, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE TO MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBAB, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE TO MIDDLE RIGHT', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_CENTRE_TO_MIDDLE_LEFT_TO_LOWER_CENTRE_TO_MIDDLE_RIGHT = "\u{1FBAB}";
 
-    #[Info(id: 129964, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBAC, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_MIDDLE_LEFT_TO_UPPER_CENTRE_TO_MIDDLE_RIGHT_TO_LOWER_CENTRE = "\u{1FBAC}";
 
-    #[Info(id: 129965, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE RIGHT TO UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBAD, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE RIGHT TO UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_MIDDLE_RIGHT_TO_UPPER_CENTRE_TO_MIDDLE_LEFT_TO_LOWER_CENTRE = "\u{1FBAD}";
 
-    #[Info(id: 129966, name: 'BOX DRAWINGS LIGHT DIAGONAL DIAMOND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBAE, name: 'BOX DRAWINGS LIGHT DIAGONAL DIAMOND', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_DIAGONAL_DIAMOND = "\u{1FBAE}";
 
-    #[Info(id: 129967, name: 'BOX DRAWINGS LIGHT HORIZONTAL WITH VERTICAL STROKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBAF, name: 'BOX DRAWINGS LIGHT HORIZONTAL WITH VERTICAL STROKE', category: Cat::Other_Symbol)]
     case BOX_DRAWINGS_LIGHT_HORIZONTAL_WITH_VERTICAL_STROKE = "\u{1FBAF}";
 
-    #[Info(id: 129968, name: 'ARROWHEAD-SHAPED POINTER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBB0, name: 'ARROWHEAD-SHAPED POINTER', category: Cat::Other_Symbol)]
     case ARROWHEAD_SHAPED_POINTER = "\u{1FBB0}";
 
-    #[Info(id: 129969, name: 'INVERSE CHECK MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBB1, name: 'INVERSE CHECK MARK', category: Cat::Other_Symbol)]
     case INVERSE_CHECK_MARK = "\u{1FBB1}";
 
-    #[Info(id: 129970, name: 'LEFT HALF RUNNING MAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBB2, name: 'LEFT HALF RUNNING MAN', category: Cat::Other_Symbol)]
     case LEFT_HALF_RUNNING_MAN = "\u{1FBB2}";
 
-    #[Info(id: 129971, name: 'RIGHT HALF RUNNING MAN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBB3, name: 'RIGHT HALF RUNNING MAN', category: Cat::Other_Symbol)]
     case RIGHT_HALF_RUNNING_MAN = "\u{1FBB3}";
 
-    #[Info(id: 129972, name: 'INVERSE DOWNWARDS ARROW WITH TIP LEFTWARDS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBB4, name: 'INVERSE DOWNWARDS ARROW WITH TIP LEFTWARDS', category: Cat::Other_Symbol)]
     case INVERSE_DOWNWARDS_ARROW_WITH_TIP_LEFTWARDS = "\u{1FBB4}";
 
-    #[Info(id: 129973, name: 'LEFTWARDS ARROW AND UPPER AND LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBB5, name: 'LEFTWARDS ARROW AND UPPER AND LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case LEFTWARDS_ARROW_AND_UPPER_AND_LOWER_ONE_EIGHTH_BLOCK = "\u{1FBB5}";
 
-    #[Info(id: 129974, name: 'RIGHTWARDS ARROW AND UPPER AND LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBB6, name: 'RIGHTWARDS ARROW AND UPPER AND LOWER ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case RIGHTWARDS_ARROW_AND_UPPER_AND_LOWER_ONE_EIGHTH_BLOCK = "\u{1FBB6}";
 
-    #[Info(id: 129975, name: 'DOWNWARDS ARROW AND RIGHT ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBB7, name: 'DOWNWARDS ARROW AND RIGHT ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case DOWNWARDS_ARROW_AND_RIGHT_ONE_EIGHTH_BLOCK = "\u{1FBB7}";
 
-    #[Info(id: 129976, name: 'UPWARDS ARROW AND RIGHT ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBB8, name: 'UPWARDS ARROW AND RIGHT ONE EIGHTH BLOCK', category: Cat::Other_Symbol)]
     case UPWARDS_ARROW_AND_RIGHT_ONE_EIGHTH_BLOCK = "\u{1FBB8}";
 
-    #[Info(id: 129977, name: 'LEFT HALF FOLDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBB9, name: 'LEFT HALF FOLDER', category: Cat::Other_Symbol)]
     case LEFT_HALF_FOLDER = "\u{1FBB9}";
 
-    #[Info(id: 129978, name: 'RIGHT HALF FOLDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBBA, name: 'RIGHT HALF FOLDER', category: Cat::Other_Symbol)]
     case RIGHT_HALF_FOLDER = "\u{1FBBA}";
 
-    #[Info(id: 129979, name: 'VOIDED GREEK CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBBB, name: 'VOIDED GREEK CROSS', category: Cat::Other_Symbol)]
     case VOIDED_GREEK_CROSS = "\u{1FBBB}";
 
-    #[Info(id: 129980, name: 'RIGHT OPEN SQUARED DOT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBBC, name: 'RIGHT OPEN SQUARED DOT', category: Cat::Other_Symbol)]
     case RIGHT_OPEN_SQUARED_DOT = "\u{1FBBC}";
 
-    #[Info(id: 129981, name: 'NEGATIVE DIAGONAL CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBBD, name: 'NEGATIVE DIAGONAL CROSS', category: Cat::Other_Symbol)]
     case NEGATIVE_DIAGONAL_CROSS = "\u{1FBBD}";
 
-    #[Info(id: 129982, name: 'NEGATIVE DIAGONAL MIDDLE RIGHT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBBE, name: 'NEGATIVE DIAGONAL MIDDLE RIGHT TO LOWER CENTRE', category: Cat::Other_Symbol)]
     case NEGATIVE_DIAGONAL_MIDDLE_RIGHT_TO_LOWER_CENTRE = "\u{1FBBE}";
 
-    #[Info(id: 129983, name: 'NEGATIVE DIAGONAL DIAMOND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBBF, name: 'NEGATIVE DIAGONAL DIAMOND', category: Cat::Other_Symbol)]
     case NEGATIVE_DIAGONAL_DIAMOND = "\u{1FBBF}";
 
-    #[Info(id: 129984, name: 'WHITE HEAVY SALTIRE WITH ROUNDED CORNERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBC0, name: 'WHITE HEAVY SALTIRE WITH ROUNDED CORNERS', category: Cat::Other_Symbol)]
     case WHITE_HEAVY_SALTIRE_WITH_ROUNDED_CORNERS = "\u{1FBC0}";
 
-    #[Info(id: 129985, name: 'LEFT THIRD WHITE RIGHT POINTING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBC1, name: 'LEFT THIRD WHITE RIGHT POINTING INDEX', category: Cat::Other_Symbol)]
     case LEFT_THIRD_WHITE_RIGHT_POINTING_INDEX = "\u{1FBC1}";
 
-    #[Info(id: 129986, name: 'MIDDLE THIRD WHITE RIGHT POINTING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBC2, name: 'MIDDLE THIRD WHITE RIGHT POINTING INDEX', category: Cat::Other_Symbol)]
     case MIDDLE_THIRD_WHITE_RIGHT_POINTING_INDEX = "\u{1FBC2}";
 
-    #[Info(id: 129987, name: 'RIGHT THIRD WHITE RIGHT POINTING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBC3, name: 'RIGHT THIRD WHITE RIGHT POINTING INDEX', category: Cat::Other_Symbol)]
     case RIGHT_THIRD_WHITE_RIGHT_POINTING_INDEX = "\u{1FBC3}";
 
-    #[Info(id: 129988, name: 'NEGATIVE SQUARED QUESTION MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBC4, name: 'NEGATIVE SQUARED QUESTION MARK', category: Cat::Other_Symbol)]
     case NEGATIVE_SQUARED_QUESTION_MARK = "\u{1FBC4}";
 
-    #[Info(id: 129989, name: 'STICK FIGURE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBC5, name: 'STICK FIGURE', category: Cat::Other_Symbol)]
     case STICK_FIGURE = "\u{1FBC5}";
 
-    #[Info(id: 129990, name: 'STICK FIGURE WITH ARMS RAISED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBC6, name: 'STICK FIGURE WITH ARMS RAISED', category: Cat::Other_Symbol)]
     case STICK_FIGURE_WITH_ARMS_RAISED = "\u{1FBC6}";
 
-    #[Info(id: 129991, name: 'STICK FIGURE LEANING LEFT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBC7, name: 'STICK FIGURE LEANING LEFT', category: Cat::Other_Symbol)]
     case STICK_FIGURE_LEANING_LEFT = "\u{1FBC7}";
 
-    #[Info(id: 129992, name: 'STICK FIGURE LEANING RIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBC8, name: 'STICK FIGURE LEANING RIGHT', category: Cat::Other_Symbol)]
     case STICK_FIGURE_LEANING_RIGHT = "\u{1FBC8}";
 
-    #[Info(id: 129993, name: 'STICK FIGURE WITH DRESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBC9, name: 'STICK FIGURE WITH DRESS', category: Cat::Other_Symbol)]
     case STICK_FIGURE_WITH_DRESS = "\u{1FBC9}";
 
-    #[Info(id: 129994, name: 'WHITE UP-POINTING CHEVRON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1FBCA, name: 'WHITE UP-POINTING CHEVRON', category: Cat::Other_Symbol)]
     case WHITE_UP_POINTING_CHEVRON = "\u{1FBCA}";
 
-    #[Info(id: 130032, name: 'SEGMENTED DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1FBF0, name: 'SEGMENTED DIGIT ZERO', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_ZERO = "\u{1FBF0}";
 
-    #[Info(id: 130033, name: 'SEGMENTED DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1FBF1, name: 'SEGMENTED DIGIT ONE', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_ONE = "\u{1FBF1}";
 
-    #[Info(id: 130034, name: 'SEGMENTED DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1FBF2, name: 'SEGMENTED DIGIT TWO', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_TWO = "\u{1FBF2}";
 
-    #[Info(id: 130035, name: 'SEGMENTED DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1FBF3, name: 'SEGMENTED DIGIT THREE', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_THREE = "\u{1FBF3}";
 
-    #[Info(id: 130036, name: 'SEGMENTED DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1FBF4, name: 'SEGMENTED DIGIT FOUR', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_FOUR = "\u{1FBF4}";
 
-    #[Info(id: 130037, name: 'SEGMENTED DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1FBF5, name: 'SEGMENTED DIGIT FIVE', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_FIVE = "\u{1FBF5}";
 
-    #[Info(id: 130038, name: 'SEGMENTED DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1FBF6, name: 'SEGMENTED DIGIT SIX', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_SIX = "\u{1FBF6}";
 
-    #[Info(id: 130039, name: 'SEGMENTED DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1FBF7, name: 'SEGMENTED DIGIT SEVEN', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_SEVEN = "\u{1FBF7}";
 
-    #[Info(id: 130040, name: 'SEGMENTED DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1FBF8, name: 'SEGMENTED DIGIT EIGHT', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_EIGHT = "\u{1FBF8}";
 
-    #[Info(id: 130041, name: 'SEGMENTED DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1FBF9, name: 'SEGMENTED DIGIT NINE', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_NINE = "\u{1FBF9}";
 }

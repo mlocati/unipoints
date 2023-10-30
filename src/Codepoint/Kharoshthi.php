@@ -16,207 +16,207 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Kharoshthi: string
 {
-    #[Info(id: 68096, name: 'KHAROSHTHI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A00, name: 'KHAROSHTHI LETTER A', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_A = "\u{10A00}";
 
-    #[Info(id: 68097, name: 'KHAROSHTHI VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A01, name: 'KHAROSHTHI VOWEL SIGN I', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_VOWEL_SIGN_I = "\u{10A01}";
 
-    #[Info(id: 68098, name: 'KHAROSHTHI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A02, name: 'KHAROSHTHI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_VOWEL_SIGN_U = "\u{10A02}";
 
-    #[Info(id: 68099, name: 'KHAROSHTHI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A03, name: 'KHAROSHTHI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_VOWEL_SIGN_VOCALIC_R = "\u{10A03}";
 
-    #[Info(id: 68101, name: 'KHAROSHTHI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A05, name: 'KHAROSHTHI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_VOWEL_SIGN_E = "\u{10A05}";
 
-    #[Info(id: 68102, name: 'KHAROSHTHI VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A06, name: 'KHAROSHTHI VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_VOWEL_SIGN_O = "\u{10A06}";
 
-    #[Info(id: 68108, name: 'KHAROSHTHI VOWEL LENGTH MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A0C, name: 'KHAROSHTHI VOWEL LENGTH MARK', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_VOWEL_LENGTH_MARK = "\u{10A0C}";
 
-    #[Info(id: 68109, name: 'KHAROSHTHI SIGN DOUBLE RING BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A0D, name: 'KHAROSHTHI SIGN DOUBLE RING BELOW', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_SIGN_DOUBLE_RING_BELOW = "\u{10A0D}";
 
-    #[Info(id: 68110, name: 'KHAROSHTHI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A0E, name: 'KHAROSHTHI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_SIGN_ANUSVARA = "\u{10A0E}";
 
-    #[Info(id: 68111, name: 'KHAROSHTHI SIGN VISARGA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A0F, name: 'KHAROSHTHI SIGN VISARGA', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_SIGN_VISARGA = "\u{10A0F}";
 
-    #[Info(id: 68112, name: 'KHAROSHTHI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A10, name: 'KHAROSHTHI LETTER KA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_KA = "\u{10A10}";
 
-    #[Info(id: 68113, name: 'KHAROSHTHI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A11, name: 'KHAROSHTHI LETTER KHA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_KHA = "\u{10A11}";
 
-    #[Info(id: 68114, name: 'KHAROSHTHI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A12, name: 'KHAROSHTHI LETTER GA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_GA = "\u{10A12}";
 
-    #[Info(id: 68115, name: 'KHAROSHTHI LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A13, name: 'KHAROSHTHI LETTER GHA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_GHA = "\u{10A13}";
 
-    #[Info(id: 68117, name: 'KHAROSHTHI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A15, name: 'KHAROSHTHI LETTER CA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_CA = "\u{10A15}";
 
-    #[Info(id: 68118, name: 'KHAROSHTHI LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A16, name: 'KHAROSHTHI LETTER CHA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_CHA = "\u{10A16}";
 
-    #[Info(id: 68119, name: 'KHAROSHTHI LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A17, name: 'KHAROSHTHI LETTER JA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_JA = "\u{10A17}";
 
-    #[Info(id: 68121, name: 'KHAROSHTHI LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A19, name: 'KHAROSHTHI LETTER NYA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_NYA = "\u{10A19}";
 
-    #[Info(id: 68122, name: 'KHAROSHTHI LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A1A, name: 'KHAROSHTHI LETTER TTA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_TTA = "\u{10A1A}";
 
-    #[Info(id: 68123, name: 'KHAROSHTHI LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A1B, name: 'KHAROSHTHI LETTER TTHA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_TTHA = "\u{10A1B}";
 
-    #[Info(id: 68124, name: 'KHAROSHTHI LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A1C, name: 'KHAROSHTHI LETTER DDA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_DDA = "\u{10A1C}";
 
-    #[Info(id: 68125, name: 'KHAROSHTHI LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A1D, name: 'KHAROSHTHI LETTER DDHA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_DDHA = "\u{10A1D}";
 
-    #[Info(id: 68126, name: 'KHAROSHTHI LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A1E, name: 'KHAROSHTHI LETTER NNA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_NNA = "\u{10A1E}";
 
-    #[Info(id: 68127, name: 'KHAROSHTHI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A1F, name: 'KHAROSHTHI LETTER TA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_TA = "\u{10A1F}";
 
-    #[Info(id: 68128, name: 'KHAROSHTHI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A20, name: 'KHAROSHTHI LETTER THA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_THA = "\u{10A20}";
 
-    #[Info(id: 68129, name: 'KHAROSHTHI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A21, name: 'KHAROSHTHI LETTER DA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_DA = "\u{10A21}";
 
-    #[Info(id: 68130, name: 'KHAROSHTHI LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A22, name: 'KHAROSHTHI LETTER DHA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_DHA = "\u{10A22}";
 
-    #[Info(id: 68131, name: 'KHAROSHTHI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A23, name: 'KHAROSHTHI LETTER NA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_NA = "\u{10A23}";
 
-    #[Info(id: 68132, name: 'KHAROSHTHI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A24, name: 'KHAROSHTHI LETTER PA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_PA = "\u{10A24}";
 
-    #[Info(id: 68133, name: 'KHAROSHTHI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A25, name: 'KHAROSHTHI LETTER PHA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_PHA = "\u{10A25}";
 
-    #[Info(id: 68134, name: 'KHAROSHTHI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A26, name: 'KHAROSHTHI LETTER BA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_BA = "\u{10A26}";
 
-    #[Info(id: 68135, name: 'KHAROSHTHI LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A27, name: 'KHAROSHTHI LETTER BHA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_BHA = "\u{10A27}";
 
-    #[Info(id: 68136, name: 'KHAROSHTHI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A28, name: 'KHAROSHTHI LETTER MA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_MA = "\u{10A28}";
 
-    #[Info(id: 68137, name: 'KHAROSHTHI LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A29, name: 'KHAROSHTHI LETTER YA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_YA = "\u{10A29}";
 
-    #[Info(id: 68138, name: 'KHAROSHTHI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A2A, name: 'KHAROSHTHI LETTER RA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_RA = "\u{10A2A}";
 
-    #[Info(id: 68139, name: 'KHAROSHTHI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A2B, name: 'KHAROSHTHI LETTER LA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_LA = "\u{10A2B}";
 
-    #[Info(id: 68140, name: 'KHAROSHTHI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A2C, name: 'KHAROSHTHI LETTER VA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_VA = "\u{10A2C}";
 
-    #[Info(id: 68141, name: 'KHAROSHTHI LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A2D, name: 'KHAROSHTHI LETTER SHA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_SHA = "\u{10A2D}";
 
-    #[Info(id: 68142, name: 'KHAROSHTHI LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A2E, name: 'KHAROSHTHI LETTER SSA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_SSA = "\u{10A2E}";
 
-    #[Info(id: 68143, name: 'KHAROSHTHI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A2F, name: 'KHAROSHTHI LETTER SA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_SA = "\u{10A2F}";
 
-    #[Info(id: 68144, name: 'KHAROSHTHI LETTER ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A30, name: 'KHAROSHTHI LETTER ZA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_ZA = "\u{10A30}";
 
-    #[Info(id: 68145, name: 'KHAROSHTHI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A31, name: 'KHAROSHTHI LETTER HA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_HA = "\u{10A31}";
 
-    #[Info(id: 68146, name: 'KHAROSHTHI LETTER KKA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A32, name: 'KHAROSHTHI LETTER KKA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_KKA = "\u{10A32}";
 
-    #[Info(id: 68147, name: 'KHAROSHTHI LETTER TTTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A33, name: 'KHAROSHTHI LETTER TTTHA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_TTTHA = "\u{10A33}";
 
-    #[Info(id: 68148, name: 'KHAROSHTHI LETTER TTTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A34, name: 'KHAROSHTHI LETTER TTTA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_TTTA = "\u{10A34}";
 
-    #[Info(id: 68149, name: 'KHAROSHTHI LETTER VHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10A35, name: 'KHAROSHTHI LETTER VHA', category: Cat::Other_Letter)]
     case KHAROSHTHI_LETTER_VHA = "\u{10A35}";
 
-    #[Info(id: 68152, name: 'KHAROSHTHI SIGN BAR ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A38, name: 'KHAROSHTHI SIGN BAR ABOVE', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_SIGN_BAR_ABOVE = "\u{10A38}";
 
-    #[Info(id: 68153, name: 'KHAROSHTHI SIGN CAUDA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A39, name: 'KHAROSHTHI SIGN CAUDA', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_SIGN_CAUDA = "\u{10A39}";
 
-    #[Info(id: 68154, name: 'KHAROSHTHI SIGN DOT BELOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A3A, name: 'KHAROSHTHI SIGN DOT BELOW', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_SIGN_DOT_BELOW = "\u{10A3A}";
 
-    #[Info(id: 68159, name: 'KHAROSHTHI VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10A3F, name: 'KHAROSHTHI VIRAMA', category: Cat::Nonspacing_Mark)]
     case KHAROSHTHI_VIRAMA = "\u{10A3F}";
 
-    #[Info(id: 68160, name: 'KHAROSHTHI DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x10A40, name: 'KHAROSHTHI DIGIT ONE', category: Cat::Other_Number)]
     case KHAROSHTHI_DIGIT_ONE = "\u{10A40}";
 
-    #[Info(id: 68161, name: 'KHAROSHTHI DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x10A41, name: 'KHAROSHTHI DIGIT TWO', category: Cat::Other_Number)]
     case KHAROSHTHI_DIGIT_TWO = "\u{10A41}";
 
-    #[Info(id: 68162, name: 'KHAROSHTHI DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x10A42, name: 'KHAROSHTHI DIGIT THREE', category: Cat::Other_Number)]
     case KHAROSHTHI_DIGIT_THREE = "\u{10A42}";
 
-    #[Info(id: 68163, name: 'KHAROSHTHI DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x10A43, name: 'KHAROSHTHI DIGIT FOUR', category: Cat::Other_Number)]
     case KHAROSHTHI_DIGIT_FOUR = "\u{10A43}";
 
-    #[Info(id: 68164, name: 'KHAROSHTHI NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x10A44, name: 'KHAROSHTHI NUMBER TEN', category: Cat::Other_Number)]
     case KHAROSHTHI_NUMBER_TEN = "\u{10A44}";
 
-    #[Info(id: 68165, name: 'KHAROSHTHI NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10A45, name: 'KHAROSHTHI NUMBER TWENTY', category: Cat::Other_Number)]
     case KHAROSHTHI_NUMBER_TWENTY = "\u{10A45}";
 
-    #[Info(id: 68166, name: 'KHAROSHTHI NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10A46, name: 'KHAROSHTHI NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case KHAROSHTHI_NUMBER_ONE_HUNDRED = "\u{10A46}";
 
-    #[Info(id: 68167, name: 'KHAROSHTHI NUMBER ONE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10A47, name: 'KHAROSHTHI NUMBER ONE THOUSAND', category: Cat::Other_Number)]
     case KHAROSHTHI_NUMBER_ONE_THOUSAND = "\u{10A47}";
 
-    #[Info(id: 68168, name: 'KHAROSHTHI FRACTION ONE HALF', category: Cat::Other_Number)]
+    #[Info(id: 0x10A48, name: 'KHAROSHTHI FRACTION ONE HALF', category: Cat::Other_Number)]
     case KHAROSHTHI_FRACTION_ONE_HALF = "\u{10A48}";
 
-    #[Info(id: 68176, name: 'KHAROSHTHI PUNCTUATION DOT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10A50, name: 'KHAROSHTHI PUNCTUATION DOT', category: Cat::Other_Punctuation)]
     case KHAROSHTHI_PUNCTUATION_DOT = "\u{10A50}";
 
-    #[Info(id: 68177, name: 'KHAROSHTHI PUNCTUATION SMALL CIRCLE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10A51, name: 'KHAROSHTHI PUNCTUATION SMALL CIRCLE', category: Cat::Other_Punctuation)]
     case KHAROSHTHI_PUNCTUATION_SMALL_CIRCLE = "\u{10A51}";
 
-    #[Info(id: 68178, name: 'KHAROSHTHI PUNCTUATION CIRCLE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10A52, name: 'KHAROSHTHI PUNCTUATION CIRCLE', category: Cat::Other_Punctuation)]
     case KHAROSHTHI_PUNCTUATION_CIRCLE = "\u{10A52}";
 
-    #[Info(id: 68179, name: 'KHAROSHTHI PUNCTUATION CRESCENT BAR', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10A53, name: 'KHAROSHTHI PUNCTUATION CRESCENT BAR', category: Cat::Other_Punctuation)]
     case KHAROSHTHI_PUNCTUATION_CRESCENT_BAR = "\u{10A53}";
 
-    #[Info(id: 68180, name: 'KHAROSHTHI PUNCTUATION MANGALAM', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10A54, name: 'KHAROSHTHI PUNCTUATION MANGALAM', category: Cat::Other_Punctuation)]
     case KHAROSHTHI_PUNCTUATION_MANGALAM = "\u{10A54}";
 
-    #[Info(id: 68181, name: 'KHAROSHTHI PUNCTUATION LOTUS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10A55, name: 'KHAROSHTHI PUNCTUATION LOTUS', category: Cat::Other_Punctuation)]
     case KHAROSHTHI_PUNCTUATION_LOTUS = "\u{10A55}";
 
-    #[Info(id: 68182, name: 'KHAROSHTHI PUNCTUATION DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10A56, name: 'KHAROSHTHI PUNCTUATION DANDA', category: Cat::Other_Punctuation)]
     case KHAROSHTHI_PUNCTUATION_DANDA = "\u{10A56}";
 
-    #[Info(id: 68183, name: 'KHAROSHTHI PUNCTUATION DOUBLE DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10A57, name: 'KHAROSHTHI PUNCTUATION DOUBLE DANDA', category: Cat::Other_Punctuation)]
     case KHAROSHTHI_PUNCTUATION_DOUBLE_DANDA = "\u{10A57}";
 
-    #[Info(id: 68184, name: 'KHAROSHTHI PUNCTUATION LINES', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10A58, name: 'KHAROSHTHI PUNCTUATION LINES', category: Cat::Other_Punctuation)]
     case KHAROSHTHI_PUNCTUATION_LINES = "\u{10A58}";
 }

@@ -16,225 +16,225 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Lepcha: string
 {
-    #[Info(id: 7168, name: 'LEPCHA LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C00, name: 'LEPCHA LETTER KA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_KA = "\u{1C00}";
 
-    #[Info(id: 7169, name: 'LEPCHA LETTER KLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C01, name: 'LEPCHA LETTER KLA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_KLA = "\u{1C01}";
 
-    #[Info(id: 7170, name: 'LEPCHA LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C02, name: 'LEPCHA LETTER KHA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_KHA = "\u{1C02}";
 
-    #[Info(id: 7171, name: 'LEPCHA LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C03, name: 'LEPCHA LETTER GA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_GA = "\u{1C03}";
 
-    #[Info(id: 7172, name: 'LEPCHA LETTER GLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C04, name: 'LEPCHA LETTER GLA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_GLA = "\u{1C04}";
 
-    #[Info(id: 7173, name: 'LEPCHA LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C05, name: 'LEPCHA LETTER NGA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_NGA = "\u{1C05}";
 
-    #[Info(id: 7174, name: 'LEPCHA LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C06, name: 'LEPCHA LETTER CA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_CA = "\u{1C06}";
 
-    #[Info(id: 7175, name: 'LEPCHA LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C07, name: 'LEPCHA LETTER CHA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_CHA = "\u{1C07}";
 
-    #[Info(id: 7176, name: 'LEPCHA LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C08, name: 'LEPCHA LETTER JA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_JA = "\u{1C08}";
 
-    #[Info(id: 7177, name: 'LEPCHA LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C09, name: 'LEPCHA LETTER NYA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_NYA = "\u{1C09}";
 
-    #[Info(id: 7178, name: 'LEPCHA LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C0A, name: 'LEPCHA LETTER TA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_TA = "\u{1C0A}";
 
-    #[Info(id: 7179, name: 'LEPCHA LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C0B, name: 'LEPCHA LETTER THA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_THA = "\u{1C0B}";
 
-    #[Info(id: 7180, name: 'LEPCHA LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C0C, name: 'LEPCHA LETTER DA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_DA = "\u{1C0C}";
 
-    #[Info(id: 7181, name: 'LEPCHA LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C0D, name: 'LEPCHA LETTER NA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_NA = "\u{1C0D}";
 
-    #[Info(id: 7182, name: 'LEPCHA LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C0E, name: 'LEPCHA LETTER PA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_PA = "\u{1C0E}";
 
-    #[Info(id: 7183, name: 'LEPCHA LETTER PLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C0F, name: 'LEPCHA LETTER PLA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_PLA = "\u{1C0F}";
 
-    #[Info(id: 7184, name: 'LEPCHA LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C10, name: 'LEPCHA LETTER PHA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_PHA = "\u{1C10}";
 
-    #[Info(id: 7185, name: 'LEPCHA LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C11, name: 'LEPCHA LETTER FA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_FA = "\u{1C11}";
 
-    #[Info(id: 7186, name: 'LEPCHA LETTER FLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C12, name: 'LEPCHA LETTER FLA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_FLA = "\u{1C12}";
 
-    #[Info(id: 7187, name: 'LEPCHA LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C13, name: 'LEPCHA LETTER BA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_BA = "\u{1C13}";
 
-    #[Info(id: 7188, name: 'LEPCHA LETTER BLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C14, name: 'LEPCHA LETTER BLA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_BLA = "\u{1C14}";
 
-    #[Info(id: 7189, name: 'LEPCHA LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C15, name: 'LEPCHA LETTER MA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_MA = "\u{1C15}";
 
-    #[Info(id: 7190, name: 'LEPCHA LETTER MLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C16, name: 'LEPCHA LETTER MLA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_MLA = "\u{1C16}";
 
-    #[Info(id: 7191, name: 'LEPCHA LETTER TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C17, name: 'LEPCHA LETTER TSA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_TSA = "\u{1C17}";
 
-    #[Info(id: 7192, name: 'LEPCHA LETTER TSHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C18, name: 'LEPCHA LETTER TSHA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_TSHA = "\u{1C18}";
 
-    #[Info(id: 7193, name: 'LEPCHA LETTER DZA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C19, name: 'LEPCHA LETTER DZA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_DZA = "\u{1C19}";
 
-    #[Info(id: 7194, name: 'LEPCHA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C1A, name: 'LEPCHA LETTER YA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_YA = "\u{1C1A}";
 
-    #[Info(id: 7195, name: 'LEPCHA LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C1B, name: 'LEPCHA LETTER RA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_RA = "\u{1C1B}";
 
-    #[Info(id: 7196, name: 'LEPCHA LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C1C, name: 'LEPCHA LETTER LA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_LA = "\u{1C1C}";
 
-    #[Info(id: 7197, name: 'LEPCHA LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C1D, name: 'LEPCHA LETTER HA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_HA = "\u{1C1D}";
 
-    #[Info(id: 7198, name: 'LEPCHA LETTER HLA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C1E, name: 'LEPCHA LETTER HLA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_HLA = "\u{1C1E}";
 
-    #[Info(id: 7199, name: 'LEPCHA LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C1F, name: 'LEPCHA LETTER VA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_VA = "\u{1C1F}";
 
-    #[Info(id: 7200, name: 'LEPCHA LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C20, name: 'LEPCHA LETTER SA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_SA = "\u{1C20}";
 
-    #[Info(id: 7201, name: 'LEPCHA LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C21, name: 'LEPCHA LETTER SHA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_SHA = "\u{1C21}";
 
-    #[Info(id: 7202, name: 'LEPCHA LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C22, name: 'LEPCHA LETTER WA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_WA = "\u{1C22}";
 
-    #[Info(id: 7203, name: 'LEPCHA LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C23, name: 'LEPCHA LETTER A', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_A = "\u{1C23}";
 
-    #[Info(id: 7204, name: 'LEPCHA SUBJOINED LETTER YA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1C24, name: 'LEPCHA SUBJOINED LETTER YA', category: Cat::Spacing_Mark)]
     case LEPCHA_SUBJOINED_LETTER_YA = "\u{1C24}";
 
-    #[Info(id: 7205, name: 'LEPCHA SUBJOINED LETTER RA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1C25, name: 'LEPCHA SUBJOINED LETTER RA', category: Cat::Spacing_Mark)]
     case LEPCHA_SUBJOINED_LETTER_RA = "\u{1C25}";
 
-    #[Info(id: 7206, name: 'LEPCHA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1C26, name: 'LEPCHA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case LEPCHA_VOWEL_SIGN_AA = "\u{1C26}";
 
-    #[Info(id: 7207, name: 'LEPCHA VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1C27, name: 'LEPCHA VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case LEPCHA_VOWEL_SIGN_I = "\u{1C27}";
 
-    #[Info(id: 7208, name: 'LEPCHA VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1C28, name: 'LEPCHA VOWEL SIGN O', category: Cat::Spacing_Mark)]
     case LEPCHA_VOWEL_SIGN_O = "\u{1C28}";
 
-    #[Info(id: 7209, name: 'LEPCHA VOWEL SIGN OO', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1C29, name: 'LEPCHA VOWEL SIGN OO', category: Cat::Spacing_Mark)]
     case LEPCHA_VOWEL_SIGN_OO = "\u{1C29}";
 
-    #[Info(id: 7210, name: 'LEPCHA VOWEL SIGN U', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1C2A, name: 'LEPCHA VOWEL SIGN U', category: Cat::Spacing_Mark)]
     case LEPCHA_VOWEL_SIGN_U = "\u{1C2A}";
 
-    #[Info(id: 7211, name: 'LEPCHA VOWEL SIGN UU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1C2B, name: 'LEPCHA VOWEL SIGN UU', category: Cat::Spacing_Mark)]
     case LEPCHA_VOWEL_SIGN_UU = "\u{1C2B}";
 
-    #[Info(id: 7212, name: 'LEPCHA VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1C2C, name: 'LEPCHA VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case LEPCHA_VOWEL_SIGN_E = "\u{1C2C}";
 
-    #[Info(id: 7213, name: 'LEPCHA CONSONANT SIGN K', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1C2D, name: 'LEPCHA CONSONANT SIGN K', category: Cat::Nonspacing_Mark)]
     case LEPCHA_CONSONANT_SIGN_K = "\u{1C2D}";
 
-    #[Info(id: 7214, name: 'LEPCHA CONSONANT SIGN M', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1C2E, name: 'LEPCHA CONSONANT SIGN M', category: Cat::Nonspacing_Mark)]
     case LEPCHA_CONSONANT_SIGN_M = "\u{1C2E}";
 
-    #[Info(id: 7215, name: 'LEPCHA CONSONANT SIGN L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1C2F, name: 'LEPCHA CONSONANT SIGN L', category: Cat::Nonspacing_Mark)]
     case LEPCHA_CONSONANT_SIGN_L = "\u{1C2F}";
 
-    #[Info(id: 7216, name: 'LEPCHA CONSONANT SIGN N', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1C30, name: 'LEPCHA CONSONANT SIGN N', category: Cat::Nonspacing_Mark)]
     case LEPCHA_CONSONANT_SIGN_N = "\u{1C30}";
 
-    #[Info(id: 7217, name: 'LEPCHA CONSONANT SIGN P', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1C31, name: 'LEPCHA CONSONANT SIGN P', category: Cat::Nonspacing_Mark)]
     case LEPCHA_CONSONANT_SIGN_P = "\u{1C31}";
 
-    #[Info(id: 7218, name: 'LEPCHA CONSONANT SIGN R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1C32, name: 'LEPCHA CONSONANT SIGN R', category: Cat::Nonspacing_Mark)]
     case LEPCHA_CONSONANT_SIGN_R = "\u{1C32}";
 
-    #[Info(id: 7219, name: 'LEPCHA CONSONANT SIGN T', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1C33, name: 'LEPCHA CONSONANT SIGN T', category: Cat::Nonspacing_Mark)]
     case LEPCHA_CONSONANT_SIGN_T = "\u{1C33}";
 
-    #[Info(id: 7220, name: 'LEPCHA CONSONANT SIGN NYIN-DO', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1C34, name: 'LEPCHA CONSONANT SIGN NYIN-DO', category: Cat::Spacing_Mark)]
     case LEPCHA_CONSONANT_SIGN_NYIN_DO = "\u{1C34}";
 
-    #[Info(id: 7221, name: 'LEPCHA CONSONANT SIGN KANG', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1C35, name: 'LEPCHA CONSONANT SIGN KANG', category: Cat::Spacing_Mark)]
     case LEPCHA_CONSONANT_SIGN_KANG = "\u{1C35}";
 
-    #[Info(id: 7222, name: 'LEPCHA SIGN RAN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1C36, name: 'LEPCHA SIGN RAN', category: Cat::Nonspacing_Mark)]
     case LEPCHA_SIGN_RAN = "\u{1C36}";
 
-    #[Info(id: 7223, name: 'LEPCHA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1C37, name: 'LEPCHA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case LEPCHA_SIGN_NUKTA = "\u{1C37}";
 
-    #[Info(id: 7227, name: 'LEPCHA PUNCTUATION TA-ROL', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1C3B, name: 'LEPCHA PUNCTUATION TA-ROL', category: Cat::Other_Punctuation)]
     case LEPCHA_PUNCTUATION_TA_ROL = "\u{1C3B}";
 
-    #[Info(id: 7228, name: 'LEPCHA PUNCTUATION NYET THYOOM TA-ROL', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1C3C, name: 'LEPCHA PUNCTUATION NYET THYOOM TA-ROL', category: Cat::Other_Punctuation)]
     case LEPCHA_PUNCTUATION_NYET_THYOOM_TA_ROL = "\u{1C3C}";
 
-    #[Info(id: 7229, name: 'LEPCHA PUNCTUATION CER-WA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1C3D, name: 'LEPCHA PUNCTUATION CER-WA', category: Cat::Other_Punctuation)]
     case LEPCHA_PUNCTUATION_CER_WA = "\u{1C3D}";
 
-    #[Info(id: 7230, name: 'LEPCHA PUNCTUATION TSHOOK CER-WA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1C3E, name: 'LEPCHA PUNCTUATION TSHOOK CER-WA', category: Cat::Other_Punctuation)]
     case LEPCHA_PUNCTUATION_TSHOOK_CER_WA = "\u{1C3E}";
 
-    #[Info(id: 7231, name: 'LEPCHA PUNCTUATION TSHOOK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1C3F, name: 'LEPCHA PUNCTUATION TSHOOK', category: Cat::Other_Punctuation)]
     case LEPCHA_PUNCTUATION_TSHOOK = "\u{1C3F}";
 
-    #[Info(id: 7232, name: 'LEPCHA DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C40, name: 'LEPCHA DIGIT ZERO', category: Cat::Decimal_Number)]
     case LEPCHA_DIGIT_ZERO = "\u{1C40}";
 
-    #[Info(id: 7233, name: 'LEPCHA DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C41, name: 'LEPCHA DIGIT ONE', category: Cat::Decimal_Number)]
     case LEPCHA_DIGIT_ONE = "\u{1C41}";
 
-    #[Info(id: 7234, name: 'LEPCHA DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C42, name: 'LEPCHA DIGIT TWO', category: Cat::Decimal_Number)]
     case LEPCHA_DIGIT_TWO = "\u{1C42}";
 
-    #[Info(id: 7235, name: 'LEPCHA DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C43, name: 'LEPCHA DIGIT THREE', category: Cat::Decimal_Number)]
     case LEPCHA_DIGIT_THREE = "\u{1C43}";
 
-    #[Info(id: 7236, name: 'LEPCHA DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C44, name: 'LEPCHA DIGIT FOUR', category: Cat::Decimal_Number)]
     case LEPCHA_DIGIT_FOUR = "\u{1C44}";
 
-    #[Info(id: 7237, name: 'LEPCHA DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C45, name: 'LEPCHA DIGIT FIVE', category: Cat::Decimal_Number)]
     case LEPCHA_DIGIT_FIVE = "\u{1C45}";
 
-    #[Info(id: 7238, name: 'LEPCHA DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C46, name: 'LEPCHA DIGIT SIX', category: Cat::Decimal_Number)]
     case LEPCHA_DIGIT_SIX = "\u{1C46}";
 
-    #[Info(id: 7239, name: 'LEPCHA DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C47, name: 'LEPCHA DIGIT SEVEN', category: Cat::Decimal_Number)]
     case LEPCHA_DIGIT_SEVEN = "\u{1C47}";
 
-    #[Info(id: 7240, name: 'LEPCHA DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C48, name: 'LEPCHA DIGIT EIGHT', category: Cat::Decimal_Number)]
     case LEPCHA_DIGIT_EIGHT = "\u{1C48}";
 
-    #[Info(id: 7241, name: 'LEPCHA DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1C49, name: 'LEPCHA DIGIT NINE', category: Cat::Decimal_Number)]
     case LEPCHA_DIGIT_NINE = "\u{1C49}";
 
-    #[Info(id: 7245, name: 'LEPCHA LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C4D, name: 'LEPCHA LETTER TTA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_TTA = "\u{1C4D}";
 
-    #[Info(id: 7246, name: 'LEPCHA LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C4E, name: 'LEPCHA LETTER TTHA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_TTHA = "\u{1C4E}";
 
-    #[Info(id: 7247, name: 'LEPCHA LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C4F, name: 'LEPCHA LETTER DDA', category: Cat::Other_Letter)]
     case LEPCHA_LETTER_DDA = "\u{1C4F}";
 }

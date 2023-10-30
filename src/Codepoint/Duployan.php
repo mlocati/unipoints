@@ -16,432 +16,432 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Duployan: string
 {
-    #[Info(id: 113664, name: 'DUPLOYAN LETTER H', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC00, name: 'DUPLOYAN LETTER H', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_H = "\u{1BC00}";
 
-    #[Info(id: 113665, name: 'DUPLOYAN LETTER X', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC01, name: 'DUPLOYAN LETTER X', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_X = "\u{1BC01}";
 
-    #[Info(id: 113666, name: 'DUPLOYAN LETTER P', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC02, name: 'DUPLOYAN LETTER P', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_P = "\u{1BC02}";
 
-    #[Info(id: 113667, name: 'DUPLOYAN LETTER T', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC03, name: 'DUPLOYAN LETTER T', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_T = "\u{1BC03}";
 
-    #[Info(id: 113668, name: 'DUPLOYAN LETTER F', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC04, name: 'DUPLOYAN LETTER F', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_F = "\u{1BC04}";
 
-    #[Info(id: 113669, name: 'DUPLOYAN LETTER K', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC05, name: 'DUPLOYAN LETTER K', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_K = "\u{1BC05}";
 
-    #[Info(id: 113670, name: 'DUPLOYAN LETTER L', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC06, name: 'DUPLOYAN LETTER L', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_L = "\u{1BC06}";
 
-    #[Info(id: 113671, name: 'DUPLOYAN LETTER B', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC07, name: 'DUPLOYAN LETTER B', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_B = "\u{1BC07}";
 
-    #[Info(id: 113672, name: 'DUPLOYAN LETTER D', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC08, name: 'DUPLOYAN LETTER D', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_D = "\u{1BC08}";
 
-    #[Info(id: 113673, name: 'DUPLOYAN LETTER V', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC09, name: 'DUPLOYAN LETTER V', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_V = "\u{1BC09}";
 
-    #[Info(id: 113674, name: 'DUPLOYAN LETTER G', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC0A, name: 'DUPLOYAN LETTER G', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_G = "\u{1BC0A}";
 
-    #[Info(id: 113675, name: 'DUPLOYAN LETTER R', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC0B, name: 'DUPLOYAN LETTER R', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_R = "\u{1BC0B}";
 
-    #[Info(id: 113676, name: 'DUPLOYAN LETTER P N', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC0C, name: 'DUPLOYAN LETTER P N', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_P_N = "\u{1BC0C}";
 
-    #[Info(id: 113677, name: 'DUPLOYAN LETTER D S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC0D, name: 'DUPLOYAN LETTER D S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_D_S = "\u{1BC0D}";
 
-    #[Info(id: 113678, name: 'DUPLOYAN LETTER F N', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC0E, name: 'DUPLOYAN LETTER F N', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_F_N = "\u{1BC0E}";
 
-    #[Info(id: 113679, name: 'DUPLOYAN LETTER K M', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC0F, name: 'DUPLOYAN LETTER K M', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_K_M = "\u{1BC0F}";
 
-    #[Info(id: 113680, name: 'DUPLOYAN LETTER R S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC10, name: 'DUPLOYAN LETTER R S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_R_S = "\u{1BC10}";
 
-    #[Info(id: 113681, name: 'DUPLOYAN LETTER TH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC11, name: 'DUPLOYAN LETTER TH', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_TH = "\u{1BC11}";
 
-    #[Info(id: 113682, name: 'DUPLOYAN LETTER SLOAN DH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC12, name: 'DUPLOYAN LETTER SLOAN DH', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_SLOAN_DH = "\u{1BC12}";
 
-    #[Info(id: 113683, name: 'DUPLOYAN LETTER DH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC13, name: 'DUPLOYAN LETTER DH', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_DH = "\u{1BC13}";
 
-    #[Info(id: 113684, name: 'DUPLOYAN LETTER KK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC14, name: 'DUPLOYAN LETTER KK', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_KK = "\u{1BC14}";
 
-    #[Info(id: 113685, name: 'DUPLOYAN LETTER SLOAN J', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC15, name: 'DUPLOYAN LETTER SLOAN J', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_SLOAN_J = "\u{1BC15}";
 
-    #[Info(id: 113686, name: 'DUPLOYAN LETTER HL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC16, name: 'DUPLOYAN LETTER HL', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_HL = "\u{1BC16}";
 
-    #[Info(id: 113687, name: 'DUPLOYAN LETTER LH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC17, name: 'DUPLOYAN LETTER LH', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_LH = "\u{1BC17}";
 
-    #[Info(id: 113688, name: 'DUPLOYAN LETTER RH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC18, name: 'DUPLOYAN LETTER RH', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_RH = "\u{1BC18}";
 
-    #[Info(id: 113689, name: 'DUPLOYAN LETTER M', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC19, name: 'DUPLOYAN LETTER M', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_M = "\u{1BC19}";
 
-    #[Info(id: 113690, name: 'DUPLOYAN LETTER N', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC1A, name: 'DUPLOYAN LETTER N', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_N = "\u{1BC1A}";
 
-    #[Info(id: 113691, name: 'DUPLOYAN LETTER J', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC1B, name: 'DUPLOYAN LETTER J', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_J = "\u{1BC1B}";
 
-    #[Info(id: 113692, name: 'DUPLOYAN LETTER S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC1C, name: 'DUPLOYAN LETTER S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S = "\u{1BC1C}";
 
-    #[Info(id: 113693, name: 'DUPLOYAN LETTER M N', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC1D, name: 'DUPLOYAN LETTER M N', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_M_N = "\u{1BC1D}";
 
-    #[Info(id: 113694, name: 'DUPLOYAN LETTER N M', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC1E, name: 'DUPLOYAN LETTER N M', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_N_M = "\u{1BC1E}";
 
-    #[Info(id: 113695, name: 'DUPLOYAN LETTER J M', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC1F, name: 'DUPLOYAN LETTER J M', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_J_M = "\u{1BC1F}";
 
-    #[Info(id: 113696, name: 'DUPLOYAN LETTER S J', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC20, name: 'DUPLOYAN LETTER S J', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_J = "\u{1BC20}";
 
-    #[Info(id: 113697, name: 'DUPLOYAN LETTER M WITH DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC21, name: 'DUPLOYAN LETTER M WITH DOT', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_M_WITH_DOT = "\u{1BC21}";
 
-    #[Info(id: 113698, name: 'DUPLOYAN LETTER N WITH DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC22, name: 'DUPLOYAN LETTER N WITH DOT', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_N_WITH_DOT = "\u{1BC22}";
 
-    #[Info(id: 113699, name: 'DUPLOYAN LETTER J WITH DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC23, name: 'DUPLOYAN LETTER J WITH DOT', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_J_WITH_DOT = "\u{1BC23}";
 
-    #[Info(id: 113700, name: 'DUPLOYAN LETTER J WITH DOTS INSIDE AND ABOVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC24, name: 'DUPLOYAN LETTER J WITH DOTS INSIDE AND ABOVE', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_J_WITH_DOTS_INSIDE_AND_ABOVE = "\u{1BC24}";
 
-    #[Info(id: 113701, name: 'DUPLOYAN LETTER S WITH DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC25, name: 'DUPLOYAN LETTER S WITH DOT', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_WITH_DOT = "\u{1BC25}";
 
-    #[Info(id: 113702, name: 'DUPLOYAN LETTER S WITH DOT BELOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC26, name: 'DUPLOYAN LETTER S WITH DOT BELOW', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_WITH_DOT_BELOW = "\u{1BC26}";
 
-    #[Info(id: 113703, name: 'DUPLOYAN LETTER M S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC27, name: 'DUPLOYAN LETTER M S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_M_S = "\u{1BC27}";
 
-    #[Info(id: 113704, name: 'DUPLOYAN LETTER N S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC28, name: 'DUPLOYAN LETTER N S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_N_S = "\u{1BC28}";
 
-    #[Info(id: 113705, name: 'DUPLOYAN LETTER J S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC29, name: 'DUPLOYAN LETTER J S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_J_S = "\u{1BC29}";
 
-    #[Info(id: 113706, name: 'DUPLOYAN LETTER S S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC2A, name: 'DUPLOYAN LETTER S S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_S = "\u{1BC2A}";
 
-    #[Info(id: 113707, name: 'DUPLOYAN LETTER M N S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC2B, name: 'DUPLOYAN LETTER M N S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_M_N_S = "\u{1BC2B}";
 
-    #[Info(id: 113708, name: 'DUPLOYAN LETTER N M S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC2C, name: 'DUPLOYAN LETTER N M S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_N_M_S = "\u{1BC2C}";
 
-    #[Info(id: 113709, name: 'DUPLOYAN LETTER J M S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC2D, name: 'DUPLOYAN LETTER J M S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_J_M_S = "\u{1BC2D}";
 
-    #[Info(id: 113710, name: 'DUPLOYAN LETTER S J S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC2E, name: 'DUPLOYAN LETTER S J S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_J_S = "\u{1BC2E}";
 
-    #[Info(id: 113711, name: 'DUPLOYAN LETTER J S WITH DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC2F, name: 'DUPLOYAN LETTER J S WITH DOT', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_J_S_WITH_DOT = "\u{1BC2F}";
 
-    #[Info(id: 113712, name: 'DUPLOYAN LETTER J N', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC30, name: 'DUPLOYAN LETTER J N', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_J_N = "\u{1BC30}";
 
-    #[Info(id: 113713, name: 'DUPLOYAN LETTER J N S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC31, name: 'DUPLOYAN LETTER J N S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_J_N_S = "\u{1BC31}";
 
-    #[Info(id: 113714, name: 'DUPLOYAN LETTER S T', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC32, name: 'DUPLOYAN LETTER S T', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_T = "\u{1BC32}";
 
-    #[Info(id: 113715, name: 'DUPLOYAN LETTER S T R', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC33, name: 'DUPLOYAN LETTER S T R', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_T_R = "\u{1BC33}";
 
-    #[Info(id: 113716, name: 'DUPLOYAN LETTER S P', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC34, name: 'DUPLOYAN LETTER S P', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_P = "\u{1BC34}";
 
-    #[Info(id: 113717, name: 'DUPLOYAN LETTER S P R', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC35, name: 'DUPLOYAN LETTER S P R', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_P_R = "\u{1BC35}";
 
-    #[Info(id: 113718, name: 'DUPLOYAN LETTER T S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC36, name: 'DUPLOYAN LETTER T S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_T_S = "\u{1BC36}";
 
-    #[Info(id: 113719, name: 'DUPLOYAN LETTER T R S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC37, name: 'DUPLOYAN LETTER T R S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_T_R_S = "\u{1BC37}";
 
-    #[Info(id: 113720, name: 'DUPLOYAN LETTER W', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC38, name: 'DUPLOYAN LETTER W', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_W = "\u{1BC38}";
 
-    #[Info(id: 113721, name: 'DUPLOYAN LETTER WH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC39, name: 'DUPLOYAN LETTER WH', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_WH = "\u{1BC39}";
 
-    #[Info(id: 113722, name: 'DUPLOYAN LETTER W R', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC3A, name: 'DUPLOYAN LETTER W R', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_W_R = "\u{1BC3A}";
 
-    #[Info(id: 113723, name: 'DUPLOYAN LETTER S N', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC3B, name: 'DUPLOYAN LETTER S N', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_N = "\u{1BC3B}";
 
-    #[Info(id: 113724, name: 'DUPLOYAN LETTER S M', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC3C, name: 'DUPLOYAN LETTER S M', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_M = "\u{1BC3C}";
 
-    #[Info(id: 113725, name: 'DUPLOYAN LETTER K R S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC3D, name: 'DUPLOYAN LETTER K R S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_K_R_S = "\u{1BC3D}";
 
-    #[Info(id: 113726, name: 'DUPLOYAN LETTER G R S', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC3E, name: 'DUPLOYAN LETTER G R S', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_G_R_S = "\u{1BC3E}";
 
-    #[Info(id: 113727, name: 'DUPLOYAN LETTER S K', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC3F, name: 'DUPLOYAN LETTER S K', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_K = "\u{1BC3F}";
 
-    #[Info(id: 113728, name: 'DUPLOYAN LETTER S K R', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC40, name: 'DUPLOYAN LETTER S K R', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_S_K_R = "\u{1BC40}";
 
-    #[Info(id: 113729, name: 'DUPLOYAN LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC41, name: 'DUPLOYAN LETTER A', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_A = "\u{1BC41}";
 
-    #[Info(id: 113730, name: 'DUPLOYAN LETTER SLOAN OW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC42, name: 'DUPLOYAN LETTER SLOAN OW', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_SLOAN_OW = "\u{1BC42}";
 
-    #[Info(id: 113731, name: 'DUPLOYAN LETTER OA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC43, name: 'DUPLOYAN LETTER OA', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_OA = "\u{1BC43}";
 
-    #[Info(id: 113732, name: 'DUPLOYAN LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC44, name: 'DUPLOYAN LETTER O', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_O = "\u{1BC44}";
 
-    #[Info(id: 113733, name: 'DUPLOYAN LETTER AOU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC45, name: 'DUPLOYAN LETTER AOU', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_AOU = "\u{1BC45}";
 
-    #[Info(id: 113734, name: 'DUPLOYAN LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC46, name: 'DUPLOYAN LETTER I', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_I = "\u{1BC46}";
 
-    #[Info(id: 113735, name: 'DUPLOYAN LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC47, name: 'DUPLOYAN LETTER E', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_E = "\u{1BC47}";
 
-    #[Info(id: 113736, name: 'DUPLOYAN LETTER IE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC48, name: 'DUPLOYAN LETTER IE', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_IE = "\u{1BC48}";
 
-    #[Info(id: 113737, name: 'DUPLOYAN LETTER SHORT I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC49, name: 'DUPLOYAN LETTER SHORT I', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_SHORT_I = "\u{1BC49}";
 
-    #[Info(id: 113738, name: 'DUPLOYAN LETTER UI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC4A, name: 'DUPLOYAN LETTER UI', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_UI = "\u{1BC4A}";
 
-    #[Info(id: 113739, name: 'DUPLOYAN LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC4B, name: 'DUPLOYAN LETTER EE', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_EE = "\u{1BC4B}";
 
-    #[Info(id: 113740, name: 'DUPLOYAN LETTER SLOAN EH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC4C, name: 'DUPLOYAN LETTER SLOAN EH', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_SLOAN_EH = "\u{1BC4C}";
 
-    #[Info(id: 113741, name: 'DUPLOYAN LETTER ROMANIAN I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC4D, name: 'DUPLOYAN LETTER ROMANIAN I', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_ROMANIAN_I = "\u{1BC4D}";
 
-    #[Info(id: 113742, name: 'DUPLOYAN LETTER SLOAN EE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC4E, name: 'DUPLOYAN LETTER SLOAN EE', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_SLOAN_EE = "\u{1BC4E}";
 
-    #[Info(id: 113743, name: 'DUPLOYAN LETTER LONG I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC4F, name: 'DUPLOYAN LETTER LONG I', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_LONG_I = "\u{1BC4F}";
 
-    #[Info(id: 113744, name: 'DUPLOYAN LETTER YE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC50, name: 'DUPLOYAN LETTER YE', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_YE = "\u{1BC50}";
 
-    #[Info(id: 113745, name: 'DUPLOYAN LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC51, name: 'DUPLOYAN LETTER U', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_U = "\u{1BC51}";
 
-    #[Info(id: 113746, name: 'DUPLOYAN LETTER EU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC52, name: 'DUPLOYAN LETTER EU', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_EU = "\u{1BC52}";
 
-    #[Info(id: 113747, name: 'DUPLOYAN LETTER XW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC53, name: 'DUPLOYAN LETTER XW', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_XW = "\u{1BC53}";
 
-    #[Info(id: 113748, name: 'DUPLOYAN LETTER U N', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC54, name: 'DUPLOYAN LETTER U N', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_U_N = "\u{1BC54}";
 
-    #[Info(id: 113749, name: 'DUPLOYAN LETTER LONG U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC55, name: 'DUPLOYAN LETTER LONG U', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_LONG_U = "\u{1BC55}";
 
-    #[Info(id: 113750, name: 'DUPLOYAN LETTER ROMANIAN U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC56, name: 'DUPLOYAN LETTER ROMANIAN U', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_ROMANIAN_U = "\u{1BC56}";
 
-    #[Info(id: 113751, name: 'DUPLOYAN LETTER UH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC57, name: 'DUPLOYAN LETTER UH', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_UH = "\u{1BC57}";
 
-    #[Info(id: 113752, name: 'DUPLOYAN LETTER SLOAN U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC58, name: 'DUPLOYAN LETTER SLOAN U', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_SLOAN_U = "\u{1BC58}";
 
-    #[Info(id: 113753, name: 'DUPLOYAN LETTER OOH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC59, name: 'DUPLOYAN LETTER OOH', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_OOH = "\u{1BC59}";
 
-    #[Info(id: 113754, name: 'DUPLOYAN LETTER OW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC5A, name: 'DUPLOYAN LETTER OW', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_OW = "\u{1BC5A}";
 
-    #[Info(id: 113755, name: 'DUPLOYAN LETTER OU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC5B, name: 'DUPLOYAN LETTER OU', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_OU = "\u{1BC5B}";
 
-    #[Info(id: 113756, name: 'DUPLOYAN LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC5C, name: 'DUPLOYAN LETTER WA', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_WA = "\u{1BC5C}";
 
-    #[Info(id: 113757, name: 'DUPLOYAN LETTER WO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC5D, name: 'DUPLOYAN LETTER WO', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_WO = "\u{1BC5D}";
 
-    #[Info(id: 113758, name: 'DUPLOYAN LETTER WI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC5E, name: 'DUPLOYAN LETTER WI', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_WI = "\u{1BC5E}";
 
-    #[Info(id: 113759, name: 'DUPLOYAN LETTER WEI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC5F, name: 'DUPLOYAN LETTER WEI', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_WEI = "\u{1BC5F}";
 
-    #[Info(id: 113760, name: 'DUPLOYAN LETTER WOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC60, name: 'DUPLOYAN LETTER WOW', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_WOW = "\u{1BC60}";
 
-    #[Info(id: 113761, name: 'DUPLOYAN LETTER NASAL U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC61, name: 'DUPLOYAN LETTER NASAL U', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_NASAL_U = "\u{1BC61}";
 
-    #[Info(id: 113762, name: 'DUPLOYAN LETTER NASAL O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC62, name: 'DUPLOYAN LETTER NASAL O', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_NASAL_O = "\u{1BC62}";
 
-    #[Info(id: 113763, name: 'DUPLOYAN LETTER NASAL I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC63, name: 'DUPLOYAN LETTER NASAL I', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_NASAL_I = "\u{1BC63}";
 
-    #[Info(id: 113764, name: 'DUPLOYAN LETTER NASAL A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC64, name: 'DUPLOYAN LETTER NASAL A', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_NASAL_A = "\u{1BC64}";
 
-    #[Info(id: 113765, name: 'DUPLOYAN LETTER PERNIN AN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC65, name: 'DUPLOYAN LETTER PERNIN AN', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_PERNIN_AN = "\u{1BC65}";
 
-    #[Info(id: 113766, name: 'DUPLOYAN LETTER PERNIN AM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC66, name: 'DUPLOYAN LETTER PERNIN AM', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_PERNIN_AM = "\u{1BC66}";
 
-    #[Info(id: 113767, name: 'DUPLOYAN LETTER SLOAN EN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC67, name: 'DUPLOYAN LETTER SLOAN EN', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_SLOAN_EN = "\u{1BC67}";
 
-    #[Info(id: 113768, name: 'DUPLOYAN LETTER SLOAN AN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC68, name: 'DUPLOYAN LETTER SLOAN AN', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_SLOAN_AN = "\u{1BC68}";
 
-    #[Info(id: 113769, name: 'DUPLOYAN LETTER SLOAN ON', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC69, name: 'DUPLOYAN LETTER SLOAN ON', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_SLOAN_ON = "\u{1BC69}";
 
-    #[Info(id: 113770, name: 'DUPLOYAN LETTER VOCALIC M', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC6A, name: 'DUPLOYAN LETTER VOCALIC M', category: Cat::Other_Letter)]
     case DUPLOYAN_LETTER_VOCALIC_M = "\u{1BC6A}";
 
-    #[Info(id: 113776, name: 'DUPLOYAN AFFIX LEFT HORIZONTAL SECANT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC70, name: 'DUPLOYAN AFFIX LEFT HORIZONTAL SECANT', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LEFT_HORIZONTAL_SECANT = "\u{1BC70}";
 
-    #[Info(id: 113777, name: 'DUPLOYAN AFFIX MID HORIZONTAL SECANT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC71, name: 'DUPLOYAN AFFIX MID HORIZONTAL SECANT', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_MID_HORIZONTAL_SECANT = "\u{1BC71}";
 
-    #[Info(id: 113778, name: 'DUPLOYAN AFFIX RIGHT HORIZONTAL SECANT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC72, name: 'DUPLOYAN AFFIX RIGHT HORIZONTAL SECANT', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_RIGHT_HORIZONTAL_SECANT = "\u{1BC72}";
 
-    #[Info(id: 113779, name: 'DUPLOYAN AFFIX LOW VERTICAL SECANT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC73, name: 'DUPLOYAN AFFIX LOW VERTICAL SECANT', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LOW_VERTICAL_SECANT = "\u{1BC73}";
 
-    #[Info(id: 113780, name: 'DUPLOYAN AFFIX MID VERTICAL SECANT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC74, name: 'DUPLOYAN AFFIX MID VERTICAL SECANT', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_MID_VERTICAL_SECANT = "\u{1BC74}";
 
-    #[Info(id: 113781, name: 'DUPLOYAN AFFIX HIGH VERTICAL SECANT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC75, name: 'DUPLOYAN AFFIX HIGH VERTICAL SECANT', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_HIGH_VERTICAL_SECANT = "\u{1BC75}";
 
-    #[Info(id: 113782, name: 'DUPLOYAN AFFIX ATTACHED SECANT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC76, name: 'DUPLOYAN AFFIX ATTACHED SECANT', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_ATTACHED_SECANT = "\u{1BC76}";
 
-    #[Info(id: 113783, name: 'DUPLOYAN AFFIX ATTACHED LEFT-TO-RIGHT SECANT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC77, name: 'DUPLOYAN AFFIX ATTACHED LEFT-TO-RIGHT SECANT', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_ATTACHED_LEFT_TO_RIGHT_SECANT = "\u{1BC77}";
 
-    #[Info(id: 113784, name: 'DUPLOYAN AFFIX ATTACHED TANGENT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC78, name: 'DUPLOYAN AFFIX ATTACHED TANGENT', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_ATTACHED_TANGENT = "\u{1BC78}";
 
-    #[Info(id: 113785, name: 'DUPLOYAN AFFIX ATTACHED TAIL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC79, name: 'DUPLOYAN AFFIX ATTACHED TAIL', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_ATTACHED_TAIL = "\u{1BC79}";
 
-    #[Info(id: 113786, name: 'DUPLOYAN AFFIX ATTACHED E HOOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC7A, name: 'DUPLOYAN AFFIX ATTACHED E HOOK', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_ATTACHED_E_HOOK = "\u{1BC7A}";
 
-    #[Info(id: 113787, name: 'DUPLOYAN AFFIX ATTACHED I HOOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC7B, name: 'DUPLOYAN AFFIX ATTACHED I HOOK', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_ATTACHED_I_HOOK = "\u{1BC7B}";
 
-    #[Info(id: 113788, name: 'DUPLOYAN AFFIX ATTACHED TANGENT HOOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC7C, name: 'DUPLOYAN AFFIX ATTACHED TANGENT HOOK', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_ATTACHED_TANGENT_HOOK = "\u{1BC7C}";
 
-    #[Info(id: 113792, name: 'DUPLOYAN AFFIX HIGH ACUTE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC80, name: 'DUPLOYAN AFFIX HIGH ACUTE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_HIGH_ACUTE = "\u{1BC80}";
 
-    #[Info(id: 113793, name: 'DUPLOYAN AFFIX HIGH TIGHT ACUTE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC81, name: 'DUPLOYAN AFFIX HIGH TIGHT ACUTE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_HIGH_TIGHT_ACUTE = "\u{1BC81}";
 
-    #[Info(id: 113794, name: 'DUPLOYAN AFFIX HIGH GRAVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC82, name: 'DUPLOYAN AFFIX HIGH GRAVE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_HIGH_GRAVE = "\u{1BC82}";
 
-    #[Info(id: 113795, name: 'DUPLOYAN AFFIX HIGH LONG GRAVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC83, name: 'DUPLOYAN AFFIX HIGH LONG GRAVE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_HIGH_LONG_GRAVE = "\u{1BC83}";
 
-    #[Info(id: 113796, name: 'DUPLOYAN AFFIX HIGH DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC84, name: 'DUPLOYAN AFFIX HIGH DOT', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_HIGH_DOT = "\u{1BC84}";
 
-    #[Info(id: 113797, name: 'DUPLOYAN AFFIX HIGH CIRCLE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC85, name: 'DUPLOYAN AFFIX HIGH CIRCLE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_HIGH_CIRCLE = "\u{1BC85}";
 
-    #[Info(id: 113798, name: 'DUPLOYAN AFFIX HIGH LINE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC86, name: 'DUPLOYAN AFFIX HIGH LINE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_HIGH_LINE = "\u{1BC86}";
 
-    #[Info(id: 113799, name: 'DUPLOYAN AFFIX HIGH WAVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC87, name: 'DUPLOYAN AFFIX HIGH WAVE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_HIGH_WAVE = "\u{1BC87}";
 
-    #[Info(id: 113800, name: 'DUPLOYAN AFFIX HIGH VERTICAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC88, name: 'DUPLOYAN AFFIX HIGH VERTICAL', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_HIGH_VERTICAL = "\u{1BC88}";
 
-    #[Info(id: 113808, name: 'DUPLOYAN AFFIX LOW ACUTE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC90, name: 'DUPLOYAN AFFIX LOW ACUTE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LOW_ACUTE = "\u{1BC90}";
 
-    #[Info(id: 113809, name: 'DUPLOYAN AFFIX LOW TIGHT ACUTE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC91, name: 'DUPLOYAN AFFIX LOW TIGHT ACUTE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LOW_TIGHT_ACUTE = "\u{1BC91}";
 
-    #[Info(id: 113810, name: 'DUPLOYAN AFFIX LOW GRAVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC92, name: 'DUPLOYAN AFFIX LOW GRAVE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LOW_GRAVE = "\u{1BC92}";
 
-    #[Info(id: 113811, name: 'DUPLOYAN AFFIX LOW LONG GRAVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC93, name: 'DUPLOYAN AFFIX LOW LONG GRAVE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LOW_LONG_GRAVE = "\u{1BC93}";
 
-    #[Info(id: 113812, name: 'DUPLOYAN AFFIX LOW DOT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC94, name: 'DUPLOYAN AFFIX LOW DOT', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LOW_DOT = "\u{1BC94}";
 
-    #[Info(id: 113813, name: 'DUPLOYAN AFFIX LOW CIRCLE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC95, name: 'DUPLOYAN AFFIX LOW CIRCLE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LOW_CIRCLE = "\u{1BC95}";
 
-    #[Info(id: 113814, name: 'DUPLOYAN AFFIX LOW LINE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC96, name: 'DUPLOYAN AFFIX LOW LINE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LOW_LINE = "\u{1BC96}";
 
-    #[Info(id: 113815, name: 'DUPLOYAN AFFIX LOW WAVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC97, name: 'DUPLOYAN AFFIX LOW WAVE', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LOW_WAVE = "\u{1BC97}";
 
-    #[Info(id: 113816, name: 'DUPLOYAN AFFIX LOW VERTICAL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC98, name: 'DUPLOYAN AFFIX LOW VERTICAL', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LOW_VERTICAL = "\u{1BC98}";
 
-    #[Info(id: 113817, name: 'DUPLOYAN AFFIX LOW ARROW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BC99, name: 'DUPLOYAN AFFIX LOW ARROW', category: Cat::Other_Letter)]
     case DUPLOYAN_AFFIX_LOW_ARROW = "\u{1BC99}";
 
-    #[Info(id: 113820, name: 'DUPLOYAN SIGN O WITH CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1BC9C, name: 'DUPLOYAN SIGN O WITH CROSS', category: Cat::Other_Symbol)]
     case DUPLOYAN_SIGN_O_WITH_CROSS = "\u{1BC9C}";
 
-    #[Info(id: 113821, name: 'DUPLOYAN THICK LETTER SELECTOR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BC9D, name: 'DUPLOYAN THICK LETTER SELECTOR', category: Cat::Nonspacing_Mark)]
     case DUPLOYAN_THICK_LETTER_SELECTOR = "\u{1BC9D}";
 
-    #[Info(id: 113822, name: 'DUPLOYAN DOUBLE MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1BC9E, name: 'DUPLOYAN DOUBLE MARK', category: Cat::Nonspacing_Mark)]
     case DUPLOYAN_DOUBLE_MARK = "\u{1BC9E}";
 
-    #[Info(id: 113823, name: 'DUPLOYAN PUNCTUATION CHINOOK FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1BC9F, name: 'DUPLOYAN PUNCTUATION CHINOOK FULL STOP', category: Cat::Other_Punctuation)]
     case DUPLOYAN_PUNCTUATION_CHINOOK_FULL_STOP = "\u{1BC9F}";
 }

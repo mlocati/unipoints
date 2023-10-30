@@ -16,150 +16,150 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Carian: string
 {
-    #[Info(id: 66208, name: 'CARIAN LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x102A0, name: 'CARIAN LETTER A', category: Cat::Other_Letter)]
     case CARIAN_LETTER_A = "\u{102A0}";
 
-    #[Info(id: 66209, name: 'CARIAN LETTER P2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102A1, name: 'CARIAN LETTER P2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_P2 = "\u{102A1}";
 
-    #[Info(id: 66210, name: 'CARIAN LETTER D', category: Cat::Other_Letter)]
+    #[Info(id: 0x102A2, name: 'CARIAN LETTER D', category: Cat::Other_Letter)]
     case CARIAN_LETTER_D = "\u{102A2}";
 
-    #[Info(id: 66211, name: 'CARIAN LETTER L', category: Cat::Other_Letter)]
+    #[Info(id: 0x102A3, name: 'CARIAN LETTER L', category: Cat::Other_Letter)]
     case CARIAN_LETTER_L = "\u{102A3}";
 
-    #[Info(id: 66212, name: 'CARIAN LETTER UUU', category: Cat::Other_Letter)]
+    #[Info(id: 0x102A4, name: 'CARIAN LETTER UUU', category: Cat::Other_Letter)]
     case CARIAN_LETTER_UUU = "\u{102A4}";
 
-    #[Info(id: 66213, name: 'CARIAN LETTER R', category: Cat::Other_Letter)]
+    #[Info(id: 0x102A5, name: 'CARIAN LETTER R', category: Cat::Other_Letter)]
     case CARIAN_LETTER_R = "\u{102A5}";
 
-    #[Info(id: 66214, name: 'CARIAN LETTER LD', category: Cat::Other_Letter)]
+    #[Info(id: 0x102A6, name: 'CARIAN LETTER LD', category: Cat::Other_Letter)]
     case CARIAN_LETTER_LD = "\u{102A6}";
 
-    #[Info(id: 66215, name: 'CARIAN LETTER A2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102A7, name: 'CARIAN LETTER A2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_A2 = "\u{102A7}";
 
-    #[Info(id: 66216, name: 'CARIAN LETTER Q', category: Cat::Other_Letter)]
+    #[Info(id: 0x102A8, name: 'CARIAN LETTER Q', category: Cat::Other_Letter)]
     case CARIAN_LETTER_Q = "\u{102A8}";
 
-    #[Info(id: 66217, name: 'CARIAN LETTER B', category: Cat::Other_Letter)]
+    #[Info(id: 0x102A9, name: 'CARIAN LETTER B', category: Cat::Other_Letter)]
     case CARIAN_LETTER_B = "\u{102A9}";
 
-    #[Info(id: 66218, name: 'CARIAN LETTER M', category: Cat::Other_Letter)]
+    #[Info(id: 0x102AA, name: 'CARIAN LETTER M', category: Cat::Other_Letter)]
     case CARIAN_LETTER_M = "\u{102AA}";
 
-    #[Info(id: 66219, name: 'CARIAN LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x102AB, name: 'CARIAN LETTER O', category: Cat::Other_Letter)]
     case CARIAN_LETTER_O = "\u{102AB}";
 
-    #[Info(id: 66220, name: 'CARIAN LETTER D2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102AC, name: 'CARIAN LETTER D2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_D2 = "\u{102AC}";
 
-    #[Info(id: 66221, name: 'CARIAN LETTER T', category: Cat::Other_Letter)]
+    #[Info(id: 0x102AD, name: 'CARIAN LETTER T', category: Cat::Other_Letter)]
     case CARIAN_LETTER_T = "\u{102AD}";
 
-    #[Info(id: 66222, name: 'CARIAN LETTER SH', category: Cat::Other_Letter)]
+    #[Info(id: 0x102AE, name: 'CARIAN LETTER SH', category: Cat::Other_Letter)]
     case CARIAN_LETTER_SH = "\u{102AE}";
 
-    #[Info(id: 66223, name: 'CARIAN LETTER SH2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102AF, name: 'CARIAN LETTER SH2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_SH2 = "\u{102AF}";
 
-    #[Info(id: 66224, name: 'CARIAN LETTER S', category: Cat::Other_Letter)]
+    #[Info(id: 0x102B0, name: 'CARIAN LETTER S', category: Cat::Other_Letter)]
     case CARIAN_LETTER_S = "\u{102B0}";
 
-    #[Info(id: 66225, name: 'CARIAN LETTER C-18', category: Cat::Other_Letter)]
+    #[Info(id: 0x102B1, name: 'CARIAN LETTER C-18', category: Cat::Other_Letter)]
     case CARIAN_LETTER_C_18 = "\u{102B1}";
 
-    #[Info(id: 66226, name: 'CARIAN LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x102B2, name: 'CARIAN LETTER U', category: Cat::Other_Letter)]
     case CARIAN_LETTER_U = "\u{102B2}";
 
-    #[Info(id: 66227, name: 'CARIAN LETTER NN', category: Cat::Other_Letter)]
+    #[Info(id: 0x102B3, name: 'CARIAN LETTER NN', category: Cat::Other_Letter)]
     case CARIAN_LETTER_NN = "\u{102B3}";
 
-    #[Info(id: 66228, name: 'CARIAN LETTER X', category: Cat::Other_Letter)]
+    #[Info(id: 0x102B4, name: 'CARIAN LETTER X', category: Cat::Other_Letter)]
     case CARIAN_LETTER_X = "\u{102B4}";
 
-    #[Info(id: 66229, name: 'CARIAN LETTER N', category: Cat::Other_Letter)]
+    #[Info(id: 0x102B5, name: 'CARIAN LETTER N', category: Cat::Other_Letter)]
     case CARIAN_LETTER_N = "\u{102B5}";
 
-    #[Info(id: 66230, name: 'CARIAN LETTER TT2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102B6, name: 'CARIAN LETTER TT2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_TT2 = "\u{102B6}";
 
-    #[Info(id: 66231, name: 'CARIAN LETTER P', category: Cat::Other_Letter)]
+    #[Info(id: 0x102B7, name: 'CARIAN LETTER P', category: Cat::Other_Letter)]
     case CARIAN_LETTER_P = "\u{102B7}";
 
-    #[Info(id: 66232, name: 'CARIAN LETTER SS', category: Cat::Other_Letter)]
+    #[Info(id: 0x102B8, name: 'CARIAN LETTER SS', category: Cat::Other_Letter)]
     case CARIAN_LETTER_SS = "\u{102B8}";
 
-    #[Info(id: 66233, name: 'CARIAN LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x102B9, name: 'CARIAN LETTER I', category: Cat::Other_Letter)]
     case CARIAN_LETTER_I = "\u{102B9}";
 
-    #[Info(id: 66234, name: 'CARIAN LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x102BA, name: 'CARIAN LETTER E', category: Cat::Other_Letter)]
     case CARIAN_LETTER_E = "\u{102BA}";
 
-    #[Info(id: 66235, name: 'CARIAN LETTER UUUU', category: Cat::Other_Letter)]
+    #[Info(id: 0x102BB, name: 'CARIAN LETTER UUUU', category: Cat::Other_Letter)]
     case CARIAN_LETTER_UUUU = "\u{102BB}";
 
-    #[Info(id: 66236, name: 'CARIAN LETTER K', category: Cat::Other_Letter)]
+    #[Info(id: 0x102BC, name: 'CARIAN LETTER K', category: Cat::Other_Letter)]
     case CARIAN_LETTER_K = "\u{102BC}";
 
-    #[Info(id: 66237, name: 'CARIAN LETTER K2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102BD, name: 'CARIAN LETTER K2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_K2 = "\u{102BD}";
 
-    #[Info(id: 66238, name: 'CARIAN LETTER ND', category: Cat::Other_Letter)]
+    #[Info(id: 0x102BE, name: 'CARIAN LETTER ND', category: Cat::Other_Letter)]
     case CARIAN_LETTER_ND = "\u{102BE}";
 
-    #[Info(id: 66239, name: 'CARIAN LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x102BF, name: 'CARIAN LETTER UU', category: Cat::Other_Letter)]
     case CARIAN_LETTER_UU = "\u{102BF}";
 
-    #[Info(id: 66240, name: 'CARIAN LETTER G', category: Cat::Other_Letter)]
+    #[Info(id: 0x102C0, name: 'CARIAN LETTER G', category: Cat::Other_Letter)]
     case CARIAN_LETTER_G = "\u{102C0}";
 
-    #[Info(id: 66241, name: 'CARIAN LETTER G2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102C1, name: 'CARIAN LETTER G2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_G2 = "\u{102C1}";
 
-    #[Info(id: 66242, name: 'CARIAN LETTER ST', category: Cat::Other_Letter)]
+    #[Info(id: 0x102C2, name: 'CARIAN LETTER ST', category: Cat::Other_Letter)]
     case CARIAN_LETTER_ST = "\u{102C2}";
 
-    #[Info(id: 66243, name: 'CARIAN LETTER ST2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102C3, name: 'CARIAN LETTER ST2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_ST2 = "\u{102C3}";
 
-    #[Info(id: 66244, name: 'CARIAN LETTER NG', category: Cat::Other_Letter)]
+    #[Info(id: 0x102C4, name: 'CARIAN LETTER NG', category: Cat::Other_Letter)]
     case CARIAN_LETTER_NG = "\u{102C4}";
 
-    #[Info(id: 66245, name: 'CARIAN LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x102C5, name: 'CARIAN LETTER II', category: Cat::Other_Letter)]
     case CARIAN_LETTER_II = "\u{102C5}";
 
-    #[Info(id: 66246, name: 'CARIAN LETTER C-39', category: Cat::Other_Letter)]
+    #[Info(id: 0x102C6, name: 'CARIAN LETTER C-39', category: Cat::Other_Letter)]
     case CARIAN_LETTER_C_39 = "\u{102C6}";
 
-    #[Info(id: 66247, name: 'CARIAN LETTER TT', category: Cat::Other_Letter)]
+    #[Info(id: 0x102C7, name: 'CARIAN LETTER TT', category: Cat::Other_Letter)]
     case CARIAN_LETTER_TT = "\u{102C7}";
 
-    #[Info(id: 66248, name: 'CARIAN LETTER UUU2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102C8, name: 'CARIAN LETTER UUU2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_UUU2 = "\u{102C8}";
 
-    #[Info(id: 66249, name: 'CARIAN LETTER RR', category: Cat::Other_Letter)]
+    #[Info(id: 0x102C9, name: 'CARIAN LETTER RR', category: Cat::Other_Letter)]
     case CARIAN_LETTER_RR = "\u{102C9}";
 
-    #[Info(id: 66250, name: 'CARIAN LETTER MB', category: Cat::Other_Letter)]
+    #[Info(id: 0x102CA, name: 'CARIAN LETTER MB', category: Cat::Other_Letter)]
     case CARIAN_LETTER_MB = "\u{102CA}";
 
-    #[Info(id: 66251, name: 'CARIAN LETTER MB2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102CB, name: 'CARIAN LETTER MB2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_MB2 = "\u{102CB}";
 
-    #[Info(id: 66252, name: 'CARIAN LETTER MB3', category: Cat::Other_Letter)]
+    #[Info(id: 0x102CC, name: 'CARIAN LETTER MB3', category: Cat::Other_Letter)]
     case CARIAN_LETTER_MB3 = "\u{102CC}";
 
-    #[Info(id: 66253, name: 'CARIAN LETTER MB4', category: Cat::Other_Letter)]
+    #[Info(id: 0x102CD, name: 'CARIAN LETTER MB4', category: Cat::Other_Letter)]
     case CARIAN_LETTER_MB4 = "\u{102CD}";
 
-    #[Info(id: 66254, name: 'CARIAN LETTER LD2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102CE, name: 'CARIAN LETTER LD2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_LD2 = "\u{102CE}";
 
-    #[Info(id: 66255, name: 'CARIAN LETTER E2', category: Cat::Other_Letter)]
+    #[Info(id: 0x102CF, name: 'CARIAN LETTER E2', category: Cat::Other_Letter)]
     case CARIAN_LETTER_E2 = "\u{102CF}";
 
-    #[Info(id: 66256, name: 'CARIAN LETTER UUU3', category: Cat::Other_Letter)]
+    #[Info(id: 0x102D0, name: 'CARIAN LETTER UUU3', category: Cat::Other_Letter)]
     case CARIAN_LETTER_UUU3 = "\u{102D0}";
 }

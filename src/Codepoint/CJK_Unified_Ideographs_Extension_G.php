@@ -16,9 +16,9 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum CJK_Unified_Ideographs_Extension_G: string
 {
-    #[Info(id: 196608, name: 'CJK Ideograph Extension G, First', category: Cat::Other_Letter)]
+    #[Info(id: 0x30000, name: 'CJK Ideograph Extension G, First', category: Cat::Other_Letter)]
     case CJK_Ideograph_Extension_G__First = "\u{30000}";
 
-    #[Info(id: 201546, name: 'CJK Ideograph Extension G, Last', category: Cat::Other_Letter)]
+    #[Info(id: 0x3134A, name: 'CJK Ideograph Extension G, Last', category: Cat::Other_Letter)]
     case CJK_Ideograph_Extension_G__Last = "\u{3134A}";
 }

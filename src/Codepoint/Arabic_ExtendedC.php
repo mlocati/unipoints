@@ -16,12 +16,12 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Arabic_ExtendedC: string
 {
-    #[Info(id: 69373, name: 'ARABIC SMALL LOW WORD SAKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10EFD, name: 'ARABIC SMALL LOW WORD SAKTA', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_LOW_WORD_SAKTA = "\u{10EFD}";
 
-    #[Info(id: 69374, name: 'ARABIC SMALL LOW WORD QASR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10EFE, name: 'ARABIC SMALL LOW WORD QASR', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_LOW_WORD_QASR = "\u{10EFE}";
 
-    #[Info(id: 69375, name: 'ARABIC SMALL LOW WORD MADDA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10EFF, name: 'ARABIC SMALL LOW WORD MADDA', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_LOW_WORD_MADDA = "\u{10EFF}";
 }

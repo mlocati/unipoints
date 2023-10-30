@@ -16,33 +16,33 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Common_Indic_Number_Forms: string
 {
-    #[Info(id: 43056, name: 'NORTH INDIC FRACTION ONE QUARTER', category: Cat::Other_Number)]
+    #[Info(id: 0xA830, name: 'NORTH INDIC FRACTION ONE QUARTER', category: Cat::Other_Number)]
     case NORTH_INDIC_FRACTION_ONE_QUARTER = "\u{A830}";
 
-    #[Info(id: 43057, name: 'NORTH INDIC FRACTION ONE HALF', category: Cat::Other_Number)]
+    #[Info(id: 0xA831, name: 'NORTH INDIC FRACTION ONE HALF', category: Cat::Other_Number)]
     case NORTH_INDIC_FRACTION_ONE_HALF = "\u{A831}";
 
-    #[Info(id: 43058, name: 'NORTH INDIC FRACTION THREE QUARTERS', category: Cat::Other_Number)]
+    #[Info(id: 0xA832, name: 'NORTH INDIC FRACTION THREE QUARTERS', category: Cat::Other_Number)]
     case NORTH_INDIC_FRACTION_THREE_QUARTERS = "\u{A832}";
 
-    #[Info(id: 43059, name: 'NORTH INDIC FRACTION ONE SIXTEENTH', category: Cat::Other_Number)]
+    #[Info(id: 0xA833, name: 'NORTH INDIC FRACTION ONE SIXTEENTH', category: Cat::Other_Number)]
     case NORTH_INDIC_FRACTION_ONE_SIXTEENTH = "\u{A833}";
 
-    #[Info(id: 43060, name: 'NORTH INDIC FRACTION ONE EIGHTH', category: Cat::Other_Number)]
+    #[Info(id: 0xA834, name: 'NORTH INDIC FRACTION ONE EIGHTH', category: Cat::Other_Number)]
     case NORTH_INDIC_FRACTION_ONE_EIGHTH = "\u{A834}";
 
-    #[Info(id: 43061, name: 'NORTH INDIC FRACTION THREE SIXTEENTHS', category: Cat::Other_Number)]
+    #[Info(id: 0xA835, name: 'NORTH INDIC FRACTION THREE SIXTEENTHS', category: Cat::Other_Number)]
     case NORTH_INDIC_FRACTION_THREE_SIXTEENTHS = "\u{A835}";
 
-    #[Info(id: 43062, name: 'NORTH INDIC QUARTER MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0xA836, name: 'NORTH INDIC QUARTER MARK', category: Cat::Other_Symbol)]
     case NORTH_INDIC_QUARTER_MARK = "\u{A836}";
 
-    #[Info(id: 43063, name: 'NORTH INDIC PLACEHOLDER MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0xA837, name: 'NORTH INDIC PLACEHOLDER MARK', category: Cat::Other_Symbol)]
     case NORTH_INDIC_PLACEHOLDER_MARK = "\u{A837}";
 
-    #[Info(id: 43064, name: 'NORTH INDIC RUPEE MARK', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xA838, name: 'NORTH INDIC RUPEE MARK', category: Cat::Currency_Symbol)]
     case NORTH_INDIC_RUPEE_MARK = "\u{A838}";
 
-    #[Info(id: 43065, name: 'NORTH INDIC QUANTITY MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0xA839, name: 'NORTH INDIC QUANTITY MARK', category: Cat::Other_Symbol)]
     case NORTH_INDIC_QUANTITY_MARK = "\u{A839}";
 }

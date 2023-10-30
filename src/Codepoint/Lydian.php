@@ -16,84 +16,84 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Lydian: string
 {
-    #[Info(id: 67872, name: 'LYDIAN LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x10920, name: 'LYDIAN LETTER A', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_A = "\u{10920}";
 
-    #[Info(id: 67873, name: 'LYDIAN LETTER B', category: Cat::Other_Letter)]
+    #[Info(id: 0x10921, name: 'LYDIAN LETTER B', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_B = "\u{10921}";
 
-    #[Info(id: 67874, name: 'LYDIAN LETTER G', category: Cat::Other_Letter)]
+    #[Info(id: 0x10922, name: 'LYDIAN LETTER G', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_G = "\u{10922}";
 
-    #[Info(id: 67875, name: 'LYDIAN LETTER D', category: Cat::Other_Letter)]
+    #[Info(id: 0x10923, name: 'LYDIAN LETTER D', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_D = "\u{10923}";
 
-    #[Info(id: 67876, name: 'LYDIAN LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x10924, name: 'LYDIAN LETTER E', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_E = "\u{10924}";
 
-    #[Info(id: 67877, name: 'LYDIAN LETTER V', category: Cat::Other_Letter)]
+    #[Info(id: 0x10925, name: 'LYDIAN LETTER V', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_V = "\u{10925}";
 
-    #[Info(id: 67878, name: 'LYDIAN LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x10926, name: 'LYDIAN LETTER I', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_I = "\u{10926}";
 
-    #[Info(id: 67879, name: 'LYDIAN LETTER Y', category: Cat::Other_Letter)]
+    #[Info(id: 0x10927, name: 'LYDIAN LETTER Y', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_Y = "\u{10927}";
 
-    #[Info(id: 67880, name: 'LYDIAN LETTER K', category: Cat::Other_Letter)]
+    #[Info(id: 0x10928, name: 'LYDIAN LETTER K', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_K = "\u{10928}";
 
-    #[Info(id: 67881, name: 'LYDIAN LETTER L', category: Cat::Other_Letter)]
+    #[Info(id: 0x10929, name: 'LYDIAN LETTER L', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_L = "\u{10929}";
 
-    #[Info(id: 67882, name: 'LYDIAN LETTER M', category: Cat::Other_Letter)]
+    #[Info(id: 0x1092A, name: 'LYDIAN LETTER M', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_M = "\u{1092A}";
 
-    #[Info(id: 67883, name: 'LYDIAN LETTER N', category: Cat::Other_Letter)]
+    #[Info(id: 0x1092B, name: 'LYDIAN LETTER N', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_N = "\u{1092B}";
 
-    #[Info(id: 67884, name: 'LYDIAN LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1092C, name: 'LYDIAN LETTER O', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_O = "\u{1092C}";
 
-    #[Info(id: 67885, name: 'LYDIAN LETTER R', category: Cat::Other_Letter)]
+    #[Info(id: 0x1092D, name: 'LYDIAN LETTER R', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_R = "\u{1092D}";
 
-    #[Info(id: 67886, name: 'LYDIAN LETTER SS', category: Cat::Other_Letter)]
+    #[Info(id: 0x1092E, name: 'LYDIAN LETTER SS', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_SS = "\u{1092E}";
 
-    #[Info(id: 67887, name: 'LYDIAN LETTER T', category: Cat::Other_Letter)]
+    #[Info(id: 0x1092F, name: 'LYDIAN LETTER T', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_T = "\u{1092F}";
 
-    #[Info(id: 67888, name: 'LYDIAN LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x10930, name: 'LYDIAN LETTER U', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_U = "\u{10930}";
 
-    #[Info(id: 67889, name: 'LYDIAN LETTER F', category: Cat::Other_Letter)]
+    #[Info(id: 0x10931, name: 'LYDIAN LETTER F', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_F = "\u{10931}";
 
-    #[Info(id: 67890, name: 'LYDIAN LETTER Q', category: Cat::Other_Letter)]
+    #[Info(id: 0x10932, name: 'LYDIAN LETTER Q', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_Q = "\u{10932}";
 
-    #[Info(id: 67891, name: 'LYDIAN LETTER S', category: Cat::Other_Letter)]
+    #[Info(id: 0x10933, name: 'LYDIAN LETTER S', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_S = "\u{10933}";
 
-    #[Info(id: 67892, name: 'LYDIAN LETTER TT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10934, name: 'LYDIAN LETTER TT', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_TT = "\u{10934}";
 
-    #[Info(id: 67893, name: 'LYDIAN LETTER AN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10935, name: 'LYDIAN LETTER AN', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_AN = "\u{10935}";
 
-    #[Info(id: 67894, name: 'LYDIAN LETTER EN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10936, name: 'LYDIAN LETTER EN', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_EN = "\u{10936}";
 
-    #[Info(id: 67895, name: 'LYDIAN LETTER LY', category: Cat::Other_Letter)]
+    #[Info(id: 0x10937, name: 'LYDIAN LETTER LY', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_LY = "\u{10937}";
 
-    #[Info(id: 67896, name: 'LYDIAN LETTER NN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10938, name: 'LYDIAN LETTER NN', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_NN = "\u{10938}";
 
-    #[Info(id: 67897, name: 'LYDIAN LETTER C', category: Cat::Other_Letter)]
+    #[Info(id: 0x10939, name: 'LYDIAN LETTER C', category: Cat::Other_Letter)]
     case LYDIAN_LETTER_C = "\u{10939}";
 
-    #[Info(id: 67903, name: 'LYDIAN TRIANGULAR MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1093F, name: 'LYDIAN TRIANGULAR MARK', category: Cat::Other_Punctuation)]
     case LYDIAN_TRIANGULAR_MARK = "\u{1093F}";
 }

@@ -16,627 +16,627 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Latin_ExtendedB: string
 {
-    #[Info(id: 384, name: 'LATIN SMALL LETTER B WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x180, name: 'LATIN SMALL LETTER B WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_B_WITH_STROKE = "\u{180}";
 
-    #[Info(id: 385, name: 'LATIN CAPITAL LETTER B WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x181, name: 'LATIN CAPITAL LETTER B WITH HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_B_WITH_HOOK = "\u{181}";
 
-    #[Info(id: 386, name: 'LATIN CAPITAL LETTER B WITH TOPBAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x182, name: 'LATIN CAPITAL LETTER B WITH TOPBAR', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_B_WITH_TOPBAR = "\u{182}";
 
-    #[Info(id: 387, name: 'LATIN SMALL LETTER B WITH TOPBAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x183, name: 'LATIN SMALL LETTER B WITH TOPBAR', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_B_WITH_TOPBAR = "\u{183}";
 
-    #[Info(id: 388, name: 'LATIN CAPITAL LETTER TONE SIX', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x184, name: 'LATIN CAPITAL LETTER TONE SIX', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_TONE_SIX = "\u{184}";
 
-    #[Info(id: 389, name: 'LATIN SMALL LETTER TONE SIX', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x185, name: 'LATIN SMALL LETTER TONE SIX', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TONE_SIX = "\u{185}";
 
-    #[Info(id: 390, name: 'LATIN CAPITAL LETTER OPEN O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x186, name: 'LATIN CAPITAL LETTER OPEN O', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_OPEN_O = "\u{186}";
 
-    #[Info(id: 391, name: 'LATIN CAPITAL LETTER C WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x187, name: 'LATIN CAPITAL LETTER C WITH HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_C_WITH_HOOK = "\u{187}";
 
-    #[Info(id: 392, name: 'LATIN SMALL LETTER C WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x188, name: 'LATIN SMALL LETTER C WITH HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_C_WITH_HOOK = "\u{188}";
 
-    #[Info(id: 393, name: 'LATIN CAPITAL LETTER AFRICAN D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x189, name: 'LATIN CAPITAL LETTER AFRICAN D', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_AFRICAN_D = "\u{189}";
 
-    #[Info(id: 394, name: 'LATIN CAPITAL LETTER D WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x18A, name: 'LATIN CAPITAL LETTER D WITH HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_D_WITH_HOOK = "\u{18A}";
 
-    #[Info(id: 395, name: 'LATIN CAPITAL LETTER D WITH TOPBAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x18B, name: 'LATIN CAPITAL LETTER D WITH TOPBAR', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_D_WITH_TOPBAR = "\u{18B}";
 
-    #[Info(id: 396, name: 'LATIN SMALL LETTER D WITH TOPBAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x18C, name: 'LATIN SMALL LETTER D WITH TOPBAR', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_D_WITH_TOPBAR = "\u{18C}";
 
-    #[Info(id: 397, name: 'LATIN SMALL LETTER TURNED DELTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x18D, name: 'LATIN SMALL LETTER TURNED DELTA', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_DELTA = "\u{18D}";
 
-    #[Info(id: 398, name: 'LATIN CAPITAL LETTER REVERSED E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x18E, name: 'LATIN CAPITAL LETTER REVERSED E', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_REVERSED_E = "\u{18E}";
 
-    #[Info(id: 399, name: 'LATIN CAPITAL LETTER SCHWA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x18F, name: 'LATIN CAPITAL LETTER SCHWA', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_SCHWA = "\u{18F}";
 
-    #[Info(id: 400, name: 'LATIN CAPITAL LETTER OPEN E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x190, name: 'LATIN CAPITAL LETTER OPEN E', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_OPEN_E = "\u{190}";
 
-    #[Info(id: 401, name: 'LATIN CAPITAL LETTER F WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x191, name: 'LATIN CAPITAL LETTER F WITH HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_F_WITH_HOOK = "\u{191}";
 
-    #[Info(id: 402, name: 'LATIN SMALL LETTER F WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x192, name: 'LATIN SMALL LETTER F WITH HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_F_WITH_HOOK = "\u{192}";
 
-    #[Info(id: 403, name: 'LATIN CAPITAL LETTER G WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x193, name: 'LATIN CAPITAL LETTER G WITH HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_G_WITH_HOOK = "\u{193}";
 
-    #[Info(id: 404, name: 'LATIN CAPITAL LETTER GAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x194, name: 'LATIN CAPITAL LETTER GAMMA', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_GAMMA = "\u{194}";
 
-    #[Info(id: 405, name: 'LATIN SMALL LETTER HV', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x195, name: 'LATIN SMALL LETTER HV', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_HV = "\u{195}";
 
-    #[Info(id: 406, name: 'LATIN CAPITAL LETTER IOTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x196, name: 'LATIN CAPITAL LETTER IOTA', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_IOTA = "\u{196}";
 
-    #[Info(id: 407, name: 'LATIN CAPITAL LETTER I WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x197, name: 'LATIN CAPITAL LETTER I WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_I_WITH_STROKE = "\u{197}";
 
-    #[Info(id: 408, name: 'LATIN CAPITAL LETTER K WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x198, name: 'LATIN CAPITAL LETTER K WITH HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_K_WITH_HOOK = "\u{198}";
 
-    #[Info(id: 409, name: 'LATIN SMALL LETTER K WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x199, name: 'LATIN SMALL LETTER K WITH HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_K_WITH_HOOK = "\u{199}";
 
-    #[Info(id: 410, name: 'LATIN SMALL LETTER L WITH BAR', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x19A, name: 'LATIN SMALL LETTER L WITH BAR', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_L_WITH_BAR = "\u{19A}";
 
-    #[Info(id: 411, name: 'LATIN SMALL LETTER LAMBDA WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x19B, name: 'LATIN SMALL LETTER LAMBDA WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_LAMBDA_WITH_STROKE = "\u{19B}";
 
-    #[Info(id: 412, name: 'LATIN CAPITAL LETTER TURNED M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x19C, name: 'LATIN CAPITAL LETTER TURNED M', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_TURNED_M = "\u{19C}";
 
-    #[Info(id: 413, name: 'LATIN CAPITAL LETTER N WITH LEFT HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x19D, name: 'LATIN CAPITAL LETTER N WITH LEFT HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_N_WITH_LEFT_HOOK = "\u{19D}";
 
-    #[Info(id: 414, name: 'LATIN SMALL LETTER N WITH LONG RIGHT LEG', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x19E, name: 'LATIN SMALL LETTER N WITH LONG RIGHT LEG', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_N_WITH_LONG_RIGHT_LEG = "\u{19E}";
 
-    #[Info(id: 415, name: 'LATIN CAPITAL LETTER O WITH MIDDLE TILDE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x19F, name: 'LATIN CAPITAL LETTER O WITH MIDDLE TILDE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_MIDDLE_TILDE = "\u{19F}";
 
-    #[Info(id: 416, name: 'LATIN CAPITAL LETTER O WITH HORN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1A0, name: 'LATIN CAPITAL LETTER O WITH HORN', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_HORN = "\u{1A0}";
 
-    #[Info(id: 417, name: 'LATIN SMALL LETTER O WITH HORN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1A1, name: 'LATIN SMALL LETTER O WITH HORN', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O_WITH_HORN = "\u{1A1}";
 
-    #[Info(id: 418, name: 'LATIN CAPITAL LETTER OI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1A2, name: 'LATIN CAPITAL LETTER OI', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_OI = "\u{1A2}";
 
-    #[Info(id: 419, name: 'LATIN SMALL LETTER OI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1A3, name: 'LATIN SMALL LETTER OI', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_OI = "\u{1A3}";
 
-    #[Info(id: 420, name: 'LATIN CAPITAL LETTER P WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1A4, name: 'LATIN CAPITAL LETTER P WITH HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_P_WITH_HOOK = "\u{1A4}";
 
-    #[Info(id: 421, name: 'LATIN SMALL LETTER P WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1A5, name: 'LATIN SMALL LETTER P WITH HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_P_WITH_HOOK = "\u{1A5}";
 
-    #[Info(id: 422, name: 'LATIN LETTER YR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1A6, name: 'LATIN LETTER YR', category: Cat::Uppercase_Letter)]
     case LATIN_LETTER_YR = "\u{1A6}";
 
-    #[Info(id: 423, name: 'LATIN CAPITAL LETTER TONE TWO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1A7, name: 'LATIN CAPITAL LETTER TONE TWO', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_TONE_TWO = "\u{1A7}";
 
-    #[Info(id: 424, name: 'LATIN SMALL LETTER TONE TWO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1A8, name: 'LATIN SMALL LETTER TONE TWO', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TONE_TWO = "\u{1A8}";
 
-    #[Info(id: 425, name: 'LATIN CAPITAL LETTER ESH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1A9, name: 'LATIN CAPITAL LETTER ESH', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_ESH = "\u{1A9}";
 
-    #[Info(id: 426, name: 'LATIN LETTER REVERSED ESH LOOP', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1AA, name: 'LATIN LETTER REVERSED ESH LOOP', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_REVERSED_ESH_LOOP = "\u{1AA}";
 
-    #[Info(id: 427, name: 'LATIN SMALL LETTER T WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1AB, name: 'LATIN SMALL LETTER T WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_T_WITH_PALATAL_HOOK = "\u{1AB}";
 
-    #[Info(id: 428, name: 'LATIN CAPITAL LETTER T WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1AC, name: 'LATIN CAPITAL LETTER T WITH HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_T_WITH_HOOK = "\u{1AC}";
 
-    #[Info(id: 429, name: 'LATIN SMALL LETTER T WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1AD, name: 'LATIN SMALL LETTER T WITH HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_T_WITH_HOOK = "\u{1AD}";
 
-    #[Info(id: 430, name: 'LATIN CAPITAL LETTER T WITH RETROFLEX HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1AE, name: 'LATIN CAPITAL LETTER T WITH RETROFLEX HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_T_WITH_RETROFLEX_HOOK = "\u{1AE}";
 
-    #[Info(id: 431, name: 'LATIN CAPITAL LETTER U WITH HORN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1AF, name: 'LATIN CAPITAL LETTER U WITH HORN', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_U_WITH_HORN = "\u{1AF}";
 
-    #[Info(id: 432, name: 'LATIN SMALL LETTER U WITH HORN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1B0, name: 'LATIN SMALL LETTER U WITH HORN', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U_WITH_HORN = "\u{1B0}";
 
-    #[Info(id: 433, name: 'LATIN CAPITAL LETTER UPSILON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1B1, name: 'LATIN CAPITAL LETTER UPSILON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_UPSILON = "\u{1B1}";
 
-    #[Info(id: 434, name: 'LATIN CAPITAL LETTER V WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1B2, name: 'LATIN CAPITAL LETTER V WITH HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_V_WITH_HOOK = "\u{1B2}";
 
-    #[Info(id: 435, name: 'LATIN CAPITAL LETTER Y WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1B3, name: 'LATIN CAPITAL LETTER Y WITH HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_Y_WITH_HOOK = "\u{1B3}";
 
-    #[Info(id: 436, name: 'LATIN SMALL LETTER Y WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1B4, name: 'LATIN SMALL LETTER Y WITH HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Y_WITH_HOOK = "\u{1B4}";
 
-    #[Info(id: 437, name: 'LATIN CAPITAL LETTER Z WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1B5, name: 'LATIN CAPITAL LETTER Z WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_Z_WITH_STROKE = "\u{1B5}";
 
-    #[Info(id: 438, name: 'LATIN SMALL LETTER Z WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1B6, name: 'LATIN SMALL LETTER Z WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Z_WITH_STROKE = "\u{1B6}";
 
-    #[Info(id: 439, name: 'LATIN CAPITAL LETTER EZH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1B7, name: 'LATIN CAPITAL LETTER EZH', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_EZH = "\u{1B7}";
 
-    #[Info(id: 440, name: 'LATIN CAPITAL LETTER EZH REVERSED', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1B8, name: 'LATIN CAPITAL LETTER EZH REVERSED', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_EZH_REVERSED = "\u{1B8}";
 
-    #[Info(id: 441, name: 'LATIN SMALL LETTER EZH REVERSED', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1B9, name: 'LATIN SMALL LETTER EZH REVERSED', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_EZH_REVERSED = "\u{1B9}";
 
-    #[Info(id: 442, name: 'LATIN SMALL LETTER EZH WITH TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1BA, name: 'LATIN SMALL LETTER EZH WITH TAIL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_EZH_WITH_TAIL = "\u{1BA}";
 
-    #[Info(id: 443, name: 'LATIN LETTER TWO WITH STROKE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1BB, name: 'LATIN LETTER TWO WITH STROKE', category: Cat::Other_Letter)]
     case LATIN_LETTER_TWO_WITH_STROKE = "\u{1BB}";
 
-    #[Info(id: 444, name: 'LATIN CAPITAL LETTER TONE FIVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1BC, name: 'LATIN CAPITAL LETTER TONE FIVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_TONE_FIVE = "\u{1BC}";
 
-    #[Info(id: 445, name: 'LATIN SMALL LETTER TONE FIVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1BD, name: 'LATIN SMALL LETTER TONE FIVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TONE_FIVE = "\u{1BD}";
 
-    #[Info(id: 446, name: 'LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1BE, name: 'LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_INVERTED_GLOTTAL_STOP_WITH_STROKE = "\u{1BE}";
 
-    #[Info(id: 447, name: 'LATIN LETTER WYNN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1BF, name: 'LATIN LETTER WYNN', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_WYNN = "\u{1BF}";
 
-    #[Info(id: 448, name: 'LATIN LETTER DENTAL CLICK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C0, name: 'LATIN LETTER DENTAL CLICK', category: Cat::Other_Letter)]
     case LATIN_LETTER_DENTAL_CLICK = "\u{1C0}";
 
-    #[Info(id: 449, name: 'LATIN LETTER LATERAL CLICK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C1, name: 'LATIN LETTER LATERAL CLICK', category: Cat::Other_Letter)]
     case LATIN_LETTER_LATERAL_CLICK = "\u{1C1}";
 
-    #[Info(id: 450, name: 'LATIN LETTER ALVEOLAR CLICK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C2, name: 'LATIN LETTER ALVEOLAR CLICK', category: Cat::Other_Letter)]
     case LATIN_LETTER_ALVEOLAR_CLICK = "\u{1C2}";
 
-    #[Info(id: 451, name: 'LATIN LETTER RETROFLEX CLICK', category: Cat::Other_Letter)]
+    #[Info(id: 0x1C3, name: 'LATIN LETTER RETROFLEX CLICK', category: Cat::Other_Letter)]
     case LATIN_LETTER_RETROFLEX_CLICK = "\u{1C3}";
 
-    #[Info(id: 452, name: 'LATIN CAPITAL LETTER DZ WITH CARON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C4, name: 'LATIN CAPITAL LETTER DZ WITH CARON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_DZ_WITH_CARON = "\u{1C4}";
 
-    #[Info(id: 453, name: 'LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1C5, name: 'LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON', category: Cat::Titlecase_Letter)]
     case LATIN_CAPITAL_LETTER_D_WITH_SMALL_LETTER_Z_WITH_CARON = "\u{1C5}";
 
-    #[Info(id: 454, name: 'LATIN SMALL LETTER DZ WITH CARON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1C6, name: 'LATIN SMALL LETTER DZ WITH CARON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_DZ_WITH_CARON = "\u{1C6}";
 
-    #[Info(id: 455, name: 'LATIN CAPITAL LETTER LJ', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C7, name: 'LATIN CAPITAL LETTER LJ', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_LJ = "\u{1C7}";
 
-    #[Info(id: 456, name: 'LATIN CAPITAL LETTER L WITH SMALL LETTER J', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1C8, name: 'LATIN CAPITAL LETTER L WITH SMALL LETTER J', category: Cat::Titlecase_Letter)]
     case LATIN_CAPITAL_LETTER_L_WITH_SMALL_LETTER_J = "\u{1C8}";
 
-    #[Info(id: 457, name: 'LATIN SMALL LETTER LJ', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1C9, name: 'LATIN SMALL LETTER LJ', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_LJ = "\u{1C9}";
 
-    #[Info(id: 458, name: 'LATIN CAPITAL LETTER NJ', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CA, name: 'LATIN CAPITAL LETTER NJ', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_NJ = "\u{1CA}";
 
-    #[Info(id: 459, name: 'LATIN CAPITAL LETTER N WITH SMALL LETTER J', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1CB, name: 'LATIN CAPITAL LETTER N WITH SMALL LETTER J', category: Cat::Titlecase_Letter)]
     case LATIN_CAPITAL_LETTER_N_WITH_SMALL_LETTER_J = "\u{1CB}";
 
-    #[Info(id: 460, name: 'LATIN SMALL LETTER NJ', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1CC, name: 'LATIN SMALL LETTER NJ', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_NJ = "\u{1CC}";
 
-    #[Info(id: 461, name: 'LATIN CAPITAL LETTER A WITH CARON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CD, name: 'LATIN CAPITAL LETTER A WITH CARON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_A_WITH_CARON = "\u{1CD}";
 
-    #[Info(id: 462, name: 'LATIN SMALL LETTER A WITH CARON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1CE, name: 'LATIN SMALL LETTER A WITH CARON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_A_WITH_CARON = "\u{1CE}";
 
-    #[Info(id: 463, name: 'LATIN CAPITAL LETTER I WITH CARON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CF, name: 'LATIN CAPITAL LETTER I WITH CARON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_I_WITH_CARON = "\u{1CF}";
 
-    #[Info(id: 464, name: 'LATIN SMALL LETTER I WITH CARON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D0, name: 'LATIN SMALL LETTER I WITH CARON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_I_WITH_CARON = "\u{1D0}";
 
-    #[Info(id: 465, name: 'LATIN CAPITAL LETTER O WITH CARON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D1, name: 'LATIN CAPITAL LETTER O WITH CARON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_CARON = "\u{1D1}";
 
-    #[Info(id: 466, name: 'LATIN SMALL LETTER O WITH CARON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D2, name: 'LATIN SMALL LETTER O WITH CARON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O_WITH_CARON = "\u{1D2}";
 
-    #[Info(id: 467, name: 'LATIN CAPITAL LETTER U WITH CARON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D3, name: 'LATIN CAPITAL LETTER U WITH CARON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_U_WITH_CARON = "\u{1D3}";
 
-    #[Info(id: 468, name: 'LATIN SMALL LETTER U WITH CARON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D4, name: 'LATIN SMALL LETTER U WITH CARON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U_WITH_CARON = "\u{1D4}";
 
-    #[Info(id: 469, name: 'LATIN CAPITAL LETTER U WITH DIAERESIS AND MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D5, name: 'LATIN CAPITAL LETTER U WITH DIAERESIS AND MACRON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_U_WITH_DIAERESIS_AND_MACRON = "\u{1D5}";
 
-    #[Info(id: 470, name: 'LATIN SMALL LETTER U WITH DIAERESIS AND MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D6, name: 'LATIN SMALL LETTER U WITH DIAERESIS AND MACRON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U_WITH_DIAERESIS_AND_MACRON = "\u{1D6}";
 
-    #[Info(id: 471, name: 'LATIN CAPITAL LETTER U WITH DIAERESIS AND ACUTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D7, name: 'LATIN CAPITAL LETTER U WITH DIAERESIS AND ACUTE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_U_WITH_DIAERESIS_AND_ACUTE = "\u{1D7}";
 
-    #[Info(id: 472, name: 'LATIN SMALL LETTER U WITH DIAERESIS AND ACUTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1D8, name: 'LATIN SMALL LETTER U WITH DIAERESIS AND ACUTE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U_WITH_DIAERESIS_AND_ACUTE = "\u{1D8}";
 
-    #[Info(id: 473, name: 'LATIN CAPITAL LETTER U WITH DIAERESIS AND CARON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1D9, name: 'LATIN CAPITAL LETTER U WITH DIAERESIS AND CARON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_U_WITH_DIAERESIS_AND_CARON = "\u{1D9}";
 
-    #[Info(id: 474, name: 'LATIN SMALL LETTER U WITH DIAERESIS AND CARON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1DA, name: 'LATIN SMALL LETTER U WITH DIAERESIS AND CARON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U_WITH_DIAERESIS_AND_CARON = "\u{1DA}";
 
-    #[Info(id: 475, name: 'LATIN CAPITAL LETTER U WITH DIAERESIS AND GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1DB, name: 'LATIN CAPITAL LETTER U WITH DIAERESIS AND GRAVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_U_WITH_DIAERESIS_AND_GRAVE = "\u{1DB}";
 
-    #[Info(id: 476, name: 'LATIN SMALL LETTER U WITH DIAERESIS AND GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1DC, name: 'LATIN SMALL LETTER U WITH DIAERESIS AND GRAVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U_WITH_DIAERESIS_AND_GRAVE = "\u{1DC}";
 
-    #[Info(id: 477, name: 'LATIN SMALL LETTER TURNED E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1DD, name: 'LATIN SMALL LETTER TURNED E', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_TURNED_E = "\u{1DD}";
 
-    #[Info(id: 478, name: 'LATIN CAPITAL LETTER A WITH DIAERESIS AND MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1DE, name: 'LATIN CAPITAL LETTER A WITH DIAERESIS AND MACRON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_A_WITH_DIAERESIS_AND_MACRON = "\u{1DE}";
 
-    #[Info(id: 479, name: 'LATIN SMALL LETTER A WITH DIAERESIS AND MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1DF, name: 'LATIN SMALL LETTER A WITH DIAERESIS AND MACRON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_A_WITH_DIAERESIS_AND_MACRON = "\u{1DF}";
 
-    #[Info(id: 480, name: 'LATIN CAPITAL LETTER A WITH DOT ABOVE AND MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E0, name: 'LATIN CAPITAL LETTER A WITH DOT ABOVE AND MACRON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_A_WITH_DOT_ABOVE_AND_MACRON = "\u{1E0}";
 
-    #[Info(id: 481, name: 'LATIN SMALL LETTER A WITH DOT ABOVE AND MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E1, name: 'LATIN SMALL LETTER A WITH DOT ABOVE AND MACRON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_A_WITH_DOT_ABOVE_AND_MACRON = "\u{1E1}";
 
-    #[Info(id: 482, name: 'LATIN CAPITAL LETTER AE WITH MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E2, name: 'LATIN CAPITAL LETTER AE WITH MACRON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_AE_WITH_MACRON = "\u{1E2}";
 
-    #[Info(id: 483, name: 'LATIN SMALL LETTER AE WITH MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E3, name: 'LATIN SMALL LETTER AE WITH MACRON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_AE_WITH_MACRON = "\u{1E3}";
 
-    #[Info(id: 484, name: 'LATIN CAPITAL LETTER G WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E4, name: 'LATIN CAPITAL LETTER G WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_G_WITH_STROKE = "\u{1E4}";
 
-    #[Info(id: 485, name: 'LATIN SMALL LETTER G WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E5, name: 'LATIN SMALL LETTER G WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_G_WITH_STROKE = "\u{1E5}";
 
-    #[Info(id: 486, name: 'LATIN CAPITAL LETTER G WITH CARON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E6, name: 'LATIN CAPITAL LETTER G WITH CARON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_G_WITH_CARON = "\u{1E6}";
 
-    #[Info(id: 487, name: 'LATIN SMALL LETTER G WITH CARON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E7, name: 'LATIN SMALL LETTER G WITH CARON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_G_WITH_CARON = "\u{1E7}";
 
-    #[Info(id: 488, name: 'LATIN CAPITAL LETTER K WITH CARON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E8, name: 'LATIN CAPITAL LETTER K WITH CARON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_K_WITH_CARON = "\u{1E8}";
 
-    #[Info(id: 489, name: 'LATIN SMALL LETTER K WITH CARON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E9, name: 'LATIN SMALL LETTER K WITH CARON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_K_WITH_CARON = "\u{1E9}";
 
-    #[Info(id: 490, name: 'LATIN CAPITAL LETTER O WITH OGONEK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1EA, name: 'LATIN CAPITAL LETTER O WITH OGONEK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_OGONEK = "\u{1EA}";
 
-    #[Info(id: 491, name: 'LATIN SMALL LETTER O WITH OGONEK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1EB, name: 'LATIN SMALL LETTER O WITH OGONEK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O_WITH_OGONEK = "\u{1EB}";
 
-    #[Info(id: 492, name: 'LATIN CAPITAL LETTER O WITH OGONEK AND MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1EC, name: 'LATIN CAPITAL LETTER O WITH OGONEK AND MACRON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_OGONEK_AND_MACRON = "\u{1EC}";
 
-    #[Info(id: 493, name: 'LATIN SMALL LETTER O WITH OGONEK AND MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1ED, name: 'LATIN SMALL LETTER O WITH OGONEK AND MACRON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O_WITH_OGONEK_AND_MACRON = "\u{1ED}";
 
-    #[Info(id: 494, name: 'LATIN CAPITAL LETTER EZH WITH CARON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1EE, name: 'LATIN CAPITAL LETTER EZH WITH CARON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_EZH_WITH_CARON = "\u{1EE}";
 
-    #[Info(id: 495, name: 'LATIN SMALL LETTER EZH WITH CARON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1EF, name: 'LATIN SMALL LETTER EZH WITH CARON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_EZH_WITH_CARON = "\u{1EF}";
 
-    #[Info(id: 496, name: 'LATIN SMALL LETTER J WITH CARON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F0, name: 'LATIN SMALL LETTER J WITH CARON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_J_WITH_CARON = "\u{1F0}";
 
-    #[Info(id: 497, name: 'LATIN CAPITAL LETTER DZ', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F1, name: 'LATIN CAPITAL LETTER DZ', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_DZ = "\u{1F1}";
 
-    #[Info(id: 498, name: 'LATIN CAPITAL LETTER D WITH SMALL LETTER Z', category: Cat::Titlecase_Letter)]
+    #[Info(id: 0x1F2, name: 'LATIN CAPITAL LETTER D WITH SMALL LETTER Z', category: Cat::Titlecase_Letter)]
     case LATIN_CAPITAL_LETTER_D_WITH_SMALL_LETTER_Z = "\u{1F2}";
 
-    #[Info(id: 499, name: 'LATIN SMALL LETTER DZ', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F3, name: 'LATIN SMALL LETTER DZ', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_DZ = "\u{1F3}";
 
-    #[Info(id: 500, name: 'LATIN CAPITAL LETTER G WITH ACUTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F4, name: 'LATIN CAPITAL LETTER G WITH ACUTE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_G_WITH_ACUTE = "\u{1F4}";
 
-    #[Info(id: 501, name: 'LATIN SMALL LETTER G WITH ACUTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F5, name: 'LATIN SMALL LETTER G WITH ACUTE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_G_WITH_ACUTE = "\u{1F5}";
 
-    #[Info(id: 502, name: 'LATIN CAPITAL LETTER HWAIR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F6, name: 'LATIN CAPITAL LETTER HWAIR', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_HWAIR = "\u{1F6}";
 
-    #[Info(id: 503, name: 'LATIN CAPITAL LETTER WYNN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F7, name: 'LATIN CAPITAL LETTER WYNN', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_WYNN = "\u{1F7}";
 
-    #[Info(id: 504, name: 'LATIN CAPITAL LETTER N WITH GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1F8, name: 'LATIN CAPITAL LETTER N WITH GRAVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_N_WITH_GRAVE = "\u{1F8}";
 
-    #[Info(id: 505, name: 'LATIN SMALL LETTER N WITH GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1F9, name: 'LATIN SMALL LETTER N WITH GRAVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_N_WITH_GRAVE = "\u{1F9}";
 
-    #[Info(id: 506, name: 'LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FA, name: 'LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_A_WITH_RING_ABOVE_AND_ACUTE = "\u{1FA}";
 
-    #[Info(id: 507, name: 'LATIN SMALL LETTER A WITH RING ABOVE AND ACUTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FB, name: 'LATIN SMALL LETTER A WITH RING ABOVE AND ACUTE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_A_WITH_RING_ABOVE_AND_ACUTE = "\u{1FB}";
 
-    #[Info(id: 508, name: 'LATIN CAPITAL LETTER AE WITH ACUTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FC, name: 'LATIN CAPITAL LETTER AE WITH ACUTE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_AE_WITH_ACUTE = "\u{1FC}";
 
-    #[Info(id: 509, name: 'LATIN SMALL LETTER AE WITH ACUTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FD, name: 'LATIN SMALL LETTER AE WITH ACUTE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_AE_WITH_ACUTE = "\u{1FD}";
 
-    #[Info(id: 510, name: 'LATIN CAPITAL LETTER O WITH STROKE AND ACUTE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1FE, name: 'LATIN CAPITAL LETTER O WITH STROKE AND ACUTE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_STROKE_AND_ACUTE = "\u{1FE}";
 
-    #[Info(id: 511, name: 'LATIN SMALL LETTER O WITH STROKE AND ACUTE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1FF, name: 'LATIN SMALL LETTER O WITH STROKE AND ACUTE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O_WITH_STROKE_AND_ACUTE = "\u{1FF}";
 
-    #[Info(id: 512, name: 'LATIN CAPITAL LETTER A WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x200, name: 'LATIN CAPITAL LETTER A WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_A_WITH_DOUBLE_GRAVE = "\u{200}";
 
-    #[Info(id: 513, name: 'LATIN SMALL LETTER A WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x201, name: 'LATIN SMALL LETTER A WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_A_WITH_DOUBLE_GRAVE = "\u{201}";
 
-    #[Info(id: 514, name: 'LATIN CAPITAL LETTER A WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x202, name: 'LATIN CAPITAL LETTER A WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_A_WITH_INVERTED_BREVE = "\u{202}";
 
-    #[Info(id: 515, name: 'LATIN SMALL LETTER A WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x203, name: 'LATIN SMALL LETTER A WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_A_WITH_INVERTED_BREVE = "\u{203}";
 
-    #[Info(id: 516, name: 'LATIN CAPITAL LETTER E WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x204, name: 'LATIN CAPITAL LETTER E WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_E_WITH_DOUBLE_GRAVE = "\u{204}";
 
-    #[Info(id: 517, name: 'LATIN SMALL LETTER E WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x205, name: 'LATIN SMALL LETTER E WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_E_WITH_DOUBLE_GRAVE = "\u{205}";
 
-    #[Info(id: 518, name: 'LATIN CAPITAL LETTER E WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x206, name: 'LATIN CAPITAL LETTER E WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_E_WITH_INVERTED_BREVE = "\u{206}";
 
-    #[Info(id: 519, name: 'LATIN SMALL LETTER E WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x207, name: 'LATIN SMALL LETTER E WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_E_WITH_INVERTED_BREVE = "\u{207}";
 
-    #[Info(id: 520, name: 'LATIN CAPITAL LETTER I WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x208, name: 'LATIN CAPITAL LETTER I WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_I_WITH_DOUBLE_GRAVE = "\u{208}";
 
-    #[Info(id: 521, name: 'LATIN SMALL LETTER I WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x209, name: 'LATIN SMALL LETTER I WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_I_WITH_DOUBLE_GRAVE = "\u{209}";
 
-    #[Info(id: 522, name: 'LATIN CAPITAL LETTER I WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x20A, name: 'LATIN CAPITAL LETTER I WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_I_WITH_INVERTED_BREVE = "\u{20A}";
 
-    #[Info(id: 523, name: 'LATIN SMALL LETTER I WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x20B, name: 'LATIN SMALL LETTER I WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_I_WITH_INVERTED_BREVE = "\u{20B}";
 
-    #[Info(id: 524, name: 'LATIN CAPITAL LETTER O WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x20C, name: 'LATIN CAPITAL LETTER O WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_DOUBLE_GRAVE = "\u{20C}";
 
-    #[Info(id: 525, name: 'LATIN SMALL LETTER O WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x20D, name: 'LATIN SMALL LETTER O WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O_WITH_DOUBLE_GRAVE = "\u{20D}";
 
-    #[Info(id: 526, name: 'LATIN CAPITAL LETTER O WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x20E, name: 'LATIN CAPITAL LETTER O WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_INVERTED_BREVE = "\u{20E}";
 
-    #[Info(id: 527, name: 'LATIN SMALL LETTER O WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x20F, name: 'LATIN SMALL LETTER O WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O_WITH_INVERTED_BREVE = "\u{20F}";
 
-    #[Info(id: 528, name: 'LATIN CAPITAL LETTER R WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x210, name: 'LATIN CAPITAL LETTER R WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_R_WITH_DOUBLE_GRAVE = "\u{210}";
 
-    #[Info(id: 529, name: 'LATIN SMALL LETTER R WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x211, name: 'LATIN SMALL LETTER R WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_R_WITH_DOUBLE_GRAVE = "\u{211}";
 
-    #[Info(id: 530, name: 'LATIN CAPITAL LETTER R WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x212, name: 'LATIN CAPITAL LETTER R WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_R_WITH_INVERTED_BREVE = "\u{212}";
 
-    #[Info(id: 531, name: 'LATIN SMALL LETTER R WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x213, name: 'LATIN SMALL LETTER R WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_R_WITH_INVERTED_BREVE = "\u{213}";
 
-    #[Info(id: 532, name: 'LATIN CAPITAL LETTER U WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x214, name: 'LATIN CAPITAL LETTER U WITH DOUBLE GRAVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_U_WITH_DOUBLE_GRAVE = "\u{214}";
 
-    #[Info(id: 533, name: 'LATIN SMALL LETTER U WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x215, name: 'LATIN SMALL LETTER U WITH DOUBLE GRAVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U_WITH_DOUBLE_GRAVE = "\u{215}";
 
-    #[Info(id: 534, name: 'LATIN CAPITAL LETTER U WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x216, name: 'LATIN CAPITAL LETTER U WITH INVERTED BREVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_U_WITH_INVERTED_BREVE = "\u{216}";
 
-    #[Info(id: 535, name: 'LATIN SMALL LETTER U WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x217, name: 'LATIN SMALL LETTER U WITH INVERTED BREVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_U_WITH_INVERTED_BREVE = "\u{217}";
 
-    #[Info(id: 536, name: 'LATIN CAPITAL LETTER S WITH COMMA BELOW', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x218, name: 'LATIN CAPITAL LETTER S WITH COMMA BELOW', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_S_WITH_COMMA_BELOW = "\u{218}";
 
-    #[Info(id: 537, name: 'LATIN SMALL LETTER S WITH COMMA BELOW', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x219, name: 'LATIN SMALL LETTER S WITH COMMA BELOW', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_S_WITH_COMMA_BELOW = "\u{219}";
 
-    #[Info(id: 538, name: 'LATIN CAPITAL LETTER T WITH COMMA BELOW', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x21A, name: 'LATIN CAPITAL LETTER T WITH COMMA BELOW', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_T_WITH_COMMA_BELOW = "\u{21A}";
 
-    #[Info(id: 539, name: 'LATIN SMALL LETTER T WITH COMMA BELOW', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x21B, name: 'LATIN SMALL LETTER T WITH COMMA BELOW', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_T_WITH_COMMA_BELOW = "\u{21B}";
 
-    #[Info(id: 540, name: 'LATIN CAPITAL LETTER YOGH', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x21C, name: 'LATIN CAPITAL LETTER YOGH', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_YOGH = "\u{21C}";
 
-    #[Info(id: 541, name: 'LATIN SMALL LETTER YOGH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x21D, name: 'LATIN SMALL LETTER YOGH', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_YOGH = "\u{21D}";
 
-    #[Info(id: 542, name: 'LATIN CAPITAL LETTER H WITH CARON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x21E, name: 'LATIN CAPITAL LETTER H WITH CARON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_H_WITH_CARON = "\u{21E}";
 
-    #[Info(id: 543, name: 'LATIN SMALL LETTER H WITH CARON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x21F, name: 'LATIN SMALL LETTER H WITH CARON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_H_WITH_CARON = "\u{21F}";
 
-    #[Info(id: 544, name: 'LATIN CAPITAL LETTER N WITH LONG RIGHT LEG', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x220, name: 'LATIN CAPITAL LETTER N WITH LONG RIGHT LEG', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_N_WITH_LONG_RIGHT_LEG = "\u{220}";
 
-    #[Info(id: 545, name: 'LATIN SMALL LETTER D WITH CURL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x221, name: 'LATIN SMALL LETTER D WITH CURL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_D_WITH_CURL = "\u{221}";
 
-    #[Info(id: 546, name: 'LATIN CAPITAL LETTER OU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x222, name: 'LATIN CAPITAL LETTER OU', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_OU = "\u{222}";
 
-    #[Info(id: 547, name: 'LATIN SMALL LETTER OU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x223, name: 'LATIN SMALL LETTER OU', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_OU = "\u{223}";
 
-    #[Info(id: 548, name: 'LATIN CAPITAL LETTER Z WITH HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x224, name: 'LATIN CAPITAL LETTER Z WITH HOOK', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_Z_WITH_HOOK = "\u{224}";
 
-    #[Info(id: 549, name: 'LATIN SMALL LETTER Z WITH HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x225, name: 'LATIN SMALL LETTER Z WITH HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Z_WITH_HOOK = "\u{225}";
 
-    #[Info(id: 550, name: 'LATIN CAPITAL LETTER A WITH DOT ABOVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x226, name: 'LATIN CAPITAL LETTER A WITH DOT ABOVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_A_WITH_DOT_ABOVE = "\u{226}";
 
-    #[Info(id: 551, name: 'LATIN SMALL LETTER A WITH DOT ABOVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x227, name: 'LATIN SMALL LETTER A WITH DOT ABOVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_A_WITH_DOT_ABOVE = "\u{227}";
 
-    #[Info(id: 552, name: 'LATIN CAPITAL LETTER E WITH CEDILLA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x228, name: 'LATIN CAPITAL LETTER E WITH CEDILLA', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_E_WITH_CEDILLA = "\u{228}";
 
-    #[Info(id: 553, name: 'LATIN SMALL LETTER E WITH CEDILLA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x229, name: 'LATIN SMALL LETTER E WITH CEDILLA', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_E_WITH_CEDILLA = "\u{229}";
 
-    #[Info(id: 554, name: 'LATIN CAPITAL LETTER O WITH DIAERESIS AND MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x22A, name: 'LATIN CAPITAL LETTER O WITH DIAERESIS AND MACRON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_DIAERESIS_AND_MACRON = "\u{22A}";
 
-    #[Info(id: 555, name: 'LATIN SMALL LETTER O WITH DIAERESIS AND MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x22B, name: 'LATIN SMALL LETTER O WITH DIAERESIS AND MACRON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O_WITH_DIAERESIS_AND_MACRON = "\u{22B}";
 
-    #[Info(id: 556, name: 'LATIN CAPITAL LETTER O WITH TILDE AND MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x22C, name: 'LATIN CAPITAL LETTER O WITH TILDE AND MACRON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_TILDE_AND_MACRON = "\u{22C}";
 
-    #[Info(id: 557, name: 'LATIN SMALL LETTER O WITH TILDE AND MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x22D, name: 'LATIN SMALL LETTER O WITH TILDE AND MACRON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O_WITH_TILDE_AND_MACRON = "\u{22D}";
 
-    #[Info(id: 558, name: 'LATIN CAPITAL LETTER O WITH DOT ABOVE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x22E, name: 'LATIN CAPITAL LETTER O WITH DOT ABOVE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_DOT_ABOVE = "\u{22E}";
 
-    #[Info(id: 559, name: 'LATIN SMALL LETTER O WITH DOT ABOVE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x22F, name: 'LATIN SMALL LETTER O WITH DOT ABOVE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O_WITH_DOT_ABOVE = "\u{22F}";
 
-    #[Info(id: 560, name: 'LATIN CAPITAL LETTER O WITH DOT ABOVE AND MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x230, name: 'LATIN CAPITAL LETTER O WITH DOT ABOVE AND MACRON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_O_WITH_DOT_ABOVE_AND_MACRON = "\u{230}";
 
-    #[Info(id: 561, name: 'LATIN SMALL LETTER O WITH DOT ABOVE AND MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x231, name: 'LATIN SMALL LETTER O WITH DOT ABOVE AND MACRON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_O_WITH_DOT_ABOVE_AND_MACRON = "\u{231}";
 
-    #[Info(id: 562, name: 'LATIN CAPITAL LETTER Y WITH MACRON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x232, name: 'LATIN CAPITAL LETTER Y WITH MACRON', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_Y_WITH_MACRON = "\u{232}";
 
-    #[Info(id: 563, name: 'LATIN SMALL LETTER Y WITH MACRON', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x233, name: 'LATIN SMALL LETTER Y WITH MACRON', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Y_WITH_MACRON = "\u{233}";
 
-    #[Info(id: 564, name: 'LATIN SMALL LETTER L WITH CURL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x234, name: 'LATIN SMALL LETTER L WITH CURL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_L_WITH_CURL = "\u{234}";
 
-    #[Info(id: 565, name: 'LATIN SMALL LETTER N WITH CURL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x235, name: 'LATIN SMALL LETTER N WITH CURL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_N_WITH_CURL = "\u{235}";
 
-    #[Info(id: 566, name: 'LATIN SMALL LETTER T WITH CURL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x236, name: 'LATIN SMALL LETTER T WITH CURL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_T_WITH_CURL = "\u{236}";
 
-    #[Info(id: 567, name: 'LATIN SMALL LETTER DOTLESS J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x237, name: 'LATIN SMALL LETTER DOTLESS J', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_DOTLESS_J = "\u{237}";
 
-    #[Info(id: 568, name: 'LATIN SMALL LETTER DB DIGRAPH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x238, name: 'LATIN SMALL LETTER DB DIGRAPH', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_DB_DIGRAPH = "\u{238}";
 
-    #[Info(id: 569, name: 'LATIN SMALL LETTER QP DIGRAPH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x239, name: 'LATIN SMALL LETTER QP DIGRAPH', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_QP_DIGRAPH = "\u{239}";
 
-    #[Info(id: 570, name: 'LATIN CAPITAL LETTER A WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x23A, name: 'LATIN CAPITAL LETTER A WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_A_WITH_STROKE = "\u{23A}";
 
-    #[Info(id: 571, name: 'LATIN CAPITAL LETTER C WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x23B, name: 'LATIN CAPITAL LETTER C WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_C_WITH_STROKE = "\u{23B}";
 
-    #[Info(id: 572, name: 'LATIN SMALL LETTER C WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x23C, name: 'LATIN SMALL LETTER C WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_C_WITH_STROKE = "\u{23C}";
 
-    #[Info(id: 573, name: 'LATIN CAPITAL LETTER L WITH BAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x23D, name: 'LATIN CAPITAL LETTER L WITH BAR', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_L_WITH_BAR = "\u{23D}";
 
-    #[Info(id: 574, name: 'LATIN CAPITAL LETTER T WITH DIAGONAL STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x23E, name: 'LATIN CAPITAL LETTER T WITH DIAGONAL STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_T_WITH_DIAGONAL_STROKE = "\u{23E}";
 
-    #[Info(id: 575, name: 'LATIN SMALL LETTER S WITH SWASH TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x23F, name: 'LATIN SMALL LETTER S WITH SWASH TAIL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_S_WITH_SWASH_TAIL = "\u{23F}";
 
-    #[Info(id: 576, name: 'LATIN SMALL LETTER Z WITH SWASH TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x240, name: 'LATIN SMALL LETTER Z WITH SWASH TAIL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Z_WITH_SWASH_TAIL = "\u{240}";
 
-    #[Info(id: 577, name: 'LATIN CAPITAL LETTER GLOTTAL STOP', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x241, name: 'LATIN CAPITAL LETTER GLOTTAL STOP', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_GLOTTAL_STOP = "\u{241}";
 
-    #[Info(id: 578, name: 'LATIN SMALL LETTER GLOTTAL STOP', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x242, name: 'LATIN SMALL LETTER GLOTTAL STOP', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_GLOTTAL_STOP = "\u{242}";
 
-    #[Info(id: 579, name: 'LATIN CAPITAL LETTER B WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x243, name: 'LATIN CAPITAL LETTER B WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_B_WITH_STROKE = "\u{243}";
 
-    #[Info(id: 580, name: 'LATIN CAPITAL LETTER U BAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x244, name: 'LATIN CAPITAL LETTER U BAR', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_U_BAR = "\u{244}";
 
-    #[Info(id: 581, name: 'LATIN CAPITAL LETTER TURNED V', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x245, name: 'LATIN CAPITAL LETTER TURNED V', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_TURNED_V = "\u{245}";
 
-    #[Info(id: 582, name: 'LATIN CAPITAL LETTER E WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x246, name: 'LATIN CAPITAL LETTER E WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_E_WITH_STROKE = "\u{246}";
 
-    #[Info(id: 583, name: 'LATIN SMALL LETTER E WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x247, name: 'LATIN SMALL LETTER E WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_E_WITH_STROKE = "\u{247}";
 
-    #[Info(id: 584, name: 'LATIN CAPITAL LETTER J WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x248, name: 'LATIN CAPITAL LETTER J WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_J_WITH_STROKE = "\u{248}";
 
-    #[Info(id: 585, name: 'LATIN SMALL LETTER J WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x249, name: 'LATIN SMALL LETTER J WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_J_WITH_STROKE = "\u{249}";
 
-    #[Info(id: 586, name: 'LATIN CAPITAL LETTER SMALL Q WITH HOOK TAIL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x24A, name: 'LATIN CAPITAL LETTER SMALL Q WITH HOOK TAIL', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_SMALL_Q_WITH_HOOK_TAIL = "\u{24A}";
 
-    #[Info(id: 587, name: 'LATIN SMALL LETTER Q WITH HOOK TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x24B, name: 'LATIN SMALL LETTER Q WITH HOOK TAIL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Q_WITH_HOOK_TAIL = "\u{24B}";
 
-    #[Info(id: 588, name: 'LATIN CAPITAL LETTER R WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x24C, name: 'LATIN CAPITAL LETTER R WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_R_WITH_STROKE = "\u{24C}";
 
-    #[Info(id: 589, name: 'LATIN SMALL LETTER R WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x24D, name: 'LATIN SMALL LETTER R WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_R_WITH_STROKE = "\u{24D}";
 
-    #[Info(id: 590, name: 'LATIN CAPITAL LETTER Y WITH STROKE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x24E, name: 'LATIN CAPITAL LETTER Y WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_Y_WITH_STROKE = "\u{24E}";
 
-    #[Info(id: 591, name: 'LATIN SMALL LETTER Y WITH STROKE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x24F, name: 'LATIN SMALL LETTER Y WITH STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_Y_WITH_STROKE = "\u{24F}";
 }

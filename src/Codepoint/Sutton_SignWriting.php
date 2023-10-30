@@ -16,2019 +16,2019 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Sutton_SignWriting: string
 {
-    #[Info(id: 120832, name: 'SIGNWRITING HAND-FIST INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D800, name: 'SIGNWRITING HAND-FIST INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX = "\u{1D800}";
 
-    #[Info(id: 120833, name: 'SIGNWRITING HAND-CIRCLE INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D801, name: 'SIGNWRITING HAND-CIRCLE INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_INDEX = "\u{1D801}";
 
-    #[Info(id: 120834, name: 'SIGNWRITING HAND-CUP INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D802, name: 'SIGNWRITING HAND-CUP INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_INDEX = "\u{1D802}";
 
-    #[Info(id: 120835, name: 'SIGNWRITING HAND-OVAL INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D803, name: 'SIGNWRITING HAND-OVAL INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_OVAL_INDEX = "\u{1D803}";
 
-    #[Info(id: 120836, name: 'SIGNWRITING HAND-HINGE INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D804, name: 'SIGNWRITING HAND-HINGE INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_INDEX = "\u{1D804}";
 
-    #[Info(id: 120837, name: 'SIGNWRITING HAND-ANGLE INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D805, name: 'SIGNWRITING HAND-ANGLE INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_INDEX = "\u{1D805}";
 
-    #[Info(id: 120838, name: 'SIGNWRITING HAND-FIST INDEX BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D806, name: 'SIGNWRITING HAND-FIST INDEX BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_BENT = "\u{1D806}";
 
-    #[Info(id: 120839, name: 'SIGNWRITING HAND-CIRCLE INDEX BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D807, name: 'SIGNWRITING HAND-CIRCLE INDEX BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_INDEX_BENT = "\u{1D807}";
 
-    #[Info(id: 120840, name: 'SIGNWRITING HAND-FIST THUMB UNDER INDEX BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D808, name: 'SIGNWRITING HAND-FIST THUMB UNDER INDEX BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_UNDER_INDEX_BENT = "\u{1D808}";
 
-    #[Info(id: 120841, name: 'SIGNWRITING HAND-FIST INDEX RAISED KNUCKLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D809, name: 'SIGNWRITING HAND-FIST INDEX RAISED KNUCKLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_RAISED_KNUCKLE = "\u{1D809}";
 
-    #[Info(id: 120842, name: 'SIGNWRITING HAND-FIST INDEX CUPPED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D80A, name: 'SIGNWRITING HAND-FIST INDEX CUPPED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_CUPPED = "\u{1D80A}";
 
-    #[Info(id: 120843, name: 'SIGNWRITING HAND-FIST INDEX HINGED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D80B, name: 'SIGNWRITING HAND-FIST INDEX HINGED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_HINGED = "\u{1D80B}";
 
-    #[Info(id: 120844, name: 'SIGNWRITING HAND-FIST INDEX HINGED LOW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D80C, name: 'SIGNWRITING HAND-FIST INDEX HINGED LOW', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_HINGED_LOW = "\u{1D80C}";
 
-    #[Info(id: 120845, name: 'SIGNWRITING HAND-CIRCLE INDEX HINGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D80D, name: 'SIGNWRITING HAND-CIRCLE INDEX HINGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_INDEX_HINGE = "\u{1D80D}";
 
-    #[Info(id: 120846, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D80E, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE = "\u{1D80E}";
 
-    #[Info(id: 120847, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D80F, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_INDEX_MIDDLE = "\u{1D80F}";
 
-    #[Info(id: 120848, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D810, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_BENT = "\u{1D810}";
 
-    #[Info(id: 120849, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE RAISED KNUCKLES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D811, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE RAISED KNUCKLES', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_RAISED_KNUCKLES = "\u{1D811}";
 
-    #[Info(id: 120850, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE HINGED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D812, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE HINGED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_HINGED = "\u{1D812}";
 
-    #[Info(id: 120851, name: 'SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D813, name: 'SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_UP_MIDDLE_HINGED = "\u{1D813}";
 
-    #[Info(id: 120852, name: 'SIGNWRITING HAND-FIST INDEX HINGED MIDDLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D814, name: 'SIGNWRITING HAND-FIST INDEX HINGED MIDDLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_HINGED_MIDDLE_UP = "\u{1D814}";
 
-    #[Info(id: 120853, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D815, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CONJOINED = "\u{1D815}";
 
-    #[Info(id: 120854, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED INDEX BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D816, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED INDEX BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CONJOINED_INDEX_BENT = "\u{1D816}";
 
-    #[Info(id: 120855, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED MIDDLE BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D817, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED MIDDLE BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CONJOINED_MIDDLE_BENT = "\u{1D817}";
 
-    #[Info(id: 120856, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED CUPPED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D818, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED CUPPED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CONJOINED_CUPPED = "\u{1D818}";
 
-    #[Info(id: 120857, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED HINGED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D819, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED HINGED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CONJOINED_HINGED = "\u{1D819}";
 
-    #[Info(id: 120858, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CROSSED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D81A, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CROSSED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CROSSED = "\u{1D81A}";
 
-    #[Info(id: 120859, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE CROSSED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D81B, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE CROSSED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_INDEX_MIDDLE_CROSSED = "\u{1D81B}";
 
-    #[Info(id: 120860, name: 'SIGNWRITING HAND-FIST MIDDLE BENT OVER INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D81C, name: 'SIGNWRITING HAND-FIST MIDDLE BENT OVER INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_BENT_OVER_INDEX = "\u{1D81C}";
 
-    #[Info(id: 120861, name: 'SIGNWRITING HAND-FIST INDEX BENT OVER MIDDLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D81D, name: 'SIGNWRITING HAND-FIST INDEX BENT OVER MIDDLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_BENT_OVER_MIDDLE = "\u{1D81D}";
 
-    #[Info(id: 120862, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D81E, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_THUMB = "\u{1D81E}";
 
-    #[Info(id: 120863, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D81F, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_INDEX_MIDDLE_THUMB = "\u{1D81F}";
 
-    #[Info(id: 120864, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE STRAIGHT THUMB BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D820, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE STRAIGHT THUMB BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_STRAIGHT_THUMB_BENT = "\u{1D820}";
 
-    #[Info(id: 120865, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE BENT THUMB STRAIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D821, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE BENT THUMB STRAIGHT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_BENT_THUMB_STRAIGHT = "\u{1D821}";
 
-    #[Info(id: 120866, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D822, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_THUMB_BENT = "\u{1D822}";
 
-    #[Info(id: 120867, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE HINGED SPREAD THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D823, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE HINGED SPREAD THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_HINGED_SPREAD_THUMB_SIDE = "\u{1D823}";
 
-    #[Info(id: 120868, name: 'SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D824, name: 'SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_UP_MIDDLE_HINGED_THUMB_SIDE = "\u{1D824}";
 
-    #[Info(id: 120869, name: 'SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED THUMB CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D825, name: 'SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED THUMB CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_UP_MIDDLE_HINGED_THUMB_CONJOINED = "\u{1D825}";
 
-    #[Info(id: 120870, name: 'SIGNWRITING HAND-FIST INDEX HINGED MIDDLE UP THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D826, name: 'SIGNWRITING HAND-FIST INDEX HINGED MIDDLE UP THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_HINGED_MIDDLE_UP_THUMB_SIDE = "\u{1D826}";
 
-    #[Info(id: 120871, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE UP SPREAD THUMB FORWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D827, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE UP SPREAD THUMB FORWARD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_UP_SPREAD_THUMB_FORWARD = "\u{1D827}";
 
-    #[Info(id: 120872, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CUPPED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D828, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CUPPED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_THUMB_CUPPED = "\u{1D828}";
 
-    #[Info(id: 120873, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CIRCLED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D829, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CIRCLED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_THUMB_CIRCLED = "\u{1D829}";
 
-    #[Info(id: 120874, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB HOOKED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D82A, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB HOOKED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_THUMB_HOOKED = "\u{1D82A}";
 
-    #[Info(id: 120875, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB HINGED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D82B, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB HINGED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_THUMB_HINGED = "\u{1D82B}";
 
-    #[Info(id: 120876, name: 'SIGNWRITING HAND-FIST THUMB BETWEEN INDEX MIDDLE STRAIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D82C, name: 'SIGNWRITING HAND-FIST THUMB BETWEEN INDEX MIDDLE STRAIGHT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_BETWEEN_INDEX_MIDDLE_STRAIGHT = "\u{1D82C}";
 
-    #[Info(id: 120877, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D82D, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CONJOINED_THUMB_SIDE = "\u{1D82D}";
 
-    #[Info(id: 120878, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D82E, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CONJOINED_THUMB_SIDE_CONJOINED = "\u{1D82E}";
 
-    #[Info(id: 120879, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D82F, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CONJOINED_THUMB_SIDE_BENT = "\u{1D82F}";
 
-    #[Info(id: 120880, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB HOOKED INDEX UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D830, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB HOOKED INDEX UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_THUMB_HOOKED_INDEX_UP = "\u{1D830}";
 
-    #[Info(id: 120881, name: 'SIGNWRITING HAND-FIST INDEX THUMB HOOKED MIDDLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D831, name: 'SIGNWRITING HAND-FIST INDEX THUMB HOOKED MIDDLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_HOOKED_MIDDLE_UP = "\u{1D831}";
 
-    #[Info(id: 120882, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED HINGED THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D832, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED HINGED THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CONJOINED_HINGED_THUMB_SIDE = "\u{1D832}";
 
-    #[Info(id: 120883, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CROSSED THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D833, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CROSSED THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CROSSED_THUMB_SIDE = "\u{1D833}";
 
-    #[Info(id: 120884, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB FORWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D834, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB FORWARD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CONJOINED_THUMB_FORWARD = "\u{1D834}";
 
-    #[Info(id: 120885, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED CUPPED THUMB FORWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D835, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED CUPPED THUMB FORWARD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CONJOINED_CUPPED_THUMB_FORWARD = "\u{1D835}";
 
-    #[Info(id: 120886, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB CUPPED INDEX UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D836, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB CUPPED INDEX UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_THUMB_CUPPED_INDEX_UP = "\u{1D836}";
 
-    #[Info(id: 120887, name: 'SIGNWRITING HAND-FIST INDEX THUMB CUPPED MIDDLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D837, name: 'SIGNWRITING HAND-FIST INDEX THUMB CUPPED MIDDLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_CUPPED_MIDDLE_UP = "\u{1D837}";
 
-    #[Info(id: 120888, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB CIRCLED INDEX UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D838, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB CIRCLED INDEX UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_THUMB_CIRCLED_INDEX_UP = "\u{1D838}";
 
-    #[Info(id: 120889, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB CIRCLED INDEX HINGED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D839, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB CIRCLED INDEX HINGED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_THUMB_CIRCLED_INDEX_HINGED = "\u{1D839}";
 
-    #[Info(id: 120890, name: 'SIGNWRITING HAND-FIST INDEX THUMB ANGLED OUT MIDDLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D83A, name: 'SIGNWRITING HAND-FIST INDEX THUMB ANGLED OUT MIDDLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_ANGLED_OUT_MIDDLE_UP = "\u{1D83A}";
 
-    #[Info(id: 120891, name: 'SIGNWRITING HAND-FIST INDEX THUMB ANGLED IN MIDDLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D83B, name: 'SIGNWRITING HAND-FIST INDEX THUMB ANGLED IN MIDDLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_ANGLED_IN_MIDDLE_UP = "\u{1D83B}";
 
-    #[Info(id: 120892, name: 'SIGNWRITING HAND-FIST INDEX THUMB CIRCLED MIDDLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D83C, name: 'SIGNWRITING HAND-FIST INDEX THUMB CIRCLED MIDDLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_CIRCLED_MIDDLE_UP = "\u{1D83C}";
 
-    #[Info(id: 120893, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CONJOINED HINGED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D83D, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CONJOINED HINGED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_THUMB_CONJOINED_HINGED = "\u{1D83D}";
 
-    #[Info(id: 120894, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB ANGLED OUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D83E, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB ANGLED OUT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_THUMB_ANGLED_OUT = "\u{1D83E}";
 
-    #[Info(id: 120895, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB ANGLED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D83F, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE THUMB ANGLED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_THUMB_ANGLED = "\u{1D83F}";
 
-    #[Info(id: 120896, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED OUT INDEX UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D840, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED OUT INDEX UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_THUMB_ANGLED_OUT_INDEX_UP = "\u{1D840}";
 
-    #[Info(id: 120897, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED OUT INDEX CROSSED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D841, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED OUT INDEX CROSSED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_THUMB_ANGLED_OUT_INDEX_CROSSED = "\u{1D841}";
 
-    #[Info(id: 120898, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED INDEX UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D842, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED INDEX UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_THUMB_ANGLED_INDEX_UP = "\u{1D842}";
 
-    #[Info(id: 120899, name: 'SIGNWRITING HAND-FIST INDEX THUMB HOOKED MIDDLE HINGED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D843, name: 'SIGNWRITING HAND-FIST INDEX THUMB HOOKED MIDDLE HINGED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_HOOKED_MIDDLE_HINGED = "\u{1D843}";
 
-    #[Info(id: 120900, name: 'SIGNWRITING HAND-FLAT FOUR FINGERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D844, name: 'SIGNWRITING HAND-FLAT FOUR FINGERS', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FOUR_FINGERS = "\u{1D844}";
 
-    #[Info(id: 120901, name: 'SIGNWRITING HAND-FLAT FOUR FINGERS BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D845, name: 'SIGNWRITING HAND-FLAT FOUR FINGERS BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FOUR_FINGERS_BENT = "\u{1D845}";
 
-    #[Info(id: 120902, name: 'SIGNWRITING HAND-FLAT FOUR FINGERS HINGED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D846, name: 'SIGNWRITING HAND-FLAT FOUR FINGERS HINGED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FOUR_FINGERS_HINGED = "\u{1D846}";
 
-    #[Info(id: 120903, name: 'SIGNWRITING HAND-FLAT FOUR FINGERS CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D847, name: 'SIGNWRITING HAND-FLAT FOUR FINGERS CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FOUR_FINGERS_CONJOINED = "\u{1D847}";
 
-    #[Info(id: 120904, name: 'SIGNWRITING HAND-FLAT FOUR FINGERS CONJOINED SPLIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D848, name: 'SIGNWRITING HAND-FLAT FOUR FINGERS CONJOINED SPLIT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FOUR_FINGERS_CONJOINED_SPLIT = "\u{1D848}";
 
-    #[Info(id: 120905, name: 'SIGNWRITING HAND-CLAW FOUR FINGERS CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D849, name: 'SIGNWRITING HAND-CLAW FOUR FINGERS CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CLAW_FOUR_FINGERS_CONJOINED = "\u{1D849}";
 
-    #[Info(id: 120906, name: 'SIGNWRITING HAND-FIST FOUR FINGERS CONJOINED BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D84A, name: 'SIGNWRITING HAND-FIST FOUR FINGERS CONJOINED BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_FOUR_FINGERS_CONJOINED_BENT = "\u{1D84A}";
 
-    #[Info(id: 120907, name: 'SIGNWRITING HAND-HINGE FOUR FINGERS CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D84B, name: 'SIGNWRITING HAND-HINGE FOUR FINGERS CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_FOUR_FINGERS_CONJOINED = "\u{1D84B}";
 
-    #[Info(id: 120908, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D84C, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FIVE_FINGERS_SPREAD = "\u{1D84C}";
 
-    #[Info(id: 120909, name: 'SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D84D, name: 'SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_HEEL_FIVE_FINGERS_SPREAD = "\u{1D84D}";
 
-    #[Info(id: 120910, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD FOUR BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D84E, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD FOUR BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FIVE_FINGERS_SPREAD_FOUR_BENT = "\u{1D84E}";
 
-    #[Info(id: 120911, name: 'SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD FOUR BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D84F, name: 'SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD FOUR BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_HEEL_FIVE_FINGERS_SPREAD_FOUR_BENT = "\u{1D84F}";
 
-    #[Info(id: 120912, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D850, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FIVE_FINGERS_SPREAD_BENT = "\u{1D850}";
 
-    #[Info(id: 120913, name: 'SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D851, name: 'SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_HEEL_FIVE_FINGERS_SPREAD_BENT = "\u{1D851}";
 
-    #[Info(id: 120914, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD THUMB FORWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D852, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD THUMB FORWARD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FIVE_FINGERS_SPREAD_THUMB_FORWARD = "\u{1D852}";
 
-    #[Info(id: 120915, name: 'SIGNWRITING HAND-CUP FIVE FINGERS SPREAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D853, name: 'SIGNWRITING HAND-CUP FIVE FINGERS SPREAD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_FIVE_FINGERS_SPREAD = "\u{1D853}";
 
-    #[Info(id: 120916, name: 'SIGNWRITING HAND-CUP FIVE FINGERS SPREAD OPEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D854, name: 'SIGNWRITING HAND-CUP FIVE FINGERS SPREAD OPEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_FIVE_FINGERS_SPREAD_OPEN = "\u{1D854}";
 
-    #[Info(id: 120917, name: 'SIGNWRITING HAND-HINGE FIVE FINGERS SPREAD OPEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D855, name: 'SIGNWRITING HAND-HINGE FIVE FINGERS SPREAD OPEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_FIVE_FINGERS_SPREAD_OPEN = "\u{1D855}";
 
-    #[Info(id: 120918, name: 'SIGNWRITING HAND-OVAL FIVE FINGERS SPREAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D856, name: 'SIGNWRITING HAND-OVAL FIVE FINGERS SPREAD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_OVAL_FIVE_FINGERS_SPREAD = "\u{1D856}";
 
-    #[Info(id: 120919, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D857, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FIVE_FINGERS_SPREAD_HINGED = "\u{1D857}";
 
-    #[Info(id: 120920, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D858, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FIVE_FINGERS_SPREAD_HINGED_THUMB_SIDE = "\u{1D858}";
 
-    #[Info(id: 120921, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED NO THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D859, name: 'SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED NO THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_FIVE_FINGERS_SPREAD_HINGED_NO_THUMB = "\u{1D859}";
 
-    #[Info(id: 120922, name: 'SIGNWRITING HAND-FLAT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D85A, name: 'SIGNWRITING HAND-FLAT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT = "\u{1D85A}";
 
-    #[Info(id: 120923, name: 'SIGNWRITING HAND-FLAT BETWEEN PALM FACINGS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D85B, name: 'SIGNWRITING HAND-FLAT BETWEEN PALM FACINGS', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_BETWEEN_PALM_FACINGS = "\u{1D85B}";
 
-    #[Info(id: 120924, name: 'SIGNWRITING HAND-FLAT HEEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D85C, name: 'SIGNWRITING HAND-FLAT HEEL', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_HEEL = "\u{1D85C}";
 
-    #[Info(id: 120925, name: 'SIGNWRITING HAND-FLAT THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D85D, name: 'SIGNWRITING HAND-FLAT THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_THUMB_SIDE = "\u{1D85D}";
 
-    #[Info(id: 120926, name: 'SIGNWRITING HAND-FLAT HEEL THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D85E, name: 'SIGNWRITING HAND-FLAT HEEL THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_HEEL_THUMB_SIDE = "\u{1D85E}";
 
-    #[Info(id: 120927, name: 'SIGNWRITING HAND-FLAT THUMB BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D85F, name: 'SIGNWRITING HAND-FLAT THUMB BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_THUMB_BENT = "\u{1D85F}";
 
-    #[Info(id: 120928, name: 'SIGNWRITING HAND-FLAT THUMB FORWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D860, name: 'SIGNWRITING HAND-FLAT THUMB FORWARD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_THUMB_FORWARD = "\u{1D860}";
 
-    #[Info(id: 120929, name: 'SIGNWRITING HAND-FLAT SPLIT INDEX THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D861, name: 'SIGNWRITING HAND-FLAT SPLIT INDEX THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_SPLIT_INDEX_THUMB_SIDE = "\u{1D861}";
 
-    #[Info(id: 120930, name: 'SIGNWRITING HAND-FLAT SPLIT CENTRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D862, name: 'SIGNWRITING HAND-FLAT SPLIT CENTRE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_SPLIT_CENTRE = "\u{1D862}";
 
-    #[Info(id: 120931, name: 'SIGNWRITING HAND-FLAT SPLIT CENTRE THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D863, name: 'SIGNWRITING HAND-FLAT SPLIT CENTRE THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_SPLIT_CENTRE_THUMB_SIDE = "\u{1D863}";
 
-    #[Info(id: 120932, name: 'SIGNWRITING HAND-FLAT SPLIT CENTRE THUMB SIDE BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D864, name: 'SIGNWRITING HAND-FLAT SPLIT CENTRE THUMB SIDE BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_SPLIT_CENTRE_THUMB_SIDE_BENT = "\u{1D864}";
 
-    #[Info(id: 120933, name: 'SIGNWRITING HAND-FLAT SPLIT LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D865, name: 'SIGNWRITING HAND-FLAT SPLIT LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FLAT_SPLIT_LITTLE = "\u{1D865}";
 
-    #[Info(id: 120934, name: 'SIGNWRITING HAND-CLAW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D866, name: 'SIGNWRITING HAND-CLAW', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CLAW = "\u{1D866}";
 
-    #[Info(id: 120935, name: 'SIGNWRITING HAND-CLAW THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D867, name: 'SIGNWRITING HAND-CLAW THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CLAW_THUMB_SIDE = "\u{1D867}";
 
-    #[Info(id: 120936, name: 'SIGNWRITING HAND-CLAW NO THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D868, name: 'SIGNWRITING HAND-CLAW NO THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CLAW_NO_THUMB = "\u{1D868}";
 
-    #[Info(id: 120937, name: 'SIGNWRITING HAND-CLAW THUMB FORWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D869, name: 'SIGNWRITING HAND-CLAW THUMB FORWARD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CLAW_THUMB_FORWARD = "\u{1D869}";
 
-    #[Info(id: 120938, name: 'SIGNWRITING HAND-HOOK CURLICUE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D86A, name: 'SIGNWRITING HAND-HOOK CURLICUE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HOOK_CURLICUE = "\u{1D86A}";
 
-    #[Info(id: 120939, name: 'SIGNWRITING HAND-HOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D86B, name: 'SIGNWRITING HAND-HOOK', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HOOK = "\u{1D86B}";
 
-    #[Info(id: 120940, name: 'SIGNWRITING HAND-CUP OPEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D86C, name: 'SIGNWRITING HAND-CUP OPEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_OPEN = "\u{1D86C}";
 
-    #[Info(id: 120941, name: 'SIGNWRITING HAND-CUP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D86D, name: 'SIGNWRITING HAND-CUP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP = "\u{1D86D}";
 
-    #[Info(id: 120942, name: 'SIGNWRITING HAND-CUP OPEN THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D86E, name: 'SIGNWRITING HAND-CUP OPEN THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_OPEN_THUMB_SIDE = "\u{1D86E}";
 
-    #[Info(id: 120943, name: 'SIGNWRITING HAND-CUP THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D86F, name: 'SIGNWRITING HAND-CUP THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_THUMB_SIDE = "\u{1D86F}";
 
-    #[Info(id: 120944, name: 'SIGNWRITING HAND-CUP OPEN NO THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D870, name: 'SIGNWRITING HAND-CUP OPEN NO THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_OPEN_NO_THUMB = "\u{1D870}";
 
-    #[Info(id: 120945, name: 'SIGNWRITING HAND-CUP NO THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D871, name: 'SIGNWRITING HAND-CUP NO THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_NO_THUMB = "\u{1D871}";
 
-    #[Info(id: 120946, name: 'SIGNWRITING HAND-CUP OPEN THUMB FORWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D872, name: 'SIGNWRITING HAND-CUP OPEN THUMB FORWARD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_OPEN_THUMB_FORWARD = "\u{1D872}";
 
-    #[Info(id: 120947, name: 'SIGNWRITING HAND-CUP THUMB FORWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D873, name: 'SIGNWRITING HAND-CUP THUMB FORWARD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_THUMB_FORWARD = "\u{1D873}";
 
-    #[Info(id: 120948, name: 'SIGNWRITING HAND-CURLICUE OPEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D874, name: 'SIGNWRITING HAND-CURLICUE OPEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CURLICUE_OPEN = "\u{1D874}";
 
-    #[Info(id: 120949, name: 'SIGNWRITING HAND-CURLICUE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D875, name: 'SIGNWRITING HAND-CURLICUE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CURLICUE = "\u{1D875}";
 
-    #[Info(id: 120950, name: 'SIGNWRITING HAND-CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D876, name: 'SIGNWRITING HAND-CIRCLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE = "\u{1D876}";
 
-    #[Info(id: 120951, name: 'SIGNWRITING HAND-OVAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D877, name: 'SIGNWRITING HAND-OVAL', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_OVAL = "\u{1D877}";
 
-    #[Info(id: 120952, name: 'SIGNWRITING HAND-OVAL THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D878, name: 'SIGNWRITING HAND-OVAL THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_OVAL_THUMB_SIDE = "\u{1D878}";
 
-    #[Info(id: 120953, name: 'SIGNWRITING HAND-OVAL NO THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D879, name: 'SIGNWRITING HAND-OVAL NO THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_OVAL_NO_THUMB = "\u{1D879}";
 
-    #[Info(id: 120954, name: 'SIGNWRITING HAND-OVAL THUMB FORWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D87A, name: 'SIGNWRITING HAND-OVAL THUMB FORWARD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_OVAL_THUMB_FORWARD = "\u{1D87A}";
 
-    #[Info(id: 120955, name: 'SIGNWRITING HAND-HINGE OPEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D87B, name: 'SIGNWRITING HAND-HINGE OPEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_OPEN = "\u{1D87B}";
 
-    #[Info(id: 120956, name: 'SIGNWRITING HAND-HINGE OPEN THUMB FORWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D87C, name: 'SIGNWRITING HAND-HINGE OPEN THUMB FORWARD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_OPEN_THUMB_FORWARD = "\u{1D87C}";
 
-    #[Info(id: 120957, name: 'SIGNWRITING HAND-HINGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D87D, name: 'SIGNWRITING HAND-HINGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE = "\u{1D87D}";
 
-    #[Info(id: 120958, name: 'SIGNWRITING HAND-HINGE SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D87E, name: 'SIGNWRITING HAND-HINGE SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_SMALL = "\u{1D87E}";
 
-    #[Info(id: 120959, name: 'SIGNWRITING HAND-HINGE OPEN THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D87F, name: 'SIGNWRITING HAND-HINGE OPEN THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_OPEN_THUMB_SIDE = "\u{1D87F}";
 
-    #[Info(id: 120960, name: 'SIGNWRITING HAND-HINGE THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D880, name: 'SIGNWRITING HAND-HINGE THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_THUMB_SIDE = "\u{1D880}";
 
-    #[Info(id: 120961, name: 'SIGNWRITING HAND-HINGE OPEN NO THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D881, name: 'SIGNWRITING HAND-HINGE OPEN NO THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_OPEN_NO_THUMB = "\u{1D881}";
 
-    #[Info(id: 120962, name: 'SIGNWRITING HAND-HINGE NO THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D882, name: 'SIGNWRITING HAND-HINGE NO THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_NO_THUMB = "\u{1D882}";
 
-    #[Info(id: 120963, name: 'SIGNWRITING HAND-HINGE THUMB SIDE TOUCHING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D883, name: 'SIGNWRITING HAND-HINGE THUMB SIDE TOUCHING INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_THUMB_SIDE_TOUCHING_INDEX = "\u{1D883}";
 
-    #[Info(id: 120964, name: 'SIGNWRITING HAND-HINGE THUMB BETWEEN MIDDLE RING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D884, name: 'SIGNWRITING HAND-HINGE THUMB BETWEEN MIDDLE RING', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_THUMB_BETWEEN_MIDDLE_RING = "\u{1D884}";
 
-    #[Info(id: 120965, name: 'SIGNWRITING HAND-ANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D885, name: 'SIGNWRITING HAND-ANGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE = "\u{1D885}";
 
-    #[Info(id: 120966, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE RING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D886, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE RING', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_RING = "\u{1D886}";
 
-    #[Info(id: 120967, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE RING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D887, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE RING', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_INDEX_MIDDLE_RING = "\u{1D887}";
 
-    #[Info(id: 120968, name: 'SIGNWRITING HAND-HINGE INDEX MIDDLE RING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D888, name: 'SIGNWRITING HAND-HINGE INDEX MIDDLE RING', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_INDEX_MIDDLE_RING = "\u{1D888}";
 
-    #[Info(id: 120969, name: 'SIGNWRITING HAND-ANGLE INDEX MIDDLE RING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D889, name: 'SIGNWRITING HAND-ANGLE INDEX MIDDLE RING', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_INDEX_MIDDLE_RING = "\u{1D889}";
 
-    #[Info(id: 120970, name: 'SIGNWRITING HAND-HINGE LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D88A, name: 'SIGNWRITING HAND-HINGE LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_LITTLE = "\u{1D88A}";
 
-    #[Info(id: 120971, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE RING BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D88B, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE RING BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_RING_BENT = "\u{1D88B}";
 
-    #[Info(id: 120972, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE RING CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D88C, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE RING CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_RING_CONJOINED = "\u{1D88C}";
 
-    #[Info(id: 120973, name: 'SIGNWRITING HAND-HINGE INDEX MIDDLE RING CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D88D, name: 'SIGNWRITING HAND-HINGE INDEX MIDDLE RING CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_INDEX_MIDDLE_RING_CONJOINED = "\u{1D88D}";
 
-    #[Info(id: 120974, name: 'SIGNWRITING HAND-FIST LITTLE DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D88E, name: 'SIGNWRITING HAND-FIST LITTLE DOWN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_LITTLE_DOWN = "\u{1D88E}";
 
-    #[Info(id: 120975, name: 'SIGNWRITING HAND-FIST LITTLE DOWN RIPPLE STRAIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D88F, name: 'SIGNWRITING HAND-FIST LITTLE DOWN RIPPLE STRAIGHT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_LITTLE_DOWN_RIPPLE_STRAIGHT = "\u{1D88F}";
 
-    #[Info(id: 120976, name: 'SIGNWRITING HAND-FIST LITTLE DOWN RIPPLE CURVED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D890, name: 'SIGNWRITING HAND-FIST LITTLE DOWN RIPPLE CURVED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_LITTLE_DOWN_RIPPLE_CURVED = "\u{1D890}";
 
-    #[Info(id: 120977, name: 'SIGNWRITING HAND-FIST LITTLE DOWN OTHERS CIRCLED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D891, name: 'SIGNWRITING HAND-FIST LITTLE DOWN OTHERS CIRCLED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_LITTLE_DOWN_OTHERS_CIRCLED = "\u{1D891}";
 
-    #[Info(id: 120978, name: 'SIGNWRITING HAND-FIST LITTLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D892, name: 'SIGNWRITING HAND-FIST LITTLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_LITTLE_UP = "\u{1D892}";
 
-    #[Info(id: 120979, name: 'SIGNWRITING HAND-FIST THUMB UNDER LITTLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D893, name: 'SIGNWRITING HAND-FIST THUMB UNDER LITTLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_UNDER_LITTLE_UP = "\u{1D893}";
 
-    #[Info(id: 120980, name: 'SIGNWRITING HAND-CIRCLE LITTLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D894, name: 'SIGNWRITING HAND-CIRCLE LITTLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_LITTLE_UP = "\u{1D894}";
 
-    #[Info(id: 120981, name: 'SIGNWRITING HAND-OVAL LITTLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D895, name: 'SIGNWRITING HAND-OVAL LITTLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_OVAL_LITTLE_UP = "\u{1D895}";
 
-    #[Info(id: 120982, name: 'SIGNWRITING HAND-ANGLE LITTLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D896, name: 'SIGNWRITING HAND-ANGLE LITTLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_LITTLE_UP = "\u{1D896}";
 
-    #[Info(id: 120983, name: 'SIGNWRITING HAND-FIST LITTLE RAISED KNUCKLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D897, name: 'SIGNWRITING HAND-FIST LITTLE RAISED KNUCKLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_LITTLE_RAISED_KNUCKLE = "\u{1D897}";
 
-    #[Info(id: 120984, name: 'SIGNWRITING HAND-FIST LITTLE BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D898, name: 'SIGNWRITING HAND-FIST LITTLE BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_LITTLE_BENT = "\u{1D898}";
 
-    #[Info(id: 120985, name: 'SIGNWRITING HAND-FIST LITTLE TOUCHES THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D899, name: 'SIGNWRITING HAND-FIST LITTLE TOUCHES THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_LITTLE_TOUCHES_THUMB = "\u{1D899}";
 
-    #[Info(id: 120986, name: 'SIGNWRITING HAND-FIST LITTLE THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D89A, name: 'SIGNWRITING HAND-FIST LITTLE THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_LITTLE_THUMB = "\u{1D89A}";
 
-    #[Info(id: 120987, name: 'SIGNWRITING HAND-HINGE LITTLE THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D89B, name: 'SIGNWRITING HAND-HINGE LITTLE THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_LITTLE_THUMB = "\u{1D89B}";
 
-    #[Info(id: 120988, name: 'SIGNWRITING HAND-FIST LITTLE INDEX THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D89C, name: 'SIGNWRITING HAND-FIST LITTLE INDEX THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_LITTLE_INDEX_THUMB = "\u{1D89C}";
 
-    #[Info(id: 120989, name: 'SIGNWRITING HAND-HINGE LITTLE INDEX THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D89D, name: 'SIGNWRITING HAND-HINGE LITTLE INDEX THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_LITTLE_INDEX_THUMB = "\u{1D89D}";
 
-    #[Info(id: 120990, name: 'SIGNWRITING HAND-ANGLE LITTLE INDEX THUMB INDEX THUMB OUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D89E, name: 'SIGNWRITING HAND-ANGLE LITTLE INDEX THUMB INDEX THUMB OUT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_LITTLE_INDEX_THUMB_INDEX_THUMB_OUT = "\u{1D89E}";
 
-    #[Info(id: 120991, name: 'SIGNWRITING HAND-ANGLE LITTLE INDEX THUMB INDEX THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D89F, name: 'SIGNWRITING HAND-ANGLE LITTLE INDEX THUMB INDEX THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_LITTLE_INDEX_THUMB_INDEX_THUMB = "\u{1D89F}";
 
-    #[Info(id: 120992, name: 'SIGNWRITING HAND-FIST LITTLE INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8A0, name: 'SIGNWRITING HAND-FIST LITTLE INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_LITTLE_INDEX = "\u{1D8A0}";
 
-    #[Info(id: 120993, name: 'SIGNWRITING HAND-CIRCLE LITTLE INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8A1, name: 'SIGNWRITING HAND-CIRCLE LITTLE INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_LITTLE_INDEX = "\u{1D8A1}";
 
-    #[Info(id: 120994, name: 'SIGNWRITING HAND-HINGE LITTLE INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8A2, name: 'SIGNWRITING HAND-HINGE LITTLE INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_LITTLE_INDEX = "\u{1D8A2}";
 
-    #[Info(id: 120995, name: 'SIGNWRITING HAND-ANGLE LITTLE INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8A3, name: 'SIGNWRITING HAND-ANGLE LITTLE INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_LITTLE_INDEX = "\u{1D8A3}";
 
-    #[Info(id: 120996, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8A4, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_LITTLE = "\u{1D8A4}";
 
-    #[Info(id: 120997, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8A5, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_INDEX_MIDDLE_LITTLE = "\u{1D8A5}";
 
-    #[Info(id: 120998, name: 'SIGNWRITING HAND-HINGE INDEX MIDDLE LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8A6, name: 'SIGNWRITING HAND-HINGE INDEX MIDDLE LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_INDEX_MIDDLE_LITTLE = "\u{1D8A6}";
 
-    #[Info(id: 120999, name: 'SIGNWRITING HAND-HINGE RING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8A7, name: 'SIGNWRITING HAND-HINGE RING', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_RING = "\u{1D8A7}";
 
-    #[Info(id: 121000, name: 'SIGNWRITING HAND-ANGLE INDEX MIDDLE LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8A8, name: 'SIGNWRITING HAND-ANGLE INDEX MIDDLE LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_INDEX_MIDDLE_LITTLE = "\u{1D8A8}";
 
-    #[Info(id: 121001, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CROSS LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8A9, name: 'SIGNWRITING HAND-FIST INDEX MIDDLE CROSS LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_MIDDLE_CROSS_LITTLE = "\u{1D8A9}";
 
-    #[Info(id: 121002, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE CROSS LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8AA, name: 'SIGNWRITING HAND-CIRCLE INDEX MIDDLE CROSS LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_INDEX_MIDDLE_CROSS_LITTLE = "\u{1D8AA}";
 
-    #[Info(id: 121003, name: 'SIGNWRITING HAND-FIST RING DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8AB, name: 'SIGNWRITING HAND-FIST RING DOWN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_RING_DOWN = "\u{1D8AB}";
 
-    #[Info(id: 121004, name: 'SIGNWRITING HAND-HINGE RING DOWN INDEX THUMB HOOK MIDDLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8AC, name: 'SIGNWRITING HAND-HINGE RING DOWN INDEX THUMB HOOK MIDDLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_RING_DOWN_INDEX_THUMB_HOOK_MIDDLE = "\u{1D8AC}";
 
-    #[Info(id: 121005, name: 'SIGNWRITING HAND-ANGLE RING DOWN MIDDLE THUMB INDEX CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8AD, name: 'SIGNWRITING HAND-ANGLE RING DOWN MIDDLE THUMB INDEX CROSS', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_RING_DOWN_MIDDLE_THUMB_INDEX_CROSS = "\u{1D8AD}";
 
-    #[Info(id: 121006, name: 'SIGNWRITING HAND-FIST RING UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8AE, name: 'SIGNWRITING HAND-FIST RING UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_RING_UP = "\u{1D8AE}";
 
-    #[Info(id: 121007, name: 'SIGNWRITING HAND-FIST RING RAISED KNUCKLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8AF, name: 'SIGNWRITING HAND-FIST RING RAISED KNUCKLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_RING_RAISED_KNUCKLE = "\u{1D8AF}";
 
-    #[Info(id: 121008, name: 'SIGNWRITING HAND-FIST RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8B0, name: 'SIGNWRITING HAND-FIST RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_RING_LITTLE = "\u{1D8B0}";
 
-    #[Info(id: 121009, name: 'SIGNWRITING HAND-CIRCLE RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8B1, name: 'SIGNWRITING HAND-CIRCLE RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_RING_LITTLE = "\u{1D8B1}";
 
-    #[Info(id: 121010, name: 'SIGNWRITING HAND-OVAL RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8B2, name: 'SIGNWRITING HAND-OVAL RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_OVAL_RING_LITTLE = "\u{1D8B2}";
 
-    #[Info(id: 121011, name: 'SIGNWRITING HAND-ANGLE RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8B3, name: 'SIGNWRITING HAND-ANGLE RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_RING_LITTLE = "\u{1D8B3}";
 
-    #[Info(id: 121012, name: 'SIGNWRITING HAND-FIST RING MIDDLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8B4, name: 'SIGNWRITING HAND-FIST RING MIDDLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_RING_MIDDLE = "\u{1D8B4}";
 
-    #[Info(id: 121013, name: 'SIGNWRITING HAND-FIST RING MIDDLE CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8B5, name: 'SIGNWRITING HAND-FIST RING MIDDLE CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_RING_MIDDLE_CONJOINED = "\u{1D8B5}";
 
-    #[Info(id: 121014, name: 'SIGNWRITING HAND-FIST RING MIDDLE RAISED KNUCKLES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8B6, name: 'SIGNWRITING HAND-FIST RING MIDDLE RAISED KNUCKLES', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_RING_MIDDLE_RAISED_KNUCKLES = "\u{1D8B6}";
 
-    #[Info(id: 121015, name: 'SIGNWRITING HAND-FIST RING INDEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8B7, name: 'SIGNWRITING HAND-FIST RING INDEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_RING_INDEX = "\u{1D8B7}";
 
-    #[Info(id: 121016, name: 'SIGNWRITING HAND-FIST RING THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8B8, name: 'SIGNWRITING HAND-FIST RING THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_RING_THUMB = "\u{1D8B8}";
 
-    #[Info(id: 121017, name: 'SIGNWRITING HAND-HOOK RING THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8B9, name: 'SIGNWRITING HAND-HOOK RING THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HOOK_RING_THUMB = "\u{1D8B9}";
 
-    #[Info(id: 121018, name: 'SIGNWRITING HAND-FIST INDEX RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8BA, name: 'SIGNWRITING HAND-FIST INDEX RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_RING_LITTLE = "\u{1D8BA}";
 
-    #[Info(id: 121019, name: 'SIGNWRITING HAND-CIRCLE INDEX RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8BB, name: 'SIGNWRITING HAND-CIRCLE INDEX RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_INDEX_RING_LITTLE = "\u{1D8BB}";
 
-    #[Info(id: 121020, name: 'SIGNWRITING HAND-CURLICUE INDEX RING LITTLE ON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8BC, name: 'SIGNWRITING HAND-CURLICUE INDEX RING LITTLE ON', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CURLICUE_INDEX_RING_LITTLE_ON = "\u{1D8BC}";
 
-    #[Info(id: 121021, name: 'SIGNWRITING HAND-HOOK INDEX RING LITTLE OUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8BD, name: 'SIGNWRITING HAND-HOOK INDEX RING LITTLE OUT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HOOK_INDEX_RING_LITTLE_OUT = "\u{1D8BD}";
 
-    #[Info(id: 121022, name: 'SIGNWRITING HAND-HOOK INDEX RING LITTLE IN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8BE, name: 'SIGNWRITING HAND-HOOK INDEX RING LITTLE IN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HOOK_INDEX_RING_LITTLE_IN = "\u{1D8BE}";
 
-    #[Info(id: 121023, name: 'SIGNWRITING HAND-HOOK INDEX RING LITTLE UNDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8BF, name: 'SIGNWRITING HAND-HOOK INDEX RING LITTLE UNDER', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HOOK_INDEX_RING_LITTLE_UNDER = "\u{1D8BF}";
 
-    #[Info(id: 121024, name: 'SIGNWRITING HAND-CUP INDEX RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8C0, name: 'SIGNWRITING HAND-CUP INDEX RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_INDEX_RING_LITTLE = "\u{1D8C0}";
 
-    #[Info(id: 121025, name: 'SIGNWRITING HAND-HINGE INDEX RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8C1, name: 'SIGNWRITING HAND-HINGE INDEX RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_INDEX_RING_LITTLE = "\u{1D8C1}";
 
-    #[Info(id: 121026, name: 'SIGNWRITING HAND-ANGLE INDEX RING LITTLE OUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8C2, name: 'SIGNWRITING HAND-ANGLE INDEX RING LITTLE OUT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_INDEX_RING_LITTLE_OUT = "\u{1D8C2}";
 
-    #[Info(id: 121027, name: 'SIGNWRITING HAND-ANGLE INDEX RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8C3, name: 'SIGNWRITING HAND-ANGLE INDEX RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_INDEX_RING_LITTLE = "\u{1D8C3}";
 
-    #[Info(id: 121028, name: 'SIGNWRITING HAND-FIST MIDDLE DOWN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8C4, name: 'SIGNWRITING HAND-FIST MIDDLE DOWN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_DOWN = "\u{1D8C4}";
 
-    #[Info(id: 121029, name: 'SIGNWRITING HAND-HINGE MIDDLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8C5, name: 'SIGNWRITING HAND-HINGE MIDDLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_MIDDLE = "\u{1D8C5}";
 
-    #[Info(id: 121030, name: 'SIGNWRITING HAND-FIST MIDDLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8C6, name: 'SIGNWRITING HAND-FIST MIDDLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_UP = "\u{1D8C6}";
 
-    #[Info(id: 121031, name: 'SIGNWRITING HAND-CIRCLE MIDDLE UP', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8C7, name: 'SIGNWRITING HAND-CIRCLE MIDDLE UP', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_MIDDLE_UP = "\u{1D8C7}";
 
-    #[Info(id: 121032, name: 'SIGNWRITING HAND-FIST MIDDLE RAISED KNUCKLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8C8, name: 'SIGNWRITING HAND-FIST MIDDLE RAISED KNUCKLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_RAISED_KNUCKLE = "\u{1D8C8}";
 
-    #[Info(id: 121033, name: 'SIGNWRITING HAND-FIST MIDDLE UP THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8C9, name: 'SIGNWRITING HAND-FIST MIDDLE UP THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_UP_THUMB_SIDE = "\u{1D8C9}";
 
-    #[Info(id: 121034, name: 'SIGNWRITING HAND-HOOK MIDDLE THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8CA, name: 'SIGNWRITING HAND-HOOK MIDDLE THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HOOK_MIDDLE_THUMB = "\u{1D8CA}";
 
-    #[Info(id: 121035, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8CB, name: 'SIGNWRITING HAND-FIST MIDDLE THUMB LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_THUMB_LITTLE = "\u{1D8CB}";
 
-    #[Info(id: 121036, name: 'SIGNWRITING HAND-FIST MIDDLE LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8CC, name: 'SIGNWRITING HAND-FIST MIDDLE LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_LITTLE = "\u{1D8CC}";
 
-    #[Info(id: 121037, name: 'SIGNWRITING HAND-FIST MIDDLE RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8CD, name: 'SIGNWRITING HAND-FIST MIDDLE RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_MIDDLE_RING_LITTLE = "\u{1D8CD}";
 
-    #[Info(id: 121038, name: 'SIGNWRITING HAND-CIRCLE MIDDLE RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8CE, name: 'SIGNWRITING HAND-CIRCLE MIDDLE RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_MIDDLE_RING_LITTLE = "\u{1D8CE}";
 
-    #[Info(id: 121039, name: 'SIGNWRITING HAND-CURLICUE MIDDLE RING LITTLE ON', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8CF, name: 'SIGNWRITING HAND-CURLICUE MIDDLE RING LITTLE ON', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CURLICUE_MIDDLE_RING_LITTLE_ON = "\u{1D8CF}";
 
-    #[Info(id: 121040, name: 'SIGNWRITING HAND-CUP MIDDLE RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8D0, name: 'SIGNWRITING HAND-CUP MIDDLE RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_MIDDLE_RING_LITTLE = "\u{1D8D0}";
 
-    #[Info(id: 121041, name: 'SIGNWRITING HAND-HINGE MIDDLE RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8D1, name: 'SIGNWRITING HAND-HINGE MIDDLE RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_MIDDLE_RING_LITTLE = "\u{1D8D1}";
 
-    #[Info(id: 121042, name: 'SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE OUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8D2, name: 'SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE OUT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_MIDDLE_RING_LITTLE_OUT = "\u{1D8D2}";
 
-    #[Info(id: 121043, name: 'SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE IN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8D3, name: 'SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE IN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_MIDDLE_RING_LITTLE_IN = "\u{1D8D3}";
 
-    #[Info(id: 121044, name: 'SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8D4, name: 'SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_MIDDLE_RING_LITTLE = "\u{1D8D4}";
 
-    #[Info(id: 121045, name: 'SIGNWRITING HAND-CIRCLE MIDDLE RING LITTLE BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8D5, name: 'SIGNWRITING HAND-CIRCLE MIDDLE RING LITTLE BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CIRCLE_MIDDLE_RING_LITTLE_BENT = "\u{1D8D5}";
 
-    #[Info(id: 121046, name: 'SIGNWRITING HAND-CLAW MIDDLE RING LITTLE CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8D6, name: 'SIGNWRITING HAND-CLAW MIDDLE RING LITTLE CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CLAW_MIDDLE_RING_LITTLE_CONJOINED = "\u{1D8D6}";
 
-    #[Info(id: 121047, name: 'SIGNWRITING HAND-CLAW MIDDLE RING LITTLE CONJOINED SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8D7, name: 'SIGNWRITING HAND-CLAW MIDDLE RING LITTLE CONJOINED SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CLAW_MIDDLE_RING_LITTLE_CONJOINED_SIDE = "\u{1D8D7}";
 
-    #[Info(id: 121048, name: 'SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED OUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8D8, name: 'SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED OUT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HOOK_MIDDLE_RING_LITTLE_CONJOINED_OUT = "\u{1D8D8}";
 
-    #[Info(id: 121049, name: 'SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED IN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8D9, name: 'SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED IN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HOOK_MIDDLE_RING_LITTLE_CONJOINED_IN = "\u{1D8D9}";
 
-    #[Info(id: 121050, name: 'SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8DA, name: 'SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HOOK_MIDDLE_RING_LITTLE_CONJOINED = "\u{1D8DA}";
 
-    #[Info(id: 121051, name: 'SIGNWRITING HAND-HINGE INDEX HINGED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8DB, name: 'SIGNWRITING HAND-HINGE INDEX HINGED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_INDEX_HINGED = "\u{1D8DB}";
 
-    #[Info(id: 121052, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8DC, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_SIDE = "\u{1D8DC}";
 
-    #[Info(id: 121053, name: 'SIGNWRITING HAND-HINGE INDEX THUMB SIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8DD, name: 'SIGNWRITING HAND-HINGE INDEX THUMB SIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_INDEX_THUMB_SIDE = "\u{1D8DD}";
 
-    #[Info(id: 121054, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB DIAGONAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8DE, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB DIAGONAL', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_SIDE_THUMB_DIAGONAL = "\u{1D8DE}";
 
-    #[Info(id: 121055, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8DF, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_SIDE_THUMB_CONJOINED = "\u{1D8DF}";
 
-    #[Info(id: 121056, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8E0, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_SIDE_THUMB_BENT = "\u{1D8E0}";
 
-    #[Info(id: 121057, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE INDEX BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8E1, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE INDEX BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_SIDE_INDEX_BENT = "\u{1D8E1}";
 
-    #[Info(id: 121058, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE BOTH BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8E2, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE BOTH BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_SIDE_BOTH_BENT = "\u{1D8E2}";
 
-    #[Info(id: 121059, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE INDEX HINGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8E3, name: 'SIGNWRITING HAND-FIST INDEX THUMB SIDE INDEX HINGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_SIDE_INDEX_HINGE = "\u{1D8E3}";
 
-    #[Info(id: 121060, name: 'SIGNWRITING HAND-FIST INDEX THUMB FORWARD INDEX STRAIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8E4, name: 'SIGNWRITING HAND-FIST INDEX THUMB FORWARD INDEX STRAIGHT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_FORWARD_INDEX_STRAIGHT = "\u{1D8E4}";
 
-    #[Info(id: 121061, name: 'SIGNWRITING HAND-FIST INDEX THUMB FORWARD INDEX BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8E5, name: 'SIGNWRITING HAND-FIST INDEX THUMB FORWARD INDEX BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_FORWARD_INDEX_BENT = "\u{1D8E5}";
 
-    #[Info(id: 121062, name: 'SIGNWRITING HAND-FIST INDEX THUMB HOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8E6, name: 'SIGNWRITING HAND-FIST INDEX THUMB HOOK', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_HOOK = "\u{1D8E6}";
 
-    #[Info(id: 121063, name: 'SIGNWRITING HAND-FIST INDEX THUMB CURLICUE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8E7, name: 'SIGNWRITING HAND-FIST INDEX THUMB CURLICUE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_CURLICUE = "\u{1D8E7}";
 
-    #[Info(id: 121064, name: 'SIGNWRITING HAND-FIST INDEX THUMB CURVE THUMB INSIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8E8, name: 'SIGNWRITING HAND-FIST INDEX THUMB CURVE THUMB INSIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_CURVE_THUMB_INSIDE = "\u{1D8E8}";
 
-    #[Info(id: 121065, name: 'SIGNWRITING HAND-CLAW INDEX THUMB CURVE THUMB INSIDE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8E9, name: 'SIGNWRITING HAND-CLAW INDEX THUMB CURVE THUMB INSIDE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CLAW_INDEX_THUMB_CURVE_THUMB_INSIDE = "\u{1D8E9}";
 
-    #[Info(id: 121066, name: 'SIGNWRITING HAND-FIST INDEX THUMB CURVE THUMB UNDER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8EA, name: 'SIGNWRITING HAND-FIST INDEX THUMB CURVE THUMB UNDER', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_CURVE_THUMB_UNDER = "\u{1D8EA}";
 
-    #[Info(id: 121067, name: 'SIGNWRITING HAND-FIST INDEX THUMB CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8EB, name: 'SIGNWRITING HAND-FIST INDEX THUMB CIRCLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_INDEX_THUMB_CIRCLE = "\u{1D8EB}";
 
-    #[Info(id: 121068, name: 'SIGNWRITING HAND-CUP INDEX THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8EC, name: 'SIGNWRITING HAND-CUP INDEX THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_INDEX_THUMB = "\u{1D8EC}";
 
-    #[Info(id: 121069, name: 'SIGNWRITING HAND-CUP INDEX THUMB OPEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8ED, name: 'SIGNWRITING HAND-CUP INDEX THUMB OPEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_CUP_INDEX_THUMB_OPEN = "\u{1D8ED}";
 
-    #[Info(id: 121070, name: 'SIGNWRITING HAND-HINGE INDEX THUMB OPEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8EE, name: 'SIGNWRITING HAND-HINGE INDEX THUMB OPEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_INDEX_THUMB_OPEN = "\u{1D8EE}";
 
-    #[Info(id: 121071, name: 'SIGNWRITING HAND-HINGE INDEX THUMB LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8EF, name: 'SIGNWRITING HAND-HINGE INDEX THUMB LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_INDEX_THUMB_LARGE = "\u{1D8EF}";
 
-    #[Info(id: 121072, name: 'SIGNWRITING HAND-HINGE INDEX THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8F0, name: 'SIGNWRITING HAND-HINGE INDEX THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_INDEX_THUMB = "\u{1D8F0}";
 
-    #[Info(id: 121073, name: 'SIGNWRITING HAND-HINGE INDEX THUMB SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8F1, name: 'SIGNWRITING HAND-HINGE INDEX THUMB SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_HINGE_INDEX_THUMB_SMALL = "\u{1D8F1}";
 
-    #[Info(id: 121074, name: 'SIGNWRITING HAND-ANGLE INDEX THUMB OUT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8F2, name: 'SIGNWRITING HAND-ANGLE INDEX THUMB OUT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_INDEX_THUMB_OUT = "\u{1D8F2}";
 
-    #[Info(id: 121075, name: 'SIGNWRITING HAND-ANGLE INDEX THUMB IN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8F3, name: 'SIGNWRITING HAND-ANGLE INDEX THUMB IN', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_INDEX_THUMB_IN = "\u{1D8F3}";
 
-    #[Info(id: 121076, name: 'SIGNWRITING HAND-ANGLE INDEX THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8F4, name: 'SIGNWRITING HAND-ANGLE INDEX THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_ANGLE_INDEX_THUMB = "\u{1D8F4}";
 
-    #[Info(id: 121077, name: 'SIGNWRITING HAND-FIST THUMB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8F5, name: 'SIGNWRITING HAND-FIST THUMB', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB = "\u{1D8F5}";
 
-    #[Info(id: 121078, name: 'SIGNWRITING HAND-FIST THUMB HEEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8F6, name: 'SIGNWRITING HAND-FIST THUMB HEEL', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_HEEL = "\u{1D8F6}";
 
-    #[Info(id: 121079, name: 'SIGNWRITING HAND-FIST THUMB SIDE DIAGONAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8F7, name: 'SIGNWRITING HAND-FIST THUMB SIDE DIAGONAL', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_SIDE_DIAGONAL = "\u{1D8F7}";
 
-    #[Info(id: 121080, name: 'SIGNWRITING HAND-FIST THUMB SIDE CONJOINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8F8, name: 'SIGNWRITING HAND-FIST THUMB SIDE CONJOINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_SIDE_CONJOINED = "\u{1D8F8}";
 
-    #[Info(id: 121081, name: 'SIGNWRITING HAND-FIST THUMB SIDE BENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8F9, name: 'SIGNWRITING HAND-FIST THUMB SIDE BENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_SIDE_BENT = "\u{1D8F9}";
 
-    #[Info(id: 121082, name: 'SIGNWRITING HAND-FIST THUMB FORWARD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8FA, name: 'SIGNWRITING HAND-FIST THUMB FORWARD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_FORWARD = "\u{1D8FA}";
 
-    #[Info(id: 121083, name: 'SIGNWRITING HAND-FIST THUMB BETWEEN INDEX MIDDLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8FB, name: 'SIGNWRITING HAND-FIST THUMB BETWEEN INDEX MIDDLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_BETWEEN_INDEX_MIDDLE = "\u{1D8FB}";
 
-    #[Info(id: 121084, name: 'SIGNWRITING HAND-FIST THUMB BETWEEN MIDDLE RING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8FC, name: 'SIGNWRITING HAND-FIST THUMB BETWEEN MIDDLE RING', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_BETWEEN_MIDDLE_RING = "\u{1D8FC}";
 
-    #[Info(id: 121085, name: 'SIGNWRITING HAND-FIST THUMB BETWEEN RING LITTLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8FD, name: 'SIGNWRITING HAND-FIST THUMB BETWEEN RING LITTLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_BETWEEN_RING_LITTLE = "\u{1D8FD}";
 
-    #[Info(id: 121086, name: 'SIGNWRITING HAND-FIST THUMB UNDER TWO FINGERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8FE, name: 'SIGNWRITING HAND-FIST THUMB UNDER TWO FINGERS', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_UNDER_TWO_FINGERS = "\u{1D8FE}";
 
-    #[Info(id: 121087, name: 'SIGNWRITING HAND-FIST THUMB OVER TWO FINGERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D8FF, name: 'SIGNWRITING HAND-FIST THUMB OVER TWO FINGERS', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_OVER_TWO_FINGERS = "\u{1D8FF}";
 
-    #[Info(id: 121088, name: 'SIGNWRITING HAND-FIST THUMB UNDER THREE FINGERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D900, name: 'SIGNWRITING HAND-FIST THUMB UNDER THREE FINGERS', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_UNDER_THREE_FINGERS = "\u{1D900}";
 
-    #[Info(id: 121089, name: 'SIGNWRITING HAND-FIST THUMB UNDER FOUR FINGERS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D901, name: 'SIGNWRITING HAND-FIST THUMB UNDER FOUR FINGERS', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_UNDER_FOUR_FINGERS = "\u{1D901}";
 
-    #[Info(id: 121090, name: 'SIGNWRITING HAND-FIST THUMB OVER FOUR RAISED KNUCKLES', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D902, name: 'SIGNWRITING HAND-FIST THUMB OVER FOUR RAISED KNUCKLES', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_THUMB_OVER_FOUR_RAISED_KNUCKLES = "\u{1D902}";
 
-    #[Info(id: 121091, name: 'SIGNWRITING HAND-FIST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D903, name: 'SIGNWRITING HAND-FIST', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST = "\u{1D903}";
 
-    #[Info(id: 121092, name: 'SIGNWRITING HAND-FIST HEEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D904, name: 'SIGNWRITING HAND-FIST HEEL', category: Cat::Other_Symbol)]
     case SIGNWRITING_HAND_FIST_HEEL = "\u{1D904}";
 
-    #[Info(id: 121093, name: 'SIGNWRITING TOUCH SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D905, name: 'SIGNWRITING TOUCH SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TOUCH_SINGLE = "\u{1D905}";
 
-    #[Info(id: 121094, name: 'SIGNWRITING TOUCH MULTIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D906, name: 'SIGNWRITING TOUCH MULTIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TOUCH_MULTIPLE = "\u{1D906}";
 
-    #[Info(id: 121095, name: 'SIGNWRITING TOUCH BETWEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D907, name: 'SIGNWRITING TOUCH BETWEEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_TOUCH_BETWEEN = "\u{1D907}";
 
-    #[Info(id: 121096, name: 'SIGNWRITING GRASP SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D908, name: 'SIGNWRITING GRASP SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_GRASP_SINGLE = "\u{1D908}";
 
-    #[Info(id: 121097, name: 'SIGNWRITING GRASP MULTIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D909, name: 'SIGNWRITING GRASP MULTIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_GRASP_MULTIPLE = "\u{1D909}";
 
-    #[Info(id: 121098, name: 'SIGNWRITING GRASP BETWEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D90A, name: 'SIGNWRITING GRASP BETWEEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_GRASP_BETWEEN = "\u{1D90A}";
 
-    #[Info(id: 121099, name: 'SIGNWRITING STRIKE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D90B, name: 'SIGNWRITING STRIKE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_STRIKE_SINGLE = "\u{1D90B}";
 
-    #[Info(id: 121100, name: 'SIGNWRITING STRIKE MULTIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D90C, name: 'SIGNWRITING STRIKE MULTIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_STRIKE_MULTIPLE = "\u{1D90C}";
 
-    #[Info(id: 121101, name: 'SIGNWRITING STRIKE BETWEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D90D, name: 'SIGNWRITING STRIKE BETWEEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_STRIKE_BETWEEN = "\u{1D90D}";
 
-    #[Info(id: 121102, name: 'SIGNWRITING BRUSH SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D90E, name: 'SIGNWRITING BRUSH SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_BRUSH_SINGLE = "\u{1D90E}";
 
-    #[Info(id: 121103, name: 'SIGNWRITING BRUSH MULTIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D90F, name: 'SIGNWRITING BRUSH MULTIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_BRUSH_MULTIPLE = "\u{1D90F}";
 
-    #[Info(id: 121104, name: 'SIGNWRITING BRUSH BETWEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D910, name: 'SIGNWRITING BRUSH BETWEEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_BRUSH_BETWEEN = "\u{1D910}";
 
-    #[Info(id: 121105, name: 'SIGNWRITING RUB SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D911, name: 'SIGNWRITING RUB SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_RUB_SINGLE = "\u{1D911}";
 
-    #[Info(id: 121106, name: 'SIGNWRITING RUB MULTIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D912, name: 'SIGNWRITING RUB MULTIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_RUB_MULTIPLE = "\u{1D912}";
 
-    #[Info(id: 121107, name: 'SIGNWRITING RUB BETWEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D913, name: 'SIGNWRITING RUB BETWEEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_RUB_BETWEEN = "\u{1D913}";
 
-    #[Info(id: 121108, name: 'SIGNWRITING SURFACE SYMBOLS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D914, name: 'SIGNWRITING SURFACE SYMBOLS', category: Cat::Other_Symbol)]
     case SIGNWRITING_SURFACE_SYMBOLS = "\u{1D914}";
 
-    #[Info(id: 121109, name: 'SIGNWRITING SURFACE BETWEEN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D915, name: 'SIGNWRITING SURFACE BETWEEN', category: Cat::Other_Symbol)]
     case SIGNWRITING_SURFACE_BETWEEN = "\u{1D915}";
 
-    #[Info(id: 121110, name: 'SIGNWRITING SQUEEZE LARGE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D916, name: 'SIGNWRITING SQUEEZE LARGE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_SQUEEZE_LARGE_SINGLE = "\u{1D916}";
 
-    #[Info(id: 121111, name: 'SIGNWRITING SQUEEZE SMALL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D917, name: 'SIGNWRITING SQUEEZE SMALL SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_SQUEEZE_SMALL_SINGLE = "\u{1D917}";
 
-    #[Info(id: 121112, name: 'SIGNWRITING SQUEEZE LARGE MULTIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D918, name: 'SIGNWRITING SQUEEZE LARGE MULTIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_SQUEEZE_LARGE_MULTIPLE = "\u{1D918}";
 
-    #[Info(id: 121113, name: 'SIGNWRITING SQUEEZE SMALL MULTIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D919, name: 'SIGNWRITING SQUEEZE SMALL MULTIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_SQUEEZE_SMALL_MULTIPLE = "\u{1D919}";
 
-    #[Info(id: 121114, name: 'SIGNWRITING SQUEEZE SEQUENTIAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D91A, name: 'SIGNWRITING SQUEEZE SEQUENTIAL', category: Cat::Other_Symbol)]
     case SIGNWRITING_SQUEEZE_SEQUENTIAL = "\u{1D91A}";
 
-    #[Info(id: 121115, name: 'SIGNWRITING FLICK LARGE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D91B, name: 'SIGNWRITING FLICK LARGE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_FLICK_LARGE_SINGLE = "\u{1D91B}";
 
-    #[Info(id: 121116, name: 'SIGNWRITING FLICK SMALL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D91C, name: 'SIGNWRITING FLICK SMALL SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_FLICK_SMALL_SINGLE = "\u{1D91C}";
 
-    #[Info(id: 121117, name: 'SIGNWRITING FLICK LARGE MULTIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D91D, name: 'SIGNWRITING FLICK LARGE MULTIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_FLICK_LARGE_MULTIPLE = "\u{1D91D}";
 
-    #[Info(id: 121118, name: 'SIGNWRITING FLICK SMALL MULTIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D91E, name: 'SIGNWRITING FLICK SMALL MULTIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_FLICK_SMALL_MULTIPLE = "\u{1D91E}";
 
-    #[Info(id: 121119, name: 'SIGNWRITING FLICK SEQUENTIAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D91F, name: 'SIGNWRITING FLICK SEQUENTIAL', category: Cat::Other_Symbol)]
     case SIGNWRITING_FLICK_SEQUENTIAL = "\u{1D91F}";
 
-    #[Info(id: 121120, name: 'SIGNWRITING SQUEEZE FLICK ALTERNATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D920, name: 'SIGNWRITING SQUEEZE FLICK ALTERNATING', category: Cat::Other_Symbol)]
     case SIGNWRITING_SQUEEZE_FLICK_ALTERNATING = "\u{1D920}";
 
-    #[Info(id: 121121, name: 'SIGNWRITING MOVEMENT-HINGE UP DOWN LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D921, name: 'SIGNWRITING MOVEMENT-HINGE UP DOWN LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_HINGE_UP_DOWN_LARGE = "\u{1D921}";
 
-    #[Info(id: 121122, name: 'SIGNWRITING MOVEMENT-HINGE UP DOWN SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D922, name: 'SIGNWRITING MOVEMENT-HINGE UP DOWN SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_HINGE_UP_DOWN_SMALL = "\u{1D922}";
 
-    #[Info(id: 121123, name: 'SIGNWRITING MOVEMENT-HINGE UP SEQUENTIAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D923, name: 'SIGNWRITING MOVEMENT-HINGE UP SEQUENTIAL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_HINGE_UP_SEQUENTIAL = "\u{1D923}";
 
-    #[Info(id: 121124, name: 'SIGNWRITING MOVEMENT-HINGE DOWN SEQUENTIAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D924, name: 'SIGNWRITING MOVEMENT-HINGE DOWN SEQUENTIAL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_HINGE_DOWN_SEQUENTIAL = "\u{1D924}";
 
-    #[Info(id: 121125, name: 'SIGNWRITING MOVEMENT-HINGE UP DOWN ALTERNATING LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D925, name: 'SIGNWRITING MOVEMENT-HINGE UP DOWN ALTERNATING LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_HINGE_UP_DOWN_ALTERNATING_LARGE = "\u{1D925}";
 
-    #[Info(id: 121126, name: 'SIGNWRITING MOVEMENT-HINGE UP DOWN ALTERNATING SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D926, name: 'SIGNWRITING MOVEMENT-HINGE UP DOWN ALTERNATING SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_HINGE_UP_DOWN_ALTERNATING_SMALL = "\u{1D926}";
 
-    #[Info(id: 121127, name: 'SIGNWRITING MOVEMENT-HINGE SIDE TO SIDE SCISSORS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D927, name: 'SIGNWRITING MOVEMENT-HINGE SIDE TO SIDE SCISSORS', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_HINGE_SIDE_TO_SIDE_SCISSORS = "\u{1D927}";
 
-    #[Info(id: 121128, name: 'SIGNWRITING MOVEMENT-WALLPLANE FINGER CONTACT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D928, name: 'SIGNWRITING MOVEMENT-WALLPLANE FINGER CONTACT', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_FINGER_CONTACT = "\u{1D928}";
 
-    #[Info(id: 121129, name: 'SIGNWRITING MOVEMENT-FLOORPLANE FINGER CONTACT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D929, name: 'SIGNWRITING MOVEMENT-FLOORPLANE FINGER CONTACT', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_FINGER_CONTACT = "\u{1D929}";
 
-    #[Info(id: 121130, name: 'SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D92A, name: 'SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_SINGLE_STRAIGHT_SMALL = "\u{1D92A}";
 
-    #[Info(id: 121131, name: 'SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D92B, name: 'SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_SINGLE_STRAIGHT_MEDIUM = "\u{1D92B}";
 
-    #[Info(id: 121132, name: 'SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D92C, name: 'SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_SINGLE_STRAIGHT_LARGE = "\u{1D92C}";
 
-    #[Info(id: 121133, name: 'SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT LARGEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D92D, name: 'SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT LARGEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_SINGLE_STRAIGHT_LARGEST = "\u{1D92D}";
 
-    #[Info(id: 121134, name: 'SIGNWRITING MOVEMENT-WALLPLANE SINGLE WRIST FLEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D92E, name: 'SIGNWRITING MOVEMENT-WALLPLANE SINGLE WRIST FLEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_SINGLE_WRIST_FLEX = "\u{1D92E}";
 
-    #[Info(id: 121135, name: 'SIGNWRITING MOVEMENT-WALLPLANE DOUBLE STRAIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D92F, name: 'SIGNWRITING MOVEMENT-WALLPLANE DOUBLE STRAIGHT', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_DOUBLE_STRAIGHT = "\u{1D92F}";
 
-    #[Info(id: 121136, name: 'SIGNWRITING MOVEMENT-WALLPLANE DOUBLE WRIST FLEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D930, name: 'SIGNWRITING MOVEMENT-WALLPLANE DOUBLE WRIST FLEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_DOUBLE_WRIST_FLEX = "\u{1D930}";
 
-    #[Info(id: 121137, name: 'SIGNWRITING MOVEMENT-WALLPLANE DOUBLE ALTERNATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D931, name: 'SIGNWRITING MOVEMENT-WALLPLANE DOUBLE ALTERNATING', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_DOUBLE_ALTERNATING = "\u{1D931}";
 
-    #[Info(id: 121138, name: 'SIGNWRITING MOVEMENT-WALLPLANE DOUBLE ALTERNATING WRIST FLEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D932, name: 'SIGNWRITING MOVEMENT-WALLPLANE DOUBLE ALTERNATING WRIST FLEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_DOUBLE_ALTERNATING_WRIST_FLEX = "\u{1D932}";
 
-    #[Info(id: 121139, name: 'SIGNWRITING MOVEMENT-WALLPLANE CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D933, name: 'SIGNWRITING MOVEMENT-WALLPLANE CROSS', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CROSS = "\u{1D933}";
 
-    #[Info(id: 121140, name: 'SIGNWRITING MOVEMENT-WALLPLANE TRIPLE STRAIGHT MOVEMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D934, name: 'SIGNWRITING MOVEMENT-WALLPLANE TRIPLE STRAIGHT MOVEMENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_TRIPLE_STRAIGHT_MOVEMENT = "\u{1D934}";
 
-    #[Info(id: 121141, name: 'SIGNWRITING MOVEMENT-WALLPLANE TRIPLE WRIST FLEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D935, name: 'SIGNWRITING MOVEMENT-WALLPLANE TRIPLE WRIST FLEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_TRIPLE_WRIST_FLEX = "\u{1D935}";
 
-    #[Info(id: 121142, name: 'SIGNWRITING MOVEMENT-WALLPLANE TRIPLE ALTERNATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D936, name: 'SIGNWRITING MOVEMENT-WALLPLANE TRIPLE ALTERNATING', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_TRIPLE_ALTERNATING = "\u{1D936}";
 
-    #[Info(id: 121143, name: 'SIGNWRITING MOVEMENT-WALLPLANE TRIPLE ALTERNATING WRIST FLEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D937, name: 'SIGNWRITING MOVEMENT-WALLPLANE TRIPLE ALTERNATING WRIST FLEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_TRIPLE_ALTERNATING_WRIST_FLEX = "\u{1D937}";
 
-    #[Info(id: 121144, name: 'SIGNWRITING MOVEMENT-WALLPLANE BEND SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D938, name: 'SIGNWRITING MOVEMENT-WALLPLANE BEND SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_BEND_SMALL = "\u{1D938}";
 
-    #[Info(id: 121145, name: 'SIGNWRITING MOVEMENT-WALLPLANE BEND MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D939, name: 'SIGNWRITING MOVEMENT-WALLPLANE BEND MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_BEND_MEDIUM = "\u{1D939}";
 
-    #[Info(id: 121146, name: 'SIGNWRITING MOVEMENT-WALLPLANE BEND LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D93A, name: 'SIGNWRITING MOVEMENT-WALLPLANE BEND LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_BEND_LARGE = "\u{1D93A}";
 
-    #[Info(id: 121147, name: 'SIGNWRITING MOVEMENT-WALLPLANE CORNER SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D93B, name: 'SIGNWRITING MOVEMENT-WALLPLANE CORNER SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CORNER_SMALL = "\u{1D93B}";
 
-    #[Info(id: 121148, name: 'SIGNWRITING MOVEMENT-WALLPLANE CORNER MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D93C, name: 'SIGNWRITING MOVEMENT-WALLPLANE CORNER MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CORNER_MEDIUM = "\u{1D93C}";
 
-    #[Info(id: 121149, name: 'SIGNWRITING MOVEMENT-WALLPLANE CORNER LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D93D, name: 'SIGNWRITING MOVEMENT-WALLPLANE CORNER LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CORNER_LARGE = "\u{1D93D}";
 
-    #[Info(id: 121150, name: 'SIGNWRITING MOVEMENT-WALLPLANE CORNER ROTATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D93E, name: 'SIGNWRITING MOVEMENT-WALLPLANE CORNER ROTATION', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CORNER_ROTATION = "\u{1D93E}";
 
-    #[Info(id: 121151, name: 'SIGNWRITING MOVEMENT-WALLPLANE CHECK SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D93F, name: 'SIGNWRITING MOVEMENT-WALLPLANE CHECK SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CHECK_SMALL = "\u{1D93F}";
 
-    #[Info(id: 121152, name: 'SIGNWRITING MOVEMENT-WALLPLANE CHECK MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D940, name: 'SIGNWRITING MOVEMENT-WALLPLANE CHECK MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CHECK_MEDIUM = "\u{1D940}";
 
-    #[Info(id: 121153, name: 'SIGNWRITING MOVEMENT-WALLPLANE CHECK LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D941, name: 'SIGNWRITING MOVEMENT-WALLPLANE CHECK LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CHECK_LARGE = "\u{1D941}";
 
-    #[Info(id: 121154, name: 'SIGNWRITING MOVEMENT-WALLPLANE BOX SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D942, name: 'SIGNWRITING MOVEMENT-WALLPLANE BOX SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_BOX_SMALL = "\u{1D942}";
 
-    #[Info(id: 121155, name: 'SIGNWRITING MOVEMENT-WALLPLANE BOX MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D943, name: 'SIGNWRITING MOVEMENT-WALLPLANE BOX MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_BOX_MEDIUM = "\u{1D943}";
 
-    #[Info(id: 121156, name: 'SIGNWRITING MOVEMENT-WALLPLANE BOX LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D944, name: 'SIGNWRITING MOVEMENT-WALLPLANE BOX LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_BOX_LARGE = "\u{1D944}";
 
-    #[Info(id: 121157, name: 'SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D945, name: 'SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_ZIGZAG_SMALL = "\u{1D945}";
 
-    #[Info(id: 121158, name: 'SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D946, name: 'SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_ZIGZAG_MEDIUM = "\u{1D946}";
 
-    #[Info(id: 121159, name: 'SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D947, name: 'SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_ZIGZAG_LARGE = "\u{1D947}";
 
-    #[Info(id: 121160, name: 'SIGNWRITING MOVEMENT-WALLPLANE PEAKS SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D948, name: 'SIGNWRITING MOVEMENT-WALLPLANE PEAKS SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_PEAKS_SMALL = "\u{1D948}";
 
-    #[Info(id: 121161, name: 'SIGNWRITING MOVEMENT-WALLPLANE PEAKS MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D949, name: 'SIGNWRITING MOVEMENT-WALLPLANE PEAKS MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_PEAKS_MEDIUM = "\u{1D949}";
 
-    #[Info(id: 121162, name: 'SIGNWRITING MOVEMENT-WALLPLANE PEAKS LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D94A, name: 'SIGNWRITING MOVEMENT-WALLPLANE PEAKS LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_PEAKS_LARGE = "\u{1D94A}";
 
-    #[Info(id: 121163, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D94B, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_WALLPLANE_ROTATION_WALLPLANE_SINGLE = "\u{1D94B}";
 
-    #[Info(id: 121164, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D94C, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_WALLPLANE_ROTATION_WALLPLANE_DOUBLE = "\u{1D94C}";
 
-    #[Info(id: 121165, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE ALTERNATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D94D, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE ALTERNATING', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_WALLPLANE_ROTATION_WALLPLANE_ALTERNATING = "\u{1D94D}";
 
-    #[Info(id: 121166, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D94E, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_WALLPLANE_ROTATION_FLOORPLANE_SINGLE = "\u{1D94E}";
 
-    #[Info(id: 121167, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D94F, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_WALLPLANE_ROTATION_FLOORPLANE_DOUBLE = "\u{1D94F}";
 
-    #[Info(id: 121168, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE ALTERNATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D950, name: 'SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE ALTERNATING', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_WALLPLANE_ROTATION_FLOORPLANE_ALTERNATING = "\u{1D950}";
 
-    #[Info(id: 121169, name: 'SIGNWRITING TRAVEL-WALLPLANE SHAKING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D951, name: 'SIGNWRITING TRAVEL-WALLPLANE SHAKING', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_WALLPLANE_SHAKING = "\u{1D951}";
 
-    #[Info(id: 121170, name: 'SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D952, name: 'SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_WALLPLANE_ARM_SPIRAL_SINGLE = "\u{1D952}";
 
-    #[Info(id: 121171, name: 'SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D953, name: 'SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_WALLPLANE_ARM_SPIRAL_DOUBLE = "\u{1D953}";
 
-    #[Info(id: 121172, name: 'SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL TRIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D954, name: 'SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL TRIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_WALLPLANE_ARM_SPIRAL_TRIPLE = "\u{1D954}";
 
-    #[Info(id: 121173, name: 'SIGNWRITING MOVEMENT-DIAGONAL AWAY SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D955, name: 'SIGNWRITING MOVEMENT-DIAGONAL AWAY SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_AWAY_SMALL = "\u{1D955}";
 
-    #[Info(id: 121174, name: 'SIGNWRITING MOVEMENT-DIAGONAL AWAY MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D956, name: 'SIGNWRITING MOVEMENT-DIAGONAL AWAY MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_AWAY_MEDIUM = "\u{1D956}";
 
-    #[Info(id: 121175, name: 'SIGNWRITING MOVEMENT-DIAGONAL AWAY LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D957, name: 'SIGNWRITING MOVEMENT-DIAGONAL AWAY LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_AWAY_LARGE = "\u{1D957}";
 
-    #[Info(id: 121176, name: 'SIGNWRITING MOVEMENT-DIAGONAL AWAY LARGEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D958, name: 'SIGNWRITING MOVEMENT-DIAGONAL AWAY LARGEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_AWAY_LARGEST = "\u{1D958}";
 
-    #[Info(id: 121177, name: 'SIGNWRITING MOVEMENT-DIAGONAL TOWARDS SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D959, name: 'SIGNWRITING MOVEMENT-DIAGONAL TOWARDS SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_TOWARDS_SMALL = "\u{1D959}";
 
-    #[Info(id: 121178, name: 'SIGNWRITING MOVEMENT-DIAGONAL TOWARDS MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D95A, name: 'SIGNWRITING MOVEMENT-DIAGONAL TOWARDS MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_TOWARDS_MEDIUM = "\u{1D95A}";
 
-    #[Info(id: 121179, name: 'SIGNWRITING MOVEMENT-DIAGONAL TOWARDS LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D95B, name: 'SIGNWRITING MOVEMENT-DIAGONAL TOWARDS LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_TOWARDS_LARGE = "\u{1D95B}";
 
-    #[Info(id: 121180, name: 'SIGNWRITING MOVEMENT-DIAGONAL TOWARDS LARGEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D95C, name: 'SIGNWRITING MOVEMENT-DIAGONAL TOWARDS LARGEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_TOWARDS_LARGEST = "\u{1D95C}";
 
-    #[Info(id: 121181, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D95D, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_BETWEEN_AWAY_SMALL = "\u{1D95D}";
 
-    #[Info(id: 121182, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D95E, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_BETWEEN_AWAY_MEDIUM = "\u{1D95E}";
 
-    #[Info(id: 121183, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D95F, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_BETWEEN_AWAY_LARGE = "\u{1D95F}";
 
-    #[Info(id: 121184, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY LARGEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D960, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY LARGEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_BETWEEN_AWAY_LARGEST = "\u{1D960}";
 
-    #[Info(id: 121185, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D961, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_BETWEEN_TOWARDS_SMALL = "\u{1D961}";
 
-    #[Info(id: 121186, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D962, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_BETWEEN_TOWARDS_MEDIUM = "\u{1D962}";
 
-    #[Info(id: 121187, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D963, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_BETWEEN_TOWARDS_LARGE = "\u{1D963}";
 
-    #[Info(id: 121188, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS LARGEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D964, name: 'SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS LARGEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_DIAGONAL_BETWEEN_TOWARDS_LARGEST = "\u{1D964}";
 
-    #[Info(id: 121189, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D965, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_SINGLE_STRAIGHT_SMALL = "\u{1D965}";
 
-    #[Info(id: 121190, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D966, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_SINGLE_STRAIGHT_MEDIUM = "\u{1D966}";
 
-    #[Info(id: 121191, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D967, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_SINGLE_STRAIGHT_LARGE = "\u{1D967}";
 
-    #[Info(id: 121192, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT LARGEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D968, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT LARGEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_SINGLE_STRAIGHT_LARGEST = "\u{1D968}";
 
-    #[Info(id: 121193, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SINGLE WRIST FLEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D969, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SINGLE WRIST FLEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_SINGLE_WRIST_FLEX = "\u{1D969}";
 
-    #[Info(id: 121194, name: 'SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE STRAIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D96A, name: 'SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE STRAIGHT', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_DOUBLE_STRAIGHT = "\u{1D96A}";
 
-    #[Info(id: 121195, name: 'SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE WRIST FLEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D96B, name: 'SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE WRIST FLEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_DOUBLE_WRIST_FLEX = "\u{1D96B}";
 
-    #[Info(id: 121196, name: 'SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE ALTERNATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D96C, name: 'SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE ALTERNATING', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_DOUBLE_ALTERNATING = "\u{1D96C}";
 
-    #[Info(id: 121197, name: 'SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE ALTERNATING WRIST FLEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D96D, name: 'SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE ALTERNATING WRIST FLEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_DOUBLE_ALTERNATING_WRIST_FLEX = "\u{1D96D}";
 
-    #[Info(id: 121198, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D96E, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CROSS', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CROSS = "\u{1D96E}";
 
-    #[Info(id: 121199, name: 'SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE STRAIGHT MOVEMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D96F, name: 'SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE STRAIGHT MOVEMENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_TRIPLE_STRAIGHT_MOVEMENT = "\u{1D96F}";
 
-    #[Info(id: 121200, name: 'SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE WRIST FLEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D970, name: 'SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE WRIST FLEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_TRIPLE_WRIST_FLEX = "\u{1D970}";
 
-    #[Info(id: 121201, name: 'SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE ALTERNATING MOVEMENT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D971, name: 'SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE ALTERNATING MOVEMENT', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_TRIPLE_ALTERNATING_MOVEMENT = "\u{1D971}";
 
-    #[Info(id: 121202, name: 'SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE ALTERNATING WRIST FLEX', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D972, name: 'SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE ALTERNATING WRIST FLEX', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_TRIPLE_ALTERNATING_WRIST_FLEX = "\u{1D972}";
 
-    #[Info(id: 121203, name: 'SIGNWRITING MOVEMENT-FLOORPLANE BEND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D973, name: 'SIGNWRITING MOVEMENT-FLOORPLANE BEND', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_BEND = "\u{1D973}";
 
-    #[Info(id: 121204, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CORNER SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D974, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CORNER SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CORNER_SMALL = "\u{1D974}";
 
-    #[Info(id: 121205, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CORNER MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D975, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CORNER MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CORNER_MEDIUM = "\u{1D975}";
 
-    #[Info(id: 121206, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CORNER LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D976, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CORNER LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CORNER_LARGE = "\u{1D976}";
 
-    #[Info(id: 121207, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CHECK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D977, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CHECK', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CHECK = "\u{1D977}";
 
-    #[Info(id: 121208, name: 'SIGNWRITING MOVEMENT-FLOORPLANE BOX SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D978, name: 'SIGNWRITING MOVEMENT-FLOORPLANE BOX SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_BOX_SMALL = "\u{1D978}";
 
-    #[Info(id: 121209, name: 'SIGNWRITING MOVEMENT-FLOORPLANE BOX MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D979, name: 'SIGNWRITING MOVEMENT-FLOORPLANE BOX MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_BOX_MEDIUM = "\u{1D979}";
 
-    #[Info(id: 121210, name: 'SIGNWRITING MOVEMENT-FLOORPLANE BOX LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D97A, name: 'SIGNWRITING MOVEMENT-FLOORPLANE BOX LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_BOX_LARGE = "\u{1D97A}";
 
-    #[Info(id: 121211, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D97B, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_ZIGZAG_SMALL = "\u{1D97B}";
 
-    #[Info(id: 121212, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D97C, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_ZIGZAG_MEDIUM = "\u{1D97C}";
 
-    #[Info(id: 121213, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D97D, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_ZIGZAG_LARGE = "\u{1D97D}";
 
-    #[Info(id: 121214, name: 'SIGNWRITING MOVEMENT-FLOORPLANE PEAKS SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D97E, name: 'SIGNWRITING MOVEMENT-FLOORPLANE PEAKS SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_PEAKS_SMALL = "\u{1D97E}";
 
-    #[Info(id: 121215, name: 'SIGNWRITING MOVEMENT-FLOORPLANE PEAKS MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D97F, name: 'SIGNWRITING MOVEMENT-FLOORPLANE PEAKS MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_PEAKS_MEDIUM = "\u{1D97F}";
 
-    #[Info(id: 121216, name: 'SIGNWRITING MOVEMENT-FLOORPLANE PEAKS LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D980, name: 'SIGNWRITING MOVEMENT-FLOORPLANE PEAKS LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_PEAKS_LARGE = "\u{1D980}";
 
-    #[Info(id: 121217, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D981, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_FLOORPLANE_ROTATION_FLOORPLANE_SINGLE = "\u{1D981}";
 
-    #[Info(id: 121218, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D982, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_FLOORPLANE_ROTATION_FLOORPLANE_DOUBLE = "\u{1D982}";
 
-    #[Info(id: 121219, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE ALTERNATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D983, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE ALTERNATING', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_FLOORPLANE_ROTATION_FLOORPLANE_ALTERNATING = "\u{1D983}";
 
-    #[Info(id: 121220, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D984, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_FLOORPLANE_ROTATION_WALLPLANE_SINGLE = "\u{1D984}";
 
-    #[Info(id: 121221, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D985, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_FLOORPLANE_ROTATION_WALLPLANE_DOUBLE = "\u{1D985}";
 
-    #[Info(id: 121222, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE ALTERNATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D986, name: 'SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE ALTERNATING', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_FLOORPLANE_ROTATION_WALLPLANE_ALTERNATING = "\u{1D986}";
 
-    #[Info(id: 121223, name: 'SIGNWRITING TRAVEL-FLOORPLANE SHAKING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D987, name: 'SIGNWRITING TRAVEL-FLOORPLANE SHAKING', category: Cat::Other_Symbol)]
     case SIGNWRITING_TRAVEL_FLOORPLANE_SHAKING = "\u{1D987}";
 
-    #[Info(id: 121224, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D988, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_QUARTER_SMALL = "\u{1D988}";
 
-    #[Info(id: 121225, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D989, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_QUARTER_MEDIUM = "\u{1D989}";
 
-    #[Info(id: 121226, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D98A, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_QUARTER_LARGE = "\u{1D98A}";
 
-    #[Info(id: 121227, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER LARGEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D98B, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER LARGEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_QUARTER_LARGEST = "\u{1D98B}";
 
-    #[Info(id: 121228, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D98C, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_HALF_CIRCLE_SMALL = "\u{1D98C}";
 
-    #[Info(id: 121229, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D98D, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_HALF_CIRCLE_MEDIUM = "\u{1D98D}";
 
-    #[Info(id: 121230, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D98E, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_HALF_CIRCLE_LARGE = "\u{1D98E}";
 
-    #[Info(id: 121231, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE LARGEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D98F, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE LARGEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_HALF_CIRCLE_LARGEST = "\u{1D98F}";
 
-    #[Info(id: 121232, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE THREE-QUARTER CIRCLE SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D990, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE THREE-QUARTER CIRCLE SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_THREE_QUARTER_CIRCLE_SMALL = "\u{1D990}";
 
-    #[Info(id: 121233, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE THREE-QUARTER CIRCLE MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D991, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE THREE-QUARTER CIRCLE MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_THREE_QUARTER_CIRCLE_MEDIUM = "\u{1D991}";
 
-    #[Info(id: 121234, name: 'SIGNWRITING MOVEMENT-WALLPLANE HUMP SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D992, name: 'SIGNWRITING MOVEMENT-WALLPLANE HUMP SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_HUMP_SMALL = "\u{1D992}";
 
-    #[Info(id: 121235, name: 'SIGNWRITING MOVEMENT-WALLPLANE HUMP MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D993, name: 'SIGNWRITING MOVEMENT-WALLPLANE HUMP MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_HUMP_MEDIUM = "\u{1D993}";
 
-    #[Info(id: 121236, name: 'SIGNWRITING MOVEMENT-WALLPLANE HUMP LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D994, name: 'SIGNWRITING MOVEMENT-WALLPLANE HUMP LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_HUMP_LARGE = "\u{1D994}";
 
-    #[Info(id: 121237, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D995, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_LOOP_SMALL = "\u{1D995}";
 
-    #[Info(id: 121238, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D996, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_LOOP_MEDIUM = "\u{1D996}";
 
-    #[Info(id: 121239, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D997, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_LOOP_LARGE = "\u{1D997}";
 
-    #[Info(id: 121240, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP SMALL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D998, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP SMALL DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_LOOP_SMALL_DOUBLE = "\u{1D998}";
 
-    #[Info(id: 121241, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D999, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WAVE_CURVE_DOUBLE_SMALL = "\u{1D999}";
 
-    #[Info(id: 121242, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D99A, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WAVE_CURVE_DOUBLE_MEDIUM = "\u{1D99A}";
 
-    #[Info(id: 121243, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D99B, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WAVE_CURVE_DOUBLE_LARGE = "\u{1D99B}";
 
-    #[Info(id: 121244, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D99C, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WAVE_CURVE_TRIPLE_SMALL = "\u{1D99C}";
 
-    #[Info(id: 121245, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D99D, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WAVE_CURVE_TRIPLE_MEDIUM = "\u{1D99D}";
 
-    #[Info(id: 121246, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D99E, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WAVE_CURVE_TRIPLE_LARGE = "\u{1D99E}";
 
-    #[Info(id: 121247, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE THEN STRAIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D99F, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE THEN STRAIGHT', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_THEN_STRAIGHT = "\u{1D99F}";
 
-    #[Info(id: 121248, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVED CROSS SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9A0, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVED CROSS SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVED_CROSS_SMALL = "\u{1D9A0}";
 
-    #[Info(id: 121249, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVED CROSS MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9A1, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVED CROSS MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVED_CROSS_MEDIUM = "\u{1D9A1}";
 
-    #[Info(id: 121250, name: 'SIGNWRITING ROTATION-WALLPLANE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9A2, name: 'SIGNWRITING ROTATION-WALLPLANE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_WALLPLANE_SINGLE = "\u{1D9A2}";
 
-    #[Info(id: 121251, name: 'SIGNWRITING ROTATION-WALLPLANE DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9A3, name: 'SIGNWRITING ROTATION-WALLPLANE DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_WALLPLANE_DOUBLE = "\u{1D9A3}";
 
-    #[Info(id: 121252, name: 'SIGNWRITING ROTATION-WALLPLANE ALTERNATE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9A4, name: 'SIGNWRITING ROTATION-WALLPLANE ALTERNATE', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_WALLPLANE_ALTERNATE = "\u{1D9A4}";
 
-    #[Info(id: 121253, name: 'SIGNWRITING MOVEMENT-WALLPLANE SHAKING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9A5, name: 'SIGNWRITING MOVEMENT-WALLPLANE SHAKING', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_SHAKING = "\u{1D9A5}";
 
-    #[Info(id: 121254, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HITTING FRONT WALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9A6, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HITTING FRONT WALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_HITTING_FRONT_WALL = "\u{1D9A6}";
 
-    #[Info(id: 121255, name: 'SIGNWRITING MOVEMENT-WALLPLANE HUMP HITTING FRONT WALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9A7, name: 'SIGNWRITING MOVEMENT-WALLPLANE HUMP HITTING FRONT WALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_HUMP_HITTING_FRONT_WALL = "\u{1D9A7}";
 
-    #[Info(id: 121256, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP HITTING FRONT WALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9A8, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP HITTING FRONT WALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_LOOP_HITTING_FRONT_WALL = "\u{1D9A8}";
 
-    #[Info(id: 121257, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE HITTING FRONT WALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9A9, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE HITTING FRONT WALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WAVE_HITTING_FRONT_WALL = "\u{1D9A9}";
 
-    #[Info(id: 121258, name: 'SIGNWRITING ROTATION-WALLPLANE SINGLE HITTING FRONT WALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9AA, name: 'SIGNWRITING ROTATION-WALLPLANE SINGLE HITTING FRONT WALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_WALLPLANE_SINGLE_HITTING_FRONT_WALL = "\u{1D9AA}";
 
-    #[Info(id: 121259, name: 'SIGNWRITING ROTATION-WALLPLANE DOUBLE HITTING FRONT WALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9AB, name: 'SIGNWRITING ROTATION-WALLPLANE DOUBLE HITTING FRONT WALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_WALLPLANE_DOUBLE_HITTING_FRONT_WALL = "\u{1D9AB}";
 
-    #[Info(id: 121260, name: 'SIGNWRITING ROTATION-WALLPLANE ALTERNATING HITTING FRONT WALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9AC, name: 'SIGNWRITING ROTATION-WALLPLANE ALTERNATING HITTING FRONT WALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_WALLPLANE_ALTERNATING_HITTING_FRONT_WALL = "\u{1D9AC}";
 
-    #[Info(id: 121261, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HITTING CHEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9AD, name: 'SIGNWRITING MOVEMENT-WALLPLANE CURVE HITTING CHEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_CURVE_HITTING_CHEST = "\u{1D9AD}";
 
-    #[Info(id: 121262, name: 'SIGNWRITING MOVEMENT-WALLPLANE HUMP HITTING CHEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9AE, name: 'SIGNWRITING MOVEMENT-WALLPLANE HUMP HITTING CHEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_HUMP_HITTING_CHEST = "\u{1D9AE}";
 
-    #[Info(id: 121263, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP HITTING CHEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9AF, name: 'SIGNWRITING MOVEMENT-WALLPLANE LOOP HITTING CHEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_LOOP_HITTING_CHEST = "\u{1D9AF}";
 
-    #[Info(id: 121264, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE HITTING CHEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9B0, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE HITTING CHEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WAVE_HITTING_CHEST = "\u{1D9B0}";
 
-    #[Info(id: 121265, name: 'SIGNWRITING ROTATION-WALLPLANE SINGLE HITTING CHEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9B1, name: 'SIGNWRITING ROTATION-WALLPLANE SINGLE HITTING CHEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_WALLPLANE_SINGLE_HITTING_CHEST = "\u{1D9B1}";
 
-    #[Info(id: 121266, name: 'SIGNWRITING ROTATION-WALLPLANE DOUBLE HITTING CHEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9B2, name: 'SIGNWRITING ROTATION-WALLPLANE DOUBLE HITTING CHEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_WALLPLANE_DOUBLE_HITTING_CHEST = "\u{1D9B2}";
 
-    #[Info(id: 121267, name: 'SIGNWRITING ROTATION-WALLPLANE ALTERNATING HITTING CHEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9B3, name: 'SIGNWRITING ROTATION-WALLPLANE ALTERNATING HITTING CHEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_WALLPLANE_ALTERNATING_HITTING_CHEST = "\u{1D9B3}";
 
-    #[Info(id: 121268, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9B4, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WAVE_DIAGONAL_PATH_SMALL = "\u{1D9B4}";
 
-    #[Info(id: 121269, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9B5, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WAVE_DIAGONAL_PATH_MEDIUM = "\u{1D9B5}";
 
-    #[Info(id: 121270, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9B6, name: 'SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WAVE_DIAGONAL_PATH_LARGE = "\u{1D9B6}";
 
-    #[Info(id: 121271, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING CEILING SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9B7, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING CEILING SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CURVE_HITTING_CEILING_SMALL = "\u{1D9B7}";
 
-    #[Info(id: 121272, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING CEILING LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9B8, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING CEILING LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CURVE_HITTING_CEILING_LARGE = "\u{1D9B8}";
 
-    #[Info(id: 121273, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING SMALL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9B9, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING SMALL DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_HUMP_HITTING_CEILING_SMALL_DOUBLE = "\u{1D9B9}";
 
-    #[Info(id: 121274, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING LARGE DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9BA, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING LARGE DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_HUMP_HITTING_CEILING_LARGE_DOUBLE = "\u{1D9BA}";
 
-    #[Info(id: 121275, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING SMALL TRIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9BB, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING SMALL TRIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_HUMP_HITTING_CEILING_SMALL_TRIPLE = "\u{1D9BB}";
 
-    #[Info(id: 121276, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING LARGE TRIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9BC, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING LARGE TRIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_HUMP_HITTING_CEILING_LARGE_TRIPLE = "\u{1D9BC}";
 
-    #[Info(id: 121277, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING SMALL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9BD, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING SMALL SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_LOOP_HITTING_CEILING_SMALL_SINGLE = "\u{1D9BD}";
 
-    #[Info(id: 121278, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING LARGE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9BE, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING LARGE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_LOOP_HITTING_CEILING_LARGE_SINGLE = "\u{1D9BE}";
 
-    #[Info(id: 121279, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING SMALL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9BF, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING SMALL DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_LOOP_HITTING_CEILING_SMALL_DOUBLE = "\u{1D9BF}";
 
-    #[Info(id: 121280, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING LARGE DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9C0, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING LARGE DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_LOOP_HITTING_CEILING_LARGE_DOUBLE = "\u{1D9C0}";
 
-    #[Info(id: 121281, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING CEILING SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9C1, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING CEILING SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_WAVE_HITTING_CEILING_SMALL = "\u{1D9C1}";
 
-    #[Info(id: 121282, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING CEILING LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9C2, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING CEILING LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_WAVE_HITTING_CEILING_LARGE = "\u{1D9C2}";
 
-    #[Info(id: 121283, name: 'SIGNWRITING ROTATION-FLOORPLANE SINGLE HITTING CEILING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9C3, name: 'SIGNWRITING ROTATION-FLOORPLANE SINGLE HITTING CEILING', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_FLOORPLANE_SINGLE_HITTING_CEILING = "\u{1D9C3}";
 
-    #[Info(id: 121284, name: 'SIGNWRITING ROTATION-FLOORPLANE DOUBLE HITTING CEILING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9C4, name: 'SIGNWRITING ROTATION-FLOORPLANE DOUBLE HITTING CEILING', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_FLOORPLANE_DOUBLE_HITTING_CEILING = "\u{1D9C4}";
 
-    #[Info(id: 121285, name: 'SIGNWRITING ROTATION-FLOORPLANE ALTERNATING HITTING CEILING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9C5, name: 'SIGNWRITING ROTATION-FLOORPLANE ALTERNATING HITTING CEILING', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_FLOORPLANE_ALTERNATING_HITTING_CEILING = "\u{1D9C5}";
 
-    #[Info(id: 121286, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING FLOOR SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9C6, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING FLOOR SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CURVE_HITTING_FLOOR_SMALL = "\u{1D9C6}";
 
-    #[Info(id: 121287, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING FLOOR LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9C7, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING FLOOR LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CURVE_HITTING_FLOOR_LARGE = "\u{1D9C7}";
 
-    #[Info(id: 121288, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR SMALL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9C8, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR SMALL DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_HUMP_HITTING_FLOOR_SMALL_DOUBLE = "\u{1D9C8}";
 
-    #[Info(id: 121289, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR LARGE DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9C9, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR LARGE DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_HUMP_HITTING_FLOOR_LARGE_DOUBLE = "\u{1D9C9}";
 
-    #[Info(id: 121290, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR TRIPLE SMALL TRIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9CA, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR TRIPLE SMALL TRIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_HUMP_HITTING_FLOOR_TRIPLE_SMALL_TRIPLE = "\u{1D9CA}";
 
-    #[Info(id: 121291, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR TRIPLE LARGE TRIPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9CB, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR TRIPLE LARGE TRIPLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_HUMP_HITTING_FLOOR_TRIPLE_LARGE_TRIPLE = "\u{1D9CB}";
 
-    #[Info(id: 121292, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR SMALL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9CC, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR SMALL SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_LOOP_HITTING_FLOOR_SMALL_SINGLE = "\u{1D9CC}";
 
-    #[Info(id: 121293, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR LARGE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9CD, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR LARGE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_LOOP_HITTING_FLOOR_LARGE_SINGLE = "\u{1D9CD}";
 
-    #[Info(id: 121294, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR SMALL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9CE, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR SMALL DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_LOOP_HITTING_FLOOR_SMALL_DOUBLE = "\u{1D9CE}";
 
-    #[Info(id: 121295, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR LARGE DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9CF, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR LARGE DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_LOOP_HITTING_FLOOR_LARGE_DOUBLE = "\u{1D9CF}";
 
-    #[Info(id: 121296, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING FLOOR SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9D0, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING FLOOR SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_WAVE_HITTING_FLOOR_SMALL = "\u{1D9D0}";
 
-    #[Info(id: 121297, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING FLOOR LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9D1, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING FLOOR LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_WAVE_HITTING_FLOOR_LARGE = "\u{1D9D1}";
 
-    #[Info(id: 121298, name: 'SIGNWRITING ROTATION-FLOORPLANE SINGLE HITTING FLOOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9D2, name: 'SIGNWRITING ROTATION-FLOORPLANE SINGLE HITTING FLOOR', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_FLOORPLANE_SINGLE_HITTING_FLOOR = "\u{1D9D2}";
 
-    #[Info(id: 121299, name: 'SIGNWRITING ROTATION-FLOORPLANE DOUBLE HITTING FLOOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9D3, name: 'SIGNWRITING ROTATION-FLOORPLANE DOUBLE HITTING FLOOR', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_FLOORPLANE_DOUBLE_HITTING_FLOOR = "\u{1D9D3}";
 
-    #[Info(id: 121300, name: 'SIGNWRITING ROTATION-FLOORPLANE ALTERNATING HITTING FLOOR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9D4, name: 'SIGNWRITING ROTATION-FLOORPLANE ALTERNATING HITTING FLOOR', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_FLOORPLANE_ALTERNATING_HITTING_FLOOR = "\u{1D9D4}";
 
-    #[Info(id: 121301, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9D5, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CURVE_SMALL = "\u{1D9D5}";
 
-    #[Info(id: 121302, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE MEDIUM', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9D6, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE MEDIUM', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CURVE_MEDIUM = "\u{1D9D6}";
 
-    #[Info(id: 121303, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9D7, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CURVE_LARGE = "\u{1D9D7}";
 
-    #[Info(id: 121304, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE LARGEST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9D8, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE LARGEST', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CURVE_LARGEST = "\u{1D9D8}";
 
-    #[Info(id: 121305, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE COMBINED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9D9, name: 'SIGNWRITING MOVEMENT-FLOORPLANE CURVE COMBINED', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_CURVE_COMBINED = "\u{1D9D9}";
 
-    #[Info(id: 121306, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9DA, name: 'SIGNWRITING MOVEMENT-FLOORPLANE HUMP SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_HUMP_SMALL = "\u{1D9DA}";
 
-    #[Info(id: 121307, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9DB, name: 'SIGNWRITING MOVEMENT-FLOORPLANE LOOP SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_LOOP_SMALL = "\u{1D9DB}";
 
-    #[Info(id: 121308, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE SNAKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9DC, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE SNAKE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_WAVE_SNAKE = "\u{1D9DC}";
 
-    #[Info(id: 121309, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9DD, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_WAVE_SMALL = "\u{1D9DD}";
 
-    #[Info(id: 121310, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9DE, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WAVE LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_WAVE_LARGE = "\u{1D9DE}";
 
-    #[Info(id: 121311, name: 'SIGNWRITING ROTATION-FLOORPLANE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9DF, name: 'SIGNWRITING ROTATION-FLOORPLANE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_FLOORPLANE_SINGLE = "\u{1D9DF}";
 
-    #[Info(id: 121312, name: 'SIGNWRITING ROTATION-FLOORPLANE DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9E0, name: 'SIGNWRITING ROTATION-FLOORPLANE DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_FLOORPLANE_DOUBLE = "\u{1D9E0}";
 
-    #[Info(id: 121313, name: 'SIGNWRITING ROTATION-FLOORPLANE ALTERNATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9E1, name: 'SIGNWRITING ROTATION-FLOORPLANE ALTERNATING', category: Cat::Other_Symbol)]
     case SIGNWRITING_ROTATION_FLOORPLANE_ALTERNATING = "\u{1D9E1}";
 
-    #[Info(id: 121314, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SHAKING PARALLEL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9E2, name: 'SIGNWRITING MOVEMENT-FLOORPLANE SHAKING PARALLEL', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_SHAKING_PARALLEL = "\u{1D9E2}";
 
-    #[Info(id: 121315, name: 'SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE SMALL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9E3, name: 'SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE SMALL SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_ARM_CIRCLE_SMALL_SINGLE = "\u{1D9E3}";
 
-    #[Info(id: 121316, name: 'SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE MEDIUM SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9E4, name: 'SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE MEDIUM SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_ARM_CIRCLE_MEDIUM_SINGLE = "\u{1D9E4}";
 
-    #[Info(id: 121317, name: 'SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE SMALL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9E5, name: 'SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE SMALL DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_ARM_CIRCLE_SMALL_DOUBLE = "\u{1D9E5}";
 
-    #[Info(id: 121318, name: 'SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE MEDIUM DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9E6, name: 'SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE MEDIUM DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_ARM_CIRCLE_MEDIUM_DOUBLE = "\u{1D9E6}";
 
-    #[Info(id: 121319, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL SMALL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9E7, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL SMALL SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_ARM_CIRCLE_HITTING_WALL_SMALL_SINGLE = "\u{1D9E7}";
 
-    #[Info(id: 121320, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL MEDIUM SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9E8, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL MEDIUM SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_ARM_CIRCLE_HITTING_WALL_MEDIUM_SINGLE = "\u{1D9E8}";
 
-    #[Info(id: 121321, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL LARGE SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9E9, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL LARGE SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_ARM_CIRCLE_HITTING_WALL_LARGE_SINGLE = "\u{1D9E9}";
 
-    #[Info(id: 121322, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL SMALL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9EA, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL SMALL DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_ARM_CIRCLE_HITTING_WALL_SMALL_DOUBLE = "\u{1D9EA}";
 
-    #[Info(id: 121323, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL MEDIUM DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9EB, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL MEDIUM DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_ARM_CIRCLE_HITTING_WALL_MEDIUM_DOUBLE = "\u{1D9EB}";
 
-    #[Info(id: 121324, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL LARGE DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9EC, name: 'SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL LARGE DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_ARM_CIRCLE_HITTING_WALL_LARGE_DOUBLE = "\u{1D9EC}";
 
-    #[Info(id: 121325, name: 'SIGNWRITING MOVEMENT-WALLPLANE WRIST CIRCLE FRONT SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9ED, name: 'SIGNWRITING MOVEMENT-WALLPLANE WRIST CIRCLE FRONT SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WRIST_CIRCLE_FRONT_SINGLE = "\u{1D9ED}";
 
-    #[Info(id: 121326, name: 'SIGNWRITING MOVEMENT-WALLPLANE WRIST CIRCLE FRONT DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9EE, name: 'SIGNWRITING MOVEMENT-WALLPLANE WRIST CIRCLE FRONT DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_WRIST_CIRCLE_FRONT_DOUBLE = "\u{1D9EE}";
 
-    #[Info(id: 121327, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WRIST CIRCLE HITTING WALL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9EF, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WRIST CIRCLE HITTING WALL SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_WRIST_CIRCLE_HITTING_WALL_SINGLE = "\u{1D9EF}";
 
-    #[Info(id: 121328, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WRIST CIRCLE HITTING WALL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9F0, name: 'SIGNWRITING MOVEMENT-FLOORPLANE WRIST CIRCLE HITTING WALL DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_WRIST_CIRCLE_HITTING_WALL_DOUBLE = "\u{1D9F0}";
 
-    #[Info(id: 121329, name: 'SIGNWRITING MOVEMENT-WALLPLANE FINGER CIRCLES SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9F1, name: 'SIGNWRITING MOVEMENT-WALLPLANE FINGER CIRCLES SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_FINGER_CIRCLES_SINGLE = "\u{1D9F1}";
 
-    #[Info(id: 121330, name: 'SIGNWRITING MOVEMENT-WALLPLANE FINGER CIRCLES DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9F2, name: 'SIGNWRITING MOVEMENT-WALLPLANE FINGER CIRCLES DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_FINGER_CIRCLES_DOUBLE = "\u{1D9F2}";
 
-    #[Info(id: 121331, name: 'SIGNWRITING MOVEMENT-FLOORPLANE FINGER CIRCLES HITTING WALL SINGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9F3, name: 'SIGNWRITING MOVEMENT-FLOORPLANE FINGER CIRCLES HITTING WALL SINGLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_FINGER_CIRCLES_HITTING_WALL_SINGLE = "\u{1D9F3}";
 
-    #[Info(id: 121332, name: 'SIGNWRITING MOVEMENT-FLOORPLANE FINGER CIRCLES HITTING WALL DOUBLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9F4, name: 'SIGNWRITING MOVEMENT-FLOORPLANE FINGER CIRCLES HITTING WALL DOUBLE', category: Cat::Other_Symbol)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_FINGER_CIRCLES_HITTING_WALL_DOUBLE = "\u{1D9F4}";
 
-    #[Info(id: 121333, name: 'SIGNWRITING DYNAMIC ARROWHEAD SMALL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9F5, name: 'SIGNWRITING DYNAMIC ARROWHEAD SMALL', category: Cat::Other_Symbol)]
     case SIGNWRITING_DYNAMIC_ARROWHEAD_SMALL = "\u{1D9F5}";
 
-    #[Info(id: 121334, name: 'SIGNWRITING DYNAMIC ARROWHEAD LARGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9F6, name: 'SIGNWRITING DYNAMIC ARROWHEAD LARGE', category: Cat::Other_Symbol)]
     case SIGNWRITING_DYNAMIC_ARROWHEAD_LARGE = "\u{1D9F6}";
 
-    #[Info(id: 121335, name: 'SIGNWRITING DYNAMIC FAST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9F7, name: 'SIGNWRITING DYNAMIC FAST', category: Cat::Other_Symbol)]
     case SIGNWRITING_DYNAMIC_FAST = "\u{1D9F7}";
 
-    #[Info(id: 121336, name: 'SIGNWRITING DYNAMIC SLOW', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9F8, name: 'SIGNWRITING DYNAMIC SLOW', category: Cat::Other_Symbol)]
     case SIGNWRITING_DYNAMIC_SLOW = "\u{1D9F8}";
 
-    #[Info(id: 121337, name: 'SIGNWRITING DYNAMIC TENSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9F9, name: 'SIGNWRITING DYNAMIC TENSE', category: Cat::Other_Symbol)]
     case SIGNWRITING_DYNAMIC_TENSE = "\u{1D9F9}";
 
-    #[Info(id: 121338, name: 'SIGNWRITING DYNAMIC RELAXED', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9FA, name: 'SIGNWRITING DYNAMIC RELAXED', category: Cat::Other_Symbol)]
     case SIGNWRITING_DYNAMIC_RELAXED = "\u{1D9FA}";
 
-    #[Info(id: 121339, name: 'SIGNWRITING DYNAMIC SIMULTANEOUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9FB, name: 'SIGNWRITING DYNAMIC SIMULTANEOUS', category: Cat::Other_Symbol)]
     case SIGNWRITING_DYNAMIC_SIMULTANEOUS = "\u{1D9FB}";
 
-    #[Info(id: 121340, name: 'SIGNWRITING DYNAMIC SIMULTANEOUS ALTERNATING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9FC, name: 'SIGNWRITING DYNAMIC SIMULTANEOUS ALTERNATING', category: Cat::Other_Symbol)]
     case SIGNWRITING_DYNAMIC_SIMULTANEOUS_ALTERNATING = "\u{1D9FC}";
 
-    #[Info(id: 121341, name: 'SIGNWRITING DYNAMIC EVERY OTHER TIME', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9FD, name: 'SIGNWRITING DYNAMIC EVERY OTHER TIME', category: Cat::Other_Symbol)]
     case SIGNWRITING_DYNAMIC_EVERY_OTHER_TIME = "\u{1D9FD}";
 
-    #[Info(id: 121342, name: 'SIGNWRITING DYNAMIC GRADUAL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9FE, name: 'SIGNWRITING DYNAMIC GRADUAL', category: Cat::Other_Symbol)]
     case SIGNWRITING_DYNAMIC_GRADUAL = "\u{1D9FE}";
 
-    #[Info(id: 121343, name: 'SIGNWRITING HEAD', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D9FF, name: 'SIGNWRITING HEAD', category: Cat::Other_Symbol)]
     case SIGNWRITING_HEAD = "\u{1D9FF}";
 
-    #[Info(id: 121344, name: 'SIGNWRITING HEAD RIM', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA00, name: 'SIGNWRITING HEAD RIM', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_HEAD_RIM = "\u{1DA00}";
 
-    #[Info(id: 121345, name: 'SIGNWRITING HEAD MOVEMENT-WALLPLANE STRAIGHT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA01, name: 'SIGNWRITING HEAD MOVEMENT-WALLPLANE STRAIGHT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_HEAD_MOVEMENT_WALLPLANE_STRAIGHT = "\u{1DA01}";
 
-    #[Info(id: 121346, name: 'SIGNWRITING HEAD MOVEMENT-WALLPLANE TILT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA02, name: 'SIGNWRITING HEAD MOVEMENT-WALLPLANE TILT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_HEAD_MOVEMENT_WALLPLANE_TILT = "\u{1DA02}";
 
-    #[Info(id: 121347, name: 'SIGNWRITING HEAD MOVEMENT-FLOORPLANE STRAIGHT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA03, name: 'SIGNWRITING HEAD MOVEMENT-FLOORPLANE STRAIGHT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_HEAD_MOVEMENT_FLOORPLANE_STRAIGHT = "\u{1DA03}";
 
-    #[Info(id: 121348, name: 'SIGNWRITING HEAD MOVEMENT-WALLPLANE CURVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA04, name: 'SIGNWRITING HEAD MOVEMENT-WALLPLANE CURVE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_HEAD_MOVEMENT_WALLPLANE_CURVE = "\u{1DA04}";
 
-    #[Info(id: 121349, name: 'SIGNWRITING HEAD MOVEMENT-FLOORPLANE CURVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA05, name: 'SIGNWRITING HEAD MOVEMENT-FLOORPLANE CURVE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_HEAD_MOVEMENT_FLOORPLANE_CURVE = "\u{1DA05}";
 
-    #[Info(id: 121350, name: 'SIGNWRITING HEAD MOVEMENT CIRCLE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA06, name: 'SIGNWRITING HEAD MOVEMENT CIRCLE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_HEAD_MOVEMENT_CIRCLE = "\u{1DA06}";
 
-    #[Info(id: 121351, name: 'SIGNWRITING FACE DIRECTION POSITION NOSE FORWARD TILTING', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA07, name: 'SIGNWRITING FACE DIRECTION POSITION NOSE FORWARD TILTING', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_FACE_DIRECTION_POSITION_NOSE_FORWARD_TILTING = "\u{1DA07}";
 
-    #[Info(id: 121352, name: 'SIGNWRITING FACE DIRECTION POSITION NOSE UP OR DOWN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA08, name: 'SIGNWRITING FACE DIRECTION POSITION NOSE UP OR DOWN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_FACE_DIRECTION_POSITION_NOSE_UP_OR_DOWN = "\u{1DA08}";
 
-    #[Info(id: 121353, name: 'SIGNWRITING FACE DIRECTION POSITION NOSE UP OR DOWN TILTING', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA09, name: 'SIGNWRITING FACE DIRECTION POSITION NOSE UP OR DOWN TILTING', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_FACE_DIRECTION_POSITION_NOSE_UP_OR_DOWN_TILTING = "\u{1DA09}";
 
-    #[Info(id: 121354, name: 'SIGNWRITING EYEBROWS STRAIGHT UP', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA0A, name: 'SIGNWRITING EYEBROWS STRAIGHT UP', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEBROWS_STRAIGHT_UP = "\u{1DA0A}";
 
-    #[Info(id: 121355, name: 'SIGNWRITING EYEBROWS STRAIGHT NEUTRAL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA0B, name: 'SIGNWRITING EYEBROWS STRAIGHT NEUTRAL', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEBROWS_STRAIGHT_NEUTRAL = "\u{1DA0B}";
 
-    #[Info(id: 121356, name: 'SIGNWRITING EYEBROWS STRAIGHT DOWN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA0C, name: 'SIGNWRITING EYEBROWS STRAIGHT DOWN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEBROWS_STRAIGHT_DOWN = "\u{1DA0C}";
 
-    #[Info(id: 121357, name: 'SIGNWRITING DREAMY EYEBROWS NEUTRAL DOWN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA0D, name: 'SIGNWRITING DREAMY EYEBROWS NEUTRAL DOWN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_DREAMY_EYEBROWS_NEUTRAL_DOWN = "\u{1DA0D}";
 
-    #[Info(id: 121358, name: 'SIGNWRITING DREAMY EYEBROWS DOWN NEUTRAL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA0E, name: 'SIGNWRITING DREAMY EYEBROWS DOWN NEUTRAL', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_DREAMY_EYEBROWS_DOWN_NEUTRAL = "\u{1DA0E}";
 
-    #[Info(id: 121359, name: 'SIGNWRITING DREAMY EYEBROWS UP NEUTRAL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA0F, name: 'SIGNWRITING DREAMY EYEBROWS UP NEUTRAL', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_DREAMY_EYEBROWS_UP_NEUTRAL = "\u{1DA0F}";
 
-    #[Info(id: 121360, name: 'SIGNWRITING DREAMY EYEBROWS NEUTRAL UP', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA10, name: 'SIGNWRITING DREAMY EYEBROWS NEUTRAL UP', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_DREAMY_EYEBROWS_NEUTRAL_UP = "\u{1DA10}";
 
-    #[Info(id: 121361, name: 'SIGNWRITING FOREHEAD NEUTRAL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA11, name: 'SIGNWRITING FOREHEAD NEUTRAL', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_FOREHEAD_NEUTRAL = "\u{1DA11}";
 
-    #[Info(id: 121362, name: 'SIGNWRITING FOREHEAD CONTACT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA12, name: 'SIGNWRITING FOREHEAD CONTACT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_FOREHEAD_CONTACT = "\u{1DA12}";
 
-    #[Info(id: 121363, name: 'SIGNWRITING FOREHEAD WRINKLED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA13, name: 'SIGNWRITING FOREHEAD WRINKLED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_FOREHEAD_WRINKLED = "\u{1DA13}";
 
-    #[Info(id: 121364, name: 'SIGNWRITING EYES OPEN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA14, name: 'SIGNWRITING EYES OPEN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYES_OPEN = "\u{1DA14}";
 
-    #[Info(id: 121365, name: 'SIGNWRITING EYES SQUEEZED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA15, name: 'SIGNWRITING EYES SQUEEZED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYES_SQUEEZED = "\u{1DA15}";
 
-    #[Info(id: 121366, name: 'SIGNWRITING EYES CLOSED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA16, name: 'SIGNWRITING EYES CLOSED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYES_CLOSED = "\u{1DA16}";
 
-    #[Info(id: 121367, name: 'SIGNWRITING EYE BLINK SINGLE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA17, name: 'SIGNWRITING EYE BLINK SINGLE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYE_BLINK_SINGLE = "\u{1DA17}";
 
-    #[Info(id: 121368, name: 'SIGNWRITING EYE BLINK MULTIPLE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA18, name: 'SIGNWRITING EYE BLINK MULTIPLE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYE_BLINK_MULTIPLE = "\u{1DA18}";
 
-    #[Info(id: 121369, name: 'SIGNWRITING EYES HALF OPEN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA19, name: 'SIGNWRITING EYES HALF OPEN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYES_HALF_OPEN = "\u{1DA19}";
 
-    #[Info(id: 121370, name: 'SIGNWRITING EYES WIDE OPEN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA1A, name: 'SIGNWRITING EYES WIDE OPEN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYES_WIDE_OPEN = "\u{1DA1A}";
 
-    #[Info(id: 121371, name: 'SIGNWRITING EYES HALF CLOSED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA1B, name: 'SIGNWRITING EYES HALF CLOSED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYES_HALF_CLOSED = "\u{1DA1B}";
 
-    #[Info(id: 121372, name: 'SIGNWRITING EYES WIDENING MOVEMENT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA1C, name: 'SIGNWRITING EYES WIDENING MOVEMENT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYES_WIDENING_MOVEMENT = "\u{1DA1C}";
 
-    #[Info(id: 121373, name: 'SIGNWRITING EYE WINK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA1D, name: 'SIGNWRITING EYE WINK', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYE_WINK = "\u{1DA1D}";
 
-    #[Info(id: 121374, name: 'SIGNWRITING EYELASHES UP', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA1E, name: 'SIGNWRITING EYELASHES UP', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYELASHES_UP = "\u{1DA1E}";
 
-    #[Info(id: 121375, name: 'SIGNWRITING EYELASHES DOWN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA1F, name: 'SIGNWRITING EYELASHES DOWN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYELASHES_DOWN = "\u{1DA1F}";
 
-    #[Info(id: 121376, name: 'SIGNWRITING EYELASHES FLUTTERING', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA20, name: 'SIGNWRITING EYELASHES FLUTTERING', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYELASHES_FLUTTERING = "\u{1DA20}";
 
-    #[Info(id: 121377, name: 'SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA21, name: 'SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEGAZE_WALLPLANE_STRAIGHT = "\u{1DA21}";
 
-    #[Info(id: 121378, name: 'SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT DOUBLE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA22, name: 'SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT DOUBLE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEGAZE_WALLPLANE_STRAIGHT_DOUBLE = "\u{1DA22}";
 
-    #[Info(id: 121379, name: 'SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT ALTERNATING', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA23, name: 'SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT ALTERNATING', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEGAZE_WALLPLANE_STRAIGHT_ALTERNATING = "\u{1DA23}";
 
-    #[Info(id: 121380, name: 'SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA24, name: 'SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEGAZE_FLOORPLANE_STRAIGHT = "\u{1DA24}";
 
-    #[Info(id: 121381, name: 'SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT DOUBLE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA25, name: 'SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT DOUBLE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEGAZE_FLOORPLANE_STRAIGHT_DOUBLE = "\u{1DA25}";
 
-    #[Info(id: 121382, name: 'SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT ALTERNATING', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA26, name: 'SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT ALTERNATING', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEGAZE_FLOORPLANE_STRAIGHT_ALTERNATING = "\u{1DA26}";
 
-    #[Info(id: 121383, name: 'SIGNWRITING EYEGAZE-WALLPLANE CURVED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA27, name: 'SIGNWRITING EYEGAZE-WALLPLANE CURVED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEGAZE_WALLPLANE_CURVED = "\u{1DA27}";
 
-    #[Info(id: 121384, name: 'SIGNWRITING EYEGAZE-FLOORPLANE CURVED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA28, name: 'SIGNWRITING EYEGAZE-FLOORPLANE CURVED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEGAZE_FLOORPLANE_CURVED = "\u{1DA28}";
 
-    #[Info(id: 121385, name: 'SIGNWRITING EYEGAZE-WALLPLANE CIRCLING', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA29, name: 'SIGNWRITING EYEGAZE-WALLPLANE CIRCLING', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EYEGAZE_WALLPLANE_CIRCLING = "\u{1DA29}";
 
-    #[Info(id: 121386, name: 'SIGNWRITING CHEEKS PUFFED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA2A, name: 'SIGNWRITING CHEEKS PUFFED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_CHEEKS_PUFFED = "\u{1DA2A}";
 
-    #[Info(id: 121387, name: 'SIGNWRITING CHEEKS NEUTRAL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA2B, name: 'SIGNWRITING CHEEKS NEUTRAL', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_CHEEKS_NEUTRAL = "\u{1DA2B}";
 
-    #[Info(id: 121388, name: 'SIGNWRITING CHEEKS SUCKED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA2C, name: 'SIGNWRITING CHEEKS SUCKED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_CHEEKS_SUCKED = "\u{1DA2C}";
 
-    #[Info(id: 121389, name: 'SIGNWRITING TENSE CHEEKS HIGH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA2D, name: 'SIGNWRITING TENSE CHEEKS HIGH', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TENSE_CHEEKS_HIGH = "\u{1DA2D}";
 
-    #[Info(id: 121390, name: 'SIGNWRITING TENSE CHEEKS MIDDLE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA2E, name: 'SIGNWRITING TENSE CHEEKS MIDDLE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TENSE_CHEEKS_MIDDLE = "\u{1DA2E}";
 
-    #[Info(id: 121391, name: 'SIGNWRITING TENSE CHEEKS LOW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA2F, name: 'SIGNWRITING TENSE CHEEKS LOW', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TENSE_CHEEKS_LOW = "\u{1DA2F}";
 
-    #[Info(id: 121392, name: 'SIGNWRITING EARS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA30, name: 'SIGNWRITING EARS', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EARS = "\u{1DA30}";
 
-    #[Info(id: 121393, name: 'SIGNWRITING NOSE NEUTRAL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA31, name: 'SIGNWRITING NOSE NEUTRAL', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_NOSE_NEUTRAL = "\u{1DA31}";
 
-    #[Info(id: 121394, name: 'SIGNWRITING NOSE CONTACT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA32, name: 'SIGNWRITING NOSE CONTACT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_NOSE_CONTACT = "\u{1DA32}";
 
-    #[Info(id: 121395, name: 'SIGNWRITING NOSE WRINKLES', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA33, name: 'SIGNWRITING NOSE WRINKLES', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_NOSE_WRINKLES = "\u{1DA33}";
 
-    #[Info(id: 121396, name: 'SIGNWRITING NOSE WIGGLES', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA34, name: 'SIGNWRITING NOSE WIGGLES', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_NOSE_WIGGLES = "\u{1DA34}";
 
-    #[Info(id: 121397, name: 'SIGNWRITING AIR BLOWING OUT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA35, name: 'SIGNWRITING AIR BLOWING OUT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_AIR_BLOWING_OUT = "\u{1DA35}";
 
-    #[Info(id: 121398, name: 'SIGNWRITING AIR SUCKING IN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA36, name: 'SIGNWRITING AIR SUCKING IN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_AIR_SUCKING_IN = "\u{1DA36}";
 
-    #[Info(id: 121399, name: 'SIGNWRITING AIR BLOW SMALL ROTATIONS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA37, name: 'SIGNWRITING AIR BLOW SMALL ROTATIONS', category: Cat::Other_Symbol)]
     case SIGNWRITING_AIR_BLOW_SMALL_ROTATIONS = "\u{1DA37}";
 
-    #[Info(id: 121400, name: 'SIGNWRITING AIR SUCK SMALL ROTATIONS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA38, name: 'SIGNWRITING AIR SUCK SMALL ROTATIONS', category: Cat::Other_Symbol)]
     case SIGNWRITING_AIR_SUCK_SMALL_ROTATIONS = "\u{1DA38}";
 
-    #[Info(id: 121401, name: 'SIGNWRITING BREATH INHALE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA39, name: 'SIGNWRITING BREATH INHALE', category: Cat::Other_Symbol)]
     case SIGNWRITING_BREATH_INHALE = "\u{1DA39}";
 
-    #[Info(id: 121402, name: 'SIGNWRITING BREATH EXHALE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA3A, name: 'SIGNWRITING BREATH EXHALE', category: Cat::Other_Symbol)]
     case SIGNWRITING_BREATH_EXHALE = "\u{1DA3A}";
 
-    #[Info(id: 121403, name: 'SIGNWRITING MOUTH CLOSED NEUTRAL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA3B, name: 'SIGNWRITING MOUTH CLOSED NEUTRAL', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_CLOSED_NEUTRAL = "\u{1DA3B}";
 
-    #[Info(id: 121404, name: 'SIGNWRITING MOUTH CLOSED FORWARD', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA3C, name: 'SIGNWRITING MOUTH CLOSED FORWARD', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_CLOSED_FORWARD = "\u{1DA3C}";
 
-    #[Info(id: 121405, name: 'SIGNWRITING MOUTH CLOSED CONTACT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA3D, name: 'SIGNWRITING MOUTH CLOSED CONTACT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_CLOSED_CONTACT = "\u{1DA3D}";
 
-    #[Info(id: 121406, name: 'SIGNWRITING MOUTH SMILE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA3E, name: 'SIGNWRITING MOUTH SMILE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_SMILE = "\u{1DA3E}";
 
-    #[Info(id: 121407, name: 'SIGNWRITING MOUTH SMILE WRINKLED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA3F, name: 'SIGNWRITING MOUTH SMILE WRINKLED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_SMILE_WRINKLED = "\u{1DA3F}";
 
-    #[Info(id: 121408, name: 'SIGNWRITING MOUTH SMILE OPEN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA40, name: 'SIGNWRITING MOUTH SMILE OPEN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_SMILE_OPEN = "\u{1DA40}";
 
-    #[Info(id: 121409, name: 'SIGNWRITING MOUTH FROWN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA41, name: 'SIGNWRITING MOUTH FROWN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_FROWN = "\u{1DA41}";
 
-    #[Info(id: 121410, name: 'SIGNWRITING MOUTH FROWN WRINKLED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA42, name: 'SIGNWRITING MOUTH FROWN WRINKLED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_FROWN_WRINKLED = "\u{1DA42}";
 
-    #[Info(id: 121411, name: 'SIGNWRITING MOUTH FROWN OPEN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA43, name: 'SIGNWRITING MOUTH FROWN OPEN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_FROWN_OPEN = "\u{1DA43}";
 
-    #[Info(id: 121412, name: 'SIGNWRITING MOUTH OPEN CIRCLE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA44, name: 'SIGNWRITING MOUTH OPEN CIRCLE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_OPEN_CIRCLE = "\u{1DA44}";
 
-    #[Info(id: 121413, name: 'SIGNWRITING MOUTH OPEN FORWARD', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA45, name: 'SIGNWRITING MOUTH OPEN FORWARD', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_OPEN_FORWARD = "\u{1DA45}";
 
-    #[Info(id: 121414, name: 'SIGNWRITING MOUTH OPEN WRINKLED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA46, name: 'SIGNWRITING MOUTH OPEN WRINKLED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_OPEN_WRINKLED = "\u{1DA46}";
 
-    #[Info(id: 121415, name: 'SIGNWRITING MOUTH OPEN OVAL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA47, name: 'SIGNWRITING MOUTH OPEN OVAL', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_OPEN_OVAL = "\u{1DA47}";
 
-    #[Info(id: 121416, name: 'SIGNWRITING MOUTH OPEN OVAL WRINKLED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA48, name: 'SIGNWRITING MOUTH OPEN OVAL WRINKLED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_OPEN_OVAL_WRINKLED = "\u{1DA48}";
 
-    #[Info(id: 121417, name: 'SIGNWRITING MOUTH OPEN OVAL YAWN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA49, name: 'SIGNWRITING MOUTH OPEN OVAL YAWN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_OPEN_OVAL_YAWN = "\u{1DA49}";
 
-    #[Info(id: 121418, name: 'SIGNWRITING MOUTH OPEN RECTANGLE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA4A, name: 'SIGNWRITING MOUTH OPEN RECTANGLE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_OPEN_RECTANGLE = "\u{1DA4A}";
 
-    #[Info(id: 121419, name: 'SIGNWRITING MOUTH OPEN RECTANGLE WRINKLED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA4B, name: 'SIGNWRITING MOUTH OPEN RECTANGLE WRINKLED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_OPEN_RECTANGLE_WRINKLED = "\u{1DA4B}";
 
-    #[Info(id: 121420, name: 'SIGNWRITING MOUTH OPEN RECTANGLE YAWN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA4C, name: 'SIGNWRITING MOUTH OPEN RECTANGLE YAWN', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_OPEN_RECTANGLE_YAWN = "\u{1DA4C}";
 
-    #[Info(id: 121421, name: 'SIGNWRITING MOUTH KISS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA4D, name: 'SIGNWRITING MOUTH KISS', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_KISS = "\u{1DA4D}";
 
-    #[Info(id: 121422, name: 'SIGNWRITING MOUTH KISS FORWARD', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA4E, name: 'SIGNWRITING MOUTH KISS FORWARD', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_KISS_FORWARD = "\u{1DA4E}";
 
-    #[Info(id: 121423, name: 'SIGNWRITING MOUTH KISS WRINKLED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA4F, name: 'SIGNWRITING MOUTH KISS WRINKLED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_KISS_WRINKLED = "\u{1DA4F}";
 
-    #[Info(id: 121424, name: 'SIGNWRITING MOUTH TENSE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA50, name: 'SIGNWRITING MOUTH TENSE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_TENSE = "\u{1DA50}";
 
-    #[Info(id: 121425, name: 'SIGNWRITING MOUTH TENSE FORWARD', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA51, name: 'SIGNWRITING MOUTH TENSE FORWARD', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_TENSE_FORWARD = "\u{1DA51}";
 
-    #[Info(id: 121426, name: 'SIGNWRITING MOUTH TENSE SUCKED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA52, name: 'SIGNWRITING MOUTH TENSE SUCKED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_TENSE_SUCKED = "\u{1DA52}";
 
-    #[Info(id: 121427, name: 'SIGNWRITING LIPS PRESSED TOGETHER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA53, name: 'SIGNWRITING LIPS PRESSED TOGETHER', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_LIPS_PRESSED_TOGETHER = "\u{1DA53}";
 
-    #[Info(id: 121428, name: 'SIGNWRITING LIP LOWER OVER UPPER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA54, name: 'SIGNWRITING LIP LOWER OVER UPPER', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_LIP_LOWER_OVER_UPPER = "\u{1DA54}";
 
-    #[Info(id: 121429, name: 'SIGNWRITING LIP UPPER OVER LOWER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA55, name: 'SIGNWRITING LIP UPPER OVER LOWER', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_LIP_UPPER_OVER_LOWER = "\u{1DA55}";
 
-    #[Info(id: 121430, name: 'SIGNWRITING MOUTH CORNERS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA56, name: 'SIGNWRITING MOUTH CORNERS', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_CORNERS = "\u{1DA56}";
 
-    #[Info(id: 121431, name: 'SIGNWRITING MOUTH WRINKLES SINGLE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA57, name: 'SIGNWRITING MOUTH WRINKLES SINGLE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_WRINKLES_SINGLE = "\u{1DA57}";
 
-    #[Info(id: 121432, name: 'SIGNWRITING MOUTH WRINKLES DOUBLE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA58, name: 'SIGNWRITING MOUTH WRINKLES DOUBLE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOUTH_WRINKLES_DOUBLE = "\u{1DA58}";
 
-    #[Info(id: 121433, name: 'SIGNWRITING TONGUE STICKING OUT FAR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA59, name: 'SIGNWRITING TONGUE STICKING OUT FAR', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TONGUE_STICKING_OUT_FAR = "\u{1DA59}";
 
-    #[Info(id: 121434, name: 'SIGNWRITING TONGUE LICKING LIPS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA5A, name: 'SIGNWRITING TONGUE LICKING LIPS', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TONGUE_LICKING_LIPS = "\u{1DA5A}";
 
-    #[Info(id: 121435, name: 'SIGNWRITING TONGUE TIP BETWEEN LIPS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA5B, name: 'SIGNWRITING TONGUE TIP BETWEEN LIPS', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TONGUE_TIP_BETWEEN_LIPS = "\u{1DA5B}";
 
-    #[Info(id: 121436, name: 'SIGNWRITING TONGUE TIP TOUCHING INSIDE MOUTH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA5C, name: 'SIGNWRITING TONGUE TIP TOUCHING INSIDE MOUTH', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TONGUE_TIP_TOUCHING_INSIDE_MOUTH = "\u{1DA5C}";
 
-    #[Info(id: 121437, name: 'SIGNWRITING TONGUE INSIDE MOUTH RELAXED', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA5D, name: 'SIGNWRITING TONGUE INSIDE MOUTH RELAXED', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TONGUE_INSIDE_MOUTH_RELAXED = "\u{1DA5D}";
 
-    #[Info(id: 121438, name: 'SIGNWRITING TONGUE MOVES AGAINST CHEEK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA5E, name: 'SIGNWRITING TONGUE MOVES AGAINST CHEEK', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TONGUE_MOVES_AGAINST_CHEEK = "\u{1DA5E}";
 
-    #[Info(id: 121439, name: 'SIGNWRITING TONGUE CENTRE STICKING OUT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA5F, name: 'SIGNWRITING TONGUE CENTRE STICKING OUT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TONGUE_CENTRE_STICKING_OUT = "\u{1DA5F}";
 
-    #[Info(id: 121440, name: 'SIGNWRITING TONGUE CENTRE INSIDE MOUTH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA60, name: 'SIGNWRITING TONGUE CENTRE INSIDE MOUTH', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TONGUE_CENTRE_INSIDE_MOUTH = "\u{1DA60}";
 
-    #[Info(id: 121441, name: 'SIGNWRITING TEETH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA61, name: 'SIGNWRITING TEETH', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TEETH = "\u{1DA61}";
 
-    #[Info(id: 121442, name: 'SIGNWRITING TEETH MOVEMENT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA62, name: 'SIGNWRITING TEETH MOVEMENT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TEETH_MOVEMENT = "\u{1DA62}";
 
-    #[Info(id: 121443, name: 'SIGNWRITING TEETH ON TONGUE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA63, name: 'SIGNWRITING TEETH ON TONGUE', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TEETH_ON_TONGUE = "\u{1DA63}";
 
-    #[Info(id: 121444, name: 'SIGNWRITING TEETH ON TONGUE MOVEMENT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA64, name: 'SIGNWRITING TEETH ON TONGUE MOVEMENT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TEETH_ON_TONGUE_MOVEMENT = "\u{1DA64}";
 
-    #[Info(id: 121445, name: 'SIGNWRITING TEETH ON LIPS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA65, name: 'SIGNWRITING TEETH ON LIPS', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TEETH_ON_LIPS = "\u{1DA65}";
 
-    #[Info(id: 121446, name: 'SIGNWRITING TEETH ON LIPS MOVEMENT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA66, name: 'SIGNWRITING TEETH ON LIPS MOVEMENT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TEETH_ON_LIPS_MOVEMENT = "\u{1DA66}";
 
-    #[Info(id: 121447, name: 'SIGNWRITING TEETH BITE LIPS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA67, name: 'SIGNWRITING TEETH BITE LIPS', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_TEETH_BITE_LIPS = "\u{1DA67}";
 
-    #[Info(id: 121448, name: 'SIGNWRITING MOVEMENT-WALLPLANE JAW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA68, name: 'SIGNWRITING MOVEMENT-WALLPLANE JAW', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOVEMENT_WALLPLANE_JAW = "\u{1DA68}";
 
-    #[Info(id: 121449, name: 'SIGNWRITING MOVEMENT-FLOORPLANE JAW', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA69, name: 'SIGNWRITING MOVEMENT-FLOORPLANE JAW', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_MOVEMENT_FLOORPLANE_JAW = "\u{1DA69}";
 
-    #[Info(id: 121450, name: 'SIGNWRITING NECK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA6A, name: 'SIGNWRITING NECK', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_NECK = "\u{1DA6A}";
 
-    #[Info(id: 121451, name: 'SIGNWRITING HAIR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA6B, name: 'SIGNWRITING HAIR', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_HAIR = "\u{1DA6B}";
 
-    #[Info(id: 121452, name: 'SIGNWRITING EXCITEMENT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA6C, name: 'SIGNWRITING EXCITEMENT', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_EXCITEMENT = "\u{1DA6C}";
 
-    #[Info(id: 121453, name: 'SIGNWRITING SHOULDER HIP SPINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA6D, name: 'SIGNWRITING SHOULDER HIP SPINE', category: Cat::Other_Symbol)]
     case SIGNWRITING_SHOULDER_HIP_SPINE = "\u{1DA6D}";
 
-    #[Info(id: 121454, name: 'SIGNWRITING SHOULDER HIP POSITIONS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA6E, name: 'SIGNWRITING SHOULDER HIP POSITIONS', category: Cat::Other_Symbol)]
     case SIGNWRITING_SHOULDER_HIP_POSITIONS = "\u{1DA6E}";
 
-    #[Info(id: 121455, name: 'SIGNWRITING WALLPLANE SHOULDER HIP MOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA6F, name: 'SIGNWRITING WALLPLANE SHOULDER HIP MOVE', category: Cat::Other_Symbol)]
     case SIGNWRITING_WALLPLANE_SHOULDER_HIP_MOVE = "\u{1DA6F}";
 
-    #[Info(id: 121456, name: 'SIGNWRITING FLOORPLANE SHOULDER HIP MOVE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA70, name: 'SIGNWRITING FLOORPLANE SHOULDER HIP MOVE', category: Cat::Other_Symbol)]
     case SIGNWRITING_FLOORPLANE_SHOULDER_HIP_MOVE = "\u{1DA70}";
 
-    #[Info(id: 121457, name: 'SIGNWRITING SHOULDER TILTING FROM WAIST', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA71, name: 'SIGNWRITING SHOULDER TILTING FROM WAIST', category: Cat::Other_Symbol)]
     case SIGNWRITING_SHOULDER_TILTING_FROM_WAIST = "\u{1DA71}";
 
-    #[Info(id: 121458, name: 'SIGNWRITING TORSO-WALLPLANE STRAIGHT STRETCH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA72, name: 'SIGNWRITING TORSO-WALLPLANE STRAIGHT STRETCH', category: Cat::Other_Symbol)]
     case SIGNWRITING_TORSO_WALLPLANE_STRAIGHT_STRETCH = "\u{1DA72}";
 
-    #[Info(id: 121459, name: 'SIGNWRITING TORSO-WALLPLANE CURVED BEND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA73, name: 'SIGNWRITING TORSO-WALLPLANE CURVED BEND', category: Cat::Other_Symbol)]
     case SIGNWRITING_TORSO_WALLPLANE_CURVED_BEND = "\u{1DA73}";
 
-    #[Info(id: 121460, name: 'SIGNWRITING TORSO-FLOORPLANE TWISTING', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA74, name: 'SIGNWRITING TORSO-FLOORPLANE TWISTING', category: Cat::Other_Symbol)]
     case SIGNWRITING_TORSO_FLOORPLANE_TWISTING = "\u{1DA74}";
 
-    #[Info(id: 121461, name: 'SIGNWRITING UPPER BODY TILTING FROM HIP JOINTS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA75, name: 'SIGNWRITING UPPER BODY TILTING FROM HIP JOINTS', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_UPPER_BODY_TILTING_FROM_HIP_JOINTS = "\u{1DA75}";
 
-    #[Info(id: 121462, name: 'SIGNWRITING LIMB COMBINATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA76, name: 'SIGNWRITING LIMB COMBINATION', category: Cat::Other_Symbol)]
     case SIGNWRITING_LIMB_COMBINATION = "\u{1DA76}";
 
-    #[Info(id: 121463, name: 'SIGNWRITING LIMB LENGTH-1', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA77, name: 'SIGNWRITING LIMB LENGTH-1', category: Cat::Other_Symbol)]
     case SIGNWRITING_LIMB_LENGTH_1 = "\u{1DA77}";
 
-    #[Info(id: 121464, name: 'SIGNWRITING LIMB LENGTH-2', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA78, name: 'SIGNWRITING LIMB LENGTH-2', category: Cat::Other_Symbol)]
     case SIGNWRITING_LIMB_LENGTH_2 = "\u{1DA78}";
 
-    #[Info(id: 121465, name: 'SIGNWRITING LIMB LENGTH-3', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA79, name: 'SIGNWRITING LIMB LENGTH-3', category: Cat::Other_Symbol)]
     case SIGNWRITING_LIMB_LENGTH_3 = "\u{1DA79}";
 
-    #[Info(id: 121466, name: 'SIGNWRITING LIMB LENGTH-4', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA7A, name: 'SIGNWRITING LIMB LENGTH-4', category: Cat::Other_Symbol)]
     case SIGNWRITING_LIMB_LENGTH_4 = "\u{1DA7A}";
 
-    #[Info(id: 121467, name: 'SIGNWRITING LIMB LENGTH-5', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA7B, name: 'SIGNWRITING LIMB LENGTH-5', category: Cat::Other_Symbol)]
     case SIGNWRITING_LIMB_LENGTH_5 = "\u{1DA7B}";
 
-    #[Info(id: 121468, name: 'SIGNWRITING LIMB LENGTH-6', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA7C, name: 'SIGNWRITING LIMB LENGTH-6', category: Cat::Other_Symbol)]
     case SIGNWRITING_LIMB_LENGTH_6 = "\u{1DA7C}";
 
-    #[Info(id: 121469, name: 'SIGNWRITING LIMB LENGTH-7', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA7D, name: 'SIGNWRITING LIMB LENGTH-7', category: Cat::Other_Symbol)]
     case SIGNWRITING_LIMB_LENGTH_7 = "\u{1DA7D}";
 
-    #[Info(id: 121470, name: 'SIGNWRITING FINGER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA7E, name: 'SIGNWRITING FINGER', category: Cat::Other_Symbol)]
     case SIGNWRITING_FINGER = "\u{1DA7E}";
 
-    #[Info(id: 121471, name: 'SIGNWRITING LOCATION-WALLPLANE SPACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA7F, name: 'SIGNWRITING LOCATION-WALLPLANE SPACE', category: Cat::Other_Symbol)]
     case SIGNWRITING_LOCATION_WALLPLANE_SPACE = "\u{1DA7F}";
 
-    #[Info(id: 121472, name: 'SIGNWRITING LOCATION-FLOORPLANE SPACE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA80, name: 'SIGNWRITING LOCATION-FLOORPLANE SPACE', category: Cat::Other_Symbol)]
     case SIGNWRITING_LOCATION_FLOORPLANE_SPACE = "\u{1DA80}";
 
-    #[Info(id: 121473, name: 'SIGNWRITING LOCATION HEIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA81, name: 'SIGNWRITING LOCATION HEIGHT', category: Cat::Other_Symbol)]
     case SIGNWRITING_LOCATION_HEIGHT = "\u{1DA81}";
 
-    #[Info(id: 121474, name: 'SIGNWRITING LOCATION WIDTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA82, name: 'SIGNWRITING LOCATION WIDTH', category: Cat::Other_Symbol)]
     case SIGNWRITING_LOCATION_WIDTH = "\u{1DA82}";
 
-    #[Info(id: 121475, name: 'SIGNWRITING LOCATION DEPTH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA83, name: 'SIGNWRITING LOCATION DEPTH', category: Cat::Other_Symbol)]
     case SIGNWRITING_LOCATION_DEPTH = "\u{1DA83}";
 
-    #[Info(id: 121476, name: 'SIGNWRITING LOCATION HEAD NECK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA84, name: 'SIGNWRITING LOCATION HEAD NECK', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_LOCATION_HEAD_NECK = "\u{1DA84}";
 
-    #[Info(id: 121477, name: 'SIGNWRITING LOCATION TORSO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA85, name: 'SIGNWRITING LOCATION TORSO', category: Cat::Other_Symbol)]
     case SIGNWRITING_LOCATION_TORSO = "\u{1DA85}";
 
-    #[Info(id: 121478, name: 'SIGNWRITING LOCATION LIMBS DIGITS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1DA86, name: 'SIGNWRITING LOCATION LIMBS DIGITS', category: Cat::Other_Symbol)]
     case SIGNWRITING_LOCATION_LIMBS_DIGITS = "\u{1DA86}";
 
-    #[Info(id: 121479, name: 'SIGNWRITING COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1DA87, name: 'SIGNWRITING COMMA', category: Cat::Other_Punctuation)]
     case SIGNWRITING_COMMA = "\u{1DA87}";
 
-    #[Info(id: 121480, name: 'SIGNWRITING FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1DA88, name: 'SIGNWRITING FULL STOP', category: Cat::Other_Punctuation)]
     case SIGNWRITING_FULL_STOP = "\u{1DA88}";
 
-    #[Info(id: 121481, name: 'SIGNWRITING SEMICOLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1DA89, name: 'SIGNWRITING SEMICOLON', category: Cat::Other_Punctuation)]
     case SIGNWRITING_SEMICOLON = "\u{1DA89}";
 
-    #[Info(id: 121482, name: 'SIGNWRITING COLON', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1DA8A, name: 'SIGNWRITING COLON', category: Cat::Other_Punctuation)]
     case SIGNWRITING_COLON = "\u{1DA8A}";
 
-    #[Info(id: 121483, name: 'SIGNWRITING PARENTHESIS', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1DA8B, name: 'SIGNWRITING PARENTHESIS', category: Cat::Other_Punctuation)]
     case SIGNWRITING_PARENTHESIS = "\u{1DA8B}";
 
-    #[Info(id: 121499, name: 'SIGNWRITING FILL MODIFIER-2', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA9B, name: 'SIGNWRITING FILL MODIFIER-2', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_FILL_MODIFIER_2 = "\u{1DA9B}";
 
-    #[Info(id: 121500, name: 'SIGNWRITING FILL MODIFIER-3', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA9C, name: 'SIGNWRITING FILL MODIFIER-3', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_FILL_MODIFIER_3 = "\u{1DA9C}";
 
-    #[Info(id: 121501, name: 'SIGNWRITING FILL MODIFIER-4', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA9D, name: 'SIGNWRITING FILL MODIFIER-4', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_FILL_MODIFIER_4 = "\u{1DA9D}";
 
-    #[Info(id: 121502, name: 'SIGNWRITING FILL MODIFIER-5', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA9E, name: 'SIGNWRITING FILL MODIFIER-5', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_FILL_MODIFIER_5 = "\u{1DA9E}";
 
-    #[Info(id: 121503, name: 'SIGNWRITING FILL MODIFIER-6', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DA9F, name: 'SIGNWRITING FILL MODIFIER-6', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_FILL_MODIFIER_6 = "\u{1DA9F}";
 
-    #[Info(id: 121505, name: 'SIGNWRITING ROTATION MODIFIER-2', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAA1, name: 'SIGNWRITING ROTATION MODIFIER-2', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_2 = "\u{1DAA1}";
 
-    #[Info(id: 121506, name: 'SIGNWRITING ROTATION MODIFIER-3', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAA2, name: 'SIGNWRITING ROTATION MODIFIER-3', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_3 = "\u{1DAA2}";
 
-    #[Info(id: 121507, name: 'SIGNWRITING ROTATION MODIFIER-4', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAA3, name: 'SIGNWRITING ROTATION MODIFIER-4', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_4 = "\u{1DAA3}";
 
-    #[Info(id: 121508, name: 'SIGNWRITING ROTATION MODIFIER-5', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAA4, name: 'SIGNWRITING ROTATION MODIFIER-5', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_5 = "\u{1DAA4}";
 
-    #[Info(id: 121509, name: 'SIGNWRITING ROTATION MODIFIER-6', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAA5, name: 'SIGNWRITING ROTATION MODIFIER-6', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_6 = "\u{1DAA5}";
 
-    #[Info(id: 121510, name: 'SIGNWRITING ROTATION MODIFIER-7', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAA6, name: 'SIGNWRITING ROTATION MODIFIER-7', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_7 = "\u{1DAA6}";
 
-    #[Info(id: 121511, name: 'SIGNWRITING ROTATION MODIFIER-8', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAA7, name: 'SIGNWRITING ROTATION MODIFIER-8', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_8 = "\u{1DAA7}";
 
-    #[Info(id: 121512, name: 'SIGNWRITING ROTATION MODIFIER-9', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAA8, name: 'SIGNWRITING ROTATION MODIFIER-9', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_9 = "\u{1DAA8}";
 
-    #[Info(id: 121513, name: 'SIGNWRITING ROTATION MODIFIER-10', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAA9, name: 'SIGNWRITING ROTATION MODIFIER-10', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_10 = "\u{1DAA9}";
 
-    #[Info(id: 121514, name: 'SIGNWRITING ROTATION MODIFIER-11', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAAA, name: 'SIGNWRITING ROTATION MODIFIER-11', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_11 = "\u{1DAAA}";
 
-    #[Info(id: 121515, name: 'SIGNWRITING ROTATION MODIFIER-12', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAAB, name: 'SIGNWRITING ROTATION MODIFIER-12', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_12 = "\u{1DAAB}";
 
-    #[Info(id: 121516, name: 'SIGNWRITING ROTATION MODIFIER-13', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAAC, name: 'SIGNWRITING ROTATION MODIFIER-13', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_13 = "\u{1DAAC}";
 
-    #[Info(id: 121517, name: 'SIGNWRITING ROTATION MODIFIER-14', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAAD, name: 'SIGNWRITING ROTATION MODIFIER-14', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_14 = "\u{1DAAD}";
 
-    #[Info(id: 121518, name: 'SIGNWRITING ROTATION MODIFIER-15', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAAE, name: 'SIGNWRITING ROTATION MODIFIER-15', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_15 = "\u{1DAAE}";
 
-    #[Info(id: 121519, name: 'SIGNWRITING ROTATION MODIFIER-16', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1DAAF, name: 'SIGNWRITING ROTATION MODIFIER-16', category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_16 = "\u{1DAAF}";
 }

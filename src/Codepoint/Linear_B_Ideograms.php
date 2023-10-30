@@ -16,372 +16,372 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Linear_B_Ideograms: string
 {
-    #[Info(id: 65664, name: 'LINEAR B IDEOGRAM B100 MAN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10080, name: 'LINEAR B IDEOGRAM B100 MAN', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B100_MAN = "\u{10080}";
 
-    #[Info(id: 65665, name: 'LINEAR B IDEOGRAM B102 WOMAN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10081, name: 'LINEAR B IDEOGRAM B102 WOMAN', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B102_WOMAN = "\u{10081}";
 
-    #[Info(id: 65666, name: 'LINEAR B IDEOGRAM B104 DEER', category: Cat::Other_Letter)]
+    #[Info(id: 0x10082, name: 'LINEAR B IDEOGRAM B104 DEER', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B104_DEER = "\u{10082}";
 
-    #[Info(id: 65667, name: 'LINEAR B IDEOGRAM B105 EQUID', category: Cat::Other_Letter)]
+    #[Info(id: 0x10083, name: 'LINEAR B IDEOGRAM B105 EQUID', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B105_EQUID = "\u{10083}";
 
-    #[Info(id: 65668, name: 'LINEAR B IDEOGRAM B105F MARE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10084, name: 'LINEAR B IDEOGRAM B105F MARE', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B105F_MARE = "\u{10084}";
 
-    #[Info(id: 65669, name: 'LINEAR B IDEOGRAM B105M STALLION', category: Cat::Other_Letter)]
+    #[Info(id: 0x10085, name: 'LINEAR B IDEOGRAM B105M STALLION', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B105M_STALLION = "\u{10085}";
 
-    #[Info(id: 65670, name: 'LINEAR B IDEOGRAM B106F EWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10086, name: 'LINEAR B IDEOGRAM B106F EWE', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B106F_EWE = "\u{10086}";
 
-    #[Info(id: 65671, name: 'LINEAR B IDEOGRAM B106M RAM', category: Cat::Other_Letter)]
+    #[Info(id: 0x10087, name: 'LINEAR B IDEOGRAM B106M RAM', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B106M_RAM = "\u{10087}";
 
-    #[Info(id: 65672, name: 'LINEAR B IDEOGRAM B107F SHE-GOAT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10088, name: 'LINEAR B IDEOGRAM B107F SHE-GOAT', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B107F_SHE_GOAT = "\u{10088}";
 
-    #[Info(id: 65673, name: 'LINEAR B IDEOGRAM B107M HE-GOAT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10089, name: 'LINEAR B IDEOGRAM B107M HE-GOAT', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B107M_HE_GOAT = "\u{10089}";
 
-    #[Info(id: 65674, name: 'LINEAR B IDEOGRAM B108F SOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1008A, name: 'LINEAR B IDEOGRAM B108F SOW', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B108F_SOW = "\u{1008A}";
 
-    #[Info(id: 65675, name: 'LINEAR B IDEOGRAM B108M BOAR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1008B, name: 'LINEAR B IDEOGRAM B108M BOAR', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B108M_BOAR = "\u{1008B}";
 
-    #[Info(id: 65676, name: 'LINEAR B IDEOGRAM B109F COW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1008C, name: 'LINEAR B IDEOGRAM B109F COW', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B109F_COW = "\u{1008C}";
 
-    #[Info(id: 65677, name: 'LINEAR B IDEOGRAM B109M BULL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1008D, name: 'LINEAR B IDEOGRAM B109M BULL', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B109M_BULL = "\u{1008D}";
 
-    #[Info(id: 65678, name: 'LINEAR B IDEOGRAM B120 WHEAT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1008E, name: 'LINEAR B IDEOGRAM B120 WHEAT', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B120_WHEAT = "\u{1008E}";
 
-    #[Info(id: 65679, name: 'LINEAR B IDEOGRAM B121 BARLEY', category: Cat::Other_Letter)]
+    #[Info(id: 0x1008F, name: 'LINEAR B IDEOGRAM B121 BARLEY', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B121_BARLEY = "\u{1008F}";
 
-    #[Info(id: 65680, name: 'LINEAR B IDEOGRAM B122 OLIVE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10090, name: 'LINEAR B IDEOGRAM B122 OLIVE', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B122_OLIVE = "\u{10090}";
 
-    #[Info(id: 65681, name: 'LINEAR B IDEOGRAM B123 SPICE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10091, name: 'LINEAR B IDEOGRAM B123 SPICE', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B123_SPICE = "\u{10091}";
 
-    #[Info(id: 65682, name: 'LINEAR B IDEOGRAM B125 CYPERUS', category: Cat::Other_Letter)]
+    #[Info(id: 0x10092, name: 'LINEAR B IDEOGRAM B125 CYPERUS', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B125_CYPERUS = "\u{10092}";
 
-    #[Info(id: 65683, name: 'LINEAR B MONOGRAM B127 KAPO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10093, name: 'LINEAR B MONOGRAM B127 KAPO', category: Cat::Other_Letter)]
     case LINEAR_B_MONOGRAM_B127_KAPO = "\u{10093}";
 
-    #[Info(id: 65684, name: 'LINEAR B MONOGRAM B128 KANAKO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10094, name: 'LINEAR B MONOGRAM B128 KANAKO', category: Cat::Other_Letter)]
     case LINEAR_B_MONOGRAM_B128_KANAKO = "\u{10094}";
 
-    #[Info(id: 65685, name: 'LINEAR B IDEOGRAM B130 OIL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10095, name: 'LINEAR B IDEOGRAM B130 OIL', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B130_OIL = "\u{10095}";
 
-    #[Info(id: 65686, name: 'LINEAR B IDEOGRAM B131 WINE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10096, name: 'LINEAR B IDEOGRAM B131 WINE', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B131_WINE = "\u{10096}";
 
-    #[Info(id: 65687, name: 'LINEAR B IDEOGRAM B132', category: Cat::Other_Letter)]
+    #[Info(id: 0x10097, name: 'LINEAR B IDEOGRAM B132', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B132 = "\u{10097}";
 
-    #[Info(id: 65688, name: 'LINEAR B MONOGRAM B133 AREPA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10098, name: 'LINEAR B MONOGRAM B133 AREPA', category: Cat::Other_Letter)]
     case LINEAR_B_MONOGRAM_B133_AREPA = "\u{10098}";
 
-    #[Info(id: 65689, name: 'LINEAR B MONOGRAM B135 MERI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10099, name: 'LINEAR B MONOGRAM B135 MERI', category: Cat::Other_Letter)]
     case LINEAR_B_MONOGRAM_B135_MERI = "\u{10099}";
 
-    #[Info(id: 65690, name: 'LINEAR B IDEOGRAM B140 BRONZE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1009A, name: 'LINEAR B IDEOGRAM B140 BRONZE', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B140_BRONZE = "\u{1009A}";
 
-    #[Info(id: 65691, name: 'LINEAR B IDEOGRAM B141 GOLD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1009B, name: 'LINEAR B IDEOGRAM B141 GOLD', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B141_GOLD = "\u{1009B}";
 
-    #[Info(id: 65692, name: 'LINEAR B IDEOGRAM B142', category: Cat::Other_Letter)]
+    #[Info(id: 0x1009C, name: 'LINEAR B IDEOGRAM B142', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B142 = "\u{1009C}";
 
-    #[Info(id: 65693, name: 'LINEAR B IDEOGRAM B145 WOOL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1009D, name: 'LINEAR B IDEOGRAM B145 WOOL', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B145_WOOL = "\u{1009D}";
 
-    #[Info(id: 65694, name: 'LINEAR B IDEOGRAM B146', category: Cat::Other_Letter)]
+    #[Info(id: 0x1009E, name: 'LINEAR B IDEOGRAM B146', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B146 = "\u{1009E}";
 
-    #[Info(id: 65695, name: 'LINEAR B IDEOGRAM B150', category: Cat::Other_Letter)]
+    #[Info(id: 0x1009F, name: 'LINEAR B IDEOGRAM B150', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B150 = "\u{1009F}";
 
-    #[Info(id: 65696, name: 'LINEAR B IDEOGRAM B151 HORN', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A0, name: 'LINEAR B IDEOGRAM B151 HORN', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B151_HORN = "\u{100A0}";
 
-    #[Info(id: 65697, name: 'LINEAR B IDEOGRAM B152', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A1, name: 'LINEAR B IDEOGRAM B152', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B152 = "\u{100A1}";
 
-    #[Info(id: 65698, name: 'LINEAR B IDEOGRAM B153', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A2, name: 'LINEAR B IDEOGRAM B153', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B153 = "\u{100A2}";
 
-    #[Info(id: 65699, name: 'LINEAR B IDEOGRAM B154', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A3, name: 'LINEAR B IDEOGRAM B154', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B154 = "\u{100A3}";
 
-    #[Info(id: 65700, name: 'LINEAR B MONOGRAM B156 TURO2', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A4, name: 'LINEAR B MONOGRAM B156 TURO2', category: Cat::Other_Letter)]
     case LINEAR_B_MONOGRAM_B156_TURO2 = "\u{100A4}";
 
-    #[Info(id: 65701, name: 'LINEAR B IDEOGRAM B157', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A5, name: 'LINEAR B IDEOGRAM B157', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B157 = "\u{100A5}";
 
-    #[Info(id: 65702, name: 'LINEAR B IDEOGRAM B158', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A6, name: 'LINEAR B IDEOGRAM B158', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B158 = "\u{100A6}";
 
-    #[Info(id: 65703, name: 'LINEAR B IDEOGRAM B159 CLOTH', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A7, name: 'LINEAR B IDEOGRAM B159 CLOTH', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B159_CLOTH = "\u{100A7}";
 
-    #[Info(id: 65704, name: 'LINEAR B IDEOGRAM B160', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A8, name: 'LINEAR B IDEOGRAM B160', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B160 = "\u{100A8}";
 
-    #[Info(id: 65705, name: 'LINEAR B IDEOGRAM B161', category: Cat::Other_Letter)]
+    #[Info(id: 0x100A9, name: 'LINEAR B IDEOGRAM B161', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B161 = "\u{100A9}";
 
-    #[Info(id: 65706, name: 'LINEAR B IDEOGRAM B162 GARMENT', category: Cat::Other_Letter)]
+    #[Info(id: 0x100AA, name: 'LINEAR B IDEOGRAM B162 GARMENT', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B162_GARMENT = "\u{100AA}";
 
-    #[Info(id: 65707, name: 'LINEAR B IDEOGRAM B163 ARMOUR', category: Cat::Other_Letter)]
+    #[Info(id: 0x100AB, name: 'LINEAR B IDEOGRAM B163 ARMOUR', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B163_ARMOUR = "\u{100AB}";
 
-    #[Info(id: 65708, name: 'LINEAR B IDEOGRAM B164', category: Cat::Other_Letter)]
+    #[Info(id: 0x100AC, name: 'LINEAR B IDEOGRAM B164', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B164 = "\u{100AC}";
 
-    #[Info(id: 65709, name: 'LINEAR B IDEOGRAM B165', category: Cat::Other_Letter)]
+    #[Info(id: 0x100AD, name: 'LINEAR B IDEOGRAM B165', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B165 = "\u{100AD}";
 
-    #[Info(id: 65710, name: 'LINEAR B IDEOGRAM B166', category: Cat::Other_Letter)]
+    #[Info(id: 0x100AE, name: 'LINEAR B IDEOGRAM B166', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B166 = "\u{100AE}";
 
-    #[Info(id: 65711, name: 'LINEAR B IDEOGRAM B167', category: Cat::Other_Letter)]
+    #[Info(id: 0x100AF, name: 'LINEAR B IDEOGRAM B167', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B167 = "\u{100AF}";
 
-    #[Info(id: 65712, name: 'LINEAR B IDEOGRAM B168', category: Cat::Other_Letter)]
+    #[Info(id: 0x100B0, name: 'LINEAR B IDEOGRAM B168', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B168 = "\u{100B0}";
 
-    #[Info(id: 65713, name: 'LINEAR B IDEOGRAM B169', category: Cat::Other_Letter)]
+    #[Info(id: 0x100B1, name: 'LINEAR B IDEOGRAM B169', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B169 = "\u{100B1}";
 
-    #[Info(id: 65714, name: 'LINEAR B IDEOGRAM B170', category: Cat::Other_Letter)]
+    #[Info(id: 0x100B2, name: 'LINEAR B IDEOGRAM B170', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B170 = "\u{100B2}";
 
-    #[Info(id: 65715, name: 'LINEAR B IDEOGRAM B171', category: Cat::Other_Letter)]
+    #[Info(id: 0x100B3, name: 'LINEAR B IDEOGRAM B171', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B171 = "\u{100B3}";
 
-    #[Info(id: 65716, name: 'LINEAR B IDEOGRAM B172', category: Cat::Other_Letter)]
+    #[Info(id: 0x100B4, name: 'LINEAR B IDEOGRAM B172', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B172 = "\u{100B4}";
 
-    #[Info(id: 65717, name: 'LINEAR B IDEOGRAM B173 MONTH', category: Cat::Other_Letter)]
+    #[Info(id: 0x100B5, name: 'LINEAR B IDEOGRAM B173 MONTH', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B173_MONTH = "\u{100B5}";
 
-    #[Info(id: 65718, name: 'LINEAR B IDEOGRAM B174', category: Cat::Other_Letter)]
+    #[Info(id: 0x100B6, name: 'LINEAR B IDEOGRAM B174', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B174 = "\u{100B6}";
 
-    #[Info(id: 65719, name: 'LINEAR B IDEOGRAM B176 TREE', category: Cat::Other_Letter)]
+    #[Info(id: 0x100B7, name: 'LINEAR B IDEOGRAM B176 TREE', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B176_TREE = "\u{100B7}";
 
-    #[Info(id: 65720, name: 'LINEAR B IDEOGRAM B177', category: Cat::Other_Letter)]
+    #[Info(id: 0x100B8, name: 'LINEAR B IDEOGRAM B177', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B177 = "\u{100B8}";
 
-    #[Info(id: 65721, name: 'LINEAR B IDEOGRAM B178', category: Cat::Other_Letter)]
+    #[Info(id: 0x100B9, name: 'LINEAR B IDEOGRAM B178', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B178 = "\u{100B9}";
 
-    #[Info(id: 65722, name: 'LINEAR B IDEOGRAM B179', category: Cat::Other_Letter)]
+    #[Info(id: 0x100BA, name: 'LINEAR B IDEOGRAM B179', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B179 = "\u{100BA}";
 
-    #[Info(id: 65723, name: 'LINEAR B IDEOGRAM B180', category: Cat::Other_Letter)]
+    #[Info(id: 0x100BB, name: 'LINEAR B IDEOGRAM B180', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B180 = "\u{100BB}";
 
-    #[Info(id: 65724, name: 'LINEAR B IDEOGRAM B181', category: Cat::Other_Letter)]
+    #[Info(id: 0x100BC, name: 'LINEAR B IDEOGRAM B181', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B181 = "\u{100BC}";
 
-    #[Info(id: 65725, name: 'LINEAR B IDEOGRAM B182', category: Cat::Other_Letter)]
+    #[Info(id: 0x100BD, name: 'LINEAR B IDEOGRAM B182', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B182 = "\u{100BD}";
 
-    #[Info(id: 65726, name: 'LINEAR B IDEOGRAM B183', category: Cat::Other_Letter)]
+    #[Info(id: 0x100BE, name: 'LINEAR B IDEOGRAM B183', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B183 = "\u{100BE}";
 
-    #[Info(id: 65727, name: 'LINEAR B IDEOGRAM B184', category: Cat::Other_Letter)]
+    #[Info(id: 0x100BF, name: 'LINEAR B IDEOGRAM B184', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B184 = "\u{100BF}";
 
-    #[Info(id: 65728, name: 'LINEAR B IDEOGRAM B185', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C0, name: 'LINEAR B IDEOGRAM B185', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B185 = "\u{100C0}";
 
-    #[Info(id: 65729, name: 'LINEAR B IDEOGRAM B189', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C1, name: 'LINEAR B IDEOGRAM B189', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B189 = "\u{100C1}";
 
-    #[Info(id: 65730, name: 'LINEAR B IDEOGRAM B190', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C2, name: 'LINEAR B IDEOGRAM B190', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B190 = "\u{100C2}";
 
-    #[Info(id: 65731, name: 'LINEAR B IDEOGRAM B191 HELMET', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C3, name: 'LINEAR B IDEOGRAM B191 HELMET', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B191_HELMET = "\u{100C3}";
 
-    #[Info(id: 65732, name: 'LINEAR B IDEOGRAM B220 FOOTSTOOL', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C4, name: 'LINEAR B IDEOGRAM B220 FOOTSTOOL', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B220_FOOTSTOOL = "\u{100C4}";
 
-    #[Info(id: 65733, name: 'LINEAR B IDEOGRAM B225 BATHTUB', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C5, name: 'LINEAR B IDEOGRAM B225 BATHTUB', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B225_BATHTUB = "\u{100C5}";
 
-    #[Info(id: 65734, name: 'LINEAR B IDEOGRAM B230 SPEAR', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C6, name: 'LINEAR B IDEOGRAM B230 SPEAR', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B230_SPEAR = "\u{100C6}";
 
-    #[Info(id: 65735, name: 'LINEAR B IDEOGRAM B231 ARROW', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C7, name: 'LINEAR B IDEOGRAM B231 ARROW', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B231_ARROW = "\u{100C7}";
 
-    #[Info(id: 65736, name: 'LINEAR B IDEOGRAM B232', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C8, name: 'LINEAR B IDEOGRAM B232', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B232 = "\u{100C8}";
 
-    #[Info(id: 65737, name: 'LINEAR B IDEOGRAM B233 SWORD', category: Cat::Other_Letter)]
+    #[Info(id: 0x100C9, name: 'LINEAR B IDEOGRAM B233 SWORD', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B233_SWORD = "\u{100C9}";
 
-    #[Info(id: 65738, name: 'LINEAR B IDEOGRAM B234', category: Cat::Other_Letter)]
+    #[Info(id: 0x100CA, name: 'LINEAR B IDEOGRAM B234', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B234 = "\u{100CA}";
 
-    #[Info(id: 65739, name: 'LINEAR B IDEOGRAM B236', category: Cat::Other_Letter)]
+    #[Info(id: 0x100CB, name: 'LINEAR B IDEOGRAM B236', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B236 = "\u{100CB}";
 
-    #[Info(id: 65740, name: 'LINEAR B IDEOGRAM B240 WHEELED CHARIOT', category: Cat::Other_Letter)]
+    #[Info(id: 0x100CC, name: 'LINEAR B IDEOGRAM B240 WHEELED CHARIOT', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B240_WHEELED_CHARIOT = "\u{100CC}";
 
-    #[Info(id: 65741, name: 'LINEAR B IDEOGRAM B241 CHARIOT', category: Cat::Other_Letter)]
+    #[Info(id: 0x100CD, name: 'LINEAR B IDEOGRAM B241 CHARIOT', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B241_CHARIOT = "\u{100CD}";
 
-    #[Info(id: 65742, name: 'LINEAR B IDEOGRAM B242 CHARIOT FRAME', category: Cat::Other_Letter)]
+    #[Info(id: 0x100CE, name: 'LINEAR B IDEOGRAM B242 CHARIOT FRAME', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B242_CHARIOT_FRAME = "\u{100CE}";
 
-    #[Info(id: 65743, name: 'LINEAR B IDEOGRAM B243 WHEEL', category: Cat::Other_Letter)]
+    #[Info(id: 0x100CF, name: 'LINEAR B IDEOGRAM B243 WHEEL', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B243_WHEEL = "\u{100CF}";
 
-    #[Info(id: 65744, name: 'LINEAR B IDEOGRAM B245', category: Cat::Other_Letter)]
+    #[Info(id: 0x100D0, name: 'LINEAR B IDEOGRAM B245', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B245 = "\u{100D0}";
 
-    #[Info(id: 65745, name: 'LINEAR B IDEOGRAM B246', category: Cat::Other_Letter)]
+    #[Info(id: 0x100D1, name: 'LINEAR B IDEOGRAM B246', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B246 = "\u{100D1}";
 
-    #[Info(id: 65746, name: 'LINEAR B MONOGRAM B247 DIPTE', category: Cat::Other_Letter)]
+    #[Info(id: 0x100D2, name: 'LINEAR B MONOGRAM B247 DIPTE', category: Cat::Other_Letter)]
     case LINEAR_B_MONOGRAM_B247_DIPTE = "\u{100D2}";
 
-    #[Info(id: 65747, name: 'LINEAR B IDEOGRAM B248', category: Cat::Other_Letter)]
+    #[Info(id: 0x100D3, name: 'LINEAR B IDEOGRAM B248', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B248 = "\u{100D3}";
 
-    #[Info(id: 65748, name: 'LINEAR B IDEOGRAM B249', category: Cat::Other_Letter)]
+    #[Info(id: 0x100D4, name: 'LINEAR B IDEOGRAM B249', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B249 = "\u{100D4}";
 
-    #[Info(id: 65749, name: 'LINEAR B IDEOGRAM B251', category: Cat::Other_Letter)]
+    #[Info(id: 0x100D5, name: 'LINEAR B IDEOGRAM B251', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B251 = "\u{100D5}";
 
-    #[Info(id: 65750, name: 'LINEAR B IDEOGRAM B252', category: Cat::Other_Letter)]
+    #[Info(id: 0x100D6, name: 'LINEAR B IDEOGRAM B252', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B252 = "\u{100D6}";
 
-    #[Info(id: 65751, name: 'LINEAR B IDEOGRAM B253', category: Cat::Other_Letter)]
+    #[Info(id: 0x100D7, name: 'LINEAR B IDEOGRAM B253', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B253 = "\u{100D7}";
 
-    #[Info(id: 65752, name: 'LINEAR B IDEOGRAM B254 DART', category: Cat::Other_Letter)]
+    #[Info(id: 0x100D8, name: 'LINEAR B IDEOGRAM B254 DART', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B254_DART = "\u{100D8}";
 
-    #[Info(id: 65753, name: 'LINEAR B IDEOGRAM B255', category: Cat::Other_Letter)]
+    #[Info(id: 0x100D9, name: 'LINEAR B IDEOGRAM B255', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B255 = "\u{100D9}";
 
-    #[Info(id: 65754, name: 'LINEAR B IDEOGRAM B256', category: Cat::Other_Letter)]
+    #[Info(id: 0x100DA, name: 'LINEAR B IDEOGRAM B256', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B256 = "\u{100DA}";
 
-    #[Info(id: 65755, name: 'LINEAR B IDEOGRAM B257', category: Cat::Other_Letter)]
+    #[Info(id: 0x100DB, name: 'LINEAR B IDEOGRAM B257', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B257 = "\u{100DB}";
 
-    #[Info(id: 65756, name: 'LINEAR B IDEOGRAM B258', category: Cat::Other_Letter)]
+    #[Info(id: 0x100DC, name: 'LINEAR B IDEOGRAM B258', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B258 = "\u{100DC}";
 
-    #[Info(id: 65757, name: 'LINEAR B IDEOGRAM B259', category: Cat::Other_Letter)]
+    #[Info(id: 0x100DD, name: 'LINEAR B IDEOGRAM B259', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_B259 = "\u{100DD}";
 
-    #[Info(id: 65758, name: 'LINEAR B IDEOGRAM VESSEL B155', category: Cat::Other_Letter)]
+    #[Info(id: 0x100DE, name: 'LINEAR B IDEOGRAM VESSEL B155', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B155 = "\u{100DE}";
 
-    #[Info(id: 65759, name: 'LINEAR B IDEOGRAM VESSEL B200', category: Cat::Other_Letter)]
+    #[Info(id: 0x100DF, name: 'LINEAR B IDEOGRAM VESSEL B200', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B200 = "\u{100DF}";
 
-    #[Info(id: 65760, name: 'LINEAR B IDEOGRAM VESSEL B201', category: Cat::Other_Letter)]
+    #[Info(id: 0x100E0, name: 'LINEAR B IDEOGRAM VESSEL B201', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B201 = "\u{100E0}";
 
-    #[Info(id: 65761, name: 'LINEAR B IDEOGRAM VESSEL B202', category: Cat::Other_Letter)]
+    #[Info(id: 0x100E1, name: 'LINEAR B IDEOGRAM VESSEL B202', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B202 = "\u{100E1}";
 
-    #[Info(id: 65762, name: 'LINEAR B IDEOGRAM VESSEL B203', category: Cat::Other_Letter)]
+    #[Info(id: 0x100E2, name: 'LINEAR B IDEOGRAM VESSEL B203', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B203 = "\u{100E2}";
 
-    #[Info(id: 65763, name: 'LINEAR B IDEOGRAM VESSEL B204', category: Cat::Other_Letter)]
+    #[Info(id: 0x100E3, name: 'LINEAR B IDEOGRAM VESSEL B204', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B204 = "\u{100E3}";
 
-    #[Info(id: 65764, name: 'LINEAR B IDEOGRAM VESSEL B205', category: Cat::Other_Letter)]
+    #[Info(id: 0x100E4, name: 'LINEAR B IDEOGRAM VESSEL B205', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B205 = "\u{100E4}";
 
-    #[Info(id: 65765, name: 'LINEAR B IDEOGRAM VESSEL B206', category: Cat::Other_Letter)]
+    #[Info(id: 0x100E5, name: 'LINEAR B IDEOGRAM VESSEL B206', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B206 = "\u{100E5}";
 
-    #[Info(id: 65766, name: 'LINEAR B IDEOGRAM VESSEL B207', category: Cat::Other_Letter)]
+    #[Info(id: 0x100E6, name: 'LINEAR B IDEOGRAM VESSEL B207', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B207 = "\u{100E6}";
 
-    #[Info(id: 65767, name: 'LINEAR B IDEOGRAM VESSEL B208', category: Cat::Other_Letter)]
+    #[Info(id: 0x100E7, name: 'LINEAR B IDEOGRAM VESSEL B208', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B208 = "\u{100E7}";
 
-    #[Info(id: 65768, name: 'LINEAR B IDEOGRAM VESSEL B209', category: Cat::Other_Letter)]
+    #[Info(id: 0x100E8, name: 'LINEAR B IDEOGRAM VESSEL B209', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B209 = "\u{100E8}";
 
-    #[Info(id: 65769, name: 'LINEAR B IDEOGRAM VESSEL B210', category: Cat::Other_Letter)]
+    #[Info(id: 0x100E9, name: 'LINEAR B IDEOGRAM VESSEL B210', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B210 = "\u{100E9}";
 
-    #[Info(id: 65770, name: 'LINEAR B IDEOGRAM VESSEL B211', category: Cat::Other_Letter)]
+    #[Info(id: 0x100EA, name: 'LINEAR B IDEOGRAM VESSEL B211', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B211 = "\u{100EA}";
 
-    #[Info(id: 65771, name: 'LINEAR B IDEOGRAM VESSEL B212', category: Cat::Other_Letter)]
+    #[Info(id: 0x100EB, name: 'LINEAR B IDEOGRAM VESSEL B212', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B212 = "\u{100EB}";
 
-    #[Info(id: 65772, name: 'LINEAR B IDEOGRAM VESSEL B213', category: Cat::Other_Letter)]
+    #[Info(id: 0x100EC, name: 'LINEAR B IDEOGRAM VESSEL B213', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B213 = "\u{100EC}";
 
-    #[Info(id: 65773, name: 'LINEAR B IDEOGRAM VESSEL B214', category: Cat::Other_Letter)]
+    #[Info(id: 0x100ED, name: 'LINEAR B IDEOGRAM VESSEL B214', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B214 = "\u{100ED}";
 
-    #[Info(id: 65774, name: 'LINEAR B IDEOGRAM VESSEL B215', category: Cat::Other_Letter)]
+    #[Info(id: 0x100EE, name: 'LINEAR B IDEOGRAM VESSEL B215', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B215 = "\u{100EE}";
 
-    #[Info(id: 65775, name: 'LINEAR B IDEOGRAM VESSEL B216', category: Cat::Other_Letter)]
+    #[Info(id: 0x100EF, name: 'LINEAR B IDEOGRAM VESSEL B216', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B216 = "\u{100EF}";
 
-    #[Info(id: 65776, name: 'LINEAR B IDEOGRAM VESSEL B217', category: Cat::Other_Letter)]
+    #[Info(id: 0x100F0, name: 'LINEAR B IDEOGRAM VESSEL B217', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B217 = "\u{100F0}";
 
-    #[Info(id: 65777, name: 'LINEAR B IDEOGRAM VESSEL B218', category: Cat::Other_Letter)]
+    #[Info(id: 0x100F1, name: 'LINEAR B IDEOGRAM VESSEL B218', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B218 = "\u{100F1}";
 
-    #[Info(id: 65778, name: 'LINEAR B IDEOGRAM VESSEL B219', category: Cat::Other_Letter)]
+    #[Info(id: 0x100F2, name: 'LINEAR B IDEOGRAM VESSEL B219', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B219 = "\u{100F2}";
 
-    #[Info(id: 65779, name: 'LINEAR B IDEOGRAM VESSEL B221', category: Cat::Other_Letter)]
+    #[Info(id: 0x100F3, name: 'LINEAR B IDEOGRAM VESSEL B221', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B221 = "\u{100F3}";
 
-    #[Info(id: 65780, name: 'LINEAR B IDEOGRAM VESSEL B222', category: Cat::Other_Letter)]
+    #[Info(id: 0x100F4, name: 'LINEAR B IDEOGRAM VESSEL B222', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B222 = "\u{100F4}";
 
-    #[Info(id: 65781, name: 'LINEAR B IDEOGRAM VESSEL B226', category: Cat::Other_Letter)]
+    #[Info(id: 0x100F5, name: 'LINEAR B IDEOGRAM VESSEL B226', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B226 = "\u{100F5}";
 
-    #[Info(id: 65782, name: 'LINEAR B IDEOGRAM VESSEL B227', category: Cat::Other_Letter)]
+    #[Info(id: 0x100F6, name: 'LINEAR B IDEOGRAM VESSEL B227', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B227 = "\u{100F6}";
 
-    #[Info(id: 65783, name: 'LINEAR B IDEOGRAM VESSEL B228', category: Cat::Other_Letter)]
+    #[Info(id: 0x100F7, name: 'LINEAR B IDEOGRAM VESSEL B228', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B228 = "\u{100F7}";
 
-    #[Info(id: 65784, name: 'LINEAR B IDEOGRAM VESSEL B229', category: Cat::Other_Letter)]
+    #[Info(id: 0x100F8, name: 'LINEAR B IDEOGRAM VESSEL B229', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B229 = "\u{100F8}";
 
-    #[Info(id: 65785, name: 'LINEAR B IDEOGRAM VESSEL B250', category: Cat::Other_Letter)]
+    #[Info(id: 0x100F9, name: 'LINEAR B IDEOGRAM VESSEL B250', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B250 = "\u{100F9}";
 
-    #[Info(id: 65786, name: 'LINEAR B IDEOGRAM VESSEL B305', category: Cat::Other_Letter)]
+    #[Info(id: 0x100FA, name: 'LINEAR B IDEOGRAM VESSEL B305', category: Cat::Other_Letter)]
     case LINEAR_B_IDEOGRAM_VESSEL_B305 = "\u{100FA}";
 }

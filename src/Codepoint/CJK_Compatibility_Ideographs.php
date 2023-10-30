@@ -16,1419 +16,1419 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum CJK_Compatibility_Ideographs: string
 {
-    #[Info(id: 63744, name: 'CJK COMPATIBILITY IDEOGRAPH-F900', category: Cat::Other_Letter)]
+    #[Info(id: 0xF900, name: 'CJK COMPATIBILITY IDEOGRAPH-F900', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F900 = "\u{F900}";
 
-    #[Info(id: 63745, name: 'CJK COMPATIBILITY IDEOGRAPH-F901', category: Cat::Other_Letter)]
+    #[Info(id: 0xF901, name: 'CJK COMPATIBILITY IDEOGRAPH-F901', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F901 = "\u{F901}";
 
-    #[Info(id: 63746, name: 'CJK COMPATIBILITY IDEOGRAPH-F902', category: Cat::Other_Letter)]
+    #[Info(id: 0xF902, name: 'CJK COMPATIBILITY IDEOGRAPH-F902', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F902 = "\u{F902}";
 
-    #[Info(id: 63747, name: 'CJK COMPATIBILITY IDEOGRAPH-F903', category: Cat::Other_Letter)]
+    #[Info(id: 0xF903, name: 'CJK COMPATIBILITY IDEOGRAPH-F903', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F903 = "\u{F903}";
 
-    #[Info(id: 63748, name: 'CJK COMPATIBILITY IDEOGRAPH-F904', category: Cat::Other_Letter)]
+    #[Info(id: 0xF904, name: 'CJK COMPATIBILITY IDEOGRAPH-F904', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F904 = "\u{F904}";
 
-    #[Info(id: 63749, name: 'CJK COMPATIBILITY IDEOGRAPH-F905', category: Cat::Other_Letter)]
+    #[Info(id: 0xF905, name: 'CJK COMPATIBILITY IDEOGRAPH-F905', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F905 = "\u{F905}";
 
-    #[Info(id: 63750, name: 'CJK COMPATIBILITY IDEOGRAPH-F906', category: Cat::Other_Letter)]
+    #[Info(id: 0xF906, name: 'CJK COMPATIBILITY IDEOGRAPH-F906', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F906 = "\u{F906}";
 
-    #[Info(id: 63751, name: 'CJK COMPATIBILITY IDEOGRAPH-F907', category: Cat::Other_Letter)]
+    #[Info(id: 0xF907, name: 'CJK COMPATIBILITY IDEOGRAPH-F907', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F907 = "\u{F907}";
 
-    #[Info(id: 63752, name: 'CJK COMPATIBILITY IDEOGRAPH-F908', category: Cat::Other_Letter)]
+    #[Info(id: 0xF908, name: 'CJK COMPATIBILITY IDEOGRAPH-F908', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F908 = "\u{F908}";
 
-    #[Info(id: 63753, name: 'CJK COMPATIBILITY IDEOGRAPH-F909', category: Cat::Other_Letter)]
+    #[Info(id: 0xF909, name: 'CJK COMPATIBILITY IDEOGRAPH-F909', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F909 = "\u{F909}";
 
-    #[Info(id: 63754, name: 'CJK COMPATIBILITY IDEOGRAPH-F90A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF90A, name: 'CJK COMPATIBILITY IDEOGRAPH-F90A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F90A = "\u{F90A}";
 
-    #[Info(id: 63755, name: 'CJK COMPATIBILITY IDEOGRAPH-F90B', category: Cat::Other_Letter)]
+    #[Info(id: 0xF90B, name: 'CJK COMPATIBILITY IDEOGRAPH-F90B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F90B = "\u{F90B}";
 
-    #[Info(id: 63756, name: 'CJK COMPATIBILITY IDEOGRAPH-F90C', category: Cat::Other_Letter)]
+    #[Info(id: 0xF90C, name: 'CJK COMPATIBILITY IDEOGRAPH-F90C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F90C = "\u{F90C}";
 
-    #[Info(id: 63757, name: 'CJK COMPATIBILITY IDEOGRAPH-F90D', category: Cat::Other_Letter)]
+    #[Info(id: 0xF90D, name: 'CJK COMPATIBILITY IDEOGRAPH-F90D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F90D = "\u{F90D}";
 
-    #[Info(id: 63758, name: 'CJK COMPATIBILITY IDEOGRAPH-F90E', category: Cat::Other_Letter)]
+    #[Info(id: 0xF90E, name: 'CJK COMPATIBILITY IDEOGRAPH-F90E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F90E = "\u{F90E}";
 
-    #[Info(id: 63759, name: 'CJK COMPATIBILITY IDEOGRAPH-F90F', category: Cat::Other_Letter)]
+    #[Info(id: 0xF90F, name: 'CJK COMPATIBILITY IDEOGRAPH-F90F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F90F = "\u{F90F}";
 
-    #[Info(id: 63760, name: 'CJK COMPATIBILITY IDEOGRAPH-F910', category: Cat::Other_Letter)]
+    #[Info(id: 0xF910, name: 'CJK COMPATIBILITY IDEOGRAPH-F910', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F910 = "\u{F910}";
 
-    #[Info(id: 63761, name: 'CJK COMPATIBILITY IDEOGRAPH-F911', category: Cat::Other_Letter)]
+    #[Info(id: 0xF911, name: 'CJK COMPATIBILITY IDEOGRAPH-F911', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F911 = "\u{F911}";
 
-    #[Info(id: 63762, name: 'CJK COMPATIBILITY IDEOGRAPH-F912', category: Cat::Other_Letter)]
+    #[Info(id: 0xF912, name: 'CJK COMPATIBILITY IDEOGRAPH-F912', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F912 = "\u{F912}";
 
-    #[Info(id: 63763, name: 'CJK COMPATIBILITY IDEOGRAPH-F913', category: Cat::Other_Letter)]
+    #[Info(id: 0xF913, name: 'CJK COMPATIBILITY IDEOGRAPH-F913', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F913 = "\u{F913}";
 
-    #[Info(id: 63764, name: 'CJK COMPATIBILITY IDEOGRAPH-F914', category: Cat::Other_Letter)]
+    #[Info(id: 0xF914, name: 'CJK COMPATIBILITY IDEOGRAPH-F914', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F914 = "\u{F914}";
 
-    #[Info(id: 63765, name: 'CJK COMPATIBILITY IDEOGRAPH-F915', category: Cat::Other_Letter)]
+    #[Info(id: 0xF915, name: 'CJK COMPATIBILITY IDEOGRAPH-F915', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F915 = "\u{F915}";
 
-    #[Info(id: 63766, name: 'CJK COMPATIBILITY IDEOGRAPH-F916', category: Cat::Other_Letter)]
+    #[Info(id: 0xF916, name: 'CJK COMPATIBILITY IDEOGRAPH-F916', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F916 = "\u{F916}";
 
-    #[Info(id: 63767, name: 'CJK COMPATIBILITY IDEOGRAPH-F917', category: Cat::Other_Letter)]
+    #[Info(id: 0xF917, name: 'CJK COMPATIBILITY IDEOGRAPH-F917', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F917 = "\u{F917}";
 
-    #[Info(id: 63768, name: 'CJK COMPATIBILITY IDEOGRAPH-F918', category: Cat::Other_Letter)]
+    #[Info(id: 0xF918, name: 'CJK COMPATIBILITY IDEOGRAPH-F918', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F918 = "\u{F918}";
 
-    #[Info(id: 63769, name: 'CJK COMPATIBILITY IDEOGRAPH-F919', category: Cat::Other_Letter)]
+    #[Info(id: 0xF919, name: 'CJK COMPATIBILITY IDEOGRAPH-F919', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F919 = "\u{F919}";
 
-    #[Info(id: 63770, name: 'CJK COMPATIBILITY IDEOGRAPH-F91A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF91A, name: 'CJK COMPATIBILITY IDEOGRAPH-F91A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F91A = "\u{F91A}";
 
-    #[Info(id: 63771, name: 'CJK COMPATIBILITY IDEOGRAPH-F91B', category: Cat::Other_Letter)]
+    #[Info(id: 0xF91B, name: 'CJK COMPATIBILITY IDEOGRAPH-F91B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F91B = "\u{F91B}";
 
-    #[Info(id: 63772, name: 'CJK COMPATIBILITY IDEOGRAPH-F91C', category: Cat::Other_Letter)]
+    #[Info(id: 0xF91C, name: 'CJK COMPATIBILITY IDEOGRAPH-F91C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F91C = "\u{F91C}";
 
-    #[Info(id: 63773, name: 'CJK COMPATIBILITY IDEOGRAPH-F91D', category: Cat::Other_Letter)]
+    #[Info(id: 0xF91D, name: 'CJK COMPATIBILITY IDEOGRAPH-F91D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F91D = "\u{F91D}";
 
-    #[Info(id: 63774, name: 'CJK COMPATIBILITY IDEOGRAPH-F91E', category: Cat::Other_Letter)]
+    #[Info(id: 0xF91E, name: 'CJK COMPATIBILITY IDEOGRAPH-F91E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F91E = "\u{F91E}";
 
-    #[Info(id: 63775, name: 'CJK COMPATIBILITY IDEOGRAPH-F91F', category: Cat::Other_Letter)]
+    #[Info(id: 0xF91F, name: 'CJK COMPATIBILITY IDEOGRAPH-F91F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F91F = "\u{F91F}";
 
-    #[Info(id: 63776, name: 'CJK COMPATIBILITY IDEOGRAPH-F920', category: Cat::Other_Letter)]
+    #[Info(id: 0xF920, name: 'CJK COMPATIBILITY IDEOGRAPH-F920', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F920 = "\u{F920}";
 
-    #[Info(id: 63777, name: 'CJK COMPATIBILITY IDEOGRAPH-F921', category: Cat::Other_Letter)]
+    #[Info(id: 0xF921, name: 'CJK COMPATIBILITY IDEOGRAPH-F921', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F921 = "\u{F921}";
 
-    #[Info(id: 63778, name: 'CJK COMPATIBILITY IDEOGRAPH-F922', category: Cat::Other_Letter)]
+    #[Info(id: 0xF922, name: 'CJK COMPATIBILITY IDEOGRAPH-F922', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F922 = "\u{F922}";
 
-    #[Info(id: 63779, name: 'CJK COMPATIBILITY IDEOGRAPH-F923', category: Cat::Other_Letter)]
+    #[Info(id: 0xF923, name: 'CJK COMPATIBILITY IDEOGRAPH-F923', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F923 = "\u{F923}";
 
-    #[Info(id: 63780, name: 'CJK COMPATIBILITY IDEOGRAPH-F924', category: Cat::Other_Letter)]
+    #[Info(id: 0xF924, name: 'CJK COMPATIBILITY IDEOGRAPH-F924', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F924 = "\u{F924}";
 
-    #[Info(id: 63781, name: 'CJK COMPATIBILITY IDEOGRAPH-F925', category: Cat::Other_Letter)]
+    #[Info(id: 0xF925, name: 'CJK COMPATIBILITY IDEOGRAPH-F925', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F925 = "\u{F925}";
 
-    #[Info(id: 63782, name: 'CJK COMPATIBILITY IDEOGRAPH-F926', category: Cat::Other_Letter)]
+    #[Info(id: 0xF926, name: 'CJK COMPATIBILITY IDEOGRAPH-F926', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F926 = "\u{F926}";
 
-    #[Info(id: 63783, name: 'CJK COMPATIBILITY IDEOGRAPH-F927', category: Cat::Other_Letter)]
+    #[Info(id: 0xF927, name: 'CJK COMPATIBILITY IDEOGRAPH-F927', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F927 = "\u{F927}";
 
-    #[Info(id: 63784, name: 'CJK COMPATIBILITY IDEOGRAPH-F928', category: Cat::Other_Letter)]
+    #[Info(id: 0xF928, name: 'CJK COMPATIBILITY IDEOGRAPH-F928', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F928 = "\u{F928}";
 
-    #[Info(id: 63785, name: 'CJK COMPATIBILITY IDEOGRAPH-F929', category: Cat::Other_Letter)]
+    #[Info(id: 0xF929, name: 'CJK COMPATIBILITY IDEOGRAPH-F929', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F929 = "\u{F929}";
 
-    #[Info(id: 63786, name: 'CJK COMPATIBILITY IDEOGRAPH-F92A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF92A, name: 'CJK COMPATIBILITY IDEOGRAPH-F92A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F92A = "\u{F92A}";
 
-    #[Info(id: 63787, name: 'CJK COMPATIBILITY IDEOGRAPH-F92B', category: Cat::Other_Letter)]
+    #[Info(id: 0xF92B, name: 'CJK COMPATIBILITY IDEOGRAPH-F92B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F92B = "\u{F92B}";
 
-    #[Info(id: 63788, name: 'CJK COMPATIBILITY IDEOGRAPH-F92C', category: Cat::Other_Letter)]
+    #[Info(id: 0xF92C, name: 'CJK COMPATIBILITY IDEOGRAPH-F92C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F92C = "\u{F92C}";
 
-    #[Info(id: 63789, name: 'CJK COMPATIBILITY IDEOGRAPH-F92D', category: Cat::Other_Letter)]
+    #[Info(id: 0xF92D, name: 'CJK COMPATIBILITY IDEOGRAPH-F92D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F92D = "\u{F92D}";
 
-    #[Info(id: 63790, name: 'CJK COMPATIBILITY IDEOGRAPH-F92E', category: Cat::Other_Letter)]
+    #[Info(id: 0xF92E, name: 'CJK COMPATIBILITY IDEOGRAPH-F92E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F92E = "\u{F92E}";
 
-    #[Info(id: 63791, name: 'CJK COMPATIBILITY IDEOGRAPH-F92F', category: Cat::Other_Letter)]
+    #[Info(id: 0xF92F, name: 'CJK COMPATIBILITY IDEOGRAPH-F92F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F92F = "\u{F92F}";
 
-    #[Info(id: 63792, name: 'CJK COMPATIBILITY IDEOGRAPH-F930', category: Cat::Other_Letter)]
+    #[Info(id: 0xF930, name: 'CJK COMPATIBILITY IDEOGRAPH-F930', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F930 = "\u{F930}";
 
-    #[Info(id: 63793, name: 'CJK COMPATIBILITY IDEOGRAPH-F931', category: Cat::Other_Letter)]
+    #[Info(id: 0xF931, name: 'CJK COMPATIBILITY IDEOGRAPH-F931', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F931 = "\u{F931}";
 
-    #[Info(id: 63794, name: 'CJK COMPATIBILITY IDEOGRAPH-F932', category: Cat::Other_Letter)]
+    #[Info(id: 0xF932, name: 'CJK COMPATIBILITY IDEOGRAPH-F932', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F932 = "\u{F932}";
 
-    #[Info(id: 63795, name: 'CJK COMPATIBILITY IDEOGRAPH-F933', category: Cat::Other_Letter)]
+    #[Info(id: 0xF933, name: 'CJK COMPATIBILITY IDEOGRAPH-F933', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F933 = "\u{F933}";
 
-    #[Info(id: 63796, name: 'CJK COMPATIBILITY IDEOGRAPH-F934', category: Cat::Other_Letter)]
+    #[Info(id: 0xF934, name: 'CJK COMPATIBILITY IDEOGRAPH-F934', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F934 = "\u{F934}";
 
-    #[Info(id: 63797, name: 'CJK COMPATIBILITY IDEOGRAPH-F935', category: Cat::Other_Letter)]
+    #[Info(id: 0xF935, name: 'CJK COMPATIBILITY IDEOGRAPH-F935', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F935 = "\u{F935}";
 
-    #[Info(id: 63798, name: 'CJK COMPATIBILITY IDEOGRAPH-F936', category: Cat::Other_Letter)]
+    #[Info(id: 0xF936, name: 'CJK COMPATIBILITY IDEOGRAPH-F936', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F936 = "\u{F936}";
 
-    #[Info(id: 63799, name: 'CJK COMPATIBILITY IDEOGRAPH-F937', category: Cat::Other_Letter)]
+    #[Info(id: 0xF937, name: 'CJK COMPATIBILITY IDEOGRAPH-F937', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F937 = "\u{F937}";
 
-    #[Info(id: 63800, name: 'CJK COMPATIBILITY IDEOGRAPH-F938', category: Cat::Other_Letter)]
+    #[Info(id: 0xF938, name: 'CJK COMPATIBILITY IDEOGRAPH-F938', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F938 = "\u{F938}";
 
-    #[Info(id: 63801, name: 'CJK COMPATIBILITY IDEOGRAPH-F939', category: Cat::Other_Letter)]
+    #[Info(id: 0xF939, name: 'CJK COMPATIBILITY IDEOGRAPH-F939', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F939 = "\u{F939}";
 
-    #[Info(id: 63802, name: 'CJK COMPATIBILITY IDEOGRAPH-F93A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF93A, name: 'CJK COMPATIBILITY IDEOGRAPH-F93A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F93A = "\u{F93A}";
 
-    #[Info(id: 63803, name: 'CJK COMPATIBILITY IDEOGRAPH-F93B', category: Cat::Other_Letter)]
+    #[Info(id: 0xF93B, name: 'CJK COMPATIBILITY IDEOGRAPH-F93B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F93B = "\u{F93B}";
 
-    #[Info(id: 63804, name: 'CJK COMPATIBILITY IDEOGRAPH-F93C', category: Cat::Other_Letter)]
+    #[Info(id: 0xF93C, name: 'CJK COMPATIBILITY IDEOGRAPH-F93C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F93C = "\u{F93C}";
 
-    #[Info(id: 63805, name: 'CJK COMPATIBILITY IDEOGRAPH-F93D', category: Cat::Other_Letter)]
+    #[Info(id: 0xF93D, name: 'CJK COMPATIBILITY IDEOGRAPH-F93D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F93D = "\u{F93D}";
 
-    #[Info(id: 63806, name: 'CJK COMPATIBILITY IDEOGRAPH-F93E', category: Cat::Other_Letter)]
+    #[Info(id: 0xF93E, name: 'CJK COMPATIBILITY IDEOGRAPH-F93E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F93E = "\u{F93E}";
 
-    #[Info(id: 63807, name: 'CJK COMPATIBILITY IDEOGRAPH-F93F', category: Cat::Other_Letter)]
+    #[Info(id: 0xF93F, name: 'CJK COMPATIBILITY IDEOGRAPH-F93F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F93F = "\u{F93F}";
 
-    #[Info(id: 63808, name: 'CJK COMPATIBILITY IDEOGRAPH-F940', category: Cat::Other_Letter)]
+    #[Info(id: 0xF940, name: 'CJK COMPATIBILITY IDEOGRAPH-F940', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F940 = "\u{F940}";
 
-    #[Info(id: 63809, name: 'CJK COMPATIBILITY IDEOGRAPH-F941', category: Cat::Other_Letter)]
+    #[Info(id: 0xF941, name: 'CJK COMPATIBILITY IDEOGRAPH-F941', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F941 = "\u{F941}";
 
-    #[Info(id: 63810, name: 'CJK COMPATIBILITY IDEOGRAPH-F942', category: Cat::Other_Letter)]
+    #[Info(id: 0xF942, name: 'CJK COMPATIBILITY IDEOGRAPH-F942', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F942 = "\u{F942}";
 
-    #[Info(id: 63811, name: 'CJK COMPATIBILITY IDEOGRAPH-F943', category: Cat::Other_Letter)]
+    #[Info(id: 0xF943, name: 'CJK COMPATIBILITY IDEOGRAPH-F943', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F943 = "\u{F943}";
 
-    #[Info(id: 63812, name: 'CJK COMPATIBILITY IDEOGRAPH-F944', category: Cat::Other_Letter)]
+    #[Info(id: 0xF944, name: 'CJK COMPATIBILITY IDEOGRAPH-F944', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F944 = "\u{F944}";
 
-    #[Info(id: 63813, name: 'CJK COMPATIBILITY IDEOGRAPH-F945', category: Cat::Other_Letter)]
+    #[Info(id: 0xF945, name: 'CJK COMPATIBILITY IDEOGRAPH-F945', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F945 = "\u{F945}";
 
-    #[Info(id: 63814, name: 'CJK COMPATIBILITY IDEOGRAPH-F946', category: Cat::Other_Letter)]
+    #[Info(id: 0xF946, name: 'CJK COMPATIBILITY IDEOGRAPH-F946', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F946 = "\u{F946}";
 
-    #[Info(id: 63815, name: 'CJK COMPATIBILITY IDEOGRAPH-F947', category: Cat::Other_Letter)]
+    #[Info(id: 0xF947, name: 'CJK COMPATIBILITY IDEOGRAPH-F947', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F947 = "\u{F947}";
 
-    #[Info(id: 63816, name: 'CJK COMPATIBILITY IDEOGRAPH-F948', category: Cat::Other_Letter)]
+    #[Info(id: 0xF948, name: 'CJK COMPATIBILITY IDEOGRAPH-F948', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F948 = "\u{F948}";
 
-    #[Info(id: 63817, name: 'CJK COMPATIBILITY IDEOGRAPH-F949', category: Cat::Other_Letter)]
+    #[Info(id: 0xF949, name: 'CJK COMPATIBILITY IDEOGRAPH-F949', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F949 = "\u{F949}";
 
-    #[Info(id: 63818, name: 'CJK COMPATIBILITY IDEOGRAPH-F94A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF94A, name: 'CJK COMPATIBILITY IDEOGRAPH-F94A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F94A = "\u{F94A}";
 
-    #[Info(id: 63819, name: 'CJK COMPATIBILITY IDEOGRAPH-F94B', category: Cat::Other_Letter)]
+    #[Info(id: 0xF94B, name: 'CJK COMPATIBILITY IDEOGRAPH-F94B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F94B = "\u{F94B}";
 
-    #[Info(id: 63820, name: 'CJK COMPATIBILITY IDEOGRAPH-F94C', category: Cat::Other_Letter)]
+    #[Info(id: 0xF94C, name: 'CJK COMPATIBILITY IDEOGRAPH-F94C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F94C = "\u{F94C}";
 
-    #[Info(id: 63821, name: 'CJK COMPATIBILITY IDEOGRAPH-F94D', category: Cat::Other_Letter)]
+    #[Info(id: 0xF94D, name: 'CJK COMPATIBILITY IDEOGRAPH-F94D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F94D = "\u{F94D}";
 
-    #[Info(id: 63822, name: 'CJK COMPATIBILITY IDEOGRAPH-F94E', category: Cat::Other_Letter)]
+    #[Info(id: 0xF94E, name: 'CJK COMPATIBILITY IDEOGRAPH-F94E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F94E = "\u{F94E}";
 
-    #[Info(id: 63823, name: 'CJK COMPATIBILITY IDEOGRAPH-F94F', category: Cat::Other_Letter)]
+    #[Info(id: 0xF94F, name: 'CJK COMPATIBILITY IDEOGRAPH-F94F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F94F = "\u{F94F}";
 
-    #[Info(id: 63824, name: 'CJK COMPATIBILITY IDEOGRAPH-F950', category: Cat::Other_Letter)]
+    #[Info(id: 0xF950, name: 'CJK COMPATIBILITY IDEOGRAPH-F950', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F950 = "\u{F950}";
 
-    #[Info(id: 63825, name: 'CJK COMPATIBILITY IDEOGRAPH-F951', category: Cat::Other_Letter)]
+    #[Info(id: 0xF951, name: 'CJK COMPATIBILITY IDEOGRAPH-F951', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F951 = "\u{F951}";
 
-    #[Info(id: 63826, name: 'CJK COMPATIBILITY IDEOGRAPH-F952', category: Cat::Other_Letter)]
+    #[Info(id: 0xF952, name: 'CJK COMPATIBILITY IDEOGRAPH-F952', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F952 = "\u{F952}";
 
-    #[Info(id: 63827, name: 'CJK COMPATIBILITY IDEOGRAPH-F953', category: Cat::Other_Letter)]
+    #[Info(id: 0xF953, name: 'CJK COMPATIBILITY IDEOGRAPH-F953', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F953 = "\u{F953}";
 
-    #[Info(id: 63828, name: 'CJK COMPATIBILITY IDEOGRAPH-F954', category: Cat::Other_Letter)]
+    #[Info(id: 0xF954, name: 'CJK COMPATIBILITY IDEOGRAPH-F954', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F954 = "\u{F954}";
 
-    #[Info(id: 63829, name: 'CJK COMPATIBILITY IDEOGRAPH-F955', category: Cat::Other_Letter)]
+    #[Info(id: 0xF955, name: 'CJK COMPATIBILITY IDEOGRAPH-F955', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F955 = "\u{F955}";
 
-    #[Info(id: 63830, name: 'CJK COMPATIBILITY IDEOGRAPH-F956', category: Cat::Other_Letter)]
+    #[Info(id: 0xF956, name: 'CJK COMPATIBILITY IDEOGRAPH-F956', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F956 = "\u{F956}";
 
-    #[Info(id: 63831, name: 'CJK COMPATIBILITY IDEOGRAPH-F957', category: Cat::Other_Letter)]
+    #[Info(id: 0xF957, name: 'CJK COMPATIBILITY IDEOGRAPH-F957', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F957 = "\u{F957}";
 
-    #[Info(id: 63832, name: 'CJK COMPATIBILITY IDEOGRAPH-F958', category: Cat::Other_Letter)]
+    #[Info(id: 0xF958, name: 'CJK COMPATIBILITY IDEOGRAPH-F958', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F958 = "\u{F958}";
 
-    #[Info(id: 63833, name: 'CJK COMPATIBILITY IDEOGRAPH-F959', category: Cat::Other_Letter)]
+    #[Info(id: 0xF959, name: 'CJK COMPATIBILITY IDEOGRAPH-F959', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F959 = "\u{F959}";
 
-    #[Info(id: 63834, name: 'CJK COMPATIBILITY IDEOGRAPH-F95A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF95A, name: 'CJK COMPATIBILITY IDEOGRAPH-F95A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F95A = "\u{F95A}";
 
-    #[Info(id: 63835, name: 'CJK COMPATIBILITY IDEOGRAPH-F95B', category: Cat::Other_Letter)]
+    #[Info(id: 0xF95B, name: 'CJK COMPATIBILITY IDEOGRAPH-F95B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F95B = "\u{F95B}";
 
-    #[Info(id: 63836, name: 'CJK COMPATIBILITY IDEOGRAPH-F95C', category: Cat::Other_Letter)]
+    #[Info(id: 0xF95C, name: 'CJK COMPATIBILITY IDEOGRAPH-F95C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F95C = "\u{F95C}";
 
-    #[Info(id: 63837, name: 'CJK COMPATIBILITY IDEOGRAPH-F95D', category: Cat::Other_Letter)]
+    #[Info(id: 0xF95D, name: 'CJK COMPATIBILITY IDEOGRAPH-F95D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F95D = "\u{F95D}";
 
-    #[Info(id: 63838, name: 'CJK COMPATIBILITY IDEOGRAPH-F95E', category: Cat::Other_Letter)]
+    #[Info(id: 0xF95E, name: 'CJK COMPATIBILITY IDEOGRAPH-F95E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F95E = "\u{F95E}";
 
-    #[Info(id: 63839, name: 'CJK COMPATIBILITY IDEOGRAPH-F95F', category: Cat::Other_Letter)]
+    #[Info(id: 0xF95F, name: 'CJK COMPATIBILITY IDEOGRAPH-F95F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F95F = "\u{F95F}";
 
-    #[Info(id: 63840, name: 'CJK COMPATIBILITY IDEOGRAPH-F960', category: Cat::Other_Letter)]
+    #[Info(id: 0xF960, name: 'CJK COMPATIBILITY IDEOGRAPH-F960', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F960 = "\u{F960}";
 
-    #[Info(id: 63841, name: 'CJK COMPATIBILITY IDEOGRAPH-F961', category: Cat::Other_Letter)]
+    #[Info(id: 0xF961, name: 'CJK COMPATIBILITY IDEOGRAPH-F961', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F961 = "\u{F961}";
 
-    #[Info(id: 63842, name: 'CJK COMPATIBILITY IDEOGRAPH-F962', category: Cat::Other_Letter)]
+    #[Info(id: 0xF962, name: 'CJK COMPATIBILITY IDEOGRAPH-F962', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F962 = "\u{F962}";
 
-    #[Info(id: 63843, name: 'CJK COMPATIBILITY IDEOGRAPH-F963', category: Cat::Other_Letter)]
+    #[Info(id: 0xF963, name: 'CJK COMPATIBILITY IDEOGRAPH-F963', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F963 = "\u{F963}";
 
-    #[Info(id: 63844, name: 'CJK COMPATIBILITY IDEOGRAPH-F964', category: Cat::Other_Letter)]
+    #[Info(id: 0xF964, name: 'CJK COMPATIBILITY IDEOGRAPH-F964', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F964 = "\u{F964}";
 
-    #[Info(id: 63845, name: 'CJK COMPATIBILITY IDEOGRAPH-F965', category: Cat::Other_Letter)]
+    #[Info(id: 0xF965, name: 'CJK COMPATIBILITY IDEOGRAPH-F965', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F965 = "\u{F965}";
 
-    #[Info(id: 63846, name: 'CJK COMPATIBILITY IDEOGRAPH-F966', category: Cat::Other_Letter)]
+    #[Info(id: 0xF966, name: 'CJK COMPATIBILITY IDEOGRAPH-F966', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F966 = "\u{F966}";
 
-    #[Info(id: 63847, name: 'CJK COMPATIBILITY IDEOGRAPH-F967', category: Cat::Other_Letter)]
+    #[Info(id: 0xF967, name: 'CJK COMPATIBILITY IDEOGRAPH-F967', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F967 = "\u{F967}";
 
-    #[Info(id: 63848, name: 'CJK COMPATIBILITY IDEOGRAPH-F968', category: Cat::Other_Letter)]
+    #[Info(id: 0xF968, name: 'CJK COMPATIBILITY IDEOGRAPH-F968', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F968 = "\u{F968}";
 
-    #[Info(id: 63849, name: 'CJK COMPATIBILITY IDEOGRAPH-F969', category: Cat::Other_Letter)]
+    #[Info(id: 0xF969, name: 'CJK COMPATIBILITY IDEOGRAPH-F969', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F969 = "\u{F969}";
 
-    #[Info(id: 63850, name: 'CJK COMPATIBILITY IDEOGRAPH-F96A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF96A, name: 'CJK COMPATIBILITY IDEOGRAPH-F96A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F96A = "\u{F96A}";
 
-    #[Info(id: 63851, name: 'CJK COMPATIBILITY IDEOGRAPH-F96B', category: Cat::Other_Letter)]
+    #[Info(id: 0xF96B, name: 'CJK COMPATIBILITY IDEOGRAPH-F96B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F96B = "\u{F96B}";
 
-    #[Info(id: 63852, name: 'CJK COMPATIBILITY IDEOGRAPH-F96C', category: Cat::Other_Letter)]
+    #[Info(id: 0xF96C, name: 'CJK COMPATIBILITY IDEOGRAPH-F96C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F96C = "\u{F96C}";
 
-    #[Info(id: 63853, name: 'CJK COMPATIBILITY IDEOGRAPH-F96D', category: Cat::Other_Letter)]
+    #[Info(id: 0xF96D, name: 'CJK COMPATIBILITY IDEOGRAPH-F96D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F96D = "\u{F96D}";
 
-    #[Info(id: 63854, name: 'CJK COMPATIBILITY IDEOGRAPH-F96E', category: Cat::Other_Letter)]
+    #[Info(id: 0xF96E, name: 'CJK COMPATIBILITY IDEOGRAPH-F96E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F96E = "\u{F96E}";
 
-    #[Info(id: 63855, name: 'CJK COMPATIBILITY IDEOGRAPH-F96F', category: Cat::Other_Letter)]
+    #[Info(id: 0xF96F, name: 'CJK COMPATIBILITY IDEOGRAPH-F96F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F96F = "\u{F96F}";
 
-    #[Info(id: 63856, name: 'CJK COMPATIBILITY IDEOGRAPH-F970', category: Cat::Other_Letter)]
+    #[Info(id: 0xF970, name: 'CJK COMPATIBILITY IDEOGRAPH-F970', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F970 = "\u{F970}";
 
-    #[Info(id: 63857, name: 'CJK COMPATIBILITY IDEOGRAPH-F971', category: Cat::Other_Letter)]
+    #[Info(id: 0xF971, name: 'CJK COMPATIBILITY IDEOGRAPH-F971', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F971 = "\u{F971}";
 
-    #[Info(id: 63858, name: 'CJK COMPATIBILITY IDEOGRAPH-F972', category: Cat::Other_Letter)]
+    #[Info(id: 0xF972, name: 'CJK COMPATIBILITY IDEOGRAPH-F972', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F972 = "\u{F972}";
 
-    #[Info(id: 63859, name: 'CJK COMPATIBILITY IDEOGRAPH-F973', category: Cat::Other_Letter)]
+    #[Info(id: 0xF973, name: 'CJK COMPATIBILITY IDEOGRAPH-F973', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F973 = "\u{F973}";
 
-    #[Info(id: 63860, name: 'CJK COMPATIBILITY IDEOGRAPH-F974', category: Cat::Other_Letter)]
+    #[Info(id: 0xF974, name: 'CJK COMPATIBILITY IDEOGRAPH-F974', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F974 = "\u{F974}";
 
-    #[Info(id: 63861, name: 'CJK COMPATIBILITY IDEOGRAPH-F975', category: Cat::Other_Letter)]
+    #[Info(id: 0xF975, name: 'CJK COMPATIBILITY IDEOGRAPH-F975', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F975 = "\u{F975}";
 
-    #[Info(id: 63862, name: 'CJK COMPATIBILITY IDEOGRAPH-F976', category: Cat::Other_Letter)]
+    #[Info(id: 0xF976, name: 'CJK COMPATIBILITY IDEOGRAPH-F976', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F976 = "\u{F976}";
 
-    #[Info(id: 63863, name: 'CJK COMPATIBILITY IDEOGRAPH-F977', category: Cat::Other_Letter)]
+    #[Info(id: 0xF977, name: 'CJK COMPATIBILITY IDEOGRAPH-F977', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F977 = "\u{F977}";
 
-    #[Info(id: 63864, name: 'CJK COMPATIBILITY IDEOGRAPH-F978', category: Cat::Other_Letter)]
+    #[Info(id: 0xF978, name: 'CJK COMPATIBILITY IDEOGRAPH-F978', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F978 = "\u{F978}";
 
-    #[Info(id: 63865, name: 'CJK COMPATIBILITY IDEOGRAPH-F979', category: Cat::Other_Letter)]
+    #[Info(id: 0xF979, name: 'CJK COMPATIBILITY IDEOGRAPH-F979', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F979 = "\u{F979}";
 
-    #[Info(id: 63866, name: 'CJK COMPATIBILITY IDEOGRAPH-F97A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF97A, name: 'CJK COMPATIBILITY IDEOGRAPH-F97A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F97A = "\u{F97A}";
 
-    #[Info(id: 63867, name: 'CJK COMPATIBILITY IDEOGRAPH-F97B', category: Cat::Other_Letter)]
+    #[Info(id: 0xF97B, name: 'CJK COMPATIBILITY IDEOGRAPH-F97B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F97B = "\u{F97B}";
 
-    #[Info(id: 63868, name: 'CJK COMPATIBILITY IDEOGRAPH-F97C', category: Cat::Other_Letter)]
+    #[Info(id: 0xF97C, name: 'CJK COMPATIBILITY IDEOGRAPH-F97C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F97C = "\u{F97C}";
 
-    #[Info(id: 63869, name: 'CJK COMPATIBILITY IDEOGRAPH-F97D', category: Cat::Other_Letter)]
+    #[Info(id: 0xF97D, name: 'CJK COMPATIBILITY IDEOGRAPH-F97D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F97D = "\u{F97D}";
 
-    #[Info(id: 63870, name: 'CJK COMPATIBILITY IDEOGRAPH-F97E', category: Cat::Other_Letter)]
+    #[Info(id: 0xF97E, name: 'CJK COMPATIBILITY IDEOGRAPH-F97E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F97E = "\u{F97E}";
 
-    #[Info(id: 63871, name: 'CJK COMPATIBILITY IDEOGRAPH-F97F', category: Cat::Other_Letter)]
+    #[Info(id: 0xF97F, name: 'CJK COMPATIBILITY IDEOGRAPH-F97F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F97F = "\u{F97F}";
 
-    #[Info(id: 63872, name: 'CJK COMPATIBILITY IDEOGRAPH-F980', category: Cat::Other_Letter)]
+    #[Info(id: 0xF980, name: 'CJK COMPATIBILITY IDEOGRAPH-F980', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F980 = "\u{F980}";
 
-    #[Info(id: 63873, name: 'CJK COMPATIBILITY IDEOGRAPH-F981', category: Cat::Other_Letter)]
+    #[Info(id: 0xF981, name: 'CJK COMPATIBILITY IDEOGRAPH-F981', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F981 = "\u{F981}";
 
-    #[Info(id: 63874, name: 'CJK COMPATIBILITY IDEOGRAPH-F982', category: Cat::Other_Letter)]
+    #[Info(id: 0xF982, name: 'CJK COMPATIBILITY IDEOGRAPH-F982', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F982 = "\u{F982}";
 
-    #[Info(id: 63875, name: 'CJK COMPATIBILITY IDEOGRAPH-F983', category: Cat::Other_Letter)]
+    #[Info(id: 0xF983, name: 'CJK COMPATIBILITY IDEOGRAPH-F983', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F983 = "\u{F983}";
 
-    #[Info(id: 63876, name: 'CJK COMPATIBILITY IDEOGRAPH-F984', category: Cat::Other_Letter)]
+    #[Info(id: 0xF984, name: 'CJK COMPATIBILITY IDEOGRAPH-F984', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F984 = "\u{F984}";
 
-    #[Info(id: 63877, name: 'CJK COMPATIBILITY IDEOGRAPH-F985', category: Cat::Other_Letter)]
+    #[Info(id: 0xF985, name: 'CJK COMPATIBILITY IDEOGRAPH-F985', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F985 = "\u{F985}";
 
-    #[Info(id: 63878, name: 'CJK COMPATIBILITY IDEOGRAPH-F986', category: Cat::Other_Letter)]
+    #[Info(id: 0xF986, name: 'CJK COMPATIBILITY IDEOGRAPH-F986', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F986 = "\u{F986}";
 
-    #[Info(id: 63879, name: 'CJK COMPATIBILITY IDEOGRAPH-F987', category: Cat::Other_Letter)]
+    #[Info(id: 0xF987, name: 'CJK COMPATIBILITY IDEOGRAPH-F987', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F987 = "\u{F987}";
 
-    #[Info(id: 63880, name: 'CJK COMPATIBILITY IDEOGRAPH-F988', category: Cat::Other_Letter)]
+    #[Info(id: 0xF988, name: 'CJK COMPATIBILITY IDEOGRAPH-F988', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F988 = "\u{F988}";
 
-    #[Info(id: 63881, name: 'CJK COMPATIBILITY IDEOGRAPH-F989', category: Cat::Other_Letter)]
+    #[Info(id: 0xF989, name: 'CJK COMPATIBILITY IDEOGRAPH-F989', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F989 = "\u{F989}";
 
-    #[Info(id: 63882, name: 'CJK COMPATIBILITY IDEOGRAPH-F98A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF98A, name: 'CJK COMPATIBILITY IDEOGRAPH-F98A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F98A = "\u{F98A}";
 
-    #[Info(id: 63883, name: 'CJK COMPATIBILITY IDEOGRAPH-F98B', category: Cat::Other_Letter)]
+    #[Info(id: 0xF98B, name: 'CJK COMPATIBILITY IDEOGRAPH-F98B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F98B = "\u{F98B}";
 
-    #[Info(id: 63884, name: 'CJK COMPATIBILITY IDEOGRAPH-F98C', category: Cat::Other_Letter)]
+    #[Info(id: 0xF98C, name: 'CJK COMPATIBILITY IDEOGRAPH-F98C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F98C = "\u{F98C}";
 
-    #[Info(id: 63885, name: 'CJK COMPATIBILITY IDEOGRAPH-F98D', category: Cat::Other_Letter)]
+    #[Info(id: 0xF98D, name: 'CJK COMPATIBILITY IDEOGRAPH-F98D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F98D = "\u{F98D}";
 
-    #[Info(id: 63886, name: 'CJK COMPATIBILITY IDEOGRAPH-F98E', category: Cat::Other_Letter)]
+    #[Info(id: 0xF98E, name: 'CJK COMPATIBILITY IDEOGRAPH-F98E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F98E = "\u{F98E}";
 
-    #[Info(id: 63887, name: 'CJK COMPATIBILITY IDEOGRAPH-F98F', category: Cat::Other_Letter)]
+    #[Info(id: 0xF98F, name: 'CJK COMPATIBILITY IDEOGRAPH-F98F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F98F = "\u{F98F}";
 
-    #[Info(id: 63888, name: 'CJK COMPATIBILITY IDEOGRAPH-F990', category: Cat::Other_Letter)]
+    #[Info(id: 0xF990, name: 'CJK COMPATIBILITY IDEOGRAPH-F990', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F990 = "\u{F990}";
 
-    #[Info(id: 63889, name: 'CJK COMPATIBILITY IDEOGRAPH-F991', category: Cat::Other_Letter)]
+    #[Info(id: 0xF991, name: 'CJK COMPATIBILITY IDEOGRAPH-F991', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F991 = "\u{F991}";
 
-    #[Info(id: 63890, name: 'CJK COMPATIBILITY IDEOGRAPH-F992', category: Cat::Other_Letter)]
+    #[Info(id: 0xF992, name: 'CJK COMPATIBILITY IDEOGRAPH-F992', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F992 = "\u{F992}";
 
-    #[Info(id: 63891, name: 'CJK COMPATIBILITY IDEOGRAPH-F993', category: Cat::Other_Letter)]
+    #[Info(id: 0xF993, name: 'CJK COMPATIBILITY IDEOGRAPH-F993', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F993 = "\u{F993}";
 
-    #[Info(id: 63892, name: 'CJK COMPATIBILITY IDEOGRAPH-F994', category: Cat::Other_Letter)]
+    #[Info(id: 0xF994, name: 'CJK COMPATIBILITY IDEOGRAPH-F994', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F994 = "\u{F994}";
 
-    #[Info(id: 63893, name: 'CJK COMPATIBILITY IDEOGRAPH-F995', category: Cat::Other_Letter)]
+    #[Info(id: 0xF995, name: 'CJK COMPATIBILITY IDEOGRAPH-F995', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F995 = "\u{F995}";
 
-    #[Info(id: 63894, name: 'CJK COMPATIBILITY IDEOGRAPH-F996', category: Cat::Other_Letter)]
+    #[Info(id: 0xF996, name: 'CJK COMPATIBILITY IDEOGRAPH-F996', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F996 = "\u{F996}";
 
-    #[Info(id: 63895, name: 'CJK COMPATIBILITY IDEOGRAPH-F997', category: Cat::Other_Letter)]
+    #[Info(id: 0xF997, name: 'CJK COMPATIBILITY IDEOGRAPH-F997', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F997 = "\u{F997}";
 
-    #[Info(id: 63896, name: 'CJK COMPATIBILITY IDEOGRAPH-F998', category: Cat::Other_Letter)]
+    #[Info(id: 0xF998, name: 'CJK COMPATIBILITY IDEOGRAPH-F998', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F998 = "\u{F998}";
 
-    #[Info(id: 63897, name: 'CJK COMPATIBILITY IDEOGRAPH-F999', category: Cat::Other_Letter)]
+    #[Info(id: 0xF999, name: 'CJK COMPATIBILITY IDEOGRAPH-F999', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F999 = "\u{F999}";
 
-    #[Info(id: 63898, name: 'CJK COMPATIBILITY IDEOGRAPH-F99A', category: Cat::Other_Letter)]
+    #[Info(id: 0xF99A, name: 'CJK COMPATIBILITY IDEOGRAPH-F99A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F99A = "\u{F99A}";
 
-    #[Info(id: 63899, name: 'CJK COMPATIBILITY IDEOGRAPH-F99B', category: Cat::Other_Letter)]
+    #[Info(id: 0xF99B, name: 'CJK COMPATIBILITY IDEOGRAPH-F99B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F99B = "\u{F99B}";
 
-    #[Info(id: 63900, name: 'CJK COMPATIBILITY IDEOGRAPH-F99C', category: Cat::Other_Letter)]
+    #[Info(id: 0xF99C, name: 'CJK COMPATIBILITY IDEOGRAPH-F99C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F99C = "\u{F99C}";
 
-    #[Info(id: 63901, name: 'CJK COMPATIBILITY IDEOGRAPH-F99D', category: Cat::Other_Letter)]
+    #[Info(id: 0xF99D, name: 'CJK COMPATIBILITY IDEOGRAPH-F99D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F99D = "\u{F99D}";
 
-    #[Info(id: 63902, name: 'CJK COMPATIBILITY IDEOGRAPH-F99E', category: Cat::Other_Letter)]
+    #[Info(id: 0xF99E, name: 'CJK COMPATIBILITY IDEOGRAPH-F99E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F99E = "\u{F99E}";
 
-    #[Info(id: 63903, name: 'CJK COMPATIBILITY IDEOGRAPH-F99F', category: Cat::Other_Letter)]
+    #[Info(id: 0xF99F, name: 'CJK COMPATIBILITY IDEOGRAPH-F99F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F99F = "\u{F99F}";
 
-    #[Info(id: 63904, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A0', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9A0, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A0', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9A0 = "\u{F9A0}";
 
-    #[Info(id: 63905, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A1', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9A1, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A1', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9A1 = "\u{F9A1}";
 
-    #[Info(id: 63906, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A2', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9A2, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A2', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9A2 = "\u{F9A2}";
 
-    #[Info(id: 63907, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A3', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9A3, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A3', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9A3 = "\u{F9A3}";
 
-    #[Info(id: 63908, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A4', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9A4, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A4', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9A4 = "\u{F9A4}";
 
-    #[Info(id: 63909, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A5', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9A5, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A5', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9A5 = "\u{F9A5}";
 
-    #[Info(id: 63910, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A6', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9A6, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A6', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9A6 = "\u{F9A6}";
 
-    #[Info(id: 63911, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A7', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9A7, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A7', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9A7 = "\u{F9A7}";
 
-    #[Info(id: 63912, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A8', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9A8, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A8', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9A8 = "\u{F9A8}";
 
-    #[Info(id: 63913, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A9', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9A9, name: 'CJK COMPATIBILITY IDEOGRAPH-F9A9', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9A9 = "\u{F9A9}";
 
-    #[Info(id: 63914, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9AA, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AA', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9AA = "\u{F9AA}";
 
-    #[Info(id: 63915, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AB', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9AB, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AB', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9AB = "\u{F9AB}";
 
-    #[Info(id: 63916, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AC', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9AC, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AC', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9AC = "\u{F9AC}";
 
-    #[Info(id: 63917, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AD', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9AD, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AD', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9AD = "\u{F9AD}";
 
-    #[Info(id: 63918, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AE', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9AE, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AE', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9AE = "\u{F9AE}";
 
-    #[Info(id: 63919, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AF', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9AF, name: 'CJK COMPATIBILITY IDEOGRAPH-F9AF', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9AF = "\u{F9AF}";
 
-    #[Info(id: 63920, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B0', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9B0, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B0', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9B0 = "\u{F9B0}";
 
-    #[Info(id: 63921, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B1', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9B1, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B1', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9B1 = "\u{F9B1}";
 
-    #[Info(id: 63922, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B2', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9B2, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B2', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9B2 = "\u{F9B2}";
 
-    #[Info(id: 63923, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B3', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9B3, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B3', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9B3 = "\u{F9B3}";
 
-    #[Info(id: 63924, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B4', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9B4, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B4', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9B4 = "\u{F9B4}";
 
-    #[Info(id: 63925, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B5', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9B5, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B5', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9B5 = "\u{F9B5}";
 
-    #[Info(id: 63926, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B6', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9B6, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B6', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9B6 = "\u{F9B6}";
 
-    #[Info(id: 63927, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B7', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9B7, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B7', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9B7 = "\u{F9B7}";
 
-    #[Info(id: 63928, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B8', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9B8, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B8', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9B8 = "\u{F9B8}";
 
-    #[Info(id: 63929, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B9', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9B9, name: 'CJK COMPATIBILITY IDEOGRAPH-F9B9', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9B9 = "\u{F9B9}";
 
-    #[Info(id: 63930, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9BA, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BA', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9BA = "\u{F9BA}";
 
-    #[Info(id: 63931, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BB', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9BB, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BB', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9BB = "\u{F9BB}";
 
-    #[Info(id: 63932, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BC', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9BC, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BC', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9BC = "\u{F9BC}";
 
-    #[Info(id: 63933, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BD', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9BD, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BD', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9BD = "\u{F9BD}";
 
-    #[Info(id: 63934, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BE', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9BE, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BE', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9BE = "\u{F9BE}";
 
-    #[Info(id: 63935, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BF', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9BF, name: 'CJK COMPATIBILITY IDEOGRAPH-F9BF', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9BF = "\u{F9BF}";
 
-    #[Info(id: 63936, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C0', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9C0, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C0', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9C0 = "\u{F9C0}";
 
-    #[Info(id: 63937, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C1', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9C1, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C1', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9C1 = "\u{F9C1}";
 
-    #[Info(id: 63938, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C2', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9C2, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C2', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9C2 = "\u{F9C2}";
 
-    #[Info(id: 63939, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C3', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9C3, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C3', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9C3 = "\u{F9C3}";
 
-    #[Info(id: 63940, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C4', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9C4, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C4', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9C4 = "\u{F9C4}";
 
-    #[Info(id: 63941, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C5', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9C5, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C5', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9C5 = "\u{F9C5}";
 
-    #[Info(id: 63942, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C6', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9C6, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C6', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9C6 = "\u{F9C6}";
 
-    #[Info(id: 63943, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C7', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9C7, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C7', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9C7 = "\u{F9C7}";
 
-    #[Info(id: 63944, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C8', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9C8, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C8', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9C8 = "\u{F9C8}";
 
-    #[Info(id: 63945, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C9', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9C9, name: 'CJK COMPATIBILITY IDEOGRAPH-F9C9', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9C9 = "\u{F9C9}";
 
-    #[Info(id: 63946, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9CA, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CA', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9CA = "\u{F9CA}";
 
-    #[Info(id: 63947, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CB', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9CB, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CB', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9CB = "\u{F9CB}";
 
-    #[Info(id: 63948, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CC', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9CC, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CC', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9CC = "\u{F9CC}";
 
-    #[Info(id: 63949, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CD', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9CD, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CD', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9CD = "\u{F9CD}";
 
-    #[Info(id: 63950, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CE', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9CE, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CE', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9CE = "\u{F9CE}";
 
-    #[Info(id: 63951, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CF', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9CF, name: 'CJK COMPATIBILITY IDEOGRAPH-F9CF', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9CF = "\u{F9CF}";
 
-    #[Info(id: 63952, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D0', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9D0, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D0', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9D0 = "\u{F9D0}";
 
-    #[Info(id: 63953, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D1', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9D1, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D1', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9D1 = "\u{F9D1}";
 
-    #[Info(id: 63954, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D2', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9D2, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D2', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9D2 = "\u{F9D2}";
 
-    #[Info(id: 63955, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D3', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9D3, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D3', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9D3 = "\u{F9D3}";
 
-    #[Info(id: 63956, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D4', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9D4, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D4', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9D4 = "\u{F9D4}";
 
-    #[Info(id: 63957, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D5', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9D5, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D5', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9D5 = "\u{F9D5}";
 
-    #[Info(id: 63958, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D6', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9D6, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D6', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9D6 = "\u{F9D6}";
 
-    #[Info(id: 63959, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D7', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9D7, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D7', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9D7 = "\u{F9D7}";
 
-    #[Info(id: 63960, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D8', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9D8, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D8', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9D8 = "\u{F9D8}";
 
-    #[Info(id: 63961, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D9', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9D9, name: 'CJK COMPATIBILITY IDEOGRAPH-F9D9', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9D9 = "\u{F9D9}";
 
-    #[Info(id: 63962, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9DA, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DA', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9DA = "\u{F9DA}";
 
-    #[Info(id: 63963, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DB', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9DB, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DB', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9DB = "\u{F9DB}";
 
-    #[Info(id: 63964, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DC', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9DC, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DC', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9DC = "\u{F9DC}";
 
-    #[Info(id: 63965, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DD', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9DD, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DD', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9DD = "\u{F9DD}";
 
-    #[Info(id: 63966, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DE', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9DE, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DE', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9DE = "\u{F9DE}";
 
-    #[Info(id: 63967, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DF', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9DF, name: 'CJK COMPATIBILITY IDEOGRAPH-F9DF', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9DF = "\u{F9DF}";
 
-    #[Info(id: 63968, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E0', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9E0, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E0', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9E0 = "\u{F9E0}";
 
-    #[Info(id: 63969, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E1', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9E1, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E1', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9E1 = "\u{F9E1}";
 
-    #[Info(id: 63970, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E2', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9E2, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E2', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9E2 = "\u{F9E2}";
 
-    #[Info(id: 63971, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E3', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9E3, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E3', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9E3 = "\u{F9E3}";
 
-    #[Info(id: 63972, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E4', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9E4, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E4', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9E4 = "\u{F9E4}";
 
-    #[Info(id: 63973, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E5', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9E5, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E5', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9E5 = "\u{F9E5}";
 
-    #[Info(id: 63974, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E6', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9E6, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E6', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9E6 = "\u{F9E6}";
 
-    #[Info(id: 63975, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E7', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9E7, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E7', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9E7 = "\u{F9E7}";
 
-    #[Info(id: 63976, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E8', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9E8, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E8', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9E8 = "\u{F9E8}";
 
-    #[Info(id: 63977, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E9', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9E9, name: 'CJK COMPATIBILITY IDEOGRAPH-F9E9', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9E9 = "\u{F9E9}";
 
-    #[Info(id: 63978, name: 'CJK COMPATIBILITY IDEOGRAPH-F9EA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9EA, name: 'CJK COMPATIBILITY IDEOGRAPH-F9EA', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9EA = "\u{F9EA}";
 
-    #[Info(id: 63979, name: 'CJK COMPATIBILITY IDEOGRAPH-F9EB', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9EB, name: 'CJK COMPATIBILITY IDEOGRAPH-F9EB', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9EB = "\u{F9EB}";
 
-    #[Info(id: 63980, name: 'CJK COMPATIBILITY IDEOGRAPH-F9EC', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9EC, name: 'CJK COMPATIBILITY IDEOGRAPH-F9EC', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9EC = "\u{F9EC}";
 
-    #[Info(id: 63981, name: 'CJK COMPATIBILITY IDEOGRAPH-F9ED', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9ED, name: 'CJK COMPATIBILITY IDEOGRAPH-F9ED', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9ED = "\u{F9ED}";
 
-    #[Info(id: 63982, name: 'CJK COMPATIBILITY IDEOGRAPH-F9EE', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9EE, name: 'CJK COMPATIBILITY IDEOGRAPH-F9EE', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9EE = "\u{F9EE}";
 
-    #[Info(id: 63983, name: 'CJK COMPATIBILITY IDEOGRAPH-F9EF', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9EF, name: 'CJK COMPATIBILITY IDEOGRAPH-F9EF', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9EF = "\u{F9EF}";
 
-    #[Info(id: 63984, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F0', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9F0, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F0', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9F0 = "\u{F9F0}";
 
-    #[Info(id: 63985, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F1', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9F1, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F1', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9F1 = "\u{F9F1}";
 
-    #[Info(id: 63986, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F2', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9F2, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F2', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9F2 = "\u{F9F2}";
 
-    #[Info(id: 63987, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F3', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9F3, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F3', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9F3 = "\u{F9F3}";
 
-    #[Info(id: 63988, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F4', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9F4, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F4', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9F4 = "\u{F9F4}";
 
-    #[Info(id: 63989, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F5', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9F5, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F5', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9F5 = "\u{F9F5}";
 
-    #[Info(id: 63990, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F6', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9F6, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F6', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9F6 = "\u{F9F6}";
 
-    #[Info(id: 63991, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F7', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9F7, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F7', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9F7 = "\u{F9F7}";
 
-    #[Info(id: 63992, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F8', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9F8, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F8', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9F8 = "\u{F9F8}";
 
-    #[Info(id: 63993, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F9', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9F9, name: 'CJK COMPATIBILITY IDEOGRAPH-F9F9', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9F9 = "\u{F9F9}";
 
-    #[Info(id: 63994, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FA', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9FA, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FA', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9FA = "\u{F9FA}";
 
-    #[Info(id: 63995, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FB', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9FB, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FB', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9FB = "\u{F9FB}";
 
-    #[Info(id: 63996, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FC', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9FC, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FC', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9FC = "\u{F9FC}";
 
-    #[Info(id: 63997, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FD', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9FD, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FD', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9FD = "\u{F9FD}";
 
-    #[Info(id: 63998, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FE', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9FE, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FE', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9FE = "\u{F9FE}";
 
-    #[Info(id: 63999, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FF', category: Cat::Other_Letter)]
+    #[Info(id: 0xF9FF, name: 'CJK COMPATIBILITY IDEOGRAPH-F9FF', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_F9FF = "\u{F9FF}";
 
-    #[Info(id: 64000, name: 'CJK COMPATIBILITY IDEOGRAPH-FA00', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA00, name: 'CJK COMPATIBILITY IDEOGRAPH-FA00', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA00 = "\u{FA00}";
 
-    #[Info(id: 64001, name: 'CJK COMPATIBILITY IDEOGRAPH-FA01', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA01, name: 'CJK COMPATIBILITY IDEOGRAPH-FA01', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA01 = "\u{FA01}";
 
-    #[Info(id: 64002, name: 'CJK COMPATIBILITY IDEOGRAPH-FA02', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA02, name: 'CJK COMPATIBILITY IDEOGRAPH-FA02', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA02 = "\u{FA02}";
 
-    #[Info(id: 64003, name: 'CJK COMPATIBILITY IDEOGRAPH-FA03', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA03, name: 'CJK COMPATIBILITY IDEOGRAPH-FA03', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA03 = "\u{FA03}";
 
-    #[Info(id: 64004, name: 'CJK COMPATIBILITY IDEOGRAPH-FA04', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA04, name: 'CJK COMPATIBILITY IDEOGRAPH-FA04', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA04 = "\u{FA04}";
 
-    #[Info(id: 64005, name: 'CJK COMPATIBILITY IDEOGRAPH-FA05', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA05, name: 'CJK COMPATIBILITY IDEOGRAPH-FA05', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA05 = "\u{FA05}";
 
-    #[Info(id: 64006, name: 'CJK COMPATIBILITY IDEOGRAPH-FA06', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA06, name: 'CJK COMPATIBILITY IDEOGRAPH-FA06', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA06 = "\u{FA06}";
 
-    #[Info(id: 64007, name: 'CJK COMPATIBILITY IDEOGRAPH-FA07', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA07, name: 'CJK COMPATIBILITY IDEOGRAPH-FA07', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA07 = "\u{FA07}";
 
-    #[Info(id: 64008, name: 'CJK COMPATIBILITY IDEOGRAPH-FA08', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA08, name: 'CJK COMPATIBILITY IDEOGRAPH-FA08', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA08 = "\u{FA08}";
 
-    #[Info(id: 64009, name: 'CJK COMPATIBILITY IDEOGRAPH-FA09', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA09, name: 'CJK COMPATIBILITY IDEOGRAPH-FA09', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA09 = "\u{FA09}";
 
-    #[Info(id: 64010, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA0A, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA0A = "\u{FA0A}";
 
-    #[Info(id: 64011, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0B', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA0B, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA0B = "\u{FA0B}";
 
-    #[Info(id: 64012, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0C', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA0C, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA0C = "\u{FA0C}";
 
-    #[Info(id: 64013, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0D', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA0D, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA0D = "\u{FA0D}";
 
-    #[Info(id: 64014, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA0E, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA0E = "\u{FA0E}";
 
-    #[Info(id: 64015, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0F', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA0F, name: 'CJK COMPATIBILITY IDEOGRAPH-FA0F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA0F = "\u{FA0F}";
 
-    #[Info(id: 64016, name: 'CJK COMPATIBILITY IDEOGRAPH-FA10', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA10, name: 'CJK COMPATIBILITY IDEOGRAPH-FA10', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA10 = "\u{FA10}";
 
-    #[Info(id: 64017, name: 'CJK COMPATIBILITY IDEOGRAPH-FA11', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA11, name: 'CJK COMPATIBILITY IDEOGRAPH-FA11', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA11 = "\u{FA11}";
 
-    #[Info(id: 64018, name: 'CJK COMPATIBILITY IDEOGRAPH-FA12', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA12, name: 'CJK COMPATIBILITY IDEOGRAPH-FA12', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA12 = "\u{FA12}";
 
-    #[Info(id: 64019, name: 'CJK COMPATIBILITY IDEOGRAPH-FA13', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA13, name: 'CJK COMPATIBILITY IDEOGRAPH-FA13', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA13 = "\u{FA13}";
 
-    #[Info(id: 64020, name: 'CJK COMPATIBILITY IDEOGRAPH-FA14', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA14, name: 'CJK COMPATIBILITY IDEOGRAPH-FA14', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA14 = "\u{FA14}";
 
-    #[Info(id: 64021, name: 'CJK COMPATIBILITY IDEOGRAPH-FA15', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA15, name: 'CJK COMPATIBILITY IDEOGRAPH-FA15', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA15 = "\u{FA15}";
 
-    #[Info(id: 64022, name: 'CJK COMPATIBILITY IDEOGRAPH-FA16', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA16, name: 'CJK COMPATIBILITY IDEOGRAPH-FA16', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA16 = "\u{FA16}";
 
-    #[Info(id: 64023, name: 'CJK COMPATIBILITY IDEOGRAPH-FA17', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA17, name: 'CJK COMPATIBILITY IDEOGRAPH-FA17', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA17 = "\u{FA17}";
 
-    #[Info(id: 64024, name: 'CJK COMPATIBILITY IDEOGRAPH-FA18', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA18, name: 'CJK COMPATIBILITY IDEOGRAPH-FA18', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA18 = "\u{FA18}";
 
-    #[Info(id: 64025, name: 'CJK COMPATIBILITY IDEOGRAPH-FA19', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA19, name: 'CJK COMPATIBILITY IDEOGRAPH-FA19', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA19 = "\u{FA19}";
 
-    #[Info(id: 64026, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA1A, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA1A = "\u{FA1A}";
 
-    #[Info(id: 64027, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1B', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA1B, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA1B = "\u{FA1B}";
 
-    #[Info(id: 64028, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1C', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA1C, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA1C = "\u{FA1C}";
 
-    #[Info(id: 64029, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1D', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA1D, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA1D = "\u{FA1D}";
 
-    #[Info(id: 64030, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA1E, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA1E = "\u{FA1E}";
 
-    #[Info(id: 64031, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1F', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA1F, name: 'CJK COMPATIBILITY IDEOGRAPH-FA1F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA1F = "\u{FA1F}";
 
-    #[Info(id: 64032, name: 'CJK COMPATIBILITY IDEOGRAPH-FA20', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA20, name: 'CJK COMPATIBILITY IDEOGRAPH-FA20', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA20 = "\u{FA20}";
 
-    #[Info(id: 64033, name: 'CJK COMPATIBILITY IDEOGRAPH-FA21', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA21, name: 'CJK COMPATIBILITY IDEOGRAPH-FA21', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA21 = "\u{FA21}";
 
-    #[Info(id: 64034, name: 'CJK COMPATIBILITY IDEOGRAPH-FA22', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA22, name: 'CJK COMPATIBILITY IDEOGRAPH-FA22', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA22 = "\u{FA22}";
 
-    #[Info(id: 64035, name: 'CJK COMPATIBILITY IDEOGRAPH-FA23', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA23, name: 'CJK COMPATIBILITY IDEOGRAPH-FA23', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA23 = "\u{FA23}";
 
-    #[Info(id: 64036, name: 'CJK COMPATIBILITY IDEOGRAPH-FA24', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA24, name: 'CJK COMPATIBILITY IDEOGRAPH-FA24', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA24 = "\u{FA24}";
 
-    #[Info(id: 64037, name: 'CJK COMPATIBILITY IDEOGRAPH-FA25', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA25, name: 'CJK COMPATIBILITY IDEOGRAPH-FA25', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA25 = "\u{FA25}";
 
-    #[Info(id: 64038, name: 'CJK COMPATIBILITY IDEOGRAPH-FA26', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA26, name: 'CJK COMPATIBILITY IDEOGRAPH-FA26', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA26 = "\u{FA26}";
 
-    #[Info(id: 64039, name: 'CJK COMPATIBILITY IDEOGRAPH-FA27', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA27, name: 'CJK COMPATIBILITY IDEOGRAPH-FA27', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA27 = "\u{FA27}";
 
-    #[Info(id: 64040, name: 'CJK COMPATIBILITY IDEOGRAPH-FA28', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA28, name: 'CJK COMPATIBILITY IDEOGRAPH-FA28', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA28 = "\u{FA28}";
 
-    #[Info(id: 64041, name: 'CJK COMPATIBILITY IDEOGRAPH-FA29', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA29, name: 'CJK COMPATIBILITY IDEOGRAPH-FA29', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA29 = "\u{FA29}";
 
-    #[Info(id: 64042, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA2A, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA2A = "\u{FA2A}";
 
-    #[Info(id: 64043, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2B', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA2B, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA2B = "\u{FA2B}";
 
-    #[Info(id: 64044, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2C', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA2C, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA2C = "\u{FA2C}";
 
-    #[Info(id: 64045, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2D', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA2D, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA2D = "\u{FA2D}";
 
-    #[Info(id: 64046, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA2E, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA2E = "\u{FA2E}";
 
-    #[Info(id: 64047, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2F', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA2F, name: 'CJK COMPATIBILITY IDEOGRAPH-FA2F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA2F = "\u{FA2F}";
 
-    #[Info(id: 64048, name: 'CJK COMPATIBILITY IDEOGRAPH-FA30', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA30, name: 'CJK COMPATIBILITY IDEOGRAPH-FA30', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA30 = "\u{FA30}";
 
-    #[Info(id: 64049, name: 'CJK COMPATIBILITY IDEOGRAPH-FA31', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA31, name: 'CJK COMPATIBILITY IDEOGRAPH-FA31', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA31 = "\u{FA31}";
 
-    #[Info(id: 64050, name: 'CJK COMPATIBILITY IDEOGRAPH-FA32', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA32, name: 'CJK COMPATIBILITY IDEOGRAPH-FA32', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA32 = "\u{FA32}";
 
-    #[Info(id: 64051, name: 'CJK COMPATIBILITY IDEOGRAPH-FA33', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA33, name: 'CJK COMPATIBILITY IDEOGRAPH-FA33', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA33 = "\u{FA33}";
 
-    #[Info(id: 64052, name: 'CJK COMPATIBILITY IDEOGRAPH-FA34', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA34, name: 'CJK COMPATIBILITY IDEOGRAPH-FA34', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA34 = "\u{FA34}";
 
-    #[Info(id: 64053, name: 'CJK COMPATIBILITY IDEOGRAPH-FA35', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA35, name: 'CJK COMPATIBILITY IDEOGRAPH-FA35', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA35 = "\u{FA35}";
 
-    #[Info(id: 64054, name: 'CJK COMPATIBILITY IDEOGRAPH-FA36', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA36, name: 'CJK COMPATIBILITY IDEOGRAPH-FA36', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA36 = "\u{FA36}";
 
-    #[Info(id: 64055, name: 'CJK COMPATIBILITY IDEOGRAPH-FA37', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA37, name: 'CJK COMPATIBILITY IDEOGRAPH-FA37', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA37 = "\u{FA37}";
 
-    #[Info(id: 64056, name: 'CJK COMPATIBILITY IDEOGRAPH-FA38', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA38, name: 'CJK COMPATIBILITY IDEOGRAPH-FA38', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA38 = "\u{FA38}";
 
-    #[Info(id: 64057, name: 'CJK COMPATIBILITY IDEOGRAPH-FA39', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA39, name: 'CJK COMPATIBILITY IDEOGRAPH-FA39', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA39 = "\u{FA39}";
 
-    #[Info(id: 64058, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA3A, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA3A = "\u{FA3A}";
 
-    #[Info(id: 64059, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3B', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA3B, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA3B = "\u{FA3B}";
 
-    #[Info(id: 64060, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3C', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA3C, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA3C = "\u{FA3C}";
 
-    #[Info(id: 64061, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3D', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA3D, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA3D = "\u{FA3D}";
 
-    #[Info(id: 64062, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA3E, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA3E = "\u{FA3E}";
 
-    #[Info(id: 64063, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3F', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA3F, name: 'CJK COMPATIBILITY IDEOGRAPH-FA3F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA3F = "\u{FA3F}";
 
-    #[Info(id: 64064, name: 'CJK COMPATIBILITY IDEOGRAPH-FA40', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA40, name: 'CJK COMPATIBILITY IDEOGRAPH-FA40', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA40 = "\u{FA40}";
 
-    #[Info(id: 64065, name: 'CJK COMPATIBILITY IDEOGRAPH-FA41', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA41, name: 'CJK COMPATIBILITY IDEOGRAPH-FA41', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA41 = "\u{FA41}";
 
-    #[Info(id: 64066, name: 'CJK COMPATIBILITY IDEOGRAPH-FA42', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA42, name: 'CJK COMPATIBILITY IDEOGRAPH-FA42', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA42 = "\u{FA42}";
 
-    #[Info(id: 64067, name: 'CJK COMPATIBILITY IDEOGRAPH-FA43', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA43, name: 'CJK COMPATIBILITY IDEOGRAPH-FA43', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA43 = "\u{FA43}";
 
-    #[Info(id: 64068, name: 'CJK COMPATIBILITY IDEOGRAPH-FA44', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA44, name: 'CJK COMPATIBILITY IDEOGRAPH-FA44', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA44 = "\u{FA44}";
 
-    #[Info(id: 64069, name: 'CJK COMPATIBILITY IDEOGRAPH-FA45', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA45, name: 'CJK COMPATIBILITY IDEOGRAPH-FA45', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA45 = "\u{FA45}";
 
-    #[Info(id: 64070, name: 'CJK COMPATIBILITY IDEOGRAPH-FA46', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA46, name: 'CJK COMPATIBILITY IDEOGRAPH-FA46', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA46 = "\u{FA46}";
 
-    #[Info(id: 64071, name: 'CJK COMPATIBILITY IDEOGRAPH-FA47', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA47, name: 'CJK COMPATIBILITY IDEOGRAPH-FA47', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA47 = "\u{FA47}";
 
-    #[Info(id: 64072, name: 'CJK COMPATIBILITY IDEOGRAPH-FA48', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA48, name: 'CJK COMPATIBILITY IDEOGRAPH-FA48', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA48 = "\u{FA48}";
 
-    #[Info(id: 64073, name: 'CJK COMPATIBILITY IDEOGRAPH-FA49', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA49, name: 'CJK COMPATIBILITY IDEOGRAPH-FA49', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA49 = "\u{FA49}";
 
-    #[Info(id: 64074, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA4A, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA4A = "\u{FA4A}";
 
-    #[Info(id: 64075, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4B', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA4B, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA4B = "\u{FA4B}";
 
-    #[Info(id: 64076, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4C', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA4C, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA4C = "\u{FA4C}";
 
-    #[Info(id: 64077, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4D', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA4D, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA4D = "\u{FA4D}";
 
-    #[Info(id: 64078, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA4E, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA4E = "\u{FA4E}";
 
-    #[Info(id: 64079, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4F', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA4F, name: 'CJK COMPATIBILITY IDEOGRAPH-FA4F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA4F = "\u{FA4F}";
 
-    #[Info(id: 64080, name: 'CJK COMPATIBILITY IDEOGRAPH-FA50', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA50, name: 'CJK COMPATIBILITY IDEOGRAPH-FA50', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA50 = "\u{FA50}";
 
-    #[Info(id: 64081, name: 'CJK COMPATIBILITY IDEOGRAPH-FA51', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA51, name: 'CJK COMPATIBILITY IDEOGRAPH-FA51', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA51 = "\u{FA51}";
 
-    #[Info(id: 64082, name: 'CJK COMPATIBILITY IDEOGRAPH-FA52', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA52, name: 'CJK COMPATIBILITY IDEOGRAPH-FA52', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA52 = "\u{FA52}";
 
-    #[Info(id: 64083, name: 'CJK COMPATIBILITY IDEOGRAPH-FA53', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA53, name: 'CJK COMPATIBILITY IDEOGRAPH-FA53', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA53 = "\u{FA53}";
 
-    #[Info(id: 64084, name: 'CJK COMPATIBILITY IDEOGRAPH-FA54', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA54, name: 'CJK COMPATIBILITY IDEOGRAPH-FA54', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA54 = "\u{FA54}";
 
-    #[Info(id: 64085, name: 'CJK COMPATIBILITY IDEOGRAPH-FA55', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA55, name: 'CJK COMPATIBILITY IDEOGRAPH-FA55', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA55 = "\u{FA55}";
 
-    #[Info(id: 64086, name: 'CJK COMPATIBILITY IDEOGRAPH-FA56', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA56, name: 'CJK COMPATIBILITY IDEOGRAPH-FA56', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA56 = "\u{FA56}";
 
-    #[Info(id: 64087, name: 'CJK COMPATIBILITY IDEOGRAPH-FA57', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA57, name: 'CJK COMPATIBILITY IDEOGRAPH-FA57', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA57 = "\u{FA57}";
 
-    #[Info(id: 64088, name: 'CJK COMPATIBILITY IDEOGRAPH-FA58', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA58, name: 'CJK COMPATIBILITY IDEOGRAPH-FA58', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA58 = "\u{FA58}";
 
-    #[Info(id: 64089, name: 'CJK COMPATIBILITY IDEOGRAPH-FA59', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA59, name: 'CJK COMPATIBILITY IDEOGRAPH-FA59', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA59 = "\u{FA59}";
 
-    #[Info(id: 64090, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA5A, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA5A = "\u{FA5A}";
 
-    #[Info(id: 64091, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5B', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA5B, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA5B = "\u{FA5B}";
 
-    #[Info(id: 64092, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5C', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA5C, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA5C = "\u{FA5C}";
 
-    #[Info(id: 64093, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5D', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA5D, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA5D = "\u{FA5D}";
 
-    #[Info(id: 64094, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA5E, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA5E = "\u{FA5E}";
 
-    #[Info(id: 64095, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5F', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA5F, name: 'CJK COMPATIBILITY IDEOGRAPH-FA5F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA5F = "\u{FA5F}";
 
-    #[Info(id: 64096, name: 'CJK COMPATIBILITY IDEOGRAPH-FA60', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA60, name: 'CJK COMPATIBILITY IDEOGRAPH-FA60', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA60 = "\u{FA60}";
 
-    #[Info(id: 64097, name: 'CJK COMPATIBILITY IDEOGRAPH-FA61', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA61, name: 'CJK COMPATIBILITY IDEOGRAPH-FA61', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA61 = "\u{FA61}";
 
-    #[Info(id: 64098, name: 'CJK COMPATIBILITY IDEOGRAPH-FA62', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA62, name: 'CJK COMPATIBILITY IDEOGRAPH-FA62', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA62 = "\u{FA62}";
 
-    #[Info(id: 64099, name: 'CJK COMPATIBILITY IDEOGRAPH-FA63', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA63, name: 'CJK COMPATIBILITY IDEOGRAPH-FA63', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA63 = "\u{FA63}";
 
-    #[Info(id: 64100, name: 'CJK COMPATIBILITY IDEOGRAPH-FA64', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA64, name: 'CJK COMPATIBILITY IDEOGRAPH-FA64', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA64 = "\u{FA64}";
 
-    #[Info(id: 64101, name: 'CJK COMPATIBILITY IDEOGRAPH-FA65', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA65, name: 'CJK COMPATIBILITY IDEOGRAPH-FA65', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA65 = "\u{FA65}";
 
-    #[Info(id: 64102, name: 'CJK COMPATIBILITY IDEOGRAPH-FA66', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA66, name: 'CJK COMPATIBILITY IDEOGRAPH-FA66', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA66 = "\u{FA66}";
 
-    #[Info(id: 64103, name: 'CJK COMPATIBILITY IDEOGRAPH-FA67', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA67, name: 'CJK COMPATIBILITY IDEOGRAPH-FA67', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA67 = "\u{FA67}";
 
-    #[Info(id: 64104, name: 'CJK COMPATIBILITY IDEOGRAPH-FA68', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA68, name: 'CJK COMPATIBILITY IDEOGRAPH-FA68', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA68 = "\u{FA68}";
 
-    #[Info(id: 64105, name: 'CJK COMPATIBILITY IDEOGRAPH-FA69', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA69, name: 'CJK COMPATIBILITY IDEOGRAPH-FA69', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA69 = "\u{FA69}";
 
-    #[Info(id: 64106, name: 'CJK COMPATIBILITY IDEOGRAPH-FA6A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA6A, name: 'CJK COMPATIBILITY IDEOGRAPH-FA6A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA6A = "\u{FA6A}";
 
-    #[Info(id: 64107, name: 'CJK COMPATIBILITY IDEOGRAPH-FA6B', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA6B, name: 'CJK COMPATIBILITY IDEOGRAPH-FA6B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA6B = "\u{FA6B}";
 
-    #[Info(id: 64108, name: 'CJK COMPATIBILITY IDEOGRAPH-FA6C', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA6C, name: 'CJK COMPATIBILITY IDEOGRAPH-FA6C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA6C = "\u{FA6C}";
 
-    #[Info(id: 64109, name: 'CJK COMPATIBILITY IDEOGRAPH-FA6D', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA6D, name: 'CJK COMPATIBILITY IDEOGRAPH-FA6D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA6D = "\u{FA6D}";
 
-    #[Info(id: 64112, name: 'CJK COMPATIBILITY IDEOGRAPH-FA70', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA70, name: 'CJK COMPATIBILITY IDEOGRAPH-FA70', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA70 = "\u{FA70}";
 
-    #[Info(id: 64113, name: 'CJK COMPATIBILITY IDEOGRAPH-FA71', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA71, name: 'CJK COMPATIBILITY IDEOGRAPH-FA71', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA71 = "\u{FA71}";
 
-    #[Info(id: 64114, name: 'CJK COMPATIBILITY IDEOGRAPH-FA72', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA72, name: 'CJK COMPATIBILITY IDEOGRAPH-FA72', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA72 = "\u{FA72}";
 
-    #[Info(id: 64115, name: 'CJK COMPATIBILITY IDEOGRAPH-FA73', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA73, name: 'CJK COMPATIBILITY IDEOGRAPH-FA73', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA73 = "\u{FA73}";
 
-    #[Info(id: 64116, name: 'CJK COMPATIBILITY IDEOGRAPH-FA74', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA74, name: 'CJK COMPATIBILITY IDEOGRAPH-FA74', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA74 = "\u{FA74}";
 
-    #[Info(id: 64117, name: 'CJK COMPATIBILITY IDEOGRAPH-FA75', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA75, name: 'CJK COMPATIBILITY IDEOGRAPH-FA75', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA75 = "\u{FA75}";
 
-    #[Info(id: 64118, name: 'CJK COMPATIBILITY IDEOGRAPH-FA76', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA76, name: 'CJK COMPATIBILITY IDEOGRAPH-FA76', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA76 = "\u{FA76}";
 
-    #[Info(id: 64119, name: 'CJK COMPATIBILITY IDEOGRAPH-FA77', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA77, name: 'CJK COMPATIBILITY IDEOGRAPH-FA77', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA77 = "\u{FA77}";
 
-    #[Info(id: 64120, name: 'CJK COMPATIBILITY IDEOGRAPH-FA78', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA78, name: 'CJK COMPATIBILITY IDEOGRAPH-FA78', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA78 = "\u{FA78}";
 
-    #[Info(id: 64121, name: 'CJK COMPATIBILITY IDEOGRAPH-FA79', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA79, name: 'CJK COMPATIBILITY IDEOGRAPH-FA79', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA79 = "\u{FA79}";
 
-    #[Info(id: 64122, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA7A, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA7A = "\u{FA7A}";
 
-    #[Info(id: 64123, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7B', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA7B, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA7B = "\u{FA7B}";
 
-    #[Info(id: 64124, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7C', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA7C, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA7C = "\u{FA7C}";
 
-    #[Info(id: 64125, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7D', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA7D, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA7D = "\u{FA7D}";
 
-    #[Info(id: 64126, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA7E, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA7E = "\u{FA7E}";
 
-    #[Info(id: 64127, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7F', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA7F, name: 'CJK COMPATIBILITY IDEOGRAPH-FA7F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA7F = "\u{FA7F}";
 
-    #[Info(id: 64128, name: 'CJK COMPATIBILITY IDEOGRAPH-FA80', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA80, name: 'CJK COMPATIBILITY IDEOGRAPH-FA80', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA80 = "\u{FA80}";
 
-    #[Info(id: 64129, name: 'CJK COMPATIBILITY IDEOGRAPH-FA81', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA81, name: 'CJK COMPATIBILITY IDEOGRAPH-FA81', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA81 = "\u{FA81}";
 
-    #[Info(id: 64130, name: 'CJK COMPATIBILITY IDEOGRAPH-FA82', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA82, name: 'CJK COMPATIBILITY IDEOGRAPH-FA82', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA82 = "\u{FA82}";
 
-    #[Info(id: 64131, name: 'CJK COMPATIBILITY IDEOGRAPH-FA83', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA83, name: 'CJK COMPATIBILITY IDEOGRAPH-FA83', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA83 = "\u{FA83}";
 
-    #[Info(id: 64132, name: 'CJK COMPATIBILITY IDEOGRAPH-FA84', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA84, name: 'CJK COMPATIBILITY IDEOGRAPH-FA84', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA84 = "\u{FA84}";
 
-    #[Info(id: 64133, name: 'CJK COMPATIBILITY IDEOGRAPH-FA85', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA85, name: 'CJK COMPATIBILITY IDEOGRAPH-FA85', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA85 = "\u{FA85}";
 
-    #[Info(id: 64134, name: 'CJK COMPATIBILITY IDEOGRAPH-FA86', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA86, name: 'CJK COMPATIBILITY IDEOGRAPH-FA86', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA86 = "\u{FA86}";
 
-    #[Info(id: 64135, name: 'CJK COMPATIBILITY IDEOGRAPH-FA87', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA87, name: 'CJK COMPATIBILITY IDEOGRAPH-FA87', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA87 = "\u{FA87}";
 
-    #[Info(id: 64136, name: 'CJK COMPATIBILITY IDEOGRAPH-FA88', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA88, name: 'CJK COMPATIBILITY IDEOGRAPH-FA88', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA88 = "\u{FA88}";
 
-    #[Info(id: 64137, name: 'CJK COMPATIBILITY IDEOGRAPH-FA89', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA89, name: 'CJK COMPATIBILITY IDEOGRAPH-FA89', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA89 = "\u{FA89}";
 
-    #[Info(id: 64138, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA8A, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA8A = "\u{FA8A}";
 
-    #[Info(id: 64139, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8B', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA8B, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA8B = "\u{FA8B}";
 
-    #[Info(id: 64140, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8C', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA8C, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA8C = "\u{FA8C}";
 
-    #[Info(id: 64141, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8D', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA8D, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA8D = "\u{FA8D}";
 
-    #[Info(id: 64142, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA8E, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA8E = "\u{FA8E}";
 
-    #[Info(id: 64143, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8F', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA8F, name: 'CJK COMPATIBILITY IDEOGRAPH-FA8F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA8F = "\u{FA8F}";
 
-    #[Info(id: 64144, name: 'CJK COMPATIBILITY IDEOGRAPH-FA90', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA90, name: 'CJK COMPATIBILITY IDEOGRAPH-FA90', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA90 = "\u{FA90}";
 
-    #[Info(id: 64145, name: 'CJK COMPATIBILITY IDEOGRAPH-FA91', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA91, name: 'CJK COMPATIBILITY IDEOGRAPH-FA91', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA91 = "\u{FA91}";
 
-    #[Info(id: 64146, name: 'CJK COMPATIBILITY IDEOGRAPH-FA92', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA92, name: 'CJK COMPATIBILITY IDEOGRAPH-FA92', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA92 = "\u{FA92}";
 
-    #[Info(id: 64147, name: 'CJK COMPATIBILITY IDEOGRAPH-FA93', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA93, name: 'CJK COMPATIBILITY IDEOGRAPH-FA93', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA93 = "\u{FA93}";
 
-    #[Info(id: 64148, name: 'CJK COMPATIBILITY IDEOGRAPH-FA94', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA94, name: 'CJK COMPATIBILITY IDEOGRAPH-FA94', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA94 = "\u{FA94}";
 
-    #[Info(id: 64149, name: 'CJK COMPATIBILITY IDEOGRAPH-FA95', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA95, name: 'CJK COMPATIBILITY IDEOGRAPH-FA95', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA95 = "\u{FA95}";
 
-    #[Info(id: 64150, name: 'CJK COMPATIBILITY IDEOGRAPH-FA96', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA96, name: 'CJK COMPATIBILITY IDEOGRAPH-FA96', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA96 = "\u{FA96}";
 
-    #[Info(id: 64151, name: 'CJK COMPATIBILITY IDEOGRAPH-FA97', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA97, name: 'CJK COMPATIBILITY IDEOGRAPH-FA97', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA97 = "\u{FA97}";
 
-    #[Info(id: 64152, name: 'CJK COMPATIBILITY IDEOGRAPH-FA98', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA98, name: 'CJK COMPATIBILITY IDEOGRAPH-FA98', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA98 = "\u{FA98}";
 
-    #[Info(id: 64153, name: 'CJK COMPATIBILITY IDEOGRAPH-FA99', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA99, name: 'CJK COMPATIBILITY IDEOGRAPH-FA99', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA99 = "\u{FA99}";
 
-    #[Info(id: 64154, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9A', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA9A, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9A', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA9A = "\u{FA9A}";
 
-    #[Info(id: 64155, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9B', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA9B, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9B', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA9B = "\u{FA9B}";
 
-    #[Info(id: 64156, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9C', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA9C, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9C', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA9C = "\u{FA9C}";
 
-    #[Info(id: 64157, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9D', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA9D, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9D', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA9D = "\u{FA9D}";
 
-    #[Info(id: 64158, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9E', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA9E, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9E', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA9E = "\u{FA9E}";
 
-    #[Info(id: 64159, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9F', category: Cat::Other_Letter)]
+    #[Info(id: 0xFA9F, name: 'CJK COMPATIBILITY IDEOGRAPH-FA9F', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FA9F = "\u{FA9F}";
 
-    #[Info(id: 64160, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA0', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAA0, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA0', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAA0 = "\u{FAA0}";
 
-    #[Info(id: 64161, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA1', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAA1, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA1', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAA1 = "\u{FAA1}";
 
-    #[Info(id: 64162, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA2', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAA2, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA2', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAA2 = "\u{FAA2}";
 
-    #[Info(id: 64163, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA3', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAA3, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA3', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAA3 = "\u{FAA3}";
 
-    #[Info(id: 64164, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA4', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAA4, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA4', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAA4 = "\u{FAA4}";
 
-    #[Info(id: 64165, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA5', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAA5, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA5', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAA5 = "\u{FAA5}";
 
-    #[Info(id: 64166, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA6', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAA6, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA6', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAA6 = "\u{FAA6}";
 
-    #[Info(id: 64167, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA7', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAA7, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA7', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAA7 = "\u{FAA7}";
 
-    #[Info(id: 64168, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA8', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAA8, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA8', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAA8 = "\u{FAA8}";
 
-    #[Info(id: 64169, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA9', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAA9, name: 'CJK COMPATIBILITY IDEOGRAPH-FAA9', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAA9 = "\u{FAA9}";
 
-    #[Info(id: 64170, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAAA, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAA', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAAA = "\u{FAAA}";
 
-    #[Info(id: 64171, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAB', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAAB, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAB', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAAB = "\u{FAAB}";
 
-    #[Info(id: 64172, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAC', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAAC, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAC', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAAC = "\u{FAAC}";
 
-    #[Info(id: 64173, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAD', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAAD, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAD', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAAD = "\u{FAAD}";
 
-    #[Info(id: 64174, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAAE, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAE', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAAE = "\u{FAAE}";
 
-    #[Info(id: 64175, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAF', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAAF, name: 'CJK COMPATIBILITY IDEOGRAPH-FAAF', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAAF = "\u{FAAF}";
 
-    #[Info(id: 64176, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB0', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAB0, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB0', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAB0 = "\u{FAB0}";
 
-    #[Info(id: 64177, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB1', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAB1, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB1', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAB1 = "\u{FAB1}";
 
-    #[Info(id: 64178, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB2', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAB2, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB2', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAB2 = "\u{FAB2}";
 
-    #[Info(id: 64179, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB3', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAB3, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB3', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAB3 = "\u{FAB3}";
 
-    #[Info(id: 64180, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB4', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAB4, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB4', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAB4 = "\u{FAB4}";
 
-    #[Info(id: 64181, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB5', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAB5, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB5', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAB5 = "\u{FAB5}";
 
-    #[Info(id: 64182, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB6', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAB6, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB6', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAB6 = "\u{FAB6}";
 
-    #[Info(id: 64183, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB7', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAB7, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB7', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAB7 = "\u{FAB7}";
 
-    #[Info(id: 64184, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB8', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAB8, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB8', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAB8 = "\u{FAB8}";
 
-    #[Info(id: 64185, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB9', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAB9, name: 'CJK COMPATIBILITY IDEOGRAPH-FAB9', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAB9 = "\u{FAB9}";
 
-    #[Info(id: 64186, name: 'CJK COMPATIBILITY IDEOGRAPH-FABA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFABA, name: 'CJK COMPATIBILITY IDEOGRAPH-FABA', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FABA = "\u{FABA}";
 
-    #[Info(id: 64187, name: 'CJK COMPATIBILITY IDEOGRAPH-FABB', category: Cat::Other_Letter)]
+    #[Info(id: 0xFABB, name: 'CJK COMPATIBILITY IDEOGRAPH-FABB', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FABB = "\u{FABB}";
 
-    #[Info(id: 64188, name: 'CJK COMPATIBILITY IDEOGRAPH-FABC', category: Cat::Other_Letter)]
+    #[Info(id: 0xFABC, name: 'CJK COMPATIBILITY IDEOGRAPH-FABC', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FABC = "\u{FABC}";
 
-    #[Info(id: 64189, name: 'CJK COMPATIBILITY IDEOGRAPH-FABD', category: Cat::Other_Letter)]
+    #[Info(id: 0xFABD, name: 'CJK COMPATIBILITY IDEOGRAPH-FABD', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FABD = "\u{FABD}";
 
-    #[Info(id: 64190, name: 'CJK COMPATIBILITY IDEOGRAPH-FABE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFABE, name: 'CJK COMPATIBILITY IDEOGRAPH-FABE', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FABE = "\u{FABE}";
 
-    #[Info(id: 64191, name: 'CJK COMPATIBILITY IDEOGRAPH-FABF', category: Cat::Other_Letter)]
+    #[Info(id: 0xFABF, name: 'CJK COMPATIBILITY IDEOGRAPH-FABF', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FABF = "\u{FABF}";
 
-    #[Info(id: 64192, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC0', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAC0, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC0', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAC0 = "\u{FAC0}";
 
-    #[Info(id: 64193, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC1', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAC1, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC1', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAC1 = "\u{FAC1}";
 
-    #[Info(id: 64194, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC2', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAC2, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC2', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAC2 = "\u{FAC2}";
 
-    #[Info(id: 64195, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC3', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAC3, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC3', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAC3 = "\u{FAC3}";
 
-    #[Info(id: 64196, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC4', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAC4, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC4', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAC4 = "\u{FAC4}";
 
-    #[Info(id: 64197, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC5', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAC5, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC5', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAC5 = "\u{FAC5}";
 
-    #[Info(id: 64198, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC6', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAC6, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC6', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAC6 = "\u{FAC6}";
 
-    #[Info(id: 64199, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC7', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAC7, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC7', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAC7 = "\u{FAC7}";
 
-    #[Info(id: 64200, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC8', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAC8, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC8', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAC8 = "\u{FAC8}";
 
-    #[Info(id: 64201, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC9', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAC9, name: 'CJK COMPATIBILITY IDEOGRAPH-FAC9', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAC9 = "\u{FAC9}";
 
-    #[Info(id: 64202, name: 'CJK COMPATIBILITY IDEOGRAPH-FACA', category: Cat::Other_Letter)]
+    #[Info(id: 0xFACA, name: 'CJK COMPATIBILITY IDEOGRAPH-FACA', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FACA = "\u{FACA}";
 
-    #[Info(id: 64203, name: 'CJK COMPATIBILITY IDEOGRAPH-FACB', category: Cat::Other_Letter)]
+    #[Info(id: 0xFACB, name: 'CJK COMPATIBILITY IDEOGRAPH-FACB', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FACB = "\u{FACB}";
 
-    #[Info(id: 64204, name: 'CJK COMPATIBILITY IDEOGRAPH-FACC', category: Cat::Other_Letter)]
+    #[Info(id: 0xFACC, name: 'CJK COMPATIBILITY IDEOGRAPH-FACC', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FACC = "\u{FACC}";
 
-    #[Info(id: 64205, name: 'CJK COMPATIBILITY IDEOGRAPH-FACD', category: Cat::Other_Letter)]
+    #[Info(id: 0xFACD, name: 'CJK COMPATIBILITY IDEOGRAPH-FACD', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FACD = "\u{FACD}";
 
-    #[Info(id: 64206, name: 'CJK COMPATIBILITY IDEOGRAPH-FACE', category: Cat::Other_Letter)]
+    #[Info(id: 0xFACE, name: 'CJK COMPATIBILITY IDEOGRAPH-FACE', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FACE = "\u{FACE}";
 
-    #[Info(id: 64207, name: 'CJK COMPATIBILITY IDEOGRAPH-FACF', category: Cat::Other_Letter)]
+    #[Info(id: 0xFACF, name: 'CJK COMPATIBILITY IDEOGRAPH-FACF', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FACF = "\u{FACF}";
 
-    #[Info(id: 64208, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD0', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAD0, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD0', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAD0 = "\u{FAD0}";
 
-    #[Info(id: 64209, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD1', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAD1, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD1', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAD1 = "\u{FAD1}";
 
-    #[Info(id: 64210, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD2', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAD2, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD2', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAD2 = "\u{FAD2}";
 
-    #[Info(id: 64211, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD3', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAD3, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD3', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAD3 = "\u{FAD3}";
 
-    #[Info(id: 64212, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD4', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAD4, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD4', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAD4 = "\u{FAD4}";
 
-    #[Info(id: 64213, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD5', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAD5, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD5', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAD5 = "\u{FAD5}";
 
-    #[Info(id: 64214, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD6', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAD6, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD6', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAD6 = "\u{FAD6}";
 
-    #[Info(id: 64215, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD7', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAD7, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD7', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAD7 = "\u{FAD7}";
 
-    #[Info(id: 64216, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD8', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAD8, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD8', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAD8 = "\u{FAD8}";
 
-    #[Info(id: 64217, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD9', category: Cat::Other_Letter)]
+    #[Info(id: 0xFAD9, name: 'CJK COMPATIBILITY IDEOGRAPH-FAD9', category: Cat::Other_Letter)]
     case CJK_COMPATIBILITY_IDEOGRAPH_FAD9 = "\u{FAD9}";
 }

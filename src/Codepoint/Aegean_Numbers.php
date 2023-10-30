@@ -16,174 +16,174 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Aegean_Numbers: string
 {
-    #[Info(id: 65792, name: 'AEGEAN WORD SEPARATOR LINE', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10100, name: 'AEGEAN WORD SEPARATOR LINE', category: Cat::Other_Punctuation)]
     case AEGEAN_WORD_SEPARATOR_LINE = "\u{10100}";
 
-    #[Info(id: 65793, name: 'AEGEAN WORD SEPARATOR DOT', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10101, name: 'AEGEAN WORD SEPARATOR DOT', category: Cat::Other_Punctuation)]
     case AEGEAN_WORD_SEPARATOR_DOT = "\u{10101}";
 
-    #[Info(id: 65794, name: 'AEGEAN CHECK MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x10102, name: 'AEGEAN CHECK MARK', category: Cat::Other_Punctuation)]
     case AEGEAN_CHECK_MARK = "\u{10102}";
 
-    #[Info(id: 65799, name: 'AEGEAN NUMBER ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x10107, name: 'AEGEAN NUMBER ONE', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_ONE = "\u{10107}";
 
-    #[Info(id: 65800, name: 'AEGEAN NUMBER TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x10108, name: 'AEGEAN NUMBER TWO', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_TWO = "\u{10108}";
 
-    #[Info(id: 65801, name: 'AEGEAN NUMBER THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x10109, name: 'AEGEAN NUMBER THREE', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_THREE = "\u{10109}";
 
-    #[Info(id: 65802, name: 'AEGEAN NUMBER FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x1010A, name: 'AEGEAN NUMBER FOUR', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_FOUR = "\u{1010A}";
 
-    #[Info(id: 65803, name: 'AEGEAN NUMBER FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x1010B, name: 'AEGEAN NUMBER FIVE', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_FIVE = "\u{1010B}";
 
-    #[Info(id: 65804, name: 'AEGEAN NUMBER SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x1010C, name: 'AEGEAN NUMBER SIX', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_SIX = "\u{1010C}";
 
-    #[Info(id: 65805, name: 'AEGEAN NUMBER SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x1010D, name: 'AEGEAN NUMBER SEVEN', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_SEVEN = "\u{1010D}";
 
-    #[Info(id: 65806, name: 'AEGEAN NUMBER EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x1010E, name: 'AEGEAN NUMBER EIGHT', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_EIGHT = "\u{1010E}";
 
-    #[Info(id: 65807, name: 'AEGEAN NUMBER NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x1010F, name: 'AEGEAN NUMBER NINE', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_NINE = "\u{1010F}";
 
-    #[Info(id: 65808, name: 'AEGEAN NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x10110, name: 'AEGEAN NUMBER TEN', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_TEN = "\u{10110}";
 
-    #[Info(id: 65809, name: 'AEGEAN NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10111, name: 'AEGEAN NUMBER TWENTY', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_TWENTY = "\u{10111}";
 
-    #[Info(id: 65810, name: 'AEGEAN NUMBER THIRTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10112, name: 'AEGEAN NUMBER THIRTY', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_THIRTY = "\u{10112}";
 
-    #[Info(id: 65811, name: 'AEGEAN NUMBER FORTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10113, name: 'AEGEAN NUMBER FORTY', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_FORTY = "\u{10113}";
 
-    #[Info(id: 65812, name: 'AEGEAN NUMBER FIFTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10114, name: 'AEGEAN NUMBER FIFTY', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_FIFTY = "\u{10114}";
 
-    #[Info(id: 65813, name: 'AEGEAN NUMBER SIXTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10115, name: 'AEGEAN NUMBER SIXTY', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_SIXTY = "\u{10115}";
 
-    #[Info(id: 65814, name: 'AEGEAN NUMBER SEVENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10116, name: 'AEGEAN NUMBER SEVENTY', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_SEVENTY = "\u{10116}";
 
-    #[Info(id: 65815, name: 'AEGEAN NUMBER EIGHTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10117, name: 'AEGEAN NUMBER EIGHTY', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_EIGHTY = "\u{10117}";
 
-    #[Info(id: 65816, name: 'AEGEAN NUMBER NINETY', category: Cat::Other_Number)]
+    #[Info(id: 0x10118, name: 'AEGEAN NUMBER NINETY', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_NINETY = "\u{10118}";
 
-    #[Info(id: 65817, name: 'AEGEAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10119, name: 'AEGEAN NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_ONE_HUNDRED = "\u{10119}";
 
-    #[Info(id: 65818, name: 'AEGEAN NUMBER TWO HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x1011A, name: 'AEGEAN NUMBER TWO HUNDRED', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_TWO_HUNDRED = "\u{1011A}";
 
-    #[Info(id: 65819, name: 'AEGEAN NUMBER THREE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x1011B, name: 'AEGEAN NUMBER THREE HUNDRED', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_THREE_HUNDRED = "\u{1011B}";
 
-    #[Info(id: 65820, name: 'AEGEAN NUMBER FOUR HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x1011C, name: 'AEGEAN NUMBER FOUR HUNDRED', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_FOUR_HUNDRED = "\u{1011C}";
 
-    #[Info(id: 65821, name: 'AEGEAN NUMBER FIVE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x1011D, name: 'AEGEAN NUMBER FIVE HUNDRED', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_FIVE_HUNDRED = "\u{1011D}";
 
-    #[Info(id: 65822, name: 'AEGEAN NUMBER SIX HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x1011E, name: 'AEGEAN NUMBER SIX HUNDRED', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_SIX_HUNDRED = "\u{1011E}";
 
-    #[Info(id: 65823, name: 'AEGEAN NUMBER SEVEN HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x1011F, name: 'AEGEAN NUMBER SEVEN HUNDRED', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_SEVEN_HUNDRED = "\u{1011F}";
 
-    #[Info(id: 65824, name: 'AEGEAN NUMBER EIGHT HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10120, name: 'AEGEAN NUMBER EIGHT HUNDRED', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_EIGHT_HUNDRED = "\u{10120}";
 
-    #[Info(id: 65825, name: 'AEGEAN NUMBER NINE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10121, name: 'AEGEAN NUMBER NINE HUNDRED', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_NINE_HUNDRED = "\u{10121}";
 
-    #[Info(id: 65826, name: 'AEGEAN NUMBER ONE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10122, name: 'AEGEAN NUMBER ONE THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_ONE_THOUSAND = "\u{10122}";
 
-    #[Info(id: 65827, name: 'AEGEAN NUMBER TWO THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10123, name: 'AEGEAN NUMBER TWO THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_TWO_THOUSAND = "\u{10123}";
 
-    #[Info(id: 65828, name: 'AEGEAN NUMBER THREE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10124, name: 'AEGEAN NUMBER THREE THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_THREE_THOUSAND = "\u{10124}";
 
-    #[Info(id: 65829, name: 'AEGEAN NUMBER FOUR THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10125, name: 'AEGEAN NUMBER FOUR THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_FOUR_THOUSAND = "\u{10125}";
 
-    #[Info(id: 65830, name: 'AEGEAN NUMBER FIVE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10126, name: 'AEGEAN NUMBER FIVE THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_FIVE_THOUSAND = "\u{10126}";
 
-    #[Info(id: 65831, name: 'AEGEAN NUMBER SIX THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10127, name: 'AEGEAN NUMBER SIX THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_SIX_THOUSAND = "\u{10127}";
 
-    #[Info(id: 65832, name: 'AEGEAN NUMBER SEVEN THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10128, name: 'AEGEAN NUMBER SEVEN THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_SEVEN_THOUSAND = "\u{10128}";
 
-    #[Info(id: 65833, name: 'AEGEAN NUMBER EIGHT THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10129, name: 'AEGEAN NUMBER EIGHT THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_EIGHT_THOUSAND = "\u{10129}";
 
-    #[Info(id: 65834, name: 'AEGEAN NUMBER NINE THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x1012A, name: 'AEGEAN NUMBER NINE THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_NINE_THOUSAND = "\u{1012A}";
 
-    #[Info(id: 65835, name: 'AEGEAN NUMBER TEN THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x1012B, name: 'AEGEAN NUMBER TEN THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_TEN_THOUSAND = "\u{1012B}";
 
-    #[Info(id: 65836, name: 'AEGEAN NUMBER TWENTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x1012C, name: 'AEGEAN NUMBER TWENTY THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_TWENTY_THOUSAND = "\u{1012C}";
 
-    #[Info(id: 65837, name: 'AEGEAN NUMBER THIRTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x1012D, name: 'AEGEAN NUMBER THIRTY THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_THIRTY_THOUSAND = "\u{1012D}";
 
-    #[Info(id: 65838, name: 'AEGEAN NUMBER FORTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x1012E, name: 'AEGEAN NUMBER FORTY THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_FORTY_THOUSAND = "\u{1012E}";
 
-    #[Info(id: 65839, name: 'AEGEAN NUMBER FIFTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x1012F, name: 'AEGEAN NUMBER FIFTY THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_FIFTY_THOUSAND = "\u{1012F}";
 
-    #[Info(id: 65840, name: 'AEGEAN NUMBER SIXTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10130, name: 'AEGEAN NUMBER SIXTY THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_SIXTY_THOUSAND = "\u{10130}";
 
-    #[Info(id: 65841, name: 'AEGEAN NUMBER SEVENTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10131, name: 'AEGEAN NUMBER SEVENTY THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_SEVENTY_THOUSAND = "\u{10131}";
 
-    #[Info(id: 65842, name: 'AEGEAN NUMBER EIGHTY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10132, name: 'AEGEAN NUMBER EIGHTY THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_EIGHTY_THOUSAND = "\u{10132}";
 
-    #[Info(id: 65843, name: 'AEGEAN NUMBER NINETY THOUSAND', category: Cat::Other_Number)]
+    #[Info(id: 0x10133, name: 'AEGEAN NUMBER NINETY THOUSAND', category: Cat::Other_Number)]
     case AEGEAN_NUMBER_NINETY_THOUSAND = "\u{10133}";
 
-    #[Info(id: 65847, name: 'AEGEAN WEIGHT BASE UNIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x10137, name: 'AEGEAN WEIGHT BASE UNIT', category: Cat::Other_Symbol)]
     case AEGEAN_WEIGHT_BASE_UNIT = "\u{10137}";
 
-    #[Info(id: 65848, name: 'AEGEAN WEIGHT FIRST SUBUNIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x10138, name: 'AEGEAN WEIGHT FIRST SUBUNIT', category: Cat::Other_Symbol)]
     case AEGEAN_WEIGHT_FIRST_SUBUNIT = "\u{10138}";
 
-    #[Info(id: 65849, name: 'AEGEAN WEIGHT SECOND SUBUNIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x10139, name: 'AEGEAN WEIGHT SECOND SUBUNIT', category: Cat::Other_Symbol)]
     case AEGEAN_WEIGHT_SECOND_SUBUNIT = "\u{10139}";
 
-    #[Info(id: 65850, name: 'AEGEAN WEIGHT THIRD SUBUNIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1013A, name: 'AEGEAN WEIGHT THIRD SUBUNIT', category: Cat::Other_Symbol)]
     case AEGEAN_WEIGHT_THIRD_SUBUNIT = "\u{1013A}";
 
-    #[Info(id: 65851, name: 'AEGEAN WEIGHT FOURTH SUBUNIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1013B, name: 'AEGEAN WEIGHT FOURTH SUBUNIT', category: Cat::Other_Symbol)]
     case AEGEAN_WEIGHT_FOURTH_SUBUNIT = "\u{1013B}";
 
-    #[Info(id: 65852, name: 'AEGEAN DRY MEASURE FIRST SUBUNIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1013C, name: 'AEGEAN DRY MEASURE FIRST SUBUNIT', category: Cat::Other_Symbol)]
     case AEGEAN_DRY_MEASURE_FIRST_SUBUNIT = "\u{1013C}";
 
-    #[Info(id: 65853, name: 'AEGEAN LIQUID MEASURE FIRST SUBUNIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1013D, name: 'AEGEAN LIQUID MEASURE FIRST SUBUNIT', category: Cat::Other_Symbol)]
     case AEGEAN_LIQUID_MEASURE_FIRST_SUBUNIT = "\u{1013D}";
 
-    #[Info(id: 65854, name: 'AEGEAN MEASURE SECOND SUBUNIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1013E, name: 'AEGEAN MEASURE SECOND SUBUNIT', category: Cat::Other_Symbol)]
     case AEGEAN_MEASURE_SECOND_SUBUNIT = "\u{1013E}";
 
-    #[Info(id: 65855, name: 'AEGEAN MEASURE THIRD SUBUNIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1013F, name: 'AEGEAN MEASURE THIRD SUBUNIT', category: Cat::Other_Symbol)]
     case AEGEAN_MEASURE_THIRD_SUBUNIT = "\u{1013F}";
 }

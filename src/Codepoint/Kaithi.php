@@ -16,207 +16,207 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Kaithi: string
 {
-    #[Info(id: 69760, name: 'KAITHI SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11080, name: 'KAITHI SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case KAITHI_SIGN_CANDRABINDU = "\u{11080}";
 
-    #[Info(id: 69761, name: 'KAITHI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11081, name: 'KAITHI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case KAITHI_SIGN_ANUSVARA = "\u{11081}";
 
-    #[Info(id: 69762, name: 'KAITHI SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11082, name: 'KAITHI SIGN VISARGA', category: Cat::Spacing_Mark)]
     case KAITHI_SIGN_VISARGA = "\u{11082}";
 
-    #[Info(id: 69763, name: 'KAITHI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11083, name: 'KAITHI LETTER A', category: Cat::Other_Letter)]
     case KAITHI_LETTER_A = "\u{11083}";
 
-    #[Info(id: 69764, name: 'KAITHI LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11084, name: 'KAITHI LETTER AA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_AA = "\u{11084}";
 
-    #[Info(id: 69765, name: 'KAITHI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11085, name: 'KAITHI LETTER I', category: Cat::Other_Letter)]
     case KAITHI_LETTER_I = "\u{11085}";
 
-    #[Info(id: 69766, name: 'KAITHI LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x11086, name: 'KAITHI LETTER II', category: Cat::Other_Letter)]
     case KAITHI_LETTER_II = "\u{11086}";
 
-    #[Info(id: 69767, name: 'KAITHI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11087, name: 'KAITHI LETTER U', category: Cat::Other_Letter)]
     case KAITHI_LETTER_U = "\u{11087}";
 
-    #[Info(id: 69768, name: 'KAITHI LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11088, name: 'KAITHI LETTER UU', category: Cat::Other_Letter)]
     case KAITHI_LETTER_UU = "\u{11088}";
 
-    #[Info(id: 69769, name: 'KAITHI LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x11089, name: 'KAITHI LETTER E', category: Cat::Other_Letter)]
     case KAITHI_LETTER_E = "\u{11089}";
 
-    #[Info(id: 69770, name: 'KAITHI LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1108A, name: 'KAITHI LETTER AI', category: Cat::Other_Letter)]
     case KAITHI_LETTER_AI = "\u{1108A}";
 
-    #[Info(id: 69771, name: 'KAITHI LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1108B, name: 'KAITHI LETTER O', category: Cat::Other_Letter)]
     case KAITHI_LETTER_O = "\u{1108B}";
 
-    #[Info(id: 69772, name: 'KAITHI LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1108C, name: 'KAITHI LETTER AU', category: Cat::Other_Letter)]
     case KAITHI_LETTER_AU = "\u{1108C}";
 
-    #[Info(id: 69773, name: 'KAITHI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1108D, name: 'KAITHI LETTER KA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_KA = "\u{1108D}";
 
-    #[Info(id: 69774, name: 'KAITHI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1108E, name: 'KAITHI LETTER KHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_KHA = "\u{1108E}";
 
-    #[Info(id: 69775, name: 'KAITHI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1108F, name: 'KAITHI LETTER GA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_GA = "\u{1108F}";
 
-    #[Info(id: 69776, name: 'KAITHI LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11090, name: 'KAITHI LETTER GHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_GHA = "\u{11090}";
 
-    #[Info(id: 69777, name: 'KAITHI LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11091, name: 'KAITHI LETTER NGA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_NGA = "\u{11091}";
 
-    #[Info(id: 69778, name: 'KAITHI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11092, name: 'KAITHI LETTER CA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_CA = "\u{11092}";
 
-    #[Info(id: 69779, name: 'KAITHI LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11093, name: 'KAITHI LETTER CHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_CHA = "\u{11093}";
 
-    #[Info(id: 69780, name: 'KAITHI LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11094, name: 'KAITHI LETTER JA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_JA = "\u{11094}";
 
-    #[Info(id: 69781, name: 'KAITHI LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11095, name: 'KAITHI LETTER JHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_JHA = "\u{11095}";
 
-    #[Info(id: 69782, name: 'KAITHI LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11096, name: 'KAITHI LETTER NYA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_NYA = "\u{11096}";
 
-    #[Info(id: 69783, name: 'KAITHI LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11097, name: 'KAITHI LETTER TTA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_TTA = "\u{11097}";
 
-    #[Info(id: 69784, name: 'KAITHI LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11098, name: 'KAITHI LETTER TTHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_TTHA = "\u{11098}";
 
-    #[Info(id: 69785, name: 'KAITHI LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11099, name: 'KAITHI LETTER DDA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_DDA = "\u{11099}";
 
-    #[Info(id: 69786, name: 'KAITHI LETTER DDDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1109A, name: 'KAITHI LETTER DDDHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_DDDHA = "\u{1109A}";
 
-    #[Info(id: 69787, name: 'KAITHI LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1109B, name: 'KAITHI LETTER DDHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_DDHA = "\u{1109B}";
 
-    #[Info(id: 69788, name: 'KAITHI LETTER RHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1109C, name: 'KAITHI LETTER RHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_RHA = "\u{1109C}";
 
-    #[Info(id: 69789, name: 'KAITHI LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1109D, name: 'KAITHI LETTER NNA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_NNA = "\u{1109D}";
 
-    #[Info(id: 69790, name: 'KAITHI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1109E, name: 'KAITHI LETTER TA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_TA = "\u{1109E}";
 
-    #[Info(id: 69791, name: 'KAITHI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1109F, name: 'KAITHI LETTER THA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_THA = "\u{1109F}";
 
-    #[Info(id: 69792, name: 'KAITHI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110A0, name: 'KAITHI LETTER DA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_DA = "\u{110A0}";
 
-    #[Info(id: 69793, name: 'KAITHI LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110A1, name: 'KAITHI LETTER DHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_DHA = "\u{110A1}";
 
-    #[Info(id: 69794, name: 'KAITHI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110A2, name: 'KAITHI LETTER NA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_NA = "\u{110A2}";
 
-    #[Info(id: 69795, name: 'KAITHI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110A3, name: 'KAITHI LETTER PA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_PA = "\u{110A3}";
 
-    #[Info(id: 69796, name: 'KAITHI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110A4, name: 'KAITHI LETTER PHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_PHA = "\u{110A4}";
 
-    #[Info(id: 69797, name: 'KAITHI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110A5, name: 'KAITHI LETTER BA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_BA = "\u{110A5}";
 
-    #[Info(id: 69798, name: 'KAITHI LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110A6, name: 'KAITHI LETTER BHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_BHA = "\u{110A6}";
 
-    #[Info(id: 69799, name: 'KAITHI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110A7, name: 'KAITHI LETTER MA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_MA = "\u{110A7}";
 
-    #[Info(id: 69800, name: 'KAITHI LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110A8, name: 'KAITHI LETTER YA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_YA = "\u{110A8}";
 
-    #[Info(id: 69801, name: 'KAITHI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110A9, name: 'KAITHI LETTER RA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_RA = "\u{110A9}";
 
-    #[Info(id: 69802, name: 'KAITHI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110AA, name: 'KAITHI LETTER LA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_LA = "\u{110AA}";
 
-    #[Info(id: 69803, name: 'KAITHI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110AB, name: 'KAITHI LETTER VA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_VA = "\u{110AB}";
 
-    #[Info(id: 69804, name: 'KAITHI LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110AC, name: 'KAITHI LETTER SHA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_SHA = "\u{110AC}";
 
-    #[Info(id: 69805, name: 'KAITHI LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110AD, name: 'KAITHI LETTER SSA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_SSA = "\u{110AD}";
 
-    #[Info(id: 69806, name: 'KAITHI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110AE, name: 'KAITHI LETTER SA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_SA = "\u{110AE}";
 
-    #[Info(id: 69807, name: 'KAITHI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x110AF, name: 'KAITHI LETTER HA', category: Cat::Other_Letter)]
     case KAITHI_LETTER_HA = "\u{110AF}";
 
-    #[Info(id: 69808, name: 'KAITHI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x110B0, name: 'KAITHI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case KAITHI_VOWEL_SIGN_AA = "\u{110B0}";
 
-    #[Info(id: 69809, name: 'KAITHI VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x110B1, name: 'KAITHI VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case KAITHI_VOWEL_SIGN_I = "\u{110B1}";
 
-    #[Info(id: 69810, name: 'KAITHI VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x110B2, name: 'KAITHI VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case KAITHI_VOWEL_SIGN_II = "\u{110B2}";
 
-    #[Info(id: 69811, name: 'KAITHI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x110B3, name: 'KAITHI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case KAITHI_VOWEL_SIGN_U = "\u{110B3}";
 
-    #[Info(id: 69812, name: 'KAITHI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x110B4, name: 'KAITHI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case KAITHI_VOWEL_SIGN_UU = "\u{110B4}";
 
-    #[Info(id: 69813, name: 'KAITHI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x110B5, name: 'KAITHI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case KAITHI_VOWEL_SIGN_E = "\u{110B5}";
 
-    #[Info(id: 69814, name: 'KAITHI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x110B6, name: 'KAITHI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case KAITHI_VOWEL_SIGN_AI = "\u{110B6}";
 
-    #[Info(id: 69815, name: 'KAITHI VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x110B7, name: 'KAITHI VOWEL SIGN O', category: Cat::Spacing_Mark)]
     case KAITHI_VOWEL_SIGN_O = "\u{110B7}";
 
-    #[Info(id: 69816, name: 'KAITHI VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x110B8, name: 'KAITHI VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case KAITHI_VOWEL_SIGN_AU = "\u{110B8}";
 
-    #[Info(id: 69817, name: 'KAITHI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x110B9, name: 'KAITHI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case KAITHI_SIGN_VIRAMA = "\u{110B9}";
 
-    #[Info(id: 69818, name: 'KAITHI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x110BA, name: 'KAITHI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case KAITHI_SIGN_NUKTA = "\u{110BA}";
 
-    #[Info(id: 69819, name: 'KAITHI ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x110BB, name: 'KAITHI ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
     case KAITHI_ABBREVIATION_SIGN = "\u{110BB}";
 
-    #[Info(id: 69820, name: 'KAITHI ENUMERATION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x110BC, name: 'KAITHI ENUMERATION SIGN', category: Cat::Other_Punctuation)]
     case KAITHI_ENUMERATION_SIGN = "\u{110BC}";
 
-    #[Info(id: 69821, name: 'KAITHI NUMBER SIGN', category: Cat::Format)]
+    #[Info(id: 0x110BD, name: 'KAITHI NUMBER SIGN', category: Cat::Format)]
     case KAITHI_NUMBER_SIGN = "\u{110BD}";
 
-    #[Info(id: 69822, name: 'KAITHI SECTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x110BE, name: 'KAITHI SECTION MARK', category: Cat::Other_Punctuation)]
     case KAITHI_SECTION_MARK = "\u{110BE}";
 
-    #[Info(id: 69823, name: 'KAITHI DOUBLE SECTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x110BF, name: 'KAITHI DOUBLE SECTION MARK', category: Cat::Other_Punctuation)]
     case KAITHI_DOUBLE_SECTION_MARK = "\u{110BF}";
 
-    #[Info(id: 69824, name: 'KAITHI DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x110C0, name: 'KAITHI DANDA', category: Cat::Other_Punctuation)]
     case KAITHI_DANDA = "\u{110C0}";
 
-    #[Info(id: 69825, name: 'KAITHI DOUBLE DANDA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x110C1, name: 'KAITHI DOUBLE DANDA', category: Cat::Other_Punctuation)]
     case KAITHI_DOUBLE_DANDA = "\u{110C1}";
 
-    #[Info(id: 69826, name: 'KAITHI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x110C2, name: 'KAITHI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case KAITHI_VOWEL_SIGN_VOCALIC_R = "\u{110C2}";
 
-    #[Info(id: 69837, name: 'KAITHI NUMBER SIGN ABOVE', category: Cat::Format)]
+    #[Info(id: 0x110CD, name: 'KAITHI NUMBER SIGN ABOVE', category: Cat::Format)]
     case KAITHI_NUMBER_SIGN_ABOVE = "\u{110CD}";
 }

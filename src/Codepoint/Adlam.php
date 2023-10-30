@@ -16,267 +16,267 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Adlam: string
 {
-    #[Info(id: 125184, name: 'ADLAM CAPITAL LETTER ALIF', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E900, name: 'ADLAM CAPITAL LETTER ALIF', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_ALIF = "\u{1E900}";
 
-    #[Info(id: 125185, name: 'ADLAM CAPITAL LETTER DAALI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E901, name: 'ADLAM CAPITAL LETTER DAALI', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_DAALI = "\u{1E901}";
 
-    #[Info(id: 125186, name: 'ADLAM CAPITAL LETTER LAAM', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E902, name: 'ADLAM CAPITAL LETTER LAAM', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_LAAM = "\u{1E902}";
 
-    #[Info(id: 125187, name: 'ADLAM CAPITAL LETTER MIIM', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E903, name: 'ADLAM CAPITAL LETTER MIIM', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_MIIM = "\u{1E903}";
 
-    #[Info(id: 125188, name: 'ADLAM CAPITAL LETTER BA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E904, name: 'ADLAM CAPITAL LETTER BA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_BA = "\u{1E904}";
 
-    #[Info(id: 125189, name: 'ADLAM CAPITAL LETTER SINNYIIYHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E905, name: 'ADLAM CAPITAL LETTER SINNYIIYHE', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_SINNYIIYHE = "\u{1E905}";
 
-    #[Info(id: 125190, name: 'ADLAM CAPITAL LETTER PE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E906, name: 'ADLAM CAPITAL LETTER PE', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_PE = "\u{1E906}";
 
-    #[Info(id: 125191, name: 'ADLAM CAPITAL LETTER BHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E907, name: 'ADLAM CAPITAL LETTER BHE', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_BHE = "\u{1E907}";
 
-    #[Info(id: 125192, name: 'ADLAM CAPITAL LETTER RA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E908, name: 'ADLAM CAPITAL LETTER RA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_RA = "\u{1E908}";
 
-    #[Info(id: 125193, name: 'ADLAM CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E909, name: 'ADLAM CAPITAL LETTER E', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_E = "\u{1E909}";
 
-    #[Info(id: 125194, name: 'ADLAM CAPITAL LETTER FA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E90A, name: 'ADLAM CAPITAL LETTER FA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_FA = "\u{1E90A}";
 
-    #[Info(id: 125195, name: 'ADLAM CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E90B, name: 'ADLAM CAPITAL LETTER I', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_I = "\u{1E90B}";
 
-    #[Info(id: 125196, name: 'ADLAM CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E90C, name: 'ADLAM CAPITAL LETTER O', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_O = "\u{1E90C}";
 
-    #[Info(id: 125197, name: 'ADLAM CAPITAL LETTER DHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E90D, name: 'ADLAM CAPITAL LETTER DHA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_DHA = "\u{1E90D}";
 
-    #[Info(id: 125198, name: 'ADLAM CAPITAL LETTER YHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E90E, name: 'ADLAM CAPITAL LETTER YHE', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_YHE = "\u{1E90E}";
 
-    #[Info(id: 125199, name: 'ADLAM CAPITAL LETTER WAW', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E90F, name: 'ADLAM CAPITAL LETTER WAW', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_WAW = "\u{1E90F}";
 
-    #[Info(id: 125200, name: 'ADLAM CAPITAL LETTER NUN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E910, name: 'ADLAM CAPITAL LETTER NUN', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_NUN = "\u{1E910}";
 
-    #[Info(id: 125201, name: 'ADLAM CAPITAL LETTER KAF', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E911, name: 'ADLAM CAPITAL LETTER KAF', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_KAF = "\u{1E911}";
 
-    #[Info(id: 125202, name: 'ADLAM CAPITAL LETTER YA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E912, name: 'ADLAM CAPITAL LETTER YA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_YA = "\u{1E912}";
 
-    #[Info(id: 125203, name: 'ADLAM CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E913, name: 'ADLAM CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_U = "\u{1E913}";
 
-    #[Info(id: 125204, name: 'ADLAM CAPITAL LETTER JIIM', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E914, name: 'ADLAM CAPITAL LETTER JIIM', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_JIIM = "\u{1E914}";
 
-    #[Info(id: 125205, name: 'ADLAM CAPITAL LETTER CHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E915, name: 'ADLAM CAPITAL LETTER CHI', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_CHI = "\u{1E915}";
 
-    #[Info(id: 125206, name: 'ADLAM CAPITAL LETTER HA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E916, name: 'ADLAM CAPITAL LETTER HA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_HA = "\u{1E916}";
 
-    #[Info(id: 125207, name: 'ADLAM CAPITAL LETTER QAAF', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E917, name: 'ADLAM CAPITAL LETTER QAAF', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_QAAF = "\u{1E917}";
 
-    #[Info(id: 125208, name: 'ADLAM CAPITAL LETTER GA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E918, name: 'ADLAM CAPITAL LETTER GA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_GA = "\u{1E918}";
 
-    #[Info(id: 125209, name: 'ADLAM CAPITAL LETTER NYA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E919, name: 'ADLAM CAPITAL LETTER NYA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_NYA = "\u{1E919}";
 
-    #[Info(id: 125210, name: 'ADLAM CAPITAL LETTER TU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E91A, name: 'ADLAM CAPITAL LETTER TU', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_TU = "\u{1E91A}";
 
-    #[Info(id: 125211, name: 'ADLAM CAPITAL LETTER NHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E91B, name: 'ADLAM CAPITAL LETTER NHA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_NHA = "\u{1E91B}";
 
-    #[Info(id: 125212, name: 'ADLAM CAPITAL LETTER VA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E91C, name: 'ADLAM CAPITAL LETTER VA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_VA = "\u{1E91C}";
 
-    #[Info(id: 125213, name: 'ADLAM CAPITAL LETTER KHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E91D, name: 'ADLAM CAPITAL LETTER KHA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_KHA = "\u{1E91D}";
 
-    #[Info(id: 125214, name: 'ADLAM CAPITAL LETTER GBE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E91E, name: 'ADLAM CAPITAL LETTER GBE', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_GBE = "\u{1E91E}";
 
-    #[Info(id: 125215, name: 'ADLAM CAPITAL LETTER ZAL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E91F, name: 'ADLAM CAPITAL LETTER ZAL', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_ZAL = "\u{1E91F}";
 
-    #[Info(id: 125216, name: 'ADLAM CAPITAL LETTER KPO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E920, name: 'ADLAM CAPITAL LETTER KPO', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_KPO = "\u{1E920}";
 
-    #[Info(id: 125217, name: 'ADLAM CAPITAL LETTER SHA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E921, name: 'ADLAM CAPITAL LETTER SHA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_SHA = "\u{1E921}";
 
-    #[Info(id: 125218, name: 'ADLAM SMALL LETTER ALIF', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E922, name: 'ADLAM SMALL LETTER ALIF', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_ALIF = "\u{1E922}";
 
-    #[Info(id: 125219, name: 'ADLAM SMALL LETTER DAALI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E923, name: 'ADLAM SMALL LETTER DAALI', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_DAALI = "\u{1E923}";
 
-    #[Info(id: 125220, name: 'ADLAM SMALL LETTER LAAM', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E924, name: 'ADLAM SMALL LETTER LAAM', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_LAAM = "\u{1E924}";
 
-    #[Info(id: 125221, name: 'ADLAM SMALL LETTER MIIM', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E925, name: 'ADLAM SMALL LETTER MIIM', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_MIIM = "\u{1E925}";
 
-    #[Info(id: 125222, name: 'ADLAM SMALL LETTER BA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E926, name: 'ADLAM SMALL LETTER BA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_BA = "\u{1E926}";
 
-    #[Info(id: 125223, name: 'ADLAM SMALL LETTER SINNYIIYHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E927, name: 'ADLAM SMALL LETTER SINNYIIYHE', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_SINNYIIYHE = "\u{1E927}";
 
-    #[Info(id: 125224, name: 'ADLAM SMALL LETTER PE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E928, name: 'ADLAM SMALL LETTER PE', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_PE = "\u{1E928}";
 
-    #[Info(id: 125225, name: 'ADLAM SMALL LETTER BHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E929, name: 'ADLAM SMALL LETTER BHE', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_BHE = "\u{1E929}";
 
-    #[Info(id: 125226, name: 'ADLAM SMALL LETTER RA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E92A, name: 'ADLAM SMALL LETTER RA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_RA = "\u{1E92A}";
 
-    #[Info(id: 125227, name: 'ADLAM SMALL LETTER E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E92B, name: 'ADLAM SMALL LETTER E', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_E = "\u{1E92B}";
 
-    #[Info(id: 125228, name: 'ADLAM SMALL LETTER FA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E92C, name: 'ADLAM SMALL LETTER FA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_FA = "\u{1E92C}";
 
-    #[Info(id: 125229, name: 'ADLAM SMALL LETTER I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E92D, name: 'ADLAM SMALL LETTER I', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_I = "\u{1E92D}";
 
-    #[Info(id: 125230, name: 'ADLAM SMALL LETTER O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E92E, name: 'ADLAM SMALL LETTER O', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_O = "\u{1E92E}";
 
-    #[Info(id: 125231, name: 'ADLAM SMALL LETTER DHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E92F, name: 'ADLAM SMALL LETTER DHA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_DHA = "\u{1E92F}";
 
-    #[Info(id: 125232, name: 'ADLAM SMALL LETTER YHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E930, name: 'ADLAM SMALL LETTER YHE', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_YHE = "\u{1E930}";
 
-    #[Info(id: 125233, name: 'ADLAM SMALL LETTER WAW', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E931, name: 'ADLAM SMALL LETTER WAW', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_WAW = "\u{1E931}";
 
-    #[Info(id: 125234, name: 'ADLAM SMALL LETTER NUN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E932, name: 'ADLAM SMALL LETTER NUN', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_NUN = "\u{1E932}";
 
-    #[Info(id: 125235, name: 'ADLAM SMALL LETTER KAF', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E933, name: 'ADLAM SMALL LETTER KAF', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_KAF = "\u{1E933}";
 
-    #[Info(id: 125236, name: 'ADLAM SMALL LETTER YA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E934, name: 'ADLAM SMALL LETTER YA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_YA = "\u{1E934}";
 
-    #[Info(id: 125237, name: 'ADLAM SMALL LETTER U', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E935, name: 'ADLAM SMALL LETTER U', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_U = "\u{1E935}";
 
-    #[Info(id: 125238, name: 'ADLAM SMALL LETTER JIIM', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E936, name: 'ADLAM SMALL LETTER JIIM', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_JIIM = "\u{1E936}";
 
-    #[Info(id: 125239, name: 'ADLAM SMALL LETTER CHI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E937, name: 'ADLAM SMALL LETTER CHI', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_CHI = "\u{1E937}";
 
-    #[Info(id: 125240, name: 'ADLAM SMALL LETTER HA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E938, name: 'ADLAM SMALL LETTER HA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_HA = "\u{1E938}";
 
-    #[Info(id: 125241, name: 'ADLAM SMALL LETTER QAAF', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E939, name: 'ADLAM SMALL LETTER QAAF', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_QAAF = "\u{1E939}";
 
-    #[Info(id: 125242, name: 'ADLAM SMALL LETTER GA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E93A, name: 'ADLAM SMALL LETTER GA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_GA = "\u{1E93A}";
 
-    #[Info(id: 125243, name: 'ADLAM SMALL LETTER NYA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E93B, name: 'ADLAM SMALL LETTER NYA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_NYA = "\u{1E93B}";
 
-    #[Info(id: 125244, name: 'ADLAM SMALL LETTER TU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E93C, name: 'ADLAM SMALL LETTER TU', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_TU = "\u{1E93C}";
 
-    #[Info(id: 125245, name: 'ADLAM SMALL LETTER NHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E93D, name: 'ADLAM SMALL LETTER NHA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_NHA = "\u{1E93D}";
 
-    #[Info(id: 125246, name: 'ADLAM SMALL LETTER VA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E93E, name: 'ADLAM SMALL LETTER VA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_VA = "\u{1E93E}";
 
-    #[Info(id: 125247, name: 'ADLAM SMALL LETTER KHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E93F, name: 'ADLAM SMALL LETTER KHA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_KHA = "\u{1E93F}";
 
-    #[Info(id: 125248, name: 'ADLAM SMALL LETTER GBE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E940, name: 'ADLAM SMALL LETTER GBE', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_GBE = "\u{1E940}";
 
-    #[Info(id: 125249, name: 'ADLAM SMALL LETTER ZAL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E941, name: 'ADLAM SMALL LETTER ZAL', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_ZAL = "\u{1E941}";
 
-    #[Info(id: 125250, name: 'ADLAM SMALL LETTER KPO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E942, name: 'ADLAM SMALL LETTER KPO', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_KPO = "\u{1E942}";
 
-    #[Info(id: 125251, name: 'ADLAM SMALL LETTER SHA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x1E943, name: 'ADLAM SMALL LETTER SHA', category: Cat::Lowercase_Letter)]
     case ADLAM_SMALL_LETTER_SHA = "\u{1E943}";
 
-    #[Info(id: 125252, name: 'ADLAM ALIF LENGTHENER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E944, name: 'ADLAM ALIF LENGTHENER', category: Cat::Nonspacing_Mark)]
     case ADLAM_ALIF_LENGTHENER = "\u{1E944}";
 
-    #[Info(id: 125253, name: 'ADLAM VOWEL LENGTHENER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E945, name: 'ADLAM VOWEL LENGTHENER', category: Cat::Nonspacing_Mark)]
     case ADLAM_VOWEL_LENGTHENER = "\u{1E945}";
 
-    #[Info(id: 125254, name: 'ADLAM GEMINATION MARK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E946, name: 'ADLAM GEMINATION MARK', category: Cat::Nonspacing_Mark)]
     case ADLAM_GEMINATION_MARK = "\u{1E946}";
 
-    #[Info(id: 125255, name: 'ADLAM HAMZA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E947, name: 'ADLAM HAMZA', category: Cat::Nonspacing_Mark)]
     case ADLAM_HAMZA = "\u{1E947}";
 
-    #[Info(id: 125256, name: 'ADLAM CONSONANT MODIFIER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E948, name: 'ADLAM CONSONANT MODIFIER', category: Cat::Nonspacing_Mark)]
     case ADLAM_CONSONANT_MODIFIER = "\u{1E948}";
 
-    #[Info(id: 125257, name: 'ADLAM GEMINATE CONSONANT MODIFIER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E949, name: 'ADLAM GEMINATE CONSONANT MODIFIER', category: Cat::Nonspacing_Mark)]
     case ADLAM_GEMINATE_CONSONANT_MODIFIER = "\u{1E949}";
 
-    #[Info(id: 125258, name: 'ADLAM NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1E94A, name: 'ADLAM NUKTA', category: Cat::Nonspacing_Mark)]
     case ADLAM_NUKTA = "\u{1E94A}";
 
-    #[Info(id: 125259, name: 'ADLAM NASALIZATION MARK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0x1E94B, name: 'ADLAM NASALIZATION MARK', category: Cat::Modifier_Letter)]
     case ADLAM_NASALIZATION_MARK = "\u{1E94B}";
 
-    #[Info(id: 125264, name: 'ADLAM DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E950, name: 'ADLAM DIGIT ZERO', category: Cat::Decimal_Number)]
     case ADLAM_DIGIT_ZERO = "\u{1E950}";
 
-    #[Info(id: 125265, name: 'ADLAM DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E951, name: 'ADLAM DIGIT ONE', category: Cat::Decimal_Number)]
     case ADLAM_DIGIT_ONE = "\u{1E951}";
 
-    #[Info(id: 125266, name: 'ADLAM DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E952, name: 'ADLAM DIGIT TWO', category: Cat::Decimal_Number)]
     case ADLAM_DIGIT_TWO = "\u{1E952}";
 
-    #[Info(id: 125267, name: 'ADLAM DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E953, name: 'ADLAM DIGIT THREE', category: Cat::Decimal_Number)]
     case ADLAM_DIGIT_THREE = "\u{1E953}";
 
-    #[Info(id: 125268, name: 'ADLAM DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E954, name: 'ADLAM DIGIT FOUR', category: Cat::Decimal_Number)]
     case ADLAM_DIGIT_FOUR = "\u{1E954}";
 
-    #[Info(id: 125269, name: 'ADLAM DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E955, name: 'ADLAM DIGIT FIVE', category: Cat::Decimal_Number)]
     case ADLAM_DIGIT_FIVE = "\u{1E955}";
 
-    #[Info(id: 125270, name: 'ADLAM DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E956, name: 'ADLAM DIGIT SIX', category: Cat::Decimal_Number)]
     case ADLAM_DIGIT_SIX = "\u{1E956}";
 
-    #[Info(id: 125271, name: 'ADLAM DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E957, name: 'ADLAM DIGIT SEVEN', category: Cat::Decimal_Number)]
     case ADLAM_DIGIT_SEVEN = "\u{1E957}";
 
-    #[Info(id: 125272, name: 'ADLAM DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E958, name: 'ADLAM DIGIT EIGHT', category: Cat::Decimal_Number)]
     case ADLAM_DIGIT_EIGHT = "\u{1E958}";
 
-    #[Info(id: 125273, name: 'ADLAM DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0x1E959, name: 'ADLAM DIGIT NINE', category: Cat::Decimal_Number)]
     case ADLAM_DIGIT_NINE = "\u{1E959}";
 
-    #[Info(id: 125278, name: 'ADLAM INITIAL EXCLAMATION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1E95E, name: 'ADLAM INITIAL EXCLAMATION MARK', category: Cat::Other_Punctuation)]
     case ADLAM_INITIAL_EXCLAMATION_MARK = "\u{1E95E}";
 
-    #[Info(id: 125279, name: 'ADLAM INITIAL QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1E95F, name: 'ADLAM INITIAL QUESTION MARK', category: Cat::Other_Punctuation)]
     case ADLAM_INITIAL_QUESTION_MARK = "\u{1E95F}";
 }

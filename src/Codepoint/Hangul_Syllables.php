@@ -16,9 +16,9 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Hangul_Syllables: string
 {
-    #[Info(id: 44032, name: 'Hangul Syllable, First', category: Cat::Other_Letter)]
+    #[Info(id: 0xAC00, name: 'Hangul Syllable, First', category: Cat::Other_Letter)]
     case Hangul_Syllable__First = "\u{AC00}";
 
-    #[Info(id: 55203, name: 'Hangul Syllable, Last', category: Cat::Other_Letter)]
+    #[Info(id: 0xD7A3, name: 'Hangul Syllable, Last', category: Cat::Other_Letter)]
     case Hangul_Syllable__Last = "\u{D7A3}";
 }

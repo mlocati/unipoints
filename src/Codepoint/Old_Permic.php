@@ -16,132 +16,132 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Old_Permic: string
 {
-    #[Info(id: 66384, name: 'OLD PERMIC LETTER AN', category: Cat::Other_Letter)]
+    #[Info(id: 0x10350, name: 'OLD PERMIC LETTER AN', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_AN = "\u{10350}";
 
-    #[Info(id: 66385, name: 'OLD PERMIC LETTER BUR', category: Cat::Other_Letter)]
+    #[Info(id: 0x10351, name: 'OLD PERMIC LETTER BUR', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_BUR = "\u{10351}";
 
-    #[Info(id: 66386, name: 'OLD PERMIC LETTER GAI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10352, name: 'OLD PERMIC LETTER GAI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_GAI = "\u{10352}";
 
-    #[Info(id: 66387, name: 'OLD PERMIC LETTER DOI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10353, name: 'OLD PERMIC LETTER DOI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_DOI = "\u{10353}";
 
-    #[Info(id: 66388, name: 'OLD PERMIC LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x10354, name: 'OLD PERMIC LETTER E', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_E = "\u{10354}";
 
-    #[Info(id: 66389, name: 'OLD PERMIC LETTER ZHOI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10355, name: 'OLD PERMIC LETTER ZHOI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_ZHOI = "\u{10355}";
 
-    #[Info(id: 66390, name: 'OLD PERMIC LETTER DZHOI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10356, name: 'OLD PERMIC LETTER DZHOI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_DZHOI = "\u{10356}";
 
-    #[Info(id: 66391, name: 'OLD PERMIC LETTER ZATA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10357, name: 'OLD PERMIC LETTER ZATA', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_ZATA = "\u{10357}";
 
-    #[Info(id: 66392, name: 'OLD PERMIC LETTER DZITA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10358, name: 'OLD PERMIC LETTER DZITA', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_DZITA = "\u{10358}";
 
-    #[Info(id: 66393, name: 'OLD PERMIC LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x10359, name: 'OLD PERMIC LETTER I', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_I = "\u{10359}";
 
-    #[Info(id: 66394, name: 'OLD PERMIC LETTER KOKE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1035A, name: 'OLD PERMIC LETTER KOKE', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_KOKE = "\u{1035A}";
 
-    #[Info(id: 66395, name: 'OLD PERMIC LETTER LEI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1035B, name: 'OLD PERMIC LETTER LEI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_LEI = "\u{1035B}";
 
-    #[Info(id: 66396, name: 'OLD PERMIC LETTER MENOE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1035C, name: 'OLD PERMIC LETTER MENOE', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_MENOE = "\u{1035C}";
 
-    #[Info(id: 66397, name: 'OLD PERMIC LETTER NENOE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1035D, name: 'OLD PERMIC LETTER NENOE', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_NENOE = "\u{1035D}";
 
-    #[Info(id: 66398, name: 'OLD PERMIC LETTER VOOI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1035E, name: 'OLD PERMIC LETTER VOOI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_VOOI = "\u{1035E}";
 
-    #[Info(id: 66399, name: 'OLD PERMIC LETTER PEEI', category: Cat::Other_Letter)]
+    #[Info(id: 0x1035F, name: 'OLD PERMIC LETTER PEEI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_PEEI = "\u{1035F}";
 
-    #[Info(id: 66400, name: 'OLD PERMIC LETTER REI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10360, name: 'OLD PERMIC LETTER REI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_REI = "\u{10360}";
 
-    #[Info(id: 66401, name: 'OLD PERMIC LETTER SII', category: Cat::Other_Letter)]
+    #[Info(id: 0x10361, name: 'OLD PERMIC LETTER SII', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_SII = "\u{10361}";
 
-    #[Info(id: 66402, name: 'OLD PERMIC LETTER TAI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10362, name: 'OLD PERMIC LETTER TAI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_TAI = "\u{10362}";
 
-    #[Info(id: 66403, name: 'OLD PERMIC LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x10363, name: 'OLD PERMIC LETTER U', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_U = "\u{10363}";
 
-    #[Info(id: 66404, name: 'OLD PERMIC LETTER CHERY', category: Cat::Other_Letter)]
+    #[Info(id: 0x10364, name: 'OLD PERMIC LETTER CHERY', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_CHERY = "\u{10364}";
 
-    #[Info(id: 66405, name: 'OLD PERMIC LETTER SHOOI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10365, name: 'OLD PERMIC LETTER SHOOI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_SHOOI = "\u{10365}";
 
-    #[Info(id: 66406, name: 'OLD PERMIC LETTER SHCHOOI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10366, name: 'OLD PERMIC LETTER SHCHOOI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_SHCHOOI = "\u{10366}";
 
-    #[Info(id: 66407, name: 'OLD PERMIC LETTER YRY', category: Cat::Other_Letter)]
+    #[Info(id: 0x10367, name: 'OLD PERMIC LETTER YRY', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_YRY = "\u{10367}";
 
-    #[Info(id: 66408, name: 'OLD PERMIC LETTER YERU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10368, name: 'OLD PERMIC LETTER YERU', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_YERU = "\u{10368}";
 
-    #[Info(id: 66409, name: 'OLD PERMIC LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x10369, name: 'OLD PERMIC LETTER O', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_O = "\u{10369}";
 
-    #[Info(id: 66410, name: 'OLD PERMIC LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1036A, name: 'OLD PERMIC LETTER OO', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_OO = "\u{1036A}";
 
-    #[Info(id: 66411, name: 'OLD PERMIC LETTER EF', category: Cat::Other_Letter)]
+    #[Info(id: 0x1036B, name: 'OLD PERMIC LETTER EF', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_EF = "\u{1036B}";
 
-    #[Info(id: 66412, name: 'OLD PERMIC LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1036C, name: 'OLD PERMIC LETTER HA', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_HA = "\u{1036C}";
 
-    #[Info(id: 66413, name: 'OLD PERMIC LETTER TSIU', category: Cat::Other_Letter)]
+    #[Info(id: 0x1036D, name: 'OLD PERMIC LETTER TSIU', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_TSIU = "\u{1036D}";
 
-    #[Info(id: 66414, name: 'OLD PERMIC LETTER VER', category: Cat::Other_Letter)]
+    #[Info(id: 0x1036E, name: 'OLD PERMIC LETTER VER', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_VER = "\u{1036E}";
 
-    #[Info(id: 66415, name: 'OLD PERMIC LETTER YER', category: Cat::Other_Letter)]
+    #[Info(id: 0x1036F, name: 'OLD PERMIC LETTER YER', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_YER = "\u{1036F}";
 
-    #[Info(id: 66416, name: 'OLD PERMIC LETTER YERI', category: Cat::Other_Letter)]
+    #[Info(id: 0x10370, name: 'OLD PERMIC LETTER YERI', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_YERI = "\u{10370}";
 
-    #[Info(id: 66417, name: 'OLD PERMIC LETTER YAT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10371, name: 'OLD PERMIC LETTER YAT', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_YAT = "\u{10371}";
 
-    #[Info(id: 66418, name: 'OLD PERMIC LETTER IE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10372, name: 'OLD PERMIC LETTER IE', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_IE = "\u{10372}";
 
-    #[Info(id: 66419, name: 'OLD PERMIC LETTER YU', category: Cat::Other_Letter)]
+    #[Info(id: 0x10373, name: 'OLD PERMIC LETTER YU', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_YU = "\u{10373}";
 
-    #[Info(id: 66420, name: 'OLD PERMIC LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10374, name: 'OLD PERMIC LETTER YA', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_YA = "\u{10374}";
 
-    #[Info(id: 66421, name: 'OLD PERMIC LETTER IA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10375, name: 'OLD PERMIC LETTER IA', category: Cat::Other_Letter)]
     case OLD_PERMIC_LETTER_IA = "\u{10375}";
 
-    #[Info(id: 66422, name: 'COMBINING OLD PERMIC LETTER AN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10376, name: 'COMBINING OLD PERMIC LETTER AN', category: Cat::Nonspacing_Mark)]
     case COMBINING_OLD_PERMIC_LETTER_AN = "\u{10376}";
 
-    #[Info(id: 66423, name: 'COMBINING OLD PERMIC LETTER DOI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10377, name: 'COMBINING OLD PERMIC LETTER DOI', category: Cat::Nonspacing_Mark)]
     case COMBINING_OLD_PERMIC_LETTER_DOI = "\u{10377}";
 
-    #[Info(id: 66424, name: 'COMBINING OLD PERMIC LETTER ZATA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10378, name: 'COMBINING OLD PERMIC LETTER ZATA', category: Cat::Nonspacing_Mark)]
     case COMBINING_OLD_PERMIC_LETTER_ZATA = "\u{10378}";
 
-    #[Info(id: 66425, name: 'COMBINING OLD PERMIC LETTER NENOE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x10379, name: 'COMBINING OLD PERMIC LETTER NENOE', category: Cat::Nonspacing_Mark)]
     case COMBINING_OLD_PERMIC_LETTER_NENOE = "\u{10379}";
 
-    #[Info(id: 66426, name: 'COMBINING OLD PERMIC LETTER SII', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1037A, name: 'COMBINING OLD PERMIC LETTER SII', category: Cat::Nonspacing_Mark)]
     case COMBINING_OLD_PERMIC_LETTER_SII = "\u{1037A}";
 }

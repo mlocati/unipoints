@@ -16,99 +16,99 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Cyrillic_ExtendedA: string
 {
-    #[Info(id: 11744, name: 'COMBINING CYRILLIC LETTER BE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DE0, name: 'COMBINING CYRILLIC LETTER BE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_BE = "\u{2DE0}";
 
-    #[Info(id: 11745, name: 'COMBINING CYRILLIC LETTER VE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DE1, name: 'COMBINING CYRILLIC LETTER VE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_VE = "\u{2DE1}";
 
-    #[Info(id: 11746, name: 'COMBINING CYRILLIC LETTER GHE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DE2, name: 'COMBINING CYRILLIC LETTER GHE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_GHE = "\u{2DE2}";
 
-    #[Info(id: 11747, name: 'COMBINING CYRILLIC LETTER DE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DE3, name: 'COMBINING CYRILLIC LETTER DE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_DE = "\u{2DE3}";
 
-    #[Info(id: 11748, name: 'COMBINING CYRILLIC LETTER ZHE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DE4, name: 'COMBINING CYRILLIC LETTER ZHE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_ZHE = "\u{2DE4}";
 
-    #[Info(id: 11749, name: 'COMBINING CYRILLIC LETTER ZE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DE5, name: 'COMBINING CYRILLIC LETTER ZE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_ZE = "\u{2DE5}";
 
-    #[Info(id: 11750, name: 'COMBINING CYRILLIC LETTER KA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DE6, name: 'COMBINING CYRILLIC LETTER KA', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_KA = "\u{2DE6}";
 
-    #[Info(id: 11751, name: 'COMBINING CYRILLIC LETTER EL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DE7, name: 'COMBINING CYRILLIC LETTER EL', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_EL = "\u{2DE7}";
 
-    #[Info(id: 11752, name: 'COMBINING CYRILLIC LETTER EM', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DE8, name: 'COMBINING CYRILLIC LETTER EM', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_EM = "\u{2DE8}";
 
-    #[Info(id: 11753, name: 'COMBINING CYRILLIC LETTER EN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DE9, name: 'COMBINING CYRILLIC LETTER EN', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_EN = "\u{2DE9}";
 
-    #[Info(id: 11754, name: 'COMBINING CYRILLIC LETTER O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DEA, name: 'COMBINING CYRILLIC LETTER O', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_O = "\u{2DEA}";
 
-    #[Info(id: 11755, name: 'COMBINING CYRILLIC LETTER PE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DEB, name: 'COMBINING CYRILLIC LETTER PE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_PE = "\u{2DEB}";
 
-    #[Info(id: 11756, name: 'COMBINING CYRILLIC LETTER ER', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DEC, name: 'COMBINING CYRILLIC LETTER ER', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_ER = "\u{2DEC}";
 
-    #[Info(id: 11757, name: 'COMBINING CYRILLIC LETTER ES', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DED, name: 'COMBINING CYRILLIC LETTER ES', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_ES = "\u{2DED}";
 
-    #[Info(id: 11758, name: 'COMBINING CYRILLIC LETTER TE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DEE, name: 'COMBINING CYRILLIC LETTER TE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_TE = "\u{2DEE}";
 
-    #[Info(id: 11759, name: 'COMBINING CYRILLIC LETTER HA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DEF, name: 'COMBINING CYRILLIC LETTER HA', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_HA = "\u{2DEF}";
 
-    #[Info(id: 11760, name: 'COMBINING CYRILLIC LETTER TSE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DF0, name: 'COMBINING CYRILLIC LETTER TSE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_TSE = "\u{2DF0}";
 
-    #[Info(id: 11761, name: 'COMBINING CYRILLIC LETTER CHE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DF1, name: 'COMBINING CYRILLIC LETTER CHE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_CHE = "\u{2DF1}";
 
-    #[Info(id: 11762, name: 'COMBINING CYRILLIC LETTER SHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DF2, name: 'COMBINING CYRILLIC LETTER SHA', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_SHA = "\u{2DF2}";
 
-    #[Info(id: 11763, name: 'COMBINING CYRILLIC LETTER SHCHA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DF3, name: 'COMBINING CYRILLIC LETTER SHCHA', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_SHCHA = "\u{2DF3}";
 
-    #[Info(id: 11764, name: 'COMBINING CYRILLIC LETTER FITA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DF4, name: 'COMBINING CYRILLIC LETTER FITA', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_FITA = "\u{2DF4}";
 
-    #[Info(id: 11765, name: 'COMBINING CYRILLIC LETTER ES-TE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DF5, name: 'COMBINING CYRILLIC LETTER ES-TE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_ES_TE = "\u{2DF5}";
 
-    #[Info(id: 11766, name: 'COMBINING CYRILLIC LETTER A', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DF6, name: 'COMBINING CYRILLIC LETTER A', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_A = "\u{2DF6}";
 
-    #[Info(id: 11767, name: 'COMBINING CYRILLIC LETTER IE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DF7, name: 'COMBINING CYRILLIC LETTER IE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_IE = "\u{2DF7}";
 
-    #[Info(id: 11768, name: 'COMBINING CYRILLIC LETTER DJERV', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DF8, name: 'COMBINING CYRILLIC LETTER DJERV', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_DJERV = "\u{2DF8}";
 
-    #[Info(id: 11769, name: 'COMBINING CYRILLIC LETTER MONOGRAPH UK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DF9, name: 'COMBINING CYRILLIC LETTER MONOGRAPH UK', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_MONOGRAPH_UK = "\u{2DF9}";
 
-    #[Info(id: 11770, name: 'COMBINING CYRILLIC LETTER YAT', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DFA, name: 'COMBINING CYRILLIC LETTER YAT', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_YAT = "\u{2DFA}";
 
-    #[Info(id: 11771, name: 'COMBINING CYRILLIC LETTER YU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DFB, name: 'COMBINING CYRILLIC LETTER YU', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_YU = "\u{2DFB}";
 
-    #[Info(id: 11772, name: 'COMBINING CYRILLIC LETTER IOTIFIED A', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DFC, name: 'COMBINING CYRILLIC LETTER IOTIFIED A', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_IOTIFIED_A = "\u{2DFC}";
 
-    #[Info(id: 11773, name: 'COMBINING CYRILLIC LETTER LITTLE YUS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DFD, name: 'COMBINING CYRILLIC LETTER LITTLE YUS', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_LITTLE_YUS = "\u{2DFD}";
 
-    #[Info(id: 11774, name: 'COMBINING CYRILLIC LETTER BIG YUS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DFE, name: 'COMBINING CYRILLIC LETTER BIG YUS', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_BIG_YUS = "\u{2DFE}";
 
-    #[Info(id: 11775, name: 'COMBINING CYRILLIC LETTER IOTIFIED BIG YUS', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x2DFF, name: 'COMBINING CYRILLIC LETTER IOTIFIED BIG YUS', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_IOTIFIED_BIG_YUS = "\u{2DFF}";
 }

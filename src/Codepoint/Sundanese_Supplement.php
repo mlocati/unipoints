@@ -16,27 +16,27 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Sundanese_Supplement: string
 {
-    #[Info(id: 7360, name: 'SUNDANESE PUNCTUATION BINDU SURYA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1CC0, name: 'SUNDANESE PUNCTUATION BINDU SURYA', category: Cat::Other_Punctuation)]
     case SUNDANESE_PUNCTUATION_BINDU_SURYA = "\u{1CC0}";
 
-    #[Info(id: 7361, name: 'SUNDANESE PUNCTUATION BINDU PANGLONG', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1CC1, name: 'SUNDANESE PUNCTUATION BINDU PANGLONG', category: Cat::Other_Punctuation)]
     case SUNDANESE_PUNCTUATION_BINDU_PANGLONG = "\u{1CC1}";
 
-    #[Info(id: 7362, name: 'SUNDANESE PUNCTUATION BINDU PURNAMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1CC2, name: 'SUNDANESE PUNCTUATION BINDU PURNAMA', category: Cat::Other_Punctuation)]
     case SUNDANESE_PUNCTUATION_BINDU_PURNAMA = "\u{1CC2}";
 
-    #[Info(id: 7363, name: 'SUNDANESE PUNCTUATION BINDU CAKRA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1CC3, name: 'SUNDANESE PUNCTUATION BINDU CAKRA', category: Cat::Other_Punctuation)]
     case SUNDANESE_PUNCTUATION_BINDU_CAKRA = "\u{1CC3}";
 
-    #[Info(id: 7364, name: 'SUNDANESE PUNCTUATION BINDU LEU SATANGA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1CC4, name: 'SUNDANESE PUNCTUATION BINDU LEU SATANGA', category: Cat::Other_Punctuation)]
     case SUNDANESE_PUNCTUATION_BINDU_LEU_SATANGA = "\u{1CC4}";
 
-    #[Info(id: 7365, name: 'SUNDANESE PUNCTUATION BINDU KA SATANGA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1CC5, name: 'SUNDANESE PUNCTUATION BINDU KA SATANGA', category: Cat::Other_Punctuation)]
     case SUNDANESE_PUNCTUATION_BINDU_KA_SATANGA = "\u{1CC5}";
 
-    #[Info(id: 7366, name: 'SUNDANESE PUNCTUATION BINDU DA SATANGA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1CC6, name: 'SUNDANESE PUNCTUATION BINDU DA SATANGA', category: Cat::Other_Punctuation)]
     case SUNDANESE_PUNCTUATION_BINDU_DA_SATANGA = "\u{1CC6}";
 
-    #[Info(id: 7367, name: 'SUNDANESE PUNCTUATION BINDU BA SATANGA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1CC7, name: 'SUNDANESE PUNCTUATION BINDU BA SATANGA', category: Cat::Other_Punctuation)]
     case SUNDANESE_PUNCTUATION_BINDU_BA_SATANGA = "\u{1CC7}";
 }

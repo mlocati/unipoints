@@ -16,291 +16,291 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Cyrillic_ExtendedB: string
 {
-    #[Info(id: 42560, name: 'CYRILLIC CAPITAL LETTER ZEMLYA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA640, name: 'CYRILLIC CAPITAL LETTER ZEMLYA', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_ZEMLYA = "\u{A640}";
 
-    #[Info(id: 42561, name: 'CYRILLIC SMALL LETTER ZEMLYA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA641, name: 'CYRILLIC SMALL LETTER ZEMLYA', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_ZEMLYA = "\u{A641}";
 
-    #[Info(id: 42562, name: 'CYRILLIC CAPITAL LETTER DZELO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA642, name: 'CYRILLIC CAPITAL LETTER DZELO', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_DZELO = "\u{A642}";
 
-    #[Info(id: 42563, name: 'CYRILLIC SMALL LETTER DZELO', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA643, name: 'CYRILLIC SMALL LETTER DZELO', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_DZELO = "\u{A643}";
 
-    #[Info(id: 42564, name: 'CYRILLIC CAPITAL LETTER REVERSED DZE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA644, name: 'CYRILLIC CAPITAL LETTER REVERSED DZE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_REVERSED_DZE = "\u{A644}";
 
-    #[Info(id: 42565, name: 'CYRILLIC SMALL LETTER REVERSED DZE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA645, name: 'CYRILLIC SMALL LETTER REVERSED DZE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_REVERSED_DZE = "\u{A645}";
 
-    #[Info(id: 42566, name: 'CYRILLIC CAPITAL LETTER IOTA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA646, name: 'CYRILLIC CAPITAL LETTER IOTA', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_IOTA = "\u{A646}";
 
-    #[Info(id: 42567, name: 'CYRILLIC SMALL LETTER IOTA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA647, name: 'CYRILLIC SMALL LETTER IOTA', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_IOTA = "\u{A647}";
 
-    #[Info(id: 42568, name: 'CYRILLIC CAPITAL LETTER DJERV', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA648, name: 'CYRILLIC CAPITAL LETTER DJERV', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_DJERV = "\u{A648}";
 
-    #[Info(id: 42569, name: 'CYRILLIC SMALL LETTER DJERV', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA649, name: 'CYRILLIC SMALL LETTER DJERV', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_DJERV = "\u{A649}";
 
-    #[Info(id: 42570, name: 'CYRILLIC CAPITAL LETTER MONOGRAPH UK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA64A, name: 'CYRILLIC CAPITAL LETTER MONOGRAPH UK', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_MONOGRAPH_UK = "\u{A64A}";
 
-    #[Info(id: 42571, name: 'CYRILLIC SMALL LETTER MONOGRAPH UK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA64B, name: 'CYRILLIC SMALL LETTER MONOGRAPH UK', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_MONOGRAPH_UK = "\u{A64B}";
 
-    #[Info(id: 42572, name: 'CYRILLIC CAPITAL LETTER BROAD OMEGA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA64C, name: 'CYRILLIC CAPITAL LETTER BROAD OMEGA', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_BROAD_OMEGA = "\u{A64C}";
 
-    #[Info(id: 42573, name: 'CYRILLIC SMALL LETTER BROAD OMEGA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA64D, name: 'CYRILLIC SMALL LETTER BROAD OMEGA', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_BROAD_OMEGA = "\u{A64D}";
 
-    #[Info(id: 42574, name: 'CYRILLIC CAPITAL LETTER NEUTRAL YER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA64E, name: 'CYRILLIC CAPITAL LETTER NEUTRAL YER', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_NEUTRAL_YER = "\u{A64E}";
 
-    #[Info(id: 42575, name: 'CYRILLIC SMALL LETTER NEUTRAL YER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA64F, name: 'CYRILLIC SMALL LETTER NEUTRAL YER', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_NEUTRAL_YER = "\u{A64F}";
 
-    #[Info(id: 42576, name: 'CYRILLIC CAPITAL LETTER YERU WITH BACK YER', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA650, name: 'CYRILLIC CAPITAL LETTER YERU WITH BACK YER', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_YERU_WITH_BACK_YER = "\u{A650}";
 
-    #[Info(id: 42577, name: 'CYRILLIC SMALL LETTER YERU WITH BACK YER', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA651, name: 'CYRILLIC SMALL LETTER YERU WITH BACK YER', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_YERU_WITH_BACK_YER = "\u{A651}";
 
-    #[Info(id: 42578, name: 'CYRILLIC CAPITAL LETTER IOTIFIED YAT', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA652, name: 'CYRILLIC CAPITAL LETTER IOTIFIED YAT', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_IOTIFIED_YAT = "\u{A652}";
 
-    #[Info(id: 42579, name: 'CYRILLIC SMALL LETTER IOTIFIED YAT', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA653, name: 'CYRILLIC SMALL LETTER IOTIFIED YAT', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_IOTIFIED_YAT = "\u{A653}";
 
-    #[Info(id: 42580, name: 'CYRILLIC CAPITAL LETTER REVERSED YU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA654, name: 'CYRILLIC CAPITAL LETTER REVERSED YU', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_REVERSED_YU = "\u{A654}";
 
-    #[Info(id: 42581, name: 'CYRILLIC SMALL LETTER REVERSED YU', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA655, name: 'CYRILLIC SMALL LETTER REVERSED YU', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_REVERSED_YU = "\u{A655}";
 
-    #[Info(id: 42582, name: 'CYRILLIC CAPITAL LETTER IOTIFIED A', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA656, name: 'CYRILLIC CAPITAL LETTER IOTIFIED A', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_IOTIFIED_A = "\u{A656}";
 
-    #[Info(id: 42583, name: 'CYRILLIC SMALL LETTER IOTIFIED A', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA657, name: 'CYRILLIC SMALL LETTER IOTIFIED A', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_IOTIFIED_A = "\u{A657}";
 
-    #[Info(id: 42584, name: 'CYRILLIC CAPITAL LETTER CLOSED LITTLE YUS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA658, name: 'CYRILLIC CAPITAL LETTER CLOSED LITTLE YUS', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_CLOSED_LITTLE_YUS = "\u{A658}";
 
-    #[Info(id: 42585, name: 'CYRILLIC SMALL LETTER CLOSED LITTLE YUS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA659, name: 'CYRILLIC SMALL LETTER CLOSED LITTLE YUS', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_CLOSED_LITTLE_YUS = "\u{A659}";
 
-    #[Info(id: 42586, name: 'CYRILLIC CAPITAL LETTER BLENDED YUS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA65A, name: 'CYRILLIC CAPITAL LETTER BLENDED YUS', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_BLENDED_YUS = "\u{A65A}";
 
-    #[Info(id: 42587, name: 'CYRILLIC SMALL LETTER BLENDED YUS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA65B, name: 'CYRILLIC SMALL LETTER BLENDED YUS', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_BLENDED_YUS = "\u{A65B}";
 
-    #[Info(id: 42588, name: 'CYRILLIC CAPITAL LETTER IOTIFIED CLOSED LITTLE YUS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA65C, name: 'CYRILLIC CAPITAL LETTER IOTIFIED CLOSED LITTLE YUS', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_IOTIFIED_CLOSED_LITTLE_YUS = "\u{A65C}";
 
-    #[Info(id: 42589, name: 'CYRILLIC SMALL LETTER IOTIFIED CLOSED LITTLE YUS', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA65D, name: 'CYRILLIC SMALL LETTER IOTIFIED CLOSED LITTLE YUS', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_IOTIFIED_CLOSED_LITTLE_YUS = "\u{A65D}";
 
-    #[Info(id: 42590, name: 'CYRILLIC CAPITAL LETTER YN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA65E, name: 'CYRILLIC CAPITAL LETTER YN', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_YN = "\u{A65E}";
 
-    #[Info(id: 42591, name: 'CYRILLIC SMALL LETTER YN', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA65F, name: 'CYRILLIC SMALL LETTER YN', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_YN = "\u{A65F}";
 
-    #[Info(id: 42592, name: 'CYRILLIC CAPITAL LETTER REVERSED TSE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA660, name: 'CYRILLIC CAPITAL LETTER REVERSED TSE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_REVERSED_TSE = "\u{A660}";
 
-    #[Info(id: 42593, name: 'CYRILLIC SMALL LETTER REVERSED TSE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA661, name: 'CYRILLIC SMALL LETTER REVERSED TSE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_REVERSED_TSE = "\u{A661}";
 
-    #[Info(id: 42594, name: 'CYRILLIC CAPITAL LETTER SOFT DE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA662, name: 'CYRILLIC CAPITAL LETTER SOFT DE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_SOFT_DE = "\u{A662}";
 
-    #[Info(id: 42595, name: 'CYRILLIC SMALL LETTER SOFT DE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA663, name: 'CYRILLIC SMALL LETTER SOFT DE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_SOFT_DE = "\u{A663}";
 
-    #[Info(id: 42596, name: 'CYRILLIC CAPITAL LETTER SOFT EL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA664, name: 'CYRILLIC CAPITAL LETTER SOFT EL', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_SOFT_EL = "\u{A664}";
 
-    #[Info(id: 42597, name: 'CYRILLIC SMALL LETTER SOFT EL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA665, name: 'CYRILLIC SMALL LETTER SOFT EL', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_SOFT_EL = "\u{A665}";
 
-    #[Info(id: 42598, name: 'CYRILLIC CAPITAL LETTER SOFT EM', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA666, name: 'CYRILLIC CAPITAL LETTER SOFT EM', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_SOFT_EM = "\u{A666}";
 
-    #[Info(id: 42599, name: 'CYRILLIC SMALL LETTER SOFT EM', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA667, name: 'CYRILLIC SMALL LETTER SOFT EM', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_SOFT_EM = "\u{A667}";
 
-    #[Info(id: 42600, name: 'CYRILLIC CAPITAL LETTER MONOCULAR O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA668, name: 'CYRILLIC CAPITAL LETTER MONOCULAR O', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_MONOCULAR_O = "\u{A668}";
 
-    #[Info(id: 42601, name: 'CYRILLIC SMALL LETTER MONOCULAR O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA669, name: 'CYRILLIC SMALL LETTER MONOCULAR O', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_MONOCULAR_O = "\u{A669}";
 
-    #[Info(id: 42602, name: 'CYRILLIC CAPITAL LETTER BINOCULAR O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA66A, name: 'CYRILLIC CAPITAL LETTER BINOCULAR O', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_BINOCULAR_O = "\u{A66A}";
 
-    #[Info(id: 42603, name: 'CYRILLIC SMALL LETTER BINOCULAR O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA66B, name: 'CYRILLIC SMALL LETTER BINOCULAR O', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_BINOCULAR_O = "\u{A66B}";
 
-    #[Info(id: 42604, name: 'CYRILLIC CAPITAL LETTER DOUBLE MONOCULAR O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA66C, name: 'CYRILLIC CAPITAL LETTER DOUBLE MONOCULAR O', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_DOUBLE_MONOCULAR_O = "\u{A66C}";
 
-    #[Info(id: 42605, name: 'CYRILLIC SMALL LETTER DOUBLE MONOCULAR O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA66D, name: 'CYRILLIC SMALL LETTER DOUBLE MONOCULAR O', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_DOUBLE_MONOCULAR_O = "\u{A66D}";
 
-    #[Info(id: 42606, name: 'CYRILLIC LETTER MULTIOCULAR O', category: Cat::Other_Letter)]
+    #[Info(id: 0xA66E, name: 'CYRILLIC LETTER MULTIOCULAR O', category: Cat::Other_Letter)]
     case CYRILLIC_LETTER_MULTIOCULAR_O = "\u{A66E}";
 
-    #[Info(id: 42607, name: 'COMBINING CYRILLIC VZMET', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA66F, name: 'COMBINING CYRILLIC VZMET', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_VZMET = "\u{A66F}";
 
-    #[Info(id: 42608, name: 'COMBINING CYRILLIC TEN MILLIONS SIGN', category: Cat::Enclosing_Mark)]
+    #[Info(id: 0xA670, name: 'COMBINING CYRILLIC TEN MILLIONS SIGN', category: Cat::Enclosing_Mark)]
     case COMBINING_CYRILLIC_TEN_MILLIONS_SIGN = "\u{A670}";
 
-    #[Info(id: 42609, name: 'COMBINING CYRILLIC HUNDRED MILLIONS SIGN', category: Cat::Enclosing_Mark)]
+    #[Info(id: 0xA671, name: 'COMBINING CYRILLIC HUNDRED MILLIONS SIGN', category: Cat::Enclosing_Mark)]
     case COMBINING_CYRILLIC_HUNDRED_MILLIONS_SIGN = "\u{A671}";
 
-    #[Info(id: 42610, name: 'COMBINING CYRILLIC THOUSAND MILLIONS SIGN', category: Cat::Enclosing_Mark)]
+    #[Info(id: 0xA672, name: 'COMBINING CYRILLIC THOUSAND MILLIONS SIGN', category: Cat::Enclosing_Mark)]
     case COMBINING_CYRILLIC_THOUSAND_MILLIONS_SIGN = "\u{A672}";
 
-    #[Info(id: 42611, name: 'SLAVONIC ASTERISK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA673, name: 'SLAVONIC ASTERISK', category: Cat::Other_Punctuation)]
     case SLAVONIC_ASTERISK = "\u{A673}";
 
-    #[Info(id: 42612, name: 'COMBINING CYRILLIC LETTER UKRAINIAN IE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA674, name: 'COMBINING CYRILLIC LETTER UKRAINIAN IE', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_UKRAINIAN_IE = "\u{A674}";
 
-    #[Info(id: 42613, name: 'COMBINING CYRILLIC LETTER I', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA675, name: 'COMBINING CYRILLIC LETTER I', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_I = "\u{A675}";
 
-    #[Info(id: 42614, name: 'COMBINING CYRILLIC LETTER YI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA676, name: 'COMBINING CYRILLIC LETTER YI', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_YI = "\u{A676}";
 
-    #[Info(id: 42615, name: 'COMBINING CYRILLIC LETTER U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA677, name: 'COMBINING CYRILLIC LETTER U', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_U = "\u{A677}";
 
-    #[Info(id: 42616, name: 'COMBINING CYRILLIC LETTER HARD SIGN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA678, name: 'COMBINING CYRILLIC LETTER HARD SIGN', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_HARD_SIGN = "\u{A678}";
 
-    #[Info(id: 42617, name: 'COMBINING CYRILLIC LETTER YERU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA679, name: 'COMBINING CYRILLIC LETTER YERU', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_YERU = "\u{A679}";
 
-    #[Info(id: 42618, name: 'COMBINING CYRILLIC LETTER SOFT SIGN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA67A, name: 'COMBINING CYRILLIC LETTER SOFT SIGN', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_SOFT_SIGN = "\u{A67A}";
 
-    #[Info(id: 42619, name: 'COMBINING CYRILLIC LETTER OMEGA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA67B, name: 'COMBINING CYRILLIC LETTER OMEGA', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_OMEGA = "\u{A67B}";
 
-    #[Info(id: 42620, name: 'COMBINING CYRILLIC KAVYKA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA67C, name: 'COMBINING CYRILLIC KAVYKA', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_KAVYKA = "\u{A67C}";
 
-    #[Info(id: 42621, name: 'COMBINING CYRILLIC PAYEROK', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA67D, name: 'COMBINING CYRILLIC PAYEROK', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_PAYEROK = "\u{A67D}";
 
-    #[Info(id: 42622, name: 'CYRILLIC KAVYKA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA67E, name: 'CYRILLIC KAVYKA', category: Cat::Other_Punctuation)]
     case CYRILLIC_KAVYKA = "\u{A67E}";
 
-    #[Info(id: 42623, name: 'CYRILLIC PAYEROK', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA67F, name: 'CYRILLIC PAYEROK', category: Cat::Modifier_Letter)]
     case CYRILLIC_PAYEROK = "\u{A67F}";
 
-    #[Info(id: 42624, name: 'CYRILLIC CAPITAL LETTER DWE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA680, name: 'CYRILLIC CAPITAL LETTER DWE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_DWE = "\u{A680}";
 
-    #[Info(id: 42625, name: 'CYRILLIC SMALL LETTER DWE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA681, name: 'CYRILLIC SMALL LETTER DWE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_DWE = "\u{A681}";
 
-    #[Info(id: 42626, name: 'CYRILLIC CAPITAL LETTER DZWE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA682, name: 'CYRILLIC CAPITAL LETTER DZWE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_DZWE = "\u{A682}";
 
-    #[Info(id: 42627, name: 'CYRILLIC SMALL LETTER DZWE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA683, name: 'CYRILLIC SMALL LETTER DZWE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_DZWE = "\u{A683}";
 
-    #[Info(id: 42628, name: 'CYRILLIC CAPITAL LETTER ZHWE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA684, name: 'CYRILLIC CAPITAL LETTER ZHWE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_ZHWE = "\u{A684}";
 
-    #[Info(id: 42629, name: 'CYRILLIC SMALL LETTER ZHWE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA685, name: 'CYRILLIC SMALL LETTER ZHWE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_ZHWE = "\u{A685}";
 
-    #[Info(id: 42630, name: 'CYRILLIC CAPITAL LETTER CCHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA686, name: 'CYRILLIC CAPITAL LETTER CCHE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_CCHE = "\u{A686}";
 
-    #[Info(id: 42631, name: 'CYRILLIC SMALL LETTER CCHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA687, name: 'CYRILLIC SMALL LETTER CCHE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_CCHE = "\u{A687}";
 
-    #[Info(id: 42632, name: 'CYRILLIC CAPITAL LETTER DZZE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA688, name: 'CYRILLIC CAPITAL LETTER DZZE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_DZZE = "\u{A688}";
 
-    #[Info(id: 42633, name: 'CYRILLIC SMALL LETTER DZZE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA689, name: 'CYRILLIC SMALL LETTER DZZE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_DZZE = "\u{A689}";
 
-    #[Info(id: 42634, name: 'CYRILLIC CAPITAL LETTER TE WITH MIDDLE HOOK', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA68A, name: 'CYRILLIC CAPITAL LETTER TE WITH MIDDLE HOOK', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_TE_WITH_MIDDLE_HOOK = "\u{A68A}";
 
-    #[Info(id: 42635, name: 'CYRILLIC SMALL LETTER TE WITH MIDDLE HOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA68B, name: 'CYRILLIC SMALL LETTER TE WITH MIDDLE HOOK', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_TE_WITH_MIDDLE_HOOK = "\u{A68B}";
 
-    #[Info(id: 42636, name: 'CYRILLIC CAPITAL LETTER TWE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA68C, name: 'CYRILLIC CAPITAL LETTER TWE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_TWE = "\u{A68C}";
 
-    #[Info(id: 42637, name: 'CYRILLIC SMALL LETTER TWE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA68D, name: 'CYRILLIC SMALL LETTER TWE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_TWE = "\u{A68D}";
 
-    #[Info(id: 42638, name: 'CYRILLIC CAPITAL LETTER TSWE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA68E, name: 'CYRILLIC CAPITAL LETTER TSWE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_TSWE = "\u{A68E}";
 
-    #[Info(id: 42639, name: 'CYRILLIC SMALL LETTER TSWE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA68F, name: 'CYRILLIC SMALL LETTER TSWE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_TSWE = "\u{A68F}";
 
-    #[Info(id: 42640, name: 'CYRILLIC CAPITAL LETTER TSSE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA690, name: 'CYRILLIC CAPITAL LETTER TSSE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_TSSE = "\u{A690}";
 
-    #[Info(id: 42641, name: 'CYRILLIC SMALL LETTER TSSE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA691, name: 'CYRILLIC SMALL LETTER TSSE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_TSSE = "\u{A691}";
 
-    #[Info(id: 42642, name: 'CYRILLIC CAPITAL LETTER TCHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA692, name: 'CYRILLIC CAPITAL LETTER TCHE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_TCHE = "\u{A692}";
 
-    #[Info(id: 42643, name: 'CYRILLIC SMALL LETTER TCHE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA693, name: 'CYRILLIC SMALL LETTER TCHE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_TCHE = "\u{A693}";
 
-    #[Info(id: 42644, name: 'CYRILLIC CAPITAL LETTER HWE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA694, name: 'CYRILLIC CAPITAL LETTER HWE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_HWE = "\u{A694}";
 
-    #[Info(id: 42645, name: 'CYRILLIC SMALL LETTER HWE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA695, name: 'CYRILLIC SMALL LETTER HWE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_HWE = "\u{A695}";
 
-    #[Info(id: 42646, name: 'CYRILLIC CAPITAL LETTER SHWE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA696, name: 'CYRILLIC CAPITAL LETTER SHWE', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_SHWE = "\u{A696}";
 
-    #[Info(id: 42647, name: 'CYRILLIC SMALL LETTER SHWE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA697, name: 'CYRILLIC SMALL LETTER SHWE', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_SHWE = "\u{A697}";
 
-    #[Info(id: 42648, name: 'CYRILLIC CAPITAL LETTER DOUBLE O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA698, name: 'CYRILLIC CAPITAL LETTER DOUBLE O', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_DOUBLE_O = "\u{A698}";
 
-    #[Info(id: 42649, name: 'CYRILLIC SMALL LETTER DOUBLE O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA699, name: 'CYRILLIC SMALL LETTER DOUBLE O', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_DOUBLE_O = "\u{A699}";
 
-    #[Info(id: 42650, name: 'CYRILLIC CAPITAL LETTER CROSSED O', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0xA69A, name: 'CYRILLIC CAPITAL LETTER CROSSED O', category: Cat::Uppercase_Letter)]
     case CYRILLIC_CAPITAL_LETTER_CROSSED_O = "\u{A69A}";
 
-    #[Info(id: 42651, name: 'CYRILLIC SMALL LETTER CROSSED O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA69B, name: 'CYRILLIC SMALL LETTER CROSSED O', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_CROSSED_O = "\u{A69B}";
 
-    #[Info(id: 42652, name: 'MODIFIER LETTER CYRILLIC HARD SIGN', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA69C, name: 'MODIFIER LETTER CYRILLIC HARD SIGN', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_CYRILLIC_HARD_SIGN = "\u{A69C}";
 
-    #[Info(id: 42653, name: 'MODIFIER LETTER CYRILLIC SOFT SIGN', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA69D, name: 'MODIFIER LETTER CYRILLIC SOFT SIGN', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_CYRILLIC_SOFT_SIGN = "\u{A69D}";
 
-    #[Info(id: 42654, name: 'COMBINING CYRILLIC LETTER EF', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA69E, name: 'COMBINING CYRILLIC LETTER EF', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_EF = "\u{A69E}";
 
-    #[Info(id: 42655, name: 'COMBINING CYRILLIC LETTER IOTIFIED E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA69F, name: 'COMBINING CYRILLIC LETTER IOTIFIED E', category: Cat::Nonspacing_Mark)]
     case COMBINING_CYRILLIC_LETTER_IOTIFIED_E = "\u{A69F}";
 }

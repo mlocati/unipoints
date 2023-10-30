@@ -16,183 +16,183 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Dogra: string
 {
-    #[Info(id: 71680, name: 'DOGRA LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x11800, name: 'DOGRA LETTER A', category: Cat::Other_Letter)]
     case DOGRA_LETTER_A = "\u{11800}";
 
-    #[Info(id: 71681, name: 'DOGRA LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11801, name: 'DOGRA LETTER AA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_AA = "\u{11801}";
 
-    #[Info(id: 71682, name: 'DOGRA LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x11802, name: 'DOGRA LETTER I', category: Cat::Other_Letter)]
     case DOGRA_LETTER_I = "\u{11802}";
 
-    #[Info(id: 71683, name: 'DOGRA LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0x11803, name: 'DOGRA LETTER II', category: Cat::Other_Letter)]
     case DOGRA_LETTER_II = "\u{11803}";
 
-    #[Info(id: 71684, name: 'DOGRA LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x11804, name: 'DOGRA LETTER U', category: Cat::Other_Letter)]
     case DOGRA_LETTER_U = "\u{11804}";
 
-    #[Info(id: 71685, name: 'DOGRA LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11805, name: 'DOGRA LETTER UU', category: Cat::Other_Letter)]
     case DOGRA_LETTER_UU = "\u{11805}";
 
-    #[Info(id: 71686, name: 'DOGRA LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x11806, name: 'DOGRA LETTER E', category: Cat::Other_Letter)]
     case DOGRA_LETTER_E = "\u{11806}";
 
-    #[Info(id: 71687, name: 'DOGRA LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x11807, name: 'DOGRA LETTER AI', category: Cat::Other_Letter)]
     case DOGRA_LETTER_AI = "\u{11807}";
 
-    #[Info(id: 71688, name: 'DOGRA LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x11808, name: 'DOGRA LETTER O', category: Cat::Other_Letter)]
     case DOGRA_LETTER_O = "\u{11808}";
 
-    #[Info(id: 71689, name: 'DOGRA LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0x11809, name: 'DOGRA LETTER AU', category: Cat::Other_Letter)]
     case DOGRA_LETTER_AU = "\u{11809}";
 
-    #[Info(id: 71690, name: 'DOGRA LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1180A, name: 'DOGRA LETTER KA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_KA = "\u{1180A}";
 
-    #[Info(id: 71691, name: 'DOGRA LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1180B, name: 'DOGRA LETTER KHA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_KHA = "\u{1180B}";
 
-    #[Info(id: 71692, name: 'DOGRA LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1180C, name: 'DOGRA LETTER GA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_GA = "\u{1180C}";
 
-    #[Info(id: 71693, name: 'DOGRA LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1180D, name: 'DOGRA LETTER GHA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_GHA = "\u{1180D}";
 
-    #[Info(id: 71694, name: 'DOGRA LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1180E, name: 'DOGRA LETTER NGA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_NGA = "\u{1180E}";
 
-    #[Info(id: 71695, name: 'DOGRA LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1180F, name: 'DOGRA LETTER CA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_CA = "\u{1180F}";
 
-    #[Info(id: 71696, name: 'DOGRA LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11810, name: 'DOGRA LETTER CHA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_CHA = "\u{11810}";
 
-    #[Info(id: 71697, name: 'DOGRA LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11811, name: 'DOGRA LETTER JA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_JA = "\u{11811}";
 
-    #[Info(id: 71698, name: 'DOGRA LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11812, name: 'DOGRA LETTER JHA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_JHA = "\u{11812}";
 
-    #[Info(id: 71699, name: 'DOGRA LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11813, name: 'DOGRA LETTER NYA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_NYA = "\u{11813}";
 
-    #[Info(id: 71700, name: 'DOGRA LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11814, name: 'DOGRA LETTER TTA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_TTA = "\u{11814}";
 
-    #[Info(id: 71701, name: 'DOGRA LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11815, name: 'DOGRA LETTER TTHA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_TTHA = "\u{11815}";
 
-    #[Info(id: 71702, name: 'DOGRA LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11816, name: 'DOGRA LETTER DDA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_DDA = "\u{11816}";
 
-    #[Info(id: 71703, name: 'DOGRA LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11817, name: 'DOGRA LETTER DDHA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_DDHA = "\u{11817}";
 
-    #[Info(id: 71704, name: 'DOGRA LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11818, name: 'DOGRA LETTER NNA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_NNA = "\u{11818}";
 
-    #[Info(id: 71705, name: 'DOGRA LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11819, name: 'DOGRA LETTER TA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_TA = "\u{11819}";
 
-    #[Info(id: 71706, name: 'DOGRA LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1181A, name: 'DOGRA LETTER THA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_THA = "\u{1181A}";
 
-    #[Info(id: 71707, name: 'DOGRA LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1181B, name: 'DOGRA LETTER DA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_DA = "\u{1181B}";
 
-    #[Info(id: 71708, name: 'DOGRA LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1181C, name: 'DOGRA LETTER DHA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_DHA = "\u{1181C}";
 
-    #[Info(id: 71709, name: 'DOGRA LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1181D, name: 'DOGRA LETTER NA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_NA = "\u{1181D}";
 
-    #[Info(id: 71710, name: 'DOGRA LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1181E, name: 'DOGRA LETTER PA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_PA = "\u{1181E}";
 
-    #[Info(id: 71711, name: 'DOGRA LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1181F, name: 'DOGRA LETTER PHA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_PHA = "\u{1181F}";
 
-    #[Info(id: 71712, name: 'DOGRA LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11820, name: 'DOGRA LETTER BA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_BA = "\u{11820}";
 
-    #[Info(id: 71713, name: 'DOGRA LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11821, name: 'DOGRA LETTER BHA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_BHA = "\u{11821}";
 
-    #[Info(id: 71714, name: 'DOGRA LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11822, name: 'DOGRA LETTER MA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_MA = "\u{11822}";
 
-    #[Info(id: 71715, name: 'DOGRA LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11823, name: 'DOGRA LETTER YA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_YA = "\u{11823}";
 
-    #[Info(id: 71716, name: 'DOGRA LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11824, name: 'DOGRA LETTER RA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_RA = "\u{11824}";
 
-    #[Info(id: 71717, name: 'DOGRA LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11825, name: 'DOGRA LETTER LA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_LA = "\u{11825}";
 
-    #[Info(id: 71718, name: 'DOGRA LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11826, name: 'DOGRA LETTER VA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_VA = "\u{11826}";
 
-    #[Info(id: 71719, name: 'DOGRA LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11827, name: 'DOGRA LETTER SHA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_SHA = "\u{11827}";
 
-    #[Info(id: 71720, name: 'DOGRA LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11828, name: 'DOGRA LETTER SSA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_SSA = "\u{11828}";
 
-    #[Info(id: 71721, name: 'DOGRA LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x11829, name: 'DOGRA LETTER SA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_SA = "\u{11829}";
 
-    #[Info(id: 71722, name: 'DOGRA LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1182A, name: 'DOGRA LETTER HA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_HA = "\u{1182A}";
 
-    #[Info(id: 71723, name: 'DOGRA LETTER RRA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1182B, name: 'DOGRA LETTER RRA', category: Cat::Other_Letter)]
     case DOGRA_LETTER_RRA = "\u{1182B}";
 
-    #[Info(id: 71724, name: 'DOGRA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1182C, name: 'DOGRA VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case DOGRA_VOWEL_SIGN_AA = "\u{1182C}";
 
-    #[Info(id: 71725, name: 'DOGRA VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1182D, name: 'DOGRA VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case DOGRA_VOWEL_SIGN_I = "\u{1182D}";
 
-    #[Info(id: 71726, name: 'DOGRA VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x1182E, name: 'DOGRA VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case DOGRA_VOWEL_SIGN_II = "\u{1182E}";
 
-    #[Info(id: 71727, name: 'DOGRA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1182F, name: 'DOGRA VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case DOGRA_VOWEL_SIGN_U = "\u{1182F}";
 
-    #[Info(id: 71728, name: 'DOGRA VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11830, name: 'DOGRA VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case DOGRA_VOWEL_SIGN_UU = "\u{11830}";
 
-    #[Info(id: 71729, name: 'DOGRA VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11831, name: 'DOGRA VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case DOGRA_VOWEL_SIGN_VOCALIC_R = "\u{11831}";
 
-    #[Info(id: 71730, name: 'DOGRA VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11832, name: 'DOGRA VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
     case DOGRA_VOWEL_SIGN_VOCALIC_RR = "\u{11832}";
 
-    #[Info(id: 71731, name: 'DOGRA VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11833, name: 'DOGRA VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case DOGRA_VOWEL_SIGN_E = "\u{11833}";
 
-    #[Info(id: 71732, name: 'DOGRA VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11834, name: 'DOGRA VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case DOGRA_VOWEL_SIGN_AI = "\u{11834}";
 
-    #[Info(id: 71733, name: 'DOGRA VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11835, name: 'DOGRA VOWEL SIGN O', category: Cat::Nonspacing_Mark)]
     case DOGRA_VOWEL_SIGN_O = "\u{11835}";
 
-    #[Info(id: 71734, name: 'DOGRA VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11836, name: 'DOGRA VOWEL SIGN AU', category: Cat::Nonspacing_Mark)]
     case DOGRA_VOWEL_SIGN_AU = "\u{11836}";
 
-    #[Info(id: 71735, name: 'DOGRA SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11837, name: 'DOGRA SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case DOGRA_SIGN_ANUSVARA = "\u{11837}";
 
-    #[Info(id: 71736, name: 'DOGRA SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0x11838, name: 'DOGRA SIGN VISARGA', category: Cat::Spacing_Mark)]
     case DOGRA_SIGN_VISARGA = "\u{11838}";
 
-    #[Info(id: 71737, name: 'DOGRA SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x11839, name: 'DOGRA SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case DOGRA_SIGN_VIRAMA = "\u{11839}";
 
-    #[Info(id: 71738, name: 'DOGRA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1183A, name: 'DOGRA SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case DOGRA_SIGN_NUKTA = "\u{1183A}";
 
-    #[Info(id: 71739, name: 'DOGRA ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0x1183B, name: 'DOGRA ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
     case DOGRA_ABBREVIATION_SIGN = "\u{1183B}";
 }

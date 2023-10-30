@@ -16,276 +16,276 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Gujarati: string
 {
-    #[Info(id: 2689, name: 'GUJARATI SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA81, name: 'GUJARATI SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
     case GUJARATI_SIGN_CANDRABINDU = "\u{A81}";
 
-    #[Info(id: 2690, name: 'GUJARATI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xA82, name: 'GUJARATI SIGN ANUSVARA', category: Cat::Nonspacing_Mark)]
     case GUJARATI_SIGN_ANUSVARA = "\u{A82}";
 
-    #[Info(id: 2691, name: 'GUJARATI SIGN VISARGA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xA83, name: 'GUJARATI SIGN VISARGA', category: Cat::Spacing_Mark)]
     case GUJARATI_SIGN_VISARGA = "\u{A83}";
 
-    #[Info(id: 2693, name: 'GUJARATI LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0xA85, name: 'GUJARATI LETTER A', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_A = "\u{A85}";
 
-    #[Info(id: 2694, name: 'GUJARATI LETTER AA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA86, name: 'GUJARATI LETTER AA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_AA = "\u{A86}";
 
-    #[Info(id: 2695, name: 'GUJARATI LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0xA87, name: 'GUJARATI LETTER I', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_I = "\u{A87}";
 
-    #[Info(id: 2696, name: 'GUJARATI LETTER II', category: Cat::Other_Letter)]
+    #[Info(id: 0xA88, name: 'GUJARATI LETTER II', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_II = "\u{A88}";
 
-    #[Info(id: 2697, name: 'GUJARATI LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0xA89, name: 'GUJARATI LETTER U', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_U = "\u{A89}";
 
-    #[Info(id: 2698, name: 'GUJARATI LETTER UU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8A, name: 'GUJARATI LETTER UU', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_UU = "\u{A8A}";
 
-    #[Info(id: 2699, name: 'GUJARATI LETTER VOCALIC R', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8B, name: 'GUJARATI LETTER VOCALIC R', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_VOCALIC_R = "\u{A8B}";
 
-    #[Info(id: 2700, name: 'GUJARATI LETTER VOCALIC L', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8C, name: 'GUJARATI LETTER VOCALIC L', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_VOCALIC_L = "\u{A8C}";
 
-    #[Info(id: 2701, name: 'GUJARATI VOWEL CANDRA E', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8D, name: 'GUJARATI VOWEL CANDRA E', category: Cat::Other_Letter)]
     case GUJARATI_VOWEL_CANDRA_E = "\u{A8D}";
 
-    #[Info(id: 2703, name: 'GUJARATI LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0xA8F, name: 'GUJARATI LETTER E', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_E = "\u{A8F}";
 
-    #[Info(id: 2704, name: 'GUJARATI LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA90, name: 'GUJARATI LETTER AI', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_AI = "\u{A90}";
 
-    #[Info(id: 2705, name: 'GUJARATI VOWEL CANDRA O', category: Cat::Other_Letter)]
+    #[Info(id: 0xA91, name: 'GUJARATI VOWEL CANDRA O', category: Cat::Other_Letter)]
     case GUJARATI_VOWEL_CANDRA_O = "\u{A91}";
 
-    #[Info(id: 2707, name: 'GUJARATI LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0xA93, name: 'GUJARATI LETTER O', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_O = "\u{A93}";
 
-    #[Info(id: 2708, name: 'GUJARATI LETTER AU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA94, name: 'GUJARATI LETTER AU', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_AU = "\u{A94}";
 
-    #[Info(id: 2709, name: 'GUJARATI LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA95, name: 'GUJARATI LETTER KA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_KA = "\u{A95}";
 
-    #[Info(id: 2710, name: 'GUJARATI LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA96, name: 'GUJARATI LETTER KHA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_KHA = "\u{A96}";
 
-    #[Info(id: 2711, name: 'GUJARATI LETTER GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA97, name: 'GUJARATI LETTER GA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_GA = "\u{A97}";
 
-    #[Info(id: 2712, name: 'GUJARATI LETTER GHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA98, name: 'GUJARATI LETTER GHA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_GHA = "\u{A98}";
 
-    #[Info(id: 2713, name: 'GUJARATI LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA99, name: 'GUJARATI LETTER NGA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_NGA = "\u{A99}";
 
-    #[Info(id: 2714, name: 'GUJARATI LETTER CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9A, name: 'GUJARATI LETTER CA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_CA = "\u{A9A}";
 
-    #[Info(id: 2715, name: 'GUJARATI LETTER CHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9B, name: 'GUJARATI LETTER CHA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_CHA = "\u{A9B}";
 
-    #[Info(id: 2716, name: 'GUJARATI LETTER JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9C, name: 'GUJARATI LETTER JA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_JA = "\u{A9C}";
 
-    #[Info(id: 2717, name: 'GUJARATI LETTER JHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9D, name: 'GUJARATI LETTER JHA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_JHA = "\u{A9D}";
 
-    #[Info(id: 2718, name: 'GUJARATI LETTER NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9E, name: 'GUJARATI LETTER NYA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_NYA = "\u{A9E}";
 
-    #[Info(id: 2719, name: 'GUJARATI LETTER TTA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA9F, name: 'GUJARATI LETTER TTA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_TTA = "\u{A9F}";
 
-    #[Info(id: 2720, name: 'GUJARATI LETTER TTHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA0, name: 'GUJARATI LETTER TTHA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_TTHA = "\u{AA0}";
 
-    #[Info(id: 2721, name: 'GUJARATI LETTER DDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA1, name: 'GUJARATI LETTER DDA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_DDA = "\u{AA1}";
 
-    #[Info(id: 2722, name: 'GUJARATI LETTER DDHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA2, name: 'GUJARATI LETTER DDHA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_DDHA = "\u{AA2}";
 
-    #[Info(id: 2723, name: 'GUJARATI LETTER NNA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA3, name: 'GUJARATI LETTER NNA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_NNA = "\u{AA3}";
 
-    #[Info(id: 2724, name: 'GUJARATI LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA4, name: 'GUJARATI LETTER TA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_TA = "\u{AA4}";
 
-    #[Info(id: 2725, name: 'GUJARATI LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA5, name: 'GUJARATI LETTER THA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_THA = "\u{AA5}";
 
-    #[Info(id: 2726, name: 'GUJARATI LETTER DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA6, name: 'GUJARATI LETTER DA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_DA = "\u{AA6}";
 
-    #[Info(id: 2727, name: 'GUJARATI LETTER DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA7, name: 'GUJARATI LETTER DHA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_DHA = "\u{AA7}";
 
-    #[Info(id: 2728, name: 'GUJARATI LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAA8, name: 'GUJARATI LETTER NA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_NA = "\u{AA8}";
 
-    #[Info(id: 2730, name: 'GUJARATI LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAA, name: 'GUJARATI LETTER PA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_PA = "\u{AAA}";
 
-    #[Info(id: 2731, name: 'GUJARATI LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAB, name: 'GUJARATI LETTER PHA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_PHA = "\u{AAB}";
 
-    #[Info(id: 2732, name: 'GUJARATI LETTER BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAC, name: 'GUJARATI LETTER BA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_BA = "\u{AAC}";
 
-    #[Info(id: 2733, name: 'GUJARATI LETTER BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAD, name: 'GUJARATI LETTER BHA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_BHA = "\u{AAD}";
 
-    #[Info(id: 2734, name: 'GUJARATI LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAE, name: 'GUJARATI LETTER MA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_MA = "\u{AAE}";
 
-    #[Info(id: 2735, name: 'GUJARATI LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAAF, name: 'GUJARATI LETTER YA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_YA = "\u{AAF}";
 
-    #[Info(id: 2736, name: 'GUJARATI LETTER RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAB0, name: 'GUJARATI LETTER RA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_RA = "\u{AB0}";
 
-    #[Info(id: 2738, name: 'GUJARATI LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAB2, name: 'GUJARATI LETTER LA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_LA = "\u{AB2}";
 
-    #[Info(id: 2739, name: 'GUJARATI LETTER LLA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAB3, name: 'GUJARATI LETTER LLA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_LLA = "\u{AB3}";
 
-    #[Info(id: 2741, name: 'GUJARATI LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAB5, name: 'GUJARATI LETTER VA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_VA = "\u{AB5}";
 
-    #[Info(id: 2742, name: 'GUJARATI LETTER SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAB6, name: 'GUJARATI LETTER SHA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_SHA = "\u{AB6}";
 
-    #[Info(id: 2743, name: 'GUJARATI LETTER SSA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAB7, name: 'GUJARATI LETTER SSA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_SSA = "\u{AB7}";
 
-    #[Info(id: 2744, name: 'GUJARATI LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAB8, name: 'GUJARATI LETTER SA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_SA = "\u{AB8}";
 
-    #[Info(id: 2745, name: 'GUJARATI LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAB9, name: 'GUJARATI LETTER HA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_HA = "\u{AB9}";
 
-    #[Info(id: 2748, name: 'GUJARATI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xABC, name: 'GUJARATI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
     case GUJARATI_SIGN_NUKTA = "\u{ABC}";
 
-    #[Info(id: 2749, name: 'GUJARATI SIGN AVAGRAHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xABD, name: 'GUJARATI SIGN AVAGRAHA', category: Cat::Other_Letter)]
     case GUJARATI_SIGN_AVAGRAHA = "\u{ABD}";
 
-    #[Info(id: 2750, name: 'GUJARATI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xABE, name: 'GUJARATI VOWEL SIGN AA', category: Cat::Spacing_Mark)]
     case GUJARATI_VOWEL_SIGN_AA = "\u{ABE}";
 
-    #[Info(id: 2751, name: 'GUJARATI VOWEL SIGN I', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xABF, name: 'GUJARATI VOWEL SIGN I', category: Cat::Spacing_Mark)]
     case GUJARATI_VOWEL_SIGN_I = "\u{ABF}";
 
-    #[Info(id: 2752, name: 'GUJARATI VOWEL SIGN II', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xAC0, name: 'GUJARATI VOWEL SIGN II', category: Cat::Spacing_Mark)]
     case GUJARATI_VOWEL_SIGN_II = "\u{AC0}";
 
-    #[Info(id: 2753, name: 'GUJARATI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAC1, name: 'GUJARATI VOWEL SIGN U', category: Cat::Nonspacing_Mark)]
     case GUJARATI_VOWEL_SIGN_U = "\u{AC1}";
 
-    #[Info(id: 2754, name: 'GUJARATI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAC2, name: 'GUJARATI VOWEL SIGN UU', category: Cat::Nonspacing_Mark)]
     case GUJARATI_VOWEL_SIGN_UU = "\u{AC2}";
 
-    #[Info(id: 2755, name: 'GUJARATI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAC3, name: 'GUJARATI VOWEL SIGN VOCALIC R', category: Cat::Nonspacing_Mark)]
     case GUJARATI_VOWEL_SIGN_VOCALIC_R = "\u{AC3}";
 
-    #[Info(id: 2756, name: 'GUJARATI VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAC4, name: 'GUJARATI VOWEL SIGN VOCALIC RR', category: Cat::Nonspacing_Mark)]
     case GUJARATI_VOWEL_SIGN_VOCALIC_RR = "\u{AC4}";
 
-    #[Info(id: 2757, name: 'GUJARATI VOWEL SIGN CANDRA E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAC5, name: 'GUJARATI VOWEL SIGN CANDRA E', category: Cat::Nonspacing_Mark)]
     case GUJARATI_VOWEL_SIGN_CANDRA_E = "\u{AC5}";
 
-    #[Info(id: 2759, name: 'GUJARATI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAC7, name: 'GUJARATI VOWEL SIGN E', category: Cat::Nonspacing_Mark)]
     case GUJARATI_VOWEL_SIGN_E = "\u{AC7}";
 
-    #[Info(id: 2760, name: 'GUJARATI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAC8, name: 'GUJARATI VOWEL SIGN AI', category: Cat::Nonspacing_Mark)]
     case GUJARATI_VOWEL_SIGN_AI = "\u{AC8}";
 
-    #[Info(id: 2761, name: 'GUJARATI VOWEL SIGN CANDRA O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xAC9, name: 'GUJARATI VOWEL SIGN CANDRA O', category: Cat::Spacing_Mark)]
     case GUJARATI_VOWEL_SIGN_CANDRA_O = "\u{AC9}";
 
-    #[Info(id: 2763, name: 'GUJARATI VOWEL SIGN O', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xACB, name: 'GUJARATI VOWEL SIGN O', category: Cat::Spacing_Mark)]
     case GUJARATI_VOWEL_SIGN_O = "\u{ACB}";
 
-    #[Info(id: 2764, name: 'GUJARATI VOWEL SIGN AU', category: Cat::Spacing_Mark)]
+    #[Info(id: 0xACC, name: 'GUJARATI VOWEL SIGN AU', category: Cat::Spacing_Mark)]
     case GUJARATI_VOWEL_SIGN_AU = "\u{ACC}";
 
-    #[Info(id: 2765, name: 'GUJARATI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xACD, name: 'GUJARATI SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case GUJARATI_SIGN_VIRAMA = "\u{ACD}";
 
-    #[Info(id: 2768, name: 'GUJARATI OM', category: Cat::Other_Letter)]
+    #[Info(id: 0xAD0, name: 'GUJARATI OM', category: Cat::Other_Letter)]
     case GUJARATI_OM = "\u{AD0}";
 
-    #[Info(id: 2784, name: 'GUJARATI LETTER VOCALIC RR', category: Cat::Other_Letter)]
+    #[Info(id: 0xAE0, name: 'GUJARATI LETTER VOCALIC RR', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_VOCALIC_RR = "\u{AE0}";
 
-    #[Info(id: 2785, name: 'GUJARATI LETTER VOCALIC LL', category: Cat::Other_Letter)]
+    #[Info(id: 0xAE1, name: 'GUJARATI LETTER VOCALIC LL', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_VOCALIC_LL = "\u{AE1}";
 
-    #[Info(id: 2786, name: 'GUJARATI VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAE2, name: 'GUJARATI VOWEL SIGN VOCALIC L', category: Cat::Nonspacing_Mark)]
     case GUJARATI_VOWEL_SIGN_VOCALIC_L = "\u{AE2}";
 
-    #[Info(id: 2787, name: 'GUJARATI VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAE3, name: 'GUJARATI VOWEL SIGN VOCALIC LL', category: Cat::Nonspacing_Mark)]
     case GUJARATI_VOWEL_SIGN_VOCALIC_LL = "\u{AE3}";
 
-    #[Info(id: 2790, name: 'GUJARATI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xAE6, name: 'GUJARATI DIGIT ZERO', category: Cat::Decimal_Number)]
     case GUJARATI_DIGIT_ZERO = "\u{AE6}";
 
-    #[Info(id: 2791, name: 'GUJARATI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xAE7, name: 'GUJARATI DIGIT ONE', category: Cat::Decimal_Number)]
     case GUJARATI_DIGIT_ONE = "\u{AE7}";
 
-    #[Info(id: 2792, name: 'GUJARATI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xAE8, name: 'GUJARATI DIGIT TWO', category: Cat::Decimal_Number)]
     case GUJARATI_DIGIT_TWO = "\u{AE8}";
 
-    #[Info(id: 2793, name: 'GUJARATI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xAE9, name: 'GUJARATI DIGIT THREE', category: Cat::Decimal_Number)]
     case GUJARATI_DIGIT_THREE = "\u{AE9}";
 
-    #[Info(id: 2794, name: 'GUJARATI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xAEA, name: 'GUJARATI DIGIT FOUR', category: Cat::Decimal_Number)]
     case GUJARATI_DIGIT_FOUR = "\u{AEA}";
 
-    #[Info(id: 2795, name: 'GUJARATI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xAEB, name: 'GUJARATI DIGIT FIVE', category: Cat::Decimal_Number)]
     case GUJARATI_DIGIT_FIVE = "\u{AEB}";
 
-    #[Info(id: 2796, name: 'GUJARATI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xAEC, name: 'GUJARATI DIGIT SIX', category: Cat::Decimal_Number)]
     case GUJARATI_DIGIT_SIX = "\u{AEC}";
 
-    #[Info(id: 2797, name: 'GUJARATI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xAED, name: 'GUJARATI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case GUJARATI_DIGIT_SEVEN = "\u{AED}";
 
-    #[Info(id: 2798, name: 'GUJARATI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xAEE, name: 'GUJARATI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case GUJARATI_DIGIT_EIGHT = "\u{AEE}";
 
-    #[Info(id: 2799, name: 'GUJARATI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xAEF, name: 'GUJARATI DIGIT NINE', category: Cat::Decimal_Number)]
     case GUJARATI_DIGIT_NINE = "\u{AEF}";
 
-    #[Info(id: 2800, name: 'GUJARATI ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xAF0, name: 'GUJARATI ABBREVIATION SIGN', category: Cat::Other_Punctuation)]
     case GUJARATI_ABBREVIATION_SIGN = "\u{AF0}";
 
-    #[Info(id: 2801, name: 'GUJARATI RUPEE SIGN', category: Cat::Currency_Symbol)]
+    #[Info(id: 0xAF1, name: 'GUJARATI RUPEE SIGN', category: Cat::Currency_Symbol)]
     case GUJARATI_RUPEE_SIGN = "\u{AF1}";
 
-    #[Info(id: 2809, name: 'GUJARATI LETTER ZHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xAF9, name: 'GUJARATI LETTER ZHA', category: Cat::Other_Letter)]
     case GUJARATI_LETTER_ZHA = "\u{AF9}";
 
-    #[Info(id: 2810, name: 'GUJARATI SIGN SUKUN', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAFA, name: 'GUJARATI SIGN SUKUN', category: Cat::Nonspacing_Mark)]
     case GUJARATI_SIGN_SUKUN = "\u{AFA}";
 
-    #[Info(id: 2811, name: 'GUJARATI SIGN SHADDA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAFB, name: 'GUJARATI SIGN SHADDA', category: Cat::Nonspacing_Mark)]
     case GUJARATI_SIGN_SHADDA = "\u{AFB}";
 
-    #[Info(id: 2812, name: 'GUJARATI SIGN MADDAH', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAFC, name: 'GUJARATI SIGN MADDAH', category: Cat::Nonspacing_Mark)]
     case GUJARATI_SIGN_MADDAH = "\u{AFC}";
 
-    #[Info(id: 2813, name: 'GUJARATI SIGN THREE-DOT NUKTA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAFD, name: 'GUJARATI SIGN THREE-DOT NUKTA ABOVE', category: Cat::Nonspacing_Mark)]
     case GUJARATI_SIGN_THREE_DOT_NUKTA_ABOVE = "\u{AFD}";
 
-    #[Info(id: 2814, name: 'GUJARATI SIGN CIRCLE NUKTA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAFE, name: 'GUJARATI SIGN CIRCLE NUKTA ABOVE', category: Cat::Nonspacing_Mark)]
     case GUJARATI_SIGN_CIRCLE_NUKTA_ABOVE = "\u{AFE}";
 
-    #[Info(id: 2815, name: 'GUJARATI SIGN TWO-CIRCLE NUKTA ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0xAFF, name: 'GUJARATI SIGN TWO-CIRCLE NUKTA ABOVE', category: Cat::Nonspacing_Mark)]
     case GUJARATI_SIGN_TWO_CIRCLE_NUKTA_ABOVE = "\u{AFF}";
 }

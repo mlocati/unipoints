@@ -16,183 +16,183 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Number_Forms: string
 {
-    #[Info(id: 8528, name: 'VULGAR FRACTION ONE SEVENTH', category: Cat::Other_Number)]
+    #[Info(id: 0x2150, name: 'VULGAR FRACTION ONE SEVENTH', category: Cat::Other_Number)]
     case VULGAR_FRACTION_ONE_SEVENTH = "\u{2150}";
 
-    #[Info(id: 8529, name: 'VULGAR FRACTION ONE NINTH', category: Cat::Other_Number)]
+    #[Info(id: 0x2151, name: 'VULGAR FRACTION ONE NINTH', category: Cat::Other_Number)]
     case VULGAR_FRACTION_ONE_NINTH = "\u{2151}";
 
-    #[Info(id: 8530, name: 'VULGAR FRACTION ONE TENTH', category: Cat::Other_Number)]
+    #[Info(id: 0x2152, name: 'VULGAR FRACTION ONE TENTH', category: Cat::Other_Number)]
     case VULGAR_FRACTION_ONE_TENTH = "\u{2152}";
 
-    #[Info(id: 8531, name: 'VULGAR FRACTION ONE THIRD', category: Cat::Other_Number)]
+    #[Info(id: 0x2153, name: 'VULGAR FRACTION ONE THIRD', category: Cat::Other_Number)]
     case VULGAR_FRACTION_ONE_THIRD = "\u{2153}";
 
-    #[Info(id: 8532, name: 'VULGAR FRACTION TWO THIRDS', category: Cat::Other_Number)]
+    #[Info(id: 0x2154, name: 'VULGAR FRACTION TWO THIRDS', category: Cat::Other_Number)]
     case VULGAR_FRACTION_TWO_THIRDS = "\u{2154}";
 
-    #[Info(id: 8533, name: 'VULGAR FRACTION ONE FIFTH', category: Cat::Other_Number)]
+    #[Info(id: 0x2155, name: 'VULGAR FRACTION ONE FIFTH', category: Cat::Other_Number)]
     case VULGAR_FRACTION_ONE_FIFTH = "\u{2155}";
 
-    #[Info(id: 8534, name: 'VULGAR FRACTION TWO FIFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x2156, name: 'VULGAR FRACTION TWO FIFTHS', category: Cat::Other_Number)]
     case VULGAR_FRACTION_TWO_FIFTHS = "\u{2156}";
 
-    #[Info(id: 8535, name: 'VULGAR FRACTION THREE FIFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x2157, name: 'VULGAR FRACTION THREE FIFTHS', category: Cat::Other_Number)]
     case VULGAR_FRACTION_THREE_FIFTHS = "\u{2157}";
 
-    #[Info(id: 8536, name: 'VULGAR FRACTION FOUR FIFTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x2158, name: 'VULGAR FRACTION FOUR FIFTHS', category: Cat::Other_Number)]
     case VULGAR_FRACTION_FOUR_FIFTHS = "\u{2158}";
 
-    #[Info(id: 8537, name: 'VULGAR FRACTION ONE SIXTH', category: Cat::Other_Number)]
+    #[Info(id: 0x2159, name: 'VULGAR FRACTION ONE SIXTH', category: Cat::Other_Number)]
     case VULGAR_FRACTION_ONE_SIXTH = "\u{2159}";
 
-    #[Info(id: 8538, name: 'VULGAR FRACTION FIVE SIXTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x215A, name: 'VULGAR FRACTION FIVE SIXTHS', category: Cat::Other_Number)]
     case VULGAR_FRACTION_FIVE_SIXTHS = "\u{215A}";
 
-    #[Info(id: 8539, name: 'VULGAR FRACTION ONE EIGHTH', category: Cat::Other_Number)]
+    #[Info(id: 0x215B, name: 'VULGAR FRACTION ONE EIGHTH', category: Cat::Other_Number)]
     case VULGAR_FRACTION_ONE_EIGHTH = "\u{215B}";
 
-    #[Info(id: 8540, name: 'VULGAR FRACTION THREE EIGHTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x215C, name: 'VULGAR FRACTION THREE EIGHTHS', category: Cat::Other_Number)]
     case VULGAR_FRACTION_THREE_EIGHTHS = "\u{215C}";
 
-    #[Info(id: 8541, name: 'VULGAR FRACTION FIVE EIGHTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x215D, name: 'VULGAR FRACTION FIVE EIGHTHS', category: Cat::Other_Number)]
     case VULGAR_FRACTION_FIVE_EIGHTHS = "\u{215D}";
 
-    #[Info(id: 8542, name: 'VULGAR FRACTION SEVEN EIGHTHS', category: Cat::Other_Number)]
+    #[Info(id: 0x215E, name: 'VULGAR FRACTION SEVEN EIGHTHS', category: Cat::Other_Number)]
     case VULGAR_FRACTION_SEVEN_EIGHTHS = "\u{215E}";
 
-    #[Info(id: 8543, name: 'FRACTION NUMERATOR ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x215F, name: 'FRACTION NUMERATOR ONE', category: Cat::Other_Number)]
     case FRACTION_NUMERATOR_ONE = "\u{215F}";
 
-    #[Info(id: 8544, name: 'ROMAN NUMERAL ONE', category: Cat::Letter_Number)]
+    #[Info(id: 0x2160, name: 'ROMAN NUMERAL ONE', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_ONE = "\u{2160}";
 
-    #[Info(id: 8545, name: 'ROMAN NUMERAL TWO', category: Cat::Letter_Number)]
+    #[Info(id: 0x2161, name: 'ROMAN NUMERAL TWO', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_TWO = "\u{2161}";
 
-    #[Info(id: 8546, name: 'ROMAN NUMERAL THREE', category: Cat::Letter_Number)]
+    #[Info(id: 0x2162, name: 'ROMAN NUMERAL THREE', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_THREE = "\u{2162}";
 
-    #[Info(id: 8547, name: 'ROMAN NUMERAL FOUR', category: Cat::Letter_Number)]
+    #[Info(id: 0x2163, name: 'ROMAN NUMERAL FOUR', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_FOUR = "\u{2163}";
 
-    #[Info(id: 8548, name: 'ROMAN NUMERAL FIVE', category: Cat::Letter_Number)]
+    #[Info(id: 0x2164, name: 'ROMAN NUMERAL FIVE', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_FIVE = "\u{2164}";
 
-    #[Info(id: 8549, name: 'ROMAN NUMERAL SIX', category: Cat::Letter_Number)]
+    #[Info(id: 0x2165, name: 'ROMAN NUMERAL SIX', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_SIX = "\u{2165}";
 
-    #[Info(id: 8550, name: 'ROMAN NUMERAL SEVEN', category: Cat::Letter_Number)]
+    #[Info(id: 0x2166, name: 'ROMAN NUMERAL SEVEN', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_SEVEN = "\u{2166}";
 
-    #[Info(id: 8551, name: 'ROMAN NUMERAL EIGHT', category: Cat::Letter_Number)]
+    #[Info(id: 0x2167, name: 'ROMAN NUMERAL EIGHT', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_EIGHT = "\u{2167}";
 
-    #[Info(id: 8552, name: 'ROMAN NUMERAL NINE', category: Cat::Letter_Number)]
+    #[Info(id: 0x2168, name: 'ROMAN NUMERAL NINE', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_NINE = "\u{2168}";
 
-    #[Info(id: 8553, name: 'ROMAN NUMERAL TEN', category: Cat::Letter_Number)]
+    #[Info(id: 0x2169, name: 'ROMAN NUMERAL TEN', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_TEN = "\u{2169}";
 
-    #[Info(id: 8554, name: 'ROMAN NUMERAL ELEVEN', category: Cat::Letter_Number)]
+    #[Info(id: 0x216A, name: 'ROMAN NUMERAL ELEVEN', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_ELEVEN = "\u{216A}";
 
-    #[Info(id: 8555, name: 'ROMAN NUMERAL TWELVE', category: Cat::Letter_Number)]
+    #[Info(id: 0x216B, name: 'ROMAN NUMERAL TWELVE', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_TWELVE = "\u{216B}";
 
-    #[Info(id: 8556, name: 'ROMAN NUMERAL FIFTY', category: Cat::Letter_Number)]
+    #[Info(id: 0x216C, name: 'ROMAN NUMERAL FIFTY', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_FIFTY = "\u{216C}";
 
-    #[Info(id: 8557, name: 'ROMAN NUMERAL ONE HUNDRED', category: Cat::Letter_Number)]
+    #[Info(id: 0x216D, name: 'ROMAN NUMERAL ONE HUNDRED', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_ONE_HUNDRED = "\u{216D}";
 
-    #[Info(id: 8558, name: 'ROMAN NUMERAL FIVE HUNDRED', category: Cat::Letter_Number)]
+    #[Info(id: 0x216E, name: 'ROMAN NUMERAL FIVE HUNDRED', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_FIVE_HUNDRED = "\u{216E}";
 
-    #[Info(id: 8559, name: 'ROMAN NUMERAL ONE THOUSAND', category: Cat::Letter_Number)]
+    #[Info(id: 0x216F, name: 'ROMAN NUMERAL ONE THOUSAND', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_ONE_THOUSAND = "\u{216F}";
 
-    #[Info(id: 8560, name: 'SMALL ROMAN NUMERAL ONE', category: Cat::Letter_Number)]
+    #[Info(id: 0x2170, name: 'SMALL ROMAN NUMERAL ONE', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_ONE = "\u{2170}";
 
-    #[Info(id: 8561, name: 'SMALL ROMAN NUMERAL TWO', category: Cat::Letter_Number)]
+    #[Info(id: 0x2171, name: 'SMALL ROMAN NUMERAL TWO', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_TWO = "\u{2171}";
 
-    #[Info(id: 8562, name: 'SMALL ROMAN NUMERAL THREE', category: Cat::Letter_Number)]
+    #[Info(id: 0x2172, name: 'SMALL ROMAN NUMERAL THREE', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_THREE = "\u{2172}";
 
-    #[Info(id: 8563, name: 'SMALL ROMAN NUMERAL FOUR', category: Cat::Letter_Number)]
+    #[Info(id: 0x2173, name: 'SMALL ROMAN NUMERAL FOUR', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_FOUR = "\u{2173}";
 
-    #[Info(id: 8564, name: 'SMALL ROMAN NUMERAL FIVE', category: Cat::Letter_Number)]
+    #[Info(id: 0x2174, name: 'SMALL ROMAN NUMERAL FIVE', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_FIVE = "\u{2174}";
 
-    #[Info(id: 8565, name: 'SMALL ROMAN NUMERAL SIX', category: Cat::Letter_Number)]
+    #[Info(id: 0x2175, name: 'SMALL ROMAN NUMERAL SIX', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_SIX = "\u{2175}";
 
-    #[Info(id: 8566, name: 'SMALL ROMAN NUMERAL SEVEN', category: Cat::Letter_Number)]
+    #[Info(id: 0x2176, name: 'SMALL ROMAN NUMERAL SEVEN', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_SEVEN = "\u{2176}";
 
-    #[Info(id: 8567, name: 'SMALL ROMAN NUMERAL EIGHT', category: Cat::Letter_Number)]
+    #[Info(id: 0x2177, name: 'SMALL ROMAN NUMERAL EIGHT', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_EIGHT = "\u{2177}";
 
-    #[Info(id: 8568, name: 'SMALL ROMAN NUMERAL NINE', category: Cat::Letter_Number)]
+    #[Info(id: 0x2178, name: 'SMALL ROMAN NUMERAL NINE', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_NINE = "\u{2178}";
 
-    #[Info(id: 8569, name: 'SMALL ROMAN NUMERAL TEN', category: Cat::Letter_Number)]
+    #[Info(id: 0x2179, name: 'SMALL ROMAN NUMERAL TEN', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_TEN = "\u{2179}";
 
-    #[Info(id: 8570, name: 'SMALL ROMAN NUMERAL ELEVEN', category: Cat::Letter_Number)]
+    #[Info(id: 0x217A, name: 'SMALL ROMAN NUMERAL ELEVEN', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_ELEVEN = "\u{217A}";
 
-    #[Info(id: 8571, name: 'SMALL ROMAN NUMERAL TWELVE', category: Cat::Letter_Number)]
+    #[Info(id: 0x217B, name: 'SMALL ROMAN NUMERAL TWELVE', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_TWELVE = "\u{217B}";
 
-    #[Info(id: 8572, name: 'SMALL ROMAN NUMERAL FIFTY', category: Cat::Letter_Number)]
+    #[Info(id: 0x217C, name: 'SMALL ROMAN NUMERAL FIFTY', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_FIFTY = "\u{217C}";
 
-    #[Info(id: 8573, name: 'SMALL ROMAN NUMERAL ONE HUNDRED', category: Cat::Letter_Number)]
+    #[Info(id: 0x217D, name: 'SMALL ROMAN NUMERAL ONE HUNDRED', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_ONE_HUNDRED = "\u{217D}";
 
-    #[Info(id: 8574, name: 'SMALL ROMAN NUMERAL FIVE HUNDRED', category: Cat::Letter_Number)]
+    #[Info(id: 0x217E, name: 'SMALL ROMAN NUMERAL FIVE HUNDRED', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_FIVE_HUNDRED = "\u{217E}";
 
-    #[Info(id: 8575, name: 'SMALL ROMAN NUMERAL ONE THOUSAND', category: Cat::Letter_Number)]
+    #[Info(id: 0x217F, name: 'SMALL ROMAN NUMERAL ONE THOUSAND', category: Cat::Letter_Number)]
     case SMALL_ROMAN_NUMERAL_ONE_THOUSAND = "\u{217F}";
 
-    #[Info(id: 8576, name: 'ROMAN NUMERAL ONE THOUSAND C D', category: Cat::Letter_Number)]
+    #[Info(id: 0x2180, name: 'ROMAN NUMERAL ONE THOUSAND C D', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_ONE_THOUSAND_C_D = "\u{2180}";
 
-    #[Info(id: 8577, name: 'ROMAN NUMERAL FIVE THOUSAND', category: Cat::Letter_Number)]
+    #[Info(id: 0x2181, name: 'ROMAN NUMERAL FIVE THOUSAND', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_FIVE_THOUSAND = "\u{2181}";
 
-    #[Info(id: 8578, name: 'ROMAN NUMERAL TEN THOUSAND', category: Cat::Letter_Number)]
+    #[Info(id: 0x2182, name: 'ROMAN NUMERAL TEN THOUSAND', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_TEN_THOUSAND = "\u{2182}";
 
-    #[Info(id: 8579, name: 'ROMAN NUMERAL REVERSED ONE HUNDRED', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2183, name: 'ROMAN NUMERAL REVERSED ONE HUNDRED', category: Cat::Uppercase_Letter)]
     case ROMAN_NUMERAL_REVERSED_ONE_HUNDRED = "\u{2183}";
 
-    #[Info(id: 8580, name: 'LATIN SMALL LETTER REVERSED C', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2184, name: 'LATIN SMALL LETTER REVERSED C', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_REVERSED_C = "\u{2184}";
 
-    #[Info(id: 8581, name: 'ROMAN NUMERAL SIX LATE FORM', category: Cat::Letter_Number)]
+    #[Info(id: 0x2185, name: 'ROMAN NUMERAL SIX LATE FORM', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_SIX_LATE_FORM = "\u{2185}";
 
-    #[Info(id: 8582, name: 'ROMAN NUMERAL FIFTY EARLY FORM', category: Cat::Letter_Number)]
+    #[Info(id: 0x2186, name: 'ROMAN NUMERAL FIFTY EARLY FORM', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_FIFTY_EARLY_FORM = "\u{2186}";
 
-    #[Info(id: 8583, name: 'ROMAN NUMERAL FIFTY THOUSAND', category: Cat::Letter_Number)]
+    #[Info(id: 0x2187, name: 'ROMAN NUMERAL FIFTY THOUSAND', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_FIFTY_THOUSAND = "\u{2187}";
 
-    #[Info(id: 8584, name: 'ROMAN NUMERAL ONE HUNDRED THOUSAND', category: Cat::Letter_Number)]
+    #[Info(id: 0x2188, name: 'ROMAN NUMERAL ONE HUNDRED THOUSAND', category: Cat::Letter_Number)]
     case ROMAN_NUMERAL_ONE_HUNDRED_THOUSAND = "\u{2188}";
 
-    #[Info(id: 8585, name: 'VULGAR FRACTION ZERO THIRDS', category: Cat::Other_Number)]
+    #[Info(id: 0x2189, name: 'VULGAR FRACTION ZERO THIRDS', category: Cat::Other_Number)]
     case VULGAR_FRACTION_ZERO_THIRDS = "\u{2189}";
 
-    #[Info(id: 8586, name: 'TURNED DIGIT TWO', category: Cat::Other_Symbol)]
+    #[Info(id: 0x218A, name: 'TURNED DIGIT TWO', category: Cat::Other_Symbol)]
     case TURNED_DIGIT_TWO = "\u{218A}";
 
-    #[Info(id: 8587, name: 'TURNED DIGIT THREE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x218B, name: 'TURNED DIGIT THREE', category: Cat::Other_Symbol)]
     case TURNED_DIGIT_THREE = "\u{218B}";
 }

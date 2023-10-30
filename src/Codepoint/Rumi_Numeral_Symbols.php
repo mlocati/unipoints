@@ -16,96 +16,96 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Rumi_Numeral_Symbols: string
 {
-    #[Info(id: 69216, name: 'RUMI DIGIT ONE', category: Cat::Other_Number)]
+    #[Info(id: 0x10E60, name: 'RUMI DIGIT ONE', category: Cat::Other_Number)]
     case RUMI_DIGIT_ONE = "\u{10E60}";
 
-    #[Info(id: 69217, name: 'RUMI DIGIT TWO', category: Cat::Other_Number)]
+    #[Info(id: 0x10E61, name: 'RUMI DIGIT TWO', category: Cat::Other_Number)]
     case RUMI_DIGIT_TWO = "\u{10E61}";
 
-    #[Info(id: 69218, name: 'RUMI DIGIT THREE', category: Cat::Other_Number)]
+    #[Info(id: 0x10E62, name: 'RUMI DIGIT THREE', category: Cat::Other_Number)]
     case RUMI_DIGIT_THREE = "\u{10E62}";
 
-    #[Info(id: 69219, name: 'RUMI DIGIT FOUR', category: Cat::Other_Number)]
+    #[Info(id: 0x10E63, name: 'RUMI DIGIT FOUR', category: Cat::Other_Number)]
     case RUMI_DIGIT_FOUR = "\u{10E63}";
 
-    #[Info(id: 69220, name: 'RUMI DIGIT FIVE', category: Cat::Other_Number)]
+    #[Info(id: 0x10E64, name: 'RUMI DIGIT FIVE', category: Cat::Other_Number)]
     case RUMI_DIGIT_FIVE = "\u{10E64}";
 
-    #[Info(id: 69221, name: 'RUMI DIGIT SIX', category: Cat::Other_Number)]
+    #[Info(id: 0x10E65, name: 'RUMI DIGIT SIX', category: Cat::Other_Number)]
     case RUMI_DIGIT_SIX = "\u{10E65}";
 
-    #[Info(id: 69222, name: 'RUMI DIGIT SEVEN', category: Cat::Other_Number)]
+    #[Info(id: 0x10E66, name: 'RUMI DIGIT SEVEN', category: Cat::Other_Number)]
     case RUMI_DIGIT_SEVEN = "\u{10E66}";
 
-    #[Info(id: 69223, name: 'RUMI DIGIT EIGHT', category: Cat::Other_Number)]
+    #[Info(id: 0x10E67, name: 'RUMI DIGIT EIGHT', category: Cat::Other_Number)]
     case RUMI_DIGIT_EIGHT = "\u{10E67}";
 
-    #[Info(id: 69224, name: 'RUMI DIGIT NINE', category: Cat::Other_Number)]
+    #[Info(id: 0x10E68, name: 'RUMI DIGIT NINE', category: Cat::Other_Number)]
     case RUMI_DIGIT_NINE = "\u{10E68}";
 
-    #[Info(id: 69225, name: 'RUMI NUMBER TEN', category: Cat::Other_Number)]
+    #[Info(id: 0x10E69, name: 'RUMI NUMBER TEN', category: Cat::Other_Number)]
     case RUMI_NUMBER_TEN = "\u{10E69}";
 
-    #[Info(id: 69226, name: 'RUMI NUMBER TWENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10E6A, name: 'RUMI NUMBER TWENTY', category: Cat::Other_Number)]
     case RUMI_NUMBER_TWENTY = "\u{10E6A}";
 
-    #[Info(id: 69227, name: 'RUMI NUMBER THIRTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10E6B, name: 'RUMI NUMBER THIRTY', category: Cat::Other_Number)]
     case RUMI_NUMBER_THIRTY = "\u{10E6B}";
 
-    #[Info(id: 69228, name: 'RUMI NUMBER FORTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10E6C, name: 'RUMI NUMBER FORTY', category: Cat::Other_Number)]
     case RUMI_NUMBER_FORTY = "\u{10E6C}";
 
-    #[Info(id: 69229, name: 'RUMI NUMBER FIFTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10E6D, name: 'RUMI NUMBER FIFTY', category: Cat::Other_Number)]
     case RUMI_NUMBER_FIFTY = "\u{10E6D}";
 
-    #[Info(id: 69230, name: 'RUMI NUMBER SIXTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10E6E, name: 'RUMI NUMBER SIXTY', category: Cat::Other_Number)]
     case RUMI_NUMBER_SIXTY = "\u{10E6E}";
 
-    #[Info(id: 69231, name: 'RUMI NUMBER SEVENTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10E6F, name: 'RUMI NUMBER SEVENTY', category: Cat::Other_Number)]
     case RUMI_NUMBER_SEVENTY = "\u{10E6F}";
 
-    #[Info(id: 69232, name: 'RUMI NUMBER EIGHTY', category: Cat::Other_Number)]
+    #[Info(id: 0x10E70, name: 'RUMI NUMBER EIGHTY', category: Cat::Other_Number)]
     case RUMI_NUMBER_EIGHTY = "\u{10E70}";
 
-    #[Info(id: 69233, name: 'RUMI NUMBER NINETY', category: Cat::Other_Number)]
+    #[Info(id: 0x10E71, name: 'RUMI NUMBER NINETY', category: Cat::Other_Number)]
     case RUMI_NUMBER_NINETY = "\u{10E71}";
 
-    #[Info(id: 69234, name: 'RUMI NUMBER ONE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10E72, name: 'RUMI NUMBER ONE HUNDRED', category: Cat::Other_Number)]
     case RUMI_NUMBER_ONE_HUNDRED = "\u{10E72}";
 
-    #[Info(id: 69235, name: 'RUMI NUMBER TWO HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10E73, name: 'RUMI NUMBER TWO HUNDRED', category: Cat::Other_Number)]
     case RUMI_NUMBER_TWO_HUNDRED = "\u{10E73}";
 
-    #[Info(id: 69236, name: 'RUMI NUMBER THREE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10E74, name: 'RUMI NUMBER THREE HUNDRED', category: Cat::Other_Number)]
     case RUMI_NUMBER_THREE_HUNDRED = "\u{10E74}";
 
-    #[Info(id: 69237, name: 'RUMI NUMBER FOUR HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10E75, name: 'RUMI NUMBER FOUR HUNDRED', category: Cat::Other_Number)]
     case RUMI_NUMBER_FOUR_HUNDRED = "\u{10E75}";
 
-    #[Info(id: 69238, name: 'RUMI NUMBER FIVE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10E76, name: 'RUMI NUMBER FIVE HUNDRED', category: Cat::Other_Number)]
     case RUMI_NUMBER_FIVE_HUNDRED = "\u{10E76}";
 
-    #[Info(id: 69239, name: 'RUMI NUMBER SIX HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10E77, name: 'RUMI NUMBER SIX HUNDRED', category: Cat::Other_Number)]
     case RUMI_NUMBER_SIX_HUNDRED = "\u{10E77}";
 
-    #[Info(id: 69240, name: 'RUMI NUMBER SEVEN HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10E78, name: 'RUMI NUMBER SEVEN HUNDRED', category: Cat::Other_Number)]
     case RUMI_NUMBER_SEVEN_HUNDRED = "\u{10E78}";
 
-    #[Info(id: 69241, name: 'RUMI NUMBER EIGHT HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10E79, name: 'RUMI NUMBER EIGHT HUNDRED', category: Cat::Other_Number)]
     case RUMI_NUMBER_EIGHT_HUNDRED = "\u{10E79}";
 
-    #[Info(id: 69242, name: 'RUMI NUMBER NINE HUNDRED', category: Cat::Other_Number)]
+    #[Info(id: 0x10E7A, name: 'RUMI NUMBER NINE HUNDRED', category: Cat::Other_Number)]
     case RUMI_NUMBER_NINE_HUNDRED = "\u{10E7A}";
 
-    #[Info(id: 69243, name: 'RUMI FRACTION ONE HALF', category: Cat::Other_Number)]
+    #[Info(id: 0x10E7B, name: 'RUMI FRACTION ONE HALF', category: Cat::Other_Number)]
     case RUMI_FRACTION_ONE_HALF = "\u{10E7B}";
 
-    #[Info(id: 69244, name: 'RUMI FRACTION ONE QUARTER', category: Cat::Other_Number)]
+    #[Info(id: 0x10E7C, name: 'RUMI FRACTION ONE QUARTER', category: Cat::Other_Number)]
     case RUMI_FRACTION_ONE_QUARTER = "\u{10E7C}";
 
-    #[Info(id: 69245, name: 'RUMI FRACTION ONE THIRD', category: Cat::Other_Number)]
+    #[Info(id: 0x10E7D, name: 'RUMI FRACTION ONE THIRD', category: Cat::Other_Number)]
     case RUMI_FRACTION_ONE_THIRD = "\u{10E7D}";
 
-    #[Info(id: 69246, name: 'RUMI FRACTION TWO THIRDS', category: Cat::Other_Number)]
+    #[Info(id: 0x10E7E, name: 'RUMI FRACTION TWO THIRDS', category: Cat::Other_Number)]
     case RUMI_FRACTION_TWO_THIRDS = "\u{10E7E}";
 }

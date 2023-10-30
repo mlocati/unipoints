@@ -16,147 +16,147 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Shavian: string
 {
-    #[Info(id: 66640, name: 'SHAVIAN LETTER PEEP', category: Cat::Other_Letter)]
+    #[Info(id: 0x10450, name: 'SHAVIAN LETTER PEEP', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_PEEP = "\u{10450}";
 
-    #[Info(id: 66641, name: 'SHAVIAN LETTER TOT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10451, name: 'SHAVIAN LETTER TOT', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_TOT = "\u{10451}";
 
-    #[Info(id: 66642, name: 'SHAVIAN LETTER KICK', category: Cat::Other_Letter)]
+    #[Info(id: 0x10452, name: 'SHAVIAN LETTER KICK', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_KICK = "\u{10452}";
 
-    #[Info(id: 66643, name: 'SHAVIAN LETTER FEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10453, name: 'SHAVIAN LETTER FEE', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_FEE = "\u{10453}";
 
-    #[Info(id: 66644, name: 'SHAVIAN LETTER THIGH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10454, name: 'SHAVIAN LETTER THIGH', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_THIGH = "\u{10454}";
 
-    #[Info(id: 66645, name: 'SHAVIAN LETTER SO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10455, name: 'SHAVIAN LETTER SO', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_SO = "\u{10455}";
 
-    #[Info(id: 66646, name: 'SHAVIAN LETTER SURE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10456, name: 'SHAVIAN LETTER SURE', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_SURE = "\u{10456}";
 
-    #[Info(id: 66647, name: 'SHAVIAN LETTER CHURCH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10457, name: 'SHAVIAN LETTER CHURCH', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_CHURCH = "\u{10457}";
 
-    #[Info(id: 66648, name: 'SHAVIAN LETTER YEA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10458, name: 'SHAVIAN LETTER YEA', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_YEA = "\u{10458}";
 
-    #[Info(id: 66649, name: 'SHAVIAN LETTER HUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0x10459, name: 'SHAVIAN LETTER HUNG', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_HUNG = "\u{10459}";
 
-    #[Info(id: 66650, name: 'SHAVIAN LETTER BIB', category: Cat::Other_Letter)]
+    #[Info(id: 0x1045A, name: 'SHAVIAN LETTER BIB', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_BIB = "\u{1045A}";
 
-    #[Info(id: 66651, name: 'SHAVIAN LETTER DEAD', category: Cat::Other_Letter)]
+    #[Info(id: 0x1045B, name: 'SHAVIAN LETTER DEAD', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_DEAD = "\u{1045B}";
 
-    #[Info(id: 66652, name: 'SHAVIAN LETTER GAG', category: Cat::Other_Letter)]
+    #[Info(id: 0x1045C, name: 'SHAVIAN LETTER GAG', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_GAG = "\u{1045C}";
 
-    #[Info(id: 66653, name: 'SHAVIAN LETTER VOW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1045D, name: 'SHAVIAN LETTER VOW', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_VOW = "\u{1045D}";
 
-    #[Info(id: 66654, name: 'SHAVIAN LETTER THEY', category: Cat::Other_Letter)]
+    #[Info(id: 0x1045E, name: 'SHAVIAN LETTER THEY', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_THEY = "\u{1045E}";
 
-    #[Info(id: 66655, name: 'SHAVIAN LETTER ZOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1045F, name: 'SHAVIAN LETTER ZOO', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_ZOO = "\u{1045F}";
 
-    #[Info(id: 66656, name: 'SHAVIAN LETTER MEASURE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10460, name: 'SHAVIAN LETTER MEASURE', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_MEASURE = "\u{10460}";
 
-    #[Info(id: 66657, name: 'SHAVIAN LETTER JUDGE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10461, name: 'SHAVIAN LETTER JUDGE', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_JUDGE = "\u{10461}";
 
-    #[Info(id: 66658, name: 'SHAVIAN LETTER WOE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10462, name: 'SHAVIAN LETTER WOE', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_WOE = "\u{10462}";
 
-    #[Info(id: 66659, name: 'SHAVIAN LETTER HA-HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x10463, name: 'SHAVIAN LETTER HA-HA', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_HA_HA = "\u{10463}";
 
-    #[Info(id: 66660, name: 'SHAVIAN LETTER LOLL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10464, name: 'SHAVIAN LETTER LOLL', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_LOLL = "\u{10464}";
 
-    #[Info(id: 66661, name: 'SHAVIAN LETTER MIME', category: Cat::Other_Letter)]
+    #[Info(id: 0x10465, name: 'SHAVIAN LETTER MIME', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_MIME = "\u{10465}";
 
-    #[Info(id: 66662, name: 'SHAVIAN LETTER IF', category: Cat::Other_Letter)]
+    #[Info(id: 0x10466, name: 'SHAVIAN LETTER IF', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_IF = "\u{10466}";
 
-    #[Info(id: 66663, name: 'SHAVIAN LETTER EGG', category: Cat::Other_Letter)]
+    #[Info(id: 0x10467, name: 'SHAVIAN LETTER EGG', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_EGG = "\u{10467}";
 
-    #[Info(id: 66664, name: 'SHAVIAN LETTER ASH', category: Cat::Other_Letter)]
+    #[Info(id: 0x10468, name: 'SHAVIAN LETTER ASH', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_ASH = "\u{10468}";
 
-    #[Info(id: 66665, name: 'SHAVIAN LETTER ADO', category: Cat::Other_Letter)]
+    #[Info(id: 0x10469, name: 'SHAVIAN LETTER ADO', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_ADO = "\u{10469}";
 
-    #[Info(id: 66666, name: 'SHAVIAN LETTER ON', category: Cat::Other_Letter)]
+    #[Info(id: 0x1046A, name: 'SHAVIAN LETTER ON', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_ON = "\u{1046A}";
 
-    #[Info(id: 66667, name: 'SHAVIAN LETTER WOOL', category: Cat::Other_Letter)]
+    #[Info(id: 0x1046B, name: 'SHAVIAN LETTER WOOL', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_WOOL = "\u{1046B}";
 
-    #[Info(id: 66668, name: 'SHAVIAN LETTER OUT', category: Cat::Other_Letter)]
+    #[Info(id: 0x1046C, name: 'SHAVIAN LETTER OUT', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_OUT = "\u{1046C}";
 
-    #[Info(id: 66669, name: 'SHAVIAN LETTER AH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1046D, name: 'SHAVIAN LETTER AH', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_AH = "\u{1046D}";
 
-    #[Info(id: 66670, name: 'SHAVIAN LETTER ROAR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1046E, name: 'SHAVIAN LETTER ROAR', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_ROAR = "\u{1046E}";
 
-    #[Info(id: 66671, name: 'SHAVIAN LETTER NUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1046F, name: 'SHAVIAN LETTER NUN', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_NUN = "\u{1046F}";
 
-    #[Info(id: 66672, name: 'SHAVIAN LETTER EAT', category: Cat::Other_Letter)]
+    #[Info(id: 0x10470, name: 'SHAVIAN LETTER EAT', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_EAT = "\u{10470}";
 
-    #[Info(id: 66673, name: 'SHAVIAN LETTER AGE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10471, name: 'SHAVIAN LETTER AGE', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_AGE = "\u{10471}";
 
-    #[Info(id: 66674, name: 'SHAVIAN LETTER ICE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10472, name: 'SHAVIAN LETTER ICE', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_ICE = "\u{10472}";
 
-    #[Info(id: 66675, name: 'SHAVIAN LETTER UP', category: Cat::Other_Letter)]
+    #[Info(id: 0x10473, name: 'SHAVIAN LETTER UP', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_UP = "\u{10473}";
 
-    #[Info(id: 66676, name: 'SHAVIAN LETTER OAK', category: Cat::Other_Letter)]
+    #[Info(id: 0x10474, name: 'SHAVIAN LETTER OAK', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_OAK = "\u{10474}";
 
-    #[Info(id: 66677, name: 'SHAVIAN LETTER OOZE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10475, name: 'SHAVIAN LETTER OOZE', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_OOZE = "\u{10475}";
 
-    #[Info(id: 66678, name: 'SHAVIAN LETTER OIL', category: Cat::Other_Letter)]
+    #[Info(id: 0x10476, name: 'SHAVIAN LETTER OIL', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_OIL = "\u{10476}";
 
-    #[Info(id: 66679, name: 'SHAVIAN LETTER AWE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10477, name: 'SHAVIAN LETTER AWE', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_AWE = "\u{10477}";
 
-    #[Info(id: 66680, name: 'SHAVIAN LETTER ARE', category: Cat::Other_Letter)]
+    #[Info(id: 0x10478, name: 'SHAVIAN LETTER ARE', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_ARE = "\u{10478}";
 
-    #[Info(id: 66681, name: 'SHAVIAN LETTER OR', category: Cat::Other_Letter)]
+    #[Info(id: 0x10479, name: 'SHAVIAN LETTER OR', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_OR = "\u{10479}";
 
-    #[Info(id: 66682, name: 'SHAVIAN LETTER AIR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1047A, name: 'SHAVIAN LETTER AIR', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_AIR = "\u{1047A}";
 
-    #[Info(id: 66683, name: 'SHAVIAN LETTER ERR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1047B, name: 'SHAVIAN LETTER ERR', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_ERR = "\u{1047B}";
 
-    #[Info(id: 66684, name: 'SHAVIAN LETTER ARRAY', category: Cat::Other_Letter)]
+    #[Info(id: 0x1047C, name: 'SHAVIAN LETTER ARRAY', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_ARRAY = "\u{1047C}";
 
-    #[Info(id: 66685, name: 'SHAVIAN LETTER EAR', category: Cat::Other_Letter)]
+    #[Info(id: 0x1047D, name: 'SHAVIAN LETTER EAR', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_EAR = "\u{1047D}";
 
-    #[Info(id: 66686, name: 'SHAVIAN LETTER IAN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1047E, name: 'SHAVIAN LETTER IAN', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_IAN = "\u{1047E}";
 
-    #[Info(id: 66687, name: 'SHAVIAN LETTER YEW', category: Cat::Other_Letter)]
+    #[Info(id: 0x1047F, name: 'SHAVIAN LETTER YEW', category: Cat::Other_Letter)]
     case SHAVIAN_LETTER_YEW = "\u{1047F}";
 }

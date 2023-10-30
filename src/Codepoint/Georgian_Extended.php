@@ -16,141 +16,141 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Georgian_Extended: string
 {
-    #[Info(id: 7312, name: 'GEORGIAN MTAVRULI CAPITAL LETTER AN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C90, name: 'GEORGIAN MTAVRULI CAPITAL LETTER AN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_AN = "\u{1C90}";
 
-    #[Info(id: 7313, name: 'GEORGIAN MTAVRULI CAPITAL LETTER BAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C91, name: 'GEORGIAN MTAVRULI CAPITAL LETTER BAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_BAN = "\u{1C91}";
 
-    #[Info(id: 7314, name: 'GEORGIAN MTAVRULI CAPITAL LETTER GAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C92, name: 'GEORGIAN MTAVRULI CAPITAL LETTER GAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_GAN = "\u{1C92}";
 
-    #[Info(id: 7315, name: 'GEORGIAN MTAVRULI CAPITAL LETTER DON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C93, name: 'GEORGIAN MTAVRULI CAPITAL LETTER DON', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_DON = "\u{1C93}";
 
-    #[Info(id: 7316, name: 'GEORGIAN MTAVRULI CAPITAL LETTER EN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C94, name: 'GEORGIAN MTAVRULI CAPITAL LETTER EN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_EN = "\u{1C94}";
 
-    #[Info(id: 7317, name: 'GEORGIAN MTAVRULI CAPITAL LETTER VIN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C95, name: 'GEORGIAN MTAVRULI CAPITAL LETTER VIN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_VIN = "\u{1C95}";
 
-    #[Info(id: 7318, name: 'GEORGIAN MTAVRULI CAPITAL LETTER ZEN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C96, name: 'GEORGIAN MTAVRULI CAPITAL LETTER ZEN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_ZEN = "\u{1C96}";
 
-    #[Info(id: 7319, name: 'GEORGIAN MTAVRULI CAPITAL LETTER TAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C97, name: 'GEORGIAN MTAVRULI CAPITAL LETTER TAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_TAN = "\u{1C97}";
 
-    #[Info(id: 7320, name: 'GEORGIAN MTAVRULI CAPITAL LETTER IN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C98, name: 'GEORGIAN MTAVRULI CAPITAL LETTER IN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_IN = "\u{1C98}";
 
-    #[Info(id: 7321, name: 'GEORGIAN MTAVRULI CAPITAL LETTER KAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C99, name: 'GEORGIAN MTAVRULI CAPITAL LETTER KAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_KAN = "\u{1C99}";
 
-    #[Info(id: 7322, name: 'GEORGIAN MTAVRULI CAPITAL LETTER LAS', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C9A, name: 'GEORGIAN MTAVRULI CAPITAL LETTER LAS', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_LAS = "\u{1C9A}";
 
-    #[Info(id: 7323, name: 'GEORGIAN MTAVRULI CAPITAL LETTER MAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C9B, name: 'GEORGIAN MTAVRULI CAPITAL LETTER MAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_MAN = "\u{1C9B}";
 
-    #[Info(id: 7324, name: 'GEORGIAN MTAVRULI CAPITAL LETTER NAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C9C, name: 'GEORGIAN MTAVRULI CAPITAL LETTER NAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_NAR = "\u{1C9C}";
 
-    #[Info(id: 7325, name: 'GEORGIAN MTAVRULI CAPITAL LETTER ON', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C9D, name: 'GEORGIAN MTAVRULI CAPITAL LETTER ON', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_ON = "\u{1C9D}";
 
-    #[Info(id: 7326, name: 'GEORGIAN MTAVRULI CAPITAL LETTER PAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C9E, name: 'GEORGIAN MTAVRULI CAPITAL LETTER PAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_PAR = "\u{1C9E}";
 
-    #[Info(id: 7327, name: 'GEORGIAN MTAVRULI CAPITAL LETTER ZHAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1C9F, name: 'GEORGIAN MTAVRULI CAPITAL LETTER ZHAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_ZHAR = "\u{1C9F}";
 
-    #[Info(id: 7328, name: 'GEORGIAN MTAVRULI CAPITAL LETTER RAE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CA0, name: 'GEORGIAN MTAVRULI CAPITAL LETTER RAE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_RAE = "\u{1CA0}";
 
-    #[Info(id: 7329, name: 'GEORGIAN MTAVRULI CAPITAL LETTER SAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CA1, name: 'GEORGIAN MTAVRULI CAPITAL LETTER SAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_SAN = "\u{1CA1}";
 
-    #[Info(id: 7330, name: 'GEORGIAN MTAVRULI CAPITAL LETTER TAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CA2, name: 'GEORGIAN MTAVRULI CAPITAL LETTER TAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_TAR = "\u{1CA2}";
 
-    #[Info(id: 7331, name: 'GEORGIAN MTAVRULI CAPITAL LETTER UN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CA3, name: 'GEORGIAN MTAVRULI CAPITAL LETTER UN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_UN = "\u{1CA3}";
 
-    #[Info(id: 7332, name: 'GEORGIAN MTAVRULI CAPITAL LETTER PHAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CA4, name: 'GEORGIAN MTAVRULI CAPITAL LETTER PHAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_PHAR = "\u{1CA4}";
 
-    #[Info(id: 7333, name: 'GEORGIAN MTAVRULI CAPITAL LETTER KHAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CA5, name: 'GEORGIAN MTAVRULI CAPITAL LETTER KHAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_KHAR = "\u{1CA5}";
 
-    #[Info(id: 7334, name: 'GEORGIAN MTAVRULI CAPITAL LETTER GHAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CA6, name: 'GEORGIAN MTAVRULI CAPITAL LETTER GHAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_GHAN = "\u{1CA6}";
 
-    #[Info(id: 7335, name: 'GEORGIAN MTAVRULI CAPITAL LETTER QAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CA7, name: 'GEORGIAN MTAVRULI CAPITAL LETTER QAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_QAR = "\u{1CA7}";
 
-    #[Info(id: 7336, name: 'GEORGIAN MTAVRULI CAPITAL LETTER SHIN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CA8, name: 'GEORGIAN MTAVRULI CAPITAL LETTER SHIN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_SHIN = "\u{1CA8}";
 
-    #[Info(id: 7337, name: 'GEORGIAN MTAVRULI CAPITAL LETTER CHIN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CA9, name: 'GEORGIAN MTAVRULI CAPITAL LETTER CHIN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_CHIN = "\u{1CA9}";
 
-    #[Info(id: 7338, name: 'GEORGIAN MTAVRULI CAPITAL LETTER CAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CAA, name: 'GEORGIAN MTAVRULI CAPITAL LETTER CAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_CAN = "\u{1CAA}";
 
-    #[Info(id: 7339, name: 'GEORGIAN MTAVRULI CAPITAL LETTER JIL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CAB, name: 'GEORGIAN MTAVRULI CAPITAL LETTER JIL', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_JIL = "\u{1CAB}";
 
-    #[Info(id: 7340, name: 'GEORGIAN MTAVRULI CAPITAL LETTER CIL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CAC, name: 'GEORGIAN MTAVRULI CAPITAL LETTER CIL', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_CIL = "\u{1CAC}";
 
-    #[Info(id: 7341, name: 'GEORGIAN MTAVRULI CAPITAL LETTER CHAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CAD, name: 'GEORGIAN MTAVRULI CAPITAL LETTER CHAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_CHAR = "\u{1CAD}";
 
-    #[Info(id: 7342, name: 'GEORGIAN MTAVRULI CAPITAL LETTER XAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CAE, name: 'GEORGIAN MTAVRULI CAPITAL LETTER XAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_XAN = "\u{1CAE}";
 
-    #[Info(id: 7343, name: 'GEORGIAN MTAVRULI CAPITAL LETTER JHAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CAF, name: 'GEORGIAN MTAVRULI CAPITAL LETTER JHAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_JHAN = "\u{1CAF}";
 
-    #[Info(id: 7344, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HAE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CB0, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HAE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_HAE = "\u{1CB0}";
 
-    #[Info(id: 7345, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CB1, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_HE = "\u{1CB1}";
 
-    #[Info(id: 7346, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HIE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CB2, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HIE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_HIE = "\u{1CB2}";
 
-    #[Info(id: 7347, name: 'GEORGIAN MTAVRULI CAPITAL LETTER WE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CB3, name: 'GEORGIAN MTAVRULI CAPITAL LETTER WE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_WE = "\u{1CB3}";
 
-    #[Info(id: 7348, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HAR', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CB4, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HAR', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_HAR = "\u{1CB4}";
 
-    #[Info(id: 7349, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HOE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CB5, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HOE', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_HOE = "\u{1CB5}";
 
-    #[Info(id: 7350, name: 'GEORGIAN MTAVRULI CAPITAL LETTER FI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CB6, name: 'GEORGIAN MTAVRULI CAPITAL LETTER FI', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_FI = "\u{1CB6}";
 
-    #[Info(id: 7351, name: 'GEORGIAN MTAVRULI CAPITAL LETTER YN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CB7, name: 'GEORGIAN MTAVRULI CAPITAL LETTER YN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_YN = "\u{1CB7}";
 
-    #[Info(id: 7352, name: 'GEORGIAN MTAVRULI CAPITAL LETTER ELIFI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CB8, name: 'GEORGIAN MTAVRULI CAPITAL LETTER ELIFI', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_ELIFI = "\u{1CB8}";
 
-    #[Info(id: 7353, name: 'GEORGIAN MTAVRULI CAPITAL LETTER TURNED GAN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CB9, name: 'GEORGIAN MTAVRULI CAPITAL LETTER TURNED GAN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_TURNED_GAN = "\u{1CB9}";
 
-    #[Info(id: 7354, name: 'GEORGIAN MTAVRULI CAPITAL LETTER AIN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CBA, name: 'GEORGIAN MTAVRULI CAPITAL LETTER AIN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_AIN = "\u{1CBA}";
 
-    #[Info(id: 7357, name: 'GEORGIAN MTAVRULI CAPITAL LETTER AEN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CBD, name: 'GEORGIAN MTAVRULI CAPITAL LETTER AEN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_AEN = "\u{1CBD}";
 
-    #[Info(id: 7358, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HARD SIGN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CBE, name: 'GEORGIAN MTAVRULI CAPITAL LETTER HARD SIGN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_HARD_SIGN = "\u{1CBE}";
 
-    #[Info(id: 7359, name: 'GEORGIAN MTAVRULI CAPITAL LETTER LABIAL SIGN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1CBF, name: 'GEORGIAN MTAVRULI CAPITAL LETTER LABIAL SIGN', category: Cat::Uppercase_Letter)]
     case GEORGIAN_MTAVRULI_CAPITAL_LETTER_LABIAL_SIGN = "\u{1CBF}";
 }

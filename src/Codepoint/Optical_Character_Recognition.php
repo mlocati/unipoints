@@ -16,36 +16,36 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Optical_Character_Recognition: string
 {
-    #[Info(id: 9280, name: 'OCR HOOK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2440, name: 'OCR HOOK', category: Cat::Other_Symbol)]
     case OCR_HOOK = "\u{2440}";
 
-    #[Info(id: 9281, name: 'OCR CHAIR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2441, name: 'OCR CHAIR', category: Cat::Other_Symbol)]
     case OCR_CHAIR = "\u{2441}";
 
-    #[Info(id: 9282, name: 'OCR FORK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2442, name: 'OCR FORK', category: Cat::Other_Symbol)]
     case OCR_FORK = "\u{2442}";
 
-    #[Info(id: 9283, name: 'OCR INVERTED FORK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2443, name: 'OCR INVERTED FORK', category: Cat::Other_Symbol)]
     case OCR_INVERTED_FORK = "\u{2443}";
 
-    #[Info(id: 9284, name: 'OCR BELT BUCKLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2444, name: 'OCR BELT BUCKLE', category: Cat::Other_Symbol)]
     case OCR_BELT_BUCKLE = "\u{2444}";
 
-    #[Info(id: 9285, name: 'OCR BOW TIE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2445, name: 'OCR BOW TIE', category: Cat::Other_Symbol)]
     case OCR_BOW_TIE = "\u{2445}";
 
-    #[Info(id: 9286, name: 'OCR BRANCH BANK IDENTIFICATION', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2446, name: 'OCR BRANCH BANK IDENTIFICATION', category: Cat::Other_Symbol)]
     case OCR_BRANCH_BANK_IDENTIFICATION = "\u{2446}";
 
-    #[Info(id: 9287, name: 'OCR AMOUNT OF CHECK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2447, name: 'OCR AMOUNT OF CHECK', category: Cat::Other_Symbol)]
     case OCR_AMOUNT_OF_CHECK = "\u{2447}";
 
-    #[Info(id: 9288, name: 'OCR DASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2448, name: 'OCR DASH', category: Cat::Other_Symbol)]
     case OCR_DASH = "\u{2448}";
 
-    #[Info(id: 9289, name: 'OCR CUSTOMER ACCOUNT NUMBER', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2449, name: 'OCR CUSTOMER ACCOUNT NUMBER', category: Cat::Other_Symbol)]
     case OCR_CUSTOMER_ACCOUNT_NUMBER = "\u{2449}";
 
-    #[Info(id: 9290, name: 'OCR DOUBLE BACKSLASH', category: Cat::Other_Symbol)]
+    #[Info(id: 0x244A, name: 'OCR DOUBLE BACKSLASH', category: Cat::Other_Symbol)]
     case OCR_DOUBLE_BACKSLASH = "\u{244A}";
 }

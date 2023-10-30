@@ -16,108 +16,108 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Tai_Le: string
 {
-    #[Info(id: 6480, name: 'TAI LE LETTER KA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1950, name: 'TAI LE LETTER KA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_KA = "\u{1950}";
 
-    #[Info(id: 6481, name: 'TAI LE LETTER XA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1951, name: 'TAI LE LETTER XA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_XA = "\u{1951}";
 
-    #[Info(id: 6482, name: 'TAI LE LETTER NGA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1952, name: 'TAI LE LETTER NGA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_NGA = "\u{1952}";
 
-    #[Info(id: 6483, name: 'TAI LE LETTER TSA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1953, name: 'TAI LE LETTER TSA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_TSA = "\u{1953}";
 
-    #[Info(id: 6484, name: 'TAI LE LETTER SA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1954, name: 'TAI LE LETTER SA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_SA = "\u{1954}";
 
-    #[Info(id: 6485, name: 'TAI LE LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1955, name: 'TAI LE LETTER YA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_YA = "\u{1955}";
 
-    #[Info(id: 6486, name: 'TAI LE LETTER TA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1956, name: 'TAI LE LETTER TA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_TA = "\u{1956}";
 
-    #[Info(id: 6487, name: 'TAI LE LETTER THA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1957, name: 'TAI LE LETTER THA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_THA = "\u{1957}";
 
-    #[Info(id: 6488, name: 'TAI LE LETTER LA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1958, name: 'TAI LE LETTER LA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_LA = "\u{1958}";
 
-    #[Info(id: 6489, name: 'TAI LE LETTER PA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1959, name: 'TAI LE LETTER PA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_PA = "\u{1959}";
 
-    #[Info(id: 6490, name: 'TAI LE LETTER PHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x195A, name: 'TAI LE LETTER PHA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_PHA = "\u{195A}";
 
-    #[Info(id: 6491, name: 'TAI LE LETTER MA', category: Cat::Other_Letter)]
+    #[Info(id: 0x195B, name: 'TAI LE LETTER MA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_MA = "\u{195B}";
 
-    #[Info(id: 6492, name: 'TAI LE LETTER FA', category: Cat::Other_Letter)]
+    #[Info(id: 0x195C, name: 'TAI LE LETTER FA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_FA = "\u{195C}";
 
-    #[Info(id: 6493, name: 'TAI LE LETTER VA', category: Cat::Other_Letter)]
+    #[Info(id: 0x195D, name: 'TAI LE LETTER VA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_VA = "\u{195D}";
 
-    #[Info(id: 6494, name: 'TAI LE LETTER HA', category: Cat::Other_Letter)]
+    #[Info(id: 0x195E, name: 'TAI LE LETTER HA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_HA = "\u{195E}";
 
-    #[Info(id: 6495, name: 'TAI LE LETTER QA', category: Cat::Other_Letter)]
+    #[Info(id: 0x195F, name: 'TAI LE LETTER QA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_QA = "\u{195F}";
 
-    #[Info(id: 6496, name: 'TAI LE LETTER KHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1960, name: 'TAI LE LETTER KHA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_KHA = "\u{1960}";
 
-    #[Info(id: 6497, name: 'TAI LE LETTER TSHA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1961, name: 'TAI LE LETTER TSHA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_TSHA = "\u{1961}";
 
-    #[Info(id: 6498, name: 'TAI LE LETTER NA', category: Cat::Other_Letter)]
+    #[Info(id: 0x1962, name: 'TAI LE LETTER NA', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_NA = "\u{1962}";
 
-    #[Info(id: 6499, name: 'TAI LE LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x1963, name: 'TAI LE LETTER A', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_A = "\u{1963}";
 
-    #[Info(id: 6500, name: 'TAI LE LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x1964, name: 'TAI LE LETTER I', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_I = "\u{1964}";
 
-    #[Info(id: 6501, name: 'TAI LE LETTER EE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1965, name: 'TAI LE LETTER EE', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_EE = "\u{1965}";
 
-    #[Info(id: 6502, name: 'TAI LE LETTER EH', category: Cat::Other_Letter)]
+    #[Info(id: 0x1966, name: 'TAI LE LETTER EH', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_EH = "\u{1966}";
 
-    #[Info(id: 6503, name: 'TAI LE LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1967, name: 'TAI LE LETTER U', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_U = "\u{1967}";
 
-    #[Info(id: 6504, name: 'TAI LE LETTER OO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1968, name: 'TAI LE LETTER OO', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_OO = "\u{1968}";
 
-    #[Info(id: 6505, name: 'TAI LE LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x1969, name: 'TAI LE LETTER O', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_O = "\u{1969}";
 
-    #[Info(id: 6506, name: 'TAI LE LETTER UE', category: Cat::Other_Letter)]
+    #[Info(id: 0x196A, name: 'TAI LE LETTER UE', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_UE = "\u{196A}";
 
-    #[Info(id: 6507, name: 'TAI LE LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x196B, name: 'TAI LE LETTER E', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_E = "\u{196B}";
 
-    #[Info(id: 6508, name: 'TAI LE LETTER AUE', category: Cat::Other_Letter)]
+    #[Info(id: 0x196C, name: 'TAI LE LETTER AUE', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_AUE = "\u{196C}";
 
-    #[Info(id: 6509, name: 'TAI LE LETTER AI', category: Cat::Other_Letter)]
+    #[Info(id: 0x196D, name: 'TAI LE LETTER AI', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_AI = "\u{196D}";
 
-    #[Info(id: 6512, name: 'TAI LE LETTER TONE-2', category: Cat::Other_Letter)]
+    #[Info(id: 0x1970, name: 'TAI LE LETTER TONE-2', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_TONE_2 = "\u{1970}";
 
-    #[Info(id: 6513, name: 'TAI LE LETTER TONE-3', category: Cat::Other_Letter)]
+    #[Info(id: 0x1971, name: 'TAI LE LETTER TONE-3', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_TONE_3 = "\u{1971}";
 
-    #[Info(id: 6514, name: 'TAI LE LETTER TONE-4', category: Cat::Other_Letter)]
+    #[Info(id: 0x1972, name: 'TAI LE LETTER TONE-4', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_TONE_4 = "\u{1972}";
 
-    #[Info(id: 6515, name: 'TAI LE LETTER TONE-5', category: Cat::Other_Letter)]
+    #[Info(id: 0x1973, name: 'TAI LE LETTER TONE-5', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_TONE_5 = "\u{1973}";
 
-    #[Info(id: 6516, name: 'TAI LE LETTER TONE-6', category: Cat::Other_Letter)]
+    #[Info(id: 0x1974, name: 'TAI LE LETTER TONE-6', category: Cat::Other_Letter)]
     case TAI_LE_LETTER_TONE_6 = "\u{1974}";
 }

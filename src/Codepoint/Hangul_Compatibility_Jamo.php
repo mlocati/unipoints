@@ -16,285 +16,285 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Hangul_Compatibility_Jamo: string
 {
-    #[Info(id: 12593, name: 'HANGUL LETTER KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x3131, name: 'HANGUL LETTER KIYEOK', category: Cat::Other_Letter)]
     case HANGUL_LETTER_KIYEOK = "\u{3131}";
 
-    #[Info(id: 12594, name: 'HANGUL LETTER SSANGKIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x3132, name: 'HANGUL LETTER SSANGKIYEOK', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SSANGKIYEOK = "\u{3132}";
 
-    #[Info(id: 12595, name: 'HANGUL LETTER KIYEOK-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x3133, name: 'HANGUL LETTER KIYEOK-SIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_KIYEOK_SIOS = "\u{3133}";
 
-    #[Info(id: 12596, name: 'HANGUL LETTER NIEUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x3134, name: 'HANGUL LETTER NIEUN', category: Cat::Other_Letter)]
     case HANGUL_LETTER_NIEUN = "\u{3134}";
 
-    #[Info(id: 12597, name: 'HANGUL LETTER NIEUN-CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0x3135, name: 'HANGUL LETTER NIEUN-CIEUC', category: Cat::Other_Letter)]
     case HANGUL_LETTER_NIEUN_CIEUC = "\u{3135}";
 
-    #[Info(id: 12598, name: 'HANGUL LETTER NIEUN-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0x3136, name: 'HANGUL LETTER NIEUN-HIEUH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_NIEUN_HIEUH = "\u{3136}";
 
-    #[Info(id: 12599, name: 'HANGUL LETTER TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0x3137, name: 'HANGUL LETTER TIKEUT', category: Cat::Other_Letter)]
     case HANGUL_LETTER_TIKEUT = "\u{3137}";
 
-    #[Info(id: 12600, name: 'HANGUL LETTER SSANGTIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0x3138, name: 'HANGUL LETTER SSANGTIKEUT', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SSANGTIKEUT = "\u{3138}";
 
-    #[Info(id: 12601, name: 'HANGUL LETTER RIEUL', category: Cat::Other_Letter)]
+    #[Info(id: 0x3139, name: 'HANGUL LETTER RIEUL', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL = "\u{3139}";
 
-    #[Info(id: 12602, name: 'HANGUL LETTER RIEUL-KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x313A, name: 'HANGUL LETTER RIEUL-KIYEOK', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_KIYEOK = "\u{313A}";
 
-    #[Info(id: 12603, name: 'HANGUL LETTER RIEUL-MIEUM', category: Cat::Other_Letter)]
+    #[Info(id: 0x313B, name: 'HANGUL LETTER RIEUL-MIEUM', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_MIEUM = "\u{313B}";
 
-    #[Info(id: 12604, name: 'HANGUL LETTER RIEUL-PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0x313C, name: 'HANGUL LETTER RIEUL-PIEUP', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_PIEUP = "\u{313C}";
 
-    #[Info(id: 12605, name: 'HANGUL LETTER RIEUL-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x313D, name: 'HANGUL LETTER RIEUL-SIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_SIOS = "\u{313D}";
 
-    #[Info(id: 12606, name: 'HANGUL LETTER RIEUL-THIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0x313E, name: 'HANGUL LETTER RIEUL-THIEUTH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_THIEUTH = "\u{313E}";
 
-    #[Info(id: 12607, name: 'HANGUL LETTER RIEUL-PHIEUPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x313F, name: 'HANGUL LETTER RIEUL-PHIEUPH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_PHIEUPH = "\u{313F}";
 
-    #[Info(id: 12608, name: 'HANGUL LETTER RIEUL-HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0x3140, name: 'HANGUL LETTER RIEUL-HIEUH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_HIEUH = "\u{3140}";
 
-    #[Info(id: 12609, name: 'HANGUL LETTER MIEUM', category: Cat::Other_Letter)]
+    #[Info(id: 0x3141, name: 'HANGUL LETTER MIEUM', category: Cat::Other_Letter)]
     case HANGUL_LETTER_MIEUM = "\u{3141}";
 
-    #[Info(id: 12610, name: 'HANGUL LETTER PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0x3142, name: 'HANGUL LETTER PIEUP', category: Cat::Other_Letter)]
     case HANGUL_LETTER_PIEUP = "\u{3142}";
 
-    #[Info(id: 12611, name: 'HANGUL LETTER SSANGPIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0x3143, name: 'HANGUL LETTER SSANGPIEUP', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SSANGPIEUP = "\u{3143}";
 
-    #[Info(id: 12612, name: 'HANGUL LETTER PIEUP-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x3144, name: 'HANGUL LETTER PIEUP-SIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_PIEUP_SIOS = "\u{3144}";
 
-    #[Info(id: 12613, name: 'HANGUL LETTER SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x3145, name: 'HANGUL LETTER SIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SIOS = "\u{3145}";
 
-    #[Info(id: 12614, name: 'HANGUL LETTER SSANGSIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x3146, name: 'HANGUL LETTER SSANGSIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SSANGSIOS = "\u{3146}";
 
-    #[Info(id: 12615, name: 'HANGUL LETTER IEUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0x3147, name: 'HANGUL LETTER IEUNG', category: Cat::Other_Letter)]
     case HANGUL_LETTER_IEUNG = "\u{3147}";
 
-    #[Info(id: 12616, name: 'HANGUL LETTER CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0x3148, name: 'HANGUL LETTER CIEUC', category: Cat::Other_Letter)]
     case HANGUL_LETTER_CIEUC = "\u{3148}";
 
-    #[Info(id: 12617, name: 'HANGUL LETTER SSANGCIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0x3149, name: 'HANGUL LETTER SSANGCIEUC', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SSANGCIEUC = "\u{3149}";
 
-    #[Info(id: 12618, name: 'HANGUL LETTER CHIEUCH', category: Cat::Other_Letter)]
+    #[Info(id: 0x314A, name: 'HANGUL LETTER CHIEUCH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_CHIEUCH = "\u{314A}";
 
-    #[Info(id: 12619, name: 'HANGUL LETTER KHIEUKH', category: Cat::Other_Letter)]
+    #[Info(id: 0x314B, name: 'HANGUL LETTER KHIEUKH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_KHIEUKH = "\u{314B}";
 
-    #[Info(id: 12620, name: 'HANGUL LETTER THIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0x314C, name: 'HANGUL LETTER THIEUTH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_THIEUTH = "\u{314C}";
 
-    #[Info(id: 12621, name: 'HANGUL LETTER PHIEUPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x314D, name: 'HANGUL LETTER PHIEUPH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_PHIEUPH = "\u{314D}";
 
-    #[Info(id: 12622, name: 'HANGUL LETTER HIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0x314E, name: 'HANGUL LETTER HIEUH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_HIEUH = "\u{314E}";
 
-    #[Info(id: 12623, name: 'HANGUL LETTER A', category: Cat::Other_Letter)]
+    #[Info(id: 0x314F, name: 'HANGUL LETTER A', category: Cat::Other_Letter)]
     case HANGUL_LETTER_A = "\u{314F}";
 
-    #[Info(id: 12624, name: 'HANGUL LETTER AE', category: Cat::Other_Letter)]
+    #[Info(id: 0x3150, name: 'HANGUL LETTER AE', category: Cat::Other_Letter)]
     case HANGUL_LETTER_AE = "\u{3150}";
 
-    #[Info(id: 12625, name: 'HANGUL LETTER YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x3151, name: 'HANGUL LETTER YA', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YA = "\u{3151}";
 
-    #[Info(id: 12626, name: 'HANGUL LETTER YAE', category: Cat::Other_Letter)]
+    #[Info(id: 0x3152, name: 'HANGUL LETTER YAE', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YAE = "\u{3152}";
 
-    #[Info(id: 12627, name: 'HANGUL LETTER EO', category: Cat::Other_Letter)]
+    #[Info(id: 0x3153, name: 'HANGUL LETTER EO', category: Cat::Other_Letter)]
     case HANGUL_LETTER_EO = "\u{3153}";
 
-    #[Info(id: 12628, name: 'HANGUL LETTER E', category: Cat::Other_Letter)]
+    #[Info(id: 0x3154, name: 'HANGUL LETTER E', category: Cat::Other_Letter)]
     case HANGUL_LETTER_E = "\u{3154}";
 
-    #[Info(id: 12629, name: 'HANGUL LETTER YEO', category: Cat::Other_Letter)]
+    #[Info(id: 0x3155, name: 'HANGUL LETTER YEO', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YEO = "\u{3155}";
 
-    #[Info(id: 12630, name: 'HANGUL LETTER YE', category: Cat::Other_Letter)]
+    #[Info(id: 0x3156, name: 'HANGUL LETTER YE', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YE = "\u{3156}";
 
-    #[Info(id: 12631, name: 'HANGUL LETTER O', category: Cat::Other_Letter)]
+    #[Info(id: 0x3157, name: 'HANGUL LETTER O', category: Cat::Other_Letter)]
     case HANGUL_LETTER_O = "\u{3157}";
 
-    #[Info(id: 12632, name: 'HANGUL LETTER WA', category: Cat::Other_Letter)]
+    #[Info(id: 0x3158, name: 'HANGUL LETTER WA', category: Cat::Other_Letter)]
     case HANGUL_LETTER_WA = "\u{3158}";
 
-    #[Info(id: 12633, name: 'HANGUL LETTER WAE', category: Cat::Other_Letter)]
+    #[Info(id: 0x3159, name: 'HANGUL LETTER WAE', category: Cat::Other_Letter)]
     case HANGUL_LETTER_WAE = "\u{3159}";
 
-    #[Info(id: 12634, name: 'HANGUL LETTER OE', category: Cat::Other_Letter)]
+    #[Info(id: 0x315A, name: 'HANGUL LETTER OE', category: Cat::Other_Letter)]
     case HANGUL_LETTER_OE = "\u{315A}";
 
-    #[Info(id: 12635, name: 'HANGUL LETTER YO', category: Cat::Other_Letter)]
+    #[Info(id: 0x315B, name: 'HANGUL LETTER YO', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YO = "\u{315B}";
 
-    #[Info(id: 12636, name: 'HANGUL LETTER U', category: Cat::Other_Letter)]
+    #[Info(id: 0x315C, name: 'HANGUL LETTER U', category: Cat::Other_Letter)]
     case HANGUL_LETTER_U = "\u{315C}";
 
-    #[Info(id: 12637, name: 'HANGUL LETTER WEO', category: Cat::Other_Letter)]
+    #[Info(id: 0x315D, name: 'HANGUL LETTER WEO', category: Cat::Other_Letter)]
     case HANGUL_LETTER_WEO = "\u{315D}";
 
-    #[Info(id: 12638, name: 'HANGUL LETTER WE', category: Cat::Other_Letter)]
+    #[Info(id: 0x315E, name: 'HANGUL LETTER WE', category: Cat::Other_Letter)]
     case HANGUL_LETTER_WE = "\u{315E}";
 
-    #[Info(id: 12639, name: 'HANGUL LETTER WI', category: Cat::Other_Letter)]
+    #[Info(id: 0x315F, name: 'HANGUL LETTER WI', category: Cat::Other_Letter)]
     case HANGUL_LETTER_WI = "\u{315F}";
 
-    #[Info(id: 12640, name: 'HANGUL LETTER YU', category: Cat::Other_Letter)]
+    #[Info(id: 0x3160, name: 'HANGUL LETTER YU', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YU = "\u{3160}";
 
-    #[Info(id: 12641, name: 'HANGUL LETTER EU', category: Cat::Other_Letter)]
+    #[Info(id: 0x3161, name: 'HANGUL LETTER EU', category: Cat::Other_Letter)]
     case HANGUL_LETTER_EU = "\u{3161}";
 
-    #[Info(id: 12642, name: 'HANGUL LETTER YI', category: Cat::Other_Letter)]
+    #[Info(id: 0x3162, name: 'HANGUL LETTER YI', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YI = "\u{3162}";
 
-    #[Info(id: 12643, name: 'HANGUL LETTER I', category: Cat::Other_Letter)]
+    #[Info(id: 0x3163, name: 'HANGUL LETTER I', category: Cat::Other_Letter)]
     case HANGUL_LETTER_I = "\u{3163}";
 
-    #[Info(id: 12644, name: 'HANGUL FILLER', category: Cat::Other_Letter)]
+    #[Info(id: 0x3164, name: 'HANGUL FILLER', category: Cat::Other_Letter)]
     case HANGUL_FILLER = "\u{3164}";
 
-    #[Info(id: 12645, name: 'HANGUL LETTER SSANGNIEUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x3165, name: 'HANGUL LETTER SSANGNIEUN', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SSANGNIEUN = "\u{3165}";
 
-    #[Info(id: 12646, name: 'HANGUL LETTER NIEUN-TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0x3166, name: 'HANGUL LETTER NIEUN-TIKEUT', category: Cat::Other_Letter)]
     case HANGUL_LETTER_NIEUN_TIKEUT = "\u{3166}";
 
-    #[Info(id: 12647, name: 'HANGUL LETTER NIEUN-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x3167, name: 'HANGUL LETTER NIEUN-SIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_NIEUN_SIOS = "\u{3167}";
 
-    #[Info(id: 12648, name: 'HANGUL LETTER NIEUN-PANSIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x3168, name: 'HANGUL LETTER NIEUN-PANSIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_NIEUN_PANSIOS = "\u{3168}";
 
-    #[Info(id: 12649, name: 'HANGUL LETTER RIEUL-KIYEOK-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x3169, name: 'HANGUL LETTER RIEUL-KIYEOK-SIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_KIYEOK_SIOS = "\u{3169}";
 
-    #[Info(id: 12650, name: 'HANGUL LETTER RIEUL-TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0x316A, name: 'HANGUL LETTER RIEUL-TIKEUT', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_TIKEUT = "\u{316A}";
 
-    #[Info(id: 12651, name: 'HANGUL LETTER RIEUL-PIEUP-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x316B, name: 'HANGUL LETTER RIEUL-PIEUP-SIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_PIEUP_SIOS = "\u{316B}";
 
-    #[Info(id: 12652, name: 'HANGUL LETTER RIEUL-PANSIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x316C, name: 'HANGUL LETTER RIEUL-PANSIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_PANSIOS = "\u{316C}";
 
-    #[Info(id: 12653, name: 'HANGUL LETTER RIEUL-YEORINHIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0x316D, name: 'HANGUL LETTER RIEUL-YEORINHIEUH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_RIEUL_YEORINHIEUH = "\u{316D}";
 
-    #[Info(id: 12654, name: 'HANGUL LETTER MIEUM-PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0x316E, name: 'HANGUL LETTER MIEUM-PIEUP', category: Cat::Other_Letter)]
     case HANGUL_LETTER_MIEUM_PIEUP = "\u{316E}";
 
-    #[Info(id: 12655, name: 'HANGUL LETTER MIEUM-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x316F, name: 'HANGUL LETTER MIEUM-SIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_MIEUM_SIOS = "\u{316F}";
 
-    #[Info(id: 12656, name: 'HANGUL LETTER MIEUM-PANSIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x3170, name: 'HANGUL LETTER MIEUM-PANSIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_MIEUM_PANSIOS = "\u{3170}";
 
-    #[Info(id: 12657, name: 'HANGUL LETTER KAPYEOUNMIEUM', category: Cat::Other_Letter)]
+    #[Info(id: 0x3171, name: 'HANGUL LETTER KAPYEOUNMIEUM', category: Cat::Other_Letter)]
     case HANGUL_LETTER_KAPYEOUNMIEUM = "\u{3171}";
 
-    #[Info(id: 12658, name: 'HANGUL LETTER PIEUP-KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x3172, name: 'HANGUL LETTER PIEUP-KIYEOK', category: Cat::Other_Letter)]
     case HANGUL_LETTER_PIEUP_KIYEOK = "\u{3172}";
 
-    #[Info(id: 12659, name: 'HANGUL LETTER PIEUP-TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0x3173, name: 'HANGUL LETTER PIEUP-TIKEUT', category: Cat::Other_Letter)]
     case HANGUL_LETTER_PIEUP_TIKEUT = "\u{3173}";
 
-    #[Info(id: 12660, name: 'HANGUL LETTER PIEUP-SIOS-KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x3174, name: 'HANGUL LETTER PIEUP-SIOS-KIYEOK', category: Cat::Other_Letter)]
     case HANGUL_LETTER_PIEUP_SIOS_KIYEOK = "\u{3174}";
 
-    #[Info(id: 12661, name: 'HANGUL LETTER PIEUP-SIOS-TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0x3175, name: 'HANGUL LETTER PIEUP-SIOS-TIKEUT', category: Cat::Other_Letter)]
     case HANGUL_LETTER_PIEUP_SIOS_TIKEUT = "\u{3175}";
 
-    #[Info(id: 12662, name: 'HANGUL LETTER PIEUP-CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0x3176, name: 'HANGUL LETTER PIEUP-CIEUC', category: Cat::Other_Letter)]
     case HANGUL_LETTER_PIEUP_CIEUC = "\u{3176}";
 
-    #[Info(id: 12663, name: 'HANGUL LETTER PIEUP-THIEUTH', category: Cat::Other_Letter)]
+    #[Info(id: 0x3177, name: 'HANGUL LETTER PIEUP-THIEUTH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_PIEUP_THIEUTH = "\u{3177}";
 
-    #[Info(id: 12664, name: 'HANGUL LETTER KAPYEOUNPIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0x3178, name: 'HANGUL LETTER KAPYEOUNPIEUP', category: Cat::Other_Letter)]
     case HANGUL_LETTER_KAPYEOUNPIEUP = "\u{3178}";
 
-    #[Info(id: 12665, name: 'HANGUL LETTER KAPYEOUNSSANGPIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0x3179, name: 'HANGUL LETTER KAPYEOUNSSANGPIEUP', category: Cat::Other_Letter)]
     case HANGUL_LETTER_KAPYEOUNSSANGPIEUP = "\u{3179}";
 
-    #[Info(id: 12666, name: 'HANGUL LETTER SIOS-KIYEOK', category: Cat::Other_Letter)]
+    #[Info(id: 0x317A, name: 'HANGUL LETTER SIOS-KIYEOK', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SIOS_KIYEOK = "\u{317A}";
 
-    #[Info(id: 12667, name: 'HANGUL LETTER SIOS-NIEUN', category: Cat::Other_Letter)]
+    #[Info(id: 0x317B, name: 'HANGUL LETTER SIOS-NIEUN', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SIOS_NIEUN = "\u{317B}";
 
-    #[Info(id: 12668, name: 'HANGUL LETTER SIOS-TIKEUT', category: Cat::Other_Letter)]
+    #[Info(id: 0x317C, name: 'HANGUL LETTER SIOS-TIKEUT', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SIOS_TIKEUT = "\u{317C}";
 
-    #[Info(id: 12669, name: 'HANGUL LETTER SIOS-PIEUP', category: Cat::Other_Letter)]
+    #[Info(id: 0x317D, name: 'HANGUL LETTER SIOS-PIEUP', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SIOS_PIEUP = "\u{317D}";
 
-    #[Info(id: 12670, name: 'HANGUL LETTER SIOS-CIEUC', category: Cat::Other_Letter)]
+    #[Info(id: 0x317E, name: 'HANGUL LETTER SIOS-CIEUC', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SIOS_CIEUC = "\u{317E}";
 
-    #[Info(id: 12671, name: 'HANGUL LETTER PANSIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x317F, name: 'HANGUL LETTER PANSIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_PANSIOS = "\u{317F}";
 
-    #[Info(id: 12672, name: 'HANGUL LETTER SSANGIEUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0x3180, name: 'HANGUL LETTER SSANGIEUNG', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SSANGIEUNG = "\u{3180}";
 
-    #[Info(id: 12673, name: 'HANGUL LETTER YESIEUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0x3181, name: 'HANGUL LETTER YESIEUNG', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YESIEUNG = "\u{3181}";
 
-    #[Info(id: 12674, name: 'HANGUL LETTER YESIEUNG-SIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x3182, name: 'HANGUL LETTER YESIEUNG-SIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YESIEUNG_SIOS = "\u{3182}";
 
-    #[Info(id: 12675, name: 'HANGUL LETTER YESIEUNG-PANSIOS', category: Cat::Other_Letter)]
+    #[Info(id: 0x3183, name: 'HANGUL LETTER YESIEUNG-PANSIOS', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YESIEUNG_PANSIOS = "\u{3183}";
 
-    #[Info(id: 12676, name: 'HANGUL LETTER KAPYEOUNPHIEUPH', category: Cat::Other_Letter)]
+    #[Info(id: 0x3184, name: 'HANGUL LETTER KAPYEOUNPHIEUPH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_KAPYEOUNPHIEUPH = "\u{3184}";
 
-    #[Info(id: 12677, name: 'HANGUL LETTER SSANGHIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0x3185, name: 'HANGUL LETTER SSANGHIEUH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_SSANGHIEUH = "\u{3185}";
 
-    #[Info(id: 12678, name: 'HANGUL LETTER YEORINHIEUH', category: Cat::Other_Letter)]
+    #[Info(id: 0x3186, name: 'HANGUL LETTER YEORINHIEUH', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YEORINHIEUH = "\u{3186}";
 
-    #[Info(id: 12679, name: 'HANGUL LETTER YO-YA', category: Cat::Other_Letter)]
+    #[Info(id: 0x3187, name: 'HANGUL LETTER YO-YA', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YO_YA = "\u{3187}";
 
-    #[Info(id: 12680, name: 'HANGUL LETTER YO-YAE', category: Cat::Other_Letter)]
+    #[Info(id: 0x3188, name: 'HANGUL LETTER YO-YAE', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YO_YAE = "\u{3188}";
 
-    #[Info(id: 12681, name: 'HANGUL LETTER YO-I', category: Cat::Other_Letter)]
+    #[Info(id: 0x3189, name: 'HANGUL LETTER YO-I', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YO_I = "\u{3189}";
 
-    #[Info(id: 12682, name: 'HANGUL LETTER YU-YEO', category: Cat::Other_Letter)]
+    #[Info(id: 0x318A, name: 'HANGUL LETTER YU-YEO', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YU_YEO = "\u{318A}";
 
-    #[Info(id: 12683, name: 'HANGUL LETTER YU-YE', category: Cat::Other_Letter)]
+    #[Info(id: 0x318B, name: 'HANGUL LETTER YU-YE', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YU_YE = "\u{318B}";
 
-    #[Info(id: 12684, name: 'HANGUL LETTER YU-I', category: Cat::Other_Letter)]
+    #[Info(id: 0x318C, name: 'HANGUL LETTER YU-I', category: Cat::Other_Letter)]
     case HANGUL_LETTER_YU_I = "\u{318C}";
 
-    #[Info(id: 12685, name: 'HANGUL LETTER ARAEA', category: Cat::Other_Letter)]
+    #[Info(id: 0x318D, name: 'HANGUL LETTER ARAEA', category: Cat::Other_Letter)]
     case HANGUL_LETTER_ARAEA = "\u{318D}";
 
-    #[Info(id: 12686, name: 'HANGUL LETTER ARAEAE', category: Cat::Other_Letter)]
+    #[Info(id: 0x318E, name: 'HANGUL LETTER ARAEAE', category: Cat::Other_Letter)]
     case HANGUL_LETTER_ARAEAE = "\u{318E}";
 }

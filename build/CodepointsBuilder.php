@@ -433,7 +433,7 @@ EOT
         $name = var_export($codepoint->name, true);
         $block = $isBlockFile ? '' : ", block: Block::{$codepoint->block->codename}";
         $hexCodepoint = strtoupper(dechex($codepoint->codepoint));
-        $lines[] = "{$indent}#[Info(id: {$codepoint->codepoint}, name: {$name}{$block}, category: Cat::{$codepoint->category->name})]";
+        $lines[] = "{$indent}#[Info(id: 0x{$hexCodepoint}, name: {$name}{$block}, category: Cat::{$codepoint->category->name})]";
         $value = $codepoint->category === Category::Surrogate ? "0x{$hexCodepoint}" : '"\\u{' . $hexCodepoint . '}"';
         $lines[] = "{$indent}case {$codepoint->codename} = {$value};";
 

@@ -16,387 +16,387 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Miscellaneous_Mathematical_SymbolsB: string
 {
-    #[Info(id: 10624, name: 'TRIPLE VERTICAL BAR DELIMITER', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2980, name: 'TRIPLE VERTICAL BAR DELIMITER', category: Cat::Math_Symbol)]
     case TRIPLE_VERTICAL_BAR_DELIMITER = "\u{2980}";
 
-    #[Info(id: 10625, name: 'Z NOTATION SPOT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2981, name: 'Z NOTATION SPOT', category: Cat::Math_Symbol)]
     case Z_NOTATION_SPOT = "\u{2981}";
 
-    #[Info(id: 10626, name: 'Z NOTATION TYPE COLON', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2982, name: 'Z NOTATION TYPE COLON', category: Cat::Math_Symbol)]
     case Z_NOTATION_TYPE_COLON = "\u{2982}";
 
-    #[Info(id: 10627, name: 'LEFT WHITE CURLY BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2983, name: 'LEFT WHITE CURLY BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_WHITE_CURLY_BRACKET = "\u{2983}";
 
-    #[Info(id: 10628, name: 'RIGHT WHITE CURLY BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2984, name: 'RIGHT WHITE CURLY BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_WHITE_CURLY_BRACKET = "\u{2984}";
 
-    #[Info(id: 10629, name: 'LEFT WHITE PARENTHESIS', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2985, name: 'LEFT WHITE PARENTHESIS', category: Cat::Open_Punctuation)]
     case LEFT_WHITE_PARENTHESIS = "\u{2985}";
 
-    #[Info(id: 10630, name: 'RIGHT WHITE PARENTHESIS', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2986, name: 'RIGHT WHITE PARENTHESIS', category: Cat::Close_Punctuation)]
     case RIGHT_WHITE_PARENTHESIS = "\u{2986}";
 
-    #[Info(id: 10631, name: 'Z NOTATION LEFT IMAGE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2987, name: 'Z NOTATION LEFT IMAGE BRACKET', category: Cat::Open_Punctuation)]
     case Z_NOTATION_LEFT_IMAGE_BRACKET = "\u{2987}";
 
-    #[Info(id: 10632, name: 'Z NOTATION RIGHT IMAGE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2988, name: 'Z NOTATION RIGHT IMAGE BRACKET', category: Cat::Close_Punctuation)]
     case Z_NOTATION_RIGHT_IMAGE_BRACKET = "\u{2988}";
 
-    #[Info(id: 10633, name: 'Z NOTATION LEFT BINDING BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2989, name: 'Z NOTATION LEFT BINDING BRACKET', category: Cat::Open_Punctuation)]
     case Z_NOTATION_LEFT_BINDING_BRACKET = "\u{2989}";
 
-    #[Info(id: 10634, name: 'Z NOTATION RIGHT BINDING BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x298A, name: 'Z NOTATION RIGHT BINDING BRACKET', category: Cat::Close_Punctuation)]
     case Z_NOTATION_RIGHT_BINDING_BRACKET = "\u{298A}";
 
-    #[Info(id: 10635, name: 'LEFT SQUARE BRACKET WITH UNDERBAR', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x298B, name: 'LEFT SQUARE BRACKET WITH UNDERBAR', category: Cat::Open_Punctuation)]
     case LEFT_SQUARE_BRACKET_WITH_UNDERBAR = "\u{298B}";
 
-    #[Info(id: 10636, name: 'RIGHT SQUARE BRACKET WITH UNDERBAR', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x298C, name: 'RIGHT SQUARE BRACKET WITH UNDERBAR', category: Cat::Close_Punctuation)]
     case RIGHT_SQUARE_BRACKET_WITH_UNDERBAR = "\u{298C}";
 
-    #[Info(id: 10637, name: 'LEFT SQUARE BRACKET WITH TICK IN TOP CORNER', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x298D, name: 'LEFT SQUARE BRACKET WITH TICK IN TOP CORNER', category: Cat::Open_Punctuation)]
     case LEFT_SQUARE_BRACKET_WITH_TICK_IN_TOP_CORNER = "\u{298D}";
 
-    #[Info(id: 10638, name: 'RIGHT SQUARE BRACKET WITH TICK IN BOTTOM CORNER', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x298E, name: 'RIGHT SQUARE BRACKET WITH TICK IN BOTTOM CORNER', category: Cat::Close_Punctuation)]
     case RIGHT_SQUARE_BRACKET_WITH_TICK_IN_BOTTOM_CORNER = "\u{298E}";
 
-    #[Info(id: 10639, name: 'LEFT SQUARE BRACKET WITH TICK IN BOTTOM CORNER', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x298F, name: 'LEFT SQUARE BRACKET WITH TICK IN BOTTOM CORNER', category: Cat::Open_Punctuation)]
     case LEFT_SQUARE_BRACKET_WITH_TICK_IN_BOTTOM_CORNER = "\u{298F}";
 
-    #[Info(id: 10640, name: 'RIGHT SQUARE BRACKET WITH TICK IN TOP CORNER', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2990, name: 'RIGHT SQUARE BRACKET WITH TICK IN TOP CORNER', category: Cat::Close_Punctuation)]
     case RIGHT_SQUARE_BRACKET_WITH_TICK_IN_TOP_CORNER = "\u{2990}";
 
-    #[Info(id: 10641, name: 'LEFT ANGLE BRACKET WITH DOT', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2991, name: 'LEFT ANGLE BRACKET WITH DOT', category: Cat::Open_Punctuation)]
     case LEFT_ANGLE_BRACKET_WITH_DOT = "\u{2991}";
 
-    #[Info(id: 10642, name: 'RIGHT ANGLE BRACKET WITH DOT', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2992, name: 'RIGHT ANGLE BRACKET WITH DOT', category: Cat::Close_Punctuation)]
     case RIGHT_ANGLE_BRACKET_WITH_DOT = "\u{2992}";
 
-    #[Info(id: 10643, name: 'LEFT ARC LESS-THAN BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2993, name: 'LEFT ARC LESS-THAN BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_ARC_LESS_THAN_BRACKET = "\u{2993}";
 
-    #[Info(id: 10644, name: 'RIGHT ARC GREATER-THAN BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2994, name: 'RIGHT ARC GREATER-THAN BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_ARC_GREATER_THAN_BRACKET = "\u{2994}";
 
-    #[Info(id: 10645, name: 'DOUBLE LEFT ARC GREATER-THAN BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2995, name: 'DOUBLE LEFT ARC GREATER-THAN BRACKET', category: Cat::Open_Punctuation)]
     case DOUBLE_LEFT_ARC_GREATER_THAN_BRACKET = "\u{2995}";
 
-    #[Info(id: 10646, name: 'DOUBLE RIGHT ARC LESS-THAN BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2996, name: 'DOUBLE RIGHT ARC LESS-THAN BRACKET', category: Cat::Close_Punctuation)]
     case DOUBLE_RIGHT_ARC_LESS_THAN_BRACKET = "\u{2996}";
 
-    #[Info(id: 10647, name: 'LEFT BLACK TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x2997, name: 'LEFT BLACK TORTOISE SHELL BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_BLACK_TORTOISE_SHELL_BRACKET = "\u{2997}";
 
-    #[Info(id: 10648, name: 'RIGHT BLACK TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x2998, name: 'RIGHT BLACK TORTOISE SHELL BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_BLACK_TORTOISE_SHELL_BRACKET = "\u{2998}";
 
-    #[Info(id: 10649, name: 'DOTTED FENCE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2999, name: 'DOTTED FENCE', category: Cat::Math_Symbol)]
     case DOTTED_FENCE = "\u{2999}";
 
-    #[Info(id: 10650, name: 'VERTICAL ZIGZAG LINE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x299A, name: 'VERTICAL ZIGZAG LINE', category: Cat::Math_Symbol)]
     case VERTICAL_ZIGZAG_LINE = "\u{299A}";
 
-    #[Info(id: 10651, name: 'MEASURED ANGLE OPENING LEFT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x299B, name: 'MEASURED ANGLE OPENING LEFT', category: Cat::Math_Symbol)]
     case MEASURED_ANGLE_OPENING_LEFT = "\u{299B}";
 
-    #[Info(id: 10652, name: 'RIGHT ANGLE VARIANT WITH SQUARE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x299C, name: 'RIGHT ANGLE VARIANT WITH SQUARE', category: Cat::Math_Symbol)]
     case RIGHT_ANGLE_VARIANT_WITH_SQUARE = "\u{299C}";
 
-    #[Info(id: 10653, name: 'MEASURED RIGHT ANGLE WITH DOT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x299D, name: 'MEASURED RIGHT ANGLE WITH DOT', category: Cat::Math_Symbol)]
     case MEASURED_RIGHT_ANGLE_WITH_DOT = "\u{299D}";
 
-    #[Info(id: 10654, name: 'ANGLE WITH S INSIDE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x299E, name: 'ANGLE WITH S INSIDE', category: Cat::Math_Symbol)]
     case ANGLE_WITH_S_INSIDE = "\u{299E}";
 
-    #[Info(id: 10655, name: 'ACUTE ANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x299F, name: 'ACUTE ANGLE', category: Cat::Math_Symbol)]
     case ACUTE_ANGLE = "\u{299F}";
 
-    #[Info(id: 10656, name: 'SPHERICAL ANGLE OPENING LEFT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29A0, name: 'SPHERICAL ANGLE OPENING LEFT', category: Cat::Math_Symbol)]
     case SPHERICAL_ANGLE_OPENING_LEFT = "\u{29A0}";
 
-    #[Info(id: 10657, name: 'SPHERICAL ANGLE OPENING UP', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29A1, name: 'SPHERICAL ANGLE OPENING UP', category: Cat::Math_Symbol)]
     case SPHERICAL_ANGLE_OPENING_UP = "\u{29A1}";
 
-    #[Info(id: 10658, name: 'TURNED ANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29A2, name: 'TURNED ANGLE', category: Cat::Math_Symbol)]
     case TURNED_ANGLE = "\u{29A2}";
 
-    #[Info(id: 10659, name: 'REVERSED ANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29A3, name: 'REVERSED ANGLE', category: Cat::Math_Symbol)]
     case REVERSED_ANGLE = "\u{29A3}";
 
-    #[Info(id: 10660, name: 'ANGLE WITH UNDERBAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29A4, name: 'ANGLE WITH UNDERBAR', category: Cat::Math_Symbol)]
     case ANGLE_WITH_UNDERBAR = "\u{29A4}";
 
-    #[Info(id: 10661, name: 'REVERSED ANGLE WITH UNDERBAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29A5, name: 'REVERSED ANGLE WITH UNDERBAR', category: Cat::Math_Symbol)]
     case REVERSED_ANGLE_WITH_UNDERBAR = "\u{29A5}";
 
-    #[Info(id: 10662, name: 'OBLIQUE ANGLE OPENING UP', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29A6, name: 'OBLIQUE ANGLE OPENING UP', category: Cat::Math_Symbol)]
     case OBLIQUE_ANGLE_OPENING_UP = "\u{29A6}";
 
-    #[Info(id: 10663, name: 'OBLIQUE ANGLE OPENING DOWN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29A7, name: 'OBLIQUE ANGLE OPENING DOWN', category: Cat::Math_Symbol)]
     case OBLIQUE_ANGLE_OPENING_DOWN = "\u{29A7}";
 
-    #[Info(id: 10664, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING UP AND RIGHT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29A8, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING UP AND RIGHT', category: Cat::Math_Symbol)]
     case MEASURED_ANGLE_WITH_OPEN_ARM_ENDING_IN_ARROW_POINTING_UP_AND_RIGHT = "\u{29A8}";
 
-    #[Info(id: 10665, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING UP AND LEFT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29A9, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING UP AND LEFT', category: Cat::Math_Symbol)]
     case MEASURED_ANGLE_WITH_OPEN_ARM_ENDING_IN_ARROW_POINTING_UP_AND_LEFT = "\u{29A9}";
 
-    #[Info(id: 10666, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING DOWN AND RIGHT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29AA, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING DOWN AND RIGHT', category: Cat::Math_Symbol)]
     case MEASURED_ANGLE_WITH_OPEN_ARM_ENDING_IN_ARROW_POINTING_DOWN_AND_RIGHT = "\u{29AA}";
 
-    #[Info(id: 10667, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING DOWN AND LEFT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29AB, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING DOWN AND LEFT', category: Cat::Math_Symbol)]
     case MEASURED_ANGLE_WITH_OPEN_ARM_ENDING_IN_ARROW_POINTING_DOWN_AND_LEFT = "\u{29AB}";
 
-    #[Info(id: 10668, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING RIGHT AND UP', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29AC, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING RIGHT AND UP', category: Cat::Math_Symbol)]
     case MEASURED_ANGLE_WITH_OPEN_ARM_ENDING_IN_ARROW_POINTING_RIGHT_AND_UP = "\u{29AC}";
 
-    #[Info(id: 10669, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING LEFT AND UP', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29AD, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING LEFT AND UP', category: Cat::Math_Symbol)]
     case MEASURED_ANGLE_WITH_OPEN_ARM_ENDING_IN_ARROW_POINTING_LEFT_AND_UP = "\u{29AD}";
 
-    #[Info(id: 10670, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING RIGHT AND DOWN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29AE, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING RIGHT AND DOWN', category: Cat::Math_Symbol)]
     case MEASURED_ANGLE_WITH_OPEN_ARM_ENDING_IN_ARROW_POINTING_RIGHT_AND_DOWN = "\u{29AE}";
 
-    #[Info(id: 10671, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING LEFT AND DOWN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29AF, name: 'MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING LEFT AND DOWN', category: Cat::Math_Symbol)]
     case MEASURED_ANGLE_WITH_OPEN_ARM_ENDING_IN_ARROW_POINTING_LEFT_AND_DOWN = "\u{29AF}";
 
-    #[Info(id: 10672, name: 'REVERSED EMPTY SET', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29B0, name: 'REVERSED EMPTY SET', category: Cat::Math_Symbol)]
     case REVERSED_EMPTY_SET = "\u{29B0}";
 
-    #[Info(id: 10673, name: 'EMPTY SET WITH OVERBAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29B1, name: 'EMPTY SET WITH OVERBAR', category: Cat::Math_Symbol)]
     case EMPTY_SET_WITH_OVERBAR = "\u{29B1}";
 
-    #[Info(id: 10674, name: 'EMPTY SET WITH SMALL CIRCLE ABOVE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29B2, name: 'EMPTY SET WITH SMALL CIRCLE ABOVE', category: Cat::Math_Symbol)]
     case EMPTY_SET_WITH_SMALL_CIRCLE_ABOVE = "\u{29B2}";
 
-    #[Info(id: 10675, name: 'EMPTY SET WITH RIGHT ARROW ABOVE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29B3, name: 'EMPTY SET WITH RIGHT ARROW ABOVE', category: Cat::Math_Symbol)]
     case EMPTY_SET_WITH_RIGHT_ARROW_ABOVE = "\u{29B3}";
 
-    #[Info(id: 10676, name: 'EMPTY SET WITH LEFT ARROW ABOVE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29B4, name: 'EMPTY SET WITH LEFT ARROW ABOVE', category: Cat::Math_Symbol)]
     case EMPTY_SET_WITH_LEFT_ARROW_ABOVE = "\u{29B4}";
 
-    #[Info(id: 10677, name: 'CIRCLE WITH HORIZONTAL BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29B5, name: 'CIRCLE WITH HORIZONTAL BAR', category: Cat::Math_Symbol)]
     case CIRCLE_WITH_HORIZONTAL_BAR = "\u{29B5}";
 
-    #[Info(id: 10678, name: 'CIRCLED VERTICAL BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29B6, name: 'CIRCLED VERTICAL BAR', category: Cat::Math_Symbol)]
     case CIRCLED_VERTICAL_BAR = "\u{29B6}";
 
-    #[Info(id: 10679, name: 'CIRCLED PARALLEL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29B7, name: 'CIRCLED PARALLEL', category: Cat::Math_Symbol)]
     case CIRCLED_PARALLEL = "\u{29B7}";
 
-    #[Info(id: 10680, name: 'CIRCLED REVERSE SOLIDUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29B8, name: 'CIRCLED REVERSE SOLIDUS', category: Cat::Math_Symbol)]
     case CIRCLED_REVERSE_SOLIDUS = "\u{29B8}";
 
-    #[Info(id: 10681, name: 'CIRCLED PERPENDICULAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29B9, name: 'CIRCLED PERPENDICULAR', category: Cat::Math_Symbol)]
     case CIRCLED_PERPENDICULAR = "\u{29B9}";
 
-    #[Info(id: 10682, name: 'CIRCLE DIVIDED BY HORIZONTAL BAR AND TOP HALF DIVIDED BY VERTICAL BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29BA, name: 'CIRCLE DIVIDED BY HORIZONTAL BAR AND TOP HALF DIVIDED BY VERTICAL BAR', category: Cat::Math_Symbol)]
     case CIRCLE_DIVIDED_BY_HORIZONTAL_BAR_AND_TOP_HALF_DIVIDED_BY_VERTICAL_BAR = "\u{29BA}";
 
-    #[Info(id: 10683, name: 'CIRCLE WITH SUPERIMPOSED X', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29BB, name: 'CIRCLE WITH SUPERIMPOSED X', category: Cat::Math_Symbol)]
     case CIRCLE_WITH_SUPERIMPOSED_X = "\u{29BB}";
 
-    #[Info(id: 10684, name: 'CIRCLED ANTICLOCKWISE-ROTATED DIVISION SIGN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29BC, name: 'CIRCLED ANTICLOCKWISE-ROTATED DIVISION SIGN', category: Cat::Math_Symbol)]
     case CIRCLED_ANTICLOCKWISE_ROTATED_DIVISION_SIGN = "\u{29BC}";
 
-    #[Info(id: 10685, name: 'UP ARROW THROUGH CIRCLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29BD, name: 'UP ARROW THROUGH CIRCLE', category: Cat::Math_Symbol)]
     case UP_ARROW_THROUGH_CIRCLE = "\u{29BD}";
 
-    #[Info(id: 10686, name: 'CIRCLED WHITE BULLET', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29BE, name: 'CIRCLED WHITE BULLET', category: Cat::Math_Symbol)]
     case CIRCLED_WHITE_BULLET = "\u{29BE}";
 
-    #[Info(id: 10687, name: 'CIRCLED BULLET', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29BF, name: 'CIRCLED BULLET', category: Cat::Math_Symbol)]
     case CIRCLED_BULLET = "\u{29BF}";
 
-    #[Info(id: 10688, name: 'CIRCLED LESS-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29C0, name: 'CIRCLED LESS-THAN', category: Cat::Math_Symbol)]
     case CIRCLED_LESS_THAN = "\u{29C0}";
 
-    #[Info(id: 10689, name: 'CIRCLED GREATER-THAN', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29C1, name: 'CIRCLED GREATER-THAN', category: Cat::Math_Symbol)]
     case CIRCLED_GREATER_THAN = "\u{29C1}";
 
-    #[Info(id: 10690, name: 'CIRCLE WITH SMALL CIRCLE TO THE RIGHT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29C2, name: 'CIRCLE WITH SMALL CIRCLE TO THE RIGHT', category: Cat::Math_Symbol)]
     case CIRCLE_WITH_SMALL_CIRCLE_TO_THE_RIGHT = "\u{29C2}";
 
-    #[Info(id: 10691, name: 'CIRCLE WITH TWO HORIZONTAL STROKES TO THE RIGHT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29C3, name: 'CIRCLE WITH TWO HORIZONTAL STROKES TO THE RIGHT', category: Cat::Math_Symbol)]
     case CIRCLE_WITH_TWO_HORIZONTAL_STROKES_TO_THE_RIGHT = "\u{29C3}";
 
-    #[Info(id: 10692, name: 'SQUARED RISING DIAGONAL SLASH', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29C4, name: 'SQUARED RISING DIAGONAL SLASH', category: Cat::Math_Symbol)]
     case SQUARED_RISING_DIAGONAL_SLASH = "\u{29C4}";
 
-    #[Info(id: 10693, name: 'SQUARED FALLING DIAGONAL SLASH', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29C5, name: 'SQUARED FALLING DIAGONAL SLASH', category: Cat::Math_Symbol)]
     case SQUARED_FALLING_DIAGONAL_SLASH = "\u{29C5}";
 
-    #[Info(id: 10694, name: 'SQUARED ASTERISK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29C6, name: 'SQUARED ASTERISK', category: Cat::Math_Symbol)]
     case SQUARED_ASTERISK = "\u{29C6}";
 
-    #[Info(id: 10695, name: 'SQUARED SMALL CIRCLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29C7, name: 'SQUARED SMALL CIRCLE', category: Cat::Math_Symbol)]
     case SQUARED_SMALL_CIRCLE = "\u{29C7}";
 
-    #[Info(id: 10696, name: 'SQUARED SQUARE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29C8, name: 'SQUARED SQUARE', category: Cat::Math_Symbol)]
     case SQUARED_SQUARE = "\u{29C8}";
 
-    #[Info(id: 10697, name: 'TWO JOINED SQUARES', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29C9, name: 'TWO JOINED SQUARES', category: Cat::Math_Symbol)]
     case TWO_JOINED_SQUARES = "\u{29C9}";
 
-    #[Info(id: 10698, name: 'TRIANGLE WITH DOT ABOVE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29CA, name: 'TRIANGLE WITH DOT ABOVE', category: Cat::Math_Symbol)]
     case TRIANGLE_WITH_DOT_ABOVE = "\u{29CA}";
 
-    #[Info(id: 10699, name: 'TRIANGLE WITH UNDERBAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29CB, name: 'TRIANGLE WITH UNDERBAR', category: Cat::Math_Symbol)]
     case TRIANGLE_WITH_UNDERBAR = "\u{29CB}";
 
-    #[Info(id: 10700, name: 'S IN TRIANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29CC, name: 'S IN TRIANGLE', category: Cat::Math_Symbol)]
     case S_IN_TRIANGLE = "\u{29CC}";
 
-    #[Info(id: 10701, name: 'TRIANGLE WITH SERIFS AT BOTTOM', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29CD, name: 'TRIANGLE WITH SERIFS AT BOTTOM', category: Cat::Math_Symbol)]
     case TRIANGLE_WITH_SERIFS_AT_BOTTOM = "\u{29CD}";
 
-    #[Info(id: 10702, name: 'RIGHT TRIANGLE ABOVE LEFT TRIANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29CE, name: 'RIGHT TRIANGLE ABOVE LEFT TRIANGLE', category: Cat::Math_Symbol)]
     case RIGHT_TRIANGLE_ABOVE_LEFT_TRIANGLE = "\u{29CE}";
 
-    #[Info(id: 10703, name: 'LEFT TRIANGLE BESIDE VERTICAL BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29CF, name: 'LEFT TRIANGLE BESIDE VERTICAL BAR', category: Cat::Math_Symbol)]
     case LEFT_TRIANGLE_BESIDE_VERTICAL_BAR = "\u{29CF}";
 
-    #[Info(id: 10704, name: 'VERTICAL BAR BESIDE RIGHT TRIANGLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29D0, name: 'VERTICAL BAR BESIDE RIGHT TRIANGLE', category: Cat::Math_Symbol)]
     case VERTICAL_BAR_BESIDE_RIGHT_TRIANGLE = "\u{29D0}";
 
-    #[Info(id: 10705, name: 'BOWTIE WITH LEFT HALF BLACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29D1, name: 'BOWTIE WITH LEFT HALF BLACK', category: Cat::Math_Symbol)]
     case BOWTIE_WITH_LEFT_HALF_BLACK = "\u{29D1}";
 
-    #[Info(id: 10706, name: 'BOWTIE WITH RIGHT HALF BLACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29D2, name: 'BOWTIE WITH RIGHT HALF BLACK', category: Cat::Math_Symbol)]
     case BOWTIE_WITH_RIGHT_HALF_BLACK = "\u{29D2}";
 
-    #[Info(id: 10707, name: 'BLACK BOWTIE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29D3, name: 'BLACK BOWTIE', category: Cat::Math_Symbol)]
     case BLACK_BOWTIE = "\u{29D3}";
 
-    #[Info(id: 10708, name: 'TIMES WITH LEFT HALF BLACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29D4, name: 'TIMES WITH LEFT HALF BLACK', category: Cat::Math_Symbol)]
     case TIMES_WITH_LEFT_HALF_BLACK = "\u{29D4}";
 
-    #[Info(id: 10709, name: 'TIMES WITH RIGHT HALF BLACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29D5, name: 'TIMES WITH RIGHT HALF BLACK', category: Cat::Math_Symbol)]
     case TIMES_WITH_RIGHT_HALF_BLACK = "\u{29D5}";
 
-    #[Info(id: 10710, name: 'WHITE HOURGLASS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29D6, name: 'WHITE HOURGLASS', category: Cat::Math_Symbol)]
     case WHITE_HOURGLASS = "\u{29D6}";
 
-    #[Info(id: 10711, name: 'BLACK HOURGLASS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29D7, name: 'BLACK HOURGLASS', category: Cat::Math_Symbol)]
     case BLACK_HOURGLASS = "\u{29D7}";
 
-    #[Info(id: 10712, name: 'LEFT WIGGLY FENCE', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x29D8, name: 'LEFT WIGGLY FENCE', category: Cat::Open_Punctuation)]
     case LEFT_WIGGLY_FENCE = "\u{29D8}";
 
-    #[Info(id: 10713, name: 'RIGHT WIGGLY FENCE', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x29D9, name: 'RIGHT WIGGLY FENCE', category: Cat::Close_Punctuation)]
     case RIGHT_WIGGLY_FENCE = "\u{29D9}";
 
-    #[Info(id: 10714, name: 'LEFT DOUBLE WIGGLY FENCE', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x29DA, name: 'LEFT DOUBLE WIGGLY FENCE', category: Cat::Open_Punctuation)]
     case LEFT_DOUBLE_WIGGLY_FENCE = "\u{29DA}";
 
-    #[Info(id: 10715, name: 'RIGHT DOUBLE WIGGLY FENCE', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x29DB, name: 'RIGHT DOUBLE WIGGLY FENCE', category: Cat::Close_Punctuation)]
     case RIGHT_DOUBLE_WIGGLY_FENCE = "\u{29DB}";
 
-    #[Info(id: 10716, name: 'INCOMPLETE INFINITY', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29DC, name: 'INCOMPLETE INFINITY', category: Cat::Math_Symbol)]
     case INCOMPLETE_INFINITY = "\u{29DC}";
 
-    #[Info(id: 10717, name: 'TIE OVER INFINITY', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29DD, name: 'TIE OVER INFINITY', category: Cat::Math_Symbol)]
     case TIE_OVER_INFINITY = "\u{29DD}";
 
-    #[Info(id: 10718, name: 'INFINITY NEGATED WITH VERTICAL BAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29DE, name: 'INFINITY NEGATED WITH VERTICAL BAR', category: Cat::Math_Symbol)]
     case INFINITY_NEGATED_WITH_VERTICAL_BAR = "\u{29DE}";
 
-    #[Info(id: 10719, name: 'DOUBLE-ENDED MULTIMAP', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29DF, name: 'DOUBLE-ENDED MULTIMAP', category: Cat::Math_Symbol)]
     case DOUBLE_ENDED_MULTIMAP = "\u{29DF}";
 
-    #[Info(id: 10720, name: 'SQUARE WITH CONTOURED OUTLINE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E0, name: 'SQUARE WITH CONTOURED OUTLINE', category: Cat::Math_Symbol)]
     case SQUARE_WITH_CONTOURED_OUTLINE = "\u{29E0}";
 
-    #[Info(id: 10721, name: 'INCREASES AS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E1, name: 'INCREASES AS', category: Cat::Math_Symbol)]
     case INCREASES_AS = "\u{29E1}";
 
-    #[Info(id: 10722, name: 'SHUFFLE PRODUCT', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E2, name: 'SHUFFLE PRODUCT', category: Cat::Math_Symbol)]
     case SHUFFLE_PRODUCT = "\u{29E2}";
 
-    #[Info(id: 10723, name: 'EQUALS SIGN AND SLANTED PARALLEL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E3, name: 'EQUALS SIGN AND SLANTED PARALLEL', category: Cat::Math_Symbol)]
     case EQUALS_SIGN_AND_SLANTED_PARALLEL = "\u{29E3}";
 
-    #[Info(id: 10724, name: 'EQUALS SIGN AND SLANTED PARALLEL WITH TILDE ABOVE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E4, name: 'EQUALS SIGN AND SLANTED PARALLEL WITH TILDE ABOVE', category: Cat::Math_Symbol)]
     case EQUALS_SIGN_AND_SLANTED_PARALLEL_WITH_TILDE_ABOVE = "\u{29E4}";
 
-    #[Info(id: 10725, name: 'IDENTICAL TO AND SLANTED PARALLEL', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E5, name: 'IDENTICAL TO AND SLANTED PARALLEL', category: Cat::Math_Symbol)]
     case IDENTICAL_TO_AND_SLANTED_PARALLEL = "\u{29E5}";
 
-    #[Info(id: 10726, name: 'GLEICH STARK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E6, name: 'GLEICH STARK', category: Cat::Math_Symbol)]
     case GLEICH_STARK = "\u{29E6}";
 
-    #[Info(id: 10727, name: 'THERMODYNAMIC', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E7, name: 'THERMODYNAMIC', category: Cat::Math_Symbol)]
     case THERMODYNAMIC = "\u{29E7}";
 
-    #[Info(id: 10728, name: 'DOWN-POINTING TRIANGLE WITH LEFT HALF BLACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E8, name: 'DOWN-POINTING TRIANGLE WITH LEFT HALF BLACK', category: Cat::Math_Symbol)]
     case DOWN_POINTING_TRIANGLE_WITH_LEFT_HALF_BLACK = "\u{29E8}";
 
-    #[Info(id: 10729, name: 'DOWN-POINTING TRIANGLE WITH RIGHT HALF BLACK', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29E9, name: 'DOWN-POINTING TRIANGLE WITH RIGHT HALF BLACK', category: Cat::Math_Symbol)]
     case DOWN_POINTING_TRIANGLE_WITH_RIGHT_HALF_BLACK = "\u{29E9}";
 
-    #[Info(id: 10730, name: 'BLACK DIAMOND WITH DOWN ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29EA, name: 'BLACK DIAMOND WITH DOWN ARROW', category: Cat::Math_Symbol)]
     case BLACK_DIAMOND_WITH_DOWN_ARROW = "\u{29EA}";
 
-    #[Info(id: 10731, name: 'BLACK LOZENGE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29EB, name: 'BLACK LOZENGE', category: Cat::Math_Symbol)]
     case BLACK_LOZENGE = "\u{29EB}";
 
-    #[Info(id: 10732, name: 'WHITE CIRCLE WITH DOWN ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29EC, name: 'WHITE CIRCLE WITH DOWN ARROW', category: Cat::Math_Symbol)]
     case WHITE_CIRCLE_WITH_DOWN_ARROW = "\u{29EC}";
 
-    #[Info(id: 10733, name: 'BLACK CIRCLE WITH DOWN ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29ED, name: 'BLACK CIRCLE WITH DOWN ARROW', category: Cat::Math_Symbol)]
     case BLACK_CIRCLE_WITH_DOWN_ARROW = "\u{29ED}";
 
-    #[Info(id: 10734, name: 'ERROR-BARRED WHITE SQUARE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29EE, name: 'ERROR-BARRED WHITE SQUARE', category: Cat::Math_Symbol)]
     case ERROR_BARRED_WHITE_SQUARE = "\u{29EE}";
 
-    #[Info(id: 10735, name: 'ERROR-BARRED BLACK SQUARE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29EF, name: 'ERROR-BARRED BLACK SQUARE', category: Cat::Math_Symbol)]
     case ERROR_BARRED_BLACK_SQUARE = "\u{29EF}";
 
-    #[Info(id: 10736, name: 'ERROR-BARRED WHITE DIAMOND', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F0, name: 'ERROR-BARRED WHITE DIAMOND', category: Cat::Math_Symbol)]
     case ERROR_BARRED_WHITE_DIAMOND = "\u{29F0}";
 
-    #[Info(id: 10737, name: 'ERROR-BARRED BLACK DIAMOND', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F1, name: 'ERROR-BARRED BLACK DIAMOND', category: Cat::Math_Symbol)]
     case ERROR_BARRED_BLACK_DIAMOND = "\u{29F1}";
 
-    #[Info(id: 10738, name: 'ERROR-BARRED WHITE CIRCLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F2, name: 'ERROR-BARRED WHITE CIRCLE', category: Cat::Math_Symbol)]
     case ERROR_BARRED_WHITE_CIRCLE = "\u{29F2}";
 
-    #[Info(id: 10739, name: 'ERROR-BARRED BLACK CIRCLE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F3, name: 'ERROR-BARRED BLACK CIRCLE', category: Cat::Math_Symbol)]
     case ERROR_BARRED_BLACK_CIRCLE = "\u{29F3}";
 
-    #[Info(id: 10740, name: 'RULE-DELAYED', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F4, name: 'RULE-DELAYED', category: Cat::Math_Symbol)]
     case RULE_DELAYED = "\u{29F4}";
 
-    #[Info(id: 10741, name: 'REVERSE SOLIDUS OPERATOR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F5, name: 'REVERSE SOLIDUS OPERATOR', category: Cat::Math_Symbol)]
     case REVERSE_SOLIDUS_OPERATOR = "\u{29F5}";
 
-    #[Info(id: 10742, name: 'SOLIDUS WITH OVERBAR', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F6, name: 'SOLIDUS WITH OVERBAR', category: Cat::Math_Symbol)]
     case SOLIDUS_WITH_OVERBAR = "\u{29F6}";
 
-    #[Info(id: 10743, name: 'REVERSE SOLIDUS WITH HORIZONTAL STROKE', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F7, name: 'REVERSE SOLIDUS WITH HORIZONTAL STROKE', category: Cat::Math_Symbol)]
     case REVERSE_SOLIDUS_WITH_HORIZONTAL_STROKE = "\u{29F7}";
 
-    #[Info(id: 10744, name: 'BIG SOLIDUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F8, name: 'BIG SOLIDUS', category: Cat::Math_Symbol)]
     case BIG_SOLIDUS = "\u{29F8}";
 
-    #[Info(id: 10745, name: 'BIG REVERSE SOLIDUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29F9, name: 'BIG REVERSE SOLIDUS', category: Cat::Math_Symbol)]
     case BIG_REVERSE_SOLIDUS = "\u{29F9}";
 
-    #[Info(id: 10746, name: 'DOUBLE PLUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29FA, name: 'DOUBLE PLUS', category: Cat::Math_Symbol)]
     case DOUBLE_PLUS = "\u{29FA}";
 
-    #[Info(id: 10747, name: 'TRIPLE PLUS', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29FB, name: 'TRIPLE PLUS', category: Cat::Math_Symbol)]
     case TRIPLE_PLUS = "\u{29FB}";
 
-    #[Info(id: 10748, name: 'LEFT-POINTING CURVED ANGLE BRACKET', category: Cat::Open_Punctuation)]
+    #[Info(id: 0x29FC, name: 'LEFT-POINTING CURVED ANGLE BRACKET', category: Cat::Open_Punctuation)]
     case LEFT_POINTING_CURVED_ANGLE_BRACKET = "\u{29FC}";
 
-    #[Info(id: 10749, name: 'RIGHT-POINTING CURVED ANGLE BRACKET', category: Cat::Close_Punctuation)]
+    #[Info(id: 0x29FD, name: 'RIGHT-POINTING CURVED ANGLE BRACKET', category: Cat::Close_Punctuation)]
     case RIGHT_POINTING_CURVED_ANGLE_BRACKET = "\u{29FD}";
 
-    #[Info(id: 10750, name: 'TINY', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29FE, name: 'TINY', category: Cat::Math_Symbol)]
     case TINY = "\u{29FE}";
 
-    #[Info(id: 10751, name: 'MINY', category: Cat::Math_Symbol)]
+    #[Info(id: 0x29FF, name: 'MINY', category: Cat::Math_Symbol)]
     case MINY = "\u{29FF}";
 }

@@ -16,243 +16,243 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Letterlike_Symbols: string
 {
-    #[Info(id: 8448, name: 'ACCOUNT OF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2100, name: 'ACCOUNT OF', category: Cat::Other_Symbol)]
     case ACCOUNT_OF = "\u{2100}";
 
-    #[Info(id: 8449, name: 'ADDRESSED TO THE SUBJECT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2101, name: 'ADDRESSED TO THE SUBJECT', category: Cat::Other_Symbol)]
     case ADDRESSED_TO_THE_SUBJECT = "\u{2101}";
 
-    #[Info(id: 8450, name: 'DOUBLE-STRUCK CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2102, name: 'DOUBLE-STRUCK CAPITAL C', category: Cat::Uppercase_Letter)]
     case DOUBLE_STRUCK_CAPITAL_C = "\u{2102}";
 
-    #[Info(id: 8451, name: 'DEGREE CELSIUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2103, name: 'DEGREE CELSIUS', category: Cat::Other_Symbol)]
     case DEGREE_CELSIUS = "\u{2103}";
 
-    #[Info(id: 8452, name: 'CENTRE LINE SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2104, name: 'CENTRE LINE SYMBOL', category: Cat::Other_Symbol)]
     case CENTRE_LINE_SYMBOL = "\u{2104}";
 
-    #[Info(id: 8453, name: 'CARE OF', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2105, name: 'CARE OF', category: Cat::Other_Symbol)]
     case CARE_OF = "\u{2105}";
 
-    #[Info(id: 8454, name: 'CADA UNA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2106, name: 'CADA UNA', category: Cat::Other_Symbol)]
     case CADA_UNA = "\u{2106}";
 
-    #[Info(id: 8455, name: 'EULER CONSTANT', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2107, name: 'EULER CONSTANT', category: Cat::Uppercase_Letter)]
     case EULER_CONSTANT = "\u{2107}";
 
-    #[Info(id: 8456, name: 'SCRUPLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2108, name: 'SCRUPLE', category: Cat::Other_Symbol)]
     case SCRUPLE = "\u{2108}";
 
-    #[Info(id: 8457, name: 'DEGREE FAHRENHEIT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2109, name: 'DEGREE FAHRENHEIT', category: Cat::Other_Symbol)]
     case DEGREE_FAHRENHEIT = "\u{2109}";
 
-    #[Info(id: 8458, name: 'SCRIPT SMALL G', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x210A, name: 'SCRIPT SMALL G', category: Cat::Lowercase_Letter)]
     case SCRIPT_SMALL_G = "\u{210A}";
 
-    #[Info(id: 8459, name: 'SCRIPT CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x210B, name: 'SCRIPT CAPITAL H', category: Cat::Uppercase_Letter)]
     case SCRIPT_CAPITAL_H = "\u{210B}";
 
-    #[Info(id: 8460, name: 'BLACK-LETTER CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x210C, name: 'BLACK-LETTER CAPITAL H', category: Cat::Uppercase_Letter)]
     case BLACK_LETTER_CAPITAL_H = "\u{210C}";
 
-    #[Info(id: 8461, name: 'DOUBLE-STRUCK CAPITAL H', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x210D, name: 'DOUBLE-STRUCK CAPITAL H', category: Cat::Uppercase_Letter)]
     case DOUBLE_STRUCK_CAPITAL_H = "\u{210D}";
 
-    #[Info(id: 8462, name: 'PLANCK CONSTANT', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x210E, name: 'PLANCK CONSTANT', category: Cat::Lowercase_Letter)]
     case PLANCK_CONSTANT = "\u{210E}";
 
-    #[Info(id: 8463, name: 'PLANCK CONSTANT OVER TWO PI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x210F, name: 'PLANCK CONSTANT OVER TWO PI', category: Cat::Lowercase_Letter)]
     case PLANCK_CONSTANT_OVER_TWO_PI = "\u{210F}";
 
-    #[Info(id: 8464, name: 'SCRIPT CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2110, name: 'SCRIPT CAPITAL I', category: Cat::Uppercase_Letter)]
     case SCRIPT_CAPITAL_I = "\u{2110}";
 
-    #[Info(id: 8465, name: 'BLACK-LETTER CAPITAL I', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2111, name: 'BLACK-LETTER CAPITAL I', category: Cat::Uppercase_Letter)]
     case BLACK_LETTER_CAPITAL_I = "\u{2111}";
 
-    #[Info(id: 8466, name: 'SCRIPT CAPITAL L', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2112, name: 'SCRIPT CAPITAL L', category: Cat::Uppercase_Letter)]
     case SCRIPT_CAPITAL_L = "\u{2112}";
 
-    #[Info(id: 8467, name: 'SCRIPT SMALL L', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2113, name: 'SCRIPT SMALL L', category: Cat::Lowercase_Letter)]
     case SCRIPT_SMALL_L = "\u{2113}";
 
-    #[Info(id: 8468, name: 'L B BAR SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2114, name: 'L B BAR SYMBOL', category: Cat::Other_Symbol)]
     case L_B_BAR_SYMBOL = "\u{2114}";
 
-    #[Info(id: 8469, name: 'DOUBLE-STRUCK CAPITAL N', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2115, name: 'DOUBLE-STRUCK CAPITAL N', category: Cat::Uppercase_Letter)]
     case DOUBLE_STRUCK_CAPITAL_N = "\u{2115}";
 
-    #[Info(id: 8470, name: 'NUMERO SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2116, name: 'NUMERO SIGN', category: Cat::Other_Symbol)]
     case NUMERO_SIGN = "\u{2116}";
 
-    #[Info(id: 8471, name: 'SOUND RECORDING COPYRIGHT', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2117, name: 'SOUND RECORDING COPYRIGHT', category: Cat::Other_Symbol)]
     case SOUND_RECORDING_COPYRIGHT = "\u{2117}";
 
-    #[Info(id: 8472, name: 'SCRIPT CAPITAL P', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2118, name: 'SCRIPT CAPITAL P', category: Cat::Math_Symbol)]
     case SCRIPT_CAPITAL_P = "\u{2118}";
 
-    #[Info(id: 8473, name: 'DOUBLE-STRUCK CAPITAL P', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2119, name: 'DOUBLE-STRUCK CAPITAL P', category: Cat::Uppercase_Letter)]
     case DOUBLE_STRUCK_CAPITAL_P = "\u{2119}";
 
-    #[Info(id: 8474, name: 'DOUBLE-STRUCK CAPITAL Q', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x211A, name: 'DOUBLE-STRUCK CAPITAL Q', category: Cat::Uppercase_Letter)]
     case DOUBLE_STRUCK_CAPITAL_Q = "\u{211A}";
 
-    #[Info(id: 8475, name: 'SCRIPT CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x211B, name: 'SCRIPT CAPITAL R', category: Cat::Uppercase_Letter)]
     case SCRIPT_CAPITAL_R = "\u{211B}";
 
-    #[Info(id: 8476, name: 'BLACK-LETTER CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x211C, name: 'BLACK-LETTER CAPITAL R', category: Cat::Uppercase_Letter)]
     case BLACK_LETTER_CAPITAL_R = "\u{211C}";
 
-    #[Info(id: 8477, name: 'DOUBLE-STRUCK CAPITAL R', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x211D, name: 'DOUBLE-STRUCK CAPITAL R', category: Cat::Uppercase_Letter)]
     case DOUBLE_STRUCK_CAPITAL_R = "\u{211D}";
 
-    #[Info(id: 8478, name: 'PRESCRIPTION TAKE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x211E, name: 'PRESCRIPTION TAKE', category: Cat::Other_Symbol)]
     case PRESCRIPTION_TAKE = "\u{211E}";
 
-    #[Info(id: 8479, name: 'RESPONSE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x211F, name: 'RESPONSE', category: Cat::Other_Symbol)]
     case RESPONSE = "\u{211F}";
 
-    #[Info(id: 8480, name: 'SERVICE MARK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2120, name: 'SERVICE MARK', category: Cat::Other_Symbol)]
     case SERVICE_MARK = "\u{2120}";
 
-    #[Info(id: 8481, name: 'TELEPHONE SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2121, name: 'TELEPHONE SIGN', category: Cat::Other_Symbol)]
     case TELEPHONE_SIGN = "\u{2121}";
 
-    #[Info(id: 8482, name: 'TRADE MARK SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2122, name: 'TRADE MARK SIGN', category: Cat::Other_Symbol)]
     case TRADE_MARK_SIGN = "\u{2122}";
 
-    #[Info(id: 8483, name: 'VERSICLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2123, name: 'VERSICLE', category: Cat::Other_Symbol)]
     case VERSICLE = "\u{2123}";
 
-    #[Info(id: 8484, name: 'DOUBLE-STRUCK CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2124, name: 'DOUBLE-STRUCK CAPITAL Z', category: Cat::Uppercase_Letter)]
     case DOUBLE_STRUCK_CAPITAL_Z = "\u{2124}";
 
-    #[Info(id: 8485, name: 'OUNCE SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2125, name: 'OUNCE SIGN', category: Cat::Other_Symbol)]
     case OUNCE_SIGN = "\u{2125}";
 
-    #[Info(id: 8486, name: 'OHM SIGN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2126, name: 'OHM SIGN', category: Cat::Uppercase_Letter)]
     case OHM_SIGN = "\u{2126}";
 
-    #[Info(id: 8487, name: 'INVERTED OHM SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2127, name: 'INVERTED OHM SIGN', category: Cat::Other_Symbol)]
     case INVERTED_OHM_SIGN = "\u{2127}";
 
-    #[Info(id: 8488, name: 'BLACK-LETTER CAPITAL Z', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2128, name: 'BLACK-LETTER CAPITAL Z', category: Cat::Uppercase_Letter)]
     case BLACK_LETTER_CAPITAL_Z = "\u{2128}";
 
-    #[Info(id: 8489, name: 'TURNED GREEK SMALL LETTER IOTA', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2129, name: 'TURNED GREEK SMALL LETTER IOTA', category: Cat::Other_Symbol)]
     case TURNED_GREEK_SMALL_LETTER_IOTA = "\u{2129}";
 
-    #[Info(id: 8490, name: 'KELVIN SIGN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x212A, name: 'KELVIN SIGN', category: Cat::Uppercase_Letter)]
     case KELVIN_SIGN = "\u{212A}";
 
-    #[Info(id: 8491, name: 'ANGSTROM SIGN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x212B, name: 'ANGSTROM SIGN', category: Cat::Uppercase_Letter)]
     case ANGSTROM_SIGN = "\u{212B}";
 
-    #[Info(id: 8492, name: 'SCRIPT CAPITAL B', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x212C, name: 'SCRIPT CAPITAL B', category: Cat::Uppercase_Letter)]
     case SCRIPT_CAPITAL_B = "\u{212C}";
 
-    #[Info(id: 8493, name: 'BLACK-LETTER CAPITAL C', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x212D, name: 'BLACK-LETTER CAPITAL C', category: Cat::Uppercase_Letter)]
     case BLACK_LETTER_CAPITAL_C = "\u{212D}";
 
-    #[Info(id: 8494, name: 'ESTIMATED SYMBOL', category: Cat::Other_Symbol)]
+    #[Info(id: 0x212E, name: 'ESTIMATED SYMBOL', category: Cat::Other_Symbol)]
     case ESTIMATED_SYMBOL = "\u{212E}";
 
-    #[Info(id: 8495, name: 'SCRIPT SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x212F, name: 'SCRIPT SMALL E', category: Cat::Lowercase_Letter)]
     case SCRIPT_SMALL_E = "\u{212F}";
 
-    #[Info(id: 8496, name: 'SCRIPT CAPITAL E', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2130, name: 'SCRIPT CAPITAL E', category: Cat::Uppercase_Letter)]
     case SCRIPT_CAPITAL_E = "\u{2130}";
 
-    #[Info(id: 8497, name: 'SCRIPT CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2131, name: 'SCRIPT CAPITAL F', category: Cat::Uppercase_Letter)]
     case SCRIPT_CAPITAL_F = "\u{2131}";
 
-    #[Info(id: 8498, name: 'TURNED CAPITAL F', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2132, name: 'TURNED CAPITAL F', category: Cat::Uppercase_Letter)]
     case TURNED_CAPITAL_F = "\u{2132}";
 
-    #[Info(id: 8499, name: 'SCRIPT CAPITAL M', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2133, name: 'SCRIPT CAPITAL M', category: Cat::Uppercase_Letter)]
     case SCRIPT_CAPITAL_M = "\u{2133}";
 
-    #[Info(id: 8500, name: 'SCRIPT SMALL O', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2134, name: 'SCRIPT SMALL O', category: Cat::Lowercase_Letter)]
     case SCRIPT_SMALL_O = "\u{2134}";
 
-    #[Info(id: 8501, name: 'ALEF SYMBOL', category: Cat::Other_Letter)]
+    #[Info(id: 0x2135, name: 'ALEF SYMBOL', category: Cat::Other_Letter)]
     case ALEF_SYMBOL = "\u{2135}";
 
-    #[Info(id: 8502, name: 'BET SYMBOL', category: Cat::Other_Letter)]
+    #[Info(id: 0x2136, name: 'BET SYMBOL', category: Cat::Other_Letter)]
     case BET_SYMBOL = "\u{2136}";
 
-    #[Info(id: 8503, name: 'GIMEL SYMBOL', category: Cat::Other_Letter)]
+    #[Info(id: 0x2137, name: 'GIMEL SYMBOL', category: Cat::Other_Letter)]
     case GIMEL_SYMBOL = "\u{2137}";
 
-    #[Info(id: 8504, name: 'DALET SYMBOL', category: Cat::Other_Letter)]
+    #[Info(id: 0x2138, name: 'DALET SYMBOL', category: Cat::Other_Letter)]
     case DALET_SYMBOL = "\u{2138}";
 
-    #[Info(id: 8505, name: 'INFORMATION SOURCE', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2139, name: 'INFORMATION SOURCE', category: Cat::Lowercase_Letter)]
     case INFORMATION_SOURCE = "\u{2139}";
 
-    #[Info(id: 8506, name: 'ROTATED CAPITAL Q', category: Cat::Other_Symbol)]
+    #[Info(id: 0x213A, name: 'ROTATED CAPITAL Q', category: Cat::Other_Symbol)]
     case ROTATED_CAPITAL_Q = "\u{213A}";
 
-    #[Info(id: 8507, name: 'FACSIMILE SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x213B, name: 'FACSIMILE SIGN', category: Cat::Other_Symbol)]
     case FACSIMILE_SIGN = "\u{213B}";
 
-    #[Info(id: 8508, name: 'DOUBLE-STRUCK SMALL PI', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x213C, name: 'DOUBLE-STRUCK SMALL PI', category: Cat::Lowercase_Letter)]
     case DOUBLE_STRUCK_SMALL_PI = "\u{213C}";
 
-    #[Info(id: 8509, name: 'DOUBLE-STRUCK SMALL GAMMA', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x213D, name: 'DOUBLE-STRUCK SMALL GAMMA', category: Cat::Lowercase_Letter)]
     case DOUBLE_STRUCK_SMALL_GAMMA = "\u{213D}";
 
-    #[Info(id: 8510, name: 'DOUBLE-STRUCK CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x213E, name: 'DOUBLE-STRUCK CAPITAL GAMMA', category: Cat::Uppercase_Letter)]
     case DOUBLE_STRUCK_CAPITAL_GAMMA = "\u{213E}";
 
-    #[Info(id: 8511, name: 'DOUBLE-STRUCK CAPITAL PI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x213F, name: 'DOUBLE-STRUCK CAPITAL PI', category: Cat::Uppercase_Letter)]
     case DOUBLE_STRUCK_CAPITAL_PI = "\u{213F}";
 
-    #[Info(id: 8512, name: 'DOUBLE-STRUCK N-ARY SUMMATION', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2140, name: 'DOUBLE-STRUCK N-ARY SUMMATION', category: Cat::Math_Symbol)]
     case DOUBLE_STRUCK_N_ARY_SUMMATION = "\u{2140}";
 
-    #[Info(id: 8513, name: 'TURNED SANS-SERIF CAPITAL G', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2141, name: 'TURNED SANS-SERIF CAPITAL G', category: Cat::Math_Symbol)]
     case TURNED_SANS_SERIF_CAPITAL_G = "\u{2141}";
 
-    #[Info(id: 8514, name: 'TURNED SANS-SERIF CAPITAL L', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2142, name: 'TURNED SANS-SERIF CAPITAL L', category: Cat::Math_Symbol)]
     case TURNED_SANS_SERIF_CAPITAL_L = "\u{2142}";
 
-    #[Info(id: 8515, name: 'REVERSED SANS-SERIF CAPITAL L', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2143, name: 'REVERSED SANS-SERIF CAPITAL L', category: Cat::Math_Symbol)]
     case REVERSED_SANS_SERIF_CAPITAL_L = "\u{2143}";
 
-    #[Info(id: 8516, name: 'TURNED SANS-SERIF CAPITAL Y', category: Cat::Math_Symbol)]
+    #[Info(id: 0x2144, name: 'TURNED SANS-SERIF CAPITAL Y', category: Cat::Math_Symbol)]
     case TURNED_SANS_SERIF_CAPITAL_Y = "\u{2144}";
 
-    #[Info(id: 8517, name: 'DOUBLE-STRUCK ITALIC CAPITAL D', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x2145, name: 'DOUBLE-STRUCK ITALIC CAPITAL D', category: Cat::Uppercase_Letter)]
     case DOUBLE_STRUCK_ITALIC_CAPITAL_D = "\u{2145}";
 
-    #[Info(id: 8518, name: 'DOUBLE-STRUCK ITALIC SMALL D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2146, name: 'DOUBLE-STRUCK ITALIC SMALL D', category: Cat::Lowercase_Letter)]
     case DOUBLE_STRUCK_ITALIC_SMALL_D = "\u{2146}";
 
-    #[Info(id: 8519, name: 'DOUBLE-STRUCK ITALIC SMALL E', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2147, name: 'DOUBLE-STRUCK ITALIC SMALL E', category: Cat::Lowercase_Letter)]
     case DOUBLE_STRUCK_ITALIC_SMALL_E = "\u{2147}";
 
-    #[Info(id: 8520, name: 'DOUBLE-STRUCK ITALIC SMALL I', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2148, name: 'DOUBLE-STRUCK ITALIC SMALL I', category: Cat::Lowercase_Letter)]
     case DOUBLE_STRUCK_ITALIC_SMALL_I = "\u{2148}";
 
-    #[Info(id: 8521, name: 'DOUBLE-STRUCK ITALIC SMALL J', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2149, name: 'DOUBLE-STRUCK ITALIC SMALL J', category: Cat::Lowercase_Letter)]
     case DOUBLE_STRUCK_ITALIC_SMALL_J = "\u{2149}";
 
-    #[Info(id: 8522, name: 'PROPERTY LINE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x214A, name: 'PROPERTY LINE', category: Cat::Other_Symbol)]
     case PROPERTY_LINE = "\u{214A}";
 
-    #[Info(id: 8523, name: 'TURNED AMPERSAND', category: Cat::Math_Symbol)]
+    #[Info(id: 0x214B, name: 'TURNED AMPERSAND', category: Cat::Math_Symbol)]
     case TURNED_AMPERSAND = "\u{214B}";
 
-    #[Info(id: 8524, name: 'PER SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x214C, name: 'PER SIGN', category: Cat::Other_Symbol)]
     case PER_SIGN = "\u{214C}";
 
-    #[Info(id: 8525, name: 'AKTIESELSKAB', category: Cat::Other_Symbol)]
+    #[Info(id: 0x214D, name: 'AKTIESELSKAB', category: Cat::Other_Symbol)]
     case AKTIESELSKAB = "\u{214D}";
 
-    #[Info(id: 8526, name: 'TURNED SMALL F', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x214E, name: 'TURNED SMALL F', category: Cat::Lowercase_Letter)]
     case TURNED_SMALL_F = "\u{214E}";
 
-    #[Info(id: 8527, name: 'SYMBOL FOR SAMARITAN SOURCE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x214F, name: 'SYMBOL FOR SAMARITAN SOURCE', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_SAMARITAN_SOURCE = "\u{214F}";
 }

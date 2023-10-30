@@ -16,903 +16,903 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Vai: string
 {
-    #[Info(id: 42240, name: 'VAI SYLLABLE EE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA500, name: 'VAI SYLLABLE EE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_EE = "\u{A500}";
 
-    #[Info(id: 42241, name: 'VAI SYLLABLE EEN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA501, name: 'VAI SYLLABLE EEN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_EEN = "\u{A501}";
 
-    #[Info(id: 42242, name: 'VAI SYLLABLE HEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA502, name: 'VAI SYLLABLE HEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HEE = "\u{A502}";
 
-    #[Info(id: 42243, name: 'VAI SYLLABLE WEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA503, name: 'VAI SYLLABLE WEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WEE = "\u{A503}";
 
-    #[Info(id: 42244, name: 'VAI SYLLABLE WEEN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA504, name: 'VAI SYLLABLE WEEN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WEEN = "\u{A504}";
 
-    #[Info(id: 42245, name: 'VAI SYLLABLE PEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA505, name: 'VAI SYLLABLE PEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_PEE = "\u{A505}";
 
-    #[Info(id: 42246, name: 'VAI SYLLABLE BHEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA506, name: 'VAI SYLLABLE BHEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BHEE = "\u{A506}";
 
-    #[Info(id: 42247, name: 'VAI SYLLABLE BEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA507, name: 'VAI SYLLABLE BEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BEE = "\u{A507}";
 
-    #[Info(id: 42248, name: 'VAI SYLLABLE MBEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA508, name: 'VAI SYLLABLE MBEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MBEE = "\u{A508}";
 
-    #[Info(id: 42249, name: 'VAI SYLLABLE KPEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA509, name: 'VAI SYLLABLE KPEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KPEE = "\u{A509}";
 
-    #[Info(id: 42250, name: 'VAI SYLLABLE MGBEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA50A, name: 'VAI SYLLABLE MGBEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MGBEE = "\u{A50A}";
 
-    #[Info(id: 42251, name: 'VAI SYLLABLE GBEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA50B, name: 'VAI SYLLABLE GBEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GBEE = "\u{A50B}";
 
-    #[Info(id: 42252, name: 'VAI SYLLABLE FEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA50C, name: 'VAI SYLLABLE FEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_FEE = "\u{A50C}";
 
-    #[Info(id: 42253, name: 'VAI SYLLABLE VEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA50D, name: 'VAI SYLLABLE VEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_VEE = "\u{A50D}";
 
-    #[Info(id: 42254, name: 'VAI SYLLABLE TEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA50E, name: 'VAI SYLLABLE TEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_TEE = "\u{A50E}";
 
-    #[Info(id: 42255, name: 'VAI SYLLABLE THEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA50F, name: 'VAI SYLLABLE THEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_THEE = "\u{A50F}";
 
-    #[Info(id: 42256, name: 'VAI SYLLABLE DHEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA510, name: 'VAI SYLLABLE DHEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHEE = "\u{A510}";
 
-    #[Info(id: 42257, name: 'VAI SYLLABLE DHHEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA511, name: 'VAI SYLLABLE DHHEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHHEE = "\u{A511}";
 
-    #[Info(id: 42258, name: 'VAI SYLLABLE LEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA512, name: 'VAI SYLLABLE LEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_LEE = "\u{A512}";
 
-    #[Info(id: 42259, name: 'VAI SYLLABLE REE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA513, name: 'VAI SYLLABLE REE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_REE = "\u{A513}";
 
-    #[Info(id: 42260, name: 'VAI SYLLABLE DEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA514, name: 'VAI SYLLABLE DEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DEE = "\u{A514}";
 
-    #[Info(id: 42261, name: 'VAI SYLLABLE NDEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA515, name: 'VAI SYLLABLE NDEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDEE = "\u{A515}";
 
-    #[Info(id: 42262, name: 'VAI SYLLABLE SEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA516, name: 'VAI SYLLABLE SEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SEE = "\u{A516}";
 
-    #[Info(id: 42263, name: 'VAI SYLLABLE SHEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA517, name: 'VAI SYLLABLE SHEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SHEE = "\u{A517}";
 
-    #[Info(id: 42264, name: 'VAI SYLLABLE ZEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA518, name: 'VAI SYLLABLE ZEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZEE = "\u{A518}";
 
-    #[Info(id: 42265, name: 'VAI SYLLABLE ZHEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA519, name: 'VAI SYLLABLE ZHEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZHEE = "\u{A519}";
 
-    #[Info(id: 42266, name: 'VAI SYLLABLE CEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA51A, name: 'VAI SYLLABLE CEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_CEE = "\u{A51A}";
 
-    #[Info(id: 42267, name: 'VAI SYLLABLE JEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA51B, name: 'VAI SYLLABLE JEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_JEE = "\u{A51B}";
 
-    #[Info(id: 42268, name: 'VAI SYLLABLE NJEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA51C, name: 'VAI SYLLABLE NJEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NJEE = "\u{A51C}";
 
-    #[Info(id: 42269, name: 'VAI SYLLABLE YEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA51D, name: 'VAI SYLLABLE YEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_YEE = "\u{A51D}";
 
-    #[Info(id: 42270, name: 'VAI SYLLABLE KEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA51E, name: 'VAI SYLLABLE KEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KEE = "\u{A51E}";
 
-    #[Info(id: 42271, name: 'VAI SYLLABLE NGGEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA51F, name: 'VAI SYLLABLE NGGEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NGGEE = "\u{A51F}";
 
-    #[Info(id: 42272, name: 'VAI SYLLABLE GEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA520, name: 'VAI SYLLABLE GEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GEE = "\u{A520}";
 
-    #[Info(id: 42273, name: 'VAI SYLLABLE MEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA521, name: 'VAI SYLLABLE MEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MEE = "\u{A521}";
 
-    #[Info(id: 42274, name: 'VAI SYLLABLE NEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA522, name: 'VAI SYLLABLE NEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NEE = "\u{A522}";
 
-    #[Info(id: 42275, name: 'VAI SYLLABLE NYEE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA523, name: 'VAI SYLLABLE NYEE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NYEE = "\u{A523}";
 
-    #[Info(id: 42276, name: 'VAI SYLLABLE I', category: Cat::Other_Letter)]
+    #[Info(id: 0xA524, name: 'VAI SYLLABLE I', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_I = "\u{A524}";
 
-    #[Info(id: 42277, name: 'VAI SYLLABLE IN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA525, name: 'VAI SYLLABLE IN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_IN = "\u{A525}";
 
-    #[Info(id: 42278, name: 'VAI SYLLABLE HI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA526, name: 'VAI SYLLABLE HI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HI = "\u{A526}";
 
-    #[Info(id: 42279, name: 'VAI SYLLABLE HIN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA527, name: 'VAI SYLLABLE HIN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HIN = "\u{A527}";
 
-    #[Info(id: 42280, name: 'VAI SYLLABLE WI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA528, name: 'VAI SYLLABLE WI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WI = "\u{A528}";
 
-    #[Info(id: 42281, name: 'VAI SYLLABLE WIN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA529, name: 'VAI SYLLABLE WIN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WIN = "\u{A529}";
 
-    #[Info(id: 42282, name: 'VAI SYLLABLE PI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA52A, name: 'VAI SYLLABLE PI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_PI = "\u{A52A}";
 
-    #[Info(id: 42283, name: 'VAI SYLLABLE BHI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA52B, name: 'VAI SYLLABLE BHI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BHI = "\u{A52B}";
 
-    #[Info(id: 42284, name: 'VAI SYLLABLE BI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA52C, name: 'VAI SYLLABLE BI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BI = "\u{A52C}";
 
-    #[Info(id: 42285, name: 'VAI SYLLABLE MBI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA52D, name: 'VAI SYLLABLE MBI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MBI = "\u{A52D}";
 
-    #[Info(id: 42286, name: 'VAI SYLLABLE KPI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA52E, name: 'VAI SYLLABLE KPI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KPI = "\u{A52E}";
 
-    #[Info(id: 42287, name: 'VAI SYLLABLE MGBI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA52F, name: 'VAI SYLLABLE MGBI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MGBI = "\u{A52F}";
 
-    #[Info(id: 42288, name: 'VAI SYLLABLE GBI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA530, name: 'VAI SYLLABLE GBI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GBI = "\u{A530}";
 
-    #[Info(id: 42289, name: 'VAI SYLLABLE FI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA531, name: 'VAI SYLLABLE FI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_FI = "\u{A531}";
 
-    #[Info(id: 42290, name: 'VAI SYLLABLE VI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA532, name: 'VAI SYLLABLE VI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_VI = "\u{A532}";
 
-    #[Info(id: 42291, name: 'VAI SYLLABLE TI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA533, name: 'VAI SYLLABLE TI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_TI = "\u{A533}";
 
-    #[Info(id: 42292, name: 'VAI SYLLABLE THI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA534, name: 'VAI SYLLABLE THI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_THI = "\u{A534}";
 
-    #[Info(id: 42293, name: 'VAI SYLLABLE DHI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA535, name: 'VAI SYLLABLE DHI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHI = "\u{A535}";
 
-    #[Info(id: 42294, name: 'VAI SYLLABLE DHHI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA536, name: 'VAI SYLLABLE DHHI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHHI = "\u{A536}";
 
-    #[Info(id: 42295, name: 'VAI SYLLABLE LI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA537, name: 'VAI SYLLABLE LI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_LI = "\u{A537}";
 
-    #[Info(id: 42296, name: 'VAI SYLLABLE RI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA538, name: 'VAI SYLLABLE RI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_RI = "\u{A538}";
 
-    #[Info(id: 42297, name: 'VAI SYLLABLE DI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA539, name: 'VAI SYLLABLE DI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DI = "\u{A539}";
 
-    #[Info(id: 42298, name: 'VAI SYLLABLE NDI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA53A, name: 'VAI SYLLABLE NDI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDI = "\u{A53A}";
 
-    #[Info(id: 42299, name: 'VAI SYLLABLE SI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA53B, name: 'VAI SYLLABLE SI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SI = "\u{A53B}";
 
-    #[Info(id: 42300, name: 'VAI SYLLABLE SHI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA53C, name: 'VAI SYLLABLE SHI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SHI = "\u{A53C}";
 
-    #[Info(id: 42301, name: 'VAI SYLLABLE ZI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA53D, name: 'VAI SYLLABLE ZI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZI = "\u{A53D}";
 
-    #[Info(id: 42302, name: 'VAI SYLLABLE ZHI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA53E, name: 'VAI SYLLABLE ZHI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZHI = "\u{A53E}";
 
-    #[Info(id: 42303, name: 'VAI SYLLABLE CI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA53F, name: 'VAI SYLLABLE CI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_CI = "\u{A53F}";
 
-    #[Info(id: 42304, name: 'VAI SYLLABLE JI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA540, name: 'VAI SYLLABLE JI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_JI = "\u{A540}";
 
-    #[Info(id: 42305, name: 'VAI SYLLABLE NJI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA541, name: 'VAI SYLLABLE NJI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NJI = "\u{A541}";
 
-    #[Info(id: 42306, name: 'VAI SYLLABLE YI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA542, name: 'VAI SYLLABLE YI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_YI = "\u{A542}";
 
-    #[Info(id: 42307, name: 'VAI SYLLABLE KI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA543, name: 'VAI SYLLABLE KI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KI = "\u{A543}";
 
-    #[Info(id: 42308, name: 'VAI SYLLABLE NGGI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA544, name: 'VAI SYLLABLE NGGI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NGGI = "\u{A544}";
 
-    #[Info(id: 42309, name: 'VAI SYLLABLE GI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA545, name: 'VAI SYLLABLE GI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GI = "\u{A545}";
 
-    #[Info(id: 42310, name: 'VAI SYLLABLE MI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA546, name: 'VAI SYLLABLE MI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MI = "\u{A546}";
 
-    #[Info(id: 42311, name: 'VAI SYLLABLE NI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA547, name: 'VAI SYLLABLE NI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NI = "\u{A547}";
 
-    #[Info(id: 42312, name: 'VAI SYLLABLE NYI', category: Cat::Other_Letter)]
+    #[Info(id: 0xA548, name: 'VAI SYLLABLE NYI', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NYI = "\u{A548}";
 
-    #[Info(id: 42313, name: 'VAI SYLLABLE A', category: Cat::Other_Letter)]
+    #[Info(id: 0xA549, name: 'VAI SYLLABLE A', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_A = "\u{A549}";
 
-    #[Info(id: 42314, name: 'VAI SYLLABLE AN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA54A, name: 'VAI SYLLABLE AN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_AN = "\u{A54A}";
 
-    #[Info(id: 42315, name: 'VAI SYLLABLE NGAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA54B, name: 'VAI SYLLABLE NGAN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NGAN = "\u{A54B}";
 
-    #[Info(id: 42316, name: 'VAI SYLLABLE HA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA54C, name: 'VAI SYLLABLE HA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HA = "\u{A54C}";
 
-    #[Info(id: 42317, name: 'VAI SYLLABLE HAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA54D, name: 'VAI SYLLABLE HAN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HAN = "\u{A54D}";
 
-    #[Info(id: 42318, name: 'VAI SYLLABLE WA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA54E, name: 'VAI SYLLABLE WA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WA = "\u{A54E}";
 
-    #[Info(id: 42319, name: 'VAI SYLLABLE WAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA54F, name: 'VAI SYLLABLE WAN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WAN = "\u{A54F}";
 
-    #[Info(id: 42320, name: 'VAI SYLLABLE PA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA550, name: 'VAI SYLLABLE PA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_PA = "\u{A550}";
 
-    #[Info(id: 42321, name: 'VAI SYLLABLE BHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA551, name: 'VAI SYLLABLE BHA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BHA = "\u{A551}";
 
-    #[Info(id: 42322, name: 'VAI SYLLABLE BA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA552, name: 'VAI SYLLABLE BA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BA = "\u{A552}";
 
-    #[Info(id: 42323, name: 'VAI SYLLABLE MBA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA553, name: 'VAI SYLLABLE MBA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MBA = "\u{A553}";
 
-    #[Info(id: 42324, name: 'VAI SYLLABLE KPA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA554, name: 'VAI SYLLABLE KPA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KPA = "\u{A554}";
 
-    #[Info(id: 42325, name: 'VAI SYLLABLE KPAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA555, name: 'VAI SYLLABLE KPAN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KPAN = "\u{A555}";
 
-    #[Info(id: 42326, name: 'VAI SYLLABLE MGBA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA556, name: 'VAI SYLLABLE MGBA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MGBA = "\u{A556}";
 
-    #[Info(id: 42327, name: 'VAI SYLLABLE GBA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA557, name: 'VAI SYLLABLE GBA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GBA = "\u{A557}";
 
-    #[Info(id: 42328, name: 'VAI SYLLABLE FA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA558, name: 'VAI SYLLABLE FA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_FA = "\u{A558}";
 
-    #[Info(id: 42329, name: 'VAI SYLLABLE VA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA559, name: 'VAI SYLLABLE VA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_VA = "\u{A559}";
 
-    #[Info(id: 42330, name: 'VAI SYLLABLE TA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA55A, name: 'VAI SYLLABLE TA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_TA = "\u{A55A}";
 
-    #[Info(id: 42331, name: 'VAI SYLLABLE THA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA55B, name: 'VAI SYLLABLE THA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_THA = "\u{A55B}";
 
-    #[Info(id: 42332, name: 'VAI SYLLABLE DHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA55C, name: 'VAI SYLLABLE DHA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHA = "\u{A55C}";
 
-    #[Info(id: 42333, name: 'VAI SYLLABLE DHHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA55D, name: 'VAI SYLLABLE DHHA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHHA = "\u{A55D}";
 
-    #[Info(id: 42334, name: 'VAI SYLLABLE LA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA55E, name: 'VAI SYLLABLE LA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_LA = "\u{A55E}";
 
-    #[Info(id: 42335, name: 'VAI SYLLABLE RA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA55F, name: 'VAI SYLLABLE RA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_RA = "\u{A55F}";
 
-    #[Info(id: 42336, name: 'VAI SYLLABLE DA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA560, name: 'VAI SYLLABLE DA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DA = "\u{A560}";
 
-    #[Info(id: 42337, name: 'VAI SYLLABLE NDA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA561, name: 'VAI SYLLABLE NDA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDA = "\u{A561}";
 
-    #[Info(id: 42338, name: 'VAI SYLLABLE SA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA562, name: 'VAI SYLLABLE SA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SA = "\u{A562}";
 
-    #[Info(id: 42339, name: 'VAI SYLLABLE SHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA563, name: 'VAI SYLLABLE SHA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SHA = "\u{A563}";
 
-    #[Info(id: 42340, name: 'VAI SYLLABLE ZA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA564, name: 'VAI SYLLABLE ZA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZA = "\u{A564}";
 
-    #[Info(id: 42341, name: 'VAI SYLLABLE ZHA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA565, name: 'VAI SYLLABLE ZHA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZHA = "\u{A565}";
 
-    #[Info(id: 42342, name: 'VAI SYLLABLE CA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA566, name: 'VAI SYLLABLE CA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_CA = "\u{A566}";
 
-    #[Info(id: 42343, name: 'VAI SYLLABLE JA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA567, name: 'VAI SYLLABLE JA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_JA = "\u{A567}";
 
-    #[Info(id: 42344, name: 'VAI SYLLABLE NJA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA568, name: 'VAI SYLLABLE NJA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NJA = "\u{A568}";
 
-    #[Info(id: 42345, name: 'VAI SYLLABLE YA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA569, name: 'VAI SYLLABLE YA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_YA = "\u{A569}";
 
-    #[Info(id: 42346, name: 'VAI SYLLABLE KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA56A, name: 'VAI SYLLABLE KA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KA = "\u{A56A}";
 
-    #[Info(id: 42347, name: 'VAI SYLLABLE KAN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA56B, name: 'VAI SYLLABLE KAN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KAN = "\u{A56B}";
 
-    #[Info(id: 42348, name: 'VAI SYLLABLE NGGA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA56C, name: 'VAI SYLLABLE NGGA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NGGA = "\u{A56C}";
 
-    #[Info(id: 42349, name: 'VAI SYLLABLE GA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA56D, name: 'VAI SYLLABLE GA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GA = "\u{A56D}";
 
-    #[Info(id: 42350, name: 'VAI SYLLABLE MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA56E, name: 'VAI SYLLABLE MA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MA = "\u{A56E}";
 
-    #[Info(id: 42351, name: 'VAI SYLLABLE NA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA56F, name: 'VAI SYLLABLE NA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NA = "\u{A56F}";
 
-    #[Info(id: 42352, name: 'VAI SYLLABLE NYA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA570, name: 'VAI SYLLABLE NYA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NYA = "\u{A570}";
 
-    #[Info(id: 42353, name: 'VAI SYLLABLE OO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA571, name: 'VAI SYLLABLE OO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_OO = "\u{A571}";
 
-    #[Info(id: 42354, name: 'VAI SYLLABLE OON', category: Cat::Other_Letter)]
+    #[Info(id: 0xA572, name: 'VAI SYLLABLE OON', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_OON = "\u{A572}";
 
-    #[Info(id: 42355, name: 'VAI SYLLABLE HOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA573, name: 'VAI SYLLABLE HOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HOO = "\u{A573}";
 
-    #[Info(id: 42356, name: 'VAI SYLLABLE WOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA574, name: 'VAI SYLLABLE WOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WOO = "\u{A574}";
 
-    #[Info(id: 42357, name: 'VAI SYLLABLE WOON', category: Cat::Other_Letter)]
+    #[Info(id: 0xA575, name: 'VAI SYLLABLE WOON', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WOON = "\u{A575}";
 
-    #[Info(id: 42358, name: 'VAI SYLLABLE POO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA576, name: 'VAI SYLLABLE POO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_POO = "\u{A576}";
 
-    #[Info(id: 42359, name: 'VAI SYLLABLE BHOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA577, name: 'VAI SYLLABLE BHOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BHOO = "\u{A577}";
 
-    #[Info(id: 42360, name: 'VAI SYLLABLE BOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA578, name: 'VAI SYLLABLE BOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BOO = "\u{A578}";
 
-    #[Info(id: 42361, name: 'VAI SYLLABLE MBOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA579, name: 'VAI SYLLABLE MBOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MBOO = "\u{A579}";
 
-    #[Info(id: 42362, name: 'VAI SYLLABLE KPOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA57A, name: 'VAI SYLLABLE KPOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KPOO = "\u{A57A}";
 
-    #[Info(id: 42363, name: 'VAI SYLLABLE MGBOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA57B, name: 'VAI SYLLABLE MGBOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MGBOO = "\u{A57B}";
 
-    #[Info(id: 42364, name: 'VAI SYLLABLE GBOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA57C, name: 'VAI SYLLABLE GBOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GBOO = "\u{A57C}";
 
-    #[Info(id: 42365, name: 'VAI SYLLABLE FOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA57D, name: 'VAI SYLLABLE FOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_FOO = "\u{A57D}";
 
-    #[Info(id: 42366, name: 'VAI SYLLABLE VOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA57E, name: 'VAI SYLLABLE VOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_VOO = "\u{A57E}";
 
-    #[Info(id: 42367, name: 'VAI SYLLABLE TOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA57F, name: 'VAI SYLLABLE TOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_TOO = "\u{A57F}";
 
-    #[Info(id: 42368, name: 'VAI SYLLABLE THOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA580, name: 'VAI SYLLABLE THOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_THOO = "\u{A580}";
 
-    #[Info(id: 42369, name: 'VAI SYLLABLE DHOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA581, name: 'VAI SYLLABLE DHOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHOO = "\u{A581}";
 
-    #[Info(id: 42370, name: 'VAI SYLLABLE DHHOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA582, name: 'VAI SYLLABLE DHHOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHHOO = "\u{A582}";
 
-    #[Info(id: 42371, name: 'VAI SYLLABLE LOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA583, name: 'VAI SYLLABLE LOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_LOO = "\u{A583}";
 
-    #[Info(id: 42372, name: 'VAI SYLLABLE ROO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA584, name: 'VAI SYLLABLE ROO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ROO = "\u{A584}";
 
-    #[Info(id: 42373, name: 'VAI SYLLABLE DOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA585, name: 'VAI SYLLABLE DOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DOO = "\u{A585}";
 
-    #[Info(id: 42374, name: 'VAI SYLLABLE NDOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA586, name: 'VAI SYLLABLE NDOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDOO = "\u{A586}";
 
-    #[Info(id: 42375, name: 'VAI SYLLABLE SOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA587, name: 'VAI SYLLABLE SOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SOO = "\u{A587}";
 
-    #[Info(id: 42376, name: 'VAI SYLLABLE SHOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA588, name: 'VAI SYLLABLE SHOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SHOO = "\u{A588}";
 
-    #[Info(id: 42377, name: 'VAI SYLLABLE ZOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA589, name: 'VAI SYLLABLE ZOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZOO = "\u{A589}";
 
-    #[Info(id: 42378, name: 'VAI SYLLABLE ZHOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA58A, name: 'VAI SYLLABLE ZHOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZHOO = "\u{A58A}";
 
-    #[Info(id: 42379, name: 'VAI SYLLABLE COO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA58B, name: 'VAI SYLLABLE COO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_COO = "\u{A58B}";
 
-    #[Info(id: 42380, name: 'VAI SYLLABLE JOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA58C, name: 'VAI SYLLABLE JOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_JOO = "\u{A58C}";
 
-    #[Info(id: 42381, name: 'VAI SYLLABLE NJOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA58D, name: 'VAI SYLLABLE NJOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NJOO = "\u{A58D}";
 
-    #[Info(id: 42382, name: 'VAI SYLLABLE YOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA58E, name: 'VAI SYLLABLE YOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_YOO = "\u{A58E}";
 
-    #[Info(id: 42383, name: 'VAI SYLLABLE KOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA58F, name: 'VAI SYLLABLE KOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KOO = "\u{A58F}";
 
-    #[Info(id: 42384, name: 'VAI SYLLABLE NGGOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA590, name: 'VAI SYLLABLE NGGOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NGGOO = "\u{A590}";
 
-    #[Info(id: 42385, name: 'VAI SYLLABLE GOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA591, name: 'VAI SYLLABLE GOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GOO = "\u{A591}";
 
-    #[Info(id: 42386, name: 'VAI SYLLABLE MOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA592, name: 'VAI SYLLABLE MOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MOO = "\u{A592}";
 
-    #[Info(id: 42387, name: 'VAI SYLLABLE NOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA593, name: 'VAI SYLLABLE NOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NOO = "\u{A593}";
 
-    #[Info(id: 42388, name: 'VAI SYLLABLE NYOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA594, name: 'VAI SYLLABLE NYOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NYOO = "\u{A594}";
 
-    #[Info(id: 42389, name: 'VAI SYLLABLE U', category: Cat::Other_Letter)]
+    #[Info(id: 0xA595, name: 'VAI SYLLABLE U', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_U = "\u{A595}";
 
-    #[Info(id: 42390, name: 'VAI SYLLABLE UN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA596, name: 'VAI SYLLABLE UN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_UN = "\u{A596}";
 
-    #[Info(id: 42391, name: 'VAI SYLLABLE HU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA597, name: 'VAI SYLLABLE HU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HU = "\u{A597}";
 
-    #[Info(id: 42392, name: 'VAI SYLLABLE HUN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA598, name: 'VAI SYLLABLE HUN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HUN = "\u{A598}";
 
-    #[Info(id: 42393, name: 'VAI SYLLABLE WU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA599, name: 'VAI SYLLABLE WU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WU = "\u{A599}";
 
-    #[Info(id: 42394, name: 'VAI SYLLABLE WUN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA59A, name: 'VAI SYLLABLE WUN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WUN = "\u{A59A}";
 
-    #[Info(id: 42395, name: 'VAI SYLLABLE PU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA59B, name: 'VAI SYLLABLE PU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_PU = "\u{A59B}";
 
-    #[Info(id: 42396, name: 'VAI SYLLABLE BHU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA59C, name: 'VAI SYLLABLE BHU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BHU = "\u{A59C}";
 
-    #[Info(id: 42397, name: 'VAI SYLLABLE BU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA59D, name: 'VAI SYLLABLE BU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BU = "\u{A59D}";
 
-    #[Info(id: 42398, name: 'VAI SYLLABLE MBU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA59E, name: 'VAI SYLLABLE MBU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MBU = "\u{A59E}";
 
-    #[Info(id: 42399, name: 'VAI SYLLABLE KPU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA59F, name: 'VAI SYLLABLE KPU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KPU = "\u{A59F}";
 
-    #[Info(id: 42400, name: 'VAI SYLLABLE MGBU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5A0, name: 'VAI SYLLABLE MGBU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MGBU = "\u{A5A0}";
 
-    #[Info(id: 42401, name: 'VAI SYLLABLE GBU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5A1, name: 'VAI SYLLABLE GBU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GBU = "\u{A5A1}";
 
-    #[Info(id: 42402, name: 'VAI SYLLABLE FU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5A2, name: 'VAI SYLLABLE FU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_FU = "\u{A5A2}";
 
-    #[Info(id: 42403, name: 'VAI SYLLABLE VU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5A3, name: 'VAI SYLLABLE VU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_VU = "\u{A5A3}";
 
-    #[Info(id: 42404, name: 'VAI SYLLABLE TU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5A4, name: 'VAI SYLLABLE TU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_TU = "\u{A5A4}";
 
-    #[Info(id: 42405, name: 'VAI SYLLABLE THU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5A5, name: 'VAI SYLLABLE THU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_THU = "\u{A5A5}";
 
-    #[Info(id: 42406, name: 'VAI SYLLABLE DHU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5A6, name: 'VAI SYLLABLE DHU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHU = "\u{A5A6}";
 
-    #[Info(id: 42407, name: 'VAI SYLLABLE DHHU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5A7, name: 'VAI SYLLABLE DHHU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHHU = "\u{A5A7}";
 
-    #[Info(id: 42408, name: 'VAI SYLLABLE LU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5A8, name: 'VAI SYLLABLE LU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_LU = "\u{A5A8}";
 
-    #[Info(id: 42409, name: 'VAI SYLLABLE RU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5A9, name: 'VAI SYLLABLE RU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_RU = "\u{A5A9}";
 
-    #[Info(id: 42410, name: 'VAI SYLLABLE DU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5AA, name: 'VAI SYLLABLE DU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DU = "\u{A5AA}";
 
-    #[Info(id: 42411, name: 'VAI SYLLABLE NDU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5AB, name: 'VAI SYLLABLE NDU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDU = "\u{A5AB}";
 
-    #[Info(id: 42412, name: 'VAI SYLLABLE SU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5AC, name: 'VAI SYLLABLE SU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SU = "\u{A5AC}";
 
-    #[Info(id: 42413, name: 'VAI SYLLABLE SHU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5AD, name: 'VAI SYLLABLE SHU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SHU = "\u{A5AD}";
 
-    #[Info(id: 42414, name: 'VAI SYLLABLE ZU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5AE, name: 'VAI SYLLABLE ZU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZU = "\u{A5AE}";
 
-    #[Info(id: 42415, name: 'VAI SYLLABLE ZHU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5AF, name: 'VAI SYLLABLE ZHU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZHU = "\u{A5AF}";
 
-    #[Info(id: 42416, name: 'VAI SYLLABLE CU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5B0, name: 'VAI SYLLABLE CU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_CU = "\u{A5B0}";
 
-    #[Info(id: 42417, name: 'VAI SYLLABLE JU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5B1, name: 'VAI SYLLABLE JU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_JU = "\u{A5B1}";
 
-    #[Info(id: 42418, name: 'VAI SYLLABLE NJU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5B2, name: 'VAI SYLLABLE NJU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NJU = "\u{A5B2}";
 
-    #[Info(id: 42419, name: 'VAI SYLLABLE YU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5B3, name: 'VAI SYLLABLE YU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_YU = "\u{A5B3}";
 
-    #[Info(id: 42420, name: 'VAI SYLLABLE KU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5B4, name: 'VAI SYLLABLE KU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KU = "\u{A5B4}";
 
-    #[Info(id: 42421, name: 'VAI SYLLABLE NGGU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5B5, name: 'VAI SYLLABLE NGGU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NGGU = "\u{A5B5}";
 
-    #[Info(id: 42422, name: 'VAI SYLLABLE GU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5B6, name: 'VAI SYLLABLE GU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GU = "\u{A5B6}";
 
-    #[Info(id: 42423, name: 'VAI SYLLABLE MU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5B7, name: 'VAI SYLLABLE MU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MU = "\u{A5B7}";
 
-    #[Info(id: 42424, name: 'VAI SYLLABLE NU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5B8, name: 'VAI SYLLABLE NU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NU = "\u{A5B8}";
 
-    #[Info(id: 42425, name: 'VAI SYLLABLE NYU', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5B9, name: 'VAI SYLLABLE NYU', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NYU = "\u{A5B9}";
 
-    #[Info(id: 42426, name: 'VAI SYLLABLE O', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5BA, name: 'VAI SYLLABLE O', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_O = "\u{A5BA}";
 
-    #[Info(id: 42427, name: 'VAI SYLLABLE ON', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5BB, name: 'VAI SYLLABLE ON', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ON = "\u{A5BB}";
 
-    #[Info(id: 42428, name: 'VAI SYLLABLE NGON', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5BC, name: 'VAI SYLLABLE NGON', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NGON = "\u{A5BC}";
 
-    #[Info(id: 42429, name: 'VAI SYLLABLE HO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5BD, name: 'VAI SYLLABLE HO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HO = "\u{A5BD}";
 
-    #[Info(id: 42430, name: 'VAI SYLLABLE HON', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5BE, name: 'VAI SYLLABLE HON', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HON = "\u{A5BE}";
 
-    #[Info(id: 42431, name: 'VAI SYLLABLE WO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5BF, name: 'VAI SYLLABLE WO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WO = "\u{A5BF}";
 
-    #[Info(id: 42432, name: 'VAI SYLLABLE WON', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5C0, name: 'VAI SYLLABLE WON', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WON = "\u{A5C0}";
 
-    #[Info(id: 42433, name: 'VAI SYLLABLE PO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5C1, name: 'VAI SYLLABLE PO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_PO = "\u{A5C1}";
 
-    #[Info(id: 42434, name: 'VAI SYLLABLE BHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5C2, name: 'VAI SYLLABLE BHO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BHO = "\u{A5C2}";
 
-    #[Info(id: 42435, name: 'VAI SYLLABLE BO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5C3, name: 'VAI SYLLABLE BO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BO = "\u{A5C3}";
 
-    #[Info(id: 42436, name: 'VAI SYLLABLE MBO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5C4, name: 'VAI SYLLABLE MBO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MBO = "\u{A5C4}";
 
-    #[Info(id: 42437, name: 'VAI SYLLABLE KPO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5C5, name: 'VAI SYLLABLE KPO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KPO = "\u{A5C5}";
 
-    #[Info(id: 42438, name: 'VAI SYLLABLE MGBO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5C6, name: 'VAI SYLLABLE MGBO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MGBO = "\u{A5C6}";
 
-    #[Info(id: 42439, name: 'VAI SYLLABLE GBO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5C7, name: 'VAI SYLLABLE GBO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GBO = "\u{A5C7}";
 
-    #[Info(id: 42440, name: 'VAI SYLLABLE GBON', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5C8, name: 'VAI SYLLABLE GBON', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GBON = "\u{A5C8}";
 
-    #[Info(id: 42441, name: 'VAI SYLLABLE FO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5C9, name: 'VAI SYLLABLE FO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_FO = "\u{A5C9}";
 
-    #[Info(id: 42442, name: 'VAI SYLLABLE VO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5CA, name: 'VAI SYLLABLE VO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_VO = "\u{A5CA}";
 
-    #[Info(id: 42443, name: 'VAI SYLLABLE TO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5CB, name: 'VAI SYLLABLE TO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_TO = "\u{A5CB}";
 
-    #[Info(id: 42444, name: 'VAI SYLLABLE THO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5CC, name: 'VAI SYLLABLE THO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_THO = "\u{A5CC}";
 
-    #[Info(id: 42445, name: 'VAI SYLLABLE DHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5CD, name: 'VAI SYLLABLE DHO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHO = "\u{A5CD}";
 
-    #[Info(id: 42446, name: 'VAI SYLLABLE DHHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5CE, name: 'VAI SYLLABLE DHHO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHHO = "\u{A5CE}";
 
-    #[Info(id: 42447, name: 'VAI SYLLABLE LO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5CF, name: 'VAI SYLLABLE LO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_LO = "\u{A5CF}";
 
-    #[Info(id: 42448, name: 'VAI SYLLABLE RO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5D0, name: 'VAI SYLLABLE RO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_RO = "\u{A5D0}";
 
-    #[Info(id: 42449, name: 'VAI SYLLABLE DO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5D1, name: 'VAI SYLLABLE DO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DO = "\u{A5D1}";
 
-    #[Info(id: 42450, name: 'VAI SYLLABLE NDO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5D2, name: 'VAI SYLLABLE NDO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDO = "\u{A5D2}";
 
-    #[Info(id: 42451, name: 'VAI SYLLABLE SO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5D3, name: 'VAI SYLLABLE SO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SO = "\u{A5D3}";
 
-    #[Info(id: 42452, name: 'VAI SYLLABLE SHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5D4, name: 'VAI SYLLABLE SHO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SHO = "\u{A5D4}";
 
-    #[Info(id: 42453, name: 'VAI SYLLABLE ZO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5D5, name: 'VAI SYLLABLE ZO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZO = "\u{A5D5}";
 
-    #[Info(id: 42454, name: 'VAI SYLLABLE ZHO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5D6, name: 'VAI SYLLABLE ZHO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZHO = "\u{A5D6}";
 
-    #[Info(id: 42455, name: 'VAI SYLLABLE CO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5D7, name: 'VAI SYLLABLE CO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_CO = "\u{A5D7}";
 
-    #[Info(id: 42456, name: 'VAI SYLLABLE JO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5D8, name: 'VAI SYLLABLE JO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_JO = "\u{A5D8}";
 
-    #[Info(id: 42457, name: 'VAI SYLLABLE NJO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5D9, name: 'VAI SYLLABLE NJO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NJO = "\u{A5D9}";
 
-    #[Info(id: 42458, name: 'VAI SYLLABLE YO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5DA, name: 'VAI SYLLABLE YO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_YO = "\u{A5DA}";
 
-    #[Info(id: 42459, name: 'VAI SYLLABLE KO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5DB, name: 'VAI SYLLABLE KO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KO = "\u{A5DB}";
 
-    #[Info(id: 42460, name: 'VAI SYLLABLE NGGO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5DC, name: 'VAI SYLLABLE NGGO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NGGO = "\u{A5DC}";
 
-    #[Info(id: 42461, name: 'VAI SYLLABLE GO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5DD, name: 'VAI SYLLABLE GO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GO = "\u{A5DD}";
 
-    #[Info(id: 42462, name: 'VAI SYLLABLE MO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5DE, name: 'VAI SYLLABLE MO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MO = "\u{A5DE}";
 
-    #[Info(id: 42463, name: 'VAI SYLLABLE NO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5DF, name: 'VAI SYLLABLE NO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NO = "\u{A5DF}";
 
-    #[Info(id: 42464, name: 'VAI SYLLABLE NYO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5E0, name: 'VAI SYLLABLE NYO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NYO = "\u{A5E0}";
 
-    #[Info(id: 42465, name: 'VAI SYLLABLE E', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5E1, name: 'VAI SYLLABLE E', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_E = "\u{A5E1}";
 
-    #[Info(id: 42466, name: 'VAI SYLLABLE EN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5E2, name: 'VAI SYLLABLE EN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_EN = "\u{A5E2}";
 
-    #[Info(id: 42467, name: 'VAI SYLLABLE NGEN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5E3, name: 'VAI SYLLABLE NGEN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NGEN = "\u{A5E3}";
 
-    #[Info(id: 42468, name: 'VAI SYLLABLE HE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5E4, name: 'VAI SYLLABLE HE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HE = "\u{A5E4}";
 
-    #[Info(id: 42469, name: 'VAI SYLLABLE HEN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5E5, name: 'VAI SYLLABLE HEN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_HEN = "\u{A5E5}";
 
-    #[Info(id: 42470, name: 'VAI SYLLABLE WE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5E6, name: 'VAI SYLLABLE WE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WE = "\u{A5E6}";
 
-    #[Info(id: 42471, name: 'VAI SYLLABLE WEN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5E7, name: 'VAI SYLLABLE WEN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_WEN = "\u{A5E7}";
 
-    #[Info(id: 42472, name: 'VAI SYLLABLE PE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5E8, name: 'VAI SYLLABLE PE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_PE = "\u{A5E8}";
 
-    #[Info(id: 42473, name: 'VAI SYLLABLE BHE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5E9, name: 'VAI SYLLABLE BHE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BHE = "\u{A5E9}";
 
-    #[Info(id: 42474, name: 'VAI SYLLABLE BE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5EA, name: 'VAI SYLLABLE BE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_BE = "\u{A5EA}";
 
-    #[Info(id: 42475, name: 'VAI SYLLABLE MBE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5EB, name: 'VAI SYLLABLE MBE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MBE = "\u{A5EB}";
 
-    #[Info(id: 42476, name: 'VAI SYLLABLE KPE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5EC, name: 'VAI SYLLABLE KPE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KPE = "\u{A5EC}";
 
-    #[Info(id: 42477, name: 'VAI SYLLABLE KPEN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5ED, name: 'VAI SYLLABLE KPEN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KPEN = "\u{A5ED}";
 
-    #[Info(id: 42478, name: 'VAI SYLLABLE MGBE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5EE, name: 'VAI SYLLABLE MGBE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_MGBE = "\u{A5EE}";
 
-    #[Info(id: 42479, name: 'VAI SYLLABLE GBE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5EF, name: 'VAI SYLLABLE GBE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GBE = "\u{A5EF}";
 
-    #[Info(id: 42480, name: 'VAI SYLLABLE GBEN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5F0, name: 'VAI SYLLABLE GBEN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GBEN = "\u{A5F0}";
 
-    #[Info(id: 42481, name: 'VAI SYLLABLE FE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5F1, name: 'VAI SYLLABLE FE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_FE = "\u{A5F1}";
 
-    #[Info(id: 42482, name: 'VAI SYLLABLE VE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5F2, name: 'VAI SYLLABLE VE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_VE = "\u{A5F2}";
 
-    #[Info(id: 42483, name: 'VAI SYLLABLE TE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5F3, name: 'VAI SYLLABLE TE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_TE = "\u{A5F3}";
 
-    #[Info(id: 42484, name: 'VAI SYLLABLE THE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5F4, name: 'VAI SYLLABLE THE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_THE = "\u{A5F4}";
 
-    #[Info(id: 42485, name: 'VAI SYLLABLE DHE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5F5, name: 'VAI SYLLABLE DHE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHE = "\u{A5F5}";
 
-    #[Info(id: 42486, name: 'VAI SYLLABLE DHHE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5F6, name: 'VAI SYLLABLE DHHE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DHHE = "\u{A5F6}";
 
-    #[Info(id: 42487, name: 'VAI SYLLABLE LE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5F7, name: 'VAI SYLLABLE LE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_LE = "\u{A5F7}";
 
-    #[Info(id: 42488, name: 'VAI SYLLABLE RE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5F8, name: 'VAI SYLLABLE RE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_RE = "\u{A5F8}";
 
-    #[Info(id: 42489, name: 'VAI SYLLABLE DE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5F9, name: 'VAI SYLLABLE DE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_DE = "\u{A5F9}";
 
-    #[Info(id: 42490, name: 'VAI SYLLABLE NDE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5FA, name: 'VAI SYLLABLE NDE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDE = "\u{A5FA}";
 
-    #[Info(id: 42491, name: 'VAI SYLLABLE SE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5FB, name: 'VAI SYLLABLE SE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SE = "\u{A5FB}";
 
-    #[Info(id: 42492, name: 'VAI SYLLABLE SHE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5FC, name: 'VAI SYLLABLE SHE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_SHE = "\u{A5FC}";
 
-    #[Info(id: 42493, name: 'VAI SYLLABLE ZE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5FD, name: 'VAI SYLLABLE ZE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZE = "\u{A5FD}";
 
-    #[Info(id: 42494, name: 'VAI SYLLABLE ZHE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5FE, name: 'VAI SYLLABLE ZHE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ZHE = "\u{A5FE}";
 
-    #[Info(id: 42495, name: 'VAI SYLLABLE CE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA5FF, name: 'VAI SYLLABLE CE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_CE = "\u{A5FF}";
 
-    #[Info(id: 42496, name: 'VAI SYLLABLE JE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA600, name: 'VAI SYLLABLE JE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_JE = "\u{A600}";
 
-    #[Info(id: 42497, name: 'VAI SYLLABLE NJE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA601, name: 'VAI SYLLABLE NJE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NJE = "\u{A601}";
 
-    #[Info(id: 42498, name: 'VAI SYLLABLE YE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA602, name: 'VAI SYLLABLE YE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_YE = "\u{A602}";
 
-    #[Info(id: 42499, name: 'VAI SYLLABLE KE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA603, name: 'VAI SYLLABLE KE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_KE = "\u{A603}";
 
-    #[Info(id: 42500, name: 'VAI SYLLABLE NGGE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA604, name: 'VAI SYLLABLE NGGE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NGGE = "\u{A604}";
 
-    #[Info(id: 42501, name: 'VAI SYLLABLE NGGEN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA605, name: 'VAI SYLLABLE NGGEN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NGGEN = "\u{A605}";
 
-    #[Info(id: 42502, name: 'VAI SYLLABLE GE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA606, name: 'VAI SYLLABLE GE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GE = "\u{A606}";
 
-    #[Info(id: 42503, name: 'VAI SYLLABLE GEN', category: Cat::Other_Letter)]
+    #[Info(id: 0xA607, name: 'VAI SYLLABLE GEN', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_GEN = "\u{A607}";
 
-    #[Info(id: 42504, name: 'VAI SYLLABLE ME', category: Cat::Other_Letter)]
+    #[Info(id: 0xA608, name: 'VAI SYLLABLE ME', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_ME = "\u{A608}";
 
-    #[Info(id: 42505, name: 'VAI SYLLABLE NE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA609, name: 'VAI SYLLABLE NE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NE = "\u{A609}";
 
-    #[Info(id: 42506, name: 'VAI SYLLABLE NYE', category: Cat::Other_Letter)]
+    #[Info(id: 0xA60A, name: 'VAI SYLLABLE NYE', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NYE = "\u{A60A}";
 
-    #[Info(id: 42507, name: 'VAI SYLLABLE NG', category: Cat::Other_Letter)]
+    #[Info(id: 0xA60B, name: 'VAI SYLLABLE NG', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NG = "\u{A60B}";
 
-    #[Info(id: 42508, name: 'VAI SYLLABLE LENGTHENER', category: Cat::Modifier_Letter)]
+    #[Info(id: 0xA60C, name: 'VAI SYLLABLE LENGTHENER', category: Cat::Modifier_Letter)]
     case VAI_SYLLABLE_LENGTHENER = "\u{A60C}";
 
-    #[Info(id: 42509, name: 'VAI COMMA', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA60D, name: 'VAI COMMA', category: Cat::Other_Punctuation)]
     case VAI_COMMA = "\u{A60D}";
 
-    #[Info(id: 42510, name: 'VAI FULL STOP', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA60E, name: 'VAI FULL STOP', category: Cat::Other_Punctuation)]
     case VAI_FULL_STOP = "\u{A60E}";
 
-    #[Info(id: 42511, name: 'VAI QUESTION MARK', category: Cat::Other_Punctuation)]
+    #[Info(id: 0xA60F, name: 'VAI QUESTION MARK', category: Cat::Other_Punctuation)]
     case VAI_QUESTION_MARK = "\u{A60F}";
 
-    #[Info(id: 42512, name: 'VAI SYLLABLE NDOLE FA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA610, name: 'VAI SYLLABLE NDOLE FA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDOLE_FA = "\u{A610}";
 
-    #[Info(id: 42513, name: 'VAI SYLLABLE NDOLE KA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA611, name: 'VAI SYLLABLE NDOLE KA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDOLE_KA = "\u{A611}";
 
-    #[Info(id: 42514, name: 'VAI SYLLABLE NDOLE SOO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA612, name: 'VAI SYLLABLE NDOLE SOO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDOLE_SOO = "\u{A612}";
 
-    #[Info(id: 42515, name: 'VAI SYMBOL FEENG', category: Cat::Other_Letter)]
+    #[Info(id: 0xA613, name: 'VAI SYMBOL FEENG', category: Cat::Other_Letter)]
     case VAI_SYMBOL_FEENG = "\u{A613}";
 
-    #[Info(id: 42516, name: 'VAI SYMBOL KEENG', category: Cat::Other_Letter)]
+    #[Info(id: 0xA614, name: 'VAI SYMBOL KEENG', category: Cat::Other_Letter)]
     case VAI_SYMBOL_KEENG = "\u{A614}";
 
-    #[Info(id: 42517, name: 'VAI SYMBOL TING', category: Cat::Other_Letter)]
+    #[Info(id: 0xA615, name: 'VAI SYMBOL TING', category: Cat::Other_Letter)]
     case VAI_SYMBOL_TING = "\u{A615}";
 
-    #[Info(id: 42518, name: 'VAI SYMBOL NII', category: Cat::Other_Letter)]
+    #[Info(id: 0xA616, name: 'VAI SYMBOL NII', category: Cat::Other_Letter)]
     case VAI_SYMBOL_NII = "\u{A616}";
 
-    #[Info(id: 42519, name: 'VAI SYMBOL BANG', category: Cat::Other_Letter)]
+    #[Info(id: 0xA617, name: 'VAI SYMBOL BANG', category: Cat::Other_Letter)]
     case VAI_SYMBOL_BANG = "\u{A617}";
 
-    #[Info(id: 42520, name: 'VAI SYMBOL FAA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA618, name: 'VAI SYMBOL FAA', category: Cat::Other_Letter)]
     case VAI_SYMBOL_FAA = "\u{A618}";
 
-    #[Info(id: 42521, name: 'VAI SYMBOL TAA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA619, name: 'VAI SYMBOL TAA', category: Cat::Other_Letter)]
     case VAI_SYMBOL_TAA = "\u{A619}";
 
-    #[Info(id: 42522, name: 'VAI SYMBOL DANG', category: Cat::Other_Letter)]
+    #[Info(id: 0xA61A, name: 'VAI SYMBOL DANG', category: Cat::Other_Letter)]
     case VAI_SYMBOL_DANG = "\u{A61A}";
 
-    #[Info(id: 42523, name: 'VAI SYMBOL DOONG', category: Cat::Other_Letter)]
+    #[Info(id: 0xA61B, name: 'VAI SYMBOL DOONG', category: Cat::Other_Letter)]
     case VAI_SYMBOL_DOONG = "\u{A61B}";
 
-    #[Info(id: 42524, name: 'VAI SYMBOL KUNG', category: Cat::Other_Letter)]
+    #[Info(id: 0xA61C, name: 'VAI SYMBOL KUNG', category: Cat::Other_Letter)]
     case VAI_SYMBOL_KUNG = "\u{A61C}";
 
-    #[Info(id: 42525, name: 'VAI SYMBOL TONG', category: Cat::Other_Letter)]
+    #[Info(id: 0xA61D, name: 'VAI SYMBOL TONG', category: Cat::Other_Letter)]
     case VAI_SYMBOL_TONG = "\u{A61D}";
 
-    #[Info(id: 42526, name: 'VAI SYMBOL DO-O', category: Cat::Other_Letter)]
+    #[Info(id: 0xA61E, name: 'VAI SYMBOL DO-O', category: Cat::Other_Letter)]
     case VAI_SYMBOL_DO_O = "\u{A61E}";
 
-    #[Info(id: 42527, name: 'VAI SYMBOL JONG', category: Cat::Other_Letter)]
+    #[Info(id: 0xA61F, name: 'VAI SYMBOL JONG', category: Cat::Other_Letter)]
     case VAI_SYMBOL_JONG = "\u{A61F}";
 
-    #[Info(id: 42528, name: 'VAI DIGIT ZERO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA620, name: 'VAI DIGIT ZERO', category: Cat::Decimal_Number)]
     case VAI_DIGIT_ZERO = "\u{A620}";
 
-    #[Info(id: 42529, name: 'VAI DIGIT ONE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA621, name: 'VAI DIGIT ONE', category: Cat::Decimal_Number)]
     case VAI_DIGIT_ONE = "\u{A621}";
 
-    #[Info(id: 42530, name: 'VAI DIGIT TWO', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA622, name: 'VAI DIGIT TWO', category: Cat::Decimal_Number)]
     case VAI_DIGIT_TWO = "\u{A622}";
 
-    #[Info(id: 42531, name: 'VAI DIGIT THREE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA623, name: 'VAI DIGIT THREE', category: Cat::Decimal_Number)]
     case VAI_DIGIT_THREE = "\u{A623}";
 
-    #[Info(id: 42532, name: 'VAI DIGIT FOUR', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA624, name: 'VAI DIGIT FOUR', category: Cat::Decimal_Number)]
     case VAI_DIGIT_FOUR = "\u{A624}";
 
-    #[Info(id: 42533, name: 'VAI DIGIT FIVE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA625, name: 'VAI DIGIT FIVE', category: Cat::Decimal_Number)]
     case VAI_DIGIT_FIVE = "\u{A625}";
 
-    #[Info(id: 42534, name: 'VAI DIGIT SIX', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA626, name: 'VAI DIGIT SIX', category: Cat::Decimal_Number)]
     case VAI_DIGIT_SIX = "\u{A626}";
 
-    #[Info(id: 42535, name: 'VAI DIGIT SEVEN', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA627, name: 'VAI DIGIT SEVEN', category: Cat::Decimal_Number)]
     case VAI_DIGIT_SEVEN = "\u{A627}";
 
-    #[Info(id: 42536, name: 'VAI DIGIT EIGHT', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA628, name: 'VAI DIGIT EIGHT', category: Cat::Decimal_Number)]
     case VAI_DIGIT_EIGHT = "\u{A628}";
 
-    #[Info(id: 42537, name: 'VAI DIGIT NINE', category: Cat::Decimal_Number)]
+    #[Info(id: 0xA629, name: 'VAI DIGIT NINE', category: Cat::Decimal_Number)]
     case VAI_DIGIT_NINE = "\u{A629}";
 
-    #[Info(id: 42538, name: 'VAI SYLLABLE NDOLE MA', category: Cat::Other_Letter)]
+    #[Info(id: 0xA62A, name: 'VAI SYLLABLE NDOLE MA', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDOLE_MA = "\u{A62A}";
 
-    #[Info(id: 42539, name: 'VAI SYLLABLE NDOLE DO', category: Cat::Other_Letter)]
+    #[Info(id: 0xA62B, name: 'VAI SYLLABLE NDOLE DO', category: Cat::Other_Letter)]
     case VAI_SYLLABLE_NDOLE_DO = "\u{A62B}";
 }

@@ -16,312 +16,312 @@ use MLUnipoints\Info\UnicodeInfo;
 #[UnicodeInfo(unicodeVersion: '15.1.0')]
 enum Geometric_Shapes_Extended: string
 {
-    #[Info(id: 128896, name: 'BLACK LEFT-POINTING ISOSCELES RIGHT TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F780, name: 'BLACK LEFT-POINTING ISOSCELES RIGHT TRIANGLE', category: Cat::Other_Symbol)]
     case BLACK_LEFT_POINTING_ISOSCELES_RIGHT_TRIANGLE = "\u{1F780}";
 
-    #[Info(id: 128897, name: 'BLACK UP-POINTING ISOSCELES RIGHT TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F781, name: 'BLACK UP-POINTING ISOSCELES RIGHT TRIANGLE', category: Cat::Other_Symbol)]
     case BLACK_UP_POINTING_ISOSCELES_RIGHT_TRIANGLE = "\u{1F781}";
 
-    #[Info(id: 128898, name: 'BLACK RIGHT-POINTING ISOSCELES RIGHT TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F782, name: 'BLACK RIGHT-POINTING ISOSCELES RIGHT TRIANGLE', category: Cat::Other_Symbol)]
     case BLACK_RIGHT_POINTING_ISOSCELES_RIGHT_TRIANGLE = "\u{1F782}";
 
-    #[Info(id: 128899, name: 'BLACK DOWN-POINTING ISOSCELES RIGHT TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F783, name: 'BLACK DOWN-POINTING ISOSCELES RIGHT TRIANGLE', category: Cat::Other_Symbol)]
     case BLACK_DOWN_POINTING_ISOSCELES_RIGHT_TRIANGLE = "\u{1F783}";
 
-    #[Info(id: 128900, name: 'BLACK SLIGHTLY SMALL CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F784, name: 'BLACK SLIGHTLY SMALL CIRCLE', category: Cat::Other_Symbol)]
     case BLACK_SLIGHTLY_SMALL_CIRCLE = "\u{1F784}";
 
-    #[Info(id: 128901, name: 'MEDIUM BOLD WHITE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F785, name: 'MEDIUM BOLD WHITE CIRCLE', category: Cat::Other_Symbol)]
     case MEDIUM_BOLD_WHITE_CIRCLE = "\u{1F785}";
 
-    #[Info(id: 128902, name: 'BOLD WHITE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F786, name: 'BOLD WHITE CIRCLE', category: Cat::Other_Symbol)]
     case BOLD_WHITE_CIRCLE = "\u{1F786}";
 
-    #[Info(id: 128903, name: 'HEAVY WHITE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F787, name: 'HEAVY WHITE CIRCLE', category: Cat::Other_Symbol)]
     case HEAVY_WHITE_CIRCLE = "\u{1F787}";
 
-    #[Info(id: 128904, name: 'VERY HEAVY WHITE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F788, name: 'VERY HEAVY WHITE CIRCLE', category: Cat::Other_Symbol)]
     case VERY_HEAVY_WHITE_CIRCLE = "\u{1F788}";
 
-    #[Info(id: 128905, name: 'EXTREMELY HEAVY WHITE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F789, name: 'EXTREMELY HEAVY WHITE CIRCLE', category: Cat::Other_Symbol)]
     case EXTREMELY_HEAVY_WHITE_CIRCLE = "\u{1F789}";
 
-    #[Info(id: 128906, name: 'WHITE CIRCLE CONTAINING BLACK SMALL CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F78A, name: 'WHITE CIRCLE CONTAINING BLACK SMALL CIRCLE', category: Cat::Other_Symbol)]
     case WHITE_CIRCLE_CONTAINING_BLACK_SMALL_CIRCLE = "\u{1F78A}";
 
-    #[Info(id: 128907, name: 'ROUND TARGET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F78B, name: 'ROUND TARGET', category: Cat::Other_Symbol)]
     case ROUND_TARGET = "\u{1F78B}";
 
-    #[Info(id: 128908, name: 'BLACK TINY SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F78C, name: 'BLACK TINY SQUARE', category: Cat::Other_Symbol)]
     case BLACK_TINY_SQUARE = "\u{1F78C}";
 
-    #[Info(id: 128909, name: 'BLACK SLIGHTLY SMALL SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F78D, name: 'BLACK SLIGHTLY SMALL SQUARE', category: Cat::Other_Symbol)]
     case BLACK_SLIGHTLY_SMALL_SQUARE = "\u{1F78D}";
 
-    #[Info(id: 128910, name: 'LIGHT WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F78E, name: 'LIGHT WHITE SQUARE', category: Cat::Other_Symbol)]
     case LIGHT_WHITE_SQUARE = "\u{1F78E}";
 
-    #[Info(id: 128911, name: 'MEDIUM WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F78F, name: 'MEDIUM WHITE SQUARE', category: Cat::Other_Symbol)]
     case MEDIUM_WHITE_SQUARE = "\u{1F78F}";
 
-    #[Info(id: 128912, name: 'BOLD WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F790, name: 'BOLD WHITE SQUARE', category: Cat::Other_Symbol)]
     case BOLD_WHITE_SQUARE = "\u{1F790}";
 
-    #[Info(id: 128913, name: 'HEAVY WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F791, name: 'HEAVY WHITE SQUARE', category: Cat::Other_Symbol)]
     case HEAVY_WHITE_SQUARE = "\u{1F791}";
 
-    #[Info(id: 128914, name: 'VERY HEAVY WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F792, name: 'VERY HEAVY WHITE SQUARE', category: Cat::Other_Symbol)]
     case VERY_HEAVY_WHITE_SQUARE = "\u{1F792}";
 
-    #[Info(id: 128915, name: 'EXTREMELY HEAVY WHITE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F793, name: 'EXTREMELY HEAVY WHITE SQUARE', category: Cat::Other_Symbol)]
     case EXTREMELY_HEAVY_WHITE_SQUARE = "\u{1F793}";
 
-    #[Info(id: 128916, name: 'WHITE SQUARE CONTAINING BLACK VERY SMALL SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F794, name: 'WHITE SQUARE CONTAINING BLACK VERY SMALL SQUARE', category: Cat::Other_Symbol)]
     case WHITE_SQUARE_CONTAINING_BLACK_VERY_SMALL_SQUARE = "\u{1F794}";
 
-    #[Info(id: 128917, name: 'WHITE SQUARE CONTAINING BLACK MEDIUM SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F795, name: 'WHITE SQUARE CONTAINING BLACK MEDIUM SQUARE', category: Cat::Other_Symbol)]
     case WHITE_SQUARE_CONTAINING_BLACK_MEDIUM_SQUARE = "\u{1F795}";
 
-    #[Info(id: 128918, name: 'SQUARE TARGET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F796, name: 'SQUARE TARGET', category: Cat::Other_Symbol)]
     case SQUARE_TARGET = "\u{1F796}";
 
-    #[Info(id: 128919, name: 'BLACK TINY DIAMOND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F797, name: 'BLACK TINY DIAMOND', category: Cat::Other_Symbol)]
     case BLACK_TINY_DIAMOND = "\u{1F797}";
 
-    #[Info(id: 128920, name: 'BLACK VERY SMALL DIAMOND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F798, name: 'BLACK VERY SMALL DIAMOND', category: Cat::Other_Symbol)]
     case BLACK_VERY_SMALL_DIAMOND = "\u{1F798}";
 
-    #[Info(id: 128921, name: 'BLACK MEDIUM SMALL DIAMOND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F799, name: 'BLACK MEDIUM SMALL DIAMOND', category: Cat::Other_Symbol)]
     case BLACK_MEDIUM_SMALL_DIAMOND = "\u{1F799}";
 
-    #[Info(id: 128922, name: 'WHITE DIAMOND CONTAINING BLACK VERY SMALL DIAMOND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F79A, name: 'WHITE DIAMOND CONTAINING BLACK VERY SMALL DIAMOND', category: Cat::Other_Symbol)]
     case WHITE_DIAMOND_CONTAINING_BLACK_VERY_SMALL_DIAMOND = "\u{1F79A}";
 
-    #[Info(id: 128923, name: 'WHITE DIAMOND CONTAINING BLACK MEDIUM DIAMOND', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F79B, name: 'WHITE DIAMOND CONTAINING BLACK MEDIUM DIAMOND', category: Cat::Other_Symbol)]
     case WHITE_DIAMOND_CONTAINING_BLACK_MEDIUM_DIAMOND = "\u{1F79B}";
 
-    #[Info(id: 128924, name: 'DIAMOND TARGET', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F79C, name: 'DIAMOND TARGET', category: Cat::Other_Symbol)]
     case DIAMOND_TARGET = "\u{1F79C}";
 
-    #[Info(id: 128925, name: 'BLACK TINY LOZENGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F79D, name: 'BLACK TINY LOZENGE', category: Cat::Other_Symbol)]
     case BLACK_TINY_LOZENGE = "\u{1F79D}";
 
-    #[Info(id: 128926, name: 'BLACK VERY SMALL LOZENGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F79E, name: 'BLACK VERY SMALL LOZENGE', category: Cat::Other_Symbol)]
     case BLACK_VERY_SMALL_LOZENGE = "\u{1F79E}";
 
-    #[Info(id: 128927, name: 'BLACK MEDIUM SMALL LOZENGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F79F, name: 'BLACK MEDIUM SMALL LOZENGE', category: Cat::Other_Symbol)]
     case BLACK_MEDIUM_SMALL_LOZENGE = "\u{1F79F}";
 
-    #[Info(id: 128928, name: 'WHITE LOZENGE CONTAINING BLACK SMALL LOZENGE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7A0, name: 'WHITE LOZENGE CONTAINING BLACK SMALL LOZENGE', category: Cat::Other_Symbol)]
     case WHITE_LOZENGE_CONTAINING_BLACK_SMALL_LOZENGE = "\u{1F7A0}";
 
-    #[Info(id: 128929, name: 'THIN GREEK CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7A1, name: 'THIN GREEK CROSS', category: Cat::Other_Symbol)]
     case THIN_GREEK_CROSS = "\u{1F7A1}";
 
-    #[Info(id: 128930, name: 'LIGHT GREEK CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7A2, name: 'LIGHT GREEK CROSS', category: Cat::Other_Symbol)]
     case LIGHT_GREEK_CROSS = "\u{1F7A2}";
 
-    #[Info(id: 128931, name: 'MEDIUM GREEK CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7A3, name: 'MEDIUM GREEK CROSS', category: Cat::Other_Symbol)]
     case MEDIUM_GREEK_CROSS = "\u{1F7A3}";
 
-    #[Info(id: 128932, name: 'BOLD GREEK CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7A4, name: 'BOLD GREEK CROSS', category: Cat::Other_Symbol)]
     case BOLD_GREEK_CROSS = "\u{1F7A4}";
 
-    #[Info(id: 128933, name: 'VERY BOLD GREEK CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7A5, name: 'VERY BOLD GREEK CROSS', category: Cat::Other_Symbol)]
     case VERY_BOLD_GREEK_CROSS = "\u{1F7A5}";
 
-    #[Info(id: 128934, name: 'VERY HEAVY GREEK CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7A6, name: 'VERY HEAVY GREEK CROSS', category: Cat::Other_Symbol)]
     case VERY_HEAVY_GREEK_CROSS = "\u{1F7A6}";
 
-    #[Info(id: 128935, name: 'EXTREMELY HEAVY GREEK CROSS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7A7, name: 'EXTREMELY HEAVY GREEK CROSS', category: Cat::Other_Symbol)]
     case EXTREMELY_HEAVY_GREEK_CROSS = "\u{1F7A7}";
 
-    #[Info(id: 128936, name: 'THIN SALTIRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7A8, name: 'THIN SALTIRE', category: Cat::Other_Symbol)]
     case THIN_SALTIRE = "\u{1F7A8}";
 
-    #[Info(id: 128937, name: 'LIGHT SALTIRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7A9, name: 'LIGHT SALTIRE', category: Cat::Other_Symbol)]
     case LIGHT_SALTIRE = "\u{1F7A9}";
 
-    #[Info(id: 128938, name: 'MEDIUM SALTIRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7AA, name: 'MEDIUM SALTIRE', category: Cat::Other_Symbol)]
     case MEDIUM_SALTIRE = "\u{1F7AA}";
 
-    #[Info(id: 128939, name: 'BOLD SALTIRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7AB, name: 'BOLD SALTIRE', category: Cat::Other_Symbol)]
     case BOLD_SALTIRE = "\u{1F7AB}";
 
-    #[Info(id: 128940, name: 'HEAVY SALTIRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7AC, name: 'HEAVY SALTIRE', category: Cat::Other_Symbol)]
     case HEAVY_SALTIRE = "\u{1F7AC}";
 
-    #[Info(id: 128941, name: 'VERY HEAVY SALTIRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7AD, name: 'VERY HEAVY SALTIRE', category: Cat::Other_Symbol)]
     case VERY_HEAVY_SALTIRE = "\u{1F7AD}";
 
-    #[Info(id: 128942, name: 'EXTREMELY HEAVY SALTIRE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7AE, name: 'EXTREMELY HEAVY SALTIRE', category: Cat::Other_Symbol)]
     case EXTREMELY_HEAVY_SALTIRE = "\u{1F7AE}";
 
-    #[Info(id: 128943, name: 'LIGHT FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7AF, name: 'LIGHT FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case LIGHT_FIVE_SPOKED_ASTERISK = "\u{1F7AF}";
 
-    #[Info(id: 128944, name: 'MEDIUM FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7B0, name: 'MEDIUM FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case MEDIUM_FIVE_SPOKED_ASTERISK = "\u{1F7B0}";
 
-    #[Info(id: 128945, name: 'BOLD FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7B1, name: 'BOLD FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case BOLD_FIVE_SPOKED_ASTERISK = "\u{1F7B1}";
 
-    #[Info(id: 128946, name: 'HEAVY FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7B2, name: 'HEAVY FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case HEAVY_FIVE_SPOKED_ASTERISK = "\u{1F7B2}";
 
-    #[Info(id: 128947, name: 'VERY HEAVY FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7B3, name: 'VERY HEAVY FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case VERY_HEAVY_FIVE_SPOKED_ASTERISK = "\u{1F7B3}";
 
-    #[Info(id: 128948, name: 'EXTREMELY HEAVY FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7B4, name: 'EXTREMELY HEAVY FIVE SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case EXTREMELY_HEAVY_FIVE_SPOKED_ASTERISK = "\u{1F7B4}";
 
-    #[Info(id: 128949, name: 'LIGHT SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7B5, name: 'LIGHT SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case LIGHT_SIX_SPOKED_ASTERISK = "\u{1F7B5}";
 
-    #[Info(id: 128950, name: 'MEDIUM SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7B6, name: 'MEDIUM SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case MEDIUM_SIX_SPOKED_ASTERISK = "\u{1F7B6}";
 
-    #[Info(id: 128951, name: 'BOLD SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7B7, name: 'BOLD SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case BOLD_SIX_SPOKED_ASTERISK = "\u{1F7B7}";
 
-    #[Info(id: 128952, name: 'HEAVY SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7B8, name: 'HEAVY SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case HEAVY_SIX_SPOKED_ASTERISK = "\u{1F7B8}";
 
-    #[Info(id: 128953, name: 'VERY HEAVY SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7B9, name: 'VERY HEAVY SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case VERY_HEAVY_SIX_SPOKED_ASTERISK = "\u{1F7B9}";
 
-    #[Info(id: 128954, name: 'EXTREMELY HEAVY SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7BA, name: 'EXTREMELY HEAVY SIX SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case EXTREMELY_HEAVY_SIX_SPOKED_ASTERISK = "\u{1F7BA}";
 
-    #[Info(id: 128955, name: 'LIGHT EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7BB, name: 'LIGHT EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case LIGHT_EIGHT_SPOKED_ASTERISK = "\u{1F7BB}";
 
-    #[Info(id: 128956, name: 'MEDIUM EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7BC, name: 'MEDIUM EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case MEDIUM_EIGHT_SPOKED_ASTERISK = "\u{1F7BC}";
 
-    #[Info(id: 128957, name: 'BOLD EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7BD, name: 'BOLD EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case BOLD_EIGHT_SPOKED_ASTERISK = "\u{1F7BD}";
 
-    #[Info(id: 128958, name: 'HEAVY EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7BE, name: 'HEAVY EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case HEAVY_EIGHT_SPOKED_ASTERISK = "\u{1F7BE}";
 
-    #[Info(id: 128959, name: 'VERY HEAVY EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7BF, name: 'VERY HEAVY EIGHT SPOKED ASTERISK', category: Cat::Other_Symbol)]
     case VERY_HEAVY_EIGHT_SPOKED_ASTERISK = "\u{1F7BF}";
 
-    #[Info(id: 128960, name: 'LIGHT THREE POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7C0, name: 'LIGHT THREE POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case LIGHT_THREE_POINTED_BLACK_STAR = "\u{1F7C0}";
 
-    #[Info(id: 128961, name: 'MEDIUM THREE POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7C1, name: 'MEDIUM THREE POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case MEDIUM_THREE_POINTED_BLACK_STAR = "\u{1F7C1}";
 
-    #[Info(id: 128962, name: 'THREE POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7C2, name: 'THREE POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case THREE_POINTED_BLACK_STAR = "\u{1F7C2}";
 
-    #[Info(id: 128963, name: 'MEDIUM THREE POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7C3, name: 'MEDIUM THREE POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
     case MEDIUM_THREE_POINTED_PINWHEEL_STAR = "\u{1F7C3}";
 
-    #[Info(id: 128964, name: 'LIGHT FOUR POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7C4, name: 'LIGHT FOUR POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case LIGHT_FOUR_POINTED_BLACK_STAR = "\u{1F7C4}";
 
-    #[Info(id: 128965, name: 'MEDIUM FOUR POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7C5, name: 'MEDIUM FOUR POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case MEDIUM_FOUR_POINTED_BLACK_STAR = "\u{1F7C5}";
 
-    #[Info(id: 128966, name: 'FOUR POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7C6, name: 'FOUR POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case FOUR_POINTED_BLACK_STAR = "\u{1F7C6}";
 
-    #[Info(id: 128967, name: 'MEDIUM FOUR POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7C7, name: 'MEDIUM FOUR POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
     case MEDIUM_FOUR_POINTED_PINWHEEL_STAR = "\u{1F7C7}";
 
-    #[Info(id: 128968, name: 'REVERSE LIGHT FOUR POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7C8, name: 'REVERSE LIGHT FOUR POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
     case REVERSE_LIGHT_FOUR_POINTED_PINWHEEL_STAR = "\u{1F7C8}";
 
-    #[Info(id: 128969, name: 'LIGHT FIVE POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7C9, name: 'LIGHT FIVE POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case LIGHT_FIVE_POINTED_BLACK_STAR = "\u{1F7C9}";
 
-    #[Info(id: 128970, name: 'HEAVY FIVE POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7CA, name: 'HEAVY FIVE POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case HEAVY_FIVE_POINTED_BLACK_STAR = "\u{1F7CA}";
 
-    #[Info(id: 128971, name: 'MEDIUM SIX POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7CB, name: 'MEDIUM SIX POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case MEDIUM_SIX_POINTED_BLACK_STAR = "\u{1F7CB}";
 
-    #[Info(id: 128972, name: 'HEAVY SIX POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7CC, name: 'HEAVY SIX POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case HEAVY_SIX_POINTED_BLACK_STAR = "\u{1F7CC}";
 
-    #[Info(id: 128973, name: 'SIX POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7CD, name: 'SIX POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
     case SIX_POINTED_PINWHEEL_STAR = "\u{1F7CD}";
 
-    #[Info(id: 128974, name: 'MEDIUM EIGHT POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7CE, name: 'MEDIUM EIGHT POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case MEDIUM_EIGHT_POINTED_BLACK_STAR = "\u{1F7CE}";
 
-    #[Info(id: 128975, name: 'HEAVY EIGHT POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7CF, name: 'HEAVY EIGHT POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case HEAVY_EIGHT_POINTED_BLACK_STAR = "\u{1F7CF}";
 
-    #[Info(id: 128976, name: 'VERY HEAVY EIGHT POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7D0, name: 'VERY HEAVY EIGHT POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case VERY_HEAVY_EIGHT_POINTED_BLACK_STAR = "\u{1F7D0}";
 
-    #[Info(id: 128977, name: 'HEAVY EIGHT POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7D1, name: 'HEAVY EIGHT POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
     case HEAVY_EIGHT_POINTED_PINWHEEL_STAR = "\u{1F7D1}";
 
-    #[Info(id: 128978, name: 'LIGHT TWELVE POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7D2, name: 'LIGHT TWELVE POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case LIGHT_TWELVE_POINTED_BLACK_STAR = "\u{1F7D2}";
 
-    #[Info(id: 128979, name: 'HEAVY TWELVE POINTED BLACK STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7D3, name: 'HEAVY TWELVE POINTED BLACK STAR', category: Cat::Other_Symbol)]
     case HEAVY_TWELVE_POINTED_BLACK_STAR = "\u{1F7D3}";
 
-    #[Info(id: 128980, name: 'HEAVY TWELVE POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7D4, name: 'HEAVY TWELVE POINTED PINWHEEL STAR', category: Cat::Other_Symbol)]
     case HEAVY_TWELVE_POINTED_PINWHEEL_STAR = "\u{1F7D4}";
 
-    #[Info(id: 128981, name: 'CIRCLED TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7D5, name: 'CIRCLED TRIANGLE', category: Cat::Other_Symbol)]
     case CIRCLED_TRIANGLE = "\u{1F7D5}";
 
-    #[Info(id: 128982, name: 'NEGATIVE CIRCLED TRIANGLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7D6, name: 'NEGATIVE CIRCLED TRIANGLE', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_TRIANGLE = "\u{1F7D6}";
 
-    #[Info(id: 128983, name: 'CIRCLED SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7D7, name: 'CIRCLED SQUARE', category: Cat::Other_Symbol)]
     case CIRCLED_SQUARE = "\u{1F7D7}";
 
-    #[Info(id: 128984, name: 'NEGATIVE CIRCLED SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7D8, name: 'NEGATIVE CIRCLED SQUARE', category: Cat::Other_Symbol)]
     case NEGATIVE_CIRCLED_SQUARE = "\u{1F7D8}";
 
-    #[Info(id: 128985, name: 'NINE POINTED WHITE STAR', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7D9, name: 'NINE POINTED WHITE STAR', category: Cat::Other_Symbol)]
     case NINE_POINTED_WHITE_STAR = "\u{1F7D9}";
 
-    #[Info(id: 128992, name: 'LARGE ORANGE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7E0, name: 'LARGE ORANGE CIRCLE', category: Cat::Other_Symbol)]
     case LARGE_ORANGE_CIRCLE = "\u{1F7E0}";
 
-    #[Info(id: 128993, name: 'LARGE YELLOW CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7E1, name: 'LARGE YELLOW CIRCLE', category: Cat::Other_Symbol)]
     case LARGE_YELLOW_CIRCLE = "\u{1F7E1}";
 
-    #[Info(id: 128994, name: 'LARGE GREEN CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7E2, name: 'LARGE GREEN CIRCLE', category: Cat::Other_Symbol)]
     case LARGE_GREEN_CIRCLE = "\u{1F7E2}";
 
-    #[Info(id: 128995, name: 'LARGE PURPLE CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7E3, name: 'LARGE PURPLE CIRCLE', category: Cat::Other_Symbol)]
     case LARGE_PURPLE_CIRCLE = "\u{1F7E3}";
 
-    #[Info(id: 128996, name: 'LARGE BROWN CIRCLE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7E4, name: 'LARGE BROWN CIRCLE', category: Cat::Other_Symbol)]
     case LARGE_BROWN_CIRCLE = "\u{1F7E4}";
 
-    #[Info(id: 128997, name: 'LARGE RED SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7E5, name: 'LARGE RED SQUARE', category: Cat::Other_Symbol)]
     case LARGE_RED_SQUARE = "\u{1F7E5}";
 
-    #[Info(id: 128998, name: 'LARGE BLUE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7E6, name: 'LARGE BLUE SQUARE', category: Cat::Other_Symbol)]
     case LARGE_BLUE_SQUARE = "\u{1F7E6}";
 
-    #[Info(id: 128999, name: 'LARGE ORANGE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7E7, name: 'LARGE ORANGE SQUARE', category: Cat::Other_Symbol)]
     case LARGE_ORANGE_SQUARE = "\u{1F7E7}";
 
-    #[Info(id: 129000, name: 'LARGE YELLOW SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7E8, name: 'LARGE YELLOW SQUARE', category: Cat::Other_Symbol)]
     case LARGE_YELLOW_SQUARE = "\u{1F7E8}";
 
-    #[Info(id: 129001, name: 'LARGE GREEN SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7E9, name: 'LARGE GREEN SQUARE', category: Cat::Other_Symbol)]
     case LARGE_GREEN_SQUARE = "\u{1F7E9}";
 
-    #[Info(id: 129002, name: 'LARGE PURPLE SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7EA, name: 'LARGE PURPLE SQUARE', category: Cat::Other_Symbol)]
     case LARGE_PURPLE_SQUARE = "\u{1F7EA}";
 
-    #[Info(id: 129003, name: 'LARGE BROWN SQUARE', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7EB, name: 'LARGE BROWN SQUARE', category: Cat::Other_Symbol)]
     case LARGE_BROWN_SQUARE = "\u{1F7EB}";
 
-    #[Info(id: 129008, name: 'HEAVY EQUALS SIGN', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1F7F0, name: 'HEAVY EQUALS SIGN', category: Cat::Other_Symbol)]
     case HEAVY_EQUALS_SIGN = "\u{1F7F0}";
 }
