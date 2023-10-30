@@ -7,6 +7,7 @@ use MLUnipoints\Block;
 use MLUnipoints\Build\BlocksBuilder;
 use MLUnipoints\Build\CodepointsBuilder;
 use MLUnipoints\Build\DataStorage;
+use MLUnipoints\Build\Filesystem;
 use MLUnipoints\Build\UserMessageException;
 use MLUnipoints\Codepoint;
 use MLUnipoints\Info\UnicodeInfo;
@@ -37,6 +38,16 @@ foreach ([__DIR__ . '/../../../autoload.php', __DIR__ . '/../../vendor/autoload.
         require_once $file;
         break;
     }
+}
+
+function deleteCodepointDirectory(): void
+{
+    $path = realpath(__DIR__ . '/../src/Codepoint');
+    if ($path === false || !is_dir($path)) {
+        return;
+    }
+    $filesystem = new Filesystem();
+    $filesystem->delete($path);
 }
 
 function showSyntax(string $name): void
@@ -105,11 +116,14 @@ function checkNewerUnicodeVersion(): int
 function build(string $unicodeVersion): int
 {
     echo "Building data from Unicode v{$unicodeVersion}\n";
-    echo 'Building blocks... ';
+    echo '- deleting src/Unipoints directory... ';
+    deleteCodepointDirectory();
+    echo "done.\n";
+    echo '- building blocks... ';
     $blocksBuilder = new BlocksBuilder(unicodeVersion: $unicodeVersion);
     $blocksBuilder->saveBlocks();
     echo "done.\n";
-    echo 'Building codepoints... ';
+    echo '- building codepoints... ';
     $codepointsBuilder = new CodepointsBuilder(unicodeVersion: $unicodeVersion, blocksBuilder: $blocksBuilder);
     $codepointsBuilder->saveAllCodepoints();
     echo "done.\n";
