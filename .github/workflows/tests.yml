@@ -39,6 +39,12 @@ jobs:
           coverage: none
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Cache PHP-CS-Fixer
+        if: matrix.check-cs
+        uses: actions/cache@v3
+        with:
+          path: .php-cs-fixer.cache
+          key: ${{ runner.os }}-${{ matrix.php-version }}-phpcsfixer
       - name: Install Composer dependencies
         run: composer update --optimize-autoloader --no-progress --ansi --no-interaction
       - name: Build
