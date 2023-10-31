@@ -40,7 +40,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install Composer dependencies
-        run: composer update --optimize-autoloader --no-progress --ansi --no-interaction
+        run: composer update --optimize-autoloader --no-progress --no-interaction
       - name: Build
         run: ./bin/unipoints build
       - name: Check built assets
@@ -52,6 +52,6 @@ jobs:
           fi
       - name: Check PHP coding style
         if: matrix.check-cs
-        run: composer run-script phpcs -- --ansi --no-interaction --dry-run --diff
+        run: composer run-script phpcs -- --no-interaction --dry-run --diff
       - name: PHPUnit
-        run: composer run-script test -- --colors=always
+        run: composer run-script test
