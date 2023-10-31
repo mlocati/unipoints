@@ -31,27 +31,34 @@ jobs:
             check-cs: true
     runs-on: ${{ matrix.os }}
     steps:
-      - name: Setup PHP
+      -
+        name: Setup PHP
         uses: shivammathur/setup-php@2.25.5
         with:
           php-version: ${{ matrix.php-version }}
           tools: ${{ matrix.check-cs && 'php-cs-fixer:v3,' || '' }} composer:v2
           coverage: none
-      - name: Checkout
+      -
+        name: Checkout
         uses: actions/checkout@v4
-      - name: Install Composer dependencies
+      -
+        name: Install Composer dependencies
         run: composer update --optimize-autoloader --no-progress --ansi --no-interaction
-      - name: Build
+      -
+        name: Build
         run: ./bin/unipoints build
-      - name: Check built assets
+      -
+        name: Check built assets
         if: startsWith(matrix.os, 'windows') == false
         run: |
           if ! git diff --exit-code --name-status; then
             echo "::error file=$(git diff --name-status | head -n1)::PLEASE RUN bin/unipoints build"
             exit 1
           fi
-      - name: Check PHP coding style
+      -
+        name: Check PHP coding style
         if: matrix.check-cs
         run: composer run-script phpcs -- --ansi --no-interaction --dry-run --diff
-      - name: PHPUnit
+      -
+        name: PHPUnit
         run: composer run-script test -- --colors=always
