@@ -7,6 +7,8 @@ namespace MLUnipoints\Build;
 use Generator;
 use MLUnipoints\Build\CodepointsBuilder\NameCollection\OtherNameType;
 use MLUnipoints\Build\CodepointsBuilder\NameCollection\OtherNameTypeInfo;
+use MLUnipoints\Build\CodepointsBuilder\VariantInfo;
+use MLUnipoints\Build\CodepointsBuilder\VariantList;
 use MLUnipoints\Category;
 use MLUnipoints\Info\PlaneInfo;
 use RuntimeException;
@@ -91,6 +93,7 @@ class CodepointsBuilder
         $unicodeData = $this->createUnicodeData();
         $namesList = $this->createNamesList();
         $nameAliases = $this->createNameAliases();
+        $variantList = $this->createVariantList();
 
         $allCodepoints = array_unique(array_merge(
             array_keys($unicodeData),
@@ -332,6 +335,70 @@ class CodepointsBuilder
         return [
             hexdec($match['codepoint']),
             CodepointsBuilder\NameAlias::create($type, $match['alias']),
+        ];
+    }
+
+    protected function createVariantList(): VariantList
+    {
+        $result = new VariantList();
+        foreach ($this->dataStorage->readStandardizedVariations($this->unicodeVersion) as $line) {
+            [$baseCodepoint, $info] = $this->createStandardizedVariationInfo($line);
+            //$result->add($baseCodepoint, $info);
+        }
+        foreach ($this->dataStorage->readEmojiVariations($this->unicodeVersion) as $line) {
+            [$baseCodepoint, $info] = $this->createEmojiVariationInfo($line);
+            $result->add($baseCodepoint, $info);
+        }
+
+        return $result;
+    }
+
+    protected function createStandardizedVariationInfo(string $line): array
+    {
+        $rxCodepoint = '[0-9A-F]{4,5}';
+        $rxPosition = '(isolate|initial|medial|final)';
+        $rx = '/^';
+        $rx .= "(?<baseCodepoint>{$rxCodepoint})\s(?<variationCodepoint>{$rxCodepoint})";
+        $rx .= '; (?<description>[^;]+)';
+        $rx .= ";(?<positions>( {$rxPosition})*)";
+        $rx .= '( ?# (?<comment>.+))?';
+        $rx .= '$/';
+        $match = null;
+        if (!preg_match($rx, $line, $match)) {
+            throw new RuntimeException("Malformed line in StandardizedVariants:\n{$line}");
+        }
+
+        return [
+            hexdec($match['baseCodepoint']),
+            new VariantInfo(
+                variantCodepoint: hexdec($match['variationCodepoint']),
+                name: trim($match['comment'] ?? ''),
+                description: trim($match['description']),
+            ),
+        ];
+    }
+
+    protected function createEmojiVariationInfo(string $line): array
+    {
+        $rxCodepoint = '[0-9A-F]{4,5}';
+        $rx = '/^';
+        $rx .= "(?<baseCodepoint>{$rxCodepoint})\s(?<variationCodepoint>{$rxCodepoint})\s*";
+        $rx .= '; (?<style>(text style|emoji style))\s*';
+        $rx .= ';\s*';
+        $rx .= '# (?<comment>.+)';
+        $rx .= '$/';
+        $match = null;
+        if (!preg_match($rx, $line, $match)) {
+            throw new RuntimeException("Malformed line in emoji-variation-sequences:\n{$line}");
+        }
+
+        return [
+            hexdec($match['baseCodepoint']),
+            new VariantInfo(
+                variantCodepoint: hexdec($match['variationCodepoint']),
+                name: trim($match['comment']),
+                description: '',
+            ),
         ];
     }
 

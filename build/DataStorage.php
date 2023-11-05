@@ -82,7 +82,7 @@ class DataStorage
      *
      * @return \Generator<string>
      */
-    public function readNamesList(string $version, bool $skipComments = true): Generator
+    public function readNamesList(string $version): Generator
     {
         return $this->readDataFile($version, 'NamesList.txt', self::FLAG_SKIP_EMPTY_LINES);
     }
@@ -92,9 +92,29 @@ class DataStorage
      *
      * @return \Generator<string>
      */
-    public function readNameAliases(string $version, bool $skipComments = true): Generator
+    public function readNameAliases(string $version): Generator
     {
         return $this->readDataFile($version, 'NameAliases.txt', self::FLAG_TRIM | self::FLAG_STRIP_HASHCOMMENTS | self::FLAG_SKIP_EMPTY_LINES);
+    }
+
+    /**
+     * @throws \RuntimeException
+     *
+     * @return \Generator<string>
+     */
+    public function readEmojiVariations(string $version): Generator
+    {
+        return $this->readDataFile($version, 'emoji/emoji-variation-sequences.txt', self::FLAG_TRIM | self::FLAG_STRIP_HASHCOMMENTS | self::FLAG_SKIP_EMPTY_LINES);
+    }
+
+    /**
+     * @throws \RuntimeException
+     *
+     * @return \Generator<string>
+     */
+    public function readStandardizedVariations(string $version): Generator
+    {
+        return $this->readDataFile($version, 'StandardizedVariants.txt', self::FLAG_TRIM | self::FLAG_STRIP_HASHCOMMENTS | self::FLAG_SKIP_EMPTY_LINES);
     }
 
     protected function readDataFile(string $version, string $relativeUrl, int $flags): Generator
@@ -142,6 +162,10 @@ class DataStorage
         $filepath = "{$versionDir}/{$filename}";
         if (!is_file($filepath)) {
             $contents = $this->fetchFileContents("{$version}/ucd/{$filename}", $flags);
+            $dir = dirname($filepath);
+            if (!is_dir($dir)) {
+                mkdir($dir);
+            }
             if (file_put_contents($filepath, $contents) !== strlen($contents)) {
                 throw new RuntimeException("Failed to save file {$filepath}");
             }
