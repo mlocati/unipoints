@@ -136,6 +136,8 @@ final class CodepointEnumTest extends TestCase
         $this->assertNotSame(Category::Surrogate, $info->category);
         $categoryInfo = CategoryInfo::from($info->category);
         $this->assertSame([], $categoryInfo->childCategories);
+        $this->assertSame(1, mb_strlen($case->value));
+        $this->assertSame($info->id, mb_ord($case->value));
         if ($block === null) {
             $this->assertInstanceOf(Codepoint::class, $case);
             $this->assertInstanceOf(Block::class, $info->block);
