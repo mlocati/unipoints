@@ -47,7 +47,7 @@ export function getData(): Promise<Data> {
     })
   }
   if (loadPromise === null) {
-    loadPromise = fetch('/assets/data.json').then((response) => {
+    loadPromise = fetch('./assets/data.json').then((response) => {
       if (!response.ok) {
         throw new Error(response.statusText)
       }
