@@ -1,5 +1,7 @@
 /bin/ export-ignore
 /build/ export-ignore
+/docs/ export-ignore
+/docs-src/ export-ignore
 /src/Block.php linguist-generated
 /src/Codepoint.php linguist-generated
 /src/Codepoint/*.php linguist-generated
