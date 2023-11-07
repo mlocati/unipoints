@@ -105,6 +105,8 @@ jobs:
         name: Push changes
         if: steps.check-changes.outputs.commit == 'yes'
         run: |
+            git config user.name GitHub
+            git config user.email noreply@github.com
             git add --all
             git commit -m 'Rebuilding docs'
             git push
