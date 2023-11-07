@@ -2,16 +2,22 @@
 import type { Data } from '@/Data'
 import type { PlaneFilterResult } from '@/FilterResult'
 import { ref } from 'vue'
+import { getData } from '@/Data'
 import HeaderElement from '@/components/HeaderElement.vue'
 import DataFilter from '@/components/DataFilter.vue'
 import DataViewer from '@/components/DataViewer.vue'
 
+const unipointsData = ref<Data | null>(null)
+const loadError = ref(null)
 const filterResults = ref<PlaneFilterResult[] | null>(null)
 
-defineProps<{
-  unipointsData: Data | null
-  loadError: Error | string | null
-}>()
+getData()
+  .then((data: Data) => {
+    unipointsData.value = data
+  })
+  .catch((error) => {
+    loadError.value = error
+  })
 </script>
 
 <template>
