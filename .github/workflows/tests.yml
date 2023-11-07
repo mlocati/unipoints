@@ -11,7 +11,7 @@ on:
       - main
   repository_dispatch:
     types:
-      - ci
+      - tests
 
 jobs:
   ci:
@@ -70,3 +70,41 @@ jobs:
       -
         name: PHPUnit
         run: composer run-script test -- --colors=always
+  docs:
+    name: Docs
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v4
+      -
+        name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: docs-src/package-lock.json
+      -
+        name: Install NPM dependencies
+        run: cd docs-src && npm ci
+      -
+        name: Check coding style
+        run: cd docs-src && npm run-script lint
+      -
+        name: Build
+        run: cd docs-src && npm run-script build
+      -
+        name: Check changes
+        id: check-changes
+        if: github.repository == 'mlocati/unipoints' && github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+            if git diff --exit-code --name-status; then
+                echo "commit=yes" >>"$GITHUB_OUTPUT"
+            fi
+      -
+        name: Push changes
+        if: steps.check-changes.outputs.commit == 'yes'
+        run: |
+            git add --all
+            git commit -m 'Rebuilding docs'
+            git push

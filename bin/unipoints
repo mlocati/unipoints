@@ -10,7 +10,11 @@ use MLUnipoints\Build\DataStorage;
 use MLUnipoints\Build\Filesystem;
 use MLUnipoints\Build\UserMessageException;
 use MLUnipoints\Codepoint;
+use MLUnipoints\Info\BlockInfo;
+use MLUnipoints\Info\CodepointInfo;
+use MLUnipoints\Info\PlaneInfo;
 use MLUnipoints\Info\UnicodeInfo;
+use MLUnipoints\Plane;
 
 const DEFAULT_VERSION = '15.1.0';
 
@@ -54,7 +58,7 @@ function showSyntax(string $name): void
 {
     $defaultVersion = DEFAULT_VERSION;
     echo <<<EOT
-Syntax {$name} <-h|--help|installed|latest|check-newer|build [version]>
+Syntax {$name} <-h|--help|installed|latest|check-newer|build [version]|docs [--pretty]>
 
 Where:
 - installed: print the Unicode version used to build the data in this project
@@ -62,7 +66,8 @@ Where:
 - check-newer: check if the latest Unicode version is greater than the installed one
 - build [version]: (re) build the data in this project.
   If [version] is not specified, we'll install version {$defaultVersion}
-
+- docs: generate the data for the docs
+  Use the --pretty option to build pretty/unminified data
 EOT
     ;
 }
@@ -127,7 +132,118 @@ function build(string $unicodeVersion): int
     $codepointsBuilder = new CodepointsBuilder(unicodeVersion: $unicodeVersion, blocksBuilder: $blocksBuilder);
     $codepointsBuilder->saveAllCodepoints();
     echo "done.\n";
+
+    return generateDocs(false);
+}
+
+function generateDocs(bool $pretty): int
+{
+    echo $pretty ? "Generating pretty data for the docs\n" : "Generating data for the docs\n";
+    echo '- collecting data... ';
+    $planes = [];
+    foreach (Plane::cases() as $plane) {
+        $planes[] = generatePlaneDocs($plane);
+    }
+    $data = [
+        'unicodeVersion' => getInstalledUnicodeVersion(),
+        'planes' => $planes,
+    ];
+    $json = json_encode($data, JSON_THROW_ON_ERROR | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_LINE_TERMINATORS | ($pretty ? JSON_PRETTY_PRINT : 0));
+    echo "done.\n";
+    foreach ([
+        'docs/assets/data.json',
+        'docs-src/public/assets/data.json',
+    ] as $relFile) {
+        echo "- saving {$relFile}... ";
+        $file = __DIR__ . '/../' . $relFile;
+        $dir = dirname($file);
+        if (!is_dir($dir)) {
+            if (!mkdir($dir, 0777, true)) {
+                throw new RuntimeException('Failed to create output directory');
+            }
+        }
+        if (file_put_contents($file, $json) !== strlen($json)) {
+            throw new RuntimeException('Failed to create data.json');
+        }
+        echo "done.\n";
+    }
     return 0;
+}
+
+function generatePlaneDocs(Plane $plane): array
+{
+    $planeInfo = PlaneInfo::from($plane);
+    $blocks = [];
+    foreach (Block::cases() as $block) {
+        $blockInfo = BlockInfo::from($block);
+        if ($blockInfo->plane === $plane) {
+            $blocks[] = generateBlockDocs($block);
+        }
+    }
+
+    return [
+        'id' => $plane->value,
+        'unassigned' => $planeInfo->unassigned,
+        'name' => $planeInfo->name,
+        'shortName' => $planeInfo->shortName,
+        'fromCodepoint' => $planeInfo->fromCodepoint,
+        'toCodepoint' => $planeInfo->toCodepoint,
+        'blocks' => $blocks,
+    ];
+}
+
+function generateBlockDocs(Block $block): array
+{
+    $blockInfo = BlockInfo::from($block);
+    $codepoints = [];
+    $codepointsClassName = 'MLUnipoints\\Codepoint\\' . $blockInfo->codename;
+    if (stripos($codepointsClassName, 'surrogate') === false || enum_exists($codepointsClassName)) {
+        $codepointsClass = new ReflectionEnum($codepointsClassName);
+        foreach ($codepointsClass->getCases() as $codepoint) {
+            $codepoints[] = generateCodepointDocs($codepoint->getValue());
+        }
+    }
+
+    return [
+        'name' => $blockInfo->name,
+        'codename' => $blockInfo->codename,
+        'fromCodepoint' => $blockInfo->fromCodepoint,
+        'toCodepoint' => $blockInfo->toCodepoint,
+        'codepoints' => $codepoints,
+    ];
+}
+
+function generateCodepointDocs(BackedEnum $codepoint): array
+{
+    $info = CodepointInfo::from($codepoint);
+    $result = [
+        'id' => $info->id,
+        'name' => $info->name,
+        'codename' => $codepoint->name,
+        'char' => $codepoint->value,
+    ];
+    foreach ([
+        'unicode1Name',
+    ] as $prop) {
+        if ($info->{$prop} !== '') {
+            $result[$prop] = $info->{$prop};
+        }
+    }
+    foreach ([
+        'formalAliases',
+        'informativeAliases',
+        'correctedNames',
+        'controlNames',
+        'alternateNames',
+        'figments',
+        'abbreviations',
+    ] as $prop) {
+        if ($info->{$prop} !== []) {
+            $result[$prop] = $info->{$prop};
+        }
+    }
+
+    return $result;
 }
 
 function main(array $args): int
@@ -162,6 +278,19 @@ function main(array $args): int
                     return build(DEFAULT_VERSION);
                 case 3:
                     return build($args[2]);
+            }
+            showSyntax($args[0]);
+            return 1;
+        case 'docs':
+            switch ($numArgs) {
+                case 2:
+                    return generateDocs(false);
+                case 3:
+                    if ($args[2] !== '--pretty') {
+                        showSyntax($args[0]);
+                        return 1;
+                    }
+                    return generateDocs(true);
             }
             showSyntax($args[0]);
             return 1;
