@@ -6,6 +6,7 @@ namespace MLUnipoints\Build\CodepointsBuilder;
 
 use MLUnipoints\Build\BlocksBuilder\Block;
 use MLUnipoints\Category;
+use MLUnipoints\Info\CodepointInfo;
 
 class Codepoint
 {
@@ -18,11 +19,6 @@ class Codepoint
         public readonly Category $category,
         public readonly Block $block,
     ) {
-        $this->codename = strtr($this->name, [
-            ', ' => '__',
-            ' -' => '__',
-            ' ' => '_',
-            '-' => '_',
-        ]);
+        $this->codename = CodepointInfo::buildCodename($this->name);
     }
 }

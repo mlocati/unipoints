@@ -12,6 +12,8 @@ use ReflectionEnumBackedCase;
 #[\Attribute(\Attribute::TARGET_CLASS_CONSTANT)]
 class CodepointInfo
 {
+    public readonly string $codename;
+
     public function __construct(
         public readonly int $id,
         public readonly string $name,
@@ -63,12 +65,27 @@ class CodepointInfo
          * @var string[]
          */
         public readonly array $abbreviations = [],
-    ) {}
+    ) {
+        $this->codename = self::buildCodename($this->name);
+    }
 
     public static function from(BackedEnum $codepoint): self
     {
         $reflection = new ReflectionEnumBackedCase($codepoint, $codepoint->name);
 
         return $reflection->getAttributes(self::class)[0]->newInstance();
+    }
+
+    /**
+     * @internal
+     */
+    public static function buildCodename(string $name): string
+    {
+        return strtr($name, [
+            ', ' => '__',
+            ' -' => '__',
+            ' ' => '_',
+            '-' => '_',
+        ]);
     }
 }
