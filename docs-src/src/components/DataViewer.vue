@@ -56,45 +56,39 @@ const displayed = computed<PlaneFilterResult[]>(() => {
 </script>
 
 <template>
-  <div class="container-fluid">
+  <div class="container">
     <template v-if="displayed.length === 0">
       <div class="alert alert-info">No results</div>
     </template>
     <template v-else>
-      <table class="table table-striped table-hover table-sm">
-        <colgroup>
-          <col width="1" />
-          <col width="1" />
-        </colgroup>
-        <template v-for="plane in displayed" v-bind:key="plane.plane.id.toString()">
-          <thead>
-            <PlaneViewer v-bind:plane="plane.plane" />
-            <BlockViewer v-bind:block="plane.blocks[0].block" />
-          </thead>
-          <template
-            v-for="(block, blockIndex) in plane.blocks"
-            v-bind:key="`${plane.plane.id}@${block.codename}`"
-          >
-            <thead v-if="blockIndex !== 0">
-              <BlockViewer v-bind:block="block.block" />
-            </thead>
+      <template v-for="plane in displayed" v-bind:key="plane.plane.id.toString()">
+        <PlaneViewer v-bind:plane="plane.plane" />
+        <BlockViewer v-bind:block="plane.blocks[0].block" />
+        <template
+          v-for="(block, blockIndex) in plane.blocks"
+          v-bind:key="`${plane.plane.id}@${block.codename}`"
+        >
+          <BlockViewer v-if="blockIndex !== 0" v-bind:block="block.block" />
+          <table class="table table-hover table-sm m-0">
+            <colgroup>
+              <col width="150" />
+              <col />
+              <col width="1" />
+            </colgroup>
+
             <tbody>
               <template v-for="codepoint in block.codepoints" v-bind:key="codepoint.name">
                 <CodepointViewer v-bind:block="block.block" v-bind:codepoint="codepoint" />
               </template>
             </tbody>
-          </template>
+          </table>
         </template>
-        <tfoot v-if="showLoadMore">
-          <tr>
-            <td class="text-center" colspan="99">
-              <button class="btn btn-secondary" v-on:click.prevent="maxItems += PAGE_SIZE">
-                Show more
-              </button>
-            </td>
-          </tr>
-        </tfoot>
-      </table>
+      </template>
+      <div v-if="showLoadMore" class="text-center mt-2">
+        <button class="btn btn-secondary" v-on:click.prevent="maxItems += PAGE_SIZE">
+          Show more
+        </button>
+      </div>
     </template>
   </div>
 </template>

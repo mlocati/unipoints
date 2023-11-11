@@ -3,7 +3,7 @@ import { computed, ref } from 'vue'
 
 const props = defineProps<{
   text: string
-  displayText: string | undefined
+  displayText?: string | undefined
   code: boolean | null
 }>()
 

@@ -96,7 +96,7 @@ onMounted(() => updateSelectedCodepoints())
 </script>
 
 <template>
-  <div class="container-fluid">
+  <div class="container">
     <div class="input-group mb-3">
       <span class="input-group-text">Block</span>
       <select class="form-control" v-if="unipointsData !== null" v-model="planeBlockSelection">
