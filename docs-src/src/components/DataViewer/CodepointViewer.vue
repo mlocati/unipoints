@@ -29,7 +29,7 @@ const htmlString = computed<string>(() => `&#x${props.codepoint.id.toString(16).
       <pre class="mb-0">{{ codepoint.char }}</pre>
     </td>
     <td>
-      <code>{{ codepoint.name }}</code>
+      <h5 class="m-0">{{ codepoint.name }}</h5>
     </td>
     <td>
       <button class="btn" v-bind:class="infoDisplayed ? 'btn-primary' : 'btn-outline-primary'">
