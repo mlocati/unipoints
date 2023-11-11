@@ -2,6 +2,7 @@
 import type { Data, Codepoint } from '@/Data'
 import type { PlaneFilterResult, BlockFilterResult } from '@/FilterResult'
 import { onMounted, ref, watch } from 'vue'
+import match from '@/CodepointTextSearch'
 
 export interface PlaneBlockSelection {
   plane: number
@@ -26,14 +27,6 @@ function clearSearchTextTimer(): void {
 const emit = defineEmits<{
   (e: 'change', filtered: PlaneFilterResult[]): void
 }>()
-
-function codepointSatisfyWords(codepoint: Codepoint, ucWords: string[]): boolean {
-  return !ucWords.some((ucWord) => {
-    if (!codepoint.name.toUpperCase().includes(ucWord)) {
-      return true
-    }
-  })
-}
 
 watch(planeBlockSelection, async () => {
   updateSelectedCodepoints()
@@ -68,9 +61,7 @@ function updateSelectedCodepoints() {
         if (ucWords.length === 0) {
           codepoints = block.codepoints
         } else {
-          codepoints = block.codepoints.filter((codepoint) =>
-            codepointSatisfyWords(codepoint, ucWords)
-          )
+          codepoints = block.codepoints.filter((codepoint) => match(codepoint, ucWords))
         }
         if (codepoints.length === 0) {
           return
