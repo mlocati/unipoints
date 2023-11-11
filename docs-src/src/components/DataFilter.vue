@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import type { Data, Codepoint } from '@/Data'
 import type { PlaneFilterResult, BlockFilterResult } from '@/FilterResult'
-import { onMounted, ref, watch } from 'vue'
-import match from '@/CodepointTextSearch'
+import { computed, onMounted, ref, watch } from 'vue'
+import { matchWords, matchRegexp } from '@/CodepointTextSearch'
 
 export interface PlaneBlockSelection {
   plane: number
@@ -16,6 +16,18 @@ const props = defineProps<{
 let planeBlockSelection = ref<PlaneBlockSelection | null>(null)
 let searchText = ref<string>('')
 let searchTextTimer: number | null = null
+let searchByRegex = ref<boolean>(false)
+
+const searchRegex = computed<RegExp | null>(() => {
+  if (searchText.value.length === 0) {
+    return null
+  }
+  try {
+    return new RegExp(searchText.value, 'i')
+  } catch {
+    return null
+  }
+})
 
 function clearSearchTextTimer(): void {
   if (searchTextTimer !== null) {
@@ -35,6 +47,9 @@ watch(searchText, async () => {
   clearSearchTextTimer()
   searchTextTimer = setTimeout(() => updateSelectedCodepoints(), 300)
 })
+watch(searchByRegex, async () => {
+  updateSelectedCodepoints()
+})
 
 function updateSelectedCodepoints() {
   clearSearchTextTimer()
@@ -43,6 +58,7 @@ function updateSelectedCodepoints() {
     .filter((s) => s.length > 0)
     .map((word) => word.toUpperCase())
   const result: PlaneFilterResult[] = []
+  const regexp: RegExp | null = searchRegex.value
   if (props.unipointsData !== null) {
     props.unipointsData.planes.forEach((plane) => {
       if (planeBlockSelection.value !== null && planeBlockSelection.value.plane !== plane.id) {
@@ -58,10 +74,17 @@ function updateSelectedCodepoints() {
           return
         }
         let codepoints: Codepoint[]
-        if (ucWords.length === 0) {
-          codepoints = block.codepoints
+        if (searchByRegex.value) {
+          if (regexp === null) {
+            return
+          }
+          codepoints = block.codepoints.filter((codepoint) => matchRegexp(codepoint, regexp))
         } else {
-          codepoints = block.codepoints.filter((codepoint) => match(codepoint, ucWords))
+          if (ucWords.length === 0) {
+            codepoints = block.codepoints
+          } else {
+            codepoints = block.codepoints.filter((codepoint) => matchWords(codepoint, ucWords))
+          }
         }
         if (codepoints.length === 0) {
           return
@@ -117,8 +140,21 @@ onMounted(() => updateSelectedCodepoints())
         type="search"
         class="form-control"
         v-model.trim="searchText"
-        placeholder="Filter by name"
+        v-bind:placeholder="searchByRegex ? 'Filter by regular expression' : 'Filter by name'"
+        v-bind:class="
+          searchByRegex
+            ? searchRegex === null
+              ? 'font-monospace is-invalid'
+              : 'font-monospace is-valid'
+            : ''
+        "
       />
+      <div class="input-group-text">
+        <label>
+          <input type="checkbox" class="form-check-input me-" v-model="searchByRegex" />
+          rx
+        </label>
+      </div>
     </div>
   </div>
 </template>
