@@ -22,7 +22,7 @@ getData()
 
 <template>
   <template v-if="unipointsData === null">
-    <main class="container-fluid">
+    <main class="container">
       <div v-if="loadError !== null" class="alert alert-danger mt-5 text-center">
         {{ loadError }}
       </div>
