@@ -18,14 +18,17 @@ let searchText = ref<string>('')
 let searchTextTimer: number | null = null
 let searchByRegex = ref<boolean>(false)
 
-const searchRegex = computed<RegExp | null>(() => {
+const searchRegex = computed<RegExp | Error>(() => {
   if (searchText.value.length === 0) {
-    return null
+    return new Error('Please specify the regular expression')
   }
   try {
     return new RegExp(searchText.value, 'i')
-  } catch {
-    return null
+  } catch (e) {
+    if (e instanceof Error) {
+      return e
+    }
+    return new Error(e?.toString() || '?')
   }
 })
 
@@ -37,7 +40,7 @@ function clearSearchTextTimer(): void {
 }
 
 const emit = defineEmits<{
-  (e: 'change', filtered: PlaneFilterResult[]): void
+  (e: 'change', filtered: PlaneFilterResult[] | Error): void
 }>()
 
 watch(planeBlockSelection, async () => {
@@ -53,12 +56,16 @@ watch(searchByRegex, async () => {
 
 function updateSelectedCodepoints() {
   clearSearchTextTimer()
+  const regexp: RegExp | Error = searchRegex.value
+  if (searchByRegex.value && searchRegex.value instanceof Error) {
+    emit('change', searchRegex.value)
+    return
+  }
   const ucWords = searchText.value
     .split(/\s+/)
     .filter((s) => s.length > 0)
     .map((word) => word.toUpperCase())
   const result: PlaneFilterResult[] = []
-  const regexp: RegExp | null = searchRegex.value
   if (props.unipointsData !== null) {
     props.unipointsData.planes.forEach((plane) => {
       if (planeBlockSelection.value !== null && planeBlockSelection.value.plane !== plane.id) {
@@ -75,7 +82,7 @@ function updateSelectedCodepoints() {
         }
         let codepoints: Codepoint[]
         if (searchByRegex.value) {
-          if (regexp === null) {
+          if (regexp instanceof Error) {
             return
           }
           codepoints = block.codepoints.filter((codepoint) => matchRegexp(codepoint, regexp))
@@ -143,9 +150,9 @@ onMounted(() => updateSelectedCodepoints())
         v-bind:placeholder="searchByRegex ? 'Filter by regular expression' : 'Filter by name'"
         v-bind:class="
           searchByRegex
-            ? searchRegex === null
-              ? 'font-monospace is-invalid'
-              : 'font-monospace is-valid'
+            ? searchRegex instanceof RegExp
+              ? 'font-monospace is-valid'
+              : 'font-monospace is-invalid'
             : ''
         "
       />

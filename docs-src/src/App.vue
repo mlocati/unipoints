@@ -10,6 +10,7 @@ import DataViewer from '@/components/DataViewer.vue'
 const unipointsData = ref<Data | null>(null)
 const loadError = ref(null)
 const filterResults = ref<PlaneFilterResult[] | null>(null)
+const filterResultsError = ref<Error | null>(null)
 
 getData()
   .then((data: Data) => {
@@ -18,6 +19,16 @@ getData()
   .catch((error) => {
     loadError.value = error
   })
+
+function setFilterResult(result: PlaneFilterResult[] | Error) {
+  if (result instanceof Error) {
+    filterResults.value = null
+    filterResultsError.value = result
+  } else {
+    filterResults.value = result
+    filterResultsError.value = null
+  }
+}
 </script>
 
 <template>
@@ -35,8 +46,11 @@ getData()
   <template v-else>
     <HeaderElement v-bind:unicode-version="unipointsData.unicodeVersion" />
     <main v-if="unipointsData">
-      <DataFilter v-bind:unipoints-data="unipointsData" v-on:change="filterResults = $event" />
-      <DataViewer v-if="filterResults !== null" v-bind:filterResults="filterResults" />
+      <DataFilter v-bind:unipoints-data="unipointsData" v-on:change="setFilterResult($event)" />
+      <div v-if="filterResultsError !== null" class="container alert alert-danger">
+        {{ filterResultsError.message }}
+      </div>
+      <DataViewer v-else-if="filterResults !== null" v-bind:filterResults="filterResults" />
     </main>
   </template>
 </template>
