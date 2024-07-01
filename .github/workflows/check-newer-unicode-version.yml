@@ -6,6 +6,7 @@ on:
   repository_dispatch:
     types:
       - check-newer-unicode-version
+  workflow_dispatch:
 
 jobs:
   check-newer-unicode-version:
