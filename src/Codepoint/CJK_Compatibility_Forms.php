@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum CJK_Compatibility_Forms: string
 {
     #[Info(id: 0xFE30, name: 'PRESENTATION FORM FOR VERTICAL TWO DOT LEADER', category: Cat::Other_Punctuation, unicode1Name: 'GLYPH FOR VERTICAL TWO DOT LEADER')]

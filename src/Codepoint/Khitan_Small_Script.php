@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Khitan_Small_Script: string
 {
     #[Info(id: 0x18B00, name: 'KHITAN SMALL SCRIPT CHARACTER-18B00', category: Cat::Other_Letter)]
@@ -1425,4 +1425,7 @@ enum Khitan_Small_Script: string
 
     #[Info(id: 0x18CD5, name: 'KHITAN SMALL SCRIPT CHARACTER-18CD5', category: Cat::Other_Letter)]
     case KHITAN_SMALL_SCRIPT_CHARACTER_18CD5 = "\u{18CD5}";
+
+    #[Info(id: 0x18CFF, name: 'KHITAN SMALL SCRIPT CHARACTER-18CFF', category: Cat::Other_Letter)]
+    case KHITAN_SMALL_SCRIPT_CHARACTER_18CFF = "\u{18CFF}";
 }

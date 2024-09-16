@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Supplemental_Symbols_and_Pictographs: string
 {
     #[Info(id: 0x1F900, name: 'CIRCLED CROSS FORMEE WITH FOUR DOTS', category: Cat::Other_Symbol)]

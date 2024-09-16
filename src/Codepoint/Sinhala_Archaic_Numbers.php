@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Sinhala_Archaic_Numbers: string
 {
     #[Info(id: 0x111E1, name: 'SINHALA ARCHAIC DIGIT ONE', category: Cat::Other_Number)]

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Geometric_Shapes_Extended: string
 {
     #[Info(id: 0x1F780, name: 'BLACK LEFT-POINTING ISOSCELES RIGHT TRIANGLE', category: Cat::Other_Symbol)]

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Ahom: string
 {
     #[Info(id: 0x11700, name: 'AHOM LETTER KA', category: Cat::Other_Letter)]
@@ -100,7 +100,7 @@ enum Ahom: string
     #[Info(id: 0x1171D, name: 'AHOM CONSONANT SIGN MEDIAL LA', category: Cat::Nonspacing_Mark)]
     case AHOM_CONSONANT_SIGN_MEDIAL_LA = "\u{1171D}";
 
-    #[Info(id: 0x1171E, name: 'AHOM CONSONANT SIGN MEDIAL RA', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1171E, name: 'AHOM CONSONANT SIGN MEDIAL RA', category: Cat::Spacing_Mark)]
     case AHOM_CONSONANT_SIGN_MEDIAL_RA = "\u{1171E}";
 
     #[Info(id: 0x1171F, name: 'AHOM CONSONANT SIGN MEDIAL LIGATING RA', category: Cat::Nonspacing_Mark)]

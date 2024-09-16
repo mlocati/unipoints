@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Box_Drawing: string
 {
     #[Info(id: 0x2500, name: 'BOX DRAWINGS LIGHT HORIZONTAL', category: Cat::Other_Symbol, unicode1Name: 'FORMS LIGHT HORIZONTAL', informativeAliases: ['Videotex Mosaic DG 15'])]

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Variation_Selectors_Supplement: string
 {
     #[Info(id: 0xE0100, name: 'VARIATION SELECTOR-17', category: Cat::Nonspacing_Mark, abbreviations: ['VS17'])]

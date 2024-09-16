@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Arabic_Presentation_FormsA: string
 {
     #[Info(id: 0xFB50, name: 'ARABIC LETTER ALEF WASLA ISOLATED FORM', category: Cat::Other_Letter)]

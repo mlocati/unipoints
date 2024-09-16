@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Miscellaneous_Mathematical_SymbolsA: string
 {
     #[Info(id: 0x27C0, name: 'THREE DIMENSIONAL ANGLE', category: Cat::Math_Symbol)]

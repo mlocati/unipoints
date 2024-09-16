@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Combining_Diacritical_Marks_Extended: string
 {
     #[Info(id: 0x1AB0, name: 'COMBINING DOUBLED CIRCUMFLEX ACCENT', category: Cat::Nonspacing_Mark)]

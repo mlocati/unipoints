@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Supplemental_ArrowsB: string
 {
     #[Info(id: 0x2900, name: 'RIGHTWARDS TWO-HEADED ARROW WITH VERTICAL STROKE', category: Cat::Math_Symbol, informativeAliases: ['z notation partial surjection'])]

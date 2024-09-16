@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Mende_Kikakui: string
 {
     #[Info(id: 0x1E800, name: 'MENDE KIKAKUI SYLLABLE M001 KI', category: Cat::Other_Letter)]
@@ -475,10 +475,10 @@ enum Mende_Kikakui: string
     #[Info(id: 0x1E898, name: 'MENDE KIKAKUI SYLLABLE M072 MBE', category: Cat::Other_Letter)]
     case MENDE_KIKAKUI_SYLLABLE_M072_MBE = "\u{1E898}";
 
-    #[Info(id: 0x1E899, name: 'MENDE KIKAKUI SYLLABLE M172 MBOO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E899, name: 'MENDE KIKAKUI SYLLABLE M172 MBOO', category: Cat::Other_Letter, correctedNames: ['MENDE KIKAKUI SYLLABLE M172 MBO'])]
     case MENDE_KIKAKUI_SYLLABLE_M172_MBOO = "\u{1E899}";
 
-    #[Info(id: 0x1E89A, name: 'MENDE KIKAKUI SYLLABLE M174 MBO', category: Cat::Other_Letter)]
+    #[Info(id: 0x1E89A, name: 'MENDE KIKAKUI SYLLABLE M174 MBO', category: Cat::Other_Letter, correctedNames: ['MENDE KIKAKUI SYLLABLE M174 MBOO'])]
     case MENDE_KIKAKUI_SYLLABLE_M174_MBO = "\u{1E89A}";
 
     #[Info(id: 0x1E89B, name: 'MENDE KIKAKUI SYLLABLE M187 MBUU', category: Cat::Other_Letter)]

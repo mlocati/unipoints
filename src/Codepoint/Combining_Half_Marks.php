@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Combining_Half_Marks: string
 {
     #[Info(id: 0xFE20, name: 'COMBINING LIGATURE LEFT HALF', category: Cat::Nonspacing_Mark)]

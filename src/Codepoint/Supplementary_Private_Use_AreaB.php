@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Supplementary_Private_Use_AreaB: string
 {
     #[Info(id: 0x100000, name: 'Plane 16 Private Use, First', category: Cat::Private_Use)]

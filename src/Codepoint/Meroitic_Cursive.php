@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Meroitic_Cursive: string
 {
     #[Info(id: 0x109A0, name: 'MEROITIC CURSIVE LETTER A', category: Cat::Other_Letter)]

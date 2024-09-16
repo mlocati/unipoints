@@ -13,9 +13,21 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Arabic_ExtendedC: string
 {
+    #[Info(id: 0x10EC2, name: 'ARABIC LETTER DAL WITH TWO DOTS VERTICALLY BELOW', category: Cat::Other_Letter)]
+    case ARABIC_LETTER_DAL_WITH_TWO_DOTS_VERTICALLY_BELOW = "\u{10EC2}";
+
+    #[Info(id: 0x10EC3, name: 'ARABIC LETTER TAH WITH TWO DOTS VERTICALLY BELOW', category: Cat::Other_Letter)]
+    case ARABIC_LETTER_TAH_WITH_TWO_DOTS_VERTICALLY_BELOW = "\u{10EC3}";
+
+    #[Info(id: 0x10EC4, name: 'ARABIC LETTER KAF WITH TWO DOTS VERTICALLY BELOW', category: Cat::Other_Letter)]
+    case ARABIC_LETTER_KAF_WITH_TWO_DOTS_VERTICALLY_BELOW = "\u{10EC4}";
+
+    #[Info(id: 0x10EFC, name: 'ARABIC COMBINING ALEF OVERLAY', category: Cat::Nonspacing_Mark)]
+    case ARABIC_COMBINING_ALEF_OVERLAY = "\u{10EFC}";
+
     #[Info(id: 0x10EFD, name: 'ARABIC SMALL LOW WORD SAKTA', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_LOW_WORD_SAKTA = "\u{10EFD}";
 

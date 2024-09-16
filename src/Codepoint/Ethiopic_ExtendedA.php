@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Ethiopic_ExtendedA: string
 {
     #[Info(id: 0xAB01, name: 'ETHIOPIC SYLLABLE TTHU', category: Cat::Other_Letter)]

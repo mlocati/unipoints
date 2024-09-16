@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Miscellaneous_Mathematical_SymbolsB: string
 {
     #[Info(id: 0x2980, name: 'TRIPLE VERTICAL BAR DELIMITER', category: Cat::Math_Symbol)]

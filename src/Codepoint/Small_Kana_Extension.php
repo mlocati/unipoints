@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Small_Kana_Extension: string
 {
     #[Info(id: 0x1B132, name: 'HIRAGANA LETTER SMALL KO', category: Cat::Other_Letter)]

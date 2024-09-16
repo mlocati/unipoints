@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Symbols_and_Pictographs_ExtendedA: string
 {
     #[Info(id: 0x1FA70, name: 'BALLET SHOES', category: Cat::Other_Symbol)]
@@ -81,6 +81,12 @@ enum Symbols_and_Pictographs_ExtendedA: string
 
     #[Info(id: 0x1FA88, name: 'FLUTE', category: Cat::Other_Symbol)]
     case FLUTE = "\u{1FA88}";
+
+    #[Info(id: 0x1FA89, name: 'HARP', category: Cat::Other_Symbol)]
+    case HARP = "\u{1FA89}";
+
+    #[Info(id: 0x1FA8F, name: 'SHOVEL', category: Cat::Other_Symbol)]
+    case SHOVEL = "\u{1FA8F}";
 
     #[Info(id: 0x1FA90, name: 'RINGED PLANET', category: Cat::Other_Symbol)]
     case RINGED_PLANET = "\u{1FA90}";
@@ -220,6 +226,9 @@ enum Symbols_and_Pictographs_ExtendedA: string
     #[Info(id: 0x1FABD, name: 'WING', category: Cat::Other_Symbol)]
     case WING = "\u{1FABD}";
 
+    #[Info(id: 0x1FABE, name: 'LEAFLESS TREE', category: Cat::Other_Symbol)]
+    case LEAFLESS_TREE = "\u{1FABE}";
+
     #[Info(id: 0x1FABF, name: 'GOOSE', category: Cat::Other_Symbol)]
     case GOOSE = "\u{1FABF}";
 
@@ -240,6 +249,9 @@ enum Symbols_and_Pictographs_ExtendedA: string
 
     #[Info(id: 0x1FAC5, name: 'PERSON WITH CROWN', category: Cat::Other_Symbol)]
     case PERSON_WITH_CROWN = "\u{1FAC5}";
+
+    #[Info(id: 0x1FAC6, name: 'FINGERPRINT', category: Cat::Other_Symbol)]
+    case FINGERPRINT = "\u{1FAC6}";
 
     #[Info(id: 0x1FACE, name: 'MOOSE', category: Cat::Other_Symbol)]
     case MOOSE = "\u{1FACE}";
@@ -283,6 +295,12 @@ enum Symbols_and_Pictographs_ExtendedA: string
     #[Info(id: 0x1FADB, name: 'PEA POD', category: Cat::Other_Symbol)]
     case PEA_POD = "\u{1FADB}";
 
+    #[Info(id: 0x1FADC, name: 'ROOT VEGETABLE', category: Cat::Other_Symbol)]
+    case ROOT_VEGETABLE = "\u{1FADC}";
+
+    #[Info(id: 0x1FADF, name: 'SPLATTER', category: Cat::Other_Symbol)]
+    case SPLATTER = "\u{1FADF}";
+
     #[Info(id: 0x1FAE0, name: 'MELTING FACE', category: Cat::Other_Symbol)]
     case MELTING_FACE = "\u{1FAE0}";
 
@@ -309,6 +327,9 @@ enum Symbols_and_Pictographs_ExtendedA: string
 
     #[Info(id: 0x1FAE8, name: 'SHAKING FACE', category: Cat::Other_Symbol)]
     case SHAKING_FACE = "\u{1FAE8}";
+
+    #[Info(id: 0x1FAE9, name: 'FACE WITH BAGS UNDER EYES', category: Cat::Other_Symbol)]
+    case FACE_WITH_BAGS_UNDER_EYES = "\u{1FAE9}";
 
     #[Info(id: 0x1FAF0, name: 'HAND WITH INDEX FINGER AND THUMB CROSSED', category: Cat::Other_Symbol)]
     case HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED = "\u{1FAF0}";

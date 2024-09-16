@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Early_Dynastic_Cuneiform: string
 {
     #[Info(id: 0x12480, name: 'CUNEIFORM SIGN AB TIMES NUN TENU', category: Cat::Other_Letter)]

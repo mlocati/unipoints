@@ -12,7 +12,7 @@ namespace MLUnipoints;
 use MLUnipoints\Info\BlockInfo;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Block
 {
     // Blocks for plane 0 (Basic Multilingual Plane}
@@ -574,6 +574,9 @@ enum Block
     #[BlockInfo(fromCodepoint: 0x10570, toCodepoint: 0x105BF, name: 'Vithkuqi', plane: Plane::Plane1)]
     case Vithkuqi;
 
+    #[BlockInfo(fromCodepoint: 0x105C0, toCodepoint: 0x105FF, name: 'Todhri', plane: Plane::Plane1)]
+    case Todhri;
+
     #[BlockInfo(fromCodepoint: 0x10600, toCodepoint: 0x1077F, name: 'Linear A', plane: Plane::Plane1)]
     case Linear_A;
 
@@ -640,6 +643,9 @@ enum Block
     #[BlockInfo(fromCodepoint: 0x10D00, toCodepoint: 0x10D3F, name: 'Hanifi Rohingya', plane: Plane::Plane1)]
     case Hanifi_Rohingya;
 
+    #[BlockInfo(fromCodepoint: 0x10D40, toCodepoint: 0x10D8F, name: 'Garay', plane: Plane::Plane1)]
+    case Garay;
+
     #[BlockInfo(fromCodepoint: 0x10E60, toCodepoint: 0x10E7F, name: 'Rumi Numeral Symbols', plane: Plane::Plane1)]
     case Rumi_Numeral_Symbols;
 
@@ -697,6 +703,9 @@ enum Block
     #[BlockInfo(fromCodepoint: 0x11300, toCodepoint: 0x1137F, name: 'Grantha', plane: Plane::Plane1)]
     case Grantha;
 
+    #[BlockInfo(fromCodepoint: 0x11380, toCodepoint: 0x113FF, name: 'Tulu-Tigalari', plane: Plane::Plane1)]
+    case TuluTigalari;
+
     #[BlockInfo(fromCodepoint: 0x11400, toCodepoint: 0x1147F, name: 'Newa', plane: Plane::Plane1)]
     case Newa;
 
@@ -714,6 +723,9 @@ enum Block
 
     #[BlockInfo(fromCodepoint: 0x11680, toCodepoint: 0x116CF, name: 'Takri', plane: Plane::Plane1)]
     case Takri;
+
+    #[BlockInfo(fromCodepoint: 0x116D0, toCodepoint: 0x116FF, name: 'Myanmar Extended-C', plane: Plane::Plane1)]
+    case Myanmar_ExtendedC;
 
     #[BlockInfo(fromCodepoint: 0x11700, toCodepoint: 0x1174F, name: 'Ahom', plane: Plane::Plane1)]
     case Ahom;
@@ -744,6 +756,9 @@ enum Block
 
     #[BlockInfo(fromCodepoint: 0x11B00, toCodepoint: 0x11B5F, name: 'Devanagari Extended-A', plane: Plane::Plane1)]
     case Devanagari_ExtendedA;
+
+    #[BlockInfo(fromCodepoint: 0x11BC0, toCodepoint: 0x11BFF, name: 'Sunuwar', plane: Plane::Plane1)]
+    case Sunuwar;
 
     #[BlockInfo(fromCodepoint: 0x11C00, toCodepoint: 0x11C6F, name: 'Bhaiksuki', plane: Plane::Plane1)]
     case Bhaiksuki;
@@ -787,8 +802,14 @@ enum Block
     #[BlockInfo(fromCodepoint: 0x13430, toCodepoint: 0x1345F, name: 'Egyptian Hieroglyph Format Controls', plane: Plane::Plane1)]
     case Egyptian_Hieroglyph_Format_Controls;
 
+    #[BlockInfo(fromCodepoint: 0x13460, toCodepoint: 0x143FF, name: 'Egyptian Hieroglyphs Extended-A', plane: Plane::Plane1)]
+    case Egyptian_Hieroglyphs_ExtendedA;
+
     #[BlockInfo(fromCodepoint: 0x14400, toCodepoint: 0x1467F, name: 'Anatolian Hieroglyphs', plane: Plane::Plane1)]
     case Anatolian_Hieroglyphs;
+
+    #[BlockInfo(fromCodepoint: 0x16100, toCodepoint: 0x1613F, name: 'Gurung Khema', plane: Plane::Plane1)]
+    case Gurung_Khema;
 
     #[BlockInfo(fromCodepoint: 0x16800, toCodepoint: 0x16A3F, name: 'Bamum Supplement', plane: Plane::Plane1)]
     case Bamum_Supplement;
@@ -804,6 +825,9 @@ enum Block
 
     #[BlockInfo(fromCodepoint: 0x16B00, toCodepoint: 0x16B8F, name: 'Pahawh Hmong', plane: Plane::Plane1)]
     case Pahawh_Hmong;
+
+    #[BlockInfo(fromCodepoint: 0x16D40, toCodepoint: 0x16D7F, name: 'Kirat Rai', plane: Plane::Plane1)]
+    case Kirat_Rai;
 
     #[BlockInfo(fromCodepoint: 0x16E40, toCodepoint: 0x16E9F, name: 'Medefaidrin', plane: Plane::Plane1)]
     case Medefaidrin;
@@ -846,6 +870,9 @@ enum Block
 
     #[BlockInfo(fromCodepoint: 0x1BCA0, toCodepoint: 0x1BCAF, name: 'Shorthand Format Controls', plane: Plane::Plane1)]
     case Shorthand_Format_Controls;
+
+    #[BlockInfo(fromCodepoint: 0x1CC00, toCodepoint: 0x1CEBF, name: 'Symbols for Legacy Computing Supplement', plane: Plane::Plane1)]
+    case Symbols_for_Legacy_Computing_Supplement;
 
     #[BlockInfo(fromCodepoint: 0x1CF00, toCodepoint: 0x1CFCF, name: 'Znamenny Musical Notation', plane: Plane::Plane1)]
     case Znamenny_Musical_Notation;
@@ -897,6 +924,9 @@ enum Block
 
     #[BlockInfo(fromCodepoint: 0x1E4D0, toCodepoint: 0x1E4FF, name: 'Nag Mundari', plane: Plane::Plane1)]
     case Nag_Mundari;
+
+    #[BlockInfo(fromCodepoint: 0x1E5D0, toCodepoint: 0x1E5FF, name: 'Ol Onal', plane: Plane::Plane1)]
+    case Ol_Onal;
 
     #[BlockInfo(fromCodepoint: 0x1E7E0, toCodepoint: 0x1E7FF, name: 'Ethiopic Extended-B', plane: Plane::Plane1)]
     case Ethiopic_ExtendedB;

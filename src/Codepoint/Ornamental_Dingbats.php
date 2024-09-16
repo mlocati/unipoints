@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Ornamental_Dingbats: string
 {
     #[Info(id: 0x1F650, name: 'NORTH WEST POINTING LEAF', category: Cat::Other_Symbol)]

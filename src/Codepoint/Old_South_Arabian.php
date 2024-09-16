@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Old_South_Arabian: string
 {
     #[Info(id: 0x10A60, name: 'OLD SOUTH ARABIAN LETTER HE', category: Cat::Other_Letter, informativeAliases: ['heh'])]

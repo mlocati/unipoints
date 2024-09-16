@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Glagolitic: string
 {
     #[Info(id: 0x2C00, name: 'GLAGOLITIC CAPITAL LETTER AZU', category: Cat::Uppercase_Letter)]

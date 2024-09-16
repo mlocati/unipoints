@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Pahawh_Hmong: string
 {
     #[Info(id: 0x16B00, name: 'PAHAWH HMONG VOWEL KEEB', category: Cat::Other_Letter, informativeAliases: ['keem'])]

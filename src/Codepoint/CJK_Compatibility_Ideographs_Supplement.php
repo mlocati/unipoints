@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum CJK_Compatibility_Ideographs_Supplement: string
 {
     #[Info(id: 0x2F800, name: 'CJK COMPATIBILITY IDEOGRAPH-2F800', category: Cat::Other_Letter)]

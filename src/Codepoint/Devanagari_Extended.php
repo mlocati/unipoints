@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Devanagari_Extended: string
 {
     #[Info(id: 0xA8E0, name: 'COMBINING DEVANAGARI DIGIT ZERO', category: Cat::Nonspacing_Mark, informativeAliases: ['vaidika saamasvara anka shuunya'])]

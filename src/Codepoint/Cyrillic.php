@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Cyrillic: string
 {
     #[Info(id: 0x400, name: 'CYRILLIC CAPITAL LETTER IE WITH GRAVE', category: Cat::Uppercase_Letter)]
