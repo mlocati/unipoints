@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Ancient_Greek_Numbers: string
 {
     #[Info(id: 0x10140, name: 'GREEK ACROPHONIC ATTIC ONE QUARTER', category: Cat::Letter_Number)]

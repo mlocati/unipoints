@@ -28,6 +28,8 @@ return $config
         'no_unused_imports' => true,
         // Ordering `use` statements.
         'ordered_imports' => ['sort_algorithm' => 'alpha'],
+        // Arguments lists, array destructuring lists, arrays that are multi-line, `match`-lines and parameters lists must have a trailing comma.
+        'trailing_comma_in_multiline' => ['elements' => ['array_destructuring', 'arrays', 'match', 'parameters']],
     ])
     ->setFinder(
         PhpCsFixer\Finder::create()

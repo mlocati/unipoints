@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Supplemental_ArrowsC: string
 {
     #[Info(id: 0x1F800, name: 'LEFTWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
@@ -465,4 +465,40 @@ enum Supplemental_ArrowsC: string
 
     #[Info(id: 0x1F8B1, name: 'ARROW POINTING RIGHTWARDS THEN CURVING SOUTH WEST', category: Cat::Other_Symbol)]
     case ARROW_POINTING_RIGHTWARDS_THEN_CURVING_SOUTH_WEST = "\u{1F8B1}";
+
+    #[Info(id: 0x1F8B2, name: 'RIGHTWARDS ARROW WITH LOWER HOOK', category: Cat::Other_Symbol)]
+    case RIGHTWARDS_ARROW_WITH_LOWER_HOOK = "\u{1F8B2}";
+
+    #[Info(id: 0x1F8B3, name: 'DOWNWARDS BLACK ARROW TO BAR', category: Cat::Other_Symbol)]
+    case DOWNWARDS_BLACK_ARROW_TO_BAR = "\u{1F8B3}";
+
+    #[Info(id: 0x1F8B4, name: 'NEGATIVE SQUARED LEFTWARDS ARROW', category: Cat::Other_Symbol)]
+    case NEGATIVE_SQUARED_LEFTWARDS_ARROW = "\u{1F8B4}";
+
+    #[Info(id: 0x1F8B5, name: 'NEGATIVE SQUARED UPWARDS ARROW', category: Cat::Other_Symbol)]
+    case NEGATIVE_SQUARED_UPWARDS_ARROW = "\u{1F8B5}";
+
+    #[Info(id: 0x1F8B6, name: 'NEGATIVE SQUARED RIGHTWARDS ARROW', category: Cat::Other_Symbol)]
+    case NEGATIVE_SQUARED_RIGHTWARDS_ARROW = "\u{1F8B6}";
+
+    #[Info(id: 0x1F8B7, name: 'NEGATIVE SQUARED DOWNWARDS ARROW', category: Cat::Other_Symbol)]
+    case NEGATIVE_SQUARED_DOWNWARDS_ARROW = "\u{1F8B7}";
+
+    #[Info(id: 0x1F8B8, name: 'NORTH WEST ARROW FROM BAR', category: Cat::Other_Symbol)]
+    case NORTH_WEST_ARROW_FROM_BAR = "\u{1F8B8}";
+
+    #[Info(id: 0x1F8B9, name: 'NORTH EAST ARROW FROM BAR', category: Cat::Other_Symbol)]
+    case NORTH_EAST_ARROW_FROM_BAR = "\u{1F8B9}";
+
+    #[Info(id: 0x1F8BA, name: 'SOUTH EAST ARROW FROM BAR', category: Cat::Other_Symbol)]
+    case SOUTH_EAST_ARROW_FROM_BAR = "\u{1F8BA}";
+
+    #[Info(id: 0x1F8BB, name: 'SOUTH WEST ARROW FROM BAR', category: Cat::Other_Symbol)]
+    case SOUTH_WEST_ARROW_FROM_BAR = "\u{1F8BB}";
+
+    #[Info(id: 0x1F8C0, name: 'LEFTWARDS ARROW FROM DOWNWARDS ARROW', category: Cat::Other_Symbol)]
+    case LEFTWARDS_ARROW_FROM_DOWNWARDS_ARROW = "\u{1F8C0}";
+
+    #[Info(id: 0x1F8C1, name: 'RIGHTWARDS ARROW FROM DOWNWARDS ARROW', category: Cat::Other_Symbol)]
+    case RIGHTWARDS_ARROW_FROM_DOWNWARDS_ARROW = "\u{1F8C1}";
 }

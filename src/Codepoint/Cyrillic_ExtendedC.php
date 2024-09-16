@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Cyrillic_ExtendedC: string
 {
     #[Info(id: 0x1C80, name: 'CYRILLIC SMALL LETTER ROUNDED VE', category: Cat::Lowercase_Letter)]
@@ -42,4 +42,10 @@ enum Cyrillic_ExtendedC: string
 
     #[Info(id: 0x1C88, name: 'CYRILLIC SMALL LETTER UNBLENDED UK', category: Cat::Lowercase_Letter)]
     case CYRILLIC_SMALL_LETTER_UNBLENDED_UK = "\u{1C88}";
+
+    #[Info(id: 0x1C89, name: 'CYRILLIC CAPITAL LETTER TJE', category: Cat::Uppercase_Letter)]
+    case CYRILLIC_CAPITAL_LETTER_TJE = "\u{1C89}";
+
+    #[Info(id: 0x1C8A, name: 'CYRILLIC SMALL LETTER TJE', category: Cat::Lowercase_Letter)]
+    case CYRILLIC_SMALL_LETTER_TJE = "\u{1C8A}";
 }

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Marchen: string
 {
     #[Info(id: 0x11C70, name: 'MARCHEN HEAD MARK', category: Cat::Other_Punctuation)]

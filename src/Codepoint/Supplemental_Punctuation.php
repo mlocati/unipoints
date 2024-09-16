@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Supplemental_Punctuation: string
 {
     #[Info(id: 0x2E00, name: 'RIGHT ANGLE SUBSTITUTION MARKER', category: Cat::Other_Punctuation)]

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Latin_ExtendedD: string
 {
     #[Info(id: 0xA720, name: 'MODIFIER LETTER STRESS AND HIGH TONE', category: Cat::Modifier_Symbol)]
@@ -529,6 +529,15 @@ enum Latin_ExtendedD: string
     #[Info(id: 0xA7CA, name: 'LATIN SMALL LETTER S WITH SHORT STROKE OVERLAY', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_S_WITH_SHORT_STROKE_OVERLAY = "\u{A7CA}";
 
+    #[Info(id: 0xA7CB, name: 'LATIN CAPITAL LETTER RAMS HORN', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_RAMS_HORN = "\u{A7CB}";
+
+    #[Info(id: 0xA7CC, name: 'LATIN CAPITAL LETTER S WITH DIAGONAL STROKE', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_S_WITH_DIAGONAL_STROKE = "\u{A7CC}";
+
+    #[Info(id: 0xA7CD, name: 'LATIN SMALL LETTER S WITH DIAGONAL STROKE', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_S_WITH_DIAGONAL_STROKE = "\u{A7CD}";
+
     #[Info(id: 0xA7D0, name: 'LATIN CAPITAL LETTER CLOSED INSULAR G', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_CLOSED_INSULAR_G = "\u{A7D0}";
 
@@ -552,6 +561,15 @@ enum Latin_ExtendedD: string
 
     #[Info(id: 0xA7D9, name: 'LATIN SMALL LETTER SIGMOID S', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_SIGMOID_S = "\u{A7D9}";
+
+    #[Info(id: 0xA7DA, name: 'LATIN CAPITAL LETTER LAMBDA', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_LAMBDA = "\u{A7DA}";
+
+    #[Info(id: 0xA7DB, name: 'LATIN SMALL LETTER LAMBDA', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_LAMBDA = "\u{A7DB}";
+
+    #[Info(id: 0xA7DC, name: 'LATIN CAPITAL LETTER LAMBDA WITH STROKE', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_LAMBDA_WITH_STROKE = "\u{A7DC}";
 
     #[Info(id: 0xA7F2, name: 'MODIFIER LETTER CAPITAL C', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_CAPITAL_C = "\u{A7F2}";

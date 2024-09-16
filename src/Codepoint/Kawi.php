@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Kawi: string
 {
     #[Info(id: 0x11F00, name: 'KAWI SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
@@ -273,4 +273,7 @@ enum Kawi: string
 
     #[Info(id: 0x11F59, name: 'KAWI DIGIT NINE', category: Cat::Decimal_Number)]
     case KAWI_DIGIT_NINE = "\u{11F59}";
+
+    #[Info(id: 0x11F5A, name: 'KAWI SIGN NUKTA', category: Cat::Nonspacing_Mark)]
+    case KAWI_SIGN_NUKTA = "\u{11F5A}";
 }

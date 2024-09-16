@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Control_Pictures: string
 {
     #[Info(id: 0x2400, name: 'SYMBOL FOR NULL', category: Cat::Other_Symbol, unicode1Name: 'GRAPHIC FOR NULL')]
@@ -132,4 +132,13 @@ enum Control_Pictures: string
 
     #[Info(id: 0x2426, name: 'SYMBOL FOR SUBSTITUTE FORM TWO', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_SUBSTITUTE_FORM_TWO = "\u{2426}";
+
+    #[Info(id: 0x2427, name: 'SYMBOL FOR DELETE SQUARE CHECKER BOARD FORM', category: Cat::Other_Symbol)]
+    case SYMBOL_FOR_DELETE_SQUARE_CHECKER_BOARD_FORM = "\u{2427}";
+
+    #[Info(id: 0x2428, name: 'SYMBOL FOR DELETE RECTANGULAR CHECKER BOARD FORM', category: Cat::Other_Symbol)]
+    case SYMBOL_FOR_DELETE_RECTANGULAR_CHECKER_BOARD_FORM = "\u{2428}";
+
+    #[Info(id: 0x2429, name: 'SYMBOL FOR DELETE MEDIUM SHADE FORM', category: Cat::Other_Symbol)]
+    case SYMBOL_FOR_DELETE_MEDIUM_SHADE_FORM = "\u{2429}";
 }

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Unified_Canadian_Aboriginal_Syllabics: string
 {
     #[Info(id: 0x1400, name: 'CANADIAN SYLLABICS HYPHEN', category: Cat::Dash_Punctuation)]

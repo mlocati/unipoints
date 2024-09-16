@@ -16,7 +16,7 @@ use MLUnipoints\Info\PlaneInfo;
 use MLUnipoints\Info\UnicodeInfo;
 use MLUnipoints\Plane;
 
-const DEFAULT_VERSION = '15.1.0';
+const DEFAULT_VERSION = '16.0.0';
 
 set_error_handler(
     static function ($errno, $errstr, $file = '', $line = null) {

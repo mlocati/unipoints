@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Ancient_Greek_Musical_Notation: string
 {
     #[Info(id: 0x1D200, name: 'GREEK VOCAL NOTATION SYMBOL-1', category: Cat::Other_Symbol)]

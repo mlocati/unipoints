@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Cyrillic_ExtendedD: string
 {
     #[Info(id: 0x1E030, name: 'MODIFIER LETTER CYRILLIC SMALL A', category: Cat::Modifier_Letter)]

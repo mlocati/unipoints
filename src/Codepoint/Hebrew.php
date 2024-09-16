@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Hebrew: string
 {
     #[Info(id: 0x591, name: 'HEBREW ACCENT ETNAHTA', category: Cat::Nonspacing_Mark, informativeAliases: ['atnah'])]

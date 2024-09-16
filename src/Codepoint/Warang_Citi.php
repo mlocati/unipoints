@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Warang_Citi: string
 {
     #[Info(id: 0x118A0, name: 'WARANG CITI CAPITAL LETTER NGAA', category: Cat::Uppercase_Letter)]

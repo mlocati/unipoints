@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Anatolian_Hieroglyphs: string
 {
     #[Info(id: 0x14400, name: 'ANATOLIAN HIEROGLYPH A001', category: Cat::Other_Letter, informativeAliases: ['ego'])]

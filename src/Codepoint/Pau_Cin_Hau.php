@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Pau_Cin_Hau: string
 {
     #[Info(id: 0x11AC0, name: 'PAU CIN HAU LETTER PA', category: Cat::Other_Letter)]

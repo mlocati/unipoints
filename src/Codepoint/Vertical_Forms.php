@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Vertical_Forms: string
 {
     #[Info(id: 0xFE10, name: 'PRESENTATION FORM FOR VERTICAL COMMA', category: Cat::Other_Punctuation)]

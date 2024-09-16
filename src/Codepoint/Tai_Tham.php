@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Tai_Tham: string
 {
     #[Info(id: 0x1A20, name: 'TAI THAM LETTER HIGH KA', category: Cat::Other_Letter)]

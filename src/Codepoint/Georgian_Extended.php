@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Georgian_Extended: string
 {
     #[Info(id: 0x1C90, name: 'GEORGIAN MTAVRULI CAPITAL LETTER AN', category: Cat::Uppercase_Letter)]

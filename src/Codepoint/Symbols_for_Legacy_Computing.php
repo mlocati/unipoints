@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Symbols_for_Legacy_Computing: string
 {
     #[Info(id: 0x1FB00, name: 'BLOCK SEXTANT-1', category: Cat::Other_Symbol)]
@@ -621,6 +621,117 @@ enum Symbols_for_Legacy_Computing: string
 
     #[Info(id: 0x1FBCA, name: 'WHITE UP-POINTING CHEVRON', category: Cat::Other_Symbol)]
     case WHITE_UP_POINTING_CHEVRON = "\u{1FBCA}";
+
+    #[Info(id: 0x1FBCB, name: 'WHITE CROSS MARK', category: Cat::Other_Symbol)]
+    case WHITE_CROSS_MARK = "\u{1FBCB}";
+
+    #[Info(id: 0x1FBCC, name: 'RAISED SMALL LEFT SQUARE BRACKET', category: Cat::Other_Symbol)]
+    case RAISED_SMALL_LEFT_SQUARE_BRACKET = "\u{1FBCC}";
+
+    #[Info(id: 0x1FBCD, name: 'BLACK SMALL UP-POINTING CHEVRON', category: Cat::Other_Symbol)]
+    case BLACK_SMALL_UP_POINTING_CHEVRON = "\u{1FBCD}";
+
+    #[Info(id: 0x1FBCE, name: 'LEFT TWO THIRDS BLOCK', category: Cat::Other_Symbol)]
+    case LEFT_TWO_THIRDS_BLOCK = "\u{1FBCE}";
+
+    #[Info(id: 0x1FBCF, name: 'LEFT ONE THIRD BLOCK', category: Cat::Other_Symbol)]
+    case LEFT_ONE_THIRD_BLOCK = "\u{1FBCF}";
+
+    #[Info(id: 0x1FBD0, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE RIGHT TO LOWER LEFT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_MIDDLE_RIGHT_TO_LOWER_LEFT = "\u{1FBD0}";
+
+    #[Info(id: 0x1FBD1, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO MIDDLE LEFT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_RIGHT_TO_MIDDLE_LEFT = "\u{1FBD1}";
+
+    #[Info(id: 0x1FBD2, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO MIDDLE RIGHT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_LEFT_TO_MIDDLE_RIGHT = "\u{1FBD2}";
+
+    #[Info(id: 0x1FBD3, name: 'BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_MIDDLE_LEFT_TO_LOWER_RIGHT = "\u{1FBD3}";
+
+    #[Info(id: 0x1FBD4, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_LEFT_TO_LOWER_CENTRE = "\u{1FBD4}";
+
+    #[Info(id: 0x1FBD5, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_CENTRE_TO_LOWER_RIGHT = "\u{1FBD5}";
+
+    #[Info(id: 0x1FBD6, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER CENTRE', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_RIGHT_TO_LOWER_CENTRE = "\u{1FBD6}";
+
+    #[Info(id: 0x1FBD7, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO LOWER LEFT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_CENTRE_TO_LOWER_LEFT = "\u{1FBD7}";
+
+    #[Info(id: 0x1FBD8, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO MIDDLE CENTRE TO UPPER RIGHT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_LEFT_TO_MIDDLE_CENTRE_TO_UPPER_RIGHT = "\u{1FBD8}";
+
+    #[Info(id: 0x1FBD9, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO MIDDLE CENTRE TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_RIGHT_TO_MIDDLE_CENTRE_TO_LOWER_RIGHT = "\u{1FBD9}";
+
+    #[Info(id: 0x1FBDA, name: 'BOX DRAWINGS LIGHT DIAGONAL LOWER LEFT TO MIDDLE CENTRE TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_LOWER_LEFT_TO_MIDDLE_CENTRE_TO_LOWER_RIGHT = "\u{1FBDA}";
+
+    #[Info(id: 0x1FBDB, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO MIDDLE CENTRE TO LOWER LEFT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_LEFT_TO_MIDDLE_CENTRE_TO_LOWER_LEFT = "\u{1FBDB}";
+
+    #[Info(id: 0x1FBDC, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER CENTRE TO UPPER RIGHT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_LEFT_TO_LOWER_CENTRE_TO_UPPER_RIGHT = "\u{1FBDC}";
+
+    #[Info(id: 0x1FBDD, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO MIDDLE LEFT TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_RIGHT_TO_MIDDLE_LEFT_TO_LOWER_RIGHT = "\u{1FBDD}";
+
+    #[Info(id: 0x1FBDE, name: 'BOX DRAWINGS LIGHT DIAGONAL LOWER LEFT TO UPPER CENTRE TO LOWER RIGHT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_LOWER_LEFT_TO_UPPER_CENTRE_TO_LOWER_RIGHT = "\u{1FBDE}";
+
+    #[Info(id: 0x1FBDF, name: 'BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO MIDDLE RIGHT TO LOWER LEFT', category: Cat::Other_Symbol)]
+    case BOX_DRAWINGS_LIGHT_DIAGONAL_UPPER_LEFT_TO_MIDDLE_RIGHT_TO_LOWER_LEFT = "\u{1FBDF}";
+
+    #[Info(id: 0x1FBE0, name: 'TOP JUSTIFIED LOWER HALF WHITE CIRCLE', category: Cat::Other_Symbol)]
+    case TOP_JUSTIFIED_LOWER_HALF_WHITE_CIRCLE = "\u{1FBE0}";
+
+    #[Info(id: 0x1FBE1, name: 'RIGHT JUSTIFIED LEFT HALF WHITE CIRCLE', category: Cat::Other_Symbol)]
+    case RIGHT_JUSTIFIED_LEFT_HALF_WHITE_CIRCLE = "\u{1FBE1}";
+
+    #[Info(id: 0x1FBE2, name: 'BOTTOM JUSTIFIED UPPER HALF WHITE CIRCLE', category: Cat::Other_Symbol)]
+    case BOTTOM_JUSTIFIED_UPPER_HALF_WHITE_CIRCLE = "\u{1FBE2}";
+
+    #[Info(id: 0x1FBE3, name: 'LEFT JUSTIFIED RIGHT HALF WHITE CIRCLE', category: Cat::Other_Symbol)]
+    case LEFT_JUSTIFIED_RIGHT_HALF_WHITE_CIRCLE = "\u{1FBE3}";
+
+    #[Info(id: 0x1FBE4, name: 'UPPER CENTRE ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    case UPPER_CENTRE_ONE_QUARTER_BLOCK = "\u{1FBE4}";
+
+    #[Info(id: 0x1FBE5, name: 'LOWER CENTRE ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    case LOWER_CENTRE_ONE_QUARTER_BLOCK = "\u{1FBE5}";
+
+    #[Info(id: 0x1FBE6, name: 'MIDDLE LEFT ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    case MIDDLE_LEFT_ONE_QUARTER_BLOCK = "\u{1FBE6}";
+
+    #[Info(id: 0x1FBE7, name: 'MIDDLE RIGHT ONE QUARTER BLOCK', category: Cat::Other_Symbol)]
+    case MIDDLE_RIGHT_ONE_QUARTER_BLOCK = "\u{1FBE7}";
+
+    #[Info(id: 0x1FBE8, name: 'TOP JUSTIFIED LOWER HALF BLACK CIRCLE', category: Cat::Other_Symbol)]
+    case TOP_JUSTIFIED_LOWER_HALF_BLACK_CIRCLE = "\u{1FBE8}";
+
+    #[Info(id: 0x1FBE9, name: 'RIGHT JUSTIFIED LEFT HALF BLACK CIRCLE', category: Cat::Other_Symbol)]
+    case RIGHT_JUSTIFIED_LEFT_HALF_BLACK_CIRCLE = "\u{1FBE9}";
+
+    #[Info(id: 0x1FBEA, name: 'BOTTOM JUSTIFIED UPPER HALF BLACK CIRCLE', category: Cat::Other_Symbol)]
+    case BOTTOM_JUSTIFIED_UPPER_HALF_BLACK_CIRCLE = "\u{1FBEA}";
+
+    #[Info(id: 0x1FBEB, name: 'LEFT JUSTIFIED RIGHT HALF BLACK CIRCLE', category: Cat::Other_Symbol)]
+    case LEFT_JUSTIFIED_RIGHT_HALF_BLACK_CIRCLE = "\u{1FBEB}";
+
+    #[Info(id: 0x1FBEC, name: 'TOP RIGHT JUSTIFIED LOWER LEFT QUARTER BLACK CIRCLE', category: Cat::Other_Symbol)]
+    case TOP_RIGHT_JUSTIFIED_LOWER_LEFT_QUARTER_BLACK_CIRCLE = "\u{1FBEC}";
+
+    #[Info(id: 0x1FBED, name: 'BOTTOM LEFT JUSTIFIED UPPER RIGHT QUARTER BLACK CIRCLE', category: Cat::Other_Symbol)]
+    case BOTTOM_LEFT_JUSTIFIED_UPPER_RIGHT_QUARTER_BLACK_CIRCLE = "\u{1FBED}";
+
+    #[Info(id: 0x1FBEE, name: 'BOTTOM RIGHT JUSTIFIED UPPER LEFT QUARTER BLACK CIRCLE', category: Cat::Other_Symbol)]
+    case BOTTOM_RIGHT_JUSTIFIED_UPPER_LEFT_QUARTER_BLACK_CIRCLE = "\u{1FBEE}";
+
+    #[Info(id: 0x1FBEF, name: 'TOP LEFT JUSTIFIED LOWER RIGHT QUARTER BLACK CIRCLE', category: Cat::Other_Symbol)]
+    case TOP_LEFT_JUSTIFIED_LOWER_RIGHT_QUARTER_BLACK_CIRCLE = "\u{1FBEF}";
 
     #[Info(id: 0x1FBF0, name: 'SEGMENTED DIGIT ZERO', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_ZERO = "\u{1FBF0}";

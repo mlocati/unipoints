@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Bamum_Supplement: string
 {
     #[Info(id: 0x16800, name: 'BAMUM LETTER PHASE-A NGKUE MFON', category: Cat::Other_Letter)]
@@ -49,7 +49,7 @@ enum Bamum_Supplement: string
     #[Info(id: 0x1680A, name: 'BAMUM LETTER PHASE-A PON PA NJI PIPAEMBA', category: Cat::Other_Letter)]
     case BAMUM_LETTER_PHASE_A_PON_PA_NJI_PIPAEMBA = "\u{1680A}";
 
-    #[Info(id: 0x1680B, name: 'BAMUM LETTER PHASE-A MAEMBGBIEE', category: Cat::Other_Letter)]
+    #[Info(id: 0x1680B, name: 'BAMUM LETTER PHASE-A MAEMBGBIEE', category: Cat::Other_Letter, correctedNames: ['BAMUM LETTER PHASE-A MAEMGBIEE'])]
     case BAMUM_LETTER_PHASE_A_MAEMBGBIEE = "\u{1680B}";
 
     #[Info(id: 0x1680C, name: 'BAMUM LETTER PHASE-A TU MAEMBA', category: Cat::Other_Letter)]

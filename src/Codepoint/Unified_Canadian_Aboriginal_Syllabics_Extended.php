@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Unified_Canadian_Aboriginal_Syllabics_Extended: string
 {
     #[Info(id: 0x18B0, name: 'CANADIAN SYLLABICS OY', category: Cat::Other_Letter)]

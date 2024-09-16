@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Latin_ExtendedA: string
 {
     #[Info(id: 0x100, name: 'LATIN CAPITAL LETTER A WITH MACRON', category: Cat::Uppercase_Letter, unicode1Name: 'LATIN CAPITAL LETTER A MACRON')]

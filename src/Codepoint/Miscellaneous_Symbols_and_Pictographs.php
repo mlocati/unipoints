@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Miscellaneous_Symbols_and_Pictographs: string
 {
     #[Info(id: 0x1F300, name: 'CYCLONE', category: Cat::Other_Symbol, informativeAliases: ['typhoon, hurricane'])]

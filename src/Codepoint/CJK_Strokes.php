@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum CJK_Strokes: string
 {
     #[Info(id: 0x31C0, name: 'CJK STROKE T', category: Cat::Other_Symbol)]
@@ -123,6 +123,12 @@ enum CJK_Strokes: string
 
     #[Info(id: 0x31E3, name: 'CJK STROKE Q', category: Cat::Other_Symbol)]
     case CJK_STROKE_Q = "\u{31E3}";
+
+    #[Info(id: 0x31E4, name: 'CJK STROKE HXG', category: Cat::Other_Symbol)]
+    case CJK_STROKE_HXG = "\u{31E4}";
+
+    #[Info(id: 0x31E5, name: 'CJK STROKE SZP', category: Cat::Other_Symbol)]
+    case CJK_STROKE_SZP = "\u{31E5}";
 
     #[Info(id: 0x31EF, name: 'IDEOGRAPHIC DESCRIPTION CHARACTER SUBTRACTION', category: Cat::Other_Symbol)]
     case IDEOGRAPHIC_DESCRIPTION_CHARACTER_SUBTRACTION = "\u{31EF}";

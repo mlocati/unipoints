@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Superscripts_and_Subscripts: string
 {
     #[Info(id: 0x2070, name: 'SUPERSCRIPT ZERO', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT ZERO')]

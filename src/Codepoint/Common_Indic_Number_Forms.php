@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Common_Indic_Number_Forms: string
 {
     #[Info(id: 0xA830, name: 'NORTH INDIC FRACTION ONE QUARTER', category: Cat::Other_Number)]

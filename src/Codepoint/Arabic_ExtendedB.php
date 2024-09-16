@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Arabic_ExtendedB: string
 {
     #[Info(id: 0x870, name: 'ARABIC LETTER ALEF WITH ATTACHED FATHA', category: Cat::Other_Letter)]
@@ -114,6 +114,9 @@ enum Arabic_ExtendedB: string
 
     #[Info(id: 0x891, name: 'ARABIC PIASTRE MARK ABOVE', category: Cat::Format)]
     case ARABIC_PIASTRE_MARK_ABOVE = "\u{891}";
+
+    #[Info(id: 0x897, name: 'ARABIC PEPET', category: Cat::Nonspacing_Mark)]
+    case ARABIC_PEPET = "\u{897}";
 
     #[Info(id: 0x898, name: 'ARABIC SMALL HIGH WORD AL-JUZ', category: Cat::Nonspacing_Mark)]
     case ARABIC_SMALL_HIGH_WORD_AL_JUZ = "\u{898}";

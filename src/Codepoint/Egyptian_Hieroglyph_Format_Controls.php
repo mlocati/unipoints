@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Egyptian_Hieroglyph_Format_Controls: string
 {
     #[Info(id: 0x13430, name: 'EGYPTIAN HIEROGLYPH VERTICAL JOINER', category: Cat::Format, informativeAliases: ['sign separator: subordination (Manuel de Codage)'])]

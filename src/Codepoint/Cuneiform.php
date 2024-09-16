@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Cuneiform: string
 {
     #[Info(id: 0x12000, name: 'CUNEIFORM SIGN A', category: Cat::Other_Letter)]
@@ -2434,10 +2434,10 @@ enum Cuneiform: string
     #[Info(id: 0x12325, name: 'CUNEIFORM SIGN UMUM TIMES PA', category: Cat::Other_Letter)]
     case CUNEIFORM_SIGN_UMUM_TIMES_PA = "\u{12325}";
 
-    #[Info(id: 0x12326, name: 'CUNEIFORM SIGN UN', category: Cat::Other_Letter)]
+    #[Info(id: 0x12326, name: 'CUNEIFORM SIGN UN', category: Cat::Other_Letter, informativeAliases: ['kalam gunû'])]
     case CUNEIFORM_SIGN_UN = "\u{12326}";
 
-    #[Info(id: 0x12327, name: 'CUNEIFORM SIGN UN GUNU', category: Cat::Other_Letter)]
+    #[Info(id: 0x12327, name: 'CUNEIFORM SIGN UN GUNU', category: Cat::Other_Letter, correctedNames: ['CUNEIFORM SIGN KALAM'])]
     case CUNEIFORM_SIGN_UN_GUNU = "\u{12327}";
 
     #[Info(id: 0x12328, name: 'CUNEIFORM SIGN UR', category: Cat::Other_Letter)]

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Balinese: string
 {
     #[Info(id: 0x1B00, name: 'BALINESE SIGN ULU RICEM', category: Cat::Nonspacing_Mark, informativeAliases: ['ardhacandra'])]
@@ -247,6 +247,12 @@ enum Balinese: string
     #[Info(id: 0x1B4C, name: 'BALINESE LETTER ARCHAIC JNYA', category: Cat::Other_Letter)]
     case BALINESE_LETTER_ARCHAIC_JNYA = "\u{1B4C}";
 
+    #[Info(id: 0x1B4E, name: 'BALINESE INVERTED CARIK SIKI', category: Cat::Other_Punctuation)]
+    case BALINESE_INVERTED_CARIK_SIKI = "\u{1B4E}";
+
+    #[Info(id: 0x1B4F, name: 'BALINESE INVERTED CARIK PAREREN', category: Cat::Other_Punctuation)]
+    case BALINESE_INVERTED_CARIK_PAREREN = "\u{1B4F}";
+
     #[Info(id: 0x1B50, name: 'BALINESE DIGIT ZERO', category: Cat::Decimal_Number)]
     case BALINESE_DIGIT_ZERO = "\u{1B50}";
 
@@ -387,4 +393,7 @@ enum Balinese: string
 
     #[Info(id: 0x1B7E, name: 'BALINESE PAMADA LANTANG', category: Cat::Other_Punctuation, informativeAliases: ['end of text'])]
     case BALINESE_PAMADA_LANTANG = "\u{1B7E}";
+
+    #[Info(id: 0x1B7F, name: 'BALINESE PANTI BAWAK', category: Cat::Other_Punctuation)]
+    case BALINESE_PANTI_BAWAK = "\u{1B7F}";
 }

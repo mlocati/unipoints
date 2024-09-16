@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum Latin_ExtendedG: string
 {
     #[Info(id: 0x1DF00, name: 'LATIN SMALL LETTER FENG DIGRAPH WITH TRILL', category: Cat::Lowercase_Letter)]

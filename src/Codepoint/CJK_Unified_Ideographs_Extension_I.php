@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '15.1.0')]
+#[UnicodeInfo(unicodeVersion: '16.0.0')]
 enum CJK_Unified_Ideographs_Extension_I: string
 {
     #[Info(id: 0x2EBF0, name: 'CJK Ideograph Extension I, First', category: Cat::Other_Letter)]
