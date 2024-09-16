@@ -41,7 +41,7 @@
         "sort-packages": true
     },
     "scripts": {
-        "phpcs": "php-cs-fixer --path-mode=intersection --config=./.php-cs-fixer.php fix .",
+        "phpcs": "php-cs-fixer --config=./.php-cs-fixer.php fix",
         "test": "phpunit --verbose"
     },
     "$schema": "https://raw.githubusercontent.com/composer/composer/main/res/composer-schema.json"

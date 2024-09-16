@@ -66,7 +66,7 @@ jobs:
       -
         name: Check PHP coding style
         if: matrix.check-cs
-        run: composer run-script phpcs -- --ansi --no-interaction --dry-run --diff
+        run: composer run-script phpcs -- --ansi --no-interaction --dry-run --diff --show-progress=none
       -
         name: PHPUnit
         run: composer run-script test -- --colors=always
