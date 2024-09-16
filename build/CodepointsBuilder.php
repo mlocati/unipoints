@@ -482,7 +482,7 @@ EOT
     {
         $value = array_shift($chunks);
 
-        return match($value) {
+        return match ($value) {
             'N' => false,
             'Y' => true,
             default => throw new ValueError(),
