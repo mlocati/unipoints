@@ -111,41 +111,67 @@ function updateSelectedCodepoints() {
     return
   }
   const result: PlaneFilterResult[] = []
+  if (props.unipointsData === null) {
+    emit('change', result)
+    return
+  }
   if (!searchByRegex.value) {
-    const searchByCodepoints = searchByRegex.value ? [] : extractCodepoints(searchText.value)
+    if (Array.from(searchText.value).length === 1) {
+      props.unipointsData.planes.some((plane) => {
+        return plane.blocks.some((block) => {
+          return block.codepoints.some((codepoint) => {
+            if (codepoint.char === searchText.value) {
+              result.push({
+                plane,
+                blocks: [
+                  {
+                    block,
+                    codepoints: [codepoint]
+                  }
+                ]
+              })
+              return true;
+            }
+          })
+        })
+      })
+    }
+    if (result.length > 0) {
+      emit('change', result)
+      return
+    }
+    const searchByCodepoints = extractCodepoints(searchText.value)
     if (searchByCodepoints.length > 0) {
-      if (props.unipointsData !== null) {
-        props.unipointsData.planes.forEach((plane) => {
-          if (planeBlockSelection.value !== null && planeBlockSelection.value.plane !== plane.id) {
+      props.unipointsData.planes.forEach((plane) => {
+        if (planeBlockSelection.value !== null && planeBlockSelection.value.plane !== plane.id) {
+          return
+        }
+        const blocks: BlockFilterResult[] = []
+        plane.blocks.forEach((block) => {
+          if (
+            planeBlockSelection.value !== null &&
+            planeBlockSelection.value.block !== undefined &&
+            planeBlockSelection.value.block !== block.codename
+          ) {
             return
           }
-          const blocks: BlockFilterResult[] = []
-          plane.blocks.forEach((block) => {
-            if (
-              planeBlockSelection.value !== null &&
-              planeBlockSelection.value.block !== undefined &&
-              planeBlockSelection.value.block !== block.codename
-            ) {
-              return
-            }
-            const codepoints = block.codepoints.filter((cp) => searchByCodepoints.includes(cp.id));
-            if (codepoints.length === 0) {
-              return
-            }
-            blocks.push({
-              block,
-              codepoints,
-            })
-          });
-          if (blocks.length === 0) {
+          const codepoints = block.codepoints.filter((cp) => searchByCodepoints.includes(cp.id));
+          if (codepoints.length === 0) {
             return
           }
-          result.push({
-            plane,
-            blocks
-          });
+          blocks.push({
+            block,
+            codepoints,
+          })
         });
-      }
+        if (blocks.length === 0) {
+          return
+        }
+        result.push({
+          plane,
+          blocks
+        });
+      });
       if (result.length > 0) {
         emit('change', result)
         return
@@ -156,50 +182,49 @@ function updateSelectedCodepoints() {
     .split(/\s+/)
     .filter((s) => s.length > 0)
     .map((word) => word.toUpperCase())
-  if (props.unipointsData !== null) {
-    props.unipointsData.planes.forEach((plane) => {
-      if (planeBlockSelection.value !== null && planeBlockSelection.value.plane !== plane.id) {
+  props.unipointsData.planes.forEach((plane) => {
+    if (planeBlockSelection.value !== null && planeBlockSelection.value.plane !== plane.id) {
+      return
+    }
+    const blocks: BlockFilterResult[] = []
+    plane.blocks.forEach((block) => {
+      if (
+        planeBlockSelection.value !== null &&
+        planeBlockSelection.value.block !== undefined &&
+        planeBlockSelection.value.block !== block.codename
+      ) {
         return
       }
-      const blocks: BlockFilterResult[] = []
-      plane.blocks.forEach((block) => {
-        if (
-          planeBlockSelection.value !== null &&
-          planeBlockSelection.value.block !== undefined &&
-          planeBlockSelection.value.block !== block.codename
-        ) {
+      let codepoints: Codepoint[]
+      if (searchByRegex.value) {
+        if (regexp instanceof Error) {
           return
         }
-        let codepoints: Codepoint[]
-        if (searchByRegex.value) {
-          if (regexp instanceof Error) {
-            return
-          }
-          codepoints = block.codepoints.filter((codepoint) => matchRegexp(codepoint, regexp))
+        codepoints = block.codepoints.filter((codepoint) => matchRegexp(codepoint, regexp))
+      } else {
+        if (ucWords.length === 0) {
+          codepoints = block.codepoints
         } else {
-          if (ucWords.length === 0) {
-            codepoints = block.codepoints
-          } else {
-            codepoints = block.codepoints.filter((codepoint) => matchWords(codepoint, ucWords))
-          }
+          codepoints = block.codepoints.filter((codepoint) => matchWords(codepoint, ucWords))
         }
-        if (codepoints.length === 0) {
-          return
-        }
-        blocks.push({
-          block,
-          codepoints
-        })
-      })
-      if (blocks.length === 0) {
+      }
+      if (codepoints.length === 0) {
         return
       }
-      result.push({
-        plane,
-        blocks
+      blocks.push({
+        block,
+        codepoints
       })
     })
-  }
+    if (blocks.length === 0) {
+      return
+    }
+    result.push({
+      plane,
+      blocks
+    })
+  })
+  
   emit('change', result)
 }
 
