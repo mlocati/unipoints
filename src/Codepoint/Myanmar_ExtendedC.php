@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Myanmar_ExtendedC: string
 {
     #[Info(id: 0x116D0, name: 'MYANMAR PAO DIGIT ZERO', category: Cat::Decimal_Number)]

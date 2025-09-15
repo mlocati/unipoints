@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Bamum_Supplement: string
 {
     #[Info(id: 0x16800, name: 'BAMUM LETTER PHASE-A NGKUE MFON', category: Cat::Other_Letter)]
@@ -403,7 +403,7 @@ enum Bamum_Supplement: string
     #[Info(id: 0x16880, name: 'BAMUM LETTER PHASE-B NYAEMAE', category: Cat::Other_Letter)]
     case BAMUM_LETTER_PHASE_B_NYAEMAE = "\u{16880}";
 
-    #[Info(id: 0x16881, name: 'BAMUM LETTER PHASE-B PUNGAAM', category: Cat::Other_Letter)]
+    #[Info(id: 0x16881, name: 'BAMUM LETTER PHASE-B PUNGAAM', category: Cat::Other_Letter, correctedNames: ['BAMUM LETTER PHASE-B PUNGGAAM'])]
     case BAMUM_LETTER_PHASE_B_PUNGAAM = "\u{16881}";
 
     #[Info(id: 0x16882, name: 'BAMUM LETTER PHASE-B MEUT NGGEET', category: Cat::Other_Letter)]
@@ -442,7 +442,7 @@ enum Bamum_Supplement: string
     #[Info(id: 0x1688D, name: 'BAMUM LETTER PHASE-B KIQ', category: Cat::Other_Letter)]
     case BAMUM_LETTER_PHASE_B_KIQ = "\u{1688D}";
 
-    #[Info(id: 0x1688E, name: 'BAMUM LETTER PHASE-B NGOM', category: Cat::Other_Letter)]
+    #[Info(id: 0x1688E, name: 'BAMUM LETTER PHASE-B NGOM', category: Cat::Other_Letter, correctedNames: ['BAMUM LETTER PHASE-B NGGOM'])]
     case BAMUM_LETTER_PHASE_B_NGOM = "\u{1688E}";
 
     #[Info(id: 0x1688F, name: 'BAMUM LETTER PHASE-C NGKUE MAEMBA', category: Cat::Other_Letter)]
@@ -676,7 +676,7 @@ enum Bamum_Supplement: string
     #[Info(id: 0x168DB, name: 'BAMUM LETTER PHASE-C SHUEQ', category: Cat::Other_Letter)]
     case BAMUM_LETTER_PHASE_C_SHUEQ = "\u{168DB}";
 
-    #[Info(id: 0x168DC, name: 'BAMUM LETTER PHASE-C SETFON', category: Cat::Other_Letter)]
+    #[Info(id: 0x168DC, name: 'BAMUM LETTER PHASE-C SETFON', category: Cat::Other_Letter, correctedNames: ['BAMUM LETTER PHASE-C SHETFON'])]
     case BAMUM_LETTER_PHASE_C_SETFON = "\u{168DC}";
 
     #[Info(id: 0x168DD, name: 'BAMUM LETTER PHASE-C MBI', category: Cat::Other_Letter)]
@@ -1159,7 +1159,7 @@ enum Bamum_Supplement: string
     #[Info(id: 0x1697C, name: 'BAMUM LETTER PHASE-E NSHIEE', category: Cat::Other_Letter)]
     case BAMUM_LETTER_PHASE_E_NSHIEE = "\u{1697C}";
 
-    #[Info(id: 0x1697D, name: 'BAMUM LETTER PHASE-E NGOP', category: Cat::Other_Letter)]
+    #[Info(id: 0x1697D, name: 'BAMUM LETTER PHASE-E NGOP', category: Cat::Other_Letter, correctedNames: ['BAMUM LETTER PHASE-E NGGOP'])]
     case BAMUM_LETTER_PHASE_E_NGOP = "\u{1697D}";
 
     #[Info(id: 0x1697E, name: 'BAMUM LETTER PHASE-E MAEM', category: Cat::Other_Letter)]

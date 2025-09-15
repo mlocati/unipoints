@@ -13,31 +13,31 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Adlam: string
 {
-    #[Info(id: 0x1E900, name: 'ADLAM CAPITAL LETTER ALIF', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E900, name: 'ADLAM CAPITAL LETTER ALIF', category: Cat::Uppercase_Letter, informativeAliases: ['a'])]
     case ADLAM_CAPITAL_LETTER_ALIF = "\u{1E900}";
 
-    #[Info(id: 0x1E901, name: 'ADLAM CAPITAL LETTER DAALI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E901, name: 'ADLAM CAPITAL LETTER DAALI', category: Cat::Uppercase_Letter, informativeAliases: ['da'])]
     case ADLAM_CAPITAL_LETTER_DAALI = "\u{1E901}";
 
-    #[Info(id: 0x1E902, name: 'ADLAM CAPITAL LETTER LAAM', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E902, name: 'ADLAM CAPITAL LETTER LAAM', category: Cat::Uppercase_Letter, informativeAliases: ['la'])]
     case ADLAM_CAPITAL_LETTER_LAAM = "\u{1E902}";
 
-    #[Info(id: 0x1E903, name: 'ADLAM CAPITAL LETTER MIIM', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E903, name: 'ADLAM CAPITAL LETTER MIIM', category: Cat::Uppercase_Letter, informativeAliases: ['ma'])]
     case ADLAM_CAPITAL_LETTER_MIIM = "\u{1E903}";
 
     #[Info(id: 0x1E904, name: 'ADLAM CAPITAL LETTER BA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_BA = "\u{1E904}";
 
-    #[Info(id: 0x1E905, name: 'ADLAM CAPITAL LETTER SINNYIIYHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E905, name: 'ADLAM CAPITAL LETTER SINNYIIYHE', category: Cat::Uppercase_Letter, informativeAliases: ['sa'])]
     case ADLAM_CAPITAL_LETTER_SINNYIIYHE = "\u{1E905}";
 
-    #[Info(id: 0x1E906, name: 'ADLAM CAPITAL LETTER PE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E906, name: 'ADLAM CAPITAL LETTER PE', category: Cat::Uppercase_Letter, informativeAliases: ['pa'])]
     case ADLAM_CAPITAL_LETTER_PE = "\u{1E906}";
 
-    #[Info(id: 0x1E907, name: 'ADLAM CAPITAL LETTER BHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E907, name: 'ADLAM CAPITAL LETTER BHE', category: Cat::Uppercase_Letter, informativeAliases: ['bha'])]
     case ADLAM_CAPITAL_LETTER_BHE = "\u{1E907}";
 
     #[Info(id: 0x1E908, name: 'ADLAM CAPITAL LETTER RA', category: Cat::Uppercase_Letter)]
@@ -58,16 +58,16 @@ enum Adlam: string
     #[Info(id: 0x1E90D, name: 'ADLAM CAPITAL LETTER DHA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_DHA = "\u{1E90D}";
 
-    #[Info(id: 0x1E90E, name: 'ADLAM CAPITAL LETTER YHE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E90E, name: 'ADLAM CAPITAL LETTER YHE', category: Cat::Uppercase_Letter, informativeAliases: ['yha'])]
     case ADLAM_CAPITAL_LETTER_YHE = "\u{1E90E}";
 
-    #[Info(id: 0x1E90F, name: 'ADLAM CAPITAL LETTER WAW', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E90F, name: 'ADLAM CAPITAL LETTER WAW', category: Cat::Uppercase_Letter, informativeAliases: ['wa'])]
     case ADLAM_CAPITAL_LETTER_WAW = "\u{1E90F}";
 
-    #[Info(id: 0x1E910, name: 'ADLAM CAPITAL LETTER NUN', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E910, name: 'ADLAM CAPITAL LETTER NUN', category: Cat::Uppercase_Letter, informativeAliases: ['na'])]
     case ADLAM_CAPITAL_LETTER_NUN = "\u{1E910}";
 
-    #[Info(id: 0x1E911, name: 'ADLAM CAPITAL LETTER KAF', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E911, name: 'ADLAM CAPITAL LETTER KAF', category: Cat::Uppercase_Letter, informativeAliases: ['ka'])]
     case ADLAM_CAPITAL_LETTER_KAF = "\u{1E911}";
 
     #[Info(id: 0x1E912, name: 'ADLAM CAPITAL LETTER YA', category: Cat::Uppercase_Letter)]
@@ -76,16 +76,16 @@ enum Adlam: string
     #[Info(id: 0x1E913, name: 'ADLAM CAPITAL LETTER U', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_U = "\u{1E913}";
 
-    #[Info(id: 0x1E914, name: 'ADLAM CAPITAL LETTER JIIM', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E914, name: 'ADLAM CAPITAL LETTER JIIM', category: Cat::Uppercase_Letter, informativeAliases: ['ja'])]
     case ADLAM_CAPITAL_LETTER_JIIM = "\u{1E914}";
 
-    #[Info(id: 0x1E915, name: 'ADLAM CAPITAL LETTER CHI', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E915, name: 'ADLAM CAPITAL LETTER CHI', category: Cat::Uppercase_Letter, informativeAliases: ['tcha'])]
     case ADLAM_CAPITAL_LETTER_CHI = "\u{1E915}";
 
     #[Info(id: 0x1E916, name: 'ADLAM CAPITAL LETTER HA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_HA = "\u{1E916}";
 
-    #[Info(id: 0x1E917, name: 'ADLAM CAPITAL LETTER QAAF', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E917, name: 'ADLAM CAPITAL LETTER QAAF', category: Cat::Uppercase_Letter, informativeAliases: ['qa'])]
     case ADLAM_CAPITAL_LETTER_QAAF = "\u{1E917}";
 
     #[Info(id: 0x1E918, name: 'ADLAM CAPITAL LETTER GA', category: Cat::Uppercase_Letter)]
@@ -94,7 +94,7 @@ enum Adlam: string
     #[Info(id: 0x1E919, name: 'ADLAM CAPITAL LETTER NYA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_NYA = "\u{1E919}";
 
-    #[Info(id: 0x1E91A, name: 'ADLAM CAPITAL LETTER TU', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E91A, name: 'ADLAM CAPITAL LETTER TU', category: Cat::Uppercase_Letter, informativeAliases: ['ta'])]
     case ADLAM_CAPITAL_LETTER_TU = "\u{1E91A}";
 
     #[Info(id: 0x1E91B, name: 'ADLAM CAPITAL LETTER NHA', category: Cat::Uppercase_Letter)]
@@ -106,13 +106,13 @@ enum Adlam: string
     #[Info(id: 0x1E91D, name: 'ADLAM CAPITAL LETTER KHA', category: Cat::Uppercase_Letter)]
     case ADLAM_CAPITAL_LETTER_KHA = "\u{1E91D}";
 
-    #[Info(id: 0x1E91E, name: 'ADLAM CAPITAL LETTER GBE', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E91E, name: 'ADLAM CAPITAL LETTER GBE', category: Cat::Uppercase_Letter, informativeAliases: ['gba'])]
     case ADLAM_CAPITAL_LETTER_GBE = "\u{1E91E}";
 
-    #[Info(id: 0x1E91F, name: 'ADLAM CAPITAL LETTER ZAL', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E91F, name: 'ADLAM CAPITAL LETTER ZAL', category: Cat::Uppercase_Letter, informativeAliases: ['za'])]
     case ADLAM_CAPITAL_LETTER_ZAL = "\u{1E91F}";
 
-    #[Info(id: 0x1E920, name: 'ADLAM CAPITAL LETTER KPO', category: Cat::Uppercase_Letter)]
+    #[Info(id: 0x1E920, name: 'ADLAM CAPITAL LETTER KPO', category: Cat::Uppercase_Letter, informativeAliases: ['kpa'])]
     case ADLAM_CAPITAL_LETTER_KPO = "\u{1E920}";
 
     #[Info(id: 0x1E921, name: 'ADLAM CAPITAL LETTER SHA', category: Cat::Uppercase_Letter)]

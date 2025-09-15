@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Arabic_ExtendedB: string
 {
     #[Info(id: 0x870, name: 'ARABIC LETTER ALEF WITH ATTACHED FATHA', category: Cat::Other_Letter)]
@@ -108,6 +108,9 @@ enum Arabic_ExtendedB: string
 
     #[Info(id: 0x88E, name: 'ARABIC VERTICAL TAIL', category: Cat::Other_Letter)]
     case ARABIC_VERTICAL_TAIL = "\u{88E}";
+
+    #[Info(id: 0x88F, name: 'ARABIC LETTER NOON WITH RING ABOVE', category: Cat::Other_Letter, informativeAliases: ['arnoon'])]
+    case ARABIC_LETTER_NOON_WITH_RING_ABOVE = "\u{88F}";
 
     #[Info(id: 0x890, name: 'ARABIC POUND MARK ABOVE', category: Cat::Format)]
     case ARABIC_POUND_MARK_ABOVE = "\u{890}";

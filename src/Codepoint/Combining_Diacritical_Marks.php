@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Combining_Diacritical_Marks: string
 {
     #[Info(id: 0x300, name: 'COMBINING GRAVE ACCENT', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING GRAVE', informativeAliases: ['Greek varia'])]
@@ -145,7 +145,7 @@ enum Combining_Diacritical_Marks: string
     #[Info(id: 0x32A, name: 'COMBINING BRIDGE BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING BRIDGE BELOW')]
     case COMBINING_BRIDGE_BELOW = "\u{32A}";
 
-    #[Info(id: 0x32B, name: 'COMBINING INVERTED DOUBLE ARCH BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING INVERTED DOUBLE ARCH BELOW')]
+    #[Info(id: 0x32B, name: 'COMBINING INVERTED DOUBLE ARCH BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING INVERTED DOUBLE ARCH BELOW', informativeAliases: ['omega below'])]
     case COMBINING_INVERTED_DOUBLE_ARCH_BELOW = "\u{32B}";
 
     #[Info(id: 0x32C, name: 'COMBINING CARON BELOW', category: Cat::Nonspacing_Mark, unicode1Name: 'NON-SPACING HACEK BELOW')]

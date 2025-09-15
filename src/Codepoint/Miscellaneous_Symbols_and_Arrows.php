@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Miscellaneous_Symbols_and_Arrows: string
 {
     #[Info(id: 0x2B00, name: 'NORTH EAST WHITE ARROW', category: Cat::Other_Symbol)]
@@ -459,6 +459,9 @@ enum Miscellaneous_Symbols_and_Arrows: string
 
     #[Info(id: 0x2B95, name: 'RIGHTWARDS BLACK ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_BLACK_ARROW = "\u{2B95}";
+
+    #[Info(id: 0x2B96, name: 'EQUALS SIGN WITH INFINITY ABOVE', category: Cat::Other_Symbol, informativeAliases: ['with compensation for the material'])]
+    case EQUALS_SIGN_WITH_INFINITY_ABOVE = "\u{2B96}";
 
     #[Info(id: 0x2B97, name: 'SYMBOL FOR TYPE A ELECTRONICS', category: Cat::Other_Symbol)]
     case SYMBOL_FOR_TYPE_A_ELECTRONICS = "\u{2B97}";

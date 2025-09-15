@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum CJK_Symbols_and_Punctuation: string
 {
     #[Info(id: 0x3000, name: 'IDEOGRAPHIC SPACE', category: Cat::Space_Separator)]
@@ -130,7 +130,7 @@ enum CJK_Symbols_and_Punctuation: string
     #[Info(id: 0x3025, name: 'HANGZHOU NUMERAL FIVE', category: Cat::Letter_Number)]
     case HANGZHOU_NUMERAL_FIVE = "\u{3025}";
 
-    #[Info(id: 0x3026, name: 'HANGZHOU NUMERAL SIX', category: Cat::Letter_Number)]
+    #[Info(id: 0x3026, name: 'HANGZHOU NUMERAL SIX', category: Cat::Letter_Number, informativeAliases: ['yangqin sign slow one half beat'])]
     case HANGZHOU_NUMERAL_SIX = "\u{3026}";
 
     #[Info(id: 0x3027, name: 'HANGZHOU NUMERAL SEVEN', category: Cat::Letter_Number)]

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum General_Punctuation: string
 {
     #[Info(id: 0x2000, name: 'EN QUAD', category: Cat::Space_Separator)]
@@ -43,7 +43,7 @@ enum General_Punctuation: string
     #[Info(id: 0x2008, name: 'PUNCTUATION SPACE', category: Cat::Space_Separator)]
     case PUNCTUATION_SPACE = "\u{2008}";
 
-    #[Info(id: 0x2009, name: 'THIN SPACE', category: Cat::Space_Separator)]
+    #[Info(id: 0x2009, name: 'THIN SPACE', category: Cat::Space_Separator, informativeAliases: ['narrow space'])]
     case THIN_SPACE = "\u{2009}";
 
     #[Info(id: 0x200A, name: 'HAIR SPACE', category: Cat::Space_Separator)]
@@ -157,7 +157,7 @@ enum General_Punctuation: string
     #[Info(id: 0x202E, name: 'RIGHT-TO-LEFT OVERRIDE', category: Cat::Format, abbreviations: ['RLO'])]
     case RIGHT_TO_LEFT_OVERRIDE = "\u{202E}";
 
-    #[Info(id: 0x202F, name: 'NARROW NO-BREAK SPACE', category: Cat::Space_Separator, abbreviations: ['NNBSP'])]
+    #[Info(id: 0x202F, name: 'NARROW NO-BREAK SPACE', category: Cat::Space_Separator, abbreviations: ['NNBSP'], informativeAliases: ['no-break thin space'])]
     case NARROW_NO_BREAK_SPACE = "\u{202F}";
 
     #[Info(id: 0x2030, name: 'PER MILLE SIGN', category: Cat::Other_Punctuation, informativeAliases: ['permille, per thousand'])]

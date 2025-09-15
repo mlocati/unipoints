@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Miscellaneous_Symbols_and_Pictographs: string
 {
     #[Info(id: 0x1F300, name: 'CYCLONE', category: Cat::Other_Symbol, informativeAliases: ['typhoon, hurricane'])]
@@ -409,7 +409,7 @@ enum Miscellaneous_Symbols_and_Pictographs: string
     #[Info(id: 0x1F382, name: 'BIRTHDAY CAKE', category: Cat::Other_Symbol)]
     case BIRTHDAY_CAKE = "\u{1F382}";
 
-    #[Info(id: 0x1F383, name: 'JACK-O-LANTERN', category: Cat::Other_Symbol, informativeAliases: ['Hallowe\'en'])]
+    #[Info(id: 0x1F383, name: 'JACK-O-LANTERN', category: Cat::Other_Symbol, informativeAliases: ['Halloween'])]
     case JACK_O_LANTERN = "\u{1F383}";
 
     #[Info(id: 0x1F384, name: 'CHRISTMAS TREE', category: Cat::Other_Symbol)]

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Symbols_and_Pictographs_ExtendedA: string
 {
     #[Info(id: 0x1FA70, name: 'BALLET SHOES', category: Cat::Other_Symbol)]
@@ -84,6 +84,12 @@ enum Symbols_and_Pictographs_ExtendedA: string
 
     #[Info(id: 0x1FA89, name: 'HARP', category: Cat::Other_Symbol)]
     case HARP = "\u{1FA89}";
+
+    #[Info(id: 0x1FA8A, name: 'TROMBONE', category: Cat::Other_Symbol)]
+    case TROMBONE = "\u{1FA8A}";
+
+    #[Info(id: 0x1FA8E, name: 'TREASURE CHEST', category: Cat::Other_Symbol)]
+    case TREASURE_CHEST = "\u{1FA8E}";
 
     #[Info(id: 0x1FA8F, name: 'SHOVEL', category: Cat::Other_Symbol)]
     case SHOVEL = "\u{1FA8F}";
@@ -253,6 +259,12 @@ enum Symbols_and_Pictographs_ExtendedA: string
     #[Info(id: 0x1FAC6, name: 'FINGERPRINT', category: Cat::Other_Symbol)]
     case FINGERPRINT = "\u{1FAC6}";
 
+    #[Info(id: 0x1FAC8, name: 'HAIRY CREATURE', category: Cat::Other_Symbol)]
+    case HAIRY_CREATURE = "\u{1FAC8}";
+
+    #[Info(id: 0x1FACD, name: 'ORCA', category: Cat::Other_Symbol)]
+    case ORCA = "\u{1FACD}";
+
     #[Info(id: 0x1FACE, name: 'MOOSE', category: Cat::Other_Symbol)]
     case MOOSE = "\u{1FACE}";
 
@@ -330,6 +342,12 @@ enum Symbols_and_Pictographs_ExtendedA: string
 
     #[Info(id: 0x1FAE9, name: 'FACE WITH BAGS UNDER EYES', category: Cat::Other_Symbol)]
     case FACE_WITH_BAGS_UNDER_EYES = "\u{1FAE9}";
+
+    #[Info(id: 0x1FAEA, name: 'DISTORTED FACE', category: Cat::Other_Symbol)]
+    case DISTORTED_FACE = "\u{1FAEA}";
+
+    #[Info(id: 0x1FAEF, name: 'FIGHT CLOUD', category: Cat::Other_Symbol)]
+    case FIGHT_CLOUD = "\u{1FAEF}";
 
     #[Info(id: 0x1FAF0, name: 'HAND WITH INDEX FINGER AND THUMB CROSSED', category: Cat::Other_Symbol)]
     case HAND_WITH_INDEX_FINGER_AND_THUMB_CROSSED = "\u{1FAF0}";

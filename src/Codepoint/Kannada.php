@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Kannada: string
 {
     #[Info(id: 0xC80, name: 'KANNADA SIGN SPACING CANDRABINDU', category: Cat::Other_Letter)]
@@ -231,6 +231,9 @@ enum Kannada: string
 
     #[Info(id: 0xCD6, name: 'KANNADA AI LENGTH MARK', category: Cat::Spacing_Mark)]
     case KANNADA_AI_LENGTH_MARK = "\u{CD6}";
+
+    #[Info(id: 0xCDC, name: 'KANNADA ARCHAIC SHRII', category: Cat::Other_Letter)]
+    case KANNADA_ARCHAIC_SHRII = "\u{CDC}";
 
     #[Info(id: 0xCDD, name: 'KANNADA LETTER NAKAARA POLLU', category: Cat::Other_Letter)]
     case KANNADA_LETTER_NAKAARA_POLLU = "\u{CDD}";

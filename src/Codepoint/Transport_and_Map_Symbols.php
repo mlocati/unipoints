@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Transport_and_Map_Symbols: string
 {
     #[Info(id: 0x1F680, name: 'ROCKET', category: Cat::Other_Symbol)]
@@ -279,6 +279,9 @@ enum Transport_and_Map_Symbols: string
 
     #[Info(id: 0x1F6D7, name: 'ELEVATOR', category: Cat::Other_Symbol)]
     case ELEVATOR = "\u{1F6D7}";
+
+    #[Info(id: 0x1F6D8, name: 'LANDSLIDE', category: Cat::Other_Symbol)]
+    case LANDSLIDE = "\u{1F6D8}";
 
     #[Info(id: 0x1F6DC, name: 'WIRELESS', category: Cat::Other_Symbol)]
     case WIRELESS = "\u{1F6DC}";

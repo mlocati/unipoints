@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Arabic_Presentation_FormsA: string
 {
     #[Info(id: 0xFB50, name: 'ARABIC LETTER ALEF WASLA ISOLATED FORM', category: Cat::Other_Letter)]
@@ -360,6 +360,54 @@ enum Arabic_Presentation_FormsA: string
 
     #[Info(id: 0xFBC2, name: 'ARABIC SYMBOL WASLA ABOVE', category: Cat::Modifier_Symbol)]
     case ARABIC_SYMBOL_WASLA_ABOVE = "\u{FBC2}";
+
+    #[Info(id: 0xFBC3, name: 'ARABIC LIGATURE JALLA WA-ALAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_JALLA_WA_ALAA = "\u{FBC3}";
+
+    #[Info(id: 0xFBC4, name: 'ARABIC LIGATURE DAAMAT BARAKAATUHUM', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_DAAMAT_BARAKAATUHUM = "\u{FBC4}";
+
+    #[Info(id: 0xFBC5, name: 'ARABIC LIGATURE RAHMATU ALLAAHI TAAALAA ALAYH', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RAHMATU_ALLAAHI_TAAALAA_ALAYH = "\u{FBC5}";
+
+    #[Info(id: 0xFBC6, name: 'ARABIC LIGATURE RAHMATU ALLAAHI ALAYHIM', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RAHMATU_ALLAAHI_ALAYHIM = "\u{FBC6}";
+
+    #[Info(id: 0xFBC7, name: 'ARABIC LIGATURE RAHMATU ALLAAHI ALAYHIMAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RAHMATU_ALLAAHI_ALAYHIMAA = "\u{FBC7}";
+
+    #[Info(id: 0xFBC8, name: 'ARABIC LIGATURE RAHIMAHUM ALLAAHU TAAALAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RAHIMAHUM_ALLAAHU_TAAALAA = "\u{FBC8}";
+
+    #[Info(id: 0xFBC9, name: 'ARABIC LIGATURE RAHIMAHUMAA ALLAAH', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RAHIMAHUMAA_ALLAAH = "\u{FBC9}";
+
+    #[Info(id: 0xFBCA, name: 'ARABIC LIGATURE RAHIMAHUMAA ALLAAHU TAAALAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RAHIMAHUMAA_ALLAAHU_TAAALAA = "\u{FBCA}";
+
+    #[Info(id: 0xFBCB, name: 'ARABIC LIGATURE RADI ALLAAHU TAAALAA ANHUM', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RADI_ALLAAHU_TAAALAA_ANHUM = "\u{FBCB}";
+
+    #[Info(id: 0xFBCC, name: 'ARABIC LIGATURE HAFIZAHU ALLAAH', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_HAFIZAHU_ALLAAH = "\u{FBCC}";
+
+    #[Info(id: 0xFBCD, name: 'ARABIC LIGATURE HAFIZAHU ALLAAHU TAAALAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_HAFIZAHU_ALLAAHU_TAAALAA = "\u{FBCD}";
+
+    #[Info(id: 0xFBCE, name: 'ARABIC LIGATURE HAFIZAHUM ALLAAHU TAAALAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_HAFIZAHUM_ALLAAHU_TAAALAA = "\u{FBCE}";
+
+    #[Info(id: 0xFBCF, name: 'ARABIC LIGATURE HAFIZAHUMAA ALLAAHU TAAALAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_HAFIZAHUMAA_ALLAAHU_TAAALAA = "\u{FBCF}";
+
+    #[Info(id: 0xFBD0, name: 'ARABIC LIGATURE SALLALLAAHU TAAALAA ALAYHI WA-SALLAM', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_SALLALLAAHU_TAAALAA_ALAYHI_WA_SALLAM = "\u{FBD0}";
+
+    #[Info(id: 0xFBD1, name: 'ARABIC LIGATURE AJJAL ALLAAHU FARAJAHU ASH-SHAREEF', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_AJJAL_ALLAAHU_FARAJAHU_ASH_SHAREEF = "\u{FBD1}";
+
+    #[Info(id: 0xFBD2, name: 'ARABIC LIGATURE ALAYHI AR-RAHMAH', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_ALAYHI_AR_RAHMAH = "\u{FBD2}";
 
     #[Info(id: 0xFBD3, name: 'ARABIC LETTER NG ISOLATED FORM', category: Cat::Other_Letter)]
     case ARABIC_LETTER_NG_ISOLATED_FORM = "\u{FBD3}";
@@ -1696,6 +1744,12 @@ enum Arabic_Presentation_FormsA: string
     #[Info(id: 0xFD8F, name: 'ARABIC LIGATURE MEEM WITH KHAH WITH MEEM INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_KHAH_WITH_MEEM_INITIAL_FORM = "\u{FD8F}";
 
+    #[Info(id: 0xFD90, name: 'ARABIC LIGATURE RAHMATU ALLAAHI ALAYH', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RAHMATU_ALLAAHI_ALAYH = "\u{FD90}";
+
+    #[Info(id: 0xFD91, name: 'ARABIC LIGATURE RAHMATU ALLAAHI ALAYHAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RAHMATU_ALLAAHI_ALAYHAA = "\u{FD91}";
+
     #[Info(id: 0xFD92, name: 'ARABIC LIGATURE MEEM WITH JEEM WITH KHAH INITIAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_MEEM_WITH_JEEM_WITH_KHAH_INITIAL_FORM = "\u{FD92}";
 
@@ -1857,6 +1911,27 @@ enum Arabic_Presentation_FormsA: string
 
     #[Info(id: 0xFDC7, name: 'ARABIC LIGATURE NOON WITH JEEM WITH YEH FINAL FORM', category: Cat::Other_Letter)]
     case ARABIC_LIGATURE_NOON_WITH_JEEM_WITH_YEH_FINAL_FORM = "\u{FDC7}";
+
+    #[Info(id: 0xFDC8, name: 'ARABIC LIGATURE RAHIMAHU ALLAAH TAAALAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RAHIMAHU_ALLAAH_TAAALAA = "\u{FDC8}";
+
+    #[Info(id: 0xFDC9, name: 'ARABIC LIGATURE RADI ALLAAHU TAAALAA ANH', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RADI_ALLAAHU_TAAALAA_ANH = "\u{FDC9}";
+
+    #[Info(id: 0xFDCA, name: 'ARABIC LIGATURE RADI ALLAAHU TAAALAA ANHAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RADI_ALLAAHU_TAAALAA_ANHAA = "\u{FDCA}";
+
+    #[Info(id: 0xFDCB, name: 'ARABIC LIGATURE RADI ALLAAHU TAAALAA ANHUMAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_RADI_ALLAAHU_TAAALAA_ANHUMAA = "\u{FDCB}";
+
+    #[Info(id: 0xFDCC, name: 'ARABIC LIGATURE SALLALLAHU ALAYHI WA-ALAA AALIHEE WA-SALLAM', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_SALLALLAHU_ALAYHI_WA_ALAA_AALIHEE_WA_SALLAM = "\u{FDCC}";
+
+    #[Info(id: 0xFDCD, name: 'ARABIC LIGATURE AJJAL ALLAAHU TAAALAA FARAJAHU ASH-SHAREEF', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_AJJAL_ALLAAHU_TAAALAA_FARAJAHU_ASH_SHAREEF = "\u{FDCD}";
+
+    #[Info(id: 0xFDCE, name: 'ARABIC LIGATURE KARRAMA ALLAAHU WAJHAH', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_KARRAMA_ALLAAHU_WAJHAH = "\u{FDCE}";
 
     #[Info(id: 0xFDCF, name: 'ARABIC LIGATURE SALAAMUHU ALAYNAA', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_SALAAMUHU_ALAYNAA = "\u{FDCF}";

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Arabic_ExtendedC: string
 {
     #[Info(id: 0x10EC2, name: 'ARABIC LETTER DAL WITH TWO DOTS VERTICALLY BELOW', category: Cat::Other_Letter)]
@@ -24,6 +24,48 @@ enum Arabic_ExtendedC: string
 
     #[Info(id: 0x10EC4, name: 'ARABIC LETTER KAF WITH TWO DOTS VERTICALLY BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_KAF_WITH_TWO_DOTS_VERTICALLY_BELOW = "\u{10EC4}";
+
+    #[Info(id: 0x10EC5, name: 'ARABIC SMALL YEH BARREE WITH TWO DOTS BELOW', category: Cat::Modifier_Letter)]
+    case ARABIC_SMALL_YEH_BARREE_WITH_TWO_DOTS_BELOW = "\u{10EC5}";
+
+    #[Info(id: 0x10EC6, name: 'ARABIC LETTER THIN NOON', category: Cat::Other_Letter)]
+    case ARABIC_LETTER_THIN_NOON = "\u{10EC6}";
+
+    #[Info(id: 0x10EC7, name: 'ARABIC LETTER YEH WITH FOUR DOTS BELOW', category: Cat::Other_Letter)]
+    case ARABIC_LETTER_YEH_WITH_FOUR_DOTS_BELOW = "\u{10EC7}";
+
+    #[Info(id: 0x10ED0, name: 'ARABIC BIBLICAL END OF VERSE', category: Cat::Other_Punctuation)]
+    case ARABIC_BIBLICAL_END_OF_VERSE = "\u{10ED0}";
+
+    #[Info(id: 0x10ED1, name: 'ARABIC LIGATURE ALAYHAA AS-SALAATU WAS-SALAAM', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_ALAYHAA_AS_SALAATU_WAS_SALAAM = "\u{10ED1}";
+
+    #[Info(id: 0x10ED2, name: 'ARABIC LIGATURE ALAYHIM AS-SALAATU WAS-SALAAM', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_ALAYHIM_AS_SALAATU_WAS_SALAAM = "\u{10ED2}";
+
+    #[Info(id: 0x10ED3, name: 'ARABIC LIGATURE ALAYHIMAA AS-SALAATU WAS-SALAAM', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_ALAYHIMAA_AS_SALAATU_WAS_SALAAM = "\u{10ED3}";
+
+    #[Info(id: 0x10ED4, name: 'ARABIC LIGATURE QADDASA ALLAAHU SIRRAH', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_QADDASA_ALLAAHU_SIRRAH = "\u{10ED4}";
+
+    #[Info(id: 0x10ED5, name: 'ARABIC LIGATURE QUDDISA SIRRUHUM', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_QUDDISA_SIRRUHUM = "\u{10ED5}";
+
+    #[Info(id: 0x10ED6, name: 'ARABIC LIGATURE QUDDISA SIRRUHUMAA', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_QUDDISA_SIRRUHUMAA = "\u{10ED6}";
+
+    #[Info(id: 0x10ED7, name: 'ARABIC LIGATURE QUDDISAT ASRAARUHUM', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_QUDDISAT_ASRAARUHUM = "\u{10ED7}";
+
+    #[Info(id: 0x10ED8, name: 'ARABIC LIGATURE NAWWARA ALLAAHU MARQADAH', category: Cat::Other_Symbol)]
+    case ARABIC_LIGATURE_NAWWARA_ALLAAHU_MARQADAH = "\u{10ED8}";
+
+    #[Info(id: 0x10EFA, name: 'ARABIC DOUBLE VERTICAL BAR BELOW', category: Cat::Nonspacing_Mark)]
+    case ARABIC_DOUBLE_VERTICAL_BAR_BELOW = "\u{10EFA}";
+
+    #[Info(id: 0x10EFB, name: 'ARABIC SMALL LOW NOON', category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_LOW_NOON = "\u{10EFB}";
 
     #[Info(id: 0x10EFC, name: 'ARABIC COMBINING ALEF OVERLAY', category: Cat::Nonspacing_Mark)]
     case ARABIC_COMBINING_ALEF_OVERLAY = "\u{10EFC}";

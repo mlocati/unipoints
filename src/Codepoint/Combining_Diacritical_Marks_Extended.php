@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Combining_Diacritical_Marks_Extended: string
 {
     #[Info(id: 0x1AB0, name: 'COMBINING DOUBLED CIRCUMFLEX ACCENT', category: Cat::Nonspacing_Mark)]
@@ -85,7 +85,7 @@ enum Combining_Diacritical_Marks_Extended: string
     #[Info(id: 0x1AC6, name: 'COMBINING NUMBER SIGN ABOVE', category: Cat::Nonspacing_Mark, informativeAliases: ['superscript octothorp'])]
     case COMBINING_NUMBER_SIGN_ABOVE = "\u{1AC6}";
 
-    #[Info(id: 0x1AC7, name: 'COMBINING INVERTED DOUBLE ARCH ABOVE', category: Cat::Nonspacing_Mark)]
+    #[Info(id: 0x1AC7, name: 'COMBINING INVERTED DOUBLE ARCH ABOVE', category: Cat::Nonspacing_Mark, informativeAliases: ['omega above'])]
     case COMBINING_INVERTED_DOUBLE_ARCH_ABOVE = "\u{1AC7}";
 
     #[Info(id: 0x1AC8, name: 'COMBINING PLUS SIGN ABOVE', category: Cat::Nonspacing_Mark)]
@@ -108,4 +108,85 @@ enum Combining_Diacritical_Marks_Extended: string
 
     #[Info(id: 0x1ACE, name: 'COMBINING LATIN SMALL LETTER INSULAR T', category: Cat::Nonspacing_Mark)]
     case COMBINING_LATIN_SMALL_LETTER_INSULAR_T = "\u{1ACE}";
+
+    #[Info(id: 0x1ACF, name: 'COMBINING DOUBLE CARON', category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOUBLE_CARON = "\u{1ACF}";
+
+    #[Info(id: 0x1AD0, name: 'COMBINING VERTICAL-LINE-ACUTE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_VERTICAL_LINE_ACUTE = "\u{1AD0}";
+
+    #[Info(id: 0x1AD1, name: 'COMBINING GRAVE-VERTICAL-LINE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_GRAVE_VERTICAL_LINE = "\u{1AD1}";
+
+    #[Info(id: 0x1AD2, name: 'COMBINING VERTICAL-LINE-GRAVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_VERTICAL_LINE_GRAVE = "\u{1AD2}";
+
+    #[Info(id: 0x1AD3, name: 'COMBINING ACUTE-VERTICAL-LINE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_ACUTE_VERTICAL_LINE = "\u{1AD3}";
+
+    #[Info(id: 0x1AD4, name: 'COMBINING VERTICAL-LINE-MACRON', category: Cat::Nonspacing_Mark)]
+    case COMBINING_VERTICAL_LINE_MACRON = "\u{1AD4}";
+
+    #[Info(id: 0x1AD5, name: 'COMBINING MACRON-VERTICAL-LINE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_MACRON_VERTICAL_LINE = "\u{1AD5}";
+
+    #[Info(id: 0x1AD6, name: 'COMBINING VERTICAL-LINE-ACUTE-GRAVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_VERTICAL_LINE_ACUTE_GRAVE = "\u{1AD6}";
+
+    #[Info(id: 0x1AD7, name: 'COMBINING VERTICAL-LINE-GRAVE-ACUTE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_VERTICAL_LINE_GRAVE_ACUTE = "\u{1AD7}";
+
+    #[Info(id: 0x1AD8, name: 'COMBINING MACRON-ACUTE-GRAVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_MACRON_ACUTE_GRAVE = "\u{1AD8}";
+
+    #[Info(id: 0x1AD9, name: 'COMBINING SHARP SIGN', category: Cat::Nonspacing_Mark)]
+    case COMBINING_SHARP_SIGN = "\u{1AD9}";
+
+    #[Info(id: 0x1ADA, name: 'COMBINING FLAT SIGN', category: Cat::Nonspacing_Mark)]
+    case COMBINING_FLAT_SIGN = "\u{1ADA}";
+
+    #[Info(id: 0x1ADB, name: 'COMBINING DOWN TACK ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOWN_TACK_ABOVE = "\u{1ADB}";
+
+    #[Info(id: 0x1ADC, name: 'COMBINING DIAERESIS WITH RAISED LEFT DOT', category: Cat::Nonspacing_Mark)]
+    case COMBINING_DIAERESIS_WITH_RAISED_LEFT_DOT = "\u{1ADC}";
+
+    #[Info(id: 0x1ADD, name: 'COMBINING DOT-AND-RING BELOW', category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOT_AND_RING_BELOW = "\u{1ADD}";
+
+    #[Info(id: 0x1AE0, name: 'COMBINING LEFT TACK ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_LEFT_TACK_ABOVE = "\u{1AE0}";
+
+    #[Info(id: 0x1AE1, name: 'COMBINING RIGHT TACK ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_RIGHT_TACK_ABOVE = "\u{1AE1}";
+
+    #[Info(id: 0x1AE2, name: 'COMBINING MINUS SIGN ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_MINUS_SIGN_ABOVE = "\u{1AE2}";
+
+    #[Info(id: 0x1AE3, name: 'COMBINING INVERTED BRIDGE ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_INVERTED_BRIDGE_ABOVE = "\u{1AE3}";
+
+    #[Info(id: 0x1AE4, name: 'COMBINING SQUARE ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_SQUARE_ABOVE = "\u{1AE4}";
+
+    #[Info(id: 0x1AE5, name: 'COMBINING SEAGULL ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_SEAGULL_ABOVE = "\u{1AE5}";
+
+    #[Info(id: 0x1AE6, name: 'COMBINING DOUBLE ARCH BELOW', category: Cat::Nonspacing_Mark, informativeAliases: ['turned omega below'])]
+    case COMBINING_DOUBLE_ARCH_BELOW = "\u{1AE6}";
+
+    #[Info(id: 0x1AE7, name: 'COMBINING DOUBLE ARCH ABOVE', category: Cat::Nonspacing_Mark, informativeAliases: ['turned omega above'])]
+    case COMBINING_DOUBLE_ARCH_ABOVE = "\u{1AE7}";
+
+    #[Info(id: 0x1AE8, name: 'COMBINING EQUALS SIGN ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_EQUALS_SIGN_ABOVE = "\u{1AE8}";
+
+    #[Info(id: 0x1AE9, name: 'COMBINING LEFT ANGLE CENTRED ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_LEFT_ANGLE_CENTRED_ABOVE = "\u{1AE9}";
+
+    #[Info(id: 0x1AEA, name: 'COMBINING UPWARDS ARROW ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_UPWARDS_ARROW_ABOVE = "\u{1AEA}";
+
+    #[Info(id: 0x1AEB, name: 'COMBINING DOUBLE RIGHTWARDS ARROW ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOUBLE_RIGHTWARDS_ARROW_ABOVE = "\u{1AEB}";
 }

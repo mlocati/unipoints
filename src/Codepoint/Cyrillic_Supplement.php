@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Cyrillic_Supplement: string
 {
     #[Info(id: 0x500, name: 'CYRILLIC CAPITAL LETTER KOMI DE', category: Cat::Uppercase_Letter)]

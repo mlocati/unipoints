@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Telugu: string
 {
     #[Info(id: 0xC00, name: 'TELUGU SIGN COMBINING CANDRABINDU ABOVE', category: Cat::Nonspacing_Mark)]
@@ -243,6 +243,9 @@ enum Telugu: string
 
     #[Info(id: 0xC5A, name: 'TELUGU LETTER RRRA', category: Cat::Other_Letter)]
     case TELUGU_LETTER_RRRA = "\u{C5A}";
+
+    #[Info(id: 0xC5C, name: 'TELUGU ARCHAIC SHRII', category: Cat::Other_Letter)]
+    case TELUGU_ARCHAIC_SHRII = "\u{C5C}";
 
     #[Info(id: 0xC5D, name: 'TELUGU LETTER NAKAARA POLLU', category: Cat::Other_Letter)]
     case TELUGU_LETTER_NAKAARA_POLLU = "\u{C5D}";
