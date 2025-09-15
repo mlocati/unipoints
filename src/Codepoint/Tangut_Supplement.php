@@ -13,12 +13,12 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Tangut_Supplement: string
 {
     #[Info(id: 0x18D00, name: 'Tangut Ideograph Supplement, First', category: Cat::Other_Letter)]
     case Tangut_Ideograph_Supplement__First = "\u{18D00}";
 
-    #[Info(id: 0x18D08, name: 'Tangut Ideograph Supplement, Last', category: Cat::Other_Letter)]
-    case Tangut_Ideograph_Supplement__Last = "\u{18D08}";
+    #[Info(id: 0x18D1E, name: 'Tangut Ideograph Supplement, Last', category: Cat::Other_Letter)]
+    case Tangut_Ideograph_Supplement__Last = "\u{18D1E}";
 }

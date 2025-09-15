@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Letterlike_Symbols: string
 {
     #[Info(id: 0x2100, name: 'ACCOUNT OF', category: Cat::Other_Symbol)]
@@ -175,13 +175,13 @@ enum Letterlike_Symbols: string
     #[Info(id: 0x2134, name: 'SCRIPT SMALL O', category: Cat::Lowercase_Letter, informativeAliases: ['order, of inferior order to'])]
     case SCRIPT_SMALL_O = "\u{2134}";
 
-    #[Info(id: 0x2135, name: 'ALEF SYMBOL', category: Cat::Other_Letter, unicode1Name: 'FIRST TRANSFINITE CARDINAL', informativeAliases: ['first transfinite cardinal (countable)'])]
+    #[Info(id: 0x2135, name: 'ALEF SYMBOL', category: Cat::Other_Letter, unicode1Name: 'FIRST TRANSFINITE CARDINAL')]
     case ALEF_SYMBOL = "\u{2135}";
 
-    #[Info(id: 0x2136, name: 'BET SYMBOL', category: Cat::Other_Letter, unicode1Name: 'SECOND TRANSFINITE CARDINAL', informativeAliases: ['second transfinite cardinal (the continuum)'])]
+    #[Info(id: 0x2136, name: 'BET SYMBOL', category: Cat::Other_Letter, unicode1Name: 'SECOND TRANSFINITE CARDINAL')]
     case BET_SYMBOL = "\u{2136}";
 
-    #[Info(id: 0x2137, name: 'GIMEL SYMBOL', category: Cat::Other_Letter, unicode1Name: 'THIRD TRANSFINITE CARDINAL', informativeAliases: ['third transfinite cardinal (functions of a real variable)'])]
+    #[Info(id: 0x2137, name: 'GIMEL SYMBOL', category: Cat::Other_Letter, unicode1Name: 'THIRD TRANSFINITE CARDINAL')]
     case GIMEL_SYMBOL = "\u{2137}";
 
     #[Info(id: 0x2138, name: 'DALET SYMBOL', category: Cat::Other_Letter, unicode1Name: 'FOURTH TRANSFINITE CARDINAL')]

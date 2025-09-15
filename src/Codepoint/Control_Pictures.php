@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Control_Pictures: string
 {
     #[Info(id: 0x2400, name: 'SYMBOL FOR NULL', category: Cat::Other_Symbol, unicode1Name: 'GRAPHIC FOR NULL')]

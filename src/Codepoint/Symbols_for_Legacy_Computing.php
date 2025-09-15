@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Symbols_for_Legacy_Computing: string
 {
     #[Info(id: 0x1FB00, name: 'BLOCK SEXTANT-1', category: Cat::Other_Symbol)]
@@ -762,4 +762,7 @@ enum Symbols_for_Legacy_Computing: string
 
     #[Info(id: 0x1FBF9, name: 'SEGMENTED DIGIT NINE', category: Cat::Decimal_Number)]
     case SEGMENTED_DIGIT_NINE = "\u{1FBF9}";
+
+    #[Info(id: 0x1FBFA, name: 'ALARM BELL SYMBOL', category: Cat::Other_Symbol)]
+    case ALARM_BELL_SYMBOL = "\u{1FBFA}";
 }

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Cyrillic_ExtendedC: string
 {
     #[Info(id: 0x1C80, name: 'CYRILLIC SMALL LETTER ROUNDED VE', category: Cat::Lowercase_Letter)]

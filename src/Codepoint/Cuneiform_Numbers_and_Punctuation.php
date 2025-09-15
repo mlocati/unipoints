@@ -13,10 +13,10 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Cuneiform_Numbers_and_Punctuation: string
 {
-    #[Info(id: 0x12400, name: 'CUNEIFORM NUMERIC SIGN TWO ASH', category: Cat::Letter_Number)]
+    #[Info(id: 0x12400, name: 'CUNEIFORM NUMERIC SIGN TWO ASH', category: Cat::Letter_Number, informativeAliases: ['2 iku'])]
     case CUNEIFORM_NUMERIC_SIGN_TWO_ASH = "\u{12400}";
 
     #[Info(id: 0x12401, name: 'CUNEIFORM NUMERIC SIGN THREE ASH', category: Cat::Letter_Number)]
@@ -43,7 +43,7 @@ enum Cuneiform_Numbers_and_Punctuation: string
     #[Info(id: 0x12408, name: 'CUNEIFORM NUMERIC SIGN THREE DISH', category: Cat::Letter_Number)]
     case CUNEIFORM_NUMERIC_SIGN_THREE_DISH = "\u{12408}";
 
-    #[Info(id: 0x12409, name: 'CUNEIFORM NUMERIC SIGN FOUR DISH', category: Cat::Letter_Number)]
+    #[Info(id: 0x12409, name: 'CUNEIFORM NUMERIC SIGN FOUR DISH', category: Cat::Letter_Number, informativeAliases: ['4 bariga'])]
     case CUNEIFORM_NUMERIC_SIGN_FOUR_DISH = "\u{12409}";
 
     #[Info(id: 0x1240A, name: 'CUNEIFORM NUMERIC SIGN FIVE DISH', category: Cat::Letter_Number)]
@@ -61,7 +61,7 @@ enum Cuneiform_Numbers_and_Punctuation: string
     #[Info(id: 0x1240E, name: 'CUNEIFORM NUMERIC SIGN NINE DISH', category: Cat::Letter_Number)]
     case CUNEIFORM_NUMERIC_SIGN_NINE_DISH = "\u{1240E}";
 
-    #[Info(id: 0x1240F, name: 'CUNEIFORM NUMERIC SIGN FOUR U', category: Cat::Letter_Number)]
+    #[Info(id: 0x1240F, name: 'CUNEIFORM NUMERIC SIGN FOUR U', category: Cat::Letter_Number, informativeAliases: ['4 bur₃'])]
     case CUNEIFORM_NUMERIC_SIGN_FOUR_U = "\u{1240F}";
 
     #[Info(id: 0x12410, name: 'CUNEIFORM NUMERIC SIGN FIVE U', category: Cat::Letter_Number)]
@@ -238,7 +238,7 @@ enum Cuneiform_Numbers_and_Punctuation: string
     #[Info(id: 0x12449, name: 'CUNEIFORM NUMERIC SIGN NINE VARIANT FORM ILIMMU A', category: Cat::Letter_Number)]
     case CUNEIFORM_NUMERIC_SIGN_NINE_VARIANT_FORM_ILIMMU_A = "\u{12449}";
 
-    #[Info(id: 0x1244A, name: 'CUNEIFORM NUMERIC SIGN TWO ASH TENU', category: Cat::Letter_Number)]
+    #[Info(id: 0x1244A, name: 'CUNEIFORM NUMERIC SIGN TWO ASH TENU', category: Cat::Letter_Number, informativeAliases: ['2 diš tenû'])]
     case CUNEIFORM_NUMERIC_SIGN_TWO_ASH_TENU = "\u{1244A}";
 
     #[Info(id: 0x1244B, name: 'CUNEIFORM NUMERIC SIGN THREE ASH TENU', category: Cat::Letter_Number)]
@@ -274,10 +274,10 @@ enum Cuneiform_Numbers_and_Punctuation: string
     #[Info(id: 0x12455, name: 'CUNEIFORM NUMERIC SIGN FIVE BAN2 VARIANT FORM', category: Cat::Letter_Number)]
     case CUNEIFORM_NUMERIC_SIGN_FIVE_BAN2_VARIANT_FORM = "\u{12455}";
 
-    #[Info(id: 0x12456, name: 'CUNEIFORM NUMERIC SIGN NIGIDAMIN', category: Cat::Letter_Number)]
+    #[Info(id: 0x12456, name: 'CUNEIFORM NUMERIC SIGN NIGIDAMIN', category: Cat::Letter_Number, informativeAliases: ['2 bariga'])]
     case CUNEIFORM_NUMERIC_SIGN_NIGIDAMIN = "\u{12456}";
 
-    #[Info(id: 0x12457, name: 'CUNEIFORM NUMERIC SIGN NIGIDAESH', category: Cat::Letter_Number)]
+    #[Info(id: 0x12457, name: 'CUNEIFORM NUMERIC SIGN NIGIDAESH', category: Cat::Letter_Number, informativeAliases: ['3 bariga'])]
     case CUNEIFORM_NUMERIC_SIGN_NIGIDAESH = "\u{12457}";
 
     #[Info(id: 0x12458, name: 'CUNEIFORM NUMERIC SIGN ONE ESHE3', category: Cat::Letter_Number)]
@@ -295,16 +295,16 @@ enum Cuneiform_Numbers_and_Punctuation: string
     #[Info(id: 0x1245C, name: 'CUNEIFORM NUMERIC SIGN FIVE SIXTHS DISH', category: Cat::Letter_Number)]
     case CUNEIFORM_NUMERIC_SIGN_FIVE_SIXTHS_DISH = "\u{1245C}";
 
-    #[Info(id: 0x1245D, name: 'CUNEIFORM NUMERIC SIGN ONE THIRD VARIANT FORM A', category: Cat::Letter_Number)]
+    #[Info(id: 0x1245D, name: 'CUNEIFORM NUMERIC SIGN ONE THIRD VARIANT FORM A', category: Cat::Letter_Number, informativeAliases: ['1/3 aš curved', '1/3 diš curved'])]
     case CUNEIFORM_NUMERIC_SIGN_ONE_THIRD_VARIANT_FORM_A = "\u{1245D}";
 
-    #[Info(id: 0x1245E, name: 'CUNEIFORM NUMERIC SIGN TWO THIRDS VARIANT FORM A', category: Cat::Letter_Number)]
+    #[Info(id: 0x1245E, name: 'CUNEIFORM NUMERIC SIGN TWO THIRDS VARIANT FORM A', category: Cat::Letter_Number, informativeAliases: ['2/3 aš curved', '2/3 diš curved'])]
     case CUNEIFORM_NUMERIC_SIGN_TWO_THIRDS_VARIANT_FORM_A = "\u{1245E}";
 
-    #[Info(id: 0x1245F, name: 'CUNEIFORM NUMERIC SIGN ONE EIGHTH ASH', category: Cat::Letter_Number)]
+    #[Info(id: 0x1245F, name: 'CUNEIFORM NUMERIC SIGN ONE EIGHTH ASH', category: Cat::Letter_Number, informativeAliases: ['1/8 iku'])]
     case CUNEIFORM_NUMERIC_SIGN_ONE_EIGHTH_ASH = "\u{1245F}";
 
-    #[Info(id: 0x12460, name: 'CUNEIFORM NUMERIC SIGN ONE QUARTER ASH', category: Cat::Letter_Number)]
+    #[Info(id: 0x12460, name: 'CUNEIFORM NUMERIC SIGN ONE QUARTER ASH', category: Cat::Letter_Number, informativeAliases: ['1/4 iku'])]
     case CUNEIFORM_NUMERIC_SIGN_ONE_QUARTER_ASH = "\u{12460}";
 
     #[Info(id: 0x12461, name: 'CUNEIFORM NUMERIC SIGN OLD ASSYRIAN ONE SIXTH', category: Cat::Letter_Number)]
@@ -313,10 +313,10 @@ enum Cuneiform_Numbers_and_Punctuation: string
     #[Info(id: 0x12462, name: 'CUNEIFORM NUMERIC SIGN OLD ASSYRIAN ONE QUARTER', category: Cat::Letter_Number)]
     case CUNEIFORM_NUMERIC_SIGN_OLD_ASSYRIAN_ONE_QUARTER = "\u{12462}";
 
-    #[Info(id: 0x12463, name: 'CUNEIFORM NUMERIC SIGN ONE QUARTER GUR', category: Cat::Letter_Number)]
+    #[Info(id: 0x12463, name: 'CUNEIFORM NUMERIC SIGN ONE QUARTER GUR', category: Cat::Letter_Number, informativeAliases: ['1 bariga variant form'])]
     case CUNEIFORM_NUMERIC_SIGN_ONE_QUARTER_GUR = "\u{12463}";
 
-    #[Info(id: 0x12464, name: 'CUNEIFORM NUMERIC SIGN ONE HALF GUR', category: Cat::Letter_Number)]
+    #[Info(id: 0x12464, name: 'CUNEIFORM NUMERIC SIGN ONE HALF GUR', category: Cat::Letter_Number, informativeAliases: ['2 bariga variant form'])]
     case CUNEIFORM_NUMERIC_SIGN_ONE_HALF_GUR = "\u{12464}";
 
     #[Info(id: 0x12465, name: 'CUNEIFORM NUMERIC SIGN ELAMITE ONE THIRD', category: Cat::Letter_Number)]

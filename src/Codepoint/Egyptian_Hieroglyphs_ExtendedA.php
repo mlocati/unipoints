@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Egyptian_Hieroglyphs_ExtendedA: string
 {
     #[Info(id: 0x13460, name: 'EGYPTIAN HIEROGLYPH-13460', category: Cat::Other_Letter)]

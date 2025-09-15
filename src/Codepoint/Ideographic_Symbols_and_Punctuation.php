@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Ideographic_Symbols_and_Punctuation: string
 {
     #[Info(id: 0x16FE0, name: 'TANGUT ITERATION MARK', category: Cat::Modifier_Letter)]
@@ -36,4 +36,19 @@ enum Ideographic_Symbols_and_Punctuation: string
 
     #[Info(id: 0x16FF1, name: 'VIETNAMESE ALTERNATE READING MARK NHAY', category: Cat::Spacing_Mark)]
     case VIETNAMESE_ALTERNATE_READING_MARK_NHAY = "\u{16FF1}";
+
+    #[Info(id: 0x16FF2, name: 'CHINESE SMALL SIMPLIFIED ER', category: Cat::Modifier_Letter)]
+    case CHINESE_SMALL_SIMPLIFIED_ER = "\u{16FF2}";
+
+    #[Info(id: 0x16FF3, name: 'CHINESE SMALL TRADITIONAL ER', category: Cat::Modifier_Letter)]
+    case CHINESE_SMALL_TRADITIONAL_ER = "\u{16FF3}";
+
+    #[Info(id: 0x16FF4, name: 'YANGQIN SIGN SLOW ONE BEAT', category: Cat::Letter_Number)]
+    case YANGQIN_SIGN_SLOW_ONE_BEAT = "\u{16FF4}";
+
+    #[Info(id: 0x16FF5, name: 'YANGQIN SIGN SLOW THREE HALF BEATS', category: Cat::Letter_Number)]
+    case YANGQIN_SIGN_SLOW_THREE_HALF_BEATS = "\u{16FF5}";
+
+    #[Info(id: 0x16FF6, name: 'YANGQIN SIGN SLOW TWO BEATS', category: Cat::Letter_Number)]
+    case YANGQIN_SIGN_SLOW_TWO_BEATS = "\u{16FF6}";
 }

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Supplemental_ArrowsC: string
 {
     #[Info(id: 0x1F800, name: 'LEFTWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD', category: Cat::Other_Symbol)]
@@ -501,4 +501,31 @@ enum Supplemental_ArrowsC: string
 
     #[Info(id: 0x1F8C1, name: 'RIGHTWARDS ARROW FROM DOWNWARDS ARROW', category: Cat::Other_Symbol)]
     case RIGHTWARDS_ARROW_FROM_DOWNWARDS_ARROW = "\u{1F8C1}";
+
+    #[Info(id: 0x1F8D0, name: 'LONG RIGHTWARDS ARROW OVER LONG LEFTWARDS ARROW', category: Cat::Math_Symbol)]
+    case LONG_RIGHTWARDS_ARROW_OVER_LONG_LEFTWARDS_ARROW = "\u{1F8D0}";
+
+    #[Info(id: 0x1F8D1, name: 'LONG RIGHTWARDS HARPOON OVER LONG LEFTWARDS HARPOON', category: Cat::Math_Symbol)]
+    case LONG_RIGHTWARDS_HARPOON_OVER_LONG_LEFTWARDS_HARPOON = "\u{1F8D1}";
+
+    #[Info(id: 0x1F8D2, name: 'LONG RIGHTWARDS HARPOON ABOVE SHORT LEFTWARDS HARPOON', category: Cat::Math_Symbol)]
+    case LONG_RIGHTWARDS_HARPOON_ABOVE_SHORT_LEFTWARDS_HARPOON = "\u{1F8D2}";
+
+    #[Info(id: 0x1F8D3, name: 'SHORT RIGHTWARDS HARPOON ABOVE LONG LEFTWARDS HARPOON', category: Cat::Math_Symbol)]
+    case SHORT_RIGHTWARDS_HARPOON_ABOVE_LONG_LEFTWARDS_HARPOON = "\u{1F8D3}";
+
+    #[Info(id: 0x1F8D4, name: 'LONG LEFTWARDS HARPOON ABOVE SHORT RIGHTWARDS HARPOON', category: Cat::Math_Symbol)]
+    case LONG_LEFTWARDS_HARPOON_ABOVE_SHORT_RIGHTWARDS_HARPOON = "\u{1F8D4}";
+
+    #[Info(id: 0x1F8D5, name: 'SHORT LEFTWARDS HARPOON ABOVE LONG RIGHTWARDS HARPOON', category: Cat::Math_Symbol)]
+    case SHORT_LEFTWARDS_HARPOON_ABOVE_LONG_RIGHTWARDS_HARPOON = "\u{1F8D5}";
+
+    #[Info(id: 0x1F8D6, name: 'LONG RIGHTWARDS ARROW THROUGH X', category: Cat::Math_Symbol)]
+    case LONG_RIGHTWARDS_ARROW_THROUGH_X = "\u{1F8D6}";
+
+    #[Info(id: 0x1F8D7, name: 'LONG RIGHTWARDS ARROW WITH DOUBLE SLASH', category: Cat::Math_Symbol)]
+    case LONG_RIGHTWARDS_ARROW_WITH_DOUBLE_SLASH = "\u{1F8D7}";
+
+    #[Info(id: 0x1F8D8, name: 'LONG LEFT RIGHT ARROW WITH DEPENDENT LOBE', category: Cat::Math_Symbol)]
+    case LONG_LEFT_RIGHT_ARROW_WITH_DEPENDENT_LOBE = "\u{1F8D8}";
 }

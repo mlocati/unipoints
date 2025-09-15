@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Latin_ExtendedD: string
 {
     #[Info(id: 0xA720, name: 'MODIFIER LETTER STRESS AND HIGH TONE', category: Cat::Modifier_Symbol)]
@@ -538,14 +538,26 @@ enum Latin_ExtendedD: string
     #[Info(id: 0xA7CD, name: 'LATIN SMALL LETTER S WITH DIAGONAL STROKE', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_S_WITH_DIAGONAL_STROKE = "\u{A7CD}";
 
+    #[Info(id: 0xA7CE, name: 'LATIN CAPITAL LETTER PHARYNGEAL VOICED FRICATIVE', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_PHARYNGEAL_VOICED_FRICATIVE = "\u{A7CE}";
+
+    #[Info(id: 0xA7CF, name: 'LATIN SMALL LETTER PHARYNGEAL VOICED FRICATIVE', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_PHARYNGEAL_VOICED_FRICATIVE = "\u{A7CF}";
+
     #[Info(id: 0xA7D0, name: 'LATIN CAPITAL LETTER CLOSED INSULAR G', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_CLOSED_INSULAR_G = "\u{A7D0}";
 
     #[Info(id: 0xA7D1, name: 'LATIN SMALL LETTER CLOSED INSULAR G', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_CLOSED_INSULAR_G = "\u{A7D1}";
 
+    #[Info(id: 0xA7D2, name: 'LATIN CAPITAL LETTER DOUBLE THORN', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_DOUBLE_THORN = "\u{A7D2}";
+
     #[Info(id: 0xA7D3, name: 'LATIN SMALL LETTER DOUBLE THORN', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_DOUBLE_THORN = "\u{A7D3}";
+
+    #[Info(id: 0xA7D4, name: 'LATIN CAPITAL LETTER DOUBLE WYNN', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_DOUBLE_WYNN = "\u{A7D4}";
 
     #[Info(id: 0xA7D5, name: 'LATIN SMALL LETTER DOUBLE WYNN', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_DOUBLE_WYNN = "\u{A7D5}";
@@ -570,6 +582,9 @@ enum Latin_ExtendedD: string
 
     #[Info(id: 0xA7DC, name: 'LATIN CAPITAL LETTER LAMBDA WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_LAMBDA_WITH_STROKE = "\u{A7DC}";
+
+    #[Info(id: 0xA7F1, name: 'MODIFIER LETTER CAPITAL S', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_CAPITAL_S = "\u{A7F1}";
 
     #[Info(id: 0xA7F2, name: 'MODIFIER LETTER CAPITAL C', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_CAPITAL_C = "\u{A7F2}";

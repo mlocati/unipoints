@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Alchemical_Symbols: string
 {
     #[Info(id: 0x1F700, name: 'ALCHEMICAL SYMBOL FOR QUINTESSENCE', category: Cat::Other_Symbol)]
@@ -319,7 +319,7 @@ enum Alchemical_Symbols: string
     #[Info(id: 0x1F764, name: 'ALCHEMICAL SYMBOL FOR PUTREFACTION', category: Cat::Other_Symbol)]
     case ALCHEMICAL_SYMBOL_FOR_PUTREFACTION = "\u{1F764}";
 
-    #[Info(id: 0x1F765, name: 'ALCHEMICAL SYMBOL FOR CRUCIBLE', category: Cat::Other_Symbol, informativeAliases: ['tigellum'])]
+    #[Info(id: 0x1F765, name: 'ALCHEMICAL SYMBOL FOR CRUCIBLE', category: Cat::Other_Symbol, informativeAliases: ['tigillum'])]
     case ALCHEMICAL_SYMBOL_FOR_CRUCIBLE = "\u{1F765}";
 
     #[Info(id: 0x1F766, name: 'ALCHEMICAL SYMBOL FOR CRUCIBLE-2', category: Cat::Other_Symbol)]
@@ -372,6 +372,18 @@ enum Alchemical_Symbols: string
 
     #[Info(id: 0x1F776, name: 'LUNAR ECLIPSE', category: Cat::Other_Symbol)]
     case LUNAR_ECLIPSE = "\u{1F776}";
+
+    #[Info(id: 0x1F777, name: 'VESTA FORM TWO', category: Cat::Other_Symbol)]
+    case VESTA_FORM_TWO = "\u{1F777}";
+
+    #[Info(id: 0x1F778, name: 'ASTRAEA FORM TWO', category: Cat::Other_Symbol)]
+    case ASTRAEA_FORM_TWO = "\u{1F778}";
+
+    #[Info(id: 0x1F779, name: 'HYGIEA FORM TWO', category: Cat::Other_Symbol)]
+    case HYGIEA_FORM_TWO = "\u{1F779}";
+
+    #[Info(id: 0x1F77A, name: 'PARTHENOPE FORM TWO', category: Cat::Other_Symbol, informativeAliases: ['Lyra'])]
+    case PARTHENOPE_FORM_TWO = "\u{1F77A}";
 
     #[Info(id: 0x1F77B, name: 'HAUMEA', category: Cat::Other_Symbol)]
     case HAUMEA = "\u{1F77B}";

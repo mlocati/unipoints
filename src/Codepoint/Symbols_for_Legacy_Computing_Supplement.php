@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Symbols_for_Legacy_Computing_Supplement: string
 {
     #[Info(id: 0x1CC00, name: 'UP-POINTING GO-KART', category: Cat::Other_Symbol)]
@@ -765,6 +765,15 @@ enum Symbols_for_Legacy_Computing_Supplement: string
 
     #[Info(id: 0x1CCF9, name: 'OUTLINED DIGIT NINE', category: Cat::Decimal_Number)]
     case OUTLINED_DIGIT_NINE = "\u{1CCF9}";
+
+    #[Info(id: 0x1CCFA, name: 'SNAKE SYMBOL', category: Cat::Other_Symbol)]
+    case SNAKE_SYMBOL = "\u{1CCFA}";
+
+    #[Info(id: 0x1CCFB, name: 'FLYING SAUCER SYMBOL', category: Cat::Other_Symbol)]
+    case FLYING_SAUCER_SYMBOL = "\u{1CCFB}";
+
+    #[Info(id: 0x1CCFC, name: 'NOSE SYMBOL', category: Cat::Other_Symbol)]
+    case NOSE_SYMBOL = "\u{1CCFC}";
 
     #[Info(id: 0x1CD00, name: 'BLOCK OCTANT-3', category: Cat::Other_Symbol)]
     case BLOCK_OCTANT_3 = "\u{1CD00}";
@@ -2073,4 +2082,22 @@ enum Symbols_for_Legacy_Computing_Supplement: string
 
     #[Info(id: 0x1CEB3, name: 'BLACK RIGHT TRIANGLE CARET', category: Cat::Other_Symbol)]
     case BLACK_RIGHT_TRIANGLE_CARET = "\u{1CEB3}";
+
+    #[Info(id: 0x1CEBA, name: 'FRAGILE SYMBOL', category: Cat::Other_Symbol)]
+    case FRAGILE_SYMBOL = "\u{1CEBA}";
+
+    #[Info(id: 0x1CEBB, name: 'OFFICE BUILDING SYMBOL', category: Cat::Other_Symbol)]
+    case OFFICE_BUILDING_SYMBOL = "\u{1CEBB}";
+
+    #[Info(id: 0x1CEBC, name: 'TREE SYMBOL', category: Cat::Other_Symbol)]
+    case TREE_SYMBOL = "\u{1CEBC}";
+
+    #[Info(id: 0x1CEBD, name: 'APPLE SYMBOL', category: Cat::Other_Symbol)]
+    case APPLE_SYMBOL = "\u{1CEBD}";
+
+    #[Info(id: 0x1CEBE, name: 'CHERRY SYMBOL', category: Cat::Other_Symbol)]
+    case CHERRY_SYMBOL = "\u{1CEBE}";
+
+    #[Info(id: 0x1CEBF, name: 'STRAWBERRY SYMBOL', category: Cat::Other_Symbol)]
+    case STRAWBERRY_SYMBOL = "\u{1CEBF}";
 }

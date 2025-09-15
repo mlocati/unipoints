@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Chess_Symbols: string
 {
     #[Info(id: 0x1FA00, name: 'NEUTRAL CHESS KING', category: Cat::Other_Symbol)]
@@ -267,6 +267,18 @@ enum Chess_Symbols: string
 
     #[Info(id: 0x1FA53, name: 'BLACK CHESS KNIGHT-BISHOP', category: Cat::Other_Symbol)]
     case BLACK_CHESS_KNIGHT_BISHOP = "\u{1FA53}";
+
+    #[Info(id: 0x1FA54, name: 'WHITE CHESS FERZ', category: Cat::Other_Symbol)]
+    case WHITE_CHESS_FERZ = "\u{1FA54}";
+
+    #[Info(id: 0x1FA55, name: 'WHITE CHESS ALFIL', category: Cat::Other_Symbol, informativeAliases: ['white elephant'])]
+    case WHITE_CHESS_ALFIL = "\u{1FA55}";
+
+    #[Info(id: 0x1FA56, name: 'BLACK CHESS FERZ', category: Cat::Other_Symbol)]
+    case BLACK_CHESS_FERZ = "\u{1FA56}";
+
+    #[Info(id: 0x1FA57, name: 'BLACK CHESS ALFIL', category: Cat::Other_Symbol, informativeAliases: ['black elephant'])]
+    case BLACK_CHESS_ALFIL = "\u{1FA57}";
 
     #[Info(id: 0x1FA60, name: 'XIANGQI RED GENERAL', category: Cat::Other_Symbol, informativeAliases: ['hóng shuài'])]
     case XIANGQI_RED_GENERAL = "\u{1FA60}";

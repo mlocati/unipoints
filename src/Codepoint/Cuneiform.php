@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Cuneiform: string
 {
     #[Info(id: 0x12000, name: 'CUNEIFORM SIGN A', category: Cat::Other_Letter)]
@@ -184,10 +184,10 @@ enum Cuneiform: string
     #[Info(id: 0x12037, name: 'CUNEIFORM SIGN ASAL2', category: Cat::Other_Letter)]
     case CUNEIFORM_SIGN_ASAL2 = "\u{12037}";
 
-    #[Info(id: 0x12038, name: 'CUNEIFORM SIGN ASH', category: Cat::Other_Letter)]
+    #[Info(id: 0x12038, name: 'CUNEIFORM SIGN ASH', category: Cat::Other_Letter, informativeAliases: ['1 aš'])]
     case CUNEIFORM_SIGN_ASH = "\u{12038}";
 
-    #[Info(id: 0x12039, name: 'CUNEIFORM SIGN ASH ZIDA TENU', category: Cat::Other_Letter)]
+    #[Info(id: 0x12039, name: 'CUNEIFORM SIGN ASH ZIDA TENU', category: Cat::Other_Letter, informativeAliases: ['1 aš tenû', '1 diš tenû', '1/2 iku'])]
     case CUNEIFORM_SIGN_ASH_ZIDA_TENU = "\u{12039}";
 
     #[Info(id: 0x1203A, name: 'CUNEIFORM SIGN ASH KABA TENU', category: Cat::Other_Letter)]
@@ -379,7 +379,7 @@ enum Cuneiform: string
     #[Info(id: 0x12078, name: 'CUNEIFORM SIGN DIN KASKAL U GUNU DISH', category: Cat::Other_Letter)]
     case CUNEIFORM_SIGN_DIN_KASKAL_U_GUNU_DISH = "\u{12078}";
 
-    #[Info(id: 0x12079, name: 'CUNEIFORM SIGN DISH', category: Cat::Other_Letter)]
+    #[Info(id: 0x12079, name: 'CUNEIFORM SIGN DISH', category: Cat::Other_Letter, informativeAliases: ['1 diš', '1 bariga'])]
     case CUNEIFORM_SIGN_DISH = "\u{12079}";
 
     #[Info(id: 0x1207A, name: 'CUNEIFORM SIGN DU', category: Cat::Other_Letter)]
@@ -1666,7 +1666,7 @@ enum Cuneiform: string
     #[Info(id: 0x12225, name: 'CUNEIFORM SIGN MAR', category: Cat::Other_Letter)]
     case CUNEIFORM_SIGN_MAR = "\u{12225}";
 
-    #[Info(id: 0x12226, name: 'CUNEIFORM SIGN MASH', category: Cat::Other_Letter)]
+    #[Info(id: 0x12226, name: 'CUNEIFORM SIGN MASH', category: Cat::Other_Letter, informativeAliases: ['1/2 diš'])]
     case CUNEIFORM_SIGN_MASH = "\u{12226}";
 
     #[Info(id: 0x12227, name: 'CUNEIFORM SIGN MASH2', category: Cat::Other_Letter)]
@@ -1681,7 +1681,7 @@ enum Cuneiform: string
     #[Info(id: 0x1222A, name: 'CUNEIFORM SIGN MI', category: Cat::Other_Letter)]
     case CUNEIFORM_SIGN_MI = "\u{1222A}";
 
-    #[Info(id: 0x1222B, name: 'CUNEIFORM SIGN MIN', category: Cat::Other_Letter)]
+    #[Info(id: 0x1222B, name: 'CUNEIFORM SIGN MIN', category: Cat::Other_Letter, informativeAliases: ['2 diš'])]
     case CUNEIFORM_SIGN_MIN = "\u{1222B}";
 
     #[Info(id: 0x1222C, name: 'CUNEIFORM SIGN MU', category: Cat::Other_Letter)]
@@ -2107,7 +2107,7 @@ enum Cuneiform: string
     #[Info(id: 0x122B8, name: 'CUNEIFORM SIGN SHAB6', category: Cat::Other_Letter)]
     case CUNEIFORM_SIGN_SHAB6 = "\u{122B8}";
 
-    #[Info(id: 0x122B9, name: 'CUNEIFORM SIGN SHAR2', category: Cat::Other_Letter)]
+    #[Info(id: 0x122B9, name: 'CUNEIFORM SIGN SHAR2', category: Cat::Other_Letter, informativeAliases: ['1 šar₂'])]
     case CUNEIFORM_SIGN_SHAR2 = "\u{122B9}";
 
     #[Info(id: 0x122BA, name: 'CUNEIFORM SIGN SHE', category: Cat::Other_Letter)]
@@ -2353,13 +2353,13 @@ enum Cuneiform: string
     #[Info(id: 0x1230A, name: 'CUNEIFORM SIGN TUR OVER TUR ZA OVER ZA', category: Cat::Other_Letter)]
     case CUNEIFORM_SIGN_TUR_OVER_TUR_ZA_OVER_ZA = "\u{1230A}";
 
-    #[Info(id: 0x1230B, name: 'CUNEIFORM SIGN U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1230B, name: 'CUNEIFORM SIGN U', category: Cat::Other_Letter, informativeAliases: ['1 u', '1 bur₃'])]
     case CUNEIFORM_SIGN_U = "\u{1230B}";
 
     #[Info(id: 0x1230C, name: 'CUNEIFORM SIGN U GUD', category: Cat::Other_Letter)]
     case CUNEIFORM_SIGN_U_GUD = "\u{1230C}";
 
-    #[Info(id: 0x1230D, name: 'CUNEIFORM SIGN U U U', category: Cat::Other_Letter)]
+    #[Info(id: 0x1230D, name: 'CUNEIFORM SIGN U U U', category: Cat::Other_Letter, informativeAliases: ['3 u', '3 bur₃'])]
     case CUNEIFORM_SIGN_U_U_U = "\u{1230D}";
 
     #[Info(id: 0x1230E, name: 'CUNEIFORM SIGN U OVER U PA OVER PA GAR OVER GAR', category: Cat::Other_Letter)]
@@ -2779,6 +2779,6 @@ enum Cuneiform: string
     #[Info(id: 0x12398, name: 'CUNEIFORM SIGN UM TIMES ME', category: Cat::Other_Letter)]
     case CUNEIFORM_SIGN_UM_TIMES_ME = "\u{12398}";
 
-    #[Info(id: 0x12399, name: 'CUNEIFORM SIGN U U', category: Cat::Other_Letter)]
+    #[Info(id: 0x12399, name: 'CUNEIFORM SIGN U U', category: Cat::Other_Letter, informativeAliases: ['2 u', '2 bur₃'])]
     case CUNEIFORM_SIGN_U_U = "\u{12399}";
 }

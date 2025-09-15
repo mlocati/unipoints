@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Miscellaneous_Symbols: string
 {
     #[Info(id: 0x2600, name: 'BLACK SUN WITH RAYS', category: Cat::Other_Symbol, informativeAliases: ['clear weather'])]
@@ -223,7 +223,7 @@ enum Miscellaneous_Symbols: string
     #[Info(id: 0x2644, name: 'SATURN', category: Cat::Other_Symbol, informativeAliases: ['alchemical symbol for lead'])]
     case SATURN = "\u{2644}";
 
-    #[Info(id: 0x2645, name: 'URANUS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x2645, name: 'URANUS', category: Cat::Other_Symbol, informativeAliases: ['alchemical symbol for platinum'])]
     case URANUS = "\u{2645}";
 
     #[Info(id: 0x2646, name: 'NEPTUNE', category: Cat::Other_Symbol, informativeAliases: ['alchemical symbol for bismuth/tinglass'])]

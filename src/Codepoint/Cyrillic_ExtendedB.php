@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum Cyrillic_ExtendedB: string
 {
     #[Info(id: 0xA640, name: 'CYRILLIC CAPITAL LETTER ZEMLYA', category: Cat::Uppercase_Letter)]

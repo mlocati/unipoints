@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '16.0.0')]
+#[UnicodeInfo(unicodeVersion: '17.0.0')]
 enum IPA_Extensions: string
 {
     #[Info(id: 0x250, name: 'LATIN SMALL LETTER TURNED A', category: Cat::Lowercase_Letter)]
@@ -157,7 +157,7 @@ enum IPA_Extensions: string
     #[Info(id: 0x27E, name: 'LATIN SMALL LETTER R WITH FISHHOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER FISHHOOK R')]
     case LATIN_SMALL_LETTER_R_WITH_FISHHOOK = "\u{27E}";
 
-    #[Info(id: 0x27F, name: 'LATIN SMALL LETTER REVERSED R WITH FISHHOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER REVERSED FISHHOOK R', informativeAliases: ['long leg turned iota (a misnomer)'])]
+    #[Info(id: 0x27F, name: 'LATIN SMALL LETTER REVERSED R WITH FISHHOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER REVERSED FISHHOOK R', informativeAliases: ['long i with left hook', 'long leg turned iota (a misnomer)'])]
     case LATIN_SMALL_LETTER_REVERSED_R_WITH_FISHHOOK = "\u{27F}";
 
     #[Info(id: 0x280, name: 'LATIN LETTER SMALL CAPITAL R', category: Cat::Lowercase_Letter)]
@@ -175,7 +175,7 @@ enum IPA_Extensions: string
     #[Info(id: 0x284, name: 'LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER DOTLESS J BAR HOOK')]
     case LATIN_SMALL_LETTER_DOTLESS_J_WITH_STROKE_AND_HOOK = "\u{284}";
 
-    #[Info(id: 0x285, name: 'LATIN SMALL LETTER SQUAT REVERSED ESH', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x285, name: 'LATIN SMALL LETTER SQUAT REVERSED ESH', category: Cat::Lowercase_Letter, informativeAliases: ['long i with left hook and tail'])]
     case LATIN_SMALL_LETTER_SQUAT_REVERSED_ESH = "\u{285}";
 
     #[Info(id: 0x286, name: 'LATIN SMALL LETTER ESH WITH CURL', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN SMALL LETTER ESH CURL')]
@@ -223,7 +223,7 @@ enum IPA_Extensions: string
     #[Info(id: 0x294, name: 'LATIN LETTER GLOTTAL STOP', category: Cat::Other_Letter)]
     case LATIN_LETTER_GLOTTAL_STOP = "\u{294}";
 
-    #[Info(id: 0x295, name: 'LATIN LETTER PHARYNGEAL VOICED FRICATIVE', category: Cat::Lowercase_Letter, unicode1Name: 'LATIN LETTER REVERSED GLOTTAL STOP', informativeAliases: ['reversed glottal stop'])]
+    #[Info(id: 0x295, name: 'LATIN LETTER PHARYNGEAL VOICED FRICATIVE', category: Cat::Other_Letter, unicode1Name: 'LATIN LETTER REVERSED GLOTTAL STOP', informativeAliases: ['reversed glottal stop'])]
     case LATIN_LETTER_PHARYNGEAL_VOICED_FRICATIVE = "\u{295}";
 
     #[Info(id: 0x296, name: 'LATIN LETTER INVERTED GLOTTAL STOP', category: Cat::Lowercase_Letter)]
@@ -298,9 +298,9 @@ enum IPA_Extensions: string
     #[Info(id: 0x2AD, name: 'LATIN LETTER BIDENTAL PERCUSSIVE', category: Cat::Lowercase_Letter)]
     case LATIN_LETTER_BIDENTAL_PERCUSSIVE = "\u{2AD}";
 
-    #[Info(id: 0x2AE, name: 'LATIN SMALL LETTER TURNED H WITH FISHHOOK', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2AE, name: 'LATIN SMALL LETTER TURNED H WITH FISHHOOK', category: Cat::Lowercase_Letter, informativeAliases: ['turned h with left hook'])]
     case LATIN_SMALL_LETTER_TURNED_H_WITH_FISHHOOK = "\u{2AE}";
 
-    #[Info(id: 0x2AF, name: 'LATIN SMALL LETTER TURNED H WITH FISHHOOK AND TAIL', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0x2AF, name: 'LATIN SMALL LETTER TURNED H WITH FISHHOOK AND TAIL', category: Cat::Lowercase_Letter, informativeAliases: ['turned h with left hook and tail'])]
     case LATIN_SMALL_LETTER_TURNED_H_WITH_FISHHOOK_AND_TAIL = "\u{2AF}";
 }
