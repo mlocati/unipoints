@@ -27,33 +27,33 @@ function extractCodepoints(text: string): number[] {
   let match: RegExpMatchArray|null
   if ((match = searchText.value.match(/^&#x([0-9a-f]{1,6});$/i)) !== null) {
     // HTML hex notation: &#x10FFFF;
-    codepoints.push(parseInt(match[1], 16))
+    codepoints.push(parseInt(match[1]!, 16))
   } else if ((match = searchText.value.match(/^&#([0-9]{1,7});$/)) !== null) {
     // HTML decimal notation: &#1114111;
-    codepoints.push(parseInt(match[1], 10))
+    codepoints.push(parseInt(match[1]!, 10))
   } else if ((match = searchText.value.match(/^["']?\\u([0-9a-f]{4})["']?$/i)) !== null) {
     // JavaScript notation: \uffff
-    codepoints.push(parseInt(match[1], 16))
+    codepoints.push(parseInt(match[1]!, 16))
   } else if ((match = searchText.value.match(/^["']?\\x([0-9a-f]{2})["']?$/i)) !== null) {
     // JavaScript notation: \xFF
-    codepoints.push(parseInt(match[1], 16))
+    codepoints.push(parseInt(match[1]!, 16))
   } else if ((match = searchText.value.match(/^"?\\u\{([0-9a-f]{1,6})\}"?$/i)) !== null) {
     // PHP notation: \u{10FFFF}
-    codepoints.push(parseInt(match[1], 16))
+    codepoints.push(parseInt(match[1]!, 16))
   } else if ((match = searchText.value.match(/^["']?\\u([0-9a-f]{4})\\u([0-9a-f]{4})["']?$/i)) !== null) {
     // JavaScript notation: \ud83d\ude3c
     surrogatesPair.push({
-      high: parseInt(match[1], 16),
-      low: parseInt(match[2], 16)
+      high: parseInt(match[1]!, 16),
+      low: parseInt(match[2]!, 16)
     })
   } else {
     if ((match = searchText.value.match(/^([0-9]{1,7})$/)) !== null) {
       // Codepoint in decimal notation: 1114111
-      codepoints.push(parseInt(match[1], 10))
+      codepoints.push(parseInt(match[1]!!, 10))
     }
     if ((match = searchText.value.match(/^([0-9a-f]{1,6})$/i)) !== null) {
       // Codepoint in hex notation: 10FFFF
-      codepoints.push(parseInt(match[1], 16))
+      codepoints.push(parseInt(match[1]!, 16))
     }
   }
   surrogatesPair.forEach((surrogates) => {
