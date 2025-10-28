@@ -150,17 +150,34 @@ class DataStorage
         return $filepath;
     }
 
-    protected function fetchFileContents(string $relativeUrl, int $flags): string
+    protected function fetchFileContents(string $relativeUrl, int $flags, int $maxRetries = 3): string
     {
         $url = "{$this->baseUrl}{$relativeUrl}";
-        set_error_handler(static function () {}, -1);
-        try {
-            $contents = file_get_contents($url);
-        } finally {
-            restore_error_handler();
-        }
-        if ($contents === false) {
-            throw new UserMessageException("Failed to download file {$url}");
+        for ($attempt = 1; $attempt <= $maxRetries; $attempt++) {
+            $errorMessage = '';
+            set_error_handler(static function ($errno, $errstr) use (&$errorMessage) {
+                $errstr = trim((string) $errstr);
+                if ($errstr === '') {
+                    $errstr = "Unknown error (code {$errno})";
+                }
+                if ($errorMessage === '') {
+                    $errorMessage = $errstr;
+                } else {
+                    $errorMessage .= "\n{$errstr}";
+                }
+            }, -1);
+            try {
+                $contents = file_get_contents($url);
+            } finally {
+                restore_error_handler();
+            }
+            if ($contents !== false) {
+                break;
+            }
+            if ($attempt >= $maxRetries) {
+                throw new UserMessageException("Failed to download file {$url}: {$errorMessage}");
+            }
+            sleep(1);
         }
         if (($flags & self::FLAG_ENDSWITHEOF) === self::FLAG_ENDSWITHEOF) {
             $lines = preg_split('/[\r\n]+/', substr($contents, -50), -1, PREG_SPLIT_NO_EMPTY);
