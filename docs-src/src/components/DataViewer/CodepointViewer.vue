@@ -26,10 +26,10 @@ const htmlString = computed<string>(() => `&#x${props.codepoint.id.toString(16).
 <template>
   <tr v-on:click="infoDisplayed = !infoDisplayed">
     <td class="char">
-      <pre class="mb-0">{{ codepoint.char }}</pre>
+      <pre class="mb-0"><CopiableText v-bind:text="codepoint.char" icon-size="66%" /></pre>
     </td>
     <td>
-      <h5 class="m-0">{{ codepoint.name }}</h5>
+      <h5 class="m-0"><CopiableText v-bind:text="codepoint.name" /></h5>
     </td>
     <td>
       <button class="btn" v-bind:class="infoDisplayed ? 'btn-primary' : 'btn-outline-primary'">
