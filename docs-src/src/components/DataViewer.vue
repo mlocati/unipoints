@@ -63,10 +63,10 @@ const displayed = computed<PlaneFilterResult[]>(() => {
     <template v-else>
       <template v-for="plane in displayed" v-bind:key="plane.plane.id.toString()">
         <PlaneViewer v-bind:plane="plane.plane" />
-        <BlockViewer v-bind:block="plane.blocks[0].block" />
+        <BlockViewer v-bind:block="plane.blocks[0]!.block" />
         <template
           v-for="(block, blockIndex) in plane.blocks"
-          v-bind:key="`${plane.plane.id}@${block.codename}`"
+          v-bind:key="`${plane.plane.id}@${block.block.codename}`"
         >
           <BlockViewer v-if="blockIndex !== 0" v-bind:block="block.block" />
           <table class="table table-hover table-sm m-0">
