@@ -4,17 +4,26 @@ import { computed, ref } from 'vue'
 const props = defineProps<{
   text: string
   displayText?: string | undefined
-  code: boolean | null
+  code?: boolean | undefined
+  iconSize?: string | undefined
 }>()
 
 const textToDisplay = computed<string>(() => props.displayText ?? props.text)
 
-const SUCCESS_CLASS: string = 'bg-success'
-const FAILURE_CLASS: string = 'bg-danger'
+const SUCCESS_CLASS: string = 'text-success'
+const FAILURE_CLASS: string = 'text-danger'
 
 const link = ref<HTMLAnchorElement | null>(null)
 
 let linkTimer: number | null = null
+
+const iconStyle = computed<Record<string, string>>(() => {
+  const style: Record<string, string> = {}
+  if (props.iconSize) {
+    style['font-size'] = props.iconSize
+  }
+  return style
+})
 
 function clearTimer() {
   if (link.value === null || linkTimer === null) {
@@ -67,8 +76,7 @@ if (navigator?.clipboard?.writeText) {
     })
 }
 
-function copyText(e: Event) {
-  e.preventDefault()
+function copyText() {
   clearTimer()
   copyPromise()
     .then(() => {
@@ -85,7 +93,7 @@ function copyText(e: Event) {
   <span class="copiable">
     <code v-if="code">{{ textToDisplay }}</code>
     <template v-else>{{ textToDisplay }}</template>
-    <a href="#" title="Copy to clipboard" ref="link" v-on:click="copyText"
+    <a href="#" title="Copy to clipboard" ref="link" v-on:click.prevent.stop="copyText()" v-bind:style="iconStyle"
       ><font-awesome-icon v-bind:icon="['far', 'copy']" /></a
   ></span>
 </template>
