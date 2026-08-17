@@ -25,6 +25,8 @@ jobs:
           - "8.1"
           - "8.2"
           - "8.3"
+          - "8.4"
+          - "8.5"
         include:
           -
             os: ubuntu-latest
@@ -41,11 +43,11 @@ jobs:
           coverage: none
       -
         name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       -
         name: Cache PHP-CS-Fixer
         if: matrix.check-cs
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: .php-cs-fixer.cache
           key: ${{ runner.os }}-${{ matrix.php-version }}-phpcsfixer
@@ -76,12 +78,12 @@ jobs:
     steps:
       -
         name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       -
         name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
-          node-version: '20'
+          node-version: '24'
           cache: npm
           cache-dependency-path: docs-src/package-lock.json
       -

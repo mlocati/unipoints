@@ -13,15 +13,18 @@ jobs:
     name: Check newer Unicode version
     if: github.repository == 'mlocati/unipoints'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: "8.2"
+          php-version: "8.4"
           tools: composer:v2
           coverage: none
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Install Composer dependencies
         run: composer update --optimize-autoloader --no-progress --ansi --no-interaction
       - name: Check newer version
@@ -39,7 +42,7 @@ jobs:
       - name: Create pull request
         id: create-pr
         if: steps.check.outputs.new-version
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v8
         with:
           title: Update Unicode to v${{ steps.check.outputs.new-version }}
           commit-message: Update Unicode to v${{ steps.check.outputs.new-version }}
