@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Oriya: string
 {
     #[Info(id: 0xB01, name: 'ORIYA SIGN CANDRABINDU', category: Cat::Nonspacing_Mark)]
@@ -204,6 +204,12 @@ enum Oriya: string
 
     #[Info(id: 0xB4D, name: 'ORIYA SIGN VIRAMA', category: Cat::Nonspacing_Mark)]
     case ORIYA_SIGN_VIRAMA = "\u{B4D}";
+
+    #[Info(id: 0xB53, name: 'ORIYA SIGN DOT ABOVE', category: Cat::Nonspacing_Mark)]
+    case ORIYA_SIGN_DOT_ABOVE = "\u{B53}";
+
+    #[Info(id: 0xB54, name: 'ORIYA SIGN DOUBLE DOT ABOVE', category: Cat::Nonspacing_Mark)]
+    case ORIYA_SIGN_DOUBLE_DOT_ABOVE = "\u{B54}";
 
     #[Info(id: 0xB55, name: 'ORIYA SIGN OVERLINE', category: Cat::Nonspacing_Mark)]
     case ORIYA_SIGN_OVERLINE = "\u{B55}";

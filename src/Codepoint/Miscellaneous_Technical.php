@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Miscellaneous_Technical: string
 {
     #[Info(id: 0x2300, name: 'DIAMETER SIGN', category: Cat::Other_Symbol)]
@@ -88,7 +88,7 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x2317, name: 'VIEWDATA SQUARE', category: Cat::Other_Symbol)]
     case VIEWDATA_SQUARE = "\u{2317}";
 
-    #[Info(id: 0x2318, name: 'PLACE OF INTEREST SIGN', category: Cat::Other_Symbol, unicode1Name: 'COMMAND KEY', informativeAliases: ['command key (1.0)', 'operating system key (ISO 9995-7)'])]
+    #[Info(id: 0x2318, name: 'PLACE OF INTEREST SIGN', category: Cat::Other_Symbol, unicode1Name: 'COMMAND KEY', informativeAliases: ['command key (1.0)', 'operating system key (ISO/IEC 9995-7)'])]
     case PLACE_OF_INTEREST_SIGN = "\u{2318}";
 
     #[Info(id: 0x2319, name: 'TURNED NOT SIGN', category: Cat::Other_Symbol, informativeAliases: ['line marker'])]
@@ -97,7 +97,7 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x231A, name: 'WATCH', category: Cat::Other_Symbol)]
     case WATCH = "\u{231A}";
 
-    #[Info(id: 0x231B, name: 'HOURGLASS', category: Cat::Other_Symbol, informativeAliases: ['alchemical symbol for hour'])]
+    #[Info(id: 0x231B, name: 'HOURGLASS', category: Cat::Other_Symbol)]
     case HOURGLASS = "\u{231B}";
 
     #[Info(id: 0x231C, name: 'TOP LEFT CORNER', category: Cat::Other_Symbol)]
@@ -388,7 +388,7 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x237B, name: 'NOT CHECK MARK', category: Cat::Other_Symbol)]
     case NOT_CHECK_MARK = "\u{237B}";
 
-    #[Info(id: 0x237C, name: 'RIGHT ANGLE WITH DOWNWARDS ZIGZAG ARROW', category: Cat::Math_Symbol)]
+    #[Info(id: 0x237C, name: 'RIGHT ANGLE WITH DOWNWARDS ZIGZAG ARROW', category: Cat::Math_Symbol, informativeAliases: ['azimuth'])]
     case RIGHT_ANGLE_WITH_DOWNWARDS_ZIGZAG_ARROW = "\u{237C}";
 
     #[Info(id: 0x237D, name: 'SHOULDERED OPEN BOX', category: Cat::Other_Symbol)]
@@ -700,7 +700,7 @@ enum Miscellaneous_Technical: string
     #[Info(id: 0x23E3, name: 'BENZENE RING WITH CIRCLE', category: Cat::Other_Symbol)]
     case BENZENE_RING_WITH_CIRCLE = "\u{23E3}";
 
-    #[Info(id: 0x23E4, name: 'STRAIGHTNESS', category: Cat::Other_Symbol)]
+    #[Info(id: 0x23E4, name: 'STRAIGHTNESS', category: Cat::Other_Symbol, informativeAliases: ['direct current symbol form one'])]
     case STRAIGHTNESS = "\u{23E4}";
 
     #[Info(id: 0x23E5, name: 'FLATNESS', category: Cat::Other_Symbol)]

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Arabic_ExtendedC: string
 {
     #[Info(id: 0x10EC2, name: 'ARABIC LETTER DAL WITH TWO DOTS VERTICALLY BELOW', category: Cat::Other_Letter)]
@@ -33,6 +33,27 @@ enum Arabic_ExtendedC: string
 
     #[Info(id: 0x10EC7, name: 'ARABIC LETTER YEH WITH FOUR DOTS BELOW', category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_WITH_FOUR_DOTS_BELOW = "\u{10EC7}";
+
+    #[Info(id: 0x10EC9, name: 'ARABIC SMALL BASELINE FATHA', category: Cat::Modifier_Symbol)]
+    case ARABIC_SMALL_BASELINE_FATHA = "\u{10EC9}";
+
+    #[Info(id: 0x10ECA, name: 'ARABIC SMALL BASELINE DOTLESS HEAD OF KHAH', category: Cat::Modifier_Symbol)]
+    case ARABIC_SMALL_BASELINE_DOTLESS_HEAD_OF_KHAH = "\u{10ECA}";
+
+    #[Info(id: 0x10ECB, name: 'ARABIC NORTHEAST POINTING ARROWHEAD ABOVE', category: Cat::Nonspacing_Mark)]
+    case ARABIC_NORTHEAST_POINTING_ARROWHEAD_ABOVE = "\u{10ECB}";
+
+    #[Info(id: 0x10ECC, name: 'ARABIC NORTHEAST POINTING ARROWHEAD BELOW', category: Cat::Nonspacing_Mark)]
+    case ARABIC_NORTHEAST_POINTING_ARROWHEAD_BELOW = "\u{10ECC}";
+
+    #[Info(id: 0x10ECD, name: 'ARABIC SOUTHWEST POINTING ARROWHEAD BELOW', category: Cat::Nonspacing_Mark)]
+    case ARABIC_SOUTHWEST_POINTING_ARROWHEAD_BELOW = "\u{10ECD}";
+
+    #[Info(id: 0x10ECE, name: 'ARABIC SMALL CIRCLE ABOVE', category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_CIRCLE_ABOVE = "\u{10ECE}";
+
+    #[Info(id: 0x10ECF, name: 'ARABIC LARGE CIRCLE ABOVE', category: Cat::Nonspacing_Mark)]
+    case ARABIC_LARGE_CIRCLE_ABOVE = "\u{10ECF}";
 
     #[Info(id: 0x10ED0, name: 'ARABIC BIBLICAL END OF VERSE', category: Cat::Other_Punctuation)]
     case ARABIC_BIBLICAL_END_OF_VERSE = "\u{10ED0}";
@@ -60,6 +81,102 @@ enum Arabic_ExtendedC: string
 
     #[Info(id: 0x10ED8, name: 'ARABIC LIGATURE NAWWARA ALLAAHU MARQADAH', category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_NAWWARA_ALLAAHU_MARQADAH = "\u{10ED8}";
+
+    #[Info(id: 0x10ED9, name: 'ARABIC CROWN LETTER BEH', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_BEH = "\u{10ED9}";
+
+    #[Info(id: 0x10EDA, name: 'ARABIC CROWN LETTER PEH', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_PEH = "\u{10EDA}";
+
+    #[Info(id: 0x10EDB, name: 'ARABIC CROWN LETTER TEH', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_TEH = "\u{10EDB}";
+
+    #[Info(id: 0x10EDC, name: 'ARABIC CROWN LETTER THEH', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_THEH = "\u{10EDC}";
+
+    #[Info(id: 0x10EDD, name: 'ARABIC CROWN LETTER JEEM', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_JEEM = "\u{10EDD}";
+
+    #[Info(id: 0x10EDE, name: 'ARABIC CROWN LETTER HAH', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_HAH = "\u{10EDE}";
+
+    #[Info(id: 0x10EDF, name: 'ARABIC CROWN LETTER KHAH', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_KHAH = "\u{10EDF}";
+
+    #[Info(id: 0x10EE0, name: 'ARABIC CROWN LETTER SEEN', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_SEEN = "\u{10EE0}";
+
+    #[Info(id: 0x10EE1, name: 'ARABIC CROWN LETTER SHEEN', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_SHEEN = "\u{10EE1}";
+
+    #[Info(id: 0x10EE2, name: 'ARABIC CROWN LETTER SAD', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_SAD = "\u{10EE2}";
+
+    #[Info(id: 0x10EE3, name: 'ARABIC CROWN LETTER DAD', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_DAD = "\u{10EE3}";
+
+    #[Info(id: 0x10EE4, name: 'ARABIC CROWN LETTER TAH', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_TAH = "\u{10EE4}";
+
+    #[Info(id: 0x10EE5, name: 'ARABIC CROWN LETTER ZAH', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_ZAH = "\u{10EE5}";
+
+    #[Info(id: 0x10EE6, name: 'ARABIC CROWN LETTER AIN', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_AIN = "\u{10EE6}";
+
+    #[Info(id: 0x10EE7, name: 'ARABIC CROWN LETTER GHAIN', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_GHAIN = "\u{10EE7}";
+
+    #[Info(id: 0x10EE8, name: 'ARABIC CROWN LETTER FEH', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_FEH = "\u{10EE8}";
+
+    #[Info(id: 0x10EE9, name: 'ARABIC CROWN LETTER QAF', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_QAF = "\u{10EE9}";
+
+    #[Info(id: 0x10EEA, name: 'ARABIC CROWN LETTER KAF', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_KAF = "\u{10EEA}";
+
+    #[Info(id: 0x10EEB, name: 'ARABIC CROWN LETTER MEEM', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_MEEM = "\u{10EEB}";
+
+    #[Info(id: 0x10EEC, name: 'ARABIC CROWN LETTER NOON', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_NOON = "\u{10EEC}";
+
+    #[Info(id: 0x10EED, name: 'ARABIC CROWN LETTER HEH', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_HEH = "\u{10EED}";
+
+    #[Info(id: 0x10EEE, name: 'ARABIC CROWN LETTER YEH', category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_YEH = "\u{10EEE}";
+
+    #[Info(id: 0x10EF0, name: 'ARABIC SMALL LOW UPRIGHT RECTANGULAR ZERO', category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_LOW_UPRIGHT_RECTANGULAR_ZERO = "\u{10EF0}";
+
+    #[Info(id: 0x10EF1, name: 'ARABIC SQUARE BELOW', category: Cat::Nonspacing_Mark)]
+    case ARABIC_SQUARE_BELOW = "\u{10EF1}";
+
+    #[Info(id: 0x10EF2, name: 'ARABIC FILLED SQUARE BELOW', category: Cat::Nonspacing_Mark)]
+    case ARABIC_FILLED_SQUARE_BELOW = "\u{10EF2}";
+
+    #[Info(id: 0x10EF3, name: 'ARABIC SMALL HIGH NOON WITH FATHA', category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_HIGH_NOON_WITH_FATHA = "\u{10EF3}";
+
+    #[Info(id: 0x10EF4, name: 'ARABIC SMALL LOW NOON WITH FATHA', category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_LOW_NOON_WITH_FATHA = "\u{10EF4}";
+
+    #[Info(id: 0x10EF5, name: 'ARABIC SMALL HIGH NOON WITH DAMMA', category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_HIGH_NOON_WITH_DAMMA = "\u{10EF5}";
+
+    #[Info(id: 0x10EF6, name: 'ARABIC SMALL LOW NOON WITH DAMMA', category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_LOW_NOON_WITH_DAMMA = "\u{10EF6}";
+
+    #[Info(id: 0x10EF7, name: 'ARABIC SMALL HIGH HEH INITIAL FORM', category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_HIGH_HEH_INITIAL_FORM = "\u{10EF7}";
+
+    #[Info(id: 0x10EF8, name: 'ARABIC SMALL HIGH WORD KABBIR', category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_HIGH_WORD_KABBIR = "\u{10EF8}";
+
+    #[Info(id: 0x10EF9, name: 'ARABIC MARK CROWN', category: Cat::Nonspacing_Mark)]
+    case ARABIC_MARK_CROWN = "\u{10EF9}";
 
     #[Info(id: 0x10EFA, name: 'ARABIC DOUBLE VERTICAL BAR BELOW', category: Cat::Nonspacing_Mark)]
     case ARABIC_DOUBLE_VERTICAL_BAR_BELOW = "\u{10EFA}";

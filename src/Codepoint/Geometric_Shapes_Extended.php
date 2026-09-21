@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Geometric_Shapes_Extended: string
 {
     #[Info(id: 0x1F780, name: 'BLACK LEFT-POINTING ISOSCELES RIGHT TRIANGLE', category: Cat::Other_Symbol)]
@@ -286,6 +286,12 @@ enum Geometric_Shapes_Extended: string
     #[Info(id: 0x1F7D9, name: 'NINE POINTED WHITE STAR', category: Cat::Other_Symbol)]
     case NINE_POINTED_WHITE_STAR = "\u{1F7D9}";
 
+    #[Info(id: 0x1F7DA, name: 'BLACK CIRCLE WITH WHITE VERTICAL BAR', category: Cat::Other_Symbol)]
+    case BLACK_CIRCLE_WITH_WHITE_VERTICAL_BAR = "\u{1F7DA}";
+
+    #[Info(id: 0x1F7DB, name: 'BULLET IN DOUBLE CIRCLE', category: Cat::Other_Symbol)]
+    case BULLET_IN_DOUBLE_CIRCLE = "\u{1F7DB}";
+
     #[Info(id: 0x1F7E0, name: 'LARGE ORANGE CIRCLE', category: Cat::Other_Symbol)]
     case LARGE_ORANGE_CIRCLE = "\u{1F7E0}";
 
@@ -324,4 +330,49 @@ enum Geometric_Shapes_Extended: string
 
     #[Info(id: 0x1F7F0, name: 'HEAVY EQUALS SIGN', category: Cat::Other_Symbol)]
     case HEAVY_EQUALS_SIGN = "\u{1F7F0}";
+
+    #[Info(id: 0x1F7F1, name: 'CIRCLE WITH DOUBLE VERTICAL AND HORIZONTAL LINE', category: Cat::Other_Symbol)]
+    case CIRCLE_WITH_DOUBLE_VERTICAL_AND_HORIZONTAL_LINE = "\u{1F7F1}";
+
+    #[Info(id: 0x1F7F2, name: 'DOUBLE CIRCLE WITH DOUBLE HORIZONTAL LINE', category: Cat::Other_Symbol)]
+    case DOUBLE_CIRCLE_WITH_DOUBLE_HORIZONTAL_LINE = "\u{1F7F2}";
+
+    #[Info(id: 0x1F7F3, name: 'CIRCLED BOTTOM RIGHT OBLIQUE HALF BLACK CIRCLE', category: Cat::Other_Symbol)]
+    case CIRCLED_BOTTOM_RIGHT_OBLIQUE_HALF_BLACK_CIRCLE = "\u{1F7F3}";
+
+    #[Info(id: 0x1F7F4, name: 'LEFT HALF WHITE CIRCLE', category: Cat::Other_Symbol)]
+    case LEFT_HALF_WHITE_CIRCLE = "\u{1F7F4}";
+
+    #[Info(id: 0x1F7F5, name: 'RIGHT HALF WHITE CIRCLE', category: Cat::Other_Symbol)]
+    case RIGHT_HALF_WHITE_CIRCLE = "\u{1F7F5}";
+
+    #[Info(id: 0x1F7F6, name: 'TRANSPARENT CUBE', category: Cat::Other_Symbol)]
+    case TRANSPARENT_CUBE = "\u{1F7F6}";
+
+    #[Info(id: 0x1F7F7, name: 'WHITE CUBE', category: Cat::Other_Symbol)]
+    case WHITE_CUBE = "\u{1F7F7}";
+
+    #[Info(id: 0x1F7F8, name: 'HORIZONTAL DOUBLE WHITE SMALL SQUARE', category: Cat::Other_Symbol)]
+    case HORIZONTAL_DOUBLE_WHITE_SMALL_SQUARE = "\u{1F7F8}";
+
+    #[Info(id: 0x1F7F9, name: 'VERTICAL DOUBLE WHITE SMALL SQUARE', category: Cat::Other_Symbol)]
+    case VERTICAL_DOUBLE_WHITE_SMALL_SQUARE = "\u{1F7F9}";
+
+    #[Info(id: 0x1F7FA, name: 'WHITE SQUARE WITH BOTTOM HALF BISECTED', category: Cat::Other_Symbol)]
+    case WHITE_SQUARE_WITH_BOTTOM_HALF_BISECTED = "\u{1F7FA}";
+
+    #[Info(id: 0x1F7FB, name: 'WHITE SQUARE WITH TOP HALF BISECTED', category: Cat::Other_Symbol)]
+    case WHITE_SQUARE_WITH_TOP_HALF_BISECTED = "\u{1F7FB}";
+
+    #[Info(id: 0x1F7FC, name: 'WHITE SQUARE WITH HORIZONTAL AND VERTICAL BISECTING LINES', category: Cat::Other_Symbol)]
+    case WHITE_SQUARE_WITH_HORIZONTAL_AND_VERTICAL_BISECTING_LINES = "\u{1F7FC}";
+
+    #[Info(id: 0x1F7FD, name: 'LOWER LEFT FLATTENED RIGHT TRIANGLE', category: Cat::Other_Symbol)]
+    case LOWER_LEFT_FLATTENED_RIGHT_TRIANGLE = "\u{1F7FD}";
+
+    #[Info(id: 0x1F7FE, name: 'LOWER RIGHT FLATTENED RIGHT TRIANGLE', category: Cat::Other_Symbol)]
+    case LOWER_RIGHT_FLATTENED_RIGHT_TRIANGLE = "\u{1F7FE}";
+
+    #[Info(id: 0x1F7FF, name: 'RHOMBUS', category: Cat::Other_Symbol)]
+    case RHOMBUS = "\u{1F7FF}";
 }

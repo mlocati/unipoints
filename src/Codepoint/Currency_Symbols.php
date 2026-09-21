@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Currency_Symbols: string
 {
     #[Info(id: 0x20A0, name: 'EURO-CURRENCY SIGN', category: Cat::Currency_Symbol)]
@@ -117,4 +117,13 @@ enum Currency_Symbols: string
 
     #[Info(id: 0x20C1, name: 'SAUDI RIYAL SIGN', category: Cat::Currency_Symbol)]
     case SAUDI_RIYAL_SIGN = "\u{20C1}";
+
+    #[Info(id: 0x20C2, name: 'RUFIYAA SIGN', category: Cat::Currency_Symbol)]
+    case RUFIYAA_SIGN = "\u{20C2}";
+
+    #[Info(id: 0x20C3, name: 'UAE DIRHAM SIGN', category: Cat::Currency_Symbol)]
+    case UAE_DIRHAM_SIGN = "\u{20C3}";
+
+    #[Info(id: 0x20C4, name: 'OMANI RIAL SIGN', category: Cat::Currency_Symbol)]
+    case OMANI_RIAL_SIGN = "\u{20C4}";
 }

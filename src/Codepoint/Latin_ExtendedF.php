@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Latin_ExtendedF: string
 {
     #[Info(id: 0x10780, name: 'MODIFIER LETTER SMALL CAPITAL AA', category: Cat::Modifier_Letter)]
@@ -186,4 +186,19 @@ enum Latin_ExtendedF: string
 
     #[Info(id: 0x107BA, name: 'MODIFIER LETTER SMALL S WITH CURL', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_S_WITH_CURL = "\u{107BA}";
+
+    #[Info(id: 0x107BB, name: 'MODIFIER LETTER SMALL TURNED T', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_T = "\u{107BB}";
+
+    #[Info(id: 0x107BC, name: 'MODIFIER LETTER INVERTED GLOTTAL STOP', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_INVERTED_GLOTTAL_STOP = "\u{107BC}";
+
+    #[Info(id: 0x107BD, name: 'MODIFIER LETTER STRETCHED C', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_STRETCHED_C = "\u{107BD}";
+
+    #[Info(id: 0x107BE, name: 'MODIFIER LETTER SMALL TURNED K', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_K = "\u{107BE}";
+
+    #[Info(id: 0x107BF, name: 'MODIFIER LETTER SMALL ESH WITH DOUBLE BAR', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_ESH_WITH_DOUBLE_BAR = "\u{107BF}";
 }

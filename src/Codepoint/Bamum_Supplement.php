@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Bamum_Supplement: string
 {
     #[Info(id: 0x16800, name: 'BAMUM LETTER PHASE-A NGKUE MFON', category: Cat::Other_Letter)]

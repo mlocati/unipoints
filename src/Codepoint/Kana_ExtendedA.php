@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Kana_ExtendedA: string
 {
     #[Info(id: 0x1B100, name: 'HENTAIGANA LETTER RE-3', category: Cat::Other_Letter)]
@@ -120,4 +120,22 @@ enum Kana_ExtendedA: string
 
     #[Info(id: 0x1B122, name: 'KATAKANA LETTER ARCHAIC WU', category: Cat::Other_Letter)]
     case KATAKANA_LETTER_ARCHAIC_WU = "\u{1B122}";
+
+    #[Info(id: 0x1B123, name: 'HIRAGANA DIGRAPH KOTO', category: Cat::Other_Letter)]
+    case HIRAGANA_DIGRAPH_KOTO = "\u{1B123}";
+
+    #[Info(id: 0x1B124, name: 'KATAKANA DIGRAPH TOKI', category: Cat::Other_Letter)]
+    case KATAKANA_DIGRAPH_TOKI = "\u{1B124}";
+
+    #[Info(id: 0x1B125, name: 'KATAKANA DIGRAPH TOTE', category: Cat::Other_Letter)]
+    case KATAKANA_DIGRAPH_TOTE = "\u{1B125}";
+
+    #[Info(id: 0x1B126, name: 'KATAKANA DIGRAPH YORI', category: Cat::Other_Letter)]
+    case KATAKANA_DIGRAPH_YORI = "\u{1B126}";
+
+    #[Info(id: 0x1B127, name: 'KATAKANA LETTER ALTERNATE NE', category: Cat::Other_Letter)]
+    case KATAKANA_LETTER_ALTERNATE_NE = "\u{1B127}";
+
+    #[Info(id: 0x1B128, name: 'KATAKANA LETTER ALTERNATE WI', category: Cat::Other_Letter)]
+    case KATAKANA_LETTER_ALTERNATE_WI = "\u{1B128}";
 }

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Armenian: string
 {
     #[Info(id: 0x531, name: 'ARMENIAN CAPITAL LETTER AYB', category: Cat::Uppercase_Letter)]
@@ -129,6 +129,9 @@ enum Armenian: string
 
     #[Info(id: 0x556, name: 'ARMENIAN CAPITAL LETTER FEH', category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_FEH = "\u{556}";
+
+    #[Info(id: 0x558, name: 'MODIFIER LETTER ARMENIAN SMALL EH', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_ARMENIAN_SMALL_EH = "\u{558}";
 
     #[Info(id: 0x559, name: 'ARMENIAN MODIFIER LETTER LEFT HALF RING', category: Cat::Modifier_Letter)]
     case ARMENIAN_MODIFIER_LETTER_LEFT_HALF_RING = "\u{559}";
@@ -279,6 +282,12 @@ enum Armenian: string
 
     #[Info(id: 0x58A, name: 'ARMENIAN HYPHEN', category: Cat::Dash_Punctuation, informativeAliases: ['yentamna'])]
     case ARMENIAN_HYPHEN = "\u{58A}";
+
+    #[Info(id: 0x58B, name: 'MODIFIER LETTER ARMENIAN SMALL INI', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_ARMENIAN_SMALL_INI = "\u{58B}";
+
+    #[Info(id: 0x58C, name: 'MODIFIER LETTER ARMENIAN SMALL YI', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_ARMENIAN_SMALL_YI = "\u{58C}";
 
     #[Info(id: 0x58D, name: 'RIGHT-FACING ARMENIAN ETERNITY SIGN', category: Cat::Other_Symbol)]
     case RIGHT_FACING_ARMENIAN_ETERNITY_SIGN = "\u{58D}";

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Miscellaneous_Symbols_Supplement: string
 {
     #[Info(id: 0x1CEC0, name: 'HEBE', category: Cat::Other_Symbol)]
@@ -67,6 +67,24 @@ enum Miscellaneous_Symbols_Supplement: string
     #[Info(id: 0x1CED0, name: 'LEUKOTHEA', category: Cat::Other_Symbol)]
     case LEUKOTHEA = "\u{1CED0}";
 
+    #[Info(id: 0x1CED2, name: 'ALCHEMICAL SYMBOL FOR OIL INVERTED', category: Cat::Other_Symbol)]
+    case ALCHEMICAL_SYMBOL_FOR_OIL_INVERTED = "\u{1CED2}";
+
+    #[Info(id: 0x1CED3, name: 'ALCHEMICAL SYMBOL FOR MOON-JUPITER', category: Cat::Other_Symbol)]
+    case ALCHEMICAL_SYMBOL_FOR_MOON_JUPITER = "\u{1CED3}";
+
+    #[Info(id: 0x1CED4, name: 'ALCHEMICAL SYMBOL FOR SALT OF TARTAR', category: Cat::Other_Symbol)]
+    case ALCHEMICAL_SYMBOL_FOR_SALT_OF_TARTAR = "\u{1CED4}";
+
+    #[Info(id: 0x1CEDD, name: 'SQUARE ROOT OF SQUARE ROOT', category: Cat::Math_Symbol)]
+    case SQUARE_ROOT_OF_SQUARE_ROOT = "\u{1CEDD}";
+
+    #[Info(id: 0x1CEDE, name: 'SQUARE ROOT OF SQUARE ROOT OF SQUARE ROOT', category: Cat::Math_Symbol)]
+    case SQUARE_ROOT_OF_SQUARE_ROOT_OF_SQUARE_ROOT = "\u{1CEDE}";
+
+    #[Info(id: 0x1CEDF, name: 'SQUARE ROOT OF SQUARE ROOT OF SQUARE ROOT OF SQUARE ROOT', category: Cat::Math_Symbol)]
+    case SQUARE_ROOT_OF_SQUARE_ROOT_OF_SQUARE_ROOT_OF_SQUARE_ROOT = "\u{1CEDF}";
+
     #[Info(id: 0x1CEE0, name: 'GEOMANTIC FIGURE POPULUS', category: Cat::Other_Symbol)]
     case GEOMANTIC_FIGURE_POPULUS = "\u{1CEE0}";
 
@@ -117,4 +135,43 @@ enum Miscellaneous_Symbols_Supplement: string
 
     #[Info(id: 0x1CEF0, name: 'MEDIUM SMALL WHITE CIRCLE WITH HORIZONTAL BAR', category: Cat::Math_Symbol)]
     case MEDIUM_SMALL_WHITE_CIRCLE_WITH_HORIZONTAL_BAR = "\u{1CEF0}";
+
+    #[Info(id: 0x1CEF1, name: 'LEIBNIZIAN DIVISION SIGN', category: Cat::Math_Symbol, informativeAliases: ['division'])]
+    case LEIBNIZIAN_DIVISION_SIGN = "\u{1CEF1}";
+
+    #[Info(id: 0x1CEF2, name: 'LEIBNIZIAN MULTIPLICATION SIGN', category: Cat::Math_Symbol, informativeAliases: ['multiplication'])]
+    case LEIBNIZIAN_MULTIPLICATION_SIGN = "\u{1CEF2}";
+
+    #[Info(id: 0x1CEF3, name: 'LEIBNIZIAN MULTIPLICATION-DIVISION SIGN', category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_MULTIPLICATION_DIVISION_SIGN = "\u{1CEF3}";
+
+    #[Info(id: 0x1CEF4, name: 'LEIBNIZIAN FRACTION REDUCTION SIGN-1', category: Cat::Math_Symbol, informativeAliases: ['division'])]
+    case LEIBNIZIAN_FRACTION_REDUCTION_SIGN_1 = "\u{1CEF4}";
+
+    #[Info(id: 0x1CEF5, name: 'LEIBNIZIAN FRACTION REDUCTION SIGN-2', category: Cat::Math_Symbol, informativeAliases: ['division'])]
+    case LEIBNIZIAN_FRACTION_REDUCTION_SIGN_2 = "\u{1CEF5}";
+
+    #[Info(id: 0x1CEF6, name: 'SECTOR WITH CHORD', category: Cat::Math_Symbol)]
+    case SECTOR_WITH_CHORD = "\u{1CEF6}";
+
+    #[Info(id: 0x1CEF7, name: 'SECTOR WITH DOUBLE ARC', category: Cat::Math_Symbol)]
+    case SECTOR_WITH_DOUBLE_ARC = "\u{1CEF7}";
+
+    #[Info(id: 0x1CEF8, name: 'SECTOR WITH CHORD AND DOTTED ARC', category: Cat::Math_Symbol)]
+    case SECTOR_WITH_CHORD_AND_DOTTED_ARC = "\u{1CEF8}";
+
+    #[Info(id: 0x1CEF9, name: 'MEASURED ANGLE WITH DOUBLE ARC', category: Cat::Math_Symbol)]
+    case MEASURED_ANGLE_WITH_DOUBLE_ARC = "\u{1CEF9}";
+
+    #[Info(id: 0x1CEFA, name: 'MEASURED ANGLE WITH CONCAVE ARC', category: Cat::Math_Symbol)]
+    case MEASURED_ANGLE_WITH_CONCAVE_ARC = "\u{1CEFA}";
+
+    #[Info(id: 0x1CEFB, name: 'MEASURED ANGLE WITH DOUBLE CONCAVE ARC', category: Cat::Math_Symbol)]
+    case MEASURED_ANGLE_WITH_DOUBLE_CONCAVE_ARC = "\u{1CEFB}";
+
+    #[Info(id: 0x1CEFC, name: 'ANGLE OPENING UP', category: Cat::Math_Symbol)]
+    case ANGLE_OPENING_UP = "\u{1CEFC}";
+
+    #[Info(id: 0x1CEFD, name: 'HYPERBOLA', category: Cat::Math_Symbol)]
+    case HYPERBOLA = "\u{1CEFD}";
 }

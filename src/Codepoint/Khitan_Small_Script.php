@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Khitan_Small_Script: string
 {
     #[Info(id: 0x18B00, name: 'KHITAN SMALL SCRIPT CHARACTER-18B00', category: Cat::Other_Letter)]
@@ -1425,6 +1425,21 @@ enum Khitan_Small_Script: string
 
     #[Info(id: 0x18CD5, name: 'KHITAN SMALL SCRIPT CHARACTER-18CD5', category: Cat::Other_Letter)]
     case KHITAN_SMALL_SCRIPT_CHARACTER_18CD5 = "\u{18CD5}";
+
+    #[Info(id: 0x18CD6, name: 'KHITAN SMALL SCRIPT CHARACTER-18CD6', category: Cat::Other_Letter)]
+    case KHITAN_SMALL_SCRIPT_CHARACTER_18CD6 = "\u{18CD6}";
+
+    #[Info(id: 0x18CD7, name: 'KHITAN SMALL SCRIPT CHARACTER-18CD7', category: Cat::Other_Letter)]
+    case KHITAN_SMALL_SCRIPT_CHARACTER_18CD7 = "\u{18CD7}";
+
+    #[Info(id: 0x18CD8, name: 'KHITAN SMALL SCRIPT CHARACTER-18CD8', category: Cat::Other_Letter)]
+    case KHITAN_SMALL_SCRIPT_CHARACTER_18CD8 = "\u{18CD8}";
+
+    #[Info(id: 0x18CD9, name: 'KHITAN SMALL SCRIPT CHARACTER-18CD9', category: Cat::Other_Letter)]
+    case KHITAN_SMALL_SCRIPT_CHARACTER_18CD9 = "\u{18CD9}";
+
+    #[Info(id: 0x18CDA, name: 'KHITAN SMALL SCRIPT CHARACTER-18CDA', category: Cat::Other_Letter)]
+    case KHITAN_SMALL_SCRIPT_CHARACTER_18CDA = "\u{18CDA}";
 
     #[Info(id: 0x18CFF, name: 'KHITAN SMALL SCRIPT CHARACTER-18CFF', category: Cat::Other_Letter)]
     case KHITAN_SMALL_SCRIPT_CHARACTER_18CFF = "\u{18CFF}";

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Musical_Symbols: string
 {
     #[Info(id: 0x1D100, name: 'MUSICAL SYMBOL SINGLE BARLINE', category: Cat::Other_Symbol)]
@@ -132,6 +132,12 @@ enum Musical_Symbols: string
 
     #[Info(id: 0x1D126, name: 'MUSICAL SYMBOL DRUM CLEF-2', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DRUM_CLEF_2 = "\u{1D126}";
+
+    #[Info(id: 0x1D127, name: 'MUSICAL SYMBOL COMBINING STRESS', category: Cat::Nonspacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_STRESS = "\u{1D127}";
+
+    #[Info(id: 0x1D128, name: 'MUSICAL SYMBOL COMBINING UNSTRESS', category: Cat::Nonspacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_UNSTRESS = "\u{1D128}";
 
     #[Info(id: 0x1D129, name: 'MUSICAL SYMBOL MULTIPLE MEASURE REST', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_MULTIPLE_MEASURE_REST = "\u{1D129}";
@@ -640,7 +646,7 @@ enum Musical_Symbols: string
     #[Info(id: 0x1D1D1, name: 'MUSICAL SYMBOL GREGORIAN F CLEF', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_GREGORIAN_F_CLEF = "\u{1D1D1}";
 
-    #[Info(id: 0x1D1D2, name: 'MUSICAL SYMBOL SQUARE B', category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D2, name: 'MUSICAL SYMBOL SQUARE B', category: Cat::Other_Symbol, informativeAliases: ['b quadratum (square b)', 'b durum (hard b)'])]
     case MUSICAL_SYMBOL_SQUARE_B = "\u{1D1D2}";
 
     #[Info(id: 0x1D1D3, name: 'MUSICAL SYMBOL VIRGA', category: Cat::Other_Symbol)]
@@ -714,4 +720,67 @@ enum Musical_Symbols: string
 
     #[Info(id: 0x1D1EA, name: 'MUSICAL SYMBOL KORON', category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KORON = "\u{1D1EA}";
+
+    #[Info(id: 0x1D1EB, name: 'MUSICAL SYMBOL HALF SHARP', category: Cat::Other_Symbol, informativeAliases: ['quarter tone sharp'])]
+    case MUSICAL_SYMBOL_HALF_SHARP = "\u{1D1EB}";
+
+    #[Info(id: 0x1D1EC, name: 'MUSICAL SYMBOL ONE AND A HALF SHARP', category: Cat::Other_Symbol, informativeAliases: ['three-quarter tone sharp'])]
+    case MUSICAL_SYMBOL_ONE_AND_A_HALF_SHARP = "\u{1D1EC}";
+
+    #[Info(id: 0x1D1ED, name: 'MUSICAL SYMBOL REVERSED FLAT', category: Cat::Other_Symbol, informativeAliases: ['quarter tone flat'])]
+    case MUSICAL_SYMBOL_REVERSED_FLAT = "\u{1D1ED}";
+
+    #[Info(id: 0x1D1EE, name: 'MUSICAL SYMBOL REVERSED FLAT AND FLAT', category: Cat::Other_Symbol, informativeAliases: ['three-quarter tone flat'])]
+    case MUSICAL_SYMBOL_REVERSED_FLAT_AND_FLAT = "\u{1D1EE}";
+
+    #[Info(id: 0x1D1EF, name: 'MUSICAL SYMBOL HALF SHARP UP', category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_HALF_SHARP_UP = "\u{1D1EF}";
+
+    #[Info(id: 0x1D1F0, name: 'MUSICAL SYMBOL HALF SHARP DOWN', category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_HALF_SHARP_DOWN = "\u{1D1F0}";
+
+    #[Info(id: 0x1D1F1, name: 'MUSICAL SYMBOL ONE AND A HALF SHARP UP', category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_ONE_AND_A_HALF_SHARP_UP = "\u{1D1F1}";
+
+    #[Info(id: 0x1D1F2, name: 'MUSICAL SYMBOL ONE AND A HALF SHARP DOWN', category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_ONE_AND_A_HALF_SHARP_DOWN = "\u{1D1F2}";
+
+    #[Info(id: 0x1D1F3, name: 'MUSICAL SYMBOL REVERSED FLAT UP', category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_REVERSED_FLAT_UP = "\u{1D1F3}";
+
+    #[Info(id: 0x1D1F4, name: 'MUSICAL SYMBOL REVERSED FLAT DOWN', category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_REVERSED_FLAT_DOWN = "\u{1D1F4}";
+
+    #[Info(id: 0x1D1F5, name: 'MUSICAL SYMBOL REVERSED FLAT AND FLAT UP', category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_REVERSED_FLAT_AND_FLAT_UP = "\u{1D1F5}";
+
+    #[Info(id: 0x1D1F6, name: 'MUSICAL SYMBOL REVERSED FLAT AND FLAT DOWN', category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_REVERSED_FLAT_AND_FLAT_DOWN = "\u{1D1F6}";
+
+    #[Info(id: 0x1D1F7, name: 'MUSICAL SYMBOL DIGIT TWO WITH STROKE', category: Cat::Other_Symbol, informativeAliases: ['raised 2nd'])]
+    case MUSICAL_SYMBOL_DIGIT_TWO_WITH_STROKE = "\u{1D1F7}";
+
+    #[Info(id: 0x1D1F8, name: 'MUSICAL SYMBOL DIGIT FOUR WITH STROKE', category: Cat::Other_Symbol, informativeAliases: ['raised 4th'])]
+    case MUSICAL_SYMBOL_DIGIT_FOUR_WITH_STROKE = "\u{1D1F8}";
+
+    #[Info(id: 0x1D1F9, name: 'MUSICAL SYMBOL DIGIT FIVE WITH STROKE', category: Cat::Other_Symbol, informativeAliases: ['raised 5th'])]
+    case MUSICAL_SYMBOL_DIGIT_FIVE_WITH_STROKE = "\u{1D1F9}";
+
+    #[Info(id: 0x1D1FA, name: 'MUSICAL SYMBOL DIGIT SIX WITH STROKE', category: Cat::Other_Symbol, informativeAliases: ['raised 6th'])]
+    case MUSICAL_SYMBOL_DIGIT_SIX_WITH_STROKE = "\u{1D1FA}";
+
+    #[Info(id: 0x1D1FB, name: 'MUSICAL SYMBOL DIGIT SEVEN WITH STROKE', category: Cat::Other_Symbol, informativeAliases: ['raised 7th'])]
+    case MUSICAL_SYMBOL_DIGIT_SEVEN_WITH_STROKE = "\u{1D1FB}";
+
+    #[Info(id: 0x1D1FC, name: 'MUSICAL SYMBOL DIGIT NINE WITH STROKE', category: Cat::Other_Symbol, informativeAliases: ['raised 9th'])]
+    case MUSICAL_SYMBOL_DIGIT_NINE_WITH_STROKE = "\u{1D1FC}";
+
+    #[Info(id: 0x1D1FD, name: 'MUSICAL SYMBOL DIGIT FIVE WITH LOW STROKE', category: Cat::Other_Symbol, informativeAliases: ['diminished 5th'])]
+    case MUSICAL_SYMBOL_DIGIT_FIVE_WITH_LOW_STROKE = "\u{1D1FD}";
+
+    #[Info(id: 0x1D1FE, name: 'MUSICAL SYMBOL DIGIT SEVEN WITH LOW STROKE', category: Cat::Other_Symbol, informativeAliases: ['lowered 7th'])]
+    case MUSICAL_SYMBOL_DIGIT_SEVEN_WITH_LOW_STROKE = "\u{1D1FE}";
+
+    #[Info(id: 0x1D1FF, name: 'MUSICAL SYMBOL LONGA REST', category: Cat::Other_Symbol, informativeAliases: ['quadruple whole-rest'])]
+    case MUSICAL_SYMBOL_LONGA_REST = "\u{1D1FF}";
 }

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Symbols_for_Legacy_Computing: string
 {
     #[Info(id: 0x1FB00, name: 'BLOCK SEXTANT-1', category: Cat::Other_Symbol)]

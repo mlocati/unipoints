@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Combining_Diacritical_Marks_Extended: string
 {
     #[Info(id: 0x1AB0, name: 'COMBINING DOUBLED CIRCUMFLEX ACCENT', category: Cat::Nonspacing_Mark)]
@@ -154,6 +154,12 @@ enum Combining_Diacritical_Marks_Extended: string
     #[Info(id: 0x1ADD, name: 'COMBINING DOT-AND-RING BELOW', category: Cat::Nonspacing_Mark)]
     case COMBINING_DOT_AND_RING_BELOW = "\u{1ADD}";
 
+    #[Info(id: 0x1ADE, name: 'COMBINING GRAVE-DOT', category: Cat::Nonspacing_Mark)]
+    case COMBINING_GRAVE_DOT = "\u{1ADE}";
+
+    #[Info(id: 0x1ADF, name: 'COMBINING DOT-ACUTE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOT_ACUTE = "\u{1ADF}";
+
     #[Info(id: 0x1AE0, name: 'COMBINING LEFT TACK ABOVE', category: Cat::Nonspacing_Mark)]
     case COMBINING_LEFT_TACK_ABOVE = "\u{1AE0}";
 
@@ -189,4 +195,19 @@ enum Combining_Diacritical_Marks_Extended: string
 
     #[Info(id: 0x1AEB, name: 'COMBINING DOUBLE RIGHTWARDS ARROW ABOVE', category: Cat::Nonspacing_Mark)]
     case COMBINING_DOUBLE_RIGHTWARDS_ARROW_ABOVE = "\u{1AEB}";
+
+    #[Info(id: 0x1AEC, name: 'COMBINING CARON-ACUTE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_CARON_ACUTE = "\u{1AEC}";
+
+    #[Info(id: 0x1AED, name: 'COMBINING VERTICAL-LINE-DOUBLE-ACUTE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_VERTICAL_LINE_DOUBLE_ACUTE = "\u{1AED}";
+
+    #[Info(id: 0x1AEE, name: 'COMBINING DOUBLE GRAVE ACCENT BELOW', category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOUBLE_GRAVE_ACCENT_BELOW = "\u{1AEE}";
+
+    #[Info(id: 0x1AEF, name: 'COMBINING DOUBLE ACUTE ACCENT BELOW', category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOUBLE_ACUTE_ACCENT_BELOW = "\u{1AEF}";
+
+    #[Info(id: 0x1AF0, name: 'COMBINING DOUBLE COMMA ABOVE', category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOUBLE_COMMA_ABOVE = "\u{1AF0}";
 }

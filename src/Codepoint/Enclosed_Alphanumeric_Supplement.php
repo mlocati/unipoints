@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Enclosed_Alphanumeric_Supplement: string
 {
     #[Info(id: 0x1F100, name: 'DIGIT ZERO FULL STOP', category: Cat::Other_Number)]
@@ -537,6 +537,9 @@ enum Enclosed_Alphanumeric_Supplement: string
 
     #[Info(id: 0x1F1AD, name: 'MASK WORK SYMBOL', category: Cat::Other_Symbol)]
     case MASK_WORK_SYMBOL = "\u{1F1AD}";
+
+    #[Info(id: 0x1F1AE, name: 'TOMOBIKI SYMBOL', category: Cat::Other_Symbol)]
+    case TOMOBIKI_SYMBOL = "\u{1F1AE}";
 
     #[Info(id: 0x1F1E6, name: 'REGIONAL INDICATOR SYMBOL LETTER A', category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_A = "\u{1F1E6}";
