@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Supplemental_Punctuation: string
 {
     #[Info(id: 0x2E00, name: 'RIGHT ANGLE SUBSTITUTION MARKER', category: Cat::Other_Punctuation)]
@@ -297,4 +297,16 @@ enum Supplemental_Punctuation: string
 
     #[Info(id: 0x2E5D, name: 'OBLIQUE HYPHEN', category: Cat::Dash_Punctuation)]
     case OBLIQUE_HYPHEN = "\u{2E5D}";
+
+    #[Info(id: 0x2E60, name: 'WIGGLY EXCLAMATION MARK', category: Cat::Other_Punctuation, informativeAliases: ['smile mark, mirth mark, laughter mark'])]
+    case WIGGLY_EXCLAMATION_MARK = "\u{2E60}";
+
+    #[Info(id: 0x2E61, name: 'INVERTED WIGGLY EXCLAMATION MARK', category: Cat::Other_Punctuation)]
+    case INVERTED_WIGGLY_EXCLAMATION_MARK = "\u{2E61}";
+
+    #[Info(id: 0x2E62, name: 'LEFT PARENTHESIS WITH MIDDLE RING', category: Cat::Open_Punctuation)]
+    case LEFT_PARENTHESIS_WITH_MIDDLE_RING = "\u{2E62}";
+
+    #[Info(id: 0x2E63, name: 'RIGHT PARENTHESIS WITH MIDDLE RING', category: Cat::Close_Punctuation)]
+    case RIGHT_PARENTHESIS_WITH_MIDDLE_RING = "\u{2E63}";
 }

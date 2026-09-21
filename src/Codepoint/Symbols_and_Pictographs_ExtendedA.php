@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Symbols_and_Pictographs_ExtendedA: string
 {
     #[Info(id: 0x1FA70, name: 'BALLET SHOES', category: Cat::Other_Symbol)]
@@ -87,6 +87,15 @@ enum Symbols_and_Pictographs_ExtendedA: string
 
     #[Info(id: 0x1FA8A, name: 'TROMBONE', category: Cat::Other_Symbol)]
     case TROMBONE = "\u{1FA8A}";
+
+    #[Info(id: 0x1FA8B, name: 'METEOR', category: Cat::Other_Symbol)]
+    case METEOR = "\u{1FA8B}";
+
+    #[Info(id: 0x1FA8C, name: 'ERASER', category: Cat::Other_Symbol)]
+    case ERASER = "\u{1FA8C}";
+
+    #[Info(id: 0x1FA8D, name: 'NET WITH HANDLE', category: Cat::Other_Symbol)]
+    case NET_WITH_HANDLE = "\u{1FA8D}";
 
     #[Info(id: 0x1FA8E, name: 'TREASURE CHEST', category: Cat::Other_Symbol)]
     case TREASURE_CHEST = "\u{1FA8E}";
@@ -262,6 +271,9 @@ enum Symbols_and_Pictographs_ExtendedA: string
     #[Info(id: 0x1FAC8, name: 'HAIRY CREATURE', category: Cat::Other_Symbol)]
     case HAIRY_CREATURE = "\u{1FAC8}";
 
+    #[Info(id: 0x1FACC, name: 'MONARCH BUTTERFLY', category: Cat::Other_Symbol)]
+    case MONARCH_BUTTERFLY = "\u{1FACC}";
+
     #[Info(id: 0x1FACD, name: 'ORCA', category: Cat::Other_Symbol)]
     case ORCA = "\u{1FACD}";
 
@@ -310,6 +322,9 @@ enum Symbols_and_Pictographs_ExtendedA: string
     #[Info(id: 0x1FADC, name: 'ROOT VEGETABLE', category: Cat::Other_Symbol)]
     case ROOT_VEGETABLE = "\u{1FADC}";
 
+    #[Info(id: 0x1FADD, name: 'PICKLE', category: Cat::Other_Symbol)]
+    case PICKLE = "\u{1FADD}";
+
     #[Info(id: 0x1FADF, name: 'SPLATTER', category: Cat::Other_Symbol)]
     case SPLATTER = "\u{1FADF}";
 
@@ -346,6 +361,9 @@ enum Symbols_and_Pictographs_ExtendedA: string
     #[Info(id: 0x1FAEA, name: 'DISTORTED FACE', category: Cat::Other_Symbol)]
     case DISTORTED_FACE = "\u{1FAEA}";
 
+    #[Info(id: 0x1FAEB, name: 'CRACKING FACE', category: Cat::Other_Symbol)]
+    case CRACKING_FACE = "\u{1FAEB}";
+
     #[Info(id: 0x1FAEF, name: 'FIGHT CLOUD', category: Cat::Other_Symbol)]
     case FIGHT_CLOUD = "\u{1FAEF}";
 
@@ -375,4 +393,10 @@ enum Symbols_and_Pictographs_ExtendedA: string
 
     #[Info(id: 0x1FAF8, name: 'RIGHTWARDS PUSHING HAND', category: Cat::Other_Symbol)]
     case RIGHTWARDS_PUSHING_HAND = "\u{1FAF8}";
+
+    #[Info(id: 0x1FAF9, name: 'LEFTWARDS THUMB SIGN', category: Cat::Other_Symbol)]
+    case LEFTWARDS_THUMB_SIGN = "\u{1FAF9}";
+
+    #[Info(id: 0x1FAFA, name: 'RIGHTWARDS THUMB SIGN', category: Cat::Other_Symbol)]
+    case RIGHTWARDS_THUMB_SIGN = "\u{1FAFA}";
 }

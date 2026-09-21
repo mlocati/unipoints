@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Symbols_for_Legacy_Computing_Supplement: string
 {
     #[Info(id: 0x1CC00, name: 'UP-POINTING GO-KART', category: Cat::Other_Symbol)]

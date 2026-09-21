@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Superscripts_and_Subscripts: string
 {
     #[Info(id: 0x2070, name: 'SUPERSCRIPT ZERO', category: Cat::Other_Number, unicode1Name: 'SUPERSCRIPT DIGIT ZERO')]
@@ -103,6 +103,9 @@ enum Superscripts_and_Subscripts: string
     #[Info(id: 0x208E, name: 'SUBSCRIPT RIGHT PARENTHESIS', category: Cat::Close_Punctuation, unicode1Name: 'SUBSCRIPT CLOSING PARENTHESIS')]
     case SUBSCRIPT_RIGHT_PARENTHESIS = "\u{208E}";
 
+    #[Info(id: 0x208F, name: 'MODIFIER LETTER HIGH AND LOW VERTICAL LINE', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_HIGH_AND_LOW_VERTICAL_LINE = "\u{208F}";
+
     #[Info(id: 0x2090, name: 'LATIN SUBSCRIPT SMALL LETTER A', category: Cat::Modifier_Letter)]
     case LATIN_SUBSCRIPT_SMALL_LETTER_A = "\u{2090}";
 
@@ -141,4 +144,13 @@ enum Superscripts_and_Subscripts: string
 
     #[Info(id: 0x209C, name: 'LATIN SUBSCRIPT SMALL LETTER T', category: Cat::Modifier_Letter)]
     case LATIN_SUBSCRIPT_SMALL_LETTER_T = "\u{209C}";
+
+    #[Info(id: 0x209D, name: 'LATIN SUBSCRIPT SMALL LETTER W', category: Cat::Modifier_Letter)]
+    case LATIN_SUBSCRIPT_SMALL_LETTER_W = "\u{209D}";
+
+    #[Info(id: 0x209E, name: 'LATIN SUBSCRIPT SMALL LETTER Y', category: Cat::Modifier_Letter)]
+    case LATIN_SUBSCRIPT_SMALL_LETTER_Y = "\u{209E}";
+
+    #[Info(id: 0x209F, name: 'LATIN SUBSCRIPT SMALL LETTER Z', category: Cat::Modifier_Letter)]
+    case LATIN_SUBSCRIPT_SMALL_LETTER_Z = "\u{209F}";
 }

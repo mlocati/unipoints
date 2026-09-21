@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Devanagari_ExtendedA: string
 {
     #[Info(id: 0x11B00, name: 'DEVANAGARI HEAD MARK', category: Cat::Other_Punctuation)]
@@ -45,4 +45,7 @@ enum Devanagari_ExtendedA: string
 
     #[Info(id: 0x11B09, name: 'DEVANAGARI SIGN MINDU', category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_MINDU = "\u{11B09}";
+
+    #[Info(id: 0x11B0A, name: 'DEVANAGARI LETTER ALTERNATE DDDA', category: Cat::Other_Letter)]
+    case DEVANAGARI_LETTER_ALTERNATE_DDDA = "\u{11B0A}";
 }

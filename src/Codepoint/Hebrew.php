@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Hebrew: string
 {
     #[Info(id: 0x591, name: 'HEBREW ACCENT ETNAHTA', category: Cat::Nonspacing_Mark, informativeAliases: ['atnah'])]
@@ -180,6 +180,12 @@ enum Hebrew: string
 
     #[Info(id: 0x5C7, name: 'HEBREW POINT QAMATS QATAN', category: Cat::Nonspacing_Mark)]
     case HEBREW_POINT_QAMATS_QATAN = "\u{5C7}";
+
+    #[Info(id: 0x5C8, name: 'HEBREW POINT SHEVA NA MUDGASH', category: Cat::Nonspacing_Mark)]
+    case HEBREW_POINT_SHEVA_NA_MUDGASH = "\u{5C8}";
+
+    #[Info(id: 0x5C9, name: 'HEBREW POINT DAGESH HAZAQ MUDGASH', category: Cat::Nonspacing_Mark)]
+    case HEBREW_POINT_DAGESH_HAZAQ_MUDGASH = "\u{5C9}";
 
     #[Info(id: 0x5D0, name: 'HEBREW LETTER ALEF', category: Cat::Other_Letter, informativeAliases: ['aleph'])]
     case HEBREW_LETTER_ALEF = "\u{5D0}";

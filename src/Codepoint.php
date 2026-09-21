@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Codepoint: string
 {
     // Plane: 0 (Basic Multilingual Plane}
@@ -4111,6 +4111,9 @@ enum Codepoint: string
     #[Info(id: 0x556, name: 'ARMENIAN CAPITAL LETTER FEH', block: Block::Armenian, category: Cat::Uppercase_Letter)]
     case ARMENIAN_CAPITAL_LETTER_FEH = "\u{556}";
 
+    #[Info(id: 0x558, name: 'MODIFIER LETTER ARMENIAN SMALL EH', block: Block::Armenian, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_ARMENIAN_SMALL_EH = "\u{558}";
+
     #[Info(id: 0x559, name: 'ARMENIAN MODIFIER LETTER LEFT HALF RING', block: Block::Armenian, category: Cat::Modifier_Letter)]
     case ARMENIAN_MODIFIER_LETTER_LEFT_HALF_RING = "\u{559}";
 
@@ -4260,6 +4263,12 @@ enum Codepoint: string
 
     #[Info(id: 0x58A, name: 'ARMENIAN HYPHEN', block: Block::Armenian, category: Cat::Dash_Punctuation, informativeAliases: ['yentamna'])]
     case ARMENIAN_HYPHEN = "\u{58A}";
+
+    #[Info(id: 0x58B, name: 'MODIFIER LETTER ARMENIAN SMALL INI', block: Block::Armenian, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_ARMENIAN_SMALL_INI = "\u{58B}";
+
+    #[Info(id: 0x58C, name: 'MODIFIER LETTER ARMENIAN SMALL YI', block: Block::Armenian, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_ARMENIAN_SMALL_YI = "\u{58C}";
 
     #[Info(id: 0x58D, name: 'RIGHT-FACING ARMENIAN ETERNITY SIGN', block: Block::Armenian, category: Cat::Other_Symbol)]
     case RIGHT_FACING_ARMENIAN_ETERNITY_SIGN = "\u{58D}";
@@ -4436,6 +4445,12 @@ enum Codepoint: string
 
     #[Info(id: 0x5C7, name: 'HEBREW POINT QAMATS QATAN', block: Block::Hebrew, category: Cat::Nonspacing_Mark)]
     case HEBREW_POINT_QAMATS_QATAN = "\u{5C7}";
+
+    #[Info(id: 0x5C8, name: 'HEBREW POINT SHEVA NA MUDGASH', block: Block::Hebrew, category: Cat::Nonspacing_Mark)]
+    case HEBREW_POINT_SHEVA_NA_MUDGASH = "\u{5C8}";
+
+    #[Info(id: 0x5C9, name: 'HEBREW POINT DAGESH HAZAQ MUDGASH', block: Block::Hebrew, category: Cat::Nonspacing_Mark)]
+    case HEBREW_POINT_DAGESH_HAZAQ_MUDGASH = "\u{5C9}";
 
     #[Info(id: 0x5D0, name: 'HEBREW LETTER ALEF', block: Block::Hebrew, category: Cat::Other_Letter, informativeAliases: ['aleph'])]
     case HEBREW_LETTER_ALEF = "\u{5D0}";
@@ -8138,6 +8153,12 @@ enum Codepoint: string
 
     #[Info(id: 0xB4D, name: 'ORIYA SIGN VIRAMA', block: Block::Oriya, category: Cat::Nonspacing_Mark)]
     case ORIYA_SIGN_VIRAMA = "\u{B4D}";
+
+    #[Info(id: 0xB53, name: 'ORIYA SIGN DOT ABOVE', block: Block::Oriya, category: Cat::Nonspacing_Mark)]
+    case ORIYA_SIGN_DOT_ABOVE = "\u{B53}";
+
+    #[Info(id: 0xB54, name: 'ORIYA SIGN DOUBLE DOT ABOVE', block: Block::Oriya, category: Cat::Nonspacing_Mark)]
+    case ORIYA_SIGN_DOUBLE_DOT_ABOVE = "\u{B54}";
 
     #[Info(id: 0xB55, name: 'ORIYA SIGN OVERLINE', block: Block::Oriya, category: Cat::Nonspacing_Mark)]
     case ORIYA_SIGN_OVERLINE = "\u{B55}";
@@ -18605,6 +18626,12 @@ enum Codepoint: string
     #[Info(id: 0x1ADD, name: 'COMBINING DOT-AND-RING BELOW', block: Block::Combining_Diacritical_Marks_Extended, category: Cat::Nonspacing_Mark)]
     case COMBINING_DOT_AND_RING_BELOW = "\u{1ADD}";
 
+    #[Info(id: 0x1ADE, name: 'COMBINING GRAVE-DOT', block: Block::Combining_Diacritical_Marks_Extended, category: Cat::Nonspacing_Mark)]
+    case COMBINING_GRAVE_DOT = "\u{1ADE}";
+
+    #[Info(id: 0x1ADF, name: 'COMBINING DOT-ACUTE', block: Block::Combining_Diacritical_Marks_Extended, category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOT_ACUTE = "\u{1ADF}";
+
     #[Info(id: 0x1AE0, name: 'COMBINING LEFT TACK ABOVE', block: Block::Combining_Diacritical_Marks_Extended, category: Cat::Nonspacing_Mark)]
     case COMBINING_LEFT_TACK_ABOVE = "\u{1AE0}";
 
@@ -18640,6 +18667,21 @@ enum Codepoint: string
 
     #[Info(id: 0x1AEB, name: 'COMBINING DOUBLE RIGHTWARDS ARROW ABOVE', block: Block::Combining_Diacritical_Marks_Extended, category: Cat::Nonspacing_Mark)]
     case COMBINING_DOUBLE_RIGHTWARDS_ARROW_ABOVE = "\u{1AEB}";
+
+    #[Info(id: 0x1AEC, name: 'COMBINING CARON-ACUTE', block: Block::Combining_Diacritical_Marks_Extended, category: Cat::Nonspacing_Mark)]
+    case COMBINING_CARON_ACUTE = "\u{1AEC}";
+
+    #[Info(id: 0x1AED, name: 'COMBINING VERTICAL-LINE-DOUBLE-ACUTE', block: Block::Combining_Diacritical_Marks_Extended, category: Cat::Nonspacing_Mark)]
+    case COMBINING_VERTICAL_LINE_DOUBLE_ACUTE = "\u{1AED}";
+
+    #[Info(id: 0x1AEE, name: 'COMBINING DOUBLE GRAVE ACCENT BELOW', block: Block::Combining_Diacritical_Marks_Extended, category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOUBLE_GRAVE_ACCENT_BELOW = "\u{1AEE}";
+
+    #[Info(id: 0x1AEF, name: 'COMBINING DOUBLE ACUTE ACCENT BELOW', block: Block::Combining_Diacritical_Marks_Extended, category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOUBLE_ACUTE_ACCENT_BELOW = "\u{1AEF}";
+
+    #[Info(id: 0x1AF0, name: 'COMBINING DOUBLE COMMA ABOVE', block: Block::Combining_Diacritical_Marks_Extended, category: Cat::Nonspacing_Mark)]
+    case COMBINING_DOUBLE_COMMA_ABOVE = "\u{1AF0}";
 
     // Block: Balinese
 
@@ -22759,6 +22801,9 @@ enum Codepoint: string
     #[Info(id: 0x208E, name: 'SUBSCRIPT RIGHT PARENTHESIS', block: Block::Superscripts_and_Subscripts, category: Cat::Close_Punctuation, unicode1Name: 'SUBSCRIPT CLOSING PARENTHESIS')]
     case SUBSCRIPT_RIGHT_PARENTHESIS = "\u{208E}";
 
+    #[Info(id: 0x208F, name: 'MODIFIER LETTER HIGH AND LOW VERTICAL LINE', block: Block::Superscripts_and_Subscripts, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_HIGH_AND_LOW_VERTICAL_LINE = "\u{208F}";
+
     #[Info(id: 0x2090, name: 'LATIN SUBSCRIPT SMALL LETTER A', block: Block::Superscripts_and_Subscripts, category: Cat::Modifier_Letter)]
     case LATIN_SUBSCRIPT_SMALL_LETTER_A = "\u{2090}";
 
@@ -22797,6 +22842,15 @@ enum Codepoint: string
 
     #[Info(id: 0x209C, name: 'LATIN SUBSCRIPT SMALL LETTER T', block: Block::Superscripts_and_Subscripts, category: Cat::Modifier_Letter)]
     case LATIN_SUBSCRIPT_SMALL_LETTER_T = "\u{209C}";
+
+    #[Info(id: 0x209D, name: 'LATIN SUBSCRIPT SMALL LETTER W', block: Block::Superscripts_and_Subscripts, category: Cat::Modifier_Letter)]
+    case LATIN_SUBSCRIPT_SMALL_LETTER_W = "\u{209D}";
+
+    #[Info(id: 0x209E, name: 'LATIN SUBSCRIPT SMALL LETTER Y', block: Block::Superscripts_and_Subscripts, category: Cat::Modifier_Letter)]
+    case LATIN_SUBSCRIPT_SMALL_LETTER_Y = "\u{209E}";
+
+    #[Info(id: 0x209F, name: 'LATIN SUBSCRIPT SMALL LETTER Z', block: Block::Superscripts_and_Subscripts, category: Cat::Modifier_Letter)]
+    case LATIN_SUBSCRIPT_SMALL_LETTER_Z = "\u{209F}";
 
     // Block: Currency Symbols
 
@@ -22901,6 +22955,15 @@ enum Codepoint: string
 
     #[Info(id: 0x20C1, name: 'SAUDI RIYAL SIGN', block: Block::Currency_Symbols, category: Cat::Currency_Symbol)]
     case SAUDI_RIYAL_SIGN = "\u{20C1}";
+
+    #[Info(id: 0x20C2, name: 'RUFIYAA SIGN', block: Block::Currency_Symbols, category: Cat::Currency_Symbol)]
+    case RUFIYAA_SIGN = "\u{20C2}";
+
+    #[Info(id: 0x20C3, name: 'UAE DIRHAM SIGN', block: Block::Currency_Symbols, category: Cat::Currency_Symbol)]
+    case UAE_DIRHAM_SIGN = "\u{20C3}";
+
+    #[Info(id: 0x20C4, name: 'OMANI RIAL SIGN', block: Block::Currency_Symbols, category: Cat::Currency_Symbol)]
+    case OMANI_RIAL_SIGN = "\u{20C4}";
 
     // Block: Combining Diacritical Marks for Symbols
 
@@ -23690,10 +23753,10 @@ enum Codepoint: string
     #[Info(id: 0x21E6, name: 'LEFTWARDS WHITE ARROW', block: Block::Arrows, category: Cat::Other_Symbol, unicode1Name: 'WHITE LEFT ARROW')]
     case LEFTWARDS_WHITE_ARROW = "\u{21E6}";
 
-    #[Info(id: 0x21E7, name: 'UPWARDS WHITE ARROW', block: Block::Arrows, category: Cat::Other_Symbol, unicode1Name: 'WHITE UP ARROW', informativeAliases: ['shift', 'level 2 select (ISO 9995-7)'])]
+    #[Info(id: 0x21E7, name: 'UPWARDS WHITE ARROW', block: Block::Arrows, category: Cat::Other_Symbol, unicode1Name: 'WHITE UP ARROW', informativeAliases: ['shift', 'level 2 select (ISO/IEC 9995-7)'])]
     case UPWARDS_WHITE_ARROW = "\u{21E7}";
 
-    #[Info(id: 0x21E8, name: 'RIGHTWARDS WHITE ARROW', block: Block::Arrows, category: Cat::Other_Symbol, unicode1Name: 'WHITE RIGHT ARROW', informativeAliases: ['group select (ISO 9995-7)'])]
+    #[Info(id: 0x21E8, name: 'RIGHTWARDS WHITE ARROW', block: Block::Arrows, category: Cat::Other_Symbol, unicode1Name: 'WHITE RIGHT ARROW', informativeAliases: ['group select (ISO/IEC 9995-7)'])]
     case RIGHTWARDS_WHITE_ARROW = "\u{21E8}";
 
     #[Info(id: 0x21E9, name: 'DOWNWARDS WHITE ARROW', block: Block::Arrows, category: Cat::Other_Symbol, unicode1Name: 'WHITE DOWN ARROW')]
@@ -24609,7 +24672,7 @@ enum Codepoint: string
     #[Info(id: 0x2317, name: 'VIEWDATA SQUARE', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol)]
     case VIEWDATA_SQUARE = "\u{2317}";
 
-    #[Info(id: 0x2318, name: 'PLACE OF INTEREST SIGN', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol, unicode1Name: 'COMMAND KEY', informativeAliases: ['command key (1.0)', 'operating system key (ISO 9995-7)'])]
+    #[Info(id: 0x2318, name: 'PLACE OF INTEREST SIGN', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol, unicode1Name: 'COMMAND KEY', informativeAliases: ['command key (1.0)', 'operating system key (ISO/IEC 9995-7)'])]
     case PLACE_OF_INTEREST_SIGN = "\u{2318}";
 
     #[Info(id: 0x2319, name: 'TURNED NOT SIGN', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol, informativeAliases: ['line marker'])]
@@ -24618,7 +24681,7 @@ enum Codepoint: string
     #[Info(id: 0x231A, name: 'WATCH', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol)]
     case WATCH = "\u{231A}";
 
-    #[Info(id: 0x231B, name: 'HOURGLASS', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol, informativeAliases: ['alchemical symbol for hour'])]
+    #[Info(id: 0x231B, name: 'HOURGLASS', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol)]
     case HOURGLASS = "\u{231B}";
 
     #[Info(id: 0x231C, name: 'TOP LEFT CORNER', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol)]
@@ -24909,7 +24972,7 @@ enum Codepoint: string
     #[Info(id: 0x237B, name: 'NOT CHECK MARK', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol)]
     case NOT_CHECK_MARK = "\u{237B}";
 
-    #[Info(id: 0x237C, name: 'RIGHT ANGLE WITH DOWNWARDS ZIGZAG ARROW', block: Block::Miscellaneous_Technical, category: Cat::Math_Symbol)]
+    #[Info(id: 0x237C, name: 'RIGHT ANGLE WITH DOWNWARDS ZIGZAG ARROW', block: Block::Miscellaneous_Technical, category: Cat::Math_Symbol, informativeAliases: ['azimuth'])]
     case RIGHT_ANGLE_WITH_DOWNWARDS_ZIGZAG_ARROW = "\u{237C}";
 
     #[Info(id: 0x237D, name: 'SHOULDERED OPEN BOX', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol)]
@@ -25221,7 +25284,7 @@ enum Codepoint: string
     #[Info(id: 0x23E3, name: 'BENZENE RING WITH CIRCLE', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol)]
     case BENZENE_RING_WITH_CIRCLE = "\u{23E3}";
 
-    #[Info(id: 0x23E4, name: 'STRAIGHTNESS', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol)]
+    #[Info(id: 0x23E4, name: 'STRAIGHTNESS', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol, informativeAliases: ['direct current symbol form one'])]
     case STRAIGHTNESS = "\u{23E4}";
 
     #[Info(id: 0x23E5, name: 'FLATNESS', block: Block::Miscellaneous_Technical, category: Cat::Other_Symbol)]
@@ -33024,6 +33087,18 @@ enum Codepoint: string
 
     #[Info(id: 0x2E5D, name: 'OBLIQUE HYPHEN', block: Block::Supplemental_Punctuation, category: Cat::Dash_Punctuation)]
     case OBLIQUE_HYPHEN = "\u{2E5D}";
+
+    #[Info(id: 0x2E60, name: 'WIGGLY EXCLAMATION MARK', block: Block::Supplemental_Punctuation, category: Cat::Other_Punctuation, informativeAliases: ['smile mark, mirth mark, laughter mark'])]
+    case WIGGLY_EXCLAMATION_MARK = "\u{2E60}";
+
+    #[Info(id: 0x2E61, name: 'INVERTED WIGGLY EXCLAMATION MARK', block: Block::Supplemental_Punctuation, category: Cat::Other_Punctuation)]
+    case INVERTED_WIGGLY_EXCLAMATION_MARK = "\u{2E61}";
+
+    #[Info(id: 0x2E62, name: 'LEFT PARENTHESIS WITH MIDDLE RING', block: Block::Supplemental_Punctuation, category: Cat::Open_Punctuation)]
+    case LEFT_PARENTHESIS_WITH_MIDDLE_RING = "\u{2E62}";
+
+    #[Info(id: 0x2E63, name: 'RIGHT PARENTHESIS WITH MIDDLE RING', block: Block::Supplemental_Punctuation, category: Cat::Close_Punctuation)]
+    case RIGHT_PARENTHESIS_WITH_MIDDLE_RING = "\u{2E63}";
 
     // Block: CJK Radicals Supplement
 
@@ -42948,7 +43023,7 @@ enum Codepoint: string
     #[Info(id: 0xA779, name: 'LATIN CAPITAL LETTER INSULAR D', block: Block::Latin_ExtendedD, category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_INSULAR_D = "\u{A779}";
 
-    #[Info(id: 0xA77A, name: 'LATIN SMALL LETTER INSULAR D', block: Block::Latin_ExtendedD, category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA77A, name: 'LATIN SMALL LETTER INSULAR D', block: Block::Latin_ExtendedD, category: Cat::Lowercase_Letter, informativeAliases: ['d rotunda'])]
     case LATIN_SMALL_LETTER_INSULAR_D = "\u{A77A}";
 
     #[Info(id: 0xA77B, name: 'LATIN CAPITAL LETTER INSULAR F', block: Block::Latin_ExtendedD, category: Cat::Uppercase_Letter)]
@@ -43244,6 +43319,12 @@ enum Codepoint: string
 
     #[Info(id: 0xA7DC, name: 'LATIN CAPITAL LETTER LAMBDA WITH STROKE', block: Block::Latin_ExtendedD, category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_LAMBDA_WITH_STROKE = "\u{A7DC}";
+
+    #[Info(id: 0xA7DD, name: 'LATIN CAPITAL LETTER CLOSED OMEGA', block: Block::Latin_ExtendedD, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_CLOSED_OMEGA = "\u{A7DD}";
+
+    #[Info(id: 0xA7E2, name: 'LATIN CAPITAL LETTER R WITH LONG LEG', block: Block::Latin_ExtendedD, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_R_WITH_LONG_LEG = "\u{A7E2}";
 
     #[Info(id: 0xA7F1, name: 'MODIFIER LETTER CAPITAL S', block: Block::Latin_ExtendedD, category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_CAPITAL_S = "\u{A7F1}";
@@ -45610,6 +45691,12 @@ enum Codepoint: string
 
     #[Info(id: 0xAB6B, name: 'MODIFIER LETTER RIGHT TACK', block: Block::Latin_ExtendedE, category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_RIGHT_TACK = "\u{AB6B}";
+
+    #[Info(id: 0xAB6C, name: 'LATIN CAPITAL LETTER SCRIPT R', block: Block::Latin_ExtendedE, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_SCRIPT_R = "\u{AB6C}";
+
+    #[Info(id: 0xAB6D, name: 'LATIN CAPITAL LETTER SCRIPT R WITH RING', block: Block::Latin_ExtendedE, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_SCRIPT_R_WITH_RING = "\u{AB6D}";
 
     // Block: Cherokee Supplement
 
@@ -55968,6 +56055,21 @@ enum Codepoint: string
     #[Info(id: 0x107BA, name: 'MODIFIER LETTER SMALL S WITH CURL', block: Block::Latin_ExtendedF, category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_SMALL_S_WITH_CURL = "\u{107BA}";
 
+    #[Info(id: 0x107BB, name: 'MODIFIER LETTER SMALL TURNED T', block: Block::Latin_ExtendedF, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_T = "\u{107BB}";
+
+    #[Info(id: 0x107BC, name: 'MODIFIER LETTER INVERTED GLOTTAL STOP', block: Block::Latin_ExtendedF, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_INVERTED_GLOTTAL_STOP = "\u{107BC}";
+
+    #[Info(id: 0x107BD, name: 'MODIFIER LETTER STRETCHED C', block: Block::Latin_ExtendedF, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_STRETCHED_C = "\u{107BD}";
+
+    #[Info(id: 0x107BE, name: 'MODIFIER LETTER SMALL TURNED K', block: Block::Latin_ExtendedF, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_K = "\u{107BE}";
+
+    #[Info(id: 0x107BF, name: 'MODIFIER LETTER SMALL ESH WITH DOUBLE BAR', block: Block::Latin_ExtendedF, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_ESH_WITH_DOUBLE_BAR = "\u{107BF}";
+
     // Block: Cypriot Syllabary
 
     #[Info(id: 0x10800, name: 'CYPRIOT SYLLABLE A', block: Block::Cypriot_Syllabary, category: Cat::Other_Letter)]
@@ -59324,6 +59426,27 @@ enum Codepoint: string
     #[Info(id: 0x10EC7, name: 'ARABIC LETTER YEH WITH FOUR DOTS BELOW', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
     case ARABIC_LETTER_YEH_WITH_FOUR_DOTS_BELOW = "\u{10EC7}";
 
+    #[Info(id: 0x10EC9, name: 'ARABIC SMALL BASELINE FATHA', block: Block::Arabic_ExtendedC, category: Cat::Modifier_Symbol)]
+    case ARABIC_SMALL_BASELINE_FATHA = "\u{10EC9}";
+
+    #[Info(id: 0x10ECA, name: 'ARABIC SMALL BASELINE DOTLESS HEAD OF KHAH', block: Block::Arabic_ExtendedC, category: Cat::Modifier_Symbol)]
+    case ARABIC_SMALL_BASELINE_DOTLESS_HEAD_OF_KHAH = "\u{10ECA}";
+
+    #[Info(id: 0x10ECB, name: 'ARABIC NORTHEAST POINTING ARROWHEAD ABOVE', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_NORTHEAST_POINTING_ARROWHEAD_ABOVE = "\u{10ECB}";
+
+    #[Info(id: 0x10ECC, name: 'ARABIC NORTHEAST POINTING ARROWHEAD BELOW', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_NORTHEAST_POINTING_ARROWHEAD_BELOW = "\u{10ECC}";
+
+    #[Info(id: 0x10ECD, name: 'ARABIC SOUTHWEST POINTING ARROWHEAD BELOW', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_SOUTHWEST_POINTING_ARROWHEAD_BELOW = "\u{10ECD}";
+
+    #[Info(id: 0x10ECE, name: 'ARABIC SMALL CIRCLE ABOVE', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_CIRCLE_ABOVE = "\u{10ECE}";
+
+    #[Info(id: 0x10ECF, name: 'ARABIC LARGE CIRCLE ABOVE', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_LARGE_CIRCLE_ABOVE = "\u{10ECF}";
+
     #[Info(id: 0x10ED0, name: 'ARABIC BIBLICAL END OF VERSE', block: Block::Arabic_ExtendedC, category: Cat::Other_Punctuation)]
     case ARABIC_BIBLICAL_END_OF_VERSE = "\u{10ED0}";
 
@@ -59350,6 +59473,102 @@ enum Codepoint: string
 
     #[Info(id: 0x10ED8, name: 'ARABIC LIGATURE NAWWARA ALLAAHU MARQADAH', block: Block::Arabic_ExtendedC, category: Cat::Other_Symbol)]
     case ARABIC_LIGATURE_NAWWARA_ALLAAHU_MARQADAH = "\u{10ED8}";
+
+    #[Info(id: 0x10ED9, name: 'ARABIC CROWN LETTER BEH', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_BEH = "\u{10ED9}";
+
+    #[Info(id: 0x10EDA, name: 'ARABIC CROWN LETTER PEH', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_PEH = "\u{10EDA}";
+
+    #[Info(id: 0x10EDB, name: 'ARABIC CROWN LETTER TEH', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_TEH = "\u{10EDB}";
+
+    #[Info(id: 0x10EDC, name: 'ARABIC CROWN LETTER THEH', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_THEH = "\u{10EDC}";
+
+    #[Info(id: 0x10EDD, name: 'ARABIC CROWN LETTER JEEM', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_JEEM = "\u{10EDD}";
+
+    #[Info(id: 0x10EDE, name: 'ARABIC CROWN LETTER HAH', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_HAH = "\u{10EDE}";
+
+    #[Info(id: 0x10EDF, name: 'ARABIC CROWN LETTER KHAH', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_KHAH = "\u{10EDF}";
+
+    #[Info(id: 0x10EE0, name: 'ARABIC CROWN LETTER SEEN', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_SEEN = "\u{10EE0}";
+
+    #[Info(id: 0x10EE1, name: 'ARABIC CROWN LETTER SHEEN', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_SHEEN = "\u{10EE1}";
+
+    #[Info(id: 0x10EE2, name: 'ARABIC CROWN LETTER SAD', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_SAD = "\u{10EE2}";
+
+    #[Info(id: 0x10EE3, name: 'ARABIC CROWN LETTER DAD', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_DAD = "\u{10EE3}";
+
+    #[Info(id: 0x10EE4, name: 'ARABIC CROWN LETTER TAH', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_TAH = "\u{10EE4}";
+
+    #[Info(id: 0x10EE5, name: 'ARABIC CROWN LETTER ZAH', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_ZAH = "\u{10EE5}";
+
+    #[Info(id: 0x10EE6, name: 'ARABIC CROWN LETTER AIN', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_AIN = "\u{10EE6}";
+
+    #[Info(id: 0x10EE7, name: 'ARABIC CROWN LETTER GHAIN', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_GHAIN = "\u{10EE7}";
+
+    #[Info(id: 0x10EE8, name: 'ARABIC CROWN LETTER FEH', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_FEH = "\u{10EE8}";
+
+    #[Info(id: 0x10EE9, name: 'ARABIC CROWN LETTER QAF', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_QAF = "\u{10EE9}";
+
+    #[Info(id: 0x10EEA, name: 'ARABIC CROWN LETTER KAF', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_KAF = "\u{10EEA}";
+
+    #[Info(id: 0x10EEB, name: 'ARABIC CROWN LETTER MEEM', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_MEEM = "\u{10EEB}";
+
+    #[Info(id: 0x10EEC, name: 'ARABIC CROWN LETTER NOON', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_NOON = "\u{10EEC}";
+
+    #[Info(id: 0x10EED, name: 'ARABIC CROWN LETTER HEH', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_HEH = "\u{10EED}";
+
+    #[Info(id: 0x10EEE, name: 'ARABIC CROWN LETTER YEH', block: Block::Arabic_ExtendedC, category: Cat::Other_Letter)]
+    case ARABIC_CROWN_LETTER_YEH = "\u{10EEE}";
+
+    #[Info(id: 0x10EF0, name: 'ARABIC SMALL LOW UPRIGHT RECTANGULAR ZERO', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_LOW_UPRIGHT_RECTANGULAR_ZERO = "\u{10EF0}";
+
+    #[Info(id: 0x10EF1, name: 'ARABIC SQUARE BELOW', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_SQUARE_BELOW = "\u{10EF1}";
+
+    #[Info(id: 0x10EF2, name: 'ARABIC FILLED SQUARE BELOW', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_FILLED_SQUARE_BELOW = "\u{10EF2}";
+
+    #[Info(id: 0x10EF3, name: 'ARABIC SMALL HIGH NOON WITH FATHA', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_HIGH_NOON_WITH_FATHA = "\u{10EF3}";
+
+    #[Info(id: 0x10EF4, name: 'ARABIC SMALL LOW NOON WITH FATHA', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_LOW_NOON_WITH_FATHA = "\u{10EF4}";
+
+    #[Info(id: 0x10EF5, name: 'ARABIC SMALL HIGH NOON WITH DAMMA', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_HIGH_NOON_WITH_DAMMA = "\u{10EF5}";
+
+    #[Info(id: 0x10EF6, name: 'ARABIC SMALL LOW NOON WITH DAMMA', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_LOW_NOON_WITH_DAMMA = "\u{10EF6}";
+
+    #[Info(id: 0x10EF7, name: 'ARABIC SMALL HIGH HEH INITIAL FORM', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_HIGH_HEH_INITIAL_FORM = "\u{10EF7}";
+
+    #[Info(id: 0x10EF8, name: 'ARABIC SMALL HIGH WORD KABBIR', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_SMALL_HIGH_WORD_KABBIR = "\u{10EF8}";
+
+    #[Info(id: 0x10EF9, name: 'ARABIC MARK CROWN', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
+    case ARABIC_MARK_CROWN = "\u{10EF9}";
 
     #[Info(id: 0x10EFA, name: 'ARABIC DOUBLE VERTICAL BAR BELOW', block: Block::Arabic_ExtendedC, category: Cat::Nonspacing_Mark)]
     case ARABIC_DOUBLE_VERTICAL_BAR_BELOW = "\u{10EFA}";
@@ -65365,6 +65584,9 @@ enum Codepoint: string
     #[Info(id: 0x11B09, name: 'DEVANAGARI SIGN MINDU', block: Block::Devanagari_ExtendedA, category: Cat::Other_Punctuation)]
     case DEVANAGARI_SIGN_MINDU = "\u{11B09}";
 
+    #[Info(id: 0x11B0A, name: 'DEVANAGARI LETTER ALTERNATE DDDA', block: Block::Devanagari_ExtendedA, category: Cat::Other_Letter)]
+    case DEVANAGARI_LETTER_ALTERNATE_DDDA = "\u{11B0A}";
+
     // Block: Sharada Supplement
 
     #[Info(id: 0x11B60, name: 'SHARADA VOWEL SIGN OE', block: Block::Sharada_Supplement, category: Cat::Nonspacing_Mark)]
@@ -66605,6 +66827,14 @@ enum Codepoint: string
 
     #[Info(id: 0x11DE9, name: 'TOLONG SIKI DIGIT NINE', block: Block::Tolong_Siki, category: Cat::Decimal_Number)]
     case TOLONG_SIKI_DIGIT_NINE = "\u{11DE9}";
+
+    // Block: Bengali Supplement
+
+    #[Info(id: 0x11DF0, name: 'BENGALI SIGN COMBINING ANUSVARA ABOVE', block: Block::Bengali_Supplement, category: Cat::Nonspacing_Mark)]
+    case BENGALI_SIGN_COMBINING_ANUSVARA_ABOVE = "\u{11DF0}";
+
+    #[Info(id: 0x11DF1, name: 'BENGALI LETTER ALTERNATE BARGIYA BA', block: Block::Bengali_Supplement, category: Cat::Other_Letter)]
+    case BENGALI_LETTER_ALTERNATE_BARGIYA_BA = "\u{11DF1}";
 
     // Block: Makasar
 
@@ -70209,6 +70439,9 @@ enum Codepoint: string
     #[Info(id: 0x1246E, name: 'CUNEIFORM NUMERIC SIGN NINE U VARIANT FORM', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
     case CUNEIFORM_NUMERIC_SIGN_NINE_U_VARIANT_FORM = "\u{1246E}";
 
+    #[Info(id: 0x1246F, name: 'CUNEIFORM NUMERIC SIGN SEVEN ASH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_ASH_TENU = "\u{1246F}";
+
     #[Info(id: 0x12470, name: 'CUNEIFORM PUNCTUATION SIGN OLD ASSYRIAN WORD DIVIDER', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Other_Punctuation)]
     case CUNEIFORM_PUNCTUATION_SIGN_OLD_ASSYRIAN_WORD_DIVIDER = "\u{12470}";
 
@@ -70223,6 +70456,39 @@ enum Codepoint: string
 
     #[Info(id: 0x12474, name: 'CUNEIFORM PUNCTUATION SIGN DIAGONAL QUADCOLON', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Other_Punctuation)]
     case CUNEIFORM_PUNCTUATION_SIGN_DIAGONAL_QUADCOLON = "\u{12474}";
+
+    #[Info(id: 0x12475, name: 'CUNEIFORM NUMERIC SIGN EIGHT ASH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_ASH_TENU = "\u{12475}";
+
+    #[Info(id: 0x12476, name: 'CUNEIFORM NUMERIC SIGN NINE ASH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_ASH_TENU = "\u{12476}";
+
+    #[Info(id: 0x12477, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES ONE DISH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_ONE_DISH_TENU = "\u{12477}";
+
+    #[Info(id: 0x12478, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES TWO DISH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_TWO_DISH_TENU = "\u{12478}";
+
+    #[Info(id: 0x12479, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES THREE DISH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_THREE_DISH_TENU = "\u{12479}";
+
+    #[Info(id: 0x1247A, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES FOUR DISH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_FOUR_DISH_TENU = "\u{1247A}";
+
+    #[Info(id: 0x1247B, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES FIVE DISH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_FIVE_DISH_TENU = "\u{1247B}";
+
+    #[Info(id: 0x1247C, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES SIX DISH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_SIX_DISH_TENU = "\u{1247C}";
+
+    #[Info(id: 0x1247D, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES SEVEN DISH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_SEVEN_DISH_TENU = "\u{1247D}";
+
+    #[Info(id: 0x1247E, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES EIGHT DISH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_EIGHT_DISH_TENU = "\u{1247E}";
+
+    #[Info(id: 0x1247F, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES NINE DISH TENU', block: Block::Cuneiform_Numbers_and_Punctuation, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_NINE_DISH_TENU = "\u{1247F}";
 
     // Block: Early Dynastic Cuneiform
 
@@ -70813,6 +71079,941 @@ enum Codepoint: string
 
     #[Info(id: 0x12543, name: 'CUNEIFORM SIGN ZU5 TIMES THREE DISH TENU', block: Block::Early_Dynastic_Cuneiform, category: Cat::Other_Letter)]
     case CUNEIFORM_SIGN_ZU5_TIMES_THREE_DISH_TENU = "\u{12543}";
+
+    // Block: Archaic Cuneiform Numerals
+
+    #[Info(id: 0x12550, name: 'CUNEIFORM NUMERIC SIGN ONE N01', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 aš curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N01 = "\u{12550}";
+
+    #[Info(id: 0x12551, name: 'CUNEIFORM NUMERIC SIGN TWO N01', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N01 = "\u{12551}";
+
+    #[Info(id: 0x12552, name: 'CUNEIFORM NUMERIC SIGN THREE N01', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N01 = "\u{12552}";
+
+    #[Info(id: 0x12553, name: 'CUNEIFORM NUMERIC SIGN FOUR N01', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N01 = "\u{12553}";
+
+    #[Info(id: 0x12554, name: 'CUNEIFORM NUMERIC SIGN FIVE N01', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N01 = "\u{12554}";
+
+    #[Info(id: 0x12555, name: 'CUNEIFORM NUMERIC SIGN SIX N01', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N01 = "\u{12555}";
+
+    #[Info(id: 0x12556, name: 'CUNEIFORM NUMERIC SIGN SEVEN N01', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N01 = "\u{12556}";
+
+    #[Info(id: 0x12557, name: 'CUNEIFORM NUMERIC SIGN EIGHT N01', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N01 = "\u{12557}";
+
+    #[Info(id: 0x12558, name: 'CUNEIFORM NUMERIC SIGN NINE N01', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N01 = "\u{12558}";
+
+    #[Info(id: 0x12559, name: 'CUNEIFORM NUMERIC SIGN ONE N08', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 diš curved', '1/2 iku curved', '1 bariga curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N08 = "\u{12559}";
+
+    #[Info(id: 0x1255A, name: 'CUNEIFORM NUMERIC SIGN TWO N08', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['2 bariga curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N08 = "\u{1255A}";
+
+    #[Info(id: 0x1255B, name: 'CUNEIFORM NUMERIC SIGN THREE N08', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['3 bariga curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N08 = "\u{1255B}";
+
+    #[Info(id: 0x1255C, name: 'CUNEIFORM NUMERIC SIGN FOUR N08', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N08 = "\u{1255C}";
+
+    #[Info(id: 0x1255D, name: 'CUNEIFORM NUMERIC SIGN FIVE N08', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N08 = "\u{1255D}";
+
+    #[Info(id: 0x1255E, name: 'CUNEIFORM NUMERIC SIGN SIX N08', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N08 = "\u{1255E}";
+
+    #[Info(id: 0x1255F, name: 'CUNEIFORM NUMERIC SIGN SEVEN N08', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N08 = "\u{1255F}";
+
+    #[Info(id: 0x12560, name: 'CUNEIFORM NUMERIC SIGN EIGHT N08', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N08 = "\u{12560}";
+
+    #[Info(id: 0x12561, name: 'CUNEIFORM NUMERIC SIGN NINE N08', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N08 = "\u{12561}";
+
+    #[Info(id: 0x12562, name: 'CUNEIFORM NUMERIC SIGN ONE N14', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 u curved', '1 bur₃ curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N14 = "\u{12562}";
+
+    #[Info(id: 0x12563, name: 'CUNEIFORM NUMERIC SIGN TWO N14', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N14 = "\u{12563}";
+
+    #[Info(id: 0x12564, name: 'CUNEIFORM NUMERIC SIGN THREE N14', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N14 = "\u{12564}";
+
+    #[Info(id: 0x12565, name: 'CUNEIFORM NUMERIC SIGN FOUR N14', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N14 = "\u{12565}";
+
+    #[Info(id: 0x12566, name: 'CUNEIFORM NUMERIC SIGN FIVE N14', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N14 = "\u{12566}";
+
+    #[Info(id: 0x12567, name: 'CUNEIFORM NUMERIC SIGN SIX N14', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N14 = "\u{12567}";
+
+    #[Info(id: 0x12568, name: 'CUNEIFORM NUMERIC SIGN SEVEN N14', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N14 = "\u{12568}";
+
+    #[Info(id: 0x12569, name: 'CUNEIFORM NUMERIC SIGN EIGHT N14', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N14 = "\u{12569}";
+
+    #[Info(id: 0x1256A, name: 'CUNEIFORM NUMERIC SIGN NINE N14', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N14 = "\u{1256A}";
+
+    #[Info(id: 0x1256B, name: 'CUNEIFORM NUMERIC SIGN ONE N34', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 ŋeš₂ curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N34 = "\u{1256B}";
+
+    #[Info(id: 0x1256C, name: 'CUNEIFORM NUMERIC SIGN TWO N34', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N34 = "\u{1256C}";
+
+    #[Info(id: 0x1256D, name: 'CUNEIFORM NUMERIC SIGN THREE N34', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N34 = "\u{1256D}";
+
+    #[Info(id: 0x1256E, name: 'CUNEIFORM NUMERIC SIGN FOUR N34', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N34 = "\u{1256E}";
+
+    #[Info(id: 0x1256F, name: 'CUNEIFORM NUMERIC SIGN FIVE N34', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N34 = "\u{1256F}";
+
+    #[Info(id: 0x12570, name: 'CUNEIFORM NUMERIC SIGN SIX N34', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N34 = "\u{12570}";
+
+    #[Info(id: 0x12571, name: 'CUNEIFORM NUMERIC SIGN SEVEN N34', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N34 = "\u{12571}";
+
+    #[Info(id: 0x12572, name: 'CUNEIFORM NUMERIC SIGN EIGHT N34', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N34 = "\u{12572}";
+
+    #[Info(id: 0x12573, name: 'CUNEIFORM NUMERIC SIGN NINE N34', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N34 = "\u{12573}";
+
+    #[Info(id: 0x12574, name: 'CUNEIFORM NUMERIC SIGN ONE N48', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 ŋešʾu curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N48 = "\u{12574}";
+
+    #[Info(id: 0x12575, name: 'CUNEIFORM NUMERIC SIGN TWO N48', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N48 = "\u{12575}";
+
+    #[Info(id: 0x12576, name: 'CUNEIFORM NUMERIC SIGN THREE N48', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N48 = "\u{12576}";
+
+    #[Info(id: 0x12577, name: 'CUNEIFORM NUMERIC SIGN FOUR N48', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N48 = "\u{12577}";
+
+    #[Info(id: 0x12578, name: 'CUNEIFORM NUMERIC SIGN FIVE N48', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N48 = "\u{12578}";
+
+    #[Info(id: 0x12579, name: 'CUNEIFORM NUMERIC SIGN ONE N45', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 šar₂ curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N45 = "\u{12579}";
+
+    #[Info(id: 0x1257A, name: 'CUNEIFORM NUMERIC SIGN TWO N45', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N45 = "\u{1257A}";
+
+    #[Info(id: 0x1257B, name: 'CUNEIFORM NUMERIC SIGN THREE N45', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N45 = "\u{1257B}";
+
+    #[Info(id: 0x1257C, name: 'CUNEIFORM NUMERIC SIGN FOUR N45', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N45 = "\u{1257C}";
+
+    #[Info(id: 0x1257D, name: 'CUNEIFORM NUMERIC SIGN FIVE N45', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N45 = "\u{1257D}";
+
+    #[Info(id: 0x1257E, name: 'CUNEIFORM NUMERIC SIGN SIX N45', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N45 = "\u{1257E}";
+
+    #[Info(id: 0x1257F, name: 'CUNEIFORM NUMERIC SIGN SEVEN N45', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N45 = "\u{1257F}";
+
+    #[Info(id: 0x12580, name: 'CUNEIFORM NUMERIC SIGN EIGHT N45', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N45 = "\u{12580}";
+
+    #[Info(id: 0x12581, name: 'CUNEIFORM NUMERIC SIGN NINE N45', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N45 = "\u{12581}";
+
+    #[Info(id: 0x12582, name: 'CUNEIFORM NUMERIC SIGN ONE N50', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 šarʾu curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N50 = "\u{12582}";
+
+    #[Info(id: 0x12583, name: 'CUNEIFORM NUMERIC SIGN TWO N50', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N50 = "\u{12583}";
+
+    #[Info(id: 0x12584, name: 'CUNEIFORM NUMERIC SIGN THREE N50', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N50 = "\u{12584}";
+
+    #[Info(id: 0x12585, name: 'CUNEIFORM NUMERIC SIGN FOUR N50', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N50 = "\u{12585}";
+
+    #[Info(id: 0x12586, name: 'CUNEIFORM NUMERIC SIGN FIVE N50', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N50 = "\u{12586}";
+
+    #[Info(id: 0x12587, name: 'CUNEIFORM NUMERIC SIGN ONE EIGHTH IKU CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_EIGHTH_IKU_CURVED = "\u{12587}";
+
+    #[Info(id: 0x12588, name: 'CUNEIFORM NUMERIC SIGN ONE EIGHTH IKU CURVED VARIANT FORM', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_EIGHTH_IKU_CURVED_VARIANT_FORM = "\u{12588}";
+
+    #[Info(id: 0x12589, name: 'CUNEIFORM NUMERIC SIGN ONE N01 REVERSED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1/4 iku curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N01_REVERSED = "\u{12589}";
+
+    #[Info(id: 0x1258A, name: 'CUNEIFORM NUMERIC SIGN ONE QUARTER IKU CURVED VARIANT FORM', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_QUARTER_IKU_CURVED_VARIANT_FORM = "\u{1258A}";
+
+    #[Info(id: 0x1258B, name: 'CUNEIFORM NUMERIC SIGN ONE HALF IKU CURVED VARIANT FORM', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_HALF_IKU_CURVED_VARIANT_FORM = "\u{1258B}";
+
+    #[Info(id: 0x1258C, name: 'CUNEIFORM NUMERIC SIGN ONE N22', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 eše₃ curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N22 = "\u{1258C}";
+
+    #[Info(id: 0x1258D, name: 'CUNEIFORM NUMERIC SIGN TWO N22', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N22 = "\u{1258D}";
+
+    #[Info(id: 0x1258E, name: 'CUNEIFORM NUMERIC SIGN ONE BURU CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_BURU_CURVED = "\u{1258E}";
+
+    #[Info(id: 0x1258F, name: 'CUNEIFORM NUMERIC SIGN TWO BURU CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_BURU_CURVED = "\u{1258F}";
+
+    #[Info(id: 0x12590, name: 'CUNEIFORM NUMERIC SIGN THREE BURU CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_BURU_CURVED = "\u{12590}";
+
+    #[Info(id: 0x12591, name: 'CUNEIFORM NUMERIC SIGN FOUR BURU CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_BURU_CURVED = "\u{12591}";
+
+    #[Info(id: 0x12592, name: 'CUNEIFORM NUMERIC SIGN FIVE BURU CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_BURU_CURVED = "\u{12592}";
+
+    #[Info(id: 0x12593, name: 'CUNEIFORM NUMERIC SIGN ONE BAN2 CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1/2 aš curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_BAN2_CURVED = "\u{12593}";
+
+    #[Info(id: 0x12594, name: 'CUNEIFORM NUMERIC SIGN TWO BAN2 CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_BAN2_CURVED = "\u{12594}";
+
+    #[Info(id: 0x12595, name: 'CUNEIFORM NUMERIC SIGN THREE BAN2 CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_BAN2_CURVED = "\u{12595}";
+
+    #[Info(id: 0x12596, name: 'CUNEIFORM NUMERIC SIGN FOUR BAN2 CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_BAN2_CURVED = "\u{12596}";
+
+    #[Info(id: 0x12597, name: 'CUNEIFORM NUMERIC SIGN FIVE BAN2 CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_BAN2_CURVED = "\u{12597}";
+
+    #[Info(id: 0x12598, name: 'CUNEIFORM NUMERIC SIGN NINDA2 TIMES SHE PLUS ONE ASH CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1/3 aš curved variant form'])]
+    case CUNEIFORM_NUMERIC_SIGN_NINDA2_TIMES_SHE_PLUS_ONE_ASH_CURVED = "\u{12598}";
+
+    #[Info(id: 0x12599, name: 'CUNEIFORM NUMERIC SIGN NINDA2 TIMES SHE PLUS TWO ASH CURVED', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['2/3 aš curved variant form'])]
+    case CUNEIFORM_NUMERIC_SIGN_NINDA2_TIMES_SHE_PLUS_TWO_ASH_CURVED = "\u{12599}";
+
+    #[Info(id: 0x1259A, name: 'CUNEIFORM NUMERIC SIGN ONE N51', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 ŋeš₂ curved doubled, 1 ŋešmin curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N51 = "\u{1259A}";
+
+    #[Info(id: 0x1259B, name: 'CUNEIFORM NUMERIC SIGN TWO N51', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N51 = "\u{1259B}";
+
+    #[Info(id: 0x1259C, name: 'CUNEIFORM NUMERIC SIGN THREE N51', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N51 = "\u{1259C}";
+
+    #[Info(id: 0x1259D, name: 'CUNEIFORM NUMERIC SIGN FOUR N51', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N51 = "\u{1259D}";
+
+    #[Info(id: 0x1259E, name: 'CUNEIFORM NUMERIC SIGN FIVE N51', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N51 = "\u{1259E}";
+
+    #[Info(id: 0x1259F, name: 'CUNEIFORM NUMERIC SIGN SIX N51', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N51 = "\u{1259F}";
+
+    #[Info(id: 0x125A0, name: 'CUNEIFORM NUMERIC SIGN SEVEN N51', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N51 = "\u{125A0}";
+
+    #[Info(id: 0x125A1, name: 'CUNEIFORM NUMERIC SIGN EIGHT N51', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N51 = "\u{125A1}";
+
+    #[Info(id: 0x125A2, name: 'CUNEIFORM NUMERIC SIGN NINE N51', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N51 = "\u{125A2}";
+
+    #[Info(id: 0x125A3, name: 'CUNEIFORM NUMERIC SIGN ONE N54', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 ŋešʾu curved doubled, 1 ŋešminʾu curved'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N54 = "\u{125A3}";
+
+    #[Info(id: 0x125A4, name: 'CUNEIFORM NUMERIC SIGN TWO N54', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N54 = "\u{125A4}";
+
+    #[Info(id: 0x125A5, name: 'CUNEIFORM NUMERIC SIGN THREE N54', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N54 = "\u{125A5}";
+
+    #[Info(id: 0x125A6, name: 'CUNEIFORM NUMERIC SIGN FOUR N54', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N54 = "\u{125A6}";
+
+    #[Info(id: 0x125A7, name: 'CUNEIFORM NUMERIC SIGN FIVE N54', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N54 = "\u{125A7}";
+
+    #[Info(id: 0x125A8, name: 'CUNEIFORM NUMERIC SIGN ONE N56', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N56 = "\u{125A8}";
+
+    #[Info(id: 0x125A9, name: 'CUNEIFORM NUMERIC SIGN TWO N56', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N56 = "\u{125A9}";
+
+    #[Info(id: 0x125AA, name: 'CUNEIFORM NUMERIC SIGN ONE N24', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N24 = "\u{125AA}";
+
+    #[Info(id: 0x125AB, name: 'CUNEIFORM NUMERIC SIGN ONE N26', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N26 = "\u{125AB}";
+
+    #[Info(id: 0x125AC, name: 'CUNEIFORM NUMERIC SIGN ONE N28', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N28 = "\u{125AC}";
+
+    #[Info(id: 0x125AD, name: 'CUNEIFORM NUMERIC SIGN ONE N29A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N29A = "\u{125AD}";
+
+    #[Info(id: 0x125AE, name: 'CUNEIFORM NUMERIC SIGN ONE N29B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N29B = "\u{125AE}";
+
+    #[Info(id: 0x125AF, name: 'CUNEIFORM NUMERIC SIGN ONE N30A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N30A = "\u{125AF}";
+
+    #[Info(id: 0x125B0, name: 'CUNEIFORM NUMERIC SIGN ONE N30C', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N30C = "\u{125B0}";
+
+    #[Info(id: 0x125B1, name: 'CUNEIFORM NUMERIC SIGN ONE N30D', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N30D = "\u{125B1}";
+
+    #[Info(id: 0x125B2, name: 'CUNEIFORM NUMERIC SIGN ONE N30E', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N30E = "\u{125B2}";
+
+    #[Info(id: 0x125B3, name: 'CUNEIFORM NUMERIC SIGN ONE N31', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N31 = "\u{125B3}";
+
+    #[Info(id: 0x125B4, name: 'CUNEIFORM NUMERIC SIGN ONE N32', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N32 = "\u{125B4}";
+
+    #[Info(id: 0x125B5, name: 'CUNEIFORM NUMERIC SIGN ONE N33', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N33 = "\u{125B5}";
+
+    #[Info(id: 0x125B6, name: 'CUNEIFORM NUMERIC SIGN ONE N39A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N39A = "\u{125B6}";
+
+    #[Info(id: 0x125B7, name: 'CUNEIFORM NUMERIC SIGN TWO N39A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N39A = "\u{125B7}";
+
+    #[Info(id: 0x125B8, name: 'CUNEIFORM NUMERIC SIGN THREE N39A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N39A = "\u{125B8}";
+
+    #[Info(id: 0x125B9, name: 'CUNEIFORM NUMERIC SIGN FOUR N39A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N39A = "\u{125B9}";
+
+    #[Info(id: 0x125BA, name: 'CUNEIFORM NUMERIC SIGN ONE N39B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N39B = "\u{125BA}";
+
+    #[Info(id: 0x125BB, name: 'CUNEIFORM NUMERIC SIGN TWO N39B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N39B = "\u{125BB}";
+
+    #[Info(id: 0x125BC, name: 'CUNEIFORM NUMERIC SIGN THREE N39B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N39B = "\u{125BC}";
+
+    #[Info(id: 0x125BD, name: 'CUNEIFORM NUMERIC SIGN FOUR N39B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N39B = "\u{125BD}";
+
+    #[Info(id: 0x125BE, name: 'CUNEIFORM NUMERIC SIGN ONE N02', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N02 = "\u{125BE}";
+
+    #[Info(id: 0x125BF, name: 'CUNEIFORM NUMERIC SIGN TWO N02', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N02 = "\u{125BF}";
+
+    #[Info(id: 0x125C0, name: 'CUNEIFORM NUMERIC SIGN THREE N02', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N02 = "\u{125C0}";
+
+    #[Info(id: 0x125C1, name: 'CUNEIFORM NUMERIC SIGN FOUR N02', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N02 = "\u{125C1}";
+
+    #[Info(id: 0x125C2, name: 'CUNEIFORM NUMERIC SIGN FIVE N02', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N02 = "\u{125C2}";
+
+    #[Info(id: 0x125C3, name: 'CUNEIFORM NUMERIC SIGN SIX N02', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N02 = "\u{125C3}";
+
+    #[Info(id: 0x125C4, name: 'CUNEIFORM NUMERIC SIGN SEVEN N02', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N02 = "\u{125C4}";
+
+    #[Info(id: 0x125C5, name: 'CUNEIFORM NUMERIC SIGN EIGHT N02', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N02 = "\u{125C5}";
+
+    #[Info(id: 0x125C6, name: 'CUNEIFORM NUMERIC SIGN NINE N02', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N02 = "\u{125C6}";
+
+    #[Info(id: 0x125C7, name: 'CUNEIFORM NUMERIC SIGN ONE N15', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N15 = "\u{125C7}";
+
+    #[Info(id: 0x125C8, name: 'CUNEIFORM NUMERIC SIGN TWO N15', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N15 = "\u{125C8}";
+
+    #[Info(id: 0x125C9, name: 'CUNEIFORM NUMERIC SIGN THREE N15', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N15 = "\u{125C9}";
+
+    #[Info(id: 0x125CA, name: 'CUNEIFORM NUMERIC SIGN FOUR N15', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N15 = "\u{125CA}";
+
+    #[Info(id: 0x125CB, name: 'CUNEIFORM NUMERIC SIGN FIVE N15', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N15 = "\u{125CB}";
+
+    #[Info(id: 0x125CC, name: 'CUNEIFORM NUMERIC SIGN ONE N35', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N35 = "\u{125CC}";
+
+    #[Info(id: 0x125CD, name: 'CUNEIFORM NUMERIC SIGN TWO N35', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N35 = "\u{125CD}";
+
+    #[Info(id: 0x125CE, name: 'CUNEIFORM NUMERIC SIGN THREE N35', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N35 = "\u{125CE}";
+
+    #[Info(id: 0x125CF, name: 'CUNEIFORM NUMERIC SIGN FOUR N35', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N35 = "\u{125CF}";
+
+    #[Info(id: 0x125D0, name: 'CUNEIFORM NUMERIC SIGN FIVE N35', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N35 = "\u{125D0}";
+
+    #[Info(id: 0x125D1, name: 'CUNEIFORM NUMERIC SIGN ONE N06', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N06 = "\u{125D1}";
+
+    #[Info(id: 0x125D2, name: 'CUNEIFORM NUMERIC SIGN TWO N06', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N06 = "\u{125D2}";
+
+    #[Info(id: 0x125D3, name: 'CUNEIFORM NUMERIC SIGN THREE N06', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N06 = "\u{125D3}";
+
+    #[Info(id: 0x125D4, name: 'CUNEIFORM NUMERIC SIGN FOUR N06', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N06 = "\u{125D4}";
+
+    #[Info(id: 0x125D5, name: 'CUNEIFORM NUMERIC SIGN FIVE N06', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N06 = "\u{125D5}";
+
+    #[Info(id: 0x125D6, name: 'CUNEIFORM NUMERIC SIGN SIX N06', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N06 = "\u{125D6}";
+
+    #[Info(id: 0x125D7, name: 'CUNEIFORM NUMERIC SIGN SEVEN N06', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N06 = "\u{125D7}";
+
+    #[Info(id: 0x125D8, name: 'CUNEIFORM NUMERIC SIGN EIGHT N06', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N06 = "\u{125D8}";
+
+    #[Info(id: 0x125D9, name: 'CUNEIFORM NUMERIC SIGN NINE N06', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N06 = "\u{125D9}";
+
+    #[Info(id: 0x125DA, name: 'CUNEIFORM NUMERIC SIGN ONE N21', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N21 = "\u{125DA}";
+
+    #[Info(id: 0x125DB, name: 'CUNEIFORM NUMERIC SIGN TWO N21', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N21 = "\u{125DB}";
+
+    #[Info(id: 0x125DC, name: 'CUNEIFORM NUMERIC SIGN THREE N21', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N21 = "\u{125DC}";
+
+    #[Info(id: 0x125DD, name: 'CUNEIFORM NUMERIC SIGN FOUR N21', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N21 = "\u{125DD}";
+
+    #[Info(id: 0x125DE, name: 'CUNEIFORM NUMERIC SIGN FIVE N21', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N21 = "\u{125DE}";
+
+    #[Info(id: 0x125DF, name: 'CUNEIFORM NUMERIC SIGN ONE N38', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N38 = "\u{125DF}";
+
+    #[Info(id: 0x125E0, name: 'CUNEIFORM NUMERIC SIGN ONE N52', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N52 = "\u{125E0}";
+
+    #[Info(id: 0x125E1, name: 'CUNEIFORM NUMERIC SIGN TWO N52', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N52 = "\u{125E1}";
+
+    #[Info(id: 0x125E2, name: 'CUNEIFORM NUMERIC SIGN THREE N52', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N52 = "\u{125E2}";
+
+    #[Info(id: 0x125E3, name: 'CUNEIFORM NUMERIC SIGN FOUR N52', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N52 = "\u{125E3}";
+
+    #[Info(id: 0x125E4, name: 'CUNEIFORM NUMERIC SIGN FIVE N52', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N52 = "\u{125E4}";
+
+    #[Info(id: 0x125E5, name: 'CUNEIFORM NUMERIC SIGN SIX N52', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N52 = "\u{125E5}";
+
+    #[Info(id: 0x125E6, name: 'CUNEIFORM NUMERIC SIGN SEVEN N52', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N52 = "\u{125E6}";
+
+    #[Info(id: 0x125E7, name: 'CUNEIFORM NUMERIC SIGN EIGHT N52', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N52 = "\u{125E7}";
+
+    #[Info(id: 0x125E8, name: 'CUNEIFORM NUMERIC SIGN NINE N52', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N52 = "\u{125E8}";
+
+    #[Info(id: 0x125E9, name: 'CUNEIFORM NUMERIC SIGN ONE N60', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N60 = "\u{125E9}";
+
+    #[Info(id: 0x125EA, name: 'CUNEIFORM NUMERIC SIGN ONE N24A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N24A = "\u{125EA}";
+
+    #[Info(id: 0x125EB, name: 'CUNEIFORM NUMERIC SIGN ONE N40', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N40 = "\u{125EB}";
+
+    #[Info(id: 0x125EC, name: 'CUNEIFORM NUMERIC SIGN TWO N40', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N40 = "\u{125EC}";
+
+    #[Info(id: 0x125ED, name: 'CUNEIFORM NUMERIC SIGN THREE N40', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N40 = "\u{125ED}";
+
+    #[Info(id: 0x125EE, name: 'CUNEIFORM NUMERIC SIGN FOUR N40', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N40 = "\u{125EE}";
+
+    #[Info(id: 0x125EF, name: 'CUNEIFORM NUMERIC SIGN ONE N03', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N03 = "\u{125EF}";
+
+    #[Info(id: 0x125F0, name: 'CUNEIFORM NUMERIC SIGN TWO N03', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N03 = "\u{125F0}";
+
+    #[Info(id: 0x125F1, name: 'CUNEIFORM NUMERIC SIGN THREE N03', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N03 = "\u{125F1}";
+
+    #[Info(id: 0x125F2, name: 'CUNEIFORM NUMERIC SIGN FOUR N03', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N03 = "\u{125F2}";
+
+    #[Info(id: 0x125F3, name: 'CUNEIFORM NUMERIC SIGN FIVE N03', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N03 = "\u{125F3}";
+
+    #[Info(id: 0x125F4, name: 'CUNEIFORM NUMERIC SIGN ONE N18', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N18 = "\u{125F4}";
+
+    #[Info(id: 0x125F5, name: 'CUNEIFORM NUMERIC SIGN TWO N18', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N18 = "\u{125F5}";
+
+    #[Info(id: 0x125F6, name: 'CUNEIFORM NUMERIC SIGN THREE N18', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N18 = "\u{125F6}";
+
+    #[Info(id: 0x125F7, name: 'CUNEIFORM NUMERIC SIGN FOUR N18', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N18 = "\u{125F7}";
+
+    #[Info(id: 0x125F8, name: 'CUNEIFORM NUMERIC SIGN FIVE N18', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N18 = "\u{125F8}";
+
+    #[Info(id: 0x125F9, name: 'CUNEIFORM NUMERIC SIGN SIX N18', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N18 = "\u{125F9}";
+
+    #[Info(id: 0x125FA, name: 'CUNEIFORM NUMERIC SIGN SEVEN N18', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N18 = "\u{125FA}";
+
+    #[Info(id: 0x125FB, name: 'CUNEIFORM NUMERIC SIGN EIGHT N18', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N18 = "\u{125FB}";
+
+    #[Info(id: 0x125FC, name: 'CUNEIFORM NUMERIC SIGN NINE N18', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N18 = "\u{125FC}";
+
+    #[Info(id: 0x125FD, name: 'CUNEIFORM NUMERIC SIGN ONE N45A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N45A = "\u{125FD}";
+
+    #[Info(id: 0x125FE, name: 'CUNEIFORM NUMERIC SIGN ONE N24B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N24B = "\u{125FE}";
+
+    #[Info(id: 0x125FF, name: 'CUNEIFORM NUMERIC SIGN ONE N26B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N26B = "\u{125FF}";
+
+    #[Info(id: 0x12600, name: 'CUNEIFORM NUMERIC SIGN ONE N28B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N28B = "\u{12600}";
+
+    #[Info(id: 0x12601, name: 'CUNEIFORM NUMERIC SIGN ONE N29AB', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N29AB = "\u{12601}";
+
+    #[Info(id: 0x12602, name: 'CUNEIFORM NUMERIC SIGN ONE N41', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N41 = "\u{12602}";
+
+    #[Info(id: 0x12603, name: 'CUNEIFORM NUMERIC SIGN TWO N41', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N41 = "\u{12603}";
+
+    #[Info(id: 0x12604, name: 'CUNEIFORM NUMERIC SIGN THREE N41', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N41 = "\u{12604}";
+
+    #[Info(id: 0x12605, name: 'CUNEIFORM NUMERIC SIGN FOUR N41', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N41 = "\u{12605}";
+
+    #[Info(id: 0x12606, name: 'CUNEIFORM NUMERIC SIGN ONE N04', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N04 = "\u{12606}";
+
+    #[Info(id: 0x12607, name: 'CUNEIFORM NUMERIC SIGN TWO N04', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N04 = "\u{12607}";
+
+    #[Info(id: 0x12608, name: 'CUNEIFORM NUMERIC SIGN THREE N04', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N04 = "\u{12608}";
+
+    #[Info(id: 0x12609, name: 'CUNEIFORM NUMERIC SIGN FOUR N04', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N04 = "\u{12609}";
+
+    #[Info(id: 0x1260A, name: 'CUNEIFORM NUMERIC SIGN FIVE N04', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N04 = "\u{1260A}";
+
+    #[Info(id: 0x1260B, name: 'CUNEIFORM NUMERIC SIGN ONE N19', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N19 = "\u{1260B}";
+
+    #[Info(id: 0x1260C, name: 'CUNEIFORM NUMERIC SIGN TWO N19', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N19 = "\u{1260C}";
+
+    #[Info(id: 0x1260D, name: 'CUNEIFORM NUMERIC SIGN THREE N19', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N19 = "\u{1260D}";
+
+    #[Info(id: 0x1260E, name: 'CUNEIFORM NUMERIC SIGN FOUR N19', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N19 = "\u{1260E}";
+
+    #[Info(id: 0x1260F, name: 'CUNEIFORM NUMERIC SIGN FIVE N19', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N19 = "\u{1260F}";
+
+    #[Info(id: 0x12610, name: 'CUNEIFORM NUMERIC SIGN SIX N19', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N19 = "\u{12610}";
+
+    #[Info(id: 0x12611, name: 'CUNEIFORM NUMERIC SIGN SEVEN N19', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N19 = "\u{12611}";
+
+    #[Info(id: 0x12612, name: 'CUNEIFORM NUMERIC SIGN EIGHT N19', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N19 = "\u{12612}";
+
+    #[Info(id: 0x12613, name: 'CUNEIFORM NUMERIC SIGN NINE N19', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N19 = "\u{12613}";
+
+    #[Info(id: 0x12614, name: 'CUNEIFORM NUMERIC SIGN ONE N46', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N46 = "\u{12614}";
+
+    #[Info(id: 0x12615, name: 'CUNEIFORM NUMERIC SIGN TWO N46', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N46 = "\u{12615}";
+
+    #[Info(id: 0x12616, name: 'CUNEIFORM NUMERIC SIGN ONE N36', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N36 = "\u{12616}";
+
+    #[Info(id: 0x12617, name: 'CUNEIFORM NUMERIC SIGN TWO N36', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N36 = "\u{12617}";
+
+    #[Info(id: 0x12618, name: 'CUNEIFORM NUMERIC SIGN THREE N36', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N36 = "\u{12618}";
+
+    #[Info(id: 0x12619, name: 'CUNEIFORM NUMERIC SIGN FOUR N36', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N36 = "\u{12619}";
+
+    #[Info(id: 0x1261A, name: 'CUNEIFORM NUMERIC SIGN FIVE N36', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N36 = "\u{1261A}";
+
+    #[Info(id: 0x1261B, name: 'CUNEIFORM NUMERIC SIGN SIX N36', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N36 = "\u{1261B}";
+
+    #[Info(id: 0x1261C, name: 'CUNEIFORM NUMERIC SIGN SEVEN N36', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N36 = "\u{1261C}";
+
+    #[Info(id: 0x1261D, name: 'CUNEIFORM NUMERIC SIGN EIGHT N36', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N36 = "\u{1261D}";
+
+    #[Info(id: 0x1261E, name: 'CUNEIFORM NUMERIC SIGN NINE N36', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N36 = "\u{1261E}";
+
+    #[Info(id: 0x1261F, name: 'CUNEIFORM NUMERIC SIGN ONE N49', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N49 = "\u{1261F}";
+
+    #[Info(id: 0x12620, name: 'CUNEIFORM NUMERIC SIGN TWO N49', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N49 = "\u{12620}";
+
+    #[Info(id: 0x12621, name: 'CUNEIFORM NUMERIC SIGN THREE N49', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N49 = "\u{12621}";
+
+    #[Info(id: 0x12622, name: 'CUNEIFORM NUMERIC SIGN FOUR N49', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N49 = "\u{12622}";
+
+    #[Info(id: 0x12623, name: 'CUNEIFORM NUMERIC SIGN ONE N25', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N25 = "\u{12623}";
+
+    #[Info(id: 0x12624, name: 'CUNEIFORM NUMERIC SIGN ONE N27', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N27 = "\u{12624}";
+
+    #[Info(id: 0x12625, name: 'CUNEIFORM NUMERIC SIGN ONE N28C', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N28C = "\u{12625}";
+
+    #[Info(id: 0x12626, name: 'CUNEIFORM NUMERIC SIGN ONE N29AC', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N29AC = "\u{12626}";
+
+    #[Info(id: 0x12627, name: 'CUNEIFORM NUMERIC SIGN ONE N30AC', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N30AC = "\u{12627}";
+
+    #[Info(id: 0x12628, name: 'CUNEIFORM NUMERIC SIGN ONE N30CC', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N30CC = "\u{12628}";
+
+    #[Info(id: 0x12629, name: 'CUNEIFORM NUMERIC SIGN ONE N42A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N42A = "\u{12629}";
+
+    #[Info(id: 0x1262A, name: 'CUNEIFORM NUMERIC SIGN TWO N42A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N42A = "\u{1262A}";
+
+    #[Info(id: 0x1262B, name: 'CUNEIFORM NUMERIC SIGN THREE N42A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N42A = "\u{1262B}";
+
+    #[Info(id: 0x1262C, name: 'CUNEIFORM NUMERIC SIGN FOUR N42A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N42A = "\u{1262C}";
+
+    #[Info(id: 0x1262D, name: 'CUNEIFORM NUMERIC SIGN ONE N42B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N42B = "\u{1262D}";
+
+    #[Info(id: 0x1262E, name: 'CUNEIFORM NUMERIC SIGN TWO N42B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N42B = "\u{1262E}";
+
+    #[Info(id: 0x1262F, name: 'CUNEIFORM NUMERIC SIGN THREE N42B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N42B = "\u{1262F}";
+
+    #[Info(id: 0x12630, name: 'CUNEIFORM NUMERIC SIGN FOUR N42B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N42B = "\u{12630}";
+
+    #[Info(id: 0x12631, name: 'CUNEIFORM NUMERIC SIGN ONE N05', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N05 = "\u{12631}";
+
+    #[Info(id: 0x12632, name: 'CUNEIFORM NUMERIC SIGN TWO N05', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N05 = "\u{12632}";
+
+    #[Info(id: 0x12633, name: 'CUNEIFORM NUMERIC SIGN THREE N05', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N05 = "\u{12633}";
+
+    #[Info(id: 0x12634, name: 'CUNEIFORM NUMERIC SIGN FOUR N05', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N05 = "\u{12634}";
+
+    #[Info(id: 0x12635, name: 'CUNEIFORM NUMERIC SIGN FIVE N05', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N05 = "\u{12635}";
+
+    #[Info(id: 0x12636, name: 'CUNEIFORM NUMERIC SIGN ONE N20', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N20 = "\u{12636}";
+
+    #[Info(id: 0x12637, name: 'CUNEIFORM NUMERIC SIGN TWO N20', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N20 = "\u{12637}";
+
+    #[Info(id: 0x12638, name: 'CUNEIFORM NUMERIC SIGN THREE N20', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N20 = "\u{12638}";
+
+    #[Info(id: 0x12639, name: 'CUNEIFORM NUMERIC SIGN FOUR N20', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N20 = "\u{12639}";
+
+    #[Info(id: 0x1263A, name: 'CUNEIFORM NUMERIC SIGN FIVE N20', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N20 = "\u{1263A}";
+
+    #[Info(id: 0x1263B, name: 'CUNEIFORM NUMERIC SIGN SIX N20', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N20 = "\u{1263B}";
+
+    #[Info(id: 0x1263C, name: 'CUNEIFORM NUMERIC SIGN SEVEN N20', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N20 = "\u{1263C}";
+
+    #[Info(id: 0x1263D, name: 'CUNEIFORM NUMERIC SIGN EIGHT N20', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N20 = "\u{1263D}";
+
+    #[Info(id: 0x1263E, name: 'CUNEIFORM NUMERIC SIGN NINE N20', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N20 = "\u{1263E}";
+
+    #[Info(id: 0x1263F, name: 'CUNEIFORM NUMERIC SIGN ONE N47', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N47 = "\u{1263F}";
+
+    #[Info(id: 0x12640, name: 'CUNEIFORM NUMERIC SIGN TWO N47', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N47 = "\u{12640}";
+
+    #[Info(id: 0x12641, name: 'CUNEIFORM NUMERIC SIGN ONE N37', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N37 = "\u{12641}";
+
+    #[Info(id: 0x12642, name: 'CUNEIFORM NUMERIC SIGN TWO N37', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N37 = "\u{12642}";
+
+    #[Info(id: 0x12643, name: 'CUNEIFORM NUMERIC SIGN ONE N09', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N09 = "\u{12643}";
+
+    #[Info(id: 0x12644, name: 'CUNEIFORM NUMERIC SIGN ONE N11', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N11 = "\u{12644}";
+
+    #[Info(id: 0x12645, name: 'CUNEIFORM NUMERIC SIGN ONE N12', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N12 = "\u{12645}";
+
+    #[Info(id: 0x12646, name: 'CUNEIFORM NUMERIC SIGN ONE N07A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N07A = "\u{12646}";
+
+    #[Info(id: 0x12647, name: 'CUNEIFORM NUMERIC SIGN TWO N07A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N07A = "\u{12647}";
+
+    #[Info(id: 0x12648, name: 'CUNEIFORM NUMERIC SIGN THREE N07A', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N07A = "\u{12648}";
+
+    #[Info(id: 0x12649, name: 'CUNEIFORM NUMERIC SIGN ONE N07B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N07B = "\u{12649}";
+
+    #[Info(id: 0x1264A, name: 'CUNEIFORM NUMERIC SIGN TWO N07B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N07B = "\u{1264A}";
+
+    #[Info(id: 0x1264B, name: 'CUNEIFORM NUMERIC SIGN THREE N07B', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N07B = "\u{1264B}";
+
+    #[Info(id: 0x1264C, name: 'CUNEIFORM NUMERIC SIGN ONE N01 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 aš flat'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N01_FLAT = "\u{1264C}";
+
+    #[Info(id: 0x1264D, name: 'CUNEIFORM NUMERIC SIGN TWO N01 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N01_FLAT = "\u{1264D}";
+
+    #[Info(id: 0x1264E, name: 'CUNEIFORM NUMERIC SIGN THREE N01 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N01_FLAT = "\u{1264E}";
+
+    #[Info(id: 0x1264F, name: 'CUNEIFORM NUMERIC SIGN FOUR N01 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N01_FLAT = "\u{1264F}";
+
+    #[Info(id: 0x12650, name: 'CUNEIFORM NUMERIC SIGN FIVE N01 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N01_FLAT = "\u{12650}";
+
+    #[Info(id: 0x12651, name: 'CUNEIFORM NUMERIC SIGN SIX N01 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N01_FLAT = "\u{12651}";
+
+    #[Info(id: 0x12652, name: 'CUNEIFORM NUMERIC SIGN SEVEN N01 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N01_FLAT = "\u{12652}";
+
+    #[Info(id: 0x12653, name: 'CUNEIFORM NUMERIC SIGN EIGHT N01 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N01_FLAT = "\u{12653}";
+
+    #[Info(id: 0x12654, name: 'CUNEIFORM NUMERIC SIGN NINE N01 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N01_FLAT = "\u{12654}";
+
+    #[Info(id: 0x12655, name: 'CUNEIFORM NUMERIC SIGN ONE N08 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N08_FLAT = "\u{12655}";
+
+    #[Info(id: 0x12656, name: 'CUNEIFORM NUMERIC SIGN ONE N14 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 u flat'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N14_FLAT = "\u{12656}";
+
+    #[Info(id: 0x12657, name: 'CUNEIFORM NUMERIC SIGN TWO N14 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N14_FLAT = "\u{12657}";
+
+    #[Info(id: 0x12658, name: 'CUNEIFORM NUMERIC SIGN THREE N14 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N14_FLAT = "\u{12658}";
+
+    #[Info(id: 0x12659, name: 'CUNEIFORM NUMERIC SIGN FOUR N14 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N14_FLAT = "\u{12659}";
+
+    #[Info(id: 0x1265A, name: 'CUNEIFORM NUMERIC SIGN FIVE N14 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N14_FLAT = "\u{1265A}";
+
+    #[Info(id: 0x1265B, name: 'CUNEIFORM NUMERIC SIGN SIX N14 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N14_FLAT = "\u{1265B}";
+
+    #[Info(id: 0x1265C, name: 'CUNEIFORM NUMERIC SIGN SEVEN N14 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N14_FLAT = "\u{1265C}";
+
+    #[Info(id: 0x1265D, name: 'CUNEIFORM NUMERIC SIGN EIGHT N14 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N14_FLAT = "\u{1265D}";
+
+    #[Info(id: 0x1265E, name: 'CUNEIFORM NUMERIC SIGN NINE N14 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N14_FLAT = "\u{1265E}";
+
+    #[Info(id: 0x1265F, name: 'CUNEIFORM NUMERIC SIGN ONE N34 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N34_FLAT = "\u{1265F}";
+
+    #[Info(id: 0x12660, name: 'CUNEIFORM NUMERIC SIGN TWO N34 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N34_FLAT = "\u{12660}";
+
+    #[Info(id: 0x12661, name: 'CUNEIFORM NUMERIC SIGN THREE N34 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N34_FLAT = "\u{12661}";
+
+    #[Info(id: 0x12662, name: 'CUNEIFORM NUMERIC SIGN FOUR N34 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N34_FLAT = "\u{12662}";
+
+    #[Info(id: 0x12663, name: 'CUNEIFORM NUMERIC SIGN FIVE N34 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N34_FLAT = "\u{12663}";
+
+    #[Info(id: 0x12664, name: 'CUNEIFORM NUMERIC SIGN SIX N34 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N34_FLAT = "\u{12664}";
+
+    #[Info(id: 0x12665, name: 'CUNEIFORM NUMERIC SIGN SEVEN N34 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N34_FLAT = "\u{12665}";
+
+    #[Info(id: 0x12666, name: 'CUNEIFORM NUMERIC SIGN EIGHT N34 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N34_FLAT = "\u{12666}";
+
+    #[Info(id: 0x12667, name: 'CUNEIFORM NUMERIC SIGN NINE N34 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N34_FLAT = "\u{12667}";
+
+    #[Info(id: 0x12668, name: 'CUNEIFORM NUMERIC SIGN ONE N45 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N45_FLAT = "\u{12668}";
+
+    #[Info(id: 0x12669, name: 'CUNEIFORM NUMERIC SIGN TWO N45 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N45_FLAT = "\u{12669}";
+
+    #[Info(id: 0x1266A, name: 'CUNEIFORM NUMERIC SIGN ONE N22 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N22_FLAT = "\u{1266A}";
+
+    #[Info(id: 0x1266B, name: 'CUNEIFORM NUMERIC SIGN TWO N22 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N22_FLAT = "\u{1266B}";
+
+    #[Info(id: 0x1266C, name: 'CUNEIFORM NUMERIC SIGN ONE N51 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N51_FLAT = "\u{1266C}";
+
+    #[Info(id: 0x1266D, name: 'CUNEIFORM NUMERIC SIGN TWO N51 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N51_FLAT = "\u{1266D}";
+
+    #[Info(id: 0x1266E, name: 'CUNEIFORM NUMERIC SIGN THREE N51 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N51_FLAT = "\u{1266E}";
+
+    #[Info(id: 0x1266F, name: 'CUNEIFORM NUMERIC SIGN FOUR N51 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N51_FLAT = "\u{1266F}";
+
+    #[Info(id: 0x12670, name: 'CUNEIFORM NUMERIC SIGN FIVE N51 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N51_FLAT = "\u{12670}";
+
+    #[Info(id: 0x12671, name: 'CUNEIFORM NUMERIC SIGN SIX N51 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N51_FLAT = "\u{12671}";
+
+    #[Info(id: 0x12672, name: 'CUNEIFORM NUMERIC SIGN SEVEN N51 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N51_FLAT = "\u{12672}";
+
+    #[Info(id: 0x12673, name: 'CUNEIFORM NUMERIC SIGN EIGHT N51 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N51_FLAT = "\u{12673}";
+
+    #[Info(id: 0x12674, name: 'CUNEIFORM NUMERIC SIGN NINE N51 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N51_FLAT = "\u{12674}";
+
+    #[Info(id: 0x12675, name: 'CUNEIFORM NUMERIC SIGN ONE N34 FLAT TENU', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number, informativeAliases: ['1 n39a flat'])]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N34_FLAT_TENU = "\u{12675}";
+
+    #[Info(id: 0x12676, name: 'CUNEIFORM NUMERIC SIGN ONE N04 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N04_FLAT = "\u{12676}";
+
+    #[Info(id: 0x12677, name: 'CUNEIFORM NUMERIC SIGN TWO N04 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N04_FLAT = "\u{12677}";
+
+    #[Info(id: 0x12678, name: 'CUNEIFORM NUMERIC SIGN THREE N04 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N04_FLAT = "\u{12678}";
+
+    #[Info(id: 0x12679, name: 'CUNEIFORM NUMERIC SIGN FOUR N04 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N04_FLAT = "\u{12679}";
+
+    #[Info(id: 0x1267A, name: 'CUNEIFORM NUMERIC SIGN FIVE N04 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N04_FLAT = "\u{1267A}";
+
+    #[Info(id: 0x1267B, name: 'CUNEIFORM NUMERIC SIGN ONE N19 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N19_FLAT = "\u{1267B}";
+
+    #[Info(id: 0x1267C, name: 'CUNEIFORM NUMERIC SIGN TWO N19 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N19_FLAT = "\u{1267C}";
+
+    #[Info(id: 0x1267D, name: 'CUNEIFORM NUMERIC SIGN THREE N19 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_THREE_N19_FLAT = "\u{1267D}";
+
+    #[Info(id: 0x1267E, name: 'CUNEIFORM NUMERIC SIGN FOUR N19 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FOUR_N19_FLAT = "\u{1267E}";
+
+    #[Info(id: 0x1267F, name: 'CUNEIFORM NUMERIC SIGN FIVE N19 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_FIVE_N19_FLAT = "\u{1267F}";
+
+    #[Info(id: 0x12680, name: 'CUNEIFORM NUMERIC SIGN SIX N19 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SIX_N19_FLAT = "\u{12680}";
+
+    #[Info(id: 0x12681, name: 'CUNEIFORM NUMERIC SIGN SEVEN N19 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_N19_FLAT = "\u{12681}";
+
+    #[Info(id: 0x12682, name: 'CUNEIFORM NUMERIC SIGN EIGHT N19 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_N19_FLAT = "\u{12682}";
+
+    #[Info(id: 0x12683, name: 'CUNEIFORM NUMERIC SIGN NINE N19 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_N19_FLAT = "\u{12683}";
+
+    #[Info(id: 0x12684, name: 'CUNEIFORM NUMERIC SIGN ONE N46 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N46_FLAT = "\u{12684}";
+
+    #[Info(id: 0x12685, name: 'CUNEIFORM NUMERIC SIGN TWO N46 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_TWO_N46_FLAT = "\u{12685}";
+
+    #[Info(id: 0x12686, name: 'CUNEIFORM NUMERIC SIGN ONE N36 FLAT', block: Block::Archaic_Cuneiform_Numerals, category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ONE_N36_FLAT = "\u{12686}";
 
     // Block: Cypro-Minoan
 
@@ -95779,6 +96980,21 @@ enum Codepoint: string
     #[Info(id: 0x18CD5, name: 'KHITAN SMALL SCRIPT CHARACTER-18CD5', block: Block::Khitan_Small_Script, category: Cat::Other_Letter)]
     case KHITAN_SMALL_SCRIPT_CHARACTER_18CD5 = "\u{18CD5}";
 
+    #[Info(id: 0x18CD6, name: 'KHITAN SMALL SCRIPT CHARACTER-18CD6', block: Block::Khitan_Small_Script, category: Cat::Other_Letter)]
+    case KHITAN_SMALL_SCRIPT_CHARACTER_18CD6 = "\u{18CD6}";
+
+    #[Info(id: 0x18CD7, name: 'KHITAN SMALL SCRIPT CHARACTER-18CD7', block: Block::Khitan_Small_Script, category: Cat::Other_Letter)]
+    case KHITAN_SMALL_SCRIPT_CHARACTER_18CD7 = "\u{18CD7}";
+
+    #[Info(id: 0x18CD8, name: 'KHITAN SMALL SCRIPT CHARACTER-18CD8', block: Block::Khitan_Small_Script, category: Cat::Other_Letter)]
+    case KHITAN_SMALL_SCRIPT_CHARACTER_18CD8 = "\u{18CD8}";
+
+    #[Info(id: 0x18CD9, name: 'KHITAN SMALL SCRIPT CHARACTER-18CD9', block: Block::Khitan_Small_Script, category: Cat::Other_Letter)]
+    case KHITAN_SMALL_SCRIPT_CHARACTER_18CD9 = "\u{18CD9}";
+
+    #[Info(id: 0x18CDA, name: 'KHITAN SMALL SCRIPT CHARACTER-18CDA', block: Block::Khitan_Small_Script, category: Cat::Other_Letter)]
+    case KHITAN_SMALL_SCRIPT_CHARACTER_18CDA = "\u{18CDA}";
+
     #[Info(id: 0x18CFF, name: 'KHITAN SMALL SCRIPT CHARACTER-18CFF', block: Block::Khitan_Small_Script, category: Cat::Other_Letter)]
     case KHITAN_SMALL_SCRIPT_CHARACTER_18CFF = "\u{18CFF}";
 
@@ -95787,8 +97003,8 @@ enum Codepoint: string
     #[Info(id: 0x18D00, name: 'Tangut Ideograph Supplement, First', block: Block::Tangut_Supplement, category: Cat::Other_Letter)]
     case Tangut_Ideograph_Supplement__First = "\u{18D00}";
 
-    #[Info(id: 0x18D1E, name: 'Tangut Ideograph Supplement, Last', block: Block::Tangut_Supplement, category: Cat::Other_Letter)]
-    case Tangut_Ideograph_Supplement__Last = "\u{18D1E}";
+    #[Info(id: 0x18D20, name: 'Tangut Ideograph Supplement, Last', block: Block::Tangut_Supplement, category: Cat::Other_Letter)]
+    case Tangut_Ideograph_Supplement__Last = "\u{18D20}";
 
     // Block: Tangut Components Supplement
 
@@ -96136,6 +97352,169 @@ enum Codepoint: string
 
     #[Info(id: 0x18DF2, name: 'TANGUT COMPONENT-883', block: Block::Tangut_Components_Supplement, category: Cat::Other_Letter)]
     case TANGUT_COMPONENT_883 = "\u{18DF2}";
+
+    // Block: Jurchen
+
+    #[Info(id: 0x18E00, name: 'Jurchen Character, First', block: Block::Jurchen, category: Cat::Other_Letter)]
+    case Jurchen_Character__First = "\u{18E00}";
+
+    #[Info(id: 0x19191, name: 'Jurchen Character, Last', block: Block::Jurchen, category: Cat::Other_Letter)]
+    case Jurchen_Character__Last = "\u{19191}";
+
+    // Block: Jurchen Radicals
+
+    #[Info(id: 0x191A0, name: 'JURCHEN RADICAL-01', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_01 = "\u{191A0}";
+
+    #[Info(id: 0x191A1, name: 'JURCHEN RADICAL-02', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_02 = "\u{191A1}";
+
+    #[Info(id: 0x191A2, name: 'JURCHEN RADICAL-03', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_03 = "\u{191A2}";
+
+    #[Info(id: 0x191A3, name: 'JURCHEN RADICAL-04', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_04 = "\u{191A3}";
+
+    #[Info(id: 0x191A4, name: 'JURCHEN RADICAL-05', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_05 = "\u{191A4}";
+
+    #[Info(id: 0x191A5, name: 'JURCHEN RADICAL-06', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_06 = "\u{191A5}";
+
+    #[Info(id: 0x191A6, name: 'JURCHEN RADICAL-07', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_07 = "\u{191A6}";
+
+    #[Info(id: 0x191A7, name: 'JURCHEN RADICAL-08', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_08 = "\u{191A7}";
+
+    #[Info(id: 0x191A8, name: 'JURCHEN RADICAL-09', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_09 = "\u{191A8}";
+
+    #[Info(id: 0x191A9, name: 'JURCHEN RADICAL-10', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_10 = "\u{191A9}";
+
+    #[Info(id: 0x191AA, name: 'JURCHEN RADICAL-11', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_11 = "\u{191AA}";
+
+    #[Info(id: 0x191AB, name: 'JURCHEN RADICAL-12', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_12 = "\u{191AB}";
+
+    #[Info(id: 0x191AC, name: 'JURCHEN RADICAL-13', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_13 = "\u{191AC}";
+
+    #[Info(id: 0x191AD, name: 'JURCHEN RADICAL-14', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_14 = "\u{191AD}";
+
+    #[Info(id: 0x191AE, name: 'JURCHEN RADICAL-15', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_15 = "\u{191AE}";
+
+    #[Info(id: 0x191AF, name: 'JURCHEN RADICAL-16', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_16 = "\u{191AF}";
+
+    #[Info(id: 0x191B0, name: 'JURCHEN RADICAL-17', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_17 = "\u{191B0}";
+
+    #[Info(id: 0x191B1, name: 'JURCHEN RADICAL-18', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_18 = "\u{191B1}";
+
+    #[Info(id: 0x191B2, name: 'JURCHEN RADICAL-19', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_19 = "\u{191B2}";
+
+    #[Info(id: 0x191B3, name: 'JURCHEN RADICAL-20', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_20 = "\u{191B3}";
+
+    #[Info(id: 0x191B4, name: 'JURCHEN RADICAL-21', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_21 = "\u{191B4}";
+
+    #[Info(id: 0x191B5, name: 'JURCHEN RADICAL-22', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_22 = "\u{191B5}";
+
+    #[Info(id: 0x191B6, name: 'JURCHEN RADICAL-23', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_23 = "\u{191B6}";
+
+    #[Info(id: 0x191B7, name: 'JURCHEN RADICAL-24', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_24 = "\u{191B7}";
+
+    #[Info(id: 0x191B8, name: 'JURCHEN RADICAL-25', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_25 = "\u{191B8}";
+
+    #[Info(id: 0x191B9, name: 'JURCHEN RADICAL-26', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_26 = "\u{191B9}";
+
+    #[Info(id: 0x191BA, name: 'JURCHEN RADICAL-27', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_27 = "\u{191BA}";
+
+    #[Info(id: 0x191BB, name: 'JURCHEN RADICAL-28', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_28 = "\u{191BB}";
+
+    #[Info(id: 0x191BC, name: 'JURCHEN RADICAL-29', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_29 = "\u{191BC}";
+
+    #[Info(id: 0x191BD, name: 'JURCHEN RADICAL-30', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_30 = "\u{191BD}";
+
+    #[Info(id: 0x191BE, name: 'JURCHEN RADICAL-31', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_31 = "\u{191BE}";
+
+    #[Info(id: 0x191BF, name: 'JURCHEN RADICAL-32', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_32 = "\u{191BF}";
+
+    #[Info(id: 0x191C0, name: 'JURCHEN RADICAL-33', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_33 = "\u{191C0}";
+
+    #[Info(id: 0x191C1, name: 'JURCHEN RADICAL-34', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_34 = "\u{191C1}";
+
+    #[Info(id: 0x191C2, name: 'JURCHEN RADICAL-35', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_35 = "\u{191C2}";
+
+    #[Info(id: 0x191C3, name: 'JURCHEN RADICAL-36', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_36 = "\u{191C3}";
+
+    #[Info(id: 0x191C4, name: 'JURCHEN RADICAL-37', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_37 = "\u{191C4}";
+
+    #[Info(id: 0x191C5, name: 'JURCHEN RADICAL-38', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_38 = "\u{191C5}";
+
+    #[Info(id: 0x191C6, name: 'JURCHEN RADICAL-39', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_39 = "\u{191C6}";
+
+    #[Info(id: 0x191C7, name: 'JURCHEN RADICAL-40', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_40 = "\u{191C7}";
+
+    #[Info(id: 0x191C8, name: 'JURCHEN RADICAL-41', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_41 = "\u{191C8}";
+
+    #[Info(id: 0x191C9, name: 'JURCHEN RADICAL-42', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_42 = "\u{191C9}";
+
+    #[Info(id: 0x191CA, name: 'JURCHEN RADICAL-43', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_43 = "\u{191CA}";
+
+    #[Info(id: 0x191CB, name: 'JURCHEN RADICAL-44', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_44 = "\u{191CB}";
+
+    #[Info(id: 0x191CC, name: 'JURCHEN RADICAL-45', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_45 = "\u{191CC}";
+
+    #[Info(id: 0x191CD, name: 'JURCHEN RADICAL-46', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_46 = "\u{191CD}";
+
+    #[Info(id: 0x191CE, name: 'JURCHEN RADICAL-47', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_47 = "\u{191CE}";
+
+    #[Info(id: 0x191CF, name: 'JURCHEN RADICAL-48', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_48 = "\u{191CF}";
+
+    #[Info(id: 0x191D0, name: 'JURCHEN RADICAL-49', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_49 = "\u{191D0}";
+
+    #[Info(id: 0x191D1, name: 'JURCHEN RADICAL-50', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_50 = "\u{191D1}";
+
+    #[Info(id: 0x191D2, name: 'JURCHEN RADICAL-51', block: Block::Jurchen_Radicals, category: Cat::Other_Letter)]
+    case JURCHEN_RADICAL_51 = "\u{191D2}";
 
     // Block: Kana Extended-B
 
@@ -97055,6 +98434,24 @@ enum Codepoint: string
     #[Info(id: 0x1B122, name: 'KATAKANA LETTER ARCHAIC WU', block: Block::Kana_ExtendedA, category: Cat::Other_Letter)]
     case KATAKANA_LETTER_ARCHAIC_WU = "\u{1B122}";
 
+    #[Info(id: 0x1B123, name: 'HIRAGANA DIGRAPH KOTO', block: Block::Kana_ExtendedA, category: Cat::Other_Letter)]
+    case HIRAGANA_DIGRAPH_KOTO = "\u{1B123}";
+
+    #[Info(id: 0x1B124, name: 'KATAKANA DIGRAPH TOKI', block: Block::Kana_ExtendedA, category: Cat::Other_Letter)]
+    case KATAKANA_DIGRAPH_TOKI = "\u{1B124}";
+
+    #[Info(id: 0x1B125, name: 'KATAKANA DIGRAPH TOTE', block: Block::Kana_ExtendedA, category: Cat::Other_Letter)]
+    case KATAKANA_DIGRAPH_TOTE = "\u{1B125}";
+
+    #[Info(id: 0x1B126, name: 'KATAKANA DIGRAPH YORI', block: Block::Kana_ExtendedA, category: Cat::Other_Letter)]
+    case KATAKANA_DIGRAPH_YORI = "\u{1B126}";
+
+    #[Info(id: 0x1B127, name: 'KATAKANA LETTER ALTERNATE NE', block: Block::Kana_ExtendedA, category: Cat::Other_Letter)]
+    case KATAKANA_LETTER_ALTERNATE_NE = "\u{1B127}";
+
+    #[Info(id: 0x1B128, name: 'KATAKANA LETTER ALTERNATE WI', block: Block::Kana_ExtendedA, category: Cat::Other_Letter)]
+    case KATAKANA_LETTER_ALTERNATE_WI = "\u{1B128}";
+
     // Block: Small Kana Extension
 
     #[Info(id: 0x1B132, name: 'HIRAGANA LETTER SMALL KO', block: Block::Small_Kana_Extension, category: Cat::Other_Letter)]
@@ -97083,6 +98480,9 @@ enum Codepoint: string
 
     #[Info(id: 0x1B167, name: 'KATAKANA LETTER SMALL N', block: Block::Small_Kana_Extension, category: Cat::Other_Letter)]
     case KATAKANA_LETTER_SMALL_N = "\u{1B167}";
+
+    #[Info(id: 0x1B168, name: 'KATAKANA LETTER SMALL ARCHAIC YE', block: Block::Small_Kana_Extension, category: Cat::Other_Letter)]
+    case KATAKANA_LETTER_SMALL_ARCHAIC_YE = "\u{1B168}";
 
     // Block: Nushu
 
@@ -100859,6 +102259,24 @@ enum Codepoint: string
     #[Info(id: 0x1CED0, name: 'LEUKOTHEA', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Other_Symbol)]
     case LEUKOTHEA = "\u{1CED0}";
 
+    #[Info(id: 0x1CED2, name: 'ALCHEMICAL SYMBOL FOR OIL INVERTED', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case ALCHEMICAL_SYMBOL_FOR_OIL_INVERTED = "\u{1CED2}";
+
+    #[Info(id: 0x1CED3, name: 'ALCHEMICAL SYMBOL FOR MOON-JUPITER', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case ALCHEMICAL_SYMBOL_FOR_MOON_JUPITER = "\u{1CED3}";
+
+    #[Info(id: 0x1CED4, name: 'ALCHEMICAL SYMBOL FOR SALT OF TARTAR', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case ALCHEMICAL_SYMBOL_FOR_SALT_OF_TARTAR = "\u{1CED4}";
+
+    #[Info(id: 0x1CEDD, name: 'SQUARE ROOT OF SQUARE ROOT', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case SQUARE_ROOT_OF_SQUARE_ROOT = "\u{1CEDD}";
+
+    #[Info(id: 0x1CEDE, name: 'SQUARE ROOT OF SQUARE ROOT OF SQUARE ROOT', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case SQUARE_ROOT_OF_SQUARE_ROOT_OF_SQUARE_ROOT = "\u{1CEDE}";
+
+    #[Info(id: 0x1CEDF, name: 'SQUARE ROOT OF SQUARE ROOT OF SQUARE ROOT OF SQUARE ROOT', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case SQUARE_ROOT_OF_SQUARE_ROOT_OF_SQUARE_ROOT_OF_SQUARE_ROOT = "\u{1CEDF}";
+
     #[Info(id: 0x1CEE0, name: 'GEOMANTIC FIGURE POPULUS', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Other_Symbol)]
     case GEOMANTIC_FIGURE_POPULUS = "\u{1CEE0}";
 
@@ -100909,6 +102327,45 @@ enum Codepoint: string
 
     #[Info(id: 0x1CEF0, name: 'MEDIUM SMALL WHITE CIRCLE WITH HORIZONTAL BAR', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
     case MEDIUM_SMALL_WHITE_CIRCLE_WITH_HORIZONTAL_BAR = "\u{1CEF0}";
+
+    #[Info(id: 0x1CEF1, name: 'LEIBNIZIAN DIVISION SIGN', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol, informativeAliases: ['division'])]
+    case LEIBNIZIAN_DIVISION_SIGN = "\u{1CEF1}";
+
+    #[Info(id: 0x1CEF2, name: 'LEIBNIZIAN MULTIPLICATION SIGN', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol, informativeAliases: ['multiplication'])]
+    case LEIBNIZIAN_MULTIPLICATION_SIGN = "\u{1CEF2}";
+
+    #[Info(id: 0x1CEF3, name: 'LEIBNIZIAN MULTIPLICATION-DIVISION SIGN', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_MULTIPLICATION_DIVISION_SIGN = "\u{1CEF3}";
+
+    #[Info(id: 0x1CEF4, name: 'LEIBNIZIAN FRACTION REDUCTION SIGN-1', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol, informativeAliases: ['division'])]
+    case LEIBNIZIAN_FRACTION_REDUCTION_SIGN_1 = "\u{1CEF4}";
+
+    #[Info(id: 0x1CEF5, name: 'LEIBNIZIAN FRACTION REDUCTION SIGN-2', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol, informativeAliases: ['division'])]
+    case LEIBNIZIAN_FRACTION_REDUCTION_SIGN_2 = "\u{1CEF5}";
+
+    #[Info(id: 0x1CEF6, name: 'SECTOR WITH CHORD', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case SECTOR_WITH_CHORD = "\u{1CEF6}";
+
+    #[Info(id: 0x1CEF7, name: 'SECTOR WITH DOUBLE ARC', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case SECTOR_WITH_DOUBLE_ARC = "\u{1CEF7}";
+
+    #[Info(id: 0x1CEF8, name: 'SECTOR WITH CHORD AND DOTTED ARC', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case SECTOR_WITH_CHORD_AND_DOTTED_ARC = "\u{1CEF8}";
+
+    #[Info(id: 0x1CEF9, name: 'MEASURED ANGLE WITH DOUBLE ARC', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case MEASURED_ANGLE_WITH_DOUBLE_ARC = "\u{1CEF9}";
+
+    #[Info(id: 0x1CEFA, name: 'MEASURED ANGLE WITH CONCAVE ARC', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case MEASURED_ANGLE_WITH_CONCAVE_ARC = "\u{1CEFA}";
+
+    #[Info(id: 0x1CEFB, name: 'MEASURED ANGLE WITH DOUBLE CONCAVE ARC', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case MEASURED_ANGLE_WITH_DOUBLE_CONCAVE_ARC = "\u{1CEFB}";
+
+    #[Info(id: 0x1CEFC, name: 'ANGLE OPENING UP', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case ANGLE_OPENING_UP = "\u{1CEFC}";
+
+    #[Info(id: 0x1CEFD, name: 'HYPERBOLA', block: Block::Miscellaneous_Symbols_Supplement, category: Cat::Math_Symbol)]
+    case HYPERBOLA = "\u{1CEFD}";
 
     // Block: Znamenny Musical Notation
 
@@ -102326,6 +103783,12 @@ enum Codepoint: string
     #[Info(id: 0x1D126, name: 'MUSICAL SYMBOL DRUM CLEF-2', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_DRUM_CLEF_2 = "\u{1D126}";
 
+    #[Info(id: 0x1D127, name: 'MUSICAL SYMBOL COMBINING STRESS', block: Block::Musical_Symbols, category: Cat::Nonspacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_STRESS = "\u{1D127}";
+
+    #[Info(id: 0x1D128, name: 'MUSICAL SYMBOL COMBINING UNSTRESS', block: Block::Musical_Symbols, category: Cat::Nonspacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_UNSTRESS = "\u{1D128}";
+
     #[Info(id: 0x1D129, name: 'MUSICAL SYMBOL MULTIPLE MEASURE REST', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_MULTIPLE_MEASURE_REST = "\u{1D129}";
 
@@ -102833,7 +104296,7 @@ enum Codepoint: string
     #[Info(id: 0x1D1D1, name: 'MUSICAL SYMBOL GREGORIAN F CLEF', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_GREGORIAN_F_CLEF = "\u{1D1D1}";
 
-    #[Info(id: 0x1D1D2, name: 'MUSICAL SYMBOL SQUARE B', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
+    #[Info(id: 0x1D1D2, name: 'MUSICAL SYMBOL SQUARE B', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['b quadratum (square b)', 'b durum (hard b)'])]
     case MUSICAL_SYMBOL_SQUARE_B = "\u{1D1D2}";
 
     #[Info(id: 0x1D1D3, name: 'MUSICAL SYMBOL VIRGA', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
@@ -102907,6 +104370,69 @@ enum Codepoint: string
 
     #[Info(id: 0x1D1EA, name: 'MUSICAL SYMBOL KORON', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
     case MUSICAL_SYMBOL_KORON = "\u{1D1EA}";
+
+    #[Info(id: 0x1D1EB, name: 'MUSICAL SYMBOL HALF SHARP', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['quarter tone sharp'])]
+    case MUSICAL_SYMBOL_HALF_SHARP = "\u{1D1EB}";
+
+    #[Info(id: 0x1D1EC, name: 'MUSICAL SYMBOL ONE AND A HALF SHARP', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['three-quarter tone sharp'])]
+    case MUSICAL_SYMBOL_ONE_AND_A_HALF_SHARP = "\u{1D1EC}";
+
+    #[Info(id: 0x1D1ED, name: 'MUSICAL SYMBOL REVERSED FLAT', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['quarter tone flat'])]
+    case MUSICAL_SYMBOL_REVERSED_FLAT = "\u{1D1ED}";
+
+    #[Info(id: 0x1D1EE, name: 'MUSICAL SYMBOL REVERSED FLAT AND FLAT', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['three-quarter tone flat'])]
+    case MUSICAL_SYMBOL_REVERSED_FLAT_AND_FLAT = "\u{1D1EE}";
+
+    #[Info(id: 0x1D1EF, name: 'MUSICAL SYMBOL HALF SHARP UP', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_HALF_SHARP_UP = "\u{1D1EF}";
+
+    #[Info(id: 0x1D1F0, name: 'MUSICAL SYMBOL HALF SHARP DOWN', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_HALF_SHARP_DOWN = "\u{1D1F0}";
+
+    #[Info(id: 0x1D1F1, name: 'MUSICAL SYMBOL ONE AND A HALF SHARP UP', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_ONE_AND_A_HALF_SHARP_UP = "\u{1D1F1}";
+
+    #[Info(id: 0x1D1F2, name: 'MUSICAL SYMBOL ONE AND A HALF SHARP DOWN', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_ONE_AND_A_HALF_SHARP_DOWN = "\u{1D1F2}";
+
+    #[Info(id: 0x1D1F3, name: 'MUSICAL SYMBOL REVERSED FLAT UP', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_REVERSED_FLAT_UP = "\u{1D1F3}";
+
+    #[Info(id: 0x1D1F4, name: 'MUSICAL SYMBOL REVERSED FLAT DOWN', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_REVERSED_FLAT_DOWN = "\u{1D1F4}";
+
+    #[Info(id: 0x1D1F5, name: 'MUSICAL SYMBOL REVERSED FLAT AND FLAT UP', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_REVERSED_FLAT_AND_FLAT_UP = "\u{1D1F5}";
+
+    #[Info(id: 0x1D1F6, name: 'MUSICAL SYMBOL REVERSED FLAT AND FLAT DOWN', block: Block::Musical_Symbols, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_REVERSED_FLAT_AND_FLAT_DOWN = "\u{1D1F6}";
+
+    #[Info(id: 0x1D1F7, name: 'MUSICAL SYMBOL DIGIT TWO WITH STROKE', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['raised 2nd'])]
+    case MUSICAL_SYMBOL_DIGIT_TWO_WITH_STROKE = "\u{1D1F7}";
+
+    #[Info(id: 0x1D1F8, name: 'MUSICAL SYMBOL DIGIT FOUR WITH STROKE', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['raised 4th'])]
+    case MUSICAL_SYMBOL_DIGIT_FOUR_WITH_STROKE = "\u{1D1F8}";
+
+    #[Info(id: 0x1D1F9, name: 'MUSICAL SYMBOL DIGIT FIVE WITH STROKE', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['raised 5th'])]
+    case MUSICAL_SYMBOL_DIGIT_FIVE_WITH_STROKE = "\u{1D1F9}";
+
+    #[Info(id: 0x1D1FA, name: 'MUSICAL SYMBOL DIGIT SIX WITH STROKE', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['raised 6th'])]
+    case MUSICAL_SYMBOL_DIGIT_SIX_WITH_STROKE = "\u{1D1FA}";
+
+    #[Info(id: 0x1D1FB, name: 'MUSICAL SYMBOL DIGIT SEVEN WITH STROKE', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['raised 7th'])]
+    case MUSICAL_SYMBOL_DIGIT_SEVEN_WITH_STROKE = "\u{1D1FB}";
+
+    #[Info(id: 0x1D1FC, name: 'MUSICAL SYMBOL DIGIT NINE WITH STROKE', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['raised 9th'])]
+    case MUSICAL_SYMBOL_DIGIT_NINE_WITH_STROKE = "\u{1D1FC}";
+
+    #[Info(id: 0x1D1FD, name: 'MUSICAL SYMBOL DIGIT FIVE WITH LOW STROKE', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['diminished 5th'])]
+    case MUSICAL_SYMBOL_DIGIT_FIVE_WITH_LOW_STROKE = "\u{1D1FD}";
+
+    #[Info(id: 0x1D1FE, name: 'MUSICAL SYMBOL DIGIT SEVEN WITH LOW STROKE', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['lowered 7th'])]
+    case MUSICAL_SYMBOL_DIGIT_SEVEN_WITH_LOW_STROKE = "\u{1D1FE}";
+
+    #[Info(id: 0x1D1FF, name: 'MUSICAL SYMBOL LONGA REST', block: Block::Musical_Symbols, category: Cat::Other_Symbol, informativeAliases: ['quadruple whole-rest'])]
+    case MUSICAL_SYMBOL_LONGA_REST = "\u{1D1FF}";
 
     // Block: Ancient Greek Musical Notation
 
@@ -103119,6 +104645,158 @@ enum Codepoint: string
 
     #[Info(id: 0x1D245, name: 'GREEK MUSICAL LEIMMA', block: Block::Ancient_Greek_Musical_Notation, category: Cat::Other_Symbol)]
     case GREEK_MUSICAL_LEIMMA = "\u{1D245}";
+
+    // Block: Musical Symbols Supplement
+
+    #[Info(id: 0x1D250, name: 'MUSICAL SYMBOL COMBINING FLAG-6', block: Block::Musical_Symbols_Supplement, category: Cat::Spacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_FLAG_6 = "\u{1D250}";
+
+    #[Info(id: 0x1D251, name: 'MUSICAL SYMBOL COMBINING FLAG-7', block: Block::Musical_Symbols_Supplement, category: Cat::Spacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_FLAG_7 = "\u{1D251}";
+
+    #[Info(id: 0x1D252, name: 'MUSICAL SYMBOL COMBINING FLAG-8', block: Block::Musical_Symbols_Supplement, category: Cat::Spacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_FLAG_8 = "\u{1D252}";
+
+    #[Info(id: 0x1D253, name: 'MUSICAL SYMBOL TWO HUNDRED FIFTY-SIXTH REST', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_TWO_HUNDRED_FIFTY_SIXTH_REST = "\u{1D253}";
+
+    #[Info(id: 0x1D254, name: 'MUSICAL SYMBOL FIVE HUNDRED TWELFTH REST', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_FIVE_HUNDRED_TWELFTH_REST = "\u{1D254}";
+
+    #[Info(id: 0x1D255, name: 'MUSICAL SYMBOL ONE THOUSAND TWENTY-FOURTH REST', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_ONE_THOUSAND_TWENTY_FOURTH_REST = "\u{1D255}";
+
+    #[Info(id: 0x1D256, name: 'MUSICAL SYMBOL FLAT WITH STROKE', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol, informativeAliases: ['bakiye flat', 'Arabic quarter-tone flat'])]
+    case MUSICAL_SYMBOL_FLAT_WITH_STROKE = "\u{1D256}";
+
+    #[Info(id: 0x1D257, name: 'MUSICAL SYMBOL FLAT WITH DOUBLE STROKE', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol, informativeAliases: ['büyük mücenneb flat'])]
+    case MUSICAL_SYMBOL_FLAT_WITH_DOUBLE_STROKE = "\u{1D257}";
+
+    #[Info(id: 0x1D258, name: 'MUSICAL SYMBOL FLAT WITH DOUBLE STEM', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol, informativeAliases: ['Arabic three-quarter-tone flat'])]
+    case MUSICAL_SYMBOL_FLAT_WITH_DOUBLE_STEM = "\u{1D258}";
+
+    #[Info(id: 0x1D259, name: 'MUSICAL SYMBOL HALF SHARP WITH STROKE', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol, informativeAliases: ['küçük mücenneb sharp'])]
+    case MUSICAL_SYMBOL_HALF_SHARP_WITH_STROKE = "\u{1D259}";
+
+    #[Info(id: 0x1D25A, name: 'MUSICAL SYMBOL SHARP WITH STROKE', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol, informativeAliases: ['büyük mücenneb sharp'])]
+    case MUSICAL_SYMBOL_SHARP_WITH_STROKE = "\u{1D25A}";
+
+    #[Info(id: 0x1D25B, name: 'MUSICAL SYMBOL COMBINING TREMOLO-4', block: Block::Musical_Symbols_Supplement, category: Cat::Nonspacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_TREMOLO_4 = "\u{1D25B}";
+
+    #[Info(id: 0x1D25C, name: 'MUSICAL SYMBOL COMBINING TREMOLO-5', block: Block::Musical_Symbols_Supplement, category: Cat::Nonspacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_TREMOLO_5 = "\u{1D25C}";
+
+    #[Info(id: 0x1D25D, name: 'MUSICAL SYMBOL FINGERED TREMOLO-4', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_FINGERED_TREMOLO_4 = "\u{1D25D}";
+
+    #[Info(id: 0x1D25E, name: 'MUSICAL SYMBOL FINGERED TREMOLO-5', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_FINGERED_TREMOLO_5 = "\u{1D25E}";
+
+    #[Info(id: 0x1D25F, name: 'MUSICAL SYMBOL COMBINING BUZZ ROLL STEM', block: Block::Musical_Symbols_Supplement, category: Cat::Spacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_BUZZ_ROLL_STEM = "\u{1D25F}";
+
+    #[Info(id: 0x1D260, name: 'MUSICAL SYMBOL TRIPLE FLAT', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_TRIPLE_FLAT = "\u{1D260}";
+
+    #[Info(id: 0x1D261, name: 'MUSICAL SYMBOL SUSPENSION', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_SUSPENSION = "\u{1D261}";
+
+    #[Info(id: 0x1D262, name: 'MUSICAL SYMBOL HEAVY DOUBLE BARLINE', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_HEAVY_DOUBLE_BARLINE = "\u{1D262}";
+
+    #[Info(id: 0x1D263, name: 'MUSICAL SYMBOL SYSTEM DIVIDER', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_SYSTEM_DIVIDER = "\u{1D263}";
+
+    #[Info(id: 0x1D264, name: 'MUSICAL SYMBOL NIENTE', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_NIENTE = "\u{1D264}";
+
+    #[Info(id: 0x1D265, name: 'MUSICAL SYMBOL CRESCENDO WITH RING', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_CRESCENDO_WITH_RING = "\u{1D265}";
+
+    #[Info(id: 0x1D266, name: 'MUSICAL SYMBOL DECRESCENDO WITH RING', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_DECRESCENDO_WITH_RING = "\u{1D266}";
+
+    #[Info(id: 0x1D267, name: 'MUSICAL SYMBOL DIAMOND NOTEHEAD WHOLE', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_DIAMOND_NOTEHEAD_WHOLE = "\u{1D267}";
+
+    #[Info(id: 0x1D268, name: 'MUSICAL SYMBOL DIAMOND NOTEHEAD WHITE', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_DIAMOND_NOTEHEAD_WHITE = "\u{1D268}";
+
+    #[Info(id: 0x1D269, name: 'MUSICAL SYMBOL DIAMOND NOTEHEAD BLACK', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_DIAMOND_NOTEHEAD_BLACK = "\u{1D269}";
+
+    #[Info(id: 0x1D26A, name: 'MUSICAL SYMBOL DIAMOND NOTEHEAD HALF-FILLED', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_DIAMOND_NOTEHEAD_HALF_FILLED = "\u{1D26A}";
+
+    #[Info(id: 0x1D26B, name: 'MUSICAL SYMBOL TRIANGULAR FERMATA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_TRIANGULAR_FERMATA = "\u{1D26B}";
+
+    #[Info(id: 0x1D26C, name: 'MUSICAL SYMBOL DOUBLE TRIANGULAR FERMATA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_DOUBLE_TRIANGULAR_FERMATA = "\u{1D26C}";
+
+    #[Info(id: 0x1D26D, name: 'MUSICAL SYMBOL SQUARE FERMATA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_SQUARE_FERMATA = "\u{1D26D}";
+
+    #[Info(id: 0x1D26E, name: 'MUSICAL SYMBOL DOUBLE SQUARE FERMATA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_DOUBLE_SQUARE_FERMATA = "\u{1D26E}";
+
+    #[Info(id: 0x1D26F, name: 'MUSICAL SYMBOL HENZE LONG FERMATA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_HENZE_LONG_FERMATA = "\u{1D26F}";
+
+    #[Info(id: 0x1D270, name: 'MUSICAL SYMBOL HENZE SHORT FERMATA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_HENZE_SHORT_FERMATA = "\u{1D270}";
+
+    #[Info(id: 0x1D271, name: 'MUSICAL SYMBOL CURLEW', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_CURLEW = "\u{1D271}";
+
+    #[Info(id: 0x1D272, name: 'MUSICAL SYMBOL SALZEDO BREATH MARK', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_SALZEDO_BREATH_MARK = "\u{1D272}";
+
+    #[Info(id: 0x1D273, name: 'MUSICAL SYMBOL ORGAN PEDAL HEEL', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_ORGAN_PEDAL_HEEL = "\u{1D273}";
+
+    #[Info(id: 0x1D274, name: 'MUSICAL SYMBOL ORGAN PEDAL TOE', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_ORGAN_PEDAL_TOE = "\u{1D274}";
+
+    #[Info(id: 0x1D275, name: 'MUSICAL SYMBOL G CLEF OPTIONALLY OTTAVA BASSA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_G_CLEF_OPTIONALLY_OTTAVA_BASSA = "\u{1D275}";
+
+    #[Info(id: 0x1D276, name: 'MUSICAL SYMBOL DOUBLE G CLEF', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_DOUBLE_G_CLEF = "\u{1D276}";
+
+    #[Info(id: 0x1D277, name: 'MUSICAL SYMBOL G CLEF OTTAVA BASSA WITH C CLEF', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_G_CLEF_OTTAVA_BASSA_WITH_C_CLEF = "\u{1D277}";
+
+    #[Info(id: 0x1D278, name: 'MUSICAL SYMBOL C CLEF OTTAVA BASSA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_C_CLEF_OTTAVA_BASSA = "\u{1D278}";
+
+    #[Info(id: 0x1D279, name: 'MUSICAL SYMBOL G CLEF QUINDICESIMA ALTA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_G_CLEF_QUINDICESIMA_ALTA = "\u{1D279}";
+
+    #[Info(id: 0x1D27A, name: 'MUSICAL SYMBOL G CLEF QUINDICESIMA BASSA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_G_CLEF_QUINDICESIMA_BASSA = "\u{1D27A}";
+
+    #[Info(id: 0x1D27B, name: 'MUSICAL SYMBOL F CLEF QUINDICESIMA ALTA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_F_CLEF_QUINDICESIMA_ALTA = "\u{1D27B}";
+
+    #[Info(id: 0x1D27C, name: 'MUSICAL SYMBOL F CLEF QUINDICESIMA BASSA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_F_CLEF_QUINDICESIMA_BASSA = "\u{1D27C}";
+
+    #[Info(id: 0x1D27D, name: 'MUSICAL SYMBOL C CLEF QUINDICESIMA BASSA', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_C_CLEF_QUINDICESIMA_BASSA = "\u{1D27D}";
+
+    #[Info(id: 0x1D27E, name: 'MUSICAL SYMBOL TABLATURE CLEF', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_TABLATURE_CLEF = "\u{1D27E}";
+
+    #[Info(id: 0x1D27F, name: 'MUSICAL SYMBOL ARPEGGIATO UP WITH ARROW', block: Block::Musical_Symbols_Supplement, category: Cat::Other_Symbol)]
+    case MUSICAL_SYMBOL_ARPEGGIATO_UP_WITH_ARROW = "\u{1D27F}";
+
+    #[Info(id: 0x1D280, name: 'MUSICAL SYMBOL COMBINING STEM BOW BEHIND BRIDGE', block: Block::Musical_Symbols_Supplement, category: Cat::Spacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_STEM_BOW_BEHIND_BRIDGE = "\u{1D280}";
+
+    #[Info(id: 0x1D281, name: 'MUSICAL SYMBOL COMBINING STEM BOW ON TOP OF BRIDGE', block: Block::Musical_Symbols_Supplement, category: Cat::Spacing_Mark)]
+    case MUSICAL_SYMBOL_COMBINING_STEM_BOW_ON_TOP_OF_BRIDGE = "\u{1D281}";
 
     // Block: Kaktovik Numerals
 
@@ -105547,6 +107225,9 @@ enum Codepoint: string
 
     #[Info(id: 0x1D6A5, name: 'MATHEMATICAL ITALIC SMALL DOTLESS J', block: Block::Mathematical_Alphanumeric_Symbols, category: Cat::Lowercase_Letter, informativeAliases: ['\\jmath'])]
     case MATHEMATICAL_ITALIC_SMALL_DOTLESS_J = "\u{1D6A5}";
+
+    #[Info(id: 0x1D6A6, name: 'MATHEMATICAL ITALIC SMALL LIGATURE LONG S WITH DESCENDER S', block: Block::Mathematical_Alphanumeric_Symbols, category: Cat::Lowercase_Letter, informativeAliases: ['sursolidum'])]
+    case MATHEMATICAL_ITALIC_SMALL_LIGATURE_LONG_S_WITH_DESCENDER_S = "\u{1D6A6}";
 
     #[Info(id: 0x1D6A8, name: 'MATHEMATICAL BOLD CAPITAL ALPHA', block: Block::Mathematical_Alphanumeric_Symbols, category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_ALPHA = "\u{1D6A8}";
@@ -108592,6 +110273,95 @@ enum Codepoint: string
     #[Info(id: 0x1DAAF, name: 'SIGNWRITING ROTATION MODIFIER-16', block: Block::Sutton_SignWriting, category: Cat::Nonspacing_Mark)]
     case SIGNWRITING_ROTATION_MODIFIER_16 = "\u{1DAAF}";
 
+    // Block: Miscellaneous Symbols and Arrows Extended
+
+    #[Info(id: 0x1DB00, name: 'LEIBNIZIAN EQUALS SIGN', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_EQUALS_SIGN = "\u{1DB00}";
+
+    #[Info(id: 0x1DB01, name: 'LEIBNIZIAN EQUALS SIGN WITH DOUBLE VERTICALS', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_EQUALS_SIGN_WITH_DOUBLE_VERTICALS = "\u{1DB01}";
+
+    #[Info(id: 0x1DB02, name: 'LEIBNIZIAN EQUALS SIGN WITH SMALL S', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_EQUALS_SIGN_WITH_SMALL_S = "\u{1DB02}";
+
+    #[Info(id: 0x1DB03, name: 'LEIBNIZIAN GREATER-THAN', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_GREATER_THAN = "\u{1DB03}";
+
+    #[Info(id: 0x1DB04, name: 'LEIBNIZIAN LESS-THAN', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_LESS_THAN = "\u{1DB04}";
+
+    #[Info(id: 0x1DB05, name: 'LEIBNIZIAN GREATER-THAN WITH SMALL P', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_GREATER_THAN_WITH_SMALL_P = "\u{1DB05}";
+
+    #[Info(id: 0x1DB06, name: 'LEIBNIZIAN LESS-THAN WITH SMALL P', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_LESS_THAN_WITH_SMALL_P = "\u{1DB06}";
+
+    #[Info(id: 0x1DB07, name: 'LEIBNIZIAN GREATER-THAN OR LESS-THAN', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_GREATER_THAN_OR_LESS_THAN = "\u{1DB07}";
+
+    #[Info(id: 0x1DB08, name: 'INVERTED SQUARE LEFT OPEN BOX OPERATOR', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case INVERTED_SQUARE_LEFT_OPEN_BOX_OPERATOR = "\u{1DB08}";
+
+    #[Info(id: 0x1DB09, name: 'INVERTED SQUARE RIGHT OPEN BOX OPERATOR', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case INVERTED_SQUARE_RIGHT_OPEN_BOX_OPERATOR = "\u{1DB09}";
+
+    #[Info(id: 0x1DB0A, name: 'TWO-LINE GREATER-THAN', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case TWO_LINE_GREATER_THAN = "\u{1DB0A}";
+
+    #[Info(id: 0x1DB0B, name: 'TWO-LINE LESS-THAN', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case TWO_LINE_LESS_THAN = "\u{1DB0B}";
+
+    #[Info(id: 0x1DB0C, name: 'COMMENSURABILITY', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case COMMENSURABILITY = "\u{1DB0C}";
+
+    #[Info(id: 0x1DB0D, name: 'INCOMMENSURABILITY', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case INCOMMENSURABILITY = "\u{1DB0D}";
+
+    #[Info(id: 0x1DB0E, name: 'COMMENSURABILITY IN SQUARE', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case COMMENSURABILITY_IN_SQUARE = "\u{1DB0E}";
+
+    #[Info(id: 0x1DB0F, name: 'INCOMMENSURABILITY IN SQUARE', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case INCOMMENSURABILITY_IN_SQUARE = "\u{1DB0F}";
+
+    #[Info(id: 0x1DB10, name: 'CARTESIAN EQUALS SIGN', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case CARTESIAN_EQUALS_SIGN = "\u{1DB10}";
+
+    #[Info(id: 0x1DB11, name: 'LEIBNIZIAN CONGRUENCE', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_CONGRUENCE = "\u{1DB11}";
+
+    #[Info(id: 0x1DB12, name: 'LEIBNIZIAN CONGRUENCE WITH VERTICAL BAR', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_CONGRUENCE_WITH_VERTICAL_BAR = "\u{1DB12}";
+
+    #[Info(id: 0x1DB13, name: 'LEIBNIZIAN CONGRUENCE-2', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_CONGRUENCE_2 = "\u{1DB13}";
+
+    #[Info(id: 0x1DB14, name: 'LEIBNIZIAN CONGRUENCE-2 INVERTED', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_CONGRUENCE_2_INVERTED = "\u{1DB14}";
+
+    #[Info(id: 0x1DB15, name: 'LEIBNIZIAN CONGRUENCE-2 WITH HORIZONTAL BAR', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_CONGRUENCE_2_WITH_HORIZONTAL_BAR = "\u{1DB15}";
+
+    #[Info(id: 0x1DB16, name: 'LEIBNIZIAN CONGRUENCE-2 WITH HORIZONTAL AND VERTICAL BAR', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_CONGRUENCE_2_WITH_HORIZONTAL_AND_VERTICAL_BAR = "\u{1DB16}";
+
+    #[Info(id: 0x1DB17, name: 'LEIBNIZIAN COINCIDENCE', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_COINCIDENCE = "\u{1DB17}";
+
+    #[Info(id: 0x1DB18, name: 'INVERTED LAZY S OVER LAZY S', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case INVERTED_LAZY_S_OVER_LAZY_S = "\u{1DB18}";
+
+    #[Info(id: 0x1DB19, name: 'LEIBNIZIAN SIMILARITY', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_SIMILARITY = "\u{1DB19}";
+
+    #[Info(id: 0x1DB1A, name: 'LEIBNIZIAN SIMILARITY-2', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_SIMILARITY_2 = "\u{1DB1A}";
+
+    #[Info(id: 0x1DB1B, name: 'LEIBNIZIAN DISSIMILARITY', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case LEIBNIZIAN_DISSIMILARITY = "\u{1DB1B}";
+
+    #[Info(id: 0x1DB1C, name: 'FACIT SYMBOL', block: Block::Miscellaneous_Symbols_and_Arrows_Extended, category: Cat::Math_Symbol)]
+    case FACIT_SYMBOL = "\u{1DB1C}";
+
     // Block: Latin Extended-G
 
     #[Info(id: 0x1DF00, name: 'LATIN SMALL LETTER FENG DIGRAPH WITH TRILL', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
@@ -108687,6 +110457,24 @@ enum Codepoint: string
     #[Info(id: 0x1DF1E, name: 'LATIN SMALL LETTER S WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_S_WITH_CURL = "\u{1DF1E}";
 
+    #[Info(id: 0x1DF1F, name: 'LATIN SMALL LETTER D-ETH DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_D_ETH_DIGRAPH = "\u{1DF1F}";
+
+    #[Info(id: 0x1DF20, name: 'LATIN SMALL LETTER D-LEZH DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_D_LEZH_DIGRAPH = "\u{1DF20}";
+
+    #[Info(id: 0x1DF21, name: 'LATIN SMALL LETTER D-LEZH DIGRAPH WITH RETROFLEX HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_D_LEZH_DIGRAPH_WITH_RETROFLEX_HOOK = "\u{1DF21}";
+
+    #[Info(id: 0x1DF22, name: 'LATIN SMALL LETTER TL DIGRAPH WITH BELT', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TL_DIGRAPH_WITH_BELT = "\u{1DF22}";
+
+    #[Info(id: 0x1DF23, name: 'LATIN SMALL LETTER TL DIGRAPH WITH RETROFLEX HOOK AND BELT', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TL_DIGRAPH_WITH_RETROFLEX_HOOK_AND_BELT = "\u{1DF23}";
+
+    #[Info(id: 0x1DF24, name: 'LATIN SMALL LETTER T-THETA DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_T_THETA_DIGRAPH = "\u{1DF24}";
+
     #[Info(id: 0x1DF25, name: 'LATIN SMALL LETTER D WITH MID-HEIGHT LEFT HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_D_WITH_MID_HEIGHT_LEFT_HOOK = "\u{1DF25}";
 
@@ -108704,6 +110492,441 @@ enum Codepoint: string
 
     #[Info(id: 0x1DF2A, name: 'LATIN SMALL LETTER T WITH MID-HEIGHT LEFT HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_T_WITH_MID_HEIGHT_LEFT_HOOK = "\u{1DF2A}";
+
+    #[Info(id: 0x1DF2B, name: 'LATIN SMALL LETTER DEZH DIGRAPH WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_DEZH_DIGRAPH_WITH_CURL = "\u{1DF2B}";
+
+    #[Info(id: 0x1DF2C, name: 'LATIN SMALL LETTER TESH DIGRAPH WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TESH_DIGRAPH_WITH_CURL = "\u{1DF2C}";
+
+    #[Info(id: 0x1DF2D, name: 'LATIN SMALL LETTER D WITH HOOK AND PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_D_WITH_HOOK_AND_PALATAL_HOOK = "\u{1DF2D}";
+
+    #[Info(id: 0x1DF2E, name: 'LATIN SMALL LETTER DZ DIGRAPH WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_DZ_DIGRAPH_WITH_PALATAL_HOOK = "\u{1DF2E}";
+
+    #[Info(id: 0x1DF2F, name: 'LATIN SMALL LETTER ETH WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_ETH_WITH_PALATAL_HOOK = "\u{1DF2F}";
+
+    #[Info(id: 0x1DF30, name: 'LATIN LETTER SMALL CAPITAL G WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_SMALL_CAPITAL_G_WITH_PALATAL_HOOK = "\u{1DF30}";
+
+    #[Info(id: 0x1DF31, name: 'LATIN SMALL LETTER GAMMA WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_GAMMA_WITH_PALATAL_HOOK = "\u{1DF31}";
+
+    #[Info(id: 0x1DF32, name: 'LATIN SMALL LETTER H WITH STROKE AND PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_H_WITH_STROKE_AND_PALATAL_HOOK = "\u{1DF32}";
+
+    #[Info(id: 0x1DF33, name: 'LATIN SMALL LETTER PHI WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_PHI_WITH_PALATAL_HOOK = "\u{1DF33}";
+
+    #[Info(id: 0x1DF34, name: 'LATIN SMALL LETTER Q WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_Q_WITH_PALATAL_HOOK = "\u{1DF34}";
+
+    #[Info(id: 0x1DF35, name: 'LATIN LETTER SMALL CAPITAL R WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_SMALL_CAPITAL_R_WITH_PALATAL_HOOK = "\u{1DF35}";
+
+    #[Info(id: 0x1DF36, name: 'LATIN LETTER SMALL CAPITAL INVERTED R WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_SMALL_CAPITAL_INVERTED_R_WITH_PALATAL_HOOK = "\u{1DF36}";
+
+    #[Info(id: 0x1DF37, name: 'LATIN SMALL LETTER R WITH TAIL AND PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_R_WITH_TAIL_AND_PALATAL_HOOK = "\u{1DF37}";
+
+    #[Info(id: 0x1DF38, name: 'LATIN SMALL LETTER TS DIGRAPH WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TS_DIGRAPH_WITH_PALATAL_HOOK = "\u{1DF38}";
+
+    #[Info(id: 0x1DF39, name: 'LATIN SMALL LETTER V WITH HOOK AND PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_V_WITH_HOOK_AND_PALATAL_HOOK = "\u{1DF39}";
+
+    #[Info(id: 0x1DF3A, name: 'LATIN LETTER PHARYNGEAL VOICED FRICATIVE WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_PHARYNGEAL_VOICED_FRICATIVE_WITH_PALATAL_HOOK = "\u{1DF3A}";
+
+    #[Info(id: 0x1DF3B, name: 'LATIN SMALL LETTER BETA WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BETA_WITH_PALATAL_HOOK = "\u{1DF3B}";
+
+    #[Info(id: 0x1DF3C, name: 'LATIN SMALL LETTER THETA WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_THETA_WITH_PALATAL_HOOK = "\u{1DF3C}";
+
+    #[Info(id: 0x1DF3D, name: 'LATIN SMALL LETTER CHI WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_CHI_WITH_PALATAL_HOOK = "\u{1DF3D}";
+
+    #[Info(id: 0x1DF3E, name: 'LATIN SMALL LETTER BARRED TURNED H', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_TURNED_H = "\u{1DF3E}";
+
+    #[Info(id: 0x1DF3F, name: 'LATIN SMALL LETTER BARRED W', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_W = "\u{1DF3F}";
+
+    #[Info(id: 0x1DF40, name: 'LATIN CAPITAL LETTER BARRED A', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_BARRED_A = "\u{1DF40}";
+
+    #[Info(id: 0x1DF41, name: 'LATIN SMALL LETTER BARRED A', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_A = "\u{1DF41}";
+
+    #[Info(id: 0x1DF42, name: 'LATIN SMALL LETTER BARRED OPEN O', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_OPEN_O = "\u{1DF42}";
+
+    #[Info(id: 0x1DF43, name: 'LATIN LETTER SMALL CAPITAL BARRED E', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_SMALL_CAPITAL_BARRED_E = "\u{1DF43}";
+
+    #[Info(id: 0x1DF44, name: 'LATIN SMALL LETTER BARRED OPEN E', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_OPEN_E = "\u{1DF44}";
+
+    #[Info(id: 0x1DF45, name: 'LATIN SMALL LETTER G WITH STROKE AND PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_G_WITH_STROKE_AND_PALATAL_HOOK = "\u{1DF45}";
+
+    #[Info(id: 0x1DF46, name: 'LATIN SMALL LETTER BARRED H', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_H = "\u{1DF46}";
+
+    #[Info(id: 0x1DF47, name: 'LATIN SMALL LETTER BARRED H WITH HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_H_WITH_HOOK = "\u{1DF47}";
+
+    #[Info(id: 0x1DF48, name: 'LATIN CAPITAL LETTER BARRED K', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_BARRED_K = "\u{1DF48}";
+
+    #[Info(id: 0x1DF49, name: 'LATIN SMALL LETTER BARRED K', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_K = "\u{1DF49}";
+
+    #[Info(id: 0x1DF4A, name: 'LATIN CAPITAL LETTER BARRED M', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_BARRED_M = "\u{1DF4A}";
+
+    #[Info(id: 0x1DF4B, name: 'LATIN SMALL LETTER BARRED M', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_M = "\u{1DF4B}";
+
+    #[Info(id: 0x1DF4C, name: 'LATIN SMALL LETTER BARRED M WITH HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_M_WITH_HOOK = "\u{1DF4C}";
+
+    #[Info(id: 0x1DF4D, name: 'LATIN CAPITAL LETTER BARRED N', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_BARRED_N = "\u{1DF4D}";
+
+    #[Info(id: 0x1DF4E, name: 'LATIN SMALL LETTER BARRED N', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_N = "\u{1DF4E}";
+
+    #[Info(id: 0x1DF4F, name: 'LATIN SMALL LETTER BARRED ENG', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_ENG = "\u{1DF4F}";
+
+    #[Info(id: 0x1DF50, name: 'LATIN SMALL LETTER TURNED R WITH STROKE', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TURNED_R_WITH_STROKE = "\u{1DF50}";
+
+    #[Info(id: 0x1DF51, name: 'LATIN CAPITAL LETTER BARRED V', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_BARRED_V = "\u{1DF51}";
+
+    #[Info(id: 0x1DF52, name: 'LATIN SMALL LETTER BARRED V', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_V = "\u{1DF52}";
+
+    #[Info(id: 0x1DF53, name: 'LATIN SMALL LETTER BARRED CLOSED OMEGA', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_CLOSED_OMEGA = "\u{1DF53}";
+
+    #[Info(id: 0x1DF54, name: 'LATIN SMALL LETTER BARRED CHI', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_CHI = "\u{1DF54}";
+
+    #[Info(id: 0x1DF55, name: 'LATIN SMALL LETTER Y WITH LOW STROKE', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_Y_WITH_LOW_STROKE = "\u{1DF55}";
+
+    #[Info(id: 0x1DF56, name: 'LATIN LETTER GLOTTAL STOP WITH DOUBLE STROKE', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_GLOTTAL_STOP_WITH_DOUBLE_STROKE = "\u{1DF56}";
+
+    #[Info(id: 0x1DF57, name: 'LATIN SMALL LETTER TURNED R WITH MID-HEIGHT LEFT HOOK', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TURNED_R_WITH_MID_HEIGHT_LEFT_HOOK = "\u{1DF57}";
+
+    #[Info(id: 0x1DF58, name: 'LATIN SMALL LETTER SPLIT O', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_SPLIT_O = "\u{1DF58}";
+
+    #[Info(id: 0x1DF59, name: 'LATIN SMALL LETTER SPLIT U', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_SPLIT_U = "\u{1DF59}";
+
+    #[Info(id: 0x1DF5A, name: 'LATIN SMALL LETTER HALF A', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_HALF_A = "\u{1DF5A}";
+
+    #[Info(id: 0x1DF5B, name: 'LATIN SMALL LETTER STRETCHED C-H DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_STRETCHED_C_H_DIGRAPH = "\u{1DF5B}";
+
+    #[Info(id: 0x1DF5C, name: 'LATIN SMALL LETTER LUNATE EE', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_LUNATE_EE = "\u{1DF5C}";
+
+    #[Info(id: 0x1DF5D, name: 'LATIN SMALL LETTER IE', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_IE = "\u{1DF5D}";
+
+    #[Info(id: 0x1DF5E, name: 'LATIN SMALL LETTER OI DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_OI_DIGRAPH = "\u{1DF5E}";
+
+    #[Info(id: 0x1DF5F, name: 'LATIN SMALL LETTER OU DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_OU_DIGRAPH = "\u{1DF5F}";
+
+    #[Info(id: 0x1DF60, name: 'LATIN SMALL LETTER OMEGA WITH LOOP', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_OMEGA_WITH_LOOP = "\u{1DF60}";
+
+    #[Info(id: 0x1DF61, name: 'LATIN SMALL LETTER R WITH LEFT TIE', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_R_WITH_LEFT_TIE = "\u{1DF61}";
+
+    #[Info(id: 0x1DF62, name: 'LATIN SMALL LETTER ESH-H DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_ESH_H_DIGRAPH = "\u{1DF62}";
+
+    #[Info(id: 0x1DF63, name: 'LATIN SMALL LETTER STRETCHED T-H DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_STRETCHED_T_H_DIGRAPH = "\u{1DF63}";
+
+    #[Info(id: 0x1DF64, name: 'LATIN SMALL LETTER REVERSED T-H DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_REVERSED_T_H_DIGRAPH = "\u{1DF64}";
+
+    #[Info(id: 0x1DF65, name: 'LATIN SMALL LETTER WH DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_WH_DIGRAPH = "\u{1DF65}";
+
+    #[Info(id: 0x1DF66, name: 'LATIN SMALL LETTER REVERSED Z', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_REVERSED_Z = "\u{1DF66}";
+
+    #[Info(id: 0x1DF67, name: 'LATIN SMALL LETTER LEZH WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_LEZH_WITH_CURL = "\u{1DF67}";
+
+    #[Info(id: 0x1DF68, name: 'LATIN CAPITAL LETTER PHONOTYPIC A WITH SWASH', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_PHONOTYPIC_A_WITH_SWASH = "\u{1DF68}";
+
+    #[Info(id: 0x1DF69, name: 'LATIN SMALL LETTER PHONOTYPIC A WITH SWASH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter, informativeAliases: ['latin small letter a with hook tail'])]
+    case LATIN_SMALL_LETTER_PHONOTYPIC_A_WITH_SWASH = "\u{1DF69}";
+
+    #[Info(id: 0x1DF6A, name: 'LATIN CAPITAL LETTER PHONOTYPIC ROUNDTOP A', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_PHONOTYPIC_ROUNDTOP_A = "\u{1DF6A}";
+
+    #[Info(id: 0x1DF6B, name: 'LATIN SMALL LETTER PHONOTYPIC ROUNDTOP A', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_PHONOTYPIC_ROUNDTOP_A = "\u{1DF6B}";
+
+    #[Info(id: 0x1DF6C, name: 'LATIN CAPITAL LETTER REVERSED SCRUPLE', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_REVERSED_SCRUPLE = "\u{1DF6C}";
+
+    #[Info(id: 0x1DF6D, name: 'LATIN SMALL LETTER REVERSED SCRUPLE', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_REVERSED_SCRUPLE = "\u{1DF6D}";
+
+    #[Info(id: 0x1DF6E, name: 'LATIN CAPITAL LETTER PHONOTYPIC DIPHTHONG AI', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_PHONOTYPIC_DIPHTHONG_AI = "\u{1DF6E}";
+
+    #[Info(id: 0x1DF6F, name: 'LATIN SMALL LETTER PHONOTYPIC DIPHTHONG AI', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_PHONOTYPIC_DIPHTHONG_AI = "\u{1DF6F}";
+
+    #[Info(id: 0x1DF70, name: 'LATIN SMALL LETTER I WITH PIGTAIL AT BOTTOM', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_I_WITH_PIGTAIL_AT_BOTTOM = "\u{1DF70}";
+
+    #[Info(id: 0x1DF71, name: 'LATIN SMALL LETTER STRETCHED I', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_STRETCHED_I = "\u{1DF71}";
+
+    #[Info(id: 0x1DF72, name: 'LATIN CAPITAL LETTER O WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_O_WITH_CURL = "\u{1DF72}";
+
+    #[Info(id: 0x1DF73, name: 'LATIN SMALL LETTER O WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_O_WITH_CURL = "\u{1DF73}";
+
+    #[Info(id: 0x1DF74, name: 'LATIN CAPITAL LETTER CLOSED OMEGA WITH LONG STEM', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_CLOSED_OMEGA_WITH_LONG_STEM = "\u{1DF74}";
+
+    #[Info(id: 0x1DF75, name: 'LATIN SMALL LETTER CLOSED OMEGA WITH LONG STEM', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_CLOSED_OMEGA_WITH_LONG_STEM = "\u{1DF75}";
+
+    #[Info(id: 0x1DF76, name: 'LATIN CAPITAL LETTER TURNED CLOSED OMEGA', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_TURNED_CLOSED_OMEGA = "\u{1DF76}";
+
+    #[Info(id: 0x1DF77, name: 'LATIN SMALL LETTER TURNED CLOSED OMEGA', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TURNED_CLOSED_OMEGA = "\u{1DF77}";
+
+    #[Info(id: 0x1DF78, name: 'LATIN CAPITAL LETTER PHONOTYPIC TH', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_PHONOTYPIC_TH = "\u{1DF78}";
+
+    #[Info(id: 0x1DF79, name: 'LATIN SMALL LETTER PHONOTYPIC TH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_PHONOTYPIC_TH = "\u{1DF79}";
+
+    #[Info(id: 0x1DF7A, name: 'LATIN CAPITAL LETTER U WITH HOOK TAIL', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_U_WITH_HOOK_TAIL = "\u{1DF7A}";
+
+    #[Info(id: 0x1DF7B, name: 'LATIN SMALL LETTER U WITH HOOK TAIL', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_U_WITH_HOOK_TAIL = "\u{1DF7B}";
+
+    #[Info(id: 0x1DF7C, name: 'LATIN CAPITAL LETTER U WITH NOTCH AT BOTTOM', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_U_WITH_NOTCH_AT_BOTTOM = "\u{1DF7C}";
+
+    #[Info(id: 0x1DF7D, name: 'LATIN SMALL LETTER U WITH NOTCH AT BOTTOM', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_U_WITH_NOTCH_AT_BOTTOM = "\u{1DF7D}";
+
+    #[Info(id: 0x1DF7E, name: 'LATIN CAPITAL LETTER REVERSED U', block: Block::Latin_ExtendedG, category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_REVERSED_U = "\u{1DF7E}";
+
+    #[Info(id: 0x1DF7F, name: 'LATIN SMALL LETTER REVERSED U', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_REVERSED_U = "\u{1DF7F}";
+
+    #[Info(id: 0x1DF80, name: 'LATIN CAPITAL LETTER A WITH TOPBAR', block: Block::Latin_ExtendedG, category: Cat::Other_Letter)]
+    case LATIN_CAPITAL_LETTER_A_WITH_TOPBAR = "\u{1DF80}";
+
+    #[Info(id: 0x1DF81, name: 'LATIN CAPITAL LETTER E WITH BENT TOPBAR', block: Block::Latin_ExtendedG, category: Cat::Other_Letter)]
+    case LATIN_CAPITAL_LETTER_E_WITH_BENT_TOPBAR = "\u{1DF81}";
+
+    #[Info(id: 0x1DF90, name: 'LATIN SMALL LETTER C WITH LOW SLASH', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter, informativeAliases: ['cubus'])]
+    case LATIN_SMALL_LETTER_C_WITH_LOW_SLASH = "\u{1DF90}";
+
+    #[Info(id: 0x1DF91, name: 'LATIN SMALL LETTER C WITH LOOPED CEDILLA', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter, informativeAliases: ['census'])]
+    case LATIN_SMALL_LETTER_C_WITH_LOOPED_CEDILLA = "\u{1DF91}";
+
+    #[Info(id: 0x1DF92, name: 'LATIN SMALL LETTER C WITH RIGHT LOOP', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter, informativeAliases: ['cubus'])]
+    case LATIN_SMALL_LETTER_C_WITH_RIGHT_LOOP = "\u{1DF92}";
+
+    #[Info(id: 0x1DF93, name: 'LATIN SMALL LETTER D ROTUNDA WITH DESCENDING CROSSING LOOP', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter, informativeAliases: ['dragma'])]
+    case LATIN_SMALL_LETTER_D_ROTUNDA_WITH_DESCENDING_CROSSING_LOOP = "\u{1DF93}";
+
+    #[Info(id: 0x1DF94, name: 'LATIN SMALL LETTER R ROTUNDA WITH LOOP', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter, informativeAliases: ['res, radix'])]
+    case LATIN_SMALL_LETTER_R_ROTUNDA_WITH_LOOP = "\u{1DF94}";
+
+    #[Info(id: 0x1DF95, name: 'LATIN SMALL LIGATURE LONG S WITH DESCENDER S', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter, informativeAliases: ['sursolidum'])]
+    case LATIN_SMALL_LIGATURE_LONG_S_WITH_DESCENDER_S = "\u{1DF95}";
+
+    #[Info(id: 0x1DF96, name: 'LATIN SMALL LETTER LONG S WITH TOP LOOP', block: Block::Latin_ExtendedG, category: Cat::Lowercase_Letter, informativeAliases: ['sursolidum'])]
+    case LATIN_SMALL_LETTER_LONG_S_WITH_TOP_LOOP = "\u{1DF96}";
+
+    #[Info(id: 0x1DFCD, name: 'MODIFIER LETTER SMALL TURNED R WITH MID-HEIGHT LEFT HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_R_WITH_MID_HEIGHT_LEFT_HOOK = "\u{1DFCD}";
+
+    #[Info(id: 0x1DFCE, name: 'MODIFIER LETTER SMALL SPLIT O', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_SPLIT_O = "\u{1DFCE}";
+
+    #[Info(id: 0x1DFCF, name: 'MODIFIER LETTER SMALL SPLIT U', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_SPLIT_U = "\u{1DFCF}";
+
+    #[Info(id: 0x1DFD0, name: 'LATIN SUBSCRIPT SMALL LETTER GAMMA', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case LATIN_SUBSCRIPT_SMALL_LETTER_GAMMA = "\u{1DFD0}";
+
+    #[Info(id: 0x1DFD1, name: 'MODIFIER LETTER SMALL CAPITAL P', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_CAPITAL_P = "\u{1DFD1}";
+
+    #[Info(id: 0x1DFD2, name: 'MODIFIER LETTER SMALL B WITH STROKE', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_B_WITH_STROKE = "\u{1DFD2}";
+
+    #[Info(id: 0x1DFD3, name: 'MODIFIER LETTER SMALL D WITH STROKE', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_D_WITH_STROKE = "\u{1DFD3}";
+
+    #[Info(id: 0x1DFD4, name: 'MODIFIER LETTER SMALL G WITH STROKE', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_G_WITH_STROKE = "\u{1DFD4}";
+
+    #[Info(id: 0x1DFD5, name: 'MODIFIER LETTER SMALL L WITH STROKE', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_L_WITH_STROKE = "\u{1DFD5}";
+
+    #[Info(id: 0x1DFD6, name: 'MODIFIER LETTER SMALL L WITH BAR', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_L_WITH_BAR = "\u{1DFD6}";
+
+    #[Info(id: 0x1DFD7, name: 'MODIFIER LETTER SMALL TURNED R WITH STROKE', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_R_WITH_STROKE = "\u{1DFD7}";
+
+    #[Info(id: 0x1DFD8, name: 'MODIFIER LETTER SMALL BARRED TURNED H', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_BARRED_TURNED_H = "\u{1DFD8}";
+
+    #[Info(id: 0x1DFD9, name: 'MODIFIER LETTER SMALL J WITH STROKE', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_J_WITH_STROKE = "\u{1DFD9}";
+
+    #[Info(id: 0x1DFDA, name: 'MODIFIER LETTER SMALL UPSILON WITH STROKE', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_UPSILON_WITH_STROKE = "\u{1DFDA}";
+
+    #[Info(id: 0x1DFDB, name: 'MODIFIER LETTER SMALL BARRED W', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_BARRED_W = "\u{1DFDB}";
+
+    #[Info(id: 0x1DFDC, name: 'MODIFIER LETTER SMALL N WITH LONG RIGHT LEG', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_N_WITH_LONG_RIGHT_LEG = "\u{1DFDC}";
+
+    #[Info(id: 0x1DFDD, name: 'MODIFIER LETTER SMALL R WITH LONG LEG', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_R_WITH_LONG_LEG = "\u{1DFDD}";
+
+    #[Info(id: 0x1DFDE, name: 'MODIFIER LETTER SMALL DB DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_DB_DIGRAPH = "\u{1DFDE}";
+
+    #[Info(id: 0x1DFDF, name: 'MODIFIER LETTER SMALL QP DIGRAPH', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_QP_DIGRAPH = "\u{1DFDF}";
+
+    #[Info(id: 0x1DFE0, name: 'MODIFIER LETTER SMALL DEZH DIGRAPH WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_DEZH_DIGRAPH_WITH_CURL = "\u{1DFE0}";
+
+    #[Info(id: 0x1DFE1, name: 'MODIFIER LETTER SMALL DEZH DIGRAPH WITH RETROFLEX HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_DEZH_DIGRAPH_WITH_RETROFLEX_HOOK = "\u{1DFE1}";
+
+    #[Info(id: 0x1DFE2, name: 'MODIFIER LETTER SMALL ESH WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_ESH_WITH_CURL = "\u{1DFE2}";
+
+    #[Info(id: 0x1DFE3, name: 'MODIFIER LETTER SMALL ESH WITH RETROFLEX HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_ESH_WITH_RETROFLEX_HOOK = "\u{1DFE3}";
+
+    #[Info(id: 0x1DFE4, name: 'MODIFIER LETTER SMALL TESH DIGRAPH WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TESH_DIGRAPH_WITH_CURL = "\u{1DFE4}";
+
+    #[Info(id: 0x1DFE5, name: 'MODIFIER LETTER SMALL TESH DIGRAPH WITH RETROFLEX HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TESH_DIGRAPH_WITH_RETROFLEX_HOOK = "\u{1DFE5}";
+
+    #[Info(id: 0x1DFE6, name: 'MODIFIER LETTER SMALL EZH WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_EZH_WITH_CURL = "\u{1DFE6}";
+
+    #[Info(id: 0x1DFE7, name: 'MODIFIER LETTER SMALL EZH WITH RETROFLEX HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_EZH_WITH_RETROFLEX_HOOK = "\u{1DFE7}";
+
+    #[Info(id: 0x1DFE8, name: 'MODIFIER LETTER SMALL CAPITAL D', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_CAPITAL_D = "\u{1DFE8}";
+
+    #[Info(id: 0x1DFE9, name: 'MODIFIER LETTER SMALL CAPITAL A', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_CAPITAL_A = "\u{1DFE9}";
+
+    #[Info(id: 0x1DFEA, name: 'MODIFIER LETTER SMALL CAPITAL E', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_CAPITAL_E = "\u{1DFEA}";
+
+    #[Info(id: 0x1DFEB, name: 'MODIFIER LETTER SMALL REVERSED R WITH FISHHOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_REVERSED_R_WITH_FISHHOOK = "\u{1DFEB}";
+
+    #[Info(id: 0x1DFEC, name: 'MODIFIER LETTER SMALL SQUAT REVERSED ESH', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_SQUAT_REVERSED_ESH = "\u{1DFEC}";
+
+    #[Info(id: 0x1DFED, name: 'MODIFIER LETTER SMALL TURNED H WITH FISHHOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_H_WITH_FISHHOOK = "\u{1DFED}";
+
+    #[Info(id: 0x1DFEE, name: 'MODIFIER LETTER SMALL TURNED H WITH FISHHOOK AND TAIL', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_H_WITH_FISHHOOK_AND_TAIL = "\u{1DFEE}";
+
+    #[Info(id: 0x1DFEF, name: 'MODIFIER LETTER SMALL D WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_D_WITH_CURL = "\u{1DFEF}";
+
+    #[Info(id: 0x1DFF0, name: 'MODIFIER LETTER SMALL L WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_L_WITH_CURL = "\u{1DFF0}";
+
+    #[Info(id: 0x1DFF1, name: 'MODIFIER LETTER SMALL N WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_N_WITH_CURL = "\u{1DFF1}";
+
+    #[Info(id: 0x1DFF2, name: 'MODIFIER LETTER SMALL T WITH CURL', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_T_WITH_CURL = "\u{1DFF2}";
+
+    #[Info(id: 0x1DFF3, name: 'MODIFIER LETTER SMALL GREEK PSI', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_GREEK_PSI = "\u{1DFF3}";
+
+    #[Info(id: 0x1DFF4, name: 'MODIFIER LETTER SMALL GREEK OMEGA', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_GREEK_OMEGA = "\u{1DFF4}";
+
+    #[Info(id: 0x1DFF5, name: 'MODIFIER LETTER SMALL D WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_D_WITH_PALATAL_HOOK = "\u{1DFF5}";
+
+    #[Info(id: 0x1DFF6, name: 'MODIFIER LETTER SMALL H WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_H_WITH_PALATAL_HOOK = "\u{1DFF6}";
+
+    #[Info(id: 0x1DFF7, name: 'MODIFIER LETTER SMALL N WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_N_WITH_PALATAL_HOOK = "\u{1DFF7}";
+
+    #[Info(id: 0x1DFF8, name: 'MODIFIER LETTER SMALL S WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_S_WITH_PALATAL_HOOK = "\u{1DFF8}";
+
+    #[Info(id: 0x1DFF9, name: 'MODIFIER LETTER SMALL Z WITH PALATAL HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_Z_WITH_PALATAL_HOOK = "\u{1DFF9}";
+
+    #[Info(id: 0x1DFFA, name: 'MODIFIER LETTER SMALL C WITH HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_C_WITH_HOOK = "\u{1DFFA}";
+
+    #[Info(id: 0x1DFFB, name: 'MODIFIER LETTER SMALL K WITH HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_K_WITH_HOOK = "\u{1DFFB}";
+
+    #[Info(id: 0x1DFFC, name: 'MODIFIER LETTER SMALL P WITH HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_P_WITH_HOOK = "\u{1DFFC}";
+
+    #[Info(id: 0x1DFFD, name: 'MODIFIER LETTER SMALL Q WITH HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_Q_WITH_HOOK = "\u{1DFFD}";
+
+    #[Info(id: 0x1DFFE, name: 'MODIFIER LETTER SMALL T WITH HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_T_WITH_HOOK = "\u{1DFFE}";
+
+    #[Info(id: 0x1DFFF, name: 'MODIFIER LETTER SMALL T WITH HOOK AND RETROFLEX HOOK', block: Block::Latin_ExtendedG, category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_T_WITH_HOOK_AND_RETROFLEX_HOOK = "\u{1DFFF}";
 
     // Block: Glagolitic Supplement
 
@@ -112953,6 +115176,9 @@ enum Codepoint: string
     #[Info(id: 0x1F1AD, name: 'MASK WORK SYMBOL', block: Block::Enclosed_Alphanumeric_Supplement, category: Cat::Other_Symbol)]
     case MASK_WORK_SYMBOL = "\u{1F1AD}";
 
+    #[Info(id: 0x1F1AE, name: 'TOMOBIKI SYMBOL', block: Block::Enclosed_Alphanumeric_Supplement, category: Cat::Other_Symbol)]
+    case TOMOBIKI_SYMBOL = "\u{1F1AE}";
+
     #[Info(id: 0x1F1E6, name: 'REGIONAL INDICATOR SYMBOL LETTER A', block: Block::Enclosed_Alphanumeric_Supplement, category: Cat::Other_Symbol)]
     case REGIONAL_INDICATOR_SYMBOL_LETTER_A = "\u{1F1E6}";
 
@@ -116188,6 +118414,9 @@ enum Codepoint: string
     #[Info(id: 0x1F6D8, name: 'LANDSLIDE', block: Block::Transport_and_Map_Symbols, category: Cat::Other_Symbol)]
     case LANDSLIDE = "\u{1F6D8}";
 
+    #[Info(id: 0x1F6D9, name: 'LIGHTHOUSE', block: Block::Transport_and_Map_Symbols, category: Cat::Other_Symbol)]
+    case LIGHTHOUSE = "\u{1F6D9}";
+
     #[Info(id: 0x1F6DC, name: 'WIRELESS', block: Block::Transport_and_Map_Symbols, category: Cat::Other_Symbol)]
     case WIRELESS = "\u{1F6DC}";
 
@@ -116936,6 +119165,12 @@ enum Codepoint: string
     #[Info(id: 0x1F7D9, name: 'NINE POINTED WHITE STAR', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
     case NINE_POINTED_WHITE_STAR = "\u{1F7D9}";
 
+    #[Info(id: 0x1F7DA, name: 'BLACK CIRCLE WITH WHITE VERTICAL BAR', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case BLACK_CIRCLE_WITH_WHITE_VERTICAL_BAR = "\u{1F7DA}";
+
+    #[Info(id: 0x1F7DB, name: 'BULLET IN DOUBLE CIRCLE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case BULLET_IN_DOUBLE_CIRCLE = "\u{1F7DB}";
+
     #[Info(id: 0x1F7E0, name: 'LARGE ORANGE CIRCLE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
     case LARGE_ORANGE_CIRCLE = "\u{1F7E0}";
 
@@ -116974,6 +119209,51 @@ enum Codepoint: string
 
     #[Info(id: 0x1F7F0, name: 'HEAVY EQUALS SIGN', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
     case HEAVY_EQUALS_SIGN = "\u{1F7F0}";
+
+    #[Info(id: 0x1F7F1, name: 'CIRCLE WITH DOUBLE VERTICAL AND HORIZONTAL LINE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case CIRCLE_WITH_DOUBLE_VERTICAL_AND_HORIZONTAL_LINE = "\u{1F7F1}";
+
+    #[Info(id: 0x1F7F2, name: 'DOUBLE CIRCLE WITH DOUBLE HORIZONTAL LINE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case DOUBLE_CIRCLE_WITH_DOUBLE_HORIZONTAL_LINE = "\u{1F7F2}";
+
+    #[Info(id: 0x1F7F3, name: 'CIRCLED BOTTOM RIGHT OBLIQUE HALF BLACK CIRCLE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case CIRCLED_BOTTOM_RIGHT_OBLIQUE_HALF_BLACK_CIRCLE = "\u{1F7F3}";
+
+    #[Info(id: 0x1F7F4, name: 'LEFT HALF WHITE CIRCLE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case LEFT_HALF_WHITE_CIRCLE = "\u{1F7F4}";
+
+    #[Info(id: 0x1F7F5, name: 'RIGHT HALF WHITE CIRCLE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case RIGHT_HALF_WHITE_CIRCLE = "\u{1F7F5}";
+
+    #[Info(id: 0x1F7F6, name: 'TRANSPARENT CUBE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case TRANSPARENT_CUBE = "\u{1F7F6}";
+
+    #[Info(id: 0x1F7F7, name: 'WHITE CUBE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case WHITE_CUBE = "\u{1F7F7}";
+
+    #[Info(id: 0x1F7F8, name: 'HORIZONTAL DOUBLE WHITE SMALL SQUARE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case HORIZONTAL_DOUBLE_WHITE_SMALL_SQUARE = "\u{1F7F8}";
+
+    #[Info(id: 0x1F7F9, name: 'VERTICAL DOUBLE WHITE SMALL SQUARE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case VERTICAL_DOUBLE_WHITE_SMALL_SQUARE = "\u{1F7F9}";
+
+    #[Info(id: 0x1F7FA, name: 'WHITE SQUARE WITH BOTTOM HALF BISECTED', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case WHITE_SQUARE_WITH_BOTTOM_HALF_BISECTED = "\u{1F7FA}";
+
+    #[Info(id: 0x1F7FB, name: 'WHITE SQUARE WITH TOP HALF BISECTED', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case WHITE_SQUARE_WITH_TOP_HALF_BISECTED = "\u{1F7FB}";
+
+    #[Info(id: 0x1F7FC, name: 'WHITE SQUARE WITH HORIZONTAL AND VERTICAL BISECTING LINES', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case WHITE_SQUARE_WITH_HORIZONTAL_AND_VERTICAL_BISECTING_LINES = "\u{1F7FC}";
+
+    #[Info(id: 0x1F7FD, name: 'LOWER LEFT FLATTENED RIGHT TRIANGLE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case LOWER_LEFT_FLATTENED_RIGHT_TRIANGLE = "\u{1F7FD}";
+
+    #[Info(id: 0x1F7FE, name: 'LOWER RIGHT FLATTENED RIGHT TRIANGLE', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case LOWER_RIGHT_FLATTENED_RIGHT_TRIANGLE = "\u{1F7FE}";
+
+    #[Info(id: 0x1F7FF, name: 'RHOMBUS', block: Block::Geometric_Shapes_Extended, category: Cat::Other_Symbol)]
+    case RHOMBUS = "\u{1F7FF}";
 
     // Block: Supplemental Arrows-C
 
@@ -118642,6 +120922,15 @@ enum Codepoint: string
     #[Info(id: 0x1FA8A, name: 'TROMBONE', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
     case TROMBONE = "\u{1FA8A}";
 
+    #[Info(id: 0x1FA8B, name: 'METEOR', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
+    case METEOR = "\u{1FA8B}";
+
+    #[Info(id: 0x1FA8C, name: 'ERASER', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
+    case ERASER = "\u{1FA8C}";
+
+    #[Info(id: 0x1FA8D, name: 'NET WITH HANDLE', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
+    case NET_WITH_HANDLE = "\u{1FA8D}";
+
     #[Info(id: 0x1FA8E, name: 'TREASURE CHEST', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
     case TREASURE_CHEST = "\u{1FA8E}";
 
@@ -118816,6 +121105,9 @@ enum Codepoint: string
     #[Info(id: 0x1FAC8, name: 'HAIRY CREATURE', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
     case HAIRY_CREATURE = "\u{1FAC8}";
 
+    #[Info(id: 0x1FACC, name: 'MONARCH BUTTERFLY', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
+    case MONARCH_BUTTERFLY = "\u{1FACC}";
+
     #[Info(id: 0x1FACD, name: 'ORCA', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
     case ORCA = "\u{1FACD}";
 
@@ -118864,6 +121156,9 @@ enum Codepoint: string
     #[Info(id: 0x1FADC, name: 'ROOT VEGETABLE', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
     case ROOT_VEGETABLE = "\u{1FADC}";
 
+    #[Info(id: 0x1FADD, name: 'PICKLE', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
+    case PICKLE = "\u{1FADD}";
+
     #[Info(id: 0x1FADF, name: 'SPLATTER', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
     case SPLATTER = "\u{1FADF}";
 
@@ -118900,6 +121195,9 @@ enum Codepoint: string
     #[Info(id: 0x1FAEA, name: 'DISTORTED FACE', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
     case DISTORTED_FACE = "\u{1FAEA}";
 
+    #[Info(id: 0x1FAEB, name: 'CRACKING FACE', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
+    case CRACKING_FACE = "\u{1FAEB}";
+
     #[Info(id: 0x1FAEF, name: 'FIGHT CLOUD', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
     case FIGHT_CLOUD = "\u{1FAEF}";
 
@@ -118929,6 +121227,12 @@ enum Codepoint: string
 
     #[Info(id: 0x1FAF8, name: 'RIGHTWARDS PUSHING HAND', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
     case RIGHTWARDS_PUSHING_HAND = "\u{1FAF8}";
+
+    #[Info(id: 0x1FAF9, name: 'LEFTWARDS THUMB SIGN', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
+    case LEFTWARDS_THUMB_SIGN = "\u{1FAF9}";
+
+    #[Info(id: 0x1FAFA, name: 'RIGHTWARDS THUMB SIGN', block: Block::Symbols_and_Pictographs_ExtendedA, category: Cat::Other_Symbol)]
+    case RIGHTWARDS_THUMB_SIGN = "\u{1FAFA}";
 
     // Block: Symbols for Legacy Computing
 
@@ -119705,8 +122009,8 @@ enum Codepoint: string
     #[Info(id: 0x2B740, name: 'CJK Ideograph Extension D, First', block: Block::CJK_Unified_Ideographs_Extension_D, category: Cat::Other_Letter)]
     case CJK_Ideograph_Extension_D__First = "\u{2B740}";
 
-    #[Info(id: 0x2B81D, name: 'CJK Ideograph Extension D, Last', block: Block::CJK_Unified_Ideographs_Extension_D, category: Cat::Other_Letter)]
-    case CJK_Ideograph_Extension_D__Last = "\u{2B81D}";
+    #[Info(id: 0x2B81E, name: 'CJK Ideograph Extension D, Last', block: Block::CJK_Unified_Ideographs_Extension_D, category: Cat::Other_Letter)]
+    case CJK_Ideograph_Extension_D__Last = "\u{2B81E}";
 
     // Block: CJK Unified Ideographs Extension E
 
@@ -121385,6 +123689,14 @@ enum Codepoint: string
 
     #[Info(id: 0x33479, name: 'CJK Ideograph Extension J, Last', block: Block::CJK_Unified_Ideographs_Extension_J, category: Cat::Other_Letter)]
     case CJK_Ideograph_Extension_J__Last = "\u{33479}";
+
+    // Block: Seal
+
+    #[Info(id: 0x3D000, name: 'Seal Character, First', block: Block::Seal, category: Cat::Other_Letter)]
+    case Seal_Character__First = "\u{3D000}";
+
+    #[Info(id: 0x3FC3F, name: 'Seal Character, Last', block: Block::Seal, category: Cat::Other_Letter)]
+    case Seal_Character__Last = "\u{3FC3F}";
 
     // Plane: 14 (Supplementary Special-purpose Plane}
 

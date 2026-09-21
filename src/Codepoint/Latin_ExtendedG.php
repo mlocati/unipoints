@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Latin_ExtendedG: string
 {
     #[Info(id: 0x1DF00, name: 'LATIN SMALL LETTER FENG DIGRAPH WITH TRILL', category: Cat::Lowercase_Letter)]
@@ -109,6 +109,24 @@ enum Latin_ExtendedG: string
     #[Info(id: 0x1DF1E, name: 'LATIN SMALL LETTER S WITH CURL', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_S_WITH_CURL = "\u{1DF1E}";
 
+    #[Info(id: 0x1DF1F, name: 'LATIN SMALL LETTER D-ETH DIGRAPH', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_D_ETH_DIGRAPH = "\u{1DF1F}";
+
+    #[Info(id: 0x1DF20, name: 'LATIN SMALL LETTER D-LEZH DIGRAPH', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_D_LEZH_DIGRAPH = "\u{1DF20}";
+
+    #[Info(id: 0x1DF21, name: 'LATIN SMALL LETTER D-LEZH DIGRAPH WITH RETROFLEX HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_D_LEZH_DIGRAPH_WITH_RETROFLEX_HOOK = "\u{1DF21}";
+
+    #[Info(id: 0x1DF22, name: 'LATIN SMALL LETTER TL DIGRAPH WITH BELT', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TL_DIGRAPH_WITH_BELT = "\u{1DF22}";
+
+    #[Info(id: 0x1DF23, name: 'LATIN SMALL LETTER TL DIGRAPH WITH RETROFLEX HOOK AND BELT', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TL_DIGRAPH_WITH_RETROFLEX_HOOK_AND_BELT = "\u{1DF23}";
+
+    #[Info(id: 0x1DF24, name: 'LATIN SMALL LETTER T-THETA DIGRAPH', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_T_THETA_DIGRAPH = "\u{1DF24}";
+
     #[Info(id: 0x1DF25, name: 'LATIN SMALL LETTER D WITH MID-HEIGHT LEFT HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_D_WITH_MID_HEIGHT_LEFT_HOOK = "\u{1DF25}";
 
@@ -126,4 +144,439 @@ enum Latin_ExtendedG: string
 
     #[Info(id: 0x1DF2A, name: 'LATIN SMALL LETTER T WITH MID-HEIGHT LEFT HOOK', category: Cat::Lowercase_Letter)]
     case LATIN_SMALL_LETTER_T_WITH_MID_HEIGHT_LEFT_HOOK = "\u{1DF2A}";
+
+    #[Info(id: 0x1DF2B, name: 'LATIN SMALL LETTER DEZH DIGRAPH WITH CURL', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_DEZH_DIGRAPH_WITH_CURL = "\u{1DF2B}";
+
+    #[Info(id: 0x1DF2C, name: 'LATIN SMALL LETTER TESH DIGRAPH WITH CURL', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TESH_DIGRAPH_WITH_CURL = "\u{1DF2C}";
+
+    #[Info(id: 0x1DF2D, name: 'LATIN SMALL LETTER D WITH HOOK AND PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_D_WITH_HOOK_AND_PALATAL_HOOK = "\u{1DF2D}";
+
+    #[Info(id: 0x1DF2E, name: 'LATIN SMALL LETTER DZ DIGRAPH WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_DZ_DIGRAPH_WITH_PALATAL_HOOK = "\u{1DF2E}";
+
+    #[Info(id: 0x1DF2F, name: 'LATIN SMALL LETTER ETH WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_ETH_WITH_PALATAL_HOOK = "\u{1DF2F}";
+
+    #[Info(id: 0x1DF30, name: 'LATIN LETTER SMALL CAPITAL G WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_SMALL_CAPITAL_G_WITH_PALATAL_HOOK = "\u{1DF30}";
+
+    #[Info(id: 0x1DF31, name: 'LATIN SMALL LETTER GAMMA WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_GAMMA_WITH_PALATAL_HOOK = "\u{1DF31}";
+
+    #[Info(id: 0x1DF32, name: 'LATIN SMALL LETTER H WITH STROKE AND PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_H_WITH_STROKE_AND_PALATAL_HOOK = "\u{1DF32}";
+
+    #[Info(id: 0x1DF33, name: 'LATIN SMALL LETTER PHI WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_PHI_WITH_PALATAL_HOOK = "\u{1DF33}";
+
+    #[Info(id: 0x1DF34, name: 'LATIN SMALL LETTER Q WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_Q_WITH_PALATAL_HOOK = "\u{1DF34}";
+
+    #[Info(id: 0x1DF35, name: 'LATIN LETTER SMALL CAPITAL R WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_SMALL_CAPITAL_R_WITH_PALATAL_HOOK = "\u{1DF35}";
+
+    #[Info(id: 0x1DF36, name: 'LATIN LETTER SMALL CAPITAL INVERTED R WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_SMALL_CAPITAL_INVERTED_R_WITH_PALATAL_HOOK = "\u{1DF36}";
+
+    #[Info(id: 0x1DF37, name: 'LATIN SMALL LETTER R WITH TAIL AND PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_R_WITH_TAIL_AND_PALATAL_HOOK = "\u{1DF37}";
+
+    #[Info(id: 0x1DF38, name: 'LATIN SMALL LETTER TS DIGRAPH WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TS_DIGRAPH_WITH_PALATAL_HOOK = "\u{1DF38}";
+
+    #[Info(id: 0x1DF39, name: 'LATIN SMALL LETTER V WITH HOOK AND PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_V_WITH_HOOK_AND_PALATAL_HOOK = "\u{1DF39}";
+
+    #[Info(id: 0x1DF3A, name: 'LATIN LETTER PHARYNGEAL VOICED FRICATIVE WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_PHARYNGEAL_VOICED_FRICATIVE_WITH_PALATAL_HOOK = "\u{1DF3A}";
+
+    #[Info(id: 0x1DF3B, name: 'LATIN SMALL LETTER BETA WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BETA_WITH_PALATAL_HOOK = "\u{1DF3B}";
+
+    #[Info(id: 0x1DF3C, name: 'LATIN SMALL LETTER THETA WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_THETA_WITH_PALATAL_HOOK = "\u{1DF3C}";
+
+    #[Info(id: 0x1DF3D, name: 'LATIN SMALL LETTER CHI WITH PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_CHI_WITH_PALATAL_HOOK = "\u{1DF3D}";
+
+    #[Info(id: 0x1DF3E, name: 'LATIN SMALL LETTER BARRED TURNED H', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_TURNED_H = "\u{1DF3E}";
+
+    #[Info(id: 0x1DF3F, name: 'LATIN SMALL LETTER BARRED W', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_W = "\u{1DF3F}";
+
+    #[Info(id: 0x1DF40, name: 'LATIN CAPITAL LETTER BARRED A', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_BARRED_A = "\u{1DF40}";
+
+    #[Info(id: 0x1DF41, name: 'LATIN SMALL LETTER BARRED A', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_A = "\u{1DF41}";
+
+    #[Info(id: 0x1DF42, name: 'LATIN SMALL LETTER BARRED OPEN O', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_OPEN_O = "\u{1DF42}";
+
+    #[Info(id: 0x1DF43, name: 'LATIN LETTER SMALL CAPITAL BARRED E', category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_SMALL_CAPITAL_BARRED_E = "\u{1DF43}";
+
+    #[Info(id: 0x1DF44, name: 'LATIN SMALL LETTER BARRED OPEN E', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_OPEN_E = "\u{1DF44}";
+
+    #[Info(id: 0x1DF45, name: 'LATIN SMALL LETTER G WITH STROKE AND PALATAL HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_G_WITH_STROKE_AND_PALATAL_HOOK = "\u{1DF45}";
+
+    #[Info(id: 0x1DF46, name: 'LATIN SMALL LETTER BARRED H', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_H = "\u{1DF46}";
+
+    #[Info(id: 0x1DF47, name: 'LATIN SMALL LETTER BARRED H WITH HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_H_WITH_HOOK = "\u{1DF47}";
+
+    #[Info(id: 0x1DF48, name: 'LATIN CAPITAL LETTER BARRED K', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_BARRED_K = "\u{1DF48}";
+
+    #[Info(id: 0x1DF49, name: 'LATIN SMALL LETTER BARRED K', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_K = "\u{1DF49}";
+
+    #[Info(id: 0x1DF4A, name: 'LATIN CAPITAL LETTER BARRED M', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_BARRED_M = "\u{1DF4A}";
+
+    #[Info(id: 0x1DF4B, name: 'LATIN SMALL LETTER BARRED M', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_M = "\u{1DF4B}";
+
+    #[Info(id: 0x1DF4C, name: 'LATIN SMALL LETTER BARRED M WITH HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_M_WITH_HOOK = "\u{1DF4C}";
+
+    #[Info(id: 0x1DF4D, name: 'LATIN CAPITAL LETTER BARRED N', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_BARRED_N = "\u{1DF4D}";
+
+    #[Info(id: 0x1DF4E, name: 'LATIN SMALL LETTER BARRED N', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_N = "\u{1DF4E}";
+
+    #[Info(id: 0x1DF4F, name: 'LATIN SMALL LETTER BARRED ENG', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_ENG = "\u{1DF4F}";
+
+    #[Info(id: 0x1DF50, name: 'LATIN SMALL LETTER TURNED R WITH STROKE', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TURNED_R_WITH_STROKE = "\u{1DF50}";
+
+    #[Info(id: 0x1DF51, name: 'LATIN CAPITAL LETTER BARRED V', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_BARRED_V = "\u{1DF51}";
+
+    #[Info(id: 0x1DF52, name: 'LATIN SMALL LETTER BARRED V', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_V = "\u{1DF52}";
+
+    #[Info(id: 0x1DF53, name: 'LATIN SMALL LETTER BARRED CLOSED OMEGA', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_CLOSED_OMEGA = "\u{1DF53}";
+
+    #[Info(id: 0x1DF54, name: 'LATIN SMALL LETTER BARRED CHI', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_BARRED_CHI = "\u{1DF54}";
+
+    #[Info(id: 0x1DF55, name: 'LATIN SMALL LETTER Y WITH LOW STROKE', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_Y_WITH_LOW_STROKE = "\u{1DF55}";
+
+    #[Info(id: 0x1DF56, name: 'LATIN LETTER GLOTTAL STOP WITH DOUBLE STROKE', category: Cat::Lowercase_Letter)]
+    case LATIN_LETTER_GLOTTAL_STOP_WITH_DOUBLE_STROKE = "\u{1DF56}";
+
+    #[Info(id: 0x1DF57, name: 'LATIN SMALL LETTER TURNED R WITH MID-HEIGHT LEFT HOOK', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TURNED_R_WITH_MID_HEIGHT_LEFT_HOOK = "\u{1DF57}";
+
+    #[Info(id: 0x1DF58, name: 'LATIN SMALL LETTER SPLIT O', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_SPLIT_O = "\u{1DF58}";
+
+    #[Info(id: 0x1DF59, name: 'LATIN SMALL LETTER SPLIT U', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_SPLIT_U = "\u{1DF59}";
+
+    #[Info(id: 0x1DF5A, name: 'LATIN SMALL LETTER HALF A', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_HALF_A = "\u{1DF5A}";
+
+    #[Info(id: 0x1DF5B, name: 'LATIN SMALL LETTER STRETCHED C-H DIGRAPH', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_STRETCHED_C_H_DIGRAPH = "\u{1DF5B}";
+
+    #[Info(id: 0x1DF5C, name: 'LATIN SMALL LETTER LUNATE EE', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_LUNATE_EE = "\u{1DF5C}";
+
+    #[Info(id: 0x1DF5D, name: 'LATIN SMALL LETTER IE', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_IE = "\u{1DF5D}";
+
+    #[Info(id: 0x1DF5E, name: 'LATIN SMALL LETTER OI DIGRAPH', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_OI_DIGRAPH = "\u{1DF5E}";
+
+    #[Info(id: 0x1DF5F, name: 'LATIN SMALL LETTER OU DIGRAPH', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_OU_DIGRAPH = "\u{1DF5F}";
+
+    #[Info(id: 0x1DF60, name: 'LATIN SMALL LETTER OMEGA WITH LOOP', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_OMEGA_WITH_LOOP = "\u{1DF60}";
+
+    #[Info(id: 0x1DF61, name: 'LATIN SMALL LETTER R WITH LEFT TIE', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_R_WITH_LEFT_TIE = "\u{1DF61}";
+
+    #[Info(id: 0x1DF62, name: 'LATIN SMALL LETTER ESH-H DIGRAPH', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_ESH_H_DIGRAPH = "\u{1DF62}";
+
+    #[Info(id: 0x1DF63, name: 'LATIN SMALL LETTER STRETCHED T-H DIGRAPH', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_STRETCHED_T_H_DIGRAPH = "\u{1DF63}";
+
+    #[Info(id: 0x1DF64, name: 'LATIN SMALL LETTER REVERSED T-H DIGRAPH', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_REVERSED_T_H_DIGRAPH = "\u{1DF64}";
+
+    #[Info(id: 0x1DF65, name: 'LATIN SMALL LETTER WH DIGRAPH', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_WH_DIGRAPH = "\u{1DF65}";
+
+    #[Info(id: 0x1DF66, name: 'LATIN SMALL LETTER REVERSED Z', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_REVERSED_Z = "\u{1DF66}";
+
+    #[Info(id: 0x1DF67, name: 'LATIN SMALL LETTER LEZH WITH CURL', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_LEZH_WITH_CURL = "\u{1DF67}";
+
+    #[Info(id: 0x1DF68, name: 'LATIN CAPITAL LETTER PHONOTYPIC A WITH SWASH', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_PHONOTYPIC_A_WITH_SWASH = "\u{1DF68}";
+
+    #[Info(id: 0x1DF69, name: 'LATIN SMALL LETTER PHONOTYPIC A WITH SWASH', category: Cat::Lowercase_Letter, informativeAliases: ['latin small letter a with hook tail'])]
+    case LATIN_SMALL_LETTER_PHONOTYPIC_A_WITH_SWASH = "\u{1DF69}";
+
+    #[Info(id: 0x1DF6A, name: 'LATIN CAPITAL LETTER PHONOTYPIC ROUNDTOP A', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_PHONOTYPIC_ROUNDTOP_A = "\u{1DF6A}";
+
+    #[Info(id: 0x1DF6B, name: 'LATIN SMALL LETTER PHONOTYPIC ROUNDTOP A', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_PHONOTYPIC_ROUNDTOP_A = "\u{1DF6B}";
+
+    #[Info(id: 0x1DF6C, name: 'LATIN CAPITAL LETTER REVERSED SCRUPLE', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_REVERSED_SCRUPLE = "\u{1DF6C}";
+
+    #[Info(id: 0x1DF6D, name: 'LATIN SMALL LETTER REVERSED SCRUPLE', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_REVERSED_SCRUPLE = "\u{1DF6D}";
+
+    #[Info(id: 0x1DF6E, name: 'LATIN CAPITAL LETTER PHONOTYPIC DIPHTHONG AI', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_PHONOTYPIC_DIPHTHONG_AI = "\u{1DF6E}";
+
+    #[Info(id: 0x1DF6F, name: 'LATIN SMALL LETTER PHONOTYPIC DIPHTHONG AI', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_PHONOTYPIC_DIPHTHONG_AI = "\u{1DF6F}";
+
+    #[Info(id: 0x1DF70, name: 'LATIN SMALL LETTER I WITH PIGTAIL AT BOTTOM', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_I_WITH_PIGTAIL_AT_BOTTOM = "\u{1DF70}";
+
+    #[Info(id: 0x1DF71, name: 'LATIN SMALL LETTER STRETCHED I', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_STRETCHED_I = "\u{1DF71}";
+
+    #[Info(id: 0x1DF72, name: 'LATIN CAPITAL LETTER O WITH CURL', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_O_WITH_CURL = "\u{1DF72}";
+
+    #[Info(id: 0x1DF73, name: 'LATIN SMALL LETTER O WITH CURL', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_O_WITH_CURL = "\u{1DF73}";
+
+    #[Info(id: 0x1DF74, name: 'LATIN CAPITAL LETTER CLOSED OMEGA WITH LONG STEM', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_CLOSED_OMEGA_WITH_LONG_STEM = "\u{1DF74}";
+
+    #[Info(id: 0x1DF75, name: 'LATIN SMALL LETTER CLOSED OMEGA WITH LONG STEM', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_CLOSED_OMEGA_WITH_LONG_STEM = "\u{1DF75}";
+
+    #[Info(id: 0x1DF76, name: 'LATIN CAPITAL LETTER TURNED CLOSED OMEGA', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_TURNED_CLOSED_OMEGA = "\u{1DF76}";
+
+    #[Info(id: 0x1DF77, name: 'LATIN SMALL LETTER TURNED CLOSED OMEGA', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_TURNED_CLOSED_OMEGA = "\u{1DF77}";
+
+    #[Info(id: 0x1DF78, name: 'LATIN CAPITAL LETTER PHONOTYPIC TH', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_PHONOTYPIC_TH = "\u{1DF78}";
+
+    #[Info(id: 0x1DF79, name: 'LATIN SMALL LETTER PHONOTYPIC TH', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_PHONOTYPIC_TH = "\u{1DF79}";
+
+    #[Info(id: 0x1DF7A, name: 'LATIN CAPITAL LETTER U WITH HOOK TAIL', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_U_WITH_HOOK_TAIL = "\u{1DF7A}";
+
+    #[Info(id: 0x1DF7B, name: 'LATIN SMALL LETTER U WITH HOOK TAIL', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_U_WITH_HOOK_TAIL = "\u{1DF7B}";
+
+    #[Info(id: 0x1DF7C, name: 'LATIN CAPITAL LETTER U WITH NOTCH AT BOTTOM', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_U_WITH_NOTCH_AT_BOTTOM = "\u{1DF7C}";
+
+    #[Info(id: 0x1DF7D, name: 'LATIN SMALL LETTER U WITH NOTCH AT BOTTOM', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_U_WITH_NOTCH_AT_BOTTOM = "\u{1DF7D}";
+
+    #[Info(id: 0x1DF7E, name: 'LATIN CAPITAL LETTER REVERSED U', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_REVERSED_U = "\u{1DF7E}";
+
+    #[Info(id: 0x1DF7F, name: 'LATIN SMALL LETTER REVERSED U', category: Cat::Lowercase_Letter)]
+    case LATIN_SMALL_LETTER_REVERSED_U = "\u{1DF7F}";
+
+    #[Info(id: 0x1DF80, name: 'LATIN CAPITAL LETTER A WITH TOPBAR', category: Cat::Other_Letter)]
+    case LATIN_CAPITAL_LETTER_A_WITH_TOPBAR = "\u{1DF80}";
+
+    #[Info(id: 0x1DF81, name: 'LATIN CAPITAL LETTER E WITH BENT TOPBAR', category: Cat::Other_Letter)]
+    case LATIN_CAPITAL_LETTER_E_WITH_BENT_TOPBAR = "\u{1DF81}";
+
+    #[Info(id: 0x1DF90, name: 'LATIN SMALL LETTER C WITH LOW SLASH', category: Cat::Lowercase_Letter, informativeAliases: ['cubus'])]
+    case LATIN_SMALL_LETTER_C_WITH_LOW_SLASH = "\u{1DF90}";
+
+    #[Info(id: 0x1DF91, name: 'LATIN SMALL LETTER C WITH LOOPED CEDILLA', category: Cat::Lowercase_Letter, informativeAliases: ['census'])]
+    case LATIN_SMALL_LETTER_C_WITH_LOOPED_CEDILLA = "\u{1DF91}";
+
+    #[Info(id: 0x1DF92, name: 'LATIN SMALL LETTER C WITH RIGHT LOOP', category: Cat::Lowercase_Letter, informativeAliases: ['cubus'])]
+    case LATIN_SMALL_LETTER_C_WITH_RIGHT_LOOP = "\u{1DF92}";
+
+    #[Info(id: 0x1DF93, name: 'LATIN SMALL LETTER D ROTUNDA WITH DESCENDING CROSSING LOOP', category: Cat::Lowercase_Letter, informativeAliases: ['dragma'])]
+    case LATIN_SMALL_LETTER_D_ROTUNDA_WITH_DESCENDING_CROSSING_LOOP = "\u{1DF93}";
+
+    #[Info(id: 0x1DF94, name: 'LATIN SMALL LETTER R ROTUNDA WITH LOOP', category: Cat::Lowercase_Letter, informativeAliases: ['res, radix'])]
+    case LATIN_SMALL_LETTER_R_ROTUNDA_WITH_LOOP = "\u{1DF94}";
+
+    #[Info(id: 0x1DF95, name: 'LATIN SMALL LIGATURE LONG S WITH DESCENDER S', category: Cat::Lowercase_Letter, informativeAliases: ['sursolidum'])]
+    case LATIN_SMALL_LIGATURE_LONG_S_WITH_DESCENDER_S = "\u{1DF95}";
+
+    #[Info(id: 0x1DF96, name: 'LATIN SMALL LETTER LONG S WITH TOP LOOP', category: Cat::Lowercase_Letter, informativeAliases: ['sursolidum'])]
+    case LATIN_SMALL_LETTER_LONG_S_WITH_TOP_LOOP = "\u{1DF96}";
+
+    #[Info(id: 0x1DFCD, name: 'MODIFIER LETTER SMALL TURNED R WITH MID-HEIGHT LEFT HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_R_WITH_MID_HEIGHT_LEFT_HOOK = "\u{1DFCD}";
+
+    #[Info(id: 0x1DFCE, name: 'MODIFIER LETTER SMALL SPLIT O', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_SPLIT_O = "\u{1DFCE}";
+
+    #[Info(id: 0x1DFCF, name: 'MODIFIER LETTER SMALL SPLIT U', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_SPLIT_U = "\u{1DFCF}";
+
+    #[Info(id: 0x1DFD0, name: 'LATIN SUBSCRIPT SMALL LETTER GAMMA', category: Cat::Modifier_Letter)]
+    case LATIN_SUBSCRIPT_SMALL_LETTER_GAMMA = "\u{1DFD0}";
+
+    #[Info(id: 0x1DFD1, name: 'MODIFIER LETTER SMALL CAPITAL P', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_CAPITAL_P = "\u{1DFD1}";
+
+    #[Info(id: 0x1DFD2, name: 'MODIFIER LETTER SMALL B WITH STROKE', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_B_WITH_STROKE = "\u{1DFD2}";
+
+    #[Info(id: 0x1DFD3, name: 'MODIFIER LETTER SMALL D WITH STROKE', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_D_WITH_STROKE = "\u{1DFD3}";
+
+    #[Info(id: 0x1DFD4, name: 'MODIFIER LETTER SMALL G WITH STROKE', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_G_WITH_STROKE = "\u{1DFD4}";
+
+    #[Info(id: 0x1DFD5, name: 'MODIFIER LETTER SMALL L WITH STROKE', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_L_WITH_STROKE = "\u{1DFD5}";
+
+    #[Info(id: 0x1DFD6, name: 'MODIFIER LETTER SMALL L WITH BAR', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_L_WITH_BAR = "\u{1DFD6}";
+
+    #[Info(id: 0x1DFD7, name: 'MODIFIER LETTER SMALL TURNED R WITH STROKE', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_R_WITH_STROKE = "\u{1DFD7}";
+
+    #[Info(id: 0x1DFD8, name: 'MODIFIER LETTER SMALL BARRED TURNED H', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_BARRED_TURNED_H = "\u{1DFD8}";
+
+    #[Info(id: 0x1DFD9, name: 'MODIFIER LETTER SMALL J WITH STROKE', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_J_WITH_STROKE = "\u{1DFD9}";
+
+    #[Info(id: 0x1DFDA, name: 'MODIFIER LETTER SMALL UPSILON WITH STROKE', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_UPSILON_WITH_STROKE = "\u{1DFDA}";
+
+    #[Info(id: 0x1DFDB, name: 'MODIFIER LETTER SMALL BARRED W', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_BARRED_W = "\u{1DFDB}";
+
+    #[Info(id: 0x1DFDC, name: 'MODIFIER LETTER SMALL N WITH LONG RIGHT LEG', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_N_WITH_LONG_RIGHT_LEG = "\u{1DFDC}";
+
+    #[Info(id: 0x1DFDD, name: 'MODIFIER LETTER SMALL R WITH LONG LEG', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_R_WITH_LONG_LEG = "\u{1DFDD}";
+
+    #[Info(id: 0x1DFDE, name: 'MODIFIER LETTER SMALL DB DIGRAPH', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_DB_DIGRAPH = "\u{1DFDE}";
+
+    #[Info(id: 0x1DFDF, name: 'MODIFIER LETTER SMALL QP DIGRAPH', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_QP_DIGRAPH = "\u{1DFDF}";
+
+    #[Info(id: 0x1DFE0, name: 'MODIFIER LETTER SMALL DEZH DIGRAPH WITH CURL', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_DEZH_DIGRAPH_WITH_CURL = "\u{1DFE0}";
+
+    #[Info(id: 0x1DFE1, name: 'MODIFIER LETTER SMALL DEZH DIGRAPH WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_DEZH_DIGRAPH_WITH_RETROFLEX_HOOK = "\u{1DFE1}";
+
+    #[Info(id: 0x1DFE2, name: 'MODIFIER LETTER SMALL ESH WITH CURL', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_ESH_WITH_CURL = "\u{1DFE2}";
+
+    #[Info(id: 0x1DFE3, name: 'MODIFIER LETTER SMALL ESH WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_ESH_WITH_RETROFLEX_HOOK = "\u{1DFE3}";
+
+    #[Info(id: 0x1DFE4, name: 'MODIFIER LETTER SMALL TESH DIGRAPH WITH CURL', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TESH_DIGRAPH_WITH_CURL = "\u{1DFE4}";
+
+    #[Info(id: 0x1DFE5, name: 'MODIFIER LETTER SMALL TESH DIGRAPH WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TESH_DIGRAPH_WITH_RETROFLEX_HOOK = "\u{1DFE5}";
+
+    #[Info(id: 0x1DFE6, name: 'MODIFIER LETTER SMALL EZH WITH CURL', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_EZH_WITH_CURL = "\u{1DFE6}";
+
+    #[Info(id: 0x1DFE7, name: 'MODIFIER LETTER SMALL EZH WITH RETROFLEX HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_EZH_WITH_RETROFLEX_HOOK = "\u{1DFE7}";
+
+    #[Info(id: 0x1DFE8, name: 'MODIFIER LETTER SMALL CAPITAL D', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_CAPITAL_D = "\u{1DFE8}";
+
+    #[Info(id: 0x1DFE9, name: 'MODIFIER LETTER SMALL CAPITAL A', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_CAPITAL_A = "\u{1DFE9}";
+
+    #[Info(id: 0x1DFEA, name: 'MODIFIER LETTER SMALL CAPITAL E', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_CAPITAL_E = "\u{1DFEA}";
+
+    #[Info(id: 0x1DFEB, name: 'MODIFIER LETTER SMALL REVERSED R WITH FISHHOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_REVERSED_R_WITH_FISHHOOK = "\u{1DFEB}";
+
+    #[Info(id: 0x1DFEC, name: 'MODIFIER LETTER SMALL SQUAT REVERSED ESH', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_SQUAT_REVERSED_ESH = "\u{1DFEC}";
+
+    #[Info(id: 0x1DFED, name: 'MODIFIER LETTER SMALL TURNED H WITH FISHHOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_H_WITH_FISHHOOK = "\u{1DFED}";
+
+    #[Info(id: 0x1DFEE, name: 'MODIFIER LETTER SMALL TURNED H WITH FISHHOOK AND TAIL', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_TURNED_H_WITH_FISHHOOK_AND_TAIL = "\u{1DFEE}";
+
+    #[Info(id: 0x1DFEF, name: 'MODIFIER LETTER SMALL D WITH CURL', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_D_WITH_CURL = "\u{1DFEF}";
+
+    #[Info(id: 0x1DFF0, name: 'MODIFIER LETTER SMALL L WITH CURL', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_L_WITH_CURL = "\u{1DFF0}";
+
+    #[Info(id: 0x1DFF1, name: 'MODIFIER LETTER SMALL N WITH CURL', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_N_WITH_CURL = "\u{1DFF1}";
+
+    #[Info(id: 0x1DFF2, name: 'MODIFIER LETTER SMALL T WITH CURL', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_T_WITH_CURL = "\u{1DFF2}";
+
+    #[Info(id: 0x1DFF3, name: 'MODIFIER LETTER SMALL GREEK PSI', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_GREEK_PSI = "\u{1DFF3}";
+
+    #[Info(id: 0x1DFF4, name: 'MODIFIER LETTER SMALL GREEK OMEGA', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_GREEK_OMEGA = "\u{1DFF4}";
+
+    #[Info(id: 0x1DFF5, name: 'MODIFIER LETTER SMALL D WITH PALATAL HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_D_WITH_PALATAL_HOOK = "\u{1DFF5}";
+
+    #[Info(id: 0x1DFF6, name: 'MODIFIER LETTER SMALL H WITH PALATAL HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_H_WITH_PALATAL_HOOK = "\u{1DFF6}";
+
+    #[Info(id: 0x1DFF7, name: 'MODIFIER LETTER SMALL N WITH PALATAL HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_N_WITH_PALATAL_HOOK = "\u{1DFF7}";
+
+    #[Info(id: 0x1DFF8, name: 'MODIFIER LETTER SMALL S WITH PALATAL HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_S_WITH_PALATAL_HOOK = "\u{1DFF8}";
+
+    #[Info(id: 0x1DFF9, name: 'MODIFIER LETTER SMALL Z WITH PALATAL HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_Z_WITH_PALATAL_HOOK = "\u{1DFF9}";
+
+    #[Info(id: 0x1DFFA, name: 'MODIFIER LETTER SMALL C WITH HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_C_WITH_HOOK = "\u{1DFFA}";
+
+    #[Info(id: 0x1DFFB, name: 'MODIFIER LETTER SMALL K WITH HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_K_WITH_HOOK = "\u{1DFFB}";
+
+    #[Info(id: 0x1DFFC, name: 'MODIFIER LETTER SMALL P WITH HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_P_WITH_HOOK = "\u{1DFFC}";
+
+    #[Info(id: 0x1DFFD, name: 'MODIFIER LETTER SMALL Q WITH HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_Q_WITH_HOOK = "\u{1DFFD}";
+
+    #[Info(id: 0x1DFFE, name: 'MODIFIER LETTER SMALL T WITH HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_T_WITH_HOOK = "\u{1DFFE}";
+
+    #[Info(id: 0x1DFFF, name: 'MODIFIER LETTER SMALL T WITH HOOK AND RETROFLEX HOOK', category: Cat::Modifier_Letter)]
+    case MODIFIER_LETTER_SMALL_T_WITH_HOOK_AND_RETROFLEX_HOOK = "\u{1DFFF}";
 }

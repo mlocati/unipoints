@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Latin_ExtendedE: string
 {
     #[Info(id: 0xAB30, name: 'LATIN SMALL LETTER BARRED ALPHA', category: Cat::Lowercase_Letter)]
@@ -195,4 +195,10 @@ enum Latin_ExtendedE: string
 
     #[Info(id: 0xAB6B, name: 'MODIFIER LETTER RIGHT TACK', category: Cat::Modifier_Symbol)]
     case MODIFIER_LETTER_RIGHT_TACK = "\u{AB6B}";
+
+    #[Info(id: 0xAB6C, name: 'LATIN CAPITAL LETTER SCRIPT R', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_SCRIPT_R = "\u{AB6C}";
+
+    #[Info(id: 0xAB6D, name: 'LATIN CAPITAL LETTER SCRIPT R WITH RING', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_SCRIPT_R_WITH_RING = "\u{AB6D}";
 }

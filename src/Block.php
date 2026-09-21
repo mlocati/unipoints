@@ -12,7 +12,7 @@ namespace MLUnipoints;
 use MLUnipoints\Info\BlockInfo;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Block
 {
     // Blocks for plane 0 (Basic Multilingual Plane}
@@ -781,6 +781,9 @@ enum Block
     #[BlockInfo(fromCodepoint: 0x11DB0, toCodepoint: 0x11DEF, name: 'Tolong Siki', plane: Plane::Plane1)]
     case Tolong_Siki;
 
+    #[BlockInfo(fromCodepoint: 0x11DF0, toCodepoint: 0x11DFF, name: 'Bengali Supplement', plane: Plane::Plane1)]
+    case Bengali_Supplement;
+
     #[BlockInfo(fromCodepoint: 0x11EE0, toCodepoint: 0x11EFF, name: 'Makasar', plane: Plane::Plane1)]
     case Makasar;
 
@@ -801,6 +804,9 @@ enum Block
 
     #[BlockInfo(fromCodepoint: 0x12480, toCodepoint: 0x1254F, name: 'Early Dynastic Cuneiform', plane: Plane::Plane1)]
     case Early_Dynastic_Cuneiform;
+
+    #[BlockInfo(fromCodepoint: 0x12550, toCodepoint: 0x1268F, name: 'Archaic Cuneiform Numerals', plane: Plane::Plane1)]
+    case Archaic_Cuneiform_Numerals;
 
     #[BlockInfo(fromCodepoint: 0x12F90, toCodepoint: 0x12FFF, name: 'Cypro-Minoan', plane: Plane::Plane1)]
     case CyproMinoan;
@@ -865,6 +871,12 @@ enum Block
     #[BlockInfo(fromCodepoint: 0x18D80, toCodepoint: 0x18DFF, name: 'Tangut Components Supplement', plane: Plane::Plane1)]
     case Tangut_Components_Supplement;
 
+    #[BlockInfo(fromCodepoint: 0x18E00, toCodepoint: 0x1919F, name: 'Jurchen', plane: Plane::Plane1)]
+    case Jurchen;
+
+    #[BlockInfo(fromCodepoint: 0x191A0, toCodepoint: 0x191DF, name: 'Jurchen Radicals', plane: Plane::Plane1)]
+    case Jurchen_Radicals;
+
     #[BlockInfo(fromCodepoint: 0x1AFF0, toCodepoint: 0x1AFFF, name: 'Kana Extended-B', plane: Plane::Plane1)]
     case Kana_ExtendedB;
 
@@ -904,6 +916,9 @@ enum Block
     #[BlockInfo(fromCodepoint: 0x1D200, toCodepoint: 0x1D24F, name: 'Ancient Greek Musical Notation', plane: Plane::Plane1)]
     case Ancient_Greek_Musical_Notation;
 
+    #[BlockInfo(fromCodepoint: 0x1D250, toCodepoint: 0x1D28F, name: 'Musical Symbols Supplement', plane: Plane::Plane1)]
+    case Musical_Symbols_Supplement;
+
     #[BlockInfo(fromCodepoint: 0x1D2C0, toCodepoint: 0x1D2DF, name: 'Kaktovik Numerals', plane: Plane::Plane1)]
     case Kaktovik_Numerals;
 
@@ -921,6 +936,9 @@ enum Block
 
     #[BlockInfo(fromCodepoint: 0x1D800, toCodepoint: 0x1DAAF, name: 'Sutton SignWriting', plane: Plane::Plane1)]
     case Sutton_SignWriting;
+
+    #[BlockInfo(fromCodepoint: 0x1DB00, toCodepoint: 0x1DBFF, name: 'Miscellaneous Symbols and Arrows Extended', plane: Plane::Plane1)]
+    case Miscellaneous_Symbols_and_Arrows_Extended;
 
     #[BlockInfo(fromCodepoint: 0x1DF00, toCodepoint: 0x1DFFF, name: 'Latin Extended-G', plane: Plane::Plane1)]
     case Latin_ExtendedG;
@@ -1048,6 +1066,9 @@ enum Block
 
     #[BlockInfo(fromCodepoint: 0x323B0, toCodepoint: 0x3347F, name: 'CJK Unified Ideographs Extension J', plane: Plane::Plane3)]
     case CJK_Unified_Ideographs_Extension_J;
+
+    #[BlockInfo(fromCodepoint: 0x3D000, toCodepoint: 0x3FC3F, name: 'Seal', plane: Plane::Plane3)]
+    case Seal;
 
     // Blocks for plane 14 (Supplementary Special-purpose Plane}
 

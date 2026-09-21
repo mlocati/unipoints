@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Alchemical_Symbols: string
 {
     #[Info(id: 0x1F700, name: 'ALCHEMICAL SYMBOL FOR QUINTESSENCE', category: Cat::Other_Symbol)]

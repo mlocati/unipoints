@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Latin_ExtendedD: string
 {
     #[Info(id: 0xA720, name: 'MODIFIER LETTER STRESS AND HIGH TONE', category: Cat::Modifier_Symbol)]
@@ -286,7 +286,7 @@ enum Latin_ExtendedD: string
     #[Info(id: 0xA779, name: 'LATIN CAPITAL LETTER INSULAR D', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_INSULAR_D = "\u{A779}";
 
-    #[Info(id: 0xA77A, name: 'LATIN SMALL LETTER INSULAR D', category: Cat::Lowercase_Letter)]
+    #[Info(id: 0xA77A, name: 'LATIN SMALL LETTER INSULAR D', category: Cat::Lowercase_Letter, informativeAliases: ['d rotunda'])]
     case LATIN_SMALL_LETTER_INSULAR_D = "\u{A77A}";
 
     #[Info(id: 0xA77B, name: 'LATIN CAPITAL LETTER INSULAR F', category: Cat::Uppercase_Letter)]
@@ -582,6 +582,12 @@ enum Latin_ExtendedD: string
 
     #[Info(id: 0xA7DC, name: 'LATIN CAPITAL LETTER LAMBDA WITH STROKE', category: Cat::Uppercase_Letter)]
     case LATIN_CAPITAL_LETTER_LAMBDA_WITH_STROKE = "\u{A7DC}";
+
+    #[Info(id: 0xA7DD, name: 'LATIN CAPITAL LETTER CLOSED OMEGA', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_CLOSED_OMEGA = "\u{A7DD}";
+
+    #[Info(id: 0xA7E2, name: 'LATIN CAPITAL LETTER R WITH LONG LEG', category: Cat::Uppercase_Letter)]
+    case LATIN_CAPITAL_LETTER_R_WITH_LONG_LEG = "\u{A7E2}";
 
     #[Info(id: 0xA7F1, name: 'MODIFIER LETTER CAPITAL S', category: Cat::Modifier_Letter)]
     case MODIFIER_LETTER_CAPITAL_S = "\u{A7F1}";

@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Arrows: string
 {
     #[Info(id: 0x2190, name: 'LEFTWARDS ARROW', category: Cat::Math_Symbol, unicode1Name: 'LEFT ARROW')]
@@ -277,10 +277,10 @@ enum Arrows: string
     #[Info(id: 0x21E6, name: 'LEFTWARDS WHITE ARROW', category: Cat::Other_Symbol, unicode1Name: 'WHITE LEFT ARROW')]
     case LEFTWARDS_WHITE_ARROW = "\u{21E6}";
 
-    #[Info(id: 0x21E7, name: 'UPWARDS WHITE ARROW', category: Cat::Other_Symbol, unicode1Name: 'WHITE UP ARROW', informativeAliases: ['shift', 'level 2 select (ISO 9995-7)'])]
+    #[Info(id: 0x21E7, name: 'UPWARDS WHITE ARROW', category: Cat::Other_Symbol, unicode1Name: 'WHITE UP ARROW', informativeAliases: ['shift', 'level 2 select (ISO/IEC 9995-7)'])]
     case UPWARDS_WHITE_ARROW = "\u{21E7}";
 
-    #[Info(id: 0x21E8, name: 'RIGHTWARDS WHITE ARROW', category: Cat::Other_Symbol, unicode1Name: 'WHITE RIGHT ARROW', informativeAliases: ['group select (ISO 9995-7)'])]
+    #[Info(id: 0x21E8, name: 'RIGHTWARDS WHITE ARROW', category: Cat::Other_Symbol, unicode1Name: 'WHITE RIGHT ARROW', informativeAliases: ['group select (ISO/IEC 9995-7)'])]
     case RIGHTWARDS_WHITE_ARROW = "\u{21E8}";
 
     #[Info(id: 0x21E9, name: 'DOWNWARDS WHITE ARROW', category: Cat::Other_Symbol, unicode1Name: 'WHITE DOWN ARROW')]

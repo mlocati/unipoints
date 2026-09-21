@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Kannada: string
 {
     #[Info(id: 0xC80, name: 'KANNADA SIGN SPACING CANDRABINDU', category: Cat::Other_Letter)]

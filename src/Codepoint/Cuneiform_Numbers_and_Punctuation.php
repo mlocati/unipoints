@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Cuneiform_Numbers_and_Punctuation: string
 {
     #[Info(id: 0x12400, name: 'CUNEIFORM NUMERIC SIGN TWO ASH', category: Cat::Letter_Number, informativeAliases: ['2 iku'])]
@@ -349,6 +349,9 @@ enum Cuneiform_Numbers_and_Punctuation: string
     #[Info(id: 0x1246E, name: 'CUNEIFORM NUMERIC SIGN NINE U VARIANT FORM', category: Cat::Letter_Number)]
     case CUNEIFORM_NUMERIC_SIGN_NINE_U_VARIANT_FORM = "\u{1246E}";
 
+    #[Info(id: 0x1246F, name: 'CUNEIFORM NUMERIC SIGN SEVEN ASH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_SEVEN_ASH_TENU = "\u{1246F}";
+
     #[Info(id: 0x12470, name: 'CUNEIFORM PUNCTUATION SIGN OLD ASSYRIAN WORD DIVIDER', category: Cat::Other_Punctuation)]
     case CUNEIFORM_PUNCTUATION_SIGN_OLD_ASSYRIAN_WORD_DIVIDER = "\u{12470}";
 
@@ -363,4 +366,37 @@ enum Cuneiform_Numbers_and_Punctuation: string
 
     #[Info(id: 0x12474, name: 'CUNEIFORM PUNCTUATION SIGN DIAGONAL QUADCOLON', category: Cat::Other_Punctuation)]
     case CUNEIFORM_PUNCTUATION_SIGN_DIAGONAL_QUADCOLON = "\u{12474}";
+
+    #[Info(id: 0x12475, name: 'CUNEIFORM NUMERIC SIGN EIGHT ASH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_EIGHT_ASH_TENU = "\u{12475}";
+
+    #[Info(id: 0x12476, name: 'CUNEIFORM NUMERIC SIGN NINE ASH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_NINE_ASH_TENU = "\u{12476}";
+
+    #[Info(id: 0x12477, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES ONE DISH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_ONE_DISH_TENU = "\u{12477}";
+
+    #[Info(id: 0x12478, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES TWO DISH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_TWO_DISH_TENU = "\u{12478}";
+
+    #[Info(id: 0x12479, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES THREE DISH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_THREE_DISH_TENU = "\u{12479}";
+
+    #[Info(id: 0x1247A, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES FOUR DISH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_FOUR_DISH_TENU = "\u{1247A}";
+
+    #[Info(id: 0x1247B, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES FIVE DISH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_FIVE_DISH_TENU = "\u{1247B}";
+
+    #[Info(id: 0x1247C, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES SIX DISH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_SIX_DISH_TENU = "\u{1247C}";
+
+    #[Info(id: 0x1247D, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES SEVEN DISH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_SEVEN_DISH_TENU = "\u{1247D}";
+
+    #[Info(id: 0x1247E, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES EIGHT DISH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_EIGHT_DISH_TENU = "\u{1247E}";
+
+    #[Info(id: 0x1247F, name: 'CUNEIFORM NUMERIC SIGN ASH TIMES NINE DISH TENU', category: Cat::Letter_Number)]
+    case CUNEIFORM_NUMERIC_SIGN_ASH_TIMES_NINE_DISH_TENU = "\u{1247F}";
 }

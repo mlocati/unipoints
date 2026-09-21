@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Beria_Erfe: string
 {
     #[Info(id: 0x16EA0, name: 'BERIA ERFE CAPITAL LETTER ARKAB', category: Cat::Uppercase_Letter)]

@@ -13,12 +13,12 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum CJK_Unified_Ideographs_Extension_D: string
 {
     #[Info(id: 0x2B740, name: 'CJK Ideograph Extension D, First', category: Cat::Other_Letter)]
     case CJK_Ideograph_Extension_D__First = "\u{2B740}";
 
-    #[Info(id: 0x2B81D, name: 'CJK Ideograph Extension D, Last', category: Cat::Other_Letter)]
-    case CJK_Ideograph_Extension_D__Last = "\u{2B81D}";
+    #[Info(id: 0x2B81E, name: 'CJK Ideograph Extension D, Last', category: Cat::Other_Letter)]
+    case CJK_Ideograph_Extension_D__Last = "\u{2B81E}";
 }

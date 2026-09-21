@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Small_Kana_Extension: string
 {
     #[Info(id: 0x1B132, name: 'HIRAGANA LETTER SMALL KO', category: Cat::Other_Letter)]
@@ -42,4 +42,7 @@ enum Small_Kana_Extension: string
 
     #[Info(id: 0x1B167, name: 'KATAKANA LETTER SMALL N', category: Cat::Other_Letter)]
     case KATAKANA_LETTER_SMALL_N = "\u{1B167}";
+
+    #[Info(id: 0x1B168, name: 'KATAKANA LETTER SMALL ARCHAIC YE', category: Cat::Other_Letter)]
+    case KATAKANA_LETTER_SMALL_ARCHAIC_YE = "\u{1B168}";
 }

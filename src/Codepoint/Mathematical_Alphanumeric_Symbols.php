@@ -13,7 +13,7 @@ use MLUnipoints\Category as Cat;
 use MLUnipoints\Info\CodepointInfo as Info;
 use MLUnipoints\Info\UnicodeInfo;
 
-#[UnicodeInfo(unicodeVersion: '17.0.0')]
+#[UnicodeInfo(unicodeVersion: '18.0.0')]
 enum Mathematical_Alphanumeric_Symbols: string
 {
     #[Info(id: 0x1D400, name: 'MATHEMATICAL BOLD CAPITAL A', category: Cat::Uppercase_Letter)]
@@ -1977,6 +1977,9 @@ enum Mathematical_Alphanumeric_Symbols: string
 
     #[Info(id: 0x1D6A5, name: 'MATHEMATICAL ITALIC SMALL DOTLESS J', category: Cat::Lowercase_Letter, informativeAliases: ['\\jmath'])]
     case MATHEMATICAL_ITALIC_SMALL_DOTLESS_J = "\u{1D6A5}";
+
+    #[Info(id: 0x1D6A6, name: 'MATHEMATICAL ITALIC SMALL LIGATURE LONG S WITH DESCENDER S', category: Cat::Lowercase_Letter, informativeAliases: ['sursolidum'])]
+    case MATHEMATICAL_ITALIC_SMALL_LIGATURE_LONG_S_WITH_DESCENDER_S = "\u{1D6A6}";
 
     #[Info(id: 0x1D6A8, name: 'MATHEMATICAL BOLD CAPITAL ALPHA', category: Cat::Uppercase_Letter)]
     case MATHEMATICAL_BOLD_CAPITAL_ALPHA = "\u{1D6A8}";
